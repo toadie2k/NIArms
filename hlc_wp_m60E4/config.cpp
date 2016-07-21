@@ -457,7 +457,7 @@ class close: FullAuto
 		};
 
 			drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
-	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
+	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
     };
 class hlc_lmg_M60E4 : hlc_M60e4_base {
 	maxZeroing = 1100;
@@ -485,7 +485,7 @@ class hlc_lmg_M60E4 : hlc_M60e4_base {
 	reloadaction = "HLC_GestureReloadM60";
 	descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
 	drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
-	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
+	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
     picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
 	UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
 	displayName = "M60E4";
@@ -616,7 +616,7 @@ class hlc_lmg_m60: hlc_M60e4_base
 	descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
 	drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
 		UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
-	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
+	reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
 	discretedistance[] = {300,400,500,600,700,800,900,1000,1100};
 	cameradir = "aim_point";
 	discreteDistanceCameraPoint[]={"eye3","eye4","eye5","eye6","eye7","eye8","eye9","eye10","eye11"}; /// the angle of gun changes with zeroing

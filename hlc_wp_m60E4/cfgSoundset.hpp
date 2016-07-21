@@ -4,7 +4,7 @@ class CfgSoundSets
 	class M60e4_Shot_SoundSet
 	{
 		soundShaders[] = { "M60e4_closeShot_SoundShader", "M60e4_midShot_SoundShader", "M60e4_distShot_SoundShader", "M60e4_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare3Curve";
 		stereoStartDistance = 8;
 		stereoRadius = 10;
