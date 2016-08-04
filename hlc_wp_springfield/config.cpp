@@ -419,11 +419,11 @@ class CfgRecoils
 };
 class CfgWeapons {
 	class Rifle;
-	class WeaponSlotsInfo;
 	class optic_Hamr;
 	class LMG_Zafir_F;
 	class Rifle_Base_F : Rifle
 	{
+        class ItemInfo;
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};

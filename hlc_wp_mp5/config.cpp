@@ -522,7 +522,6 @@ class InventoryFlashLightItem_Base_F;
 class InventoryOpticsItem_Base_F;
 class GrenadeLauncher;
     class Rifle;
-    class WeaponSlotsInfo;
 	class optic_Hamr;
 	class LMG_Zafir_F;
 class ItemCore;
@@ -599,6 +598,7 @@ class hlc_muzzle_Agendasix10mm : muzzle_snds_h
 };
     class Rifle_Base_F: Rifle 
     {
+        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };

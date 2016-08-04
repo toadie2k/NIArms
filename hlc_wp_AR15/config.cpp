@@ -52,7 +52,6 @@ class InventoryFlashLightItem_Base_F;
 class InventoryOpticsItem_Base_F;
 class GrenadeLauncher;
 class UGL_F;
-class ItemInfo;
 class asdg_FrontSideRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
@@ -653,10 +652,10 @@ class CfgMagazines {
 
 class CfgWeapons {
     class Rifle;
-    class WeaponSlotsInfo;
     class optic_Hamr;
     class LMG_Zafir_F;
     class Rifle_Base_F: Rifle {
+        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
@@ -786,7 +785,7 @@ class CfgWeapons {
                 soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 begin1[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
                 begin2[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
                 soundBegin[]={begin1,0.5, begin2,0.5};
@@ -845,7 +844,7 @@ class CfgWeapons {
                 soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 begin1[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
                 begin2[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
                 soundBegin[]={begin1,0.5, begin2,0.5};
@@ -996,7 +995,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
@@ -1060,7 +1059,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
@@ -1209,7 +1208,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
@@ -1273,7 +1272,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
@@ -1381,7 +1380,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
@@ -1445,7 +1444,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
@@ -1560,7 +1559,7 @@ class CfgWeapons {
                 };
             };
 
-            class SilencedSound : BaseSoundModeType { { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
                 //NEW THING PAY ATTENTION
                 begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};

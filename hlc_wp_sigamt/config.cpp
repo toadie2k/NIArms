@@ -665,7 +665,6 @@ class hlc_24Rnd_75x55_T_stgw : hlc_24Rnd_75x55_ap_stgw {
 
 class CfgWeapons {
     class Rifle;
-    class WeaponSlotsInfo;
 	    class Rifle_Base_F: Rifle 
     {
         class WeaponSlotsInfo;
