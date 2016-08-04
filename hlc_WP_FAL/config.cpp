@@ -783,7 +783,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -855,7 +855,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1006,7 +1006,7 @@ author = "Pete, Enron, Toadie";
 					{
 						class TailInterior
 						{
-							sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+							sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 							frequency = 1;
 							volume = "interior";
 						};
@@ -1079,7 +1079,7 @@ author = "Pete, Enron, Toadie";
 					{
 						class TailInterior
 						{
-							sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+							sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 							frequency = 1;
 							volume = "interior";
 						};
@@ -1234,7 +1234,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1346,7 +1346,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1419,7 +1419,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1514,7 +1514,7 @@ class hlc_rifle_FAL5061Rail : hlc_fal_base
 			{
 				class TailInterior
 				{
-					sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+					sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 					frequency = 1;
 					volume = "interior";
 				};
@@ -1587,7 +1587,7 @@ class hlc_rifle_FAL5061Rail : hlc_fal_base
 			{
 				class TailInterior
 				{
-					sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
+					sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
 					frequency = 1;
 					volume = "interior";
 				};
@@ -1689,7 +1689,7 @@ author = "Bohemia Interactive, Arby25, Toadie";
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1762,7 +1762,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -1865,7 +1865,7 @@ class WeaponSlotsInfo : WeaponSlotsInfo
 			{
 				class TailInterior
 				{
-					sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+					sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 					frequency = 1;
 					volume = "interior";
 				};
@@ -1938,7 +1938,7 @@ class WeaponSlotsInfo : WeaponSlotsInfo
 			{
 				class TailInterior
 				{
-					sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+					sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 					frequency = 1;
 					volume = "interior";
 				};
@@ -2044,7 +2044,7 @@ scope = public;
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -2147,7 +2147,7 @@ scope = public;
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -2252,7 +2252,7 @@ author = "Pete, Enron, Acid Snake, Toadie, Clifton Vlodhammer";
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -2326,7 +2326,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -2429,7 +2429,7 @@ author = "Pete, Enron, Toadie, Clifton Vlodhammer";
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};
@@ -2503,7 +2503,7 @@ sounds[] = {"StandardSound","SilencedSound"};
 				{
 					class TailInterior
 					{
-						sound[] = { "\hlc_wp_aug\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
+						sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
 						frequency = 1;
 						volume = "interior";
 					};

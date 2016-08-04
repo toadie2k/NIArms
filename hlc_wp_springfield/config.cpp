@@ -514,11 +514,11 @@ class CfgWeapons {
 					};
 				};
 			};
-			begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-			begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
+			begin1[] = { "\hlc_wp_springfield\snd\AWC_Fire", 1, 1, 200 };
+			begin2[] = { "\hlc_wp_springfield\snd\AWC_Fire", 1, 1, 200 };
 			soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-			closure1[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-			closure2[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
+			closure1[] = { "\hlc_wp_springfield\snd\AWC_first", 0.7, 1, 10 };
+			closure2[] = { "\hlc_wp_springfield\snd\AWC_first", 0.7, 1, 10 };
 			soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
 			weaponSoundEffect = "DefaultRifle";
 			reloadTime = 1.637;
