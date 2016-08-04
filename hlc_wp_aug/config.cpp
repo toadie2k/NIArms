@@ -1838,11 +1838,9 @@ class CfgMagazines
 };
 class CfgWeapons {
     class Rifle;
-    class WeaponSlotsInfo;
 	class optic_Hamr;
 	class LMG_Zafir_F;
 	class ItemCore;
-	class ItemInfo;
 	class InventoryItem_Base_F;
 	class InventoryMuzzleItem_Base_F;
 	class InventoryFlashLightItem_Base_F;
@@ -1851,6 +1849,7 @@ class CfgWeapons {
 	class UGL_F;
     class Rifle_Base_F: Rifle 
     {
+        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
@@ -2134,7 +2133,7 @@ class CfgWeapons {
 		picture = "\hlc_wp_aug\tex\ui\gear_barrel_9mm_ca.paa";
 		model = "hlc_wp_aug\mesh\pickup\9mm_kit.p3d";
 		scope = 2;
-		class ItemInfo : ItemInfo
+		class ItemInfo
 		{
 			mass = 20;
 			type = 201;

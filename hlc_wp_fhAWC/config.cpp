@@ -707,7 +707,6 @@ class CfgRecoils
 
 class CfgWeapons {
     class Rifle;
-    class WeaponSlotsInfo;
     class Rifle_Base_F: Rifle  {
         class WeaponSlotsInfo;
         class GunParticles;

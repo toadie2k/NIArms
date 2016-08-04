@@ -603,7 +603,6 @@ class CfgMagazines {
 
 class CfgWeapons {
     class Rifle;
-    class WeaponSlotsInfo;
     class optic_Hamr;
     class LMG_Zafir_F;
     class InventoryItem_Base_F;
