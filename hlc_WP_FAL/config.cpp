@@ -61,7 +61,8 @@ class CfgVehicles
 {
 	class NATO_Box_Base;
 	class HLC_FAL_ammobox: NATO_Box_Base
-	{		scope = 2;
+	{		
+        scope = 2;
 		vehicleClass = "Ammo";
 		displayName = "HLC FAL Supply Box";
 		model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
