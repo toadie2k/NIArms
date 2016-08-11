@@ -1,0 +1,114 @@
+////////////////////////////////////////////////////////////////////
+//ExtractSkeleton: Produced from mikero's Dos Tools Dll version 3.97
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+class cfgSkeletons
+{
+	class Default
+	{
+		isDiscrete = 1;
+		skeletonInherit = "";
+		skeletonBones[] = {};
+	};
+	class nix_rk62 : default
+	{
+		SkeletonBones[]=
+		{
+			"magazine",	"",
+			"bolt",	""
+		};
+	};
+};
+class CfgModels
+{
+	class Default
+	{
+		sections[] = {};
+		sectionsInherit="";
+		skeletonName = "";
+	};
+	class nix_rk62:Default
+	{
+		skeletonName="rk62";
+		sections[]=
+		{
+			"zasleh"
+		};
+/*potential axis=
+usti hlavne
+konec hlavne
+nabojnicestart
+nabojniceend
+bolt_axis
+trigger_axis
+eye
+\ca\weapons\m16_proxy.001
+magazine
+receiver
+acogcompact
+bullet01
+bullet02
+follower
+charging_handle
+latch
+trigger
+bolt
+handguard_m16a4
+zasleh
+zbran
+*/
+		class Animations
+		{
+			class nix_rk62_bolt_action
+			{
+				type="translationX";
+				source="reload";
+				memory = 1;//by default
+				animPeriod = 0;//Unknown
+				selection="bolt";
+				axis="";//"bolt_axis";//possibly
+				minValue = 0.0;//rad 0.0
+				maxValue = 0.1;//rad 5.729578
+				minPhase = 0.0;//rad 0.0
+				maxPhase = 0.1;//rad 5.729578
+				offset0 = 0.0;
+				offset1 = 0.0;
+//				AxisPos[] = {0.0,0.0,7.00649e-045/*#DEN*/};
+//				AxisDir[] = {4.4153316e-005,2.988555e-009,1.2997729e+019};
+//				angle = 7.492927e+031;
+//				axisOffset = 2.9388199e+029
+			};
+			class nix_rk62_bolt_empty
+			{
+				type="translationX";
+				source="isEmpty";
+				memory = 1;//by default
+				animPeriod = 0;//Unknown
+				selection="bolt";
+				axis="";//"bolt_axis";//possibly
+				minValue = 0.0;//rad 0.0
+				maxValue = 0.1;//rad 5.729578
+				minPhase = 0.0;//rad 0.0
+				maxPhase = 0.1;//rad 5.729578
+				offset0 = 0.0;
+				offset1 = 0.0;
+//				AxisPos[] = {0.0,0.0,1.26117e-044/*#DEN*/};
+//				AxisDir[] = {4.4153316e-005,2.988555e-009,1.2997729e+019};
+//				angle = 2.6676363e+020;
+//				axisOffset = 7.0366808e+022
+			};
+			class nix_rk62_magazine_hide
+			{
+				type="hide";
+				source="reloadMagazine";
+				selection="magazine";
+				minValue = 0.2;//rad 11.459156
+				maxValue = 0.25;//rad 14.323945
+				minPhase = 0.2;//rad 11.459156
+				maxPhase = 0.25;//rad 14.323945
+				hideValue = 0.1;
+			};
+		};//Animations
+	};//modelclass
+};//CfgModels

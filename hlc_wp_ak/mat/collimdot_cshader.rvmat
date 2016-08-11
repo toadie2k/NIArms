@@ -1,0 +1,23 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 4.06
+//Sun Apr 12 20:33:30 2015
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class weapons_f : acc\data\collimdot_cshader.rvmat{
+ambient[] = {50,50,50,1};
+diffuse[] = {0,0,0,1};
+forcedDiffuse[] = {0,0,0,1};
+emmisive[] = {10,10,10,0};
+specular[] = {0,0,0,1};
+specularPower = 8;
+PixelShaderID = "Collimator";
+VertexShaderID = "Basic";
+RenderFlags[] = {"NoReceiveShadow","AddBlend","NoZwrite"};
+class Stage0
+{
+	uvSource = "texCollimator";
+};
+//};
