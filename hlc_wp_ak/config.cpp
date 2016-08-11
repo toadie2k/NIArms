@@ -1279,7 +1279,6 @@ class CfgWeapons {
     class GrenadeLauncher;
     class UGL_F;
     class Rifle;
-    class WeaponSlotsInfo;
     class optic_Hamr;
     class LMG_Zafir_F;
     class Rifle_Base_F: Rifle  {
@@ -1391,7 +1390,6 @@ class CfgWeapons {
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS4\pbs4";
     };
-    class ItemInfo;
     class muzzle_snds_M;
     class hlc_muzzle_762SUP_AK : muzzle_snds_M {
         dlc = "Niarms_AK";
@@ -4880,7 +4878,7 @@ class CfgWeapons {
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Toadie";
         scope = public;
-        magazines[] = {"hlc_30Rnd_545x39_B_AK", "hlc_30Rnd_545x39_T_AK", "hlc_30Rnd_545x39_EP_AK", "hlc_45Rnd_545x39_t_rpk", "hlc_30Rnd_545x39_S_AK", "hlc_60Rnd_545x39_t_rpk", "hlc_60Rnd_545x39_t_rpk};
+        magazines[] = {"hlc_30Rnd_545x39_B_AK", "hlc_30Rnd_545x39_T_AK", "hlc_30Rnd_545x39_EP_AK", "hlc_45Rnd_545x39_t_rpk", "hlc_30Rnd_545x39_S_AK", "hlc_60Rnd_545x39_t_rpk", "hlc_60Rnd_545x39_t_rpk"};
         displayName = "Izhmash AK74(MTK)";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_mtk.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak74mtk_ca";

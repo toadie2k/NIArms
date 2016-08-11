@@ -932,8 +932,7 @@ class CfgMagazines {
 class CfgWeapons {
     class UGL_F;
     class Rifle;
-    class WeaponSlotsInfo;
-        class Rifle_Base_F: Rifle  {
+    class Rifle_Base_F: Rifle  {
         class WeaponSlotsInfo;
         class GunParticles;
     };
