@@ -3658,7 +3658,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =96;
             class CowsSlot : asdg_OpticSideMount {};
-            class MuzzleSlot {};
+            class MuzzleSlot: asdg_MuzzleSlot_762R {};
         };
     };
     class hlc_rifle_rpk74n : hlc_ak_base {
