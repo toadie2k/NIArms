@@ -49,6 +49,18 @@ class asdg_OpticSideMount : asdg_OpticRail {
         hlc_optic_goshawk = 1;
     };
 };
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_545R: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_545SUP_AK = 1;
+    };
+};
+class asdg_MuzzleSlot_762R: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_762SUP_AK = 1;
+    };
+};
+
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -1267,25 +1279,14 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class SlotInfo;
-    class CowsSlot;
-    class PointerSlot;
 
-    class ItemCore;
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
     class InventoryOpticsItem_Base_F;
-    class GrenadeLauncher;
     class UGL_F;
     class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
     class Rifle_Base_F: Rifle  {
         class WeaponSlotsInfo;
         class GunParticles;
     };
-    //class hlc_ak_base;
     class optic_dms;
 
     class HLC_Optic_PSO1 : optic_dms {
@@ -1474,14 +1475,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =33;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_545SUP_AK"};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[]= {};
-            };
-            class PointerSlot: PointerSlot{compatibleItems[] = {};};
+            class MuzzleSlot : asdg_MuzzleSlot_545R {};
+            class CowsSlot {};
+            class PointerSlot {};
         };
         opticszoommin = 0.25;
         opticsZoomMax = 1.1;
@@ -1825,7 +1821,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61.4;
-            class asdg_OpticRail_AK74 : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {};
         };
         class ItemInfo {
             priority = 1;
@@ -2251,13 +2247,8 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_545SUP_AK" };
-            };
-            class asdg_OpticRail_AK12 : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_AK12 : asdg_FrontSideRail {};
-            class CowsSlot {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
     };
     class hlc_rifle_ak12GL : hlc_rifle_ak12 {
@@ -2474,12 +2465,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_545SUP_AK" };
-            };
-            class asdg_OpticRail_AK12 : asdg_OpticRail1913 {};
-
         };
     };
     class hlc_rifle_aku12 : hlc_rifle_ak12 {
@@ -2727,12 +2712,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_545SUP_AK"};
-            };
-            class asdg_OpticRail_AK12: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_AK12: asdg_FrontSideRail {};
         };
     };
     class hlc_rifle_RPK12 : hlc_rifle_ak12 {
@@ -2982,13 +2961,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 98;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_545SUP_AK"};
-            };
-            class asdg_OpticRail_AK12: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_AK12: asdg_FrontSideRail {};
-            class CowsSlot {};
         };
     };
     class hlc_rifle_aks74u : hlc_ak_base {
@@ -3171,7 +3143,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 54;
-            class asdg_OpticRail_AKs74u : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {};
         };
         class ItemInfo {
             priority = 1;
@@ -3344,11 +3316,8 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 74.5;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_762SUP_AK"};
-            };
-            class asdg_OpticRail_AK47 : asdg_OpticSideMount {};
+            class MuzzleSlot: asdg_MuzzleSlot_762R {};
+            class CowsSlot : asdg_OpticSideMount {};
         };
     };
     class hlc_rifle_akm : hlc_rifle_ak47 {
@@ -3469,10 +3438,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 62;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_762SUP_AK"};
-            };
         };
     };
     class hlc_rifle_akmgl : hlc_rifle_akm {
@@ -3510,10 +3475,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 92;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_762SUP_AK"};
-            };
         };
     };
     class hlc_rifle_rpk : hlc_ak_base {
@@ -3696,7 +3657,8 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =96;
-            class asdg_OpticRail_RPK : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {};
+            class MuzzleSlot {};
         };
     };
     class hlc_rifle_rpk74n : hlc_ak_base {
@@ -3736,7 +3698,7 @@ class CfgWeapons {
         modes[] = { "FullAuto", "Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2", "medium", "close" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 96;
-            class asdg_OpticRail_RPK : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {};
         };
         class FullAuto : Mode_FullAuto {
             reloadTime = 0.0923;
@@ -3903,7 +3865,7 @@ class CfgWeapons {
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass=85.4;
-            };
+        };
         class hlc_GP30_AKS74 : UGL_F {
             cameradir = "GL_Look";
             discreteDistance[] = {50,100,150,200,250,300,350,400};
@@ -4166,14 +4128,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
-            class CowsSlot : CowsSlot {
-                /*compatibleItems[]= {
-                    "hlc_optic_pso1",
-                    "hlc_optic_goshawk",
-                    "hlc_optic_kobra",
-                    "hlc_optic_1p29"
-                };*/
-            };
         };
         class ItemInfo {
             priority = 1;
@@ -4262,11 +4216,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =70;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class PointerSlot: PointerSlot{compatibleItems[] = {};};
+            class MuzzleSlot {};
         };
     };
 
@@ -4302,10 +4252,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 74.5;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_762SUP_AK" };
-            };
+            class MuzzleSlot : asdg_MuzzleSlot_762R {};
         };
         DescriptionShort = "Assault rifle<br/>Caliber: 7.62mm";
         discreteDistance[] = { 150, 100, 200, 300, 400, 500, 600};
@@ -4648,12 +4595,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 56;
-            class asdg_OpticRail_SLR107 : asdg_OpticSideMount {};
-            class asdg_FrontSideRail_SLR107 : asdg_FrontSideRail {};
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_762SUP_AK" };
-            };
+            class CowsSlot : asdg_OpticSideMount {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_762R {};
         };
         class ItemInfo {
             priority = 1;
@@ -4858,8 +4802,9 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 56;
-            class asdg_OpticRail_SLR107R : asdg_OpticRail1913_short {};
-            class asdg_FrontSideRail_SLR107R : asdg_FrontSideRail {};
+            class CowsSlot : asdg_OpticRail1913_short {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_762R {};
         };
         class ItemInfo {
             priority = 1;
@@ -5062,7 +5007,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61.4;
-            class asdg_OpticRail_AK74MTK : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         class ItemInfo {
             priority = 1;
@@ -5467,7 +5412,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61.4;
-            class asdg_OpticRail_AK74MMTK : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         class ItemInfo {
             priority = 1;
@@ -5902,7 +5847,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 54;
-            class asdg_OpticRail_AKS74UMTK : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         class ItemInfo {
             priority = 1;
@@ -6069,10 +6014,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 62;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_762SUP_AK" };
-            };
         };
     };
     class hlc_rifle_aks74_MTK : hlc_rifle_ak74m_MTK {
