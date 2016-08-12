@@ -50,9 +50,7 @@ class CfgPatches {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
+
 class CfgSounds {
     class hlc_barrelswapaug {
         name = "hlc_barrelswapaug";
@@ -66,8 +64,17 @@ class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
 class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762;
+class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_AUG = 1;
+    };
+};
+class niarms_MuzzleSlot_augpara: asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_a6aug = 1;
+    };
+};
+
 class CfgFunctions {
     class HLC {
         class common {
@@ -1521,21 +1528,33 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
+
     class ItemCore;
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class GrenadeLauncher;
+
+//muzzles
+
+    class muzzle_snds_H;
+    class hlc_muzzle_snds_AUG : muzzle_snds_H {
+        author = "Bohemia Interactive,Toadie";
+        displayName = "KAC M4-2000";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_wp_aug\mesh\m42000\M42000";
+    };
+    class hlc_muzzle_snds_a6AUG : muzzle_snds_H {
+        dlc = "Niarms_AUG";
+        author = "Toadie";
+        displayName = "AWC Agenda Six (AUG-Thread)";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_wp_aug\mesh\agendasix\a6";
+    };
+
+    class Rifle;
     class UGL_F;
     class Rifle_Base_F : Rifle {
-        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
+
     class hlc_aug_base : Rifle_Base_F {
         dlc = "Niarms_AUG";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1562,7 +1581,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 33;
-            class PointerSlot : PointerSlot{ compatibleItems[] = {}; };
+            class PointerSlot {};
         };
         opticsZoomMin = 0.375;
         opticsZoomMax = 1.1;
@@ -1787,22 +1806,7 @@ class CfgWeapons {
             type = 201;
         };
     };
-    class muzzle_snds_H : ItemCore {
-        class ItemInfo;
-    };
-    class hlc_muzzle_snds_AUG : muzzle_snds_H {
-        author = "Bohemia Interactive,Toadie";
-        displayName = "KAC M4-2000";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_wp_aug\mesh\m42000\M42000";
-    };
-    class hlc_muzzle_snds_a6AUG : muzzle_snds_H {
-        dlc = "Niarms_AUG";
-        author = "Toadie";
-        displayName = "AWC Agenda Six (AUG-Thread)";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_wp_aug\mesh\agendasix\a6";
-    };
+
     class hlc_rifle_aug : hlc_aug_base {
         author = "Sarv, Tenoyl, Toadie";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1845,15 +1849,14 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 72;
-            class asdg_MuzzleSlot_556_AUG : asdg_MuzzleSlot_556{};
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {}; };
-            };
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
+            class CowsSlot {};
             class ItemInfo {
                 priority = 1;
                 RMBhint = "XMC";
                 onHoverText = "TODO XMC DSS";
             };
+        };
 
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -2516,15 +2519,8 @@ class CfgWeapons {
         modes[] = { "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-            };
-            class MuzzleSlot : SlotInfo {
-
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_snds_a6aug" };
-
-            };
+            class CowsSlot {};
+            class MuzzleSlot : niarms_MuzzleSlot_augpara {};
         };
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2947,8 +2943,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 72;
-            class CowsSlot: CowsSlot { compatibleItems[] = {}; };
-            class asdg_OpticRail_auga2: asdg_OpticRail1913_short {};
+            class CowsSlot: asdg_OpticRail1913_short {};
         };
         class Library {
             libTextDesc = "Steyr AUG A2";
@@ -3216,14 +3211,8 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { "hlc_muzzle_snds_a6AUG" };
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-            };
-            class asdg_OpticRail_auga2smg : asdg_OpticRail1913_short {};
+            class MuzzleSlot : niarms_MuzzleSlot_augpara {};
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         class Library {
             libTextDesc = "Steyr AUG A2";
@@ -3515,10 +3504,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-            };
-            class asdg_OpticRail_auga2hbar : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         class Library {
             libTextDesc = "Steyr AUG A2";
@@ -3871,9 +3857,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 76;
-            class asdg_OpticRail_AUGA3: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_AUGA3: asdg_FrontSideRail {};
-            class asdg_UnderSlot_AUGA3 : asdg_UnderSlot{};
+            class CowsSlot: asdg_OpticRail1913 {};
+            class PointerSlot: asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
 
@@ -4021,8 +4007,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 87;
 
-            class asdg_OpticRail_AUGA3 : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_AUGA3 : asdg_FrontSideRail {};
+            class CowsSlot: asdg_OpticRail1913 {};
+            class PointerSlot: asdg_FrontSideRail {};
         };
         inertia = 0.6;
         dexterity = 1.6;
