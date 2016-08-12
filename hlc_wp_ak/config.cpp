@@ -1280,13 +1280,11 @@ class CfgMagazines {
 
 class CfgWeapons {
 
+//optics
+#define __OPTIC_DMR opticType = 1
+#define __OPTIC_SNP opticType = 2
+
     class InventoryOpticsItem_Base_F;
-    class UGL_F;
-    class Rifle;
-    class Rifle_Base_F: Rifle  {
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
     class optic_dms;
 
     class HLC_Optic_PSO1 : optic_dms {
@@ -1300,6 +1298,7 @@ class CfgWeapons {
         ACE_ScopeAdjust_Horizontal[] = { -10, 10 };
         ACE_ScopeAdjust_Increment = 0.5;
         class ItemInfo: InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_ak\mesh\pso1\pso_optics";
             class OpticsModes {
@@ -1346,6 +1345,7 @@ class CfgWeapons {
             };
         };
     };
+
     class HLC_Optic_1p29 : HLC_Optic_PSO1 {
         dlc = "Niarms_AK";
         author = "Bionic, Toadie";
@@ -1357,6 +1357,7 @@ class CfgWeapons {
         ACE_ScopeAdjust_Horizontal[] = {};
         ACE_ScopeAdjust_Increment = 0;
         class ItemInfo: InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_ak\mesh\1p29\1p29_optics";
             class OpticsModes {
@@ -1383,22 +1384,7 @@ class CfgWeapons {
             };
         };
     };
-    class muzzle_snds_H;
-    class hlc_muzzle_545SUP_AK : muzzle_snds_H {
-        dlc = "Niarms_AK";
-        author = "Bohemia Interactive, Toadie";
-        displayName = "PBS4 AK Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "\hlc_wp_ak\mesh\PBS4\pbs4";
-    };
-    class muzzle_snds_M;
-    class hlc_muzzle_762SUP_AK : muzzle_snds_M {
-        dlc = "Niarms_AK";
-            author = "Jason9Jason, Toadie";
-            displayName = "PBS1 AK Suppressor";
-            picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-            model = "\hlc_wp_ak\mesh\PBS1\pbs1";
-    };
+
     class optic_ACO_grn;
     class hlc_optic_kobra : optic_ACO_grn {
         dlc = "Niarms_AK";
@@ -1410,6 +1396,7 @@ class CfgWeapons {
         scope = 2;
         weaponinfotype = "RscWeaponZeroing";
     };
+
     class hlc_optic_goshawk : optic_ACO_grn {
         dlc = "Niarms_AK";
         author = "Bohemia Interactive, Toadie";
@@ -1419,6 +1406,7 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_goshawk_ca";
         model = "\hlc_wp_ak\mesh\goshawk\goshawk.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 10;
             modelOptics = "\hlc_wp_ak\mesh\goshawk\TI_goshawk_optic.p3d";
             class OpticsModes {
@@ -1444,6 +1432,35 @@ class CfgWeapons {
             };
         };
     };
+
+//muzzles
+
+    class muzzle_snds_H;
+    class hlc_muzzle_545SUP_AK : muzzle_snds_H {
+        dlc = "Niarms_AK";
+        author = "Bohemia Interactive, Toadie";
+        displayName = "PBS4 AK Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "\hlc_wp_ak\mesh\PBS4\pbs4";
+    };
+    class muzzle_snds_M;
+    class hlc_muzzle_762SUP_AK : muzzle_snds_M {
+        dlc = "Niarms_AK";
+            author = "Jason9Jason, Toadie";
+            displayName = "PBS1 AK Suppressor";
+            picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+            model = "\hlc_wp_ak\mesh\PBS1\pbs1";
+    };
+
+//weapons
+
+    class UGL_F;
+    class Rifle;
+    class Rifle_Base_F: Rifle  {
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
+
     class hlc_ak_base : Rifle_Base_F {
         inertia=0.5;
         magazineReloadSwitchPhase = 0.5;
