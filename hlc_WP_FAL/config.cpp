@@ -453,6 +453,8 @@ class CfgMagazines {
 class CfgWeapons {
 
 //optics
+#define __OPTIC_DMR opticType = 1
+#define __OPTIC_SNP opticType = 2
 
     class InventoryOpticsItem_Base_F;
 
@@ -466,6 +468,7 @@ class CfgWeapons {
         picture = "\hlc_wp_FAL\tex\ui\gear_suit_x_ca";
         model = "\hlc_wp_FAL\mesh\SUIT\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_fal\mesh\suit\suit_optics";
             class OpticsModes {
@@ -504,6 +507,7 @@ class CfgWeapons {
                 };
             };
         };
+		tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
     };
 
     class hlc_optic_PVS4FAL : hlc_optic_suit {
@@ -514,6 +518,7 @@ class CfgWeapons {
         picture = "\hlc_wp_FAL\tex\ui\gear_PVS4_x_ca";
         model = "\hlc_wp_FAL\mesh\PVS4\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_FAL\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
