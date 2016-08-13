@@ -38,22 +38,15 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
 class asdg_FrontSideRail;
+class asdg_OpticRail;
 class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
 class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762;
+class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
+    class compatibleItems;
+};
 
 class CfgVehicles {
     class NATO_Box_Base;
@@ -458,17 +451,12 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class Rifle;
-    class Rifle_Base_F : Rifle  {
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
-    class ItemCore;
-    class optic_Arco : ItemCore {};
-    class muzzle_snds_H : ItemCore {
-        class ItemInfo;
-    };
 
+//optics
+
+    class InventoryOpticsItem_Base_F;
+
+    class optic_Arco;
     class hlc_optic_suit : optic_arco {
         dlc = "Niarms_FAL";
         scope= public;
@@ -517,6 +505,7 @@ class CfgWeapons {
             };
         };
     };
+
     class hlc_optic_PVS4FAL : hlc_optic_suit {
         dlc = "Niarms_FAL";
         author = "Pete, Enron, Bohemia Interactive, Toadie";
@@ -583,12 +572,24 @@ class CfgWeapons {
         };
     };
 
+//muzzles
+
+    class muzzle_snds_H;
     class hlc_muzzle_snds_fal : muzzle_snds_H {
         author = "Pete, Acid Snake, Toadie";
         displayName = "FAL Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_wp_fal\mesh\SUP_308HK\hk308";
     };
+
+//weapons
+
+    class Rifle;
+    class Rifle_Base_F : Rifle  {
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
+
     class hlc_fal_base : Rifle_Base_F {
         dlc = "Niarms_FAL";
         recoil = "recoil_ebr";
@@ -630,14 +631,13 @@ class CfgWeapons {
         soundbullet[] = {"bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            class CowsSlot: CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-            };
-            class PointerSlot : PointerSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-                compatibleitems[] = {};
-            };
-            class asdg_MuzzleSlot_762FAL : asdg_MuzzleSlot_762 {};
+            class CowsSlot {};
+            class PointerSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                 class compatibleItems: compatibleItems {
+                    //hlc_muzzle_snds_fal = 1;
+                };
+           };
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -839,10 +839,9 @@ class CfgWeapons {
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 81;
-            class asdg_OpticRail_OSW : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_OSW : asdg_FrontSideRail {};
-            class asdg_UnderSlot_osw : asdg_UnderSlot{};
-            class asdg_MuzzleSlot_762FAL : asdg_MuzzleSlot_762{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -995,7 +994,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9" }; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 81; 
-            class asdg_UnderSlot_osw : asdg_UnderSlot{ compatibleitems[] = {}; };
+            class UnderBarrelSlot {};
         };
 
         author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
@@ -1121,9 +1120,11 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 86;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
+            class CowsSlot: asdg_OpticRail {
+                class compatibleItems {
+                    hlc_optic_suit = 1;
+                    hlc_optic_PVS4FAL = 1;
+                };
             };
         };
     };
@@ -1150,8 +1151,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
-            class asdg_OpticRail_STG58F: asdg_OpticRail1913 {};
-            class CowsSlot {};
+            class CowsSlot: asdg_OpticRail1913 {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1300,8 +1300,7 @@ class CfgWeapons {
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
-            class asdg_OpticRail_falpara : asdg_OpticRail1913 {};
-            class CowsSlot {};
+            class CowsSlot : asdg_OpticRail1913 {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1456,9 +1455,11 @@ class CfgWeapons {
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 78;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
+            class CowsSlot: asdg_OpticRail {
+                class compatibleItems {
+                    hlc_optic_suit = 1;
+                    hlc_optic_PVS4FAL = 1;
+                };
             };
         };
         class Single : Mode_SemiAuto {
@@ -1614,10 +1615,6 @@ class CfgWeapons {
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 78;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = { "hlc_optic_suit", "hlc_optic_PVS4FAL" };
-            };
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1846,10 +1843,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 86;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
-            };
         };
     };
     class hlc_rifle_c1A1 : hlc_rifle_SLR {
@@ -1940,10 +1933,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 40;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
-            };
         };
     };
     class hlc_rifle_LAR : hlc_rifle_FAL5061 {
@@ -2100,10 +2089,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 90;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
-            };
         };
     };
     class hlc_rifle_SLRchopmod : hlc_rifle_FAL5061 {
@@ -2260,10 +2245,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 75;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleItems[] = {"hlc_optic_suit","hlc_optic_PVS4FAL"};
-            };
         };
     };
 };
