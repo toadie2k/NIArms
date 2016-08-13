@@ -40,26 +40,17 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
-class MuzzleSlot;
 
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
-class UGL_F;
 class asdg_FrontSideRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_long;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_762;
 
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
+    class compatibleItems;
+};
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
     class compatibleItems {
         hlc_muzzle_556NATO_KAC = 1;
@@ -651,71 +642,40 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
-    class Rifle_Base_F: Rifle {
-        class ItemInfo;
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
-    class ItemCore;
-    class muzzle_snds_H : ItemCore {
-        class ItemInfo;
-    };
 
-    class hlc_muzzle_556NATO_KAC : muzzle_snds_H {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        displayName = "Gemtech Halo 5.56mm Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_wp_ar15\mesh\KAC556QD\kacqd.p3d";
-        class ItemInfo: ItemInfo {
-            mass = 12.36;
-            class MagazineCoef {
-                initSpeed = 1.05;
-            };
-            class AmmoCoef {
-                hit = 1;
-                visibleFire = 0.5;
-                audibleFire = 0.3;
-                visibleFireTime = 0.5;
-                audibleFireTime = 0.5;
-                cost = 1.0;
-                typicalSpeed = 1.2;
-                airFriction = 1.0;
-            };
-            soundTypeIndex = 1; // index of sound in sounds[] in weapon modes (inherited 1 from parent class)
-            muzzleEnd = "zaslehPoint";
-            alternativeFire = "Zasleh2";
-        };
-    };
+//muzzles
+
+    class muzzle_snds_H;
     class hlc_muzzle_300blk_KAC : muzzle_snds_H {
         dlc = "Niarms_AR15";
         author = "ImBrokeRU, Toadie";
         displayName = "QD .300BLK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_wp_ar15\mesh\KAC556QD\762.p3d";
-        class ItemInfo: ItemInfo {
-            mass = 10;
-            class MagazineCoef {
-                initSpeed = 1.05;
-            };
-            class AmmoCoef {
-                hit = 1;
-                visibleFire = 0.5;
-                audibleFire = 0.3;
-                visibleFireTime = 0.5;
-                audibleFireTime = 0.5;
-                cost = 1.0;
-                typicalSpeed = 1.2;
-                airFriction = 1.0;
-            };
-            soundTypeIndex = 1; // index of sound in sounds[] in weapon modes (inherited 1 from parent class)
-            muzzleEnd = "zaslehPoint";
-            alternativeFire = "Zasleh2";
-        };
     };
+    class muzzle_HBADGER: muzzle_snds_H {
+        dlc = "Niarms_AR15";
+        displayName = "Honeybadger Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_l_CA.paa";
+        model = "hlc_wp_ar15\mesh\hb_sil\hbsil.p3d";
+    };
+
+    class muzzle_snds_M;
+    class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
+        dlc = "Niarms_AR15";
+        author = "Toadie";
+        displayName = "Gemtech Halo 5.56mm Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_wp_ar15\mesh\KAC556QD\kacqd.p3d";
+    };
+
+    class Rifle;
+    class Rifle_Base_F: Rifle {
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
+    class UGL_F;
+
     class hlc_ar15_base : Rifle_Base_F {
         inertia= 0.35;
         magazineReloadSwitchPhase = 0.5;
@@ -891,31 +851,6 @@ class CfgWeapons {
         reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
     };
 
-    class muzzle_HBADGER: muzzle_snds_H {
-        dlc = "Niarms_AR15";
-        displayName = "Honeybadger Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_l_CA.paa";
-        model = "hlc_wp_ar15\mesh\hb_sil\hbsil.p3d";
-        class ItemInfo: ItemInfo {
-            mass = 11;
-            class MagazineCoef {
-                initSpeed = 1.15;
-            };
-            class AmmoCoef {
-                hit = 1;
-                visibleFire = 0.5;
-                audibleFire = 0.3;
-                visibleFireTime = 0.5;
-                audibleFireTime = 0.5;
-                cost = 1.0;
-                typicalSpeed = 1.3;
-                airFriction = 0.9;
-            };
-            muzzleEnd = "zaslehPoint";
-            alternativeFire = "Zasleh2";
-        };
-    };
-
     class hlc_rifle_RU556 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -954,9 +889,9 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 57;
-            class asdg_OpticRail_RU556: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_RU556: asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_RU556 : asdg_MuzzleSlot_556{};
+            class CowsSlot: asdg_OpticRail1913 {};
+            class PointerSlot: asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_556{};
         };
         class ItemInfo {
             priority = 1;
@@ -1166,10 +1101,6 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 58;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_556NATO_KAC"};
-            };
         };
         class ItemInfo {
             priority = 1;
@@ -1341,7 +1272,7 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 54;
-            class asdg_UnderSlot_CQBR: asdg_UnderSlot {};
+            class UnderBarrelSlot: asdg_UnderSlot {};
         };
         class ItemInfo {
             priority = 1;
@@ -1517,10 +1448,10 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 58;
-            class asdg_UnderSlot_M4carb : asdg_UnderSlot {};
-            class asdg_OpticRail_M4carb : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_M4carb : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_M4carb : asdg_MuzzleSlot_556{};
+            class UnderBarrelSlot : asdg_UnderSlot {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_556{};
         };
         class ItemInfo {
             priority = 1;
@@ -1711,7 +1642,7 @@ class CfgWeapons {
         descriptionShort = "Carbine<br/>Caliber: 5.56mm";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 78;
-            class asdg_UnderSlot_M4carb : asdg_UnderSlot { compatibleitems[] = {}; };
+            class UnderBarrelSlot {};
         };
         muzzles[] = { "this", "hlc_M203_M4" };
         class hlc_M203_M4 : UGL_F {
@@ -1772,9 +1703,9 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 58;
-            class MuzzleSlot : asdg_MuzzleSlot_556{};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
             class PointerSlot : asdg_FrontSideRail {};
-            class asdg_OpticR_RU556 : asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913 {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
         class ItemInfo {
@@ -1989,8 +1920,9 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 50;
-            class asdg_OpticRail_Coltcar: asdg_OpticRail1913 {};
-            class asdg_MuzzleSlot_556727 : asdg_MuzzleSlot_556{};
+            class CowsSlot: asdg_OpticRail1913 {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
+            class PointerSlot {};
         };
         class ItemInfo {
             priority = 1;
@@ -2241,8 +2173,13 @@ class CfgWeapons {
         recoil = "recoil_mxc";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 52;
-            class asdg_OpticRail_Bushmaster: asdg_OpticRail1913 {};
-            class asdg_MuzzleSlot_762_Bushmaster : asdg_MuzzleSlot_762{};
+            class CowsSlot: asdg_OpticRail1913_short {};
+			class MuzzleSlot : asdg_MuzzleSlot_762 {
+                class compatibleItems: compatibleItems {
+                    //hlc_muzzle_300blk_KAC = 1;
+                };
+            };
+            class PointerSlot {};
         };
         class ItemInfo {
             priority = 1;
@@ -2458,12 +2395,6 @@ class CfgWeapons {
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 55;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_300blk_KAC"};
-            };
-            //class asdg_OpticRail_Coltcar: asdg_OpticRail1913 {};
-            //class asdg_FrontSideRail_RU556: asdg_FrontSideRail {};
         };
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
         modes[] = {"Single", "single_medium_optics1", "single_far_optics2"};
@@ -2633,9 +2564,9 @@ class CfgWeapons {
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 90;
-            class rifleSAMROpticrail : asdg_OpticRail1913_long {};
-            class asdg_FrontSideRail_rifleSAMR : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_rifleSAMR : asdg_MuzzleSlot_556{};
+            class CowsSlot : asdg_OpticRail1913_long {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
         handAnim[] = {
             "OFP2_ManSkeleton",
@@ -3021,12 +2952,14 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 58;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_HBADGER"};
+			class MuzzleSlot : asdg_MuzzleSlot_762 {
+                class compatibleItems: compatibleItems {
+                    muzzle_HBADGER = 1;
+                    //hlc_muzzle_300blk_KAC = 1;
+                };
             };
-            class asdg_FrontSideRail_Badger : asdg_FrontSideRail {};
-            class asdg_UnderSlot_badger : asdg_UnderSlot{};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
     class hlc_rifle_honeybadger : hlc_rifle_honeybase {
