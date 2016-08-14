@@ -144,15 +144,11 @@ class CfgGesturesMale {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
 class asdg_FrontSideRail;
+class asdg_OpticRail;
 class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_762;
 
@@ -602,25 +598,10 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class GrenadeLauncher;
-    class Rifle_Base_F: Rifle  {
-        class WeaponSlotsInfo;
-        class GunParticles;
-    };
-    class ItemCore;
-    class muzzle_snds_H : ItemCore {
-        class ItemInfo;
-    };
-    class optic_dms;
-    class UGL_F;
 
+//muzzles
+
+    class muzzle_snds_H;
     class hlc_muzzle_snds_g3 : muzzle_snds_H {
         author = "Pete, Acid_Snake, Toadie";
         displayName = "G3 Suppressor";
@@ -633,6 +614,12 @@ class CfgWeapons {
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_wp_g3\mesh\SUP_556HK\hk308";
     };
+
+//optics
+
+    class InventoryOpticsItem_Base_F;
+    class optic_dms;
+
     class HLC_Optic_ZFSG1 : optic_dms {
         dlc = "Niarms_G3";
         author = "PAC, Millenia, Toadie";
@@ -789,6 +776,18 @@ class CfgWeapons {
             };
         };
     };
+
+//weapons
+
+    class Rifle;
+
+    class Rifle_Base_F: Rifle  {
+        class WeaponSlotsInfo;
+        class GunParticles;
+    };
+    class UGL_F;
+
+
     class hlc_g3_base : Rifle_Base_F {
         changeFiremodeSound[] = { "\hlc_wp_g3\snd\SWITCH6", 1, 1, 20 };
         dlc = "Niarms_G3";
@@ -816,6 +815,15 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass =33;
+            class CowsSlot : asdg_OpticRail {
+                class compatibleItems {
+                    HLC_Optic_ZFSG1 = 1;
+                    hlc_optic_accupoint_g3 = 1;
+                    hlc_optic_PVS4G3 = 1;
+                };
+            };
+            class PointerSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
         };
         opticszoominit = 0.75;
         opticszoommax = 1.1;
@@ -1220,13 +1228,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 111;
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = { "HLC_Optic_ZFSG1","hlc_optic_accupoint_g3","hlc_optic_PVS4G3" };
-            };
-            class PointerSlot : PointerSlot { 
-                compatibleItems[] = {};
-            };
-            class asdg_MuzzleSlot_762_G3SG1 : asdg_MuzzleSlot_762 {};
         };
     };
     // PSG-1 Accuracy 2.327105669325714e-4
@@ -1374,17 +1375,9 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 144;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = { };
-            };
-            class asdg_UnderSlot_PSG1 : asdg_UnderSlot{};
-            class PointerSlot : PointerSlot{ 
-                compatibleItems[] = {};
-            };
+            class MuzzleSlot {};
+            class CowsSlot {};
+            class UnderBarrelSlot : asdg_UnderSlot{};
         };
     };
 
@@ -1510,18 +1503,8 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 144;
-            class MuzzleSlot : SlotInfo {
-
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = { "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_optic_PVS4G3" };
-            };
-            class asdg_UnderSlot_PSG1A1 : asdg_UnderSlot{};
-            class PointerSlot : PointerSlot {
-                compatibleItems[] = {};
-            };
+            class MuzzleSlot {};
+            class UnderBarrelSlot : asdg_UnderSlot{};
         };
     };
     class hlc_rifle_PSG1A1_RIS : hlc_g3_base {
@@ -1646,16 +1629,9 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 144;
-            class MuzzleSlot : SlotInfo {
-
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class asdg_OpticRail_PSG1R : asdg_OpticRail1913 {};
-            class asdg_UnderSlot_PSG1R : asdg_UnderSlot{};
-            class PointerSlot : PointerSlot {
-                compatibleItems[] = {};
-            };
+            class MuzzleSlot {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class UnderBarrelSlot : asdg_UnderSlot{};
         };
     };
     class hlc_rifle_g3a3 : hlc_rifle_g3sg1 {
@@ -1843,7 +1819,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 82;
-            class asdg_MuzzleSlot_762_G3 : asdg_MuzzleSlot_762{};
         };
     };
     class hlc_rifle_g3a3ris : hlc_rifle_g3a3 {
@@ -1854,10 +1829,7 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 449.58;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = { };
-            };
-            class asdg_OpticRail_G3a3r : asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913 {};
         };
     };
     class hlc_rifle_g3a3v : hlc_rifle_g3a3 {
@@ -1883,10 +1855,9 @@ class CfgWeapons {
         ACE_barrelLength = 314.96;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class asdg_OpticRail_G3ka4: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_G3ka4: asdg_FrontSideRail {};
-            class asdg_UnderSlot_G3ka4 : asdg_UnderSlot{};
-            class CowsSlot {};
+            class CowsSlot: asdg_OpticRail1913 {};
+            class PointerSlot: asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -2066,7 +2037,7 @@ class CfgWeapons {
         ACE_barrelLength = 314.96;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class asdg_FrontSideRail_G3ka4gl : asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
         class hlc_M203_G3k : UGL_F {
             cameradir = "GL_Look";
@@ -2454,10 +2425,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = { "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_optic_PVS4G3" };
-            };
-            class asdg_MuzzleSlot_762_HK51 : asdg_MuzzleSlot_762{};
         };
     };
     class hlc_rifle_hk53 : hlc_g3_base {
@@ -2712,10 +2679,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 55;
-            class CowsSlot : CowsSlot{
-                compatibleItems[] = { "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_optic_PVS4G3" };
-            };
-            class asdg_MuzzleSlot_762_hk53 : asdg_MuzzleSlot_556{};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
     };
     class hlc_rifle_hk53RAS : hlc_g3_base {
@@ -2971,9 +2935,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 55;
-            class asdg_MuzzleSlot_762_hk53RAS : asdg_MuzzleSlot_556{};
-            class asdg_OpticRail_hk53RAS : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_hk53RAS : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
     };
     class hlc_rifle_hk33a2 : hlc_g3_base {
@@ -3231,13 +3195,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class CowsSlot : CowsSlot{
-                compatibleItems[] = { "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_optic_PVS4G3" };
-            };
-            class asdg_MuzzleSlot_HK33A2 : asdg_MuzzleSlot_556{};
-            class PointerSlot : PointerSlot {
-                compatibleItems[] = {};
-            };
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
     };
     class hlc_rifle_hk33a2RIS : hlc_g3_base {
@@ -3496,8 +3454,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 78;
 
-            class asdg_MuzzleSlot_HK33A2R : asdg_MuzzleSlot_556 {};
-            class asdg_OpticRail_HK33A2R : asdg_OpticRail1913 {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
+            class CowsSlot : asdg_OpticRail1913 {};
         };
     };
 };
