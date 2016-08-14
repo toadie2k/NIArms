@@ -616,6 +616,8 @@ class CfgWeapons {
     };
 
 //optics
+#define __OPTIC_DMR opticType = 1
+#define __OPTIC_SNP opticType = 2
 
     class InventoryOpticsItem_Base_F;
     class optic_dms;
@@ -628,6 +630,7 @@ class CfgWeapons {
         model = "\hlc_wp_G3\mesh\sg1_scope\scope.p3d";
         picture = "\hlc_wp_G3\tex\ui\gear_diavari_x_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_G3\mesh\sg1_scope\zfsg1_reticle";
             class OpticsModes {
@@ -674,6 +677,7 @@ class CfgWeapons {
         model = "\hlc_wp_G3\mesh\accupoint\scope.p3d";
         picture = "\hlc_wp_G3\tex\ui\gear_accupoint_x_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_SNP;
             mass = 7;
             modelOptics = "\hlc_wp_G3\mesh\accupoint\accupoint_reticle";
             class OpticsModes {
@@ -711,6 +715,7 @@ class CfgWeapons {
             };
         };
     };
+
     class hlc_optic_PVS4G3 : optic_dms {
         dlc = "Niarms_G3";
         author = "Bohemia Interactive, Toadie";
@@ -719,6 +724,7 @@ class CfgWeapons {
         picture = "\hlc_wp_g3\tex\ui\gear_PVS4_x_ca";
         model = "\hlc_wp_g3\mesh\PVS4\scope.p3d";
         class ItemInfo: InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_g3\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
