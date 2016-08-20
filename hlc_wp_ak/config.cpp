@@ -4311,8 +4311,8 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk_Shot_Silenced_SoundSet", "Nia_rpk_ShotTail_Silenced_SoundSet" };
                 //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\rk62_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_ak\snd\rk62_sil", 1, 1, 200 };
+				begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
+				begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };
             };
 
@@ -4363,8 +4363,8 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk_Shot_Silenced_SoundSet", "Nia_rpk_ShotTail_Silenced_SoundSet" };
                 //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\rk62_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_ak\snd\rk62_sil", 1, 1, 200 };
+				begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
+				begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };
             };
 

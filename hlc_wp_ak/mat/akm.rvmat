@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_wp_ak\tex\twinke ak47\upper_SMDI.tga";
+	texture="hlc_wp_ak\tex\upper_SMDI.tga";
 	uvSource="tex";
 	class uvTransform
 	{
