@@ -106,7 +106,7 @@ class cfgMods {
 
 class CfgVehicles {
     class Man;
-    class CAManBase : Man {
+	class CAManBase : Man {/*
         class AGM_SelfActions {
             class HLC_BarrelSwap {
                 displayName = "Change AUG Barrel";
@@ -155,7 +155,7 @@ class CfgVehicles {
                     statement = "[_player,'hlc_barrel_9mm'] spawn hlc_fnc_barrelswitch";
                 };
             };
-        };
+        };*/
         class UserActions {
             class hlc_switch_barrel_standard {
                 displayName = "Change Barrel (Standard)";
