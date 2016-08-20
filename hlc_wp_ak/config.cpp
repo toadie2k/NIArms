@@ -2331,6 +2331,7 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+				soundSetShot[] = { "Nia_ak12_Shot_SoundSet", "Nia_ak12_Tail_SoundSet" };
                 begin1[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin2[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin3[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
@@ -2350,6 +2351,7 @@ class CfgWeapons {
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+				soundSetShot[] = { "Nia_ak12_silencerShot_SoundSet", "Nia_ak12_silencerTail_SoundSet" };
                 begin1[] = { "\hlc_wp_ak\snd\aek_sil", 1, 1, 200 };
                 begin2[] = { "\hlc_wp_ak\snd\aek_sil", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };
@@ -2385,6 +2387,7 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+				soundSetShot[] = { "Nia_ak12_Shot_SoundSet", "Nia_ak12_Tail_SoundSet" };
                 begin1[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin2[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin3[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
@@ -2404,6 +2407,7 @@ class CfgWeapons {
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+				soundSetShot[] = { "Nia_ak12_silencerShot_SoundSet", "Nia_ak12_silencerTail_SoundSet" };
                 begin1[] = { "\hlc_wp_ak\snd\aek_sil", 1, 1, 200 };
                 begin2[] = { "\hlc_wp_ak\snd\aek_sil", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };
@@ -2439,6 +2443,7 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+				soundSetShot[] = { "Nia_ak12_Shot_SoundSet", "Nia_ak12_Tail_SoundSet" };
                 begin1[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin2[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
                 begin3[] = { "\hlc_wp_ak\snd\ak12_fire", 1, 1, 1200 };
@@ -3348,8 +3353,8 @@ class CfgWeapons {
         scope = public;
         author = "MrRifleman, Bull5hit, Toadie";
         model = "\hlc_wp_ak\mesh\akm\akm.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_akm_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+		picture = "\hlc_wp_ak\tex\ui\gear_akm_x_ca";
         displayName = "Izhmash AKM";
         descriptionShort = "Assault rifle,Grenade Launcher<br/>Caliber: 7.62mm";
         modes[] = {"FullAuto","Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
@@ -3516,7 +3521,7 @@ class CfgWeapons {
         bg_bipod = 1; 
         magazines[] = {    "hlc_75Rnd_762x39_m_rpk","hlc_45Rnd_762x39_m_rpk","HLC_45rnd_762x39_T_RPK","hlc_30Rnd_762x39_b_ak","hlc_30Rnd_762x39_t_ak","hlc_30rnd_762x39_s_ak"};
         model = "\hlc_wp_ak\mesh\rpk\rpk.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_rpk_ca";
+        picture = "\hlc_wp_ak\tex\ui\gear_rpk_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Izhmash RPK";
         discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
@@ -3915,7 +3920,7 @@ class CfgWeapons {
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         displayName = "ZID AEK971S";
         model = "\hlc_wp_ak\mesh\aek971\aek971clean.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_aek_ca";
+        picture = "\hlc_wp_ak\tex\ui\gear_aek_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         drysound[] = { "\hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10 };
         reloadMagazineSound[] = { "hlc_wp_ak\snd\soundshaders\aek\aek_reload", 1, 1, 20 };
@@ -4278,15 +4283,13 @@ class CfgWeapons {
         modes[] = { "FullAuto", "Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
+			class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+				weaponSoundEffect = "DefaultRifle";
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
+				closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
+				closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
+				soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+			};
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "Nia_rk62_Shot_SoundSet", "Nia_rk62_Tail_SoundSet" };
                 //NEW THING PAY ATTENTION
@@ -4443,137 +4446,137 @@ class CfgWeapons {
         discretedistanceinitindex = 0;
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
         changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 20 };
-        class Single : Mode_SemiAuto {
-            airateoffire = "1e-006";
-            begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            begin2[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.097;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
-            dispersion = 0.000972294;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            sounds[] = { "StandardSound", "SilencedSound" };
+		class Single : Mode_SemiAuto {
+			airateoffire = "1e-006";
+			begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
+			begin2[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
+			soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
+			closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
+			closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
+			soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
+			weaponSoundEffect = "DefaultRifle";
+			reloadTime = 0.097;
+			recoil = "recoil_single_mk20";
+			recoilProne = "recoil_single_prone_mk20";
+			dispersion = 0.000972294;
+			minRange = 0;
+			minRangeProbab = 0.3;
+			midRange = 5;
+			midRangeProbab = 0.7;
+			maxRange = 10;
+			maxRangeProbab = 0.04;
+			sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
+			class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+				weaponSoundEffect = "DefaultRifle";
 
-                closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
-                closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
+				closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
+				closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
+				soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+			};
 
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "Nia_SLR107U_Shot_SoundSet", "SLR107U_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ak\snd\tails\ak762_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ak\snd\tails\aks74u_indoor", 1.3, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
+			class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+				soundSetShot[] = { "Nia_SLR107U_Shot_SoundSet", "Nia_SLR107U_Tail_SoundSet" };
+				//NEW THING PAY ATTENTION
+				begin1[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				begin2[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				begin3[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
+				class SoundTails {
+					class TailForest {
+						sound[] = { "\hlc_wp_ak\snd\tails\ak762_forest", 1.1, 1, 1200 };
+						frequency = 1;
+						volume = "(1-interior/1.4)*forest";
+					};
+					class TailInterior {
+						sound[] = { "\hlc_wp_ak\snd\tails\aks74u_indoor", 1.3, 1, 1200 };
+						frequency = 1;
+						volume = "interior";
+					};
+				};
+			};
 
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "Nia_ak47_Shot_Silenced_SoundSet", "Nia_ak47_ShotTail_Silenced_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ak\snd\tails\ak47_sil_indoor", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            /// various other fire mode parameters
-        };
-        class FullAuto : Mode_FullAuto {
-            airateoffire = "1e-006";
-            begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            begin2[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.097;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
-            dispersion = 0.000972294;
-            minRange = 2;
-            minRangeProbab = 0.01;
-            midRange = 200;
-            midRangeProbab = 0.01;
-            maxRange = 400;
-            maxRangeProbab = 0.01;
-            sounds[] = { "StandardSound", "SilencedSound" };
+			class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+				soundSetShot[] = { "Nia_ak47_Shot_Silenced_SoundSet", "Nia_ak47_ShotTail_Silenced_SoundSet" };
+				//NEW THING PAY ATTENTION
+				begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
+				begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1, 1, 200 };
+				soundBegin[] = { begin1, 0.5, begin2, 0.5 };
+				class SoundTails {
+					class TailInterior {
+						sound[] = { "\hlc_wp_ak\snd\tails\ak47_sil_indoor", 1, 1, 100 };
+						frequency = 1;
+						volume = "interior";
+					};
+				};
+			};
+			/// various other fire mode parameters
+		};
+		class FullAuto : Mode_FullAuto {
+			airateoffire = "1e-006";
+			begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
+			begin2[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
+			soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
+			closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
+			closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
+			soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
+			weaponSoundEffect = "DefaultRifle";
+			reloadTime = 0.097;
+			recoil = "recoil_auto_mk20";
+			recoilProne = "recoil_auto_prone_mk20";
+			dispersion = 0.000972294;
+			minRange = 2;
+			minRangeProbab = 0.01;
+			midRange = 200;
+			midRangeProbab = 0.01;
+			maxRange = 400;
+			maxRangeProbab = 0.01;
+			sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
+			class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+				weaponSoundEffect = "DefaultRifle";
 
-                closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
-                closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
+				closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
+				closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.3, 1, 10 };
+				soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+			};
 
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "Nia_SLR107U_Shot_SoundSet", "SLR107U_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ak\snd\tails\ak762_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ak\snd\tails\aks74u_indoor", 1.2, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
+			class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+				soundSetShot[] = { "Nia_SLR107U_Shot_SoundSet", "Nia_SLR107U_Tail_SoundSet" };
+				//NEW THING PAY ATTENTION
+				begin1[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				begin2[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				begin3[] = { "\hlc_wp_ak\snd\slr107U_fire", 1.7782794, 1, 1200 };
+				soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
+				class SoundTails {
+					class TailForest {
+						sound[] = { "\hlc_wp_ak\snd\tails\ak762_forest", 1.1, 1, 1200 };
+						frequency = 1;
+						volume = "(1-interior/1.4)*forest";
+					};
+					class TailInterior {
+						sound[] = { "\hlc_wp_ak\snd\tails\aks74u_indoor", 1.2, 1, 1200 };
+						frequency = 1;
+						volume = "interior";
+					};
+				};
+			};
 
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "Nia_ak47_Shot_Silenced_SoundSet", "Nia_ak47_ShotTail_Silenced_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1.35, 1, 200 };
-                begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1.35, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ak\snd\tails\ak47_sil_indoor", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-        };
+			class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+				soundSetShot[] = { "Nia_ak47_Shot_Silenced_SoundSet", "Nia_ak47_ShotTail_Silenced_SoundSet" };
+				//NEW THING PAY ATTENTION
+				begin1[] = { "\hlc_wp_ak\snd\ak47_sil", 1.35, 1, 200 };
+				begin2[] = { "\hlc_wp_ak\snd\ak47_sil", 1.35, 1, 200 };
+				soundBegin[] = { begin1, 0.5, begin2, 0.5 };
+				class SoundTails {
+					class TailInterior {
+						sound[] = { "\hlc_wp_ak\snd\tails\ak47_sil_indoor", 1, 1, 100 };
+						frequency = 1;
+						volume = "interior";
+					};
+				};
+			};
+		};
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;

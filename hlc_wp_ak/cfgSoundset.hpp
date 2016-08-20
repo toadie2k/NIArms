@@ -384,7 +384,7 @@ class CfgSoundSets
 
 	class Nia_rk62_Shot_SoundSet
 	{
-		soundShaders[] = { "nia_rk62_Closure_SoundShader", "nia_rk62_closeShot_SoundShader", "nia_rk62_midShot_SoundShader", "rk62_distShot_SoundShader" };
+		soundShaders[] = { "nia_rk62_Closure_SoundShader", "nia_rk62_closeShot_SoundShader", "nia_rk62_midShot_SoundShader", "nia_rk62_distShot_SoundShader" };
 		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
@@ -395,7 +395,7 @@ class CfgSoundSets
 	};
 	class Nia_rk62_Tail_SoundSet
 	{
-		soundShaders[] = { "rk62_tailInterior_SoundShader", "nia_rk62_tailTrees_SoundShader", "nia_rk62_tailForest_SoundShader", "nia_rk62_tailMeadows_SoundShader", "nia_rk62_tailHouses_SoundShader" };
+		soundShaders[] = { "Nia_rk62_tailInterior_SoundShader", "nia_rk62_tailTrees_SoundShader", "nia_rk62_tailForest_SoundShader", "nia_rk62_tailMeadows_SoundShader", "nia_rk62_tailHouses_SoundShader" };
 		volumeFactor = 1;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
