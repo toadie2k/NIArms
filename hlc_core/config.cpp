@@ -1521,7 +1521,7 @@ class CfgAmmo {
         maxspeed =  820;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         cartridge = "FxCartridge_762";
-        nvgonly = 1;
+        nvgonly = 0;
         tracerendtime = 1;
         tracerscale = 1;
         tracerstarttime = 0.01;
@@ -1547,7 +1547,7 @@ class CfgAmmo {
         maxspeed =  820;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
         cartridge = "FxCartridge_762";
-        nvgonly = 1;
+        nvgonly = 0;
     };
     class HLC_792x57_AP : HLC_792x57_Ball {
         airfriction = -0.000395;
