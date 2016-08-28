@@ -514,11 +514,11 @@ class CfgWeapons {
 					};
 				};
 			};
-			begin1[] = { "\hlc_wp_springfield\snd\AWC_Fire", 1, 1, 200 };
-			begin2[] = { "\hlc_wp_springfield\snd\AWC_Fire", 1, 1, 200 };
+            begin1[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
+            begin2[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
 			soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-			closure1[] = { "\hlc_wp_springfield\snd\AWC_first", 0.7, 1, 10 };
-			closure2[] = { "\hlc_wp_springfield\snd\AWC_first", 0.7, 1, 10 };
+            closure1[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
+            closure2[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
 			soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
 			weaponSoundEffect = "DefaultRifle";
 			reloadTime = 1.637;
@@ -574,7 +574,7 @@ class CfgWeapons {
 		aiDispersionCoefX = 8;
 
 		drysound[] = { "\hlc_core\sound\empty_machineguns", 1, 1, 10 };
-		reloadmagazinesound[] = { "\hlc_core\sound\empty_machineguns", 0.5, 1 };
+		reloadmagazinesound[] = { "\hlc_core\sound\empty_machineguns", 0.5, 1,10 };
 	};
 
 

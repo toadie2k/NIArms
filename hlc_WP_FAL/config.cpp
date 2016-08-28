@@ -45,7 +45,9 @@ class asdg_OpticRail1913;
 class asdg_UnderSlot;
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
-    class compatibleItems;
+    class compatibleItems{
+        hlc_muzzle_snds_fal = 1;
+    };
 };
 
 class CfgVehicles {
@@ -409,7 +411,7 @@ class CfgMagazines {
     };
     class hlc_20Rnd_762x51_T_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie";
-        ammo = "B_762x51_Tracer_Green";
+        ammo = "HLC_762x51_tracer";
         descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: L1A1,FN FAL,SA58 OSW";
         displayname = "FAL Mag (Tracer) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
@@ -419,6 +421,19 @@ class CfgMagazines {
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "7.62mm Tracer";
+    };
+    class hlc_20Rnd_762x51_TDim_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: L1A1,FN FAL,SA58 OSW";
+        displayname = "FAL Mag (IR-DIM) 20rnd 7.62mm";
+        model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
+        displaynameshort = "7.62mm IR-DIM";
     };
     class hlc_20Rnd_762x51_S_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie";
@@ -604,7 +619,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         magazines[] = {
-            "hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_mk316_fal","hlc_20Rnd_762x51_Barrier_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_S_fal","hlc_50rnd_762x51_M_FAL"
+            "hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_mk316_fal","hlc_20Rnd_762x51_Barrier_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_TDim_fal","hlc_20Rnd_762x51_S_fal","hlc_50rnd_762x51_M_FAL"
         };
         class Library {
             libTextDesc = "FN FAL";

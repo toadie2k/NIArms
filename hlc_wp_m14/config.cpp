@@ -339,6 +339,38 @@ class CfgMagazines {
         mass = 8;
         displaynameshort = "7.62mm Tracer";
     };
+    class hlc_20Rnd_762x51_Tdim_M14 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_M14";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
+        displayname = "M14 Magazine (IR-DIM) 20rnd 7.62mm";
+        model = "hlc_wp_m14\mesh\magazine\magazine.p3d";
+        initspeed = 853;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        scope = 2;
+        tracersevery = 1;
+        mass = 8;
+        displaynameshort = "7.62mm IR-DIM";
+    };
+    class hlc_20Rnd_762x51_Mdim_M14 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_M14";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
+        displayname = "M14 Magazine (EPR,IR-DIM) 20rnd 7.62mm";
+        model = "hlc_wp_m14\mesh\magazine\magazine.p3d";
+        initspeed = 853;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        scope = 2;
+        tracersevery = 1;
+        mass = 8;
+        displaynameshort = "7.62mm IR-DIM";
+    };
     class hlc_50Rnd_762x51_B_M14 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_M14";
         author = "Toadie";
@@ -407,7 +439,7 @@ class CfgWeapons {
         ACE_barrelLength = 558.8;
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
-        magazines[] = { "hlc_20Rnd_762x51_B_M14","hlc_20Rnd_762x51_Barrier_M14","hlc_20Rnd_762x51_mk316_M14","hlc_20Rnd_762x51_T_M14","hlc_50Rnd_762x51_B_M14","hlc_20Rnd_762x51_S_M14" };
+        magazines[] = { "hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_20Rnd_762x51_Mdim_M14", "hlc_20Rnd_762x51_Tdim_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14" };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         opticsZoomMin = 0.25;
@@ -453,11 +485,12 @@ class CfgWeapons {
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
         modes[] = {"FullAuto","fullauto_medium"};
         class FullAuto : Mode_FullAuto {
-            begin1[] = {"\hlc_wp_M60E4\snd\m60_fire_1p",1.0,1,1200};
-            begin2[] = {"\hlc_wp_M60E4\snd\m60_fire_1p",1.0,1,1200};
+            begin1[] = { "\hlc_wp_m14\snd\m14_fire", 1, 1, 1200 };
+            begin2[] = { "\hlc_wp_m14\snd\m14_fire", 1, 1, 1200 };
+            begin3[] = { "\hlc_wp_m14\snd\m14_fire", 1, 1, 1200 };
             soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"\hlc_wp_M60E4\snd\m60_first",1.1622777,1,30};
-            closure2[] = {"\hlc_wp_M60E4\snd\m60_first",1.1622777,1,30};
+            closure1[] = { "\hlc_wp_m14\snd\m14_first", 1, 1, 10 };
+            closure2[] = { "\hlc_wp_m14\snd\m14_first", 1, 1, 10 };
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.08;
@@ -485,7 +518,7 @@ class CfgWeapons {
             aiRateOfFireDistance = 200;
         };
 
-        drysound[] = {"\hlc_wp_m14\snd\m14_dryfire", 1, 1, 10};
+        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
         //reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
     };
     class hlc_optic_artel_m14 : optic_dms {
@@ -756,8 +789,8 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\m14\M14.p3d";
         reloadaction = "HLC_GestureReloadm14";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
-        drysound[] = { "\hlc_wp_m14\snd\m14_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = {"\hlc_wp_M14\snd\m14_reload", 0.5, 1};
+        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
         picture = "\hlc_wp_M14\tex\ui\gear_m14_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Springfield Armory M14";
@@ -993,8 +1026,8 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\m21\M14.p3d";
         reloadaction = "HLC_GestureReloadm14";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
-        drysound[] = { "\hlc_wp_m14\snd\m14_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = {"\hlc_wp_M14\snd\m14_reload", 0.5, 1};
+        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
         picture = "\hlc_wp_M14\tex\ui\gear_m21_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Springfield Armory M21";
@@ -1132,8 +1165,8 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         cse_bipod = 1;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
-        drysound[] = { "\hlc_wp_m14\snd\m14_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = {"\hlc_wp_M14\snd\m14_reload", 0.5, 1};
+        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
         picture = "\hlc_wp_M14\tex\ui\gear_dmr_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Springfield Armory M14DMR";
@@ -1157,8 +1190,8 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\sopmod\M14.p3d";
         reloadaction = "HLC_GestureReloadm14";
         descriptionShort = "Modified Battle Rifle<br/>Caliber: 7.62mm";
-        drysound[] = { "\hlc_wp_m14\snd\m14_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = {"\hlc_wp_M14\snd\m14_reload", 0.5, 1};
+        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
+        reloadmagazinesound[] = {"\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1,18};
         picture = "\hlc_wp_M14\tex\ui\gear_sopmod_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Troy M14 SOPMOD";

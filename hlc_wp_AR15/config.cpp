@@ -49,7 +49,9 @@ class asdg_UnderSlot;
 
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
-    class compatibleItems;
+    class compatibleItems {
+        hlc_muzzle_300blk_KAC = 1;
+    };
 };
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
     class compatibleItems {
@@ -624,6 +626,26 @@ class CfgMagazines {
         displayname = "STANAG Mag (Subsonic) 5.56mm";
         picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
     };
+    class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR {
+        dlc = "Niarms_AR15";
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
+        displayname = "STANAG Mag (EPR,IR-DIM) 5.56mm";
+        tracersevery = 4;
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR {
+        dlc = "Niarms_AR15";
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
+        displayname = "STANAG Mag (IR-DIM) 5.56mm";
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
     class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR {
         dlc = "Niarms_AR15";
         author = "Toadie";
@@ -685,7 +707,7 @@ class CfgWeapons {
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
         magazines[] = {
-            "hlc_30rnd_556x45_EPR","30Rnd_556x45_Stanag","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow","hlc_30rnd_556x45_S"
+            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
         };
         class Library {
             libTextDesc = "AR15";
@@ -869,7 +891,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAR15_BAD_WS";
         scope =public;
         magazines[] = {
-            "hlc_30rnd_556x45_EPR","30Rnd_556x45_Stanag","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow","hlc_30rnd_556x45_S"
+            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow","hlc_30rnd_556x45_S"
         };
         model = "hlc_wp_ar15\mesh\ru556\car15.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_hsld_ca";
@@ -1428,7 +1450,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
         model = "hlc_wp_ar15\mesh\cqbr\M4A1.p3d";
-        picture = "\hlc_wp_ar15\tex\ui\gear_m4_ca";
+        picture = "\hlc_wp_ar15\tex\ui\gear_m4_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Colt M4 Carbine";
         descriptionShort = "Carbine<br/>Caliber: 5.56mm";
@@ -1436,7 +1458,7 @@ class CfgWeapons {
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
         magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
+            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
         };
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
         handAnim[] = {
@@ -1636,7 +1658,7 @@ class CfgWeapons {
         author = "Tenoyl, OhNoMelon, Tigg, Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_ar15\gesture\newgesture\gl_hands.rtm" };
         model = "hlc_wp_ar15\mesh\cqbr\M4A1M203.p3d";
-        picture = "\hlc_wp_ar15\tex\ui\gear_m4_ca";
+        picture = "\hlc_wp_ar15\tex\ui\gear_m4_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Colt M4 Carbine (GL)";
         descriptionShort = "Carbine<br/>Caliber: 5.56mm";
@@ -1682,7 +1704,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
         magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
+            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
         };
         model = "hlc_wp_ar15\mesh\JackCarbine\samr.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
@@ -1897,7 +1919,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
         magazines[] = {
-            "30Rnd_556x45_Stanag","hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow","hlc_30rnd_556x45_S"
+            "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
         };
         model = "hlc_wp_ar15\mesh\carbine\colt727.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_colt727_ca";
@@ -2554,7 +2576,7 @@ class CfgWeapons {
         cse_bipod = 1;
         bg_bipod = 1; 
         model = "hlc_wp_ar15\mesh\LAR15_samr\samr.p3d";
-        magazines[] = {"hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S" };
+        magazines[] = { "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S" };
         picture = "\hlc_wp_ar15\tex\ui\gear_SAMR_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "RRA LAR-15";
@@ -2636,7 +2658,7 @@ class CfgWeapons {
             maxRange = 500;
             maxRangeProbab = 0.2;
         };
-        class FullAut : Mode_FullAuto {
+        class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)

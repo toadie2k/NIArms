@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="hlc_wp_frankie_AWM\tex\AWCSTOCK_nohq.tga";
+	texture="hlc_wp_fhAWC\tex\frankie\AWCSTOCK_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_wp_frankie_AWM\tex\AWCSTOCK_smdi.tga";
+	texture="hlc_wp_fhAWC\tex\frankie\AWCSTOCK_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -927,6 +927,40 @@ class CfgMagazines {
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
+    class hlc_30rnd_556x45_TDIM_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        displayname = "G36 Mag (IR-DIM) 5.56mm";
+        magazineGroup[] = { "G36_maggroup" };
+        initspeed = 920;
+        mass = 8;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "5.56mm Tracer";
+        model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_MDIM_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        displayname = "G36 Mag (EPR,IR-DIM) 5.56mm";
+        magazineGroup[] = { "G36_maggroup" };
+        initspeed = 920;
+        mass = 8;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "5.56mm Tracer";
+        model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
+    };
 };
 
 class CfgWeapons {
@@ -1214,7 +1248,7 @@ class CfgWeapons {
         hasBipod = false;
         magazineReloadSwitchPhase = 0.5;
         magazines[] = {
-            "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36"
+            "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36","hlc_30rnd_556x45_MDIM_G36", "hlc_30rnd_556x45_TDIM_G36"
         };
         class Library {
             libTextDesc = "SIG Stgw.510";

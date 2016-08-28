@@ -149,8 +149,18 @@ class asdg_FrontSideRail;
 class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762;
+
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_snds_g3 = 1;
+    };
+};
+class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
+    class compatibleItems {
+        hlc_muzzle_snds_HK33 = 1;
+    };
+};
 
 class CfgVehicles {
     class NATO_Box_Base;
@@ -505,6 +515,23 @@ class CfgMagazines {
         tracersevery = 1;
         displaynameshort = "7.62mm Tracer";
     };
+    class hlc_20rnd_762x51_MDim_G3 : hlc_20rnd_762x51_b_G3 {
+        dlc = "Niarms_G3";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO (EPR,IR-DIM Tracer)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
+        displayname = "G3 Mag (EPR,IR-DIM) 20rnd 7.62mm";
+        model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
+        initspeed = 800;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "7.62mm IR-DIM";
+    };
+
     class hlc_50rnd_762x51_M_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
         author = "Toadie";
@@ -519,6 +546,36 @@ class CfgMagazines {
         scope = 2;
         tracersevery = 5;
         displaynameshort = "7.62mm Tracer";
+    };
+    class hlc_50rnd_762x51_MDIM_G3 : hlc_20rnd_762x51_b_G3 {
+        dlc = "Niarms_G3";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie";
+        count = 50;
+        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 50<br />Used in: G3A3,G3SG1,PSG1";
+        displayname = "X-91 Mag (EPR,IR-DIM) 50rnd 7.62mm";
+        model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
+        initspeed = 800;
+        mass = 32;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 5;
+        displaynameshort = "7.62mm Tracer";
+    };
+    class hlc_20rnd_762x51_IRDim_G3 : hlc_20rnd_762x51_MDim_G3 {
+        dlc = "Niarms_G3";
+        author = "Toadie";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO (IR-DIM Tracer)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
+        displayname = "G3 Mag (IR-DIM) 20rnd 7.62mm";
+        model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
+        initspeed = 800;
+        mass = 13;
+        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "7.62mm IR-DIM";
     };
     class hlc_20rnd_762x51_S_G3 : hlc_20rnd_762x51_T_G3 {
         dlc = "Niarms_G3";
@@ -587,6 +644,36 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
         displayname = "HK33 Mag (Tracer) 5.56mm";
+        model = "hlc_wp_g3\mesh\magazine\magazine_hk33.p3d";
+        initspeed = 750.2;
+        mass = 10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "5.56 Tracer";
+    };
+    class hlc_30rnd_556x45_tdim_HK33 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G3";
+        author = "Toadie";
+        count = 30;
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        displayname = "HK33 Mag (IR-DIM) 5.56mm";
+        model = "hlc_wp_g3\mesh\magazine\magazine_hk33.p3d";
+        initspeed = 750.2;
+        mass = 10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "5.56 IR-DIM";
+    };
+    class hlc_30rnd_556x45_mdim_HK33 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G3";
+        author = "Toadie";
+        count = 30;
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        displayname = "HK33 Mag (EPR,IR-DIM) 5.56mm";
         model = "hlc_wp_g3\mesh\magazine\magazine_hk33.p3d";
         initspeed = 750.2;
         mass = 10;
@@ -803,7 +890,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         scope = protected;
-        magazines[] = { "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3","hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_50rnd_762x51_M_G3", "hlc_20rnd_762x51_S_G3" };
+        magazines[] = { "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3", "hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_20rnd_762x51_IRDim_G3", "hlc_20rnd_762x51_MDIM_G3", "hlc_50rnd_762x51_M_G3", "hlc_50rnd_762x51_MDIM_G3", "hlc_20rnd_762x51_S_G3" };
         class Library {
             libTextDesc = "G3Base";
         };
@@ -1024,9 +1111,7 @@ class CfgWeapons {
         agm_bipod=1;
         cse_bipod = 1;
         bg_bipod = 1; 
-        magazines[] = {
-            "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3", "hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_50rnd_762x51_M_G3", "hlc_20rnd_762x51_S_G3"
-        };
+        magazines[] = { "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3", "hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_20rnd_762x51_MDIM_G3", "hlc_20rnd_762x51_IRDim_G3", "hlc_50rnd_762x51_M_G3", "hlc_50rnd_762x51_MDIM_G3", "hlc_20rnd_762x51_S_G3" };
         scope = public;
         
         displayName = "HK G3/SG1";
@@ -1039,7 +1124,7 @@ class CfgWeapons {
         discretedistance[] = {100,200,300,400};
         discretedistanceinitindex = 2;
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g3sg1_reload", 1.0,1,25};
-        opticsZoomMin = 0.375;
+        opticsZoomMin = 0.25;
         opticsZoomMax = 1.1;
         opticsZoomInit = 0.75;
         distanceZoomMin = 300;
@@ -1256,6 +1341,7 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\gesture\newgesture\hands_g3sg1.rtm"};
         picture = "\hlc_wp_g3\tex\ui\gear_psg1_x_ca";
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\psg1_reload", 1.0,1,25};
+        drysound[] = { "\hlc_core\sound\empty_sniperrifles", 1, 1, 10 };
         class OpticsModes {
             class Snip {
                 //cameradir = "look";
@@ -2054,7 +2140,7 @@ class CfgWeapons {
             useModelOptics = false;
             useExternalOptic = false;
             optics = 1;
-            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
+            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 40};
             cursoraim = "gl";
             magazinereloadtime = 0;
             magazines[] = {"1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell"};
@@ -2450,7 +2536,7 @@ class CfgWeapons {
         cse_bipod = 0;
         bg_bipod = 0;
         magazines[] = {
-            "hlc_30rnd_556x45_b_hk33","hlc_30rnd_556x45_t_hk33","hlc_30rnd_556x45_epr_hk33","hlc_30rnd_556x45_sost_hk33"
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
         };
         discreteDistance[] = { 100, 200, 300, 400 };
         model = "\hlc_wp_g3\mesh\hene_hk53\hk53.p3d";
@@ -2705,7 +2791,7 @@ class CfgWeapons {
         cse_bipod = 0;
         bg_bipod = 0;
         magazines[] = {
-            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33"
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33" , "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
         };
         discreteDistance[] = { 100, 200, 300, 400 };
         model = "\hlc_wp_g3\mesh\hene_hk53\hk53_rails.p3d";
@@ -2963,7 +3049,7 @@ class CfgWeapons {
         cse_bipod = 0;
         bg_bipod = 0;
         magazines[] = {
-            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33"
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
         };
         discreteDistance[] = { 100, 200, 300, 400 };
         cameradir = "Look";
@@ -3221,7 +3307,7 @@ class CfgWeapons {
         cse_bipod = 0;
         bg_bipod = 0;
         magazines[] = {
-            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33"
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
         };
         discreteDistance[] = { 100, 200, 300, 400 };
         cameradir = "Look";

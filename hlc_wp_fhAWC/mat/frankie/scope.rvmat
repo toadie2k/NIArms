@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_wp_frankie_AWM\tex\AWCscope_smdi.tga";
+	texture="hlc_wp_fhAWC\tex\frankie\AWCscope_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

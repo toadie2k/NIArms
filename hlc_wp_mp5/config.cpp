@@ -591,7 +591,7 @@ class hlc_muzzle_Agendasix10mm : muzzle_snds_h
 {
 	dlc = "Niarms_MP5";
 		author = "Toadie";
-		displayName = "AWC Agenda Six (10mm\.40)";
+		displayName = "AWC Agenda Six (10mm)";
 		picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
 		model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
 

@@ -101,6 +101,6 @@ class Stage7
 };
 class StageTI
 {
-	texture = "CUP\Weapons\CUP_Weapons_West_Attachments\CompM4\data\default_ti_ca.paa";
+	texture = "a3\data_f\\default_ti_ca";
 };
 //};
