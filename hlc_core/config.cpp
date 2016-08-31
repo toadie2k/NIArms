@@ -1115,7 +1115,10 @@ class CfgAmmo {
         ACE_muzzleVelocities[] = { 624, 816, 832, 838 };
         ACE_barrelLengths[] = { 190.5, 368.3, 457.2, 508.0 };
     };
-
+    class B_556x45_Ball_Tracer_Red;
+    class HLC_B_556x45_Ball_Tracer_Dim : B_556x45_Ball_Tracer_Red {
+        nvgOnly = 1;
+    };
     class HLC_300Blackout_Ball : B_556x45_Ball {
         airFriction = -0.001084469;
         airlock = 1;
@@ -1255,71 +1258,68 @@ class CfgAmmo {
 
 
     //7.62x51mm
-    class HLC_762x51_ball : B_762x51_Ball {
-        typicalSpeed = 906.78;
-        airFriction = -0.00085536;
-        hit = 11.55;
-        caliber = 1.075;
-        cost = 1;
-        deflecting = 21;
-        indirecthit = 0;
-        indirecthitrange = 0;
-        cartridge = "FxCartridge_762";
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        nvgonly = 0;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.05;
-        visibleFire = 3.15;
-        audibleFire = 6.20;
+    //Ballistics by Ruthberg, CO ACE3
+    class HLC_762x51_ball : B_762x51_Ball { 
+        airFriction = -0.00100957;
+        typicalSpeed = 833;
+        hit = 9;
+        tracerScale = 1.2; //0.6;
+        tracerStartTime = 0.073;  // Based on the British L5A1 which burns out to 1000m 
+        tracerEndTime = 2.15957;  // Time in seconds calculated with ballistics calculator
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 28.956;
+        ACE_bulletMass = 9.4608;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
+        ACE_ballisticCoefficients[] = { 0.2 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 700, 800, 820, 833, 845 };
+        ACE_barrelLengths[] = { 254.0, 406.4, 508.0, 609.6, 660.4 };
     };
-    class HLC_762x51_MK316_20in : B_762x51_Ball {
+    class B_762x51_Tracer_Yellow;
+    class HLC_B_762x51_Tracer_Dim : B_762x51_Tracer_Yellow {
+        nvgOnly = 1;
+    };
+    //Ballistics by Ruthberg, CO ACE3
+    class HLC_762x51_MK316_20in : HLC_762x51_ball {
+        airFriction = -0.00082029;
+        caliber = 1.8;
+        hit = 16;
+        typicalSpeed = 790;
         ACE_caliber = 7.823;
         ACE_bulletLength = 31.496;
         ACE_bulletMass = 11.34;
-        ACE_ammoTempMuzzleVelocityShifts[] = { -2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619 };
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
         ACE_ballisticCoefficients[] = { 0.243 };
         ACE_velocityBoundaries[] = {};
         ACE_standardAtmosphere = "ICAO";
         ACE_dragModel = 7;
-        ACE_muzzleVelocities[] = { 750, 780, 790, 794 };
+        ACE_muzzleVelocities[] = { 775, 790, 805, 810 };
         ACE_barrelLengths[] = { 406.4, 508.0, 609.6, 660.4 };
-        typicalSpeed = 790.956;
-        airFriction = -0.00077634;
-        hit = 14.89033142;
-        caliber = 0.449;
-        cost = 1;
-        deflecting = 18;
-        indirecthit = 0;
-        indirecthitrange = 0;
-        cartridge = "FxCartridge_762";
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        nvgonly = 1;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.05;
-        visibleFire = 3.1;
-        audibleFire = 6.15;
     };
-    class HLC_762x51_Barrier : B_762x51_Ball {
-        typicalSpeed = 896.7216;
-        airFriction = -0.00111169;
-        hit = 14.55368532;
-        caliber = 0.794;
-        cost = 1;
-        deflecting = 18;
-        indirecthit = 0;
-        indirecthitrange = 0;
-        cartridge = "FxCartridge_762";
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        nvgonly = 1;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.05;
-        visibleFire = 3.25;
-        audibleFire = 6.3;
+        //Ballistics by Ruthberg, CO ACE3
+        class HLC_762x51_Barrier : HLC_762x51_ball {
+        airFriction = -0.00102338;
+        caliber = 1.5;
+        hit = 14;
+        typicalSpeed = 900;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 31.496;
+        ACE_bulletMass = 8.424;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619 };
+        ACE_ballisticCoefficients[] = { 0.377 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = { 838, 892, 910 };
+        ACE_barrelLengths[] = { 330.2, 406.4, 508.0 };
     };
-    class HLC_762x51_BTSub : B_762x51_Ball {
+        class HLC_762x51_BTSub : HLC_762x51_ball {
+        airFriction = -0.00049899;
+        caliber = 1;
+        hit = 6;
+        typicalSpeed = 320;
         ACE_caliber = 7.823;
         ACE_bulletLength = 34.036;
         ACE_bulletMass = 12.96;
@@ -1330,34 +1330,6 @@ class CfgAmmo {
         ACE_dragModel = 7;
         ACE_muzzleVelocities[] = { 305, 325, 335, 340 };
         ACE_barrelLengths[] = { 406.4, 508.0, 609.6, 660.4 };
-        hit = 5.473848371;
-        typicalSpeed = 339.852;
-        airFriction = -0.00049784;
-        caliber = 0.649;
-        deflecting = 15;
-        supersonicCrackNear[] = {};
-        supersonicCrackFar[] = {};
-        cost = 1;
-        indirecthit = 0;
-        indirecthitrange = 0;
-        cartridge = "FxCartridge_762";
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        nvgonly = 1;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.05;
-        AB_caliber=0.308;
-        AB_bulletLength=1.340;
-        AB_bulletMass=200;
-        AB_ammoTempMuzzleVelocityShifts[]={-2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619};
-        AB_ballisticCoefficients[]={0.235};
-        AB_velocityBoundaries[]={};
-        AB_standardAtmosphere="ICAO";
-        AB_dragModel=7;
-        AB_muzzleVelocities[]={305, 325, 335, 340};
-        AB_barrelLengths[]={16, 20, 24, 26};
-        visibleFire = 1.1;
-        audibleFire = 2.20;
     };
     class HLC_762x51_tracer : HLC_762x51_ball {
         airfriction = -0.00024;
@@ -2132,7 +2104,6 @@ class CfgAmmo {
 
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
-    class FH_MP5_9x19_Ball;
 
     class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag {
         ammo = "HLC_556NATO_EPR";
@@ -2232,13 +2203,16 @@ class CfgMagazines {
         tracersevery = 2;
     };
 
-    class hlc_50rnd_9x19_B_9mmar : FH_MP5_9x19_Ball {
+    class hlc_50rnd_9x19_B_9mmar : 30Rnd_556x45_Stanag{
         count = 50;
+        ammo = "HLC_9x19_Ball";
         scope = 0;
         descriptionshort = "Caliber: 9x19mm Parrabellum (Ball)<br />Rounds: 50<br />Used in: 9MMAR";
         displayname = "9MMAR Mag (Ball) 50rnd 9x19mm";
         displaynameshort = "9mm Ball";
         picture = "\hlc_core\tex\ui\ammo\m_9mmarball_ca.paa";
+        mass = 9;
+        initspeed = 423;
     };
     //AK MAGS
     class hlc_30Rnd_545x39_B_AK : 30Rnd_556x45_Stanag {
@@ -2488,7 +2462,7 @@ class CfgMagazines {
     };
 
     class hlc_32rnd_9x19_B_sten : hlc_50Rnd_45ACP_B_1921 {
-        ammo = "FH_9x19_Ball";
+        ammo = "HLC_9x19_Ball";
         count = 32;
         initspeed = 365;
         descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
@@ -2503,7 +2477,7 @@ class CfgMagazines {
 
 /*
     class hlc_32rnd_9x19_B_MP40 : hlc_50Rnd_45ACP_B_1921 {
-        ammo = "FH_9x19_Ball";
+        ammo = "HLC_9x19_Ball";
         initspeed = 400;
         count = 32;
         descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";

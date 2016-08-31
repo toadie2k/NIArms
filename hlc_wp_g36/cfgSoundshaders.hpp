@@ -665,7 +665,7 @@ class CfgSoundShaders
 	class g36k_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36k_forrest", 1 } };
+            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailforest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {

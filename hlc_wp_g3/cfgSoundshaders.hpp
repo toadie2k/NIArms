@@ -797,7 +797,7 @@ class CfgSoundShaders {
     };
     class hk33_silencerTailInterior_SoundShader {
         samples[] = {
-            { "hlc_wp_g3\snd\soundshaders\hk53\hk53_Suppressed_indoor", 1 }
+            { "hlc_wp_g3\snd\soundshaders\hk53\g41_sil_indoor", 1 }
         };
         volume = "interior";
         range = 150;

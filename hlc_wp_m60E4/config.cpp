@@ -180,6 +180,22 @@ class CfgMagazines {
         mass = 27;
         displaynameshort = "7.62mm Ball/Tracer";
     };
+    class hlc_100Rnd_762x51_Mdim_M60E4 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (EPR-IR-DIM) 100rnd 7.62mm";
+        model = "hlc_wp_m60E4\mesh\magazine\magazine.p3d";
+        initspeed = 853;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        mass = 27;
+        displaynameshort = "7.62mm EPR/IR-DIM";
+    };
     class hlc_100Rnd_762x51_Barrier_M60E4 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_M60";
         author = "Toadie";
@@ -241,7 +257,7 @@ class CfgWeapons {
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_T_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4" };
+        magazines[] = { "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_Mdim_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4" };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
@@ -315,7 +331,7 @@ class CfgWeapons {
                         volume = "(1-interior/1.4)*forest";
                     };
                     class TailInterior {
-                        sound[] = { "\hlc_wp_M60E4\snd\tails\m60_indoor", 1, 1, 1200 };
+                        sound[] = { "\hlc_wp_M60E4\snd\soundshaders\m60_indoor", 1, 1, 1200 };
                         frequency = 1;
                         volume = "interior";
                     };
@@ -490,7 +506,7 @@ class CfgWeapons {
                         volume = "(1-interior/1.4)*forest";
                     };
                     class TailInterior {
-                        sound[] = { "\hlc_wp_M60E4\snd\tails\m60_indoor", 1, 1, 1200 };
+                        sound[] = { "\hlc_wp_M60E4\snd\soundshaders\m60_indoor", 1, 1, 1200 };
                         frequency = 1;
                         volume = "interior";
                     };
@@ -592,12 +608,12 @@ class CfgWeapons {
                 soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
                 class SoundTails {
                     class TailForest {
-                        sound[] = { "\hlc_wp_m60\snd\tails\m14308_forest", 1.5, 1, 1200 };
+                        sound[] = { "\hlc_wp_m60e4\snd\tails\m14308_forest", 1.5, 1, 1200 };
                         frequency = 1;
                         volume = "(1-interior/1.4)*forest";
                     };
                     class TailInterior {
-                        sound[] = { "\hlc_wp_m60\snd\tails\m60_indoor", 1.2, 1, 1200 };
+                        sound[] = { "\hlc_wp_M60E4\snd\soundshaders\m60_indoor", 1, 1, 1200 };
                         frequency = 1;
                         volume = "interior";
                     };

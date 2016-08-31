@@ -1435,6 +1435,38 @@ class CfgMagazines {
         displaynameshort = "5.56mm Tracer";
         author = "Spartan0536,Toadie";
     };
+    class hlc_30Rnd_556x45_MDIM_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm EPR IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        displayname = "AUG Mag (EPR,IR-DIM) 30rnd 5.56mm";
+        initspeed = 970;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        scope = 2;
+        tracersevery = 4;
+        mass = 7;
+        displaynameshort = "5.56mm IR-DIM";
+        author = "Toadie";
+    };
+    class hlc_30Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        displayname = "AUG Mag (IR-DIM) 30rnd 5.56mm";
+        initspeed = 970;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        scope = 2;
+        tracersevery = 1;
+        mass = 7;
+        displaynameshort = "5.56mm IR-DIM";
+        author = "Toadie";
+    };
     class hlc_40Rnd_556x45_B_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR";
@@ -1446,9 +1478,25 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
-        mass = 7;
+        mass = 8;
         displaynameshort = "5.56mm EPR";
         author = "Spartan0536,Toadie";
+    };
+    class hlc_40Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 42;
+        descriptionshort = "Caliber: 5.56x45mm IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        displayname = "AUG-HBAR Mag (IR-DIM) 30rnd 5.56mm";
+        initspeed = 970;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        scope = 2;
+        tracersevery = 1;
+        mass = 8;
+        displaynameshort = "5.56mm IR-DIM";
+        author = "Toadie";
     };
     class hlc_40Rnd_556x45_SOST_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
@@ -1461,7 +1509,7 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
-        mass = 7;
+        mass = 8;
         displaynameshort = "5.56mm SOST";
         author = "Spartan0536,Toadie";
     };
@@ -1476,7 +1524,7 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
-        mass = 7;
+        mass = 8;
         displaynameshort = "5.56mm Ball";
         author = "Spartan0536,Toadie";
     };
@@ -1491,7 +1539,7 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 7;
+        mass = 5;
         displaynameshort = "9mm Ball";
         author = "Spartan0536,Toadie";
     };
@@ -1506,7 +1554,7 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 7;
+        mass = 5;
         displaynameshort = "9mm JHP";
         author = "Spartan0536,Toadie";
     };
@@ -1521,7 +1569,7 @@ class CfgMagazines {
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 7;
+        mass = 5;
         author = "Spartan0536,Toadie";
         displaynameshort = "9mm Subsonic";
     };
@@ -1824,7 +1872,7 @@ class CfgWeapons {
         inertia = 0.4;
         dexterity = 1.6;
         scope = public;
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG" };
+        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG","hlc_40Rnd_556x45_TDIM_AUG" };
         displayName = "Steyr AUGA1[OD]";
         drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         model = "hlc_wp_aug\mesh\auga1\auga1.p3d";
@@ -2744,7 +2792,7 @@ class CfgWeapons {
         AGM_Overheating_allowSwapBarrel = 1;
         scope = public;
         picture = "\hlc_wp_aug\tex\ui\gear_auga2OD_x_ca";
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG" };
+        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG" };
         drysound[] = {"\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10}; 
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
@@ -2973,7 +3021,7 @@ class CfgWeapons {
         AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         AGM_Overheating_allowSwapBarrel = 1;
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG" };
+        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG" };
         drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
@@ -3728,7 +3776,7 @@ class CfgWeapons {
         scope = public;
         displayName = "Steyr AUGA3[Green]";
         model = "hlc_wp_aug\mesh\auga3\auga3.p3d";
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG" };
+        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG" };
         drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
@@ -3883,7 +3931,7 @@ class CfgWeapons {
         scope = public;
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 457.2;
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG" };
+        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG" };
         drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
@@ -4038,7 +4086,7 @@ class CfgWeapons {
             opticszoominit = 0.75;
             opticszoommax = 1.1;
             opticszoommin = 0.375;
-            reloadmagazinesound[] = { "A3\sounds_f\Weapons\grenades\ugl_reload", 0.1, 1, 20 };
+            reloadmagazinesound[] = { "A3\sounds_f\Weapons\grenades\ugl_reload", 1, 1, 20 };
             reloadtime = 0.1;
             sound[] = { "A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400 };
             weaponinfotype = "RscWeaponZeroing";

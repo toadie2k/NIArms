@@ -227,6 +227,48 @@ class CfgAmmo {
             distance = 1;
         };
     };
+    class HLC_300WM_Tracer : B_556x45_Ball {
+        hit = 13.54294485;
+        typicalSpeed = 841.2;
+        airFriction = -0.00085473;
+        //caliber = 0.922;
+        caliber = 1.081;
+        deflecting = 21;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        cost = 1;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        maxspeed = 990;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        nvgonly = 0;
+        tracerscale = 1;
+        tracerStartTime = 0.073;
+        tracerEndTime = 1.7;
+        timeToLive = 12;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 13.0;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.250 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 690, 990 };
+        ACE_barrelLengths[] = { 305, 660.4 };
+        class CamShakeExplode {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
+    };
     //Like above, but squishier. For Squishier Targets, not meant to shred Ifrits.
     // Data composited by Toadie
     class HLC_300WM_BTSP : B_556x45_Ball {
@@ -644,6 +686,22 @@ class CfgMagazines {
         displaynameshort = "AP";
         author = "toadie,Spartan0536";
     };
+    class hlc_5rnd_300WM_T_AWM : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AWC";
+        ammo = "HLC_300WM_Tracer";
+        count = 5;
+        descriptionshort = "Caliber: .300 Winchester Magnum Re-loaded M62 Tracer <br />Rounds: 5<br />Used in: AWC-M, AWM-F";
+        displayname = "AWM Magazine (Tracer) 5rnd .300WM";
+        initspeed = 861;
+        lastroundstracer = 0;
+        picture = "\hlc_wp_fhawc\tex\ui\m_awm_FMJ_ca";
+        model = "\hlc_wp_fhAWC\mesh\magazine\magazine.p3d";
+        scope = 2;
+        tracersevery = 1;
+        mass = 14;
+        displaynameshort = "Tracer";
+        author = "toadie,Spartan0536";
+    };
     class hlc_5rnd_300WM_BTSP_AWM : 30Rnd_556x45_Stanag  {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_BTSP";
@@ -777,8 +835,8 @@ class CfgWeapons {
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                 begin1[]={"\hlc_wp_fhawc\snd\saw_suppressed", 1.1, 1,200};
-                 begin2[]={"\hlc_wp_fhawc\snd\saw_suppressed", 1.1, 1,200};
+                 begin1[]={"\hlc_wp_fhawc\snd\AWC_Fire", 1.1, 1,200};
+                 begin2[]={"\hlc_wp_fhawc\snd\AWC_Fire", 1.1, 1,200};
                  soundBegin[]={begin1,0.5, begin2,0.5};
             };
 
@@ -874,12 +932,12 @@ class CfgWeapons {
         cse_bipod = 0;
         tmr_autorest_deployable = 0;
         TMR_acc_bipod = 0;
-        initspeed = -0.7134831461;
+        initspeed = -0.7434831461;
         recoil = "recoil_awc";
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM","hlc_5rnd_300WM_BTSP_AWM","hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM" };
+        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM","hlc_5rnd_300WM_BTSP_AWM","hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM","hlc_5rnd_300WM_T_AWM" };
         class bg_weaponparameters {
             class onFired_Action {
                 HandAction = "HLC_GestureRechamberAWM";
@@ -946,7 +1004,7 @@ class CfgWeapons {
                 begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
                 begin3[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class  {
+				class SoundTails {
                     class TailInterior {
                         sound[] = { "hlc_wp_fhawc\snd\AWC_indoor", 1, 1, 100 };
                         frequency = 1;
@@ -1041,7 +1099,7 @@ class CfgWeapons {
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM" };
+        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM", "hlc_5rnd_300WM_T_AWM" };
         hiddenSelections[] = { "camo", "camo2", "Camo3" };
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa","\hlc_wp_fhAWC\tex\AWC_Scope_co.paa","\hlc_wp_fhAWC\tex\Magnumbits_ca.paa" };
         class bg_weaponparameters {

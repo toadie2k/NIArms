@@ -60,18 +60,18 @@ class CfgMovesBasic {
     class DefaultDie;
     class ManActions {
         HLC_GestureReloadM249 = "HLC_GestureReloadM249"; // Would reccommend changing the naming convention, just so nothing overlaps
-        HLC_GestureReloadM249STANAG = "HLC_GestureReloadM249STANAG";
+        //HLC_GestureReloadM249STANAG = "HLC_GestureReloadM249STANAG";
     };
 
     class Actions {
         class NoActions : ManActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249", "Gesture" };
-            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG", "Gesture" };
+            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG", "Gesture" };
         };
         class RifleBaseStandActions;
         class RifleProneActions : RifleBaseStandActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Prone", "Gesture" };
-            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Prone", "Gesture" };
+            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Prone", "Gesture" };
 
         };
         /*
@@ -81,15 +81,15 @@ class CfgMovesBasic {
         class RifleAdjustProneBaseActions;
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
         };
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+           //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
 
             class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
                 HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-                HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+               //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
             };
         };
     };
@@ -136,7 +136,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadM249_Context : HLC_GestureReloadM249 {
             mask = "handsWeapon_context";
-        };
+        };/*
         class HLC_GestureReloadM249STANAG : Default {
             file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_stand.rtm";
             speed = 0.24;
@@ -166,7 +166,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadM249STANAF_Context : HLC_GestureReloadM249STANAG {
             mask = "handsWeapon_context";
-        };
+        };*/
     };
 };
 
@@ -507,6 +507,22 @@ class CfgMagazines{
         mass = 58;
         displaynameshort = "Tracer";
     };
+    class hlc_200rnd_556x45_Mdim_SAW : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_SAW";
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 200;
+        descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball/Tracer(4/1)<br />Rounds: 200<br />Used in: M249,FN Minimi";
+        displayname = "M249 Belt (Mixed) 200rnd 5.56mm";
+        model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
+        initspeed = 925;
+        lastroundstracer = 10;
+        picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        mass = 58;
+        displaynameshort = "EPR/Tracer";
+    };
     class hlc_200rnd_556x45_B_SAW : 30Rnd_556x45_Stanag {
         dlc = "Niarms_SAW";
         author = "Toadie";
@@ -733,7 +749,7 @@ class CfgWeapons {
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         magazines[] = {
-            "hlc_200rnd_556x45_M_SAW", "hlc_200rnd_556x45_B_SAW", "hlc_200rnd_556x45_T_SAW", //HLC SAW magazines
+            "hlc_200rnd_556x45_M_SAW", "hlc_200rnd_556x45_B_SAW", "hlc_200rnd_556x45_T_SAW", "hlc_200rnd_556x45_Mdim_SAW", //HLC SAW magazines
             "hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR",// HLC AR15 Magazines
             "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow" // BI STANAG Magazines
             //"CUP_200Rnd_TE4_Green_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE1_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Green_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1", "CUP_30Rnd_556x45_Stanag", "CUP_20Rnd_556x45_Stanag", //CUP Mags Now in own PBO
@@ -753,7 +769,7 @@ class CfgWeapons {
         reloadaction = "HLC_GestureReloadM249";
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
         drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_saw\snd\saw_reload", 0.5, 1, 20 };
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
         inertia = 0.75;
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
@@ -1109,10 +1125,10 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
         recoil = "recoil_zafir";
         magazines[] = {
-            "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4", "hlc_100Rnd_762x51_T_M60E4" };
+            "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4", "hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_Mdim_M60E4" };
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
-        reloadmagazinesound[] = { "\hlc_wp_saw\snd\mk48_reload", 1, 1, 20 };
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };
         aidispersioncoefx = 21;
         aidispersioncoefy = 24;
         cursor = "mg";
