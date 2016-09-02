@@ -39,22 +39,9 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
-class asdg_FrontSideRail;
+//class PointerSlot;
 class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
-class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
 
 class CfgSounds {
     class hlc_bolt_AWM {
@@ -787,12 +774,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 165;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-
-            class PointerSlot: PointerSlot{compatibleItems[] = {};};
+            class MuzzleSlot {};
+            class PointerSlot {};
+            class CowsSlot : asdg_OpticRail1913 {};
         };
         opticsZoomMin = 0.375;
         opticsZoomMax = 1.1;
@@ -972,15 +956,6 @@ class CfgWeapons {
         aiDispersionCoefX = 8;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 121;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = { };
-            };
-            class PointerSlot : PointerSlot {
-                compatibleItems[] = {  };
-            };
-
-            class asdg_OpticRail_Covert : asdg_OpticRail1913 {};
         };
         class ItemInfo {
             priority = 1;
@@ -1134,14 +1109,9 @@ class CfgWeapons {
         aiDispersionCoefX = 8;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 121;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class PointerSlot : PointerSlot {
-                compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */};
-            };
-            class asdg_OpticRail_AWM : asdg_OpticRail1913 {};
+//            class PointerSlot : PointerSlot {
+//                compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */};
+//            };
         };
         class ItemInfo {
             priority = 1;
