@@ -1211,6 +1211,7 @@ class CfgWeapons {
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = true;
+        maxZeroing = 1600;
         recoil = "recoil_stgw57";
         reloadAction = "HLC_GestureReloadSTGW57";
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
@@ -1383,6 +1384,7 @@ class CfgWeapons {
         ACE_barrelLength = 266.7;
         deployedpivot = "deploypivot";
         hasBipod = false;
+
         displayName = "SIG Stgw.57 Commando";
         model = "hlc_wp_sigamt\mesh\57commando\commando.p3d";
         inertia = 0.45;
@@ -1402,6 +1404,7 @@ class CfgWeapons {
         ACE_barrelTwist = 305;
         ACE_barrelLength = 505;
         scope = public;
+        maxZeroing = 1600;
         deployedpivot = "deploypivot";
         hasBipod = true;
         displayName = "SIG SG510-4";
@@ -1578,6 +1581,7 @@ class CfgWeapons {
         AB_barrelLength = 21;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 533.4;
+        maxZeroing = 1600;
         deployedpivot = "deploypivot";
         hasBipod = false;
         scope = public;

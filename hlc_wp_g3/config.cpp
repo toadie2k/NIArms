@@ -1327,6 +1327,7 @@ class CfgWeapons {
         scope = public;
         hasBipod = false;
         inertia= 0.56;
+        maxZeroing = 1600;
         author = "Twinke Masta, Fallschrimjager, Thanez, Rosa Jonas, Toadie";
         AB_barrelTwist=12;
         AB_barrelLength=25.6;
@@ -1483,6 +1484,7 @@ class CfgWeapons {
         AB_barrelLength = 25.6;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 650.24;
+        maxZeroing = 1600;
         model = "\hlc_wp_g3\mesh\psg1\psg1a1.p3d";
         displayName = "HK PSG1A1";
         reloadAction = "HLC_GestureReloadPSG1";
@@ -1609,6 +1611,7 @@ class CfgWeapons {
         AB_barrelLength = 25.6;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 650.24;
+        maxZeroing = 1600;
         model = "\hlc_wp_g3\mesh\psg1\psg1a1_RAS.p3d";
         displayName = "HK PSG1A1(RIS)";
         reloadAction = "HLC_GestureReloadPSG1";

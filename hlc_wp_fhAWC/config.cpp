@@ -777,6 +777,7 @@ class CfgWeapons {
         magazines[] = {};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
+        maxZeroing = 1600;
         class GunParticles {
             class FirstEffect {
                 effectName = "SniperCloud";

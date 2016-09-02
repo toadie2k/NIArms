@@ -995,6 +995,7 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\m21\M14_bip.p3d";
         displayName = "Springfield Armory M14(Bipod)";
         author = "An Aggressive Napkin, Millenia, Toadie";
+        maxZeroing = 1600;
         hasBipod = true;
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
@@ -1016,6 +1017,7 @@ class CfgWeapons {
     class hlc_rifle_M21 : hlc_M14_base {
         author = "An Aggressive Napkin, Millenia, Toadie";
         hasBipod = true;
+        maxZeroing = 1600;
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         scope = public;
@@ -1164,6 +1166,7 @@ class CfgWeapons {
         hasbipod = true; 
         deployedpivot = "deploypivot";
         cse_bipod = 1;
+        maxZeroing = 1600;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
         drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
@@ -1187,6 +1190,7 @@ class CfgWeapons {
         agm_bipod = 1; 
         hasbipod = 1; 
         cse_bipod = 1;
+        maxZeroing = 1600;
         model = "\hlc_wp_M14\mesh\sopmod\M14.p3d";
         reloadaction = "HLC_GestureReloadm14";
         descriptionShort = "Modified Battle Rifle<br/>Caliber: 7.62mm";

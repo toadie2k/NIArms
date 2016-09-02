@@ -2570,6 +2570,7 @@ class CfgWeapons {
         author = "Twinke Masta, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_Catch_DR";
         ACE_barrelTwist = 228.6;
+        maxZeroing = 1600;
         ACE_barrelLength = 406.4;
         scope =public;
         agm_bipod=1;
