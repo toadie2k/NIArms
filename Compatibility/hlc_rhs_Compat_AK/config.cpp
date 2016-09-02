@@ -11,6 +11,26 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_545R : asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_545SUP_AK = 1;
+        rhs_acc_tgpa = 1;
+        rhs_acc_dtk3 = 1;
+        rhs_acc_dtk1 = 1;
+        rhs_acc_dtk = 1;
+        rhs_acc_dtk4short = 1;
+        rhs_acc_ak5 = 1;
+        rhs_acc_dtk2 = 1;
+    };
+};
+class asdg_MuzzleSlot_762R : asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_762SUP_AK = 1;
+        rhs_acc_pbs1 = 1;
+        rhs_acc_dtk1l = 1;
+    };
+};
 class CfgWeapons
 {
 	class Rifle;
