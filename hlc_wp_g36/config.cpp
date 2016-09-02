@@ -45,24 +45,27 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
 class asdg_FrontSideRail;
+class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_762;
 
+class niarms_G36_OpticSlot: asdg_OpticRail {
+    class compatibleItems {
+        HLC_Optic_G36dualoptic35x = 1;
+        HLC_Optic_G36dualoptic35x2d = 1;
+        HLC_Optic_G36Export35x2d = 1;
+        HLC_Optic_G36Export35x = 1;
+        HLC_Optic_G36Dualoptic15x = 1;
+        HLC_Optic_G36Dualoptic15x2d = 1;
+        HLC_Optic_G36Export15x = 1;
+        HLC_Optic_G36Export15x2d = 1;
+    };
+};
 
 class CfgVehicles { 
     dlc = "Niarms_G36";
@@ -970,8 +973,9 @@ class CfgWeapons {
         class WeaponSlotsInfo;
         class GunParticles;
     };
-    class ItemCore;
-    class optic_Arco : ItemCore{};
+
+    class InventoryOpticsItem_Base_F;
+    class optic_Arco;
 
     class HLC_Optic_G36dualoptic35x : optic_Arco {
         dlc = "Niarms_G36";
@@ -1332,12 +1336,10 @@ class CfgWeapons {
         soundbullet[] = {"bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            class PointerSlot : PointerSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-                compatibleitems[] = {};
-            };
-            //class asdg_MuzzleSlot_556_G36 : asdg_MuzzleSlot_556{};
+            class PointerSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
+
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -1621,11 +1623,7 @@ class CfgWeapons {
         inertia = 0.57;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 80;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleitems[] = { "HLC_Optic_G36dualoptic35x", "HLC_Optic_G36dualoptic35x2d", "HLC_Optic_G36Export35x2d", "HLC_Optic_G36Export35x", "HLC_Optic_G36Dualoptic15x","HLC_Optic_G36Dualoptic15x2d","HLC_Optic_G36Export15x","HLC_Optic_G36Export15x2d" };
-            };
-            class asdg_MuzzleSlot_556_G36 : asdg_MuzzleSlot_556{};
+            class CowsSlot : niarms_G36_OpticSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1849,11 +1847,7 @@ class CfgWeapons {
         inertia = 0.61;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 100;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleitems[] = { "HLC_Optic_G36dualoptic35x", "HLC_Optic_G36dualoptic35x2d", "HLC_Optic_G36Export35x2d", "HLC_Optic_G36Export35x", "HLC_Optic_G36Dualoptic15x", "HLC_Optic_G36Dualoptic15x2d", "HLC_Optic_G36Export15x", "HLC_Optic_G36Export15x2d" };
-            };
-            class asdg_MuzzleSlot_556_MG36 : asdg_MuzzleSlot_556{};
+            class CowsSlot : niarms_G36_OpticSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2077,12 +2071,7 @@ class CfgWeapons {
         inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
-            class CowsSlot {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-                compatibleitems[] = { "HLC_Optic_G36dualoptic35x", "HLC_Optic_G36dualoptic35x2d", "HLC_Optic_G36Export35x2d", "HLC_Optic_G36Export35x", "HLC_Optic_G36Dualoptic15x", "HLC_Optic_G36Dualoptic15x2d", "HLC_Optic_G36Export15x", "HLC_Optic_G36Export15x2d" };
-            };
-            class asdg_MuzzleSlot_556_AG36 : asdg_MuzzleSlot_556{};
-            class asdg_underslot_36A1 :asdg_UnderSlot{};
+            class CowsSlot : niarms_G36_OpticSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2445,9 +2434,8 @@ class CfgWeapons {
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 67;
-            class asdg_OpticRail_G36C : asdg_OpticRail1913 {};
-            class asdg_FSR_36C : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_G36C : asdg_MuzzleSlot_556{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            //class PointerSlot : asdg_FrontSideRail {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2827,10 +2815,9 @@ class CfgWeapons {
         inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class asdg_opticslot_36V : asdg_OpticRail1913 {};
-            class asdg_FSR_36V : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_G36V : asdg_MuzzleSlot_556{};
-            class asdg_underslot_36V :asdg_UnderSlot{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            //class PointerSlot : asdg_FrontSideRail {}; // missing rail, attachment detached :)
+            //class UnderBarrelSlot :asdg_UnderSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -3353,9 +3340,8 @@ class CfgWeapons {
         inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
-            class asdg_opticslot_AG36V : asdg_OpticRail1913 {};
-            class asdg_FSR_AG36V : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_556_AG36V : asdg_MuzzleSlot_556{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            //class PointerSlot : asdg_FrontSideRail {}; // rail missing
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -3503,6 +3489,11 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            class CowsSlot : asdg_OpticRail1913_short {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
+        };
     };
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
         dlc = "Niarms_G36";
@@ -3525,6 +3516,11 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            class CowsSlot : asdg_OpticRail1913_short {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
+        };
     };
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
         dlc = "Niarms_G36";
@@ -3547,6 +3543,11 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            class CowsSlot : asdg_OpticRail1913_short {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
+        };
     };
     ///CASELESS 
 
@@ -3588,10 +3589,10 @@ class CfgWeapons {
         inertia = 0.55;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
-            class asdg_OpticRail_G36MLIC : asdg_OpticRail1913 {};
-            class asdg_FSR_G36MLIC : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_762_G36 : asdg_MuzzleSlot_762{};
-            class asdg_underslot_36MLI :asdg_UnderSlot{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -4067,6 +4068,7 @@ class CfgWeapons {
         picture = "\hlc_wp_g36\tex\ui\gear_g36Cmli_ca.paa";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 68;
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         class Single : Mode_SemiAuto {
@@ -4323,9 +4325,9 @@ class CfgWeapons {
         inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
-            class asdg_opticslot_AG36V : asdg_OpticRail1913 {};
-            class asdg_FSR_AG36V : asdg_FrontSideRail {};
-            class asdg_MuzzleSlot_762_AG36MLI : asdg_MuzzleSlot_762{};
+            class CowsSlot : asdg_OpticRail1913 {};
+            //class PointerSlot : asdg_FrontSideRail {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
