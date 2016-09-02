@@ -3,7 +3,7 @@ class CfgSoundSets {
 
     class 300BLK_Shot_SoundSet {
         soundShaders[] = { "300BLK_Closure_SoundShader", "300BLK_closeShot_SoundShader", "300BLK_midShot_SoundShader", "300BLK_distShot_SoundShader" };
-        volumeFactor = 1.6;
+        volumeFactor = 1.4;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShot3DProcessingType";
         distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -82,7 +82,7 @@ class CfgSoundSets {
 
     class samr_Shot_SoundSet {
         soundShaders[] = { "samr_closeShot_SoundShader", "samr_midShot_SoundShader", "samr_distShot_SoundShader", "samr_Closure_SoundShader" };
-        volumeFactor = 1.6;
+        volumeFactor = 1.3;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;
         doppler = 0;

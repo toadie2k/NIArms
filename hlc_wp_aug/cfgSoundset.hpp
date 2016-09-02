@@ -5,7 +5,7 @@ class CfgSoundSets
 	class aug_Shot_SoundSet
 	{
 		soundShaders[] = { "aug_closeShot_SoundShader", "aug_midShot_SoundShader", "aug_distShot_SoundShader", "aug_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;

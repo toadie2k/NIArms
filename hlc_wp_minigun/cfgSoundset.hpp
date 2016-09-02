@@ -1,7 +1,7 @@
 class CfgSoundSets {
     class M134D_Shot_SoundSet {
         soundShaders[] = { "M134D_closeShot_SoundShader", "M134D_midShot_SoundShader", "M134D_distShot_SoundShader", "M134D_Closure_SoundShader" };
-        volumeFactor = 1.6;
+        volumeFactor = 1.2;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;
         doppler = 0;

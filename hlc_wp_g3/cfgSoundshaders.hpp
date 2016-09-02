@@ -6,13 +6,13 @@ class CfgSoundShaders {
             { "hlc_WP_G3\snd\soundshaders\generic\G3_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class G3_closeShot_SoundShader {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -193,7 +193,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3KA4_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -306,7 +306,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3SG1_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -419,7 +419,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\hk51\HK51_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -532,7 +532,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\psg1\PSG1_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -647,14 +647,14 @@ class CfgSoundShaders {
             { "hlc_wp_g3\snd\soundshaders\hk33\hk33_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class hk33_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close", 1 },
             { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -837,7 +837,7 @@ class CfgSoundShaders {
             { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close", 1 },
             { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 50;
         rangeCurve = "closeShotCurve";
     };

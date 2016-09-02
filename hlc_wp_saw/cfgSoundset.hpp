@@ -4,7 +4,7 @@ class CfgSoundSets
 	class mk48_Shot_SoundSet
 	{
 		soundShaders[] = { "mk48_closeShot_SoundShader", "mk48_midShot_SoundShader", "mk48_distShot_SoundShader", "mk48_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare3Curve";
 		stereoStartDistance = 8;
 		stereoRadius = 10;
@@ -29,7 +29,7 @@ class CfgSoundSets
 	class mk48_silencerShot_SoundSet
 	{
 		soundShaders[] = { "mk48_silencerShot_SoundShader", "mk48_Closure_SoundShader" };
-		volumeFactor = 1.4;
+        volumeFactor = 1;
 		volumeCurve = "InverseSquare3Curve";
 		stereoStartDistance = 8;
 		stereoRadius = 10;
@@ -54,7 +54,7 @@ class CfgSoundSets
 	class SAW_Shot_SoundSet
 	{
 		soundShaders[] = { "SAW_closeShot_SoundShader", "SAW_midShot_SoundShader", "SAW_distShot_SoundShader", "SAW_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;

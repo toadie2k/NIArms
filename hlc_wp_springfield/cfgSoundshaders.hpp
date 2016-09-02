@@ -6,7 +6,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_springfield\snd\1903A1_first", 1 } };
 		range = 5;
-		volume = 1.2;
+		volume = 1;
 	};
 	class M1903a1_closeShot_SoundShader
 	{

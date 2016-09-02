@@ -6,13 +6,13 @@ class CfgSoundShaders {
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 }
         };
         range = 5;
-        volume = 1;
+        volume = 0.8;
     };
     class M14_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.9;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -119,7 +119,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\generic\m14_suppressed_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.85;
         range = 150;
         rangeCurve = "closeShotCurve";
     };
@@ -196,7 +196,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.9;
         range = 100;
         rangeCurve = "closeShotCurve";
     };

@@ -4,7 +4,7 @@ class CfgSoundSets
 	class g36_MLI_Shot_SoundSet
 	{
 		soundShaders[] = { "g36_MLI_Closure_SoundShader", "g36_MLI_closeShot_SoundShader", "g36_MLI_midShot_SoundShader", "g36_MLI_distShot_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";

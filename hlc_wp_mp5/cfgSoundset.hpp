@@ -4,7 +4,7 @@ class CfgSoundSets
 	class mp5_Shot_SoundSet
 	{
 		soundShaders[] = { "mp5_closeShot_SoundShader", "mp5_midShot_SoundShader", "mp5_distShot_SoundShader", "mp5_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare3Curve";
 		spatial = 1;
 		doppler = 0;

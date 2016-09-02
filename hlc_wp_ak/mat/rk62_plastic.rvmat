@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="hlc_wp_akextended\tex\nix_rk62\rk62_nohq.paa";
+	texture="hlc_wp_ak\tex\nix_rk62\rk62_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="hlc_wp_akextended\tex\nix_rk62\rk62_as.paa";
+	texture="hlc_wp_ak\tex\nix_rk62\rk62_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{

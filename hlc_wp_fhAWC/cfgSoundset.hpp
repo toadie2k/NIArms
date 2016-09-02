@@ -2,7 +2,7 @@
 class CfgSoundSets {
     class awm_Shot_SoundSet {
         soundShaders[] = { "awm_closeShot_SoundShader", "awm_midShot_SoundShader", "awm_distShot_SoundShader", "awm_Closure_SoundShader" };
-        volumeFactor = 1.6;
+        volumeFactor = 1.3;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;
         doppler = 0;

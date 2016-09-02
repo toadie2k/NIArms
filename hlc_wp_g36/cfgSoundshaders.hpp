@@ -7,14 +7,14 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_first", 1 },
 			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_first", 1 } };
-		volume = 1;
+		volume = 0.7;
 		range = 5;
 	};
 	class g36_MLI_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_close", 1 } };
-		volume = 1.0;
+		volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -160,7 +160,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36c_MLI\g36c_MLI_close", 1 } };
-		volume = 1.0;
+        volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -242,7 +242,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36k_MLI\g36k_MLI_close", 1 } };
-		volume = 1.0;
+        volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -326,7 +326,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36\g36_close", 1 },
 			{ "hlc_wp_g36\snd\soundshaders\g36\g36_close", 1 } };
-		volume = 1.0;
+        volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -505,7 +505,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36c\g36c_close", 1 },
 			{ "hlc_wp_g36\snd\soundshaders\g36c\g36c_close", 1 } };
-		volume = 1.0;
+        volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -620,7 +620,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36k\g36k_close", 1 },
 			{ "hlc_wp_g36\snd\soundshaders\g36k\g36k_close", 1 } };
-		volume = 1.0;
+        volume = 0.78;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};

@@ -2750,6 +2750,7 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
                 begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
                 begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
                 begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
@@ -2769,6 +2770,7 @@ class CfgWeapons {
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
                 begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
                 begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };

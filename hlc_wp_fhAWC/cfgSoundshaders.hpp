@@ -6,7 +6,7 @@ class CfgSoundShaders {
             { "hlc_wp_fhAWC\snd\AWC_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 1;
     };
     class AWM_closeShot_SoundShader {
         samples[] = {

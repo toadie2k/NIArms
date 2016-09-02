@@ -116,7 +116,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\mk48\mk48_sil", 1 } };
-        volume = 1.0;
+        volume = 0.85;
         range = 150;
         rangeCurve = "closeShotCurve";
     };
@@ -290,7 +290,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw\saw_sil", 1 } };
-        volume = 1.0;
+        volume = 0.85;
         range = 150;
         rangeCurve = "closeShotCurve";
     };

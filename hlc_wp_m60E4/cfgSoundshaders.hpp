@@ -202,7 +202,7 @@
         samples[] = {
             { "hlc_wp_m60E4\snd\m60_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 50;
         rangeCurve = "closeShotCurve";
     };

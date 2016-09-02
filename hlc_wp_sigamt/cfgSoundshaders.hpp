@@ -12,7 +12,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_sigamt\snd\soundshaders\amt_close", 1 } };
-		volume = 0.9;
+		volume = 0.8;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};

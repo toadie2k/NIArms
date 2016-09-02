@@ -2,7 +2,7 @@
 class CfgSoundSets {
     class G3_Shot_SoundSet {
         soundShaders[] = { "G3_closeShot_SoundShader", "G3_midShot_SoundShader", "G3_distShot_SoundShader", "G3_Closure_SoundShader" };
-        volumeFactor = 1.6;
+        volumeFactor = 1.3;
         volumeCurve = "InverseSquare3Curve";
         spatial = 1;
         doppler = 0;

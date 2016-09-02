@@ -9,14 +9,14 @@ class CfgSoundShaders
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 },
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 } };
 		range = 5;
-		volume = 1.2;
+		volume = 1;
 	};
 	class aug_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close", 1 },
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close", 1 } };
-		volume = 0.9;
+		volume = 0.8;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -189,14 +189,14 @@ class CfgSoundShaders
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 },
 			{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 } };
 		range = 5;
-		volume = 1.2;
+        volume = 1;
 	};
 		class augcarbine_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_aug\snd\soundshaders\aug\augcarbine_close", 1 },
 			{ "hlc_wp_aug\snd\soundshaders\aug\augcarbine_close", 1 } };
-		volume = 0.9;
+        volume = 0.8;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -369,14 +369,14 @@ class CfgSoundShaders
 				{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 },
 				{ "hlc_wp_aug\snd\soundshaders\aug\aug_first", 1 } };
 			range = 5;
-			volume = 1.2;
+            volume = 1;
 		};
 		class aughbar_closeShot_SoundShader
 		{
 			samples[] = {
 				{ "hlc_wp_aug\snd\soundshaders\aug\aughbar_close", 1 },
 				{ "hlc_wp_aug\snd\soundshaders\aug\aughbar_close", 1 } };
-			volume = 1.0;
+			volume = 0.8;
 			range = 50;
 			rangeCurve = "closeShotCurve";
 		};
@@ -548,13 +548,13 @@ class CfgSoundShaders
 				{ "hlc_wp_aug\snd\soundshaders\augpara\AUGpara_first", 1 },
 				{ "hlc_wp_aug\snd\soundshaders\augpara\AUGpara_first", 1 } };
 			range = 5;
-			volume = 1.2;
+            volume = 1;
 		};
 		class augpara_closeShot_SoundShader
 		{
 			samples[] = {
 				{ "hlc_wp_aug\snd\soundshaders\augpara\AUGpara_close", 1 } };
-			volume = 1.0;
+			volume = 0.9;
 			range = 50;
 			rangeCurve = "closeShotCurve";
 		};

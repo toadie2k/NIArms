@@ -39,11 +39,12 @@ class CfgWeapons
             {
                 class Snip
                 {
-                    discreteDistance[] = { 100};
+                    discreteDistance[] = { 100 };
                     discreteDistanceInitIndex = 0;
                 };
             };
         };
+    };
         class hlc_optic_Kern2d : hlc_optic_Kern
         {
             ACE_ScopeAdjust_Vertical[] = { -5, 13 };

@@ -21,7 +21,7 @@ class asdg_MuzzleSlot_545R : asdg_MuzzleSlot {
         rhs_acc_dtk = 1;
         rhs_acc_dtk4short = 1;
         rhs_acc_ak5 = 1;
-        rhs_acc_dtk2 = 1;
+       // rhs_acc_dtk2 = 1;
     };
 };
 class asdg_MuzzleSlot_762R : asdg_MuzzleSlot {
@@ -55,15 +55,15 @@ class CfgWeapons
 		magazines[] += {	"hlc_30Rnd_545x39_B_AK", "hlc_30Rnd_545x39_T_AK", "hlc_30Rnd_545x39_EP_AK", "hlc_45Rnd_545x39_t_rpk", "hlc_30Rnd_545x39_S_AK"};
 
 	};
-	class rhs_weap_ak74m;
+    class rhs_weap_ak74m : rhs_weap_ak74m_Base_F {};
 	class rhs_weap_akm : rhs_weap_ak74m
 	{
 		magazines[] += {"hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak" };
-	};
+    };/*
     class rhs_weap_ak103_base : rhs_weap_akm
 	{
 		magazines[] += {"hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak" };
-	};
+	};*/
 	/*
 	========================================
 	HLC GUNS

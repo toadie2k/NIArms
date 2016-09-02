@@ -4,7 +4,7 @@ class CfgSoundSets
 	class sg510_Shot_SoundSet
 	{
 		soundShaders[] = { "sg510_closeShot_SoundShader", "sg510_midShot_SoundShader", "sg510_distShot_SoundShader", "sg510_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare3Curve";
 		stereoStartDistance = 8;
 		stereoRadius = 10;
@@ -29,7 +29,7 @@ class CfgSoundSets
 	class sg510_silencerShot_SoundSet
 	{
 		soundShaders[] = { "sg510_silencerShot_SoundShader", "sg510_Closure_SoundShader" };
-		volumeFactor = 1.4;
+		volumeFactor = 1;
 		volumeCurve = "InverseSquare3Curve";
 		stereoStartDistance = 8;
 		stereoRadius = 10;

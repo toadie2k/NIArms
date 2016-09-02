@@ -9,14 +9,14 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
-        volume = 1.2;
+        volume = 0.7;
         range = 5;
     };
     class 300BLK_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.78;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -189,14 +189,14 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class samr_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\samr\samr_close", 1 },
             { "hlc_wp_ar15\snd\soundshaders\samr\samr_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.78;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -381,14 +381,14 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
-        volume = 1.2;
+        volume = 0.7;
         range = 5;
     };
     class PBEAR_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\PBEAR\PBEAR_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.78;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -468,7 +468,7 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class jack_closeShot_SoundShader {
         samples[] = {
@@ -660,14 +660,14 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class carbine_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_close", 1 },
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.78;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -851,14 +851,14 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 }
         };
         range = 5;
-        volume = 1.2;
+        volume = 0.7;
     };
     class SBR_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_close", 1 },
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.78;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
