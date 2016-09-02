@@ -1579,7 +1579,7 @@ class CfgWeapons {
         reloadmagazinesound[] = {"hlc_wp_g36\snd\G36_reload", 0.9, 1, 35};
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1804,7 +1804,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -2031,7 +2031,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -2438,7 +2438,7 @@ class CfgWeapons {
         discretedistance[] = { 100, 200, 300, 400, 500 };
         discretedistanceinitindex = 1;
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         model = "hlc_wp_g36\mesh\G36E1\G36C.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_G36C_ca.paa";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -2692,7 +2692,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
 
     };
     class hlc_rifle_G36E1AG36 : hlc_rifle_G36A1AG36 {
@@ -2714,7 +2714,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
     };
     class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
         dlc = "Niarms_G36";
@@ -2736,7 +2736,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class Burst2rnd :Mode_Burst {
             burst = 2;
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2815,7 +2815,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         model = "hlc_wp_g36\mesh\G36V\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -3338,7 +3338,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         displayName = "HK G36V(GL)";
         muzzles[] = { "this", "hlc_GL_AG36" };
         model = "hlc_wp_g36\mesh\G36V\AG36.p3d";
@@ -3500,7 +3500,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
     };
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
         dlc = "Niarms_G36";
@@ -3522,7 +3522,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
     };
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
         dlc = "Niarms_G36";
@@ -3544,7 +3544,7 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
     };
     ///CASELESS 
 
@@ -3568,7 +3568,7 @@ class CfgWeapons {
         discretedistance[] = { 100, 200, 300, 400, 500,600,700,800 };
         discretedistanceinitindex = 1;
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         magazines[] = {
             "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag"
         };
@@ -4305,7 +4305,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\g36mlic_reload", 0.9, 1, 35 };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         magazines[] = {
             "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag"
         };

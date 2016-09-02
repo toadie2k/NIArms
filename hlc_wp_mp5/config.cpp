@@ -615,7 +615,7 @@ class hlc_muzzle_Agendasix10mm : muzzle_snds_h
 		ACE_barrelLength = 228.6;
         scope = protected;
 			drysound[] = {"hlc_wp_mp5\snd\mp5_dryfire", 1, 1, 20};
-			changeFiremodeSound[] = {"hlc_wp_mp5\snd\mp5_safety",1,1,10};
+            changeFiremodeSound[] = { "hlc_wp_mp5\snd\mp5_safety", 1, 1, 8 };
 		interia= 0.35;
 		magazines[] = {
 			"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_GD_MP5", "hlc_30Rnd_9x19_SD_MP5" };

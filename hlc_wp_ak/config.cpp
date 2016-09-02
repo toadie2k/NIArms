@@ -1505,7 +1505,7 @@ class CfgWeapons {
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
 
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_akhandgesture.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         dexterity = 1.8;
         bullet1[] = {"A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15};
         bullet10[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15};
@@ -1671,7 +1671,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         handAnim[] = {"OFP2_ManSkeleton", "hlc_wp_ak\anim\new_akhandgesture.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_ak\snd\ak_selector",1,1,5};
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = {"\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900};
@@ -1884,7 +1884,7 @@ class CfgWeapons {
         opticszoominit = 0.75;
         opticszoommax = 1.1;
         opticszoommin = 0.25;
-        changeFiremodeSound[] = {"hlc_wp_ak\snd\ak_selector",1,1,5};
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = {"\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900};
@@ -4272,7 +4272,7 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_rk62_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "Valmet Rk.62";
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 10 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         drysound[] = { "\hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rk62\rk62_reload", 1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK";
@@ -4460,7 +4460,7 @@ class CfgWeapons {
         discretedistance[] = { 350, 500 };
         discretedistanceinitindex = 0;
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
 		class Single : Mode_SemiAuto {
 			airateoffire = "1e-006";
 			begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
@@ -4668,7 +4668,7 @@ class CfgWeapons {
         discretedistance[] = { 350, 500 };
         discretedistanceinitindex = 0;
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
@@ -4876,7 +4876,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_akhandgesture.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
@@ -5076,7 +5076,7 @@ class CfgWeapons {
         opticszoominit = 0.75;
         opticszoommax = 1.1;
         opticszoommin = 0.25;
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
@@ -5282,7 +5282,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_akhandgesture.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
             airateoffire = "1e-006";
             begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
@@ -6078,7 +6078,7 @@ class CfgWeapons {
         opticszoominit = 0.75;
         opticszoommax = 1.1;
         opticszoommin = 0.25;
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 5 };
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         class Single : Mode_SemiAuto {
 
             airateoffire = "1e-006";

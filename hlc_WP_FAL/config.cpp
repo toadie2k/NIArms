@@ -849,7 +849,7 @@ class CfgWeapons {
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1006,7 +1006,7 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 330.2;
         drysound[] = { "hlc_core\sound\empty_assaultrifles", 1.01, 1, 10 };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
         discretedistanceinitindex = 2;
@@ -1064,7 +1064,7 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         modes[] = {"Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1"};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\slr\l1a1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_slr_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1161,7 +1161,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\stg58\stg58.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_stg58_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1315,7 +1315,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1467,7 +1467,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_para_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1627,7 +1627,7 @@ class CfgWeapons {
         drysound[] = { "hlc_core\sound\empty_assaultrifles", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1788,7 +1788,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\l1a1\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_l1a1_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1878,7 +1878,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\C1A1\C1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_c1_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1968,7 +1968,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_fal\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_LAR\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_izzy_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -2124,7 +2124,7 @@ class CfgWeapons {
         drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\chopmod_hands.rtm"};
-        changeFiremodeSound[] = {"hlc_wp_ak\snd\ak_selector",1,1,20};
+        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\Suchka-LR\L1A1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_bitch_x_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";

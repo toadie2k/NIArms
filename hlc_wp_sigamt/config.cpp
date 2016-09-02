@@ -1037,7 +1037,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.75, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
-        changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
         magazines[] = {
             "hlc_24Rnd_75x55_B_stgw", "hlc_24Rnd_75x55_ap_stgw", "hlc_24Rnd_75x55_T_stgw"
         };
@@ -1216,7 +1216,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.75, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
-        changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 20 };
+        changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
         magazines[] = {
             "hlc_24Rnd_75x55_B_stgw", "hlc_24Rnd_75x55_ap_stgw", "hlc_24Rnd_75x55_T_stgw"
         };
@@ -1415,7 +1415,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.75, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_sigamt\snd\amtswitch", 1, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
         model = "hlc_wp_sigamt\mesh\amt\5104.p3d";
         picture = "\hlc_wp_sigamt\tex\ui\gear_5104_x_ca.paa";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1591,7 +1591,7 @@ class CfgWeapons {
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.75, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "hlc_wp_sigamt\mesh\amt\amt.p3d";
         modes[] = { "Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1", "fullauto_medium" };
     };

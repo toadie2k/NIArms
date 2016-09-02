@@ -731,7 +731,7 @@ class CfgWeapons {
         distanceZoomMin = 300;
         distanceZoomMax = 300;
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
-        changeFiremodeSound[] = {"\hlc_wp_ar15\snd\ar15_selector",1,1,20};
+        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
         handAnim[] = {"OFP2_ManSkeleton", "hlc_core\animation\oldgesture\ak74_hands.rtm"};
 
         dexterity = 1.8;
