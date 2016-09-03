@@ -22,7 +22,7 @@ class CfgPatches {
             "hlc_rifle_G36KTAC", "hlc_rifle_G36CTAC", "hlc_rifle_G36MLIC", "hlc_rifle_G36KMLIC", "hlc_rifle_G36CMLIC","hlc_rifle_G36MLIAG36"
         };
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_30rnd_556x45_SOST_G36","hlc_30rnd_556x45_SPR_G36","hlc_100rnd_556x45_EPR_G36"};
-        version="v1.1";
+        version="v1.15";
         author="toadie";
     };
 };

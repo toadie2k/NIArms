@@ -82,7 +82,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         magazines[] = {};
-        version="v1.0";
+        version="v1.05";
         author="toadie";
     };
 };

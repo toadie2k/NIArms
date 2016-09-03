@@ -16,7 +16,7 @@ class CfgPatches
 	units[] = {"HLC_LRR_ammobox","Weapon_hlc_rifle_awcovert","Weapon_hlc_rifle_awcovert_BL","Weapon_hlc_rifle_awcovert_FDE","Weapon_hlc_rifle_awmagnum","Weapon_hlc_rifle_awmagnum_BL","Weapon_hlc_rifle_awmagnum_FDE","Weapon_hlc_rifle_awMagnum_OD_ghillie","Weapon_hlc_rifle_awMagnum_FDE_ghillie","Weapon_hlc_rifle_awMagnum_BL_ghillie"};
 	weapons[] = {};
 	magazines[] = {};
-	version="1.2";
+	version="1.25";
 	author="toadie";
  };
 };

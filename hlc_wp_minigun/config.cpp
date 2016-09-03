@@ -14,7 +14,7 @@ class CfgPatches {
         units[] = { };
         weapons[] = { "HLC_wp_M134Painless" };
         magazines[] = { "hlc_500rnd_762x51_Belt","hlc_500rnd_762x51_Cinematic"};
-        version = "Vyes";
+        version = "1.05";
         author = "toadie";
     };
 };

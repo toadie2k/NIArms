@@ -14,7 +14,7 @@ class CfgPatches {
         units[] = {"HLC_M60E4_ammobox","Weapon_hlc_lmg_M60E4","Weapon_hlc_lmg_M60"};
         weapons[] = {};
         magazines[] = {};
-        version="10";
+        version="10.5";
         author="toadie";
     };
 };

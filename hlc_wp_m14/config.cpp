@@ -14,7 +14,7 @@ class CfgPatches {
         units[] = {"HLC_M14_ammobox","Weapon_rifle_M14","Weapon_hlc_rifle_M21","Weapon_hlc_rifle_m14sopmod","Weapon_hlc_rifle_m14dmr","weapon_hlc_rifle_M14_Bipod","weapon_hlc_rifle_M14_Rail"};
         weapons[] = {"hlc_rifle_M14","hlc_rifle_M21","hlc_rifle_m14dmr","hlc_rifle_m14sopmod","hlc_muzzle_snds_M14","hlc_optic_artel_m14","hlc_optic_LRT_m14","hlc_optic_PVS4M14"};
         magazines[] = {"hlc_50Rnd_762x51_B_M14","hlc_20Rnd_762x51_T_M14","hlc_20Rnd_762x51_B_M14"};
-        version="v1.8";
+        version="v1.85";
         author="toadie";
     };
 };

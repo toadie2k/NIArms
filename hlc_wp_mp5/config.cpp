@@ -1,4 +1,4 @@
-#define private        0
+﻿#define private        0
 #define protected        1
 #define public        2
 
@@ -16,7 +16,7 @@ class CfgPatches
 	units[] = { "HLC_MP5_ammobox", "weapon_hlc_smg_mp5k_PDW", "weapon_hlc_smg_mp5a2", "weapon_hlc_smg_mp5a3", "weapon_hlc_smg_mp5a4", "weapon_hlc_smg_mp5n", "weapon_hlc_smg_9mmar", "weapon_hlc_smg_mp5sd5", "weapon_hlc_smg_mp5sd6","weapon_hlc_smg_mp510" };
 	weapons[] = {"hlc_smg_mp5k_PDW","hlc_smg_mp5a2","hlc_smg_mp5a4","hlc_smg_mp5n","hlc_smg_mp5sd5","hlc_smg_mp5sd6","hlc_smg_mp5k","hlc_smg_9mmar"};
 	magazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_GD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_10mm_B_MP5","hlc_30Rnd_10mm_JHP_MP5"};
-	version="1.5";
+	version="1.55";
 	author="toadie";
  };
 };
