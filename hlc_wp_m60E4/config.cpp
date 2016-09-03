@@ -474,7 +474,7 @@ class CfgWeapons {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
                 compatibleItems[] = {};
             };
-            class asdg_OpticRail_M60e4: asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913 {};
             //class asdg_FrontSideRail_M60e4: asdg_FrontSideRail {};
         };
         class ItemInfo {

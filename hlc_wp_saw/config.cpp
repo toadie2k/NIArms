@@ -49,6 +49,7 @@ class InventoryFlashLightItem_Base_F;
 class InventoryOpticsItem_Base_F;
 class GrenadeLauncher;
 class asdg_FrontSideRail;
+class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
@@ -586,9 +587,8 @@ class CfgWeapons {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
                 compatibleItems[] = {};
             };
-            class CowsSlot : CowsSlot { compatibleItems[]={}; };
-
-            class PointerSlot : PointerSlot { compatibleItems[] = {}; };
+            class CowsSlot : asdg_OpticRail {};
+            class PointerSlot {};
         };
         opticszoominit = 0.75;
         opticszoommax = 1.1;
@@ -785,7 +785,7 @@ class CfgWeapons {
         aidispersioncoefy = 24;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 165;
-            class asdg_MuzzleSlot_556_minimi : asdg_MuzzleSlot_556{};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
         class ItemInfo {
             priority = 1;
@@ -1036,7 +1036,8 @@ class CfgWeapons {
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
                 mass = 168;
-            class asdg_OpticRail_Minimi_long : asdg_OpticRail1913 {};
+                class MuzzleSlot : asdg_MuzzleSlot_556 {};
+                class CowsSlot : asdg_OpticRail1913 {};
         };
     };
     class hlc_m249_pip1 : hlc_lmg_minimi_railed {
@@ -1089,8 +1090,8 @@ class CfgWeapons {
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 155;
-            class asdg_FrontSideRail_m249 : asdg_FrontSideRail {};
-            class asdg_UnderSlot_m249 : asdg_UnderSlot{};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
     class hlc_m249_SQuantoon : hlc_m249_pip4 {
@@ -1141,10 +1142,10 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
-            class asdg_UnderSlot_mk48 : asdg_UnderSlot{};
-            class asdg_MuzzleSlot_762_mk48 : asdg_MuzzleSlot_762{};
-            class asdg_OpticRail_mk48 : asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_mk48 : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1255,6 +1256,23 @@ class CfgWeapons {
         };
         class Library {
             libTextDesc = "US Ordnance M60E4";
+        };
+    };
+    class hlc_lmg_mk48mod1 :hlc_lmg_mk48
+    {
+        hasBipod = true;
+        deployedPivot = "deploypoint";
+        picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
+        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+        model = "\hlc_wp_saw\mesh\mk48\Mk48mod1.p3d";
+        displayName = "Mk.48 Mod.1";
+        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 102;
+            class UnderBarrelSlot : asdg_UnderSlot { compatibleItems[] = {}; };
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
     };
     /*Commented Out
