@@ -2177,7 +2177,7 @@ class CfgWeapons {
         AB_barrelTwist=8;
         AB_barrelLength=14.5;
         ACE_barrelTwist = 203.2;
-        ACE_barrelLength = 368.3;
+        ACE_barrelLength = 406.4;
         scope =public;
         author = "Sephiris, Agent95, Toadie";
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
@@ -2571,7 +2571,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAR15_Catch_DR";
         ACE_barrelTwist = 228.6;
         maxZeroing = 1600;
-        ACE_barrelLength = 406.4;
+        ACE_barrelLength = 457.2;
         scope =public;
         agm_bipod=1;
         cse_bipod = 1;
