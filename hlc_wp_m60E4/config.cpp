@@ -39,12 +39,8 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
+
+class asdg_OpticRail1913_short_MG;
 
 class CfgVehicles {
     class NATO_Box_Base;
@@ -231,16 +227,8 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class GrenadeLauncher;
     class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F;
     class Rifle_Base_F: Rifle  {
-        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
@@ -276,14 +264,9 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =33;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[]={};
-            };
-            class PointerSlot: PointerSlot{compatibleItems[] = {};};
+            class MuzzleSlot {};
+            class CowsSlot {};
+            class PointerSlot {};
         };
         opticsZoomMin = 0.375;
         opticsZoomMax = 1.1;
@@ -470,12 +453,7 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 193;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : asdg_OpticRail1913 {};
-            //class asdg_FrontSideRail_M60e4: asdg_FrontSideRail {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
         class ItemInfo {
             priority = 1;
@@ -650,10 +628,6 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 210;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
         };
     };
 };
