@@ -23,9 +23,6 @@ class CfgPatches
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
 class cfgMods
 {
@@ -45,9 +42,26 @@ class cfgMods
 	};
 };
 
+class asdg_SlotInfo;
+class niarms_mp5_frontsiderail: asdg_SlotInfo {
+    linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
+    displayName = "$STR_A3_PointerSlot0";
+    iconPicture = "\a3\weapons_f\Data\ui\attachment_side";
+    class compatibleItems {
+        hlc_acc_Surefiregrip = 1;
+    };
+};
+
 class asdg_FrontSideRail;
-class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
+class asdg_MuzzleSlot;
+
+class asdg_MuzzleSlot_9MM_SMG: asdg_MuzzleSlot {
+	class compatibleItems;
+};
+class asdg_MuzzleSlot_45ACP_SMG: asdg_MuzzleSlot {
+	class compatibleItems;
+};
 
 class cfgRecoils
 {
@@ -515,21 +529,13 @@ class CfgMagazines{
 		picture = "\hlc_wp_MP5\tex\ui\mag_10mm_hydra_ca";
 	};
 };
+
 class CfgWeapons {
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
-    class Rifle;
-	class optic_Hamr;
-	class LMG_Zafir_F;
-class ItemCore;
-class muzzle_snds_h : ItemCore {
-	class ItemInfo;
-};
-class hlc_acc_Surefiregrip : ItemCore
-{
+
+    class ItemCore;
+    class InventoryFlashLightItem_Base_F;
+    class hlc_acc_Surefiregrip : ItemCore
+    {
 	dlc = "Niarms_MP5";
 	author = "Arby26,Toadie";
 	_generalMacro = "acc_flashlight";
@@ -569,6 +575,8 @@ class hlc_acc_Surefiregrip : ItemCore
 	};
 	inertia = 0.1;
 };
+
+    class muzzle_snds_h;
 class hlc_muzzle_Agendasix : muzzle_snds_h
 {
 	dlc = "Niarms_MP5";
@@ -596,12 +604,14 @@ class hlc_muzzle_Agendasix10mm : muzzle_snds_h
 		model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
 
 };
+
+    class Rifle;
     class Rifle_Base_F: Rifle 
     {
-        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
+
 	class hlc_MP5_base : Rifle_Base_F
 	{
 		dlc = "Niarms_MP5";
@@ -633,9 +643,14 @@ class hlc_muzzle_Agendasix10mm : muzzle_snds_h
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 26;
-            class MuzzleSlot: SlotInfo{};
-			class CowsSlot: CowsSlot{};
-			class PointerSlot: PointerSlot{};
+			class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG {
+				class compatibleItems: compatibleItems {
+					hlc_muzzle_Agendasix = 1;
+					hlc_muzzle_Tundra = 1;
+				};
+			};
+			class CowsSlot {};
+			class PointerSlot {};
         };
 		opticszoominit = 0.75;
 		opticszoommax = 1.1;
@@ -828,17 +843,7 @@ reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5k_reload", 0.7, 1, 20 };
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 50;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_Tundra"};
-            };
-			class asdg_OpticRail_MP5K: asdg_OpticRail1913_short {};
-			//class asdg_FrontSideRail_MP5K: asdg_FrontSideRail {};
-						class PointerSlot: PointerSlot {
-linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-compatibleitems[] = {};
-};
+			class CowsSlot: asdg_OpticRail1913_short {};
         };
         class ItemInfo
         {
@@ -1189,17 +1194,8 @@ reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 50;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_L","hlc_muzzle_Agendasix","hlc_muzzle_Tundra"};
-            };
-			class PointerSlot: PointerSlot {
-linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-compatibleitems[] = {"hlc_acc_Surefiregrip"};
-};
-			class asdg_OpticRail_MP5A2: asdg_OpticRail1913_short {};
-			//class asdg_FrontSideRail_MP5K: asdg_FrontSideRail {};
+			class PointerSlot: niarms_mp5_frontsiderail {};
+			class CowsSlot: asdg_OpticRail1913_short {};
         };
         class ItemInfo
         {
@@ -1445,13 +1441,8 @@ class hlc_smg_MP5N : hlc_Mp5_base {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 62;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_L","hlc_muzzle_Agendasix","hlc_muzzle_Tundra"};
-            };
-			class asdg_OpticRail_MP5N: asdg_OpticRail1913_short {};
-			class asdg_FrontSideRail_MP5N: asdg_FrontSideRail {};
+			class CowsSlot: asdg_OpticRail1913_short {};
+			class PointerSlot: asdg_FrontSideRail {};
         };
         class ItemInfo
         {
@@ -2112,13 +2103,8 @@ scope = public;
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 58;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_L","hlc_muzzle_Agendasix","hlc_muzzle_Tundra"};
-            };
-			class asdg_OpticRail_MP5A4: asdg_OpticRail1913_short {};
-			class asdg_FrontSideRail_MPa4: asdg_FrontSideRail {};
+			class CowsSlot: asdg_OpticRail1913_short {};
+			class PointerSlot: asdg_FrontSideRail {};
         };
         class ItemInfo
         {
@@ -2436,13 +2422,13 @@ magazines[] = {
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 54;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_acp","hlc_muzzle_Agendasix10mm"};
-            };
-			class asdg_OpticRail_MP5N: asdg_OpticRail1913_short {};
-			class asdg_FrontSideRail_MP5N: asdg_FrontSideRail {};
+			class MuzzleSlot: asdg_MuzzleSlot_45ACP_SMG {
+				class compatibleItems: compatibleItems {
+					hlc_muzzle_Agendasix10mm = 1;
+				};
+			};
+			class CowsSlot: asdg_OpticRail1913_short {};
+			class PointerSlot: asdg_FrontSideRail {};
         };
         class ItemInfo
         {
@@ -2767,17 +2753,8 @@ class hlc_smg_mp5sd5 : hlc_Mp5_base
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             mass = 62;
-            class MuzzleSlot: SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-			class PointerSlot: PointerSlot {
-linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-compatibleitems[] = {};
-};
-			class asdg_OpticRail_MP5SD5: asdg_OpticRail1913_short {};
-			//class asdg_FrontSideRail_MP5N: asdg_FrontSideRail {};
+			class CowsSlot: asdg_OpticRail1913_short {};
+            class MuzzleSlot {};
         };
         class ItemInfo
         {
