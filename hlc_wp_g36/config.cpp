@@ -2435,7 +2435,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 67;
             class CowsSlot : asdg_OpticRail1913 {};
-            //class PointerSlot : asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -2816,8 +2816,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
             class CowsSlot : asdg_OpticRail1913 {};
-            //class PointerSlot : asdg_FrontSideRail {}; // missing rail, attachment detached :)
-            //class UnderBarrelSlot :asdg_UnderSlot {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot :asdg_UnderSlot {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -3341,7 +3341,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
             class CowsSlot : asdg_OpticRail1913 {};
-            //class PointerSlot : asdg_FrontSideRail {}; // rail missing
+            class PointerSlot : asdg_FrontSideRail {};
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -4326,7 +4326,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
             class CowsSlot : asdg_OpticRail1913 {};
-            //class PointerSlot : asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {};
             class MuzzleSlot : asdg_MuzzleSlot_762 {};
         };
         class Single : Mode_SemiAuto {
