@@ -22,15 +22,26 @@ class CfgPatches {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
-class asdg_FrontSideRail;
+
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
+    class compatibleItems;
+};
+class asdg_OpticRail;
+class niarms_m14_OpticRail: asdg_OpticRail {
+    class compatibleItems {
+        hlc_optic_artel_m14 = 1;
+        hlc_optic_LRT_m14 = 1;
+        hlc_optic_PVS4M14 = 1;
+    };
+};
+
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
+class asdg_FrontSideRail;
 class asdg_UnderSlot;
-class asdg_OpticRail1913_long;
+
 
 class cfgMods {
     class Mod_Base;
@@ -406,25 +417,10 @@ class CfgMagazines {
 };
 
 class CfgWeapons {
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class GrenadeLauncher;
     class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
     class Rifle_Base_F : Rifle  {
-        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
-    };
-    class optic_dms;
-    class optic_SOS;
-    class optic_lrps;
-    class ItemCore;
-    class muzzle_snds_H : ItemCore {
-        class ItemInfo;
     };
 
     class hlc_M14_base : Rifle_Base_F {
@@ -454,16 +450,13 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =33;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_snds_M14"};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                class compatibleItems: compatibleItems {
+                    hlc_muzzle_snds_M14 = 1;
+                };
             };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {"hlc_optic_artel_m14","hlc_optic_LRT_m14","hlc_optic_PVS4M14"};
-            };
-            class PointerSlot: PointerSlot{
-                compatibleItems[] = {};
-            };
+            class CowsSlot : niarms_m14_OpticRail {};
+            class PointerSlot {};
         };
         distanceZoomMin = 300;
         distanceZoomMax = 300;
@@ -521,6 +514,12 @@ class CfgWeapons {
         drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
         //reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
     };
+
+
+    class InventoryOpticsItem_Base_F;
+    class optic_dms;
+    class optic_lrps;
+
     class hlc_optic_artel_m14 : optic_dms {
         author = "Millenia, Toadie";
         dlc = "Niarms_M14";
@@ -775,13 +774,17 @@ class CfgWeapons {
         };
     };
 
+
+    class muzzle_snds_H;
+
     class hlc_muzzle_snds_M14 : muzzle_snds_H {
+        scope = protected;
         author = "Toadie";
         displayName = "M14 Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_wp_m14\mesh\SUP_308M14\hk308";
-        
     };
+
     class hlc_rifle_M14 : hlc_M14_base {
         author = "An Aggressive Napkin, Millenia, Toadie";
         scope = public;
@@ -808,10 +811,6 @@ class CfgWeapons {
         opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_snds_M14"};
-            };
         };
         class ItemInfo {
             priority = 1;
@@ -1007,11 +1006,7 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\m14\M14_railed.p3d";
         displayName = "Springfield Armory M14(Rail)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            class asdg_OpticRail_M14 : asdg_OpticRail1913_short {};
-            class CowsSlot : CowsSlot{
-                compatibleItems[] = {};
-
-            };
+            class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
     class hlc_rifle_M21 : hlc_M14_base {
@@ -1046,10 +1041,6 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 105;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_snds_M14"};
-            };
         };
         class ItemInfo {
             priority = 1;
@@ -1208,16 +1199,9 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\dmr_hands.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass =105;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"hlc_muzzle_snds_M14"};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[]= {};
-            };
-            class asdg_OpticRail_TroyM14 : asdg_OpticRail1913_long {};
-            class asdg_FrontSideRail_TroyM14 : asdg_FrontSideRail {};
-            class asdg_UnderSlot_Troym14 : asdg_UnderSlot {};
+            class CowsSlot : asdg_OpticRail1913 {}; //medium, can't do long scope + night sight combos
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
 };
