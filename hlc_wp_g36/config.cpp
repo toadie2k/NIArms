@@ -974,6 +974,9 @@ class CfgWeapons {
         class GunParticles;
     };
 
+//optics
+#define __OPTIC_DMR opticType = 1
+
     class InventoryOpticsItem_Base_F;
     class optic_Arco;
 
@@ -985,6 +988,7 @@ class CfgWeapons {
         model = "\hlc_wp_G36\mesh\optics\dualoptic3-5x.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
             class OpticsModes {
@@ -1025,6 +1029,7 @@ class CfgWeapons {
         author = "Toadie";
         displayname = "G36 Dual-Optic 3.5x(2D)";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
             class OpticsModes {
@@ -1072,6 +1077,7 @@ class CfgWeapons {
         author = "Toadie";
         displayname = "G36 Export Optic 3.5x(2D)";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
             class OpticsModes {

@@ -515,6 +515,9 @@ class CfgWeapons {
         //reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload_1p", 0.5, 1};
     };
 
+//optics
+#define __OPTIC_DMR opticType = 1
+#define __OPTIC_SNP opticType = 2
 
     class InventoryOpticsItem_Base_F;
     class optic_dms;
@@ -529,6 +532,7 @@ class CfgWeapons {
         picture = "\hlc_wp_M14\tex\ui\gear_artel_x_ca";
         displayname = "Redfield AR-TEL";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_SNP;
             mass = 7;
             modelOptics = "\hlc_wp_M14\mesh\ar-tel\artel_reticle.p3d";
             class OpticsModes {
@@ -668,6 +672,7 @@ class CfgWeapons {
         picture = "\hlc_wp_M14\tex\ui\gear_PVS4_x_ca";
         model = "\hlc_wp_M14\mesh\PVS4\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
             mass = 7;
             modelOptics = "\hlc_wp_M14\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
