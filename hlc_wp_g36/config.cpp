@@ -1468,6 +1468,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -2568,6 +2569,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -2733,6 +2735,7 @@ class CfgWeapons {
         changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class Burst2rnd :Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -2950,6 +2953,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -3197,6 +3201,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -3663,6 +3668,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -3963,6 +3969,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -4202,6 +4209,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -4460,6 +4468,7 @@ class CfgWeapons {
         };
         class Burst2rnd : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             sounds[] = { "StandardSound", "SilencedSound" };
 
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)

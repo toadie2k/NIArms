@@ -2163,6 +2163,7 @@ class CfgWeapons {
         };
         class Burst : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             reloadTime = 0.06;
             begin1[] = { "\hlc_wp_ak\snd\ak12_fire", 1.0, 1, 1200 };
             begin2[] = { "\hlc_wp_ak\snd\ak12_fire", 1.0, 1, 1200 };
@@ -2425,6 +2426,7 @@ class CfgWeapons {
         };
         class Burst : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             reloadTime = 0.06;
             begin1[] = { "\hlc_wp_ak\snd\ak12_fire", 1.0, 1, 1200 };
             begin2[] = { "\hlc_wp_ak\snd\ak12_fire", 1.0, 1, 1200 };
@@ -2633,6 +2635,7 @@ class CfgWeapons {
         };
         class Burst : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             reloadTime = 0.06;
             begin1[] = {"\hlc_wp_ak\snd\ak12_fire",1.0,1,1200};
             begin2[] = {"\hlc_wp_ak\snd\ak12_fire",1.0,1,1200};
@@ -2883,6 +2886,7 @@ class CfgWeapons {
         };
         class Burst : Mode_Burst {
             burst = 2;
+            textureType = "dual";
             reloadTime = 0.06;
             begin1[] = {"\hlc_wp_ak\snd\ak12_fire",1.0,1,1200};
             begin2[] = {"\hlc_wp_ak\snd\ak12_fire",1.0,1,1200};
