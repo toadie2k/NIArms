@@ -604,9 +604,6 @@ class CfgWeapons {
             };
 
             __ROF(800);
-
-            recoil = "recoil_single_primary_3outof10";
-            recoilProne = "recoil_single_primary_prone_3outof10";
             dispersion = 0.00093;
 
             aiRateOfFire = 1;
@@ -643,8 +640,6 @@ class CfgWeapons {
             };
 
             __ROF(800);
-            recoil = "recoil_auto_primary_3outof10";
-            recoilProne = "recoil_auto_primary_prone_3outof10";
             dispersion = 0.00093;
 
             //AI
@@ -682,8 +677,6 @@ class CfgWeapons {
             };
 
             __ROF(800);
-            recoil = "recoil_single_primary_3outof10";
-            recoilProne = "recoil_single_primary_prone_3outof10";
             dispersion = 0.00093;
 
             //AI
@@ -830,18 +823,6 @@ class CfgWeapons {
 
         modes[] = {"Single","FullAuto"};
 
-        class Single: Single
-        {
-            recoil = "recoil_single_smg_02";
-            recoilprone = "recoil_single_prone_smg_02";
-        };
-
-        class FullAuto: FullAuto
-        {
-            recoil = "recoil_auto_smg_02";
-            recoilprone = "recoil_auto_prone_smg_02";
-        };
-
         class Library
         {
             libTextDesc = "Heckler und Koch GMBH Mp5A2";
@@ -881,24 +862,6 @@ class CfgWeapons {
             priority = 1;
             RMBhint = "XMC";
             onHoverText = "TODO XMC DSS";
-        };
-
-        class Single: Single
-        {
-            recoil = "recoil_single_smg_02";
-            recoilprone = "recoil_single_prone_smg_02";
-        };
-
-        class Burst: Burst
-        {
-            recoil = "recoil_auto_smg_02";
-            recoilprone = "recoil_auto_prone_smg_02";
-        };
-
-        class FullAuto: FullAuto
-        {
-            recoil = "recoil_auto_smg_02";
-            recoilprone = "recoil_auto_prone_smg_02";
         };
 
         class Library
@@ -1090,9 +1053,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp510_silencerShot_SoundSet", "mp510_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_auto_primary_3outof10";
-            recoilProne = "recoil_auto_primary_prone_3outof10";
         };
 
         class Single: Single
@@ -1106,9 +1066,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp510_silencerShot_SoundSet", "mp510_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_single_primary_3outof10";
-            recoilProne = "recoil_single_primary_prone_3outof10";
         };
 
         class Burst: Burst
@@ -1122,9 +1079,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp510_silencerShot_SoundSet", "mp510_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_auto_primary_3outof10";
-            recoilProne = "recoil_auto_primary_prone_3outof10";
         };
 
     };
@@ -1175,9 +1129,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp5sd_silencerShot_SoundSet", "mp5sd_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_auto_smg_02";
-            recoilprone = "recoil_auto_prone_smg_02";
         };
 
         class Single: Single
@@ -1187,9 +1138,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp5sd_silencerShot_SoundSet", "mp5sd_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_single_smg_02";
-            recoilprone = "recoil_single_prone_smg_02";
         };
 
         class Burst: Burst
@@ -1199,9 +1147,6 @@ class CfgWeapons {
             {
                 soundSetShot[] = { "mp5sd_silencerShot_SoundSet", "mp5sd_silencerTail_SoundSet" };
             };
-
-            recoil = "recoil_auto_smg_02";
-            recoilprone = "recoil_auto_prone_smg_02";
         };
     };
 
