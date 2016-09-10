@@ -643,6 +643,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
+			allowedSlots[] = {701, 901}; //vest,ruck
             mass = 26;
             class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG {
                 class compatibleItems: compatibleItems {
