@@ -93,13 +93,6 @@ class Mode_FullAuto;
 class SlotInfo;
 class CowsSlot;
 class PointerSlot;
-class ebr_base_f;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
 
 class CfgMovesBasic {
      class DefaultDie;

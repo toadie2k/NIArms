@@ -12,15 +12,10 @@ class CfgPatches
 	};
 };
 
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-
 class CfgWeapons
 {
     class ItemCore;
+    class InventoryOpticsItem_Base_F;
     class optic_Arco : ItemCore{};
 
     class hlc_optic_Kern :optic_arco
