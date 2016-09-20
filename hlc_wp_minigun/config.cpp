@@ -26,13 +26,6 @@ class SlotInfo;
 class CowsSlot;
 class PointerSlot;
 
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
-
 class cfgMods {
     class mod_base;
 

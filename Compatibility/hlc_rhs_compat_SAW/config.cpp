@@ -11,30 +11,7 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
-class asdg_OpticSideMount;
-class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
-class WeaponSlotsInfo;
-class ItemCore;
-class InventoryMuzzleItem_Base_F;
-class Rifle;
-class Rifle_Base_F : Rifle
-{
-	class WeaponSlotsInfo;
-	class GunParticles;
-};
-class Rifle_Long_Base_F : Rifle_Base_F
-{
-	class WeaponSlotsInfo;
-};
-class UGL_F;
+
 class CfgWeapons
 {
 

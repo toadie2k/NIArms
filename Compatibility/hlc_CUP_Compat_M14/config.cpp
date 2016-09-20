@@ -14,7 +14,6 @@ class CfgPatches
 class SlotInfo;
 class CfgWeapons
 {
-	class WeaponSlotsInfo;
 	class ItemCore;
 	class InventoryMuzzleItem_Base_F;
 	class Rifle;
