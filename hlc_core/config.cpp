@@ -73,7 +73,7 @@ class CfgGesturesMale
 
 class CfgPatches {
     class hlcweapons_core {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails"};
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F"};
         units[] = {};
         weapons[] = {};
         magazines[] = {};
@@ -81,20 +81,6 @@ class CfgPatches {
         author="toadie";
     };
 };
-
-class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class ebr_base_f;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryFlashLightItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class GrenadeLauncher;
 
 class CfgMovesBasic {
      class DefaultDie;
@@ -946,10 +932,6 @@ class CfgGesturesMale {
         };
     };
 };
-
-class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
 
 /*
 BALLISTIC DATA PER-BULLET
