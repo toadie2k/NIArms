@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "script_macros.hpp"
 
 /*
 Scripting notes- 
