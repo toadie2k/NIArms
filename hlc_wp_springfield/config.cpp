@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "\hlc_core\script_macros.hpp"
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
@@ -13,7 +8,7 @@ class CfgPatches
  class hlcweapons_Springfield1903
  {
 	 requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark","asdg_jointrails", "hlcweapons_core" };
-	units[] = {"HLC_LRR_ammobox","Weapon_hlc_rifle_awcovert","Weapon_hlc_rifle_awcovert_BL","Weapon_hlc_rifle_awcovert_FDE","Weapon_hlc_rifle_awmagnum","Weapon_hlc_rifle_awmagnum_BL","Weapon_hlc_rifle_awmagnum_FDE","Weapon_hlc_rifle_awMagnum_OD_ghillie","Weapon_hlc_rifle_awMagnum_FDE_ghillie","Weapon_hlc_rifle_awMagnum_BL_ghillie"};
+	units[] = {"HLC_LRR_ammobox"};
 	weapons[] = {};
 	magazines[] = {};
 	version="1.25";
@@ -40,16 +35,9 @@ class cfgMods
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
 class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
-class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
+
 class CfgSounds
 {
 	class hlc_bolt_1903
@@ -284,24 +272,12 @@ class CfgVehicles
 		transportMaxMagazines = 250;
 		class TransportMagazines
 		{
-			class ___hlc_5rnd_3006_1903
-			{
-				magazine = "hlc_5rnd_3006_1903";
-				count = 30;
-			};
+            __M_MAG(hlc_5rnd_3006_1903,30);
 		};
 		class TransportWeapons
 		{
-			class _xx_hlc_rifle_M1903A1_unertl
-			{
-				weapon = "hlc_rifle_M1903A1_unertl";
-				count = 10;
-			};
-			class _xxhlc_rifle_M1903A1
-			{
-				weapon = "hlc_rifle_M1903A1";
-				count = 10;
-			};
+            __M_WEP(hlc_rifle_M1903A1_unertl,10);
+            __M_WEP(hlc_rifle_M1903A1,10);
 		};
 	};
 	class Weapon_Base_F;
@@ -413,11 +389,8 @@ class CfgRecoils
 };
 class CfgWeapons {
 	class Rifle;
-	class optic_Hamr;
-	class LMG_Zafir_F;
 	class Rifle_Base_F : Rifle
 	{
-        class ItemInfo;
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
@@ -426,7 +399,8 @@ class CfgWeapons {
 		dlc = "Niarms_M1903";
 		author = "Toadie";
 		scope = protected;
-		magazines[] = {};
+		magazines[] = { "hlc_5rnd_3006_1903" };
+		recoil = "recoil_1903a1";
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
         maxZeroing = 1600;
@@ -442,18 +416,9 @@ class CfgWeapons {
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			mass = 165;
-			class MuzzleSlot : SlotInfo
-			{
-				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[] = {};
-			};
-			class CowsSlot : CowsSlot{
-				compatibleItems[] =
-				{
-				};
-			};
-
-
+			class MuzzleSlot {};
+			class CowsSlot {};
+            class PointerSlot {};
 		};
 		opticsZoomMin = 0.375;
 		opticsZoomMax = 1.1;
@@ -495,27 +460,8 @@ class CfgWeapons {
 			class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
 			{
 				soundSetShot[] = { "M1903a1_Shot_SoundSet", "M1903a1_Tail_SoundSet" };
-				begin1[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin2[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin3[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-				class SoundTails
-				{
-					class TailInterior
-					{
-						sound[] = { "hlc_wp_springfield\snd\1903A1_indoor", 1.0, 1, 1200 };
-						frequency = 1;
-						volume = "interior";
-					};
-				};
 			};
-            begin1[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-			soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-            closure2[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-			soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-			weaponSoundEffect = "DefaultRifle";
+
 			reloadTime = 1.637;
 			dispersion = 0.00035;
 			maxrange = 600;
@@ -589,11 +535,9 @@ class CfgWeapons {
 		cse_bipod = 1;
 		tmr_autorest_deployable = 1;
 		TMR_acc_bipod = 1;
-		recoil = "recoil_1903a1";
 		deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
 		hasBipod = false;          /// a weapon with bipod obviously has a bipod
 		magazineReloadSwitchPhase = 0.35;
-		magazines[] = { "hlc_5rnd_3006_1903" };
 		class bg_weaponparameters
 		{
 
@@ -625,11 +569,6 @@ class CfgWeapons {
 		discretedistanceinitindex = 2;
 		bg_bipod = 1;
 		handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_springfield\anim\awmhands.rtm" };
-		opticszoominit = 0.75;
-		opticszoommax = 1.1;
-		opticszoommin = 0.375;
-		aiDispersionCoefY = 10;
-		aiDispersionCoefX = 8;
 		class OpticsModes {
 
 			class Snip
@@ -655,19 +594,7 @@ class CfgWeapons {
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			mass = 121;
-			class MuzzleSlot : SlotInfo
-			{
-				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[] = {};
-			};
-			class asdg_FrontSideRail_1903 : asdg_FrontSideRail
-			{
-				linkProxy = "\A3\data_f\proxies\weapon_slots\SIDE";
-			};
-			class CowsSlot : CowsSlot{
-				compatibleItems[] = {};
-			};
-			//class asdg_OpticRail_AWM : asdg_OpticRail1913 {};
+			class PointerSlot : asdg_FrontSideRail {};
 		};
 		class ItemInfo
 		{
@@ -675,38 +602,8 @@ class CfgWeapons {
 			RMBhint = "XMC";
 			onHoverText = "TODO XMC DSS";
 		};
-		class Single : Mode_SemiAuto
+		class Single : Single
 		{
-			sounds[] = { "StandardSound" };
-
-			class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-			{
-				weaponSoundEffect = "DefaultRifle";
-
-				closure1[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-				closure2[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-				soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-			};
-
-			class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-			{
-				soundSetShot[] = { "M1903a1_Shot_SoundSet", "M1903a1_Tail_SoundSet" };
-				begin1[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin2[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin3[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-				class SoundTails
-				{
-					class TailInterior
-					{
-						sound[] = { "hlc_wp_springfield\snd\1903A1_indoor", 1.0, 1, 1200 };
-						frequency = 1;
-						volume = "interior";
-					};
-				};
-			};
-
-
 			reloadTime = 1.6666666666666666666666666666667;
 			dispersion = 0.000436332;
 			minRange = 2;
@@ -742,11 +639,9 @@ class CfgWeapons {
 		cse_bipod = 1;
 		tmr_autorest_deployable = 1;
 		TMR_acc_bipod = 1;
-		recoil = "recoil_1903a1";
 		deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
 		hasBipod = false;          /// a weapon with bipod obviously has a bipod
 		magazineReloadSwitchPhase = 0.5625;
-		magazines[] = { "hlc_5rnd_3006_1903" };
 		class bg_weaponparameters
 		{
 
@@ -777,27 +672,9 @@ class CfgWeapons {
 		discreteDistanceCameraPoint[] = { "eye2", "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11", "eye12", "eye13", "eye14", "eye15", "eye16", "eye17", "eye18", "eye19", "eye20", "eye21", "eye22", "eye23", "eye24", "eye25", "eye26", "eye27" }; /// the angle of gun changes with zeroing
 		bg_bipod = 1;
 		handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_springfield\anim\awmhands.rtm" };
-		opticszoominit = 0.75;
-		opticszoommax = 1.1;
-		opticszoommin = 0.25;
-		aiDispersionCoefY = 10;
-		aiDispersionCoefX = 8;
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
 			mass = 90;
-			class MuzzleSlot : SlotInfo
-			{
-				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[] = {};
-			};
-			class PointerSlot : PointerSlot
-			{
-				compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */ };
-			};
-			class CowsSlot : CowsSlot{
-				compatibleItems[] = {};
-			};
-			//class asdg_OpticRail_AWM : asdg_OpticRail1913 {};
 		};
 		class ItemInfo
 		{
@@ -805,38 +682,8 @@ class CfgWeapons {
 			RMBhint = "XMC";
 			onHoverText = "TODO XMC DSS";
 		};
-		class Single : Mode_SemiAuto
+		class Single : Single
 		{
-			sounds[] = { "StandardSound" };
-
-			class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-			{
-				weaponSoundEffect = "DefaultRifle";
-
-				closure1[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-				closure2[] = { "\hlc_wp_springfield\snd\1903A1_first", 0.7, 1, 10 };
-				soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-			};
-
-			class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-			{
-				soundSetShot[] = { "M1903a1_Shot_SoundSet", "M1903a1_Tail_SoundSet" };
-				begin1[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin2[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				begin3[] = { "\hlc_wp_springfield\snd\1903A1_Fire", 1, 1, 1200 };
-				soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-				class SoundTails
-				{
-					class TailInterior
-					{
-						sound[] = { "hlc_wp_springfield\snd\1903A1_indoor", 1.0, 1, 1200 };
-						frequency = 1;
-						volume = "interior";
-					};
-				};
-			};
-
-
 			reloadTime = 1.6666666666666666666666666666667;
 			dispersion = 0.000436332;
 			minRange = 2;
