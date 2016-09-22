@@ -953,7 +953,6 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAMT";
         picture = "\hlc_wp_sigamt\tex\ui\gear_amt_x_ca.paa";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "hlc_wp_sigamt\mesh\amt\amt.p3d";
         modes[] = {"Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1"};
 
