@@ -462,14 +462,14 @@ class CfgWeapons {
 				soundSetShot[] = { "M1903a1_Shot_SoundSet", "M1903a1_Tail_SoundSet" };
 			};
 
-			reloadTime = 1.637;
-			dispersion = 0.00035;
-			maxrange = 600;
-			maxrangeprobab = 0.05;
-			midrange = 300;
-			midrangeprobab = 0.7;
-			minrange = 1;
-			minrangeprobab = 0.3;
+			reloadTime = 1.6666666666666666666666666666667;
+			dispersion = 0.000436332;
+			minRange = 2;
+			minRangeProbab = 0.3;
+			midRange = 250;
+			midRangeProbab = 0.7;
+			maxRange = 400;
+			maxRangeProbab = 0.04;
 			airateoffire = 4;
 		};
 		class far_optic1 : Single
@@ -602,24 +602,22 @@ class CfgWeapons {
 			RMBhint = "XMC";
 			onHoverText = "TODO XMC DSS";
 		};
+		modes[] = {"Single"};
 		class Single : Single
 		{
-			reloadTime = 1.6666666666666666666666666666667;
-			dispersion = 0.000436332;
-			minRange = 2;
-			minRangeProbab = 0.3;
-			midRange = 250;
-			midRangeProbab = 0.7;
-			maxRange = 400;
-			maxRangeProbab = 0.04;
-			airateoffire = 4;
+            aiRateOfFire = 7;
+            aiRateOfFireDistance = 1000;
+            minRange = 0;
+            minRangeProbab = 0.4;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1400;
+            maxRangeProbab = 0.1;
 		};
 		class Library
 		{
 			libTextDesc = "Accuracy International Arctic Warfare Magnum";
 		};
-
-
 
 	};
 
@@ -681,18 +679,6 @@ class CfgWeapons {
 			priority = 1;
 			RMBhint = "XMC";
 			onHoverText = "TODO XMC DSS";
-		};
-		class Single : Single
-		{
-			reloadTime = 1.6666666666666666666666666666667;
-			dispersion = 0.000436332;
-			minRange = 2;
-			minRangeProbab = 0.3;
-			midRange = 250;
-			midRangeProbab = 0.7;
-			maxRange = 400;
-			maxRangeProbab = 0.04;
-			airateoffire = 4;
 		};
 		class Library
 		{
