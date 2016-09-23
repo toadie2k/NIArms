@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "\hlc_core\script_macros.hpp"
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
@@ -38,18 +33,11 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
 
+class asdg_MuzzleSlot_762MG;
+class asdg_OpticRail1913_short_MG;
 class asdg_FrontSideRail;
-class asdg_OpticRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762;
 
 class CfgMovesBasic {
     class DefaultDie;
@@ -178,90 +166,29 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class _xx_hlc_100Rnd_762x51_B_M60E4 {
-                magazine = "hlc_200rnd_556x45_M_SAW";
-                count = 30;
-            };
-            class _xx_hlc_100Rnd_762x51_T_M60E4 {
-                magazine = "hlc_200rnd_556x45_T_SAW";
-                count = 30;
-            };
-            class _xx_hlc_100Rnd_762x51_M_M60E4 {
-                magazine = "hlc_200rnd_556x45_B_SAW";
-                count = 30;
-            };
-            class _xxx_hlc_100Rnd_762x51_M_M60E4 {
-                magazine = "hlc_100Rnd_762x51_M_M60E4";
-                count = 30;
-            };
+            __M_MAG(hlc_200rnd_556x45_M_SAW,30);
+            __M_MAG(hlc_200rnd_556x45_T_SAW,30);
+            __M_MAG(hlc_200rnd_556x45_B_SAW,30);
+            __M_MAG(hlc_100Rnd_762x51_M_M60E4,30);
         };
         class TransportWeapons {
-            class _xx_hlc_lmg_Mk48 {
-                weapon = "hlc_lmg_minimipara";
-                count = 10;
-            };
-            
-            class _xx_hlc_lmg_M60 {
-                weapon = "hlc_lmg_minimi";
-                count = 10;
-            };
-
-            class xx_hlc_lmg_minimi_railed {
-                weapon = "hlc_lmg_minimi_railed";
-                count = 10;
-            };
-            class _xx_hlc_lmg_M601 {
-                weapon = "hlc_lmg_m249para";
-                count = 10;
-            };
-            class xx_hlc_lmg_M249E2 {
-                weapon = "hlc_lmg_M249E2";
-                count = 10;
-            };
-            class xx_hlc_m249_pip1 {
-                weapon = "hlc_m249_pip1";
-                count = 10;
-            };
-            class xx_hlc_m249_pip2 {
-                weapon = "hlc_m249_pip2";
-                count = 10;
-            };
-            class xx_hlc_m249_pip3 {
-                weapon = "hlc_m249_pip3";
-                count = 10;
-            };
-            class xx_hlc_m249_pip4 {
-                weapon = "hlc_m249_pip4";
-                count = 10;
-            };
-            class xx_hlc_m249_pipsq {
-                weapon = "hlc_m249_SQuantoon";
-                count = 1;
-            };
-            class xxhlc_lmg_mk48 {
-                weapon = "hlc_lmg_mk48";
-                count = 1;
-            };
+            __M_WEP(hlc_lmg_minimipara,10);
+            __M_WEP(hlc_lmg_minimi,10);
+            __M_WEP(hlc_lmg_minimi_railed,10);
+            __M_WEP(hlc_lmg_m249para,10);
+            __M_WEP(hlc_lmg_M249E2,10);
+            __M_WEP(hlc_m249_pip1,10);
+            __M_WEP(hlc_m249_pip2,10);
+            __M_WEP(hlc_m249_pip3,10);
+            __M_WEP(hlc_m249_pip4,10);
+            __M_WEP(hlc_m249_SQuantoon,10);
+            __M_WEP(hlc_lmg_mk48,10);
         };
         class TransportItems {
-
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xx_optic_ACO_grn {
-                name = "optic_ACO_grn";
-                count = 10;
-            };
-            
+            __M_ITM(optic_Holosight,10);
+            __M_ITM(optic_hamr,10);
+            __M_ITM(optic_rco,10);
+            __M_ITM(optic_ACO_grn,10);
         };
     };
     class Weapon_Base_F;
@@ -468,11 +395,11 @@ class CfgVehicles {
 };
 
 class CfgMagazines{
-        class 30Rnd_556x45_Stanag;
+    class 30Rnd_556x45_Stanag;
         
-        class hlc_200rnd_556x45_M_SAW : 30Rnd_556x45_Stanag {
-            dlc = "Niarms_SAW";
-            author = "Toadie";
+    class hlc_200rnd_556x45_M_SAW : 30Rnd_556x45_Stanag {
+        dlc = "Niarms_SAW";
+        author = "Toadie";
         ammo = "HLC_556NATO_EPR";
         count = 200;
         descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball/Tracer(4/1)<br />Rounds: 200<br />Used in: M249,FN Minimi";
@@ -485,53 +412,39 @@ class CfgMagazines{
         tracersevery = 4;
         mass = 58;
         displaynameshort = "EPR/Tracer";
+        nameSound = "mgun";
     };
-    class hlc_200rnd_556x45_T_SAW : 30Rnd_556x45_Stanag {
+    class hlc_200rnd_556x45_T_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
         author = "Toadie";
         ammo = "B_556x45_Ball_Tracer_Red";
-        count = 200;
         descriptionshort = "Caliber: 5.56x45mm Tracer<br />Rounds: 200<br />Used in: M249,FN Minimi";
         displayname = "M249 Belt (Tracer) 200rnd 5.56mm";
-        initspeed = 925;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m249tracer_ca.paa";
-        model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 1;
-        mass = 58;
         displaynameshort = "Tracer";
     };
-    class hlc_200rnd_556x45_Mdim_SAW : 30Rnd_556x45_Stanag{
+    class hlc_200rnd_556x45_Mdim_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
         author = "Toadie";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        count = 200;
         descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball/Tracer(4/1)<br />Rounds: 200<br />Used in: M249,FN Minimi";
         displayname = "M249 Belt (Mixed) 200rnd 5.56mm";
-        model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
-        initspeed = 925;
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
-        scope = 2;
         tracersevery = 4;
-        mass = 58;
         displaynameshort = "EPR/Tracer";
     };
-    class hlc_200rnd_556x45_B_SAW : 30Rnd_556x45_Stanag {
+    class hlc_200rnd_556x45_B_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
         author = "Toadie";
         ammo = "HLC_556NATO_EPR";
-        count = 200;
         descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball<br />Rounds: 200<br />Used in: M249,FN Minimi";
         displayname = "M249 Belt (Ball) 200rnd 5.56mm";
-        initspeed = 925;
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249ball_ca.paa";
-        model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 0;
-        mass = 58;
         displaynameshort = "EPR";
     };
 };
@@ -548,8 +461,6 @@ class CfgRecoils {
 
 class CfgWeapons {
     class Rifle;
-    class optic_Hamr;
-    class LMG_Zafir_F;
     class Rifle_Base_F : Rifle {
         class WeaponSlotsInfo;
         class GunParticles;
@@ -577,11 +488,8 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 165;
-            class MuzzleSlot: SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : asdg_OpticRail {};
+            class MuzzleSlot: asdg_MuzzleSlot_762MG {};
+            class CowsSlot {};
             class PointerSlot {};
         };
         opticszoominit = 0.75;
@@ -590,6 +498,10 @@ class CfgWeapons {
         distanceZoomMin = 300;
         distanceZoomMax = 300;
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
+        cursor = "mg";
+        cursorAim = "EmptyCursor";
+        nameSound = "Mgun";
+        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
 
         dexterity = 1.8;
         bullet1[] = { "A3\sounds_f\weapons\shells\5_56\metal_556_01.wss", 0.1, 1, 15 };
@@ -625,28 +537,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "saw_Shot_SoundSet", "saw_Tail_SoundSet" };
-                begin1[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "saw_silencerShot_SoundSet", "saw_silencerTail_SoundSet" };
-                begin1[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-                begin2[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
             };
-            begin1[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-            closure2[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.105;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
             dispersion=0.000261799;
             maxrange = 600;
             maxrangeprobab = 0.05;
@@ -714,8 +610,8 @@ class CfgWeapons {
             maxRange = 1000;
             maxRangeProbab = 0.0098;
         };
-        aiDispersionCoefY = 10;
-        aiDispersionCoefX = 8;
+        aidispersioncoefx = 21;
+        aidispersioncoefy = 24;
 
         drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
         reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
@@ -737,7 +633,6 @@ class CfgWeapons {
         tmr_autorest_deployable = 1;
         TMR_acc_bipod = 1;
         initspeed = -0.936216;
-        recoil = "recoil_SAW";
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
@@ -756,9 +651,6 @@ class CfgWeapons {
                 positionName = "linkeject_start";
             };
         };
-        cursor = "mg";
-        cursorAim = "EmptyCursor";
-        nameSound = "Mgun";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi.p3d";
         reloadaction = "HLC_GestureReloadM249";
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
@@ -766,83 +658,21 @@ class CfgWeapons {
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
         inertia = 0.75;
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "FN Minimi Para";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_standard.rtm" };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 165;
-            class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
         class ItemInfo {
             priority = 1;
             RMBhint = "XMC";
             onHoverText = "TODO XMC DSS";
         };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_saw\snd\saw_first", 0.7, 1, 10 };
-                closure2[] = { "\hlc_wp_saw\snd\saw_first", 0.7, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "saw_Shot_SoundSet", "saw_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "hlc_wp_saw\snd\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "hlc_wp_saw\snd\saw_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                    class TailMeadows {
-                        sound[] = { "hlc_wp_saw\snd\saw_tail1", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
-                    };
-                    class TailHouses {
-                        sound[] = { "hlc_wp_saw\snd\saw_tail2", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*houses";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "saw_silencerShot_SoundSet", "saw_silencerTail_SoundSet" };
-                begin1[] = { "\hlc_wp_saw\snd\saw_suppressed", 1.1, 1, 200 };
-                begin2[] = { "\hlc_wp_saw\snd\saw_suppressed", 1.1, 1, 200 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "hlc_wp_saw\snd\saw_suppressed_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-            };
+        class FullAuto : FullAuto {
             reloadTime = 0.067;
-            recoil = "recoil_auto_trg";
-            recoilprone = "recoil_auto_prone_trg";
             dispersion = 0.00101;
             minRange = 0;
             minRangeProbab = 0.3;
@@ -876,17 +706,11 @@ class CfgWeapons {
         drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\saw_magfeed_reload", 0.5, 1, 20 };
         picture = "\hlc_wp_saw\tex\ui\gear_m60e4_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "FN Minimi Para(STANAG)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm" };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -940,8 +764,6 @@ class CfgWeapons {
                 soundBegin[] = { begin1, 0.5, begin2, 0.5 };
             };
             reloadTime = 0.06;
-            recoil = "recoil_auto_trg";
-            recoilprone = "recoil_auto_prone_trg";
             dispersion = 0.000261799;
             maxrange = 600;
             maxrangeprobab = 0.05;
@@ -1030,8 +852,7 @@ class CfgWeapons {
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
                 mass = 168;
-                class MuzzleSlot : asdg_MuzzleSlot_556 {};
-                class CowsSlot : asdg_OpticRail1913 {};
+                class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
     };
     class hlc_m249_pip1 : hlc_lmg_minimi_railed {
@@ -1124,9 +945,6 @@ class CfgWeapons {
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
-        cursor = "mg";
         class GunParticles : GunParticles {
             class AmmoBeltEject {
                 directionName = "linkeject_end";
@@ -1137,12 +955,10 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
             class UnderBarrelSlot : asdg_UnderSlot {};
-            class MuzzleSlot : asdg_MuzzleSlot_762 {};
-            class CowsSlot : asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail {};
         };
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
         displayName = "Mk.48 Mod.0";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
@@ -1159,28 +975,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "mk48_Shot_SoundSet", "mk48_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_saw\snd\mk48_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_saw\snd\mk48_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_saw\snd\mk48_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet" };
-                begin1[] = { "\hlc_wp_saw\snd\gpmg_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_saw\snd\gpmg_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
             };
-            begin1[] = { "\hlc_wp_saw\snd\mk48_fire", 1.3, 1, 1200 };
-            begin2[] = { "\hlc_wp_saw\snd\mk48_fire", 1.3, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 30 };
-            closure2[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.084;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
             dispersion = 0.000261799;
             maxrange = 600;
             maxrangeprobab = 0.05;
@@ -1252,21 +1052,17 @@ class CfgWeapons {
             libTextDesc = "US Ordnance M60E4";
         };
     };
-    class hlc_lmg_mk48mod1 :hlc_lmg_mk48
+    class hlc_lmg_mk48mod1: hlc_lmg_mk48
     {
         hasBipod = true;
         deployedPivot = "deploypoint";
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         model = "\hlc_wp_saw\mesh\mk48\Mk48mod1.p3d";
         displayName = "Mk.48 Mod.1";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
-            class UnderBarrelSlot : asdg_UnderSlot { compatibleItems[] = {}; };
-            class MuzzleSlot : asdg_MuzzleSlot_762 {};
-            class CowsSlot : asdg_OpticRail1913 {};
-            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot {};
         };
     };
     /*Commented Out
@@ -1276,24 +1072,17 @@ class CfgWeapons {
         magazines[] = {
             "hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_T_M60E4"
         };
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
         model = "\hlc_wp_saw\mesh\mk48_des\Mk48.p3d";
         reloadaction = "HLC_GestureReloadM60";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
         drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
         reloadmagazinesound[] = {"\hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "FN Mk.48 Mod.0";
-        cursor = "mg";
         discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
         discretedistanceinitindex = 2;
         bg_bipod = 1; 
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
             class MuzzleSlot : SlotInfo {
@@ -1339,8 +1128,6 @@ class CfgWeapons {
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.084;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
             dispersion=0.000261799;
             maxrange = 600;
             maxrangeprobab = 0.05;
@@ -1363,17 +1150,11 @@ class CfgWeapons {
         drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
         reloadmagazinesound[] = {"\hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "M249E2";
         discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
         discretedistanceinitindex = 2;
         bg_bipod = 1; 
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
             class MuzzleSlot : SlotInfo {
@@ -1417,8 +1198,6 @@ class CfgWeapons {
             soundClosure[] = {"closure1",0.5,"closure2",0.5};
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.067;
-            recoil = "recoil_auto_trg";
-            recoilprone = "recoil_auto_prone_trg";
             dispersion=0.000261799;
             maxrange = 600;
             maxrangeprobab = 0.05;
