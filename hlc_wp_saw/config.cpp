@@ -637,13 +637,7 @@ class CfgWeapons {
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
-        magazines[] = {
-            "hlc_200rnd_556x45_M_SAW", "hlc_200rnd_556x45_B_SAW", "hlc_200rnd_556x45_T_SAW", "hlc_200rnd_556x45_Mdim_SAW", //HLC SAW magazines
-            "hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR",// HLC AR15 Magazines
-            "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow" // BI STANAG Magazines
-            //"CUP_200Rnd_TE4_Green_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE1_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Green_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1", "CUP_30Rnd_556x45_Stanag", "CUP_20Rnd_556x45_Stanag", //CUP Mags Now in own PBO
-            //"rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_M200_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M200_Stanag"//RHS Mags Now in own PBO
-        };
+        magazines[] = {__556NATO_BELTS,__556NATO_BI_BELTS,__556STANAG_MAGS,__556STANAG_BI_MAGS,__556NATO_BI_DRUMS};
         class GunParticles : GunParticles {
             class AmmoBeltEject {
                 directionName = "linkeject_end";
@@ -940,8 +934,7 @@ class CfgWeapons {
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
         recoil = "recoil_zafir";
-        magazines[] = {
-            "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4", "hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_Mdim_M60E4" };
+        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };

@@ -192,7 +192,7 @@ class CfgWeapons {
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_T_M60E4","hlc_100Rnd_762x51_Mdim_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4" };
+        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
