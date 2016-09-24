@@ -13,18 +13,6 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
 	class UGL_F;
 	class hlc_smg_mp5N;
 	class hlc_smg_9mmar : hlc_smg_MP5N

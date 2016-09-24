@@ -934,10 +934,6 @@ class CfgWeapons {
             drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
             cursoraim = "gl";
             magazinereloadtime = 0;
-            magazines[] = {"1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell"};
-            opticszoominit = 0.75;
-            opticszoommax = 1.1;
-            opticszoommin = 0.25;
             reloadmagazinesound[] = {"hlc_wp_mp5\snd\gren_cock1", 1, 1, 20};
             reloadtime = 0.1;
             sounds[] = { "StandardSound"};
