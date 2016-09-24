@@ -1460,6 +1460,30 @@ class CfgWeapons {
             RMBhint = "XMC";
             onHoverText = "TODO XMC DSS";
         };
+        class hlc_GP30 : UGL_F {
+            cameradir = "GL_Look";
+            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350, 400 };
+            discreteDistanceCameraPoint[] = { "GL_eye_50m", "GL_eye_100m", "GL_eye_150m", "GL_eye_200m", "GL_eye_250m", "GL_eye_300m", "GL_eye_350m", "GL_eye_400m" }; /// the angle of gun changes with zeroing
+            discreteDistanceInitIndex = 1;
+            displayname = "GP30";
+            useModelOptics = false;
+            useExternalOptic = false;
+            optics = 1;
+            drysound[] = { "A3\sounds_f\Weapons\other\sfx5", 1, 1, 400 };
+            cursoraim = "gl";
+            magazinereloadtime = 0;
+            magazines[] = { __40MM_GP_GRENADES };
+            reloadmagazinesound[] = { "\hlc_wp_ak\snd\gp30_reload", 1, 1, 20 };
+            reloadtime = 0.1;
+            sound[] = { "\hlc_wp_ak\snd\gp30_fire", 1.0, 1, 400 };
+            weaponinfotype = "RscWeaponZeroing";
+        };
+        class hlc_GP25 : hlc_GP30 {
+            cameraDir = "OP_look";
+            discreteDistanceCameraPoint[] = { "OP_eye", "OP_eye1", "OP_eye2", "OP_eye3", "OP_eye4", "OP_eye5", "OP_eye6", "OP_eye7" };
+            discreteDistanceInitIndex = 2;
+            displayname = "GP25";
+        };
     };
 
     class hlc_rifle_ak74 : hlc_ak_base {
@@ -1469,7 +1493,6 @@ class CfgWeapons {
         ACE_barrelTwist = 199.898;
         ACE_barrelLength = 414.02;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Toadie";
         scope = public;
         displayName = "Izhmash AK74";
@@ -1501,7 +1524,6 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         inertia=0.45;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Toadie";
         reloadAction = "HLC_GestureReloadAK";
         scope =public;
@@ -1517,7 +1539,6 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         inertia = 0.5;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "Maibatsu, Toadie";
         scope = public;
         displayName = "Izhmash AK12";
@@ -1679,7 +1700,6 @@ class CfgWeapons {
     class hlc_rifle_ak12GL : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         inertia = 0.5;
         author = "Maibatsu, Toadie";
         scope = public;
@@ -1691,24 +1711,7 @@ class CfgWeapons {
         bg_bipod = 0;
         handanim[] = { "OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp25.rtm" };
         reloadAction = "HLC_GestureReloadAK12New";
-        muzzles[] = { "this", "hlc_GP30_AK12" };
-        class hlc_GP30_AK12 : UGL_F {
-            cameradir = "GL_Look";
-            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350, 400 };
-            discreteDistanceCameraPoint[] = { "GL_eye_50m", "GL_eye_100m", "GL_eye_150m", "GL_eye_200m", "GL_eye_250m", "GL_eye_300m", "GL_eye_350m", "GL_eye_400m" }; /// the angle of gun changes with zeroing
-            discreteDistanceInitIndex = 1;
-            displayname = "GP30";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            drysound[] = { "A3\sounds_f\Weapons\other\sfx5", 1, 1, 400 };
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            magazines[] = { "hlc_VOG25_AK", "hlc_GRD_White", "hlc_GRD_Red", "hlc_GRD_Green", "hlc_GRD_Yellow", "hlc_GRD_Purple", "hlc_GRD_Blue", "hlc_GRD_Orange" };
-            reloadmagazinesound[] = { "\hlc_wp_ak\snd\gp30_reload", 1, 1, 20 };
-            reloadtime = 0.1;
-            sound[] = { "\hlc_wp_ak\snd\gp30_fire", 1.0, 1, 400 };
-        };
+        muzzles[] = { "this", "hlc_GP30" };
         weaponinfotype = "RscWeaponZeroing";
         class Library {
             libTextDesc = "Izhmash AK12 5.45mm";
@@ -1720,7 +1723,6 @@ class CfgWeapons {
     class hlc_rifle_aku12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         AB_barrelTwist=6.3;
         AB_barrelLength=8.3;
         ACE_barrelTwist = 160.02;
@@ -1909,7 +1911,6 @@ class CfgWeapons {
     class hlc_rifle_aks74u : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         AB_barrelTwist=6.3;
         AB_barrelLength=8.3;
         ACE_barrelTwist = 160.02;
@@ -1997,7 +1998,6 @@ class CfgWeapons {
     class hlc_rifle_ak47 : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         scope = public;
         AB_barrelTwist=9.45;
         AB_barrelLength=16.3;
@@ -2086,7 +2086,6 @@ class CfgWeapons {
     class hlc_rifle_akm : hlc_rifle_ak47 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         AB_barrelTwist=7.87;
         AB_barrelLength=16.3;
         ACE_barrelTwist = 199.898;
@@ -2103,33 +2102,13 @@ class CfgWeapons {
     class hlc_rifle_akmgl : hlc_rifle_akm {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         inertia=0.55;
         author = "MrRifleman, Bull5hit, Bohemia Interactive, Toadie";
         model = "\hlc_wp_ak\mesh\akmgl\akm.p3d";
         handanim[] = {"OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp.rtm"};
         displayName = "Izhmash AKM (GL)";
         descriptionShort = "Assault rifle,Grenade Launcher<br/>Caliber: 7.62mm";
-        muzzles[] = {"this", "hlc_GP25_AKM"};
-        class hlc_GP25_AKM : UGL_F {
-            cameraDir = "OP_look";
-            //0.125
-            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350, 400 };
-            discreteDistanceCameraPoint[] = { "OP_eye", "OP_eye1", "OP_eye2", "OP_eye3", "OP_eye4", "OP_eye5", "OP_eye6", "OP_eye7" };
-            discreteDistanceInitIndex = 2;
-            displayname = "GP25";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            magazines[] = { "hlc_VOG25_AK", "hlc_GRD_White", "hlc_GRD_Red", "hlc_GRD_Green", "hlc_GRD_Yellow", "hlc_GRD_Purple", "hlc_GRD_Blue", "hlc_GRD_Orange" };
-            reloadmagazinesound[] = {"\hlc_wp_ak\snd\gp30_reload", 1, 1, 10};
-            reloadtime = 0.1;
-            sound[] = {"\hlc_wp_ak\snd\gp30_fire",1.0,1,400};
-            weaponinfotype = "RscWeaponZeroing";
-        };
+        muzzles[] = {"this", "hlc_GP25"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 92;
         };
@@ -2337,34 +2316,15 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         inertia=0.55;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\aks74gl\aks74gl.p3d";
         handanim[] = {"OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp25.rtm"};
         displayName = "Izhmash AKS74(GL)";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74gl_ca";
-        muzzles[] = {"this", "hlc_GP30_AKS74"};
+        muzzles[] = {"this", "hlc_GP30"};
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass=85.4;
-        };
-        class hlc_GP30_AKS74 : UGL_F {
-            cameradir = "GL_Look";
-            discreteDistance[] = {50,100,150,200,250,300,350,400};
-            discreteDistanceCameraPoint[] = { "GL_eye_50m", "GL_eye_100m", "GL_eye_150m", "GL_eye_200m", "GL_eye_250m", "GL_eye_300m", "GL_eye_350m", "GL_eye_400m"  }; /// the angle of gun changes with zeroing
-            discreteDistanceInitIndex = 1;
-            displayname = "GP30";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            magazines[] = { "hlc_VOG25_AK", "hlc_GRD_White", "hlc_GRD_Red", "hlc_GRD_Green", "hlc_GRD_Yellow", "hlc_GRD_Purple", "hlc_GRD_Blue", "hlc_GRD_Orange" };
-            reloadmagazinesound[] = {"\hlc_wp_ak\snd\gp30_reload", 1.1, 1, 20};
-            reloadtime = 0.1;
-            sound[] = {"\hlc_wp_ak\snd\gp30_fire",1.0,1,400};
-            weaponinfotype = "RscWeaponZeroing";
         };
     };
     class hlc_rifle_aek971 : hlc_rifle_ak74 {
@@ -2374,7 +2334,6 @@ class CfgWeapons {
         ACE_barrelTwist = 241.3;
         ACE_barrelLength = 431.8;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         displayName = "ZID AEK971S";
         model = "\hlc_wp_ak\mesh\aek971\aek971clean.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aek_x_ca";
@@ -2588,7 +2547,6 @@ class CfgWeapons {
 //*HORNS*
     class hlc_rifle_RK62 : hlc_ak_base {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         scope = public;
         dlc = "Niarms_AK";
         author = "Nix";
@@ -2689,7 +2647,6 @@ class CfgWeapons {
         ACE_barrelTwist = 199.898;
         ACE_barrelLength = 210.82;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "Toadie";
         scope = public;
         initspeed = -0.907539;
@@ -2801,7 +2758,6 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         inertia = 0.45;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Toadie";
         reloadAction = "HLC_GestureReloadAK";
         scope = public;
@@ -2817,34 +2773,15 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         inertia = 0.55;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        hasBipod = false;          /// a weapon with bipod obviously has a bipod
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp25.rtm" };
         displayName = "Izhmash AK74M(GL)";
         picture = "\hlc_wp_ak\tex\ui\gear_ak74mgl_ca";
-        muzzles[] = { "this", "hlc_GP30_AK74M" };
+        muzzles[] = { "this", "hlc_GP30" };
         bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 85.4;
-        };
-        class hlc_GP30_AK74M : UGL_F {
-            cameradir = "GL_Look";
-            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350, 400 };
-            discreteDistanceCameraPoint[] = { "GL_eye_50m", "GL_eye_100m", "GL_eye_150m", "GL_eye_200m", "GL_eye_250m", "GL_eye_300m", "GL_eye_350m", "GL_eye_400m" }; /// the angle of gun changes with zeroing
-            discreteDistanceInitIndex = 1;
-            displayname = "GP30";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            drysound[] = { "A3\sounds_f\Weapons\other\sfx5", 1, 1, 400 };
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            magazines[] = { "hlc_VOG25_AK", "hlc_GRD_White", "hlc_GRD_Red", "hlc_GRD_Green", "hlc_GRD_Yellow", "hlc_GRD_Purple", "hlc_GRD_Blue", "hlc_GRD_Orange" };
-            reloadmagazinesound[] = { "\hlc_wp_ak\snd\gp30_reload", 1.1, 1, 20 };
-            reloadtime = 0.1;
-            sound[] = { "\hlc_wp_ak\snd\gp30_fire", 1.0, 1, 400 };
-            weaponinfotype = "RscWeaponZeroing";
         };
     };
     class hlc_rifle_ak74m_MTK : hlc_rifle_ak74m {
