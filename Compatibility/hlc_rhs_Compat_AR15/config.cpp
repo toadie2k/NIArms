@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_RHS_AR15
@@ -11,113 +13,52 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class SlotInfo;
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-	class UGL_F;
+    class GrenadeLauncher;
+	class Rifle_Base_F;
+    class arifle_MX_Base_F;
+
+	/*
+	========================================
+	BIS GUNS (bonus compat)
+	========================================
+	*/
+    class UGL_F : GrenadeLauncher {
+        magazines[] += { __40MM_M203_RHS_GRENADES };
+    };
+    class mk20_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+    };
+    class SDAR_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+    };
+    class Tavor_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+    };
+    class arifle_SPAR_01_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+    };
+    class arifle_SPAR_02_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+    };
+
 	/*
 	========================================
 	RHS GUNS
 	========================================
 	*/
-	class arifle_MX_Base_F : Rifle_Base_F {};
-	class rhs_weap_m4_Base : arifle_MX_Base_F
-	{
-		/*"rhs_mag_30Rnd_556x45_Mk318_Stanag",
-			"rhs_mag_30Rnd_556x45_Mk262_Stanag",
-			"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-			"rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer",
-			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green",
-			"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow",
-			"rhs_mag_30Rnd_556x45_M200_Stanag"*/
-		magazines[] += {"hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR", "hlc_30rnd_556x45_S"  };
-		/*class M203 : UGL_F
-		{
-			magazines[] = { 		"rhs_mag_M441_HE",	"rhs_mag_M433_HEDP","rhs_mag_M4009","rhs_mag_m576","rhs_mag_M585_white","rhs_mag_M661_green","rhs_mag_M662_red","rhs_mag_M713_red","rhs_mag_M714_white","rhs_mag_M715_green","rhs_mag_M716_yellow"
-		};*/
-	};
+    class rhs_weap_m4_Base : arifle_MX_Base_F {
+        magazines[] += { __556STANAG_MAGS, __556NATO_BI_DRUMS };
+    };
 
 	/*
 	========================================
 	HLC GUNS
 	========================================
 	*/
-
-	class hlc_ar15_base;
-	class hlc_rifle_RU556 : hlc_ar15_base
-	{
-		magazines[] += { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M200_Stanag"};
-	};/*
-	  class hlc_rifle_RU5562 : hlc_rifle_RU556
-	  {
-	  magazines[] += {};
-	  class WeaponSlotsInfo : WeaponSlotsInfo
-	  {
-	  class MuzzleSlot : SlotInfo
-	  {
-	  compatibleItems[] += {"CUP_muzzle_snds_M16", "CUP_muzzle_snds_M16_camo"};
-	  };
-	  };
-	  };
-	  class hlc_rifle_CQBR : hlc_rifle_RU556
-	  {
-	  magazines[] += {"hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR", "hlc_30rnd_556x45_S", "CUP_30Rnd_556x45_Stanag", "CUP_30Rnd_556x45_G36", "CUP_30Rnd_TE1_Red_Tracer_556x45_G36", "CUP_30Rnd_TE1_Green_Tracer_556x45_G36", "CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36", "CUP_100Rnd_556x45_BetaCMag", "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag", "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag", "CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag"};
-	  class WeaponSlotsInfo : WeaponSlotsInfo
-	  {
-	  class MuzzleSlot : SlotInfo
-	  {
-	  compatibleItems[] += {"CUP_muzzle_snds_M16", "CUP_muzzle_snds_M16_camo"};
-	  };
-	  };
-	  };*/
-	class hlc_rifle_M4 : hlc_ar15_base
-	{
-		magazines[] += { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M200_Stanag"};
-	};
-	class hlc_rifle_m4m203 : hlc_rifle_m4
-	{
-		
-		class hlc_M203_M4 : UGL_F
-		{
-			magazines[] += { "rhs_mag_M441_HE", "rhs_mag_M433_HEDP", "rhs_mag_M4009", "rhs_mag_m576", "rhs_mag_M585_white", "rhs_mag_M661_green", "rhs_mag_M662_red", "rhs_mag_M713_red", "rhs_mag_M714_white", "rhs_mag_M715_green", "rhs_mag_M716_yellow" };
-		};
-	};
-	class hlc_rifle_bcmjack : hlc_ar15_base
-	{
-		magazines[] += { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M200_Stanag"};
-	};
-	class hlc_rifle_Colt727 : hlc_ar15_base
-	{
-		magazines[] += { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M200_Stanag"};
-
-	};
-	class hlc_rifle_Colt727_GL : hlc_rifle_Colt727
-	{
-
-
-		class hlc_M203_CAR15 : UGL_F
-		{
-			magazines[] += { "rhs_mag_M441_HE", "rhs_mag_M433_HEDP", "rhs_mag_M4009", "rhs_mag_m576", "rhs_mag_M585_white", "rhs_mag_M661_green", "rhs_mag_M662_red", "rhs_mag_M713_red", "rhs_mag_M714_white", "rhs_mag_M715_green", "rhs_mag_M716_yellow" };
-		};
-	};
-	class hlc_rifle_SAMR : hlc_ar15_base
-	{
-		magazines[] += { "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_M200_Stanag"};
-
-	};
-
+    class hlc_ar15_base : Rifle_Base_F {
+        magazines[] += { __556STANAG_RHS_MAGS };
+    };
 
 };

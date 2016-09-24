@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_CUP_SAW
@@ -13,19 +15,9 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-	class UGL_F;
+	class Rifle_Base_F;
+	class Rifle_Long_Base_F;
+
 	/*
 	========================================
 	CUP GUNS
@@ -33,12 +25,12 @@ class CfgWeapons
 	*/
 	class CUP_lmg_L110A1 : Rifle_Long_Base_F
 	{
-		magazines[] += {"hlc_200rnd_556x45_M_SAW", "hlc_200rnd_556x45_B_SAW", "hlc_200rnd_556x45_T_SAW"};
+		magazines[] += { __556NATO_BELTS, __556STANAG_MAGS };
 	};
 	class CUP_saw_base;
 	class CUP_lmg_minimipara : CUP_saw_base
 	{
-		magazines[] += {"hlc_200rnd_556x45_M_SAW", "hlc_200rnd_556x45_B_SAW", "hlc_200rnd_556x45_T_SAW"};
+		magazines[] += { __556NATO_BELTS, __556STANAG_MAGS };
 	};
 
 	/*
@@ -47,11 +39,10 @@ class CfgWeapons
 	========================================
 	*/
 	class hlc_saw_base;
-	class hlc_lmg_minimipara : hlc_saw_base
-	{
-		magazines[] += {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Green_Tracer_556x45_M249", "CUP_200Rnd_TE1_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Green_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1"};
+	class hlc_lmg_minimipara : hlc_saw_base	{
+		magazines[] += { __556NATO_CUP_BELTS, __556STANAG_CUP_MAGS };
 	};
-	class hlc_lmg_mk48 : hlc_saw_base {
-		magazines[] += {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+    class hlc_lmg_mk48 : hlc_saw_base {
+		magazines[] += {__762NATO_CUP_BELTS};
 	};
 };
