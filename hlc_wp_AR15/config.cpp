@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = { "HLC_AR_ammobox", "Weapon_hlc_rifle_RU556","Weapon_hlc_rifle_RU5562","Weapon_hlc_rifle_Colt727","Weapon_hlc_rifle_Colt727_GL","Weapon_hlc_rifle_SAMR",
             "Weapon_hlc_rifle_SAMR2","Weapon_hlc_rifle_CQBR","Weapon_hlc_rifle_M4","Weapon_hlc_rifle_m4m203","Weapon_hlc_rifle_bcmjack","Weapon_hlc_rifle_Bushmaster300","Weapon_hlc_rifle_vendimus","Weapon_hlc_rifle_honeybadger" };
         weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase"};
-        magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S","hlc_50rnd_556x45_EPR"};
+        magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
         version="1.85";
         author="toadie";
     };
@@ -115,7 +115,7 @@ class CfgVehicles {
             __M_ITM(optic_LRPS,10);
             __M_ITM(optic_NVS,10);
             __M_ITM(hlc_muzzle_556NATO_KAC,10);
-            __M_ITM(hlc_muzzle_300blk_KAC,10);
+            //__M_ITM(hlc_muzzle_300blk_KAC,10);
             __M_ITM(muzzle_HBADGER,10);
             __M_ITM(acc_flashlight,10);
             __M_ITM(acc_pointer_IR,10);
@@ -384,56 +384,20 @@ class CfgVehicles {
     };
 };
 
-class CfgAmmo {
-};
-
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
 
     class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AR15";
-        ammo = "HLC_556NATO_EPR";
-        count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (EPR) 5.56mm";
         model = "hlc_wp_ar15\mesh\magazine\magazine_556.p3d";
-        initspeed = 960.12;
-        mass = 8;
-        lastroundstracer = 1;
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "5.56mm EPR";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
     };
     class hlc_30rnd_556x45_SOST: 30Rnd_556x45_Stanag {
         dlc = "Niarms_AR15";
-        ammo = "HLC_556NATO_SOST";
-        count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (SOST) 5.56mm";
         model = "hlc_wp_ar15\mesh\magazine\magazine_556.p3d";
-        initspeed = 950.3664;
-        mass = 8;
-        lastroundstracer = 1;
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "5.56 SOST";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
     };
     class hlc_30rnd_556x45_SPR: 30Rnd_556x45_Stanag {
         dlc = "Niarms_AR15";
-        ammo = "HLC_556NATO_SPR";
-        count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (SPR) 5.56mm";
         model = "hlc_wp_ar15\mesh\magazine\magazine_556.p3d";
-        initspeed = 838.2;
-        mass = 8;
-        lastroundstracer = 1;
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "5.56mm SPR";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
     };
     class 29rnd_300BLK_STANAG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AR15";
@@ -452,11 +416,8 @@ class CfgMagazines {
     class 29rnd_300BLK_STANAG_T : 29rnd_300BLK_STANAG {
         dlc = "Niarms_AR15";
         author = "Toadie";
-        ammo = "HLC_300Blackout_Ball";
-        count = 30;
         descriptionshort = "Caliber: .300 AAC Blackout <br />Rounds: 30<br />Used in: AAC Honeybadger, Bushmaster .300 Carbine";
         displayname = ".300 BLK STANAG Magazine (Tracers) 30rnd";
-        model = "hlc_wp_ar15\mesh\magazine\magazine_300.p3d";
         initspeed = 548;
         lastroundstracer = 1;
         tracersevery = 1;
@@ -476,50 +437,6 @@ class CfgMagazines {
         displaynameshort = ".300 Subsonic";
         picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
     };
-    class hlc_30rnd_556x45_S :hlc_30rnd_556x45_EPR {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        ammo = "HLC_556NATO_EPR";
-        initspeed = 340;
-        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load EPR<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (Subsonic) 5.56mm";
-        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
-    };
-    class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (EPR,IR-DIM) 5.56mm";
-        tracersevery = 4;
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-    };
-    class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
-        displayname = "STANAG Mag (IR-DIM) 5.56mm";
-        tracersevery = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-    };
-    class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        ammo = "HLC_556NATO_EPR";
-        count = 50;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 50<br />Used in: mofuggin errything";
-        displayname = "X-15 STANAG Mag (EPR) 5.56mm";
-        initspeed = 960.12;
-        mass = 14;
-        lastroundstracer = 1;
-        scope = 2;
-        tracersevery = 5;
-        displaynameshort = "5.56mm EPR";
-        picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
-    };
 };
 
 class CfgWeapons {
@@ -528,6 +445,7 @@ class CfgWeapons {
 
     class muzzle_snds_H;
     class hlc_muzzle_300blk_KAC : muzzle_snds_H {
+        scope = 1;
         dlc = "Niarms_AR15";
         author = "ImBrokeRU, Toadie";
         displayName = "QD .300BLK Suppressor";
@@ -565,9 +483,7 @@ class CfgWeapons {
         ACE_barrelLength = 292.1;
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
-        };
+        magazines[] = { __556STANAG_MAGS, __556STANAG_BI_MAGS, __556NATO_BI_DRUMS };
         class Library {
             libTextDesc = "AR15";
         };
@@ -631,16 +547,7 @@ class CfgWeapons {
                 begin2[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
                 soundBegin[]={begin1,0.5, begin2,0.5};
             };
-            begin1[] = {"\hlc_wp_ar15\snd\car15_fire", 1, 1, 900};
-            begin2[] = {"\hlc_wp_ar15\snd\car15_fire", 1, 1, 900};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"\hlc_wp_ar15\snd\ar15c_close",1.0,1,30};
-            closure2[] = {"\hlc_wp_ar15\snd\ar15c_close",1.0,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.086;
-            recoil = "recoil_single_mx";
-            recoilProne = "recoil_single_prone_mx";
             dispersion = 0.000333358;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -650,16 +557,7 @@ class CfgWeapons {
             maxRangeProbab = 0.2;
         };
         class FullAuto: Mode_FullAuto {
-            begin1[] = {"\hlc_wp_ar15\snd\car15_fire", 1, 1, 900};
-            begin2[] = {"\hlc_wp_ar15\snd\car15_fire", 1, 1, 900};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"\hlc_wp_ar15\snd\ar15c_close",1.0,1,30};
-            closure2[] = {"\hlc_wp_ar15\snd\ar15c_close",1.0,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.086;
-            recoil = "recoil_auto_mx";
-            recoilProne = "recoil_auto_prone_mx";
             dispersion = 0.000333358;
             minRange = 0;
             minRangeProbab = 0.9;
@@ -749,9 +647,6 @@ class CfgWeapons {
         author = "ImBrokeRU, Antivirus404, RedRogueXVII, Tigg, Brains Collector, Toadie";
         reloadAction = "HLC_GestureReloadAR15_BAD_WS";
         scope =public;
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow","hlc_30rnd_556x45_S"
-        };
         model = "hlc_wp_ar15\mesh\ru556\car15.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_hsld_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -765,9 +660,6 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "\hlc_wp_ar15\gesture\newgesture\bad_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 57;
             class CowsSlot: asdg_OpticRail1913 {};
@@ -792,49 +684,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.075;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000347248;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -856,49 +711,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.5, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.2, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.075;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000347248;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -977,9 +795,6 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "\hlc_wp_ar15\gesture\newgesture\bad_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 58;
         };
@@ -1001,49 +816,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.075;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000347248;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -1065,49 +843,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.075;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000347248;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -1148,9 +889,6 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "hlc_wp_ar15\gesture\newgesture\samr_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 54;
             class UnderBarrelSlot: asdg_UnderSlot {};
@@ -1173,49 +911,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.075;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000347248;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -1237,49 +938,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "sbr_Shot_SoundSet", "sbr_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\ar15c_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar15c_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.00, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.074;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000347248;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -1316,17 +980,11 @@ class CfgWeapons {
         discretedistance[] = {100, 200, 300, 400, 500};
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
-        };
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
         handAnim[] = {
             "OFP2_ManSkeleton",
             "hlc_wp_ar15\gesture\newgesture\samr_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 58;
             class UnderBarrelSlot : asdg_UnderSlot {};
@@ -1352,49 +1010,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "carbine_Shot_SoundSet", "carbine_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\car15_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.067;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000347248;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -1416,49 +1037,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "carbine_Shot_SoundSet", "carbine_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\car15_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\ar15c_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.079;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000347248;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -1538,10 +1122,6 @@ class CfgWeapons {
             reloadAction = "GestureReloadTrgUGL";
             cursoraim = "gl";
             magazinereloadtime = 0;
-            magazines[] = { "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell" };
-            opticszoominit = 0.75;
-            opticszoommax = 1.1;
-            opticszoommin = 0.25;
             reloadmagazinesound[] = { "A3\sounds_f\Weapons\grenades\ugl_reload", 0.1, 1, 20 };
             reloadtime = 0.1;
             sound[] = { "A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400 };
@@ -1562,9 +1142,6 @@ class CfgWeapons {
         author = "Twinke Masta, Tenoyl, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
-        };
         model = "hlc_wp_ar15\mesh\JackCarbine\samr.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1579,9 +1156,6 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "hlc_wp_ar15\gesture\newgesture\jack_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
@@ -1607,49 +1181,12 @@ class CfgWeapons {
 
              class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "jack_Shot_SoundSet", "jack_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\Jack_carbine_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "jack_silencerShot_SoundSet", "jack_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\jack_carbine_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\jack_carbine_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\jack_carbine_first",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\jack_carbine_first",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.078;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.0001309;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -1671,49 +1208,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "jack_Shot_SoundSet", "jack_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\jack_carbine_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\Jack_carbine_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "jack_silencerShot_SoundSet", "jack_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\diplomat_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\diplomat_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\jack_carbine_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\jack_carbine_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\jack_carbine_first",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\jack_carbine_first",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.078;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.0001309;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -1777,9 +1277,6 @@ class CfgWeapons {
         author = "Twinke Masta, Stoke, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
-        magazines[] = {
-            "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S"
-        };
         model = "hlc_wp_ar15\mesh\carbine\colt727.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_colt727_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -1796,9 +1293,6 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "hlc_wp_ar15\gesture\newgesture\carbine_hands.rtm"
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 50;
             class CowsSlot: asdg_OpticRail1913 {};
@@ -1823,49 +1317,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "carbine_Shot_SoundSet", "carbine_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\car15_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\CAR15_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\CAR15_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.079;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000333358;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -1887,49 +1344,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "carbine_Shot_SoundSet", "carbine_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\CAR15_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\car15_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\m4_Suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m4_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\CAR15_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\CAR15_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.079;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000333358;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -2016,10 +1436,6 @@ class CfgWeapons {
             drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
             cursoraim = "gl";
             magazinereloadtime = 0;
-            magazines[] = {"1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell"};
-            opticszoominit = 0.75;
-            opticszoommax = 1.1;
-            opticszoommin = 0.25;
             reloadMagazineSound[] = { "A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_UGL_reload", 0.7943282, 1, 10 };
             reloadtime = 0.1;
             sound[] = {"A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400};
@@ -2055,11 +1471,7 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 52;
             class CowsSlot: asdg_OpticRail1913_short {};
-			class MuzzleSlot : asdg_MuzzleSlot_762 {
-                class compatibleItems: compatibleItems {
-                    //hlc_muzzle_300blk_KAC = 1;
-                };
-            };
+			class MuzzleSlot : asdg_MuzzleSlot_762 {};
             class PointerSlot {};
         };
         class ItemInfo {
@@ -2085,54 +1497,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "300blk_Shot_SoundSet", "300blk_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hbUNSUP_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound: BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_forest", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_indoor", 1.1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.081;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.00031669;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -2154,54 +1524,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "300blk_Shot_SoundSet", "300blk_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hbUNSUP_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound: BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_forest", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_indoor", 1.1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.067;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.00031669;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -2261,7 +1589,6 @@ class CfgWeapons {
         ACE_barrelLength = 406.4;
         author = "Sephiris, Agent95, Tigg, Toadie";
         scope =public;
-        magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
         model = "hlc_wp_ar15\mesh\pbear\car15.p3d";
         reloadAction = "HLC_GestureReloadAR15_catch_DR";
         picture = "\hlc_wp_ar15\tex\ui\gear_vendimus_ca";
@@ -2296,54 +1623,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "PBEAR_Shot_SoundSet", "PBEAR_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_forest", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\pbear_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\300aac_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_forest", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_indoor", 1.1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\pbear_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\pbear_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.067;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000213905;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -2364,27 +1649,13 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                begin1[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\pbear_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
+                soundSetShot[] = { "PBEAR_Shot_SoundSet", "PBEAR_Tail_SoundSet" };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                begin1[]={"\hlc_wp_ar15\snd\lr300_shot_sil", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\lr300_shot_sil", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
+                soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
-            begin1[] = {"hlc_wp_ar15\snd\pbear_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\pbear_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.067;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000213905;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -2436,7 +1707,6 @@ class CfgWeapons {
         cse_bipod = 1;
         bg_bipod = 1; 
         model = "hlc_wp_ar15\mesh\LAR15_samr\samr.p3d";
-        magazines[] = { "hlc_30rnd_556x45_EPR", "30Rnd_556x45_Stanag", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_30rnd_556x45_MDim", "hlc_30rnd_556x45_TDim", "hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "hlc_30rnd_556x45_S" };
         picture = "\hlc_wp_ar15\tex\ui\gear_SAMR_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "RRA LAR-15";
@@ -2467,49 +1737,12 @@ class CfgWeapons {
 
              class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "SAMR_Shot_SoundSet", "SAMR_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m16_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "samr_silencerShot_SoundSet", "SAMR_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\M16_Suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\M16_Suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m16_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\m16_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\m16_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.080;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.000138899;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -2531,49 +1764,12 @@ class CfgWeapons {
 
              class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "SAMR_Shot_SoundSet", "SAMR_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\M16_Fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\ar556_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m16_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "samr_silencerShot_SoundSet", "SAMR_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\M16_Suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\M16_Suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\m16_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\m16_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\m16_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.080;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.000138899;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -2642,7 +1838,6 @@ class CfgWeapons {
         aiDispersionCoefY = 12.0;
         aiDispersionCoefX = 8.0;
         recoil = "recoil_mx";
-        magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
         model = "hlc_wp_ar15\mesh\honeybadger\car15.p3d";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         picture = "\hlc_wp_ar15\tex\ui\gear_badger_ca";
@@ -2670,54 +1865,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "300blk_Shot_SoundSet", "300blk_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hbUNSUP_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound: BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "badger_silencerShot_SoundSet", "badger_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_Fire", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_Fire", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_forest", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hb_sil_indoor", 1.1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.082;
-            recoil = "recoil_single_mk20";
-            recoilProne = "recoil_single_prone_mk20";
             dispersion = 0.00031669;
             minRange = 2;
             minRangeProbab = 0.5;
@@ -2739,54 +1892,12 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "300blk_Shot_SoundSet", "300blk_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_ar15\snd\HB_unsup_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hbUNSUP_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "badger_silencerShot_SoundSet", "badger_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_ar15\snd\HB_Fire", 1, 1,200};
-                begin2[]={"\hlc_wp_ar15\snd\HB_Fire", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\300aac_sil_forest", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_ar15\snd\tails\hb_sil_indoor", 1.1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            begin2[] = {"hlc_wp_ar15\snd\HB_unsup_fire",1.0,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            closure2[] = {"hlc_wp_ar15\snd\ar15c_close",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.082;
-            recoil = "recoil_auto_mk20";
-            recoilProne = "recoil_auto_prone_mk20";
             dispersion = 0.00031669;
             maxrange = 60;
             maxrangeprobab = 0.05;
@@ -2837,7 +1948,6 @@ class CfgWeapons {
 			class MuzzleSlot : asdg_MuzzleSlot_762 {
                 class compatibleItems: compatibleItems {
                     muzzle_HBADGER = 1;
-                    //hlc_muzzle_300blk_KAC = 1;
                 };
             };
             class PointerSlot : asdg_FrontSideRail {};
