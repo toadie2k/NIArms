@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "\hlc_core\script_macros.hpp"
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
@@ -73,193 +68,57 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class _x29rnd_300BLK_STANAG {
-                magazine = "29rnd_300BLK_STANAG";
-                count = 60;
-            };
-            class _x29rnd_300BLK_STANAG_T {
-                magazine = "29rnd_300BLK_STANAG_T";
-                count = 60;
-            };
-            class _x29rnd_300BLK_STANAG_S{
-                magazine = "29rnd_300BLK_STANAG_S";
-                count = 60;
-            };
-            class _x30Rnd_556x45_Stanag {
-                magazine = "30Rnd_556x45_Stanag";
-                count = 60;
-            };
-            class _xhlc_30rnd_556x45_EPR {
-                magazine = "hlc_30rnd_556x45_EPR";
-                count = 60;
-            };
-            class _xhlc_30rnd_556x45_SOST {
-                magazine = "hlc_30rnd_556x45_SOST";
-                count = 60;
-            };
-            class _xx_hlc_30rnd_556x45_SPR {
-                magazine = "hlc_30rnd_556x45_SPR";
-                count = 60;
-            };
-            class _xx_hlc_50rnd_556x45_EPR {
-                magazine = "hlc_50rnd_556x45_EPR";
-                count = 60;
-            };
-            class _xx_30Rnd_556x45_Stanag_Tracer_Greeb {
-                magazine = "30Rnd_556x45_Stanag_Tracer_Red";
-                count = 60;
-            };
-            class _xx_30Rnd_556x45_Stanag_Tracer_Green {
-                magazine = "30Rnd_556x45_Stanag_Tracer_Green";
-                count = 60;
-            };
-            class _x1Rnd_HE_Grenade_shell {
-                magazine = "1Rnd_HE_Grenade_shell";
-                count = 60;
-            };
-            class _UGL_FlareWhite_F {
-                magazine = "UGL_FlareWhite_F";
-                count = 60;
-            };
-            class _xUGL_FlareGreen_F {
-                magazine = "UGL_FlareGreen_F";
-                count = 60;
-            };
-            class _xUGL_FlareGreen_B {
-                magazine = "UGL_FlareRed_F";
-                count = 60;
-            };
-            class _xUGL_FlareYellow_F {
-                magazine = "UGL_FlareYellow_F";
-                count = 60;
-            };
-            class _xUGL_FlareCIR_F {
-                magazine = "UGL_FlareCIR_F";
-                count = 60;
-            };
-            class _x1Rnd_Smoke_Grenade_shell {
-                magazine = "1Rnd_Smoke_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeRed_Grenade_shell {
-                magazine = "1Rnd_SmokeRed_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeGreen_Grenade_shell {
-                magazine = "1Rnd_SmokeGreen_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeYellow_Grenade_shell {
-                magazine = "1Rnd_SmokeYellow_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokePurple_Grenade_shell {
-                magazine = "1Rnd_SmokePurple_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeBlue_Grenade_shell {
-                magazine = "1Rnd_SmokeBlue_Grenade_shell";
-                count = 60;
-            };
+            __M_MAG(29rnd_300BLK_STANAG,60);
+            __M_MAG(29rnd_300BLK_STANAG_T,60);
+            __M_MAG(29rnd_300BLK_STANAG_S,60);
+            __M_MAG(30Rnd_556x45_Stanag,60);
+            __M_MAG(hlc_30rnd_556x45_EPR,60);
+            __M_MAG(hlc_30rnd_556x45_SOST,60);
+            __M_MAG(hlc_30rnd_556x45_SPR,60);
+            __M_MAG(hlc_50rnd_556x45_EPR,60);
+            __M_MAG(30Rnd_556x45_Stanag_Tracer_Red,60);
+            __M_MAG(30Rnd_556x45_Stanag_Tracer_Green,60);
+            __M_MAG(1Rnd_HE_Grenade_shell,60);
+            __M_MAG(UGL_FlareWhite_F,60);
+            __M_MAG(UGL_FlareGreen_F,60);
+            __M_MAG(UGL_FlareRed_F,60);
+            __M_MAG(UGL_FlareYellow_F,60);
+            __M_MAG(UGL_FlareCIR_F,60);
+            __M_MAG(1Rnd_Smoke_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeRed_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeGreen_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeYellow_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokePurple_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeBlue_Grenade_shell,60);
         };
 
         class TransportWeapons {
-            class xhlc_rifle_RU556 {
-                weapon = "hlc_rifle_RU556";
-                count = 30;
-            };
-            class _xhlc_rifle_RU556s {
-                weapon = "hlc_rifle_RU5562";
-                count = 30;
-            };
-            class _xhlc_rifle_bcmjack {
-                weapon = "hlc_rifle_bcmjack";
-                count = 30;
-            };
-            class _xhlc_rifle_Colt727 {
-                weapon = "hlc_rifle_Colt727";
-                count = 30;
-            };
-            class _xhlc_rifle_Colt727_GL {
-                weapon = "hlc_rifle_Colt727_GL";
-                count = 30;
-            };
-            class _xhhlc_rifle_M4 {
-                weapon = "hlc_rifle_M4"; 
-                count = 30;
-            };
-            class _xhhlc_rifle_m4m203 {
-                weapon = "hlc_rifle_m4m203";
-                    count = 30;
-            };
-            class _xhlc_rifle_Coltqbr {
-                weapon = "hlc_rifle_cqbr";
-                count = 30;
-            };
-            class _xhlc_rifle_Bushmaster300 {
-                weapon = "hlc_rifle_Bushmaster300";
-                count = 30;
-            };
-            class _xhlc_rifle_vendimus {
-                weapon = "hlc_rifle_vendimus";
-                count = 30;
-            };
-            class _xhlc_rifle_SAMR {
-                weapon = "hlc_rifle_SAMR";
-                count = 30;
-            };
-            class _xhlc_rifle_honeybadger {
-                weapon = "hlc_rifle_honeybadger";
-                count = 30;
-            };
+            __M_WEP(hlc_rifle_RU556,30);
+            __M_WEP(hlc_rifle_RU5562,30);
+            __M_WEP(hlc_rifle_bcmjack,30);
+            __M_WEP(hlc_rifle_Colt727,30);
+            __M_WEP(hlc_rifle_Colt727_GL,30);
+            __M_WEP(hlc_rifle_M4,30);
+            __M_WEP(hlc_rifle_m4m203,30);
+            __M_WEP(hlc_rifle_cqbr,30);
+            __M_WEP(hlc_rifle_Bushmaster300,30);
+            __M_WEP(hlc_rifle_vendimus,30);
+            __M_WEP(hlc_rifle_SAMR,30);
+            __M_WEP(hlc_rifle_honeybadger,30);
         };
 
         class TransportItems {
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xoptic_Arco {
-                name = "optic_Arco";
-                count = 10;
-            };
-            class _xoptic_LRPS {
-                name = "optic_LRPS";
-                count = 10;
-            };
-            class _xoptic_NVS {
-                name = "optic_NVS";
-                count = 10;
-            };
-            class _xhlc_muzzle_556NATO_KAC {
-                name = "hlc_muzzle_556NATO_KAC";
-                count = 10;
-            };
-            class _xx_hlc_muzzle_300blk_KAC {
-                name = "hlc_muzzle_300blk_KAC";
-                count = 10;
-            };
-            class _xx_muzzle_HBADGER {
-                name = "muzzle_HBADGER";
-                count = 10;
-            };
-            
-            class _xx_acc_flashlight {
-                name = "acc_flashlight";
-                count = 10;
-            };
-            class _xacc_pointer_IR {
-                name = "acc_pointer_IR";
-                count = 10;
-            };
+            __M_ITM(optic_Holosight,10);
+            __M_ITM(optic_hamr,10);
+            __M_ITM(optic_rco,10);
+            __M_ITM(optic_Arco,10);
+            __M_ITM(optic_LRPS,10);
+            __M_ITM(optic_NVS,10);
+            __M_ITM(hlc_muzzle_556NATO_KAC,10);
+            __M_ITM(hlc_muzzle_300blk_KAC,10);
+            __M_ITM(muzzle_HBADGER,10);
+            __M_ITM(acc_flashlight,10);
+            __M_ITM(acc_pointer_IR,10);
         };
     };
 
