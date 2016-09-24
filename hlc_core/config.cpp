@@ -2121,6 +2121,13 @@ class CfgMagazines {
         displaynameshort = "5.56mm SPR";
         picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
     };
+    class hlc_30rnd_556x45_S: hlc_30rnd_556x45_EPR {
+        author = "Toadie";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load EPR<br />Rounds: 30<br />Used in: mofuggin errything";
+        displayname = "STANAG Mag (Subsonic) 5.56mm";
+        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
+    };
 
 /*
     //FAL MAGs
