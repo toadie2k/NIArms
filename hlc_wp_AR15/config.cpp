@@ -628,7 +628,19 @@ class CfgWeapons {
         };
         drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
         reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
-    };
+
+        class hlc_M203 : UGL_F {
+            cameraDir = "gl_look";
+            discreteDistance[] = { 100, 150, 200, 250, 300 };
+            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m" };
+            discreteDistanceInitIndex = 1;
+            displayname = "M203";
+            useModelOptics = false;
+            useExternalOptic = false;
+            reloadAction = "GestureReloadTrgUGL";
+            cursoraim = "gl";
+        };
+   };
 
     class hlc_rifle_RU556 : hlc_ar15_base {
         dlc = "Niarms_AR15";
@@ -1109,24 +1121,7 @@ class CfgWeapons {
             mass = 78;
             class UnderBarrelSlot {};
         };
-        muzzles[] = { "this", "hlc_M203_M4" };
-        class hlc_M203_M4 : UGL_F {
-            cameraDir = "gl_look";
-            discreteDistance[] = { 100, 150, 200, 250, 300 };
-            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m" };
-            discreteDistanceInitIndex = 1;
-            displayname = "M203";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            reloadAction = "GestureReloadTrgUGL";
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            reloadmagazinesound[] = { "A3\sounds_f\Weapons\grenades\ugl_reload", 0.1, 1, 20 };
-            reloadtime = 0.1;
-            sound[] = { "A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400 };
-            weaponinfotype = "RscWeaponZeroing";
-        };
+        muzzles[] = { "this", "hlc_M203" };
     };
     class hlc_rifle_bcmjack : hlc_ar15_base {
         dlc = "Niarms_AR15";
@@ -1417,31 +1412,16 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_wp_ar15\gesture\newgesture\gl_hands.rtm"};
         displayName = "Colt Carbine(GL)";
         descriptionShort = "Assault rifle<br/>Caliber: 5.56mm";
-        muzzles[] = {"this", "hlc_M203_CAR15"};
+        muzzles[] = {"this", "hlc_M203"};
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 78;
         };
-
-        class hlc_M203_CAR15 : UGL_F {
-            cameraDir = "gl_look";
-            discreteDistance[] = { 50, 100, 150, 200, 250 };
-            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m" };
-            discreteDistanceInitIndex = 1;
-            displayname = "M203";
-            reloadAction = "GestureReloadTrgUGL";
-            useModelOptics = false;
-            useExternalOptic = false;
-            optics = 1;
-            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
-            cursoraim = "gl";
-            magazinereloadtime = 0;
-            reloadMagazineSound[] = { "A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_UGL_reload", 0.7943282, 1, 10 };
-            reloadtime = 0.1;
-            sound[] = {"A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400};
-            weaponinfotype = "RscWeaponZeroing";
+        class hlc_M203 : hlc_M203 {
+           discreteDistance[] = { 50, 100, 150, 200, 250 };
         };
     };
+
     class hlc_rifle_Bushmaster300 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
