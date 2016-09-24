@@ -2128,6 +2128,33 @@ class CfgMagazines {
         displayname = "STANAG Mag (Subsonic) 5.56mm";
         picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
     };
+    class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR {
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
+        displayname = "STANAG Mag (EPR,IR-DIM) 5.56mm";
+        tracersevery = 4;
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR {
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Rounds: 30<br />Used in: mofuggin errything";
+        displayname = "STANAG Mag (IR-DIM) 5.56mm";
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR {
+        author = "Toadie";
+        count = 50;
+        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 50<br />Used in: mofuggin errything";
+        displayname = "X-15 STANAG Mag (EPR) 5.56mm";
+        mass = 14;
+        tracersevery = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
+    };
 
 /*
     //FAL MAGs
