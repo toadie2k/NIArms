@@ -13,26 +13,8 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-	class hlc_rifle_aug;
-	class hlc_rifle_auga3_GL :hlc_rifle_aug
-	{
-		class hlc_M203_AUGA3 : UGL_F
-		{
-			magazines[] += { "ACE_HuntIR_M203"};
-		};
-	};
-
+    class GrenadeLauncher;
+    class UGL_F : GrenadeLauncher {
+        magazines[] += { "ACE_HuntIR_M203" };
+    };
 };

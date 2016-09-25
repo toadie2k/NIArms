@@ -13,21 +13,8 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class UGL_F;
-	class hlc_rifle_m4;
-	class hlc_rifle_m4m203 : hlc_rifle_m4
-	{
-		class hlc_M203_M4 : UGL_F
-		{
-			magazines[] += { "ACE_HuntIR_M203"};
-		};
-	};
-	class hlc_rifle_colt727;
-	class hlc_rifle_Colt727_GL : hlc_rifle_Colt727
-	{
-		class hlc_M203_CAR15 : UGL_F
-		{
-			magazines[] += { "ACE_HuntIR_M203"};
-		};
-	};
+    class GrenadeLauncher;
+    class UGL_F : GrenadeLauncher {
+        magazines[] += { "ACE_HuntIR_M203" };
+    };
 };

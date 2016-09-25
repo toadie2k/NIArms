@@ -13,13 +13,8 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class UGL_F;
-	class hlc_smg_mp5N;
-	class hlc_smg_9mmar : hlc_smg_MP5N
-	{
-		class hlc_M203_Mp5 : UGL_F
-		{
-			magazines[] += {"ACE_HuntIR_M203"};
-		};
-	};
+    class GrenadeLauncher;
+    class UGL_F : GrenadeLauncher {
+        magazines[] += { "ACE_HuntIR_M203" };
+    };
 };
