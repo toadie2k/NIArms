@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "\hlc_core\script_macros.hpp"
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
@@ -64,98 +59,31 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class xhlc_20Rnd_762x51_B_fal {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 30;
-            };
-            class xxhlc_20Rnd_762x51_mk316_fal {
-                magazine = "hlc_20Rnd_762x51_mk316_fal";
-                count = 30;
-            };
-            class xxhhlc_20Rnd_762x51_barrier_fal {
-                magazine = "hlc_20Rnd_762x51_barrier_fal";
-                count = 30;
-            };
-            class xhlc_20Rnd_762x51_t_fal {
-                magazine = "hlc_20Rnd_762x51_t_fal";
-                count = 30;
-            };
-            class xhlc_50rnd_762x51_M_FAL {
-                magazine = "hlc_50rnd_762x51_M_FAL";
-                count = 30;
-            };
-            class xhlc_20Rnd_762x51_S_fal  {
-                magazine = "hlc_20Rnd_762x51_S_fal";
-                count = 30;
-            };
+            __M_MAG(hlc_20Rnd_762x51_B_fal,30);
+            __M_MAG(hlc_20Rnd_762x51_mk316_fal,30);
+            __M_MAG(hlc_20Rnd_762x51_barrier_fal,30);
+            __M_MAG(hlc_20Rnd_762x51_t_fal,30);
+            __M_MAG(hlc_50rnd_762x51_M_FAL,30);
+            __M_MAG(hlc_20Rnd_762x51_S_fal,30);
         };
         class TransportWeapons {
-            class _xhlc_rifle_falosw {
-                weapon = "hlc_rifle_falosw";
-                count = 20;
-            };
-            class _xhlc_rifle_osw_GL {
-                weapon = "hlc_rifle_osw_GL";
-                count = 20;
-            };    
-            class _xhhlc_rifle_L1A1 {
-                weapon = "hlc_rifle_L1A1slr";
-                count = 20;
-            };    
-            class _xhlc_rifle_SLR {
-                weapon = "hlc_rifle_SLR";
-                count = 20;
-            };
-            class _xhlc_rifle_STG58F {
-                weapon = "hlc_rifle_STG58F";
-                count = 20;
-            };
-            class _xhlc_rifle_FAL5061 {
-                weapon = "hlc_rifle_FAL5061";
-                count = 20;
-            };
-            class _xhlc_rifle_c1A1 {
-                weapon = "hlc_rifle_c1A1";
-                count = 20;
-            };
-            class _xhlc_rifle_LAR {
-                weapon = "hlc_rifle_LAR";
-                count = 20;
-            };
-            class _xhlc_rifle_SLRchopmod {
-                weapon = "hlc_rifle_SLRchopmod";
-                count = 20;
-            };
+            __M_WEP(hlc_rifle_falosw,20);
+            __M_WEP(hlc_rifle_osw_GL,20);
+            __M_WEP(hlc_rifle_L1A1slr,20);
+            __M_WEP(hlc_rifle_SLR,20);
+            __M_WEP(hlc_rifle_STG58F,20);
+            __M_WEP(hlc_rifle_FAL5061,20);
+            __M_WEP(hlc_rifle_c1A1,20);
+            __M_WEP(hlc_rifle_LAR,20);
+            __M_WEP(hlc_rifle_SLRchopmod,20);
         };
         class TransportItems {
-            class _xhlc_muzzle_snds_fal {
-                name = "hlc_muzzle_snds_fal";
-                count = 20;
-            };
-            class _xhlc_optic_suit {
-                name = "hlc_optic_suit";
-                count = 10;
-            };
-            class _xhlc_optic_PVS4FAL {
-                name = "hlc_optic_PVS4FAL";
-                count = 10;
-            };
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xx_optic_ACO_grn {
-                name = "optic_ACO_grn";
-                count = 10;
-            };
+            __M_ITM(hlc_optic_suit,10);
+            __M_ITM(hlc_optic_PVS4FAL,10);
+            __M_ITM(optic_Holosight,10);
+            __M_ITM(optic_hamr,10);
+            __M_ITM(optic_rco,10);
+            __M_ITM(optic_ACO_grn,10);
         };
     };
     class Weapon_hlc_rifle_SLRchopmod : Weapon_Base_F {
@@ -468,8 +396,6 @@ class CfgMagazines {
 class CfgWeapons {
 
 //optics
-#define __OPTIC_DMR opticType = 1
-#define __OPTIC_SNP opticType = 2
 
     class InventoryOpticsItem_Base_F;
 
@@ -513,16 +439,15 @@ class CfgWeapons {
                     opticsdisableperipherialvision = 0;
                     opticsflare = 0;
                     opticsid = 2;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.2;
-                    opticsZoomMax = 0.5;
-                    opticsZoomInit = 0.375;
+                    opticsppeffects[] = { "", "" };
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
                 };
             };
         };
 		tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
+		inertia = 0.03;
     };
 
     class hlc_optic_PVS4FAL : hlc_optic_suit {
@@ -534,7 +459,7 @@ class CfgWeapons {
         model = "\hlc_wp_FAL\mesh\PVS4\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 7;
+            mass = 36;
             modelOptics = "\hlc_wp_FAL\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
                 class Snip {
@@ -581,21 +506,21 @@ class CfgWeapons {
                     opticsdisableperipherialvision = 0;
                     opticsflare = 0;
                     opticsid = 3;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.2;
-                    opticsZoomMax = 0.5;
-                    opticsZoomInit = 0.375;
+                    opticsppeffects[] = {};
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
                 };
             };
         };
+		inertia = 0.18;
     };
 
 //muzzles
 
     class muzzle_snds_H;
     class hlc_muzzle_snds_fal : muzzle_snds_H {
+        scope = 1;
         author = "Pete, Acid Snake, Toadie";
         displayName = "FAL Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
@@ -618,9 +543,7 @@ class CfgWeapons {
         scope = protected;
         deployedpivot = "deploypivot";
         hasBipod = false;
-        magazines[] = {
-            "hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_mk316_fal","hlc_20Rnd_762x51_Barrier_fal","hlc_20Rnd_762x51_t_fal","hlc_20Rnd_762x51_TDim_fal","hlc_20Rnd_762x51_S_fal","hlc_50rnd_762x51_M_FAL"
-        };
+        magazines[] = { __762FAL_MAGS };
         class Library {
             libTextDesc = "FN FAL";
         };
@@ -641,24 +564,21 @@ class CfgWeapons {
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         distancezoommax = 300;
         distancezoommin = 300;
-        drysound[] = {"A3\sounds_f\weapons\other\dry1", 0.630957, 1, 30};
+        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         handanim[] = {"OFP2_ManSkeleton", "\A3\Weapons_F\LongRangeRifles\EBR\Data\Anim\ebr.rtm"};
-        modes[] = {"Single", "FullAuto", "single_close_optics1", "single_medium_optics1", "single_far_optics1", "fullauto_medium"};
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\sa58_reload", 0.630957, 1, 35};
         soundbullet[] = {"bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083};
+        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
+        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot {};
             class PointerSlot {};
-            class MuzzleSlot : asdg_MuzzleSlot_762 {
-                 class compatibleItems: compatibleItems {
-                    //hlc_muzzle_snds_fal = 1;
-                };
-           };
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
         };
+
+        modes[] = {"Single", "FullAuto", "single_medium_optics1", "single_far_optics1", "fullauto_medium"};
+
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -672,57 +592,23 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\DSA_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            begin1[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.0007;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilProne = "recoil_single_prone_ebr";
+            dispersion = 0.000555596;
             reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 300;
+            aiRateOfFireDispersion = 2;
+            minRange = 20;
+            minRangeProbab = 0.8;
+            midRange = 150;
+            midRangeProbab = 0.5;
+            maxRange = 500;
+            maxRangeProbab = 0.1;
         };
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -736,102 +622,61 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\DSA_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            airateoffire = "1e-006";
-            begin1[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\sa58", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
+            dispersion = 0.000555596;
             reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+
+            aiRateOfFire = 0.2;
+            aiRateOfFireDistance = 50;
+            aiRateOfFireDispersion = 1;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 1;
+            midRangeProbab = 0.8;
+            maxRange = 5;
+            maxRangeProbab = 0.1;
         };
-        class single_close_optics1 : Single {
-            airateoffire = 2;
-            airateoffiredistance = 300;
-            maxrange = 500;
-            maxrangeprobab = 0.01;
-            midrange = 300;
-            midrangeprobab = 0.8;
-            minrange = 2;
-            minrangeprobab = 0.05;
+        class single_medium_optics1 : Single {
             requiredoptictype = 1;
             showtoplayer = 0;
-        };
-        class single_medium_optics1 : single_close_optics1 {
-            airateoffire = 2;
-            airateoffiredistance = 500;
-            maxrange = 700;
-            maxrangeprobab = 0.05;
-            midrange = 500;
-            midrangeprobab = 0.7;
-            minrange = 300;
-            minrangeprobab = 0.05;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 3;
+            minRange = 20;
+            minRangeProbab = 0.9;
+            midRange = 300;
+            midRangeProbab = 0.8;
+            maxRange = 800;
+            maxRangeProbab = 0.2;
         };
         class single_far_optics1 : single_medium_optics1 {
-            airateoffire = 4;
-            airateoffiredistance = 600;
-            maxrange = 900;
-            maxrangeprobab = 0.05;
-            midrange = 600;
-            midrangeprobab = 0.4;
-            minrange = 300;
-            minrangeprobab = 0.05;
             requiredoptictype = 2;
+            aiRateOfFire = 8;
+            aiRateOfFireDistance = 1200;
+            aiRateOfFireDispersion = 4;
+            minRange = 20;
+            minRangeProbab = 0.7;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1200;
+            maxRangeProbab = 0.1;
         };
         class fullauto_medium : FullAuto {
-            airateoffire = 2;
             burst = 3;
-            maxrange = 100;
-            maxrangeprobab = 0.05;
-            midrange = 50;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.5;
             showtoplayer = 0;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 5;
+            minRangeProbab = 0.8;
+            midRange = 10;
+            midRangeProbab = 0.7;
+            maxRange = 20;
+            maxRangeProbab = 0.1;
         };
     };
 
@@ -846,180 +691,80 @@ class CfgWeapons {
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\hands_osw.rtm"};
         descriptionShort = "Short-Barreled Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadOSW";
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         cameradir = "look";
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 81;
+            mass = 88;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+		inertia = 0.39;
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal2_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
         };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
+        };
 
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
+        // need have this so ai fire modes inherit osw sounds
+        class single_medium_optics1 : Single {
+            requiredoptictype = 1;
+            showtoplayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 3;
+            minRange = 20;
+            minRangeProbab = 0.9;
+            midRange = 300;
+            midRangeProbab = 0.8;
+            maxRange = 800;
+            maxRangeProbab = 0.2;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            aiRateOfFire = 8;
+            aiRateOfFireDistance = 1200;
+            aiRateOfFireDispersion = 4;
+            minRange = 20;
+            minRangeProbab = 0.7;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1200;
+            maxRangeProbab = 0.1;
+        };
+        class fullauto_medium : FullAuto {
+            burst = 3;
+            showtoplayer = 0;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 5;
+            minRangeProbab = 0.8;
+            midRange = 10;
+            midRangeProbab = 0.7;
+            maxRange = 20;
+            maxRangeProbab = 0.1;
         };
     };
     
     class UGL_F;
     class hlc_rifle_osw_GL : hlc_rifle_falosw {
-        scope = public;
-        descriptionShort = "Short-Barreled Rifle<br/>Caliber: 7.62x51mm NATO";
-        reloadAction = "HLC_GestureReloadOSW";
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
-        ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 330.2;
-        drysound[] = { "hlc_core\sound\empty_assaultrifles", 1.01, 1, 10 };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
-        discretedistanceinitindex = 2;
-        cameradir = "look";
-        discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9" }; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 81; 
+            mass = 113; 
             class UnderBarrelSlot {};
         };
+		inertia = 0.77;
 
         author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
-        AB_barrelTwist=12;
-        AB_barrelLength=13;
         displayName = "DSArms FAL OSW(GL)";
         model = "\hlc_wp_FAL\mesh\sag58gl\osw_gl.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_oswgl_x_ca";
@@ -1034,18 +779,11 @@ class CfgWeapons {
             useModelOptics = false;
             useExternalOptic = false;
             optics = 1;
-            drysound[] = {"A3\sounds_f\Weapons\other\sfx5", 1, 1, 400};
             cursoraim = "gl";
             magazinereloadtime = 0;
             reloadAction = "GestureReloadTrgUGL";
-            magazines[] = {"1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell"};
-            opticszoominit = 0.75;
-            opticszoommax = 1.1;
-            opticszoommin = 0.375;
             reloadmagazinesound[] = {"A3\sounds_f\Weapons\grenades\ugl_reload", 0.1, 1, 20};
             reloadtime = 0.1;
-            sound[] = {"A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400};
-            weaponinfotype = "RscWeaponZeroing";
         };
     };
     class hlc_rifle_SLR : hlc_fal_base {
@@ -1060,82 +798,48 @@ class CfgWeapons {
         recoil = "recoil_ebr";
         maxZeroing = 1600;
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        modes[] = {"Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1"};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\slr\l1a1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_slr_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = {100,200,300,400,500,600,700,800};
+        discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         cameradir = "look";
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
-        class Single : Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
+        modes[] = {"Single", "single_medium_optics1", "single_far_optics1"};
 
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\falnew_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+            minrange = 0;
+            dispersion = 0.0013;
+        };
+        class single_medium_optics1 : Single {
+            requiredoptictype = 1;
+            showtoplayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 3;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 300;
+            midRangeProbab = 0.8;
+            maxRange = 800;
+            maxRangeProbab = 0.2;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            aiRateOfFire = 8;
+            aiRateOfFireDistance = 1200;
+            aiRateOfFireDispersion = 4;
+            minRange = 0;
+            minRangeProbab = 0.7;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1200;
+            maxRangeProbab = 0.1;
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1147,6 +851,7 @@ class CfgWeapons {
                 };
             };
         };
+		inertia = 0.43;
     };
     class hlc_rifle_STG58F : hlc_fal_base {
         author = "Pete, Enron, Bohemia Interactive, Toadie, Clifton Vlodhammer";
@@ -1158,13 +863,10 @@ class CfgWeapons {
         displayName = "Steyr STG.58";
         descriptionShort = "Infantry Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\stg58\stg58.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_stg58_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         cameradir = "look";
@@ -1173,137 +875,7 @@ class CfgWeapons {
             mass = 89;
             class CowsSlot: asdg_OpticRail1913 {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal2_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire2", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal2_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
+		inertia = 0.45;
     };
     class hlc_rifle_FAL5061Rail : hlc_fal_base {
         scope = public;
@@ -1315,144 +887,13 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
             class CowsSlot : asdg_OpticRail1913 {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal2_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire2", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal2_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.9952624, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
+		inertia = 0.45;
     };
     class hlc_rifle_FAL5061 : hlc_fal_base {
         scope = public;
@@ -1464,17 +905,14 @@ class CfgWeapons {
         displayName = "FN FAL 50.61'Para'";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_para_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 78;
+            mass = 76;
             class CowsSlot: asdg_OpticRail {
                 class compatibleItems {
                     hlc_optic_suit = 1;
@@ -1482,137 +920,7 @@ class CfgWeapons {
                 };
             };
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
+		inertia = 0.38;
     };
     class hlc_rifle_FAL5000 : hlc_rifle_FAL5061 {
         scope = public;
@@ -1624,149 +932,16 @@ class CfgWeapons {
         displayName = "FN FAL 50.00";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = { "hlc_core\sound\empty_assaultrifles", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 78;
+            mass = 86;
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                closure2[] = { "\hlc_WP_FAL\snd\fal_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "fal_Shot_SoundSet", "fal_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_WP_FAL\snd\fal_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                begin2[] = { "\hlc_WP_FAL\snd\fal_silenced", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            begin1[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin2[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            begin3[] = { "hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200 };
-            closure1[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30 };
-            closure2[] = { "hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30 };
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
+		inertia = 0.43;
     };
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
@@ -1774,6 +949,10 @@ class CfgWeapons {
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 99;
+        };
+		inertia = 0.5;
     };
     class hlc_rifle_L1A1SLR : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -1784,86 +963,8 @@ class CfgWeapons {
         scope = public;
         displayName = "Enfield L1A1 SLR";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
-        reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
-        reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
-        handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\l1a1\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_l1a1_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
-        cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
-        discretedistanceinitindex = 2;
-        class Single : Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\falnew_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.0013;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 86;
-        };
     };
     class hlc_rifle_c1A1 : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -1874,86 +975,8 @@ class CfgWeapons {
         scope = public;
         displayName = "CAL C1A1";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
-        reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
-        reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
-        handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\C1A1\C1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_c1_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
-        discretedistanceinitindex = 2;
-        cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
-        class Single: Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\FAL_Fire_new", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\falnew_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-               soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
-            dispersion = 0.0013;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 40;
-        };
     };
     class hlc_rifle_LAR : hlc_rifle_FAL5061 {
         author = "Pete, Enron, Acid Snake, Toadie, Clifton Vlodhammer";
@@ -1965,151 +988,68 @@ class CfgWeapons {
         displayName = "FN LAR";
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_fal\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\FN_LAR\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_izzy_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         cameradir = "look";
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
-        class Single : Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
             dispersion = 0.0013;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
         };
-        class FullAuto : Mode_FullAuto {
-            airateoffire = "1e-006";
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\fal_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
             dispersion = 0.0013;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+        };
+        class single_medium_optics1 : Single {
+            requiredoptictype = 1;
+            showtoplayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 3;
+            minRange = 20;
+            minRangeProbab = 0.9;
+            midRange = 300;
+            midRangeProbab = 0.8;
+            maxRange = 800;
+            maxRangeProbab = 0.2;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            aiRateOfFire = 8;
+            aiRateOfFireDistance = 1200;
+            aiRateOfFireDispersion = 4;
+            minRange = 20;
+            minRangeProbab = 0.7;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1200;
+            maxRangeProbab = 0.1;
+        };
+        class fullauto_medium : FullAuto {
+            burst = 5;
+            showtoplayer = 0;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 5;
+            minRangeProbab = 0.8;
+            midRange = 60;
+            midRangeProbab = 0.7;
+            maxRange = 120;
+            maxRangeProbab = 0.1;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 90;
+            mass = 119;
         };
+		inertia = 0.8;
     };
     class hlc_rifle_SLRchopmod : hlc_rifle_FAL5061 {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -2121,150 +1061,67 @@ class CfgWeapons {
         displayName = "Lithgow SLR Chopmod";
         descriptionShort = "Butchered AOW<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
-        drysound[] = {"hlc_core\sound\empty_assaultrifles", 1.01, 1, 10};
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\chopmod_hands.rtm"};
-        changeFiremodeSound[] = { "hlc_wp_ak\snd\ak_selector", 1, 1, 8 };
         model = "\hlc_wp_FAL\mesh\Suchka-LR\L1A1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_bitch_x_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {100,200,300,400,500,600,700,800,900};
         discretedistanceinitindex = 2;
         cameradir = "look";
         discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
-        class Single: Mode_SemiAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single: Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
             dispersion = 0.0013;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
         };
-        class FullAuto : Mode_FullAuto {
-            airateoffire = "1e-006";
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                closure2[]={"\hlc_WP_FAL\snd\fal_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin2[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                begin3[]={"\hlc_WP_FAL\snd\sa58", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal308_forest", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_fal\snd\tails\fal_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "FAL_silencerShot_SoundSet", "FAL_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                begin2[]={"\hlc_WP_FAL\snd\fal_silenced", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_WP_FAL\snd\tails\fal_sil_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            begin1[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin2[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            begin3[] = {"hlc_WP_FAL\snd\FAL_Fire_new", 1, 1, 1200};
-            closure1[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1.2, 30};
-            closure2[] = {"hlc_WP_FAL\snd\fal_first", 1.12202, 1, 30};
             dispersion = 0.0013;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+        };
+        class single_medium_optics1 : Single {
+            requiredoptictype = 1;
+            showtoplayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 3;
+            minRange = 20;
+            minRangeProbab = 0.9;
+            midRange = 300;
+            midRangeProbab = 0.8;
+            maxRange = 800;
+            maxRangeProbab = 0.2;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            aiRateOfFire = 8;
+            aiRateOfFireDistance = 1200;
+            aiRateOfFireDispersion = 4;
+            minRange = 20;
+            minRangeProbab = 0.7;
+            midRange = 500;
+            midRangeProbab = 0.8;
+            maxRange = 1200;
+            maxRangeProbab = 0.1;
+        };
+        class fullauto_medium : FullAuto {
+            burst = 3;
+            showtoplayer = 0;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 5;
+            minRangeProbab = 0.8;
+            midRange = 10;
+            midRangeProbab = 0.7;
+            maxRange = 20;
+            maxRangeProbab = 0.1;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 75;
         };
+		inertia = 0.3;
     };
 };
