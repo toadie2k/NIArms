@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_RHS_AWC
@@ -11,42 +13,24 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
+
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
+	class Rifle_Base_F;
 	/*
 	========================================
 	RHS GUNS
 	========================================
 	*/
-	class rhs_weap_XM2010_Base_F : Rifle_Base_F
-	{
-		magazines[] += {"hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM" };
+	class rhs_weap_XM2010_Base_F : Rifle_Base_F {
+		magazines[] += { __300WM_MAGS };
 	};
 	/*
 	========================================
 	HLC GUNS
 	========================================
 	*/
-	class hlc_AWC_base;
-	class hlc_rifle_awcovert : hlc_AWC_base
-	{
-		magazines[] += {"rhsusf_5Rnd_300winmag_xm2010"};
-	};
-	class hlc_rifle_awmagnum : hlc_AWC_base
-	{
-		magazines[] += {"rhsusf_5Rnd_300winmag_xm2010"};
+    class hlc_AWC_base : Rifle_Base_F {
+		magazines[] += { "rhsusf_5Rnd_300winmag_xm2010" };
 	};
 };

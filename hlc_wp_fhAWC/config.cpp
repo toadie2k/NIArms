@@ -1,9 +1,4 @@
-#define private        0
-#define protected        1
-#define public        2
-
-#define true    1
-#define false    0
+#include "\hlc_core\script_macros.hpp"
 
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
@@ -378,82 +373,28 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class _xx_hlc_100Rnd_762x51_B_M60E4 {
-                magazine = "hlc_5rnd_300WM_FMJ_AWM";
-                count = 30;
-            };
-            class _xx_hlc_100Rnd_762x51_T_M60E4 {
-                magazine = "hlc_5rnd_300WM_AP_AWM";
-                count = 30;
-            };
-            class _xx_hlc_100Rnd_762x51_M_M60E4 {
-                magazine = "hlc_5rnd_300WM_BTSP_AWM";
-                count = 30;
-            };
-            class ___hlc_5rnd_300WM_mk248_AWM {
-                magazine = "hlc_5rnd_300WM_mk248_AWM";
-                count = 30;
-            };
-            class ___hlc_5rnd_300WM_SBT_AWM {
-                magazine = "hlc_5rnd_300WM_SBT_AWM";
-                count = 30;
-            };
+            __M_MAG(hlc_5rnd_300WM_FMJ_AWM,30);
+            __M_MAG(hlc_5rnd_300WM_AP_AWM,30);
+            __M_MAG(hlc_5rnd_300WM_BTSP_AWM,30);
+            __M_MAG(hlc_5rnd_300WM_mk248_AWM,30);
+            __M_MAG(hlc_5rnd_300WM_SBT_AWM,30);
         };
         class TransportWeapons {
-            class _xx_hlc_lmg_Mk48 {
-                weapon = "hlc_rifle_awcovert";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awcovert_BL {
-                weapon = "hlc_rifle_awcovert_BL";
-                count = 10;
-            }; 
-            class _xx_hlc_rifle_awcovert_FDE {
-                weapon = "hlc_rifle_awcovert_FDE";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awmagnum {
-                weapon = "hlc_rifle_awmagnum";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awmagnum_BL {
-                weapon = "hlc_rifle_awmagnum_BL";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awmagnum_FDE {
-                weapon = "hlc_rifle_awmagnum_FDE";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awMagnum_BL_ghillie {
-                weapon = "hlc_rifle_awMagnum_BL_ghillie";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awMagnum_FDE_ghillie {
-                weapon = "hlc_rifle_awMagnum_FDE_ghillie";
-                count = 10;
-            };
-            class _xx_hlc_rifle_awMagnum_OD_ghillie {
-                weapon = "hlc_rifle_awMagnum_OD_ghillie";
-                count = 10;
-            };
+            __M_WEP(hlc_rifle_awcovert,10);
+            __M_WEP(hlc_rifle_awcovert_BL,10);
+            __M_WEP(hlc_rifle_awcovert_FDE,10);
+            __M_WEP(hlc_rifle_awmagnum,10);
+            __M_WEP(hlc_rifle_awmagnum_BL,10);
+            __M_WEP(hlc_rifle_awmagnum_FDE,10);
+            __M_WEP(hlc_rifle_awMagnum_BL_ghillie,10);
+            __M_WEP(hlc_rifle_awMagnum_FDE_ghillie,10);
+            __M_WEP(hlc_rifle_awMagnum_OD_ghillie,10);
         };
         class TransportItems {
-            class _xx_optic_Holosight {
-                name = "optic_LRPS";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_NVS";
-                count = 10;
-            };
-            class _xx_optic_ACO_grn {
-                name = "optic_SOS";
-                count = 10;
-            };
+            __M_ITM(optic_LRPS,10);
+            __M_ITM(optic_hamr,10);
+            __M_ITM(optic_NVS,10);
+            __M_ITM(optic_SOS,10);
         };
     };
     class Weapon_hlc_rifle_awcovert : Weapon_Base_F {
@@ -657,7 +598,7 @@ class CfgMagazines {
         displaynameshort = "FMJ";
         author = "toadie,Spartan0536";
     };
-    class hlc_5rnd_300WM_AP_AWM : 30Rnd_556x45_Stanag {
+    class hlc_5rnd_300WM_AP_AWM : hlc_5rnd_300WM_FMJ_AWM {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_AP";
         count = 5;
@@ -673,65 +614,53 @@ class CfgMagazines {
         displaynameshort = "AP";
         author = "toadie,Spartan0536";
     };
-    class hlc_5rnd_300WM_T_AWM : 30Rnd_556x45_Stanag{
+    class hlc_5rnd_300WM_T_AWM : hlc_5rnd_300WM_FMJ_AWM{
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_Tracer";
-        count = 5;
         descriptionshort = "Caliber: .300 Winchester Magnum Re-loaded M62 Tracer <br />Rounds: 5<br />Used in: AWC-M, AWM-F";
         displayname = "AWM Magazine (Tracer) 5rnd .300WM";
         initspeed = 861;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_FMJ_ca";
-        model = "\hlc_wp_fhAWC\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 1;
         mass = 14;
         displaynameshort = "Tracer";
         author = "toadie,Spartan0536";
     };
-    class hlc_5rnd_300WM_BTSP_AWM : 30Rnd_556x45_Stanag  {
+    class hlc_5rnd_300WM_BTSP_AWM : hlc_5rnd_300WM_FMJ_AWM  {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_BTSP";
-        count = 5;
         descriptionshort = "Caliber: .300 Winchester Magnum 190gr Soft-point Boat-tail<br />Rounds: 5<br />Used in: AWC-M, AWM-F";
         displayname = "AWM Magazine (Soft-point) 5rnd .300WM";
         initspeed = 935;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_spbt_ca";
-        model = "\hlc_wp_fhAWC\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 0;
         mass = 14;
         displaynameshort = "BTSP";
         author = "toadie";
     };
-    class hlc_5rnd_300WM_mk248_AWM : 30Rnd_556x45_Stanag {
+    class hlc_5rnd_300WM_mk248_AWM : hlc_5rnd_300WM_FMJ_AWM {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_BTHP";
-        count = 5;
         descriptionshort = "Caliber: .300 Winchester Magnum 220gr Mk248 Mod1<br />Rounds: 5<br />Used in: AWC-M, AWM-F";
         displayname = "AWM Magazine (Mk248 Mod.1) 5rnd .300WM";
         initspeed = 899;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_hpbt_ca";
-        model = "\hlc_wp_fhAWC\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 0;
         mass = 15;
         displaynameshort = "Mk248 Mod.1";
         author = "toadie,Spartan0536";
     };
-    class hlc_5rnd_300WM_SBT_AWM : 30Rnd_556x45_Stanag {
+    class hlc_5rnd_300WM_SBT_AWM : hlc_5rnd_300WM_FMJ_AWM {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_S_BT";
-        count = 5;
         descriptionshort = "Caliber: .300Winchester Magnum 230gr Swaged Lead-core<br />Rounds: 5<br />Used in: AWC-M, AWM-F<br /> DISCLAIMER: Loading .300WM rounds this lightly is specifically dangerous to the end-user.";
         displayname = "AWM Magazine (Subsonic Boat-Tail) 5rnd .300WM";
         initspeed = 380;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_sub_ca";
-        model = "\hlc_wp_fhAWC\mesh\magazine\magazine.p3d";
-        scope = 2;
         tracersevery = 0;
         mass = 14;
         displaynameshort = "SWLC";
@@ -761,7 +690,7 @@ class CfgWeapons {
         dlc = "Niarms_AWC";
         author = "Toadie";
         scope = protected;
-        magazines[] = {};
+        magazines[] = { __300WM_MAGS };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         maxZeroing = 1600;
@@ -773,16 +702,10 @@ class CfgWeapons {
             };
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 165;
             class MuzzleSlot {};
             class PointerSlot {};
             class CowsSlot : asdg_OpticRail1913 {};
         };
-        opticsZoomMin = 0.375;
-        opticsZoomMax = 1.1;
-        opticsZoomInit = 0.75;
-        distanceZoomMin = 300;
-        distanceZoomMax = 300;
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
 
         dexterity = 1.8;
@@ -799,8 +722,9 @@ class CfgWeapons {
         bullet11[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_03.wss", 0.01, 1, 15 };
         bullet12[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_04.wss", 0.01, 1, 15 };
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
+
         modes[] = { "Single", "far_optic1", "medium_optic2", "far_optic2" };
-        inertia = 0.8;
+
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -813,34 +737,24 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin3[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                 soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
+                soundSetShot[] = { "awm_Shot_SoundSet", "awm_Tail_SoundSet" };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                 begin1[]={"\hlc_wp_fhawc\snd\AWC_Fire", 1.1, 1,200};
-                 begin2[]={"\hlc_wp_fhawc\snd\AWC_Fire", 1.1, 1,200};
-                 soundBegin[]={begin1,0.5, begin2,0.5};
+                soundSetShot[] = { "awc_silencerShot_SoundSet", "awc_silencerTail_SoundSet" };
             };
 
-            begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-            begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-            closure2[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 1.637;
-            dispersion = 0.00035;
-            maxrange = 600;
+            reloadTime = 1.6666666666666666666666666666667;
+            dispersion = 0.000111119;
+
+            maxrange = 500;
             maxrangeprobab = 0.05;
             midrange = 300;
             midrangeprobab = 0.7;
             minrange = 1;
             minrangeprobab = 0.3;
-            airateoffire = 4;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 300;
         };
         class far_optic1 : Single {
             showToPlayer = 0;
@@ -850,7 +764,7 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 1500;
             maxRangeProbab = 0.4;
-            aiRateOfFire = 3;
+            aiRateOfFire = 4;
             aiRateOfFireDistance = 500;
             requiredOpticType = 1;
         };
@@ -862,7 +776,7 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 1000;
             maxRangeProbab = 0.4;
-            aiRateOfFire = 5;
+            aiRateOfFire = 8;
             aiRateOfFireDistance = 1000;
             requiredOpticType = 2;
         };
@@ -873,16 +787,23 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 2100;
             maxRangeProbab = 0.3;
-            aiRateOfFire = 7;
-            aiRateOfFireDistance = 1000;
+            aiRateOfFire = 10;
+            aiRateOfFireDistance = 1200;
             requiredOpticType = 2;
         };
 
         aiDispersionCoefY = 10;
         aiDispersionCoefX = 8;
 
-        drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
-        reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
+        drysound[] = { "\hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
+
+        class ItemInfo {
+            priority = 1;
+            RMBhint = "XMC";
+            onHoverText = "TODO XMC DSS";
+        };
+        UiPicture = "\A3\weapons_f\data\UI\icon_sniper_CA.paa";
     };
 
 /*
@@ -922,7 +843,6 @@ class CfgWeapons {
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM","hlc_5rnd_300WM_BTSP_AWM","hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM","hlc_5rnd_300WM_T_AWM" };
         class bg_weaponparameters {
             class onFired_Action {
                 HandAction = "HLC_GestureRechamberAWM";
@@ -937,11 +857,8 @@ class CfgWeapons {
         model = "\hlc_wp_fhawc\mesh\awcovert\covert.p3d";
         reloadaction = "HLC_GestureReloadAWM";
         descriptionShort = "Accuracy International Arctic Warfare Covert Magnum<br/>Covert Rifle<br/>Caliber: .300WM";
-        drysound[] = { "\hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
         inertia = 0.75;
         picture = "\hlc_wp_fhawc\tex\ui\gear_awcOD_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "AI AWC-M (OD)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
@@ -949,71 +866,15 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_fhAWC\anim\awmhands.rtm" };
         hiddenSelections[] = { "camo", "camo2"};
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa", "\hlc_wp_fhAWC\tex\AWC_Scope_co.paa"};
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
-        aiDispersionCoefY = 10;
-        aiDispersionCoefX = 8;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 121;
         };
-        class ItemInfo {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-                closure2[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            sounds[] = {"StandardSound"};
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "awc_silencerShot_SoundSet", "awc_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin3[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-				class SoundTails {
-                    class TailInterior {
-                        sound[] = { "hlc_wp_fhawc\snd\AWC_indoor", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "awc_silencerShot_SoundSet", "awc_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                class SoundTails
-                {
-                    class TailInterior
-                    {
-                        sound[] = { "hlc_wp_fhawc\snd\AWC_indoor", 1, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-            };
-            reloadTime = 1.6666666666666666666666666666667;
             dispersion = 0.00058;
-            minRange = 2;
-            minRangeProbab = 0.3;
-            midRange = 250;
-            midRangeProbab = 0.7;
-            maxRange = 400;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
         };
         class far_optic1 : Single {
             showToPlayer = 0;
@@ -1023,7 +884,7 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 1500;
             maxRangeProbab = 0.4;
-            aiRateOfFire = 3;
+            aiRateOfFire = 4;
             aiRateOfFireDistance = 500;
             requiredOpticType = 1;
         };
@@ -1035,7 +896,7 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 1000;
             maxRangeProbab = 0.4;
-            aiRateOfFire = 5;
+            aiRateOfFire = 8;
             aiRateOfFireDistance = 1000;
             requiredOpticType = 2;
         };
@@ -1046,8 +907,8 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 2100;
             maxRangeProbab = 0.3;
-            aiRateOfFire = 7;
-            aiRateOfFireDistance = 1000;
+            aiRateOfFire = 10;
+            aiRateOfFireDistance = 1200;
             requiredOpticType = 2;
         };
         class Library {
@@ -1075,7 +936,6 @@ class CfgWeapons {
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM", "hlc_5rnd_300WM_T_AWM" };
         hiddenSelections[] = { "camo", "camo2", "Camo3" };
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa","\hlc_wp_fhAWC\tex\AWC_Scope_co.paa","\hlc_wp_fhAWC\tex\Magnumbits_ca.paa" };
         class bg_weaponparameters {
@@ -1092,117 +952,18 @@ class CfgWeapons {
         model = "\hlc_wp_fhawc\mesh\awmagnum\covert.p3d";
         reloadaction = "HLC_GestureReloadAWM";
         descriptionShort = "Accuracy International Arctic Warfare Magnum<br/>Covert Rifle<br/>Caliber: .300WM";
-        drysound[] = { "\hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
         inertia = 0.75;
         picture = "\hlc_wp_fhawc\tex\ui\gear_awmOD_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         displayName = "AI AWM (OD)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_fhAWC\anim\awmhands.rtm" };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.375;
-        aiDispersionCoefY = 10;
-        aiDispersionCoefX = 8;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 121;
 //            class PointerSlot : PointerSlot {
 //                compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */};
 //            };
-        };
-        class ItemInfo {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-                closure2[] = { "\hlc_wp_fhawc\snd\AWC_first", 0.7, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "awm_Shot_SoundSet", "awm_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_fhawc\snd\AWM_Fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_fhawc\snd\AWM_Fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_fhawc\snd\AWM_Fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "hlc_wp_fhawc\snd\AWM_indoor", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "awc_silencerShot_SoundSet", "awc_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_fhawc\snd\AWC_Fire", 1, 1, 200 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "hlc_wp_fhawc\snd\AWC_indoor", 1.0, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-            };
-            reloadTime = 1.6666666666666666666666666666667;
-            dispersion = 0.000111119;
-            minRange = 2;
-            minRangeProbab = 0.3;
-            midRange = 250;
-            midRangeProbab = 0.7;
-            maxRange = 400;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
-        };
-        class far_optic1 : Single {
-            showToPlayer = 0;
-            minRange = 150;
-            minRangeProbab = 0.2;
-            midRange = 500;
-            midRangeProbab = 0.7;
-            maxRange = 1500;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            requiredOpticType = 1;
-        };
-        class medium_optic2 : Single {
-            showToPlayer = 0;
-            minRange = 250;
-            minRangeProbab = 0.2;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 1000;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 5;
-            aiRateOfFireDistance = 1000;
-            requiredOpticType = 2;
-        };
-        class far_optic2 : far_optic1 {
-            minRange = 500;
-            minRangeProbab = 0.2;
-            midRange = 1200;
-            midRangeProbab = 0.7;
-            maxRange = 2100;
-            maxRangeProbab = 0.3;
-            aiRateOfFire = 7;
-            aiRateOfFireDistance = 1000;
-            requiredOpticType = 2;
         };
         class Library {
             libTextDesc = "Accuracy International Arctic Warfare Magnum";

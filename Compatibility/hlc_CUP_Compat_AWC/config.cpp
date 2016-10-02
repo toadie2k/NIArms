@@ -11,21 +11,3 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class CfgWeapons
-{
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-
-
-};
