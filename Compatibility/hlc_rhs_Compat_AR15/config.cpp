@@ -15,7 +15,6 @@ class CfgPatches
 };
 class CfgWeapons
 {
-    class GrenadeLauncher;
 	class Rifle_Base_F;
     class arifle_MX_Base_F;
 
@@ -24,9 +23,6 @@ class CfgWeapons
 	BIS GUNS (bonus compat)
 	========================================
 	*/
-    class UGL_F : GrenadeLauncher {
-        magazines[] += { __40MM_M203_RHS_GRENADES };
-    };
     class mk20_base_F : Rifle_Base_F {
         magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
     };

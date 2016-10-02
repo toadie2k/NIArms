@@ -11,10 +11,3 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class CfgWeapons
-{
-    class GrenadeLauncher;
-    class UGL_F : GrenadeLauncher {
-        magazines[] += { "ACE_HuntIR_M203" };
-    };
-};

@@ -16,7 +16,6 @@ class CfgPatches
 class CfgWeapons
 {
 	class Rifle_Base_F;
-	class UGL_F;
 	/*
 	========================================
 	CUP GUNS
@@ -34,13 +33,5 @@ class CfgWeapons
 	class hlc_Mp5_base : Rifle_Base_F
 	{
 		magazines[] += {"CUP_30Rnd_9x19_MP5"};
-	};
-	class hlc_smg_MP5N;
-	class hlc_smg_9mmar : hlc_smg_MP5N
-	{
-		class hlc_M203_Mp5 : UGL_F
-		{
-			magazines[] += { __40MM_M203_CUP_GRENADES };
-		};
 	};
 };
