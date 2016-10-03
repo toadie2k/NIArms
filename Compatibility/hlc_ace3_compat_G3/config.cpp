@@ -13,21 +13,6 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class hlc_rifle_g3a3ris;
-	class HLC_Rifle_g3ka4_GL : hlc_rifle_g3a3ris
-	{
-		class hlc_M203_G3k : UGL_F
-		{
-			magazines[] += {"ACE_HuntIR_M203" };
-		};
-	};
     class InventoryOpticsItem_Base_F;
     class optic_dms;
     class HLC_Optic_ZFSG1 : optic_dms {
