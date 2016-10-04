@@ -180,7 +180,6 @@ class CfgAmmo {
         indirecthit = 0;
         indirecthitrange = 0;
         maxspeed = 990;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         nvgonly = 1;
         tracerendtime = 1;
         tracerscale = 1;
@@ -222,7 +221,6 @@ class CfgAmmo {
         indirecthit = 0;
         indirecthitrange = 0;
         maxspeed = 990;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         nvgonly = 0;
         tracerscale = 1;
         tracerStartTime = 0.073;
@@ -264,7 +262,6 @@ class CfgAmmo {
         indirecthit = 0;
         indirecthitrange = 0;
         maxspeed = 990;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
         nvgonly = 1;
         tracerendtime = 1;
         tracerscale = 1;
