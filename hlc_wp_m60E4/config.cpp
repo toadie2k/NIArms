@@ -214,11 +214,6 @@ class CfgWeapons {
             class CowsSlot {};
             class PointerSlot {};
         };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
-        distanceZoomMin = 300;
-        distanceZoomMax = 300;
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
 
@@ -366,6 +361,8 @@ class CfgWeapons {
             mass = 193;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
+        inertia = 0.92;
+
         class ItemInfo {
             priority = 1;
             RMBhint = "XMC";
@@ -420,5 +417,6 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 210;
         };
+        inertia = 1.05;
     };
 };
