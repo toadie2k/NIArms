@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_BWMOD_G36
@@ -13,39 +15,18 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
+	class Rifle_Base_F;
 	class hlc_G36_base : Rifle_Base_F
 	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
-	};/*
-	class hlc_rifle_G36VAG36 :hlc_G36_base
-	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
+		magazines[] += { __556G36_BWA3_MAGS };
 	};
-	class hlc_rifle_G36V :hlc_G36_base
+
+	class BWA3_G36: Rifle_Base_F
 	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
+		magazines[] += { __556G36_MAGS };
 	};
-	class hlc_rifle_G36C : hlc_G36_base
+	class BWA3_G38: Rifle_Base_F
 	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
+		magazines[] += { __556G36_MAGS };
 	};
-	class hlc_rifle_G36A1AG36 : hlc_G36_base
-	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
-	};
-	class hlc_rifle_MG36 : hlc_G36_base
-	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
-	};
-	class hlc_rifle_G36A1 : hlc_G36_base
-	{
-		magazines[] += {"BWA3_30Rnd_556x45_G36", "BWA3_30Rnd_556x45_G36_Tracer", "BWA3_30Rnd_556x45_G36_Tracer_Dim", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_AP" };
-	};*/
 };

@@ -13,28 +13,9 @@ class CfgPatches
 };
 class CfgWeapons
 {
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class hlc_G36_base : Rifle_Base_F
-	{
-		class hlc_GL_AG36 : UGL_F
-		{
-			magazines[] += {"ACE_HuntIR_M203" };
-		};
-	};
+	class hlc_G36_base;
 	class hlc_rifle_G36MLIC : hlc_G36_base
 	{
-		magazines[] += {            "ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",
-			"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim"};
+		magazines[] += { "ACE_100Rnd_65x39_caseless_mag_Tracer_Dim", "ACE_30Rnd_65x39_caseless_mag_Tracer_Dim" };
 	};
-		class 	hlc_rifle_G36MLIAG36 : hlc_G36_base
-		{
-			magazines[] += {           "ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",
-				"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim"};
-		};
 };

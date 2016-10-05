@@ -11,21 +11,3 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class CfgWeapons
-{
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class UGL_F;
-	class hlc_G36_base : Rifle_Base_F
-	{
-		class hlc_GL_AG36 : UGL_F
-		{
-			magazines[] += {"rhs_mag_M441_HE", "rhs_mag_M433_HEDP", "rhs_mag_M4009", "rhs_mag_m576", "rhs_mag_M585_white", "rhs_mag_M661_green", "rhs_mag_M662_red", "rhs_mag_M713_red", "rhs_mag_M714_white", "rhs_mag_M715_green", "rhs_mag_M716_yellow"  };
-		};
-	};
-
-};

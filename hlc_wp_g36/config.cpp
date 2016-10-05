@@ -4,12 +4,8 @@
 //Compact - 0.82
 //IMPORT to FBX- import 0.01 , scale 0.55 all axis
 
-#define private        0
-#define protected        1
-#define public        2
+#include "\hlc_core\script_macros.hpp"
 
-#define true    1
-#define false    0
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 
@@ -79,226 +75,64 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class _x29rnd_300BLK_STANAG {
-                magazine = "hlc_30rnd_556x45_EPR_G36";
-                count = 60;
-            };
-            class _x29rnd_300BLK_STANAG_T {
-                magazine = "hlc_30rnd_556x45_SOST_G36";
-                count = 60;
-            };
-            class _x29rnd_300BLK_STANAG_S {
-                magazine = "hlc_30rnd_556x45_SPR_G36";
-                count = 60;
-            };
-            class _x30Rnd_556x45_Stanag {
-                magazine = "hlc_100rnd_556x45_EPR_G36";
-                count = 30;
-            };
-            class _xhlc_30rnd_556x45_EPR {
-                magazine = "30Rnd_65x39_caseless_mag";
-                count = 60;
-            };
-            class _xhlc_30rnd_556x45_SOST {
-                magazine = "30Rnd_65x39_caseless_mag_Tracer";
-                count = 60;
-            };
-            class _xx_hlc_30rnd_556x45_SPR {
-                magazine = "100Rnd_65x39_caseless_mag_Tracer";
-                count = 60;
-            };
-            class _xx_hlc_50rnd_556x45_EPR {
-                magazine = "100Rnd_65x39_caseless_mag";
-                count = 60;
-            };
-            class _x1Rnd_HE_Grenade_shell {
-                magazine = "1Rnd_HE_Grenade_shell";
-                count = 60;
-            };
-            class _UGL_FlareWhite_F {
-                magazine = "UGL_FlareWhite_F";
-                count = 60;
-            };
-            class _xUGL_FlareGreen_F {
-                magazine = "UGL_FlareGreen_F";
-                count = 60;
-            };
-            class _xUGL_FlareGreen_B {
-                magazine = "UGL_FlareRed_F";
-                count = 60;
-            };
-            class _xUGL_FlareYellow_F {
-                magazine = "UGL_FlareYellow_F";
-                count = 60;
-            };
-            class _xUGL_FlareCIR_F {
-                magazine = "UGL_FlareCIR_F";
-                count = 60;
-            };
-            class _x1Rnd_Smoke_Grenade_shell {
-                magazine = "1Rnd_Smoke_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeRed_Grenade_shell {
-                magazine = "1Rnd_SmokeRed_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeGreen_Grenade_shell {
-                magazine = "1Rnd_SmokeGreen_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeYellow_Grenade_shell {
-                magazine = "1Rnd_SmokeYellow_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokePurple_Grenade_shell {
-                magazine = "1Rnd_SmokePurple_Grenade_shell";
-                count = 60;
-            };
-            class _1Rnd_SmokeBlue_Grenade_shell {
-                magazine = "1Rnd_SmokeBlue_Grenade_shell";
-                count = 60;
-            };
+            __M_MAG(hlc_30rnd_556x45_EPR_G36,60);
+            __M_MAG(hlc_30rnd_556x45_SOST_G36,60);
+            __M_MAG(hlc_30rnd_556x45_SPR_G36,60);
+            __M_MAG(hlc_100rnd_556x45_EPR_G36,60);
+            __M_MAG(30Rnd_65x39_caseless_mag,60);
+            __M_MAG(30Rnd_65x39_caseless_mag_Tracer,60);
+            __M_MAG(100Rnd_65x39_caseless_mag_Tracer,60);
+            __M_MAG(100Rnd_65x39_caseless_mag,60);
+            __M_MAG(1Rnd_HE_Grenade_shell,60);
+            __M_MAG(UGL_FlareWhite_F,60);
+            __M_MAG(UGL_FlareGreen_F,60);
+            __M_MAG(UGL_FlareRed_F,60);
+            __M_MAG(UGL_FlareYellow_F,60);
+            __M_MAG(UGL_FlareCIR_F,60);
+            __M_MAG(1Rnd_Smoke_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeRed_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeGreen_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeYellow_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokePurple_Grenade_shell,60);
+            __M_MAG(1Rnd_SmokeBlue_Grenade_shell,60);
         };
         class TransportWeapons {
-            class xhlc_rifle_RU556 {
-                weapon = "hlc_rifle_G36A1";
-                count = 10;
-            };
-            class _xhlc_rifle_RU556s {
-                weapon = "hlc_rifle_G36E1";
-                count = 10;
-            };
-            class _xhlc_rifle_bcmjack {
-                weapon = "hlc_rifle_G36V";
-                count = 10;
-            };
-            class _xhlc_rifle_Colt727 {
-                weapon = "hlc_rifle_G36TAC";
-                count = 10;
-            };
-            class _xhlc_rifle_Colt727_GL {
-                weapon = "hlc_rifle_G36MLIC";
-                count = 10;
-            };
-            class _xhhlc_rifle_M4 {
-                weapon = "hlc_rifle_G36KA1";
-                count = 10;
-            };
-            class _xhhlc_rifle_m4m203 {
-                weapon = "hlc_rifle_G36KE1";
-                count = 10;
-            };
-            class _xhlc_rifle_Coltqbr {
-                weapon = "hlc_rifle_G36KV";
-                count = 10;
-            };
-            class _xhlc_rifle_Bushmaster300 {
-                weapon = "hlc_rifle_G36KTAC";
-                count = 10;
-            };
-            class _xhlc_rifle_vendimus {
-                weapon = "hlc_rifle_G36KMLIC";
-                count = 10;
-            };
-            class _xhlc_rifle_SAMR {
-                weapon = "hlc_rifle_G36C";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger {
-                weapon = "hlc_rifle_G36CV";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger1 {
-                weapon = "hlc_rifle_G36CTAC";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger2 {
-                weapon = "hlc_rifle_G36CMLIC";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger3 {
-                weapon = "hlc_rifle_G36A1AG36";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger4 {
-                weapon = "hlc_rifle_G36E1AG36";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger5 {
-                weapon = "hlc_rifle_G36vAG36";
-                count = 10;
-            };
-            class _xhlc_rifle_honeybadger6 {
-                weapon = "hlc_rifle_G36MLIAG36";
-                count = 10;
-            };
+            __M_WEP(hlc_rifle_G36A1,10);
+            __M_WEP(hlc_rifle_G36E1,10);
+            __M_WEP(hlc_rifle_G36V,10);
+            __M_WEP(hlc_rifle_G36TAC,10);
+            __M_WEP(hlc_rifle_G36MLIC,10);
+            __M_WEP(hlc_rifle_G36KA1,10);
+            __M_WEP(hlc_rifle_G36KE1,10);
+            __M_WEP(hlc_rifle_G36KV,10);
+            __M_WEP(hlc_rifle_G36KTAC,10);
+            __M_WEP(hlc_rifle_G36KMLIC,10);
+            __M_WEP(hlc_rifle_G36C,10);
+            __M_WEP(hlc_rifle_G36CV,10);
+            __M_WEP(hlc_rifle_G36CTAC,10);
+            __M_WEP(hlc_rifle_G36CMLIC,10);
+            __M_WEP(hlc_rifle_G36A1AG36,10);
+            __M_WEP(hlc_rifle_G36E1AG36,10);
+            __M_WEP(hlc_rifle_G36vAG36,10);
+            __M_WEP(hlc_rifle_G36MLIAG36,10);
         };
         class TransportItems {
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xoptic_Arco {
-                name = "optic_Arco";
-                count = 10;
-            };
-            class _xoptic_LRPS {
-                name = "optic_LRPS";
-                count = 10;
-            };
-            class _xoptic_NVS {
-                name = "optic_NVS";
-                count = 10;
-            };
-            class _xx_HLC_Optic_G36dualoptic35x {
-                name = "HLC_Optic_G36dualoptic35x";
-                count = 10;
-            };
-            class _xx_HLC_Optic_G36dualoptic35x2 {
-                name = "HLC_Optic_G36dualoptic35x2d";
-                count = 10;
-            };
-            class _xx_HLC_Optic_G36Export35x {
-                name = "HLC_Optic_G36Export35x";
-                count = 10;
-            };
-            class _xHLC_Optic_G36Export35x2d {
-                name = "HLC_Optic_G36Export35x2d";
-                count = 10;
-            };
-            class _xHLC_Optic_G36Dualoptic15x {
-                name = "HLC_Optic_G36Dualoptic15x";
-                count = 10;
-            };
-            class _xHLC_Optic_G36Dualoptic15x2 {
-                name = "HLC_Optic_G36Dualoptic15x2d";
-                count = 10;
-            };
-            class _xHLC_Optic_G36Export15x {
-                name = "HLC_Optic_G36Export15x";
-                count = 10;
-            };
-            class _xHLC_Optic_G36Export15x2 {
-                name = "HLC_Optic_G36Export15x2d";
-                count = 10;
-            };
-            class _xx_acc_flashlight {
-                name = "acc_flashlight";
-                count = 10;
-            };
-            class _xacc_pointer_IR {
-                name = "acc_pointer_IR";
-                count = 10;
-            };
+            __M_ITM(optic_Holosight,10);
+            __M_ITM(optic_hamr,10);
+            __M_ITM(optic_rco,10);
+            __M_ITM(optic_Arco,10);
+            __M_ITM(optic_LRPS,10);
+            __M_ITM(optic_NVS,10);
+            __M_ITM(HLC_Optic_G36dualoptic35x,10);
+            __M_ITM(HLC_Optic_G36dualoptic35x2d,10);
+            __M_ITM(HLC_Optic_G36Export35x,10);
+            __M_ITM(HLC_Optic_G36Export35x2d,10);
+            __M_ITM(HLC_Optic_G36Dualoptic15x,10);
+            __M_ITM(HLC_Optic_G36Dualoptic15x2d,10);
+            __M_ITM(HLC_Optic_G36Export15x,10);
+            __M_ITM(HLC_Optic_G36Export15x2d,10);
+            __M_ITM(acc_flashlight,10);
+            __M_ITM(acc_pointer_IR,10);
         };
     };
     class Weapon_Base_F;
@@ -975,7 +809,6 @@ class CfgWeapons {
     };
 
 //optics
-#define __OPTIC_DMR opticType = 1
 
     class InventoryOpticsItem_Base_F;
     class optic_Arco;
@@ -1015,53 +848,24 @@ class CfgWeapons {
                     opticsflare = 0;
                     opticsid = 1;
                     opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
                 };
             };
         };
+		tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
     };
     class HLC_Optic_G36dualoptic35x2d : HLC_Optic_G36dualoptic35x {
         dlc = "Niarms_G36";
         author = "Toadie";
         displayname = "G36 Dual-Optic 3.5x(2D)";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            __OPTIC_DMR;
-            mass = 7;
-            modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
-            class OpticsModes {
-                class Snip {
+        class ItemInfo : ItemInfo {
+            class OpticsModes: OpticsModes {
+                class Snip: Snip {
                     useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    opticsZoomMin = 0.07114;
-                    opticsZoomMax = 0.07114;
-                    opticsZoomInit = 0.07114;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 200;
-                    memorypointcamera = "eye";
-                    opticsid = 2;
-                    visionmode[] = { "Normal" };
                 };
-                class Iron :Snip {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "RD_eye";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 1;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.375;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                };
+                class Iron : Iron {};
             };
         };
     };
@@ -1076,40 +880,12 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         displayname = "G36 Export Optic 3.5x(2D)";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            __OPTIC_DMR;
-            mass = 7;
-            modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
-            class OpticsModes {
-                class Snip {
+        class ItemInfo : ItemInfo {
+            class OpticsModes: OpticsModes {
+                class Snip: Snip {
                     useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    opticsZoomMin = 0.07114;
-                    opticsZoomMax = 0.07114;
-                    opticsZoomInit = 0.07114;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 200;
-                    memorypointcamera = "eye";
-                    opticsid = 2;
-                    visionmode[] = { "Normal" };
                 };
-                class Iron : Snip {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "RD_eye";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 1;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                };
+                class Iron : Iron {};
             };
         };
     };
@@ -1119,9 +895,11 @@ class CfgWeapons {
         author = "Toadie";
         displayname = "G36 Dual-Optic 1.5x";
         descriptionshort = "Hensoldt-Wetzlar Dual Optic Sight for the G36 Rifle<br />Magnification: 1.5x";
+        model = "\hlc_wp_G36\mesh\optics\dualoptic1-5x.p3d";
+        picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             mass = 7;
-            modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
+            modelOptics = "\hlc_wp_G36\mesh\optics\reticle1-5x2d";
             class OpticsModes {
                 class Snip {
                     useModelOptics = 0;
@@ -1146,9 +924,7 @@ class CfgWeapons {
                     opticsflare = 0;
                     opticsid = 1;
                     opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.375;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
                 };
@@ -1160,41 +936,12 @@ class CfgWeapons {
         author = "Toadie";
         descriptionshort = "Hensoldt-Wetzlar Dual Optic Sight for the G36 Rifle<br />Magnification: 1.5x";
         displayname = "G36 Dual-Optic 1.5x(2D)";
-        model = "\hlc_wp_G36\mesh\optics\dualoptic1-5x.p3d";
-        picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            mass = 7;
-            modelOptics = "\hlc_wp_G36\mesh\optics\reticle1-5x2d";
-            class OpticsModes {
-                class Snip {
+        class ItemInfo : ItemInfo {
+            class OpticsModes: OpticsModes {
+                class Snip: Snip {
                     useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    opticsZoomMin = 0.166;
-                    opticsZoomMax = 0.166;
-                    opticsZoomInit = 0.166;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 200;
-                    memorypointcamera = "eye";
-                    opticsid = 2;
-                    visionmode[] = { "Normal" };
                 };
-                class Iron : Snip {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "RD_eye";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 1;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                };
+                class Iron : Iron {};
             };
         };
     };
@@ -1207,59 +954,29 @@ class CfgWeapons {
         picture = "\hlc_wp_G36\tex\ui\gear_exportoptic_ca";
 
     };
-    class HLC_Optic_G36Export15x2d : HLC_Optic_G36Dualoptic15x2d {
+    class HLC_Optic_G36Export15x2d : HLC_Optic_G36Export15x {
         dlc = "Niarms_G36";
         author = "Toadie";
         descriptionshort = "Hensoldt-Wetzlar Optic Sight for the G36 Rifle(Export Variant)<br />Magnification: 1.5x";
         displayname = "G36 Export Optic 1.5x(2D)";
-        model = "\hlc_wp_G36\mesh\optics\Export1-5xy.p3d";
-        picture = "\hlc_wp_G36\tex\ui\gear_exportoptic_ca";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            mass = 7;
-            modelOptics = "\hlc_wp_G36\mesh\optics\reticle1-5x2d";
-            class OpticsModes {
-                class Snip {
+        class ItemInfo : ItemInfo {
+            class OpticsModes: OpticsModes {
+                class Snip: Snip {
                     useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    opticsZoomMin = 0.166;
-                    opticsZoomMax = 0.166;
-                    opticsZoomInit = 0.166;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 200;
-                    memorypointcamera = "eye";
-                    opticsid = 2;
-                    visionmode[] = { "Normal" };
                 };
-                class Iron : Snip {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "RD_eye";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 1;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1;
-                    opticsZoomInit = 0.75;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                };
+                class Iron : Iron {};
             };
         };
     };
+
     class hlc_G36_base : Rifle_Base_F {
         scope = protected;
-        recoil = "recoil_ebr";
+        recoil = "recoil_trg20";
         maxZeroing = 1600;
         deployedpivot = "deploypivot";
         hasBipod = false;
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36","hlc_30rnd_556x45_MDIM_G36", "hlc_30rnd_556x45_TDIM_G36"
-        };
+        magazines[] = { __556G36_MAGS, __556NATO_BI_DRUMS };
         class Library {
             libTextDesc = "H&K Gewehr36";
         };
@@ -1279,15 +996,11 @@ class CfgWeapons {
         bullet7[] = {"A3\sounds_f\weapons\shells\7_62\dirt_762_03", 0.281838, 1, 15};
         bullet8[] = {"A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15};
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
-        distancezoommax = 300;
-        distancezoommin = 300;
-        drysound[] = {"A3\sounds_f\weapons\other\dry1", 0.630957, 1, 30};
-        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
-        reloadmagazinesound[] = {"hlc_wp_g36\snd\G36_reload", 0.630957, 1, 35};
-        muzzles[] = { "this" };
+        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
+        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
+
         class hlc_GL_AG36 : UGL_F {
             cameradir = "gl_look";
             discreteDistance[] = { 50, 100,150, 200,250,300,350};
@@ -1299,24 +1012,16 @@ class CfgWeapons {
             optics = 1;
             cursoraim = "gl";
             magazinereloadtime = 0;
-            magazines[] = { "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "UGL_FlareGreen_F", "UGL_FlareRed_F", "UGL_FlareYellow_F", "UGL_FlareCIR_F", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeYellow_Grenade_shell", "1Rnd_SmokePurple_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_SmokeOrange_Grenade_shell" };
-            opticszoominit = 0.75;
-            opticszoommax = 1.1;
-            opticszoommin = 0.25;
             reloadtime = 0.1;
-            sound[] = { "A3\sounds_f\Weapons\grenades\ugl_shot_1", 1, 1, 400 };
-            weaponInfoType = "RscWeaponZeroing";
             reloadAction = "HLC_GestureReloadAG36";
             reloadMagazineSound[] = { "hlc_wp_g36\snd\ag36_reload", 1.0, 1, 10 };
             drySound[] = { "hlc_wp_g36\snd\ag36_drystrike", 0.66, 1, 10 };
             modes[] = { "Single" };
             class Single : Mode_SemiAuto {
                 sounds[] = { "StandardSound" };
-                class BaseSoundModeType {
+                class StandardSound {
                     closure1[] = { "hlc_wp_g36\snd\ag36_striker", 1.0, 1, 10 };
                     soundClosure[] = { "closure1", 1 };
-                };
-                class StandardSound : BaseSoundModeType {
                     begin1[] = { "hlc_wp_g36\snd\ag36_launch", 0.70794576, 1, 200 };
                     begin2[] = { "hlc_wp_g36\snd\ag36_launch", 0.70794576, 1, 200 };
                     soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
@@ -1346,6 +1051,8 @@ class CfgWeapons {
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
 
+        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
+
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -1358,53 +1065,57 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[]={"\hlc_wp_g36\snd\g36_sil", 1, 1,200};
-                begin2[]={"\hlc_wp_g36\snd\g36_sil", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            dispersion = 0.0007;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilProne = "recoil_single_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+            dispersion = 0.000555596;
+            __ROF(750);
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 250;
+            aiRateOfFireDispersion = 2;
+            minRange = 30;
+            minRangeProbab = 0.7;
+            midRange = 150;
+            midRangeProbab = 0.5;
+            maxRange = 500;
+            maxRangeProbab = 0.1;
         };
+
+        class Burst : Mode_Burst {
+            sounds[] = { "StandardSound", "SilencedSound" };
+
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
+
+                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
+
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
+            };
+
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
+            };
+            dispersion = 0.000555596;
+            __ROF(750);
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 15;
+            midRangeProbab = 0.7;
+            maxRange = 30;
+            maxRangeProbab = 0.1;
+        };
+
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -1418,155 +1129,66 @@ class CfgWeapons {
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-            airateoffire = "1e-006";
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.086;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
+            dispersion = 0.000555596;
+            __ROF(750);
+
+            aiRateOfFire = 0.2;
+            aiRateOfFireDistance = 50;
+            aiRateOfFireDispersion = 1;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 5;
+            midRangeProbab = 0.8;
+            maxRange = 10;
+            maxRangeProbab = 0.1;
         };
-        class Burst2rnd : Mode_Burst {
+        class Burst2rnd : Burst {
             burst = 2;
             textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst3rnd : Burst2rnd {
-            burst = 3;
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
+            burst = 5;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 15;
             midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
+            maxRange = 30;
+            maxRangeProbab = 0.1;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 700;
             maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 4;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
             midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            maxRange = 900;
+            maxRangeProbab = 0.2;
         };
     };
 
@@ -1580,15 +1202,10 @@ class CfgWeapons {
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = false;
-        recoil = "recoil_trg20";
         displayName = "HK G36A1";
         descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
         reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = {"hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10};
-        reloadmagazinesound[] = {"hlc_wp_g36\snd\G36_reload", 0.9, 1, 35};
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1599,9 +1216,7 @@ class CfgWeapons {
                 opticsflare = 0;
                 opticsid = 1;
                 opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                opticsZoomMin = 0.375;
-                opticsZoomMax = 1;
-                opticsZoomInit = 0.75;
+                __OPTICSZOOM_1X;
                 usemodeloptics = 0;
                 visionmode[] = {};
             };
@@ -1623,174 +1238,33 @@ class CfgWeapons {
 
         model = "hlc_wp_g36\mesh\G36A1\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = {200};
         discretedistanceinitindex = 0;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.57;
+
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 80;
+            mass = 73;
             class CowsSlot : niarms_G36_OpticSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.11;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = {"begin1", 0.34, "begin2", 0.33, "begin3", 0.33};
-            soundclosure[] = {"closure1", 0.5, "closure2", 0.5};
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
-        };
+        inertia = 0.36;
     };
+
+    class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        displayName = "HK G36A1(GL)";
+        muzzles[] = { "this", "hlc_GL_AG36"};
+        model = "hlc_wp_g36\mesh\G36A1\AG36.p3d";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
+        picture = "\hlc_wp_g36\tex\ui\gear_AG36A1_ca.paa";
+
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 103;
+            class CowsSlot : niarms_G36_OpticSlot {};
+        };
+        inertia = 0.66;
+    };
+
     class hlc_rifle_MG36 : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1805,11 +1279,7 @@ class CfgWeapons {
         displayName = "HK MG36A1";
         descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
         reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1820,9 +1290,7 @@ class CfgWeapons {
                 opticsflare = 0;
                 opticsid = 1;
                 opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                opticsZoomMin = 0.375;
-                opticsZoomMax = 1;
-                opticsZoomInit = 0.75;
+                __OPTICSZOOM_1X;
                 usemodeloptics = 0;
                 visionmode[] = {};
             };
@@ -1842,404 +1310,28 @@ class CfgWeapons {
             };
 
         };
-        /*magazines[] = {
-            "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36"
-        };*/
         model = "hlc_wp_g36\mesh\G36 LSW\MG36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_MG36_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         discretedistance[] = { 200 };
         discretedistanceinitindex = 0;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.61;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 100;
+            mass = 77;
             class CowsSlot : niarms_G36_OpticSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
+        inertia = 0.38;
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.11;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
+        class fullauto_medium : fullauto_medium {
+            burst = 4;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 150;
             midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            maxRange = 300;
+            maxRangeProbab = 0.1;
         };
     };
-    class hlc_rifle_G36A1AG36 : hlc_G36_base {
-        dlc = "Niarms_G36";
-        author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-        class OpticsModes {
-            class Kolimator {
-                cameradir = "";
-                distancezoommax = 100;
-                distancezoommin = 100;
-                memorypointcamera = "RD_eye";
-                opticsdisableperipherialvision = 0;
-                opticsflare = 0;
-                opticsid = 1;
-                opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                opticsZoomMin = 0.375;
-                opticsZoomMax = 1;
-                opticsZoomInit = 0.75;
-                usemodeloptics = 0;
-                visionmode[] = {};
-            };
-            class ACOG {
-                useModelOptics = 0;
-                opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                opticsFlare = 1;
-                opticsDisablePeripherialVision = 1;
-                opticsZoomMin = 0.07114;
-                opticsZoomMax = 0.07114;
-                opticsZoomInit = 0.07114;
-                distanceZoomMin = 200;
-                distanceZoomMax = 200;
-                memorypointcamera = "eye";
-                opticsid = 2;
-                visionmode[] = { "Normal" };
-            };
 
-        };
-
-        displayName = "HK G36A1(GL)";
-        muzzles[] = { "this", "hlc_GL_AG36"};
-        model = "hlc_wp_g36\mesh\G36A1\AG36.p3d";
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
-        picture = "\hlc_wp_g36\tex\ui\gear_AG36A1_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = { 200 };
-        discretedistanceinitindex = 0;
-        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.57;
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 120;
-            class CowsSlot : niarms_G36_OpticSlot {};
-        };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.11;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
-        };
-    };
     class hlc_rifle_G36KA1 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
         ACE_barrelTwist = 178;
@@ -2249,10 +1341,99 @@ class CfgWeapons {
         descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
         model = "hlc_wp_g36\mesh\G36A1\G36K.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_G36k_ca.paa";
-        inertia = 0.5;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 72;
+            mass = 67;
         };
+        inertia = 0.34;
+
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class Burst : Burst {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 15;
+            midRangeProbab = 0.7;
+            maxRange = 30;
+            maxRangeProbab = 0.1;
+        };
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 700;
+            maxRangeProbab = 0.2;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 4;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 900;
+            maxRangeProbab = 0.2;
+        };
+    };
+
+    class hlc_rifle_G36C : hlc_G36_base {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        AB_barrelTwist = 12;
+        AB_barrelLength = 18.25;
+        ACE_barrelTwist = 178;
+        ACE_barrelLength = 318;
+        scope = public;
+        deployedpivot = "deploypivot";
+        hasBipod = false;
+        displayName = "HK G36C";
+        descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
+        reloadAction = "HLC_GestureReloadG36A1";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
+        discretedistance[] = { 100, 200, 300, 400, 500 };
+        discretedistanceinitindex = 1;
+        model = "hlc_wp_g36\mesh\G36E1\G36C.p3d";
+        picture = "\hlc_wp_g36\tex\ui\gear_G36C_ca.paa";
+        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
+
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 56;
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
+        };
+        inertia = 0.28;
+
+        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -2265,55 +1446,62 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
             dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
+            __ROF(750);
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 250;
+            aiRateOfFireDispersion = 2;
+            minRange = 30;
+            minRangeProbab = 0.7;
+            midRange = 150;
+            midRangeProbab = 0.5;
+            maxRange = 400;
+            maxRangeProbab = 0.1;
         };
+
+        class Burst : Mode_Burst {
+            burst = 2;
+            textureType = "dual";
+            sounds[] = { "StandardSound", "SilencedSound" };
+
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
+
+                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
+
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
+            };
+
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
+            };
+
+            dispersion = 0.0008727;
+            __ROF(750);
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 15;
+            midRangeProbab = 0.7;
+            maxRange = 30;
+            maxRangeProbab = 0.1;
+        };
+
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -2326,1240 +1514,179 @@ class CfgWeapons {
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
             };
 
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
-            airateoffire = "1e-006";
             dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
+            __ROF(750);
+
+            aiRateOfFire = 0.2;
+            aiRateOfFireDistance = 50;
+            aiRateOfFireDispersion = 1;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 5;
+            midRangeProbab = 0.8;
+            maxRange = 10;
+            maxRangeProbab = 0.1;
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
+
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 200;
+            midRangeProbab = 0.6;
             maxRange = 600;
             maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
         };
     };
-    class hlc_rifle_G36C : hlc_G36_base {
+
+    class hlc_rifle_G36E1 : hlc_rifle_g36A1 {
         dlc = "Niarms_G36";
         author = "Toadie";
-        inertia = 0.45;
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
         scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        displayName = "HK G36C";
-        descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        discretedistance[] = { 100, 200, 300, 400, 500 };
-        discretedistanceinitindex = 1;
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-        model = "hlc_wp_g36\mesh\G36E1\G36C.p3d";
-        picture = "\hlc_wp_g36\tex\ui\gear_G36C_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
+        model = "hlc_wp_g36\mesh\G36E1\G36.p3d";
+        displayName = "HK G36E";
+        picture = "\hlc_wp_g36\tex\ui\Gear_G36E_ca.paa";
+        modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+    };
+
+    class hlc_rifle_G36E1AG36 : hlc_rifle_G36A1AG36 {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        scope = public;
+        model = "hlc_wp_g36\mesh\G36E1\AG36.p3d";
+        displayName = "HK G36E(GL)";
+        picture = "\hlc_wp_g36\tex\ui\gear_AG36E_ca.paa";
+        modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+    };
+
+    class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        scope = public;
+        model = "hlc_wp_g36\mesh\G36E1\G36K.p3d";
+        displayName = "HK G36KE";
+        picture = "\hlc_wp_g36\tex\ui\gear_g36ke_ca.paa";
+        modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+
+        class Burst2rnd : Burst {
+            burst = 2;
+            textureType = "dual";
+        };
+    };
+
+    class hlc_rifle_G36V : hlc_rifle_G36E1 {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        displayName = "HK G36V";
+        reloadAction = "HLC_GestureReloadG36V";
+        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
+        model = "hlc_wp_g36\mesh\G36V\G36.p3d";
+        picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 67;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot :asdg_UnderSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36C_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36C_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst2rnd : Mode_Burst {
-            burst = 2;
-            textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36c_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36C_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
-        };
+        inertia = 0.33;
     };
-    class hlc_rifle_G36E1 : hlc_rifle_g36A1 {
+
+    class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
         dlc = "Niarms_G36";
         author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        model = "hlc_wp_g36\mesh\G36E1\G36.p3d";
-        displayName = "HK G36E";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36A1";
-        picture = "\hlc_wp_g36\tex\ui\Gear_G36E_ca.paa";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-
-    };
-    class hlc_rifle_G36E1AG36 : hlc_rifle_G36A1AG36 {
-        dlc = "Niarms_G36";
-        author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        model = "hlc_wp_g36\mesh\G36E1\AG36.p3d";
-        displayName = "HK G36E(GL)";
-        picture = "\hlc_wp_g36\tex\ui\gear_AG36E_ca.paa";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-    };
-    class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
-        dlc = "Niarms_G36";
-        author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        model = "hlc_wp_g36\mesh\G36E1\G36K.p3d";
-        displayName = "HK G36KE";
-        picture = "\hlc_wp_g36\tex\ui\gear_g36ke_ca.paa";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36A1";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-        class Burst2rnd :Mode_Burst {
-            burst = 2;
-            textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-    };
-    class hlc_rifle_G36V : hlc_G36_base {
-        dlc = "Niarms_G36";
-        author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        displayName = "HK G36V";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
+        displayName = "HK G36KV";
         reloadAction = "HLC_GestureReloadG36V";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-        model = "hlc_wp_g36\mesh\G36V\G36.p3d";
-        picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = { 200 };
-        discretedistanceinitindex = 0;
-        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.57;
+        model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
+        picture = "\hlc_wp_g36\tex\ui\gear_g36KV_ca.paa";
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 80;
+            mass = 60;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.11;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst2rnd : Mode_Burst {
-            burst = 2;
-            textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            airateoffire = "1e-006";
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst3rnd : Burst2rnd {
-            burst = 3;
-        };
-        class single_close_optics1 : Single {
-            airateoffire = 2;
-            airateoffiredistance = 300;
-            maxrange = 500;
-            maxrangeprobab = 0.01;
-            midrange = 300;
-            midrangeprobab = 0.8;
-            minrange = 2;
-            minrangeprobab = 0.05;
-            requiredoptictype = 1;
-            showtoplayer = 0;
-        };
-        class single_medium_optics1 : single_close_optics1 {
-            airateoffire = 2;
-            airateoffiredistance = 500;
-            maxrange = 700;
-            maxrangeprobab = 0.05;
-            midrange = 500;
-            midrangeprobab = 0.7;
-            minrange = 300;
-            minrangeprobab = 0.05;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            airateoffire = 4;
-            airateoffiredistance = 600;
-            maxrange = 900;
-            maxrangeprobab = 0.05;
-            midrange = 600;
-            midrangeprobab = 0.4;
-            minrange = 300;
-            minrangeprobab = 0.05;
-            requiredoptictype = 2;
-        };
-        class fullauto_medium : FullAuto {
-            airateoffire = 2;
-            burst = 3;
-            maxrange = 100;
-            maxrangeprobab = 0.05;
-            midrange = 50;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.5;
-            showtoplayer = 0;
-        };
+        inertia = 0.3;
     };
-    class hlc_rifle_G36KV : hlc_rifle_G36V {
-        dlc = "Niarms_G36";
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
-        author = "Toadie";
-        displayName = "HK G36KV";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
-        model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
-        inertia = 0.5;
-        picture = "\hlc_wp_g36\tex\ui\gear_g36KV_ca.paa";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 72;
-        };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst2rnd : Mode_Burst {
-            burst = 2;
-            textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36K_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class single_close_optics1 : Single {
-            airateoffire = 2;
-            airateoffiredistance = 300;
-            maxrange = 500;
-            maxrangeprobab = 0.01;
-            midrange = 300;
-            midrangeprobab = 0.8;
-            minrange = 2;
-            minrangeprobab = 0.05;
-            requiredoptictype = 1;
-            showtoplayer = 0;
-        };
-        class single_medium_optics1 : single_close_optics1 {
-            airateoffire = 2;
-            airateoffiredistance = 500;
-            maxrange = 700;
-            maxrangeprobab = 0.05;
-            midrange = 500;
-            midrangeprobab = 0.7;
-            minrange = 300;
-            minrangeprobab = 0.05;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            airateoffire = 4;
-            airateoffiredistance = 600;
-            maxrange = 900;
-            maxrangeprobab = 0.05;
-            midrange = 600;
-            midrangeprobab = 0.4;
-            minrange = 300;
-            minrangeprobab = 0.05;
-            requiredoptictype = 2;
-        };
-        class fullauto_medium : FullAuto {
-            airateoffire = 2;
-            burst = 3;
-            maxrange = 100;
-            maxrangeprobab = 0.05;
-            midrange = 50;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.5;
-            showtoplayer = 0;
-        };
-    };
     class hlc_rifle_G36CV : hlc_rifle_G36C {
         dlc = "Niarms_G36";
         author = "Toadie";
         displayName = "HK G36CV";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
+        reloadAction = "HLC_GestureReloadG36V";
+        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36C.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36CV_ca.paa";
-        inertia = 0.5;
-        reloadAction = "HLC_GestureReloadG36V";
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 68;
-        };
     };
-    class hlc_rifle_G36VAG36 : hlc_G36_base {
+
+    class hlc_rifle_G36VAG36 : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
-        reloadAction = "HLC_GestureReloadG36V";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         displayName = "HK G36V(GL)";
         muzzles[] = { "this", "hlc_GL_AG36" };
         model = "hlc_wp_g36\mesh\G36V\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
         picture = "\hlc_wp_g36\tex\ui\gear_AG36V_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = { 200 };
-        discretedistanceinitindex = 0;
-        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.57;
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 120;
-            class CowsSlot : asdg_OpticRail1913 {};
-            class PointerSlot : asdg_FrontSideRail {};
+            mass = 97;
+            class UnderBarrelSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.11;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_Shot_SoundSet", "g36_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36_sil", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
+        inertia = 0.63;
     };
 
     class hlc_rifle_G36TAC : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
         model = "hlc_wp_g36\mesh\G36tactical\G36.p3d";
         displayName = "HK G36V(KAC)";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36tac_ca.paa";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadAction = "HLC_GestureReloadG36V";
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
-            class PointerSlot : asdg_FrontSideRail {};
-            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
+
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
         dlc = "Niarms_G36";
         author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
         model = "hlc_wp_g36\mesh\G36tactical\G36K.p3d";
         displayName = "HK G36KV(KAC)";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36ktac_ca.paa";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadAction = "HLC_GestureReloadG36V";
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
-            class PointerSlot : asdg_FrontSideRail {};
-            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
+
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
         dlc = "Niarms_G36";
         author = "Toadie";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 178;
-        ACE_barrelLength = 278;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
         model = "hlc_wp_g36\mesh\G36tactical\G36C.p3d";
         displayName = "HK G36CV(KAC)";
         descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36Ctac_ca.paa";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadAction = "HLC_GestureReloadG36V";
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
-            class PointerSlot : asdg_FrontSideRail {};
-            class UnderBarrelSlot : asdg_UnderSlot {};
         };
     };
+
     ///CASELESS 
 
     class hlc_rifle_G36MLIC : hlc_G36_base {
@@ -3576,13 +1703,10 @@ class CfgWeapons {
         displayName = "HK G36-MLI(C)";
         descriptionShort = "Infantry Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
         reloadAction = "HLC_GestureReloadG36MLI";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\g36mlic_reload", 0.9, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         discretedistance[] = { 100, 200, 300, 400, 500,600,700,800 };
         discretedistanceinitindex = 1;
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         magazines[] = {
             "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag"
         };
@@ -3595,7 +1719,6 @@ class CfgWeapons {
         };
         model = "hlc_wp_g36\mesh\G36MLIC\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36mli_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
         inertia = 0.55;
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -3605,469 +1728,137 @@ class CfgWeapons {
             class MuzzleSlot : asdg_MuzzleSlot_762 {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
+        modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
 
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36_MLI_Shot_SoundSet", "g36_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
 
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
+            };
+            reloadtime = 0.093;
+        };
+        class Burst : Burst {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36_MLI_Shot_SoundSet", "g36_MLI_Tail_SoundSet" };
             };
 
-            dispersion = 0.000555596;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
+            class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
+            };
             reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
         };
-        class Burst2rnd : Mode_Burst {
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36_MLI_Shot_SoundSet", "g36_MLI_Tail_SoundSet" };
+            };
+
+            class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
+            };
+            reloadtime = 0.093;
+        };
+        class Burst2rnd : Burst {
             burst = 2;
             textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_MLI_Shot_SoundSet", "g36_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0007;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36_MLI_Shot_SoundSet", "g36_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36mlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.000555596;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.093;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 800;
             maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 4;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
             midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            maxRange = 1200;
+            maxRangeProbab = 0.2;
         };
     };
+
     class hlc_rifle_G36KMLIC : hlc_rifle_G36MLIC {
         dlc = "Niarms_G36";
         author = "Toadie";
         ACE_barrelTwist = 203;
         ACE_barrelLength = 318;
         displayName = "HK G36K-MLI(C)";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
-        reloadAction = "HLC_GestureReloadG36MLI";
         model = "hlc_wp_g36\mesh\G36MLIC\G36K.p3d";
         inertia = 0.5;
         picture = "\hlc_wp_g36\tex\ui\gear_g36Kmli_ca.paa";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 72;
         };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
             dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
             reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
         };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
             dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
             reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
         };
-        class Burst2rnd : Mode_Burst {
+        class Burst : Burst {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+            reloadtime = 0.088;
+        };
+        class Burst2rnd : Burst {
             burst = 2;
             textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 700;
             maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 4;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 300;
             midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            maxRange = 1000;
+            maxRangeProbab = 0.2;
         };
     };
+
     class hlc_rifle_G36CMLIC : hlc_rifle_G36MLIC {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -4075,7 +1866,6 @@ class CfgWeapons {
         ACE_barrelLength = 278;
         displayName = "HK G36C-MLI(C)";
         descriptionShort = "Compact Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
-        reloadAction = "HLC_GestureReloadG36MLI";
         model = "hlc_wp_g36\mesh\G36MLIC\G36C.p3d";
         inertia = 0.5;
         picture = "\hlc_wp_g36\tex\ui\gear_g36Cmli_ca.paa";
@@ -4083,488 +1873,92 @@ class CfgWeapons {
             mass = 68;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
 
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36c_MLI_Shot_SoundSet", "g36c_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
             dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
             reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 250;
+            aiRateOfFireDispersion = 2;
+            minRange = 30;
+            minRangeProbab = 0.7;
+            midRange = 150;
+            midRangeProbab = 0.5;
+            maxRange = 400;
+            maxRangeProbab = 0.1;
         };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36c_MLI_Shot_SoundSet", "g36c_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
             dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
             reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
+
+            aiRateOfFire = 0.2;
+            aiRateOfFireDistance = 50;
+            aiRateOfFireDispersion = 1;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 5;
+            midRangeProbab = 0.8;
+            maxRange = 10;
+            maxRangeProbab = 0.1;
         };
-        class Burst2rnd : Mode_Burst {
+        class Burst : Burst {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36c_MLI_Shot_SoundSet", "g36c_MLI_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+            reloadtime = 0.082;
+
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 10;
+            minRangeProbab = 0.8;
+            midRange = 15;
+            midRangeProbab = 0.7;
+            maxRange = 30;
+            maxRangeProbab = 0.1;
+        };
+        class Burst2rnd : Burst {
             burst = 2;
             textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36c_MLI_Shot_SoundSet", "g36c_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\g36Cmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.082;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 30;
+            minRangeProbab = 0.8;
+            midRange = 200;
+            midRangeProbab = 0.6;
             maxRange = 600;
             maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
         };
     };
-    class hlc_rifle_G36MLIAG36 : hlc_G36_base {
+
+    class hlc_rifle_G36MLIAG36 : hlc_rifle_G36MLIC {
         dlc = "Niarms_G36";
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
-        ACE_barrelTwist = 203;
-        ACE_barrelLength = 480;
-        scope = public;
-        deployedpivot = "deploypivot";
-        hasBipod = false;
-        recoil = "recoil_trg20";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 6.5x38mm NATO Caseless";
-        reloadAction = "HLC_GestureReloadG36MLI";
-        drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_g36\snd\g36mlic_reload", 0.9, 1, 35 };
-        modes[] = { "Single", "Burst2rnd", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
-        magazines[] = {
-            "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag"
-        };
         displayName = "HK G36MLI(C)(GL)";
         muzzles[] = { "this", "hlc_GL_AG36" };
         model = "hlc_wp_g36\mesh\G36MLIC\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
         picture = "\hlc_wp_g36\tex\ui\gear_AG36MLI_ca.paa";
-        UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        discretedistance[] = { 200 };
-        discretedistanceinitindex = 0;
-        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
+
         inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 120;
-            class CowsSlot : asdg_OpticRail1913 {};
-            class PointerSlot : asdg_FrontSideRail {};
-            class MuzzleSlot : asdg_MuzzleSlot_762 {};
-        };
-        class Single : Mode_SemiAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            dispersion = 0.0008727;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
-            recoil = "recoil_single_ebr";
-            recoilprone = "recoil_single_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class Burst2rnd : Mode_Burst {
-            burst = 2;
-            textureType = "dual";
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                soundSetShot[] = { "g36k_MLI_Shot_SoundSet", "g36k_MLI_Tail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_g36\snd\G36Kmlic_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "\hlc_wp_g36\snd\g36_forrest", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\G36K_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "g36_MLI_silencerShot_SoundSet", "g36_MLI_silencerTail_SoundSet" };
-                //NEW THING PAY ATTENTION
-                begin1[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                begin2[] = { "\hlc_wp_g36\snd\g36mlic_suppressed", 1, 1, 200 };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "\hlc_wp_g36\snd\g36_sil_indoor", 1.5, 1, 100 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            airateoffire = "1e-006";
-            dispersion = 0.0008727;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
-            recoil = "recoil_auto_ebr";
-            recoilprone = "recoil_auto_prone_ebr";
-            reloadtime = 0.088;
-            soundbegin[] = { "begin1", 0.34, "begin2", 0.33, "begin3", 0.33 };
-            soundclosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponsoundeffect = "DefaultRifle";
-        };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            class UnderBarrelSlot {};
         };
     };
 };
