@@ -654,6 +654,7 @@ class CfgWeapons {
                     distanceZoomMax = 800;
                     modelOptics[] = { "\hlc_wp_sigamt\mesh\aarau\aarau_optics" };
                 };
+                class Kolimator : Kolimator {};
             };
         };
     };
