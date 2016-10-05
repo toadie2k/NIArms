@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_CUP_M14
@@ -11,22 +13,9 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class SlotInfo;
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-	class UGL_F;
+	class Rifle_Base_F;
 	/*
 	========================================
 	CUP GUNS
@@ -35,12 +24,12 @@ class CfgWeapons
 	class CUP_srifle_M14 : Rifle_Base_F
 	{
 		/*"CUP_20Rnd_762x51_DMR","CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR","CUP_20Rnd_TE1_Red_Tracer_762x51_DMR","CUP_20Rnd_TE1_Green_Tracer_762x51_DMR","CUP_20Rnd_TE1_White_Tracer_762x51_DMR","20Rnd_762x51_Mag"*/
-		magazines[] += {"hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14"};
+		magazines[] += { __762M14_MAGS };
 
 	};
 	class CUP_srifle_DMR : Rifle_Base_F
 	{
-		magazines[] += {"hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14"};
+		magazines[] += { __762M14_MAGS };
 	};
 	/*
 	========================================
@@ -49,7 +38,6 @@ class CfgWeapons
 	*/
 	class hlc_M14_base : Rifle_Base_F
 	{
-		magazines[] += {"hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14","CUP_20Rnd_762x51_DMR", "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR", "CUP_20Rnd_TE1_White_Tracer_762x51_DMR", "20Rnd_762x51_Mag"};
+		magazines[] += { __762M14_CUP_MAGS };
 	};
-
 };

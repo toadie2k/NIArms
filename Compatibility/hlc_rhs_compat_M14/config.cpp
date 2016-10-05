@@ -1,3 +1,5 @@
+#include "\hlc_core\script_macros.hpp"
+
 class CfgPatches 
 {
 	class HLC_COMPAT_RHS_M14
@@ -11,22 +13,9 @@ class CfgPatches
 		author = "Toadie";
 	};
 };
-class SlotInfo;
 class CfgWeapons
 {
-	class ItemCore;
-	class InventoryMuzzleItem_Base_F;
-	class Rifle;
-	class Rifle_Base_F : Rifle
-	{
-		class WeaponSlotsInfo;
-		class GunParticles;
-	};
-	class Rifle_Long_Base_F : Rifle_Base_F
-	{
-		class WeaponSlotsInfo;
-	};
-	class UGL_F;
+	class Rifle_Base_F;
 	/*
 	========================================
 	RHS GUNS
@@ -36,8 +25,7 @@ class CfgWeapons
 	class rhs_weap_m14ebrri : srifle_EBR_F
 	{
 		/*rhsusf_20Rnd_762x51_m118_special_Mag,rhsusf_20Rnd_762x51_m993_Mag*/
-		magazines[] += {"hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14"};
-
+		magazines[] += { __762M14_RHS_MAGS };
 	};
 	/*
 	========================================
@@ -46,7 +34,6 @@ class CfgWeapons
 	*/
 	class hlc_M14_base : Rifle_Base_F
 	{
-		magazines[] += {"rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag"};
+		magazines[] += { __762M14_RHS_MAGS };
 	};
-
 };
