@@ -1324,11 +1324,6 @@ class CfgWeapons {
             class CowsSlot {};
             class PointerSlot {};
         };
-        opticszoommin = 0.25;
-        opticsZoomMax = 1.1;
-        opticsZoomInit = 0.75;
-        distanceZoomMin = 300;
-        distanceZoomMax = 300;
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 

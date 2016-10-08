@@ -691,14 +691,9 @@ class CfgWeapons {
         bullet7[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_03", 0.281838, 1, 15 };
         bullet8[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15 };
         bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
-        distancezoommax = 300;
-        distancezoommin = 300;
         drysound[] = { "hlc_wp_sigamt\snd\amt_dryfire", 1.01, 1, 10 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         modes[] = { "Single", "FullAuto", "single_close_optics1", "single_medium_optics1", "single_far_optics1", "fullauto_medium" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.630957, 1, 35 };
         changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
         soundbullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };

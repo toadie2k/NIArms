@@ -420,11 +420,6 @@ class CfgWeapons {
 			class CowsSlot {};
             class PointerSlot {};
 		};
-		opticsZoomMin = 0.375;
-		opticsZoomMax = 1.1;
-		opticsZoomInit = 0.75;
-		distanceZoomMin = 300;
-		distanceZoomMax = 300;
 		descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
 
 
