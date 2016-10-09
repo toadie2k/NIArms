@@ -556,11 +556,6 @@ class CfgWeapons {
             class CowsSlot {};
             class PointerSlot {};
         };
-        opticszoominit = 0.75;
-        opticszoommax = 1.1;
-        opticszoommin = 0.25;
-        distanceZoomMin = 300;
-        distanceZoomMax = 300;
         descriptionShort = "SMG<br/>Caliber:9x19mm NATO";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
         dexterity = 1.8;
