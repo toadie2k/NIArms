@@ -567,6 +567,10 @@ class CfgWeapons {
 //optics
 
     class InventoryOpticsItem_Base_F;
+    class ItemCore;
+    class optic_ACO_grn : ItemCore {
+        class ItemInfo;
+    };
     class optic_dms;
 
     class HLC_Optic_PSO1 : optic_dms {
@@ -581,7 +585,7 @@ class CfgWeapons {
         ACE_ScopeAdjust_Increment = 0.5;
         class ItemInfo: InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 7;
+            mass = 12;
             modelOptics = "\hlc_wp_ak\mesh\pso1\pso_optics";
             class OpticsModes {
                 class Snip {
@@ -626,6 +630,7 @@ class CfgWeapons {
                 };
             };
         };
+        inertia = 0.06;
     };
 
     class HLC_Optic_1p29 : HLC_Optic_PSO1 {
@@ -640,7 +645,7 @@ class CfgWeapons {
         ACE_ScopeAdjust_Increment = 0;
         class ItemInfo: InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 7;
+            mass = 16;
             modelOptics = "\hlc_wp_ak\mesh\1p29\1p29_optics";
             class OpticsModes {
                 class Snip {
@@ -665,9 +670,9 @@ class CfgWeapons {
                 };
             };
         };
+        inertia = 0.08;
     };
 
-    class optic_ACO_grn;
     class hlc_optic_kobra : optic_ACO_grn {
         dlc = "Niarms_AK";
         author = "Tigg, Toadie";
@@ -677,6 +682,10 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_kobra_ca";
         scope = 2;
         weaponinfotype = "RscWeaponZeroing";
+        class ItemInfo: ItemInfo {
+            mass = 8;
+        };
+        inertia = 0.04;
     };
 
     class hlc_optic_goshawk : optic_ACO_grn {
@@ -689,7 +698,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\goshawk\goshawk.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 10;
+            mass = 32;
             modelOptics = "\hlc_wp_ak\mesh\goshawk\TI_goshawk_optic.p3d";
             class OpticsModes {
                 class Goshawk_TI {
@@ -713,25 +722,32 @@ class CfgWeapons {
                 };
             };
         };
+        inertia = 0.16;
     };
 
 //muzzles
 
-    class muzzle_snds_H;
+    class muzzle_snds_H : ItemCore {
+        class ItemInfo;
+    };
+
     class hlc_muzzle_545SUP_AK : muzzle_snds_H {
         dlc = "Niarms_AK";
         author = "Bohemia Interactive, Toadie";
         displayName = "PBS4 AK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS4\pbs4";
+        class ItemInfo: ItemInfo {
+            mass = 12;
+        };
+        inertia = 0.08;
     };
-    class muzzle_snds_M;
-    class hlc_muzzle_762SUP_AK : muzzle_snds_M {
+    class hlc_muzzle_762SUP_AK : hlc_muzzle_545SUP_AK {
         dlc = "Niarms_AK";
-            author = "Jason9Jason, Toadie";
-            displayName = "PBS1 AK Suppressor";
-            picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-            model = "\hlc_wp_ak\mesh\PBS1\pbs1";
+        author = "Jason9Jason, Toadie";
+        displayName = "PBS1 AK Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "\hlc_wp_ak\mesh\PBS1\pbs1";
     };
 
 //weapons
@@ -744,7 +760,6 @@ class CfgWeapons {
     };
 
     class hlc_ak_base : Rifle_Base_F {
-        inertia=0.5;
         magazineReloadSwitchPhase = 0.5;
         author = "Toadie";
         recoil = "recoil_mk20";
@@ -948,9 +963,11 @@ class CfgWeapons {
         cameraDir = "eye_look";
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 61.4;
+            mass = 60;
             class CowsSlot : asdg_OpticSideMount {};
         };
+        inertia = 0.3;
+		__DEXTERITY(3,0);
     };
     class hlc_rifle_ak74_dirty : hlc_rifle_ak74 {
         author = "MrRifleman, Millenia, Toadie";
@@ -966,7 +983,6 @@ class CfgWeapons {
     };
     class hlc_rifle_aks74 : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
-        inertia=0.45;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "MrRifleman, Toadie";
         reloadAction = "HLC_GestureReloadAK";
@@ -976,12 +992,13 @@ class CfgWeapons {
         displayName = "Izhmash AKS74";
         bg_bipod = 0; 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass=59;
+            mass = 58;
         };
+        inertia = 0.29;
+		__DEXTERITY(2.9,0);
     };
     class hlc_rifle_ak12 : hlc_ak_base {
         dlc = "Niarms_AK";
-        inertia = 0.5;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "Maibatsu, Toadie";
         scope = public;
@@ -1140,11 +1157,12 @@ class CfgWeapons {
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
         };
+        inertia = 0.33;
+		__DEXTERITY(3.3,0);
     };
     class hlc_rifle_ak12GL : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        inertia = 0.5;
         author = "Maibatsu, Toadie";
         scope = public;
         displayName = "Izhmash AK12(GL)";
@@ -1161,8 +1179,10 @@ class CfgWeapons {
             libTextDesc = "Izhmash AK12 5.45mm";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 66;
+            mass = 94;
         };
+        inertia = 0.67;
+		__DEXTERITY(3.3 + 1.4,0);
     };
     class hlc_rifle_aku12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
@@ -1171,7 +1191,6 @@ class CfgWeapons {
         AB_barrelLength=8.3;
         ACE_barrelTwist = 160.02;
         ACE_barrelLength = 210.82;
-        inertia=0.4;
         author = "Maibatsu, Toadie";
         scope = public;
         initspeed = -0.816667;
@@ -1257,6 +1276,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61;
         };
+        inertia = 0.3;
+		__DEXTERITY(3,0);
     };
     class hlc_rifle_RPK12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
@@ -1265,7 +1286,6 @@ class CfgWeapons {
         agm_bipod=1;
         cse_bipod = 1;
         bg_bipod = 1; 
-        inertia=0.66;
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodin", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "\hlc_wp_ak\snd\rpk_bipodout", db - 3, 1, 20 }; /// sound of folding the bipod
@@ -1351,6 +1371,8 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 98;
         };
+        inertia = 0.7;
+		__DEXTERITY(5,0);
     };
     class hlc_rifle_aks74u : hlc_ak_base {
         dlc = "Niarms_AK";
@@ -1434,9 +1456,11 @@ class CfgWeapons {
             libTextDesc = "Izhmash AKS74U";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 54;
+            mass = 52;
             class CowsSlot : asdg_OpticSideMount {};
         };
+        inertia = 0.26;
+		__DEXTERITY(2.6,0);
     };
 
     class hlc_rifle_ak47 : hlc_ak_base {
@@ -1522,10 +1546,12 @@ class CfgWeapons {
             libTextDesc = "Izhmash AK47 (Type 1)";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 74.5;
+            mass = 69;
             class MuzzleSlot: asdg_MuzzleSlot_762R {};
             class CowsSlot : asdg_OpticSideMount {};
         };
+        inertia = 0.35;
+		__DEXTERITY(3.5,0);
     };
     class hlc_rifle_akm : hlc_rifle_ak47 {
         dlc = "Niarms_AK";
@@ -1542,11 +1568,12 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 62;
         };
+        inertia = 0.31;
+		__DEXTERITY(3.1,0);
     };
     class hlc_rifle_akmgl : hlc_rifle_akm {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        inertia=0.55;
         author = "MrRifleman, Bull5hit, Bohemia Interactive, Toadie";
         model = "\hlc_wp_ak\mesh\akmgl\akm.p3d";
         handanim[] = {"OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp.rtm"};
@@ -1556,10 +1583,11 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 92;
         };
+        inertia = 0.66;
+		__DEXTERITY(3.1 + 1.5,0);
     };
     class hlc_rifle_rpk : hlc_ak_base {
         dlc = "Niarms_AK";
-        inertia=0.6;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodin", db - 3, 1, 20 }; /// sound of unfolding the bipod
@@ -1647,14 +1675,15 @@ class CfgWeapons {
             minrangeprobab = 0.05;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass =96;
+            mass = 96;
             class CowsSlot : asdg_OpticSideMount {};
             class MuzzleSlot: asdg_MuzzleSlot_762R {};
         };
+        inertia = 0.68;
+		__DEXTERITY(4.8,0);
     };
     class hlc_rifle_rpk74n : hlc_ak_base {
         dlc = "Niarms_AK";
-        inertia = 0.6;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodin", db - 3, 1, 20 }; /// sound of unfolding the bipod
@@ -1682,9 +1711,11 @@ class CfgWeapons {
         descriptionShort = "Light Support Weapon<br/>Caliber: 5.45mm";
         modes[] = { "FullAuto", "Single", "fullauto_medium", "medium", "close" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 96;
+            mass = 94;
             class CowsSlot : asdg_OpticSideMount {};
         };
+        inertia = 0.67;
+		__DEXTERITY(4.7,0);
         class FullAuto : FullAuto {
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
                 weaponSoundEffect = "DefaultRifle";
@@ -1758,7 +1789,6 @@ class CfgWeapons {
     };
     class hlc_rifle_aks74_GL : hlc_rifle_aks74 {
         dlc = "Niarms_AK";
-        inertia=0.55;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\aks74gl\aks74gl.p3d";
@@ -1768,8 +1798,10 @@ class CfgWeapons {
         muzzles[] = {"this", "hlc_GP30"};
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass=85.4;
+            mass = 84;
         };
+        inertia = 0.62;
+		__DEXTERITY(2.9 + 1.3,0);
     };
     class hlc_rifle_aek971 : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
@@ -1924,6 +1956,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
         };
+        inertia = 0.33;
+		__DEXTERITY(3.3,0);
     };
     class hlc_rifle_aek971worn : hlc_rifle_aek971 {
         displayName = "ZID AEK971S(Worn)";
@@ -1931,7 +1965,6 @@ class CfgWeapons {
     };
     class hlc_rifle_saiga12k : hlc_ak_base {
         dlc = "Niarms_AK";
-        inertia=0.55;
         recoil = "recoil_m320";
         ACE_barrelTwist = 0.0;
         ACE_twistDirection = 0;
@@ -1978,10 +2011,12 @@ class CfgWeapons {
             maxRangeProbab = 0.02;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass =70;
+            mass = 70;
             class MuzzleSlot {};
             class CowsSlot : asdg_OpticSideMount {};
         };
+        inertia = 0.35;
+		__DEXTERITY(3.5,0);
     };
 
 
@@ -2003,9 +2038,11 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK";
         recoil = "recoil_mx";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 74.5;
+            mass = 70;
             class MuzzleSlot : asdg_MuzzleSlot_762R {};
         };
+        inertia = 0.35;
+		__DEXTERITY(3.5,0);
         DescriptionShort = "Assault rifle<br/>Caliber: 7.62mm";
         discreteDistance[] = { 150, 100, 200, 300, 400, 500, 600};
         discreteDistanceCameraPoint[] = { "eye_150", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600" };
@@ -2170,6 +2207,8 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
             class MuzzleSlot : asdg_MuzzleSlot_762R {};
         };
+        inertia = 0.28;
+		__DEXTERITY(2.8,0);
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\slr107u\slr107U_reload_empty", 0.74, 1, 20 };
     };
 
@@ -2181,9 +2220,11 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_slr107umtk_ca";
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 56;
+            mass = 60;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.3;
+		__DEXTERITY(2.8 + 0.2,0);
     };
 
     class hlc_rifle_ak74_MTK : hlc_rifle_ak74 {
@@ -2194,13 +2235,14 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_ak74mtk_ca";
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 61.4;
+            mass = 64;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.32;
+		__DEXTERITY(3 + 0.2,0);
     };
     class hlc_rifle_ak74m : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
-        inertia = 0.45;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "MrRifleman, Toadie";
         reloadAction = "HLC_GestureReloadAK";
@@ -2210,12 +2252,13 @@ class CfgWeapons {
         displayName = "Izhmash AK74M";
         bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 59;
+            mass = 68;
         };
+        inertia = 0.34;
+		__DEXTERITY(3.4,0);
     };
     class hlc_rifle_ak74m_gl : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
-        inertia = 0.55;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl.p3d";
@@ -2225,8 +2268,10 @@ class CfgWeapons {
         muzzles[] = { "this", "hlc_GP30" };
         bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 85.4;
+            mass = 84;
         };
+        inertia = 0.67;
+		__DEXTERITY(3.4 + 1.3,0);
     };
     class hlc_rifle_ak74m_MTK : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
@@ -2236,9 +2281,11 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_ak74mmtk_ca";
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 61.4;
+            mass = 72;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.36;
+		__DEXTERITY(3.4 + 0.2,0);
     };
     class hlc_rifle_aek971_mtk : hlc_rifle_aek971 {
         dlc = "Niarms_AK";
@@ -2247,9 +2294,11 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aek971\aek971_mtk.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aekmtk_ca";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 66;
+            mass = 70;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.35;
+		__DEXTERITY(3.3 + 0.2,0);
     };
     class hlc_rifle_aks74u_MTK : hlc_rifle_aks74u {
         dlc = "Niarms_AK";
@@ -2258,9 +2307,11 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\millaks74u\aks74u_mtk.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74umtk_ca";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 54;
+            mass = 56;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.28;
+		__DEXTERITY(2.6 + 0.2,0);
     };
     class hlc_rifle_akm_MTK : hlc_rifle_akm {
         dlc = "Niarms_AK";
@@ -2269,20 +2320,23 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_akmmtk_ca";
         displayName = "Izhmash AKM(MTK)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 62;
+            mass = 66;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.33;
+		__DEXTERITY(3.1 + 0.2,0);
     };
     class hlc_rifle_aks74_MTK : hlc_rifle_aks74 {
         dlc = "Niarms_AK";
-        inertia = 0.45;
         author = "MrRifleman, Toadie";
         model = "\hlc_wp_ak\mesh\aks74\aks74_mtk.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74mtk_ca";
         displayName = "Izhmash AKS74(MTK)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 59;
+            mass = 62;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        inertia = 0.31;
+		__DEXTERITY(2.9 + 0.2,0);
     };
 };
