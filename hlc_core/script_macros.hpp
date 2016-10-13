@@ -79,3 +79,13 @@
 #define __762M14_BI_MAGS "20Rnd_762x51_Mag"
 #define __762M14_RHS_MAGS "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m62_Mag"
 #define __762M14_CUP_MAGS "CUP_20Rnd_762x51_DMR", "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR", "CUP_20Rnd_TE1_White_Tracer_762x51_DMR"
+
+// calculate dexterity (how fast you can turn) with rifle based on it's total weight - meant to produce values close to BIS
+// __COMPONENTS = sum of parts defined below
+// __MODIF = 0 default, 1 for having a grip, 1 for bullpups, -3 for bulky weapons
+// aimTransitionSpeed - the new thing, made it dexterity x 0.7
+
+// formula for rifles, mg, launchers
+#define __DEXTERITY(__COMPONENTS,__MODIF) dexterity = __EVAL((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4); aimTransitionSpeed = __EVAL(((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4) * 0.7)
+// handguns have another formula
+#define __PDEXTERITY(__COMPONENTS) dexterity = __EVAL((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9); aimTransitionSpeed = __EVAL(((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9) * 0.7)
