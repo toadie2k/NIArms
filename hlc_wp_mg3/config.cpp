@@ -383,276 +383,17 @@ class CfgVehicles
         };
     };
     class Weapon_Base_F;
-    class Weapon_hlc_lmg_MG42 : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG42";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG42";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_792x57_B_MG42";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_mg42_bakelite : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG42(Bakelite)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_mg42_bakelite";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_792x57_B_MG42";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_MG42KWS_t : Weapon_Base_F
-{
-    dlc = "Niarms_MG3";
-    scope = 2;
-    scopeCurator = 2;
-    displayName = "MG42KWS(Tan)";
-    author = "Toadie";
-    vehicleClass = "WeaponsPrimary";
-    editorCategory = "EdCat_Weapons";
-    editorSubcategory = "EdSubcat_MachineGuns";
-    class TransportWeapons
-    {
-        class srifle_EBR_F
-        {
-            weapon = "hlc_lmg_MG42KWS_t";
-            count = 1;
-        };
-    };
-    class TransportMagazines
-    {
-        class 20Rnd_762x51_Mag
-        {
-            magazine = "hlc_50Rnd_792x57_B_MG42";
-            count = 1;
-        };
-    };
-};
-    class Weapon_hlc_lmg_MG42KWS_g : Weapon_Base_F
-{
-    dlc = "Niarms_MG3";
-    scope = 2;
-    scopeCurator = 2;
-    displayName = "MG42KWS(Green)";
-    author = "Toadie";
-    vehicleClass = "WeaponsPrimary";
-    editorCategory = "EdCat_Weapons";
-    editorSubcategory = "EdSubcat_MachineGuns";
-    class TransportWeapons
-    {
-        class srifle_EBR_F
-        {
-            weapon = "hlc_lmg_MG42KWS_g";
-            count = 1;
-        };
-    };
-    class TransportMagazines
-    {
-        class 20Rnd_762x51_Mag
-        {
-            magazine = "hlc_50Rnd_792x57_B_MG42";
-            count = 1;
-        };
-    };
-};
-    class Weapon_hlc_lmg_MG42KWS_b : Weapon_Base_F
-{
-    dlc = "Niarms_MG3";
-    scope = 2;
-    scopeCurator = 2;
-    displayName = "MG42-KWS(Black)";
-    author = "Toadie";
-    vehicleClass = "WeaponsPrimary";
-    editorCategory = "EdCat_Weapons";
-    editorSubcategory = "EdSubcat_MachineGuns";
-    class TransportWeapons
-    {
-        class srifle_EBR_F
-        {
-            weapon = "hlc_lmg_MG42KWS_b";
-            count = 1;
-        };
-    };
-    class TransportMagazines
-    {
-        class 20Rnd_762x51_Mag
-        {
-            magazine = "hlc_50Rnd_792x57_B_MG42";
-            count = 1;
-        };
-    };
-};
-    class Weapon_hlc_lmg_MG3 : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG3";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG3";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_762x51_M_MG3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_MG3_optic : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mg M/62";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG3_optic";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_762x51_M_MG3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_MG3KWS_t : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG3KWS(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG3KWS";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_762x51_M_MG3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_MG3KWS_g : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG3KWS(Green)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG3KWS_g";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_762x51_M_MG3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_MG3KWS_b : Weapon_Base_F
-    {
-        dlc = "Niarms_MG3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MG3KWS(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        editorCategory = "EdCat_Weapons";
-        editorSubcategory = "EdSubcat_MachineGuns";
-        class TransportWeapons
-        {
-            class srifle_EBR_F
-            {
-                weapon = "hlc_lmg_MG3KWS_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines
-        {
-            class 20Rnd_762x51_Mag
-            {
-                magazine = "hlc_50Rnd_762x51_M_MG3";
-                count = 1;
-            };
-        };
-    };
+    __WEAPONHOLDER(hlc_lmg_MG42, hlc_50Rnd_792x57_B_MG42, MG42, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mg42_bakelite, hlc_50Rnd_792x57_B_MG42, MG42(Bakelite), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_t, hlc_50Rnd_792x57_B_MG42, MG42KWS(Tan), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_b, hlc_50Rnd_792x57_B_MG42, MG42KWS(Black), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_g, hlc_50Rnd_792x57_B_MG42, MG42KWS(Green), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3, hlc_50Rnd_792x57_B_MG42, MG3, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3_optic, hlc_50Rnd_762x51_M_MG3, Mg M/62, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS, hlc_50Rnd_762x51_M_MG3, MG3KWS(Tan), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS_b, hlc_50Rnd_762x51_M_MG3, MG3KWS(Black), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS_g, hlc_50Rnd_762x51_M_MG3, MG3KWS(Green), Niarms_MG3, Toadie, MachineGuns);
+
 };
 
 class CfgMagazines{
@@ -1043,7 +784,6 @@ class CfgMagazines{
     };
 };
 class CfgWeapons {
-    class GrenadeLauncher;
     class Rifle;
     class optic_Hamr;
     class LMG_Zafir_F;
@@ -1067,6 +807,7 @@ class CfgWeapons {
         ACE_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
         ACE_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         ACE_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
+        AGM_Overheating_allowSwapBarrel = 1;
         airateoffire = 0.5;
         airateoffiredistance = 500;
         scope = protected;
@@ -1075,7 +816,7 @@ class CfgWeapons {
         magazineReloadSwitchPhase = 0.5;
         deployedpivot = "deploypoint";
         magazines[] = {
-            "hlc_50Rnd_792x57_B_MG42", "hlc_50Rnd_792x57_M_MG42", "hlc_50Rnd_792x57_T_MG42", "hlc_100Rnd_792x57_B_MG42", "hlc_100Rnd_792x57_M_MG42", "hlc_100Rnd_792x57_T_MG42", "hlc_200Rnd_792x57_B_MG42", "hlc_200Rnd_792x57_M_MG42", "hlc_200Rnd_792x57_T_MG42", "hlc_50Rnd_792x57_AP_MG42", "hlc_100Rnd_792x57_AP_MG42", "hlc_200Rnd_792x57_AP_MG42" };
+            __792MG42_MAGS };
         maxRecoilSway = 0.0150;
         swayDecaySpeed = 1.25;
         recoil = "recoil_zafir";
@@ -1084,7 +825,8 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         distanceZoomMin = 300;
         distanceZoomMax = 300;
-        dexterity = 1.8;
+        _DEXTERITY(11.6, 0);
+        inertia = 1.16;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
@@ -1279,7 +1021,7 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg42\mg42.p3d";
         reloadaction = "HLC_GestureReloadMG42";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.92mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.92mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg42_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Mauser MG42";
@@ -1395,6 +1137,8 @@ class CfgWeapons {
         displayName = "Rheinmetall MG42-KWS(Tan)";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         picture = "\hlc_wp_mg3\tex\ui\gear_mg42kws_ca";
+        _DEXTERITY(10.5, 1);
+        inertia = 1.05;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 193;
@@ -1447,16 +1191,18 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3.p3d";
         reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.92mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.92mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg3_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall MG3";
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
+        _DEXTERITY(10.5, 0);
+        inertia = 1.05;
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
         magazines[] = {
-            "hlc_50Rnd_762x51_B_MG3", "hlc_50Rnd_762x51_M_MG3", "hlc_50Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_100Rnd_762x51_B_MG3", "hlc_100Rnd_762x51_M_MG3", "hlc_100Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3", "hlc_250Rnd_762x51_T_MG3", "hlc_250Rnd_762x51_Barrier_MG3" };
+            __762MG3_MAGS };
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
@@ -1649,7 +1395,7 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3_later.p3d";
         reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_m62_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall Mg M/62";
@@ -1658,7 +1404,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverDane_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         magazines[] = {
-            "hlc_50Rnd_762x51_B_MG3", "hlc_50Rnd_762x51_M_MG3", "hlc_50Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_100Rnd_762x51_B_MG3", "hlc_100Rnd_762x51_M_MG3", "hlc_100Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3", "hlc_250Rnd_762x51_T_MG3", "hlc_250Rnd_762x51_Barrier_MG3" };
+            __762MG3_MAGS };
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
@@ -1853,16 +1599,18 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3kws.p3d";
         reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg3kws_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall MG3-KWS(Tan)";
+        _DEXTERITY(10.5, 1);
+        inertia = 1.05;
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverkws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         magazines[] = {
-            "hlc_50Rnd_762x51_B_MG3", "hlc_50Rnd_762x51_M_MG3", "hlc_50Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_100Rnd_762x51_B_MG3", "hlc_100Rnd_762x51_M_MG3", "hlc_100Rnd_762x51_T_MG3", "hlc_100Rnd_762x51_Barrier_MG3", "hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3", "hlc_250Rnd_762x51_T_MG3", "hlc_250Rnd_762x51_Barrier_MG3" };
+            __762MG3_MAGS };
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing

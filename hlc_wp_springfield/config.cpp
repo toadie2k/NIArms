@@ -281,81 +281,9 @@ class CfgVehicles
 		};
 	};
 	class Weapon_Base_F;
-	class Weapon_hlc_rifle_1903A1Unertl : Weapon_Base_F
-	{
-		dlc = "Niarms_M1903";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "M1903A1 Sniper";
-		author = "Toadie";
-		vehicleClass = "WeaponsPrimary";
-		class TransportWeapons
-		{
-			class srifle_EBR_F
-			{
-				weapon = "hlc_rifle_M1903A1_unertl";
-				count = 1;
-			};
-		};
-		class TransportMagazines
-		{
-			class 20Rnd_762x51_Mag
-			{
-				magazine = "hlc_5rnd_3006_1903";
-				count = 1;
-			};
-		};
-	};
-	class Weapon_hlc_rifle_1903A1 : Weapon_Base_F
-	{
-		dlc = "Niarms_M1903";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "M1903A1";
-		author = "Toadie";
-		vehicleClass = "WeaponsPrimary";
-		class TransportWeapons
-		{
-			class srifle_EBR_F
-			{
-				weapon = "hlc_rifle_M1903A1";
-				count = 1;
-			};
-		};
-		class TransportMagazines
-		{
-			class 20Rnd_762x51_Mag
-			{
-				magazine = "hlc_5rnd_3006_1903";
-				count = 1;
-			};
-		};
-	};
-	class Weapon_hlc_rifle_M1903A1OMR : Weapon_Base_F
-	{
-		dlc = "Niarms_M1903";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "M1903A1 ";
-		author = "Toadie";
-		vehicleClass = "WeaponsPrimary";
-		class TransportWeapons
-		{
-			class srifle_EBR_F
-			{
-				weapon = "hlc_rifle_M1903A1OMR";
-				count = 1;
-			};
-		};
-		class TransportMagazines
-		{
-			class 20Rnd_762x51_Mag
-			{
-				magazine = "hlc_5rnd_3006_1903";
-				count = 1;
-			};
-		};
-	};
+    __WEAPONHOLDER(hlc_rifle_M1903A1_unertl, hlc_5rnd_3006_1903, M1903A1 Sniper, Niarms_M1903, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1, hlc_5rnd_3006_1903, M1903A1, Niarms_M1903, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1OMR, hlc_5rnd_3006_1903, M1903A1(One-Man Revolution), Niarms_M1903, Toadie, SniperRifles);
 	};
 class CfgMagazines{
 		class 30Rnd_556x45_Stanag;
@@ -423,7 +351,7 @@ class CfgWeapons {
 		descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
 
 
-		dexterity = 1.8;
+        __DEXTERITY(3.95, 0);
 		bullet1[] = { "A3\sounds_f\weapons\shells\5_56\metal_556_01.wss", 0.1, 1, 15 };
 		bullet2[] = { "A3\sounds_f\weapons\shells\5_56\metal_556_02.wss", 0.1, 1, 15 };
 		bullet3[] = { "A3\sounds_f\weapons\shells\5_56\metal_556_03.wss", 0.177828, 1, 15 };

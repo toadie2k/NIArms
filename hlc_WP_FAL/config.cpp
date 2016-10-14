@@ -53,7 +53,7 @@ class CfgVehicles {
         scope = 2;
         vehicleClass = "Ammo";
         displayName = "HLC FAL Supply Box";
-        model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
+        model = "\A3\weapons_F\AmmoBoxes\Supplydrop";
         dlc = "Niarms_FAL";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;

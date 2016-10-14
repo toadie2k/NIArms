@@ -205,46 +205,15 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class xhlc_20Rnd_762x51_B_fal {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_t_fal {
-                magazine = "hlc_30Rnd_556x45_SOST_AUG";
-                count = 20;
-            };
-            class xhlc_50rnd_762x51_M_FAL7 {
-                magazine = "hlc_30Rnd_556x45_SPR_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal7 {
-                magazine = "hlc_30Rnd_556x45_T_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal6 {
-                magazine = "hlc_40Rnd_556x45_B_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal5 {
-                magazine = "hlc_40Rnd_556x45_SOST_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal4 {
-                magazine = "hlc_40Rnd_556x45_SPR_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal3 {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal2 {
-                magazine = "hlc_25Rnd_9x19mm_JHP_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal1 {
-                magazine = "hlc_25Rnd_9x19mm_subsonic_AUG";
-                count = 20;
-            };
+            __M_MAG(hlc_30Rnd_556x45_B_AUG, 20);
+            __M_MAG(hlc_30Rnd_556x45_SOST_AUG, 20);
+            __M_MAG(hlc_30Rnd_556x45_SPR_AUG, 20);
+            __M_MAG(hlc_40Rnd_556x45_B_AUG, 20);
+            __M_MAG(hlc_40Rnd_556x45_SOST_AUG, 20);
+            __M_MAG(hlc_40Rnd_556x45_SPR_AUG, 20);
+            __M_MAG(hlc_25Rnd_9x19mm_M882_AUG, 20);
+            __M_MAG(hlc_25Rnd_9x19mm_JHP_AUG, 20);
+            __M_MAG(hlc_25Rnd_9x19mm_subsonic_AUG, 20);
         };/*
         class TransportWeapons {
             class _xhlc_rifle_falosw {
@@ -285,829 +254,70 @@ class CfgVehicles {
             };
         };*/
         class TransportItems {
-            class _xhlc_muzzle_snds_fal {
-                name = "hlc_muzzle_snds_AUG";
-                count = 10;
-            };
-            class _xhlc_muzzle_snds_fal2 {
-                name = "hlc_muzzle_snds_a6AUG";
-                count = 10;
-            };
-            class _xhlc_optic_suit {
-                name = "hlc_barrel_standard";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL {
-                name = "hlc_barrel_carbine";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL2 {
-                name = "hlc_barrel_hbar";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL3 {
-                name = "hlc_barrel_9mm";
-                count = 5;
-            };
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xx_optic_ACO_grn {
-                name = "optic_ACO_grn";
-                count = 10;
-            };
+            __M_ITM(hlc_muzzle_snds_a6AUG, 10);
+            __M_ITM(hlc_muzzle_snds_AUG, 10);
+            __M_ITM(hlc_barrel_standard, 5);
+            __M_ITM(hlc_barrel_carbine, 5);
+            __M_ITM(hlc_barrel_hbar, 5);
+            __M_ITM(hlc_barrel_9mm, 5);
+            __M_ITM(optic_hamr, 10);
+            __M_ITM(optic_rco, 10);
+            __M_ITM(optic_ACO_grn, 10);
         };
     };
     class Weapon_Base_F;
-    class Weapon_hlc_rifle_aug : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_aug";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga1_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga1_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga1_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga1_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga1carb : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 Carbine(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga1carb";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga1carb_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 Carbine(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga1carb_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga1carb_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 Carbine(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga1carb_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_aughbar : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 HBAR(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_aughbar";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_aughbar_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 HBAR(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_aughbar_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_aughbar_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 HBAR(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_aughbar_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augpara : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 PARA(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augpara";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augpara_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 PARA(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augpara_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augpara_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA1 PARA(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augpara_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2 : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2carb : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 Carbine(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2carb";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2carb_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 Carbine(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2carb_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2carb_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 Carbine(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2carb_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2lsw : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 HBAR(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2lsw";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2lsw_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 HBAR(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2lsw_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2lsw_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 HBAR(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2lsw_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2para : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 PARA(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2para";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2para_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 PARA(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2para_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga2para_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA2 PARA(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga2para_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsr : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsr";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsr_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsr_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsr_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsr_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrcarb : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR Carbine(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrcarb";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrcarb_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR Carbine(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrcarb_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrcarb_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR Carbine(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrcarb_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrhbar : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR HBAR(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrhbar";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrhbar_t : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR HBAR(Tan)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrhbar_t";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_augsrhbar_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUG-SR HBAR(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_augsrhbar_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3 : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3_bl : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3(Blue)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3_bl";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3_GL : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3 GL(OD)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3_GL";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3_GL_bl : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3 GL(Blue)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3_GL_bl";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_auga3_GL_b : Weapon_Base_F {
-        dlc = "Niarms_AUG";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AUGA3 GL(Black)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_auga3_GL_b";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 1;
-            };
-        };
-    };
+    __WEAPONHOLDER(hlc_rifle_aug, hlc_30Rnd_556x45_B_AUG, AUGA1(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_t, hlc_30Rnd_556x45_B_AUG, AUGA1(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_b, hlc_30Rnd_556x45_B_AUG, AUGA1(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga1carb, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_b, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_t, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_aughbar, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_t, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_b, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_augpara, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga2, hlc_30Rnd_556x45_B_AUG, AUGA2(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_t, hlc_30Rnd_556x45_B_AUG, AUGA2(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga2carb, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_b, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_t, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga2lsw, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_t, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_b, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga2para, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_augsr, hlc_30Rnd_556x45_B_AUG, AUG-SR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_augsrcarb hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_augsrhbar, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_t, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_b, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga3, hlc_30Rnd_556x45_B_AUG, AUGA3(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_bl, hlc_30Rnd_556x45_B_AUG, AUGA3(Blue), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_b, hlc_30Rnd_556x45_B_AUG, AUGA3(Black), Niarms_AUG, Toadie, AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_auga3_GL, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_bl, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Blue), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_b, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Black), Niarms_AUG, Toadie, AssaultRifles);
+    
     class HLC_AUG_Weaponbox1 : NATO_Box_Base {
         dlc = "Niarms_AUG";
         scope = 2;
@@ -1118,247 +328,78 @@ class CfgVehicles {
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            class xhlc_20Rnd_762x51_B_fal {
-                magazine = "hlc_30Rnd_556x45_B_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_t_fal {
-                magazine = "hlc_30Rnd_556x45_SOST_AUG";
-                count = 20;
-            };
-            class xhlc_50rnd_762x51_M_FAL7 {
-                magazine = "hlc_30Rnd_556x45_SPR_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal7 {
-                magazine = "hlc_30Rnd_556x45_T_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal6 {
-                magazine = "hlc_40Rnd_556x45_B_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal5 {
-                magazine = "hlc_40Rnd_556x45_SOST_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal4 {
-                magazine = "hlc_40Rnd_556x45_SPR_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal3 {
-                magazine = "hlc_25Rnd_9x19mm_M882_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal2 {
-                magazine = "hlc_25Rnd_9x19mm_JHP_AUG";
-                count = 20;
-            };
-            class xhlc_20Rnd_762x51_S_fal1 {
-                magazine = "hlc_25Rnd_9x19mm_subsonic_AUG";
-                count = 20;
-            };
+            __M_MAG(hlc_30Rnd_556x45_B_AUG, 30);
+            __M_MAG(hlc_30Rnd_556x45_SOST_AUG, 30);
+            __M_MAG(hlc_30Rnd_556x45_SPR_AUG, 30);
+            __M_MAG(hlc_40Rnd_556x45_B_AUG, 30);
+            __M_MAG(hlc_40Rnd_556x45_SOST_AUG, 30);
+            __M_MAG(hlc_40Rnd_556x45_SPR_AUG, 30);
+            __M_MAG(hlc_25Rnd_9x19mm_M882_AUG, 30);
+            __M_MAG(hlc_25Rnd_9x19mm_JHP_AUG, 30);
+            __M_MAG(hlc_25Rnd_9x19mm_subsonic_AUG, 30);
         };
         class TransportWeapons {
-            class hlc_rifle_aug0 {
-                weapon = "hlc_rifle_aug";
-                count = 10;
-            };
-            class hlc_rifle_auga1carb0 {
-                weapon = "hlc_rifle_auga1carb";
-                count = 10;
-            };
-            class hlc_rifle_aughbar0 {
-                weapon = "hlc_rifle_aughbar";
-                count = 10;
-            };
-            class hlc_rifle_augpara0 {
-                weapon = "hlc_rifle_augpara";
-                count = 10;
-            };
-            class hlc_rifle_auga20 {
-                weapon = "hlc_rifle_auga2";
-                count = 10;
-            };
-            class hlc_rifle_augsr0 {
-                weapon = "hlc_rifle_augsr";
-                count = 10;
-            };
-            class hlc_rifle_auga2para0 {
-                weapon = "hlc_rifle_auga2para";
-                count = 10;
-            };
-            class hlc_rifle_auga2carb0 {
-                weapon = "hlc_rifle_auga2carb";
-                count = 10;
-            };
-            class hlc_rifle_augsrcarb0 {
-                weapon = "hlc_rifle_augsrcarb";
-                count = 10;
-            };
-            class hlc_rifle_auga2lsw0 {
-                weapon = "hlc_rifle_auga2lsw";
-                count = 10;
-            };
-            class hlc_rifle_augsrhbar0 {
-                weapon = "hlc_rifle_augsrhbar";
-                count = 10;
-            };
-            class hlc_rifle_auga30 {
-                weapon = "hlc_rifle_auga3";
-                count = 10;
-            };
-            class hlc_rifle_auga3_GL0 {
-                weapon = "hlc_rifle_auga3_GL";
-                count = 10;
-            };
-            class hlc_rifle_aug1 {
-                weapon = "hlc_rifle_auga1_t";
-                count = 10;
-            };
-            class hlc_rifle_auga1carb1 {
-                weapon = "hlc_rifle_auga1carb_T";
-                count = 10;
-            };
-            class hlc_rifle_aughbar1 {
-                weapon = "hlc_rifle_aughbar_T";
-                count = 10;
-            };
-            class hlc_rifle_augpara1 {
-                weapon = "hlc_rifle_augpara_T";
-                count = 10;
-            };
-            class hlc_rifle_auga21 {
-                weapon = "hlc_rifle_auga2_t";
-                count = 10;
-            };
-            class hlc_rifle_augsr1 {
-                weapon = "hlc_rifle_augsr_T";
-                count = 10;
-            };
-            class hlc_rifle_auga2para1 {
-                weapon = "hlc_rifle_auga2para_T";
-                count = 10;
-            };
-            class hlc_rifle_auga2carb1 {
-                weapon = "hlc_rifle_auga2carb_T";
-                count = 10;
-            };
-            class hlc_rifle_augsrcarb1 {
-                weapon = "hlc_rifle_augsrcarb_T";
-                count = 10;
-            };
-            class hlc_rifle_auga2lsw1 {
-                weapon = "hlc_rifle_auga2lsw_T";
-                count = 10;
-            };
-            class hlc_rifle_augsrhbar1 {
-                weapon = "hlc_rifle_augsrhbar_T";
-                count = 10;
-            };
-            class hlc_rifle_auga31 {
-                weapon = "hlc_rifle_auga3_bl";
-                count = 10;
-            };
-            class hlc_rifle_auga3_GL1 {
-                weapon = "hlc_rifle_auga3_GL_bl";
-                count = 10;
-            };
+            __M_WEP(hlc_rifle_aug, 10);
+            __M_WEP(hlc_rifle_auga1carb, 10);
+            __M_WEP(hlc_rifle_aughbar, 10);
+            __M_WEP(hlc_rifle_augpara, 10);
 
-            class hlc_rifle_aug2 {
-                weapon = "hlc_rifle_auga1_b";
-                count = 10;
-            };
-            class hlc_rifle_auga1carb2 {
-                weapon = "hlc_rifle_auga1carb_B";
-                count = 10;
-            };
-            class hlc_rifle_aughbar2 {
-                weapon = "hlc_rifle_aughbar_B";
-                count = 10;
-            };
-            class hlc_rifle_augpara2 {
-                weapon = "hlc_rifle_augpara_B";
-                count = 10;
-            };
-            class hlc_rifle_auga22 {
-                weapon = "hlc_rifle_auga2_B";
-                count = 10;
-            };
-            class hlc_rifle_augsr2 {
-                weapon = "hlc_rifle_augsr_b";
-                count = 10;
-            };
-            class hlc_rifle_auga2para2 {
-                weapon = "hlc_rifle_auga2para_B";
-                count = 10;
-            };
-            class hlc_rifle_auga2carb2 {
-                weapon = "hlc_rifle_auga2carb_b";
-                count = 10;
-            };
-            class hlc_rifle_augsrcarb2 {
-                weapon = "hlc_rifle_augsrcarb_B";
-                count = 10;
-            };
-            class hlc_rifle_auga2lsw2 {
-                weapon = "hlc_rifle_auga2lsw_b";
-                count = 10;
-            };
-            class hlc_rifle_augsrhbar2 {
-                weapon = "hlc_rifle_augsrhbar_B";
-                count = 10;
-            };
-            class hlc_rifle_auga32 {
-                weapon = "hlc_rifle_auga3_B";
-                count = 10;
-            };
-            class hlc_rifle_auga3_GL2 {
-                weapon = "hlc_rifle_auga3_GL_B";
-                count = 10;
-            };
+            __M_WEP(hlc_rifle_auga2, 10);
+            __M_WEP(hlc_rifle_auga2carb, 10);
+            __M_WEP(hlc_rifle_auga2lsw, 10);
+            __M_WEP(hlc_rifle_auga2para, 10);
+
+            __M_WEP(hlc_rifle_augsr, 10);
+            __M_WEP(hlc_rifle_augsrcarb, 10);
+            __M_WEP(hlc_rifle_augsrhbar, 10);
+
+            __M_WEP(hlc_rifle_auga3, 10);
+            __M_WEP(hlc_rifle_auga3_GL, 10);
+
+            __M_WEP(hlc_rifle_auga1_t, 10);
+            __M_WEP(hlc_rifle_auga1carb_t, 10);
+            __M_WEP(hlc_rifle_aughbar_t, 10);
+            __M_WEP(hlc_rifle_augpara_t, 10);
+
+            __M_WEP(hlc_rifle_auga2_t, 10);
+            __M_WEP(hlc_rifle_auga2carb_t, 10);
+            __M_WEP(hlc_rifle_auga2lsw_t, 10);
+            __M_WEP(hlc_rifle_auga2para_t, 10);
+
+            __M_WEP(hlc_rifle_augsr_t, 10);
+            __M_WEP(hlc_rifle_augsrcarb_t, 10);
+            __M_WEP(hlc_rifle_augsrhbar_t, 10);
+
+            __M_WEP(hlc_rifle_auga3_bl, 10);
+            __M_WEP(hlc_rifle_auga3_GL_bl, 10);
+
+            _M_WEP(hlc_rifle_auga1_b, 10);
+            __M_WEP(hlc_rifle_auga1carb_b, 10);
+            __M_WEP(hlc_rifle_aughbar_b, 10);
+            __M_WEP(hlc_rifle_augpara_b, 10);
+
+            __M_WEP(hlc_rifle_auga2_b, 10);
+            __M_WEP(hlc_rifle_auga2carb_b, 10);
+            __M_WEP(hlc_rifle_auga2lsw_b, 10);
+            __M_WEP(hlc_rifle_auga2para_b, 10);
+
+            __M_WEP(hlc_rifle_augsr_b, 10);
+            __M_WEP(hlc_rifle_augsrcarb_b, 10);
+            __M_WEP(hlc_rifle_augsrhbar_b, 10);
+
+            __M_WEP(hlc_rifle_auga3_b, 10);
+            __M_WEP(hlc_rifle_auga3_GL_b, 10);
         };
         class TransportItems {
-            class _xhlc_muzzle_snds_fal {
-                name = "hlc_muzzle_snds_a6AUG";
-                count = 10;
-            };
-            class _xhlc_muzzle_snds_fal2 {
-                name = "hlc_muzzle_snds_AUG";
-                count = 10;
-            };
-            class _xhlc_optic_suit {
-                name = "hlc_barrel_standard";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL {
-                name = "hlc_barrel_carbine";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL2 {
-                name = "hlc_barrel_hbar";
-                count = 5;
-            };
-            class _xhlc_optic_PVS4FAL3 {
-                name = "hlc_barrel_9mm";
-                count = 5;
-            };
-            class _xx_optic_Holosight {
-                name = "optic_Holosight";
-                count = 10;
-            };
-            class _xx_optic_hamr {
-                name = "optic_hamr";
-                count = 10;
-            };
-            class _xx_optic_rco {
-                name = "optic_rco";
-                count = 10;
-            };
-            class _xx_optic_ACO_grn {
-                name = "optic_ACO_grn";
-                count = 10;
-            };
+            __M_ITM(hlc_muzzle_snds_a6AUG, 10);
+            __M_ITM(hlc_muzzle_snds_AUG, 10);
+            __M_ITM(hlc_barrel_standard, 5);
+            __M_ITM(hlc_barrel_carbine, 5);
+            __M_ITM(hlc_barrel_hbar, 5);
+            __M_ITM(hlc_barrel_9mm, 5);
+            __M_ITM(optic_hamr, 10);
+            __M_ITM(optic_rco, 10);
+            __M_ITM(optic_ACO_grn, 10);
         };
     };
 };
@@ -1686,10 +727,11 @@ class CfgWeapons {
         distanceZoomMin = 300;
         distanceZoomMax = 300;
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
-        magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG" };
+        magazines[] = { __556AUG_MAGS };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
-        dexterity = 1.8;
+        inertia = 0.36;
+        __DEXTERITY(3.6, 2);
         bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
         bullet10[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15 };
         bullet11[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_03", 0.281838, 1, 15 };
@@ -1828,8 +870,8 @@ class CfgWeapons {
         AGM_Overheating_allowSwapBarrel = 1;
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 508.0;
-        inertia = 0.4;
-        dexterity = 1.6;
+        inertia = 0.36;
+        __DEXTERITY(3.6, 2);
         scope = public;
         displayName = "Steyr AUGA1[OD]";
         model = "hlc_wp_aug\mesh\auga1\auga1.p3d";
@@ -1915,8 +957,8 @@ class CfgWeapons {
         AB_barrelLength = 16;
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 406.4;
-        inertia = 0.35;
-        dexterity = 1.6;
+        inertia = 0.33;
+        __DEXTERITY(3.3, 2);
         AGM_Overheating_Dispersion[] = { 0, 0.001, 0.002, 0.004 };
         AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
@@ -1989,8 +1031,8 @@ class CfgWeapons {
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         author = "Sarv, Tenoyl, Toadie";
-        inertia = 0.51;
-        dexterity = 1.6;
+        inertia = 0.39;
+        __DEXTERITY(3.9, 2);
         AB_barrelTwist = 9;
         AB_barrelLength = 24;
         ACE_barrelTwist = 228.6;
@@ -2093,8 +1135,8 @@ class CfgWeapons {
     };
     class hlc_rifle_augpara : hlc_aug_base {
         author = "Sarv, Tenoyl, Toadie";
-        inertia = 0.3;
-        dexterity = 1.6;
+        inertia = 0.31;
+        __DEXTERITY(3.1, 2);
         AB_barrelTwist = 9;
         AB_barrelLength = 16.5;
         ACE_barrelTwist = 228.6;
@@ -2254,7 +1296,7 @@ class CfgWeapons {
     class hlc_rifle_auga2 : hlc_rifle_aug {
         author = "Sproily, Sarv, Tenoyl, Toadie";
         inertia = 0.37;
-        dexterity = 1.6;
+        __DEXTERITY(3.7, 2);
         AB_barrelTwist = 9;
         AB_barrelLength = 20;
         ACE_barrelTwist = 228.6;

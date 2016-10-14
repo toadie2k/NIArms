@@ -1,4 +1,4 @@
-#include "script_macros.hpp"
+﻿#include "script_macros.hpp"
 
 /*
 Scripting notes- 
@@ -1061,7 +1061,6 @@ class CfgAmmo {
         ACE_muzzleVelocities[] = { 780, 886, 950 };
         ACE_barrelLengths[] = { 254.0, 393.7, 508.0 };
     };
-
     class HLC_556NATO_SPR : B_556x45_Ball {
         hit = 11.5702505;
         typicalSpeed = 868.68;
@@ -1318,6 +1317,8 @@ class CfgAmmo {
         tracerscale = 1;
         tracerstarttime = 0.06;
     };
+
+    //7,62x54mm R
     class HLC_762x54_ball : HLC_762x51_ball {
         hit = 13;
         typicalSpeed= 828;
@@ -1354,8 +1355,6 @@ class CfgAmmo {
         AB_muzzleVelocities[]={700, 800, 820, 833};
         AB_barrelLengths[]={16, 20, 24, 26};
     };
-
-    //7,62x54mm R
     class HLC_762x54_tracer : HLC_762x51_tracer {
         airfriction = -0.00125;
         caliber = 1.3;
@@ -1462,15 +1461,84 @@ class CfgAmmo {
         airlock = 1;
     };
 
+
     //7.92 Mauser
+    //Ballistics by Spartan 0536
+    //FMJ : sS Patrone
     class HLC_792x57_Ball : HLC_303Brit_B {
-        airfriction = -0.000595;
-        caliber = 1.4;
-        typicalSpeed=762;
-        maxspeed =  820;
+        airfriction = -0.00071885;
+        caliber = 0.424;
+        typicalSpeed = 759.9;
+        maxspeed = 759.9;
+        audibleFire = 80;
+        visibleFireTime = 3;
+        suppressionRadiusBulletClose = 5;
+        suppressionRadiusHit = 7;
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
         cartridge = "FxCartridge_762";
+        nvgonly = 1;
+        tracerendtime = 1;
+        tracerscale = 1;
+        tracerstarttime = 0.01;
+        cost = 1;
+        deflecting = 20;
+        hit = 12.533;
+        airlock = 1;
+        ACE_caliber = 8.2;
+        ACE_bulletLength = 28.651;
+        ACE_bulletMass = 9.9;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
+        ACE_ballisticCoefficients[] = { 0.315 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ASM";
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = { 785, 800, 815 };
+        ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
+    };
+    //Tracer (Mild AP) : SMK L'spur
+    class HLC_792x57_Tracer : HLC_792x57_Ball {
+        airfriction = -0.0007423;
+        caliber = 0.79;
+        typicalSpeed = 884.9;
+        maxspeed = 884.9;
+        audibleFire = 80;
+        visibleFireTime = 3;
+        suppressionRadiusBulletClose = 7;
+        suppressionRadiusHit = 9;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+        cartridge = "FxCartridge_762";
         nvgonly = 0;
+        tracerendtime = 1;
+        tracerscale = 1;
+        tracerstarttime = 0.01;
+        cost = 1;
+        deflecting = 20;
+        hit = 11.57;
+        airlock = 1;
+        ACE_caliber = 8.2;
+        ACE_bulletLength = 28.651;
+        ACE_bulletMass = 10;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
+        ACE_ballisticCoefficients[] = { 0.315 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ASM";
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = { 785, 800, 815 };
+        ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
+    };
+    //AP (Hardened) : SMKH
+    class HLC_792x57_AP : HLC_792x57_Ball {
+        airfriction = -0.00070184;
+        audibleFire = 80;
+        visibleFireTime = 3;
+        caliber = 1.875;
+        typicalSpeed = 853.44;
+        maxspeed = 853.44;
+        suppressionRadiusBulletClose = 5;
+        suppressionRadiusHit = 7;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        cartridge = "FxCartridge_762";
+        nvgonly = 1;
         tracerendtime = 1;
         tracerscale = 1;
         tracerstarttime = 0.01;
@@ -1489,27 +1557,319 @@ class CfgAmmo {
         ACE_muzzleVelocities[] = { 785, 800, 815 };
         ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
     };
-    class HLC_792x57_Tracer : HLC_792x57_Ball {
-        airfriction = -0.000795;
-        caliber = 1.4;
-        typicalSpeed=762;
-        maxspeed =  820;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
-        cartridge = "FxCartridge_762";
-        nvgonly = 0;
+
+    // Load Data - MEN S230430 FMJ
+    // Provided by Spartan0536
+    class HLC_300WM_FMJ : B_556x45_Ball {
+        hit = 13.54294485;
+        typicalSpeed = 841.2;
+        airFriction = -0.00085473;
+        //caliber = 0.922;
+        caliber = 1.081;
+        deflecting = 21;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        cost = 1;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        maxspeed = 990;
+        nvgonly = 1;
+        tracerendtime = 1;
+        tracerscale = 1;
+        tracerstarttime = 0.05;
+        timeToLive = 12;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 13.0;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.250 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 690, 990 };
+        ACE_barrelLengths[] = { 305, 660.4 };
+        class CamShakeExplode {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
     };
-    class HLC_792x57_AP : HLC_792x57_Ball {
-        airfriction = -0.000395;
+    class HLC_300WM_Tracer : B_556x45_Ball {
+        hit = 13.54294485;
+        typicalSpeed = 841.2;
+        airFriction = -0.00085473;
+        //caliber = 0.922;
+        caliber = 1.081;
+        deflecting = 21;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        cost = 1;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        maxspeed = 990;
+        nvgonly = 0;
+        tracerscale = 1;
+        tracerStartTime = 0.073;
+        tracerEndTime = 1.7;
+        timeToLive = 12;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 13.0;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.250 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 690, 990 };
+        ACE_barrelLengths[] = { 305, 660.4 };
+        class CamShakeExplode {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
+    };
+    //Like above, but squishier. For Squishier Targets, not meant to shred Ifrits.
+    // Data composited by Toadie
+    class HLC_300WM_BTSP : B_556x45_Ball {
+        airfriction = -0.00083518;
+        //caliber = 0.6;
         caliber = 1.8;
-        typicalSpeed= 800;
-        maxspeed =  820;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_white";
-        cartridge = "FxCartridge_762";
-        nvgonly = 0;
-        hit=21;
-        indirecthit = 5;
-        indirecthitrange = 0.1;
+        cost = 1;
+        deflecting = 20;
+        typicalSpeed = 940;
+        hit = 15.7;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        maxspeed = 990;
+        nvgonly = 1;
+        tracerendtime = 1;
+        tracerscale = 1;
+        tracerstarttime = 0.05;
+        timeToLive = 12;
+        ACE_caliber = 7.8232;
+        ACE_bulletLength = 35.1282;
+        ACE_bulletMass = 12.31179;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.268 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 670, 940 };
+        ACE_barrelLengths[] = { 305, 660 };
+        class CamShakeExplode {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
     };
+    // Load Data - MEN DM131 AP (Tungsten-Carbide penetrator in a solid aluminium slug)
+    // Provided by Spartan0536
+    // SAPI maybe later if we can figure out a way to do Incendiray without it being explosive OR comparatively redundant.
+    // This bullet kills ifrits.
+    class HLC_300WM_AP : HLC_300WM_BTSP {
+        hit = 7.643155422;
+        typicalSpeed = 861;
+        airFriction = -0.00073473;
+        //caliber = 1.48;
+        caliber = 1.735;
+        deflecting = 23;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 12.8;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.286 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 614, 861 };
+        ACE_barrelLengths[] = { 305, 660.4 };
+    };
+    // Load Data - Mk248 Mod 1 OTM (220 Grain SMK Boat-Tailed Hollowpoint, as Spec'd by Black Hills)
+    // Provided by Spartan0536
+    class HLC_300WM_BTHP : HLC_300WM_BTSP {
+        hit = 18.97913857;
+        typicalSpeed = 899.2;
+        airFriction = -0.00066395;
+        //caliber = 0.453;
+        caliber = 0.531055;
+        //caliber = 1.9;
+        deflecting = 19;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        visibleFireTime = 0.75;
+        //typicalSpeed = 869;
+        maxspeed = 990;
+        timeToLive = 12;
+        //Ruthberg Data. Source: ACE3 Source Code. Plze forgive me Spartan, Don't leave me ;_;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 14.256;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.310 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 847, 867, 877 };
+        ACE_barrelLengths[] = { 508.0, 609.6, 660.4 };
+    };
+
+    class HLC_300WM_S_BT : HLC_300WM_BTSP {
+        hit = 15.8;
+        airFriction = -0.000498;
+        typicalSpeed = 340;
+        visibleFire = 2.2;
+        audibleFire = 2.2;
+        visibleFireTime = 0.75;
+        caliber = 0.8;
+        maxspeed = 400;
+        timeToLive = 12;
+    };
+
+
+    //Swiss 7.5x55mm GP11
+    class HLC_GP11_FMJ :B_762x51_Ball {
+        airFriction = -0.0004689059;
+        caliber = 1.33;
+        hit = 11.71;
+        typicalSpeed = 750;
+        ACE_caliber = 7.7724;
+        ACE_bulletLength = ‪35.0012‬;
+        ACE_bulletMass = 11.275;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
+        ACE_ballisticCoefficients[] = { 0.505 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = { 780, 730 };
+        ACE_barrelLengths[] = { 583, 254 };
+        class CamShakeExplode
+        {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit
+        {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
+    };
+    // Provided by Spartan0536
+    /*
+    Swiss Military Designated GP11-APBT
+    Armor Piercing Boat Tail
+    180 Grains
+    2570 ft/s
+    2642 ft/lbs KE
+    .514 Ballistics Coefficient (G1)
+    -0.00 AirFriction
+    Penetrates 5.5mm of RHA at 500m (mild steel core)
+    */
+    class HLC_GP11_APBT :B_762x51_Ball
+    {
+        airFriction = -0.0004606955;
+        caliber = 2.2;
+        hit = 9.7608273215;
+        typicalSpeed = 910;
+        ACE_caliber = 7.7724;
+        ACE_bulletLength = ‪35.0012‬;
+        ACE_bulletMass = 11.275;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
+        ACE_ballisticCoefficients[] = { 0.514 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 1;
+        ACE_muzzleVelocities[] = { 783, 710 };
+        ACE_barrelLengths[] = { 583, 254 };
+    };
+    // 
+    // Provided by Spartan0536
+    class HLC_GP11_tracer : HLC_GP11_FMJ
+    {
+
+        //caliber = 1.9;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+        nvgonly = 0;
+        deflecting = 19;
+        visibleFire = 3.25;
+        audibleFire = 8;
+        visibleFireTime = 0.75;
+        maxspeed = 990;
+        timeToLive = 12;
+    };
+
+
+    // .30-06 M1 Ball
+    class HLC_3006_FMJ :B_556x45_Ball {
+        hit = 11.4;
+        airFriction = -0.00096;			//-0.00080900;
+        typicalSpeed = 810;
+        //caliber = 0.922;
+        caliber = 2;
+        deflecting = 21;
+        visibleFire = 22;
+        audibleFire = 18;
+        visibleFireTime = 3;
+        cost = 1;
+        indirecthit = 0;
+        indirecthitrange = 0;
+        nvgonly = 1;
+        tracerendtime = 1;
+        tracerscale = 1;
+        tracerstarttime = 0.05;
+        ACE_caliber = 7.823;
+        ACE_bulletLength = 37.821;
+        ACE_bulletMass = 13.0;
+        ACE_ammoTempMuzzleVelocityShifts[] = { -5.3, -5.1, -4.6, -4.2, -3.4, -2.6, -1.4, -0.3, 1.4, 3.0, 5.2 };
+        ACE_ballisticCoefficients[] = { 0.250 };
+        ACE_velocityBoundaries[] = {};
+        ACE_standardAtmosphere = "ICAO";
+        ACE_dragModel = 7;
+        ACE_muzzleVelocities[] = { 690, 990 };
+        ACE_barrelLengths[] = { 305, 660.4 };
+        class CamShakeExplode
+        {
+            power = "(10^0.5)";
+            duration = "((round (10^0.5))*0.2 max 0.2)";
+            frequency = 20;
+            distance = "((10^0.5)*3)";
+        };
+        class CamShakeHit
+        {
+            power = 10;
+            duration = "((round (10^0.25))*0.2 max 0.2)";
+            frequency = 20;
+            distance = 1;
+        };
+    };
+
+
 
     //Mannlicher-Carcano
     class HLC_542x42_ball : HLC_303Brit_B {
@@ -1528,7 +1888,6 @@ class CfgAmmo {
         hit = 10;
         airlock = 1;
     };
-
     class HLC_542x42_Tracer : HLC_303Brit_B {
         airfriction = -3.8571428571428571428571428571429e-4;
         caliber = 0.8;
@@ -2277,7 +2636,70 @@ class CfgMagazines {
     };
 
 
-    // SAW Ammo Boxes
+
+    //NATO M13-link 100 Round Belts
+    //imported from M60s for general applique
+    class hlc_100Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (Ball) 100rnd 7.62mm";
+        model = "hlc_wp_m60E4\mesh\magazine\magazine.p3d";
+        initspeed = 853;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 27;
+        displaynameshort = "7.62mm Ball";
+        nameSound = "mgun";
+    };
+    class hlc_100Rnd_762x51_M_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (Ball-Tracer Mix) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "7.62mm Ball/Tracer";
+    };
+    class hlc_100Rnd_762x51_Mdim_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (EPR-IR-DIM) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "7.62mm EPR/IR-DIM";
+    };
+    class hlc_100Rnd_762x51_Barrier_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_Barrier";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "7.62mm Mk.319/Tracer";
+    };
+    class hlc_100Rnd_762x51_T_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: M60E4";
+        displayname = "M60E4 Belt (Tracer) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
+        tracersevery = 1;
+        displaynameshort = "7.62mm Tracer";
+    };
 
 
 

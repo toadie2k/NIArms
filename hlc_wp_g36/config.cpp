@@ -69,7 +69,7 @@ class CfgVehicles {
     class HLC_G36_ammobox : NATO_Box_Base {
         scope = 2;
         vehicleClass = "Ammo";
-        displayName = "HLC AR15 Supply Box";
+        displayName = "HLC G36 Supply Box";
         model = "\A3\weapons_F\AmmoBoxes\Supplydrop";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;
