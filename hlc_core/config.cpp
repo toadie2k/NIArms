@@ -2646,7 +2646,7 @@ class CfgMagazines {
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: M60E4";
         displayname = "M60E4 Belt (Ball) 100rnd 7.62mm";
-        model = "hlc_wp_m60E4\mesh\magazine\magazine.p3d";
+        model = "hlc_core\mesh\100rnd_762NATO_M60.p3d";
         initspeed = 853;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
