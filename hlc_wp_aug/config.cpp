@@ -302,7 +302,7 @@ class CfgVehicles {
     __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie, AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsrcarb hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
 
@@ -373,7 +373,7 @@ class CfgVehicles {
             __M_WEP(hlc_rifle_auga3_bl, 10);
             __M_WEP(hlc_rifle_auga3_GL_bl, 10);
 
-            _M_WEP(hlc_rifle_auga1_b, 10);
+            __M_WEP(hlc_rifle_auga1_b, 10);
             __M_WEP(hlc_rifle_auga1carb_b, 10);
             __M_WEP(hlc_rifle_aughbar_b, 10);
             __M_WEP(hlc_rifle_augpara_b, 10);
@@ -702,7 +702,6 @@ class CfgWeapons {
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         //    soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodout", db - 3, 1, 20 }; /// sound of unfolding the bipod
         //    soundBipodUp[] = { "\hlc_wp_ak\snd\rpk_bipodin", db - 3, 1, 20 }; /// sound of folding the bipod
-        inertia = 0.5;
         author = "Toadie";
         scope = private;
         magazineReloadSwitchPhase = 0.5;

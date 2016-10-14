@@ -825,7 +825,7 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         distanceZoomMin = 300;
         distanceZoomMax = 300;
-        _DEXTERITY(11.6, 0);
+        __DEXTERITY(11.6, 0);
         inertia = 1.16;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
@@ -1137,7 +1137,7 @@ class CfgWeapons {
         displayName = "Rheinmetall MG42-KWS(Tan)";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         picture = "\hlc_wp_mg3\tex\ui\gear_mg42kws_ca";
-        _DEXTERITY(10.5, 1);
+        __DEXTERITY(10.5, 1);
         inertia = 1.05;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
@@ -1198,7 +1198,7 @@ class CfgWeapons {
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        _DEXTERITY(10.5, 0);
+        __DEXTERITY(10.5, 0);
         inertia = 1.05;
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
         magazines[] = {
@@ -1603,7 +1603,7 @@ class CfgWeapons {
         picture = "\hlc_wp_mg3\tex\ui\gear_mg3kws_ca";
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall MG3-KWS(Tan)";
-        _DEXTERITY(10.5, 1);
+        __DEXTERITY(10.5, 1);
         inertia = 1.05;
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
