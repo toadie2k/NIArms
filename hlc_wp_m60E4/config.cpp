@@ -67,46 +67,8 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    class Weapon_hlc_lmg_M60E4 : Weapon_Base_F {
-        dlc = "Niarms_M60";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M60E4";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_lmg_M60E4";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_100Rnd_762x51_M_M60E4";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_lmg_M60 : Weapon_Base_F {
-        dlc = "Niarms_M60";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M60";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_lmg_M60";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_100Rnd_762x51_M_M60E4";
-                count = 1;
-            };
-        };
-    };
+    __WEAPONHOLDER(hlc_lmg_M60E4,hlc_100Rnd_762x51_M_M60E4,M60E4,Niarms_M60,Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_m60,hlc_100Rnd_762x51_M_M60E4,M60,Niarms_M60,Toadie,MachineGuns);
 };
 
 class CfgWeapons {
