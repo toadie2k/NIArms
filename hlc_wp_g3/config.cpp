@@ -202,166 +202,20 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    class Weapon_hlc_rifle_psg1 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "PSG1";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_psg1";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_Mk316_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_g3sg1 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "G3SG1";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_g3sg1";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_g3ka4 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "G3KA4";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_g3ka4";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_hk51 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "HK51";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_hk51";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_HLC_Rifle_g3ka4_GL : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "G3KA4+M203";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "HLC_Rifle_g3ka4_GL";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_hk53 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "HK53";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_hk53";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_30rnd_556x45_EPR_HK33";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_G3A3 : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "G3A3";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_g3a3";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_g3a3ris : Weapon_Base_F {
-        dlc = "Niarms_G3";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "G3A3 RIS";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_g3a3ris";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20rnd_762x51_b_G3";
-                count = 1;
-            };
-        };
-    };
+    __WEAPONHOLDER(hlc_rifle_g3sg1,hlc_20rnd_762x51_b_G3,HK G3/SG1,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_psg1,hlc_20rnd_762x51_b_G3,HK PSG1,Niarms_G3,Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_psg1A1,hlc_20rnd_762x51_b_G3,HK PSG1A1,Niarms_G3,Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_PSG1A1_RIS,hlc_20rnd_762x51_b_G3,HK PSG1A1(RIS),Niarms_G3,Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3,hlc_20rnd_762x51_b_G3,HK G3A3,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3ris,hlc_20rnd_762x51_b_G3,HK G3A3 RIS,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3v,hlc_20rnd_762x51_b_G3,HK G3A3 (Widegrip),Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3ka4,hlc_20rnd_762x51_b_G3,HK G3KA4 RAS,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(HLC_Rifle_g3ka4_GL,hlc_20rnd_762x51_b_G3,HK G3KA4 RAS(GL),Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk51,hlc_20rnd_762x51_b_G3,FR Ordnance MC51,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk53,hlc_30rnd_556x45_b_hk33,HK HK53,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk53RAS,hlc_30rnd_556x45_b_hk33,HK HK53(RAS),Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk33a2,hlc_30rnd_556x45_b_hk33,HK HK33A2,Niarms_G3,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk33a2RIS,hlc_30rnd_556x45_b_hk33,HK HK33A2(RIS),Niarms_G3,Toadie,AssaultRifles);
 };
 
 class CfgMagazines {
