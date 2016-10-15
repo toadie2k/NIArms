@@ -239,7 +239,7 @@ class CfgWeapons {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
         {
-            mass = 4;
+            mass = 5;
             class FlashLight
             {
                 position = "flash";
@@ -265,10 +265,12 @@ class CfgWeapons {
                 scale[] = { 0 };
             };
         };
-        inertia = 0.1;
+        inertia = 0.05;
     };
 
-    class muzzle_snds_h;
+	class muzzle_snds_H : ItemCore {
+		class ItemInfo;
+	};
     class hlc_muzzle_Agendasix : muzzle_snds_h
     {
         dlc = "Niarms_MP5";
@@ -276,7 +278,10 @@ class CfgWeapons {
         displayName = "AWC Agenda Six (9mm)";
         picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
         model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
-
+		class ItemInfo : ItemInfo {
+			mass = 11;
+		};
+		inertia = 0.08;
     };
     class hlc_muzzle_Tundra : muzzle_snds_h
     {
@@ -285,16 +290,16 @@ class CfgWeapons {
         displayName = "Gemtech Tundra (9mm)";
         picture = "\hlc_wp_MP5\tex\ui\gear_tundra_ca";
         model = "\hlc_wp_mp5\mesh\agendasix\tundra.p3d";
-
+		class ItemInfo : ItemInfo {
+			mass = 5;
+		};
+		inertia = 0.04;
     };
-    class hlc_muzzle_Agendasix10mm : muzzle_snds_h
+    class hlc_muzzle_Agendasix10mm : hlc_muzzle_Agendasix
     {
         dlc = "Niarms_MP5";
         author = "Toadie";
         displayName = "AWC Agenda Six (10mm)";
-        picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
-        model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
-
     };
 
     class Rifle;
@@ -318,6 +323,7 @@ class CfgWeapons {
         ACE_barrelLength = 228.6;
         drysound[] = {"hlc_wp_mp5\snd\mp5_dryfire", 1, 1, 20};
         changeFiremodeSound[] = { "hlc_wp_mp5\snd\mp5_safety", 1, 1, 8 };
+        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         magazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_GD_MP5", "hlc_30Rnd_9x19_SD_MP5"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
@@ -344,7 +350,6 @@ class CfgWeapons {
         };
         descriptionShort = "SMG<br/>Caliber:9x19mm NATO";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-        dexterity = 1.8;
 
         bullet1[] = {"A3\sounds_f\weapons\shells\9mm\metal_9mm_01", 0.501187, 1, 15};
         bullet10[] = {"A3\sounds_f\weapons\shells\9mm\grass_9mm_02", 0.398107, 1, 15};
@@ -501,7 +506,9 @@ class CfgWeapons {
             mass = 50;
             class CowsSlot: asdg_OpticRail1913_short {};
         };
-        inertia = 0.25;
+        inertia = 0.20;
+		__DEXTERITY(2.5,1);
+
         class ItemInfo
         {
             priority = 1;
@@ -564,7 +571,8 @@ class CfgWeapons {
         {
             mass = 40;
         };
-        inertia = 0.2;
+        inertia = 0.15;
+		__PDEXTERITY(2.0,1);
     };
 
     class hlc_smg_mp5a2 : hlc_Mp5_base
@@ -578,7 +586,6 @@ class CfgWeapons {
         author = "Twinke Masta, Geno, Christian Øelund,Toadie";
         model = "\hlc_wp_Mp5\mesh\mp5a2\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a2_x_ca";
         displayName = "HK MP5A2";
         discretedistance[] = {50,100,150,200};
@@ -594,6 +601,7 @@ class CfgWeapons {
             class CowsSlot: asdg_OpticRail1913_short {};
         };
         inertia = 0.25;
+		__DEXTERITY(2.5,0);
 
         class ItemInfo
         {
@@ -620,7 +628,6 @@ class CfgWeapons {
         author = "Twinke Masta, Geno, Christian Øelund,Toadie";
         model = "\hlc_wp_Mp5\mesh\mp5n\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5n_x_ca";
         displayName = "HK MP5N";
         discretedistance[] = {50,100,150,200};
@@ -637,6 +644,7 @@ class CfgWeapons {
             class PointerSlot: asdg_FrontSideRail {};
         };
         inertia = 0.33;
+		__DEXTERITY(3.25,0);
 
         class ItemInfo
         {
@@ -699,7 +707,8 @@ class CfgWeapons {
         {
             mass = 85;
         };
-        inertia = 0.43;
+        inertia = 0.63;
+		__DEXTERITY(3.25 + 1,0);
 
         muzzles[] = {"this", "hlc_M203_Mp5"};
         class hlc_M203_Mp5 : UGL_F {
@@ -746,7 +755,6 @@ class CfgWeapons {
         author = "Twinke Masta, Geno, Christian Øelund,Toadie";
         model = "\hlc_wp_Mp5\mesh\mp5a4\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a4_x_ca";
         displayName = "HK MP5A4";
         discretedistance[] = {50,100,150,200};
@@ -763,6 +771,7 @@ class CfgWeapons {
             class PointerSlot: asdg_FrontSideRail {};
         };
         inertia = 0.29;
+		__DEXTERITY(2.9,0);
 
         class ItemInfo
         {
@@ -811,6 +820,7 @@ class CfgWeapons {
             class PointerSlot: asdg_FrontSideRail {};
         };
         inertia = 0.29;
+		__DEXTERITY(2.85,0);
 
         class ItemInfo
         {
@@ -881,7 +891,6 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = {"Eye", "Eye2", "Eye3", "Eye4"}; /// the angle of gun changes with zeroing
         discretedistanceinitindex = 0;
         bg_bipod = 0;
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5sd.rtm"};
 
         class WeaponSlotsInfo: WeaponSlotsInfo
@@ -891,6 +900,7 @@ class CfgWeapons {
             class MuzzleSlot {};
         };
         inertia = 0.31;
+		__DEXTERITY(3.1,0);
 
         class ItemInfo
         {
@@ -938,7 +948,6 @@ class CfgWeapons {
         author = "Twinke Masta, Geno,Toadie, Christian Øelund";
         model = "\hlc_wp_Mp5\mesh\mp5a3\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a3_x_ca";
         displayName = "HK MP5A3";
         discretedistance[] = {50,100,150,200};
@@ -951,6 +960,7 @@ class CfgWeapons {
             mass = 62;
         };
         inertia = 0.31;
+		__DEXTERITY(3.1,0);
     };
 
     class hlc_smg_mp5sd6 : hlc_smg_mp5sd5
@@ -977,6 +987,7 @@ class CfgWeapons {
             mass = 68;
         };
         inertia = 0.34;
+		__DEXTERITY(3.4,0);
     };
 
 };
