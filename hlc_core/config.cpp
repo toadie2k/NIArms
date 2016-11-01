@@ -1,5 +1,23 @@
 ﻿#include "script_macros.hpp"
 
+class asdg_FrontSideRail;
+class asdg_OpticRail1913;
+class asdg_OpticRail1913_short;
+class asdg_OpticRail1913_long;
+class asdg_UnderSlot;
+
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
+    class compatibleItems {
+        hlc_muzzle_300blk_KAC = 1;
+    };
+};
+class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
+    class compatibleItems {
+        hlc_muzzle_556NATO_KAC = 1;
+    };
+};
+
 /*
 Scripting notes- 
 
@@ -3312,6 +3330,28 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_tac50raufoss_ca.paa";
     };
 */
+};
+
+class CfgWeapons
+{
+    class ItemCore;
+    class muzzle_snds_M : ItemCore {
+        class ItemInfo;
+    };
+    class hlc_muzzle_300blk_KAC : muzzle_snds_M {
+        dlc = "Niarms_AR15";
+        author = "ImBrokeRU, Toadie";
+        displayName = "QD .300BLK Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
+    };
+    class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
+        dlc = "Niarms_AR15";
+        author = "Toadie";
+        displayName = "Gemtech Halo 5.56mm Suppressor";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
+    };
 };
 
 class CfgFunctions {

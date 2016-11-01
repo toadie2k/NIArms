@@ -51,7 +51,7 @@ class CfgSoundSets {
         sound3DProcessingType = "WeaponMediumShot3DProcessingType";
     };
     class 300BLK_silencerTail_SoundSet {
-        soundShaders[] = { "300BLK_silencerTailTrees_SoundShader", "300BLK_silencerTailForest_SoundShader", "300BLK_silencerTailMeadows_SoundShader", "300BLK_silencerTailHouses_SoundShader", "300BLK_silencerTailInterior_SoundShader" };
+        soundShaders[] = { "300BLK_tailTrees_Silenced_SoundShader", "300BLK_tailForest_Silenced_SoundShader", "300BLK_tailMeadows_Silenced_SoundShader", "300BLK_tailHouses_Silenced_SoundShader", "300BLK_tailInterior_Silenced_SoundShader" };
         volumeFactor = 0.7;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;
@@ -175,6 +175,48 @@ class CfgSoundSets {
     };
     class jack_silencerTail_SoundSet {
         soundShaders[] = { "jack_silencerTailTrees_SoundShader", "jack_silencerTailForest_SoundShader", "jack_silencerTailMeadows_SoundShader", "jack_silencerTailHouses_SoundShader", "jack_silencerTailInterior_SoundShader" };
+        volumeFactor = 0.7;
+        volumeCurve = "InverseSquare2Curve";
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+    };
+
+
+    class blackjack_Shot_SoundSet {
+        soundShaders[] = { "jack_Closure_SoundShader", "300BLK_closeShot_SoundShader", "300BLK_midShot_SoundShader", "300BLK_distShot_SoundShader" };
+        volumeFactor = 1.6;
+        volumeCurve = "InverseSquare2Curve";
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
+    };
+    class blackjack_Tail_SoundSet {
+        soundShaders[] = { "300BLK_tailInterior_SoundShader", "300BLK_tailTrees_SoundShader", "300BLK_tailForest_SoundShader", "300BLK_tailMeadows_SoundShader", "300BLK_tailHouses_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
+    class blackjack_silencerShot_SoundSet {
+        soundShaders[] = { "300BLK_Shot_Silenced_SoundShader", "jack_Closure_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+    };
+    class blackjack_silencerTail_SoundSet {
+        soundShaders[] = { "300BLK_tailTrees_Silenced_SoundShader", "300BLK_tailForest_Silenced_SoundShader", "300BLK_tailMeadows_Silenced_SoundShader", "300BLK_tailHouses_Silenced_SoundShader", "300BLK_tailInterior_Silenced_SoundShader" };
         volumeFactor = 0.7;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;

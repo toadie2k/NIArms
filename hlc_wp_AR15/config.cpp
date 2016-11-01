@@ -8,7 +8,7 @@ class CfgPatches {
         requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core"};
         units[] = { "HLC_AR_ammobox", "Weapon_hlc_rifle_RU556","Weapon_hlc_rifle_RU5562","Weapon_hlc_rifle_Colt727","Weapon_hlc_rifle_Colt727_GL","Weapon_hlc_rifle_SAMR",
             "Weapon_hlc_rifle_SAMR2","Weapon_hlc_rifle_CQBR","Weapon_hlc_rifle_M4","Weapon_hlc_rifle_m4m203","Weapon_hlc_rifle_bcmjack","Weapon_hlc_rifle_Bushmaster300","Weapon_hlc_rifle_vendimus","Weapon_hlc_rifle_honeybadger" };
-        weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase"};
+        weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase","hlc_rifle_bcmblackjack"};
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
         version="1.85";
         author="toadie";
@@ -45,12 +45,10 @@ class asdg_UnderSlot;
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
     class compatibleItems {
-        hlc_muzzle_300blk_KAC = 1;
     };
 };
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
     class compatibleItems {
-        hlc_muzzle_556NATO_KAC = 1;
     };
 };
 
@@ -103,6 +101,7 @@ class CfgVehicles {
             __M_WEP(hlc_rifle_cqbr,30);
             __M_WEP(hlc_rifle_Bushmaster300,30);
             __M_WEP(hlc_rifle_vendimus,30);
+            __M_WEP(hlc_rifle_bcmblackjack, 30);
             __M_WEP(hlc_rifle_SAMR,30);
             __M_WEP(hlc_rifle_honeybadger,30);
         };
@@ -200,14 +199,7 @@ class CfgWeapons {
     class muzzle_snds_H : ItemCore {
         class ItemInfo;
     };
-    class hlc_muzzle_300blk_KAC : muzzle_snds_H {
-        scope = 1;
-        dlc = "Niarms_AR15";
-        author = "ImBrokeRU, Toadie";
-        displayName = "QD .300BLK Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_wp_ar15\mesh\KAC556QD\762.p3d";
-    };
+
     class muzzle_HBADGER: muzzle_snds_H {
         dlc = "Niarms_AR15";
         displayName = "Honeybadger Suppressor";
@@ -219,14 +211,7 @@ class CfgWeapons {
 		inertia = 0.08;
     };
 
-    class muzzle_snds_M;
-    class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
-        dlc = "Niarms_AR15";
-        author = "Toadie";
-        displayName = "Gemtech Halo 5.56mm Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_wp_ar15\mesh\KAC556QD\kacqd.p3d";
-    };
+
 
     class Rifle;
     class Rifle_Base_F: Rifle {
@@ -419,7 +404,9 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_hsld_ca";
         displayName = "AR15 Sanitised Carbine";
         descriptionShort = "Short-Barreled Rifle<br/>Caliber: 5.56mm";
-        discretedistance[] = {100, 200, 300, 400, 500};
+        hiddenSelections[] = { "Main", "Extras", "Emag", "BAD_Lever", "Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\ar15_co.tga", "hlc_wp_ar15\tex\extras_co.tga", "hlc_wp_ar15\tex\emag_ca.tga", "hlc_wp_ar15\tex\magpul_bad_lever_co.tga", "hlc_wp_ar15\tex\magpulmoetan_co.tga" };
+        discretedistance[] = {300};
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15c_reload",0.74,1,30};
@@ -448,7 +435,7 @@ class CfgWeapons {
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
             };
             reloadTime = 0.075;
-            dispersion = 0.000347248;
+            __MOA(2.3);
 
             maxRange = 400;
         };
@@ -460,7 +447,7 @@ class CfgWeapons {
                 soundSetShot[] = { "sbr_silencerShot_SoundSet", "sbr_silencerTail_SoundSet" };
             };
             reloadTime = 0.075;
-            dispersion = 0.000347248;
+            __MOA(2.3);
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
@@ -503,6 +490,8 @@ class CfgWeapons {
         model = "hlc_wp_ar15\mesh\ru556\car15_2.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_hsld2_ca";
         displayName = "AR15 Magpul Carbine";
+        hiddenSelections[] = { "Main", "Extras", "Emag", "BAD_Lever", "Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\ru5563\ru556_co.tga", "hlc_wp_ar15\tex\ru5562\ru556_extras_co.tga", "hlc_wp_ar15\tex\emag_ca.tga", "hlc_wp_ar15\tex\magpul_bad_lever_co.tga", "" };
     };
     class hlc_rifle_CQBR : hlc_rifle_RU556 {
         dlc = "Niarms_AR15";
@@ -521,7 +510,7 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_cqbr_ca";
         displayName = "Colt M4 CQB-R";
         descriptionShort = "Short-Barreled Rifle<br/>Caliber: 5.56mm";
-        discretedistance[] = {100, 200, 300, 400, 500};
+        discretedistance[] = {300};
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
@@ -529,6 +518,8 @@ class CfgWeapons {
             "OFP2_ManSkeleton",
             "hlc_wp_ar15\gesture\newgesture\samr_hands.rtm"
         };
+        hiddenSelections[] = { "Main", "Rails", "Panels", "VFG", "Sights","FSB", "Stock", "GL" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\melon_cqbr\main_co.tga", "hlc_wp_ar15\tex\melon_cqbr\risfore1_co.tga", "hlc_wp_ar15\tex\tigg\rails_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.tga", "hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga","","hlc_wp_ar15\tex\melon_cqbr\vltor_co.tga", "hlc_wp_ar15\tex\m203_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 54;
             class UnderBarrelSlot: asdg_UnderSlot {};
@@ -545,7 +536,6 @@ class CfgWeapons {
             libTextDesc = "Sanitised AR-15 SBR";
         };
     };
-
     class hlc_rifle_M4 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -563,8 +553,10 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_m4_x_ca";
         displayName = "Colt M4 Carbine";
         descriptionShort = "Carbine<br/>Caliber: 5.56mm";
-        discretedistance[] = {100, 200, 300, 400, 500};
+        discretedistance[] = {300};
         discretedistanceinitindex = 0;
+        hiddenSelections[] = { "Main", "Rails", "Panels", "VFG", "Sights", "FSB", "Stock", "GL" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\melon_cqbr\main_co.tga", "hlc_wp_ar15\tex\melon_cqbr\risfore1_co.tga", "hlc_wp_ar15\tex\tigg\rails_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.tga", "hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga", "hlc_wp_ar15\tex\trhm16a2rec_co.tga", "hlc_wp_ar15\tex\m4furniture_co.tga", "hlc_wp_ar15\tex\m203_co.tga" };
         bg_bipod = 0; 
         handAnim[] = {
             "OFP2_ManSkeleton",
@@ -601,7 +593,8 @@ class CfgWeapons {
         displayName = "Colt M4 Carbine (GL)";
         descriptionShort = "Carbine<br/>Caliber: 5.56mm";
         muzzles[] = { "this", "hlc_M203" };
-
+        hiddenSelections[] = { "Main", "Rails", "Panels", "VFG", "Sights", "FSB", "Stock", "GL" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\melon_cqbr\main_co.tga", "hlc_wp_ar15\tex\melon_cqbr\risfore1_co.tga", "hlc_wp_ar15\tex\tigg\rails_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.tga", "hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga", "hlc_wp_ar15\tex\trhm16a2rec_co.tga", "hlc_wp_ar15\tex\m4furniture_co.tga", "hlc_wp_ar15\tex\m203_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 78;
             class UnderBarrelSlot {};
@@ -609,6 +602,8 @@ class CfgWeapons {
         inertia = 0.6;
 		__DEXTERITY(2.9 + 1.3,0);
     };
+
+
     class hlc_rifle_bcmjack : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -626,6 +621,8 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
         displayName = "BCM 'Jack' Carbine";
         descriptionShort = "Assault rifle<br/>Caliber: 5.56mm";
+        hiddenSelections[] = { "Upper","Lower","Foregrip","foregrip_rail","Sights","Stock" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_ar15\tex\toadie_jackcarbine\upper_co.tga","hlc_wp_ar15\tex\toadie_jackcarbine\lower2_co.tga","hlc_wp_ar15\tex\toadie_jackcarbine\smr_co.tga","hlc_wp_ar15\tex\toadie_jackcarbine\smr_toprail_co.tga","hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga", "hlc_wp_ar15\tex\toadie_jackcarbine\b5sopmod_co.tga" };
         discretedistance[] = {100, 200, 300, 400, 500};
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
@@ -729,6 +726,84 @@ class CfgWeapons {
             libTextDesc = "BCM Jack Carbine";
         };
     };
+    class hlc_rifle_bcmblackjack :hlc_rifle_bcmjack
+    {
+        author = "Sephiris, Agent95, Toadie";
+        model = "hlc_wp_ar15\mesh\JackCarbine\samr.p3d";
+        picture = "\hlc_wp_ar15\tex\ui\gear_jack_ca";
+        discretedistance[] = { 100, 200, 300, 400, 500 };
+        displayName = "BCM 'Black-Jack' Custom";
+        descriptionShort = "Assault rifle<br/>Caliber: .300 Blackout";
+        magazines[] = { "29rnd_300BLK_STANAG", "29rnd_300BLK_STANAG_T", "29rnd_300BLK_STANAG_S" };
+        recoil = "recoil_mxc";
+        hiddenSelections[] = { "Upper", "Lower", "Foregrip", "foregrip_rail", "Sights", "Stock" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_ar15\tex\toadie_Blackjack\upper_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\lower2_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\smr_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\smr_toprail_co.tga", "hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\b5sopmod_co.tga" };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            class CowsSlot : asdg_OpticRail1913_short {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {};
+        };
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "blackjack_Shot_SoundSet", "blackjack_Tail_SoundSet" };
+            };
+
+            class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "blackjack_silencerShot_SoundSet", "blackjack_silencerTail_SoundSet" };
+            };
+            reloadTime = 0.078;
+            dispersion = 0.0001309;
+        };
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "blackjack_Shot_SoundSet", "blackjack_Tail_SoundSet" };
+            };
+
+            class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "blackjack_silencerShot_SoundSet", "blackjack_silencerTail_SoundSet" };
+            };
+            reloadTime = 0.078;
+            dispersion = 0.0001309;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 3;
+            aiRateOfFire = 1;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 2;
+            minRange = 5;
+            minRangeProbab = 0.8;
+            midRange = 10;
+            midRangeProbab = 0.7;
+            maxRange = 20;
+            maxRangeProbab = 0.2;
+        };
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            aiRateOfFire = 2;
+            aiRateOfFireDistance = 450;
+            aiRateOfFireDispersion = 3;
+            minRange = 20;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 700;
+            maxRangeProbab = 0.1;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            aiRateOfFire = 3;
+            aiRateOfFireDistance = 500;
+            aiRateOfFireDispersion = 4;
+            minRange = 20;
+            minRangeProbab = 0.8;
+            midRange = 300;
+            midRangeProbab = 0.6;
+            maxRange = 900;
+            maxRangeProbab = 0.1;
+        };
+    };
     class hlc_rifle_Colt727 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -749,6 +824,8 @@ class CfgWeapons {
         discretedistance[] = {100, 200, 300, 400, 500, 600};
         discretedistanceinitindex = 0;
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
+        hiddenSelections[] = { "upper", "lower", "Barrel","Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\trhm16a2upper_co.tga", "hlc_wp_ar15\tex\trhm16a2rec_co.tga", "hlc_wp_ar15\tex\m16barrel_co.tga", "hlc_wp_ar15\tex\m4furniture_co.tga"};
         cameraDir = "look";
         bg_bipod = 0; 
 
@@ -834,6 +911,8 @@ class CfgWeapons {
         displayName = "Colt Carbine(GL)";
         descriptionShort = "Assault rifle<br/>Caliber: 5.56mm";
         muzzles[] = {"this", "hlc_M203"};
+        hiddenSelections[] = { "upper", "lower", "Barrel", "Stock", "GL" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\trhm16a2upper_co.tga", "hlc_wp_ar15\tex\trhm16a2rec_co.tga", "hlc_wp_ar15\tex\m16barrel_co.tga", "hlc_wp_ar15\tex\m4furniture_co.tga", "hlc_wp_ar15\tex\m203_co.tga" };
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 78;
@@ -842,7 +921,7 @@ class CfgWeapons {
 		__DEXTERITY(2.72 + 1.3,0);
 
         class hlc_M203 : hlc_M203 {
-           discreteDistance[] = { 50, 100, 150, 200, 250 };
+            discreteDistance[] = { 100, 150, 200, 250, 300 };
         };
     };
 
@@ -864,8 +943,10 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_bushmaster_ca";
         displayName = "Bushmaster .300 Carbine";
         descriptionShort = "Automatic Carbine<br/>Caliber: .300 Blackout";
-        discretedistance[] = { 200, 300, 400, 500, 600 };
-        discreteDistanceCameraPoint[] = { /*"eye",*/ "eye2", "eye3", "eye4", "eye5", "eye6"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
+        discretedistance[] = { 100, 200, 300, 400, 500, 600 };
+        discreteDistanceCameraPoint[] = { "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
+        hiddenSelections[] = { "Main"};
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\mill_bmar15\m4a1_co.tga"};
         discretedistanceinitindex = 0;
         cameraDir = "look";
         bg_bipod = 0; 
@@ -897,7 +978,7 @@ class CfgWeapons {
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
             reloadTime = 0.081;
-            dispersion = 0.00031669;
+            __MOA(1.5);
         };
         class FullAuto: FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -908,7 +989,7 @@ class CfgWeapons {
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
             reloadTime = 0.067;
-            dispersion = 0.00031669;
+            __MOA(1.9);
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
@@ -967,11 +1048,13 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_vendimus_ca";
         displayName = "AR15 .300 Dissipator";
         descriptionShort = "Carbine. Del-ton Upper, York Arms Lower.<br/>Caliber: .300 Blackout";
-        discretedistance[] = { 200, 300, 400, 500,600};
-        discreteDistanceCameraPoint[] = { /*"eye",*/ "eye2", "eye3", "eye4", "eye5", "eye6"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
+        discretedistance[] = { 100, 200, 300, 400, 500,600};
+        discreteDistanceCameraPoint[] = { "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         discretedistanceinitindex = 0;
         cameraDir = "look";
         recoil = "recoil_mx";
+        hiddenSelections[] = { "Main","Stock","Sights" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\mill_bmar15\PBER_co.tga","hlc_wp_ar15\tex\tigg\m16furniture_co.tga","hlc_wp_ar15\tex\badger\hb_co.tga"};
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 55;
@@ -1001,7 +1084,7 @@ class CfgWeapons {
                 soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
             reloadTime = 0.067;
-            dispersion = 0.000213905;
+            __MOA(0.955);
             minRange = 0;
         };
         class single_medium_optics1 : Single {
@@ -1052,6 +1135,8 @@ class CfgWeapons {
         descriptionShort = "Accurised Assault Rifle<br/>Caliber: 5.56mm";
         discretedistance[] = {100, 200, 300, 400, 500};
         discretedistanceinitindex = 0;
+        hiddenSelections[] = { "Upper", "Lower", "D-Ring", "Rails", "Panels", "VFG", "Harris", "Patch", "Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\samr\upper_co.tga", "hlc_wp_ar15\tex\samr\lower_co.tga", "hlc_wp_ar15\tex\samr\ras_co.tga", "hlc_wp_ar15\tex\samr\risras_co.tga", "hlc_wp_ar15\tex\samr\xtm_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_tan_co.tga", "hlc_wp_ar15\tex\samr\hbipod_co.tga", "hlc_wp_ar15\tex\samr\16_ca.tga", "hlc_wp_ar15\tex\samr\stock_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 90;
             class CowsSlot : asdg_OpticRail1913_long {};
@@ -1072,7 +1157,7 @@ class CfgWeapons {
                 soundSetShot[] = { "samr_silencerShot_SoundSet", "SAMR_silencerTail_SoundSet" };
             };
             reloadTime = 0.080;
-            dispersion = 0.000138899;
+            __MOA(0.86905);
         };
         class FullAuto : FullAuto {
              class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1082,7 +1167,7 @@ class CfgWeapons {
                 soundSetShot[] = { "samr_silencerShot_SoundSet", "SAMR_silencerTail_SoundSet" };
             };
             reloadTime = 0.080;
-            dispersion = 0.000138899;
+            __MOA(1.6);
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
@@ -1125,10 +1210,12 @@ class CfgWeapons {
         };
     };
     class hlc_rifle_samr2: hlc_rifle_SAMR {
-        model = "hlc_wp_ar15\mesh\LAR15_samr\samr2.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_SAMR2_ca";
         displayName = "RRA LAR-15";
+        author = "Twinke Masta, Tigg, Toadie";
         descriptionShort = "Accurised Assault Rifle<br/>Caliber: 5.56mm<br/> ";
+        hiddenSelections[] = { "Upper", "Lower", "D-Ring", "Rails", "Panels", "VFG", "Harris", "Patch", "Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\samr\upper_co.tga", "hlc_wp_ar15\tex\samr\lower2_co.tga", "hlc_wp_ar15\tex\samr\ras_co.tga", "hlc_wp_ar15\tex\samr\risras_co.tga", "hlc_wp_ar15\tex\samr\xtm2_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.tga", "hlc_wp_ar15\tex\samr\hbipod_co.tga", "", "hlc_wp_ar15\tex\samr\stock_co.tga" };
     };
     class hlc_rifle_honeybase : hlc_rifle_Bushmaster300 {
         dlc = "Niarms_AR15";
@@ -1148,7 +1235,11 @@ class CfgWeapons {
         picture = "\hlc_wp_ar15\tex\ui\gear_badger_ca";
         displayName = "AAC 'Honey-Badger'";
         descriptionShort = "Suppressed Carbine<br/>Caliber: .300 Blackout";
-        discretedistance[] = {200, 300, 400, 500,600};
+        hiddenSelections[] = { "Main" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\badger\hb_co.tga"};
+        fireLightIntensity = 0.02;
+        discretedistance[] = { 100, 200, 300, 400, 500, 600 };
+        discreteDistanceCameraPoint[] = { "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600"/*, "eye7", "eye8", "eye9", "eye10", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         discretedistanceinitindex = 0;
         bg_bipod = 0; 
         reloadMagazineSound[] = {"hlc_wp_ar15\snd\ar15_reload_HB_std",0.74,1,30};
@@ -1157,19 +1248,25 @@ class CfgWeapons {
             "hlc_wp_ar15\gesture\newgesture\jack_hands.rtm"
         };
         class Single : Single {
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
+            };
             class SilencedSound: SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "badger_silencerShot_SoundSet", "badger_silencerTail_SoundSet" };
+                soundSetShot[] =  { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
             reloadTime = 0.082;
-            dispersion = 0.00031669;
+            __MOA(2.5);
             maxRange = 400;
         };
         class FullAuto : FullAuto {
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
+            };
             class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                soundSetShot[] = { "badger_silencerShot_SoundSet", "badger_silencerTail_SoundSet" };
+                soundSetShot[] = { "300BLK_Shot_Silenced_SoundSet", "300BLK_ShotTail_Silenced_SoundSet" };
             };
             reloadTime = 0.082;
-            dispersion = 0.00031669;
+            __MOA(2.5);
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
