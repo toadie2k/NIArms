@@ -86,18 +86,206 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    __WEAPONHOLDER(hlc_rifle_falosw,hlc_20Rnd_762x51_B_fal,DSArms FAL OSW,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_osw_GL,hlc_20Rnd_762x51_B_fal,DSArms FAL OSW(GL),Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_SLR,hlc_20Rnd_762x51_B_fal,Lithgow SLR,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_STG58F,hlc_20Rnd_762x51_B_fal,Steyr STG.58,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_FAL5061Rail,hlc_20Rnd_762x51_B_fal,FN FAL 50.61'Para' (RIS),Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_FAL5061,hlc_20Rnd_762x51_B_fal,FN FAL 50.61'Para',Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_FAL5000,hlc_20Rnd_762x51_B_fal,FN FAL 50.00,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_FAL5000Rail,hlc_20Rnd_762x51_B_fal,FN FAL 50.00 (RIS),Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_L1A1SLR,hlc_20Rnd_762x51_B_fal,Enfield L1A1 SLR,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_c1A1,hlc_20Rnd_762x51_B_fal,CAL C1A1,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_LAR,hlc_20Rnd_762x51_B_fal,FN LAR,Niarms_FAL,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_SLRchopmod,hlc_20Rnd_762x51_B_fal,Lithgow SLR Chopmod,Niarms_FAL,Toadie,AssaultRifles);
+    class Weapon_hlc_rifle_SLRchopmod : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SLR Chopmod";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_SLRchopmod";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_LAR : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "LAR";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_LAR";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_c1A1 : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "C1A1";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_c1A1";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class weapon_hlc_rifle_FAL5061Rail : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "FAL 'Para' 50.61(RIS)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_FAL5061Rail";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_FAL5061 : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "FAL 'Para' 50.61";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_FAL5061";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_STG58F : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "FAL Stg.58";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_STG58F";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_SLR : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SLR";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_SLR";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_L1A1slr : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "L1A1 SLR";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_L1A1slr";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_osw_GL : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SA58 OSW+M203";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_osw_GL";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_falosw : Weapon_Base_F {
+        dlc = "Niarms_FAL";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SA58 OSW";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_falosw";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_20Rnd_762x51_B_fal";
+                count = 1;
+            };
+        };
+    };
 };
 
 class CfgMagazines {
@@ -505,17 +693,18 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadOSW";
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
-        discretedistanceinitindex = 2;
+        discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
+        discretedistanceinitindex = 0;
         cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
+        discreteDistanceCameraPoint[]={/*"eye",*/"eye2","eye3","eye4","eye5","eye6","eye7"/*,"eye8","eye9"*/}; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 88;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
-		inertia = 0.39;
+		inertia = 0.48;
+        __DEXTERITY(4.8 + 0.1, 1);
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
@@ -575,7 +764,7 @@ class CfgWeapons {
             class UnderBarrelSlot {};
         };
 		inertia = 0.77;
-
+        __DEXTERITY(4.8 + 1.36, 0);
         author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
         displayName = "DSArms FAL OSW(GL)";
         model = "\hlc_wp_FAL\mesh\sag58gl\osw_gl.p3d";
@@ -614,10 +803,11 @@ class CfgWeapons {
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         model = "\hlc_wp_FAL\mesh\slr\l1a1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_slr_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
-        discretedistanceinitindex = 2;
+        __DEXTERITY(4.5, 0);
+        discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800*/};
+        discretedistanceinitindex = 0;
         cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
+        discreteDistanceCameraPoint[]={/*"eye"*/"eye2","eye3","eye4","eye5","eye6","eye7"/*,"eye8"*/}; /// the angle of gun changes with zeroing
 
         modes[] = {"Single", "single_medium_optics1", "single_far_optics1"};
 
@@ -679,10 +869,11 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\stg58\stg58.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_stg58_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
+        discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
         discretedistanceinitindex = 2;
         cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
+        __DEXTERITY(5.1, 0);
+        discreteDistanceCameraPoint[]={/*"eye",*/"eye2","eye3","eye4","eye5","eye6","eye7"/*,"eye8","eye9"*/}; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
             class CowsSlot: asdg_OpticRail1913 {};
@@ -699,13 +890,14 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
-        discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
+        discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 89;
             class CowsSlot : asdg_OpticRail1913 {};
         };
 		inertia = 0.45;
+        __DEXTERITY(4.0, 0);
     };
     class hlc_rifle_FAL5061 : hlc_fal_base {
         scope = public;
@@ -721,7 +913,7 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_para_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
+        discretedistance[] = {200,300,400,500,600,700};
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 76;
@@ -733,6 +925,7 @@ class CfgWeapons {
             };
         };
 		inertia = 0.38;
+        __DEXTERITY(3.9, 0);
     };
     class hlc_rifle_FAL5000 : hlc_rifle_FAL5061 {
         scope = public;
@@ -748,12 +941,13 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
-        discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900 };
+        discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 86;
         };
 		inertia = 0.43;
+        __DEXTERITY(4.3, 0);
     };
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
@@ -765,6 +959,7 @@ class CfgWeapons {
             mass = 99;
         };
 		inertia = 0.5;
+        __DEXTERITY(4.6, 0);
     };
     class hlc_rifle_L1A1SLR : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -804,21 +999,21 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\FN_LAR\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_izzy_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
+        discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
         discretedistanceinitindex = 2;
         cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
+        discreteDistanceCameraPoint[]={/*"eye",*/"eye2","eye3","eye4","eye5","eye6","eye7"/*,"eye8","eye9"*/}; /// the angle of gun changes with zeroing
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
             };
-            dispersion = 0.0013;
+            __MOA(1.9);
         };
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
             };
-            dispersion = 0.0013;
+            __MOA(2.4);
         };
         class single_medium_optics1 : Single {
             requiredoptictype = 1;
@@ -861,7 +1056,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 119;
         };
-		inertia = 0.8;
+		inertia = 0.43;
+        __DEXTERITY(4.3, 0);
     };
     class hlc_rifle_SLRchopmod : hlc_rifle_FAL5061 {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -877,21 +1073,21 @@ class CfgWeapons {
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\chopmod_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\Suchka-LR\L1A1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_bitch_x_ca";
-        discretedistance[] = {100,200,300,400,500,600,700,800,900};
+        discretedistance[] = {200,300,400,500,600,700};
         discretedistanceinitindex = 2;
         cameradir = "look";
-        discreteDistanceCameraPoint[]={"eye","eye2","eye3","eye4","eye5","eye6","eye7","eye8","eye9"}; /// the angle of gun changes with zeroing
+        discreteDistanceCameraPoint[]={"eye2","eye3","eye4","eye5","eye6","eye7"}; /// the angle of gun changes with zeroing
         class Single: Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
             };
-            dispersion = 0.0013;
+            __MOA(2.3);
         };
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
             };
-            dispersion = 0.0013;
+            __MOA(2.7);
         };
         class single_medium_optics1 : Single {
             requiredoptictype = 1;
@@ -934,6 +1130,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 75;
         };
-		inertia = 0.3;
+		inertia = 0.39;
+        __DEXTERITY(3.9, 0);
     };
 };
