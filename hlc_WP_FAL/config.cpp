@@ -774,7 +774,7 @@ class CfgWeapons {
         class hlc_M203_OSW : UGL_F {
             cameradir = "GL Look";
             discreteDistance[] = {50,100,150,200,250,300,350,400};
-            discreteDistanceCameraPoint[] = {"GL Eye1","GL Eye1", "GL Eye2","GL Eye2", "GL Eye3","GL Eye3", "GL Eye4", "GL Eye4"}; /// the angle of gun changes with zeroing
+            discreteDistanceCameraPoint[] = {"GL Eye05","GL Eye1","GL Eye15", "GL Eye2","GL Eye25", "GL Eye3","gl eye35", "GL Eye4"}; /// the angle of gun changes with zeroing
             discreteDistanceInitIndex = 1;
             displayname = "M203";
             useModelOptics = false;
@@ -783,7 +783,6 @@ class CfgWeapons {
             cursoraim = "gl";
             magazinereloadtime = 0;
             reloadAction = "GestureReloadTrgUGL";
-            reloadmagazinesound[] = {"A3\sounds_f\Weapons\grenades\ugl_reload", 0.1, 1, 20};
             reloadtime = 0.1;
         };
     };
