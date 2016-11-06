@@ -693,6 +693,8 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadOSW";
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_wp_fal\tex\mag-20_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
         discretedistanceinitindex = 0;
         cameradir = "look";
@@ -769,6 +771,8 @@ class CfgWeapons {
         displayName = "DSArms FAL OSW(GL)";
         model = "\hlc_wp_FAL\mesh\sag58gl\osw_gl.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_oswgl_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "M203" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_wp_fal\tex\mag-20_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\tigg_m203\m203_co.tga" };
         muzzles[] = {"this", "hlc_M203_OSW"};
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\osw_gl_hands.rtm"};
         class hlc_M203_OSW : UGL_F {
@@ -802,6 +806,8 @@ class CfgWeapons {
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         model = "\hlc_wp_FAL\mesh\slr\l1a1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_slr_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_wp_fal\tex\israeli\mag-20_co.tga" };
         __DEXTERITY(4.5, 0);
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800*/};
         discretedistanceinitindex = 0;
@@ -868,6 +874,8 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\stg58\stg58.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_stg58_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rail", "Muzzle" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\fore-grooved_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\rsight-modern_co.tga", "hlc_wp_fal\tex\stock-solid_co.tga", "hlc_wp_fal\tex\mag-20_co.tga","hlc_wp_fal\tex\dsatoprails_co.tga","hlc_wp_fal\tex\bis_falpara\fnfal_co.tga" };
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
         discretedistanceinitindex = 2;
         cameradir = "look";
@@ -888,6 +896,8 @@ class CfgWeapons {
         descriptionShort = "Infantry Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
+        hiddenSelections[] = { "Main", "Magazine", "Rail"};
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga" };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
         discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
@@ -912,6 +922,8 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_para_x_ca";
+        hiddenSelections[] = { "Main", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga"};
         discretedistance[] = {200,300,400,500,600,700};
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -940,6 +952,8 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
         model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
+        hiddenSelections[] = { "Main", "Stock", "Barrel" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga"};
         discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -954,11 +968,21 @@ class CfgWeapons {
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
+        hiddenSelections[] = { "Main", "Stock", "Barrel", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 99;
         };
 		inertia = 0.5;
         __DEXTERITY(4.6, 0);
+    };
+    class hlc_rifle_FAL5000_RH : hlc_rifle_FAL5000
+    {
+        author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
+        displayName = "FN FAL 50.00(Rhod. Spraycam)";
+        picture = "\hlc_wp_FAL\tex\ui\gear_falRH_ca";
+        hiddenSelections[] = { "Main", "Stock", "Barrel" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_Rhodie_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_Rhodie_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_Rhodie_co.tga" };
     };
     class hlc_rifle_L1A1SLR : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -971,6 +995,8 @@ class CfgWeapons {
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         model = "\hlc_wp_FAL\mesh\l1a1\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_l1a1_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_wp_fal\tex\israeli\mag-20_co.tga" };
     };
     class hlc_rifle_c1A1 : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
@@ -980,6 +1006,8 @@ class CfgWeapons {
         ACE_barrelLength = 551.18;
         scope = public;
         displayName = "CAL C1A1";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\c1\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga","hlc_wp_fal\tex\c1\grip-enfield_co.tga","hlc_wp_fal\tex\israeli\rearsight-slr_co.tga","hlc_wp_fal\tex\c1\stock-solid_co.tga","hlc_wp_fal\tex\mag-20_co.tga" };
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         model = "\hlc_wp_FAL\mesh\C1A1\C1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_c1_x_ca";
@@ -998,6 +1026,8 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\FN_LAR\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_izzy_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\israeli\barrel-izzy.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga",  "hlc_wp_fal\tex\israeli\foregrip-izzy_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\c1\stock-solid_co.tga", "hlc_wp_fal\tex\mag-20_co.tga" };
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
         discretedistanceinitindex = 2;
         cameradir = "look";
@@ -1072,6 +1102,8 @@ class CfgWeapons {
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\chopmod_hands.rtm"};
         model = "\hlc_wp_FAL\mesh\Suchka-LR\L1A1_1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_bitch_x_ca";
+        hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_wp_fal\tex\israeli\mag-20_co.tga" };
         discretedistance[] = {200,300,400,500,600,700};
         discretedistanceinitindex = 2;
         cameradir = "look";
