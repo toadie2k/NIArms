@@ -7,7 +7,7 @@ diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
 specular[]={1,1,1,1};
-specularPower=50;
+specularPower=100;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -72,7 +72,7 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,64,64,1)fresnel(0.64,0.81)";
+	texture="#(ai,64,64,1)fresnelGlass()";
 	uvSource="none";
 };
 class Stage7

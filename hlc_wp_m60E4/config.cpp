@@ -241,6 +241,8 @@ class CfgWeapons {
         tmr_autorest_deployable = 1; 
         TMR_acc_bipod = 1;
         model = "\hlc_wp_M60E4\mesh\M60e4.p3d";
+        hiddenSelections[] = { "Main", "rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.tga", "hlc_wp_m60e4\tex\m249_para_co.tga" };
         reloadaction = "HLC_GestureReloadM60";
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
         displayName = "M60E4";
@@ -250,14 +252,15 @@ class CfgWeapons {
         distanceZoomMin = 100;
         distanceZoomMax = 1100;
         discretedistanceinitindex = 0;
-
+        inertia = 0.96;
+        __DEXTERITY(9.66, 1);
         //modes[] = {"FullAuto"};
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 193;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
-        inertia = 0.92;
+        
 
         class ItemInfo {
             priority = 1;
@@ -289,10 +292,13 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 558.8;
         scope = public;
-
+        inertia = 1.05;
+        __DEXTERITY(10.5, 1);
         displayName = "M60";
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60_x_ca";
         model = "\hlc_wp_M60E4\mesh\m60classic\M60.p3d";
+        hiddenSelections[] = { "Box", "Reciever", "Stock", "Fore_opaq", "Bipod_transp" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\mil m60\ammobox_co.tga", "hlc_wp_m60e4\tex\mil m60\body_co.tga","hlc_wp_m60e4\tex\mil m60\body2_co.tga","hlc_wp_m60e4\tex\mil m60\fore_co.tga","hlc_wp_m60e4\tex\mil m60\fore_ca.tga" };
         reloadaction = "HLC_GestureReloadM60";
         discretedistance[] = {300,400,500,600,700,800,900,1000,1100};
         cameradir = "aim_point";
@@ -311,8 +317,7 @@ class CfgWeapons {
             libTextDesc = "US Ordnance M60";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 210;
+            mass = 168;
         };
-        inertia = 1.05;
     };
 };
