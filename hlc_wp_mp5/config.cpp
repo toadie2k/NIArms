@@ -239,7 +239,7 @@ class CfgWeapons {
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
         {
-            mass = 5;
+            mass = 7;
             class FlashLight
             {
                 position = "flash";

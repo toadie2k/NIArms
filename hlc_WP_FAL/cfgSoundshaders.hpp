@@ -13,16 +13,16 @@ class CfgSoundShaders
 	class FAL_closeShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\FAL_close", 1 }
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL_close", 1 }
 		};
-		volume = 1.0;
+		volume = 0.9;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
 	class FAL_midShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\fal_mid", 1 } };
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_mid", 1 } };
 		volume = 0.5011872;
 		range = 2500;
 		rangeCurve[] = {
@@ -34,9 +34,7 @@ class CfgSoundShaders
 	class FAL_distShot_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_01", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_02", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_03", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_dist", 1 } };
 		volume = 1.0;
 		range = 2500;
 		rangeCurve[] = {
@@ -48,8 +46,8 @@ class CfgSoundShaders
 	class FAL_tailDistant_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_taildistant", 1 } };
-		volume = 1.0;
+            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
+		volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
@@ -60,7 +58,7 @@ class CfgSoundShaders
 	class FAL_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\fal308_forest", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -71,7 +69,7 @@ class CfgSoundShaders
 	class FAL_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailhouses", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -83,7 +81,7 @@ class CfgSoundShaders
 	class FAL_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\fal_indoor", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -96,7 +94,7 @@ class CfgSoundShaders
 	class FAL_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailmeadows", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -107,7 +105,7 @@ class CfgSoundShaders
 	class FAL_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailtrees", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_trees", 1 } };   
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -118,7 +116,7 @@ class CfgSoundShaders
 	class FAL_silencerShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\FAL_suppressed_close", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_sil_close", 1 } };
 		volume = 1.0;
 		range = 150;
 		rangeCurve = "closeShotCurve";
@@ -148,7 +146,7 @@ class CfgSoundShaders
 	class FAL_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\fal_sil_indoor", 1 } };
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_sil_close_tail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -160,7 +158,7 @@ class CfgSoundShaders
 	class FAL_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_silencerTailMeadows", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_sil_close_tail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -182,7 +180,7 @@ class CfgSoundShaders
 	class FAL2_closeShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\FAL2_close", 1 }
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_close", 1 }
 		};
 		volume = 1.0;
 		range = 100;
@@ -191,7 +189,7 @@ class CfgSoundShaders
 	class FAL2_midShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\FAL2_mid", 1 } };
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_mid", 1 } };
 		volume = 0.5011872;
 		range = 2500;
 		rangeCurve[] = {
@@ -203,9 +201,7 @@ class CfgSoundShaders
 	class FAL2_distShot_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_01", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_02", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_03", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_dist", 1 } };
 		volume = 1.0;
 		range = 2500;
 		rangeCurve[] = {
@@ -217,8 +213,8 @@ class CfgSoundShaders
 	class FAL2_tailDistant_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_taildistant", 1 } };
-		volume = 1.0;
+            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
+        volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
@@ -229,7 +225,7 @@ class CfgSoundShaders
 	class FAL2_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\fal308_forest", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -240,7 +236,7 @@ class CfgSoundShaders
 	class FAL2_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailhouses", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -252,7 +248,7 @@ class CfgSoundShaders
 	class FAL2_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\FAL2_indoor", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -265,7 +261,7 @@ class CfgSoundShaders
 	class FAL2_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailmeadows", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -276,7 +272,7 @@ class CfgSoundShaders
 	class FAL2_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailtrees", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -287,7 +283,7 @@ class CfgSoundShaders
 	class OSW_closeShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\OSW_close", 1 }
+			{ "hlc_WP_FAL\snd\soundshaders\OSW\OSW_close", 1 }
 		};
 		volume = 1.0;
 		range = 100;
@@ -296,7 +292,7 @@ class CfgSoundShaders
 	class OSW_midShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\OSW_mid", 1 } };
+			{ "hlc_WP_FAL\snd\soundshaders\OSW\OSW_mid", 1 } };
 		volume = 0.5011872;
 		range = 2500;
 		rangeCurve[] = {
@@ -308,9 +304,7 @@ class CfgSoundShaders
 	class OSW_distShot_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_01", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_02", 1 },
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_distShot_03", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_dist", 1 } };
 		volume = 1.0;
 		range = 2500;
 		rangeCurve[] = {
@@ -322,8 +316,8 @@ class CfgSoundShaders
 	class OSW_tailDistant_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_taildistant", 1 } };
-		volume = 1.0;
+			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
+        volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
@@ -334,7 +328,7 @@ class CfgSoundShaders
 	class OSW_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\fal308_forest", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -345,7 +339,7 @@ class CfgSoundShaders
 	class OSW_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailhouses", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -357,7 +351,7 @@ class CfgSoundShaders
 	class OSW_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\generic\OSW_indoor", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -370,7 +364,7 @@ class CfgSoundShaders
 	class OSW_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailmeadows", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -381,7 +375,7 @@ class CfgSoundShaders
 	class OSW_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_tailtrees", 1 } };
+            { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {

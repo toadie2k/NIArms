@@ -299,7 +299,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO (Enhanced Performance Ball)<br />Rounds: 20<br />Used in: L1A1,FN FAL, SA58 OSW";
         displayname = "FAL Mag (Ball) 20rnd 7.62mm";
         initspeed = 930;
-        mass = 13;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
@@ -314,7 +314,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO (Mk.316 Special Ball Long Range)<br />Rounds: 20<br />Used in: L1A1,FN FAL, SA58 OSW";
         displayname = "FAL Mag (Mk.316) 20rnd 7.62mm";
         initspeed = 930;
-        mass = 13;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
@@ -330,7 +330,7 @@ class CfgMagazines {
         displayname = "FAL Mag (Mk.319) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         initspeed = 930;
-        mass = 13;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
@@ -345,7 +345,7 @@ class CfgMagazines {
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 20;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "7.62mm Tracer";
@@ -358,7 +358,7 @@ class CfgMagazines {
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 20;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "7.62mm IR-DIM";
@@ -371,7 +371,7 @@ class CfgMagazines {
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 20;
         tracersevery = 0;
         initspeed = 325;
         displaynameshort = "7.62mm SubSonic";
@@ -384,7 +384,7 @@ class CfgMagazines {
         displayname = "X-FAL Magazine (Tracer) 50rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         initspeed = 800;
-        mass = 32;
+        mass = 50;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         scope = 2;
@@ -410,7 +410,7 @@ class CfgWeapons {
         model = "\hlc_wp_FAL\mesh\SUIT\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 7;
+            mass = 17;
             modelOptics = "\hlc_wp_fal\mesh\suit\suit_optics";
             class OpticsModes {
                 class Snip {
@@ -459,7 +459,7 @@ class CfgWeapons {
         model = "\hlc_wp_FAL\mesh\PVS4\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 36;
+            mass = 12 + 36;
             modelOptics = "\hlc_wp_FAL\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
                 class Snip {
@@ -762,7 +762,7 @@ class CfgWeapons {
     class UGL_F;
     class hlc_rifle_osw_GL : hlc_rifle_falosw {
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 113; 
+            mass = 130; 
             class UnderBarrelSlot {};
         };
 		inertia = 0.77;
@@ -850,7 +850,7 @@ class CfgWeapons {
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 86;
+            mass = 91;
             class CowsSlot: asdg_OpticRail {
                 class compatibleItems {
                     hlc_optic_suit = 1;
@@ -902,11 +902,11 @@ class CfgWeapons {
         discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 89;
+            mass = 95;
             class CowsSlot : asdg_OpticRail1913 {};
         };
 		inertia = 0.45;
-        __DEXTERITY(4.0, 0);
+        __DEXTERITY(4.5, 0);
     };
     class hlc_rifle_FAL5061 : hlc_fal_base {
         scope = public;
@@ -926,8 +926,10 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga"};
         discretedistance[] = {200,300,400,500,600,700};
         discretedistanceinitindex = 2;
+        inertia = 0.39;
+        __DEXTERITY(3.9, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 76;
+            mass = 82;
             class CowsSlot: asdg_OpticRail {
                 class compatibleItems {
                     hlc_optic_suit = 1;
@@ -935,8 +937,7 @@ class CfgWeapons {
                 };
             };
         };
-		inertia = 0.38;
-        __DEXTERITY(3.9, 0);
+
     };
     class hlc_rifle_FAL5000 : hlc_rifle_FAL5061 {
         scope = public;
@@ -956,11 +957,12 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga"};
         discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 86;
-        };
-		inertia = 0.43;
+        inertia = 0.43;
         __DEXTERITY(4.3, 0);
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 90;
+        };
+
     };
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
@@ -1159,9 +1161,9 @@ class CfgWeapons {
             maxRangeProbab = 0.1;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 75;
+            mass = 85;
         };
 		inertia = 0.39;
-        __DEXTERITY(3.9, 0);
+        __DEXTERITY(3.9, 1);
     };
 };

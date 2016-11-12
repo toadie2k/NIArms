@@ -398,7 +398,7 @@ class CfgMagazines {
         displayname = "G36 C-Mag (EPR) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 920;
-        mass = 46;
+        mass = 44;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 4;
@@ -481,7 +481,7 @@ class CfgWeapons {
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 7;
+            mass = 13;
             modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
             class OpticsModes {
                 class Snip {

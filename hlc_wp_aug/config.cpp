@@ -999,7 +999,7 @@ class CfgWeapons {
             maxRangeProbab = 0.1;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 66;
+            mass = 69;
         };
     };
     class hlc_rifle_auga1carb_B : hlc_rifle_auga1carb {

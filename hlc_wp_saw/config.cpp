@@ -457,7 +457,8 @@ class CfgWeapons {
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
         drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
-        inertia = 0.75;
+        inertia = 0.65;
+        __DEXTERITY(6.56, 0);
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
         displayName = "FN Minimi Para";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
@@ -465,7 +466,7 @@ class CfgWeapons {
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_standard.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 165;
+            mass = 137;
         };
         class ItemInfo {
             priority = 1;
@@ -596,7 +597,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer.p3d";
         displayName = "FN Minimi (18.3 in.)";
         picture = "\hlc_wp_saw\tex\ui\gear_minimi_x_ca";
-        inertia = 0.8;
+        inertia = 0.68;
+        __DEXTERITY(6.86, 0);
         initspeed = -1;
         ACE_barrelTwist = 178;
         ACE_barrelLength = 465;
@@ -612,7 +614,7 @@ class CfgWeapons {
             class PointerSlot : PointerSlot {
                 iconPosition[] = { 0.2, 0.4 };
             };
-            mass = 167;
+            mass = 144;
         };
     };
     class hlc_lmg_m249para : hlc_lmg_minimipara {
@@ -620,7 +622,6 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249paratrooper.p3d";
         displayName = "M249E2 Para(13.7in.)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249para_x_ca";
-        inertia = 0.75;
         ACE_barrelTwist = 305;
         ACE_barrelLength = 349;
         AB_barrelTwist = 12;
@@ -632,7 +633,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249E2.p3d";
         displayName = "M249E2";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2_x_ca";
-        inertia = 0.8;
+        inertia = 0.68;
+        __DEXTERITY(6.86, 0);
         ACE_barrelTwist = 305;
         ACE_barrelLength = 465;
         AB_barrelTwist = 12;
@@ -649,10 +651,11 @@ class CfgWeapons {
         ACE_barrelLength = 465;
         AB_barrelTwist = 12;
         AB_barrelLength = 18.3;
-        inertia = 0.81;
+        inertia = 0.69;
+        __DEXTERITY(6.94, 0);
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-                mass = 168;
+                mass = 145;
                 class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
     };
@@ -661,7 +664,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip1.p3d";
         displayName = "M249 PIP (RIS/18.3 in.)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2pip_x_ca";
-        inertia = 0.81;
+        inertia = 0.69;
+        __DEXTERITY(6.94, 0);
         ACE_barrelTwist = 305;
         ACE_barrelLength = 465;
         AB_barrelTwist = 12;
@@ -673,7 +677,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip2.p3d";
         displayName = "M249E2 (RIS/13.7 in.)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2parapip_x_ca";
-        inertia = 0.76;
+        inertia = 0.68;
+        __DEXTERITY(6.8, 0);
         ACE_barrelTwist = 305;
         ACE_barrelLength = 349;
         AB_barrelTwist = 12;
@@ -684,7 +689,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
         displayName = "M249 PIP (RIS/PIP Stock)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2parapip2_x_ca";
-        inertia = 0.72;
+        inertia = 0.68;
+        __DEXTERITY(6.8, 0);
         ACE_barrelTwist = 305;
         ACE_barrelLength = 349;
         AB_barrelTwist = 12;
@@ -698,14 +704,15 @@ class CfgWeapons {
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2pip2_x_ca";
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
-        inertia = 0.71;
+        inertia = 0.65;
+        __DEXTERITY(6.56+0.3, 1);
         ACE_barrelTwist = 305;
         ACE_barrelLength = 465;
         AB_barrelTwist = 12;
         AB_barrelLength = 18.3;
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 155;
+            mass = 142;
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
@@ -715,10 +722,10 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\m249\m249e2_squant.p3d";
         displayName = "M249 (Squantoon Special)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249SQUANT_x_ca";
-        inertia = 0.71;
+        inertia = 0.69;
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 156;
+            mass = 142;
         };
     };
     class hlc_lmg_mk48 : hlc_saw_base {
@@ -741,6 +748,8 @@ class CfgWeapons {
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
         recoil = "recoil_zafir";
+        inertia = 0.81;
+        __DEXTERITY(8.12 + 0.3, 1);
         magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
@@ -753,7 +762,7 @@ class CfgWeapons {
             };
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 102;
+            mass = 172;
             class UnderBarrelSlot : asdg_UnderSlot {};
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail {};
@@ -861,7 +870,7 @@ class CfgWeapons {
         displayName = "Mk.48 Mod.1";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 102;
+            mass = 185;
             class UnderBarrelSlot {};
         };
     };

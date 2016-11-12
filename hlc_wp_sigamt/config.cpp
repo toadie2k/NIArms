@@ -263,7 +263,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.5x55mm GP11 (FMJBT)<br />Rounds: 24<br />Used in: Stgw.57, Stgw.57 Commando";
         displayname = "Stgw.57 Mag (FMJ) 24rnd GP11";
         initspeed = 780;
-        mass = 14;
+        mass = 23;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_ball_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
@@ -279,7 +279,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.5x55mm GP11 (APBT)<br />Rounds: 24<br />Used in: Stgw.57, Stgw.57 Commando";
         displayname = "Stgw.57 Mag (AP) 24rnd GP11";
         initspeed = 770;
-        mass = 14;
+        mass = 23;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_AP_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
@@ -296,7 +296,7 @@ class CfgMagazines {
         displayname = "SIG 510-4 Mag (FMJ) 20rnd GP11";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         initspeed = 930;
-        mass = 12;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
@@ -312,7 +312,7 @@ class CfgMagazines {
         displayname = "SIG  510-4 Mag (Mk.316) 20rnd 7.62mm";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         initspeed = 930;
-        mass = 12;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
@@ -328,7 +328,7 @@ class CfgMagazines {
         displayname = "SIG  510-4 Mag (Mk.319) 20rnd 7.62mm";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         initspeed = 930;
-        mass = 12;
+        mass = 20;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
@@ -344,7 +344,7 @@ class CfgMagazines {
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 12;
+        mass = 20;
         tracersevery = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_tracer_ca.paa";
         displaynameshort = "7.62mm Tracer";
@@ -358,7 +358,7 @@ class CfgMagazines {
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 14;
+        mass = 23;
         tracersevery = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_Tracer_ca.paa";
         displaynameshort = "GP11 Tracer";
@@ -394,7 +394,7 @@ class CfgWeapons {
 
         class ItemInfo : InventoryOpticsItem_Base_F
         {
-            mass = 10;
+            mass = 24;
             opticType = 1;
             optics = 1;
             modelOptics = "\hlc_wp_sigamt\mesh\aarau\aarau_optics";
@@ -642,10 +642,10 @@ class CfgWeapons {
         discretedistance[] = { 100, 150, 200, 230, 260, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620, 640 };
         discretedistanceinitindex = 2;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.65;
+        inertia = 0.57;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 89;
+            mass = 119;
             class CowsSlot {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
                 compatibleitems[] = { "hlc_optic_Kern", "hlc_optic_Kern2d" };
@@ -675,10 +675,11 @@ class CfgWeapons {
         discretedistance[] = { 100, 150, 200, 230, 260, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620, 640 };
         discretedistanceinitindex = 2;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.65;
+        inertia = 0.58;
+        __DEXTERITY(5.8, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 89;
+            mass = 122;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
@@ -695,12 +696,13 @@ class CfgWeapons {
 
         displayName = "SIG Stgw.57 Commando";
         model = "hlc_wp_sigamt\mesh\57commando\commando.p3d";
-        inertia = 0.45;
+        inertia = 0.5;
+        __DEXTERITY(5, 0);
         recoil = "recoil_stgw57k";
         picture = "\hlc_wp_sigamt\tex\ui\gear_57commando_x_ca.paa";
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 75;
+            mass = 105;
         };
     };
 
@@ -716,7 +718,8 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = true;
         displayName = "SIG SG510-4";
-        inertia = 0.5;
+        inertia = 0.43;
+        __DEXTERITY(4.37, 0);
         recoil = "recoil_5104";
         magazines[] = {
             "hlc_20Rnd_762x51_b_amt", "hlc_20Rnd_762x51_mk316_amt", "hlc_20Rnd_762x51_bball_amt", "hlc_20Rnd_762x51_T_amt"
@@ -731,7 +734,7 @@ class CfgWeapons {
         memoryPointCamera = "eye";
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 89;
+            mass = 91;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
@@ -754,7 +757,10 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\amt\amt.p3d";
         modes[] = {"Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1"};
-
+        class WeaponSlotsInfo : WeaponSlotsInfo
+        {
+            mass = 89;
+        };
         class Single : Single {
             minRange = 0;
         };

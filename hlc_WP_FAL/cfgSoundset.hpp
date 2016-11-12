@@ -4,7 +4,7 @@ class CfgSoundSets
 	class FAL_Shot_SoundSet
 	{
 		soundShaders[] = { "FAL_closeShot_SoundShader", "FAL_midShot_SoundShader", "FAL_distShot_SoundShader", "FAL_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare3Curve";
 		spatial = 1;
 		doppler = 0;

@@ -93,12 +93,12 @@ class CfgVehicles {
         };
     };
 
-    __WEAPONHOLDER(hlc_rifle_M14,hlc_20Rnd_762x51_B_M14,Springfield Armory M14,Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M14_Bipod,hlc_20Rnd_762x51_B_M14,Springfield Armory M14(Bipod),Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M14_Rail,hlc_20Rnd_762x51_B_M14,Springfield Armory M14(Rail),Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M21,hlc_20Rnd_762x51_B_M14,Springfield Armory M21,Niarms_M14,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_m14dmr,hlc_20Rnd_762x51_B_M14,Springfield Armory M14DMR,Niarms_M14,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_m14sopmod,hlc_20Rnd_762x51_B_M14,Troy M14 SOPMOD,Niarms_M14,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14,hlc_20Rnd_762x51_B_M14,M14,Niarms_M14,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Bipod,hlc_20Rnd_762x51_B_M14,M14(Bipod),Niarms_M14,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Rail,hlc_20Rnd_762x51_B_M14,M14(Rail),Niarms_M14,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M21, hlc_20Rnd_762x51_mk316_M14, M21, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_m14dmr, hlc_20Rnd_762x51_mk316_M14, M14DMR, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_m14sopmod,hlc_20Rnd_762x51_mk316_M14,Troy M14 SOPMOD,Niarms_M14,Toadie,AssaultRifles);
 };
 
 class CfgMagazines {
@@ -117,7 +117,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm Ball";
     };
     class hlc_20Rnd_762x51_mk316_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -130,7 +130,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm Mk.316";
     };
     class hlc_20Rnd_762x51_barrier_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -143,7 +143,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm Mk.319";
     };
     class hlc_20Rnd_762x51_T_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -156,7 +156,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm Tracer";
     };
     class hlc_20Rnd_762x51_Tdim_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -169,7 +169,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm IR-DIM";
     };
     class hlc_20Rnd_762x51_Mdim_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -182,7 +182,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm IR-DIM";
     };
     class hlc_50Rnd_762x51_B_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -198,7 +198,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_x14_mixed_ca.paa";
         scope = 2;
         tracersevery = 5;
-        mass = 20;
+        mass = 50;
         displaynameshort = "7.62mm Ball";
     };
     class hlc_20Rnd_762x51_S_M14 : hlc_20Rnd_762x51_B_M14 {
@@ -211,7 +211,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
         tracersevery = 0;
-        mass = 8;
+        mass = 20;
         displaynameshort = "7.62mm Subsonic";
     };
 };
@@ -620,7 +620,7 @@ class CfgWeapons {
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\m14_hands.rtm"};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 102;
+            mass = 86;
         };
         class Single : Single {
             __MOA(1.3);
@@ -651,7 +651,7 @@ class CfgWeapons {
         agm_bipod = 1;
         cse_bipod = 1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 106;
+            mass = 91;
         };
         
     };
@@ -661,7 +661,7 @@ class CfgWeapons {
         __DEXTERITY(4.1 + 0.3, 0);
         inertia = 0.43;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 116;
+            mass = 90;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
@@ -669,7 +669,7 @@ class CfgWeapons {
         model = "\hlc_wp_M14\mesh\m21\M14_biprail.p3d";
         displayName = "M14(Bipod/RIS)";
         __DEXTERITY(4.1 + 0.31+0.3, 0);
-        inertia = 0.43;
+        inertia = 0.45;
         author = "An Aggressive Napkin, Millenia, Toadie";
         maxZeroing = 1600;
         hasBipod = true;
@@ -679,7 +679,7 @@ class CfgWeapons {
         agm_bipod = 1;
         cse_bipod = 1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 106;
+            mass = 95;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
         hiddenSelections[] = { "Main", "Bipod","rail" };
@@ -712,7 +712,7 @@ class CfgWeapons {
         bg_bipod = 1; 
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\m14_hands.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 108;
+            mass = 109;
         };
         
 
@@ -765,7 +765,7 @@ class CfgWeapons {
         displayName = "M21(RIS)";
         model = "\hlc_wp_M14\mesh\m21\M14_rail.p3d";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 116;
+            mass = 115;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
 

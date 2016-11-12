@@ -484,7 +484,8 @@ class CfgWeapons {
 		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
 		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1Unertl_reload", 0.8, 1, 20 };
 		modeloptics[] = { "\hlc_wp_springfield\mesh\1903A1Unertl\fine_reticle" };
-		inertia = 0.75;
+		inertia = 0.51;
+        __DEXTERITY(5.1, 0);
 		picture = "\hlc_wp_springfield\tex\ui\gear_M1903A1_ca";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 		displayName = "M1903A1 (Sniper)";
@@ -516,7 +517,7 @@ class CfgWeapons {
 		};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
-			mass = 121;
+			mass = 107;
 			class PointerSlot : asdg_FrontSideRail {};
 		};
 		class ItemInfo
@@ -583,7 +584,8 @@ class CfgWeapons {
 		descriptionShort = "Springfield M1903A1<br/>Infantry Rifle<br/>Caliber: .30-06";
 		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
 		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1_reload_noscope", 0.8, 1, 20 };
-		inertia = 0.75;
+		inertia = 0.43;
+        __DEXTERITY(4.43, 0);
 		picture = "\hlc_wp_springfield\tex\ui\gear_M1903_ca";
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 		displayName = "M1903A1";

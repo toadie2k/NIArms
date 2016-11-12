@@ -490,7 +490,8 @@ class CfgWeapons {
         model = "\hlc_wp_fhawc\mesh\awcovert\covert.p3d";
         reloadaction = "HLC_GestureReloadAWM";
         descriptionShort = "Accuracy International Arctic Warfare Covert Magnum<br/>Covert Rifle<br/>Caliber: .300WM";
-        inertia = 0.75;
+        inertia = 0.65;
+        __DEXTERITY(6.5, 0);
         picture = "\hlc_wp_fhawc\tex\ui\gear_awcOD_ca";
         displayName = "AI AWC-M (OD)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
@@ -585,7 +586,8 @@ class CfgWeapons {
         model = "\hlc_wp_fhawc\mesh\awmagnum\covert.p3d";
         reloadaction = "HLC_GestureReloadAWM";
         descriptionShort = "Accuracy International Arctic Warfare Magnum<br/>Covert Rifle<br/>Caliber: .300WM";
-        inertia = 0.75;
+        inertia = 0.65;
+        __DEXTERITY(6.5, 0);
         picture = "\hlc_wp_fhawc\tex\ui\gear_awmOD_ca";
         displayName = "AI AWM (OD)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
@@ -593,7 +595,7 @@ class CfgWeapons {
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_fhAWC\anim\awmhands.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 121;
+            mass = 136;
 //            class PointerSlot : PointerSlot {
 //                compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */};
 //            };

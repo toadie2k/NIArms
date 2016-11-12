@@ -411,7 +411,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 24;
+        mass = 40;
         displaynameshort = "7.92mm FMJ";
     };
     class hlc_50Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
@@ -427,7 +427,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 24;
+        mass = 40;
         displaynameshort = "7.92mm SmK/Tracer";
     };
     class hlc_50Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
@@ -436,14 +436,14 @@ class CfgMagazines{
         ammo = "hlc_792x57_SmKLspr";
         count = 50;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 50<br />Used in: MG42";
-        displayname = "MG42 Belt (Tracer) 50rnd 7.92mm";
+        displayname = "MG42 Belt (SmKL'spur) 50rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 884.9;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 24;
+        mass = 40;
         displaynameshort = "7.92mm Tracer";
     };
     class hlc_100Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag {
@@ -459,7 +459,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 48;
+        mass = 72;
         displaynameshort = "7.92mm FMJ";
     };
     class hlc_100Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
@@ -475,7 +475,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 48;
+        mass = 72;
         displaynameshort = "7.92mm SmK/Tracer";
     };
     class hlc_100Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
@@ -484,14 +484,14 @@ class CfgMagazines{
         ammo = "hlc_792x57_SmKLspr";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (Tracer) 100rnd 7.92mm";
+        displayname = "MG42 Belt (SmKL'spur) 100rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 884.9;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 48;
+        mass = 72;
         displaynameshort = "7.92mm Tracer";
     };
     class hlc_200Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag {
@@ -507,7 +507,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 96;
+        mass = 120;
         displaynameshort = "7.92mm FMJ";
     };
     class hlc_200Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
@@ -523,7 +523,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 96;
+        mass = 120;
         displaynameshort = "7.92mm SmK/Tracer";
     };
     class hlc_200Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
@@ -532,14 +532,14 @@ class CfgMagazines{
         ammo = "hlc_792x57_SmKLspr";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (Tracer) 200rnd 7.92mm";
+        displayname = "MG42 Belt (SmKL'spur) 200rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
         initspeed = 884.9;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 96;
+        mass = 120;
         displaynameshort = "7.92mm Tracer";
     };
     class hlc_50Rnd_792x57_AP_MG42 : 30Rnd_556x45_Stanag{
@@ -786,11 +786,10 @@ class CfgMagazines{
 class CfgWeapons {
     class Rifle;
     class optic_Hamr;
-    class LMG_Zafir_F;
     class InventoryItem_Base_F;
     class InventoryMuzzleItem_Base_F;
     class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F; \
+    class InventoryOpticsItem_Base_F; 
     class SlotInfo;
     class CowsSlot;
     class PointerSlot;
@@ -1040,9 +1039,11 @@ class CfgWeapons {
         opticsZoomMin = 0.25;
         opticsZoomMax = 1.25;
         opticsZoomInit = 0.75;
+        inertia = 1.15;
+        __DEXTERITY(11.6, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 242;
             class MuzzleSlot : SlotInfo
             {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
@@ -1217,7 +1218,7 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 220;
             class MuzzleSlot : SlotInfo
             {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
@@ -1419,7 +1420,7 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 225;
             class MuzzleSlot : SlotInfo
             {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
@@ -1625,7 +1626,7 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 240;
             class MuzzleSlot : SlotInfo
             {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
