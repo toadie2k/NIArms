@@ -11,7 +11,7 @@ class CfgSoundSets {
     };
     class m14_tail_SoundSet {
         soundShaders[] = { "m14_tailDistant_SoundShader", "m14_tailForest_SoundShader", "m14_tailHouses_SoundShader", "m14_tailInterior_SoundShader", "m14_tailMeadows_SoundShader", "m14_tailTrees_SoundShader" };
-        volumeFactor = 1;
+        volumeFactor = 1.3;
         volumeCurve = "InverseSquare2Curve";
         spatial = 1;
         doppler = 0;
@@ -21,7 +21,7 @@ class CfgSoundSets {
     };
     class m14_silencerShot_SoundSet {
         soundShaders[] = { "m14_silencerShot_SoundShader", "m14_Closure_SoundShader" };
-        volumeFactor = 1.4;
+        volumeFactor = 1.2;
         volumeCurve = "InverseSquare3Curve";
         spatial = 1;
         doppler = 0;

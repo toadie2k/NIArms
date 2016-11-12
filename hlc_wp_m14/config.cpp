@@ -388,7 +388,7 @@ class CfgWeapons {
                     opticsZoomMax = 0.0711;
                     opticsZoomInit = 0.0711;
                     discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
-                    discreteDistanceInitIndex = 1;
+                    discreteDistanceInitIndex = 4;
                     distanceZoomMin = 300;
                     distanceZoomMax = 1200;
                     discretefov[] = { 0.0711, 0.0277 };
@@ -603,9 +603,13 @@ class CfgWeapons {
         scope = public;
         recoil = "recoil_dmr_06";
         model = "\hlc_wp_M14\mesh\m14\M14.p3d";
+        hiddenSelections[] = { "Main", "rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\m14\a1_m14_co.tga", "hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga" };
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_M14\tex\ui\gear_m14_x_ca";
-        displayName = "Springfield Armory M14";
+        displayName = "M14";
+        __DEXTERITY(4.1, 0);
+        inertia = 0.41;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
         magazineReloadSwitchPhase = 0.5;
         cameradir = "aim_point";
@@ -614,10 +618,16 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6" }; /// the angle of gun changes with zeroing
         bg_bipod = 0; 
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\m14_hands.rtm"};
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 102;
         };
-        inertia = 0.51;
+        class Single : Single {
+            __MOA(1.3);
+        };
+        class FullAuto : FullAuto {
+            __MOA(1.45);
+        };
         class ItemInfo {
             priority = 1;
             RMBhint = "XMC";
@@ -629,7 +639,9 @@ class CfgWeapons {
     };
     class hlc_rifle_M14_Bipod : hlc_rifle_m14 {
         model = "\hlc_wp_M14\mesh\m21\M14_bip.p3d";
-        displayName = "Springfield Armory M14(Bipod)";
+        displayName = "M14(Bipod)";
+        __DEXTERITY(4.1 + 0.31, 0);
+        inertia = 0.43;
         author = "An Aggressive Napkin, Millenia, Toadie";
         maxZeroing = 1600;
         hasBipod = true;
@@ -641,17 +653,38 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 106;
         };
-        inertia = 0.73;
+        
     };
     class hlc_rifle_M14_Rail : hlc_rifle_m14 {
         model = "\hlc_wp_M14\mesh\m14\M14_railed.p3d";
-        displayName = "Springfield Armory M14(Rail)";
-
+        displayName = "M14(RIS)";
+        __DEXTERITY(4.1 + 0.3, 0);
+        inertia = 0.43;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 116;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
-        inertia = 0.58;
+    };
+    class hlc_rifle_M14_Bipod_Rail : hlc_rifle_m14 {
+        model = "\hlc_wp_M14\mesh\m21\M14_biprail.p3d";
+        displayName = "M14(Bipod/RIS)";
+        __DEXTERITY(4.1 + 0.31+0.3, 0);
+        inertia = 0.43;
+        author = "An Aggressive Napkin, Millenia, Toadie";
+        maxZeroing = 1600;
+        hasBipod = true;
+        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
+        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
+        scope = public;
+        agm_bipod = 1;
+        cse_bipod = 1;
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 106;
+            class CowsSlot : asdg_OpticRail1913_short {};
+        };
+        hiddenSelections[] = { "Main", "Bipod","rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\m14\a1_m14_co.tga", "hlc_wp_m14\tex\bis_dmr\bipod_harris_co.tga","hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga" };
+
     };
     class hlc_rifle_M21 : hlc_M14_base {
         author = "An Aggressive Napkin, Millenia, Toadie";
@@ -663,11 +696,14 @@ class CfgWeapons {
         recoil = "recoil_dmr_06";
         agm_bipod = 1; 
         cse_bipod = 1;
-
         model = "\hlc_wp_M14\mesh\m21\M14.p3d";
+        hiddenSelections[] = { "Main", "Bipod", "rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\m21\b1_m14_co.tga", "hlc_wp_m14\tex\bis_dmr\bipod_harris_co.tga", "hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga" };
+        __DEXTERITY(4.9 + 0.31 , 0);
+        inertia = 0.52;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_M14\tex\ui\gear_m21_x_ca";
-        displayName = "Springfield Armory M21";
+        displayName = "M21";
         discretedistance[] = {100, 200, 300, 400, 500,600};
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6" }; /// the angle of gun changes with zeroing
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
@@ -678,7 +714,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 108;
         };
-        inertia = 0.74;
+        
 
         class ItemInfo {
             priority = 1;
@@ -689,8 +725,7 @@ class CfgWeapons {
         modes[] = {"Single", "single_medium_optics1", "single_far_optics1"};
 
         class Single : Single {
-            dispersion = 0.0006;
-            minrange = 0;
+            __MOA(0.8);
         };
         class single_medium_optics1 : Single {
             requiredoptictype = 1;
@@ -722,9 +757,26 @@ class CfgWeapons {
             libTextDesc = "Springfield Armory M21";
         };
     };
+    class hlc_rifle_M21_Rail :hlc_rifle_M21
+    {
+        __DEXTERITY(4.9 + 0.31+0.3, 0);
+        inertia = 0.55;
+        author = "An Aggressive Napkin, Millenia, Toadie";
+        displayName = "M21(RIS)";
+        model = "\hlc_wp_M14\mesh\m21\M14_rail.p3d";
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 116;
+            class CowsSlot : asdg_OpticRail1913_short {};
+        };
+
+    };
     class hlc_rifle_m14dmr : hlc_rifle_M21 {
         author = "Bohemia Interactive,Toadie";
         model = "\hlc_wp_M14\mesh\m14dmr\M14.p3d";
+        hiddenSelections[] = { "Main", "Bipod"};
+        hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga", "hlc_wp_m14\tex\bis_dmr\bipod_harris_co.tga"};
+        __DEXTERITY(5.27 + 0.31, 0);
+        inertia = 0.58;
         agm_bipod = 1; 
         hasbipod = true; 
         deployedpivot = "deploypivot";
@@ -732,13 +784,30 @@ class CfgWeapons {
         maxZeroing = 1600;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_M14\tex\ui\gear_dmr_x_ca";
-        displayName = "Springfield Armory M14DMR";
+        displayName = "M14DMR";
         discretedistance[] = {100, 200, 300, 400, 500,600,700,800,900,1000};
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9" }; /// the angle of gun changes with zeroing
         cameradir = "aim_point";
         discretedistanceinitindex = 2;
         bg_bipod = 1; 
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\dmr_hands.rtm"};
+        class Single : Single{
+            __MOA(1.1);
+        };
+    };
+    class hlc_rifle_M14dmr_Rail :hlc_rifle_m14dmr
+    {
+        author = "Bohemia Interactive,Toadie";
+        displayName = "M14DMR(RIS)";
+        model = "\hlc_wp_M14\mesh\m14dmr\M14_railed.p3d";
+
+        __DEXTERITY(5.27+0.31+0.30, 0);
+        inertia = 0.61;
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 116;
+            class CowsSlot : asdg_OpticRail1913_short {};
+        };
+
     };
 
     class hlc_rifle_m14sopmod : hlc_rifle_M14
@@ -753,6 +822,8 @@ class CfgWeapons {
         cse_bipod = 1;
         maxZeroing = 1600;
         model = "\hlc_wp_M14\mesh\sopmod\M14.p3d";
+        hiddenSelections[] = { "Reciever", "Furniture" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\brightside\rec_co.tga", "hlc_wp_m14\tex\brightside\upper_co.tga" };
         descriptionShort = "Modified Battle Rifle<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_M14\tex\ui\gear_sopmod_x_ca";
         displayName = "Troy M14 SOPMOD";
@@ -769,8 +840,14 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
-        inertia = 0.43;
-
+        inertia = 0.41;
+        __DEXTERITY(4.08,0);
+        class Single : Single {
+            __MOA(1.6);
+        };
+        class FullAuto : FullAuto {
+            __MOA(1.8);
+        };
         class single_medium_optics1 : single_medium_optics1 {
             maxRange = 700;
             maxRangeProbab = 0.1;
