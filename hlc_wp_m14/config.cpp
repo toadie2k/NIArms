@@ -95,9 +95,12 @@ class CfgVehicles {
 
     __WEAPONHOLDER(hlc_rifle_M14,hlc_20Rnd_762x51_B_M14,M14,Niarms_M14,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_M14_Bipod,hlc_20Rnd_762x51_B_M14,M14(Bipod),Niarms_M14,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Bipod_Rail, hlc_20Rnd_762x51_B_M14, M14(Bipod\RAil), Niarms_M14, Toadie, AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_M14_Rail,hlc_20Rnd_762x51_B_M14,M14(Rail),Niarms_M14,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_M21, hlc_20Rnd_762x51_mk316_M14, M21, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M21_Rail, hlc_20Rnd_762x51_mk316_M14, M21(Rail), Niarms_M14, Toadie, SniperRifles);
     __WEAPONHOLDER(hlc_rifle_m14dmr, hlc_20Rnd_762x51_mk316_M14, M14DMR, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M14dmr_Rail, hlc_20Rnd_762x51_mk316_M14, M14DMR(Rail), Niarms_M14, Toadie, SniperRifles);
     __WEAPONHOLDER(hlc_rifle_m14sopmod,hlc_20Rnd_762x51_mk316_M14,Troy M14 SOPMOD,Niarms_M14,Toadie,AssaultRifles);
 };
 

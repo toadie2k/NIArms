@@ -398,7 +398,7 @@ class CfgMagazines {
         displayname = "G36 C-Mag (EPR) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 920;
-        mass = 44;
+        mass = 46;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 4;
@@ -481,7 +481,7 @@ class CfgWeapons {
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 13;
+            mass = 7;
             modelOptics = "\hlc_wp_G36\mesh\optics\reticle3-5x2d";
             class OpticsModes {
                 class Snip {
@@ -931,6 +931,7 @@ class CfgWeapons {
             };
         };
         inertia = 0.36;
+        __DEXTERITY(3.6, 0);
     };
 
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
@@ -944,7 +945,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock","AG36" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_a1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 103;
+            mass = 107;
             class CowsSlot : niarms_G36_OpticSlot {};
             class UnderBarrelSlot
             {
@@ -953,7 +954,8 @@ class CfgWeapons {
                 };
             };
         };
-        inertia = 0.66;
+        inertia = 0.51;
+        __DEXTERITY(3.6+1.5, 0);
     };
 
     class hlc_rifle_MG36 : hlc_G36_base {
@@ -1003,15 +1005,17 @@ class CfgWeapons {
         };
         model = "hlc_wp_g36\mesh\G36 LSW\MG36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_MG36_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Magazine_HK_Cmag", "Bipod" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_a1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_cmag_co.tga","hlc_wp_g36\tex\g36_bipod_co.tga" };
         discretedistance[] = { 200 };
         discretedistanceinitindex = 0;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 77;
+            mass = 80;
             class CowsSlot : niarms_G36_OpticSlot {};
         };
         inertia = 0.38;
-
+        __DEXTERITY(3.8 + 1.5, 0);
         class fullauto_medium : fullauto_medium {
             burst = 4;
             minRange = 10;
@@ -1035,10 +1039,10 @@ class CfgWeapons {
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_k1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 67;
+            mass = 69;
         };
         inertia = 0.34;
-
+        __DEXTERITY(3.3, 0);
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
@@ -1126,7 +1130,7 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
         };
         inertia = 0.28;
-
+        __DEXTERITY(2.8, 0);
         modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2" };
 
         class Single : Mode_SemiAuto {
@@ -1271,7 +1275,14 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
     };
-
+    class hlc_rifle_G36E1AG36_Romi : hlc_rifle_G36E1AG36
+    {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        displayName = "HK G36E'Romi'(GL)";
+        scope = public;
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\daitomod\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_magwell_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_ag36_co.tga" };
+    };
     class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1297,6 +1308,8 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1313,12 +1326,13 @@ class CfgWeapons {
             };
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 67;
+            mass = 69;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
         };
         inertia = 0.33;
+        __DEXTERITY(3.3, 0);
     };
 
     class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
@@ -1329,6 +1343,8 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36KV_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1351,6 +1367,7 @@ class CfgWeapons {
             class UnderBarrelSlot :asdg_UnderSlot {};
         };
         inertia = 0.3;
+        __DEXTERITY(3.0, 0);
     };
 
     class hlc_rifle_G36CV : hlc_rifle_G36C {
@@ -1361,6 +1378,8 @@ class CfgWeapons {
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36C.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36CV_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
     };
 
     class hlc_rifle_G36VAG36 : hlc_rifle_G36V {
@@ -1371,21 +1390,51 @@ class CfgWeapons {
         model = "hlc_wp_g36\mesh\G36V\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
         picture = "\hlc_wp_g36\tex\ui\gear_AG36V_ca.paa";
-
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 97;
+            mass = 100;
             class UnderBarrelSlot {};
         };
-        inertia = 0.63;
+        inertia = 0.48;
+        __DEXTERITY(3.3 + 1.5, 0);
     };
+    class hlc_rifle_G36KA1KSK : hlc_rifle_G36KV
+    {
+        model = "hlc_wp_g36\mesh\G36KSK\G36KSK.p3d";
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        displayName = "HK G36K(KSK)";
+        reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
+        reloadAction = "HLC_GestureReloadG36A1";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36","Rails" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
+        modes[] = { "Single", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+    };
+    class HLC_Rifle_G36KSKAG36 : hlc_rifle_G36KA1KSK
+    {
 
+        model = "hlc_wp_g36\mesh\G36KSK\AG36.p3d";
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        displayName = "HK G36K(KSK/GL)";
+        muzzles[] = { "this", "hlc_GL_AG36" };
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 95;
+            class UnderBarrelSlot {};
+        };
+        inertia = 0.45;
+        __DEXTERITY(3.0 + 1.5, 0);
+    };
     class hlc_rifle_G36TAC : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36tactical\G36.p3d";
         displayName = "HK G36V(KAC)";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36tac_ca.paa";
-
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock","Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
         };
@@ -1397,7 +1446,8 @@ class CfgWeapons {
         model = "hlc_wp_g36\mesh\G36tactical\G36K.p3d";
         displayName = "HK G36KV(KAC)";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36ktac_ca.paa";
-
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
         };
@@ -1410,7 +1460,8 @@ class CfgWeapons {
         displayName = "HK G36CV(KAC)";
         descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36Ctac_ca.paa";
-
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
         };
@@ -1448,10 +1499,13 @@ class CfgWeapons {
         };
         model = "hlc_wp_g36\mesh\G36MLIC\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36mli_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail","AG36","Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_mli_co.tga", "hlc_wp_g36\tex\placeholder\G36_OpticRails_co.tga", "hlc_wp_g36\tex\placeholder\G36_magwell_MLIC_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga", "hlc_wp_g36\tex\placeholder\G36_AG36_co.tga", "hlc_wp_g36\tex\placeholder\G36_magazine_MLIC_co.tga" };
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.55;
+        inertia = 0.33;
+        __DEXTERITY(3.3, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 89;
+            mass = 70;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class MuzzleSlot : asdg_MuzzleSlot_762 {};
@@ -1529,10 +1583,13 @@ class CfgWeapons {
         ACE_barrelLength = 318;
         displayName = "HK G36K-MLI(C)";
         model = "hlc_wp_g36\mesh\G36MLIC\G36K.p3d";
-        inertia = 0.5;
+        inertia = 0.3;
+        __DEXTERITY(3.0, 0);
         picture = "\hlc_wp_g36\tex\ui\gear_g36Kmli_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail", "AG36", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kmli_co.tga", "hlc_wp_g36\tex\placeholder\G36_OpticRails_co.tga", "hlc_wp_g36\tex\placeholder\G36_magwell_MLIC_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga", "hlc_wp_g36\tex\placeholder\G36_AG36_co.tga", "hlc_wp_g36\tex\placeholder\G36_magazine_MLIC_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 72;
+            mass = 63;
         };
 
         class Single : Single {
@@ -1596,8 +1653,11 @@ class CfgWeapons {
         displayName = "HK G36C-MLI(C)";
         descriptionShort = "Compact Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
         model = "hlc_wp_g36\mesh\G36MLIC\G36C.p3d";
-        inertia = 0.5;
+        inertia = 0.28;
+        __DEXTERITY(2.8, 0);
         picture = "\hlc_wp_g36\tex\ui\gear_g36Cmli_ca.paa";
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail", "AG36", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_cmli_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\G36_magwell_MLIC_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga", "hlc_wp_g36\tex\placeholder\G36_AG36_co.tga", "hlc_wp_g36\tex\placeholder\G36_magazine_MLIC_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 68;
             class CowsSlot : asdg_OpticRail1913_short {};
@@ -1684,9 +1744,10 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
         picture = "\hlc_wp_g36\tex\ui\gear_AG36MLI_ca.paa";
 
-        inertia = 0.57;
+        inertia = 0.48;
+        __DEXTERITY(3.3 + 1.5, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 120;
+            mass = 100;
             class UnderBarrelSlot {};
         };
     };
