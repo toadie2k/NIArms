@@ -18,20 +18,20 @@
 
 #define __OPTICSZOOM_1X opticsZoomMin = 0.25; opticsZoomMax = 1.25; opticsZoomInit = 0.75
 
-#define __WEAPONHOLDER(weapon,magazine,displayname,dlc,author,editorsubcat)    class Weapon_##weapon : Weapon_Base_F {\
-        dlc = "##dlc";\
+#define __WEAPONHOLDER(weepon,megazine,deename,deeelc,theman,editorsubcat)    class Weapon_##weepon : Weapon_Base_F {\
+        dlc = "##deeelc";\
         scope = 2;\
         scopeCurator = 2;\
-        displayName = "##displayname";\
-        author = "##author";\
+        displayName = "##deename";\
+        author = "##theman";\
 		editorCategory = "EdCat_Weapons";\
 		editorSubcategory = "EdSubcat_##editorsubcat";\
         vehicleClass = "WeaponsPrimary";\
         class TransportWeapons {\
-            class ##weapon { weapon = "##weapon"; count = 1; };\
+            class ##weepon { weapon = "##weepon"; count = 1; };\
         };\
         class TransportMagazines {\
-            class ##magazine { magazine = "##magazine"; count = 1; };\
+            class ##megazine { magazine = "##megazine"; count = 1; };\
         };\
     }
 
