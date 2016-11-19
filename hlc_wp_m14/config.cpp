@@ -338,7 +338,7 @@ class CfgWeapons {
                     distanceZoomMin = 300;
                     distanceZoomMax = 600;
                     memoryPointCamera = "eye";
-                    modelOptics[] = {"\hlc_wp_m14\mesh\PVS4\NV_anpvs4_optic"};
+                    modelOptics[] = { "\hlc_wp_m14\mesh\PVS4\NV_anpvs4_optic" };
                     visionMode[] = {"NVG"};
                     opticsFlare = 1;
                     opticsid = 1;
@@ -346,7 +346,7 @@ class CfgWeapons {
                     cameraDir = "";
                 };
                 class Snip2: Snip {
-                    modelOptics[] = { "\hlc_wp_g3\mesh\PVS4\pvs4-daysight" };
+                    modelOptics[] = { "\hlc_wp_m14\mesh\PVS4\pvs4-daysight" };
                     opticsid = 2;
                 };
                 class Kolimator {
