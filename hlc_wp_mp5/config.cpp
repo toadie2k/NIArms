@@ -283,18 +283,6 @@ class CfgWeapons {
 		};
 		inertia = 0.08;
     };
-    class hlc_muzzle_Tundra : muzzle_snds_h
-    {
-        dlc = "Niarms_MP5";
-        author = "r_populik,Toadie";
-        displayName = "Gemtech Tundra (9mm)";
-        picture = "\hlc_wp_MP5\tex\ui\gear_tundra_ca";
-        model = "\hlc_wp_mp5\mesh\agendasix\tundra.p3d";
-		class ItemInfo : ItemInfo {
-			mass = 5;
-		};
-		inertia = 0.04;
-    };
     class hlc_muzzle_Agendasix10mm : hlc_muzzle_Agendasix
     {
         dlc = "Niarms_MP5";
@@ -342,7 +330,6 @@ class CfgWeapons {
             class MuzzleSlot: asdg_MuzzleSlot_9MM_SMG {
                 class compatibleItems: compatibleItems {
                     hlc_muzzle_Agendasix = 1;
-                    hlc_muzzle_Tundra = 1;
                 };
             };
             class CowsSlot {};
@@ -494,6 +481,8 @@ class CfgWeapons {
         reloadaction = "HLC_GestureReloadMP5K";
         reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5k_reload", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5kpdw_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Stock", "Foregrip", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\thanez_mp5k\rec_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\fas_mp5\handguard_co.tga", "hlc_wp_mp5\tex\thanez_mp5k\forek_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga" };
         displayName = "HK MP5K-PDW";
 
         discretedistance[] = {50,100,150,200};
@@ -566,6 +555,8 @@ class CfgWeapons {
         discretedistance[] = {50};
         discretedistanceinitindex = 0;
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5k_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Stock", "Foregrip", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\thanez_mp5k\rec_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\sef_co.tga", "hlc_wp_mp5\tex\thanez_mp5k\buttk_co.tga", "hlc_wp_mp5\tex\thanez_mp5k\forek_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga"};
         modes[] = {"Single","FullAuto"};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -587,6 +578,8 @@ class CfgWeapons {
         model = "\hlc_wp_Mp5\mesh\mp5a2\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a2_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Stock","Foregrip", "Rail", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\sef_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fullstock_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fore_co.tga",  "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\magazine_co.tga" };
         displayName = "HK MP5A2";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";
@@ -629,6 +622,8 @@ class CfgWeapons {
         model = "\hlc_wp_Mp5\mesh\mp5n\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5n_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Foregrip", "Stock", "Rail", "Quad1", "Quad2", "Panel" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fore_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\ret9_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\thanez_mp5\fore_co.tga", "hlc_wp_mp5\tex\thanez_mp5\rails_co.tga","hlc_wp_mp5\tex\rails_co.tga" };
         displayName = "HK MP5N";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";
@@ -671,6 +666,8 @@ class CfgWeapons {
         author = "Twinke Masta, Geno, Tigg, Christian Øelund,Toadie";
         model = "\hlc_wp_Mp5\mesh\9mmar\9mmar.p3d";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5sd6_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Stock", "Quadrail", "Quadrail2", "Rail", "M203", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\ret9_co.tga", "hlc_wp_mp5\tex\thanez_mp5\fore_co.tga", "hlc_wp_mp5\tex\thanez_mp5\rails_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\zulmargera_mp5\m203_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\mag_co.tga" };
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_9mmar.rtm"};
         displayName = "HK MP5N '9MMAR'";
         discretedistance[] = {50,100,150,200};
@@ -756,6 +753,8 @@ class CfgWeapons {
         model = "\hlc_wp_Mp5\mesh\mp5a4\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a4_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Foregrip", "Stock", "Rail", "Quad1", "Quad2", "Panel" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fore_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fullstock_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\thanez_mp5\fore_co.tga", "hlc_wp_mp5\tex\thanez_mp5\rails_co.tga", "hlc_wp_mp5\tex\rails_co.tga" };
         displayName = "HK MP5A4";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";
@@ -799,6 +798,8 @@ class CfgWeapons {
         reloadaction = "HLC_GestureReloadMP510";
         reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp510_reload_empty", 0.7, 1, 20 };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp510_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Foregrip", "Stock", "Rail", "Quad1", "Quad2", "Panel" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec40_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fore_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fullstock_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\thanez_mp5\fore_co.tga", "hlc_wp_mp5\tex\thanez_mp5\rails_co.tga", "hlc_wp_mp5\tex\rails_co.tga" };
         displayName = "HK MP5/10";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";
@@ -884,6 +885,8 @@ class CfgWeapons {
         model = "\hlc_wp_Mp5\mesh\mp5sd5\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5sd5_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Foregrip", "Stock", "Rail", "Can" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\recsil_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\silencer_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fullstock_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\receiver_co.tga" };
         displayName = "HK MP5SD5";
         initspeed = 285;
         discretedistance[] = {50,100,150,200};
@@ -949,6 +952,8 @@ class CfgWeapons {
         model = "\hlc_wp_Mp5\mesh\mp5a3\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5a3_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Stock", "Foregrip", "Rail", "Magazine" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\rec9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\sef_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\ret9_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\fore_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\magazine_co.tga" };
         displayName = "HK MP5A3";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";
@@ -976,6 +981,8 @@ class CfgWeapons {
         reloadaction = "HLC_GestureReloadMP5";
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5sd.rtm"};
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5sd6_x_ca";
+        hiddenSelections[] = { "Reciever", "FCG", "Foregrip", "Stock", "Rail", "Can" };
+        hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\geno_twinke_mp5\recsil_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\navy_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\silencer_co.tga", "hlc_wp_mp5\tex\geno_twinke_mp5\ret9_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\rail_co.tga", "hlc_wp_mp5\tex\emdg_mp5sd\receiver_co.tga" };
         displayName = "HK MP5SD6";
         discretedistance[] = {50,100,150,200};
         cameradir = "look_out";

@@ -3352,6 +3352,18 @@ class CfgWeapons
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
     };
+    class hlc_muzzle_Tundra : muzzle_snds_M
+    {
+        dlc = "Niarms_MP5";
+        author = "r_populik,Toadie";
+        displayName = "Gemtech Tundra (9mm)";
+        picture = "\hlc_core\tex\ui\gear_tundra_ca";
+        model = "hlc_core\mesh\accessories\barrel\9\tundra.p3d";
+        class ItemInfo : ItemInfo {
+            mass = 5;
+        };
+        inertia = 0.04;
+    };
 };
 
 class CfgFunctions {

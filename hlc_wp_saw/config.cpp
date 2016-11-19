@@ -161,28 +161,28 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "Ammo";
         displayName = "HLC SAW Supply Box";
-        model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
+        model = "\A3\weapons_F\AmmoBoxes\Supplydrop";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
         class TransportMagazines {
-            __M_MAG(hlc_200rnd_556x45_M_SAW,30);
-            __M_MAG(hlc_200rnd_556x45_T_SAW,30);
-            __M_MAG(hlc_200rnd_556x45_B_SAW,30);
-            __M_MAG(hlc_100Rnd_762x51_M_M60E4,30);
+            __M_MAG(hlc_200rnd_556x45_M_SAW,20);
+            __M_MAG(hlc_200rnd_556x45_T_SAW,20);
+            __M_MAG(hlc_200rnd_556x45_B_SAW,20);
+            __M_MAG(hlc_100Rnd_762x51_M_M60E4,20);
         };
         class TransportWeapons {
-            __M_WEP(hlc_lmg_minimipara,10);
-            __M_WEP(hlc_lmg_minimi,10);
-            __M_WEP(hlc_lmg_minimi_railed,10);
-            __M_WEP(hlc_lmg_m249para,10);
-            __M_WEP(hlc_lmg_M249E2,10);
-            __M_WEP(hlc_m249_pip1,10);
-            __M_WEP(hlc_m249_pip2,10);
-            __M_WEP(hlc_m249_pip3,10);
-            __M_WEP(hlc_m249_pip4,10);
-            __M_WEP(hlc_m249_SQuantoon,10);
-            __M_WEP(hlc_lmg_mk48,10);
+            __M_WEP(hlc_lmg_minimipara,5);
+            __M_WEP(hlc_lmg_minimi,5);
+            __M_WEP(hlc_lmg_minimi_railed,5);
+            __M_WEP(hlc_lmg_m249para,5);
+            __M_WEP(hlc_lmg_M249E2,5);
+            __M_WEP(hlc_m249_pip1,5);
+            __M_WEP(hlc_m249_pip2,5);
+            __M_WEP(hlc_m249_pip3,5);
+            __M_WEP(hlc_m249_pip4,5);
+            __M_WEP(hlc_m249_SQuantoon,5);
+            __M_WEP(hlc_lmg_mk48,5);
         };
         class TransportItems {
             __M_ITM(optic_Holosight,10);
@@ -192,18 +192,25 @@ class CfgVehicles {
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_lmg_minimipara,hlc_200rnd_556x45_M_SAW,FN Minimi Para,Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimi,hlc_200rnd_556x45_M_SAW,FN Minimi (18.3 in.),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_m249para,hlc_200rnd_556x45_M_SAW,M249E2 Para(13.7in.),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_M249E2,hlc_200rnd_556x45_M_SAW,M249E2,Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimi_railed,hlc_200rnd_556x45_M_SAW,FN Minimi (RIS/Solid Stock),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip1,hlc_200rnd_556x45_M_SAW,M249 PIP (RIS/18.3 in.),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip2,hlc_200rnd_556x45_M_SAW,M249E2 (RIS/13.7 in.),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip3,hlc_200rnd_556x45_M_SAW,M249 PIP (RIS/PIP Stock),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip4,hlc_200rnd_556x45_M_SAW,M249 PIP (VFG/PIP Stock),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_SQuantoon,hlc_200rnd_556x45_M_SAW,M249 (Squantoon Special),Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk48,hlc_100Rnd_762x51_M_M60E4,Mk.48 Mod.0,Niarms_SAW,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk48mod1,hlc_100Rnd_762x51_M_M60E4,Mk.48 Mod.1,Niarms_SAW,Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_long, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_long_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimi, hlc_200rnd_556x45_M_SAW, FN Minimi(Long), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimi_railed, hlc_200rnd_556x45_M_SAW, FN Minimi(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_m249para, hlc_200rnd_556x45_M_SAW, M249E2 Para(Short), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_M249E2, hlc_200rnd_556x45_M_SAW, M249E2, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_M249E1, hlc_200rnd_556x45_M_SAW, M249E1, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip1, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip2, hlc_200rnd_556x45_M_SAW, M249E2(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip3, hlc_200rnd_556x45_M_SAW, M249 PIP(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip4, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / VFG), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_SQuantoon, hlc_200rnd_556x45_M_SAW, M249(Squantoon Special), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk46, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.0, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk46mod1, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.1, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk48, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.0, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk48mod1, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.1, Niarms_SAW, Toadie, MachineGuns);
+
 };
 
 class CfgMagazines{
@@ -460,7 +467,9 @@ class CfgWeapons {
         inertia = 0.65;
         __DEXTERITY(6.56, 0);
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
-        displayName = "FN Minimi Para";
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "" };
+        displayName = "FN Minimi Para (Short)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         bg_bipod = 1;
@@ -592,11 +601,51 @@ class CfgWeapons {
         };
     };
     */
+
+    class hlc_lmg_minimipara_railed : hlc_lmg_minimipara
+{
+    author = "Toadie";
+    model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed.p3d";
+    displayName = "FN Minimi Para (Short/RIS)";
+    inertia = 0.69;
+    __DEXTERITY(6.94, 0);
+    class WeaponSlotsInfo : WeaponSlotsInfo {
+        mass = 145;
+        class CowsSlot : asdg_OpticRail1913_short_MG {};
+    };
+};
+    class hlc_lmg_minimipara_long : hlc_lmg_minimipara
+{
+    author = "Toadie";
+    model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer.p3d";
+    displayName = "FN Minimi Para (Long)";
+    initspeed = -1;
+    inertia = 0.68;
+    __DEXTERITY(6.85, 0);
+    class WeaponSlotsInfo : WeaponSlotsInfo {
+        mass = 137;
+    };
+};
+    class hlc_lmg_minimipara_long_railed : hlc_lmg_minimipara
+{
+    author = "Toadie";
+    model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
+    displayName = "FN Minimi Para (Long/RIS)";
+    initspeed = -1;
+    inertia = 0.69;
+    __DEXTERITY(6.94, 0);
+    class WeaponSlotsInfo : WeaponSlotsInfo {
+        mass = 145;
+        class CowsSlot : asdg_OpticRail1913_short_MG {};
+    };
+};
     class hlc_lmg_minimi : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer.p3d";
-        displayName = "FN Minimi (18.3 in.)";
+        displayName = "FN Minimi (Long)";
         picture = "\hlc_wp_saw\tex\ui\gear_minimi_x_ca";
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "" };
         inertia = 0.68;
         __DEXTERITY(6.86, 0);
         initspeed = -1;
@@ -617,35 +666,10 @@ class CfgWeapons {
             mass = 144;
         };
     };
-    class hlc_lmg_m249para : hlc_lmg_minimipara {
-        author = "Toadie";
-        model = "\hlc_wp_saw\mesh\m249\m249paratrooper.p3d";
-        displayName = "M249E2 Para(13.7in.)";
-        picture = "\hlc_wp_saw\tex\ui\gear_m249para_x_ca";
-        ACE_barrelTwist = 305;
-        ACE_barrelLength = 349;
-        AB_barrelTwist = 12;
-        AB_barrelLength = 13.7;
-
-    };
-    class hlc_lmg_M249E2 : hlc_lmg_minimipara {
-        author = "Toadie";
-        model = "\hlc_wp_saw\mesh\m249\m249E2.p3d";
-        displayName = "M249E2";
-        picture = "\hlc_wp_saw\tex\ui\gear_m249e2_x_ca";
-        inertia = 0.68;
-        __DEXTERITY(6.86, 0);
-        ACE_barrelTwist = 305;
-        ACE_barrelLength = 465;
-        AB_barrelTwist = 12;
-        AB_barrelLength = 18.3;
-        initspeed = -1;
-    };
-
     class hlc_lmg_minimi_railed : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed.p3d";
-        displayName = "FN Minimi (RIS/Solid Stock)";
+        displayName = "FN Minimi (Long/RIS)";
         picture = "\hlc_wp_saw\tex\ui\gear_minimiris_x_ca";
         ACE_barrelTwist = 178;
         ACE_barrelLength = 465;
@@ -655,14 +679,58 @@ class CfgWeapons {
         __DEXTERITY(6.94, 0);
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-                mass = 145;
-                class CowsSlot : asdg_OpticRail1913_short_MG {};
+            mass = 145;
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
     };
+    class hlc_lmg_m249para : hlc_lmg_minimipara {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\m249\m249paratrooper.p3d";
+        displayName = "M249E2 Para(Short)";
+        picture = "\hlc_wp_saw\tex\ui\gear_m249para_x_ca";
+        ACE_barrelTwist = 305;
+        ACE_barrelLength = 349;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 13.7;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+
+    };
+    class hlc_lmg_M249E2 : hlc_lmg_minimipara {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\m249\m249E2.p3d";
+        displayName = "M249E2";
+        picture = "\hlc_wp_saw\tex\ui\gear_m249e2_x_ca";
+        inertia = 0.75;
+        __DEXTERITY(7.5, 0);
+        ACE_barrelTwist = 305;
+        ACE_barrelLength = 465;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 18.3;
+        initspeed = -1;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    };
+    class hlc_lmg_M249E1 : hlc_lmg_minimipara {
+        author = "Toadie,da12thMonkey,j0zh94(RHS)";
+        model = "\hlc_wp_saw\mesh\m249\m249E1.p3d";
+        displayName = "M249E1";
+        picture = "\hlc_wp_saw\tex\ui\gear_m249e1_ca";
+        inertia = 0.72;
+        __DEXTERITY(7.25, 0);
+        ACE_barrelTwist = 305;
+        ACE_barrelLength = 465;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 18.3;
+        initspeed = -1;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\rhs_m249\mk1_muzzleStock_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    };
+
     class hlc_m249_pip1 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip1.p3d";
-        displayName = "M249 PIP (RIS/18.3 in.)";
+        displayName = "M249 PIP (Long/RIS)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2pip_x_ca";
         inertia = 0.69;
         __DEXTERITY(6.94, 0);
@@ -671,11 +739,13 @@ class CfgWeapons {
         AB_barrelTwist = 12;
         AB_barrelLength = 18.3;
         initspeed = -1;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
     };
     class hlc_m249_pip2 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip2.p3d";
-        displayName = "M249E2 (RIS/13.7 in.)";
+        displayName = "M249E2 (Short/RIS)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2parapip_x_ca";
         inertia = 0.68;
         __DEXTERITY(6.8, 0);
@@ -683,11 +753,13 @@ class CfgWeapons {
         ACE_barrelLength = 349;
         AB_barrelTwist = 12;
         AB_barrelLength = 13.7;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
     };
     class hlc_m249_pip3 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
-        displayName = "M249 PIP (RIS/PIP Stock)";
+        displayName = "M249 PIP (Short/RIS)";
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2parapip2_x_ca";
         inertia = 0.68;
         __DEXTERITY(6.8, 0);
@@ -695,11 +767,13 @@ class CfgWeapons {
         ACE_barrelLength = 349;
         AB_barrelTwist = 12;
         AB_barrelLength = 13.7;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
     };
     class hlc_m249_pip4 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip4.p3d";
-        displayName = "M249 PIP (VFG/PIP Stock)";
+        displayName = "M249 PIP (Long/VFG)";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
         picture = "\hlc_wp_saw\tex\ui\gear_m249e2pip2_x_ca";
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
@@ -711,6 +785,8 @@ class CfgWeapons {
         AB_barrelTwist = 12;
         AB_barrelLength = 18.3;
         initspeed = -1;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
             class PointerSlot : asdg_FrontSideRail {};
@@ -726,6 +802,55 @@ class CfgWeapons {
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
+        };
+    };
+    class hlc_lmg_mk46 : hlc_lmg_minimi_railed {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\mk46\mk46.p3d";
+        displayName = "Mk.46 Mod.0";
+        agm_overheating_allowbarrelswap = 0;
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
+        picture = "\hlc_wp_saw\tex\ui\gear_mk46_ca";
+        hasBipod = true;
+        deployedPivot = "deploypoint";
+        inertia = 0.57;
+        __DEXTERITY(5.71 + 0.3, 1);
+        ACE_barrelTwist = 305;
+        ACE_barrelLength = 405;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 16;
+        initspeed = -0.976216;
+        magazines[] = { __556NATO_BELTS, __556NATO_BI_BELTS };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 119;
+            class PointerSlot : asdg_FrontSideRail {};
+        };
+        class FullAuto : FullAuto {
+
+            __ROF(730);
+            dispersion = 0.000261799;
+            maxrange = 600;
+            maxrangeprobab = 0.05;
+            midrange = 300;
+            midrangeprobab = 0.7;
+            minrange = 1;
+            minrangeprobab = 0.3;
+            airateoffire = 4;
+        };
+    };
+    class hlc_lmg_mk46mod1 : hlc_lmg_mk46
+    {
+        model = "\hlc_wp_saw\mesh\mk46\mk46mod1.p3d";
+        displayName = "Mk.46 Mod.1";
+        picture = "\hlc_wp_saw\tex\ui\gear_mk46mod1_ca";
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\bis_m249\stockpouch_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
+        author = "Toadie";
+        inertia = 0.55;
+        __DEXTERITY(5.5 + 0.3, 1);
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 112;
         };
     };
     class hlc_lmg_mk48 : hlc_saw_base {
@@ -771,6 +896,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
         displayName = "Mk.48 Mod.0";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG","Rail","Bipod" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga","hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga","" };
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -869,6 +996,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\mk48\Mk48mod1.p3d";
         displayName = "Mk.48 Mod.1";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 185;
             class UnderBarrelSlot {};

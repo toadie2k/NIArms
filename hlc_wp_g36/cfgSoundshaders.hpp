@@ -55,7 +55,7 @@ class CfgSoundShaders
 	class g36_MLI_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailTrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -63,7 +63,7 @@ class CfgSoundShaders
 	class g36_MLI_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailForest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -79,7 +79,7 @@ class CfgSoundShaders
 	class g36_MLI_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailHouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -87,7 +87,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerShot_SoundShader
 	{
 		samples[] = { 
-			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_suppressed_close", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Close", 1 } };
 		volume = 1.0;
 		range = 150;
 		rangeCurve = "closeShotCurve";
@@ -95,7 +95,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerTailForest_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_silencerTailForest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 150;
 		rangeCurve[] = {
@@ -106,7 +106,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_silencerTailHouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -117,7 +117,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_suppressed_indoor", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Tail_Indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -129,7 +129,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_suppressed_meadows", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -140,7 +140,7 @@ class CfgSoundShaders
 	class g36_MLI_silencerTailTrees_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_silencerTailTrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\G36_MLI\G36_MLI_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 150;
 		rangeCurve[] = {
@@ -201,7 +201,7 @@ class CfgSoundShaders
 	class g36c_MLI_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailTrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c_MLI\G36C_MLI_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -209,7 +209,7 @@ class CfgSoundShaders
 	class g36c_MLI_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailForest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c_MLI\G36C_MLI_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -217,7 +217,7 @@ class CfgSoundShaders
 	class g36c_MLI_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36c_MLI\g36c_MLI_meadows", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\g36c_MLI\g36c_mli_meadows", 1 } };
 			volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 			range = 1800;
 			limitation = 1;
@@ -225,7 +225,7 @@ class CfgSoundShaders
 	class g36c_MLI_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailHouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c_MLI\G36C_MLI_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -283,7 +283,7 @@ class CfgSoundShaders
 	class g36k_MLI_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailTrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k_MLI\G36K_MLI_Trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -291,7 +291,7 @@ class CfgSoundShaders
 	class g36k_MLI_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailForest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k_MLI\G36K_MLI_Forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -307,7 +307,7 @@ class CfgSoundShaders
 	class g36k_MLI_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\MX\MX_tailHouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k_MLI\G36K_MLI_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -371,7 +371,7 @@ class CfgSoundShaders
 	class g36_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36_forrest", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\g36\G36_Forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -382,7 +382,7 @@ class CfgSoundShaders
 	class g36_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -407,8 +407,7 @@ class CfgSoundShaders
 	class g36_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36\g36_meadows", 1 },
-			{ "hlc_wp_g36\snd\soundshaders\g36\g36_meadows", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -419,7 +418,7 @@ class CfgSoundShaders
 	class g36_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -430,7 +429,7 @@ class CfgSoundShaders
 	class g36_silencerShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36\g36_Suppressed_close", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\g36\G36_Silenced_Close", 1 } };
 		volume = 1.0;
 		range = 150;
 		rangeCurve = "closeShotCurve";
@@ -438,7 +437,7 @@ class CfgSoundShaders
 	class g36_silencerTailForest_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 150;
 		rangeCurve[] = {
@@ -460,7 +459,7 @@ class CfgSoundShaders
 	class g36_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36\g36_Suppressed_indoor", 1 } };
+			{ "hlc_wp_g36\snd\soundshaders\g36\G36_Silenced_Tail_Indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -472,7 +471,7 @@ class CfgSoundShaders
 	class g36_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -483,7 +482,7 @@ class CfgSoundShaders
 	class g36_silencerTailTrees_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36\G36_Silenced_Tail", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 150;
 		rangeCurve[] = {
@@ -550,7 +549,7 @@ class CfgSoundShaders
 	class g36c_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36_forrest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c\G36C_Forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -561,7 +560,7 @@ class CfgSoundShaders
 	class g36c_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c\G36C_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -586,8 +585,7 @@ class CfgSoundShaders
 	class g36c_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36c\g36c_meadows", 1 },
-			{ "hlc_wp_g36\snd\soundshaders\g36c\g36c_meadows", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c\g36c_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -598,7 +596,7 @@ class CfgSoundShaders
 	class g36c_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36c\g36c_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -665,7 +663,7 @@ class CfgSoundShaders
 	class g36k_tailForest_SoundShader
 	{
 		samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailforest", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k\G36K_Forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -676,7 +674,7 @@ class CfgSoundShaders
 	class g36k_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k\G36K_Urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -701,8 +699,7 @@ class CfgSoundShaders
 	class g36k_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_g36\snd\soundshaders\g36k\g36k_meadows", 1 },
-			{ "hlc_wp_g36\snd\soundshaders\g36k\g36k_meadows", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k\g36k_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -713,7 +710,7 @@ class CfgSoundShaders
 	class g36k_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 } };
+            { "hlc_wp_g36\snd\soundshaders\g36k\G36K_Trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
