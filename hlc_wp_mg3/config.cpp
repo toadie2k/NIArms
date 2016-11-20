@@ -1,7 +1,5 @@
 #include "\hlc_core\script_macros.hpp" 
 
-
-
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 
@@ -9,7 +7,7 @@ class CfgPatches
 {
     class hlcweapons_MG3s
     {
-        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core" };
+        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "cba_jr", "hlcweapons_core" };
         units[] = { "HLC_MG3_ammobox", "HLC_MG42_ammobox", "Weapon_hlc_lmg_MG42", "Weapon_hlc_lmg_mg42_bakelite", "Weapon_hlc_lmg_MG42KWS_t","Weapon_hlc_lmg_MG42KWS_t", "Weapon_hlc_lmg_MG42KWS_g","Weapon_hlc_lmg_MG42KWS_b","Weapon_hlc_lmg_MG3","Weapon_hlc_lmg_MG3_optic","Weapon_hlc_lmg_MG3KWS_t","Weapon_hlc_lmg_MG3KWS_g","Weapon_hlc_lmg_MG3KWS_b" };
         weapons[] = {"hlc_lmg_MG42","hlc_lmg_mg42_bakelite","hlc_lmg_MG42KWS_t","hlc_lmg_MG42KWS_g","hlc_lmg_MG42KWS_B","hlc_lmg_MG3","hlc_lmg_MG3_optic","hlc_lmg_MG3KWS","hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g"};
         magazines[] = {};
@@ -37,20 +35,9 @@ class CfgMods
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class SlotInfo;
-class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
-
 
 class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
-class asdg_UnderSlot;
-class asdg_MuzzleSlot;
-class asdg_MuzzleSlot_556;
-class asdg_MuzzleSlot_762;
-
+class asdg_OpticRail1913_short_MG;
 
 class CfgMovesBasic
 {
@@ -398,7 +385,8 @@ class CfgVehicles
 
 class CfgMagazines{
     class 30Rnd_556x45_Stanag;
-    class hlc_50Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag{
+
+    class hlc_50Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "hlc_792x57_SS";
@@ -413,15 +401,31 @@ class CfgMagazines{
         tracersevery = 0;
         mass = 40;
         displaynameshort = "7.92mm FMJ";
+        nameSound = "mgun";
     };
-    class hlc_50Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 100;
+        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 100<br />Used in: MG42";
+        displayname = "MG42 Belt (FMJ) 100rnd 7.92mm";
+        mass = 72;
+    };
+    class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 200;
+        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 200<br />Used in: MG42";
+        displayname = "MG42 Belt (FMJ) 200rnd 7.92mm";
+        mass = 120;
+    };
+
+    class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "hlc_792x57_SmKLspr";
-        count = 50;
         descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 50<br />Used in: MG42";
         displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 50rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 884.9;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
@@ -430,11 +434,27 @@ class CfgMagazines{
         mass = 40;
         displaynameshort = "7.92mm SmK/Tracer";
     };
-    class hlc_50Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 100;
+        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 100<br />Used in: MG42";
+        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 100rnd 7.92mm";
+        mass = 72;
+    };
+    class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 200;
+        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 200<br />Used in: MG42";
+        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 200rnd 7.92mm";
+        mass = 120;
+    };
+
+    class hlc_50Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "hlc_792x57_SmKLspr";
-        count = 50;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 50<br />Used in: MG42";
         displayname = "MG42 Belt (SmKL'spur) 50rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
@@ -446,110 +466,29 @@ class CfgMagazines{
         mass = 40;
         displaynameshort = "7.92mm Tracer";
     };
-    class hlc_100Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "hlc_792x57_SS";
-        count = 100;
-        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (FMJ) 100rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 759.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
-        mass = 72;
-        displaynameshort = "7.92mm FMJ";
-    };
-    class hlc_100Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
-        count = 100;
-        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 100rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 884.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 72;
-        displaynameshort = "7.92mm SmK/Tracer";
-    };
-    class hlc_100Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (SmKL'spur) 100rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 884.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
-        scope = 2;
-        tracersevery = 1;
         mass = 72;
-        displaynameshort = "7.92mm Tracer";
     };
-    class hlc_200Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag {
+    class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "hlc_792x57_SS";
-        count = 200;
-        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (FMJ) 200rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 759.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
-        mass = 120;
-        displaynameshort = "7.92mm FMJ";
-    };
-    class hlc_200Rnd_792x57_M_MG42 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
-        count = 200;
-        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 200rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 884.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 120;
-        displaynameshort = "7.92mm SmK/Tracer";
-    };
-    class hlc_200Rnd_792x57_T_MG42 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (SmKL'spur) 200rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 884.9;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
-        scope = 2;
-        tracersevery = 1;
         mass = 120;
-        displaynameshort = "7.92mm Tracer";
     };
-    class hlc_50Rnd_792x57_AP_MG42 : 30Rnd_556x45_Stanag{
+
+    class hlc_50Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "hlc_792x57_SmkH";
-        count = 50;
         descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 50<br />Used in: MG42";
         displayname = "MG42 Belt (AP) 50rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 853.44;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42AP_ca.paa";
@@ -558,39 +497,24 @@ class CfgMagazines{
         mass = 24;
         displaynameshort = "7.92mm SmKH";
     };
-    class hlc_100Rnd_792x57_AP_MG42 : 30Rnd_556x45_Stanag{
+    class hlc_100Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "hlc_792x57_SmkH";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (AP) 100rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 853.44;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
         mass = 48;
-        displaynameshort = "7.92mm SmKH";
     };
-    class hlc_200Rnd_792x57_AP_MG42 : 30Rnd_556x45_Stanag{
+    class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "hlc_792x57_SmkH";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (AP) 200rnd 7.92mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
-        initspeed = 853.44;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
         mass = 96;
-        displaynameshort = "7.92mm SmKH";
     };
-    class hlc_50Rnd_762x51_B_MG3 : 30Rnd_556x45_Stanag { 
+
+    class hlc_50Rnd_762x51_B_MG3 : hlc_50Rnd_792x57_B_MG42 { 
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
@@ -606,196 +530,122 @@ class CfgMagazines{
         mass = 20;
         displaynameshort = "7.62mm Ball";
     };
-    class hlc_50Rnd_762x51_M_MG3 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "HLC_762x51_ball";
-        count = 50;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 50rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 20;
-        displaynameshort = "7.62mm Ball/Tracer";
-    };
-    class hlc_50Rnd_762x51_Barrier_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_Barrier";
-        count = 50;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 50rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 815;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 20;
-        displaynameshort = "7.62mm Mk.319/Tracer";
-    };
-    class hlc_50Rnd_762x51_T_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_ball";
-        count = 50;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 50rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
-        scope = 2;
-        tracersevery = 1;
-        mass = 20;
-        displaynameshort = "7.62mm Tracer";
-    };
-    class hlc_100Rnd_762x51_B_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_ball";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
         displayname = "MG3 Belt (Ball) 100rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
         mass = 48;
-        displaynameshort = "7.62mm Ball";
     };
-    class hlc_100Rnd_762x51_M_MG3 : 30Rnd_556x45_Stanag {
+    class hlc_250Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
         author = "Toadie";
-        ammo = "HLC_762x51_ball";
-        count = 100;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 100rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 48;
-        displaynameshort = "7.62mm Ball/Tracer";
-    };
-    class hlc_100Rnd_762x51_Barrier_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_Barrier";
-        count = 100;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 815;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
-        scope = 2;
-        tracersevery = 4;
-        mass = 48;
-        displaynameshort = "7.62mm Mk.319/Tracer";
-    };
-    class hlc_100Rnd_762x51_T_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_ball";
-        count = 100;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 100rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
-        scope = 2;
-        tracersevery = 1;
-        mass = 48;
-        displaynameshort = "7.62mm Tracer";
-    };
-    class hlc_250Rnd_762x51_B_MG3 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "HLC_762x51_ball";
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
         displayname = "MG3 Belt (Ball) 200rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
-        lastroundstracer = 5;
-        picture = "\hlc_wp_mg3\tex\ui\m_mg3ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
         mass = 110;
-        displaynameshort = "7.62mm Ball";
     };
-    class hlc_250Rnd_762x51_M_MG3 : 30Rnd_556x45_Stanag {
+
+    class hlc_50Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
-        count = 250;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 250rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 50<br />Used in: MG3";
+        displayname = "MG3 Belt (Ball-Tracer Mix) 50rnd 7.62mm";
         initspeed = 820;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 110;
+        mass = 20;
         displaynameshort = "7.62mm Ball/Tracer";
     };
-    class hlc_250Rnd_762x51_Barrier_MG3 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: MG3";
+        displayname = "MG3 Belt (Ball-Tracer Mix) 100rnd 7.62mm";
+        mass = 48;
+    };
+    class hlc_250Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 250;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 250<br />Used in: MG3";
+        displayname = "MG3 Belt (Ball-Tracer Mix) 250rnd 7.62mm";
+        mass = 110;
+    };
+
+    class hlc_50Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "HLC_762x51_Barrier";
-        count = 200;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 250rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 50<br />Used in: MG3";
+        displayname = "MG3 Belt (Mk319-Tracer Mix) 50rnd 7.62mm";
         initspeed = 815;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 110;
+        mass = 20;
         displaynameshort = "7.62mm Mk.319/Tracer";
     };
-    class hlc_250Rnd_762x51_T_MG3 : 30Rnd_556x45_Stanag {
+    class hlc_100Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 100<br />Used in: MG3";
+        displayname = "MG3 Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
+        mass = 48;
+    };
+    class hlc_250Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 250;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 250<br />Used in: MG3";
+        displayname = "MG3 Belt (Mk319-Tracer Mix) 250rnd 7.62mm";
+        mass = 110;
+    };
+
+    class hlc_50Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
-        count = 250;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 200<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 250rnd 7.62mm";
-        model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
+        displayname = "MG3 Belt (Tracer) 50rnd 7.62mm";
         initspeed = 820;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 110;
+        mass = 20;
         displaynameshort = "7.62mm Tracer";
     };
+    class hlc_100Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
+        displayname = "MG3 Belt (Tracer) 100rnd 7.62mm";
+        mass = 48;
+    };
+    class hlc_250Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
+        dlc = "Niarms_MG3";
+        author = "Toadie";
+        count = 250;
+        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
+        displayname = "MG3 Belt (Tracer) 250rnd 7.62mm";
+        mass = 110;
+    };
 };
+
 class CfgWeapons {
     class Rifle;
-    class optic_Hamr;
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryFlashLightItem_Base_F;
-    class InventoryOpticsItem_Base_F; 
-    class SlotInfo;
-    class CowsSlot;
-    class PointerSlot;
+
     class Rifle_Base_F : Rifle
     {
-        class ItemInfo;
         class WeaponSlotsInfo;
         class GunParticles;
     };
@@ -807,25 +657,25 @@ class CfgWeapons {
         ACE_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         ACE_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         AGM_Overheating_allowSwapBarrel = 1;
-        airateoffire = 0.5;
-        airateoffiredistance = 500;
+        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
+        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
+        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
+        agm_overheating_allowbarrelswap = 1;
+        agm_bipod = 1;
+        hasBipod = true;
+        bg_bipod = 1;
+        cse_bipod = 1;
+        tmr_autorest_deployable = 1;
+        TMR_acc_bipod = 1;
         scope = protected;
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
         deployedpivot = "deploypoint";
-        magazines[] = {
-            __792MG42_MAGS };
+        magazines[] = { __792MG42_MAGS };
         maxRecoilSway = 0.0150;
         swayDecaySpeed = 1.25;
         recoil = "recoil_zafir";
-        opticsZoomMin = 0.275;
-        opticsZoomMax = 1;
-        opticsZoomInit = 0.75;
-        distanceZoomMin = 300;
-        distanceZoomMax = 300;
-        __DEXTERITY(11.6, 0);
-        inertia = 1.16;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
@@ -847,18 +697,11 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 33;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-            };
-            class PointerSlot : PointerSlot{ compatibleItems[] = {}; };
+            class MuzzleSlot {};
+            class CowsSlot {};
+            class PointerSlot {};
         };
-        descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.92mm";
         bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
         bullet10[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15 };
         bullet11[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_03", 0.281838, 1, 15 };
@@ -872,6 +715,7 @@ class CfgWeapons {
         bullet8[] = { "A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15 };
         bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
         soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
+
         modes[] = { "FullAuto", "close", "short", "medium", "far_optic1", "far_optic2" };
         class FullAuto : Mode_FullAuto
         {
@@ -889,143 +733,104 @@ class CfgWeapons {
             class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
             {
                 soundSetShot[] = { "MG42_Shot_SoundSet", "MG42_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails
-                {
-                    class TailForest
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_meadow", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
+            __ROF(1200);
+            dispersion = 0.001111238;
 
-            begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.105;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
-            dispersion = 0.000261799;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
+			aiRateOfFire = 0.2;
+			aiRateOfFireDistance = 50;
+			aiRateOfFireDispersion = 1;
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 20;
+			midRangeProbab = 0.7;
+			maxRange = 40;
+			maxRangeProbab = "random 0.2";
         };
         class close : FullAuto
         {
-            burst = 10;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 50;
-            minRange = 10;
-            minRangeProbab = 0.05;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 50;
-            maxRangeProbab = 0.04;
-            showToPlayer = 0;
+			showToPlayer = 0;
+			aiBurstTerminable = 1;
+			burst = 10;
+			aiRateOfFire = 1;
+			aiRateOfFireDistance = 250;
+			aiRateOfFireDispersion = 2;
+			minRange = 30;
+			minRangeProbab = 0.8;
+			midRange = 100;
+			midRangeProbab = 0.7;
+			maxRange = 150;
+			maxRangeProbab = "random 0.2";
         };
         class short : close
         {
-            burst = 4;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 300;
-            minRange = 50;
-            minRangeProbab = 0.05;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.04;
+			burst = 4;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 450;
+			aiRateOfFireDispersion = 2;
+			minRange = 80;
+			minRangeProbab = 0.8;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 350;
+			maxRangeProbab = "random 0.2";
         };
         class medium : close
         {
-            aiRateOfFire = 6.0;
-            aiRateOfFireDistance = 900;
-            minRange = 500;
-            minRangeProbab = 0.1;
-            midRange = 700;
-            midRangeProbab = 0.2;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
-            burst = 6;
+			burst = 6;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 700;
+			aiRateOfFireDispersion = 3;
+			minRange = 200;
+			minRangeProbab = 0.8;
+			midRange = 300;
+			midRangeProbab = 0.7;
+			maxRange = 800;
+			maxRangeProbab = "random 0.1";
         };
         class far_optic1 : medium
         {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            burst = 3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1000;
-            minRange = 300;
-            minRangeProbab = 0.05;
-            midRange = 500;
-            midRangeProbab = 0.4;
-            maxRange = 650;
-            maxRangeProbab = 0.01;
+			requiredOpticType = 1;
+			burst = 3;
+			aiRateOfFire = 3;
+			aiRateOfFireDistance = 900;
+			aiRateOfFireDispersion = 4;
+			minRange = 400;
+			minRangeProbab = 0.8;
+			midRange = 600;
+			midRangeProbab = 0.7;
+			maxRange = 1200;
+			maxRangeProbab = "random 0.2";
         };
         class far_optic2 : far_optic1
         {
-            burst = 3;
-            requiredOpticType = 2;
-            minRange = 400;
-            minRangeProbab = 0.05;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 900;
-            maxRangeProbab = 0.01;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 900;
+			requiredOpticType = 2;
+			maxRangeProbab = "random 0.2";
         };
 
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg42_reload", 0.6, 1, 10 };
-    };
+        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg42_reload", 0.8, 1, 18 };
+        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
+        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
+        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
+        class ItemInfo
+        {
+            priority = 1;
+            RMBhint = "XMC";
+            onHoverText = "TODO XMC DSS";
+        };
+   };
+
     class hlc_lmg_MG42 : hlc_MG42_base {
         maxZeroing = 1100;
         scope = public;
         author = "Toadie";
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 431.8;
-        agm_bipod = 1;
-        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
-        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-        agm_overheating_allowbarrelswap = 1;
-        hasBipod = true;
-        recoil = "recoil_zafir";
-        deployedpivot = "deploypoint";
-        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
-        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
-        cursor = "mg";
-        bg_bipod = 1;
-        cse_bipod = 1;
-        tmr_autorest_deployable = 1;
-        TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg42\mg42.p3d";
         reloadaction = "HLC_GestureReloadMG42";
-        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.92mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg42_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Mauser MG42";
-        drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg42_reload", 0.8, 1, 18 };
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
@@ -1034,124 +839,41 @@ class CfgWeapons {
         discretedistanceinitindex = 0;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2wood_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
-        //modes[] = {"FullAuto"};
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
-        inertia = 1.15;
-        __DEXTERITY(11.6, 0);
+        __DEXTERITY(11.6,-3);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 242;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-            };
-            class PointerSlot : PointerSlot{ compatibleItems[] = {}; };
         };
-        class ItemInfo
-        {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto
-        {
-            sounds[] = { "StandardSound" };
+        inertia = 1.36;
 
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
-                soundSetShot[] = { "MG42_Shot_SoundSet", "MG42_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                soundBegin[] = { hlc_wp_Mg3, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails
-                {
-                    class TailForest
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_meadow", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-            
-            begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1.0, 1, 1200 };
-            begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1.0, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 3.1622777, 1, 30 };
-            closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 3.1622777, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.05;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
-            dispersion = 0.001111238;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
-        };
         class Library
         {
-            libTextDesc = "US Ordnance M60E4";
+            libTextDesc = "MG42";
         };
     };
     class hlc_lmg_mg42_bakelite :hlc_lmg_mg42
     {
-        maxZeroing = 1100;
         author = "Toadie";
         model = "\hlc_wp_MG3\mesh\mg42\mg42_a.p3d";
         displayName = "Mauser MG42(Bakelite)";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
-    class hlc_lmg_MG42KWS_t : hlc_lmg_MG42{
-        maxZeroing = 1100;
+    class hlc_lmg_MG42KWS_t : hlc_lmg_MG42 {
         author = "Toadie";
         model = "\hlc_wp_MG3\mesh\mg42\mg42kws.p3d";
         displayName = "Rheinmetall MG42-KWS(Tan)";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         picture = "\hlc_wp_mg3\tex\ui\gear_mg42kws_ca";
-        __DEXTERITY(10.5, 1);
-        inertia = 1.05;
+        __DEXTERITY(10.5,-2);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 193;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-
-            class CowsSlot : asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail{};
         };
+        inertia = 1.2;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverKWS_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1KWS_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
@@ -1169,41 +891,23 @@ class CfgWeapons {
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
+
     class hlc_lmg_MG3 : hlc_MG42_base {
         maxZeroing = 1100;
         scope = public;
         author = "Toadie";
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 431.8;
-        agm_bipod = 1;
-        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
-        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-        agm_overheating_allowbarrelswap = 1;
-        hasBipod = true;
-        recoil = "recoil_zafir";
-        deployedpivot = "deploypoint";
-        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
-        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
-        cursor = "mg";
-        bg_bipod = 1;
-        cse_bipod = 1;
-        tmr_autorest_deployable = 1;
-        TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3.p3d";
         reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.92mm";
+        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg3_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall MG3";
-        drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        __DEXTERITY(10.5, 0);
-        inertia = 1.05;
+        __DEXTERITY(10.5,-3);
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
-        magazines[] = {
-            __762MG3_MAGS };
+        magazines[] = { __762MG3_MAGS };
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
@@ -1211,561 +915,139 @@ class CfgWeapons {
         distanceZoomMax = 1100;
         discretedistanceinitindex = 0;
 
-        //modes[] = {"FullAuto"};
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 220;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-                iconPosition[] = { 0.050000001, 0.38 };
-                iconScale = 0.2;
-            };
-            class CowsSlot : CowsSlot {
-                compatibleItems[] = {};
-                iconPosition[] = { 0.5, 0.30000001 };
-                iconScale = 0.2;
-            };
-            class PointerSlot : PointerSlot{ compatibleItems[] = {};
-            iconPosition[] = { 0.34999999, 0.40000001 };
-            iconScale = 0.25;
-            };
-            class UnderBarrelSlot : UnderBarrelSlot
-            {
-
-                iconPosition[] = { 0.2, 0.80000001 };
-                iconScale = 0.30000001;
-            };
         };
-        class ItemInfo
-        {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto
-        {
-            sounds[] = { "StandardSound" };
+        inertia = 1.25;
 
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
+        class FullAuto : FullAuto
+        {
+            class BaseSoundModeType;
 
             class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
             {
                 soundSetShot[] = { "MG3_Shot_SoundSet", "MG3_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails
-                {
-                    class TailForest
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_meadow", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
             };
-
-            begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.06667;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
+            __ROF(900);
             dispersion = 0.00119269;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
+
+			aiRateOfFire = 0.2;
+			aiRateOfFireDistance = 50;
+			aiRateOfFireDispersion = 1;
+			minRange = 0;
+			minRangeProbab = 0.9;
+			midRange = 20;
+			midRangeProbab = 0.7;
+			maxRange = 40;
+			maxRangeProbab = "random 0.2";
         };
         class close : FullAuto
         {
-            burst = 10;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 50;
-            minRange = 10;
-            minRangeProbab = 0.05;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 50;
-            maxRangeProbab = 0.04;
-            showToPlayer = 0;
+			showToPlayer = 0;
+			aiBurstTerminable = 1;
+			burst = 10;
+			aiRateOfFire = 1;
+			aiRateOfFireDistance = 250;
+			aiRateOfFireDispersion = 2;
+			minRange = 30;
+			minRangeProbab = 0.8;
+			midRange = 100;
+			midRangeProbab = 0.7;
+			maxRange = 150;
+			maxRangeProbab = "random 0.2";
         };
         class short : close
         {
-            burst = 4;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 300;
-            minRange = 50;
-            minRangeProbab = 0.05;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.04;
+			burst = 4;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 450;
+			aiRateOfFireDispersion = 2;
+			minRange = 80;
+			minRangeProbab = 0.8;
+			midRange = 150;
+			midRangeProbab = 0.7;
+			maxRange = 350;
+			maxRangeProbab = "random 0.2";
         };
         class medium : close
         {
-            aiRateOfFire = 6.0;
-            aiRateOfFireDistance = 900;
-            minRange = 500;
-            minRangeProbab = 0.1;
-            midRange = 700;
-            midRangeProbab = 0.2;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
-            burst = 6;
+			burst = 6;
+			aiRateOfFire = 2;
+			aiRateOfFireDistance = 700;
+			aiRateOfFireDispersion = 3;
+			minRange = 200;
+			minRangeProbab = 0.8;
+			midRange = 300;
+			midRangeProbab = 0.7;
+			maxRange = 800;
+			maxRangeProbab = "random 0.1";
         };
         class far_optic1 : medium
         {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            burst = 3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1000;
-            minRange = 300;
-            minRangeProbab = 0.05;
-            midRange = 500;
-            midRangeProbab = 0.4;
-            maxRange = 650;
-            maxRangeProbab = 0.01;
+			requiredOpticType = 1;
+			burst = 3;
+			aiRateOfFire = 3;
+			aiRateOfFireDistance = 900;
+			aiRateOfFireDispersion = 4;
+			minRange = 400;
+			minRangeProbab = 0.8;
+			midRange = 600;
+			midRangeProbab = 0.7;
+			maxRange = 1200;
+			maxRangeProbab = "random 0.2";
         };
         class far_optic2 : far_optic1
         {
-            burst = 3;
-            requiredOpticType = 2;
-            minRange = 400;
-            minRangeProbab = 0.05;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 900;
-            maxRangeProbab = 0.01;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 900;
+			requiredOpticType = 2;
+			maxRangeProbab = "random 0.2";
         };
         class Library
         {
-            libTextDesc = "US Ordnance M60E4";
+            libTextDesc = "MG3";
         };
     };
-    class hlc_lmg_MG3_optic : hlc_MG42_base {
-        maxZeroing = 1100;
+
+    class hlc_lmg_MG3_optic : hlc_lmg_MG3 {
         scope = public;
         author = "Toadie";
-        ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 431.8;
-        agm_bipod = 1;
-        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
-        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-        agm_overheating_allowbarrelswap = 1;
-        hasBipod = true;
-        recoil = "recoil_zafir";
-        deployedpivot = "deploypoint";
-        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
-        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
-        cursor = "mg";
-        bg_bipod = 1;
-        cse_bipod = 1;
-        tmr_autorest_deployable = 1;
-        TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3_later.p3d";
-        reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_m62_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall Mg M/62";
-        drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverDane_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
-        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
-        magazines[] = {
-            __762MG3_MAGS };
-        discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
-        //cameradir = "aim_point";
-        //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
-        distanceZoomMin = 100;
-        distanceZoomMax = 1100;
-        discretedistanceinitindex = 0;
 
-        //modes[] = {"FullAuto"};
-        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 225;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-                iconPosition[] = { 0.050000001, 0.38 };
-                iconScale = 0.2;
-            };
-            class CowsSlot : asdg_OpticRail1913 {
-
+            class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.30000001 };
                 iconScale = 0.2;
-
             };
-            class PointerSlot : asdg_FrontSideRail{
-                compatibleItems[] = {}; 
-                iconPosition[] = { 0.34999999, 0.40000001 };
-                iconScale = 0.25;
-            };            
-            class UnderBarrelSlot : UnderBarrelSlot
-            {
-
-                iconPosition[] = { 0.2, 0.80000001 };
-                iconScale = 0.30000001;
-            };
-        };
-        class ItemInfo
-        {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto
-        {
-            sounds[] = { "StandardSound" };
-
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
-                soundSetShot[] = { "MG3_Shot_SoundSet", "MG3_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails
-                {
-                    class TailForest
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_meadow", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.06667;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
-            dispersion = 0.00119269;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
-        };
-        class close : FullAuto
-        {
-            burst = 10;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 50;
-            minRange = 10;
-            minRangeProbab = 0.05;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 50;
-            maxRangeProbab = 0.04;
-            showToPlayer = 0;
-        };
-        class short : close
-        {
-            burst = 4;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 300;
-            minRange = 50;
-            minRangeProbab = 0.05;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.04;
-        };
-        class medium : close
-        {
-            aiRateOfFire = 6.0;
-            aiRateOfFireDistance = 900;
-            minRange = 500;
-            minRangeProbab = 0.1;
-            midRange = 700;
-            midRangeProbab = 0.2;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
-            burst = 6;
-        };
-        class far_optic1 : medium
-        {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            burst = 3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1000;
-            minRange = 300;
-            minRangeProbab = 0.05;
-            midRange = 500;
-            midRangeProbab = 0.4;
-            maxRange = 650;
-            maxRangeProbab = 0.01;
-        };
-        class far_optic2 : far_optic1
-        {
-            burst = 3;
-            requiredOpticType = 2;
-            minRange = 400;
-            minRangeProbab = 0.05;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 900;
-            maxRangeProbab = 0.01;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 900;
-        };
-        class Library
-        {
-            libTextDesc = "US Ordnance M60E4";
         };
     };
-    class hlc_lmg_MG3KWS : hlc_MG42_base {
-        maxZeroing = 1100;
+
+    class hlc_lmg_MG3KWS : hlc_lmg_MG3 {
         scope = public;
         author = "Toadie";
-        ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 431.8;
-        agm_bipod = 1;
-        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
-        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-        agm_overheating_allowbarrelswap = 1;
-        hasBipod = true;
-        recoil = "recoil_zafir";
-        deployedpivot = "deploypoint";
-        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
-        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
-        cursor = "mg";
-        bg_bipod = 1;
-        cse_bipod = 1;
-        tmr_autorest_deployable = 1;
-        TMR_acc_bipod = 1;
         model = "\hlc_wp_MG3\mesh\mg3\mg3kws.p3d";
-        reloadaction = "HLC_GestureReloadMG3";
-        descriptionShort = "General-Purpose Machine Gun<br/>Caliber: 7.62mm";
         picture = "\hlc_wp_mg3\tex\ui\gear_mg3kws_ca";
-        UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         displayName = "Rheinmetall MG3-KWS(Tan)";
-        __DEXTERITY(10.5, 1);
-        inertia = 1.05;
-        drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
+        __DEXTERITY(10.5,-2);
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverkws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
-        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
-        magazines[] = {
-            __762MG3_MAGS };
-        discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
-        //cameradir = "aim_point";
-        //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
-        distanceZoomMin = 100;
-        distanceZoomMax = 1100;
-        discretedistanceinitindex = 0;
 
-        //modes[] = {"FullAuto"};
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
-        opticsZoomMin = 0.25;
-        opticsZoomMax = 1.25;
-        opticsZoomInit = 0.75;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
             mass = 240;
-            class MuzzleSlot : SlotInfo
-            {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {};
-            };
-            class CowsSlot : asdg_OpticRail1913 {};
-            class PointerSlot : asdg_FrontSideRail{};
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
+            class PointerSlot : asdg_FrontSideRail {};
         };
-        class ItemInfo
-        {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto
-        {
-            sounds[] = { "StandardSound" };
-
-            class BaseSoundModeType /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-            {
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
-                soundSetShot[] = { "MG3_Shot_SoundSet", "MG3_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails
-                {
-                    class TailForest
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_meadow", 1.1, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior
-                    {
-                        sound[] = { "\hlc_wp_Mg3\snd\soundshaders\mg14z\mg14z_indoor", 1, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-            };
-
-            begin1[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            begin2[] = { "\hlc_wp_Mg3\snd\mg3_fire_1p", 1, 1, 1200 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.06667;
-            recoil = "recoil_auto_mk200";
-            recoilProne = "recoil_auto_prone_mk200";
-            dispersion = 0.00119269;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
-        };
-        class close : FullAuto
-        {
-            burst = 10;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 50;
-            minRange = 10;
-            minRangeProbab = 0.05;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 50;
-            maxRangeProbab = 0.04;
-            showToPlayer = 0;
-        };
-        class short : close
-        {
-            burst = 4;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 300;
-            minRange = 50;
-            minRangeProbab = 0.05;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.04;
-        };
-        class medium : close
-        {
-            aiRateOfFire = 6.0;
-            aiRateOfFireDistance = 900;
-            minRange = 500;
-            minRangeProbab = 0.1;
-            midRange = 700;
-            midRangeProbab = 0.2;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
-            burst = 6;
-        };
-        class far_optic1 : medium
-        {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            burst = 3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1000;
-            minRange = 300;
-            minRangeProbab = 0.05;
-            midRange = 500;
-            midRangeProbab = 0.4;
-            maxRange = 650;
-            maxRangeProbab = 0.01;
-        };
-        class far_optic2 : far_optic1
-        {
-            burst = 3;
-            requiredOpticType = 2;
-            minRange = 400;
-            minRangeProbab = 0.05;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 900;
-            maxRangeProbab = 0.01;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 900;
-        };
-        class Library
-        {
-            libTextDesc = "US Ordnance M60E4";
-        };
+        inertia = 1.20;
     };
+
     class hlc_lmg_MG3KWS_b :hlc_lmg_MG3KWS
     {
         author = "Toadie";
