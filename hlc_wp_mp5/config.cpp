@@ -563,7 +563,7 @@ class CfgWeapons {
             mass = 40;
         };
         inertia = 0.15;
-		__PDEXTERITY(2.0,1);
+		__PDEXTERITY(2.0);
     };
 
     class hlc_smg_mp5a2 : hlc_Mp5_base
