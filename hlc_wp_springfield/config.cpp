@@ -281,9 +281,9 @@ class CfgVehicles
 		};
 	};
 	class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_rifle_M1903A1_unertl, hlc_5rnd_3006_1903, M1903A1 Sniper, Niarms_M1903, Toadie, SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M1903A1, hlc_5rnd_3006_1903, M1903A1, Niarms_M1903, Toadie, SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M1903A1OMR, hlc_5rnd_3006_1903, M1903A1(One-Man Revolution), Niarms_M1903, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1_unertl, hlc_5rnd_3006_1903, M1903A1 Sniper, Niarms_M1903, Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1, hlc_5rnd_3006_1903, M1903A1, Niarms_M1903, Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1OMR, hlc_5rnd_3006_1903, M1903A1(One-Man Revolution), Niarms_M1903, Toadie,SniperRifles);
 	};
 class CfgMagazines{
 		class 30Rnd_556x45_Stanag;

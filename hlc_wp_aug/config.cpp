@@ -266,57 +266,57 @@ class CfgVehicles {
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_rifle_aug, hlc_30Rnd_556x45_B_AUG, AUGA1(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1_t, hlc_30Rnd_556x45_B_AUG, AUGA1(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1_b, hlc_30Rnd_556x45_B_AUG, AUGA1(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aug, hlc_30Rnd_556x45_B_AUG, AUGA1(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_t, hlc_30Rnd_556x45_B_AUG, AUGA1(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_b, hlc_30Rnd_556x45_B_AUG, AUGA1(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga1carb, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1carb_b, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1carb_t, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_b, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_t, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_aughbar, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_aughbar_t, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_aughbar_b, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_t, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_b, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augpara, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augpara_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augpara_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2, hlc_30Rnd_556x45_B_AUG, AUGA2(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2_t, hlc_30Rnd_556x45_B_AUG, AUGA2(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2, hlc_30Rnd_556x45_B_AUG, AUGA2(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_t, hlc_30Rnd_556x45_B_AUG, AUGA2(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2carb, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2carb_b, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2carb_t, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_b, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_t, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2lsw, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2lsw_t, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2lsw_b, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_t, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_b, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2para, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2para_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2para_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsr, hlc_30Rnd_556x45_B_AUG, AUG-SR(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr, hlc_30Rnd_556x45_B_AUG, AUG-SR(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsrcarb, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsrhbar, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrhbar_t, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrhbar_b, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_t, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_b, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga3, hlc_30Rnd_556x45_B_AUG, AUGA3(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_bl, hlc_30Rnd_556x45_B_AUG, AUGA3(Blue), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_b, hlc_30Rnd_556x45_B_AUG, AUGA3(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3, hlc_30Rnd_556x45_B_AUG, AUGA3(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_bl, hlc_30Rnd_556x45_B_AUG, AUGA3(Blue), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_b, hlc_30Rnd_556x45_B_AUG, AUGA3(Black), Niarms_AUG, Toadie,AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga3_GL, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(OD), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_GL_bl, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Blue), Niarms_AUG, Toadie, AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_GL_b, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Black), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(OD), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_bl, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Blue), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_b, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Black), Niarms_AUG, Toadie,AssaultRifles);
     
     class HLC_AUG_Weaponbox1 : NATO_Box_Base {
         dlc = "Niarms_AUG";
