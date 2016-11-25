@@ -1,11 +1,5 @@
 ﻿#include "script_macros.hpp"
 
-class asdg_FrontSideRail;
-class asdg_OpticRail1913;
-class asdg_OpticRail1913_short;
-class asdg_OpticRail1913_long;
-class asdg_UnderSlot;
-
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
     class compatibleItems {
@@ -91,7 +85,7 @@ class CfgGesturesMale
 
 class CfgPatches {
     class hlcweapons_core {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F"};
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","cba_jr"};
         units[] = {};
         weapons[] = {};
         magazines[] = {};
