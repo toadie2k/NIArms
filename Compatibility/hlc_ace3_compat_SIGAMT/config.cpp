@@ -14,9 +14,8 @@ class CfgPatches
 
 class CfgWeapons
 {
-    class ItemCore;
     class InventoryOpticsItem_Base_F;
-    class optic_Arco : ItemCore{};
+    class optic_Arco;
 
     class hlc_optic_Kern :optic_arco
     {
@@ -40,26 +39,18 @@ class CfgWeapons
             };
         };
     };
-        class hlc_optic_Kern2d : hlc_optic_Kern
+    class hlc_optic_Kern2d : hlc_optic_Kern
+    {
+        class ItemInfo : ItemInfo
         {
-            ACE_ScopeAdjust_Vertical[] = { -5, 13 };
-            ACE_ScopeAdjust_Horizontal[] = { -7, 7 };
-            ACE_ScopeAdjust_VerticalIncrement = 0.25;
-            ACE_ScopeAdjust_HorizontalIncrement = 0.25;
-            class ItemInfo : InventoryOpticsItem_Base_F
+            class OpticsModes : OpticsModes
             {
-                mass = 10;
-                opticType = 1;
-                optics = 1;
-                modelOptics = "\hlc_wp_sigamt\mesh\aarau\aarau_optics";
-                class OpticsModes
+                class Snip : Snip
                 {
-                    class Snip
-                    {
-                        discreteDistance[] = { 100 };
-                        discreteDistanceInitIndex = 0;
-                    };
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
                 };
             };
+        };
     };
 };
