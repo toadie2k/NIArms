@@ -368,7 +368,7 @@ class CfgWeapons {
 
         drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
         reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
-        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
+        changeFiremodeSound[] = { "hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         class hlc_M203 : UGL_F {

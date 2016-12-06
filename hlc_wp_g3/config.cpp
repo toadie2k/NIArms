@@ -617,7 +617,7 @@ class CfgWeapons {
 
 
     class hlc_g3_base : Rifle_Base_F {
-        changeFiremodeSound[] = { "\hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
+        changeFiremodeSound[] = { "hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
         dlc = "Niarms_G3";
         recoil = "recoil_dmr_03";
         magazineReloadSwitchPhase = 0.5;
