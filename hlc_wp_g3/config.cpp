@@ -631,8 +631,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK";
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
+        __AI_DISPERSION_COEF;
         class GunParticles: GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
@@ -682,7 +681,7 @@ class CfgWeapons {
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
 
-        modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics1"};
+ 		modes[] = {"Single", "FullAuto", "AI_Single_optics1", "AI_Single_optics2"};
 
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -705,15 +704,7 @@ class CfgWeapons {
             reloadTime = 0.097;
             dispersion = 0.000334521;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 1;
-            midRangeProbab = 0.8;
-            maxRange = 5;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -736,54 +727,17 @@ class CfgWeapons {
             reloadTime = 0.097;
             dispersion = 0.000334521;
 
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 300;
-            aiRateOfFireDispersion = 2;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
         };
-        class single_medium_optics1 : Single {
-            requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1600;
-            maxRangeProbab = 0.1;
-        };
-        class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
-        };
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+		};
         drysound[] = {"\hlc_core\sound\empty_sniperrifles", 1, 1, 10};
         // reloadMagazineSound[] = {"\hlc_wp_ak\snd\ak74m_reload",0.74,1,30};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -891,26 +845,14 @@ class CfgWeapons {
             };
         };
 
-        modes[] = {"Single", "single_medium_optics1"};
+        modes[] = {"Single"};
 
         class Single : Single {
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "psg1_Shot_SoundSet", "psg1_Tail_SoundSet" };
             };
             dispersion = 0.000218166;
-            minRange = 0;
-        };
-        class single_medium_optics1 : Single { // same 6x optic
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 1000;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SNIPER762_SEMI;
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -928,7 +870,7 @@ class CfgWeapons {
         picture = "\hlc_wp_g3\tex\ui\gear_psg1a1_ca";
         discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
-        __DESTERITY(6,0);
+        __DEXTERITY(6,0);
         class OpticsModes {
             class Snip {
                 //cameradir = "look";
@@ -947,33 +889,21 @@ class CfgWeapons {
                 opticsDisplayName = "WFOV";
             };
         };
-        modes[] = {"Single", "single_medium_optics1", "single_far_optics1"};
 
-        class single_medium_optics1 : Single {
-            requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+ 		modes[] = {"Single", "AI_Single_optics1", "AI_Single_optics2"};
+
+        class Single : Single {
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
         };
-        class single_far_optics1 : single_medium_optics1 {
-            requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 0;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1600;
-            maxRangeProbab = 0.1;
-        };
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+		};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 126;
@@ -992,7 +922,7 @@ class CfgWeapons {
         model = "\hlc_wp_g3\mesh\psg1\psg1a1_RAS.p3d";
         displayName = "HK PSG1A1(RIS)";
         picture = "\hlc_wp_g3\tex\ui\gear_psg1a1_ca";
-        __DESTERITY(6.3, 0);
+        __DEXTERITY(6.3, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 132;
             class CowsSlot : asdg_OpticRail1913_short {};
@@ -1018,8 +948,11 @@ class CfgWeapons {
         model = "\hlc_wp_g3\mesh\g3a3\g3a3.p3d";
         hiddenSelections[] = { "Main", "Reciever", "Rec2", "Grip", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_co.tga", "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\recgreen_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\synthgreen_co.tga",""};
-        __DEXTERITY(4.1, 0);
-        inertia = 0.41;
+        __DEXTERITY(4.25, 0);
+        inertia = 0.43;
+
+ 		modes[] = {"Single", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
+
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g3_Shot_SoundSet", "g3_Tail_SoundSet" };
@@ -1031,50 +964,28 @@ class CfgWeapons {
                 soundSetShot[] = { "g3_Shot_SoundSet", "g3_Tail_SoundSet" };
             };
             dispersion = 0.000436332;
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
-        class single_medium_optics1 : Single {
-            requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
-        };
-        class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
-        };
+		class AI_Burst_close: FullAuto {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 4;
+			__AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+		};
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+		};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 86;
         };
-        inertia = 0.44;
     };
+
     class hlc_rifle_g3a3ris : hlc_rifle_g3a3 {
         displayName = "HK G3A3(RIS)";
         model = "\hlc_wp_g3\mesh\g3a3\g3a3_railed.p3d";
@@ -1136,44 +1047,21 @@ class CfgWeapons {
                 soundSetShot[] = { "g3ka4_Shot_SoundSet", "g3ka4_Tail_SoundSet" };
             };
         };
-        class single_medium_optics1 : Single {
-            requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1000;
-            maxRangeProbab = 0.1;
-        };
-        class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
-        };
+		class AI_Burst_close: FullAuto {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 4;
+			__AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+		};
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+		};
     };
 
     class HLC_Rifle_g3ka4_GL : hlc_rifle_g3ka4 {
@@ -1186,13 +1074,11 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Rail", "Stock", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga", "hlc_wp_g3\tex\arby_mp5n\mp5_co.tga","hlc_wp_g3\tex\tigg_m203\m203_co.tga" };
         __DEXTERITY(4.5 + 1.36, 0);
-        inertia= 0.58
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 123;
             class UnderBarrelSlot {};
         };
-
-
+        inertia = 0.79;
     };
 
     class hlc_rifle_hk51 : hlc_rifle_g3sg1 {
@@ -1219,12 +1105,16 @@ class CfgWeapons {
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g41_reload", 1.0,1,25};
         inertia = 0.36;
         __DEXTERITY(3.66, 0);
+
+		modes[] = {"Single", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
+
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "hk51_Shot_SoundSet", "hk51_Tail_SoundSet" };
             };
             reloadTime = 0.085;
             dispersion = 0.0013;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1232,36 +1122,22 @@ class CfgWeapons {
             };
             reloadTime = 0.085;
             dispersion = 0.0013;
+            __AI_ROF_CQB_SINGLE;
         };
-        class single_medium_optics1 : Single {
-            requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics1 : single_medium_optics1 {
-            requiredoptictype = 2;
-        };
-        class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
-        };
+		class AI_Burst_close: FullAuto {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 4;
+			__AI_ROF_CQB_CLOSE_BURST;
+		};
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_CQB_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+		};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 76;
         };
@@ -1298,7 +1174,8 @@ class CfgWeapons {
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g41_reload", 1.0,1,25};
         inertia = 0.31;
         __DEXTERITY(3.05, 0);
-        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+
+		modes[] = {"Single", "Burst", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
 
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1321,15 +1198,7 @@ class CfgWeapons {
             __ROF(700);
             dispersion = 0.0011;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 5;
-            midRangeProbab = 0.8;
-            maxRange = 10;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1352,15 +1221,7 @@ class CfgWeapons {
             __ROF(700);
             dispersion = 0.0011;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 400;
-            maxRangeProbab = 0.1;
+            __AI_ROF_CQB_SINGLE;
         };
         class Burst : Mode_Burst {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1383,32 +1244,22 @@ class CfgWeapons {
             __ROF(700);
             dispersion = 0.0011;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_CQB_SHORT_BURST;
         };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.6;
-            maxRange = 500;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-        };
+		class AI_Burst_close: FullAuto {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 4;
+			__AI_ROF_CQB_CLOSE_BURST;
+		};
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_CQB_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+		};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61;
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
@@ -1464,7 +1315,8 @@ class CfgWeapons {
         reloadmagazinesound[] = { "\hlc_wp_g3\snd\g41_reload", 1.0, 1, 25 };
         inertia = 0.36;
         __DEXTERITY(3.65, 0);
-        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+
+		modes[] = {"Single", "Burst", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2", "AI_far"};
 
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1487,15 +1339,7 @@ class CfgWeapons {
             __ROF(750);
             dispersion = 0.000436332;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 5;
-            midRangeProbab = 0.8;
-            maxRange = 10;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1518,15 +1362,7 @@ class CfgWeapons {
             __ROF(750);
             dispersion = 0.000436332;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SINGLE;
         };
         class Burst : Mode_Burst {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1549,43 +1385,31 @@ class CfgWeapons {
             __ROF(750);
             dispersion = 0.000436332;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SHORT_BURST;
         };
+		class AI_Burst_close: FullAuto {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 4;
+			__AI_ROF_RIFLE_SMALL_CLOSE_BURST;
+		};
+		class AI_Single_optics1: Single {
+			showToPlayer = 0;
+			requiredOpticType = 1;
+			__AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+		};
+		class AI_Single_optics2: AI_Single_optics1 {
+			requiredOpticType = 2;
+			__AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+		};
+		class AI_far: Single {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			burst = 5;
+            reloadtime = 0.2;
+			__AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+		};
 
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
-        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 77;
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
