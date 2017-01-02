@@ -379,15 +379,7 @@ class CfgWeapons {
             __ROF(800);
             dispersion = 0.00093;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 200;
-            aiRateOfFireDispersion = 2;
-            minRange = 40;
-            minRangeProbab = 0.9;
-            midRange = 80;
-            midRangeProbab = 0.5;
-            maxRange = 250;
-            maxRangeProbab = 0.1;
+            __AI_ROF_SMG_SINGLE;
         };
 
         class Burst: Mode_Burst
@@ -415,16 +407,7 @@ class CfgWeapons {
             __ROF(800);
             dispersion = 0.00093;
 
-            //AI
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 40;
-            midRangeProbab = 0.5;
-            maxRange = 50;
-            maxRangeProbab = 0.2;
+            __AI_ROF_SMG_BURST;
         };
 
         class FullAuto: Mode_FullAuto
@@ -452,20 +435,10 @@ class CfgWeapons {
             __ROF(800);
             dispersion = 0.00093;
 
-            //AI
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.8;
-            maxRange = 30;
-            maxRangeProbab = 0.2;
+            __AI_ROF_SMG_FULLAUTO;
         };
 
-        aidispersioncoefx = 9;
-        aidispersioncoefy = 8;
+        __AI_DISPERSION_COEF;
     };
 
     class hlc_smg_mp5k_PDW : hlc_Mp5_base
@@ -654,7 +627,12 @@ class CfgWeapons {
         };
     };
 
-    class UGL_F;
+    class GrenadeLauncher;
+    class UGL_F : GrenadeLauncher {
+        class Single : Mode_SemiAuto {
+            class StandardSound;
+        };
+    };
     class hlc_smg_9mmar : hlc_smg_MP5N
     {
         scope = public;
@@ -723,21 +701,13 @@ class CfgWeapons {
             magazinereloadtime = 0;
             reloadmagazinesound[] = {"hlc_wp_mp5\snd\gren_cock1", 1, 1, 20};
             reloadtime = 0.1;
-            sounds[] = { "StandardSound"};
-            class BaseSoundModeType
-            {
-                closure1[] = { "A3\Sounds_F\arsenal\weapons\UGL\Closure_UGL", 1.0, 1, 10 };
-                soundClosure[] = { "closure1", 1 };
-            };
-            class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            {
-                begin1[] = { "\hlc_wp_MP5\snd\glauncher", 1, 1, 400 };
-                begin2[] = { "\hlc_wp_MP5\snd\glauncher", 1, 1, 400 };
-                begin3[] = { "\hlc_wp_MP5\snd\glauncher", 1, 1, 400 };
-            };
-            soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-            sound[] = {"hlc_wp_mp5\snd\glauncher", 1, 1, 400};
             weaponinfotype = "RscWeaponZeroing";
+            class Single : Single {
+                class StandardSound : StandardSound {
+                    begin1[] = {"\hlc_wp_MP5\snd\glauncher", 1, 1, 400};
+                    soundBegin[] = {"begin1", 1};
+                };
+            };
         };
     };
 
