@@ -92,3 +92,5 @@
 #define __DEXTERITY(__COMPONENTS,__MODIF) dexterity = __EVAL((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4); aimTransitionSpeed = __EVAL(((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4) * 0.7)
 // handguns have another formula
 #define __PDEXTERITY(__COMPONENTS) dexterity = __EVAL((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9); aimTransitionSpeed = __EVAL(((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9) * 0.7)
+
+#include "script_ai.hpp"
