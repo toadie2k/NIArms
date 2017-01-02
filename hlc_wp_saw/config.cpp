@@ -331,12 +331,14 @@ class CfgWeapons {
         bullet11[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_03.wss", 0.01, 1, 15 };
         bullet12[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_04.wss", 0.01, 1, 15 };
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
-        modes[] = { "FullAuto", "close",
-            "short",
-            "medium",
-            "far_optic1",
-            "far_optic2"
+
+		modes[] = {
+            "FullAuto",
+            "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar",
+            "AI_far_optic1", "AI_toofar_optic1",
+            "AI_far_optic2", "AI_toofar_optic2"
         };
+
         inertia = 0.8;
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -359,73 +361,43 @@ class CfgWeapons {
             reloadTime = 0.067;
             dispersion = 0.00101;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 40;
-            maxRangeProbab = "random 0.2";
+            __AI_ROF_MG_FULLAUTO;
         };
-        class close : FullAuto {
-            showToPlayer = 0;
+
+		class AI_long: FullAuto {
+			showToPlayer = 0;
             aiBurstTerminable = 1;
-            burst = 10;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = "random 0.2";
-        };
-        class short : close {
-            burst = 8;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 350;
-            maxRangeProbab = "random 0.2";
-        };
-        class medium : close {
-            burst = 5;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 700;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = "random 0.1";
-        };
-        class far_optic1 : close {
-            requiredOpticType = 1;
-            burst = 3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 900;
-            aiRateOfFireDispersion = 4;
-            minRange = 400;
-            minRangeProbab = 0.8;
-            midRange = 600;
-            midRangeProbab = 0.7;
-            maxRange = 1200;
-            maxRangeProbab = "random 0.2";
-        };
-        class far_optic2 : far_optic1 {
-            requiredOpticType = 2;
-            maxRangeProbab = "random 0.2";
-        };
-        aidispersioncoefx = 21;
-        aidispersioncoefy = 24;
+			__AI_ROF_MG_LONG_BURST;
+		};
+		class AI_close: AI_long {
+			__AI_ROF_MG_CLOSE_BURST;
+		};
+		class AI_short: AI_close {
+			__AI_ROF_MG_SHORT_BURST;
+		};
+		class AI_medium: AI_close {
+			__AI_ROF_MG_MEDIUM_BURST;
+		};
+		class AI_far: AI_close {
+			__AI_ROF_MG_FAR_BURST;
+		};
+		class AI_toofar: AI_far {
+			__AI_ROF_MG_VERYFAR_BURST;
+		};
+		class AI_far_optic1: AI_far {
+			requiredOpticType = 1;
+			__AI_ROF_MG_FAR_SCOPE_BURST;
+		};
+		class AI_toofar_optic1: AI_far_optic1 {
+			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
+		};
+		class AI_far_optic2: AI_far_optic1 {
+			requiredOpticType = 2;
+		};
+		class AI_toofar_optic2: AI_toofar_optic1 {
+			requiredOpticType = 2;
+		};
+        __AI_DISPERSION_COEF;
 
         drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
         reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
@@ -820,61 +792,40 @@ class CfgWeapons {
             __ROF(730);
             dispersion = 0.000261799;
         };
-        class close : FullAuto {
-            showToPlayer = 0;
+
+		class AI_long: FullAuto {
+			showToPlayer = 0;
             aiBurstTerminable = 1;
-            burst = 10;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = "random 0.2";
-        };
-        class short : close {
-            burst = 8;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 350;
-            maxRangeProbab = "random 0.2";
-        };
-        class medium : close {
-            burst = 5;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 700;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = "random 0.1";
-        };
-        class far_optic1 : close {
-            requiredOpticType = 1;
-            burst = 3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 900;
-            aiRateOfFireDispersion = 4;
-            minRange = 400;
-            minRangeProbab = 0.8;
-            midRange = 600;
-            midRangeProbab = 0.7;
-            maxRange = 1200;
-            maxRangeProbab = "random 0.2";
-        };
-        class far_optic2 : far_optic1 {
-            requiredOpticType = 2;
-            maxRangeProbab = "random 0.2";
-        };
+			__AI_ROF_MG_LONG_BURST;
+		};
+		class AI_close: AI_long {
+			__AI_ROF_MG_CLOSE_BURST;
+		};
+		class AI_short: AI_close {
+			__AI_ROF_MG_SHORT_BURST;
+		};
+		class AI_medium: AI_close {
+			__AI_ROF_MG_MEDIUM_BURST;
+		};
+		class AI_far: AI_close {
+			__AI_ROF_MG_FAR_BURST;
+		};
+		class AI_toofar: AI_far {
+			__AI_ROF_MG_VERYFAR_BURST;
+		};
+		class AI_far_optic1: AI_far {
+			requiredOpticType = 1;
+			__AI_ROF_MG_FAR_SCOPE_BURST;
+		};
+		class AI_toofar_optic1: AI_far_optic1 {
+			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
+		};
+		class AI_far_optic2: AI_far_optic1 {
+			requiredOpticType = 2;
+		};
+		class AI_toofar_optic2: AI_toofar_optic1 {
+			requiredOpticType = 2;
+		};
     };
     class hlc_lmg_mk46mod1 : hlc_lmg_mk46
     {
@@ -955,71 +906,43 @@ class CfgWeapons {
             reloadTime = 0.084;
             dispersion = 0.000261799;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 40;
-            maxRangeProbab = "random 0.2";
+            __AI_ROF_MG_FULLAUTO;
         };
-        class close : FullAuto {
-            showToPlayer = 0;
+
+		class AI_long: FullAuto {
+			showToPlayer = 0;
             aiBurstTerminable = 1;
-            burst = 10;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = "random 0.2";
-        };
-        class short : close {
-            burst = 8;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 350;
-            maxRangeProbab = "random 0.2";
-        };
-        class medium : close {
-            burst = 5;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 700;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = "random 0.1";
-        };
-        class far_optic1 : close {
-            requiredOpticType = 1;
-            burst = 3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 900;
-            aiRateOfFireDispersion = 4;
-            minRange = 400;
-            minRangeProbab = 0.8;
-            midRange = 600;
-            midRangeProbab = 0.7;
-            maxRange = 1200;
-            maxRangeProbab = "random 0.2";
-        };
-        class far_optic2 : far_optic1 {
-            requiredOpticType = 2;
-            maxRangeProbab = "random 0.2";
-        };
+			__AI_ROF_MG_LONG_BURST;
+		};
+		class AI_close: AI_long {
+			__AI_ROF_MG_CLOSE_BURST;
+		};
+		class AI_short: AI_close {
+			__AI_ROF_MG_SHORT_BURST;
+		};
+		class AI_medium: AI_close {
+			__AI_ROF_MG_MEDIUM_BURST;
+		};
+		class AI_far: AI_close {
+			__AI_ROF_MG_FAR_BURST;
+		};
+		class AI_toofar: AI_far {
+			__AI_ROF_MG_VERYFAR_BURST;
+		};
+		class AI_far_optic1: AI_far {
+			requiredOpticType = 1;
+			__AI_ROF_MG_FAR_SCOPE_BURST;
+		};
+		class AI_toofar_optic1: AI_far_optic1 {
+			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
+		};
+		class AI_far_optic2: AI_far_optic1 {
+			requiredOpticType = 2;
+		};
+		class AI_toofar_optic2: AI_toofar_optic1 {
+			requiredOpticType = 2;
+		};
+
         class Library {
             libTextDesc = "Mk48";
         };
