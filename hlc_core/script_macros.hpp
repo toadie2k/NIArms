@@ -94,3 +94,5 @@
 #define __PDEXTERITY(__COMPONENTS) dexterity = __EVAL((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9); aimTransitionSpeed = __EVAL(((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9) * 0.7)
 
 #include "script_ai.hpp"
+
+#define __MAGSWITCHCLASS "nia_magSwitch"

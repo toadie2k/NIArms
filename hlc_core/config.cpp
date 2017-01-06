@@ -3368,6 +3368,17 @@ class CfgFunctions {
                 description = "Generates Niarms specific __WEAPONHOLDER macro lines from existing configured weapons into the clipboard";
                 file = "\hlc_core\functions\fnc_genWeaponHolders.sqf";
             };
+            //Niarms_fnc_magSwitch
+            class magSwitch {
+                description = "Replaces weapon model when available to match currently loaded magazine type";
+                file = "\hlc_core\functions\fnc_magSwitch.sqf";
+            };
         };
     };
+};
+
+class Extended_Reloaded_EventHandlers {
+	class CAManBase {
+		hlcweapons_core = "_this call Niarms_fnc_magSwitch";
+	};
 };

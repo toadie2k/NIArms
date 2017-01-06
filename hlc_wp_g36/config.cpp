@@ -138,7 +138,7 @@ class CfgVehicles {
     class Weapon_Base_F;
     __WEAPONHOLDER(hlc_rifle_G36A1,hlc_30rnd_556x45_EPR_G36,HK G36A1,Niarms_G36,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_G36A1AG36,hlc_30rnd_556x45_EPR_G36,HK G36A1(GL),Niarms_G36,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_MG36,hlc_30rnd_556x45_EPR_G36,HK MG36A1,Niarms_G36,Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_rifle_MG36,hlc_100rnd_556x45_EPR_G36,HK MG36A1,Niarms_G36,Toadie,MachineGuns);
     __WEAPONHOLDER(hlc_rifle_G36KA1,hlc_30rnd_556x45_EPR_G36,HK G36KA1,Niarms_G36,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_G36C,hlc_30rnd_556x45_EPR_G36,HK G36C,Niarms_G36,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_G36E1,hlc_30rnd_556x45_EPR_G36,HK G36E,Niarms_G36,Toadie,AssaultRifles);
@@ -932,6 +932,10 @@ class CfgWeapons {
         };
         inertia = 0.36;
         __DEXTERITY(3.6, 0);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_MG36";
+            default = "hlc_rifle_G36A1";
+        };
     };
 
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
@@ -1024,6 +1028,10 @@ class CfgWeapons {
             midRangeProbab = 0.7;
             maxRange = 300;
             maxRangeProbab = 0.1;
+        };
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_MG36";
+            default = "hlc_rifle_G36A1";
         };
     };
 
