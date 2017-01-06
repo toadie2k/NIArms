@@ -27,6 +27,8 @@ must keep attachments
 
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
+if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
+
 diag_log format["NIA_MAGSWITCH: %1 | PARAMS: %2",diag_ticktime,_this];
 
 if (!local _unit || _weapon == "") exitWith {}; //should not happen but just in case
@@ -90,7 +92,7 @@ if (_muzzle == _weapon) then {
 } else {
 	_mags = getArray(configFile >> "CfgWeapons" >> _weapon >> _muzzle >> "magazines");
 };
-//temporarily remove all mags for this weapon
+//temporarily remove all mags for this weapon; this is to ensure exactly the same mag will be loaded into the new weapon on switch
 {_unit removeMagazines _x} forEach _mags;
 
 //re-add mag that was loaded, new weapon and attachments
@@ -110,7 +112,7 @@ switch (_currWeaponType) do {
     };
 };
 
-//re-add the other mags
+//re-add the other mags into the same pockets as before
 private "_container";
 {
     _x params ["_magClass","_ammoCnt","_magLoaded","_magType","_magLoc"];
@@ -122,7 +124,7 @@ private "_container";
             default {objNull};
         };
         if (!isNull _container) then {_container addMagazineAmmoCargo [_magClass, 1, _ammoCnt]};
-        diag_log format["NIA_MAGSWITCH: %1 | So: %2, Cntnr: %3",diag_ticktime,_x,_container];
+        //diag_log format["NIA_MAGSWITCH: %1 | So: %2, Cntnr: %3",diag_ticktime,_x,_container];
     };
 } forEach _magLoadout;
 

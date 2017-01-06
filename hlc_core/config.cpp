@@ -3370,8 +3370,13 @@ class CfgFunctions {
             };
             //Niarms_fnc_magSwitch
             class magSwitch {
-                description = "Replaces weapon model when available to match currently loaded magazine type";
+                description = "Replaces weapon model when available to match currently loaded magazine type; Reloaded EH";
                 file = "\hlc_core\functions\fnc_magSwitch.sqf";
+            };
+            //Niarms_fnc_magInit
+            class magInit {
+                description = "Replaces weapon model when available to match currently loaded magazine type; Init EH";
+                file = "\hlc_core\functions\fnc_magInit.sqf";
             };
         };
     };
@@ -3382,3 +3387,15 @@ class Extended_Reloaded_EventHandlers {
 		hlcweapons_core = "_this call Niarms_fnc_magSwitch";
 	};
 };
+class Extended_InitPost_EventHandlers {
+	class CAManBase {
+		hlcweapons_core = "_this call Niarms_fnc_magInit";
+	};
+};
+/*
+class Extended_Take_EventHandlers {
+	class CAManBase {
+		hlcweapons_core = "_this call Niarms_fnc_magInit";
+	};
+};
+*/
