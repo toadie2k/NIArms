@@ -652,7 +652,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = { __556G36_MAGS, __556NATO_BI_DRUMS };
+        magazines[] = { __556G36_MAGS };
         class Library {
             libTextDesc = "H&K Gewehr36";
         };
