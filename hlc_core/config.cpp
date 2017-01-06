@@ -3328,8 +3328,8 @@ class CfgMagazines {
 
 class CfgWeapons
 {
-    class ItemCore;
-    class muzzle_snds_M : ItemCore {
+    class muzzle_snds_H;
+    class muzzle_snds_M : muzzle_snds_H {
         class ItemInfo;
     };
     class hlc_muzzle_300blk_KAC : muzzle_snds_M {
