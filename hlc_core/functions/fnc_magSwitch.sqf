@@ -11,7 +11,7 @@
         https://community.bistudio.com/wiki/Arma_3:_Event_Handlers/Reloaded
 
 	Returns:
-        Bool (true if weapon was switched)
+        Nothing
 */
 
 
@@ -21,22 +21,28 @@ must keep ammo count (no cheating)
 must keep attachments
 
 */
+#define DEBUG_MODE_FULL
+#define COMPONENT core
+#include "\hlc_core\script_mod.hpp"
+#include "\x\cba\addons\main\script_macros_common.hpp"
 
-#define __MAGSWITCHCLASS "nia_magSwitch"
+#define __MAGSWITCHCLASSNAME "nia_magSwitch"
 #define __cfgWeapons configfile >> "CfgWeapons"
 
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
 if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
 
-diag_log format["NIA_MAGSWITCH: %1 | PARAMS: %2",diag_ticktime,_this];
+TRACE_1("PARAMS",_this);
 
 if (!local _unit || _weapon == "") exitWith {}; //should not happen but just in case
 
 _newmag params ["_newmagtype", "_newmagcapacity"];
 _oldmag params ["_oldmagtype"];
 
-if (_newmagtype == _oldmagtype) exitWith {false}; //loaded mag of same kind, no change, exit
+if (_newmagtype == _oldmagtype) exitWith {
+    LOG("loaded mag of same kind, no change");
+};
 
 //get weapon type and it's attachments
 private "_weaponItems";
@@ -47,15 +53,21 @@ private _currWeaponType = call {
     _weaponItems = "";
     -1
 };
-if (_currWeaponType < 0) exitWith {false}; //reloaded a grenade or something else
-
-//get weapon class corresponding with loaded magazine
-private _newWeapon = (__cfgWeapons >> _weapon >> __MAGSWITCHCLASS >> _newmagtype) call bis_fnc_getcfgdata;
-if (isNil "_newWeapon") then {
-    _newWeapon = [(__cfgWeapons >> _weapon >> __MAGSWITCHCLASS), "default", _weapon] call BIS_fnc_returnConfigEntry;
+if (_currWeaponType < 0) exitWith {
+    LOG("reloaded a grenade or something else, not a weapon");
 };
 
-if (_newWeapon == _weapon) exitWith {false}; //no change
+//get weapon class corresponding with loaded magazine
+private _newWeapon = (__cfgWeapons >> _weapon >> __MAGSWITCHCLASSNAME >> _newmagtype) call bis_fnc_getcfgdata;
+if (isNil "_newWeapon") then {
+    _newWeapon = [(__cfgWeapons >> _weapon >> __MAGSWITCHCLASSNAME), "default", _weapon] call BIS_fnc_returnConfigEntry;
+};
+
+TRACE_2("",_weapon,_newWeapon);
+
+if (_newWeapon == _weapon) exitWith {
+    LOG("same weapon, no change");
+};
 
 private _firstMuzzle = {
 	private _fm = (getArray (configFile >> "CfgWeapons" >> _this >> "muzzles")) select 0;
@@ -124,10 +136,7 @@ private "_container";
             default {objNull};
         };
         if (!isNull _container) then {_container addMagazineAmmoCargo [_magClass, 1, _ammoCnt]};
-        //diag_log format["NIA_MAGSWITCH: %1 | So: %2, Cntnr: %3",diag_ticktime,_x,_container];
     };
 } forEach _magLoadout;
 
-diag_log format["NIA_MAGSWITCH: %1 | DONE",diag_ticktime];
-
-true
+LOG("DONE");

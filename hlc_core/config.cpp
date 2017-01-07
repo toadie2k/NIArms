@@ -1,4 +1,22 @@
-﻿#include "script_macros.hpp"
+﻿#include "script_mod.hpp"
+#include "script_macros.hpp"
+
+class CfgPatches {
+    class hlcweapons_core {
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","cba_main","cba_jr"};
+        units[] = {};
+        weapons[] = {};
+        magazines[] = {};
+        author="toadie";
+		requiredVersion = REQUIRED_VERSION;
+		versionDesc = "NIARMA - CORE";
+		versionAct = "";
+        version = "1.1";
+    };
+};
+
+#include "CfgFunctions.hpp"
+#include "CfgEventhandlers.hpp"
 
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
@@ -82,17 +100,6 @@ class CfgGesturesMale
 
 
 */
-
-class CfgPatches {
-    class hlcweapons_core {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","cba_jr"};
-        units[] = {};
-        weapons[] = {};
-        magazines[] = {};
-        version="v1.05";
-        author="toadie";
-    };
-};
 
 class CfgMovesBasic {
      class DefaultDie;
@@ -3359,43 +3366,3 @@ class CfgWeapons
         inertia = 0.04;
     };
 };
-
-class CfgFunctions {
-    class Niarms {
-        class Misc {
-            //Niarms_fnc_genWeaponHolders
-            class genWeaponHolders {
-                description = "Generates Niarms specific __WEAPONHOLDER macro lines from existing configured weapons into the clipboard";
-                file = "\hlc_core\functions\fnc_genWeaponHolders.sqf";
-            };
-            //Niarms_fnc_magSwitch
-            class magSwitch {
-                description = "Replaces weapon model when available to match currently loaded magazine type; Reloaded EH";
-                file = "\hlc_core\functions\fnc_magSwitch.sqf";
-            };
-            //Niarms_fnc_magInit
-            class magInit {
-                description = "Replaces weapon model when available to match currently loaded magazine type; Init EH";
-                file = "\hlc_core\functions\fnc_magInit.sqf";
-            };
-        };
-    };
-};
-
-class Extended_Reloaded_EventHandlers {
-	class CAManBase {
-		hlcweapons_core = "_this call Niarms_fnc_magSwitch";
-	};
-};
-class Extended_InitPost_EventHandlers {
-	class CAManBase {
-		hlcweapons_core = "_this call Niarms_fnc_magInit";
-	};
-};
-/*
-class Extended_Take_EventHandlers {
-	class CAManBase {
-		hlcweapons_core = "_this call Niarms_fnc_magInit";
-	};
-};
-*/

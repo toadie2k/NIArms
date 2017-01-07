@@ -5,6 +5,8 @@
 #define true	1
 #define false	0
 
+#define __MAGSWITCHCLASS nia_magSwitch
+
 #define __M_MAG(x,y)	class _xx_##x {magazine = ##x; count = ##y;}
 #define __M_WEP(x,y)	class _xx_##x {weapon = ##x; count = ##y;}
 #define __M_ITM(x,y)	class _xx_##x {name = ##x; count = ##y;}
@@ -94,5 +96,3 @@
 #define __PDEXTERITY(__COMPONENTS) dexterity = __EVAL((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9); aimTransitionSpeed = __EVAL(((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9) * 0.7)
 
 #include "script_ai.hpp"
-
-#define __MAGSWITCHCLASS "nia_magSwitch"
