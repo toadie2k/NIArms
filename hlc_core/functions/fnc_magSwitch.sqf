@@ -69,13 +69,10 @@ if (_newWeapon == _weapon) exitWith {
     LOG("same weapon, no change");
 };
 
-private _firstMuzzle = {
-	private _fm = (getArray (configFile >> "CfgWeapons" >> _this >> "muzzles")) select 0;
-	if (toLower _fm != "this") exitWith {_fm};
-	_this
-};
+//save current mode
+private _cwm = currentWeaponMode _unit; 
 
-//get current mag loadout
+//save current mag loadout
 private _magLoadout = magazinesAmmoFull _unit;
 /*
 Magazine format:
@@ -111,7 +108,8 @@ if (_muzzle == _weapon) then {
 _unit addMagazine [_newmagtype, _newmagcapacity];
 _unit removeWeapon _weapon;
 _unit addWeapon _newWeapon;
-_unit selectWeapon (_newWeapon call _firstMuzzle);
+[_unit, _newWeapon, _cwm] spawn CBA_fnc_selectWeapon;
+
 switch (_currWeaponType) do {
     case 1: {
         { if (_x != "") then {_unit addPrimaryWeaponItem _x} } forEach _weaponItems;
