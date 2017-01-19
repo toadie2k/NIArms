@@ -7,7 +7,7 @@ class CfgPatches
 		units[] = { };
 		weapons[] = { };
 		requiredVersion = 0.100000;
-		requiredAddons[] = { "A3_Weapons_F", "hlcweapons_core", "BWA3_Weapons", "hlcweapons_G36" };
+		requiredAddons[] = { "A3_Weapons_F", "hlcweapons_core", "BWA3_AssaultRifles", "hlcweapons_G36" };
 		version = "1";
 		projectName = "HLCmod";
 		author = "Toadie";
