@@ -18,7 +18,7 @@ class CfgPatches {
             "hlc_rifle_G36KTAC", "hlc_rifle_G36CTAC", "hlc_rifle_G36MLIC", "hlc_rifle_G36KMLIC", "hlc_rifle_G36CMLIC","hlc_rifle_G36MLIAG36"
         };
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_30rnd_556x45_SOST_G36","hlc_30rnd_556x45_SPR_G36","hlc_100rnd_556x45_EPR_G36"};
-        version="v1.15";
+        version = "v1.2";
         author="toadie";
     };
 };
@@ -937,7 +937,13 @@ class CfgWeapons {
             default = "hlc_rifle_G36A1";
         };
     };
-
+    class hlc_rifle_G36A1_CMAG : hlc_rifle_G36A1
+    {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        model = "hlc_wp_g36\mesh\G36A1\G36_CMag.p3d";
+        picture = "\hlc_wp_g36\tex\ui\Gear_G36A1-cmag_ca.paa";
+    };
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -961,7 +967,13 @@ class CfgWeapons {
         inertia = 0.51;
         __DEXTERITY(3.6+1.5, 0);
     };
-
+    class hlc_rifle_G36A1AG36_CMAG : hlc_rifle_G36A1AG36
+    {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        model = "hlc_wp_g36\mesh\G36A1\AG36_CMag.p3d";
+        picture = "\hlc_wp_g36\tex\ui\Gear_AG36A1-cmag_ca.paa";
+    };
     class hlc_rifle_MG36 : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1109,7 +1121,13 @@ class CfgWeapons {
             maxRangeProbab = 0.2;
         };
     };
-
+    class hlc_rifle_G36KA1_CMAG : hlc_rifle_G36KA1
+    {
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        model = "hlc_wp_g36\mesh\G36A1\G36k_CMag.p3d";
+        picture = "\hlc_wp_g36\tex\ui\Gear_g36k-cmag_ca.paa";
+    };
     class hlc_rifle_G36C : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
