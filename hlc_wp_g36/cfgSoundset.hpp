@@ -4,7 +4,7 @@ class CfgSoundSets
 	class g36_MLI_Shot_SoundSet
 	{
 		soundShaders[] = { "g36_MLI_Closure_SoundShader", "g36_MLI_closeShot_SoundShader", "g36_MLI_midShot_SoundShader", "g36_MLI_distShot_SoundShader" };
-		volumeFactor = 1.3;
+		volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -49,7 +49,7 @@ class CfgSoundSets
 	class g36k_MLI_Shot_SoundSet
 	{
 		soundShaders[] = { "g36k_MLI_Closure_SoundShader", "g36k_MLI_closeShot_SoundShader", "g36k_MLI_midShot_SoundShader", "g36k_MLI_distShot_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -73,7 +73,7 @@ class CfgSoundSets
 	class g36c_MLI_Shot_SoundSet
 	{
 		soundShaders[] = { "g36c_MLI_Closure_SoundShader", "g36c_MLI_closeShot_SoundShader", "g36c_MLI_midShot_SoundShader", "g36c_MLI_distShot_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -97,7 +97,7 @@ class CfgSoundSets
 	class g36_Shot_SoundSet
 	{
 		soundShaders[] = { "g36_closeShot_SoundShader", "g36_midShot_SoundShader", "g36_distShot_SoundShader", "g36_Closure_SoundShader" };
-		volumeFactor = 1.6;
+		volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
