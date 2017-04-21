@@ -106,6 +106,10 @@ class CfgMovesBasic {
 
      class ManActions {
         HLC_GestureReloadAK = "HLC_GestureReloadAK";
+        HLC_GestureReloadAK762 = "HLC_GestureReloadAK762";
+        HLC_GestureReloadAK545OneHand= "HLC_GestureReloadAK545OneHand";
+        HLC_GestureReloadAK545 = "HLC_GestureReloadAK545";
+        HLC_GestureReloadAK762DRUM = "HLC_GestureReloadAK762DRUM";
         HLC_GestureReloadM60= "HLC_GestureReloadM60";
         HLC_GestureReloadSMLE= "HLC_GestureReloadSMLE";
         HLC_GestureReloadBoltSMLE= "HLC_GestureReloadBoltSMLE";
@@ -138,6 +142,10 @@ class CfgMovesBasic {
 
         class NoActions : ManActions {
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK", "Gesture"};
+            HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762", "Gesture" };
+            HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand", "Gesture" };
+            HLC_GestureReloadAK545[] = { "HLC_GestureReloadAK545", "Gesture" };
+            HLC_GestureReloadAK762DRUM[] = { "HLC_GestureReloadAK762DRUM", "Gesture" };
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60", "Gesture"};
             HLC_GestureReloadSMLE[] =  {"HLC_GestureReloadSMLE", "Gesture"};
             HLC_GestureReloadBoltSMLE[] = {"HLC_GestureReloadBoltSMLE", "Gesture"};
@@ -168,6 +176,10 @@ class CfgMovesBasic {
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Prone","Gesture"};
             HLC_GestureReloadRPK[]= {"HLC_GestureReloadRPK_Prone","Gesture"};
             HLC_GestureReloadAK[]= {"HLC_GestureReloadAK_Prone","Gesture"};
+            HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762_Prone", "Gesture" };
+            HLC_GestureReloadAK545[] = { "HLC_GestureReloadAK545_Prone", "Gesture" };
+            HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand_Prone", "Gesture" };
+            HLC_GestureReloadAK762DRUM[] = { "HLC_GestureReloadAK762DRUM_Prone", "Gesture" };
             HLC_GestureReloadAK12[]= {"HLC_GestureReloadAK12_Prone", "Gesture"};
             HLC_GestureReloadAKLONG[] = {"HLC_GestureReloadAK12_Prone","Gesture"};
             HLC_GestureReloadG3SG1[] = {"HLC_GestureReloadG3SG1_prone","Gesture"};
@@ -193,6 +205,10 @@ class CfgMovesBasic {
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Context","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK_Context","Gesture"};
+            HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762_Context", "Gesture" };
+            HLC_GestureReloadAK545[] = { "HLC_GestureReloadAK545_Context", "Gesture" };
+            HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand_Context", "Gesture" };
+            HLC_GestureReloadAK762DRUM[] = { "HLC_GestureReloadAK762DRUM_Context", "Gesture" };
             HLC_GestureReloadRPK[] = {"HLC_GestureReloadRPK_Context","Gesture"};
             HLC_GestureReloadAK12[] = {"HLC_GestureReloadAK12_Context","Gesture"};
             HLC_GestureReloadAKLONG[] = {"HLC_GestureReloadAK_LongContext","Gesture"};
@@ -218,6 +234,10 @@ class CfgMovesBasic {
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Context","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK_Context","Gesture"};
+            HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762_Context", "Gesture" };
+            HLC_GestureReloadAK545[] = { "HLC_GestureReloadAK545_Context", "Gesture" };
+            HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand_Context", "Gesture" };
+            HLC_GestureReloadAK762DRUM[] = { "HLC_GestureReloadAK762DRUM_Context", "Gesture" };
             HLC_GestureReloadRPK[] = {"HLC_GestureReloadRPK_Context","Gesture"};
             HLC_GestureReloadAK12[] = {"HLC_GestureReloadAK12_Context","Gesture"};
             HLC_GestureReloadAKLONG[] = {"HLC_GestureReloadAK_LongContext","Gesture"};
@@ -242,6 +262,10 @@ class CfgMovesBasic {
         class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK","Gesture"};
+            HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762", "Gesture" };
+            HLC_GestureReloadAK545[] = { "HLC_GestureReloadAK545", "Gesture" };
+            HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand", "Gesture" };
+            HLC_GestureReloadAK762Drum[] = { "HLC_GestureReloadAK762Drum", "Gesture" };
             HLC_GestureReloadRPK[] = {"HLC_GestureReloadRPK","Gesture"};
             HLC_GestureReloadAK12[] = {"HLC_GestureReloadAK12","Gesture"};
             HLC_GestureReloadAKLONG[] = {"HLC_GestureReloadAK12","Gesture"};
@@ -271,7 +295,7 @@ class CfgGesturesMale {
 
     class States {
         class HLC_GestureReloadAK : Default {
-            file="\hlc_core\animation\gesture\ak_reload.rtm";
+            file="\hlc_core\animation\gesture\reload_ak_onehanded.rtm";
             looped=0;
             speed = 0.23076923076923076923076923076923;
             mask="handsWeapon";
@@ -301,6 +325,138 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK_Context : HLC_GestureReloadAK {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GestureReloadAK545OneHand : Default {
+            file = "\hlc_core\animation\gesture\reload_ak545onehand_standing.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.200000;
+            headBobMode = 2;
+            leftHandIKBeg = false;
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK545OneHand_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.02;
+            headBobMode = 2;
+            leftHandIKBeg = false;
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK545OneHand_Context : HLC_GestureReloadAK545OneHand {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GestureReloadAK545 : Default {
+            file = "\hlc_core\animation\gesture\reload_ak545_standing.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.200000;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0.631944, 1, 0.657922, 0, 0.840278, 0, 0.875, 1 };
+            leftHandIKCurve[] = { 0, 1, 0.03125, 0, 0.868056, 0, 0.96, 1 };
+            leftHandIKBeg = false;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK545_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.02;
+            headBobMode = 2;
+            leftHandIKBeg = false;
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK545_Context : HLC_GestureReloadAK545 {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GestureReloadAK762 : Default {
+            file = "\hlc_core\animation\gesture\reload_ak762_standing.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.200000;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0.631944, 1, 0.657922, 0, 0.840278, 0, 0.875, 1 };
+            leftHandIKCurve[] = { 0, 1, 0.03125, 0, 0.868056, 0, 0.96, 1 };
+            leftHandIKBeg = false;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK762_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            looped = 0;
+            speed = 0.29;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.02;
+            headBobMode = 2;
+            leftHandIKBeg = false;
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK762_Context : HLC_GestureReloadAK762 {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GestureReloadAK762Drum : Default {
+            file = "\hlc_core\animation\gesture\reload_ak762drum_standing.rtm";
+            looped = 0;
+            speed = -5.833333;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.200000;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0.67428, 1, 0.702857, 0, 0.88, 0, 0.90857, 1 };
+            leftHandIKCurve[] = { 0, 1, 0.03125, 0, 0.91428, 0, 0.96, 1 };
+            leftHandIKBeg = false;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK762Drum_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            looped = 0;
+            speed = 0.29;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.02;
+            headBobMode = 2;
+            leftHandIKBeg = false;
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAK762Drum_Context : HLC_GestureReloadAK762Drum {
             mask = "handsWeapon_context";
         };
         class HLC_GestureReloadM60 : Default {
@@ -3364,5 +3520,22 @@ class CfgWeapons
             mass = 5;
         };
         inertia = 0.04;
+    };
+    class Rifle_Base_F;
+    class arifle_MX_Base_F;
+    class mk20_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS };
+    };
+    class SDAR_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS };
+    };
+    class Tavor_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS };
+    };
+    class arifle_SPAR_01_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS };
+    };
+    class arifle_SPAR_02_base_F : Rifle_Base_F {
+        magazines[] += { __556STANAG_MAGS };
     };
 };
