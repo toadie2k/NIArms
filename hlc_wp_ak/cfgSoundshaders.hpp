@@ -62,7 +62,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -102,7 +102,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -110,7 +110,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak47\ak47_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -126,7 +126,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak47\ak47_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -141,7 +141,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailInterior_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_sil_indoor", 1 } };
+			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_siltail_Indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -173,7 +173,7 @@ class CfgSoundShaders
 	class Nia_ak47_tailHouses_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_houses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak47\ak47_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses";
 		range = 1200;
 		limitation = 1;
@@ -371,7 +371,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -414,7 +414,7 @@ class CfgSoundShaders
 	class Nia_ak74_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -425,7 +425,7 @@ class CfgSoundShaders
 	class Nia_ak74_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -437,7 +437,7 @@ class CfgSoundShaders
 	class Nia_ak74_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -450,7 +450,7 @@ class CfgSoundShaders
 	class Nia_ak74_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -461,7 +461,7 @@ class CfgSoundShaders
 	class Nia_ak74_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -491,7 +491,7 @@ class CfgSoundShaders
 	class Nia_ak74_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -502,7 +502,7 @@ class CfgSoundShaders
 	class Nia_ak74_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_sil_indoor", 1 } };
+			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -514,7 +514,7 @@ class CfgSoundShaders
 	class Nia_ak74_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailMeadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak74\ak74_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -679,7 +679,7 @@ class Nia_rpk_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\rpk\rpk_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -711,7 +711,7 @@ class Nia_rpk_distShot_SoundShader
 class Nia_rpk_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -719,7 +719,7 @@ class Nia_rpk_tailInterior_SoundShader
 class Nia_rpk_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -727,7 +727,7 @@ class Nia_rpk_tailTrees_SoundShader
 class Nia_rpk_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -743,7 +743,7 @@ class Nia_rpk_tailMeadows_SoundShader
 class Nia_rpk_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -751,14 +751,14 @@ class Nia_rpk_tailHouses_SoundShader
 class Nia_rpk_Shot_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_sil", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_sil", 1 } };
 		volume = 0.8;
 		range = 400;
 	};
 class Nia_rpk_tailInterior_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_sil_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -782,7 +782,7 @@ class Nia_rpk_tailForest_Silenced_SoundShader
 class Nia_rpk_tailMeadows_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
 		range = 1800;
 		limitation = 1;
@@ -790,7 +790,7 @@ class Nia_rpk_tailMeadows_Silenced_SoundShader
 class Nia_rpk_tailHouses_Silenced_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_houses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk\rpk_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses";
 		range = 1200;
 		limitation = 1;
@@ -984,7 +984,7 @@ class Nia_rpk74_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -1027,7 +1027,7 @@ class Nia_rpk74_tailDistant_SoundShader
 class Nia_rpk74_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1038,7 +1038,7 @@ class Nia_rpk74_tailForest_SoundShader
 class Nia_rpk74_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -1050,7 +1050,7 @@ class Nia_rpk74_tailHouses_SoundShader
 class Nia_rpk74_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -1063,7 +1063,7 @@ class Nia_rpk74_tailInterior_SoundShader
 class Nia_rpk74_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1074,7 +1074,7 @@ class Nia_rpk74_tailMeadows_SoundShader
 class Nia_rpk74_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1104,7 +1104,7 @@ class Nia_rpk74_silencerTailForest_SoundShader
 class Nia_rpk74_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -1115,7 +1115,7 @@ class Nia_rpk74_silencerTailHouses_SoundShader
 class Nia_rpk74_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_sil_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -1127,7 +1127,7 @@ class Nia_rpk74_silencerTailInterior_SoundShader
 class Nia_rpk74_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailMeadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -1336,7 +1336,7 @@ class Nia_aks74u_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -1379,7 +1379,7 @@ class Nia_aks74u_tailDistant_SoundShader
 class Nia_aks74u_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1390,7 +1390,7 @@ class Nia_aks74u_tailForest_SoundShader
 class Nia_aks74u_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -1402,7 +1402,7 @@ class Nia_aks74u_tailHouses_SoundShader
 class Nia_aks74u_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -1426,7 +1426,7 @@ class Nia_aks74u_tailMeadows_SoundShader
 class Nia_aks74u_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1437,7 +1437,7 @@ class Nia_aks74u_tailTrees_SoundShader
 class Nia_aks74u_silencerShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_sil", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_sil", 1 } };
 		volume = 0.8;
 		range = 150;
 		rangeCurve = "closeShotCurve";
@@ -1456,7 +1456,7 @@ class Nia_aks74u_silencerTailForest_SoundShader
 class Nia_aks74u_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -1467,7 +1467,7 @@ class Nia_aks74u_silencerTailHouses_SoundShader
 class Nia_aks74u_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_sil_indoor", 1 } };
+			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -1479,7 +1479,7 @@ class Nia_aks74u_silencerTailInterior_SoundShader
 class Nia_aks74u_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailMeadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -1500,7 +1500,7 @@ class Nia_aks74u_silencerTailTrees_SoundShader
 	};
 
 
-	/*
+    /*
 	class ak12_Closure_SoundShader
 	{
 		samples[] = {
@@ -1689,7 +1689,7 @@ class Nia_ak12_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\ak12\ak12_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -1732,7 +1732,7 @@ class Nia_ak12_tailDistant_SoundShader
 class Nia_ak12_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1743,7 +1743,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -1755,7 +1755,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -1768,7 +1768,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak12\ak12_meadow", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_meadow", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1779,7 +1779,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -1809,7 +1809,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -1820,7 +1820,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_sil_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -1832,7 +1832,7 @@ class Nia_ak12_tailForest_SoundShader
 	class Nia_ak12_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailMeadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\ak12\ak12_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -2085,7 +2085,7 @@ class Nia_aek_tailDistant_SoundShader
 class Nia_aek_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -2096,7 +2096,7 @@ class Nia_aek_tailForest_SoundShader
 class Nia_aek_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -2108,7 +2108,7 @@ class Nia_aek_tailHouses_SoundShader
 class Nia_aek_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -2121,7 +2121,7 @@ class Nia_aek_tailInterior_SoundShader
 class Nia_aek_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\aek\aek_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -2132,7 +2132,7 @@ class Nia_aek_tailMeadows_SoundShader
 class Nia_aek_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2000;
 		rangeCurve[] = {
@@ -2162,7 +2162,7 @@ class Nia_aek_silencerTailForest_SoundShader
 class Nia_aek_silencerTailHouses_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_siltail", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 150;
 		rangeCurve[] = {
@@ -2173,7 +2173,7 @@ class Nia_aek_silencerTailHouses_SoundShader
 class Nia_aek_silencerTailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\aek\aek_sil_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_siltail_indoor", 1 } };
 		volume = "interior";
 		range = 150;
 		rangeCurve[] = {
@@ -2185,7 +2185,7 @@ class Nia_aek_silencerTailInterior_SoundShader
 class Nia_aek_silencerTailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailMeadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\aek\aek_siltail", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 150;
 		rangeCurve[] = {
@@ -2302,7 +2302,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\SLR107U\SLR107u_close", 1 } };
-		volume = 0.9;
+        volume = 0.85;
 		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
@@ -2333,7 +2333,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_SLR107U_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\SLR107U\slr107u_indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -2341,7 +2341,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_SLR107U_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\SLR107U\slr107u_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -2349,7 +2349,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_SLR107U_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\SLR107U\slr107u_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -2365,7 +2365,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_SLR107U_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\SLR107U\slr107u_urban", 1 } };   
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -2413,7 +2413,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_rk62_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rk62\rk62_indoor", 1 } };
 		volume = "interior";
 		range = 500;
 		limitation = 0;
@@ -2421,7 +2421,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_rk62_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rk62\rk62_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 1800;
 		limitation = 1;
@@ -2429,7 +2429,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_rk62_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rk62\rk62_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 1800;
 		limitation = 1;
@@ -2437,7 +2437,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_rk62_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\rk62\rk62_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rk62\rk62_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 1800;
 		limitation = 1;
@@ -2445,7 +2445,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_rk62_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\AK_urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\rk62\rk62_urban", 1 } };    
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1200;
 		limitation = 1;
@@ -2508,7 +2508,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_saiga_tailForest_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\Saiga_Forest", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\saiga\saiga_forest", 1 } };
 		volume = "(1-interior/1.4)*forest/3";
 		range = 2500;
 		rangeCurve[] = {
@@ -2519,7 +2519,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_saiga_tailHouses_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\Saiga_Urban", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\saiga\saiga_urban", 1 } };
 		volume = "(1-interior/1.4)*houses/3";
 		range = 1500;
 		rangeCurve[] = {
@@ -2531,7 +2531,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_saiga_tailInterior_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\Saiga_indoor", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\saiga\saiga_indoor", 1 } };
 		volume = "interior";
 		range = 350;
 		rangeCurve[] = {
@@ -2544,7 +2544,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_saiga_tailMeadows_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\soundshaders\saiga\saiga_meadows", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\saiga\saiga_meadows", 1 } };
 		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
 		range = 2500;
 		rangeCurve[] = {
@@ -2555,7 +2555,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	class Nia_saiga_tailTrees_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_ak\snd\Saiga_Trees", 1 } };
+            { "hlc_wp_ak\snd\soundshaders\saiga\saiga_trees", 1 } };
 		volume = "(1-interior/1.4)*trees/3";
 		range = 2500;
 		rangeCurve[] = {

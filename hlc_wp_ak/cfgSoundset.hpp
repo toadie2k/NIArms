@@ -4,7 +4,7 @@ class CfgSoundSets
 	class Nia_ak74_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_ak74_closeShot_SoundShader", "nia_ak74_midShot_SoundShader", "nia_ak74_distShot_SoundShader", "nia_ak74_Closure_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -15,7 +15,7 @@ class CfgSoundSets
 	class Nia_ak74_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_ak74_tailDistant_SoundShader", "nia_ak74_tailForest_SoundShader", "nia_ak74_tailHouses_SoundShader", "nia_ak74_tailInterior_SoundShader", "nia_ak74_tailMeadows_SoundShader", "nia_ak74_tailTrees_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -49,7 +49,7 @@ class CfgSoundSets
 	class Nia_ak47_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_ak47_Closure_SoundShader", "nia_ak47_closeShot_SoundShader", "nia_ak47_midShot_SoundShader", "nia_ak47_distShot_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -60,7 +60,7 @@ class CfgSoundSets
 	class Nia_ak47_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_ak47_tailInterior_SoundShader", "nia_ak47_tailTrees_SoundShader", "nia_ak47_tailForest_SoundShader", "nia_ak47_tailMeadows_SoundShader", "nia_ak47_tailHouses_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
 		distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
@@ -115,7 +115,7 @@ class CfgSoundSets
 	class Nia_rpk_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_rpk_Closure_SoundShader", "nia_rpk_closeShot_SoundShader", "nia_rpk_midShot_SoundShader", "nia_rpk_distShot_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -126,7 +126,7 @@ class CfgSoundSets
 	class Nia_rpk_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_rpk_tailInterior_SoundShader", "nia_rpk_tailTrees_SoundShader", "nia_rpk_tailForest_SoundShader", "nia_rpk_tailMeadows_SoundShader", "nia_rpk_tailHouses_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
 		distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
@@ -159,7 +159,7 @@ class CfgSoundSets
 	class Nia_rpk_silencerShot_SoundSet
 	{
 		soundShaders[] = { "nia_rpk_Closure_SoundShader", "nia_rpk_silencerShot_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -181,7 +181,7 @@ class CfgSoundSets
 	class Nia_rpk74_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_rpk74_closeShot_SoundShader", "nia_rpk74_midShot_SoundShader", "nia_rpk74_distShot_SoundShader", "nia_rpk74_Closure_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -192,7 +192,7 @@ class CfgSoundSets
 	class Nia_rpk74_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_rpk74_tailDistant_SoundShader", "nia_rpk74_tailForest_SoundShader", "nia_rpk74_tailHouses_SoundShader", "nia_rpk74_tailInterior_SoundShader", "nia_rpk74_tailMeadows_SoundShader", "nia_rpk74_tailTrees_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -226,7 +226,7 @@ class CfgSoundSets
 	class Nia_aks74u_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_aks74u_closeShot_SoundShader", "nia_aks74u_midShot_SoundShader", "nia_aks74u_distShot_SoundShader", "nia_aks74u_Closure_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -237,7 +237,7 @@ class CfgSoundSets
 	class Nia_aks74u_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_aks74u_tailDistant_SoundShader", "nia_aks74u_tailForest_SoundShader", "nia_aks74u_tailHouses_SoundShader", "nia_aks74u_tailInterior_SoundShader", "nia_aks74u_tailMeadows_SoundShader", "nia_aks74u_tailTrees_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -249,7 +249,7 @@ class CfgSoundSets
 	class Nia_aks74u_silencerShot_SoundSet
 	{
 		soundShaders[] = { "nia_aks74u_silencerShot_SoundShader", "nia_aks74u_Closure_SoundShader"  };
-		volumeFactor = 1;
+        volumeFactor = 1;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -271,7 +271,7 @@ class CfgSoundSets
 	class Nia_ak12_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_ak12_closeShot_SoundShader", "nia_ak12_midShot_SoundShader", "nia_ak12_distShot_SoundShader", "nia_ak12_Closure_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -282,7 +282,7 @@ class CfgSoundSets
 	class Nia_ak12_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_ak12_tailDistant_SoundShader", "nia_ak12_tailForest_SoundShader", "nia_ak12_tailHouses_SoundShader", "nia_ak12_tailInterior_SoundShader", "nia_ak12_tailMeadows_SoundShader", "nia_ak12_tailTrees_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -316,7 +316,7 @@ class CfgSoundSets
 	class Nia_aek_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_aek_closeShot_SoundShader", "nia_aek_midShot_SoundShader", "nia_aek_distShot_SoundShader", "nia_aek_Closure_SoundShader" };
-		volumeFactor = 1.2;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -339,7 +339,7 @@ class CfgSoundSets
 	class Nia_aek_silencerShot_SoundSet
 	{
 		soundShaders[] = { "nia_aek_silencerShot_SoundShader", "nia_aek_Closure_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
@@ -361,7 +361,7 @@ class CfgSoundSets
 	class Nia_SLR107U_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_SLR107U_Closure_SoundShader", "nia_SLR107U_closeShot_SoundShader", "nia_SLR107U_midShot_SoundShader", "nia_SLR107U_distShot_SoundShader" };
-		volumeFactor = 1.2;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -372,7 +372,7 @@ class CfgSoundSets
 	class Nia_SLR107U_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_SLR107U_tailInterior_SoundShader", "nia_SLR107U_tailTrees_SoundShader", "nia_SLR107U_tailForest_SoundShader", "Nia_SLR107U_tailMeadows_SoundShader", "nia_SLR107U_tailHouses_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
 		distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
@@ -385,7 +385,7 @@ class CfgSoundSets
 	class Nia_rk62_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_rk62_Closure_SoundShader", "nia_rk62_closeShot_SoundShader", "nia_rk62_midShot_SoundShader", "nia_rk62_distShot_SoundShader" };
-		volumeFactor = 1;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 		distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
@@ -396,7 +396,7 @@ class CfgSoundSets
 	class Nia_rk62_Tail_SoundSet
 	{
 		soundShaders[] = { "Nia_rk62_tailInterior_SoundShader", "nia_rk62_tailTrees_SoundShader", "nia_rk62_tailForest_SoundShader", "nia_rk62_tailMeadows_SoundShader", "nia_rk62_tailHouses_SoundShader" };
-		volumeFactor = 1;
+		volumeFactor = 1.2;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
 		distanceFilter = "weaponShotTailDistanceFreqAttenuationFilter";
@@ -409,7 +409,7 @@ class CfgSoundSets
 	class Nia_saiga_Shot_SoundSet
 	{
 		soundShaders[] = { "nia_saiga_closeShot_SoundShader", "nia_saiga_midShot_SoundShader", "nia_saiga_distShot_SoundShader", "nia_saiga_Closure_SoundShader" };
-		volumeFactor = 1.2;
+        volumeFactor = 1.4;
 		volumeCurve = "InverseSquare2Curve";
 		spatial = 1;
 		doppler = 0;
