@@ -2414,6 +2414,9 @@ class CfgWeapons {
         };
         inertia = 0.35;
 		__DEXTERITY(3.5,0);
+        class __MAGSWITCHCLASS {
+            default = "hlc_rifle_saiga12k";
+        };
     };
 
 
@@ -2673,6 +2676,12 @@ class CfgWeapons {
         };
         inertia = 0.3;
 		__DEXTERITY(2.8 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            HLC_45rnd_762x39_T_RPK = "hlc_rifle_slr107u_MTK_45rnd";
+            hlc_45Rnd_762x39_m_rpk = "hlc_rifle_slr107u_MTK_45rnd";
+            hlc_75Rnd_762x39_m_rpk = "hlc_rifle_slr107u_MTK_75rnd";
+            default = "hlc_rifle_slr107u_MTK";
+        };
     };
     class hlc_rifle_slr107u_MTK_45rnd : hlc_rifle_slr107u_MTK
     {
@@ -2705,6 +2714,25 @@ class CfgWeapons {
         };
         inertia = 0.32;
 		__DEXTERITY(3 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74_MTK_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_MTK_60rnd";
+            default = "hlc_rifle_ak74_MTK";
+        };
+    };
+    class hlc_rifle_ak74_MTK_45rnd : hlc_rifle_ak74_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74(MTK)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_mtk_45rnd.p3d";
+    };
+    class hlc_rifle_ak74_MTK_60rnd : hlc_rifle_ak74_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74(MTK)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_mtk_60rnd.p3d";
     };
     class hlc_rifle_ak74m : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
@@ -2723,6 +2751,25 @@ class CfgWeapons {
         };
         inertia = 0.34;
 		__DEXTERITY(3.4,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_60rnd";
+            default = "hlc_rifle_ak74m";
+        };
+    };
+    class hlc_rifle_ak74m_45rnd : hlc_rifle_ak74m
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_45rnd.p3d";
+    };
+    class hlc_rifle_ak74m_60rnd : hlc_rifle_ak74m
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_60rnd.p3d";
     };
     class hlc_rifle_ak74m_gl : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
@@ -2739,6 +2786,25 @@ class CfgWeapons {
         };
         inertia = 0.67;
 		__DEXTERITY(3.4 + 1.3,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_gl_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_gl_60rnd";
+            default = "hlc_rifle_ak74m_gl";
+        };
+    };
+    class hlc_rifle_ak74m_gl_45rnd : hlc_rifle_ak74m_gl
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M(GL)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl_45rnd.p3d";
+    };
+    class hlc_rifle_ak74m_gl_60rnd : hlc_rifle_ak74m_gl
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M(GL)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl_60rnd.p3d";
     };
     class hlc_rifle_ak74m_MTK : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
@@ -2753,6 +2819,25 @@ class CfgWeapons {
         };
         inertia = 0.36;
 		__DEXTERITY(3.4 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_60rnd";
+            default = "hlc_rifle_ak74m_MTK";
+        };
+    };
+    class hlc_rifle_ak74m_MTK_45rnd : hlc_rifle_ak74m_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M(MTK)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_mtk_45rnd.p3d";
+    };
+    class hlc_rifle_ak74m_MTK_60rnd : hlc_rifle_ak74m_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AK74M(MTK)";
+        model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_mtk_60rnd.p3d";
     };
     class hlc_rifle_aek971_mtk : hlc_rifle_aek971 {
         dlc = "Niarms_AK";
@@ -2766,6 +2851,25 @@ class CfgWeapons {
         };
         inertia = 0.35;
 		__DEXTERITY(3.3 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aek971_mtk_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aek971_mtk_60rnd";
+            default = "hlc_rifle_aek971_mtk";
+        };
+    };
+    class hlc_rifle_aek971_mtk_45rnd : hlc_rifle_aek971_mtk
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "ZID AEK971S(MTK)";
+        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_45rnd.p3d";
+    };
+    class hlc_rifle_aek971_mtk_60rnd : hlc_rifle_aek971_mtk
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "ZID AEK971S(MTK)";
+        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_60rnd.p3d";
     };
     class hlc_rifle_aks74u_MTK : hlc_rifle_aks74u {
         dlc = "Niarms_AK";
@@ -2779,6 +2883,25 @@ class CfgWeapons {
         };
         inertia = 0.28;
 		__DEXTERITY(2.6 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
+            default = "hlc_rifle_aks74u_MTK";
+        };
+    };
+    class hlc_rifle_aks74u_MTK_45rnd : hlc_rifle_aks74u_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "ZID AEK971S(MTK)";
+        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_45rnd.p3d";
+    };
+    class hlc_rifle_aks74u_MTK_60rnd : hlc_rifle_aks74u_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "ZID AEK971S(MTK)";
+        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_60rnd.p3d";
     };
     class hlc_rifle_akm_MTK : hlc_rifle_akm {
         dlc = "Niarms_AK";
@@ -2792,6 +2915,30 @@ class CfgWeapons {
         };
         inertia = 0.33;
 		__DEXTERITY(3.1 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            HLC_45rnd_762x39_T_RPK = "hlc_rifle_akm_MTK_45rnd";
+            hlc_45Rnd_762x39_m_rpk = "hlc_rifle_akm_MTK_45rnd";
+            hlc_75Rnd_762x39_m_rpk = "hlc_rifle_akm_MTK_75rnd";
+            default = "hlc_rifle_akm_MTK";
+        };
+    };
+    class hlc_rifle_akm_MTK_45rnd : hlc_rifle_akm_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AKM(MTK)";
+        model = "\hlc_wp_ak\mesh\akm\akm_mtk_45rnd.p3d";
+        //hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\47_rec_co.tga", "hlc_wp_ak\tex\upper_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\bl_rpk\mag_co.tga" };
+    };
+    class hlc_rifle_akm_MTK_75rnd : hlc_rifle_akm_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AKM(MTK)";
+        model = "\hlc_wp_ak\mesh\akm\akm_mtk_75rnd.p3d";
+        //hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\47_rec_co.tga", "hlc_wp_ak\tex\upper_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\bis_rpk\drum_magazine_co.tga" };
+        reloadAction = "HLC_GestureReloadAK762Drum";
+        reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
     class hlc_rifle_aks74_MTK : hlc_rifle_aks74 {
         dlc = "Niarms_AK";
@@ -2805,5 +2952,24 @@ class CfgWeapons {
         };
         inertia = 0.31;
 		__DEXTERITY(2.9 + 0.2,0);
+        class __MAGSWITCHCLASS {
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74_MTK_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74_MTK_45rnd";
+            default = "hlc_rifle_aks74_MTK";
+        };
+    };
+    class hlc_rifle_aks74_MTK_45rnd : hlc_rifle_aks74_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AKS74(MTK)";
+        model = "\hlc_wp_ak\mesh\aks74\aks74_mtk_45rnd.p3d";
+    };
+    class hlc_rifle_aks74_MTK_60rnd : hlc_rifle_aks74_MTK
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_AK";
+        displayName = "Izhmash AKS74(MTK)";
+        model = "\hlc_wp_ak\mesh\aks74\aks74_mtk_60rnd.p3d";
     };
 };
