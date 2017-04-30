@@ -30,6 +30,27 @@ class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount sup
     };
 };
 
+class CfgDistanceFilters
+{
+    class HLC_defaultDistanceFilter
+    {
+        type = "lowPassFilter";
+        minCutoffFrequency = 150;
+        qFactor = 1;
+        innerRange = 400;
+        range = 2600;
+        powerFactor = 32;
+    };
+    class HLC_rifleTailDistanceFilter
+    {
+        type = "lowPassFilter";
+        minCutoffFrequency = 150;
+        qFactor = 1;
+        innerRange = 350;
+        range = 1800;
+        powerFactor = 32;
+    };
+};
 /*
 Scripting notes- 
 
@@ -114,8 +135,10 @@ class CfgMovesBasic {
         HLC_GestureReloadSMLE= "HLC_GestureReloadSMLE";
         HLC_GestureReloadBoltSMLE= "HLC_GestureReloadBoltSMLE";
         HLC_GestureReloadAR15_BAD_WS="HLC_GestureReloadAR15_BAD_WS";
+        HLC_GestureReloadAR15_BADX15_WS = "HLC_GestureReloadAR15_BAD_WS";
         HLC_GestureReloadAR15_BAD_DR="HLC_GestureReloadAR15_BAD_DR";
         HLC_GestureReloadAR15_catch_WS="HLC_GestureReloadAR15_catch_WS";
+        HLC_GestureReloadAR15_X15 = "HLC_GestureReloadAR15_X15";
         HLC_GestureReloadAR15_catch_dr="HLC_GestureReloadAR15_catch_dr";
         HLC_GestureReloadG3SG1= "HLC_GestureReloadG3SG1";
         HLC_GestureReloadAUG= "HLC_GestureReloadAUG";
@@ -150,8 +173,10 @@ class CfgMovesBasic {
             HLC_GestureReloadSMLE[] =  {"HLC_GestureReloadSMLE", "Gesture"};
             HLC_GestureReloadBoltSMLE[] = {"HLC_GestureReloadBoltSMLE", "Gesture"};
             HLC_GestureReloadAR15_BAD_WS[]= {"HLC_GestureReloadAR15_BAD_WS", "Gesture"};
+            HLC_GestureReloadAR15_BADX15_WS[] = { "HLC_GestureReloadAR15_BADX15_WS", "Gesture" };
             HLC_GestureReloadAR15_BAD_DR[]= {"HLC_GestureReloadAR15_BAD_dr", "Gesture"};
             HLC_GestureReloadAR15_catch_WS[]= {"HLC_GestureReloadAR15_catch_ws", "Gesture"};
+            HLC_GestureReloadAR15_X15[] = { "HLC_GestureReloadAR15_X15", "Gesture" };
             HLC_GestureReloadAR15_catch_DR[]= {"HLC_GestureReloadAR15_catch_dr", "Gesture"};
             HLC_GestureReloadG3SG1[]= {"HLC_GestureReloadG3SG1", "Gesture"};
             HLC_GestureReloadHK53[]= {"HLC_GestureReloadHK53", "Gesture"};
@@ -184,8 +209,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAKLONG[] = {"HLC_GestureReloadAK12_Prone","Gesture"};
             HLC_GestureReloadG3SG1[] = {"HLC_GestureReloadG3SG1_prone","Gesture"};
             HLC_GestureReloadAR15_BAD_WS[] = {"HLC_GestureReloadAR15_Prone","Gesture"};
+            HLC_GestureReloadAR15_BADX15_WS[] = { "HLC_GestureReloadAR15_BADX15_WS_Prone", "Gesture" };
             HLC_GestureReloadAR15_BAD_DR[] = {"HLC_GestureReloadAR15_Prone","Gesture"};
             HLC_GestureReloadAR15_catch_WS[] = {"HLC_GestureReloadAR15_Prone","Gesture"};
+            HLC_GestureReloadAR15_X15[] = { "HLC_GestureReloadAR15_X15", "Gesture" };
             HLC_GestureReloadAR15_catch_DR[] = {"HLC_GestureReloadAR15_Prone","Gesture"};
             HLC_GestureReloadAUG[] = { "HLC_GestureReloadAUG_Prone", "Gesture" };
             HLC_GestureReloadAUGa3[] = { "HLC_GestureReloadAUGa3_prone", "Gesture" };
@@ -223,6 +250,7 @@ class CfgMovesBasic {
             HLC_GestureReloadMP5K_pistol[]= {"HLC_GestureReloadMP5K_pistol_prone", "Gesture"};
             HLC_GestureReloadFALLONG[]= {"HLC_GestureReloadFALLONG_context", "Gesture"};
             HLC_GestureReloadAR15_BAD_WS[] = {"HLC_GestureReloadAR15_BAD_WS_Context","Gesture"};
+            HLC_GestureReloadAR15_BADX15_WS[] = { "HLC_GestureReloadAR15_BADX15_WS_context", "Gesture" };
             HLC_GestureReloadAR15_BAD_DR[] = {"HLC_GestureReloadAR15_BAD_DR_Context","Gesture"};
             HLC_GestureReloadAR15_catch_WS[] = {"HLC_GestureReloadAR15_catch_WS_Context","Gesture"};
             HLC_GestureReloadAR15_catch_DR[] = {"HLC_GestureReloadAR15_catch_DR_Context","Gesture"};
@@ -251,6 +279,7 @@ class CfgMovesBasic {
             HLC_GestureReloadMP5K_pistol[]= {"HLC_GestureReloadMP5K_pistol_prone", "Gesture"};
             HLC_GestureReloadFALLONG[]= {"HLC_GestureReloadFALLONG_context", "Gesture"};
             HLC_GestureReloadAR15_BAD_WS[] = {"HLC_GestureReloadAR15_BAD_WS_Context","Gesture"};
+            HLC_GestureReloadAR15_BADX15_WS[] = { "HLC_GestureReloadAR15_BADX15_WS_context", "Gesture" };
             HLC_GestureReloadAR15_BAD_DR[] = {"HLC_GestureReloadAR15_BAD_DR_Context","Gesture"};
             HLC_GestureReloadAR15_catch_WS[] = {"HLC_GestureReloadAR15_catch_WS_Context","Gesture"};
             HLC_GestureReloadAR15_catch_DR[] = {"HLC_GestureReloadAR15_catch_DR_Context","Gesture"};
@@ -279,6 +308,7 @@ class CfgMovesBasic {
             HLC_GestureReloadMP5K_pistol[]= {"HLC_GestureReloadMP5K_pistol", "Gesture"};
             HLC_GestureReloadFALLONG[]= {"HLC_GestureReloadFALLONG", "Gesture"};
             HLC_GestureReloadAR15_BAD_WS[]= {"HLC_GestureReloadAR15_BAD_WS", "Gesture"};
+            HLC_GestureReloadAR15_BADX15_WS[] = { "HLC_GestureReloadAR15_BADX15_WS", "Gesture" };
             HLC_GestureReloadAR15_BAD_DR[]= {"HLC_GestureReloadAR15_BAD_dr", "Gesture"};
             HLC_GestureReloadAR15_catch_WS[]= {"HLC_GestureReloadAR15_catch_ws", "Gesture"};
             HLC_GestureReloadAR15_catch_DR[]= {"HLC_GestureReloadAR15_catch_dr", "Gesture"};
@@ -494,7 +524,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAR15_BAD_WS : Default {
-            file="hlc_core\animation\gesture\reload_ar15_BAD_workspace.rtm";
+            file = "hlc_core\animation\gesture\reload_ar15_BAD_workspace.rtm";
             looped=0;
             speed=0.3003000;
             mask="handsWeapon";
@@ -507,6 +537,39 @@ class CfgGesturesMale {
             rightHandIKBeg = true;
             rightHandIKCurve[] = {0,1,0.08,0,0.14, 0, 0.17, 1,0.57,1,0.68,0,0.78,1};
             rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_BADX15_WS : Default {
+            file = "hlc_core\animation\gesture\reload_ar15X15_BAD_standing.rtm";
+            looped = 0;
+            speed = 0.3003000;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0, 1, 0.07, 0, 0.81, 0, 0.86, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.08, 0, 0.14, 0, 0.17, 1, 0.57, 1, 0.68, 0, 0.78, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_BADX15_WS_prone : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_BAD_workspace.rtm";
+            looped = 0;
+            speed = 0.3003000;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0, 1, 0.07, 0, 0.81, 0, 0.86, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.08, 0, 0.14, 0, 0.17, 1, 0.57, 1, 0.68, 0, 0.78, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_BADX15_WS_Context : HLC_GestureReloadAR15_BADX15_WS {
+            mask = "handsWeapon_context";
         };
         class HLC_GestureReloadAR15_BAD_DR : Default {
             file="hlc_core\animation\gesture\reload_ar15_BAD_downrange.rtm";
@@ -538,6 +601,41 @@ class CfgGesturesMale {
             rightHandIKBeg = true;
             rightHandIKCurve[] = {0,1,0.08,0,0.14, 0, 0.17, 1,0.57,1,0.68,0,0.78,1};
             rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_X15 : Default
+        {
+            file = "hlc_core\animation\gesture\reload_ar15X15_standing.rtm";
+            looped = 0;
+            speed = 0.25;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0, 1, 0.07, 0, 0.81, 0, 0.86, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.08, 0, 0.14, 0, 0.17, 1, 0.57, 1, 0.68, 0, 0.78, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_X15_prone : Default
+        {
+            file = "hlc_core\animation\gesture\reload_ar15_catch_workspace.rtm";
+            looped = 0;
+            speed = 0.25;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0, 1, 0.07, 0, 0.81, 0, 0.86, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.08, 0, 0.14, 0, 0.17, 1, 0.57, 1, 0.68, 0, 0.78, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadAR15_X15_Context : HLC_GestureReloadAR15_X15 {
+            mask = "handsWeapon_context";
         };
         class HLC_GestureReloadAR15_Prone : Default {
             file="hlc_core\animation\gesture\reload_ar15_prone.rtm";
