@@ -32,6 +32,7 @@ must keep attachments
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
 if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
+if (isClass(configFile>>"CfgPatches">>"ace_main")) exitWith {}; //conflicts with ACE mod features like overheating 
 
 TRACE_1("PARAMS",_this);
 
