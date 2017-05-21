@@ -1,8 +1,8 @@
 #define __AI_AMMO_AUDIBLE0 2
 #define __AI_AMMO_AUDIBLE1 100
-#define __AI_AMMO_RANGE_HIT_FAR 1200
+#define __AI_AMMO_RANGE_HIT_FAR 1000
 #define __AI_AMMO_RANGE_HIT_SMALL 5
-#define __AI_AMMO_RANGE_CRACKS 120
+#define __AI_AMMO_RANGE_CRACKS 100
 
 #define __AI_DISPERSION_COEF aiDispersionCoefX = 6; aiDispersionCoefY = 8
 
