@@ -10,7 +10,7 @@ class CfgPatches {
             "Weapon_hlc_rifle_SAMR2","Weapon_hlc_rifle_CQBR","Weapon_hlc_rifle_M4","Weapon_hlc_rifle_m4m203","Weapon_hlc_rifle_bcmjack","Weapon_hlc_rifle_Bushmaster300","Weapon_hlc_rifle_vendimus","Weapon_hlc_rifle_honeybadger" };
         weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase","hlc_rifle_bcmblackjack"};
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
-        version="1.85";
+        version="1.9";
         author="toadie";
     };
 };
@@ -285,15 +285,7 @@ class CfgWeapons {
             reloadTime = 0.067;
             dispersion = 0.000347248;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 300;
-            aiRateOfFireDispersion = 2;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SINGLE;
         };
         class FullAuto: Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -316,59 +308,27 @@ class CfgWeapons {
             reloadTime = 0.079;
             dispersion = 0.000347248;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 1;
-            midRangeProbab = 0.8;
-            maxRange = 5;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         }; 
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
 
         drysound[] = {"\hlc_wp_ar15\snd\ar15_trigger", 1, 1, 10};
         reloadMagazineSound[] = {"\hlc_wp_ar15\snd\ar15_reload_A3_std",0.74,1,30};
-        changeFiremodeSound[] = { "hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
+        changeFiremodeSound[] = { "\hlc_wp_ar15\snd\ar15_selector", 1, 1, 8 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         class hlc_M203 : UGL_F {
@@ -381,8 +341,11 @@ class CfgWeapons {
             useExternalOptic = false;
             reloadAction = "GestureReloadTrgUGL";
             cursoraim = "gl";
+            __AI_ROF_GL_SINGLE;
         };
    };
+
+
 
     class hlc_rifle_RU556 : hlc_ar15_base {
         dlc = "Niarms_AR15";
@@ -452,37 +415,34 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.6;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class Library {
             libTextDesc = "Sanitised AR-15 SBR";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_RU556_x15";
+            default = "hlc_rifle_RU556";
+        };
     };
+    class hlc_rifle_RU556_x15 : hlc_rifle_RU556
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\ru556\car15_X15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    };
+
+
     class hlc_rifle_RU5562 : hlc_rifle_RU556 {
         dlc = "Niarms_AR15";
         author = "ImBrokeRU, 4Echo, RedRogueXVII, Tigg, Toadie";
@@ -492,7 +452,19 @@ class CfgWeapons {
         displayName = "AR15 Magpul Carbine";
         hiddenSelections[] = { "Main", "Extras", "Emag", "BAD_Lever", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\ru5563\ru556_co.tga", "hlc_wp_ar15\tex\ru5562\ru556_extras_co.tga", "hlc_wp_ar15\tex\emag_ca.tga", "hlc_wp_ar15\tex\magpul_bad_lever_co.tga", "" };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_RU5562_x15";
+            default = "hlc_rifle_RU5562";
+        };
     };
+    class hlc_rifle_RU5562_x15 : hlc_rifle_RU5562
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\ru556\car15_2_X15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    };
+
+
     class hlc_rifle_CQBR : hlc_rifle_RU556 {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -535,7 +507,19 @@ class CfgWeapons {
         class Library {
             libTextDesc = "Sanitised AR-15 SBR";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_CQBR_x15";
+            default = "hlc_rifle_CQBR";
+        };
     };
+    class hlc_rifle_CQBR_x15 :hlc_rifle_CQBR
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\cqbr\cqbr_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_M4 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -579,7 +563,19 @@ class CfgWeapons {
         class Library {
             libTextDesc = "Sanitised AR-15 SBR";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_M4_x15";
+            default = "hlc_rifle_M4";
+        };
     };
+    class hlc_rifle_M4_x15 :hlc_rifle_M4
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\cqbr\M4A1_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_m4m203 : hlc_rifle_m4 {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -601,6 +597,16 @@ class CfgWeapons {
         };
         inertia = 0.6;
 		__DEXTERITY(2.9 + 1.3,0);
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_m4m203_x15";
+            default = "hlc_rifle_m4m203";
+        };
+    };
+    class hlc_rifle_m4m203_x15 :hlc_rifle_m4m203
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\cqbr\M4A1M203_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
     };
 
 
@@ -686,46 +692,34 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class Library {
             libTextDesc = "BCM Jack Carbine";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_bcmjack_x15";
+            default = "hlc_rifle_bcmjack";
+        };
     };
+    class hlc_rifle_bcmjack_x15 :hlc_rifle_bcmjack
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\JackCarbine\samr_X15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_bcmblackjack :hlc_rifle_bcmjack
     {
         author = "Sephiris, Agent95, Toadie";
@@ -767,43 +761,20 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
     };
+
     class hlc_rifle_Colt727 : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -857,46 +828,34 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class Library {
             libTextDesc = "Colt Model 727 Carbine";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_Colt727_x15";
+            default = "hlc_rifle_Colt727";
+        };
     };
+    class hlc_rifle_Colt727_x15 : hlc_rifle_Colt727
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\carbine\colt727_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_Colt727_GL : hlc_rifle_Colt727 {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -923,7 +882,18 @@ class CfgWeapons {
         class hlc_M203 : hlc_M203 {
             discreteDistance[] = { 100, 150, 200, 250, 300 };
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_Colt727_GL_x15";
+            default = "hlc_rifle_Colt727_GL";
+        };
     };
+    class hlc_rifle_Colt727_GL_x15 : hlc_rifle_Colt727_GL
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\carbine\colt727_GL_X15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
 
     class hlc_rifle_Bushmaster300 : hlc_ar15_base {
         dlc = "Niarms_AR15";
@@ -994,43 +964,21 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
     };
+
+
     class hlc_rifle_vendimus : hlc_rifle_Bushmaster300 {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1090,30 +1038,16 @@ class CfgWeapons {
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
     };
+
+
     class hlc_rifle_SAMR : hlc_ar15_base {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1172,43 +1106,31 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_SAMR_x15";
+            default = "hlc_rifle_SAMR";
         };
     };
+    class hlc_rifle_SAMR_x15 : hlc_rifle_SAMR
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\Lar15_SAMR\samr_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_samr2: hlc_rifle_SAMR {
         picture = "\hlc_wp_ar15\tex\ui\gear_SAMR2_ca";
         displayName = "RRA LAR-15";
@@ -1216,7 +1138,19 @@ class CfgWeapons {
         descriptionShort = "Accurised Assault Rifle<br/>Caliber: 5.56mm<br/> ";
         hiddenSelections[] = { "Upper", "Lower", "D-Ring", "Rails", "Panels", "VFG", "Harris", "Patch", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_ar15\tex\samr\upper_co.tga", "hlc_wp_ar15\tex\samr\lower2_co.tga", "hlc_wp_ar15\tex\samr\ras_co.tga", "hlc_wp_ar15\tex\samr\risras_co.tga", "hlc_wp_ar15\tex\samr\xtm2_co.tga", "hlc_wp_ar15\tex\melon_cqbr\vgrip_co.tga", "hlc_wp_ar15\tex\samr\hbipod_co.tga", "", "hlc_wp_ar15\tex\samr\stock_co.tga" };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_556x45_EPR = "hlc_rifle_samr2_x15";
+            default = "hlc_rifle_samr2";
+        };
     };
+    class hlc_rifle_samr2_x15 : hlc_rifle_samr2
+    {
+        scopeArsenal = 0;
+        model = "hlc_wp_ar15\mesh\Lar15_SAMR\samr_x15.p3d";
+        reloadAction = "HLC_GestureReloadAR15_X15";
+    };
+
+
     class hlc_rifle_honeybase : hlc_rifle_Bushmaster300 {
         dlc = "Niarms_AR15";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1271,32 +1205,17 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.6;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 47; // without the suppressor
