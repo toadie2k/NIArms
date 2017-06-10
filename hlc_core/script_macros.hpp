@@ -69,8 +69,9 @@
 #define __40MM_M203_RHS_GRENADES "rhs_mag_M441_HE", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M4009", "rhs_mag_m576", "rhs_mag_M585_white", "rhs_mag_M661_green", "rhs_mag_M662_red", "rhs_mag_M713_red", "rhs_mag_M714_white", "rhs_mag_M715_green", "rhs_mag_M716_yellow"
 #define __40MM_M203_CUP_GRENADES "CUP_1Rnd_StarCluster_White_M203", "CUP_1Rnd_StarCluster_Red_M203", "CUP_1Rnd_StarCluster_Green_M203", "CUP_1Rnd_StarFlare_White_M203", "CUP_1Rnd_StarFlare_Red_M203", "CUP_1Rnd_StarFlare_Green_M203", "CUP_1Rnd_HE_M203", "CUP_1Rnd_HEDP_M203", "CUP_FlareWhite_M203", "CUP_FlareGreen_M203", "CUP_FlareRed_M203", "CUP_FlareYellow_M203", "CUP_1Rnd_Smoke_M203", "CUP_1Rnd_SmokeRed_M203", "CUP_1Rnd_SmokeGreen_M203", "CUP_1Rnd_SmokeYellow_M203"
 
-#define __762FAL_MAGS "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_mk316_fal", "hlc_20Rnd_762x51_Barrier_fal", "hlc_20Rnd_762x51_t_fal", "hlc_20Rnd_762x51_TDim_fal", "hlc_20Rnd_762x51_S_fal", "hlc_50rnd_762x51_M_FAL"
+#define __762FAL_MAGS "hlc_20Rnd_762x51_B_fal", "hlc_20Rnd_762x51_mk316_fal", "hlc_20Rnd_762x51_Barrier_fal", "hlc_20Rnd_762x51_t_fal", "hlc_20Rnd_762x51_TDim_fal", "hlc_20Rnd_762x51_S_fal", "hlc_50rnd_762x51_M_FAL","hlc_50rnd_762x51_MDIM_FAL"
 #define __762G3_MAGS "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3", "hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_20rnd_762x51_IRDim_G3", "hlc_20rnd_762x51_MDIM_G3", "hlc_50rnd_762x51_M_G3", "hlc_50rnd_762x51_MDIM_G3", "hlc_20rnd_762x51_S_G3"
+#define __762FN_MAGS "hlc_10Rnd_762x51_B_fal", "hlc_10Rnd_762x51_mk316_fal", "hlc_10Rnd_762x51_Barrier_fal", "hlc_10Rnd_762x51_t_fal", "hlc_10Rnd_762x51_TDim_fal", "hlc_10Rnd_762x51_S_fal"
 #define __300WM_MAGS "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM", "hlc_5rnd_300WM_T_AWM"
 
 #define __556G36_MAGS "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36","hlc_30rnd_556x45_MDIM_G36", "hlc_30rnd_556x45_TDIM_G36"
@@ -79,7 +80,7 @@
 #define __556G36_RHS_MAGS "rhssaf_30rnd_556x45_EPR_G36", "rhssaf_30rnd_556x45_SOST_G36", "rhssaf_30rnd_556x45_SPR_G36", "rhssaf_100rnd_556x45_EPR_G36", "rhssaf_30rnd_556x45_Tracers_G36", "rhssaf_30rnd_556x45_TDIM_G36", "rhssaf_30rnd_556x45_MDIM_G36"
 #define __556AUG_MAGS "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG"
 
-#define __762M14_MAGS "hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_20Rnd_762x51_Mdim_M14", "hlc_20Rnd_762x51_Tdim_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14"
+#define __762M14_MAGS "hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_20Rnd_762x51_Mdim_M14", "hlc_20Rnd_762x51_Tdim_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14","hlc_50Rnd_762x51_MDIM_M14"
 #define __762M14_BI_MAGS "20Rnd_762x51_Mag"
 #define __762M14_RHS_MAGS "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m62_Mag"
 #define __762M14_CUP_MAGS "CUP_20Rnd_762x51_DMR", "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR", "CUP_20Rnd_TE1_White_Tracer_762x51_DMR"
