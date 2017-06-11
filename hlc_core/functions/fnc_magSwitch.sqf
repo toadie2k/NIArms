@@ -21,7 +21,7 @@ must keep ammo count (no cheating)
 must keep attachments
 
 */
-#define DEBUG_MODE_FULL
+//#define DEBUG_MODE_FULL
 #define COMPONENT core
 #include "\hlc_core\script_mod.hpp"
 #include "\x\cba\addons\main\script_macros_common.hpp"
@@ -29,10 +29,11 @@ must keep attachments
 #define __MAGSWITCHCLASSNAME "nia_magSwitch"
 #define __cfgWeapons configfile >> "CfgWeapons"
 
+if (!niarms_magSwitch) exitWith {}; // Exit if disabled
+
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
 if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
-if (isClass(configFile>>"CfgPatches">>"ace_main")) exitWith {}; //conflicts with ACE mod features like overheating 
 
 TRACE_1("PARAMS",_this);
 
@@ -71,7 +72,7 @@ if (_newWeapon == _weapon) exitWith {
 };
 
 //save current mode
-private _cwm = currentWeaponMode _unit; 
+private _cwm = currentWeaponMode _unit;
 
 //save current mag loadout
 private _magLoadout = magazinesAmmoFull _unit;
