@@ -1,10 +1,12 @@
 #define __AI_AMMO_AUDIBLE0 2
 #define __AI_AMMO_AUDIBLE1 100
 #define __AI_AMMO_RANGE_HIT_FAR 1000
+#define __AI_AMMO_RANGE_HIT_MEDIUM 500
 #define __AI_AMMO_RANGE_HIT_SMALL 5
-#define __AI_AMMO_RANGE_CRACKS 100
+#define __AI_AMMO_RANGE_CRACKS 50
 
 #define __AI_DISPERSION_COEF aiDispersionCoefX = 6; aiDispersionCoefY = 8
+#define __AI_DISPERSION_2XCOEF aiDispersionCoefX = 12; aiDispersionCoefY = 16
 
 /*
 Fire modes
@@ -26,13 +28,13 @@ Fire modes
 #define __AI_ROF_GL_SINGLE \
 		aiRateOfFire = 4;\
 		aiRateOfFireDistance = 50;\
-		aiRateOfFireDispersion = 3;\
+		aiRateOfFireDispersion = 4;\
 		minRange = 60;\
-		minRangeProbab = 0.5;\
+		minRangeProbab = 0.45;\
 		midRange = 200;\
-		midRangeProbab = 0.7;\
+		midRangeProbab = 0.65;\
 		maxRange = 400;\
-		maxRangeProbab = 0.04
+		maxRangeProbab = 0.01
 
 
 //shotgun
