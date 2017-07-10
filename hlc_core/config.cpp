@@ -378,7 +378,7 @@ class CfgGesturesMale {
             speed = -4.8;
             mask = "handsWeapon";
             // mask="empty";
-            headBobStrength = 0.02;
+            headBobStrength = 0.2;
             headBobMode = 2;
             leftHandIKBeg = false;
             leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
@@ -411,7 +411,7 @@ class CfgGesturesMale {
             speed = -4.8;
             mask = "handsWeapon";
             // mask="empty";
-            headBobStrength = 0.02;
+            headBobStrength = 0.2;
             headBobMode = 2;
             leftHandIKBeg = false;
             leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
@@ -439,18 +439,18 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
-            speed = 0.29;
+            speed = -4.8;
             mask = "handsWeapon";
             // mask="empty";
-            headBobStrength = 0.02;
+            headBobStrength = 0.2;
             headBobMode = 2;
             leftHandIKBeg = false;
-            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.868, 0, 0.96, 1 };
             leftHandIKEnd = true;
             rightHandIKBeg = true;
-            rightHandIKCurve[] = { 1 };
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.84, 0, 0.86, 1 };
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762_Context : HLC_GestureReloadAK762 {
@@ -472,7 +472,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762Drum_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
             speed = 0.29;
             mask = "handsWeapon";

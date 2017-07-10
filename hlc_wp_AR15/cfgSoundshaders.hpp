@@ -9,8 +9,8 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
-        volume = 0.7;
-        range = 5;
+        range = 15;
+        volume = 1.9;
     };
     class 300BLK_closeShot_SoundShader {
         samples[] = {
@@ -24,7 +24,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_mid", 1 }
         };
-        volume = 0.9;
+        volume = 1.3;
         range = 1800;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -52,23 +52,23 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\generic\300blk_indoor", 1 }
         };
-        volume = "interior";
+        volume = " 3.85*((interior)*0.65)";
         range = 500;
         limitation = 0;
     };
     class 300BLK_tailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\katiba_tail_trees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 1800;
         limitation = 1;
     };
     class 300BLK_tailForest_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\300aac_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 1800;
         limitation = 1;
     };
@@ -76,15 +76,15 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 1800;
         limitation = 1;
     };
     class 300BLK_tailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\katiba_tail_houses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "3.85*((1-interior/1.4)*houses/3)";
         range = 1200;
         limitation = 1;
     };
@@ -92,12 +92,28 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_close", 1 }
         };
+        volume = 0.7;
+        range = 50;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
+        };
+    };
+    class 300BLK_Shot_Silenced_mid_SoundShader{
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_mid", 1 }
+        };
         volume = 1.0;
-        range = 400;
+        range = 150;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 150, 0 }
+        };
     };
     class 300BLK_tailInterior_Silenced_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\Generic\300blk_sil_indoor", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_indoor", 1 }
         };
         volume = "interior";
         range = 500;
@@ -105,7 +121,7 @@ class CfgSoundShaders
     };
     class 300BLK_tailTrees_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_trees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees";
         range = 1800;
@@ -113,7 +129,7 @@ class CfgSoundShaders
     };
     class 300BLK_tailForest_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest";
         range = 1800;
@@ -121,7 +137,7 @@ class CfgSoundShaders
     };
     class 300BLK_tailMeadows_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_meadows", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
         range = 1800;
@@ -129,7 +145,7 @@ class CfgSoundShaders
     };
     class 300BLK_tailHouses_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_houses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\Generic\300aac_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses";
         range = 1200;
@@ -140,19 +156,35 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_close", 1 }
         };
         volume = 1.0;
-        range = 400;
+        range = 50;
+            rangeCurve[] = { 
+        { 0, 1 }, 
+        { 50, 0 } 
+            };
+    };
+    class badger_Shot_Silenced_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_mid", 1 }
+        };
+        volume = 1.0;
+        range = 150;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 150, 0 }
+        };
     };
     class badger_tailInterior_Silenced_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\HBADGER\hb_sil_indoor", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_indoor", 1 }
         };
         volume = "interior";
-        range = 500;
+        range = 400;
         limitation = 0;
     };
     class badger_tailTrees_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_trees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees";
         range = 1800;
@@ -160,7 +192,7 @@ class CfgSoundShaders
     };
     class badger_tailForest_Silenced_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\300aac_sil_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest";
         range = 1800;
@@ -176,7 +208,7 @@ class CfgSoundShaders
     };
     class badger_tailHouses_Silenced_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\Silencer_katiba_tail_houses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\HBADGER\HBADGER_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses";
         range = 1200;
@@ -188,8 +220,8 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
-        range = 5;
-        volume = 0.7;
+        range = 15;
+        volume = 1.9;
     };
     class samr_closeShot_SoundShader {
         samples[] = {
@@ -204,7 +236,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\samr\samr_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1.6252;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -232,7 +264,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -243,9 +275,9 @@ class CfgSoundShaders
     };
     class samr_tailForest_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\ar556_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\samr\samr_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -255,9 +287,9 @@ class CfgSoundShaders
     };
     class samr_tailHouses_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\samr\samr_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = " 3.85*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -270,7 +302,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\samr\samr_indoor", 1 }
         };
-        volume = "interior";
+        volume = " 3.85*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -282,10 +314,9 @@ class CfgSoundShaders
     };
     class samr_tailMeadows_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\samr\samr_meadow", 1 },
             { "hlc_wp_ar15\snd\soundshaders\samr\samr_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -295,9 +326,9 @@ class CfgSoundShaders
     };
     class samr_tailTrees_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\samr\samr_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -309,13 +340,28 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\generic\rifle_suppressed_close", 1 }
         };
+        volume = 0.7;
+        range = 50;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
+        };
+    };
+    class samr_silencerShot_mid_SoundShader{
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\Generic\rifle_suppressed_mid", 1 }
+        };
         volume = 1.0;
-        range = 150;
-        rangeCurve = "closeShotCurve";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 250, 0 }
+        };
     };
     class samr_silencerTailForest_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\rifle_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest/3";
         range = 150;
@@ -327,7 +373,7 @@ class CfgSoundShaders
     };
     class samr_silencerTailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\rifle_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses/3";
         range = 150;
@@ -364,7 +410,7 @@ class CfgSoundShaders
     };
     class samr_silencerTailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\rifle_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees/3";
         range = 150;
@@ -381,8 +427,8 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\Generic\ar15_first", 1 }
         };
-        volume = 0.7;
-        range = 5;
+        range = 15;
+        volume = 1.9;
     };
     class PBEAR_closeShot_SoundShader {
         samples[] = {
@@ -396,7 +442,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\PBEAR\PBEAR_mid", 1 }
         };
-        volume = 0.9;
+        volume = 1.3;
         range = 1800;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -432,7 +478,7 @@ class CfgSoundShaders
         samples[] = {
             { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\katiba_tail_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 1800;
         limitation = 1;
     };
@@ -440,7 +486,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\300aac_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 1800;
         limitation = 1;
     };
@@ -448,7 +494,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\PBEAR\PBEAR_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 1800;
         limitation = 1;
     };
@@ -456,7 +502,7 @@ class CfgSoundShaders
         samples[] = {
             { "A3\Sounds_F\arsenal\weapons\Rifles\katiba\katiba_tail_houses", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "3.85*((1-interior/1.4)*houses/3)";
         range = 1200;
         limitation = 1;
     };
@@ -467,15 +513,15 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_first", 1 }
         };
-        range = 5;
-        volume = 0.7;
+        range = 15;
+        volume = 1.9;
     };
     class jack_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_close", 1 },
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_close", 1 }
         };
-        volume = 1.0;
+        volume = 0.7;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -483,7 +529,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1.6252;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -511,7 +557,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -522,9 +568,9 @@ class CfgSoundShaders
     };
     class jack_tailForest_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\ar556_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -534,9 +580,9 @@ class CfgSoundShaders
     };
     class jack_tailHouses_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\jack_carbine\Jack_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "3.85*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -547,9 +593,9 @@ class CfgSoundShaders
     };
     class jack_tailInterior_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_indoor", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\jack_carbine\Jack_indoor", 1 }
         };
-        volume = "interior";
+        volume = " 3.85*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -564,7 +610,7 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_meadow", 1 },
             { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -574,9 +620,9 @@ class CfgSoundShaders
     };
     class jack_tailTrees_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\jack_carbine\jack_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -588,13 +634,28 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_close", 1 }
         };
-        volume = 1.0;
-        range = 150;
-        rangeCurve = "closeShotCurve";
+        volume = 0.7;
+        range = 50;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
         };
+    };
+    class jack_silencerShot_mid_SoundShader{
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\Generic\carbine_suppressed_mid", 1 }
+        };
+        volume = 1.0;
+        range = 250;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 250, 0 }
+        };
+    };
     class jack_silencerTailForest_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest/3";
         range = 150;
@@ -606,7 +667,7 @@ class CfgSoundShaders
     };
     class jack_silencerTailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses/3";
         range = 150;
@@ -643,7 +704,7 @@ class CfgSoundShaders
     };
     class jack_silencerTailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees/3";
         range = 150;
@@ -659,15 +720,15 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 }
         };
-        range = 5;
-        volume = 0.7;
+        range = 15;
+        volume = 1.9;
     };
     class carbine_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_close", 1 },
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_close", 1 }
         };
-        volume = 0.78;
+        volume = 0.7;
         range = 50;
         rangeCurve = "closeShotCurve";
     };
@@ -675,7 +736,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1.6252;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -703,7 +764,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -714,9 +775,9 @@ class CfgSoundShaders
     };
     class carbine_tailForest_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\ar556_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -726,9 +787,9 @@ class CfgSoundShaders
     };
     class carbine_tailHouses_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "3.85*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -741,7 +802,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_indoor", 1 }
         };
-        volume = "interior";
+        volume = " 3.85*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -753,10 +814,10 @@ class CfgSoundShaders
     };
     class carbine_tailMeadows_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_meadow", 1 },
-            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_meadow", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_meadows", 1 },
+            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_meadows", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -766,9 +827,9 @@ class CfgSoundShaders
     };
     class carbine_tailTrees_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\carbine\carbine_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -780,9 +841,24 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_close", 1 }
         };
+        volume = 0.7;
+        range = 50;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
+        };
+    };
+    class carbine_silencerShot_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\Generic\carbine_suppressed_mid", 1 }
+        };
         volume = 1.0;
-        range = 150;
-        rangeCurve = "closeShotCurve";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 250, 0 }
+        };
     };
     class carbine_silencerTailForest_SoundShader {
         samples[] = {
@@ -798,7 +874,7 @@ class CfgSoundShaders
     };
     class carbine_silencerTailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses/3";
         range = 150;
@@ -835,7 +911,7 @@ class CfgSoundShaders
     };
     class carbine_silencerTailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\carbine_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees/3";
         range = 150;
@@ -850,8 +926,8 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 },
             { "hlc_wp_ar15\snd\soundshaders\generic\ar15_first", 1 }
         };
-        range = 5;
-        volume = 0.7;
+        range = 15;
+        volume = 1.9;
     };
     class SBR_closeShot_SoundShader {
         samples[] = {
@@ -866,7 +942,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1.6252;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -894,7 +970,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -905,9 +981,9 @@ class CfgSoundShaders
     };
     class SBR_tailForest_SoundShader {
         samples[] = {
-            { "hlc_wp_ar15\snd\soundshaders\ar556_forest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 3.85*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -917,9 +993,9 @@ class CfgSoundShaders
     };
     class SBR_tailHouses_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailhouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "3.85*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -932,7 +1008,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_indoor", 1 }
         };
-        volume = "interior";
+        volume = " 3.85*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -947,7 +1023,7 @@ class CfgSoundShaders
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_meadow", 1 },
             { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 3.85*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -957,9 +1033,9 @@ class CfgSoundShaders
     };
     class SBR_tailTrees_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_tailtrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\SBR\SBR_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -971,13 +1047,28 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_ar15\snd\soundshaders\generic\SBR_suppressed_close", 1 }
         };
+        volume = 0.7;
+        range = 50;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
+        };
+    };
+    class SBR_silencerShot_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_ar15\snd\soundshaders\Generic\SBR_suppressed_mid", 1 }
+        };
         volume = 1.0;
-        range = 150;
-        rangeCurve = "closeShotCurve";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 250, 0 }
+        };
     };
     class SBR_silencerTailForest_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\SBR_suppressed_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest/3";
         range = 150;
@@ -989,9 +1080,9 @@ class CfgSoundShaders
     };
     class SBR_silencerTailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\SBR_suppressed_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "1-interior/1.4)*houses/3";
         range = 150;
         rangeCurve[] = {
             { 0, 1 },
@@ -1026,9 +1117,9 @@ class CfgSoundShaders
     };
     class SBR_silencerTailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 }
+            { "hlc_wp_ar15\snd\soundshaders\generic\SBR_suppressed_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 3.85*((1-interior/1.4)*trees/3)";
         range = 150;
         rangeCurve[] = {
             { 0, 1 },
