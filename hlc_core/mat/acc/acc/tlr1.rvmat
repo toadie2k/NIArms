@@ -3,7 +3,7 @@ diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
 specular[]={1,1,1,1};
-specularPower=80;
+specularPower=100;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -20,7 +20,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="hlc_core\tex\Metal_Detail_DT.tga";
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture="hlc_core\tex\acc\acc\tlr1\TLR1_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,SMDI)";
+	texture="hlc_core\tex\acc\acc\tlr1\TLR1_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

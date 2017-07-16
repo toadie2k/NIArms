@@ -1,6 +1,6 @@
 class Extended_PreInit_EventHandlers {
     class nia_core {
-        init = "call compile preprocessFileLineNumbers 'XEH_preInit.sqf'";
+        init = call compile preprocessFileLineNumbers '\hlc_core\XEH_preInit.sqf';
     };
 };
 

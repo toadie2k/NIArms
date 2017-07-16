@@ -1,14 +1,14 @@
 ambient[]={1,1,1,1};
-diffuse[]={0.69999999,0.69999999,0.69999999,1};
+diffuse[]={1.2,1.2,1.2,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
 specular[]={1,1,1,1};
-specularPower=100;
+specularPower=160;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="hlc_core\tex\acc\acc\dbalpl\DBALPL_NOHQ.tga";
+	texture="hlc_core\tex\acc\acc\tlr1\TLR1_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="hlc_core\tex\acc\acc\dbalpl\DBALPL_as.tga";
+	texture="hlc_core\tex\acc\acc\tlr1\TLR1_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_core\tex\acc\acc\dbalpl\DBALPL_smdi.tga";
+	texture="hlc_core\tex\acc\acc\tlr1\TLR1_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{
