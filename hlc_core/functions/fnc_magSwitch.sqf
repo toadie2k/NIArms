@@ -103,6 +103,10 @@ if (_muzzle == _weapon) then {
 } else {
 	_mags = getArray(configFile >> "CfgWeapons" >> _weapon >> _muzzle >> "magazines");
 };
+{
+	_mags set[_forEachIndex, (toLower _x)]; // Find is case sensitive
+} forEach _mags;
+
 //temporarily remove all mags for this weapon; this is to ensure exactly the same mag will be loaded into the new weapon on switch
 {_unit removeMagazines _x} forEach _mags;
 
@@ -128,7 +132,7 @@ switch (_currWeaponType) do {
 private "_container";
 {
     _x params ["_magClass","_ammoCnt","_magLoaded","_magType","_magLoc"];
-    if (!_magLoaded && {_magClass in _mags}) then {
+    if (!_magLoaded && {(tolower _magClass) in _mags}) then {
         _container = switch (_magLoc) do {
             case "Uniform": {uniformContainer _unit};
             case "Vest": {vestContainer _unit};
