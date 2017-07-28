@@ -12,4 +12,11 @@ if (!niarms_magSwitch) exitWith {}; // Exit if disabled
 
 params ["_unit"];
 
-[_unit, currentWeapon _unit, currentMuzzle _unit, currentMagazine _unit] call Niarms_fnc_magSwitch;
+private _magCount = 0;
+private _weaponMuzzle = currentMuzzle _unit;
+{
+	if (_weaponMuzzle isEqualTo (_x select 4)) exitWith {
+		_magCount = _x select 2;
+	};
+} forEach (_unit magazinesAmmoFull);
+[_unit, currentWeapon _unit, _weaponMuzzle, [currentMagazine _unit,_magCount]] call Niarms_fnc_magSwitch;
