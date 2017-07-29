@@ -204,7 +204,7 @@ class CfgAmmo
         ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
     };
     //SmK Tracer/SmK -v
-    //SmK Spitzgescho� mit Kern Leuchtspur /
+    //SmK Spitzgeschoß mit Kern Leuchtspur /
     /*
     884.9 typicalSpeed
 11.57 hit
@@ -246,7 +246,7 @@ class CfgAmmo
         ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
     };
     //SmK AP
-    //SmK Spitzgescho� mit Hartkern  
+    //SmK Spitzgeschoß mit Hartkern  
     /*
     853.44 typicalSpeed
     9.9925 hit
