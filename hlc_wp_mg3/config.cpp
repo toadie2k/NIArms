@@ -204,7 +204,7 @@ class CfgAmmo
         ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
     };
     //SmK Tracer/SmK -v
-    //SmK Spitzgeschoß mit Kern Leuchtspur /
+    //SmK Spitzgeschoï¿½ mit Kern Leuchtspur /
     /*
     884.9 typicalSpeed
 11.57 hit
@@ -246,7 +246,7 @@ class CfgAmmo
         ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
     };
     //SmK AP
-    //SmK Spitzgeschoß mit Hartkern  
+    //SmK Spitzgeschoï¿½ mit Hartkern  
     /*
     853.44 typicalSpeed
     9.9925 hit
@@ -402,6 +402,7 @@ class CfgMagazines{
         mass = 40;
         displaynameshort = "7.92mm FMJ";
         nameSound = "mgun";
+        ACE_isBelt = 1;
     };
     class hlc_100Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
