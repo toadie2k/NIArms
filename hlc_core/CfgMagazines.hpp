@@ -195,6 +195,7 @@ class CfgMagazines {
         mass = 27;
         displaynameshort = "M80A1 EPR";
         nameSound = "mgun";
+        ACE_isBelt = 1;
     };
     class hlc_100Rnd_762x51_M_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
         dlc = "Niarms_M60";
