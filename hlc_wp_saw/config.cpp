@@ -232,6 +232,7 @@ class CfgMagazines{
         mass = 58;
         displaynameshort = "EPR/Tracer";
         nameSound = "mgun";
+        ACE_isBelt = 1;
     };
     class hlc_200rnd_556x45_T_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
