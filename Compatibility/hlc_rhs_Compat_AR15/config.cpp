@@ -24,19 +24,19 @@ class CfgWeapons
 	========================================
 	*/
     class mk20_base_F : Rifle_Base_F {
-        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+        magazines[] += { __556STANAG_RHS_MAGS };
     };
     class SDAR_base_F : Rifle_Base_F {
-        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+        magazines[] += { __556STANAG_RHS_MAGS };
     };
     class Tavor_base_F : Rifle_Base_F {
-        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+        magazines[] += { __556STANAG_RHS_MAGS };
     };
     class arifle_SPAR_01_base_F : Rifle_Base_F {
-        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+        magazines[] += { __556STANAG_RHS_MAGS };
     };
     class arifle_SPAR_02_base_F : Rifle_Base_F {
-        magazines[] += { __556STANAG_MAGS, __556STANAG_RHS_MAGS };
+        magazines[] += { __556STANAG_RHS_MAGS };
     };
 
 	/*

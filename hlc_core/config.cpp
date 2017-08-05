@@ -1555,8 +1555,9 @@ class CfgWeapons
         };
         tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
     };
+
+    // vanilla compat
     class Rifle_Base_F;
-    class arifle_MX_Base_F;
     class mk20_base_F : Rifle_Base_F {
         magazines[] += { __556STANAG_MAGS };
     };
