@@ -17,8 +17,6 @@ class CfgRecoils
 	permanent = "0.001";
 	temporary = "0.001";
 	};
-	class CfgRecoils 
-	{
     class recoil_saw : recoil_default 
 	{
         muzzleOuter[] = { 0.4, 0.5, 0.3, 0.2 };
