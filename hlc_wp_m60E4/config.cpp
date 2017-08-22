@@ -93,6 +93,8 @@ class CfgWeapons {
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
+		recoil = "recoil_mmg";
+		recoilprone = "recoil_mmg_prone";
         class GunParticles : GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
