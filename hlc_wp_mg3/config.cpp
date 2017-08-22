@@ -676,7 +676,8 @@ class CfgWeapons {
         magazines[] = { __792MG42_MAGS };
         maxRecoilSway = 0.0150;
         swayDecaySpeed = 1.25;
-        recoil = "recoil_zafir";
+        recoil = "recoil_mmg";
+		recoilprone = "recoil_mmg_prone";
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
