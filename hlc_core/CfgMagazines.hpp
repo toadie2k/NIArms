@@ -7,7 +7,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "STANAG Mag (EPR) 5.56mm";
         initspeed = 974.8;
-        mass = 8;
+        mass = 11.5;								// no reference found
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -20,7 +20,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "STANAG Mag (SOST) 5.56mm";
         initspeed = 954.4;
-        mass = 8;
+        mass = 11.5;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -33,7 +33,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
         displayname = "STANAG Mag (SPR) 5.56mm";
         initspeed = 868.7;
-        mass = 8;
+        mass = 12.2;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -53,7 +53,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
         displayname = "STANAG Mag (EPR,Tracer) 5.56mm";
         initspeed = 974.8;
-        mass = 8;
+        mass = 12;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -68,7 +68,7 @@ class CfgMagazines {
         initspeed = 974.8;
         mass = 8;
         lastroundstracer = 1;
-        scope = 2;
+        scope = 12;
         tracersevery = 1;
         displaynameshort = "M856A1 Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
@@ -99,7 +99,7 @@ class CfgMagazines {
         count = 50;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
         displayname = "X-15 STANAG Mag (EPR) 5.56mm";
-        mass = 14;
+        mass = 17.8;								// no reference found
         tracersevery = 5;
         picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
     };
@@ -145,7 +145,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_m1928ball_ca.paa";
         scope = 0;
-        mass = 12;
+        mass = 47.9;
         tracersevery = 0;
         displaynameshort = ".45ACP Ball";
     };
@@ -156,7 +156,7 @@ class CfgMagazines {
         displayname = "M1928 Mag (Tracer) 50rnd .45ACP";
         displaynameshort = ".45ACP LV Tracer";
         lastroundstracer = 1;
-        mass = 12;
+        mass = 47.9;
         picture = "\hlc_core\tex\ui\ammo\m_m1928tracer_ca.paa";
         scope = 0;
         tracersevery = 2;
@@ -170,7 +170,7 @@ class CfgMagazines {
         displayname = "9MMAR Mag (Ball) 50rnd 9x19mm";
         displaynameshort = "9mm Ball";
         picture = "\hlc_core\tex\ui\ammo\m_9mmarball_ca.paa";
-        mass = 9;
+        mass = 12.9;
         initspeed = 423;
     };
    
@@ -192,7 +192,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 27;
+        mass = 29;
         displaynameshort = "M80A1 EPR";
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -308,7 +308,7 @@ class CfgMagazines {
         scope = 0;
         initspeed = 770;
         tracersevery = 3;
-        mass = 10;
+        mass = 10;									// no reference found
         displaynameshort = ".303 British Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
     };
@@ -321,7 +321,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         initspeed = 720;
         tracersevery = 1;
-        mass = 11;
+        mass = 11;									// no reference found
         displaynameshort = ".303 British AP";
         picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
     };
@@ -333,7 +333,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
         displayname = "Lee-Enfield (Ball) 10rnd .303British";
         initspeed = 744;
-        mass = 1;
+        mass = 1;									// no reference found
         displaynameshort = ".303 Ball";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
     };
@@ -344,7 +344,7 @@ class CfgMagazines {
         tracersevery = 1;
         scope = 2;
         initspeed = 720;
-        mass = 1;
+        mass = 1;									// no reference found
         displaynameshort = ".303 Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
     };
@@ -355,7 +355,7 @@ class CfgMagazines {
         tracersevery = 1;
         initspeed = 840;
         scope = 2;
-        mass = 1;
+        mass = 1;									// no reference found
         displaynameshort = ".303 AP";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
     };
@@ -393,7 +393,7 @@ class CfgMagazines {
         tracersevery = 1;
         lastroundstracer = 2;
         initspeed = 762;
-        mass = 1;
+        mass = 4.2;									// w/o stripper clip
         displaynameshort = "7.92x57mm Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_k98tracer_ca.paa";
     };
@@ -405,7 +405,7 @@ class CfgMagazines {
         tracersevery = 0;
         lastroundstracer = 3;
         initspeed = 840;
-        mass = 1;
+        mass = 2.6;									// w/o stripper clip
         displaynameshort = "7.92x57mm Armour Piercing";
         picture = "\hlc_core\tex\ui\ammo\m_k98ap_ca.paa";
     };
@@ -420,7 +420,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_p90ss195_ca.paa";
         scope = 0;
-        mass = 5;
+        mass = 23.5;
         tracersevery = 0;
         displaynameshort = "5.7x28mm SS195LF Blue VMax";
     };
@@ -430,7 +430,7 @@ class CfgMagazines {
         displayname = "P90 Mag SS190(FMJ) 50rnd 5.7mm";
         lastroundstracer = 0;
         scope = 0;
-        mass = 5;
+        mass = 23.5;
         tracersevery = 0;
         displaynameshort = "5.7x28mm SS190 Black-Tip";
         picture = "\hlc_core\tex\ui\ammo\m_p90ss190_ca.paa";
@@ -446,7 +446,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
         scope = 2;
         tracersevery = 2;
-        mass = 4;
+        mass = 18;
         displaynameshort = "9x19mm Ball";
     };
 
@@ -482,7 +482,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 0;
         initspeed = 329;
-        mass = 2;
+        mass = 3.9;									// w/o mag
         displaynameshort = ".45ACP Ball";
         picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
     };
@@ -493,7 +493,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         initspeed = 329;
         scope = 0;
-        mass = 2;
+        mass = 4.8;									// w/o mag
         displaynameshort = ".45ACP Ball";
         picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
     };
@@ -504,7 +504,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         initspeed = 329;
         scope = 0;
-        mass = 2;
+        mass = 3.9;									// w/o mag
         displaynameshort = ".45ACP Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_hk45tracer_ca.paa";
     };
@@ -517,7 +517,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         initspeed = 260;
-        mass = 4;
+        mass = 5.8;									// w/o mag
         displaynameshort = ".45ACP Ball";
         picture = "\hlc_core\tex\ui\ammo\m_mk23ball_ca.paa";
     };
@@ -528,7 +528,7 @@ class CfgMagazines {
         scope = 2;
         lastroundstracer = 0;
         initspeed = 320;
-        mass = 4;
+        mass = 5.8;									// w/o mag
         displaynameshort = ".45ACP +P Ball";
         picture = "\hlc_core\tex\ui\ammo\m_mk23plusp_ca.paa";
     };
@@ -539,7 +539,7 @@ class CfgMagazines {
         displayname = "Mk23 Mag (Tracer) 12rnd .45ACP ";
         lastroundstracer = 0;
         initspeed = 260;
-        mass = 4;
+        mass = 5.8;									// w/o mag
         displaynameshort = ".45ACP LV Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_mk23tracer_ca.paa";
     };
@@ -552,7 +552,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 8<br />Used in: Desert Eagle";
         displayname = "Desert Eagle Mag (Ball) 8rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 5;
+        mass = 7.1;
         displaynameshort = ".44 Magnum Ball";
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
@@ -563,7 +563,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum JHP<br />Rounds: 8<br />Used in: Desert Eagle";
         displayname = "Desert Eagle Mag (JHP) 8rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 4;
+        mass = 7.1;
         displaynameshort = ".44 Magnum JHP";
         picture = "\hlc_core\tex\ui\ammo\m_deaglejhp_ca.paa";
     };
@@ -574,7 +574,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
         displayname = "Desert Eagle Mag (Ball) 50rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 20;
+        mass = 20;								// no reference found
         displaynameshort = ".44 Magnum Ball";
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
@@ -585,7 +585,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
         displayname = "Desert Eagle LOL 50rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 22;
+        mass = 22;								// no reference found
         displaynameshort = "WHEEEEEEEEEE";
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
