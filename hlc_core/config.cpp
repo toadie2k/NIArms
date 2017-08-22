@@ -18,6 +18,7 @@ class CfgPatches {
 #include "CfgMagazines.hpp"  
 #include "CfgFunctions.hpp"
 #include "CfgEventhandlers.hpp"
+#include "CfgRecoil.hpp"
 
 
 class asdg_MuzzleSlot;
@@ -1284,10 +1285,6 @@ caliber=(mm/((15*speed)/1000))
 mm =     mm st steel at 200m/2.5
 Speed  = speed at 200m
 */
-
-
-
-
 
 class CfgWeapons
 {
