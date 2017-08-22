@@ -845,7 +845,7 @@ class CfgWeapons {
         __DEXTERITY(11.6,-3);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 256.1;
+            mass = 279.5;
         };
         inertia = 1.36;
 
@@ -871,7 +871,7 @@ class CfgWeapons {
         __DEXTERITY(10.5,-2);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 257.1;
+            mass = 279.5;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail{};
         };
@@ -920,7 +920,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 233.3;
+            mass = 255.2;
         };
         inertia = 1.25;
 
@@ -1022,7 +1022,7 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 233.3;
+            mass = 255.2;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.30000001 };
                 iconScale = 0.2;
@@ -1043,7 +1043,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 233.3;
+            mass = 255.2;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail {};
         };
