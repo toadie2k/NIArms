@@ -909,7 +909,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         __DEXTERITY(10.5,-3);
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
-        magazines[] = { __762MG3_MAGS };
+        magazines[] = {__762MG3_MAGS,__762NATO_BELTS,__762NATO_BI_BELTS};
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
