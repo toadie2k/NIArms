@@ -399,7 +399,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 40;
+        mass = 33.6;
         displaynameshort = "7.92mm FMJ";
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -410,7 +410,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (FMJ) 100rnd 7.92mm";
-        mass = 72;
+        mass = 67.2;
     };
     class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
@@ -418,7 +418,7 @@ class CfgMagazines{
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (FMJ) 200rnd 7.92mm";
-        mass = 120;
+        mass = 134.3;
     };
 
     class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 {
@@ -432,7 +432,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 40;
+        mass = 33.6;
         displaynameshort = "7.92mm SmK/Tracer";
     };
     class hlc_100Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
@@ -441,7 +441,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 100rnd 7.92mm";
-        mass = 72;
+        mass = 67.2;
     };
     class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
         dlc = "Niarms_MG3";
@@ -449,7 +449,7 @@ class CfgMagazines{
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 200rnd 7.92mm";
-        mass = 120;
+        mass = 134.3;
     };
 
     class hlc_50Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_B_MG42 {
@@ -464,7 +464,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 40;
+        mass = 28.5;
         displaynameshort = "7.92mm Tracer";
     };
     class hlc_100Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
@@ -473,7 +473,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (SmKL'spur) 100rnd 7.92mm";
-        mass = 72;
+        mass = 56.9;
     };
     class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
         dlc = "Niarms_MG3";
@@ -481,7 +481,7 @@ class CfgMagazines{
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (SmKL'spur) 200rnd 7.92mm";
-        mass = 120;
+        mass = 113.8;
     };
 
     class hlc_50Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_B_MG42 {
@@ -504,7 +504,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (AP) 100rnd 7.92mm";
-        mass = 48;
+        mass = 30.5;
     };
     class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
         dlc = "Niarms_MG3";
@@ -512,7 +512,7 @@ class CfgMagazines{
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (AP) 200rnd 7.92mm";
-        mass = 96;
+        mass = 122;
     };
 
     class hlc_50Rnd_762x51_B_MG3 : hlc_50Rnd_792x57_B_MG42 { 
@@ -528,7 +528,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 20;
+        mass = 33.6;
         displaynameshort = "7.62mm Ball";
     };
     class hlc_100Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
@@ -537,7 +537,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
         displayname = "MG3 Belt (Ball) 100rnd 7.62mm";
-        mass = 48;
+        mass = 67.2;
     };
     class hlc_250Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
         dlc = "Niarms_MG3";
@@ -545,7 +545,7 @@ class CfgMagazines{
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
         displayname = "MG3 Belt (Ball) 200rnd 7.62mm";
-        mass = 110;
+        mass = 167.9;
     };
 
     class hlc_50Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_B_MG3 {
@@ -559,7 +559,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 20;
+        mass = 33.6;
         displaynameshort = "7.62mm Ball/Tracer";
     };
     class hlc_100Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
@@ -568,7 +568,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: MG3";
         displayname = "MG3 Belt (Ball-Tracer Mix) 100rnd 7.62mm";
-        mass = 48;
+        mass = 67.2;
     };
     class hlc_250Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
         dlc = "Niarms_MG3";
@@ -576,7 +576,7 @@ class CfgMagazines{
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 250<br />Used in: MG3";
         displayname = "MG3 Belt (Ball-Tracer Mix) 250rnd 7.62mm";
-        mass = 110;
+        mass = 167.9;
     };
 
     class hlc_50Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_B_MG3 {
@@ -590,7 +590,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 20;
+        mass = 32.5;
         displaynameshort = "7.62mm Mk.319/Tracer";
     };
     class hlc_100Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
@@ -599,7 +599,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 100<br />Used in: MG3";
         displayname = "MG3 Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
-        mass = 48;
+        mass = 64.9;
     };
     class hlc_250Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
         dlc = "Niarms_MG3";
@@ -607,7 +607,7 @@ class CfgMagazines{
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 250<br />Used in: MG3";
         displayname = "MG3 Belt (Mk319-Tracer Mix) 250rnd 7.62mm";
-        mass = 110;
+        mass = 162.3;
     };
 
     class hlc_50Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_B_MG3 {
@@ -621,7 +621,7 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 20;
+        mass = 32.9;
         displaynameshort = "7.62mm Tracer";
     };
     class hlc_100Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
@@ -630,7 +630,7 @@ class CfgMagazines{
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
         displayname = "MG3 Belt (Tracer) 100rnd 7.62mm";
-        mass = 48;
+        mass = 65.9;
     };
     class hlc_250Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
         dlc = "Niarms_MG3";
@@ -638,7 +638,7 @@ class CfgMagazines{
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
         displayname = "MG3 Belt (Tracer) 250rnd 7.62mm";
-        mass = 110;
+        mass = 164.6;
     };
 };
 
@@ -845,7 +845,7 @@ class CfgWeapons {
         __DEXTERITY(11.6,-3);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 242;
+            mass = 256.1;
         };
         inertia = 1.36;
 
@@ -871,7 +871,7 @@ class CfgWeapons {
         __DEXTERITY(10.5,-2);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 257.1;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail{};
         };
@@ -920,7 +920,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 220;
+            mass = 233.3;
         };
         inertia = 1.25;
 
@@ -1022,7 +1022,7 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 225;
+            mass = 233.3;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.30000001 };
                 iconScale = 0.2;
@@ -1043,7 +1043,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 240;
+            mass = 233.3;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail {};
         };
