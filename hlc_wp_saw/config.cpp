@@ -968,7 +968,7 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
 	recoilprone = "recoil_mmg_prone";
 	inertia = 0.81;
 	__DEXTERITY(8.12 + 0.3, 1);
-	magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
+	magazines[] = {__762MG3_MAGS,__762NATO_BELTS,__762NATO_BI_BELTS};
 	discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 1000 };
 	discretedistanceinitindex = 2;
 	reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };
@@ -1065,7 +1065,7 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
 	class hlc_lmg_mk48mod1: hlc_lmg_mk48
 	{
 		hasBipod = false;
-		deployedPivot = "deploypoint";
+		deployedPivot = "deploypivot";
 		picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
 		model = "\hlc_wp_saw\mesh\mk48\Mk48mod1.p3d";
 		displayName = "Mk.48 Mod.1 [19.75:HS:VFG:RIS] ";
