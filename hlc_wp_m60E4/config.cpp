@@ -88,7 +88,7 @@ class CfgWeapons {
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS,__762MG3_MAGS};
+        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
@@ -259,7 +259,7 @@ class CfgWeapons {
         //modes[] = {"FullAuto"};
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 193;
+            mass = 207.2;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
         
@@ -319,7 +319,7 @@ class CfgWeapons {
             libTextDesc = "US Ordnance M60";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 168;
+            mass = 230;
         };
     };
 };
