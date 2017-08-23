@@ -17,11 +17,11 @@ class CfgRecoils
 	permanent = "0.001";
 	temporary = "0.001";
 	};
-    class recoil_saw : recoil_default 
+class recoil_saw : recoil_default 
 	{
-        muzzleOuter[] = { 0.4, 0.5, 0.3, 0.2 };
-        kickBack[] = { 0.02, 0.04 };
-        temporary = 0.007;
-        permanent = 0.08;
-    };
+		muzzleOuter[] = { 0.4, 0.5, 0.3, 0.2 };
+		kickBack[] = { 0.02, 0.04 };
+		temporary = 0.007;
+		permanent = 0.08;
+	};
 };
