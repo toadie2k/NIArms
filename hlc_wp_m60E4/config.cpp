@@ -244,7 +244,7 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_M60E4\mesh\M60e4.p3d";
         hiddenSelections[] = { "Main", "rail" };
-        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.tga", "hlc_wp_m60e4\tex\m249_para_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.paa", "hlc_wp_m60e4\tex\m249_para_co.paa" };
         reloadaction = "HLC_GestureReloadM60";
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
         displayName = "M60E4";
@@ -300,7 +300,7 @@ class CfgWeapons {
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60_x_ca";
         model = "\hlc_wp_M60E4\mesh\m60classic\M60.p3d";
         hiddenSelections[] = { "Box", "Reciever", "Stock", "Fore_opaq", "Bipod_transp" };
-        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\mil m60\ammobox_co.tga", "hlc_wp_m60e4\tex\mil m60\body_co.tga","hlc_wp_m60e4\tex\mil m60\body2_co.tga","hlc_wp_m60e4\tex\mil m60\fore_co.tga","hlc_wp_m60e4\tex\mil m60\fore_ca.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\mil m60\ammobox_co.paa", "hlc_wp_m60e4\tex\mil m60\body_co.paa","hlc_wp_m60e4\tex\mil m60\body2_co.paa","hlc_wp_m60e4\tex\mil m60\fore_co.paa","hlc_wp_m60e4\tex\mil m60\fore_ca.paa" };
         reloadaction = "HLC_GestureReloadM60";
         discretedistance[] = {300,400,500,600,700,800,900,1000,1100};
         cameradir = "aim_point";
