@@ -66,7 +66,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
         displayname = "STANAG Mag (Tracer) 5.56mm";
         initspeed = 974.8;
-        mass = 8;
+        mass = 11.9;
         lastroundstracer = 1;
         scope = 12;
         tracersevery = 1;
@@ -192,7 +192,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 29;
+        mass = 58.2;
         displaynameshort = "M80A1 EPR";
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -321,7 +321,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         initspeed = 720;
         tracersevery = 1;
-        mass = 11;									// no reference found
+        mass = 21.6;									// no reference found, guessed with mag ( 980 g)
         displaynameshort = ".303 British AP";
         picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
     };
@@ -333,7 +333,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
         displayname = "Lee-Enfield (Ball) 10rnd .303British";
         initspeed = 744;
-        mass = 1;									// no reference found
+        mass = 5.8;									// no reference found, guessed without clip
         displaynameshort = ".303 Ball";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
     };
@@ -344,7 +344,7 @@ class CfgMagazines {
         tracersevery = 1;
         scope = 2;
         initspeed = 720;
-        mass = 1;									// no reference found
+        mass = 5.1;									// no reference found, guessed without clip
         displaynameshort = ".303 Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
     };
@@ -355,7 +355,7 @@ class CfgMagazines {
         tracersevery = 1;
         initspeed = 840;
         scope = 2;
-        mass = 1;									// no reference found
+        mass = 5.8;									// no reference found, guessed without clip
         displaynameshort = ".303 AP";
         picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
     };
@@ -574,7 +574,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
         displayname = "Desert Eagle Mag (Ball) 50rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 20;								// no reference found
+        mass = 20;								// w/o mag
         displaynameshort = ".44 Magnum Ball";
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
@@ -585,7 +585,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
         displayname = "Desert Eagle LOL 50rnd .44Magnum";
         lastroundstracer = 0;
-        mass = 22;								// no reference found
+        mass = 22;								// w/o mag
         displaynameshort = "WHEEEEEEEEEE";
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
