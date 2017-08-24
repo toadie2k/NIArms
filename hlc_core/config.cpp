@@ -18,7 +18,7 @@ class CfgPatches {
 #include "CfgMagazines.hpp"  
 #include "CfgFunctions.hpp"
 #include "CfgEventhandlers.hpp"
-#include "CfgRecoil.hpp"
+#include "CfgRecoils.hpp"
 
 
 class asdg_MuzzleSlot;
