@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = { "HLC_G3_ammobox", "Weapon_hlc_rifle_psg1", "Weapon_hlc_rifle_g3sg1","Weapon_hlc_rifle_g3ka4","Weapon_hlc_rifle_hk51","Weapon_HLC_Rifle_g3ka4_GL","Weapon_hlc_rifle_hk53","Weapon_hlc_rifle_G3A3","Weapon_hlc_rifle_g3a3ris" };
         weapons[] = {"hlc_rifle_psg1","hlc_rifle_g3sg1","HLC_Optic_ZFSG1","hlc_optic_accupoint_g3","hlc_rifle_g3ka4", "hlc_rifle_hk51","HLC_Rifle_g3ka4_GL","hlc_rifle_hk53", "hlc_optic_PVS4G3"};
         magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_t_G3", "hlc_30rnd_556x45_EPR_HK33","hlc_30rnd_556x45_SOST_HK33","hlc_30rnd_556x45_b_HK33","hlc_30rnd_556x45_t_HK33"};
-        version="1.95";
+        version="2.05";
         author="toadie";
     };
 };
@@ -212,23 +212,23 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    __WEAPONHOLDER(hlc_rifle_g3a3, hlc_20rnd_762x51_b_G3, G3A3, Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_g3a3ris, hlc_20rnd_762x51_b_G3, G3A3(RIS), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_g3a3v, hlc_20rnd_762x51_b_G3, G3A3(Wide), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_g3a3vris, hlc_20rnd_762x51_b_G3, G3A3(Wide/RIS), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_g3ka4, hlc_20rnd_762x51_b_G3, G3KA4(RIS), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(HLC_Rifle_g3ka4_GL, hlc_20rnd_762x51_b_G3, G3KA4(RIS/GL), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk51, hlc_20rnd_762x51_b_G3, HK51, Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk53, hlc_20rnd_762x51_b_G3, HK53, Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk53RAS, hlc_20rnd_762x51_b_G3, HK53(RAS), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk33a2, hlc_20rnd_762x51_b_G3, HK33A2, Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk33a2RIS, hlc_20rnd_762x51_b_G3, HK33A2(RIS), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_hk33a2RIS_GL, hlc_20rnd_762x51_b_G3, HK33A2(RIS/GL), Niarms_G3, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_g3sg1, hlc_20rnd_762x51_Mk316_G3, G3SG1, Niarms_G3, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_g3sg1ris, hlc_20rnd_762x51_Mk316_G3, G3SG1(RIS), Niarms_G3, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_psg1, hlc_20rnd_762x51_Mk316_G3, PSG1, Niarms_G3, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_psg1a1, hlc_20rnd_762x51_Mk316_G3, PSG1A1, Niarms_G3, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_PSG1A1_RIS, hlc_20rnd_762x51_Mk316_G3, PSG1A1(RIS), Niarms_G3, Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3, hlc_20rnd_762x51_b_G3, HK G3A3, Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3ris, hlc_20rnd_762x51_b_G3, HK G3A3(RIS), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3v, hlc_20rnd_762x51_b_G3, HK G3A3(Widegrip), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3a3vris, hlc_20rnd_762x51_b_G3, HK G3A3(Widegrip / RIS), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3ka4, hlc_20rnd_762x51_b_G3, HK G3KA4 RAS, Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(HLC_Rifle_g3ka4_GL, hlc_20rnd_762x51_b_G3, HK G3KA4 RAS(GL), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk51, hlc_20rnd_762x51_b_G3, FR Ordnance MC51, Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk53, hlc_30rnd_556x45_b_hk33, HK HK53, Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk53RAS, hlc_30rnd_556x45_b_hk33, HK HK53(RAS), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk33a2, hlc_30rnd_556x45_b_hk33, HK HK33A2, Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk33a2RIS, hlc_30rnd_556x45_b_hk33, HK HK33A2(RIS), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_hk33a2RIS_GL, hlc_30rnd_556x45_b_hk33, HK HK33A2(RIS / GL), Niarms_g3, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_g3sg1, hlc_20rnd_762x51_Mk316_G3, G3SG1, Niarms_G3, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_g3sg1ris, hlc_20rnd_762x51_Mk316_G3, G3SG1(RIS), Niarms_G3, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_psg1, hlc_20rnd_762x51_Mk316_G3, PSG1, Niarms_G3, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_psg1a1, hlc_20rnd_762x51_Mk316_G3, PSG1A1, Niarms_G3, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_PSG1A1_RIS, hlc_20rnd_762x51_Mk316_G3, PSG1A1(RIS), Niarms_G3, Toadie, SniperRifles);
 };
 
 class CfgMagazines {
@@ -236,201 +236,214 @@ class CfgMagazines {
 
     class hlc_20rnd_762x51_b_G3:30Rnd_556x45_Stanag {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (EPR)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
         displayname = "G3 Mag (EPR) 20rnd 7.62mm";
-        initspeed = 800;
+        initspeed = 873;
         model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
-        mass = 16;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm Ball";
+        displaynameshort = "M80A1 EPR";
     };
     class hlc_20rnd_762x51_Mk316_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_MK316_20in";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.316 Special Ball Long Range)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "G3 Mag (Mk.316) 20rnd 7.62mm";
-        initspeed = 800;
-        mass = 16;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
+        displayname = "G3 Mag (SBLR) 20rnd 7.62mm";
+        initspeed = 731.52;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk.316";
+        displaynameshort = "MK316 SBLR";
     };
     class hlc_20rnd_762x51_barrier_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.319 Barrier-Blind)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "G3 Mag (Mk.319) 20rnd 7.62mm";
-        initspeed = 800;
-        mass = 16;
+        descriptionshort = "Caliber: 7.62x51mm NATO Mk319 Mod0 SOST <br />Type: Reverse Drawn Open-Tip Match<br />Rounds: 20";
+        displayname = "G3 Mag (SOST) 20rnd 7.62mm";
+        initspeed = 873;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk.319";
+        displaynameshort = "MK319 OTM";
     };
     class hlc_20rnd_762x51_T_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "B_762x51_Tracer_Green";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
+        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
         displayname = "G3 Mag (Tracer) 20rnd 7.62mm";
-        initspeed = 800;
-        mass = 16;
+        initspeed = 873;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "M62A1 Tracer";
     };
     class hlc_20rnd_762x51_MDim_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm NATO (EPR,IR-DIM Tracer)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "G3 Mag (EPR,IR-DIM) 20rnd 7.62mm";
-        initspeed = 800;
-        mass = 16;
-        lastroundstracer = 1;
+        descriptionshort = "Caliber: 7.62x51mm NATO XM276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
+        displayname = "G3 Mag (EPR-IRDIM) 20rnd 7.62mm";
+        initspeed = 873;
+        mass = 13;
+        lastroundstracer = 2;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 4;
-        displaynameshort = "7.62mm IR-DIM";
+        displaynameshort = "EPR/IR-DIM";
     };
 
     class hlc_50rnd_762x51_M_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 50;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 50<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "X-91 Mag (Tracer) 50rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-91 Mag (EPR-Tracer) 50rnd 7.62mm";
         model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
-        initspeed = 800;
-        mass = 48;
+        initspeed = 873;
+        mass = 32;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
         tracersevery = 5;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "EPR/Tracer";
     };
     class hlc_50rnd_762x51_MDIM_G3 : hlc_20rnd_762x51_b_G3 {
         dlc = "Niarms_G3";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 50;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 50<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "X-91 Mag (EPR,IR-DIM) 50rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-91 Mag (EPR-IRDIM) 50rnd 7.62mm";
         model = "hlc_wp_g3\mesh\magazine\magazine.p3d";
-        initspeed = 800;
-        mass = 48;
+        initspeed = 873;
+        mass = 32;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
         scope = 2;
         tracersevery = 5;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "EPR/IR-DIM";
     };
     class hlc_20rnd_762x51_IRDim_G3 : hlc_20rnd_762x51_MDim_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
-        descriptionshort = "Caliber: 7.62x51mm NATO (IR-DIM Tracer)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "G3 Mag (IR-DIM) 20rnd 7.62mm";
-        initspeed = 800;
-        mass = 16;
+        author = "Toadie, Spartan0536";
+        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
+        displayname = "G3 Mag (IRDIM) 20rnd 7.62mm";
+        initspeed = 873;
+        mass = 13;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
-        displaynameshort = "7.62mm IR-DIM";
+        displaynameshort = "IR-DIM";
     };
     class hlc_20rnd_762x51_S_G3 : hlc_20rnd_762x51_T_G3 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_BTSub";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Boat-Tailed Subsonic)<br />Rounds: 20<br />Used in: G3A3,G3SG1,PSG1";
+        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 20";
         displayname = "G3 Mag (Subsonic) 20rnd 7.62mm";
         initspeed = 325;
-        mass = 16;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
         tracersevery = 5;
-        displaynameshort = "7.62mm BTS";
+        displaynameshort = "FMJ Subsonic";
     };
 
     class hlc_30rnd_556x45_b_HK33 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        descriptionshort = "Caliber: 5.56x45mm NATO FMJ<br />Type: Full-Metal Jacket<br />Rounds: 30";
         displayname = "HK33 Mag (Ball) 5.56mm";
         model = "hlc_wp_g3\mesh\magazine\magazine_hk33.p3d";
-        initspeed = 750.2;
+        initspeed = 954.8;
         mass = 10;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "5.56mm Ball";
+        displaynameshort = "FMJ";
     };
     class hlc_30rnd_556x45_t_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
-        author = "Toadie";
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
         displayname = "HK33 Mag (Tracer) 5.56mm";
-        initspeed = 750.2;
+        initspeed = 954.8;
         mass = 10;
         lastroundstracer = 1;
         tracersevery = 1;
-        displaynameshort = "5.56mm Tracer";
+        displaynameshort = "M856A1 Tracer";
     };
 
     class hlc_30rnd_556x45_EPR_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "HK33 Mag (EPR) 5.56mm";
-        initspeed = 750.12;
+        initspeed = 954.8;
         mass = 10;
         lastroundstracer = 1;
         tracersevery = 0;
-        displaynameshort = "5.56mm EPR";
+        displaynameshort = "M855A1 EPR";
     };
     class hlc_30rnd_556x45_SOST_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_SOST";
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "HK33 Mag (SOST) 5.56mm";
-        initspeed = 750.3664;
+        initspeed = 934.4;
         mass = 10;
         lastroundstracer = 1;
         tracersevery = 0;
-        displaynameshort = "5.56mm SOST";
+        displaynameshort = "MK318 SOST";
+    };
+    class hlc_30rnd_556x45_SPR_HK33 : hlc_30rnd_556x45_b_HK33 {
+        dlc = "Niarms_G3";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_SPR";
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "HK33 Mag (SPR) 5.56mm";
+        initspeed = 848.7;
+        mass = 10;
+        lastroundstracer = 1;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
     };
     class hlc_30rnd_556x45_tdim_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "HK33 Mag (IR-DIM) 5.56mm";
-        initspeed = 750.2;
+        initspeed = 954.8;
         mass = 10;
         lastroundstracer = 1;
         tracersevery = 1;
-        displaynameshort = "5.56mm IR-DIM";
+        displaynameshort = "IR-DIM";
     };
     class hlc_30rnd_556x45_mdim_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: HK33,HK53";
-        displayname = "HK33 Mag (EPR,IR-DIM) 5.56mm";
-        initspeed = 750.2;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "HK33 Mag (EPR-IRDIM) 5.56mm";
+        initspeed = 954.8;
         mass = 10;
         lastroundstracer = 1;
         tracersevery = 3;
-        displaynameshort = "5.56mm IR-DIM";
+        displaynameshort = "EPR/IR-DIM";
     };
 };
 
@@ -468,7 +481,7 @@ class CfgWeapons {
         picture = "\hlc_wp_G3\tex\ui\gear_diavari_x_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 17;
+            mass = 10;
             modelOptics = "\hlc_wp_G3\mesh\sg1_scope\zfsg1_reticle";
             class OpticsModes {
                 class Snip {
@@ -515,7 +528,7 @@ class CfgWeapons {
         picture = "\hlc_wp_G3\tex\ui\gear_accupoint_x_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_SNP;
-            mass = 18;
+            mass = 8;
             modelOptics = "\hlc_wp_G3\mesh\accupoint\accupoint_reticle";
             class OpticsModes {
                 class Snip {
@@ -562,7 +575,7 @@ class CfgWeapons {
         model = "\hlc_wp_g3\mesh\PVS4\scope.p3d";
         class ItemInfo: InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 12+36;
+            mass = 36;
             modelOptics = "\hlc_wp_g3\mesh\PVS4\NV_anpvs4_optic";
             class OpticsModes {
                 class Snip {
@@ -617,7 +630,7 @@ class CfgWeapons {
 
 
     class hlc_g3_base : Rifle_Base_F {
-        changeFiremodeSound[] = { "hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
+        changeFiremodeSound[] = { "\hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
         dlc = "Niarms_G3";
         recoil = "recoil_dmr_03";
         magazineReloadSwitchPhase = 0.5;
@@ -653,6 +666,7 @@ class CfgWeapons {
             reloadmagazinesound[] = { "A3\sounds_f\Weapons\grenades\ugl_reload", 1, 1, 20 };
             reloadtime = 0.1;
             reloadAction = "GestureReloadTrgUGL";
+            __AI_ROF_GL_SINGLE;
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail {
@@ -681,7 +695,7 @@ class CfgWeapons {
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
 
- 		modes[] = {"Single", "FullAuto", "AI_Single_optics1", "AI_Single_optics2"};
+        modes[] = {"Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics1","single_medium"};
 
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -703,8 +717,8 @@ class CfgWeapons {
             };
             reloadTime = 0.097;
             dispersion = 0.000334521;
-
             __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
+
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -727,17 +741,27 @@ class CfgWeapons {
             reloadTime = 0.097;
             dispersion = 0.000334521;
 
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
+        };
+        class single_medium_optics1 : Single {
+            showToPlayer = 0;
+            requiredoptictype = 1;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+        };
+        class single_medium : Single {
+            showtoplayer = 0;
             __AI_ROF_RIFLE_MEDIUM_SEMI;
         };
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
-		};
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+        };
         drysound[] = {"\hlc_core\sound\empty_sniperrifles", 1, 1, 10};
         // reloadMagazineSound[] = {"\hlc_wp_ak\snd\ak74m_reload",0.74,1,30};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -769,8 +793,7 @@ class CfgWeapons {
         discretedistance[] = {100,200,300,400};
         discretedistanceinitindex = 2;
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g3sg1_reload", 1.0,1,25};
-        __DEXTERITY(5.5, 0);
-        inertia = 0.55;
+        dexterity = 1.68;
         class GunParticles {
             class FirstEffect {
                 effectName = "SniperCloud";
@@ -783,9 +806,24 @@ class CfgWeapons {
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 95;
+            mass = 111;
+        };
+        inertia = 0.55;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3sg1_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3sg1_XMAG";
+            default = "hlc_rifle_g3sg1";
         };
     };
+    class hlc_rifle_g3sg1_XMAG : hlc_rifle_g3sg1
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3sg1\g3sg1_xmag.p3d";
+
+    };
+
+
     class hlc_rifle_g3sg1ris : hlc_rifle_g3sg1
     {
         displayName = "HK G3/SG1(RIS)";
@@ -793,10 +831,22 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\sg1\g3sg1_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 98;
             class CowsSlot : asdg_OpticRail1913 {};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3sg1ris_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3sg1ris_XMAG";
+            default = "hlc_rifle_g3sg1ris";
+        };
     };
+    class hlc_rifle_g3sg1ris_XMAG : hlc_rifle_g3sg1ris
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3sg1\g3sg1_railed_xmag.p3d";
+
+    };
+
     // PSG-1 Accuracy 2.327105669325714e-4
     class hlc_rifle_psg1 : hlc_g3_base {
         deployedpivot = "deploypivot";
@@ -819,8 +869,6 @@ class CfgWeapons {
         UiPicture = "\A3\weapons_f\data\UI\icon_sniper_CA.paa";
         hiddenSelections[] = { "Main", "Furniture", "Scope", "Rail", "Stock1", "Stock2" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\psg\reciever_co.tga", "hlc_wp_g3\tex\psg\grip_co.tga", "hlc_wp_g3\tex\psg\scope_co.tga", "hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa", "hlc_wp_g3\tex\thanez_sg550stock\sig550_s_cheekrest_co.tga", "hlc_wp_g3\tex\thanez_sg550stock\sig550_s_stock_co.tga" };
-        __DEXTERITY(7.2, 0);
-        inertia = 0.72;
         class OpticsModes {
             class Snip {
                 //cameradir = "look";
@@ -845,7 +893,7 @@ class CfgWeapons {
             };
         };
 
-        modes[] = {"Single"};
+        modes[] = {"Single", "single_medium_optics1"};
 
         class Single : Single {
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -854,13 +902,29 @@ class CfgWeapons {
             dispersion = 0.000218166;
             __AI_ROF_RIFLE_SNIPER762_SEMI;
         };
+        class single_medium_optics1 : Single { // same 6x optic
+            showtoplayer = 0;
+            __AI_ROF_338SNIPER_HSCOPE_SEMI;
+        };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 151;
+            mass = 144;
             class MuzzleSlot {};
             class CowsSlot {};
             class UnderBarrelSlot : asdg_UnderSlot{};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_psg1_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_psg1_XMAG";
+            default = "hlc_rifle_psg1";
+        };
+    };
+    class hlc_rifle_psg1_XMAG : hlc_rifle_psg1
+    {
+        scopeArsenal = 0;
+        author = "Twinke Masta, Fallschrimjager, Thanez, Rosa Jonas, Toadie";
+        model = "\hlc_wp_g3\mesh\psg1\psg1_xmag.p3d";
+
     };
 
     class hlc_rifle_psg1A1 : hlc_rifle_psg1 {
@@ -870,7 +934,6 @@ class CfgWeapons {
         picture = "\hlc_wp_g3\tex\ui\gear_psg1a1_ca";
         discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
-        __DEXTERITY(6,0);
         class OpticsModes {
             class Snip {
                 //cameradir = "look";
@@ -889,24 +952,9 @@ class CfgWeapons {
                 opticsDisplayName = "WFOV";
             };
         };
-
- 		modes[] = {"Single", "AI_Single_optics1", "AI_Single_optics2"};
-
-        class Single : Single {
-            __AI_ROF_RIFLE_MEDIUM_SEMI;
-        };
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
-		};
+        modes[] = {"Single", "single_medium_optics1", "single_far_optics1"};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 126;
             class CowsSlot : asdg_OpticRail {
                 class compatibleItems {
                     HLC_Optic_ZFSG1 = 1;
@@ -915,6 +963,18 @@ class CfgWeapons {
                 };
             };
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_psg1A1_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_psg1A1_XMAG";
+            default = "hlc_rifle_psg1A1";
+        };
+    };
+    class hlc_rifle_psg1A1_XMAG : hlc_rifle_psg1A1
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\psg1\psg1a1_xmag.p3d";
+
     };
 
     class hlc_rifle_PSG1A1_RIS : hlc_rifle_psg1A1 {
@@ -922,11 +982,22 @@ class CfgWeapons {
         model = "\hlc_wp_g3\mesh\psg1\psg1a1_RAS.p3d";
         displayName = "HK PSG1A1(RIS)";
         picture = "\hlc_wp_g3\tex\ui\gear_psg1a1_ca";
-        __DEXTERITY(6.3, 0);
+
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 132;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_PSG1A1_RIS_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_PSG1A1_RIS_XMAG";
+            default = "hlc_rifle_PSG1A1_RIS";
+        };
+    };
+    class hlc_rifle_PSG1A1_RIS_XMAG : hlc_rifle_PSG1A1_RIS
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\psg1\psg1a1_RAS_xmag.p3d";
+
     };
 
     class hlc_rifle_g3a3 : hlc_rifle_g3sg1 {
@@ -948,11 +1019,6 @@ class CfgWeapons {
         model = "\hlc_wp_g3\mesh\g3a3\g3a3.p3d";
         hiddenSelections[] = { "Main", "Reciever", "Rec2", "Grip", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_co.tga", "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\recgreen_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\synthgreen_co.tga",""};
-        __DEXTERITY(4.25, 0);
-        inertia = 0.43;
-
- 		modes[] = {"Single", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
-
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g3_Shot_SoundSet", "g3_Tail_SoundSet" };
@@ -966,24 +1032,41 @@ class CfgWeapons {
             dispersion = 0.000436332;
             __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
-		class AI_Burst_close: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			burst = 4;
-			__AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
-		};
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
-		};
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 86;
+        class single_medium_optics1 : Single {
+            showToPlayer = 0;
+            requiredoptictype = 1;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
+        class single_medium : Single {
+            showtoplayer = 0;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+        };
+        class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 88;
+        };
+        inertia = 0.44;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3a3_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3a3_XMAG";
+            default = "hlc_rifle_g3a3";
+        };
+    };
+    class hlc_rifle_g3a3_XMAG : hlc_rifle_g3a3
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3a3\g3a3_xmag.p3d";
+
     };
 
     class hlc_rifle_g3a3ris : hlc_rifle_g3a3 {
@@ -992,10 +1075,22 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Reciever", "Rec2", "Grip", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_co.tga", "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\recgreen_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\synthgreen_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 91;
             class CowsSlot : asdg_OpticRail1913 {};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3a3ris_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3a3ris_XMAG";
+            default = "hlc_rifle_g3a3ris";
+        };
     };
+    class hlc_rifle_g3a3ris_XMAG : hlc_rifle_g3a3ris
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3a3\g3a3_railed_xmag.p3d";
+
+    };
+
     class hlc_rifle_g3a3v : hlc_rifle_g3a3 {
         displayName = "HK G3A3(Widegrip)";
         model = "\hlc_wp_g3\mesh\g3a3\g3a3_Modern.p3d";
@@ -1005,20 +1100,42 @@ class CfgWeapons {
         cameradir = "Look";
         picture = "\hlc_wp_g3\tex\ui\gear_g3a3v_ca";
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4" }; /// the angle of gun changes with zeroing
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 98;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3a3v_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3a3v_XMAG";
+            default = "hlc_rifle_g3a3v";
         };
     };
+    class hlc_rifle_g3a3v_XMAG : hlc_rifle_g3a3v
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3a3\g3a3_Modern_xmag.p3d";
+
+    };
+
     class hlc_rifle_g3a3vris : hlc_rifle_g3a3 {
         displayName = "HK G3A3(Widegrip/RIS)";
         model = "\hlc_wp_g3\mesh\g3a3\g3a3_Modern_railed.p3d";
         hiddenSelections[] = { "Main", "Reciever", "Rec2", "Grip", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_co.tga", "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\recgreen_co.tga", "hlc_wp_g3\tex\fsg-pete-g3\synthgreen_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 105;
             class CowsSlot : asdg_OpticRail1913 {};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3a3vris_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3a3vris_XMAG";
+            default = "hlc_rifle_g3a3vris";
+        };
     };
+    class hlc_rifle_g3a3vris_XMAG : hlc_rifle_g3a3vris
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, Toadie";
+        model = "\hlc_wp_g3\mesh\g3a3\g3a3_Modern_railed_xmag.p3d";
+
+    };
+
     class hlc_rifle_g3ka4: hlc_rifle_g3a3 {
         author = "PAC, Millenia, zulmargera87, Toadie";
         displayName = "HK G3KA4 RAS";
@@ -1030,7 +1147,7 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 314.96;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 95;
+            mass = 82;
             class CowsSlot: asdg_OpticRail1913 {};
             class PointerSlot: asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
@@ -1041,27 +1158,45 @@ class CfgWeapons {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g3ka4_Shot_SoundSet", "g3ka4_Tail_SoundSet" };
             };
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "g3ka4_Shot_SoundSet", "g3ka4_Tail_SoundSet" };
             };
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
-		class AI_Burst_close: FullAuto {
-			showToPlayer = 0;
+        class single_medium_optics1 : Single {
+            showToPlayer = 0;
+            requiredoptictype = 1;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+        };
+        class single_medium : Single {
+            showtoplayer = 0;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
             aiBurstTerminable = 1;
-			burst = 4;
-			__AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
-		};
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
-		};
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+        };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_g3ka4_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_g3ka4_XMAG";
+            default = "hlc_rifle_g3ka4";
+        };
+    };
+    class hlc_rifle_g3ka4_XMAG : hlc_rifle_g3ka4
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, zulmargera87, Toadie";
+        model = "\hlc_wp_g3\mesh\g3_rails\g3ka4_xmag.p3d";
+
     };
 
     class HLC_Rifle_g3ka4_GL : hlc_rifle_g3ka4 {
@@ -1073,12 +1208,24 @@ class CfgWeapons {
         muzzles[] = {"this", "hlc_M203_G3k"};
         hiddenSelections[] = { "Main", "Rail", "Stock", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\sg1\g3sg2_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga", "hlc_wp_g3\tex\arby_mp5n\mp5_co.tga","hlc_wp_g3\tex\tigg_m203\m203_co.tga" };
-        __DEXTERITY(4.5 + 1.36, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 123;
+            mass = 108;
             class UnderBarrelSlot {};
         };
-        inertia = 0.79;
+        inertia = 0.54;
+
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "HLC_Rifle_g3ka4_GL_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "HLC_Rifle_g3ka4_GL_XMAG";
+            default = "HLC_Rifle_g3ka4_GL";
+        };
+    };
+    class HLC_Rifle_g3ka4_GL_XMAG : HLC_Rifle_g3ka4_GL
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, zulmargera87, Toadie";
+        model = "\hlc_wp_g3\mesh\g3_railsGL\g3kgl_xmag.p3d";
+
     };
 
     class hlc_rifle_hk51 : hlc_rifle_g3sg1 {
@@ -1103,18 +1250,14 @@ class CfgWeapons {
         hiddenSelections[] = { "Lower", "Upper", "Furniture", "rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\sg1\g3sg2_co.tga","hlc_wp_g3\tex\hk53\upper_co.tga","hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga" };
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g41_reload", 1.0,1,25};
-        inertia = 0.36;
-        __DEXTERITY(3.66, 0);
-
-		modes[] = {"Single", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
-
+        initspeed = -0.83;
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "hk51_Shot_SoundSet", "hk51_Tail_SoundSet" };
             };
             reloadTime = 0.085;
             dispersion = 0.0013;
-            __AI_ROF_RIFLE_SMALL_FULLAUTO;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1122,26 +1265,43 @@ class CfgWeapons {
             };
             reloadTime = 0.085;
             dispersion = 0.0013;
-            __AI_ROF_CQB_SINGLE;
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
-		class AI_Burst_close: FullAuto {
-			showToPlayer = 0;
+        class single_medium_optics1 : Single {
+            showToPlayer = 0;
+            requiredoptictype = 1;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
+        };
+        class single_medium : Single {
+            showtoplayer = 0;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
+        };
+        class single_far_optics1 : single_medium_optics1 {
+            requiredoptictype = 2;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
             aiBurstTerminable = 1;
-			burst = 4;
-			__AI_ROF_CQB_CLOSE_BURST;
-		};
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_CQB_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-		};
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 76;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
-        
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 62;
+        };
+        inertia = 0.31;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_G3 = "hlc_rifle_hk51_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_hk51_XMAG";
+            default = "hlc_rifle_hk51";
+        };
+    };
+    class hlc_rifle_hk51_XMAG : hlc_rifle_hk51
+    {
+        scopeArsenal = 0;
+        author = "PAC, Millenia, zulmargera87, Toadie";
+        model = "\hlc_wp_g3\mesh\hene_hk51\hk53_xmag.p3d";
+
     };
 
     class hlc_rifle_hk53 : hlc_g3_base {
@@ -1159,23 +1319,22 @@ class CfgWeapons {
         agm_bipod = 0;
         cse_bipod = 0;
         bg_bipod = 0;
+        initspeed = -0.85;
         magazines[] = {
-            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33", "hlc_30rnd_556x45_SPR_HK33"
         };
         discreteDistance[] = { 100, 200, 300, 400 };
         model = "\hlc_wp_g3\mesh\hene_hk53\hk53.p3d";
         picture = "\hlc_wp_g3\tex\ui\gear_hk53_x_ca";
         hiddenSelections[] = { "Lower", "Upper", "Grip", "Grip1", "Panels", "Rail","Magazine" };
-        hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\hk53\upper_co.tga", "hlc_wp_g3\tex\rails_co.paa", "hlc_wp_g3\tex\tigg_m203\fore_co.tga", "hlc_wp_g3\tex\tigg_m203\rails_co.tga","hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\hk53\upper_co.tga", "hlc_wp_g3\tex\rails_co.paa", "hlc_wp_g3\tex\tigg_m203\fore_co.tga", "hlc_wp_g3\tex\tigg_m203\rails_co.tga","hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa","hlc_wp_g3\tex\hk53\mag_co.tga" };
         displayName = "HK HK53";
         reloadAction = "HLC_GestureReloadHK53";
         handanim[] = {"OFP2_ManSkeleton", "hlc_wp_g3\gesture\newgesture\mc51_hands.rtm"};
         descriptionShort = "Compact Carbine<br/>Caliber:  5.56x45mm NATO";
         reloadmagazinesound[] = {"\hlc_wp_g3\snd\g41_reload", 1.0,1,25};
-        inertia = 0.31;
-        __DEXTERITY(3.05, 0);
 
-		modes[] = {"Single", "Burst", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2"};
+        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2","AI_Burst_close" };
 
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1198,7 +1357,15 @@ class CfgWeapons {
             __ROF(700);
             dispersion = 0.0011;
 
-            __AI_ROF_RIFLE_SMALL_FULLAUTO;
+            aiRateOfFire = 0.2;
+            aiRateOfFireDistance = 50;
+            aiRateOfFireDispersion = 1;
+            minRange = 0;
+            minRangeProbab = 0.9;
+            midRange = 5;
+            midRangeProbab = 0.8;
+            maxRange = 10;
+            maxRangeProbab = 0.1;
         };
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -1243,28 +1410,31 @@ class CfgWeapons {
             };
             __ROF(700);
             dispersion = 0.0011;
-
-            __AI_ROF_CQB_SHORT_BURST;
+            __AI_ROF_CQB_SHORT_BURST; 
+                displayName = $STR_DN_MODE_BURST; 
+                textureType = "burst"; 
+                soundBurst = 0; 
         };
-		class AI_Burst_close: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			burst = 4;
-			__AI_ROF_CQB_CLOSE_BURST;
-		};
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_CQB_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-		};
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 4; 
+                __AI_ROF_CQB_CLOSE_BURST; 
+        };
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_CQB_MSCOPE_SINGLE;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 61;
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
-        
+        inertia = 0.31;
     };
 
     class hlc_rifle_hk53RAS : hlc_rifle_hk53 {
@@ -1275,9 +1445,8 @@ class CfgWeapons {
         picture = "\hlc_wp_g3\tex\ui\gear_hk53_x_ca";
         displayName = "HK HK53(RAS)";
         hiddenSelections[] = { "Lower", "Upper", "Grip", "Grip1", "Panels", "Rail", "Magazine" };
-        hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\hk53\upper_co.tga", "hlc_wp_g3\tex\rails_co.paa", "hlc_wp_g3\tex\tigg_m203\fore_co.tga", "hlc_wp_g3\tex\tigg_m203\rails_co.tga", "hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa" };
+        hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\hk53\upper_co.tga", "hlc_wp_g3\tex\rails_co.paa", "hlc_wp_g3\tex\tigg_m203\fore_co.tga", "hlc_wp_g3\tex\tigg_m203\rails_co.tga", "hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa" ,"hlc_wp_g3\tex\hk53\mag_co.tga"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 66;
             class CowsSlot : asdg_OpticRail1913_short {};
             class PointerSlot : asdg_FrontSideRail {};
         };
@@ -1289,6 +1458,7 @@ class CfgWeapons {
         recoil = "recoil_trg20";
         maxZeroing = 1000;
         author = "Krycek,Soul Slayer,HeNe, Toadie";
+
         scope = public; // lets the game know this isn't an intermediary
         //Self explanatory
         AB_barrelTwist = 7;
@@ -1313,10 +1483,8 @@ class CfgWeapons {
         hiddenSelections[] = { "Main","FCG", "Rail", "Stock","Magazine", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_2_co.tga","hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga", "hlc_wp_g3\tex\sg1\g3sg3_co.tga","hlc_wp_g3\tex\hk53\mag_co.tga" ,"hlc_wp_g3\tex\tigg_m203\m203_co.tga" };
         reloadmagazinesound[] = { "\hlc_wp_g3\snd\g41_reload", 1.0, 1, 25 };
-        inertia = 0.36;
-        __DEXTERITY(3.65, 0);
 
-		modes[] = {"Single", "Burst", "FullAuto", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2", "AI_far"};
+        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2","AI_Burst_close","AI_far" };
 
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1387,33 +1555,36 @@ class CfgWeapons {
 
             __AI_ROF_RIFLE_SMALL_SHORT_BURST;
         };
-		class AI_Burst_close: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			burst = 4;
-			__AI_ROF_RIFLE_SMALL_CLOSE_BURST;
-		};
-		class AI_Single_optics1: Single {
-			showToPlayer = 0;
-			requiredOpticType = 1;
-			__AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
-		};
-		class AI_Single_optics2: AI_Single_optics1 {
-			requiredOpticType = 2;
-			__AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
-		};
-		class AI_far: Single {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			burst = 5;
-            reloadtime = 0.2;
-			__AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
-		};
 
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 4; 
+                __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
+        }; 
+        class AI_far : Single {
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 5; 
+                reloadtime = 0.2; 
+                __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE; 
+        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 77;
+            mass = 73;
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
+        inertia = 0.37;
     };
 
     class hlc_rifle_hk33a2RIS : hlc_rifle_hk33a2 {
@@ -1424,7 +1595,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "FCG", "Rail", "Stock", "Magazine", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_2_co.tga", "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga", "hlc_wp_g3\tex\sg1\g3sg3_co.tga", "hlc_wp_g3\tex\hk53\mag_co.tga", "hlc_wp_g3\tex\tigg_m203\m203_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 85;
+            mass = 84;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
@@ -1438,12 +1609,10 @@ class CfgWeapons {
         displayName = "HK HK33A2(RIS/GL)";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g3\gesture\newgesture\g3k_gl_hands.rtm" };
         muzzles[] = { "this", "hlc_M203_G3k" };
-        inertia = 0.5;
-        __DEXTERITY(3.65 + 0.4 + 1.36, 0);
         hiddenSelections[] = { "Main", "FCG", "Rail", "Stock", "Magazine", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_2_co.tga", "hlc_wp_g3\tex\hk53\lower_co.tga", "hlc_wp_g3\tex\zulmarg_tech\rail_co.tga", "hlc_wp_g3\tex\sg1\g3sg3_co.tga", "hlc_wp_g3\tex\hk53\mag_co.tga", "hlc_wp_g3\tex\tigg_m203\m203_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 156;
+            mass = 100;
             class UnderBarrelSlot {};
         };
     };
