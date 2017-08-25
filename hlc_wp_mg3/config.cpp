@@ -7,12 +7,12 @@ class CfgPatches
 {
 	class hlcweapons_MG3s
 	{
-	requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "cba_jr", "hlcweapons_core" };
-	units[] = { "HLC_MG3_ammobox", "HLC_MG42_ammobox", "Weapon_hlc_lmg_MG42", "Weapon_hlc_lmg_mg42_bakelite", "Weapon_hlc_lmg_MG42KWS_t","Weapon_hlc_lmg_MG42KWS_t", "Weapon_hlc_lmg_MG42KWS_g","Weapon_hlc_lmg_MG42KWS_b","Weapon_hlc_lmg_MG3","Weapon_hlc_lmg_MG3_optic","Weapon_hlc_lmg_MG3KWS_t","Weapon_hlc_lmg_MG3KWS_g","Weapon_hlc_lmg_MG3KWS_b" };
-	weapons[] = {"hlc_lmg_MG42","hlc_lmg_mg42_bakelite","hlc_lmg_MG42KWS_t","hlc_lmg_MG42KWS_g","hlc_lmg_MG42KWS_B","hlc_lmg_MG3","hlc_lmg_MG3_optic","hlc_lmg_MG3KWS","hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g"};
-	magazines[] = {};
-	version = "1";
-	author = "toadie";
+		requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "cba_jr", "hlcweapons_core" };
+		units[] = { "HLC_MG3_ammobox", "HLC_MG42_ammobox", "Weapon_hlc_lmg_MG42", "Weapon_hlc_lmg_mg42_bakelite", "Weapon_hlc_lmg_MG42KWS_t","Weapon_hlc_lmg_MG42KWS_t", "Weapon_hlc_lmg_MG42KWS_g","Weapon_hlc_lmg_MG42KWS_b","Weapon_hlc_lmg_MG3","Weapon_hlc_lmg_MG3_optic","Weapon_hlc_lmg_MG3KWS_t","Weapon_hlc_lmg_MG3KWS_g","Weapon_hlc_lmg_MG3KWS_b" };
+		weapons[] = {"hlc_lmg_MG42","hlc_lmg_mg42_bakelite","hlc_lmg_MG42KWS_t","hlc_lmg_MG42KWS_g","hlc_lmg_MG42KWS_B","hlc_lmg_MG3","hlc_lmg_MG3_optic","hlc_lmg_MG3KWS","hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g"};
+		magazines[] = {};
+		version = "1";
+		author = "toadie";
 	};
 };
 class CfgMods
@@ -20,16 +20,16 @@ class CfgMods
 	class Mod_Base;
 	class Niarms_MG3 :Mod_Base
 	{
-	name = "NIArsenal: MG3 GPMGs";
-	picture = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
-	dir = "@NIArsenal";
-	hideName = 1;
-	hidePicture = 0;
-	action = "http://credmo.updatedtuesdays.com/tier1";
-	author = "Toadie";
-	logo = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
-	logoOver = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
-	logoSmall = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
+		name = "NIArsenal: MG3 GPMGs";
+		picture = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
+		dir = "@NIArsenal";
+		hideName = 1;
+		hidePicture = 0;
+		action = "http://credmo.updatedtuesdays.com/tier1";
+		author = "Toadie";
+		logo = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
+		logoOver = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
+		logoSmall = "hlc_wp_mg3\tex\ui\NIArms1_ca.paa";
 	};
 };
 class Mode_SemiAuto;
