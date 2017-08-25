@@ -25,7 +25,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\ak47\ak47_mid", 1 } };
-		volume = 1.3;
+        volume = 1.6252;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -395,7 +395,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\ak74\ak74_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -718,7 +718,7 @@ class Nia_rpk_midShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\rpk\rpk_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -1039,7 +1039,7 @@ class Nia_rpk74_midShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\rpk74\rpk74_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -1406,7 +1406,7 @@ class Nia_aks74u_midShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\aks74u\aks74u_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -1774,7 +1774,7 @@ class Nia_ak12_midShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\ak12\ak12_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -2142,7 +2142,7 @@ class Nia_aek_midShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\aek\aek_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -2417,7 +2417,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\SLR107U\SLR107U_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -2497,7 +2497,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 	{
 		samples[] = {
 			{ "hlc_wp_ak\snd\soundshaders\rk62\rk62_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -2580,7 +2580,7 @@ class Nia_aek_silencerTailTrees_SoundShader
 			{ "hlc_wp_ak\snd\soundshaders\saiga\saiga_mid", 1 },
 			{ "hlc_wp_ak\snd\soundshaders\saiga\saiga_mid", 1 },
 			{ "hlc_wp_ak\snd\soundshaders\saiga\saiga_mid", 1 } };
-        volume = 1.3;
+        volume = 1.6252;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.2 },

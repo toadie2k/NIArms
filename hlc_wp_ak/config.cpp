@@ -305,25 +305,25 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 5.45x39mm 7N6<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7N6M<br />Type:Full Metal Jacket (Lead Tip, Mild Steel Core)<br />Rounds: 30";
         displayname = "AK74 Mag (Ball) 30rnd 5.45mm";
-        initSpeed = 880;
+        initSpeed = 879.9;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 12;
-        displaynameshort = "7N6 Ball";
+        displaynameshort = "7N6M FMJ";
     };
     class hlc_30Rnd_545x39_S_AK : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "FH_545x39_7u1";
         count = 30;
-        descriptionshort = "Caliber: 5.45x39mm 7N6<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7U1<br />Type:Full Metal Jacket<br />Rounds: 30";
         displayname = "AK74 Mag (Subsonic) 30rnd 5.45mm";
-        initspeed = 300;
+        initspeed = 371;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
         scope = 2;
@@ -336,7 +336,7 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "FH_545x39_Tracer";
-        descriptionshort = "Caliber: 5.45x39mm 7T3<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium Tip, Mild Steel Core)<br />Rounds: 30";
         displayname = "AK74 Mag (Tracer) 30rnd 5.45mm";
         lastroundstracer = 0;
         scope = 2;
@@ -351,8 +351,23 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_Tracer";
         count = 45;
-        descriptionshort = "Caliber: 5.45x39mm 7T3/7N6<br />Rounds: 45<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
         displayname = "RPK74 Mag (Tracer) 45rnd 5.45mm";
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 14;
+        displaynameshort = "7T3 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_rpk74mixed_ca.paa";
+        model = "\hlc_wp_ak\mesh\magazine\magazine_rpk74.p3d";
+    };
+    class hlc_45Rnd_545x39_m_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 45;
+        descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
+        displayname = "RPK74 Mag (FMJ-Tracer) 45rnd 5.45mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
@@ -366,7 +381,7 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_Tracer";
         count = 60;
-        descriptionshort = "Caliber: 5.45x39mm 7T3/7N6<br />Rounds: 45<br />Used in: RPK12,AK12,AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 60";
         displayname = "RPK12 Mag (Tracer) 60rnd 5.45mm";
         lastroundstracer = 1;
         scope = 2;
@@ -380,14 +395,14 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "FH_545x39_EP";
-        descriptionshort = "Caliber: 5.45x39mm 7N24<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7N10 EP<br />Type: Full Metal Jacket (Lead Tip, Hardened Steel Core)<br />Rounds: 30";
         displayname = "AK74 Mag (Enhanced Peneterator) 30rnd 5.45mm";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
         mass = 12;
-        displaynameshort = "7N24 EP";
-        initSpeed = 890;
+        displaynameshort = "7N10 EP-FMJ";
+        initSpeed = 879.9;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ep_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
     };
@@ -396,71 +411,118 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "HLC_762x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (M43 Ball) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231S(M43 Ball)<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
         displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
         mass = 13;
-        displaynameshort = "Ball";
+        displaynameshort = "57-N-231S FMJ";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 715;
+        initspeed = 739.1;
     };
     class hlc_30Rnd_762x39_t_ak : hlc_30Rnd_762x39_b_ak {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
         displayname = "AK47 Mag (Tracer) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
         mass = 13;
-        displaynameshort = "Tracer";
+        displaynameshort = "57-N-231P Tracer";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_t_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 715;
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_AP_ak : hlc_30Rnd_762x39_b_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 30;
+        descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 30";
+        displayname = "AK47 Mag (AP) 30rnd 7.62mm";
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 13;
+        displaynameshort = "7N23 AP";
+        picture = "\hlc_wp_ak\tex\ui\m_ak47_t_ca.paa";
+        model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
+        initspeed = 759.0;
+    };
+    class hlc_45Rnd_762x39_AP_rpk : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 45;
+        descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 45";
+        displayname = "RPK Mag (AP) 45rnd 7.62mm";
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 16;
+        displaynameshort = "7N23 AP";
+        picture = "\hlc_wp_ak\tex\ui\m_rpk_tracer_ca.paa";
+        model = "\hlc_wp_ak\mesh\magazine\magazine_Rpk.p3d";
+        initspeed = 759.0;
+    };
+    class hlc_75Rnd_762x39_AP_rpk : hlc_45Rnd_762x39_AP_rpk {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 75;
+        descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 75";
+        displayname = "RPK Drum (AP) 75rnd 7.62mm";
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 32;
+        displaynameshort = "7N23 AP";
+        picture = "\hlc_wp_ak\tex\ui\m_rpk_mixed_ca.paa";
+        model = "\hlc_wp_ak\mesh\magazine\magazine_RPKdrum.p3d";
+        initspeed = 759.0;
     };
     class hlc_30rnd_762x39_s_ak : hlc_30Rnd_762x39_b_ak {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (M43 Ball) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 557-N-321U<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
         displayname = "AK47 Mag (Subsonic) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
         mass = 13;
-        displaynameshort = "Subsonic";
+        displaynameshort = "57-N-321U Subsonic";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 340;
+        initspeed = 311.8;
     };
     class hlc_45Rnd_762x39_t_rpk : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
         count = 45;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) RPK Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 45";
         displayname = "RPK Mag (Tracer) 45rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
         mass = 16;
-        displaynameshort = "Tracer";
+        displaynameshort = "57-N-231P Tracer";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_tracer_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_Rpk.p3d";
-        initspeed = 745;
+        initspeed = 739.1;
     };
     class hlc_45Rnd_762x39_m_rpk : hlc_45Rnd_762x39_t_rpk {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
         count = 45;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (Tracer) RPK Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 45";
         displayname = "RPK Mag (Mixed) 45rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
@@ -469,13 +531,13 @@ class CfgMagazines {
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_RPK.p3d";
-        initspeed = 745;
+        initspeed = 739.1;
     };
     class hlc_75Rnd_762x39_m_rpk : hlc_45Rnd_762x39_m_rpk {
         dlc = "Niarms_AK";
         author = "Toadie";
         count = 75;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (Tracer) RPK Magazine <br />Rounds: 75<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 75";
         displayname = "RPK Drum (Mixed) 75rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
@@ -484,7 +546,7 @@ class CfgMagazines {
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_RPKdrum.p3d";
-        initspeed = 745;
+        initspeed = 739.1;
     };
     class 1Rnd_HE_Grenade_shell;
     class hlc_VOG25_AK : 1Rnd_HE_Grenade_shell {
@@ -592,9 +654,9 @@ class CfgWeapons {
                     opticsID = 1;
                     useModelOptics = 1;
                     opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur3"};
-                    opticsZoomMin = 0.0623;
-                    opticsZoomMax = 0.0623;
-                    opticsZoomInit = 0.0623;
+                    opticsZoomMin = 0.0625;
+                    opticsZoomMax = 0.0625;
+                    opticsZoomInit = 0.0625;
                     discreteDistance[] = { 100, 200, 300, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000 };
                     discreteDistanceInitIndex = 3;
                     distanceZoomMin=400;
@@ -612,9 +674,9 @@ class CfgWeapons {
                     opticsID = 2;
                     useModelOptics = 1;
                     opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur3"};
-                    opticsZoomMin = 0.0623;
-                    opticsZoomMax = 0.0623;
-                    opticsZoomInit = 0.0623;
+                    opticsZoomMin = 0.0625;
+                    opticsZoomMax = 0.0625;
+                    opticsZoomInit = 0.0625;
                     discreteDistance[] = {400};
                     discreteDistanceInitIndex = 0;
                     distanceZoomMin=400;
@@ -807,21 +869,13 @@ class CfgWeapons {
         bullet8[] = {"A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15};
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
-        modes[] = {"FullAuto","Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+        modes[] = {"FullAuto","Single", "AI_Burst_close", "AI_Burst_far","AI_Single_optics1", "AI_Single_optics2" };
 
         class Single : Mode_SemiAuto {
             __ROF(650);
             dispersion = 0.000654498;
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_AK_SINGLE;
 
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -873,41 +927,42 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_ak74_silencerShot_SoundSet", "Nia_ak74_silencerTail_SoundSet" };
             };
         }; 
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 7; 
+                __AI_ROF_AK_CLOSE_BURST; 
+        }; 
+        class AI_Burst_far : AI_Burst_close {
+            
+                burst = 4; 
+                __AI_ROF_AK_FAR_BURST; 
+        }; 
+        class AI_Single_optics1 : Single {
+            
+                showToPlayer = 0; 
+                requiredOpticType = 1; 
+                __AI_ROF_AK_MSCOPE_SINGLE; 
+        }; 
+        class AI_Single_optics2 : AI_Single_optics1 {
+            
+                requiredOpticType = 2; 
+                __AI_ROF_AK_HSCOPE_SINGLE; 
+        }; 
+        class Burst3 : Single {
+            
+                __AI_ROF_AK_SHORT_BURST; 
+                burst = 3; 
+                displayName = $STR_DN_MODE_BURST; 
+                textureType = "burst"; 
+                soundBurst = 0; 
+                showToPlayer = 0;
+        }; 
+        class Burst2 : Burst3 {
+            
+                burst = 2; 
+                textureType = "dual"; 
         };
         drysound[] = {"\hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
@@ -936,6 +991,8 @@ class CfgWeapons {
             reloadtime = 0.1;
             sound[] = { "\hlc_wp_ak\snd\gp30_fire", 1.0, 1, 400 };
             weaponinfotype = "RscWeaponZeroing";
+            reloadAction = "HLC_GestureReloadGP30";
+            __AI_ROF_GL_SINGLE;
         };
         class hlc_GP25 : hlc_GP30 {
             cameraDir = "OP_look";
@@ -964,6 +1021,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         reloadAction = "HLC_GestureReloadAK545";
+        __AI_AK_MODES(Single, FullAuto);
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
             class CowsSlot : asdg_OpticSideMount {};
@@ -972,6 +1030,7 @@ class CfgWeapons {
 		__DEXTERITY(3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_60rnd";
             default = "hlc_rifle_ak74";
         };
@@ -990,6 +1049,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_60rnd.p3d";
     };
+
     class hlc_rifle_ak74_dirty : hlc_rifle_ak74 {
         author = "MrRifleman, Millenia, Toadie";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_dirty.p3d";
@@ -999,6 +1059,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_ak74\body_dirty_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74_dirty_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74_dirty_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_dirty_60rnd";
             default = "hlc_rifle_ak74_dirty";
         };
@@ -1017,6 +1078,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74(Worn)";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_dirty_60rnd.p3d";
     };
+
     class hlc_rifle_ak74_dirty2 : hlc_rifle_ak74 {
         author = "MrRifleman, Bull5hit, Toadie";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_dirty2.p3d";
@@ -1026,6 +1088,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_ak74\body_dirty2_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74_dirty2_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74_dirty2_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_dirty2_60rnd";
             default = "hlc_rifle_ak74_dirty2";
         };
@@ -1044,6 +1107,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74(Worn)";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_dirty2_60rnd.p3d";
     };
+
     class hlc_rifle_aks74 : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1063,6 +1127,7 @@ class CfgWeapons {
 		__DEXTERITY(2.9,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74_60rnd";
             default = "hlc_rifle_aks74";
         };
@@ -1083,6 +1148,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aks74\aks74_60rnd.p3d";
         
     };
+
     class hlc_rifle_ak12 : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1100,7 +1166,7 @@ class CfgWeapons {
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak12\ak12_reload2",1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK12New";
 
-        modes[] = { "FullAuto", "Burst", "Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
+        modes[] = { "FullAuto", "Burst", "Single", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2","AI_far","SemiAuto" };
 
         class FullAuto : Mode_FullAuto {
             __ROF(600);
@@ -1201,41 +1267,35 @@ class CfgWeapons {
             };
 
         };
-        class fullauto_medium : FullAuto {
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 4; 
+                __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
+        }; 
+        class AI_Single_optics1 : Single {
+            
+                showToPlayer = 0; 
+                requiredOpticType = 1; 
+                __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE; 
+        }; 
+        class AI_Single_optics2 : AI_Single_optics1 {
+            
+                requiredOpticType = 2; 
+                __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE; 
+        }; 
+        class SemiAuto : Single {
             showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+                __AI_ROF_RIFLE_SMALL_SEMI; 
+        }; 
+        class AI_far : Single {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 5; 
+                reloadtime = 0.2; 
+                __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE; 
         };
         class Library {
             libTextDesc = "Izhmash AK12 5.45mm";
@@ -1249,6 +1309,7 @@ class CfgWeapons {
 		__DEXTERITY(3.3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak12_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak12_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak12_60rnd";
             default = "hlc_rifle_ak12";
         };
@@ -1269,6 +1330,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\ak12\ak12_60rnd.p3d";
 
     };
+
     class hlc_rifle_ak12GL : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1296,6 +1358,7 @@ class CfgWeapons {
 		__DEXTERITY(3.3 + 1.4,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak12GL_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak12GL_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak12GL_60rnd";
             default = "hlc_rifle_ak12GL";
         };
@@ -1316,6 +1379,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\ak12\ak12GP_60rnd.p3d";
 
     };
+
     class hlc_rifle_aku12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1368,41 +1432,35 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_aks74u_silencerShot_SoundSet", "Nia_aks74u_silencerTail_SoundSet" };
             };
         };
-        class fullauto_medium : FullAuto {
+        class AI_Burst_close : FullAuto {
+
             showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
-        class single_medium_optics1 : Single {
+        class AI_Single_optics1 : Single {
+
+            showToPlayer = 0;
             requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
-        class single_far_optics2 : single_medium_optics1 {
+        class AI_Single_optics2 : AI_Single_optics1 {
+
             requiredOpticType = 2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class SemiAuto : Single {
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            __AI_ROF_RIFLE_SMALL_SEMI;
+        };
+        class AI_far : Single {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 5;
+            reloadtime = 0.2;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
         };
         class Library {
             libTextDesc = "Izhmash AK12 5.45mm";
@@ -1414,6 +1472,7 @@ class CfgWeapons {
 		__DEXTERITY(3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aku12_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aku12_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aku12_60rnd";
             default = "hlc_rifle_aku12";
         };
@@ -1434,6 +1493,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\ak12\aku12_60rnd.p3d";
 
     };
+
     class hlc_rifle_RPK12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         AB_barrelLength=23.2;
@@ -1485,42 +1545,35 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_rpk74_silencerShot_SoundSet", "Nia_rpk74_silencerTail_SoundSet" };
             };
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 5;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 200;
-        };
+        class AI_Burst_close : FullAuto {
 
-        class medium : fullauto_medium {
             showToPlayer = 0;
-            airateoffire = 0.2;
-            airateoffiredistance = 600;
-            burst = 3;
-            maxrange = 600;
-            maxrangeprobab = 0.1;
-            midrange = 400;
-            midrangeprobab = 0.6;
-            minrange = 200;
-            minrangeprobab = 0.05;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
-        class close : FullAuto {
+        class AI_Single_optics1 : Single {
+
             showToPlayer = 0;
-            airateoffire = 0.1;
-            airateoffiredistance = 50;
-            burst = 10;
-            maxrange = 50;
-            maxrangeprobab = 0.04;
-            midrange = 30;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.05;
+            requiredOpticType = 1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+        };
+        class AI_Single_optics2 : AI_Single_optics1 {
+
+            requiredOpticType = 2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class SemiAuto : Single {
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_SEMI;
+        };
+        class AI_far : Single {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 5;
+            reloadtime = 0.2;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
         };
         class Library {
             libTextDesc = "Izhmash AK12 5.45mm";
@@ -1532,6 +1585,7 @@ class CfgWeapons {
 		__DEXTERITY(5,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_RPK12_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_RPK12_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_RPK12_60rnd";
             default = "hlc_rifle_RPK12";
         };
@@ -1552,6 +1606,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\ak12\rpk12.p3d";
 
     };
+
     class hlc_rifle_aks74u : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1596,42 +1651,6 @@ class CfgWeapons {
             };
             maxRange = 400;
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
-        };
         class Library {
             libTextDesc = "Izhmash AKS74U";
         };
@@ -1643,6 +1662,7 @@ class CfgWeapons {
 		__DEXTERITY(2.6,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74u_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74u_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_60rnd";
             default = "hlc_rifle_aks74u";
         };
@@ -1663,6 +1683,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\millaks74u\aks74u_60rnd.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mil_aks\aks-74u_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\rifleman_akmags\texture_co.tga" };
     };
+
     class hlc_rifle_ak47 : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1687,7 +1708,6 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK762";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\ak47\ak_reload_longer",0.9,1,30};
 
-        modes[] = {"FullAuto","Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
 
         class FullAuto: FullAuto {
             reloadTime = 0.097;
@@ -1757,6 +1777,8 @@ class CfgWeapons {
 		__DEXTERITY(3.5,0);
         class __MAGSWITCHCLASS {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_ak47_45rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_ak47_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_ak47_75rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_ak47_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_ak47_75rnd";
             default = "hlc_rifle_ak47";
@@ -1776,10 +1798,11 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         displayName = "Izhmash AK47";
         model = "\hlc_wp_ak\mesh\ak47\ak47_75rnd.p3d";
-        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\47_rec_co.tga", "hlc_wp_ak\tex\upper_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\bis_rpk\drum_magazine_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\47_rec_co.tga", "hlc_wp_ak\tex\upper_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\populik_Drum\ak_drum_mag_co.tga" };
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_akm : hlc_rifle_ak47 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1803,6 +1826,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_akm_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_akm_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_akm_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_akm_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_akm_75rnd";
             default = "hlc_rifle_akm";
         };
     }; 
@@ -1823,6 +1848,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_akmgl : hlc_rifle_akm {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1843,6 +1869,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_akmgl_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_akmgl_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_akmgl_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_akmgl_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_akmgl_75rnd";
             default = "hlc_rifle_akmgl";
         };
     };
@@ -1863,6 +1891,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_rpk : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1895,7 +1924,7 @@ class CfgWeapons {
         descriptionShort = "Light Support Weapon<br/>Caliber: 7.62mm";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\rpk\rpk_reload",0.9,1,30};
 
-        modes[] = {"FullAuto","Single", "fullauto_medium", "medium","close"};
+        modes[] = { "FullAuto", "Single", "50m", "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar", "AI_far_optic1", "AI_toofar_optic1", "AI_far_optic2", "AI_toofar_optic2"};
         class FullAuto: FullAuto {
             __ROF(600);
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1905,6 +1934,7 @@ class CfgWeapons {
             class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk_Shot_Silenced_SoundSet", "Nia_rpk_ShotTail_Silenced_SoundSet" };
             };
+            __AI_ROF_MG_FULLAUTO;
         };
         class Single : Single {
             __ROF(600);
@@ -1915,44 +1945,45 @@ class CfgWeapons {
             class SilencedSound : SilencedSound { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk_Shot_Silenced_SoundSet", "Nia_rpk_ShotTail_Silenced_SoundSet" };
             };
+            __AI_ROF_MG_SINGLE;
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 5;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 200;
-        };
+        class 50m : FullAuto{ 
+			__AI_ROF_MG_FULLAUTO; 
+        		}; 
+        class AI_long : 50m { 
+			showToPlayer = 0; 
+            aiBurstTerminable = 1; 
+			__AI_ROF_MG_LONG_BURST; 
+        		}; 
+		class AI_close: AI_long { 
+			__AI_ROF_MG_CLOSE_BURST; 
+        		}; 
+		class AI_short: AI_close { 
+			__AI_ROF_MG_SHORT_BURST; 
+        		}; 
+		class AI_medium: AI_close { 
+			__AI_ROF_MG_MEDIUM_BURST; 
+        		}; 
+		class AI_far: AI_close { 
+			__AI_ROF_MG_FAR_BURST; 
+        		}; 
+		class AI_toofar: AI_far { 
+			__AI_ROF_MG_VERYFAR_BURST; 
+        		}; 
+		class AI_far_optic1: AI_far { 
+			requiredOpticType = 1; 
+			__AI_ROF_MG_FAR_SCOPE_BURST; 
+        		}; 
+		class AI_toofar_optic1: AI_far_optic1 { 
+			__AI_ROF_MG_VERYFAR_SCOPE_BURST; 
+        		}; 
+		class AI_far_optic2: AI_far_optic1 { 
+			requiredOpticType = 2; 
+        		}; 
+		class AI_toofar_optic2: AI_toofar_optic1 { 
+			requiredOpticType = 2; 
+        		}; 
 
-        class medium : fullauto_medium {
-            showToPlayer = 0;
-            airateoffire = 0.2;
-            airateoffiredistance = 600;
-            burst = 3;
-            maxrange = 600;
-            maxrangeprobab = 0.1;
-            midrange = 400;
-            midrangeprobab = 0.6;
-            minrange = 200;
-            minrangeprobab = 0.05;
-        };
-        class close : FullAuto {
-            showToPlayer = 0;
-            airateoffire = 0.1;
-            airateoffiredistance = 50;
-            burst = 10;
-            maxrange = 50;
-            maxrangeprobab = 0.04;
-            midrange = 30;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.05;
-        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 96;
             class CowsSlot : asdg_OpticSideMount {};
@@ -1964,6 +1995,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_rpk_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_rpk_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_rpk_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_rpk_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_rpk_75rnd";
             default = "hlc_rifle_rpk";
         };
     };
@@ -1981,9 +2014,11 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         model = "\hlc_wp_ak\mesh\rpk\rpk_75rnd.p3d";
         displayName = "Izhmash RPK";
+        reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
-        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\bis_rpk\drum_magazine_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\populik_Drum\ak_drum_mag_co.tga" };
     };
+
     class hlc_rifle_rpk74n : hlc_ak_base {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -2013,7 +2048,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\rifleman_aks\aks_co.tga" };
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         descriptionShort = "Light Support Weapon<br/>Caliber: 5.45mm";
-        modes[] = { "FullAuto", "Single", "fullauto_medium", "medium", "close" };
+        modes[] = { "FullAuto", "Single", "50m", "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar", "AI_far_optic1", "AI_toofar_optic1", "AI_far_optic2", "AI_toofar_optic2" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 94;
             class CowsSlot : asdg_OpticSideMount {};
@@ -2035,6 +2070,7 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk74_silencerShot_SoundSet", "Nia_rpk74_silencerTail_SoundSet" };
             };
+            __AI_ROF_MG_FULLAUTO;
         };
         class Single : Single {
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
@@ -2052,46 +2088,48 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_rpk74_silencerShot_SoundSet", "Nia_rpk74_silencerTail_SoundSet" };
             };
+            __AI_ROF_MG_SINGLE;
         };
-        class fullauto_medium : FullAuto {
+        class 50m : FullAuto{
+            __AI_ROF_MG_FULLAUTO;
+        };
+        class AI_long : 50m {
             showToPlayer = 0;
-            burst = 5;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 200;
+            aiBurstTerminable = 1;
+            __AI_ROF_MG_LONG_BURST;
+        };
+        class AI_close : AI_long {
+            __AI_ROF_MG_CLOSE_BURST;
+        };
+        class AI_short : AI_close {
+            __AI_ROF_MG_SHORT_BURST;
+        };
+        class AI_medium : AI_close {
+            __AI_ROF_MG_MEDIUM_BURST;
+        };
+        class AI_far : AI_close {
+            __AI_ROF_MG_FAR_BURST;
+        };
+        class AI_toofar : AI_far {
+            __AI_ROF_MG_VERYFAR_BURST;
+        };
+        class AI_far_optic1 : AI_far {
+            requiredOpticType = 1;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class AI_toofar_optic1 : AI_far_optic1 {
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        class AI_far_optic2 : AI_far_optic1 {
+            requiredOpticType = 2;
+        };
+        class AI_toofar_optic2 : AI_toofar_optic1 {
+            requiredOpticType = 2;
         };
 
-        class medium : fullauto_medium {
-            showToPlayer = 0;
-            airateoffire = 0.2;
-            airateoffiredistance = 600;
-            burst = 3;
-            maxrange = 600;
-            maxrangeprobab = 0.1;
-            midrange = 400;
-            midrangeprobab = 0.6;
-            minrange = 200;
-            minrangeprobab = 0.05;
-        };
-        class close : FullAuto {
-            showToPlayer = 0;
-            airateoffire = 0.1;
-            airateoffiredistance = 50;
-            burst = 10;
-            maxrange = 50;
-            maxrangeprobab = 0.04;
-            midrange = 30;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.05;
-        };
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_rpk74n_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_rpk74n_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_rpk74n_60rnd";
             default = "hlc_rifle_rpk74n";
         };
@@ -2112,6 +2150,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\rpk\rpk74_60rnd.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\rifleman_akmags\texture_co.tga" };
     };
+
     class hlc_rifle_aks74_GL : hlc_rifle_aks74 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -2131,6 +2170,7 @@ class CfgWeapons {
 		__DEXTERITY(2.9 + 1.3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74_GL_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74_GL_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74_GL_60rnd";
             default = "hlc_rifle_aks74_GL";
         };
@@ -2151,6 +2191,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aks74\aks74_60rnd.p3d";
 
     };
+
     class hlc_rifle_aek971 : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
         author = "Arby26, Millenia, Toadie";
@@ -2193,15 +2234,7 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_aek_silencerShot_SoundSet", "Nia_aek_silencerTail_SoundSet" };
             };
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 15;
-            midRangeProbab = 0.8;
-            maxRange = 30;
-            maxRangeProbab = 0.3;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
         class Burst : Mode_Burst {
             reloadTime = 0.0681;
@@ -2224,15 +2257,7 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_aek_silencerShot_SoundSet", "Nia_aek_silencerTail_SoundSet" };
             };
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 200;
-            maxRangeProbab = 0.0005;
+            __AI_ROF_RIFLE_SMALL_SHORT_BURST;
         };
         class Single : Mode_SemiAuto {
             reloadTime = 0.0681;
@@ -2255,51 +2280,22 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_aek_silencerShot_SoundSet", "Nia_aek_silencerTail_SoundSet" };
             };
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SINGLE;
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class Library {
             libTextDesc = "ZID AEK971S";
@@ -2311,6 +2307,7 @@ class CfgWeapons {
 		__DEXTERITY(3.3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aek971_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aek971_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aek971_60rnd";
             default = "hlc_rifle_aek971";
         };
@@ -2331,14 +2328,16 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aek971\aek971clean_60rnd.p3d";
 
     };
+
     class hlc_rifle_aek971worn : hlc_rifle_aek971 {
         displayName = "ZID AEK971S(Worn)";
         model = "\hlc_wp_ak\mesh\aek971\aek971.p3d";
         hiddenSelections[] = { "Main", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mill_aek\aek971_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         class __MAGSWITCHCLASS {
-            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aek971_45rnd";
-            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aek971_60rnd";
+            hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aek971worn_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aek971worn_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aek971worn_60rnd";
             default = "hlc_rifle_aek971worn";
         };
     };
@@ -2358,6 +2357,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aek971\aek971_60rnd.p3d";
 
     };
+
     class hlc_rifle_saiga12k : hlc_ak_base {
         dlc = "Niarms_AK";
         recoil = "recoil_m320";
@@ -2461,12 +2461,7 @@ class CfgWeapons {
 
             reloadTime = 0.085;
             dispersion = 0.000378155;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 225;
-            midRangeProbab = 0.7;
-            maxRange = 500;
-            maxRangeProbab = 0.2;
+            __AI_ROF_AK_SINGLE;
         };
         class FullAuto : FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -2479,53 +2474,30 @@ class CfgWeapons {
 
             reloadTime = 0.085;
             dispersion = 0.00049451;
-            maxrange = 60;
-            maxrangeprobab = 0.05;
-            midrange = 30;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.3;
+            __AI_ROF_AK_FULLAUTO;
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
+            aiBurstTerminable = 1;
+            burst = 7;
+            __AI_ROF_AK_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
+            __AI_ROF_AK_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
+            __AI_ROF_AK_HSCOPE_SINGLE;
         };
         class __MAGSWITCHCLASS {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_RK62_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_RK62_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_RK62_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_RK62_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_RK62_75rnd";
             default = "hlc_rifle_RK62";
         };
     };
@@ -2547,6 +2519,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_slr107u : hlc_ak_base {
         dlc = "Niarms_AK";
         AB_barrelTwist = 7.87;
@@ -2642,6 +2615,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_slr107u_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_slr107u_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_slr107u_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_slr107u_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_slr107u_75rnd";
             default = "hlc_rifle_slr107u";
         };
     };
@@ -2659,10 +2634,11 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         displayName = "Arsenal Inc. SLR107U";
         model = "\hlc_wp_ak\mesh\slr107u\slr_75rnd.p3d";
-        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\toadie_slr107u\slr107u_map1_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\bis_rpk\drum_magazine_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\toadie_slr107u\slr107u_map1_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\populik_Drum\ak_drum_mag_co.tga" };
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_slr107u_MTK : hlc_rifle_slr107u {
         dlc = "Niarms_AK";
         author = "Toadie,RedRogueXIII";
@@ -2680,6 +2656,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_slr107u_MTK_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_slr107u_MTK_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_slr107u_MTK_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_slr107u_MTK_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_slr107u_MTK_75rnd";
             default = "hlc_rifle_slr107u_MTK";
         };
     };
@@ -2688,7 +2666,7 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
         displayName = "Arsenal Inc. SLR107U";
-        model = "\hlc_wp_ak\mesh\slr107u\slr_45rnd.p3d";
+        model = "\hlc_wp_ak\mesh\slr107u\slr_MTK_45rnd.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\toadie_slr107u\slr107u_map1_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\bl_rpk\mag_co.tga" };
     };
     class hlc_rifle_slr107u_MTK_75rnd : hlc_rifle_slr107u_MTK
@@ -2696,11 +2674,12 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
         displayName = "Arsenal Inc. SLR107U";
-        model = "\hlc_wp_ak\mesh\slr107u\slr_75rnd.p3d";
-        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\toadie_slr107u\slr107u_map1_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\bis_rpk\drum_magazine_co.tga" };
+        model = "\hlc_wp_ak\mesh\slr107u\slr_MTK_75rnd.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\toadie_slr107u\slr107u_map1_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\populik_Drum\ak_drum_mag_co.tga" };
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_ak74_MTK : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
         author = "MrRifleman, Toadie";
@@ -2716,6 +2695,7 @@ class CfgWeapons {
 		__DEXTERITY(3 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74_MTK_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74_MTK_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_MTK_60rnd";
             default = "hlc_rifle_ak74_MTK";
         };
@@ -2734,6 +2714,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74(MTK)";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74_mtk_60rnd.p3d";
     };
+
     class hlc_rifle_ak74m : hlc_rifle_ak74 {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -2753,6 +2734,7 @@ class CfgWeapons {
 		__DEXTERITY(3.4,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74m_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_60rnd";
             default = "hlc_rifle_ak74m";
         };
@@ -2771,6 +2753,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74M";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_60rnd.p3d";
     };
+
     class hlc_rifle_ak74m_gl : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -2788,6 +2771,7 @@ class CfgWeapons {
 		__DEXTERITY(3.4 + 1.3,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_gl_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74m_gl_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_gl_60rnd";
             default = "hlc_rifle_ak74m_gl";
         };
@@ -2806,6 +2790,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74M(GL)";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl_60rnd.p3d";
     };
+
     class hlc_rifle_ak74m_MTK : hlc_rifle_ak74m {
         dlc = "Niarms_AK";
         author = "MrRifleman,Tigg, Toadie";
@@ -2821,6 +2806,7 @@ class CfgWeapons {
 		__DEXTERITY(3.4 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_ak74m_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_ak74m_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74m_60rnd";
             default = "hlc_rifle_ak74m_MTK";
         };
@@ -2839,6 +2825,7 @@ class CfgWeapons {
         displayName = "Izhmash AK74M(MTK)";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_mtk_60rnd.p3d";
     };
+
     class hlc_rifle_aek971_mtk : hlc_rifle_aek971 {
         dlc = "Niarms_AK";
         author = "Arby26, Millenia, Toadie";
@@ -2853,6 +2840,7 @@ class CfgWeapons {
 		__DEXTERITY(3.3 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aek971_mtk_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aek971_mtk_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aek971_mtk_60rnd";
             default = "hlc_rifle_aek971_mtk";
         };
@@ -2871,6 +2859,7 @@ class CfgWeapons {
         displayName = "ZID AEK971S(MTK)";
         model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_60rnd.p3d";
     };
+
     class hlc_rifle_aks74u_MTK : hlc_rifle_aks74u {
         dlc = "Niarms_AK";
         author = "Millenia, Toadie";
@@ -2885,6 +2874,7 @@ class CfgWeapons {
 		__DEXTERITY(2.6 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74u_MTK_45rnd";
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
             default = "hlc_rifle_aks74u_MTK";
         };
@@ -2903,6 +2893,7 @@ class CfgWeapons {
         displayName = "ZID AEK971S(MTK)";
         model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_60rnd.p3d";
     };
+
     class hlc_rifle_akm_MTK : hlc_rifle_akm {
         dlc = "Niarms_AK";
         author = "MrRifleman, Bull5hit, Toadie";
@@ -2919,6 +2910,8 @@ class CfgWeapons {
             HLC_45rnd_762x39_T_RPK = "hlc_rifle_akm_MTK_45rnd";
             hlc_45Rnd_762x39_m_rpk = "hlc_rifle_akm_MTK_45rnd";
             hlc_75Rnd_762x39_m_rpk = "hlc_rifle_akm_MTK_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_akm_MTK_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_akm_MTK_75rnd";
             default = "hlc_rifle_akm_MTK";
         };
     };
@@ -2940,6 +2933,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadAK762Drum";
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rpk\RPK_drumreload", 0.9, 1, 30 };
     };
+
     class hlc_rifle_aks74_MTK : hlc_rifle_aks74 {
         dlc = "Niarms_AK";
         author = "MrRifleman, Toadie";
@@ -2954,7 +2948,8 @@ class CfgWeapons {
 		__DEXTERITY(2.9 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74_MTK_45rnd";
-            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74_MTK_45rnd";
+            hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74_MTK_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74_MTK_60rnd";
             default = "hlc_rifle_aks74_MTK";
         };
     };
