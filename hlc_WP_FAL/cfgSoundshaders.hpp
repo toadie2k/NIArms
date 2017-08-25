@@ -7,15 +7,15 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\generic\fal_first", 1 } };
-		range = 5;
-		volume = 1.2;
+		range = 10;
+		volume = 1.5;
 	};
 	class FAL_closeShot_SoundShader
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL_close", 1 }
 		};
-		volume = 0.9;
+		volume = 0.8;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
@@ -23,7 +23,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_mid", 1 } };
-		volume = 0.5011872;
+        volume = 1.6252;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -47,10 +47,11 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
-		volume = 0.8;
+		volume = 0.4;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
+            { 250, 0.2 },
 			{ 600, 0.7 },
 			{ 2000, 1 } };
 		limitation = 1;
@@ -59,7 +60,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_forest", 1 } };
-		volume = "(1-interior/1.4)*forest/3";
+        volume = " 2.585*((1-interior/1.4)*Forest/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -70,7 +71,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_urban", 1 } };
-		volume = "(1-interior/1.4)*houses/3";
+        volume = "2.585*((1-interior/1.4)*houses/3)";
 		range = 1500;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -82,7 +83,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_indoor", 1 } };
-		volume = "interior";
+        volume = " 2.585*((interior)*0.65)";
 		range = 350;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -95,7 +96,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_meadows", 1 } };
-		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 2.585*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -106,7 +107,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_trees", 1 } };   
-		volume = "(1-interior/1.4)*trees/3";
+        volume = " 2.585*((1-interior/1.4)*trees/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -118,9 +119,21 @@ class CfgSoundShaders
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_sil_close", 1 } };
 		volume = 1.0;
-		range = 150;
+		range = 50;
 		rangeCurve = "closeShotCurve";
 	};
+    class FAL_silencerShot_mid_SoundShader
+    {
+        samples[] = {
+            { "hlc_WP_FAL\snd\soundshaders\FAL\fal_sil_mid", 1 } };
+        volume = 1.0;
+        range = 350;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 350, 0 }
+        };
+    };
 	class FAL_silencerTailForest_SoundShader
 	{
 		samples[] = {
@@ -182,15 +195,15 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_close", 1 }
 		};
-		volume = 1.0;
+		volume = 0.8;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
 	class FAL2_midShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_mid", 1 } };
-		volume = 0.5011872;
+			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_mid", 1 } };
+        volume = 1.6252;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -217,7 +230,8 @@ class CfgSoundShaders
         volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
-			{ 0, 0 },
+            { 0, 0 },
+            { 150, 0.2 },
 			{ 600, 0.7 },
 			{ 2000, 1 } };
 		limitation = 1;
@@ -226,7 +240,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_forest", 1 } };
-		volume = "(1-interior/1.4)*forest/3";
+        volume = " 2.585*((1-interior/1.4)*Forest/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -237,7 +251,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_urban", 1 } };
-		volume = "(1-interior/1.4)*houses/3";
+        volume = "2.585*((1-interior/1.4)*houses/3)";
 		range = 1500;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -249,7 +263,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_indoor", 1 } };
-		volume = "interior";
+        volume = " 2.585*((interior)*0.65)";
 		range = 350;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -262,7 +276,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_meadows", 1 } };
-		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 2.585*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -273,7 +287,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\FAL\fal_trees", 1 } };
-		volume = "(1-interior/1.4)*trees/3";
+        volume = " 2.585*((1-interior/1.4)*trees/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -285,7 +299,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\OSW\OSW_close", 1 }
 		};
-		volume = 1.0;
+		volume = 0.8;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
@@ -293,7 +307,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\OSW\OSW_mid", 1 } };
-		volume = 0.5011872;
+        volume = 1.6252;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -320,7 +334,8 @@ class CfgSoundShaders
         volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
-			{ 0, 0 },
+            { 0, 0 },
+            { 150, 0.2 },
 			{ 600, 0.7 },
 			{ 2000, 1 } };
 		limitation = 1;
@@ -329,7 +344,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_forest", 1 } };
-		volume = "(1-interior/1.4)*forest/3";
+        volume = " 2.585*((1-interior/1.4)*Forest/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -340,7 +355,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_urban", 1 } };
-		volume = "(1-interior/1.4)*houses/3";
+        volume = "2.585*((1-interior/1.4)*houses/3)";
 		range = 1500;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -352,7 +367,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_indoor", 1 } };
-		volume = "interior";
+        volume = " 2.585*((interior)*0.65)";
 		range = 350;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -365,7 +380,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_meadows", 1 } };
-		volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 2.585*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -376,7 +391,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "hlc_WP_FAL\snd\soundshaders\OSW\OSW_trees", 1 } };
-		volume = "(1-interior/1.4)*trees/3";
+        volume = " 2.585*((1-interior/1.4)*trees/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },

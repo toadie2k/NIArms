@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="hlc_WP_FAL\tex\tigg_m203\m203_AS.tga";
+	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
 	uvSource="tex";
 	class uvTransform
 	{
