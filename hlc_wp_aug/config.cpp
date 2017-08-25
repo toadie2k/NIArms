@@ -38,7 +38,7 @@ class CfgPatches {
         };
         magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG","hlc_25Rnd_9x19mm_subsonic_AUG" };
         author="toadie";
-        version = "1.55";
+        version = "1.7";
     };
 };
 
@@ -266,57 +266,57 @@ class CfgVehicles {
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_rifle_aug, hlc_30Rnd_556x45_B_AUG, AUGA1(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1_t, hlc_30Rnd_556x45_B_AUG, AUGA1(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1_b, hlc_30Rnd_556x45_B_AUG, AUGA1(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aug, hlc_30Rnd_556x45_B_AUG, AUGA1(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_t, hlc_30Rnd_556x45_B_AUG, AUGA1(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1_b, hlc_30Rnd_556x45_B_AUG, AUGA1(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga1carb, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1carb_b, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga1carb_t, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_b, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga1carb_t, hlc_30Rnd_556x45_B_AUG, AUGA1 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_aughbar, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_aughbar_t, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_aughbar_b, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_t, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_aughbar_b, hlc_40Rnd_556x45_B_AUG, AUGA1 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augpara, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augpara_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augpara_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augpara_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA1 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2, hlc_30Rnd_556x45_B_AUG, AUGA2(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2_t, hlc_30Rnd_556x45_B_AUG, AUGA2(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2, hlc_30Rnd_556x45_B_AUG, AUGA2(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_t, hlc_30Rnd_556x45_B_AUG, AUGA2(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2carb, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2carb_b, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2carb_t, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_b, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2carb_t, hlc_30Rnd_556x45_B_AUG, AUGA2 Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2lsw, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2lsw_t, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2lsw_b, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_t, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2lsw_b, hlc_40Rnd_556x45_B_AUG, AUGA2 HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga2para, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2para_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga2para_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_t, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga2para_b, hlc_25Rnd_9x19mm_M882_AUG, AUGA2 PARA(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsr, hlc_30Rnd_556x45_B_AUG, AUG-SR(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr, hlc_30Rnd_556x45_B_AUG, AUG-SR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_t, hlc_30Rnd_556x45_B_AUG, AUG-SR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsr_b, hlc_30Rnd_556x45_B_AUG, AUGA2(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsrcarb, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_b, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrcarb_t, hlc_30Rnd_556x45_B_AUG, AUG-SR Carbine(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_augsrhbar, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrhbar_t, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Tan), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_augsrhbar_b, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_t, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Tan), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_augsrhbar_b, hlc_40Rnd_556x45_B_AUG, AUG-SR HBAR(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga3, hlc_30Rnd_556x45_B_AUG, AUGA3(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_bl, hlc_30Rnd_556x45_B_AUG, AUGA3(Blue), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_b, hlc_30Rnd_556x45_B_AUG, AUGA3(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3, hlc_30Rnd_556x45_B_AUG, AUGA3(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_bl, hlc_30Rnd_556x45_B_AUG, AUGA3(Blue), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_b, hlc_30Rnd_556x45_B_AUG, AUGA3(Black), Niarms_AUG, Toadie, AssaultRifles);
 
-    __WEAPONHOLDER(hlc_rifle_auga3_GL, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(OD), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_GL_bl, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Blue), Niarms_AUG, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_auga3_GL_b, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Black), Niarms_AUG, Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(OD), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_bl, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Blue), Niarms_AUG, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_auga3_GL_b, hlc_40Rnd_556x45_B_AUG, AUGA3 GL(Black), Niarms_AUG, Toadie, AssaultRifles);
     
     class HLC_AUG_Weaponbox1 : NATO_Box_Base {
         dlc = "Niarms_AUG";
@@ -411,203 +411,203 @@ class CfgMagazines {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm Ball<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG Mag (EPR) 30rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "AUG Mag (EPR) 5.56mm";
+        initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 7;
-        displaynameshort = "5.56mm EPR";
+        displaynameshort = "M855A1 EPR";
         author = "Spartan0536,Toadie";
     };
     class hlc_30Rnd_556x45_SOST_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm Ball<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG Mag (SOST) 30rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "AUG Mag (SOST) 5.56mm";
+        initspeed = 954.4;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 7;
-        displaynameshort = "5.56mm SOST";
+        displaynameshort = "MK318 SOST";
         author = "Spartan0536,Toadie";
     };
     class hlc_30Rnd_556x45_SPR_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm Ball<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG Mag (SPR) 30rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "AUG Mag (SPR) 5.56mm";
+        initspeed = 868.7;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 7;
-        displaynameshort = "5.56mm SPR";
+        displaynameshort = "MK262 Mod 1";
         author = "Spartan0536,Toadie";
     };
     class hlc_30Rnd_556x45_T_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
-        ammo = "B_556x45_Ball_Tracer_Red";
+        ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm Tracer<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG Mag (Tracer) 30rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "AUG Mag (Tracer) 5.56mm";
+        initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 1;
         mass = 7;
-        displaynameshort = "5.56mm Tracer";
+        displaynameshort = "M856A1 Tracer";
         author = "Spartan0536,Toadie";
     };
     class hlc_30Rnd_556x45_MDIM_AUG : 30Rnd_556x45_Stanag{
         dlc = "Niarms_AUG";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm EPR IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG Mag (EPR,IR-DIM) 30rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "AUG Mag (EPR-IRDIM) 30rnd 5.56mm";
+        initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 4;
         mass = 7;
-        displaynameshort = "5.56mm IR-DIM";
+        displaynameshort = "EPR/IR-DIM";
         author = "Toadie";
     };
     class hlc_30Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
         dlc = "Niarms_AUG";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "AUG Mag (IR-DIM) 30rnd 5.56mm";
-        initspeed = 970;
+        initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 1;
         mass = 7;
-        displaynameshort = "5.56mm IR-DIM";
+        displaynameshort = "IR-DIM";
         author = "Toadie";
     };
     class hlc_40Rnd_556x45_B_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm Ball<br />Rounds: 40<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 42";
         displayname = "AUG-HBAR Mag (EPR) 42rnd 5.56mm";
-        initspeed = 970;
+        initspeed = 974.8;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
         mass = 8;
-        displaynameshort = "5.56mm EPR";
+        displaynameshort = "M855A1 EPR";
         author = "Spartan0536,Toadie";
     };
     class hlc_40Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
         dlc = "Niarms_AUG";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm IRDIM<br />Rounds: 30<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 42";
         displayname = "AUG-HBAR Mag (IR-DIM) 30rnd 5.56mm";
-        initspeed = 970;
+        initspeed = 975;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 1;
         mass = 8;
-        displaynameshort = "5.56mm IR-DIM";
+        displaynameshort = "IR-DIM";
         author = "Toadie";
     };
     class hlc_40Rnd_556x45_SOST_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SOST";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm EPR<br />Rounds: 42<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 42";
         displayname = "AUG-HBAR Mag (SOST) 42rnd 5.56mm";
-        initspeed = 970;
+        initspeed = 954.4;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
         mass = 8;
-        displaynameshort = "5.56mm SOST";
+        displaynameshort = "Mk318 SOST";
         author = "Spartan0536,Toadie";
     };
     class hlc_40Rnd_556x45_SPR_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SPR";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm Ball<br />Rounds: 40<br />Used in: Steyr AUGA1,AUGA2,AUGA3(All variants of all models)";
-        displayname = "AUG-HBAR Mag (SPR) 42rnd 5.56mm";
-        initspeed = 970;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 42";
+        displayname = "AUG-HBAR Mag (SPR) 5.56mm";
+        initspeed = 868.7;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 3;
         mass = 8;
-        displaynameshort = "5.56mm Ball";
+        displaynameshort = "MK262 Mod 1";
         author = "Spartan0536,Toadie";
     };
     class hlc_25Rnd_9x19mm_M882_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_9x19_M882_SMG";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm M882 NATO Ball<br />Rounds: 25<br />Used in: Steyr AUGA1 Para,AUGA2 Para";
+        descriptionshort = "Caliber: 9x19mm M882 Ball<br />Type: Full Metal Jacket<br />Rounds: 25";
         displayname = "AUG 9mm Mag (Ball) 25rnd 9mm";
-        initspeed = 400;
+        initspeed = 416.1;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_ball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 5;
-        displaynameshort = "9mm Ball";
+        displaynameshort = "M882 Ball";
         author = "Spartan0536,Toadie";
     };
     class hlc_25Rnd_9x19mm_JHP_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
-        ammo = "HLC_9x19_GoldDot";
+        ammo = "HLC_9x19_JHP_SMG";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm LE Jacketed Hollowpoint<br />Rounds: 25<br />Used in: Steyr AUGA1 Para,AUGA2 Para";
+        descriptionshort = "Caliber: 9x19mm Mk243 Mod 0 JHP<br />Type: Jacketed Hollow Point (Winchester USA9JHP2)<br />Rounds: 25";
         displayname = "AUG 9mm Mag (JHP) 25rnd 9mm";
-        initspeed = 420;
+        initspeed = 315.8;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_JHP_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 5;
-        displaynameshort = "9mm JHP";
+        displaynameshort = "Mk243 JHP";
         author = "Spartan0536,Toadie";
     };
     class hlc_25Rnd_9x19mm_subsonic_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_9x19_Subsonic";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm Subsonic Ball<br />Rounds: 25<br />Used in: Steyr AUGA1 Para,AUGA2 Para";
+        descriptionshort = "Caliber: 9x19mm Ball<br />Type: Full Metal Jacket<br />Rounds: 25";
         displayname = "AUG 9mm Mag (Subsonic) 25rnd 9mm";
-        initspeed = 340;
+        initspeed = 305.8;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_sub_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
         scope = 2;
         tracersevery = 0;
         mass = 5;
         author = "Spartan0536,Toadie";
-        displaynameshort = "9mm Subsonic";
+        displaynameshort = "Subsonic";
     };
 };
 
@@ -752,15 +752,7 @@ class CfgWeapons {
             dispersion = 0.000308356;
 
             showToPlayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SINGLE;
 
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -784,15 +776,7 @@ class CfgWeapons {
             __ROF(680);
             dispersion = 0.000308356;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 5;
-            midRangeProbab = 0.8;
-            maxRange = 15;
-            maxRangeProbab = 0.3;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
 
             sounds[] = { "StandardSound", "SilencedSound" };
 
@@ -813,39 +797,20 @@ class CfgWeapons {
             };
         };
         class fullauto_medium : FullAuto {
-            burst = 3;
             showToPlayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 30;
-            midRangeProbab = 0.7;
-            maxRange = 60;
-            maxRangeProbab = 0.1;
+            aiBurstTerminable = 1;
+                burst = 4; 
+                __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            maxRange = 1000;
-            maxRangeProbab = 0.01;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         reloadMagazineSound[] = { "hlc_wp_aug\snd\f88a1_reload2", 1, 1, 30 };
@@ -976,30 +941,23 @@ class CfgWeapons {
                 soundSetShot[] = { "augcarbine_Shot_SoundSet", "augcarbine_Tail_SoundSet" };
             };
             dispersion = 0.000596155;
+            __AI_ROF_CQB_CLOSE_BURST;
         };
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "augcarbine_Shot_SoundSet", "augcarbine_Tail_SoundSet" };
             };
             dispersion = 0.000596155;
+            __AI_ROF_CQB_SINGLE;
         };
-
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
-            burst = 3;
-
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 30;
-            midRangeProbab = 0.7;
-            maxRange = 60;
-            maxRangeProbab = 0.1;
+            aiBurstTerminable = 1; 
+                burst = 4; 
+                __AI_ROF_CQB_CLOSE_BURST;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 69;
+            mass = 66;
         };
     };
     class hlc_rifle_auga1carb_B : hlc_rifle_auga1carb {
@@ -1058,52 +1016,30 @@ class CfgWeapons {
                 soundSetShot[] = { "aughbar_Shot_SoundSet", "aughbar_Tail_SoundSet" };
             };
             dispersion = 0.000266686;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "aughbar_Shot_SoundSet", "aughbar_Tail_SoundSet" };
             };
             dispersion = 0.000266686;
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
 
         modes[] = {"FullAuto", "close", "medium", "far"};
 
         class close : FullAuto {
-            burst = 8;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.1;
-            showToPlayer = 0;
+            aiBurstTerminable = 1; 
+                burst = 7; 
+                __AI_ROF_AK_CLOSE_BURST;
         };
         class medium : close {
             burst = 5;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.7;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_AK_FAR_BURST; 
         };
         class far : close {
-            burst = 3;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 600;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 400;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = 0.1;
+            requiredOpticType = 1;
+            __AI_ROF_AK_MSCOPE_SINGLE;
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1185,16 +1121,7 @@ class CfgWeapons {
             };
             __ROF(700);
             dispersion = 0.001044521;
-
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.8;
-            maxRange = 30;
-            maxRangeProbab = 0.2;
+            __AI_ROF_SMG_FULLAUTO;
         };
         class Single : Mode_SemiAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1218,29 +1145,12 @@ class CfgWeapons {
             dispersion = 0.001044521;
 
             showToPlayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 200;
-            aiRateOfFireDispersion = 2;
-            minRange = 40;
-            minRangeProbab = 0.9;
-            midRange = 80;
-            midRangeProbab = 0.5;
-            maxRange = 250;
-            maxRangeProbab = 0.1;
+            __AI_ROF_SMG_SINGLE;
         };
 
         class fullauto_medium : FullAuto {
             burst = 3;
-            showToPlayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 40;
-            midRangeProbab = 0.5;
-            maxRange = 50;
-            maxRangeProbab = 0.2;
+            __AI_ROF_SMG_BURST;
         };
 
         class OpticsModes {
