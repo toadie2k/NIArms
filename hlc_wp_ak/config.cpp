@@ -274,13 +274,13 @@ class CfgMagazines {
         count = 10;
         descriptionshort = "Caliber: 12 Gauge 00-Buck<br />Rounds: 12<br />Used in: Saiga12K";
         displayname = "Saiga Mag (Buckshot) 10rnd 12 Gauge";
-        initspeed = 700;
+        initspeed = 370;
         lastroundstracer = 1;
         picture = "\hlc_wp_ak\tex\ui\m_saiga12k_buck_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_saiga.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 12;
+        mass = 13.3;											// w/ guessed plastic mag ; 12 g * 70 ( pb 32 gramm, 11 pellets, 370 m/s, 604 gram )
         displaynameshort = "00-Buck";
     };
 
@@ -291,13 +291,13 @@ class CfgMagazines {
         count = 10;
         descriptionshort = "Caliber: 12 Gauge 00-Buck<br />Rounds: 12<br />Used in: Saiga12K";
         displayname = "Saiga Mag (Slug) 10rnd 12 Gauge";
-        initspeed = 700;
+        initspeed = 420;
         lastroundstracer = 1;
         picture = "\hlc_wp_ak\tex\ui\m_saiga12k_slug_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_saiga.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 12;
+        mass = 11.7;												// w/ guessed plastic mag ; 12 g * 70 ( pb/st 32 gramm, 1 pellets, 420 m/s, 531 gram)
         displaynameshort = "Slug";
     };
     class hlc_30Rnd_545x39_B_AK : 30Rnd_556x45_Stanag {
@@ -305,7 +305,7 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 5.45x39mm 7N6<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7N6 ( DOI: 1974 )<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "AK74 Mag (Ball) 30rnd 5.45mm";
         initSpeed = 880;
         lastroundstracer = 1;
@@ -313,7 +313,7 @@ class CfgMagazines {
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
         scope = 2;
         tracersevery = 0;
-        mass = 12;
+        mass = 12.2;
         displaynameshort = "7N6 Ball";
     };
     class hlc_30Rnd_545x39_S_AK : 30Rnd_556x45_Stanag {
@@ -321,14 +321,14 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_7u1";
         count = 30;
-        descriptionshort = "Caliber: 5.45x39mm 7N6<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7U1 subsonic <br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "AK74 Mag (Subsonic) 30rnd 5.45mm";
-        initspeed = 300;
+        initspeed = 363;																// is balanced so subsonic ammo ensures correct speed with 200 mm barrel => > 303 m/s
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 12;
+        mass = 12.2;
         displaynameshort = "7U1 Subsonic";
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
     };
@@ -336,12 +336,13 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "FH_545x39_Tracer";
-        descriptionshort = "Caliber: 5.45x39mm 7T3<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7T3 ( DOI: 1974 )<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "AK74 Mag (Tracer) 30rnd 5.45mm";
+		initSpeed = 883;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 1;
-        mass = 12;
+        mass = 11.9;
         displaynameshort = "7T3 Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_ak74tracer_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
@@ -353,10 +354,11 @@ class CfgMagazines {
         count = 45;
         descriptionshort = "Caliber: 5.45x39mm 7T3/7N6<br />Rounds: 45<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "RPK74 Mag (Tracer) 45rnd 5.45mm";
+		initSpeed = 880;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 14;
+        mass = 15.6;
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_core\tex\ui\ammo\m_rpk74mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_rpk74.p3d";
@@ -368,10 +370,11 @@ class CfgMagazines {
         count = 60;
         descriptionshort = "Caliber: 5.45x39mm 7T3/7N6<br />Rounds: 45<br />Used in: RPK12,AK12,AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "RPK12 Mag (Tracer) 60rnd 5.45mm";
+		initSpeed = 880;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 16;
+        mass = 24.1;
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_wp_ak\tex\ui\m_rpk12_mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_rpk12.p3d";
@@ -380,14 +383,14 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "FH_545x39_EP";
-        descriptionshort = "Caliber: 5.45x39mm 7N24<br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
+        descriptionshort = "Caliber: 5.45x39mm 7N24 Super-AP ( DOI: 1999 ). <br />Rounds: 30<br />Used in: AK74,AKS74,AK74M,AKS74U,AN94,AEK971,RPK74M";
         displayname = "AK74 Mag (Enhanced Peneterator) 30rnd 5.45mm";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
         mass = 12;
-        displaynameshort = "7N24 EP";
-        initSpeed = 890;
+        displaynameshort = "7N24 S-AP";
+        initSpeed = 840;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ep_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_74.p3d";
     };
@@ -396,80 +399,96 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "HLC_762x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (M43 Ball) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball (DOI: 1944) Original Magazine used in AK47 / AKM / RPK";
         displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
-        tracersevery = 1;
-        mass = 13;
-        displaynameshort = "Ball";
+        tracersevery = 0;
+        mass = 20.3;											// old fashioned, original heavy ak 47 magazine before the akm came out: 920 gramm
+        displaynameshort = "M43 Ball";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 715;
+        initspeed = 710;
+    };
+	class hlc_30Rnd_762x39_b_akm : 30Rnd_556x45_Stanag {		// is new class to have also a lighter magazine
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball, Magazine (DOI: 1959) used in AK47 / AKM / RPK";
+        displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 0;
+        mass = 14.5;											// AKM magazine lighter
+        displaynameshort = "M43 Ball";
+        picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
+        model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
+        initspeed = 718;
     };
     class hlc_30Rnd_762x39_t_ak : hlc_30Rnd_762x39_b_ak {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) Magazine used in AK47 / RPK";
         displayname = "AK47 Mag (Tracer) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 13;
+        mass = 14.5;											
         displaynameshort = "Tracer";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_t_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 715;
+        initspeed = 718;
     };
     class hlc_30rnd_762x39_s_ak : hlc_30Rnd_762x39_b_ak {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Ball";
         count = 30;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 (M43 Ball) AK47 Magazine <br />Rounds: 45<br />Used in: RPK";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231 U Subsonic (DOI 1962) Magazine used in AK47 /AKM / RPK";
         displayname = "AK47 Mag (Subsonic) 30rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 13;
+        mass = 14.5												// with more modern akm magazine => 798 gramm
         displaynameshort = "Subsonic";
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
-        initspeed = 340;
+        initspeed = 360;											// is balanced so subsonic ammo ensures correct speed with 200 mm barrel => 320 m/s
     };
-    class hlc_45Rnd_762x39_t_rpk : 30Rnd_556x45_Stanag {
+    class hlc_45Rnd_762x39_t_rpk : 30Rnd_556x45_Stanag {			// I dont want to change the name, but it actually are 40 rounders only
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
-        count = 45;
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) RPK Magazine <br />Rounds: 45<br />Used in: RPK";
-        displayname = "RPK Mag (Tracer) 45rnd 7.62mm";
+        count = 40;
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231P (Tracer) Magazine used in AK47 / RPK";
+        displayname = "RPK Mag (Tracer) 40rnd 7.62mm";
+		initspeed = 718;											// the higher speed with the RPK up to 745 m/s needs to be set by the weapon
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 16;
+        mass = 19.4;												// with more modern ( lighter ) magazine => 880 gramm
         displaynameshort = "Tracer";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_tracer_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_Rpk.p3d";
-        initspeed = 745;
     };
-    class hlc_45Rnd_762x39_m_rpk : hlc_45Rnd_762x39_t_rpk {
+    class hlc_45Rnd_762x39_m_rpk : hlc_45Rnd_762x39_t_rpk {			// I dont want to change the name, but it actually are 40 rounders only
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
-        count = 45;
+        count = 40;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231 (Tracer) RPK Magazine <br />Rounds: 45<br />Used in: RPK";
-        displayname = "RPK Mag (Mixed) 45rnd 7.62mm";
+        displayname = "RPK Mag (Mixed) 40rnd 7.62mm";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 16;
+        mass = 17.7;
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_RPK.p3d";
-        initspeed = 745;
+        initspeed = 718;											// the higher speed with the RPK up to 745 m/s needs to be set by the weapon
     };
     class hlc_75Rnd_762x39_m_rpk : hlc_45Rnd_762x39_m_rpk {
         dlc = "Niarms_AK";
@@ -480,11 +499,11 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 32;
+        mass = 48.7;
         displaynameshort = "Tracer/Ball";
         picture = "\hlc_wp_ak\tex\ui\m_rpk_mixed_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine_RPKdrum.p3d";
-        initspeed = 745;
+        initspeed = 718;											// the higher speed with the RPK up to 745 m/s needs to be set by the weapon
     };
     class 1Rnd_HE_Grenade_shell;
     class hlc_VOG25_AK : 1Rnd_HE_Grenade_shell {
@@ -496,7 +515,7 @@ class CfgMagazines {
         displayname = "VOG25 HE Grenade Round";
         displaynameshort = "HE Grenade";
         initspeed = 76;
-        mass = 4;
+        mass = 5.5;
         namesound = "";
         picture = "\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
         reloadaction = "HLC_GestureReloadGP30";
@@ -512,6 +531,7 @@ class CfgMagazines {
         displaynameshort = "White Smoke";
         picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_white_CA.paa";
         reloadaction = "HLC_GestureReloadGP30";
+		mass = 5.8;
     };
     class hlc_GRD_Red : hlc_grd_white {
         dlc = "Niarms_AK";
@@ -585,7 +605,7 @@ class CfgWeapons {
         ACE_ScopeAdjust_Increment = 0.5;
         class ItemInfo: InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-            mass = 12;
+            mass = 12.5;
             modelOptics = "\hlc_wp_ak\mesh\pso1\pso_optics";
             class OpticsModes {
                 class Snip {
@@ -738,7 +758,7 @@ class CfgWeapons {
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS4\pbs4";
         class ItemInfo: ItemInfo {
-            mass = 12;
+            mass = 6.5;														// guessed
         };
         inertia = 0.08;
     };
@@ -748,6 +768,10 @@ class CfgWeapons {
         displayName = "PBS1 AK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS1\pbs1";
+		class ItemInfo: ItemInfo {
+            mass = 9;
+        };
+        
     };
 
 //weapons
@@ -954,7 +978,7 @@ class CfgWeapons {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "MrRifleman, Toadie";
         scope = public;
-        displayName = "Izhmash AK74";
+		displayName = "Izhmash AK74 [16.3 inch]";
         model = "\hlc_wp_ak\mesh\tigg_ak74\ak74.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak74_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount" };
@@ -965,7 +989,7 @@ class CfgWeapons {
         cameraDir = "eye_look";
         reloadAction = "HLC_GestureReloadAK545";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 60;
+            mass = 67.7;
             class CowsSlot : asdg_OpticSideMount {};
         };
         inertia = 0.3;
@@ -1052,12 +1076,12 @@ class CfgWeapons {
         scope =public;
         model = "\hlc_wp_ak\mesh\aks74\aks74.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74_ca";
-        displayName = "Izhmash AKS74";
+        displayName = "Izhmash AKS74 [16.3 inch]";
         hiddenSelections[] = { "Main", "Dovetail", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_aks\aks_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         bg_bipod = 0; 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 58;
+            mass = 65.4;
         };
         inertia = 0.29;
 		__DEXTERITY(2.9,0);
@@ -1088,7 +1112,7 @@ class CfgWeapons {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "Maibatsu, Toadie";
         scope = public;
-        displayName = "Izhmash AK12";
+        displayName = "Izhmash AK12 [16.3 inch]";
         model = "\hlc_wp_ak\mesh\ak12\ak12.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak12_ca";
         hiddenSelections[] = { "Main", "Foregrip", "Bracket", "Bipod", "GP30"};
@@ -1241,7 +1265,7 @@ class CfgWeapons {
             libTextDesc = "Izhmash AK12 5.45mm";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 66;
+            mass = 72.7;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
         };
@@ -1274,7 +1298,7 @@ class CfgWeapons {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "Maibatsu, Toadie";
         scope = public;
-        displayName = "Izhmash AK12(GL)";
+		displayName = "Izhmash AK12(GL) [16.3 inch]";
         model = "\hlc_wp_ak\mesh\ak12\ak12GP.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak12GL_ca";
         hiddenSelections[] = { "Main", "Foregrip", "Bracket", "Bipod", "GP30" };
@@ -1290,7 +1314,7 @@ class CfgWeapons {
             libTextDesc = "Izhmash AK12 5.45mm";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 94;
+            mass = 105.8;
         };
         inertia = 0.67;
 		__DEXTERITY(3.3 + 1.4,0);
@@ -1322,13 +1346,13 @@ class CfgWeapons {
         AB_barrelTwist=6.3;
         AB_barrelLength=8.3;
         ACE_barrelTwist = 160.02;
-        ACE_barrelLength = 210.82;
+        ACE_barrelLength = 210.82;													
         author = "Maibatsu, Toadie";
         scope = public;
-        initspeed = -0.816667;
-        displayName = "Izhmash AK12U";
-        model = "\hlc_wp_ak\mesh\ak12\akU12.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_ak12u_ca";
+        initspeed = -0.835227;															// original value = -0.816667 => 735 m/s with 880 m/s ammo
+        displayName = "Izhmash AK12U [8.3 inch]";									
+        model = "\hlc_wp_ak\mesh\ak12\akU12.p3d";									
+		picture = "\hlc_wp_ak\tex\ui\gear_ak12u_ca";								
         hiddenSelections[] = { "Main", "Foregrip", "Bracket", "Bipod", "GP30" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\ak12\ak12_m_co.tga", "hlc_wp_ak\tex\ak12\ak12_upper_co.tga", "hlc_wp_ak\tex\toadie_offset\rail_co.tga", "hlc_wp_ak\tex\mil_aks\aks-74u_co.tga", "hlc_wp_ak\tex\gp30\gp30_co.tga"};
         discretedistance[] = { 200, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
@@ -1447,6 +1471,7 @@ class CfgWeapons {
         author = "Maibatsu, Toadie";
         scope = public;
         displayName = "Izhmash RPK12";
+		initspeed = -1.090909;
         model = "\hlc_wp_ak\mesh\ak12\rpk12_30rnd.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_rpk12_ca";
         hiddenSelections[] = { "Main", "Foregrip", "Bracket", "Bipod", "GP30" };
@@ -1457,6 +1482,9 @@ class CfgWeapons {
         discretedistanceinitindex = 2;
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak12\rpk12_reload", 1, 1, 20 };
         reloadAction = "HLC_GestureReloadRPK12";
+		class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 101.4;
+        };
 
         class FullAuto: FullAuto {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1562,7 +1590,7 @@ class CfgWeapons {
         author = "Millenia, Toadie";
         scope = public;
         displayName = "Izhmash AKS74U";
-        initspeed = -0.816667;
+        initspeed = -0.835227;
         model = "\hlc_wp_ak\mesh\millaks74u\aks74u.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74u_x_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount","Magazine" };
@@ -1673,7 +1701,7 @@ class CfgWeapons {
         ACE_barrelLength = 414.02;
         author = "Twinke Masta, Marcius, Toadie";
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
-        displayName = "Izhmash AK47";
+        displayName = "Izhmash AK47 [16.3 inch]";
         model = "\hlc_wp_ak\mesh\ak47\ak47.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak47_ca";
         hiddenSelections[] = { "Main","upper", "Dovetail", "Mount", "Magazine" };
@@ -1683,7 +1711,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         bg_bipod = 0; 
-        descriptionShort = "Assault rifle<br/>Caliber: 7.62mm";
+        descriptionShort = "Assault rifle<br/>Caliber: 7.62mm (DOI: 1947)";
         reloadAction = "HLC_GestureReloadAK762";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\ak47\ak_reload_longer",0.9,1,30};
 
@@ -1793,9 +1821,10 @@ class CfgWeapons {
 		picture = "\hlc_wp_ak\tex\ui\gear_akm_x_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_akm\akm_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga"};
-        displayName = "Izhmash AKM";
+        displayName = "Izhmash AKM [16.3 inch]";
+		descriptionShort = "Assault rifle<br/>Caliber: 7.62mm (DOI: 1959)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 62;
+            mass = 68.3;
         };
         inertia = 0.31;
 		__DEXTERITY(3.1,0);
@@ -1831,11 +1860,11 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Dovetail", "Mount","GP25" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_akm\akm_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga","hlc_wp_ak\tex\bi_gp25\gp25_co.tga" };
         handanim[] = {"OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp.rtm"};
-        displayName = "Izhmash AKM (GL)";
+        displayName = "Izhmash AKM [16.3 inch] (GL)";
         descriptionShort = "Assault rifle,Grenade Launcher<br/>Caliber: 7.62mm";
         muzzles[] = {"this", "hlc_GP25"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 92;
+            mass = 101.4;
         };
         inertia = 0.66;
 		__DEXTERITY(3.1 + 1.5,0);
@@ -1888,12 +1917,16 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Dovetail", "Mount", "magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\rifleman_akm\akm_co.tga" };
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
-        displayName = "Izhmash RPK";
+        displayName = "Izhmash RPK [23.2 inch]";
         discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
         discreteDistanceCameraPoint[] = {  "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
         descriptionShort = "Light Support Weapon<br/>Caliber: 7.62mm";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\rpk\rpk_reload",0.9,1,30};
+		initspeed = -1.041958;
+		class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 105.8;
+        };
 
         modes[] = {"FullAuto","Single", "fullauto_medium", "medium","close"};
         class FullAuto: FullAuto {
@@ -2002,7 +2035,7 @@ class CfgWeapons {
         agm_bipod = 1;
         cse_bipod = 1;
         bg_bipod = 1;
-        displayName = "Izhmash RPK74";
+        displayName = "Izhmash RPK74 [23.2 inch]";
         discreteDistance[] = {  100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
         discreteDistanceCameraPoint[] = {  "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
@@ -2014,8 +2047,8 @@ class CfgWeapons {
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
         descriptionShort = "Light Support Weapon<br/>Caliber: 5.45mm";
         modes[] = { "FullAuto", "Single", "fullauto_medium", "medium", "close" };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 94;
+		class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 101.4;
             class CowsSlot : asdg_OpticSideMount {};
         };
         inertia = 0.67;
@@ -2118,14 +2151,14 @@ class CfgWeapons {
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\aks74gl\aks74gl.p3d";
         handanim[] = {"OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp25.rtm"};
-        displayName = "Izhmash AKS74(GL)";
+        displayName = "Izhmash AKS74 [16.3 inch] (GL)";
         picture = "\hlc_wp_ak\tex\ui\gear_aks74gl_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount", "GP30" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_aks\aks_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\gp30\gp30_co.tga" };
         muzzles[] = {"this", "hlc_GP30"};
         bg_bipod = 0; 
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 84;
+            mass = 98.5;
         };
         inertia = 0.62;
 		__DEXTERITY(2.9 + 1.3,0);
@@ -2155,10 +2188,13 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         author = "Arby26, Millenia, Toadie";
         scope = public;
+		AB_barrelTwist = 7.87;							// no idea how to convert the twist of the barrel
+        AB_barrelLength = 16.5;
         ACE_barrelTwist = 241.3;
-        ACE_barrelLength = 431.8;
+        ACE_barrelLength = 420;
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
-        displayName = "ZID AEK971S";
+        displayName = "ZID AEK971S [16.3 inch]";
+		descriptionShort = "5.45x39 Assault Rifle (DOI: 1978)";
         model = "\hlc_wp_ak\mesh\aek971\aek971clean.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aek_x_ca";
         hiddenSelections[] = { "Main", "Mount" };
@@ -2172,6 +2208,9 @@ class CfgWeapons {
         bg_bipod = 0; 
         reloadAction = "HLC_GestureReloadAK545OneHand";
         modes[] = {"FullAuto","Burst","Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
+		class WeaponSlotsInfo: WeaponSlotsInfo {
+            mass = 72.7;
+        };
         class FullAuto: Mode_FullAuto {
             reloadTime = 0.0681;
             dispersion = 0.0005563233;
@@ -2372,7 +2411,8 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_saiga_ca";
         hiddenSelections[] = { "Main" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bi_s12k\saiga12k_co.tga" };
-        displayName = "Izhmash Saiga12K";
+        displayName = "Izhmash Saiga12K [16.9 inch]";
+		descriptionShort = "Semi-automatic Shotgun<br/>Caliber:12 Gauge";
         discretedistance[] = {100,200,300,400};
         discretedistanceinitindex = 0;
         descriptionShort = "Shotgun<br/>Caliber:12 Gauge";
@@ -2553,12 +2593,13 @@ class CfgWeapons {
         AB_barrelLength = 8.3;
         ACE_barrelTwist = 199.898;
         ACE_barrelLength = 210.82;
-        deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
+        deployedPivot = "deploypivot";       		// what point should be used to be on surface while unfolded
         author = "Toadie";
         scope = public;
-        initspeed = -0.907539;
+        initspeed = -0.889510;						// brake down normal 715 m/s to 636 m/s
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
-        displayName = "Arsenal Inc. SLR107U";
+        displayName = "Arsenal Inc. SLR107U [8.3 inch]";
+		descriptionShort = "7.62x39 Carbine";
         model = "\hlc_wp_ak\mesh\slr107u\slr.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_slr107u_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount", "magazine" };
@@ -2744,10 +2785,11 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_ak74m_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount","Foregrip","GP30" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_ak74\body_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga","hlc_wp_ak\tex\tigg_ak74m\ak74m_co.tga","hlc_wp_ak\tex\gp30\gp30_co.tga" };
-        displayName = "Izhmash AK74M";
+        displayName = "Izhmash AK74M [16.3 inch]";
+		descriptionShort = "5.45x39 Assault Rifle (DOI: 1991)";
         bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 68;
+            mass = 74.9;
         };
         inertia = 0.34;
 		__DEXTERITY(3.4,0);
@@ -2777,12 +2819,13 @@ class CfgWeapons {
         author = "MrRifleman, Tigg, Toadie";
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74gl.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_core\animation\gesture\handpose_gp25.rtm" };
-        displayName = "Izhmash AK74M(GL)";
+        displayName = "Izhmash AK74M [16.3 inch] (GL)";
+		descriptionShort = "5.45x39 Assault Rifle (DOI: 1991)";
         picture = "\hlc_wp_ak\tex\ui\gear_ak74mgl_ca";
         muzzles[] = { "this", "hlc_GP30" };
         bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 84;
+            mass = 108;
         };
         inertia = 0.67;
 		__DEXTERITY(3.4 + 1.3,0);
