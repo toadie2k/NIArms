@@ -1415,6 +1415,10 @@ class CfgWeapons
         displayName = "QD .300BLK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
+		class ItemInfo: ItemInfo
+		{
+			mass = 10;												// mass of TBAC 30 BA
+		};
     };
     class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
         dlc = "Niarms_Core";
@@ -1422,6 +1426,10 @@ class CfgWeapons
         displayName = "Gemtech Halo 5.56mm Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
+		class ItemInfo: ItemInfo
+		{
+			mass = 6;
+		};
     };
     class hlc_muzzle_Tundra : muzzle_snds_M
     {
@@ -1431,7 +1439,7 @@ class CfgWeapons
         picture = "\hlc_core\tex\ui\gear_tundra_ca";
         model = "hlc_core\mesh\accessories\barrel\9\tundra.p3d";
         class ItemInfo : ItemInfo {
-            mass = 5;
+            mass = 11;
         };
         inertia = 0.04;
     };
