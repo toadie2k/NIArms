@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {"HLC_M14_ammobox","Weapon_rifle_M14","Weapon_hlc_rifle_M21","Weapon_hlc_rifle_m14sopmod","Weapon_hlc_rifle_m14dmr","weapon_hlc_rifle_M14_Bipod","weapon_hlc_rifle_M14_Rail"};
         weapons[] = {"hlc_rifle_M14","hlc_rifle_M21","hlc_rifle_m14dmr","hlc_rifle_m14sopmod","hlc_muzzle_snds_M14","hlc_optic_artel_m14","hlc_optic_LRT_m14","hlc_optic_PVS4M14"};
         magazines[] = {"hlc_50Rnd_762x51_B_M14","hlc_20Rnd_762x51_T_M14","hlc_20Rnd_762x51_B_M14"};
-        version="v1.85";
+        version="v1.95";
         author="toadie";
     };
 };
@@ -77,10 +77,15 @@ class CfgVehicles {
             __M_MAG(hlc_20Rnd_762x51_mk316_M14,30);
         };
         class TransportWeapons {
-            __M_WEP(hlc_rifle_M14,20);
-            __M_WEP(hlc_rifle_M21,20);
-            __M_WEP(hlc_rifle_m14dmr,20);
-            __M_WEP(hlc_rifle_m14sopmod,20);
+            __M_WEP(hlc_rifle_M14,10);
+            __M_WEP(hlc_rifle_M14_Bipod, 10);
+            __M_WEP(hlc_rifle_M14_Rail, 10);
+            __M_WEP(hlc_rifle_M14_Bipod_Rail, 10);
+            __M_WEP(hlc_rifle_M21,10);
+            __M_WEP(hlc_rifle_M21_Rail, 10);
+            __M_WEP(hlc_rifle_m14dmr,10);
+            __M_WEP(hlc_rifle_M14dmr_Rail, 10);
+            __M_WEP(hlc_rifle_m14sopmod,10);
         };
         class TransportItems {
             __M_ITM(hlc_optic_artel_m14,10);
@@ -93,15 +98,17 @@ class CfgVehicles {
         };
     };
 
-    __WEAPONHOLDER(hlc_rifle_M14,hlc_20Rnd_762x51_B_M14,M14,Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M14_Bipod,hlc_20Rnd_762x51_B_M14,M14(Bipod),Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M14_Bipod_Rail, hlc_20Rnd_762x51_B_M14, M14(Bipod\RAil), Niarms_M14, Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M14_Rail,hlc_20Rnd_762x51_B_M14,M14(Rail),Niarms_M14,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_M21, hlc_20Rnd_762x51_mk316_M14, M21, Niarms_M14, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M21_Rail, hlc_20Rnd_762x51_mk316_M14, M21(Rail), Niarms_M14, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_m14dmr, hlc_20Rnd_762x51_mk316_M14, M14DMR, Niarms_M14, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M14dmr_Rail, hlc_20Rnd_762x51_mk316_M14, M14DMR(Rail), Niarms_M14, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_m14sopmod,hlc_20Rnd_762x51_mk316_M14,Troy M14 SOPMOD,Niarms_M14,Toadie,AssaultRifles);
+
+    __WEAPONHOLDER(hlc_rifle_M14, hlc_20Rnd_762x51_B_M14, M14, Niarms_M14, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Bipod, hlc_20Rnd_762x51_B_M14, M14(Bipod), Niarms_M14, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Rail, hlc_20Rnd_762x51_B_M14, M14(RIS), Niarms_M14, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M14_Bipod_Rail, hlc_20Rnd_762x51_B_M14, M14(Bipod / RIS), Niarms_M14, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_M21, hlc_20Rnd_762x51_mk316_M14, M21, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M21_Rail, hlc_20Rnd_762x51_mk316_M14, M21(RIS), Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_m14dmr, hlc_20Rnd_762x51_mk316_M14, M14DMR, Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M14dmr_Rail, hlc_20Rnd_762x51_mk316_M14, M14DMR(RIS), Niarms_M14, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_m14sopmod, hlc_20Rnd_762x51_B_M14, Troy M14 SOPMOD, Niarms_M14, Toadie, AssaultRifles);
+
 };
 
 class CfgMagazines {
@@ -112,110 +119,126 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "HLC_762x51_ball";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Enhanced Performance Round)<br />Rounds: 20<br />Used in: M14,M21";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
         displayname = "M14 Magazine (Ball) 20rnd 7.62mm";
         model = "hlc_wp_m14\mesh\magazine\magazine.p3d";
-        initspeed = 853;
+        initspeed = 908.4;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
         tracersevery = 0;
         mass = 20;
-        displaynameshort = "7.62mm Ball";
+        displaynameshort = "M80A1 EPR";
     };
     class hlc_20Rnd_762x51_mk316_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_762x51_MK316_20in";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.316 Special Ball Long Range)<br />Rounds: 20<br />Used in: M14,M21";
-        displayname = "M14 Magazine (Mk.316) 20rnd 7.62mm";
-        initspeed = 853;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
+        displayname = "M14 Magazine (SBLR) 20rnd 7.62mm";
+        initspeed = 731;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
         mass = 20;
-        displaynameshort = "7.62mm Mk.316";
+        displaynameshort = "MK316 SBLR";
     };
     class hlc_20Rnd_762x51_barrier_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_762x51_MK316_20in";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.319 Barrier-Blind)<br />Rounds: 20<br />Used in: M14,M21";
-        displayname = "M14 Magazine (Mk.319) 20rnd 7.62mm";
-        initspeed = 853;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
+        displayname = "M14 Magazine (SOST) 20rnd 7.62mm";
+        initspeed = 890.4;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         tracersevery = 0;
         mass = 20;
-        displaynameshort = "7.62mm Mk.319";
+        displaynameshort = "MK319 OTM";
     };
     class hlc_20Rnd_762x51_T_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
-        ammo = "B_762x51_Tracer_Green";
+        ammo = "HLC_762x51_tracer";
         descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
         displayname = "M14 Magazine (Tracer) 20rnd 7.62mm";
-        initspeed = 853;
+        initspeed = 908.4;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
         mass = 20;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "M62A1 Tracer";
     };
     class hlc_20Rnd_762x51_Tdim_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
+        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
         displayname = "M14 Magazine (IR-DIM) 20rnd 7.62mm";
-        initspeed = 853;
+        initspeed = 908.4;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         tracersevery = 1;
         mass = 20;
-        displaynameshort = "7.62mm IR-DIM";
+        displaynameshort = "IR-DIM";
     };
     class hlc_20Rnd_762x51_Mdim_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
-        displayname = "M14 Magazine (EPR,IR-DIM) 20rnd 7.62mm";
-        initspeed = 853;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 20";
+        displayname = "M14 Magazine (EPR-IRDIM) 20rnd 7.62mm";
+        initspeed = 908.4;
         lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
-        tracersevery = 1;
+        tracersevery = 4;
         mass = 20;
-        displaynameshort = "7.62mm IR-DIM";
+        displaynameshort = "EPR/IR-DIM";
     };
     class hlc_50Rnd_762x51_B_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
         count = 50;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 20<br />Used in: M14,M21";
-        displayname = "X-14 Magazine (Mixed) 50rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-14 Magazine (EPR-Tracer) 50rnd 7.62mm";
         model = "hlc_wp_m14\mesh\magazine\magazine.p3d";
-        initspeed = 853;
-        lastroundstracer = 1;
+        initspeed = 908.4;
+        lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_x14_mixed_ca.paa";
         scope = 2;
-        tracersevery = 5;
-        mass = 50;
-        displaynameshort = "7.62mm Ball";
+        tracersevery = 4;
+        mass = 32;
+        displaynameshort = "EPR/Tracer";
+    };
+    class hlc_50Rnd_762x51_MDIM_M14 : hlc_20Rnd_762x51_B_M14 {
+        dlc = "Niarms_M14";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        count = 50;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-14 Magazine (EPR-IRDIM) 50rnd 7.62mm";
+        model = "hlc_wp_m14\mesh\magazine\magazine.p3d";
+        initspeed = 908.4;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_x14_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        mass = 32;
+        displaynameshort = "EPR/IR-DIM";
     };
     class hlc_20Rnd_762x51_S_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
         ammo = "HLC_762x51_BTSub";
-        descriptionshort = "Caliber: 7.62x51mm (Boat-Tailed Subsonic)<br />Rounds: 20<br />Used in: M14";
+        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 20";
         displayname = "M14 Magazine (Subsonic) 20rnd 7.62mm";
         initspeed = 325;
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
         tracersevery = 0;
         mass = 20;
-        displaynameshort = "7.62mm Subsonic";
+        displaynameshort = "FMJ Subsonic";
     };
 };
 
@@ -338,7 +361,7 @@ class CfgWeapons {
                     distanceZoomMin = 300;
                     distanceZoomMax = 600;
                     memoryPointCamera = "eye";
-                    modelOptics[] = { "\hlc_wp_m14\mesh\PVS4\NV_anpvs4_optic" };
+                    modelOptics[] = {"\hlc_wp_m14\mesh\PVS4\NV_anpvs4_optic"};
                     visionMode[] = {"NVG"};
                     opticsFlare = 1;
                     opticsid = 1;
@@ -346,7 +369,7 @@ class CfgWeapons {
                     cameraDir = "";
                 };
                 class Snip2: Snip {
-                    modelOptics[] = { "\hlc_wp_m14\mesh\PVS4\pvs4-daysight" };
+                    modelOptics[] = { "\hlc_wp_g3\mesh\PVS4\pvs4-daysight" };
                     opticsid = 2;
                 };
                 class Kolimator {
@@ -452,11 +475,11 @@ class CfgWeapons {
         AB_barrelLength=22;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 558.8;
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
+        __AI_DISPERSION_COEF;
         magazines[] = { __762M14_MAGS, __762M14_BI_MAGS };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
+        initspeed = -1.05;
         class GunParticles : GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
@@ -512,16 +535,7 @@ class CfgWeapons {
             };
             reloadTime = 0.08;
             dispersion = 0.0007;
-
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 300;
-            aiRateOfFireDispersion = 2;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
         };
 
         class FullAuto : Mode_FullAuto {
@@ -545,53 +559,21 @@ class CfgWeapons {
             reloadTime = 0.081;
             dispersion = 0.0009;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 1;
-            midRangeProbab = 0.8;
-            maxRange = 5;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class single_medium_optics1 : Single {
             requiredoptictype = 1;
             showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1600;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
             burst = 3;
             showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
 
         drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
@@ -639,7 +621,19 @@ class CfgWeapons {
         class Library {
             libTextDesc = "Springfield Armory M14";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M14_XMAG";
+            default = "hlc_rifle_M14";
+        };
     };
+    class hlc_rifle_M14_XMAG : hlc_rifle_M14
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m14\M14_xmag.p3d";
+
+    };
+
     class hlc_rifle_M14_Bipod : hlc_rifle_m14 {
         model = "\hlc_wp_M14\mesh\m21\M14_bip.p3d";
         displayName = "M14(Bipod)";
@@ -657,7 +651,19 @@ class CfgWeapons {
             mass = 91;
         };
         
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14_Bipod_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M14_Bipod_XMAG";
+            default = "hlc_rifle_M14_Bipod";
+        };
     };
+    class hlc_rifle_M14_Bipod_XMAG : hlc_rifle_M14_Bipod
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m21\M14_bip_xmag.p3d";
+
+    };
+
     class hlc_rifle_M14_Rail : hlc_rifle_m14 {
         model = "\hlc_wp_M14\mesh\m14\M14_railed.p3d";
         displayName = "M14(RIS)";
@@ -667,7 +673,19 @@ class CfgWeapons {
             mass = 90;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14_Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M14_Rail_XMAG";
+            default = "hlc_rifle_M14_Rail";
+        };
     };
+    class hlc_rifle_M14_Rail_XMAG : hlc_rifle_M14_Rail
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m14\M14_railed_xmag.p3d";
+
+    };
+
     class hlc_rifle_M14_Bipod_Rail : hlc_rifle_m14 {
         model = "\hlc_wp_M14\mesh\m21\M14_biprail.p3d";
         displayName = "M14(Bipod/RIS)";
@@ -688,7 +706,19 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Bipod","rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\m14\a1_m14_co.tga", "hlc_wp_m14\tex\bis_dmr\bipod_harris_co.tga","hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga" };
 
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14_Bipod_Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M14_Bipod_Rail_XMAG";
+            default = "hlc_rifle_M14_Bipod_Rail";
+        };
     };
+    class hlc_rifle_M14_Bipod_Rail_XMAG : hlc_rifle_M14_Bipod_Rail
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m21\M14_biprail_xmag.p3d";
+
+    };
+
     class hlc_rifle_M21 : hlc_M14_base {
         author = "An Aggressive Napkin, Millenia, Toadie";
         hasBipod = true;
@@ -729,37 +759,40 @@ class CfgWeapons {
 
         class Single : Single {
             __MOA(0.8);
+            __AI_ROF_RIFLE_SNIPER762_SEMI;
         };
         class single_medium_optics1 : Single {
             requiredoptictype = 1;
             showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 0;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1600;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+            burst = 3;
+            showtoplayer = 0;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
 
         class Library {
             libTextDesc = "Springfield Armory M21";
         };
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M21_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M21_XMAG";
+            default = "hlc_rifle_M21";
+        };
     };
+    class hlc_rifle_M21_XMAG : hlc_rifle_M21
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m21\M14_xmag.p3d";
+
+    };
+
+
     class hlc_rifle_M21_Rail :hlc_rifle_M21
     {
         __DEXTERITY(4.9 + 0.31+0.3, 0);
@@ -772,7 +805,20 @@ class CfgWeapons {
             class CowsSlot : asdg_OpticRail1913_short {};
         };
 
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M21_Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M21_Rail_XMAG";
+            default = "hlc_rifle_M21_Rail";
+        };
     };
+    class hlc_rifle_M21_Rail_XMAG : hlc_rifle_M21_Rail
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m21\M14_rail_xmag.p3d";
+
+    };
+
+
     class hlc_rifle_m14dmr : hlc_rifle_M21 {
         author = "Bohemia Interactive,Toadie";
         model = "\hlc_wp_M14\mesh\m14dmr\M14.p3d";
@@ -797,7 +843,19 @@ class CfgWeapons {
         class Single : Single{
             __MOA(1.1);
         };
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_m14dmr_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_m14dmr_XMAG";
+            default = "hlc_rifle_m14dmr";
+        };
     };
+    class hlc_rifle_m14dmr_XMAG : hlc_rifle_m14dmr
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m14dmr\M14_xmag.p3d";
+
+    };
+
     class hlc_rifle_M14dmr_Rail :hlc_rifle_m14dmr
     {
         author = "Bohemia Interactive,Toadie";
@@ -810,6 +868,17 @@ class CfgWeapons {
             mass = 116;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
+
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14dmr_Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_M14dmr_Rail_XMAG";
+            default = "hlc_rifle_M14dmr_Rail";
+        };
+    };
+    class hlc_rifle_M14dmr_Rail_XMAG : hlc_rifle_M14dmr_Rail
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\m14dmr\M14_railed_xmag.p3d";
 
     };
 
@@ -836,6 +905,7 @@ class CfgWeapons {
         recoil = "recoil_ebr";
         discretedistanceinitindex = 2;
         bg_bipod = 1; 
+        initspeed = -0.966;
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\dmr_hands.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 86;
@@ -858,5 +928,16 @@ class CfgWeapons {
         class single_far_optics1 : single_far_optics1 {
             maxRange = 1200;
         };
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_M14 = "hlc_rifle_m14sopmod_XMAG";
+            hlc_50rnd_762x51_MDIM_G3 = "hlc_rifle_m14sopmod_XMAG";
+            default = "hlc_rifle_m14sopmod";
+        };
+    };
+    class hlc_rifle_m14sopmod_XMAG : hlc_rifle_m14sopmod
+    {
+        scopeArsenal = 0;
+        model = "\hlc_wp_M14\mesh\sopmod\M14_xmag.p3d";
+
     };
 };
