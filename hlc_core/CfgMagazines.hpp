@@ -75,7 +75,7 @@ class CfgMagazines
         initspeed = 974.8;
         mass = 11.9;
         lastroundstracer = 1;
-        scope = 12;
+        scope = 2;
         tracersevery = 1;
         displaynameshort = "M856A1 Tracer";
         picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
