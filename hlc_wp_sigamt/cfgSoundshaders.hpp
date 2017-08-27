@@ -5,8 +5,8 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_sigamt\snd\soundshaders\amt_first", 1 } };
-		range = 5;
-		volume = 1;
+		range = 15;
+		volume = 1.21;
 	};
 	class sg510_closeShot_SoundShader
 	{
@@ -20,7 +20,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_sigamt\snd\soundshaders\amt_mid", 1 } };
-		volume = 0.5011872;
+		volume = 1.6;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.2 },
@@ -46,13 +46,14 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_02_MAR10\DMR02_taildistant", 1 } };
-		volume = 1.0;
+		volume = 0.4;
 		range = 2000;
-		rangeCurve[] = {
-			{ 0, 0 },
-			{ 600, 0.7 },
-			{ 2000, 1 } };
-		limitation = 1;
+        rangeCurve[] = {
+            { 0, 0 },
+            { 250, 0.2 },
+            { 600, 0.7 },
+            { 2000, 1 } };
+        limitation = 1;
 	};
 	class sg510_tailForest_SoundShader
 	{
@@ -117,7 +118,7 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_wp_sigamt\snd\soundshaders\amt_suppressed", 1 } };
 		volume = 1.0;
-		range = 150;
+		range = 250;
 		rangeCurve = "closeShotCurve";
 	};
 	class sg510_silencerTailForest_SoundShader
