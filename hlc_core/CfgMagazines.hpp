@@ -1,118 +1,118 @@
 class CfgMagazines 
 {
-	class 30Rnd_556x45_Stanag;
+    class 30Rnd_556x45_Stanag;
 
-	class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag
-	{
-		ammo = "HLC_556NATO_EPR";
-		count = 30;
-		descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-		displayname = "STANAG Mag (EPR) 5.56mm";
-		initspeed = 974.8;
-		mass = 11.5;								// no reference found
-		lastroundstracer = 1;
-		scope = 2;
-		tracersevery = 0;
-		displaynameshort = "M855A1 EPR";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
-	};
-	class hlc_30rnd_556x45_SOST : 30Rnd_556x45_Stanag
-	{
-		ammo = "HLC_556NATO_SOST";
-		count = 30;
-		descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-		displayname = "STANAG Mag (SOST) 5.56mm";
-		initspeed = 954.4;
-		mass = 11.5;
-		lastroundstracer = 1;
-		scope = 2;
-		tracersevery = 0;
-		displaynameshort = "MK318 SOST";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
-	};
-	class hlc_30rnd_556x45_SPR : 30Rnd_556x45_Stanag
-	{
-		ammo = "HLC_556NATO_SPR";
-		count = 30;
-		descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-		displayname = "STANAG Mag (SPR) 5.56mm";
-		initspeed = 868.7;
-		mass = 12.2;
-		lastroundstracer = 1;
-		scope = 2;
-		tracersevery = 0;
-		displaynameshort = "MK262 Mod 1";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
-	};
-	class hlc_30rnd_556x45_S : hlc_30rnd_556x45_EPR 
-	{
-		author = "Toadie";
-		initspeed = 340;
-		descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-		displayname = "STANAG Mag (Subsonic) 5.56mm";
-		picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
-	};
-	class hlc_30rnd_556x45_M : 30Rnd_556x45_Stanag
-	{
-		ammo = "HLC_556NATO_EPR_Tracer";
-		count = 30;
-		descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-		displayname = "STANAG Mag (EPR,Tracer) 5.56mm";
-		initspeed = 974.8;
-		mass = 12;
-		lastroundstracer = 3;
-		scope = 2;
-		tracersevery = 4;
-		displaynameshort = "EPR,Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-	};
-	class hlc_30rnd_556x45_t : 30Rnd_556x45_Stanag
-	{
-		ammo = "HLC_556NATO_EPR_Tracer";
-		count = 30;
-		descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-		displayname = "STANAG Mag (Tracer) 5.56mm";
-		initspeed = 974.8;
-		mass = 11.9;
-		lastroundstracer = 1;
-		scope = 12;
-		tracersevery = 1;
-		displaynameshort = "M856A1 Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-	};
-	class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR 
-	{
-		author = "Toadie";
-		ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-		initspeed = 950.3664;
-		descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-		displayname = "STANAG Mag (EPR-IRDIM) 5.56mm";
-		tracersevery = 4;
-		displaynameshort = "EPR/IR-DIM";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-	};
-	class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR 
-	{
-		author = "Toadie";
-		ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-		initspeed = 950.3664;
-		descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-		displayname = "STANAG Mag (IR-DIM) 5.56mm";
-		tracersevery = 1;
-		displaynameshort = "IR-DIM";
-		picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
-	};
-	class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR 
-	{
-		ammo = "HLC_556NATO_EPR_Tracer";
-		author = "Toadie";
-		count = 50;
-		descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
-		displayname = "X-15 STANAG Mag (EPR) 5.56mm";
-		mass = 17.8;								// no reference found
-		tracersevery = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
-	};
+    class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag
+    {
+        ammo = "HLC_556NATO_EPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "STANAG Mag (EPR) 5.56mm";
+        initspeed = 974.8;
+        mass = 11.5;                                // no reference found
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+    };
+    class hlc_30rnd_556x45_SOST : 30Rnd_556x45_Stanag
+    {
+        ammo = "HLC_556NATO_SOST";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "STANAG Mag (SOST) 5.56mm";
+        initspeed = 954.4;
+        mass = 11.5;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+    };
+    class hlc_30rnd_556x45_SPR : 30Rnd_556x45_Stanag
+    {
+        ammo = "HLC_556NATO_SPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "STANAG Mag (SPR) 5.56mm";
+        initspeed = 868.7;
+        mass = 12.2;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+    };
+    class hlc_30rnd_556x45_S : hlc_30rnd_556x45_EPR 
+    {
+        author = "Toadie";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "STANAG Mag (Subsonic) 5.56mm";
+        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
+    };
+    class hlc_30rnd_556x45_M : 30Rnd_556x45_Stanag
+    {
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
+        displayname = "STANAG Mag (EPR,Tracer) 5.56mm";
+        initspeed = 974.8;
+        mass = 12;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR,Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_t : 30Rnd_556x45_Stanag
+    {
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "STANAG Mag (Tracer) 5.56mm";
+        initspeed = 974.8;
+        mass = 11.9;
+        lastroundstracer = 1;
+        scope = 12;
+        tracersevery = 1;
+        displaynameshort = "M856A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR 
+    {
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "STANAG Mag (EPR-IRDIM) 5.56mm";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR 
+    {
+        author = "Toadie";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "STANAG Mag (IR-DIM) 5.56mm";
+        tracersevery = 1;
+        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+    };
+    class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR 
+    {
+        ammo = "HLC_556NATO_EPR_Tracer";
+        author = "Toadie";
+        count = 50;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
+        displayname = "X-15 STANAG Mag (EPR) 5.56mm";
+        mass = 17.8;                                // no reference found
+        tracersevery = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
+    };
 
 /*
 //FAL MAGs
@@ -146,116 +146,116 @@ mass = 7;
 */
 
 // Tommy Gun Drums
-	class hlc_50Rnd_45ACP_B_1921 : 30Rnd_556x45_Stanag
-	{
-		ammo = "FH_45ACP_Ball";
-		count = 50;
-		initspeed = 285;
-		descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 50<br />Used in: M1928";
-		displayname = "M1928 Mag (Ball) 50rnd .45ACP";
-		lastroundstracer = 1;
-		picture = "\hlc_core\tex\ui\ammo\m_m1928ball_ca.paa";
-		scope = 0;
-		mass = 47.9;
-		tracersevery = 0;
-		displaynameshort = ".45ACP Ball";
-	};
-	class hlc_50Rnd_45ACP_T_1921 : hlc_50Rnd_45ACP_B_1921 
-	{
-		ammo = "FH_45ACP_Tracer";
-		count = 50;
-		descriptionshort = "Caliber: .45ACP LV Tracer<br />Rounds: 50<br />Used in: M1928";
-		displayname = "M1928 Mag (Tracer) 50rnd .45ACP";
-		displaynameshort = ".45ACP LV Tracer";
-		lastroundstracer = 1;
-		mass = 47.9;
-		picture = "\hlc_core\tex\ui\ammo\m_m1928tracer_ca.paa";
-		scope = 0;
-		tracersevery = 2;
-	};
+    class hlc_50Rnd_45ACP_B_1921 : 30Rnd_556x45_Stanag
+    {
+        ammo = "FH_45ACP_Ball";
+        count = 50;
+        initspeed = 285;
+        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 50<br />Used in: M1928";
+        displayname = "M1928 Mag (Ball) 50rnd .45ACP";
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_m1928ball_ca.paa";
+        scope = 0;
+        mass = 47.9;
+        tracersevery = 0;
+        displaynameshort = ".45ACP Ball";
+    };
+    class hlc_50Rnd_45ACP_T_1921 : hlc_50Rnd_45ACP_B_1921 
+    {
+        ammo = "FH_45ACP_Tracer";
+        count = 50;
+        descriptionshort = "Caliber: .45ACP LV Tracer<br />Rounds: 50<br />Used in: M1928";
+        displayname = "M1928 Mag (Tracer) 50rnd .45ACP";
+        displaynameshort = ".45ACP LV Tracer";
+        lastroundstracer = 1;
+        mass = 47.9;
+        picture = "\hlc_core\tex\ui\ammo\m_m1928tracer_ca.paa";
+        scope = 0;
+        tracersevery = 2;
+    };
 
-	class hlc_50rnd_9x19_B_9mmar : 30Rnd_556x45_Stanag
-	{
-		count = 50;
-		ammo = "HLC_9x19_Ball";
-		scope = 0;
-		descriptionshort = "Caliber: 9x19mm Parrabellum (Ball)<br />Rounds: 50<br />Used in: 9MMAR";
-		displayname = "9MMAR Mag (Ball) 50rnd 9x19mm";
-		displaynameshort = "9mm Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_9mmarball_ca.paa";
-		mass = 12.9;
-		initspeed = 423;
-	};
+    class hlc_50rnd_9x19_B_9mmar : 30Rnd_556x45_Stanag
+    {
+        count = 50;
+        ammo = "HLC_9x19_Ball";
+        scope = 0;
+        descriptionshort = "Caliber: 9x19mm Parrabellum (Ball)<br />Rounds: 50<br />Used in: 9MMAR";
+        displayname = "9MMAR Mag (Ball) 50rnd 9x19mm";
+        displaynameshort = "9mm Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_9mmarball_ca.paa";
+        mass = 12.9;
+        initspeed = 423;
+    };
  
 //NATO M13-link 100 Round Belts
 //imported from M60s for general applique
-	class hlc_100Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag
-	{
-		dlc = "Niarms_M60";
-		author = "Toadie";
-		ammo = "HLC_762x51_ball";
-		count = 100;
-		descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
-		displayname = "M13-Link Belt (EPR) 100-Rnd 7.62mm";
-		model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
-		initspeed = 853;
-		lastroundstracer = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
-		scope = 2;
-		tracersevery = 0;
-		mass = 58.2;
-		displaynameshort = "M80A1 EPR";
-		nameSound = "mgun";
-		ACE_isBelt = 1;
-	};
-	class hlc_100Rnd_762x51_M_M60E4 : hlc_100Rnd_762x51_B_M60E4 
-	{
-		dlc = "Niarms_M60";
-		author = "Toadie";
-		ammo = "HLC_762x51_ball";
-		descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
-		displayname = "M13-Link Belt (Ball-Tracer) 100rnd 7.62mm";
-		lastroundstracer = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
-		tracersevery = 4;
-		displaynameshort = "EPR/Tracer";
-	};
-	class hlc_100Rnd_762x51_Mdim_M60E4 : hlc_100Rnd_762x51_B_M60E4 
-	{
-		dlc = "Niarms_M60";
-		author = "Toadie";
-		ammo = "HLC_B_762x51_Tracer_Dim";
-		descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
-		displayname = "M13-Link Belt (EPR-IRDIM) 100rnd 7.62mm";
-		lastroundstracer = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
-		tracersevery = 4;
-		displaynameshort = "EPR/IR-DIM";
-	};
-	class hlc_100Rnd_762x51_Barrier_M60E4 : hlc_100Rnd_762x51_B_M60E4 
-	{
-		dlc = "Niarms_M60";
-		author = "Toadie";
-		ammo = "HLC_762x51_Barrier";
-		descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
-		displayname = "M13-Link Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
-		lastroundstracer = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
-		tracersevery = 4;
-		displaynameshort = "Mk319/Tracer";
-	};
-	class hlc_100Rnd_762x51_T_M60E4 : hlc_100Rnd_762x51_B_M60E4 
-	{
-		dlc = "Niarms_M60";
-		author = "Toadie";
-		ammo = "HLC_762x51_ball";
-		descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
-		displayname = "M13-Link Belt (Tracer) 100rnd 7.62mm";
-		lastroundstracer = 5;
-		picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
-		tracersevery = 1;
-		displaynameshort = "M62A1 Tracer";
-	};
+    class hlc_100Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        count = 100;
+        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
+        displayname = "M13-Link Belt (EPR) 100-Rnd 7.62mm";
+        model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+        initspeed = 853;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 58.2;
+        displaynameshort = "M80A1 EPR";
+        nameSound = "mgun";
+        ACE_isBelt = 1;
+    };
+    class hlc_100Rnd_762x51_M_M60E4 : hlc_100Rnd_762x51_B_M60E4 
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
+        displayname = "M13-Link Belt (Ball-Tracer) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+    };
+    class hlc_100Rnd_762x51_Mdim_M60E4 : hlc_100Rnd_762x51_B_M60E4 
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
+        displayname = "M13-Link Belt (EPR-IRDIM) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+    };
+    class hlc_100Rnd_762x51_Barrier_M60E4 : hlc_100Rnd_762x51_B_M60E4 
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_Barrier";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
+        displayname = "M13-Link Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "Mk319/Tracer";
+    };
+    class hlc_100Rnd_762x51_T_M60E4 : hlc_100Rnd_762x51_B_M60E4 
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
+        displayname = "M13-Link Belt (Tracer) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
+        tracersevery = 1;
+        displaynameshort = "M62A1 Tracer";
+    };
 
 
 /*
@@ -302,181 +302,181 @@ displaynameshort = "12 Gau-DISTRACTION";
 */
 
 //Bren Gun
-	class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 
-	{
-		ammo = "HLC_303Brit_B";
-		count = 30;
-		descriptionshort = "Caliber: .303British Ball<br />Rounds: 30<br />Used in: Bren";
-		displayname = "Bren Mag (Ball) 30rnd .303British";
-		lastroundstracer = 1;
-		scope = 0;
-		initspeed = 840;
-		mass = 10;
-		displaynameshort = ".303 British Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_brenball_ca.paa";
-	};
-	class hlc_30Rnd_303_T_bren : hlc_30Rnd_303_B_bren 
-	{
-		ammo = "HLC_303Brit_T";
-		count = 30;
-		descriptionshort = "Caliber: .303British Tracer<br />Rounds: 30<br />Used in: Bren";
-		displayname = "Bren Mag (Tracer) 30rnd .303British";
-		lastroundstracer = 1;
-		scope = 0;
-		initspeed = 770;
-		tracersevery = 3;
-		mass = 10;									// w/o mag
-		displaynameshort = ".303 British Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
-	};
-	class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren 
-	{
-		ammo = "HLC_303Brit_AP";
-		count = 30;
-		scope = 0;
-		descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 30<br />Used in: Bren";
-		displayname = "Bren Mag (AP) 30rnd .303British";
-		lastroundstracer = 0;
-		initspeed = 720;
-		tracersevery = 1;
-		mass = 21.6;									// guessed with mag ( 980 g)
-		displaynameshort = ".303 British AP";
-		picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
-	};
+    class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 
+    {
+        ammo = "HLC_303Brit_B";
+        count = 30;
+        descriptionshort = "Caliber: .303British Ball<br />Rounds: 30<br />Used in: Bren";
+        displayname = "Bren Mag (Ball) 30rnd .303British";
+        lastroundstracer = 1;
+        scope = 0;
+        initspeed = 840;
+        mass = 10;
+        displaynameshort = ".303 British Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_brenball_ca.paa";
+    };
+    class hlc_30Rnd_303_T_bren : hlc_30Rnd_303_B_bren 
+    {
+        ammo = "HLC_303Brit_T";
+        count = 30;
+        descriptionshort = "Caliber: .303British Tracer<br />Rounds: 30<br />Used in: Bren";
+        displayname = "Bren Mag (Tracer) 30rnd .303British";
+        lastroundstracer = 1;
+        scope = 0;
+        initspeed = 770;
+        tracersevery = 3;
+        mass = 10;                                    // w/o mag
+        displaynameshort = ".303 British Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
+    };
+    class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren 
+    {
+        ammo = "HLC_303Brit_AP";
+        count = 30;
+        scope = 0;
+        descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 30<br />Used in: Bren";
+        displayname = "Bren Mag (AP) 30rnd .303British";
+        lastroundstracer = 0;
+        initspeed = 720;
+        tracersevery = 1;
+        mass = 21.6;                                    // guessed with mag ( 980 g)
+        displaynameshort = ".303 British AP";
+        picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
+    };
 
 //Lee-Enfield Stipper Clips
-	class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren 
-	{
-		count = 10;
-		scope = 2;
-		descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-		displayname = "Lee-Enfield (Ball) 10rnd .303British";
-		initspeed = 744;
-		mass = 5.8;									// guessed without clip
-		displaynameshort = ".303 Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
-	};
-	class hlc_10Rnd_303_T_enfield : hlc_30Rnd_303_T_bren 
-	{
-		count = 10;
-		descriptionshort = "Caliber: .303British Tracer<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-		displayname = "Lee-Enfield (Tracer) 10rnd .303British";
-		tracersevery = 1;
-		scope = 2;
-		initspeed = 720;
-		mass = 5.1;									// no reference found, guessed without clip
-		displaynameshort = ".303 Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
-	};
-	class hlc_10Rnd_303_AP_enfield : hlc_30Rnd_303_AP_bren 
-	{
-		count = 10;
-		descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-		displayname = "Lee-Enfield (AP) 30rnd .303British";
-		tracersevery = 1;
-		initspeed = 840;
-		scope = 2;
-		mass = 5.8;									// no reference found, guessed without clip
-		displaynameshort = ".303 AP";
-		picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
-	};
+    class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren 
+    {
+        count = 10;
+        scope = 2;
+        descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+        displayname = "Lee-Enfield (Ball) 10rnd .303British";
+        initspeed = 744;
+        mass = 5.8;                                    // guessed without clip
+        displaynameshort = ".303 Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
+    };
+    class hlc_10Rnd_303_T_enfield : hlc_30Rnd_303_T_bren 
+    {
+        count = 10;
+        descriptionshort = "Caliber: .303British Tracer<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+        displayname = "Lee-Enfield (Tracer) 10rnd .303British";
+        tracersevery = 1;
+        scope = 2;
+        initspeed = 720;
+        mass = 5.1;                                    // no reference found, guessed without clip
+        displaynameshort = ".303 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
+    };
+    class hlc_10Rnd_303_AP_enfield : hlc_30Rnd_303_AP_bren 
+    {
+        count = 10;
+        descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+        displayname = "Lee-Enfield (AP) 30rnd .303British";
+        tracersevery = 1;
+        initspeed = 840;
+        scope = 2;
+        mass = 5.8;                                    // no reference found, guessed without clip
+        displaynameshort = ".303 AP";
+        picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
+    };
 
 //Carcano Clips
-	class hlc_6Rnd_735_B_Carcano : hlc_30Rnd_303_B_bren 
-	{
-		ammo = "HLC_542x42_ball";
-		count = 6;
-		scope = 0;
-		descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 6<br />Used in: Carcano";
-		displayname = "Carcano (Ball) 6rnd 6.5mm";
-		initspeed = 755;
-		mass = 1;
-		displaynameshort = "6.5x52mm Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_carcanoball_ca.paa";
-	};
-	class hlc_6Rnd_735_T_Carcano : hlc_30Rnd_303_B_bren 
-	{
-		ammo = "HLC_542x42_tracer";
-		count = 6;
-		scope = 0;
-		descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 6<br />Used in: Carcano";
-		displayname = "Carcano (Tracer) 6rnd 6.5mm";
-		tracersevery = 1;
-		initspeed = 755;
-		mass = 1;
-		displaynameshort = "6.5x52mm Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_carcanotracer_ca.paa";
-	};
+    class hlc_6Rnd_735_B_Carcano : hlc_30Rnd_303_B_bren 
+    {
+        ammo = "HLC_542x42_ball";
+        count = 6;
+        scope = 0;
+        descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 6<br />Used in: Carcano";
+        displayname = "Carcano (Ball) 6rnd 6.5mm";
+        initspeed = 755;
+        mass = 1;
+        displaynameshort = "6.5x52mm Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_carcanoball_ca.paa";
+    };
+    class hlc_6Rnd_735_T_Carcano : hlc_30Rnd_303_B_bren 
+    {
+        ammo = "HLC_542x42_tracer";
+        count = 6;
+        scope = 0;
+        descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 6<br />Used in: Carcano";
+        displayname = "Carcano (Tracer) 6rnd 6.5mm";
+        tracersevery = 1;
+        initspeed = 755;
+        mass = 1;
+        displaynameshort = "6.5x52mm Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_carcanotracer_ca.paa";
+    };
 
-	class hlc_5Rnd_792_T_Kar98 : hlc_10Rnd_303_B_enfield 
-	{
-		ammo = "HLC_792x57_Tracer";
-		count = 5;
-		descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 5<br />Used in: Kar98";
-		displayname = "Kar98 (Tracer) 5rnd 7.92mm";
-		tracersevery = 1;
-		lastroundstracer = 2;
-		initspeed = 762;
-		mass = 4.2;									// w/o stripper clip
-		displaynameshort = "7.92x57mm Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_k98tracer_ca.paa";
-	};
-	class hlc_5Rnd_792_AP_Kar98 : hlc_10Rnd_303_B_enfield 
-	{
-		ammo = "HLC_792x57_AP";
-		count = 5;
-		descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 5<br />Used in: Kar98";
-		displayname = "Kar98 (AP) 5rnd 7.92mm";
-		tracersevery = 0;
-		lastroundstracer = 3;
-		initspeed = 840;
-		mass = 2.6;									// w/o stripper clip
-		displaynameshort = "7.92x57mm Armour Piercing";
-		picture = "\hlc_core\tex\ui\ammo\m_k98ap_ca.paa";
-	};
+    class hlc_5Rnd_792_T_Kar98 : hlc_10Rnd_303_B_enfield 
+    {
+        ammo = "HLC_792x57_Tracer";
+        count = 5;
+        descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 5<br />Used in: Kar98";
+        displayname = "Kar98 (Tracer) 5rnd 7.92mm";
+        tracersevery = 1;
+        lastroundstracer = 2;
+        initspeed = 762;
+        mass = 4.2;                                    // w/o stripper clip
+        displaynameshort = "7.92x57mm Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_k98tracer_ca.paa";
+    };
+    class hlc_5Rnd_792_AP_Kar98 : hlc_10Rnd_303_B_enfield 
+    {
+        ammo = "HLC_792x57_AP";
+        count = 5;
+        descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 5<br />Used in: Kar98";
+        displayname = "Kar98 (AP) 5rnd 7.92mm";
+        tracersevery = 0;
+        lastroundstracer = 3;
+        initspeed = 840;
+        mass = 2.6;                                    // w/o stripper clip
+        displaynameshort = "7.92x57mm Armour Piercing";
+        picture = "\hlc_core\tex\ui\ammo\m_k98ap_ca.paa";
+    };
 
 //P90 Magazine
-	class hlc_50Rnd_57x28_JHP_P90 : 30Rnd_556x45_Stanag 
-	{
-		ammo = "HLC_57x28mm_JHP";
-		count = 50;
-		descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br />Rounds: 50<br />Used in: P90";
-		displayname = "P90 Mag SS195LF(JHP) 50rnd 5.7mm";
-		initspeed = 715;
-		lastroundstracer = 0;
-		picture = "\hlc_core\tex\ui\ammo\m_p90ss195_ca.paa";
-		scope = 0;
-		mass = 23.5;
-		tracersevery = 0;
-		displaynameshort = "5.7x28mm SS195LF Blue VMax";
-	};
-	class hlc_50Rnd_57x28_FMJ_P90 : hlc_50Rnd_57x28_JHP_P90 
-	{
-		ammo = "HLC_57x28mm_FMJ";
-		descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br />Rounds: 30<br />Used in: P90";
-		displayname = "P90 Mag SS190(FMJ) 50rnd 5.7mm";
-		lastroundstracer = 0;
-		scope = 0;
-		mass = 23.5;
-		tracersevery = 0;
-		displaynameshort = "5.7x28mm SS190 Black-Tip";
-		picture = "\hlc_core\tex\ui\ammo\m_p90ss190_ca.paa";
-	};
+    class hlc_50Rnd_57x28_JHP_P90 : 30Rnd_556x45_Stanag 
+    {
+        ammo = "HLC_57x28mm_JHP";
+        count = 50;
+        descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br />Rounds: 50<br />Used in: P90";
+        displayname = "P90 Mag SS195LF(JHP) 50rnd 5.7mm";
+        initspeed = 715;
+        lastroundstracer = 0;
+        picture = "\hlc_core\tex\ui\ammo\m_p90ss195_ca.paa";
+        scope = 0;
+        mass = 23.5;
+        tracersevery = 0;
+        displaynameshort = "5.7x28mm SS195LF Blue VMax";
+    };
+    class hlc_50Rnd_57x28_FMJ_P90 : hlc_50Rnd_57x28_JHP_P90 
+    {
+        ammo = "HLC_57x28mm_FMJ";
+        descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br />Rounds: 30<br />Used in: P90";
+        displayname = "P90 Mag SS190(FMJ) 50rnd 5.7mm";
+        lastroundstracer = 0;
+        scope = 0;
+        mass = 23.5;
+        tracersevery = 0;
+        displaynameshort = "5.7x28mm SS190 Black-Tip";
+        picture = "\hlc_core\tex\ui\ammo\m_p90ss190_ca.paa";
+    };
 
-	class hlc_32rnd_9x19_B_sten : hlc_50Rnd_45ACP_B_1921 
-	{
-		ammo = "HLC_9x19_Ball";
-		count = 32;
-		initspeed = 365;
-		descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
-		displayname = "Sten Mag (Ball) 32rnd 9x19mm";
-		lastroundstracer = 1;
-		picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
-		scope = 2;
-		tracersevery = 2;
-		mass = 18;
-		displaynameshort = "9x19mm Ball";
-	};
+    class hlc_32rnd_9x19_B_sten : hlc_50Rnd_45ACP_B_1921 
+    {
+        ammo = "HLC_9x19_Ball";
+        count = 32;
+        initspeed = 365;
+        descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
+        displayname = "Sten Mag (Ball) 32rnd 9x19mm";
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
+        scope = 2;
+        tracersevery = 2;
+        mass = 18;
+        displaynameshort = "9x19mm Ball";
+    };
 
 /*
 class hlc_32rnd_9x19_B_MP40 : hlc_50Rnd_45ACP_B_1921 {
@@ -503,130 +503,130 @@ mass = 4;
 */
 
 //HK45C Mags
-	class hlc_8Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 
-	{
-		count = 8;
-		descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 8<br />Used in: HK45C";
-		displayname = "HK45C Mag (Ball) 8rnd .45ACP ";
-		lastroundstracer = 0;
-		scope = 0;
-		initspeed = 329;
-		mass = 3.9;									// w/o mag
-		displaynameshort = ".45ACP Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
-	};
-	class hlc_10Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 
-	{
-		count = 10;
-		descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 10<br />Used in: HK45C";
-		displayname = "HK45 Mag (Ball) 10rnd .45ACP ";
-		lastroundstracer = 0;
-		initspeed = 329;
-		scope = 0;
-		mass = 4.8;									// w/o mag
-		displaynameshort = ".45ACP Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
-	};
-	class hlc_8Rnd_45ACP_T_hk45 : hlc_50Rnd_45ACP_T_1921 
-	{
-		count = 8;
-		descriptionshort = "Caliber: .45ACP Tracer<br />Rounds: 8<br />Used in: HK45C";
-		displayname = "HK45C Mag (Tracer) 8rnd .45ACP ";
-		lastroundstracer = 0;
-		initspeed = 329;
-		scope = 0;
-		mass = 3.9;									// w/o mag
-		displaynameshort = ".45ACP Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_hk45tracer_ca.paa";
-	};
+    class hlc_8Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 
+    {
+        count = 8;
+        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 8<br />Used in: HK45C";
+        displayname = "HK45C Mag (Ball) 8rnd .45ACP ";
+        lastroundstracer = 0;
+        scope = 0;
+        initspeed = 329;
+        mass = 3.9;                                    // w/o mag
+        displaynameshort = ".45ACP Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
+    };
+    class hlc_10Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 
+    {
+        count = 10;
+        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 10<br />Used in: HK45C";
+        displayname = "HK45 Mag (Ball) 10rnd .45ACP ";
+        lastroundstracer = 0;
+        initspeed = 329;
+        scope = 0;
+        mass = 4.8;                                    // w/o mag
+        displaynameshort = ".45ACP Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
+    };
+    class hlc_8Rnd_45ACP_T_hk45 : hlc_50Rnd_45ACP_T_1921 
+    {
+        count = 8;
+        descriptionshort = "Caliber: .45ACP Tracer<br />Rounds: 8<br />Used in: HK45C";
+        displayname = "HK45C Mag (Tracer) 8rnd .45ACP ";
+        lastroundstracer = 0;
+        initspeed = 329;
+        scope = 0;
+        mass = 3.9;                                    // w/o mag
+        displaynameshort = ".45ACP Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_hk45tracer_ca.paa";
+    };
 
 // Mk23 MAgs, Mostly the same as the above ones bar roundcount
-	class hlc_12Rnd_45ACP_B_mk23 : hlc_8Rnd_45ACP_B_hk45 
-	{
-		count = 12;
-		descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 12<br />Used in: Mk23 OHWS";
-		displayname = "Mk23 Mag (Ball) 12rnd .45ACP ";
-		lastroundstracer = 0;
-		scope = 2;
-		initspeed = 260;
-		mass = 5.8;									// w/o mag
-		displaynameshort = ".45ACP Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_mk23ball_ca.paa";
-	};
-	class hlc_12Rnd_45ACP_S_mk23 : hlc_8Rnd_45ACP_B_hk45 
-	{
-		count = 12;
-		descriptionshort = "Caliber: .45ACP Ball +P <br />Rounds: 12<br />Used in: Mk23 OHWS";
-		displayname = "Mk23 Mag (+P) 12rnd .45ACP ";
-		scope = 2;
-		lastroundstracer = 0;
-		initspeed = 320;
-		mass = 5.8;									// w/o mag
-		displaynameshort = ".45ACP +P Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_mk23plusp_ca.paa";
-	};
-	class hlc_12Rnd_45ACP_T_mk23 : hlc_8Rnd_45ACP_T_hk45 
-	{
-		count = 12;
-		scope = 2;
-		descriptionshort = "Caliber: .45ACP Low-Velocity Tracer<br />Rounds: 12<br />Used in: Mk23 OHWS";
-		displayname = "Mk23 Mag (Tracer) 12rnd .45ACP ";
-		lastroundstracer = 0;
-		initspeed = 260;
-		mass = 5.8;									// w/o mag
-		displaynameshort = ".45ACP LV Tracer";
-		picture = "\hlc_core\tex\ui\ammo\m_mk23tracer_ca.paa";
-	};
+    class hlc_12Rnd_45ACP_B_mk23 : hlc_8Rnd_45ACP_B_hk45 
+    {
+        count = 12;
+        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 12<br />Used in: Mk23 OHWS";
+        displayname = "Mk23 Mag (Ball) 12rnd .45ACP ";
+        lastroundstracer = 0;
+        scope = 2;
+        initspeed = 260;
+        mass = 5.8;                                    // w/o mag
+        displaynameshort = ".45ACP Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_mk23ball_ca.paa";
+    };
+    class hlc_12Rnd_45ACP_S_mk23 : hlc_8Rnd_45ACP_B_hk45 
+    {
+        count = 12;
+        descriptionshort = "Caliber: .45ACP Ball +P <br />Rounds: 12<br />Used in: Mk23 OHWS";
+        displayname = "Mk23 Mag (+P) 12rnd .45ACP ";
+        scope = 2;
+        lastroundstracer = 0;
+        initspeed = 320;
+        mass = 5.8;                                    // w/o mag
+        displaynameshort = ".45ACP +P Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_mk23plusp_ca.paa";
+    };
+    class hlc_12Rnd_45ACP_T_mk23 : hlc_8Rnd_45ACP_T_hk45 
+    {
+        count = 12;
+        scope = 2;
+        descriptionshort = "Caliber: .45ACP Low-Velocity Tracer<br />Rounds: 12<br />Used in: Mk23 OHWS";
+        displayname = "Mk23 Mag (Tracer) 12rnd .45ACP ";
+        lastroundstracer = 0;
+        initspeed = 260;
+        mass = 5.8;                                    // w/o mag
+        displaynameshort = ".45ACP LV Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_mk23tracer_ca.paa";
+    };
 
 //Deagle Mags
-	class hlc_8Rnd_44mag_B_deagle : hlc_50Rnd_45ACP_B_1921 
-	{
-		ammo = "FH_44Mag";
-		scope = 2;
-		count = 8;
-		descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 8<br />Used in: Desert Eagle";
-		displayname = "Desert Eagle Mag (Ball) 8rnd .44Magnum";
-		lastroundstracer = 0;
-		mass = 7.1;
-		displaynameshort = ".44 Magnum Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
-	};
-	class hlc_8Rnd_44mag_JHP_deagle : hlc_8Rnd_44mag_B_deagle 
-	{
-		ammo = "FH_44Mag_JHP";
-		count = 8;
-		scope = 2;
-		descriptionshort = "Caliber: .44 Magnum JHP<br />Rounds: 8<br />Used in: Desert Eagle";
-		displayname = "Desert Eagle Mag (JHP) 8rnd .44Magnum";
-		lastroundstracer = 0;
-		mass = 7.1;
-		displaynameshort = ".44 Magnum JHP";
-		picture = "\hlc_core\tex\ui\ammo\m_deaglejhp_ca.paa";
-	};
-	class hlc_50Rnd_44mag_B_deagle : hlc_8Rnd_44mag_B_deagle 
-	{
-		ammo = "FH_44Mag";
-		count = 50;
-		scope = 2;
-		descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
-		displayname = "Desert Eagle Mag (Ball) 50rnd .44Magnum";
-		lastroundstracer = 0;
-		mass = 27.5;								// w/o mag
-		displaynameshort = ".44 Magnum Ball";
-		picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
-	};
-	class hlc_50Rnd_44mag_FUN : hlc_8Rnd_44mag_B_deagle 
-	{
-		ammo = "FH_44Mag_FUNTRACER";
-		count = 50;
-		scope = 2;
-		descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
-		displayname = "Desert Eagle LOL 50rnd .44Magnum";
-		lastroundstracer = 0;
-		mass = 27.5;								// w/o mag
-		displaynameshort = "WHEEEEEEEEEE";
-		picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
-		};
+    class hlc_8Rnd_44mag_B_deagle : hlc_50Rnd_45ACP_B_1921 
+    {
+        ammo = "FH_44Mag";
+        scope = 2;
+        count = 8;
+        descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 8<br />Used in: Desert Eagle";
+        displayname = "Desert Eagle Mag (Ball) 8rnd .44Magnum";
+        lastroundstracer = 0;
+        mass = 7.1;
+        displaynameshort = ".44 Magnum Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+    };
+    class hlc_8Rnd_44mag_JHP_deagle : hlc_8Rnd_44mag_B_deagle 
+    {
+        ammo = "FH_44Mag_JHP";
+        count = 8;
+        scope = 2;
+        descriptionshort = "Caliber: .44 Magnum JHP<br />Rounds: 8<br />Used in: Desert Eagle";
+        displayname = "Desert Eagle Mag (JHP) 8rnd .44Magnum";
+        lastroundstracer = 0;
+        mass = 7.1;
+        displaynameshort = ".44 Magnum JHP";
+        picture = "\hlc_core\tex\ui\ammo\m_deaglejhp_ca.paa";
+    };
+    class hlc_50Rnd_44mag_B_deagle : hlc_8Rnd_44mag_B_deagle 
+    {
+        ammo = "FH_44Mag";
+        count = 50;
+        scope = 2;
+        descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
+        displayname = "Desert Eagle Mag (Ball) 50rnd .44Magnum";
+        lastroundstracer = 0;
+        mass = 27.5;                                // w/o mag
+        displaynameshort = ".44 Magnum Ball";
+        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+    };
+    class hlc_50Rnd_44mag_FUN : hlc_8Rnd_44mag_B_deagle 
+    {
+        ammo = "FH_44Mag_FUNTRACER";
+        count = 50;
+        scope = 2;
+        descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
+        displayname = "Desert Eagle LOL 50rnd .44Magnum";
+        lastroundstracer = 0;
+        mass = 27.5;                                // w/o mag
+        displaynameshort = "WHEEEEEEEEEE";
+        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+        };
 
 /*
 //Lewis Gun Pans

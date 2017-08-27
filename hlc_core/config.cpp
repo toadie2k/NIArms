@@ -8,9 +8,9 @@ class CfgPatches {
         weapons[] = {};
         magazines[] = {};
         author="toadie";
-		requiredVersion = REQUIRED_VERSION;
-		versionDesc = "NIARMA - CORE";
-		versionAct = "";
+        requiredVersion = REQUIRED_VERSION;
+        versionDesc = "NIARMA - CORE";
+        versionAct = "";
         version = "1.1";
     };
 };
@@ -481,7 +481,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_standing.rtm";        //file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
             speed = -4.8;
             mask = "handsWeapon";
@@ -514,7 +514,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762Drum_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_standing.rtm";            //file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
             speed = 0.29;
             mask = "handsWeapon";
@@ -1298,7 +1298,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Streamlight TLR-1";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";            //picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
         model = "hlc_core\mesh\accessories\acc\tlr1.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1344,7 +1344,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Steiner DBAL-PL(IR)";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";            //file = "\hlc_core\tex\UI\gear_dbal_ca.paa";
         model = "hlc_core\mesh\accessories\acc\dbal.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1373,7 +1373,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Steiner DBAL-PL(VIS)";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";            //picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
         model = "hlc_core\mesh\accessories\acc\dbal_FL.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1415,10 +1415,10 @@ class CfgWeapons
         displayName = "QD .300BLK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
-		class ItemInfo: ItemInfo
-		{
-			mass = 10;												// mass of TBAC 30 BA
-		};
+        class ItemInfo: ItemInfo
+        {
+            mass = 10;                                                // mass of TBAC 30 BA
+        };
     };
     class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
         dlc = "Niarms_Core";
@@ -1426,10 +1426,10 @@ class CfgWeapons
         displayName = "Gemtech Halo 5.56mm Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
-		class ItemInfo: ItemInfo
-		{
-			mass = 6;
-		};
+        class ItemInfo: ItemInfo
+        {
+            mass = 6;
+        };
     };
     class hlc_muzzle_Tundra : muzzle_snds_M
     {
@@ -1448,7 +1448,7 @@ class CfgWeapons
         dlc = "Niarms_core";
         author = " Toadie";
         displayName = "SilencerCo Octane9 (9mm)";
-        picture = "\hlc_core\tex\UI\gear_octane9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_octane9_ca.paa";
         model = "hlc_core\mesh\accessories\barrel\9\octane9.p3d";
     };
     class hlc_muzzle_Evo9 : muzzle_snds_h
@@ -1456,7 +1456,7 @@ class CfgWeapons
         dlc = "Niarms_core";
         author = "Toadie";
         displayName = "AAC Evolution9 (9mm)";
-        picture = "\hlc_core\tex\UI\gear_evo9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_evo9_ca.paa";
         model = "hlc_core\mesh\accessories\barrel\9\evo9.p3d";
     };
     class hlc_muzzle_TiRant9 : muzzle_snds_h
@@ -1465,7 +1465,7 @@ class CfgWeapons
         author = "Toadie";
         displayName = "AAC Ti-Rant9 (9mm)";
         model = "hlc_core\mesh\accessories\barrel\9\tirant9.p3d";
-        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
     };
     class hlc_muzzle_TiRant9S : muzzle_snds_h
     {
@@ -1473,7 +1473,7 @@ class CfgWeapons
         author = "Toadie";
         displayName = "AAC Ti-Rant9S (9mm)";
         model = "hlc_core\mesh\accessories\barrel\9\tirant9s.p3d";
-        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
     };
     class hlc_muzzle_Octane45 : hlc_muzzle_Octane9
     {
@@ -1500,7 +1500,7 @@ class CfgWeapons
         descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
         displayname = "Docter RDS";
         model = "hlc_core\mesh\accessories\sights\docter.p3d";
-        picture = "\hlc_core\tex\UI\gear_docter_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_docter_ca.paa";
         class ItemInfo : InventoryOpticsItem_Base_F {
             mass = 4;
             modelOptics = "\A3\Weapons_F\empty";
@@ -1533,7 +1533,7 @@ class CfgWeapons
         descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
         displayname = "Romeo1 RDS";
         model = "hlc_core\mesh\accessories\sights\romeo1.p3d";
-        picture = "\hlc_core\tex\UI\gear_romeo1_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_9mmar_m_ca.paa";        //picture = "\hlc_core\tex\UI\gear_romeo1_ca.paa";
         class ItemInfo : InventoryOpticsItem_Base_F {
             mass = 4;
             modelOptics = "\A3\Weapons_F\empty";

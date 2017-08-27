@@ -248,7 +248,7 @@ class CfgAmmo {
         deflecting = 20;
         indirecthit = 0;
         indirecthitrange = 0;
-        model = "\hlc_core\mesh\bullettracer\tracer_dim";
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";        //model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 1;
         tracerstarttime = 0.05;
         typicalSpeed = 312;
@@ -293,7 +293,7 @@ class CfgAmmo {
         deflecting = 20;
         indirecthit = 0;
         indirecthitrange = 0;
-        model = "\hlc_core\mesh\bullettracer\tracer_dim";
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";            //model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 0.6;
         tracerstarttime = 0.05;
         typicalSpeed = 329.2;
@@ -1137,7 +1137,7 @@ class CfgAmmo {
     // .30-06 M1 Ball
     class HLC_3006_FMJ :B_556x45_Ball {
         hit = 11.4;
-        airFriction = -0.00096;			//-0.00080900;
+        airFriction = -0.00096;            //-0.00080900;
         typicalSpeed = 810;
         //caliber = 0.922;
         caliber = 2;
