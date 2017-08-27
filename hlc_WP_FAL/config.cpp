@@ -208,6 +208,7 @@ class CfgMagazines {
     };
     class hlc_50rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
+        count = 50;
         mass = 17;
         descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
         displayname = "X-FAL Magazine (EPR-Tracer) 50rnd 7.62mm";
