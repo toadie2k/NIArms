@@ -5,11 +5,11 @@
 
 class CfgPatches {
     class hlcweapons_SAW {
-        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "asdg_jointrails", "hlcweapons_m60e4", "A3_Sounds_F_Mark", "hlcweapons_core" };
+        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "asdg_jointrails", "A3_Sounds_F_Mark", "hlcweapons_core" };
         units[] = { "HLC_SAW_ammobox", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimi", "Weapon_hlc_lmg_minimi_railed", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_m249_pip1", "Weapon_hlc_m249_pip2", "Weapon_hlc_m249_pip3", "Weapon_hlc_m249_pip4" };
         weapons[] = { "hlc_lmg_minimipara", "hlc_lmg_minimi", "hlc_lmg_m249para", "hlc_lmg_M249E2", "hlc_lmg_minimi_railed", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_SQuantoon","hlc_lmg_mk48"};
         magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_T_SAW","hlc_200rnd_556x45_B_SAW"};
-        version="1.25";
+        version="1.35";
         author="toadie";
     };
 };
@@ -192,24 +192,24 @@ class CfgVehicles {
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_lmg_minimipara, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimipara_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimipara_long, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimipara_long_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimi, hlc_200rnd_556x45_M_SAW, FN Minimi(Long), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_minimi_railed, hlc_200rnd_556x45_M_SAW, FN Minimi(Long / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_m249para, hlc_200rnd_556x45_M_SAW, M249E2 Para(Short), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_M249E2, hlc_200rnd_556x45_M_SAW, M249E2, Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_M249E1, hlc_200rnd_556x45_M_SAW, M249E1, Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip1, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip2, hlc_200rnd_556x45_M_SAW, M249E2(Short / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip3, hlc_200rnd_556x45_M_SAW, M249 PIP(Short / RIS), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_pip4, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / VFG), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_m249_SQuantoon, hlc_200rnd_556x45_M_SAW, M249(Squantoon Special), Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk46, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.0, Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk46mod1, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.1, Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk48, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.0, Niarms_SAW, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mk48mod1, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.1, Niarms_SAW, Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_long, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimipara_long_railed, hlc_200rnd_556x45_M_SAW, FN Minimi Para(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimi, hlc_200rnd_556x45_M_SAW, FN Minimi(Long), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_minimi_railed, hlc_200rnd_556x45_M_SAW, FN Minimi(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_m249para, hlc_200rnd_556x45_M_SAW, M249E2 Para(Short), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_M249E2, hlc_200rnd_556x45_M_SAW, M249E2, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_M249E1, hlc_200rnd_556x45_M_SAW, M249E1, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip1, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip2, hlc_200rnd_556x45_M_SAW, M249E2(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip3, hlc_200rnd_556x45_M_SAW, M249 PIP(Short / RIS), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_pip4, hlc_200rnd_556x45_M_SAW, M249 PIP(Long / VFG), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_m249_SQuantoon, hlc_200rnd_556x45_M_SAW, M249(Squantoon Special), Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk46, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.0, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk46mod1, hlc_200rnd_556x45_M_SAW, Mk.46 Mod.1, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk48, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.0, Niarms_SAW, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mk48mod1, hlc_100Rnd_762x51_M_M60E4, Mk.48 Mod.1, Niarms_SAW, Toadie, MachineGuns);
 
 };
 
@@ -218,13 +218,13 @@ class CfgMagazines{
         
     class hlc_200rnd_556x45_M_SAW : 30Rnd_556x45_Stanag {
         dlc = "Niarms_SAW";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 200;
-        descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball/Tracer(4/1)<br />Rounds: 200<br />Used in: M249,FN Minimi";
-        displayname = "M249 Belt (Mixed) 200rnd 5.56mm";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: EPFMJ/Tracer<br />Rounds: 200";
+        displayname = "M27-Link Belt (EPR-Tracer) 200rnd 5.56mm";
         model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
-        initspeed = 925;
+        initspeed = 974.8;
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
         scope = 2;
@@ -236,36 +236,36 @@ class CfgMagazines{
     };
     class hlc_200rnd_556x45_T_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "B_556x45_Ball_Tracer_Red";
-        descriptionshort = "Caliber: 5.56x45mm Tracer<br />Rounds: 200<br />Used in: M249,FN Minimi";
-        displayname = "M249 Belt (Tracer) 200rnd 5.56mm";
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 200";
+        displayname = "M27-Link Belt (Tracer) 200rnd 5.56mm";
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m249tracer_ca.paa";
         tracersevery = 1;
-        displaynameshort = "Tracer";
+        displaynameshort = "M856A1 Tracer";
     };
     class hlc_200rnd_556x45_Mdim_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball/Tracer(4/1)<br />Rounds: 200<br />Used in: M249,FN Minimi";
-        displayname = "M249 Belt (Mixed) 200rnd 5.56mm";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: EPFMJ/Low-visibility Tracer<br />Rounds: 200";
+        displayname = "M27-Link Belt (EPR-IRDIM) 200rnd 5.56mm";
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = "EPR/IR-DIM";
     };
     class hlc_200rnd_556x45_B_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
-        descriptionshort = "Caliber: 5.56x45mm M855A1 EP Ball<br />Rounds: 200<br />Used in: M249,FN Minimi";
-        displayname = "M249 Belt (Ball) 200rnd 5.56mm";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 200";
+        displayname = "M27-Link Belt (EPR) 200rnd 5.56mm";
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249ball_ca.paa";
         tracersevery = 0;
-        displaynameshort = "EPR";
+        displaynameshort = "M855A1 EPR";
     };
 };
 
@@ -332,14 +332,7 @@ class CfgWeapons {
         bullet11[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_03.wss", 0.01, 1, 15 };
         bullet12[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_04.wss", 0.01, 1, 15 };
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
-
-		modes[] = {
-            "FullAuto",
-            "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar",
-            "AI_far_optic1", "AI_toofar_optic1",
-            "AI_far_optic2", "AI_toofar_optic2"
-        };
-
+        modes[] = { "FullAuto", "close", "short", "medium", "medium_burst", "far", "veryfar", "far_optic1", "toofar_optic1", "far_optic2", "toofar_optic2" };
         inertia = 0.8;
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -359,45 +352,48 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "saw_silencerShot_SoundSet", "saw_silencerTail_SoundSet" };
             };
-            reloadTime = 0.067;
-            dispersion = 0.00101;
-
+            reloadTime = 0.105;
+            dispersion=0.000261799;
             __AI_ROF_MG_FULLAUTO;
         };
-
-		class AI_long: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			__AI_ROF_MG_LONG_BURST;
-		};
-		class AI_close: AI_long {
-			__AI_ROF_MG_CLOSE_BURST;
-		};
-		class AI_short: AI_close {
-			__AI_ROF_MG_SHORT_BURST;
-		};
-		class AI_medium: AI_close {
-			__AI_ROF_MG_MEDIUM_BURST;
-		};
-		class AI_far: AI_close {
-			__AI_ROF_MG_FAR_BURST;
-		};
-		class AI_toofar: AI_far {
-			__AI_ROF_MG_VERYFAR_BURST;
-		};
-		class AI_far_optic1: AI_far {
-			requiredOpticType = 1;
-			__AI_ROF_MG_FAR_SCOPE_BURST;
-		};
-		class AI_toofar_optic1: AI_far_optic1 {
-			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
-		};
-		class AI_far_optic2: AI_far_optic1 {
-			requiredOpticType = 2;
-		};
-		class AI_toofar_optic2: AI_toofar_optic1 {
-			requiredOpticType = 2;
-		};
+        class close : FullAuto {
+            __AI_ROF_MG_LONG_BURST;
+            showToPlayer = 0;
+        };
+        class short : close{
+            __AI_ROF_MG_CLOSE_BURST;
+        };
+        class medium : close {
+            __AI_ROF_MG_SHORT_BURST;
+        };
+        class medium_burst : close {
+            __AI_ROF_MG_MEDIUM_BURST;
+        };
+        class far : close {
+            __AI_ROF_MG_FAR_BURST;
+        };
+        class veryfar : close {
+            __AI_ROF_MG_VERYFAR_BURST;
+        };
+        class far_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        class far_optic2 : far_optic1 {
+            requiredOpticType = 2;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic2 : far_optic2 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
         __AI_DISPERSION_COEF;
 
         drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
@@ -455,114 +451,15 @@ class CfgWeapons {
             RMBhint = "XMC";
             onHoverText = "TODO XMC DSS";
         };
-        class Library {
-            libTextDesc = "FN Herstal Minimi";
-        };
-    };
-    /*
-    // Commented out 
-    // Reason - Not enough time to do script+ clean animation. Too many errors, may re-implement at a later version. 
+        class FullAuto : FullAuto {
+            reloadTime = 0.067;
+            dispersion = 0.00101;
 
-    class hlc_lmg_minimipara_STANAG : hlc_saw_base {
-        scope = public;
-        deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
-        hasBipod = true;          /// a weapon with bipod obviously has a bipod
-        magazines[] = {
-            "hlc_30rnd_556x45_EPR", "hlc_30rnd_556x45_SOST", "hlc_30rnd_556x45_SPR", "hlc_50rnd_556x45_EPR",// HLC AR15 Magazines
-            "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", // BI STANAG Magazines
-            //"CUP_200Rnd_TE4_Green_Tracer_556x45_M249", "CUP_200Rnd_TE4_Red_Tracer_556x45_M249", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE1_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Green_Tracer_556x45_M249", "CUP_100Rnd_TE4_Red_Tracer_556x45_M249", "CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249", "CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1", "CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1", "CUP_30Rnd_556x45_Stanag", "CUP_20Rnd_556x45_Stanag", //CUP Mags
-            "rhs_mag_30Rnd_556x45_M855A1_Stanag", "rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green", "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Stanag", "rhs_mag_30Rnd_556x45_M200_Stanag"//
-        };
-        model = "\hlc_wp_saw\mesh\minimi_para\minimi_stanag.p3d";
-        reloadaction = "HLC_GestureReloadM249STANAG";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-        drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_saw\snd\saw_magfeed_reload", 0.5, 1, 20 };
-        picture = "\hlc_wp_saw\tex\ui\gear_m60e4_x_ca";
-        displayName = "FN Minimi Para(STANAG)";
-        discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
-        discretedistanceinitindex = 2;
-        bg_bipod = 1;
-        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm" };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = { "StandardSound", "SilencedSound" };
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
-
-                closure1[] = { "\hlc_wp_saw\snd\saw_magfeed_first", 0.7, 1, 10 };
-                closure2[] = { "\hlc_wp_saw\snd\saw_magfeed_first", 0.7, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                begin1[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                begin2[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                begin3[] = { "\hlc_wp_saw\snd\saw_fire", 1, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
-                class SoundTails {
-                    class TailForest {
-                        sound[] = { "hlc_wp_saw\snd\ar556_forest", 1.5, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*forest";
-                    };
-                    class TailInterior {
-                        sound[] = { "hlc_wp_saw\snd\saw_indoor", 1.2, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                    class TailMeadows {
-                        sound[] = { "hlc_wp_saw\snd\saw_tail1", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*(meadows/2 max sea/2)";
-                    };
-                    class TailHouses {
-                        sound[] = { "hlc_wp_saw\snd\saw_tail2", 1.0, 1, 1200 };
-                        frequency = 1;
-                        volume = "(1-interior/1.4)*houses";
-                    };
-                };
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                begin1[] = { "\hlc_wp_saw\snd\saw_suppressed", 1.1, 1, 200 };
-                begin2[] = { "\hlc_wp_saw\snd\saw_suppressed", 1.1, 1, 200 };
-                class SoundTails {
-                    class TailInterior {
-                        sound[] = { "hlc_wp_saw\snd\saw_suppressed_indoor", 1.2, 1, 1200 };
-                        frequency = 1;
-                        volume = "interior";
-                    };
-                };
-                soundBegin[] = { begin1, 0.5, begin2, 0.5 };
-            };
-            reloadTime = 0.06;
-            dispersion = 0.000261799;
-            maxrange = 600;
-            maxrangeprobab = 0.05;
-            midrange = 300;
-            midrangeprobab = 0.7;
-            minrange = 1;
-            minrangeprobab = 0.3;
-            airateoffire = 4;
         };
         class Library {
             libTextDesc = "FN Herstal Minimi";
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 4;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
-        };
     };
-    */
 
     class hlc_lmg_minimipara_railed : hlc_lmg_minimipara
 {
@@ -790,51 +687,18 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
         };
         class FullAuto : FullAuto {
+
             __ROF(730);
             dispersion = 0.000261799;
         };
-
-		class AI_long: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			__AI_ROF_MG_LONG_BURST;
-		};
-		class AI_close: AI_long {
-			__AI_ROF_MG_CLOSE_BURST;
-		};
-		class AI_short: AI_close {
-			__AI_ROF_MG_SHORT_BURST;
-		};
-		class AI_medium: AI_close {
-			__AI_ROF_MG_MEDIUM_BURST;
-		};
-		class AI_far: AI_close {
-			__AI_ROF_MG_FAR_BURST;
-		};
-		class AI_toofar: AI_far {
-			__AI_ROF_MG_VERYFAR_BURST;
-		};
-		class AI_far_optic1: AI_far {
-			requiredOpticType = 1;
-			__AI_ROF_MG_FAR_SCOPE_BURST;
-		};
-		class AI_toofar_optic1: AI_far_optic1 {
-			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
-		};
-		class AI_far_optic2: AI_far_optic1 {
-			requiredOpticType = 2;
-		};
-		class AI_toofar_optic2: AI_toofar_optic1 {
-			requiredOpticType = 2;
-		};
     };
     class hlc_lmg_mk46mod1 : hlc_lmg_mk46
     {
+        author = "Toadie";
         model = "\hlc_wp_saw\mesh\mk46\mk46mod1.p3d";
         displayName = "Mk.46 Mod.1";
         picture = "\hlc_wp_saw\tex\ui\gear_mk46mod1_ca";
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\bis_m249\stockpouch_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
-        author = "Toadie";
         inertia = 0.55;
         __DEXTERITY(5.5 + 0.3, 1);
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -906,50 +770,49 @@ class CfgWeapons {
             };
             reloadTime = 0.084;
             dispersion = 0.000261799;
-
             __AI_ROF_MG_FULLAUTO;
+        }; 
+        class short : close{
+            __AI_ROF_MG_CLOSE_BURST;
         };
-
-		class AI_long: FullAuto {
-			showToPlayer = 0;
-            aiBurstTerminable = 1;
-			__AI_ROF_MG_LONG_BURST;
-		};
-		class AI_close: AI_long {
-			__AI_ROF_MG_CLOSE_BURST;
-		};
-		class AI_short: AI_close {
-			__AI_ROF_MG_SHORT_BURST;
-		};
-		class AI_medium: AI_close {
-			__AI_ROF_MG_MEDIUM_BURST;
-		};
-		class AI_far: AI_close {
-			__AI_ROF_MG_FAR_BURST;
-		};
-		class AI_toofar: AI_far {
-			__AI_ROF_MG_VERYFAR_BURST;
-		};
-		class AI_far_optic1: AI_far {
-			requiredOpticType = 1;
-			__AI_ROF_MG_FAR_SCOPE_BURST;
-		};
-		class AI_toofar_optic1: AI_far_optic1 {
-			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
-		};
-		class AI_far_optic2: AI_far_optic1 {
-			requiredOpticType = 2;
-		};
-		class AI_toofar_optic2: AI_toofar_optic1 {
-			requiredOpticType = 2;
-		};
-
+        class medium : close {
+            __AI_ROF_MG_SHORT_BURST;
+        };
+        class medium_burst : close {
+            __AI_ROF_MG_MEDIUM_BURST;
+        };
+        class far : close {
+            __AI_ROF_MG_FAR_BURST;
+        };
+        class veryfar : close {
+            __AI_ROF_MG_VERYFAR_BURST;
+        };
+        class far_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        class far_optic2 : far_optic1 {
+            requiredOpticType = 2;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic2 : far_optic2 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
         class Library {
-            libTextDesc = "Mk48";
+            libTextDesc = "FN/NSWC Mk48";
         };
     };
     class hlc_lmg_mk48mod1: hlc_lmg_mk48
     {
+        author = "Toadie";
         hasBipod = true;
         deployedPivot = "deploypoint";
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
