@@ -67,8 +67,8 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    __WEAPONHOLDER(hlc_lmg_M60E4,hlc_100Rnd_762x51_M_M60E4,M60E4,Niarms_M60,Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_m60,hlc_100Rnd_762x51_M_M60E4,M60,Niarms_M60,Toadie,MachineGuns);
+//    __WEAPONHOLDER(hlc_lmg_M60E4,hlc_100Rnd_762x51_M_M60E4,M60E4,Niarms_M60,Toadie,MachineGuns);
+//    __WEAPONHOLDER(hlc_lmg_m60,hlc_100Rnd_762x51_M_M60E4,M60,Niarms_M60,Toadie,MachineGuns);
 };
 
 class CfgWeapons {
@@ -93,8 +93,8 @@ class CfgWeapons {
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
-		recoil = "recoil_mmg";
-		recoilprone = "recoil_mmg_prone";
+        recoil = "recoil_mmg";
+        recoilprone = "recoil_mmg_prone";
         class GunParticles : GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
