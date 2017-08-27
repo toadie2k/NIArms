@@ -257,6 +257,62 @@ mass = 7;
         displaynameshort = "M62A1 Tracer";
     };
 
+	
+	
+	
+    class hlc_200Rnd_762x51_B_M80A1 : hlc_100Rnd_762x51_B_M60E4
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        count = 200;
+        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
+        displayname = "M13-Link Belt (M80A1 Ball) 200-Rnd 7.62mm";
+        model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+        mass = 116.3;
+        ACE_isBelt = 1;
+    };
+    class hlc_200Rnd_762x51_M_M80A1M62A1 : hlc_200Rnd_762x51_B_M80A1
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
+        displayname = "M13-Link Belt (Ball-Tracer) 200rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = "M80A1 Ball/M62A1 Tracer";
+    };
+    class hlc_200Rnd_762x51_Mdim_M80A1M276 : hlc_200Rnd_762x51_M_M80A1M62A1
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M276<br />Type: Infrared Dim<br />Rounds: 100";
+        displayname = "M13-Link Belt (EPR-IRDIM) 200rnd 7.62mm";
+        displaynameshort = "M80A1 Ball/M276 IR-DIM";
+    };
+    class hlc_200Rnd_762x51_M_MK319M62A1 : hlc_200Rnd_762x51_Mdim_M80A1M276
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_Barrier";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
+        displayname = "M13-Link Belt (Mk319-Tracer Mix) 200rnd 7.62mm";
+        displaynameshort = "Mk319 Ball/M62A1 Tracer";
+    };
+    class hlc_200Rnd_762x51_T_M62A1 : hlc_200Rnd_762x51_M_MK319M62A1
+    {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
+        displayname = "M13-Link Belt (Tracer) 100rnd 7.62mm";
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
+        tracersevery = 1;
+        displaynameshort = "M62A1 Tracer";
+    };	
 
 /*
 
