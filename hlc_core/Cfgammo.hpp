@@ -248,7 +248,7 @@ class CfgAmmo {
         deflecting = 20;
         indirecthit = 0;
         indirecthitrange = 0;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";        //model = "\hlc_core\mesh\bullettracer\tracer_dim";
+        model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 1;
         tracerstarttime = 0.05;
         typicalSpeed = 312;
@@ -293,7 +293,7 @@ class CfgAmmo {
         deflecting = 20;
         indirecthit = 0;
         indirecthitrange = 0;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_green";            //model = "\hlc_core\mesh\bullettracer\tracer_dim";
+        model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 0.6;
         tracerstarttime = 0.05;
         typicalSpeed = 329.2;
