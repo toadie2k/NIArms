@@ -1,3 +1,7 @@
+class StageTI
+{
+	texture="hlc_wp_mg3\tex\Standard\MG3_drum_ti_ca.paa";
+};
 ambient[]={1,1,1,1};
 diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
@@ -68,15 +72,11 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,64,64,1)fresnel(0.6,0.16)";
+	texture="#(ai,64,64,1)fresnel(1.61,1.4)";
 	uvSource="none";
 };
 class Stage7
 {
 	texture="a3\Data\env_land_co.tga";
 	uvSource="none";
-};
-class StageTI
-{
-	texture = "hlc_wp_mg3\tex\Standard\MG3_drum_ti_ca.paa";
 };

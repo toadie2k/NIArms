@@ -10,7 +10,7 @@ class CfgPatches
         units[] = { "HLC_SG510_ammobox", "Weapon_rifle_stgw57ris", "Weapon_rifle_stgw57", "weapon_rifle_stgw57_commando", "weapon_rifle_sig5104", "weapon_rifle_amt" };
         weapons[] = { "hlc_rifle_STGW57", "hlc_rifle_stgw57_RIS", "hlc_rifle_stgw57_commando", "hlc_rifle_sig5104", "hlc_rifle_amt", "hlc_optic_Kern", "hlc_optic_Kern2d" };
         magazines[] = { "hlc_24Rnd_75x55_B_stgw", "hlc_24Rnd_75x55_ap_stgw", "hlc_20Rnd_762x51_b_amt", "hlc_20Rnd_762x51_mk316_amt", "hlc_20Rnd_762x51_bball_amt", "hlc_20Rnd_762x51_T_amt" };
-        version = "v1.15";
+        version = "v1.25";
         author = "toadie";
     };
 };
@@ -230,11 +230,134 @@ class CfgVehicles
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_rifle_STGW57,hlc_24Rnd_75x55_B_stgw,SIG Stgw.57,Niarms_SG510,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_stgw57_RIS,hlc_24Rnd_75x55_B_stgw,SIG Stgw.57+RIS,Niarms_SG510,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_stgw57_commando,hlc_24Rnd_75x55_B_stgw,SIG Stgw.57 Commando,Niarms_SG510,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_sig5104,hlc_20Rnd_762x51_b_amt,SIG SG510-4,Niarms_SG510,Toadie,AssaultRifles);
-    __WEAPONHOLDER(hlc_rifle_amt,hlc_20Rnd_762x51_b_amt,SIG AMT,Niarms_SG510,Toadie,AssaultRifles);
+    class Weapon_rifle_stgw57ris : Weapon_Base_F
+    {
+        dlc = "Niarms_SG510";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Stgw.57 RIS";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons
+        {
+            class srifle_EBR_F
+            {
+                weapon = "hlc_rifle_stgw57_RIS";
+                count = 1;
+            };
+        };
+        class TransportMagazines
+        {
+            class 20Rnd_762x51_Mag
+            {
+                magazine = "hlc_24Rnd_75x55_B_stgw";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_rifle_stgw57 : Weapon_Base_F
+    {
+        dlc = "Niarms_SG510";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Stgw.57";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons
+        {
+            class srifle_EBR_F
+            {
+                weapon = "hlc_rifle_STGW57";
+                count = 1;
+            };
+        };
+        class TransportMagazines
+        {
+            class 20Rnd_762x51_Mag
+            {
+                magazine = "hlc_24Rnd_75x55_B_stgw";
+                count = 1;
+            };
+        };
+    };
+    class weapon_rifle_stgw57_commando : Weapon_Base_F
+    {
+        dlc = "Niarms_SG510";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SIG Stgw.57 Commando";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons
+        {
+            class srifle_EBR_F
+            {
+                weapon = "hlc_rifle_stgw57_commando";
+                count = 1;
+            };
+        };
+        class TransportMagazines
+        {
+            class 20Rnd_762x51_Mag
+            {
+                magazine = "hlc_24Rnd_75x55_B_stgw";
+                count = 1;
+            };
+        };
+    };
+
+    class weapon_rifle_sig5104 : Weapon_Base_F
+    {
+        dlc = "Niarms_SG510";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SIG SG510-4";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons
+        {
+            class srifle_EBR_F
+            {
+                weapon = "hlc_rifle_sig5104";
+                count = 1;
+            };
+        };
+        class TransportMagazines
+        {
+            class 20Rnd_762x51_Mag
+            {
+                magazine = "hlc_20Rnd_762x51_b_amt";
+                count = 1;
+            };
+        };
+    };
+
+    class weapon_rifle_amt : Weapon_Base_F
+    {
+        dlc = "Niarms_SG510";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SIG AMT";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons
+        {
+            class srifle_EBR_F
+            {
+                weapon = "hlc_rifle_amt";
+                count = 1;
+            };
+        };
+        class TransportMagazines
+        {
+            class 20Rnd_762x51_Mag
+            {
+                magazine = "hlc_20Rnd_762x51_b_amt";
+                count = 1;
+            };
+        };
+    };
+
 };
 class CfgAmmo {
     /*external*/ class B_556x45_Ball;
@@ -257,13 +380,13 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class hlc_24Rnd_75x55_B_stgw : 30Rnd_556x45_Stanag{
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_FMJ";
         count = 24;
-        descriptionshort = "Caliber: 7.5x55mm GP11 (FMJBT)<br />Rounds: 24<br />Used in: Stgw.57, Stgw.57 Commando";
+        descriptionshort = "Caliber: 7.5x55mm GP11-FMJ<br />Type: Boat-Tailed Full Metal Jacket<br />Rounds: 24";
         displayname = "Stgw.57 Mag (FMJ) 24rnd GP11";
         initspeed = 780;
-        mass = 23;
+        mass = 14;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_ball_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
@@ -273,14 +396,13 @@ class CfgMagazines {
     };
     class hlc_24Rnd_75x55_ap_stgw : hlc_24Rnd_75x55_B_stgw{
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_APBT";
         count = 24;
-        descriptionshort = "Caliber: 7.5x55mm GP11 (APBT)<br />Rounds: 24<br />Used in: Stgw.57, Stgw.57 Commando";
+        descriptionshort = "Caliber: 7.5x55mm GP11-AP<br />Type: Armour piercing Boat-Tail<br />Rounds: 24";
         displayname = "Stgw.57 Mag (AP) 24rnd GP11";
-        initspeed = 770;
-        mass = 23;
-        lastroundstracer = 1;
+        initspeed = 910;
+        mass = 14;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_AP_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
         scope = 2;
@@ -289,76 +411,76 @@ class CfgMagazines {
     };
     class hlc_20Rnd_762x51_b_amt : hlc_24Rnd_75x55_B_stgw{
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (M855A1 EPR)<br />Rounds: 20<br />Used in: SIG 510-4, SIG AMT";
-        displayname = "SIG 510-4 Mag (FMJ) 20rnd GP11";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
+        displayname = "SIG 510-4 Mag (EPR) 20rnd GP11";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
-        initspeed = 930;
-        mass = 20;
+        initspeed = 908.4;
+        mass = 12;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm EPR";
+        displaynameshort = "M80A1 EPR";
     };
     class hlc_20Rnd_762x51_mk316_amt : hlc_24Rnd_75x55_B_stgw{
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_MK316_20in";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.316 Match)<br />Rounds: 20<br />Used in: SIG  510-4, SIG  AMT";
-        displayname = "SIG  510-4 Mag (Mk.316) 20rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
+        displayname = "SIG 510-4 Mag (SBLR) 20rnd 7.62mm";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         initspeed = 930;
-        mass = 20;
+        mass = 12;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk316";
+        displaynameshort = "MK316 SBLR";
     };
     class hlc_20Rnd_762x51_bball_amt : hlc_24Rnd_75x55_B_stgw{
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.319 Barrier-Blind)<br />Rounds: 20<br />Used in: SIG  510-4, SIG  AMT";
-        displayname = "SIG  510-4 Mag (Mk.319) 20rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
+        displayname = "SIG 510-4 Mag (SOST) 20rnd 7.62mm";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         initspeed = 930;
-        mass = 20;
+        mass = 12;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk.319";
+        displaynameshort = "MK319 OTM";
     };
     class hlc_20Rnd_762x51_T_amt : hlc_20Rnd_762x51_b_amt {
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "B_762x51_Tracer_Green";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: SIG  510-4, SIG  AMT";
-        displayname = "SIG  510-4 Mag (Tracer) 20rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
+        displayname = "SIG 510-4 Mag (Tracer) 20rnd 7.62mm";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 20;
+        mass = 12;
         tracersevery = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_amt_tracer_ca.paa";
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "M62A1 Tracer";
     };
     class hlc_24Rnd_75x55_T_stgw : hlc_24Rnd_75x55_ap_stgw {
         dlc = "Niarms_SG510";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_tracer";
-        descriptionshort = "Caliber: 7.5x55mm GP11 (Ball)<br />Rounds: 20<br />Used in: Stgw.57, Stgw.57 Commando";
+        descriptionshort = "Caliber: 7.5x55mm GP11-BTI<br />Type: Boat-Tailed Incendiary Tracer<br />Rounds: 24";
         displayname = "Stgw.57 Mag (Tracer) 24rnd GP11";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 23;
+        mass = 14;
         tracersevery = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_Tracer_ca.paa";
         displaynameshort = "GP11 Tracer";
@@ -394,7 +516,7 @@ class CfgWeapons {
 
         class ItemInfo : InventoryOpticsItem_Base_F
         {
-            mass = 24;
+            mass = 10;
             opticType = 1;
             optics = 1;
             modelOptics = "\hlc_wp_sigamt\mesh\aarau\aarau_optics";
@@ -479,8 +601,7 @@ class CfgWeapons {
             libTextDesc = "SIG Stgw.510";
         };
         reloadAction = "GestureReloadEBR";
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
+        __AI_DISPERSION_COEF;
         cameraDir = "";
         bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
         bullet10[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15 };
@@ -531,16 +652,7 @@ class CfgWeapons {
             };
             dispersion = 0.000555596;
             reloadtime = 0.11;
-
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 300;
-            aiRateOfFireDispersion = 2;
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 350;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.3;
+            __AI_ROF_RIFLE_MEDIUM_SEMI;
         };
         class FullAuto : Mode_FullAuto {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -566,59 +678,26 @@ class CfgWeapons {
             dispersion = 0.000555596;
             reloadtime = 0.105;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            maxrange = 30;
-            maxrangeprobab = 0.05;
-            midrange = 15;
-            midrangeprobab = 0.7;
-            minrange = 0;
-            minrangeprobab = 0.9;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
-        class single_close_optics1 : Single {
-            airateoffire = 2;
-            airateoffiredistance = 300;
-            maxrange = 500;
-            maxrangeprobab = 0.01;
-            midrange = 300;
-            midrangeprobab = 0.8;
-            minrange = 2;
-            minrangeprobab = 0.05;
-            requiredoptictype = 1;
-            showtoplayer = 0;
+        class single_close_optics1 : FullAuto {
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
-        class single_medium_optics1 : single_close_optics1 {
-            airateoffire = 2;
-            airateoffiredistance = 500;
-            maxrange = 700;
-            maxrangeprobab = 0.05;
-            midrange = 500;
-            midrangeprobab = 0.7;
-            minrange = 300;
-            minrangeprobab = 0.05;
+        class single_medium_optics1 : Single {
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
-            airateoffire = 4;
-            airateoffiredistance = 600;
-            maxrange = 900;
-            maxrangeprobab = 0.05;
-            midrange = 600;
-            midrangeprobab = 0.4;
-            minrange = 300;
-            minrangeprobab = 0.05;
-            requiredoptictype = 2;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            airateoffire = 2;
-            burst = 3;
-            maxrange = 100;
-            maxrangeprobab = 0.05;
-            midrange = 50;
-            midrangeprobab = 0.7;
-            minrange = 2;
-            minrangeprobab = 0.5;
-            showtoplayer = 0;
+            showToPlayer = 0;
+            burst = 5;
+            aiBurstTerminable = 1;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
     };
 
@@ -639,13 +718,15 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\stgw\stgw57.p3d";
         picture = "\hlc_wp_sigamt\tex\ui\gear_57_x_ca.paa";
+        hiddenSelections[] = { "Barrels_sights", "Bipods", "pe57Objects", "Reciever", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_sigamt\tex\toadie_510\510_barrel_sights_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_bipodshandguards_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_pe57_objects_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_reciever_co.tga", "" };
         discretedistance[] = { 100, 150, 200, 230, 260, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620, 640 };
         discretedistanceinitindex = 2;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.57;
+        inertia = 0.65;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 119;
+            mass = 89;
             class CowsSlot {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
                 compatibleitems[] = { "hlc_optic_Kern", "hlc_optic_Kern2d" };
@@ -672,14 +753,15 @@ class CfgWeapons {
         recoil = "recoil_stgw57";
         reloadAction = "HLC_GestureReloadSTGW57";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
+        hiddenSelections[] = { "Barrels_sights", "Bipods", "pe57Objects", "Reciever", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_sigamt\tex\toadie_510\510_barrel_sights_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_bipodshandguards_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_pe57_objects_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_reciever_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_picmounts_co.tga" };
         discretedistance[] = { 100, 150, 200, 230, 260, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620, 640 };
         discretedistanceinitindex = 2;
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
-        inertia = 0.58;
-        __DEXTERITY(5.8, 0);
+        inertia = 0.65;
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 122;
+            mass = 89;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
@@ -696,13 +778,12 @@ class CfgWeapons {
 
         displayName = "SIG Stgw.57 Commando";
         model = "hlc_wp_sigamt\mesh\57commando\commando.p3d";
-        inertia = 0.5;
-        __DEXTERITY(5, 0);
+        inertia = 0.45;
         recoil = "recoil_stgw57k";
         picture = "\hlc_wp_sigamt\tex\ui\gear_57commando_x_ca.paa";
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 105;
+            mass = 75;
         };
     };
 
@@ -718,8 +799,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = true;
         displayName = "SIG SG510-4";
-        inertia = 0.43;
-        __DEXTERITY(4.37, 0);
+        inertia = 0.5;
         recoil = "recoil_5104";
         magazines[] = {
             "hlc_20Rnd_762x51_b_amt", "hlc_20Rnd_762x51_mk316_amt", "hlc_20Rnd_762x51_bball_amt", "hlc_20Rnd_762x51_T_amt"
@@ -729,12 +809,14 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\amt\5104.p3d";
         picture = "\hlc_wp_sigamt\tex\ui\gear_5104_x_ca.paa";
+        hiddenSelections[] = { "Barrels", "Bipods", "amtObjects", "Reciever", "Rail" };
+        hiddenSelectionsTextures[] = { "hlc_wp_sigamt\tex\toadie_510\510_barrel_sights_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_bipodshandguards_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_amt_objects_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_reciever_5104_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_picmounts_co.tga" };
         discretedistance[] = { 100, 150, 200, 250, 300, 350, 400, 450, 450, 500, 550, 600 };
         discretedistanceinitindex = 2;
         memoryPointCamera = "eye";
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 91;
+            mass = 89;
             class CowsSlot : asdg_OpticRail1913_short {};
         };
     };
@@ -754,15 +836,11 @@ class CfgWeapons {
         descriptionShort = "Infantry Service Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadAMT";
         picture = "\hlc_wp_sigamt\tex\ui\gear_amt_x_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_wp_sigamt\tex\toadie_510\510_barrel_sights_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_bipodshandguards_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_amt_objects_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_reciever_amt_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_picmounts_co.tga" };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\amt\amt.p3d";
         modes[] = {"Single", "single_close_optics1", "single_medium_optics1", "single_far_optics1"};
-        class WeaponSlotsInfo : WeaponSlotsInfo
-        {
-            mass = 89;
-        };
-        class Single : Single {
-            minRange = 0;
-        };
+
+
     };
 };

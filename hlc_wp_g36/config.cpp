@@ -18,7 +18,7 @@ class CfgPatches {
             "hlc_rifle_G36KTAC", "hlc_rifle_G36CTAC", "hlc_rifle_G36MLIC", "hlc_rifle_G36KMLIC", "hlc_rifle_G36CMLIC","hlc_rifle_G36MLIAG36"
         };
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_30rnd_556x45_SOST_G36","hlc_30rnd_556x45_SPR_G36","hlc_100rnd_556x45_EPR_G36"};
-        version = "v1.2";
+        version = "v1.25";
         author="toadie";
     };
 };
@@ -340,120 +340,160 @@ class CfgMagazines {
     class 30Rnd_556x45_Stanag;
     class hlc_30rnd_556x45_EPR_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "G36 Mag (EPR) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 920;
+        initspeed = 974.8;
         mass = 8;
-        lastroundstracer = 1;
+        lastroundstracer = 2;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "5.56mm EPR";
+        displaynameshort = "M855A1 EPR";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_EPR_ca.paa";
     };
     class hlc_30rnd_556x45_SOST_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "G36 Mag (SOST) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 910;
+        initspeed = 954.4;
         mass = 8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "5.56mm SOST";
+        displaynameshort = "MK318 SOST";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_SOST_ca.paa";
     };
     class hlc_30rnd_556x45_SPR_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Rifles";
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
         displayname = "G36 Mag (SPR) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 818.2;
+        initspeed = 868.7;
         mass = 8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "5.56mm SPR";
+        displaynameshort = "MK262 Mod 1";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_SPR_ca.paa";
     };
     class hlc_100rnd_556x45_EPR_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 100;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 100<br />Used in: G36 Series Rifles";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
         displayname = "G36 C-Mag (EPR) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 920;
+        initspeed = 974.8;
         mass = 46;
-        lastroundstracer = 1;
+        lastroundstracer = 5;
         scope = 2;
-        tracersevery = 4;
-        displaynameshort = "5.56mm";
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
         model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
     };
+    class hlc_100rnd_556x45_M_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 100;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 100";
+        displayname = "G36 C-Mag (EPR-Tracer) 5.56mm";
+        magazineGroup[] = { "G36_maggroup" };
+        initspeed = 974.8;
+        mass = 46;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "EPR/Tracer";
+        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
+        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
+    };
+    class hlc_100rnd_556x45_Mdim_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 100;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 100";
+        displayname = "G36 C-Mag (EPR-IRDIM) 5.56mm";
+        magazineGroup[] = { "G36_maggroup" };
+        initspeed = 974.8;
+        mass = 46;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "EPR/IR-DIM";
+        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
+        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
+    };
+    class hlc_30rnd_556x45_S : hlc_30rnd_556x45_EPR_G36 {
+        author = "Toadie";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "G36 Mag (Subsonic) 5.56mm";
+    };
     class hlc_30rnd_556x45_Tracers_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
-        author = "Toadie";
-        ammo = "B_556x45_Ball_Tracer_Red";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
         displayname = "G36 Mag (Tracer) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 920;
+        initspeed = 974.8;
         mass = 8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "5.56mm Tracer";
+        displaynameshort = "M856A1 Tracer";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
     class hlc_30rnd_556x45_TDIM_G36 : 30Rnd_556x45_Stanag{
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "G36 Mag (IR-DIM) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 920;
+        initspeed = 974.8;
         mass = 8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "5.56mm Tracer";
+        displaynameshort = "IR-DIM";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
     class hlc_30rnd_556x45_MDIM_G36 : 30Rnd_556x45_Stanag{
         dlc = "Niarms_G36";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO<br />Rounds: 30<br />Used in: G36 Series Rifles";
-        displayname = "G36 Mag (EPR,IR-DIM) 5.56mm";
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "G36 Mag (EPR-IRDIM) 5.56mm";
         magazineGroup[] = { "G36_maggroup" };
-        initspeed = 920;
+        initspeed = 974.8;
         mass = 8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "5.56mm Tracer";
+        displaynameshort = "EPR/IR-DIM";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
@@ -657,8 +697,7 @@ class CfgWeapons {
             libTextDesc = "H&K Gewehr36";
         };
         reloadAction = "GestureReloadEBR";
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
+        __AI_DISPERSION_COEF;
         cameraDir = "";
         bullet1[] = {"A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15};
         bullet10[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15};
@@ -711,12 +750,7 @@ class CfgWeapons {
                 };
                 recoil = "M240Recoil";
                 recoilProne = "M240Recoil";
-                minRange = 30;
-                minRangeProbab = 0.1;
-                midRange = 200;
-                midRangeProbab = 0.7;
-                maxRange = 400;
-                maxRangeProbab = 0.05;
+                __AI_ROF_GL_SINGLE;
             };
         };
 
@@ -727,7 +761,7 @@ class CfgWeapons {
             class MuzzleSlot : asdg_MuzzleSlot_556 {};
         };
 
-        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
+        modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2","AI_Burst_close" };
 
         class Single : Mode_SemiAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -748,16 +782,7 @@ class CfgWeapons {
             };
             dispersion = 0.000555596;
             __ROF(750);
-
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SINGLE;
         };
 
         class Burst : Mode_Burst {
@@ -780,16 +805,7 @@ class CfgWeapons {
             };
             dispersion = 0.000555596;
             __ROF(750);
-
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_SHORT_BURST;
         };
 
         class FullAuto : Mode_FullAuto {
@@ -813,15 +829,7 @@ class CfgWeapons {
             dispersion = 0.000555596;
             __ROF(750);
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 5;
-            midRangeProbab = 0.8;
-            maxRange = 10;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
         class Burst2rnd : Burst {
             burst = 2;
@@ -830,41 +838,24 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 5;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1;
+                burst = 4; 
+                __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
 
@@ -934,17 +925,20 @@ class CfgWeapons {
         __DEXTERITY(3.6, 0);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36A1_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36A1_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36A1_CMAG";
             default = "hlc_rifle_G36A1";
         };
     };
     class hlc_rifle_G36A1_CMAG : hlc_rifle_G36A1
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1-cmag_ca.paa";
     };
+
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -970,17 +964,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36A1AG36_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36A1AG36_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36A1AG36_CMAG";
             default = "hlc_rifle_G36A1AG36";
         };
     };
     class hlc_rifle_G36A1AG36_CMAG : hlc_rifle_G36A1AG36
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_AG36A1-cmag_ca.paa";
     };
+
     class hlc_rifle_MG36 : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1048,8 +1045,21 @@ class CfgWeapons {
             maxRange = 300;
             maxRangeProbab = 0.1;
         };
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_MG36";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_MG36";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_MG36";
+            default = "hlc_rifle_MG36_30rnd";
+        };
     };
-
+    class hlc_rifle_MG36_30rnd : hlc_rifle_MG36
+    {
+        scopeArsenal = 0;
+        dlc = "Niarms_G36";
+        author = "Toadie";
+        model = "hlc_wp_g36\mesh\G36 LSW\G36.p3d";
+        picture = "\hlc_wp_g36\tex\ui\Gear_G36A1_ca.paa";
+    };
     class hlc_rifle_G36KA1 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
         ACE_barrelTwist = 178;
@@ -1087,55 +1097,41 @@ class CfgWeapons {
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
             burst = 5;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
         };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 900;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KA1_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KA1_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1_CMAG";
             default = "hlc_rifle_G36KA1";
         };
     };
     class hlc_rifle_G36KA1_CMAG : hlc_rifle_G36KA1
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36k-cmag_ca.paa";
     };
+
     class hlc_rifle_G36C : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1189,15 +1185,7 @@ class CfgWeapons {
             dispersion = 0.0008727;
             __ROF(750);
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.7;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 400;
-            maxRangeProbab = 0.1;
+            __AI_ROF_CQB_SINGLE;
         };
 
         class Burst : Mode_Burst {
@@ -1224,15 +1212,7 @@ class CfgWeapons {
             dispersion = 0.0008727;
             __ROF(750);
 
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 10;
-            minRangeProbab = 0.8;
-            midRange = 15;
-            midRangeProbab = 0.7;
-            maxRange = 30;
-            maxRangeProbab = 0.1;
+            __AI_ROF_CQB_CLOSE_BURST;
         };
 
         class FullAuto : Mode_FullAuto {
@@ -1257,46 +1237,47 @@ class CfgWeapons {
             dispersion = 0.0008727;
             __ROF(750);
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 5;
-            midRangeProbab = 0.8;
-            maxRange = 10;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
         };
 
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.6;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
         };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36c_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36c_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36c_CMAG";
             default = "hlc_rifle_G36C";
         };
     };
     class hlc_rifle_G36c_CMAG : hlc_rifle_G36C
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36c_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36c-cmag_ca.paa";
     };
+
     class hlc_rifle_G36E1 : hlc_rifle_g36A1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1310,17 +1291,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36E1_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36E1_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36E1_CMAG";
             default = "hlc_rifle_G36E1";
         };
     };
     class hlc_rifle_G36E1_CMAG : hlc_rifle_G36E1
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36e-cmag_ca.paa";
     };
+
     class hlc_rifle_G36E1AG36 : hlc_rifle_G36A1AG36 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1334,17 +1318,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36E1AG36_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36E1AG36_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36E1AG36_CMAG";
             default = "hlc_rifle_G36E1AG36";
         };
     };
     class hlc_rifle_G36E1AG36_CMAG : hlc_rifle_G36E1AG36
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_ag36E-CMAG_ca.paa";
     };
+
     class hlc_rifle_G36E1AG36_Romi : hlc_rifle_G36E1AG36
     {
         dlc = "Niarms_G36";
@@ -1355,17 +1342,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36E1AG36_Romi_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36E1AG36_Romi_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36E1AG36_Romi_CMAG";
             default = "hlc_rifle_G36E1AG36_Romi";
         };
     };
     class hlc_rifle_G36E1AG36_Romi_CMAG : hlc_rifle_G36E1AG36_Romi
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36E-Romicmag_ca.paa";
     };
+
     class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1384,17 +1374,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KE1_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KE1_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KE1_CMAG";
             default = "hlc_rifle_G36KE1";
         };
     };
     class hlc_rifle_G36KE1_CMAG : hlc_rifle_G36KE1
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36ke-cmag_ca.paa";
     };
+
     class hlc_rifle_G36V : hlc_rifle_G36E1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1431,17 +1424,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36V_CMAG";
             default = "hlc_rifle_G36V";
         };
     };
     class hlc_rifle_G36V_CMAG : hlc_rifle_G36V
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36v-cmag_ca.paa";
     };
+
     class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1478,17 +1474,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KV_CMAG";
             default = "hlc_rifle_G36KV";
         };
     };
     class hlc_rifle_G36KV_CMAG : hlc_rifle_G36KV
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36kv-cmag_ca.paa";
     };
+
     class hlc_rifle_G36CV : hlc_rifle_G36C {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1502,17 +1501,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36cV_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36cV_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36cV_CMAG";
             default = "hlc_rifle_G36cV";
         };
     };
     class hlc_rifle_G36cV_CMAG : hlc_rifle_G36cV
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36cv-cmag_ca.paa";
     };
+
     class hlc_rifle_G36VAG36 : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1532,17 +1534,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36VAG36_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36VAG36_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36VAG36_CMAG";
             default = "hlc_rifle_G36VAG36";
         };
     };
     class hlc_rifle_G36VAG36_CMAG : hlc_rifle_G36VAG36
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36v-cmag_ca.paa";
     };
+
     class hlc_rifle_G36KA1KSK : hlc_rifle_G36KV
     {
         model = "hlc_wp_g36\mesh\G36KSK\G36KSK.p3d";
@@ -1557,17 +1562,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KA1KSK_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KA1KSK_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1KSK_CMAG";
             default = "hlc_rifle_G36KA1KSK";
         };
     };
     class hlc_rifle_G36KA1KSK_CMAG : hlc_rifle_G36KA1KSK
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36KSK\G36ksk_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ksk-cmag_ca.paa";
     };
+
     class HLC_Rifle_G36KSKAG36 : hlc_rifle_G36KA1KSK
     {
 
@@ -1586,17 +1594,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "HLC_Rifle_G36KSKAG36_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "HLC_Rifle_G36KSKAG36_CMAG";
+            hlc_100rnd_556x45_M_G36 = "HLC_Rifle_G36KSKAG36_CMAG";
             default = "HLC_Rifle_G36KSKAG36";
         };
     };
     class HLC_Rifle_G36KSKAG36_CMAG : HLC_Rifle_G36KSKAG36
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36KSK\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36ksk-cmag_ca.paa";
     };
+
     class hlc_rifle_G36TAC : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1611,17 +1622,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36TAC_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36TAC_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36TAC_CMAG";
             default = "hlc_rifle_G36TAC";
         };
     };
     class hlc_rifle_G36TAC_CMAG : hlc_rifle_G36TAC
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36tac-cmag_ca.paa";
     };
+
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1636,17 +1650,20 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_g36KTac_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_g36KTac_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_g36KTac_CMAG";
             default = "hlc_rifle_g36KTac";
         };
     };
     class hlc_rifle_g36KTac_CMAG : hlc_rifle_g36KTac
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ktac-cmag_ca.paa";
     };
+
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
         dlc = "Niarms_G36";
         author = "Toadie";
@@ -1662,12 +1679,14 @@ class CfgWeapons {
 
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CTac_CMAG";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CTac_CMAG";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CTac_CMAG";
             default = "hlc_rifle_G36CTac";
         };
     };
     class hlc_rifle_G36CTac_CMAG : hlc_rifle_G36CTac
     {
-        scope = private;
+        scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36C_CMag.p3d";
@@ -1754,31 +1773,27 @@ class CfgWeapons {
             burst = 2;
             textureType = "dual";
         };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 1200;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
 
@@ -1823,31 +1838,27 @@ class CfgWeapons {
             burst = 2;
             textureType = "dual";
         };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
             showToPlayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 4;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.6;
-            maxRange = 1000;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
 
@@ -1924,21 +1935,27 @@ class CfgWeapons {
             burst = 2;
             textureType = "dual";
         };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
         class single_medium_optics1 : Single {
             requiredOpticType = 1;
             showToPlayer = 0;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 3;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 200;
-            midRangeProbab = 0.6;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
         };
         class single_far_optics2 : single_medium_optics1 {
             requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
 

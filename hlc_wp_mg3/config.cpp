@@ -11,7 +11,7 @@ class CfgPatches
         units[] = { "HLC_MG3_ammobox", "HLC_MG42_ammobox", "Weapon_hlc_lmg_MG42", "Weapon_hlc_lmg_mg42_bakelite", "Weapon_hlc_lmg_MG42KWS_t","Weapon_hlc_lmg_MG42KWS_t", "Weapon_hlc_lmg_MG42KWS_g","Weapon_hlc_lmg_MG42KWS_b","Weapon_hlc_lmg_MG3","Weapon_hlc_lmg_MG3_optic","Weapon_hlc_lmg_MG3KWS_t","Weapon_hlc_lmg_MG3KWS_g","Weapon_hlc_lmg_MG3KWS_b" };
         weapons[] = {"hlc_lmg_MG42","hlc_lmg_mg42_bakelite","hlc_lmg_MG42KWS_t","hlc_lmg_MG42KWS_g","hlc_lmg_MG42KWS_B","hlc_lmg_MG3","hlc_lmg_MG3_optic","hlc_lmg_MG3KWS","hlc_lmg_MG3KWS_b","hlc_lmg_MG3KWS_g"};
         magazines[] = {};
-        version = "1";
+        version = "1.1";
         author = "toadie";
     };
 };
@@ -154,136 +154,8 @@ class CfgGesturesMale
         };
     };
 };
-class CfgAmmo
-{
-    class B_556x45_Ball;
-//SS patrone
-//Standard FMJ
-/*
-s.S Patrone
-759.9 typicalSpeed
-12.533 hit
-0.424 caliber
-3 visibleFireTime
-80 audibleFire
--0.00071885 airFriction
-*/
-    class hlc_792x57_SS : B_556x45_Ball
-    {
-        airfriction = -0.00071885;
-        caliber = 0.424;
-        typicalSpeed = 759.9;
-        maxspeed = 759.9;
-        audibleFire = 80;
-        visibleFireTime = 3;
-        suppressionRadiusBulletClose = 5;
-        suppressionRadiusHit = 7;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        cartridge = "FxCartridge_762";
-        nvgonly = 1;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.01;
-        cost = 1;
-        deflecting = 20;
-        hit = 12.533;
-        airlock = 1;
-        ACE_caliber = 8.2;
-        ACE_bulletLength = 28.651;
-        ACE_bulletMass = 9.9;
-        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
-        ACE_ballisticCoefficients[] = { 0.315 };
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ASM";
-        ACE_dragModel = 1;
-        ACE_muzzleVelocities[] = { 785, 800, 815 };
-        ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
-    };
-                //SmK Tracer/SmK -v
-                //SmK Spitzgescho√ü mit Kern Leuchtspur /
-/*
-                884.9 typicalSpeed
-                11.57 hit
-                0.79 caliber
-                3 visibleFireTime
-                80 audibleFire
-                -0.0007423 airFriction
-*/
-    class B_556x45_Ball_Tracer_Red;
-    class hlc_792x57_SmKLspr : B_556x45_Ball_Tracer_Red
-    {
-        airfriction = -0.0007423;
-        caliber = 0.79;
-        typicalSpeed = 884.9;
-        maxspeed = 884.9;
-        audibleFire = 80;
-        visibleFireTime = 3;
-        suppressionRadiusBulletClose = 7;
-        suppressionRadiusHit = 9;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_yellow";
-        cartridge = "FxCartridge_762";
-        nvgonly = 0;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.01;
-        cost = 1;
-        deflecting = 20;
-        hit = 11.57;
-        airlock = 1;
-        ACE_caliber = 8.2;
-        ACE_bulletLength = 28.651;
-        ACE_bulletMass = 10;
-        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
-        ACE_ballisticCoefficients[] = { 0.315 };
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ASM";
-        ACE_dragModel = 1;
-        ACE_muzzleVelocities[] = { 785, 800, 815 };
-        ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
-    };
-                    //SmK AP
-                    //SmK Spitzgescho√ü mit Hartkern
-/*
-                    853.44 typicalSpeed
-                    9.9925 hit
-                    1.875 caliber
-                    3 visibleFireTime
-                    80 audibleFire
-                    -0.00070184 airFriction
-
-*/
-    class hlc_792x57_SmkH : B_556x45_Ball
-    {
-        airfriction = -0.00070184;
-        audibleFire = 80;
-        visibleFireTime = 3;
-        caliber = 1.875;
-        typicalSpeed = 853.44;
-        maxspeed = 853.44;
-        suppressionRadiusBulletClose = 5;
-        suppressionRadiusHit = 7;
-        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-        cartridge = "FxCartridge_762";
-        nvgonly = 1;
-        tracerendtime = 1;
-        tracerscale = 1;
-        tracerstarttime = 0.01;
-        cost = 1;
-        deflecting = 20;
-        hit = 16;
-        airlock = 1;
-        ACE_caliber = 8.077;
-        ACE_bulletLength = 28.651;
-        ACE_bulletMass = 12.7008;
-        ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
-        ACE_ballisticCoefficients[] = { 0.315 };
-        ACE_velocityBoundaries[] = {};
-        ACE_standardAtmosphere = "ASM";
-        ACE_dragModel = 1;
-        ACE_muzzleVelocities[] = { 785, 800, 815 };
-        ACE_barrelLengths[] = { 508.0, 599.948, 660.4 };
-    };
-};
+//CFGammo entries to Core, see 
+//HLC_792x57_Ball
 class CfgVehicles
 {
     class NATO_Box_Base;
@@ -365,16 +237,16 @@ class CfgVehicles
         };
     };
     class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_lmg_MG42, hlc_50Rnd_792x57_B_MG42, MG42, Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_mg42_bakelite, hlc_50Rnd_792x57_B_MG42, MG42(Bakelite), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG42KWS_t, hlc_50Rnd_792x57_B_MG42, MG42KWS(Tan), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG42KWS_b, hlc_50Rnd_792x57_B_MG42, MG42KWS(Black), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG42KWS_g, hlc_50Rnd_792x57_B_MG42, MG42KWS(Green), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG3, hlc_50Rnd_792x57_B_MG42, MG3, Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG3_optic, hlc_50Rnd_762x51_M_MG3, Mg M/62, Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG3KWS, hlc_50Rnd_762x51_M_MG3, MG3KWS(Tan), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG3KWS_b, hlc_50Rnd_762x51_M_MG3, MG3KWS(Black), Niarms_MG3, Toadie,MachineGuns);
-    __WEAPONHOLDER(hlc_lmg_MG3KWS_g, hlc_50Rnd_762x51_M_MG3, MG3KWS(Green), Niarms_MG3, Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42, hlc_50Rnd_792x57_B_MG42, MG42, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_mg42_bakelite, hlc_50Rnd_792x57_B_MG42, MG42(Bakelite), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_t, hlc_50Rnd_792x57_B_MG42, MG42KWS(Tan), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_b, hlc_50Rnd_792x57_B_MG42, MG42KWS(Black), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG42KWS_g, hlc_50Rnd_792x57_B_MG42, MG42KWS(Green), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3, hlc_50Rnd_792x57_B_MG42, MG3, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3_optic, hlc_50Rnd_762x51_M_MG3, Mg M/62, Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS, hlc_50Rnd_762x51_M_MG3, MG3KWS(Tan), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS_b, hlc_50Rnd_762x51_M_MG3, MG3KWS(Black), Niarms_MG3, Toadie, MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_MG3KWS_g, hlc_50Rnd_762x51_M_MG3, MG3KWS(Green), Niarms_MG3, Toadie, MachineGuns);
 };
 
 class CfgMagazines
@@ -383,11 +255,11 @@ class CfgMagazines
     class hlc_50Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SS";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_792x57_Ball";
         count = 50;
-        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 50<br />Used in: MG42";
-        displayname = "MG42 Belt (FMJ) 50rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 50";
+        displayname = "Gurt34-Link Belt (FMJ) 50rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 759.9;
         lastroundstracer = 5;
@@ -402,7 +274,7 @@ class CfgMagazines
     class hlc_100Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 100<br />Used in: MG42";
         displayname = "MG42 Belt (FMJ) 100rnd 7.92mm";
@@ -411,7 +283,7 @@ class CfgMagazines
     class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 200<br />Used in: MG42";
         displayname = "MG42 Belt (FMJ) 200rnd 7.92mm";
@@ -420,43 +292,43 @@ class CfgMagazines
     class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
-        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 50<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 50rnd 7.92mm";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_792x57_Tracer";
+        descriptionshort = "Caliber: 7.92x57mm SmKv/SmK L'spur<br />Type: Spitzgeschoﬂ mit Kern (Enhanced Penetrator FMJ)/Incendiary-tip Tracer<br />Rounds: 50";
+        displayname = "Gurt34-Link Belt (EPR-Tracer) 50rnd 7.92mm";
         initspeed = 884.9;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
         mass = 31.7;
-        displaynameshort = "7.92mm SmK/Tracer";
+        displaynameshort = "EPR/Tracer";
     };
     class hlc_100Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 100rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmKv/SmK L'spur<br />Type: Spitzgeschoﬂ mit Kern (Enhanced Penetrator FMJ)/Incendiary-tip Tracer<br />Rounds: 100";
+        displayname = "Gurt34-Link Belt (EPR-Tracer) 100rnd 7.92mm";
         mass = 63.3;
     };
     class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 200;
-        descriptionshort = "Caliber: 7.92x57mm 4-to-1 SmKv-SmKL'spur<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKv-SmKL'spur Mix) 200rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmKv/SmK L'spur<br />Type: Spitzgeschoﬂ mit Kern (Enhanced Penetrator FMJ)/Incendiary-tip Tracer<br />Rounds: 200";
+        displayname = "Gurt34-Link Belt (EPR-Tracer) 200rnd 7.92mm";
         mass = 126.6;
     };
     class hlc_50Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmKLspr";
-        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 50<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKL'spur) 50rnd 7.92mm";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_792x57_Tracer";
+        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Type: Spitzgeschoﬂ mit Kern Leuchtspur (Spitzer with Tracer)<br />Rounds: 50";
+        displayname = "Gurt34-Link Belt (Tracer) 50rnd 7.92mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine_42.p3d";
         initspeed = 884.9;
         lastroundstracer = 5;
@@ -469,186 +341,186 @@ class CfgMagazines
     class hlc_100Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKL'spur) 100rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Type: Spitzgeschoﬂ mit Kern Leuchtspur (Spitzer with Tracer)<br />Rounds: 100";
+        displayname = "Gurt34-Link Belt (Tracer) 100rnd 7.92mm";
         mass = 57;
     };
     class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 200;
-        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (SmKL'spur) 200rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Type: Spitzgeschoﬂ mit Kern Leuchtspur (Spitzer with Tracer)<br />Rounds: 200";
+        displayname = "Gurt34/41 Belt (Tracer) 200rnd 7.92mm";
         mass = 113.9;
     };
     class hlc_50Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
-        ammo = "hlc_792x57_SmkH";
-        descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 50<br />Used in: MG42";
-        displayname = "MG42 Belt (AP) 50rnd 7.92mm";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_792x57_AP";
+        descriptionshort = "Caliber: 7.92x57mm SmKH <br />Type: Spitzgeschoﬂ mit Hartkern (Spitzer with Hard Core-Armor-Piercing)<br />Rounds: 50";
+        displayname = "Gurt34-Link Belt (AP) 50rnd 7.92mm";
         initspeed = 853.44;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg42AP_ca.paa";
         scope = 2;
         tracersevery = 0;
         mass = 30.5;
-        displaynameshort = "7.92mm SmKH";
+        displaynameshort = "SmKH AP";
     };
     class hlc_100Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (AP) 100rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmKH <br />Type: Spitzgeschoﬂ mit Hartkern (Spitzer with Hard Core-Armor-Piercing)<br />Rounds: 100";
+        displayname = "Gurt34-Link Belt (AP) 100rnd 7.92mm";
         mass = 61.1;
     };
     class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 200;
-        descriptionshort = "Caliber: 7.92x57mm SmKH HartKern AP<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (AP) 200rnd 7.92mm";
+        descriptionshort = "Caliber: 7.92x57mm SmKH <br />Type: Spitzgeschoﬂ mit Hartkern (Spitzer with Hard Core-Armor-Piercing)<br />Rounds: 200";
+        displayname = "Gurt34-Link Belt (AP) 200rnd 7.92mm";
         mass = 122.2;
     };
     class hlc_50Rnd_762x51_B_MG3 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
         count = 50;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball) 50rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
+        displayname = "DM6-Link Belt (EPR) 50rnd 7.62mm";
         model = "hlc_wp_mg3\mesh\magazine\magazine.p3d";
-        initspeed = 820;
+        initspeed = 853;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3ball_ca.paa";
         scope = 2;
         tracersevery = 0;
         mass = 29.1;
-        displaynameshort = "7.62mm Ball";
+        displaynameshort = "M80A1 EPR";
     };
     class hlc_100Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball) 100rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
+        displayname = "DM6-Link Belt (EPR) 100rnd 7.62mm";
         mass = 58.2;
     };
     class hlc_250Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 250;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball) 200rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 250";
+        displayname = "DM6-Link Belt (EPR) 250rnd 7.62mm";
         mass = 145.3;
     };
     class hlc_50Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_B_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 50rnd 7.62mm";
-        initspeed = 820;
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "DM6-Link Belt (EPR-Tracer) 50rnd 7.62mm";
+        initspeed = 853;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
         mass = 29.1;
-        displaynameshort = "7.62mm Ball/Tracer";
+        displaynameshort = "EPR/Tracer";
     };
     class hlc_100Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 100<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 100rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
+        displayname = "DM6-Link Belt (Ball-Tracer Mix) 100rnd 7.62mm";
         mass = 58.2;
     };
     class hlc_250Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 250;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Ball-Tracer<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Ball-Tracer Mix) 250rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 250";
+        displayname = "DM6-Link Belt (Ball-Tracer Mix) 250rnd 7.62mm";
         mass = 145.3;
     };
     class hlc_50Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_B_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 50rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 50";
+        displayname = "DM6-Link Belt (Mk319-Tracer) 50rnd 7.62mm";
         initspeed = 815;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
         mass = 29.1;
-        displaynameshort = "7.62mm Mk.319/Tracer";
+        displaynameshort = "Mk319/Tracer";
     };
     class hlc_100Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 100<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 100rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
+        displayname = "DM6-Link Belt (Mk319-Tracer) 100rnd 7.62mm";
         mass = 58.2;
     };
     class hlc_250Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 250;
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Mk319-Tracer Mix) 250rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 250";
+        displayname = "DM6-Link Belt (Mk319-Tracer) 250rnd 7.62mm";
         mass = 145.3;
     };
     class hlc_50Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_B_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 50<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 50rnd 7.62mm";
-        initspeed = 820;
+        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 50";
+        displayname = "DM6-Link Belt (Tracer) 50rnd 7.62mm";
+        initspeed = 853;
         lastroundstracer = 5;
         picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
         mass = 28;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "M62A1 Tracer";
     };
     class hlc_100Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 100<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 100rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
+        displayname = "DM6-Link Belt (Tracer) 100rnd 7.62mm";
         mass = 55.9;
     };
     class hlc_250Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 
     {
         dlc = "Niarms_MG3";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 250;
-        descriptionshort = "Caliber: 7.62x51mm<br />Rounds: 250<br />Used in: MG3";
-        displayname = "MG3 Belt (Tracer) 250rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 250";
+        displayname = "DM6-Link Belt (Tracer) 250rnd 7.62mm";
         mass = 139.8;
     };
 };
@@ -689,8 +561,6 @@ class CfgWeapons
         swayDecaySpeed = 1.25;
         recoil = "recoil_mmg";
         recoilprone = "recoil_mmg_prone";
-        aidispersioncoefx = 10;
-        aidispersioncoefy = 12;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "", "", "", "", "" };
         class GunParticles : GunParticles
@@ -729,7 +599,7 @@ effectName = "MachineGunCloud";
         bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
         soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
 
-        modes[] = { "FullAuto", "close", "short", "medium", "far_optic1", "far_optic2" };
+        modes[] = { "FullAuto", "close", "short", "medium", "medium_burst", "far", "veryfar", "far_optic1", "toofar_optic1", "far_optic2", "toofar_optic2" };
         class FullAuto : Mode_FullAuto
         {
             sounds[] = { "StandardSound" };
@@ -747,77 +617,92 @@ effectName = "MachineGunCloud";
                 soundSetShot[] = { "MG42_Shot_SoundSet", "MG42_Tail_SoundSet" };
             };
             __ROF(1200);
-            dispersion = 0.001111238;
+            __MOA(3.4);
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 40;
-            maxRangeProbab = "random 0.2";
+            __AI_ROF_MG_FULLAUTO;
         };
-        class close : FullAuto
-        {
+        class close : FullAuto {
+            burst = 10; 
+                aiRateOfFire = 0.05; 
+                aiRateOfFireDistance = 50; 
+                aiRateOfFireDispersion = 0.5; 
+                minRange = 10; 
+                minRangeProbab = 0.1; 
+                midRange = 25; 
+                midRangeProbab = 0.8; 
+                maxRange = 50; 
+                maxRangeProbab = 0.1;
             showToPlayer = 0;
-            aiBurstTerminable = 1;
-            burst = 10;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
+        };
+        class short : close{
+            burst = 8;
+            aiRateOfFire = 0.05;
+            aiRateOfFireDistance = 100;
+            aiRateOfFireDispersion = 0.5;
+            minRange = 25;
+            minRangeProbab = 0.1;
+            midRange = 50;
+            midRangeProbab = 0.8;
+            maxRange = 100;
+            maxRangeProbab = 0.1;
+        };
+        class medium : close {
+            burst = 5;
+            aiRateOfFire = 0.05;
+            aiRateOfFireDistance = 200;
+            aiRateOfFireDispersion = 1;
+            minRange = 50;
+            minRangeProbab = 0.1;
             midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = "random 0.2";
+            midRangeProbab = 0.8;
+            maxRange = 200;
+            maxRangeProbab = 0.1;
         };
-        class short : close
-        {
+        class medium_burst : close {
             burst = 4;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 350;
-            maxRangeProbab = "random 0.2";
+            aiRateOfFire = 0.05;
+            aiRateOfFireDistance = 400;
+            aiRateOfFireDispersion = 1;
+            minRange = 100;
+            minRangeProbab = 0.1;
+            midRange = 200;
+            midRangeProbab = 0.8;
+            maxRange = 400;
+            maxRangeProbab = 0.1;
         };
-        class medium : close
-        {
-            burst = 6;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 700;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = "random 0.1";
+        class far : close {
+            burst = 4;
+            aiRateOfFire = 0.1;
+            aiRateOfFireDistance = 400;
+            aiRateOfFireDispersion = 1;
+            minRange = 100;
+            minRangeProbab = 0.1;
+            midRange = 200;
+            midRangeProbab = 0.8;
+            maxRange = 400;
+            maxRangeProbab = 0.1;
         };
-        class far_optic1 : medium
-        {
+        class veryfar : close {
+            __AI_ROF_MG_VERYFAR_BURST;
+        };
+        class far_optic1 : medium {
             requiredOpticType = 1;
-            burst = 3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 900;
-            aiRateOfFireDispersion = 4;
-            minRange = 400;
-            minRangeProbab = 0.8;
-            midRange = 600;
-            midRangeProbab = 0.7;
-            maxRange = 1200;
-            maxRangeProbab = "random 0.2";
+            showToPlayer = 0;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
         };
-        class far_optic2 : far_optic1
-        {
+        class toofar_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        class far_optic2 : far_optic1 {
             requiredOpticType = 2;
-            maxRangeProbab = "random 0.2";
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic2 : far_optic2 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
         };
 
         drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
@@ -940,77 +825,100 @@ effectName = "MachineGunCloud";
                 soundSetShot[] = { "MG3_Shot_SoundSet", "MG3_Tail_SoundSet" };
             };
             __ROF(900);
-            dispersion = 0.00119269;
+            __MOA(4);
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 40;
-            maxRangeProbab = "random 0.2";
+            __AI_ROF_MG_FULLAUTO;
         };
-        class close : FullAuto
-        {
+        class close : FullAuto {
+                burst = 10;
+                aiRateOfFire = 0.06; 
+                aiRateOfFireDistance = 50; 
+                aiRateOfFireDispersion = 0.5; 
+                minRange = 10; 
+                minRangeProbab = 0.1; 
+                midRange = 25; 
+                midRangeProbab = 0.8;
+                maxRange = 50; 
+                maxRangeProbab = 0.1;
             showToPlayer = 0;
-            aiBurstTerminable = 1;
-            burst = 10;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 250;
-            aiRateOfFireDispersion = 2;
-            minRange = 30;
-            minRangeProbab = 0.8;
-            midRange = 100;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = "random 0.2";
         };
-        class short : close
-        {
+        class short : close{
+            burst = 8; 
+            aiRateOfFire = 0.06;
+            aiRateOfFireDistance = 100; 
+            aiRateOfFireDispersion = 0.5; 
+            minRange = 25; 
+            minRangeProbab = 0.1; 
+            midRange = 50; 
+            midRangeProbab = 0.8; 
+            maxRange = 100; 
+            maxRangeProbab = 0.1;
+        };
+        class medium : close {
+                burst = 5; 
+                aiRateOfFire = 0.06;
+                aiRateOfFireDistance = 200;
+                aiRateOfFireDispersion = 1; 
+                minRange = 50; 
+                minRangeProbab = 0.1; 
+                midRange = 100; 
+                midRangeProbab = 0.8; 
+                maxRange = 200; 
+                maxRangeProbab = 0.1;
+        };
+        class medium_burst : close {
+                burst = 4; 
+                aiRateOfFire = 0.06;
+                aiRateOfFireDistance = 400; 
+                aiRateOfFireDispersion = 1; 
+                minRange = 100; 
+                minRangeProbab = 0.1; 
+                midRange = 200; 
+                midRangeProbab = 0.8; 
+                maxRange = 400; 
+                maxRangeProbab = 0.1;
+        };
+        class far : close {
             burst = 4;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 450;
-            aiRateOfFireDispersion = 2;
-            minRange = 80;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 350;
-            maxRangeProbab = "random 0.2";
+            aiRateOfFire = 0.06;
+            aiRateOfFireDistance = 400;
+            aiRateOfFireDispersion = 1;
+            minRange = 100;
+            minRangeProbab = 0.1;
+            midRange = 200;
+            midRangeProbab = 0.8;
+            maxRange = 400;
+            maxRangeProbab = 0.1;
         };
-        class medium : close
-        {
-            burst = 6;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 700;
-            aiRateOfFireDispersion = 3;
-            minRange = 200;
-            minRangeProbab = 0.8;
-            midRange = 300;
-            midRangeProbab = 0.7;
-            maxRange = 800;
-            maxRangeProbab = "random 0.1";
+        class veryfar : close {
+            __AI_ROF_MG_VERYFAR_BURST;
         };
-        class far_optic1 : medium
-        {
+        class far_optic1 : medium {
             requiredOpticType = 1;
-            burst = 3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 900;
-            aiRateOfFireDispersion = 4;
-            minRange = 400;
-            minRangeProbab = 0.8;
-            midRange = 600;
-            midRangeProbab = 0.7;
-            maxRange = 1200;
-            maxRangeProbab = "random 0.2";
+            showToPlayer = 0;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
         };
-        class far_optic2 : far_optic1
-        {
+        class toofar_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        class far_optic2 : far_optic1 {
+            burst = 3;
             requiredOpticType = 2;
-            maxRangeProbab = "random 0.2";
+            minRange = 400;
+            minRangeProbab = 0.05;
+            midRange = 750;
+            midRangeProbab = 0.7;
+            maxRange = 900;
+            maxRangeProbab = 0.01;
+            aiRateOfFire = 10;
+            aiRateOfFireDistance = 900;
+        };
+        class toofar_optic2 : far_optic2 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
         };
         class Library
         {

@@ -5,14 +5,14 @@ class CfgSoundShaders {
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 },
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 }
         };
-        range = 5;
-        volume = 0.8;
+        range = 10;
+        volume = 1.3;
     };
     class M14_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -20,7 +20,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_mid", 1 }
         };
-        volume = 0.5011872;
+        volume = 1.6;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -31,9 +31,7 @@ class CfgSoundShaders {
     };
     class M14_distShot_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_01", 1 },
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_02", 1 },
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_03", 1 }
+            { "hlc_wp_m14\snd\soundshaders\m14_dist", 1 }
         };
         volume = 1.0;
         range = 2500;
@@ -48,19 +46,19 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.4;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
+            { 250, 0.2 },
             { 600, 0.7 },
-            { 2000, 1 }
-        };
+            { 2000, 1 } };
         limitation = 1;
     };
     class M14_tailForest_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_forest", 1 } };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 2.585*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -71,7 +69,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_urban", 1 } 
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "2.585*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -83,7 +81,7 @@ class CfgSoundShaders {
     class M14_tailInterior_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_indoor", 1 } };
-        volume = "interior";
+        volume = " 2.585*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -96,7 +94,7 @@ class CfgSoundShaders {
     class M14_tailMeadows_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_meadows", 1 } };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 2.585*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -107,7 +105,7 @@ class CfgSoundShaders {
     class M14_tailTrees_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_trees", 1 } };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 2.585*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -119,8 +117,8 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\generic\m14_suppressed_close", 1 }
         };
-        volume = 0.85;
-        range = 150;
+        volume = 1;
+        range = 350;
         rangeCurve = "closeShotCurve";
     };
     class M14_silencerTailForest_SoundShader {
@@ -189,14 +187,14 @@ class CfgSoundShaders {
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 },
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 }
         };
-        range = 5;
-        volume = 1;
+        range = 10;
+        volume = 1.4;
     };
     class m14tactical_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_close", 1 }
         };
-        volume = 0.9;
+        volume = 0.8;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -204,7 +202,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_mid", 1 }
         };
-        volume = 0.5011872;
+        volume = 1.6252;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -215,9 +213,7 @@ class CfgSoundShaders {
     };
     class m14tactical_distShot_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_01", 1 },
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_02", 1 },
-            { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_distShot_03", 1 }
+            { "hlc_wp_m14\snd\soundshaders\m14_dist", 1 }
         };
         volume = 1.0;
         range = 2500;
@@ -232,20 +228,20 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.4;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
+            { 250, 0.2 },
             { 600, 0.7 },
-            { 2000, 1 }
-        };
+            { 2000, 1 } };
         limitation = 1;
     };
     class m14tactical_tailForest_SoundShader {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_forest", 1 } 
         };
-        volume = "(1-interior/1.4)*forest/3";
+        volume = " 2.585*((1-interior/1.4)*Forest/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -257,7 +253,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_urban", 1 } 
         };
-        volume = "(1-interior/1.4)*houses/3";
+        volume = "2.585*((1-interior/1.4)*houses/3)";
         range = 1500;
         rangeCurve[] = {
             { 0, 1 },
@@ -270,7 +266,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_indoor", 1 } 
         };
-        volume = "interior";
+        volume = " 2.585*((interior)*0.65)";
         range = 350;
         rangeCurve[] = {
             { 0, 1 },
@@ -284,7 +280,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_meadows", 1 } 
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        volume = " 2.585*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },
@@ -296,7 +292,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_m14\snd\soundshaders\m14_trees", 1 } 
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = " 2.585*((1-interior/1.4)*trees/3)";
         range = 2000;
         rangeCurve[] = {
             { 0, 1 },

@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {"HLC_FAL_ammobox","Weapon_hlc_rifle_SLRchopmod","Weapon_hlc_rifle_LAR","Weapon_hlc_rifle_c1A1","Weapon_hlc_rifle_FAL5061","Weapon_hlc_rifle_STG58F","Weapon_hlc_rifle_SLR","Weapon_hlc_rifle_L1A1slr","Weapon_hlc_rifle_osw_GL","Weapon_hlc_rifle_falosw","weapon_hlc_rifle_FAL5061Rail"};
         weapons[] = {"hlc_rifle_SLRchopmod","hlc_rifle_LAR","hlc_rifle_c1A1","hlc_rifle_FAL5061","hlc_rifle_STG58F","hlc_rifle_SLR","hlc_rifle_L1A1slr","hlc_rifle_osw_GL","hlc_rifle_falosw","hlc_muzzle_snds_fal","hlc_optic_suit","hlc_optic_PVS4FAL"};
         magazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_t_fal","hlc_50rnd_762x51_M_FAL","hlc_20Rnd_762x51_S_fal"};
-        version="v1.85";
+        version="v1.95";
         author="toadie";
     };
 };
@@ -86,206 +86,20 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-    class Weapon_hlc_rifle_SLRchopmod : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "SLR Chopmod";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_SLRchopmod";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_LAR : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "LAR";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_LAR";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_c1A1 : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "C1A1";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_c1A1";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class weapon_hlc_rifle_FAL5061Rail : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "FAL 'Para' 50.61(RIS)";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_FAL5061Rail";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_FAL5061 : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "FAL 'Para' 50.61";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_FAL5061";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_STG58F : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "FAL Stg.58";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_STG58F";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_SLR : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "SLR";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_SLR";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_L1A1slr : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "L1A1 SLR";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_L1A1slr";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_osw_GL : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "SA58 OSW+M203";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_osw_GL";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
-    class Weapon_hlc_rifle_falosw : Weapon_Base_F {
-        dlc = "Niarms_FAL";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "SA58 OSW";
-        author = "Toadie";
-        vehicleClass = "WeaponsPrimary";
-        class TransportWeapons {
-            class srifle_EBR_F {
-                weapon = "hlc_rifle_falosw";
-                count = 1;
-            };
-        };
-        class TransportMagazines {
-            class 20Rnd_762x51_Mag {
-                magazine = "hlc_20Rnd_762x51_B_fal";
-                count = 1;
-            };
-        };
-    };
+    __WEAPONHOLDER(hlc_rifle_falosw, hlc_20Rnd_762x51_B_fal, DSArms FAL OSW, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_osw_GL, hlc_20Rnd_762x51_B_fal, DSArms FAL OSW(GL), Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_SLR, hlc_20Rnd_762x51_B_fal, Lithgow SLR, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_STG58F, hlc_20Rnd_762x51_B_fal, Steyr STG.58, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_FAL5061Rail, hlc_20Rnd_762x51_B_fal, FN FAL 50.61'Para' (RIS), Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_FAL5061, hlc_20Rnd_762x51_B_fal, FN FAL 50.61'Para', Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_FAL5000, hlc_20Rnd_762x51_B_fal, FN FAL 50.00, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_FAL5000Rail, hlc_20Rnd_762x51_B_fal, FN FAL 50.00 (RIS), Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_FAL5000_RH, hlc_20Rnd_762x51_B_fal, FN FAL 50.00(Rhod.Spraycam), Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_L1A1SLR, hlc_20Rnd_762x51_B_fal, Enfield L1A1 SLR, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_c1A1, hlc_20Rnd_762x51_B_fal, CAL C1A1, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_LAR, hlc_20Rnd_762x51_B_fal, FN LAR, Niarms_FAL, Toadie, AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_SLRchopmod, hlc_20Rnd_762x51_B_fal, Lithgow SLR Chopmod, Niarms_FAL, Toadie, AssaultRifles);
+
 };
 
 class CfgMagazines {
@@ -293,103 +107,118 @@ class CfgMagazines {
 
     class hlc_20Rnd_762x51_B_fal : 30Rnd_556x45_Stanag {
         dlc = "Niarms_FAL";
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Enhanced Performance Ball)<br />Rounds: 20<br />Used in: L1A1,FN FAL, SA58 OSW";
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
         displayname = "FAL Mag (Ball) 20rnd 7.62mm";
-        initspeed = 930;
-        mass = 20;
+        initspeed = 908.4;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm EPR";
+        displaynameshort = "M80A1 EPR";
     };
     class hlc_20Rnd_762x51_mk316_fal : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_MK316_20in";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.316 Special Ball Long Range)<br />Rounds: 20<br />Used in: L1A1,FN FAL, SA58 OSW";
-        displayname = "FAL Mag (Mk.316) 20rnd 7.62mm";
-        initspeed = 930;
-        mass = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
+        displayname = "FAL Mag (SBLR) 20rnd 7.62mm";
+        initspeed = 731;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk.316";
+        displaynameshort = "MK316 SBLR";
     };
     class hlc_20Rnd_762x51_barrier_fal : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Mk.319 Barrier-Blind)<br />Rounds: 20<br />Used in: L1A1,FN FAL, SA58 OSW";
-        displayname = "FAL Mag (Mk.319) 20rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
+        displayname = "FAL Mag (SOST) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
-        initspeed = 930;
-        mass = 20;
+        initspeed = 890.4;
+        mass = 13;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "7.62mm Mk.319";
+        displaynameshort = "MK319 OTM";
     };
     class hlc_20Rnd_762x51_T_fal : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_tracer";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: L1A1,FN FAL,SA58 OSW";
+        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
         displayname = "FAL Mag (Tracer) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 20;
+        mass = 13;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "M62A1 Tracer";
     };
     class hlc_20Rnd_762x51_TDim_fal : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 20<br />Used in: L1A1,FN FAL,SA58 OSW";
+        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
         displayname = "FAL Mag (IR-DIM) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 20;
+        mass = 13;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "7.62mm IR-DIM";
+        displaynameshort = "IR-DIM";
+    };
+    class hlc_50rnd_762x51_MDIM_FAL : hlc_20Rnd_762x51_B_fal {
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie, Spartan0536";
+        count = 50;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-FAL Magazine (EPR-IRDIM) 50rnd 7.62mm";
+        model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
+        initspeed = 908.4;
+        mass = 17;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
     };
     class hlc_20Rnd_762x51_S_fal : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_BTSub";
-        descriptionshort = "Caliber: 7.62x51mm NATO (Boat-Tailed Lapua Subsonic)<br />Rounds: 20<br />Used in: L1A1,FN FAL,SA58 OSW";
+        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 20";
         displayname = "FAL Mag (SubSonic) 20rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 20;
+        mass = 13;
         tracersevery = 0;
         initspeed = 325;
-        displaynameshort = "7.62mm SubSonic";
+        displaynameshort = "FMJ Subsonic";
         picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
     };
     class hlc_50rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
-        author = "Toadie";
+        author = "Toadie, Spartan0536";
         count = 50;
-        descriptionshort = "Caliber: 7.62x51mm NATO (Tracer)<br />Rounds: 50<br />Used in: G3A3,G3SG1,PSG1";
-        displayname = "X-FAL Magazine (Tracer) 50rnd 7.62mm";
+        mass = 17;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-FAL Magazine (EPR-Tracer) 50rnd 7.62mm";
         model = "\hlc_wp_FAL\mesh\magazine\magazine.p3d";
-        initspeed = 800;
-        mass = 50;
-        lastroundstracer = 1;
+        initspeed = 908.4;
+        lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "7.62mm Tracer";
+        displaynameshort = "EPR/Tracer";
     };
 };
 
@@ -547,9 +376,8 @@ class CfgWeapons {
         class Library {
             libTextDesc = "FN FAL";
         };
+        __AI_DISPERSION_COEF;
         reloadAction = "GestureReloadEBR";
-        aidispersioncoefx = 4;
-        aidispersioncoefy = 6;
         bullet1[] = {"A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15};
         bullet10[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_02", 0.281838, 1, 15};
         bullet11[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_03", 0.281838, 1, 15};
@@ -600,15 +428,7 @@ class CfgWeapons {
             dispersion = 0.000555596;
             reloadtime = 0.086;
 
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 300;
-            aiRateOfFireDispersion = 2;
-            minRange = 20;
-            minRangeProbab = 0.8;
-            midRange = 150;
-            midRangeProbab = 0.5;
-            maxRange = 500;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
@@ -630,54 +450,24 @@ class CfgWeapons {
             dispersion = 0.000555596;
             reloadtime = 0.086;
 
-            aiRateOfFire = 0.2;
-            aiRateOfFireDistance = 50;
-            aiRateOfFireDispersion = 1;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 1;
-            midRangeProbab = 0.8;
-            maxRange = 5;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_FULLAUTO;
         };
         class single_medium_optics1 : Single {
+            showToPlayer = 0;
             requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
-        };
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 4; 
+                __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST; 
+        }; 
     };
 
     class hlc_rifle_falosw : hlc_fal_base {
@@ -686,6 +476,7 @@ class CfgWeapons {
         AB_barrelLength=13;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 330.2;
+        initspeed = -0.868;
         scope = public;
         displayName = "DSArms FAL OSW";
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\hands_osw.rtm"};
@@ -693,6 +484,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadOSW";
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
+        
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_wp_fal\tex\mag-20_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
@@ -717,48 +509,37 @@ class CfgWeapons {
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
             };
         };
-
-        // need have this so ai fire modes inherit osw sounds
         class single_medium_optics1 : Single {
+            showToPlayer = 0;
             requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+        };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_falosw_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_falosw_XMAG";
+            default = "hlc_rifle_falosw";
+
         };
     };
-    
+    class hlc_rifle_falosw_XMAG : hlc_rifle_falosw
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie";
+        model = "\hlc_wp_FAL\mesh\sa58\osw_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
+    };
+
     class UGL_F;
     class hlc_rifle_osw_GL : hlc_rifle_falosw {
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -788,8 +569,22 @@ class CfgWeapons {
             magazinereloadtime = 0;
             reloadAction = "GestureReloadTrgUGL";
             reloadtime = 0.1;
+            __AI_ROF_GL_SINGLE;
+        };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_osw_GL_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_osw_GL_XMAG";
+            default = "hlc_rifle_osw_GL";
         };
     };
+    class hlc_rifle_osw_GL_XMAG : hlc_rifle_osw_GL
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
+        model = "\hlc_wp_FAL\mesh\SAG58GL\OSW_GL_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\tigg_m203\m203_co.tga" };
+    };
+
     class hlc_rifle_SLR : hlc_fal_base {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -824,29 +619,20 @@ class CfgWeapons {
             dispersion = 0.0013;
         };
         class single_medium_optics1 : Single {
+            showToPlayer = 0;
             requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 0;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 0;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
+        };
+        class fullauto_medium : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -859,7 +645,20 @@ class CfgWeapons {
             };
         };
 		inertia = 0.43;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_SLR_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_SLR_XMAG";
+            default = "hlc_rifle_SLR";
+        };
     };
+    class hlc_rifle_SLR_XMAG : hlc_rifle_SLR
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\slr\l1a1_1_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
+    };
+
     class hlc_rifle_STG58F : hlc_fal_base {
         author = "Pete, Enron, Bohemia Interactive, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -886,7 +685,20 @@ class CfgWeapons {
             class CowsSlot: asdg_OpticRail1913 {};
         };
 		inertia = 0.45;
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_STG58F_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_STG58F_XMAG";
+            default = "hlc_rifle_STG58F";
+        };
     };
+    class hlc_rifle_STG58F_XMAG : hlc_rifle_STG58F
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Bohemia Interactive, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\stg58\stg58_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\fore-grooved_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\rsight-modern_co.tga", "hlc_wp_fal\tex\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga" };
+    };
+
     class hlc_rifle_FAL5061Rail : hlc_fal_base {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie";
@@ -907,7 +719,20 @@ class CfgWeapons {
         };
 		inertia = 0.45;
         __DEXTERITY(4.5, 0);
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5061Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FAL5061Rail_XMAG";
+            default = "hlc_rifle_FAL5061Rail";
+        };
     };
+    class hlc_rifle_FAL5061Rail_XMAG : hlc_rifle_FAL5061Rail
+    {
+        scopeArsenal = 0;
+        author = "Bohemia Interactive, Arby25, Toadie";
+        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_rails_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga" };
+    };
+
     class hlc_rifle_FAL5061 : hlc_fal_base {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie";
@@ -937,8 +762,20 @@ class CfgWeapons {
                 };
             };
         };
-
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5061_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FAL5061_XMAG";
+            default = "hlc_rifle_FAL5061";
+        };
     };
+    class hlc_rifle_FAL5061_XMAG : hlc_rifle_FAL5061
+    {
+        scopeArsenal = 0;
+        author = "Bohemia Interactive, Arby25, Toadie";
+        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
+    };
+
     class hlc_rifle_FAL5000 : hlc_rifle_FAL5061 {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
@@ -962,8 +799,20 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 90;
         };
-
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5000_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FAL5000_XMAG";
+            default = "hlc_rifle_FAL5000";
+        };
     };
+    class hlc_rifle_FAL5000_XMAG : hlc_rifle_FAL5000
+    {
+        scopeArsenal = 0;
+        author = "Bohemia Interactive, Arby25, Toadie";
+        model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga" };
+    };
+
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
         displayName = "FN FAL 50.00 (RIS)";
@@ -977,7 +826,20 @@ class CfgWeapons {
         };
 		inertia = 0.5;
         __DEXTERITY(4.6, 0);
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5000Rail_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FAL5000Rail_XMAG";
+            default = "hlc_rifle_FAL5000Rail";
+        };
     };
+    class hlc_rifle_FAL5000Rail_XMAG : hlc_rifle_FAL5000Rail
+    {
+        scopeArsenal = 0;
+        author = "Bohemia Interactive, Arby25, Toadie";
+        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga" };
+    };
+
     class hlc_rifle_FAL5000_RH : hlc_rifle_FAL5000
     {
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
@@ -985,7 +847,20 @@ class CfgWeapons {
         picture = "\hlc_wp_FAL\tex\ui\gear_falRH_ca";
         hiddenSelections[] = { "Main", "Stock", "Barrel" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_Rhodie_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_Rhodie_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_Rhodie_co.tga" };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5000_RH_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FAL5000_RH_XMAG";
+            default = "hlc_rifle_FAL5000_RH";
+        };
     };
+    class hlc_rifle_FAL5000_RH_XMAG : hlc_rifle_FAL5000_RH
+    {
+        scopeArsenal = 0;
+        author = "Bohemia Interactive, Arby25, Toadie";
+        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_Rhodie_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_Rhodie_co.tga" };
+    };
+
     class hlc_rifle_L1A1SLR : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -999,7 +874,21 @@ class CfgWeapons {
         picture = "\hlc_wp_FAL\tex\ui\gear_l1a1_x_ca";
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_wp_fal\tex\israeli\mag-20_co.tga" };
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_L1A1SLR_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_L1A1SLR_XMAG";
+            default = "hlc_rifle_L1A1SLR";
+        };
     };
+    class hlc_rifle_L1A1SLR_XMAG : hlc_rifle_L1A1SLR
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\l1a1\L1A1_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
+
+    };
+
     class hlc_rifle_c1A1 : hlc_rifle_SLR {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -1013,7 +902,20 @@ class CfgWeapons {
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         model = "\hlc_wp_FAL\mesh\C1A1\C1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_c1_x_ca";
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_c1A1_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_c1A1_XMAG";
+            default = "hlc_rifle_c1A1";
+        };
     };
+    class hlc_rifle_c1A1_XMAG : hlc_rifle_c1A1
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\C1A1\C1A1_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\c1\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\c1\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
+    };
+
     class hlc_rifle_LAR : hlc_rifle_FAL5061 {
         author = "Pete, Enron, Acid Snake, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -1045,51 +947,43 @@ class CfgWeapons {
                 soundSetShot[] = { "FAL2_Shot_SoundSet", "FAL2_tail_SoundSet" };
             };
             __MOA(2.4);
-        };
+        };       
         class single_medium_optics1 : Single {
+            showToPlayer = 0;
             requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            burst = 5;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 60;
-            midRangeProbab = 0.7;
-            maxRange = 120;
-            maxRangeProbab = 0.1;
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 119;
         };
 		inertia = 0.43;
         __DEXTERITY(4.3, 0);
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_LAR_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_LAR_XMAG";
+            default = "hlc_rifle_LAR";
+        };
     };
+    class hlc_rifle_LAR_XMAG : hlc_rifle_LAR
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\FN_LAR\L1A1_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\israeli\barrel-izzy.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\israeli\foregrip-izzy_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\c1\stock-solid_co.tga","hlc_core\tex\magazines\XMags_co.tga" };
+
+    };
+
     class hlc_rifle_SLRchopmod : hlc_rifle_FAL5061 {
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
         AB_barrelTwist=12;
@@ -1097,6 +991,7 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 457.2;
         scope = public;
+        initspeed = -0.868;
         displayName = "Lithgow SLR Chopmod";
         descriptionShort = "Butchered AOW<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
@@ -1123,47 +1018,37 @@ class CfgWeapons {
             __MOA(2.7);
         };
         class single_medium_optics1 : Single {
+            showToPlayer = 0;
             requiredoptictype = 1;
-            showtoplayer = 0;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 500;
-            aiRateOfFireDispersion = 3;
-            minRange = 20;
-            minRangeProbab = 0.9;
-            midRange = 300;
-            midRangeProbab = 0.8;
-            maxRange = 800;
-            maxRangeProbab = 0.2;
+            __AI_ROF_RIFLE_MEDIUM_MSCOPE_SINGLE;
         };
         class single_far_optics1 : single_medium_optics1 {
             requiredoptictype = 2;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1200;
-            aiRateOfFireDispersion = 4;
-            minRange = 20;
-            minRangeProbab = 0.7;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1200;
-            maxRangeProbab = 0.1;
+            __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            burst = 3;
-            showtoplayer = 0;
-            aiRateOfFire = 1;
-            aiRateOfFireDistance = 100;
-            aiRateOfFireDispersion = 2;
-            minRange = 5;
-            minRangeProbab = 0.8;
-            midRange = 10;
-            midRangeProbab = 0.7;
-            maxRange = 20;
-            maxRangeProbab = 0.1;
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 85;
         };
 		inertia = 0.39;
         __DEXTERITY(3.9, 1);
+        class __MAGSWITCHCLASS {
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_SLRchopmod_XMAG";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_SLRchopmod_XMAG";
+            default = "hlc_rifle_SLRchopmod";
+        };
+    };
+    class hlc_rifle_SLRchopmod_XMAG : hlc_rifle_SLRchopmod
+    {
+        scopeArsenal = 0;
+        author = "Pete, Enron, Toadie, Clifton Vlodhammer";
+        model = "\hlc_wp_FAL\mesh\Suchka-LR\L1A1_1_xmag.p3d";
+        hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga"  };
     };
 };

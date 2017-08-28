@@ -6,12 +6,14 @@ class CfgSoundSets
 		soundShaders[] = { "sg510_closeShot_SoundShader", "sg510_midShot_SoundShader", "sg510_distShot_SoundShader", "sg510_Closure_SoundShader" };
 		volumeFactor = 1.3;
 		volumeCurve = "InverseSquare3Curve";
-		stereoStartDistance = 8;
-		stereoRadius = 10;
-		spatial = 1;
-		doppler = 0;
-		loop = 0;
-		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+        frequencyRandomizer = 0.5;
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
 	};
 	class sg510_tail_SoundSet
 	{
@@ -20,23 +22,27 @@ class CfgSoundSets
 		volumeCurve = "InverseSquare2Curve";
 		stereoStartDistance = 100;
 		stereoRadius = 50;
-		spatial = 1;
-		doppler = 0;
-		loop = 0;
-		soundShadersLimit = 3;
-		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+        frequencyRandomizer = 0.3;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
 	};
 	class sg510_silencerShot_SoundSet
 	{
 		soundShaders[] = { "sg510_silencerShot_SoundShader", "sg510_Closure_SoundShader" };
 		volumeFactor = 1;
 		volumeCurve = "InverseSquare3Curve";
-		stereoStartDistance = 8;
-		stereoRadius = 10;
-		spatial = 1;
-		doppler = 0;
-		loop = 0;
-		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        frequencyRandomizer = 0.3;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
 	};
 	class sg510_silencerTail_SoundSet
 	{
@@ -45,10 +51,12 @@ class CfgSoundSets
 		volumeCurve = "InverseSquare2Curve";
 		stereoStartDistance = 100;
 		stereoRadius = 50;
-		spatial = 1;
-		doppler = 0;
-		loop = 0;
-		soundShadersLimit = 3;
-		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        frequencyRandomizer = 0.3;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
 	};
 };

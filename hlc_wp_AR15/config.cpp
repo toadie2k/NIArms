@@ -10,7 +10,7 @@ class CfgPatches {
             "Weapon_hlc_rifle_SAMR2","Weapon_hlc_rifle_CQBR","Weapon_hlc_rifle_M4","Weapon_hlc_rifle_m4m203","Weapon_hlc_rifle_bcmjack","Weapon_hlc_rifle_Bushmaster300","Weapon_hlc_rifle_vendimus","Weapon_hlc_rifle_honeybadger" };
         weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase","hlc_rifle_bcmblackjack"};
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
-        version="1.9";
+        version="1.95";
         author="toadie";
     };
 };
@@ -156,38 +156,39 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "HLC_300Blackout_Ball";
         count = 30;
-        descriptionshort = "Caliber: .300 AAC Blackout <br />Rounds: 30<br />Used in: AAC Honeybadger, Bushmaster .300 Carbine";
-        displayname = ".300 BLK STANAG Magazine (147gr. FMJ) 30rnd";
+        descriptionshort = "Caliber: .300 AAC Blackout EPR<br />Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet) <br />Rounds: 30";
+        displayname = ".300AAC STANAG Magazine (EPR) 30rnd";
         model = "hlc_wp_ar15\mesh\magazine\magazine_300.p3d";
-        initspeed = 548.64;
+        initspeed = 674.6;
         lastroundstracer = 1;
         tracersevery = 0;
-        displaynameshort = ".300 FMJ";
+        displaynameshort = "Blackout EPR";
         picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
     };
     class 29rnd_300BLK_STANAG_T : 29rnd_300BLK_STANAG {
         dlc = "Niarms_AR15";
         author = "Toadie";
-        descriptionshort = "Caliber: .300 AAC Blackout <br />Rounds: 30<br />Used in: AAC Honeybadger, Bushmaster .300 Carbine";
-        displayname = ".300 BLK STANAG Magazine (Tracers) 30rnd";
-        initspeed = 548;
+        ammo = "HLC_300Blackout_RNBT";
+        descriptionshort = "Caliber: .300 AAC Blackout RNBT-BT<br />Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )<br />Rounds: 30";
+        displayname = ".300AAC STANAG Magazine (Tracer) 30rnd";
+        initspeed = 329.2;
         lastroundstracer = 1;
         tracersevery = 1;
-        displaynameshort = ".300 Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_blackout_tracer_ca.paa";
+        displaynameshort = "RNBT Subsonic";
+        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
     };
     class 29rnd_300BLK_STANAG_S : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AR15";
         author = "Toadie";
         ammo = "HLC_300Blackout_SMK";
         count = 30;
-        descriptionshort = "Caliber: .300 AAC Blackout 220Gr Subsonic <br />Rounds: 30<br />Used in: AAC Honeybadger, Bushmaster .300 Carbine";
-        displayname = ".300 BLK STANAG Magazine (SubSonic) 30rnd .300 BLK";
+        descriptionshort = "Caliber: .300 AAC Blackout Handload TAC-TX<br />Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)<br />Rounds: 30";
+        displayname = ".300AAC STANAG Magazine (TAC-TX) 30rnd .300 BLK";
         model = "hlc_wp_ar15\mesh\magazine\magazine_300.p3d";
-        initspeed = 320;
+        initspeed = 670.6;
         lastroundstracer = 0;
-        displaynameshort = ".300 Subsonic";
-        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
+        displaynameshort = "TAC-TX";
+        picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
     };
 };
 
@@ -360,6 +361,7 @@ class CfgWeapons {
         ACE_barrelLength = 261.62;
         aiDispersionCoefY = 6.0;
         aiDispersionCoefX = 4.0;
+        initspeed = -0.86667;
         author = "ImBrokeRU, Antivirus404, RedRogueXVII, Tigg, Brains Collector, Toadie";
         reloadAction = "HLC_GestureReloadAR15_BAD_WS";
         scope =public;
@@ -447,6 +449,7 @@ class CfgWeapons {
         dlc = "Niarms_AR15";
         author = "ImBrokeRU, 4Echo, RedRogueXVII, Tigg, Toadie";
         scope = public;
+        initspeed = -0.86667;
         model = "hlc_wp_ar15\mesh\ru556\car15_2.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_hsld2_ca";
         displayName = "AR15 Magpul Carbine";
@@ -475,6 +478,7 @@ class CfgWeapons {
         AB_barrelLength=10;
         ACE_barrelTwist = 177.8;
         ACE_barrelLength = 254.0;
+        initspeed = -0.86667;
         author = "Tenoyl, OhNoMelon, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
@@ -530,6 +534,7 @@ class CfgWeapons {
         AB_barrelLength=14.5;
         ACE_barrelTwist = 177.8;
         ACE_barrelLength = 368.3;
+        initspeed = -0.9;
         author = "Tenoyl, OhNoMelon, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
@@ -617,9 +622,10 @@ class CfgWeapons {
         //soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         //soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         AB_barrelTwist=7;
-        AB_barrelLength=14.5;
+        AB_barrelLength=16;
         ACE_barrelTwist = 177.8;
         ACE_barrelLength = 368.3;
+        initspeed = -0.93;
         author = "Twinke Masta, Tenoyl, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
@@ -730,8 +736,12 @@ class CfgWeapons {
         descriptionShort = "Assault rifle<br/>Caliber: .300 Blackout";
         magazines[] = { "29rnd_300BLK_STANAG", "29rnd_300BLK_STANAG_T", "29rnd_300BLK_STANAG_S" };
         recoil = "recoil_mxc";
+        initspeed = -1;
         hiddenSelections[] = { "Upper", "Lower", "Foregrip", "foregrip_rail", "Sights", "Stock" };
         hiddenSelectionsTextures[] = { "\hlc_wp_ar15\tex\toadie_Blackjack\upper_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\lower2_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\smr_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\smr_toprail_co.tga", "hlc_wp_ar15\tex\tenoyl_tbs\tbs_co.tga", "hlc_wp_ar15\tex\toadie_Blackjack\b5sopmod_co.tga" };
+        class __MAGSWITCHCLASS {
+            default = "hlc_rifle_bcmblackjack";
+        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
             class MuzzleSlot : asdg_MuzzleSlot_762 {};
@@ -785,6 +795,7 @@ class CfgWeapons {
         AB_barrelLength=14.5;
         ACE_barrelTwist = 177.8;
         ACE_barrelLength = 368.3;
+        initspeed = -0.93;
         author = "Twinke Masta, Stoke, Tigg, Toadie";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         scope =public;
@@ -906,6 +917,7 @@ class CfgWeapons {
         ACE_barrelTwist = 203.2;
         ACE_barrelLength = 406.4;
         scope =public;
+        initspeed = -0.93;
         author = "Sephiris, Agent95, Toadie";
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
         model = "hlc_wp_ar15\mesh\mill_bushmaster\car15.p3d";
@@ -1063,6 +1075,7 @@ class CfgWeapons {
         agm_bipod=1;
         cse_bipod = 1;
         bg_bipod = 1; 
+        initspeed = -1;
         model = "hlc_wp_ar15\mesh\LAR15_samr\samr.p3d";
         picture = "\hlc_wp_ar15\tex\ui\gear_SAMR_ca";
         displayName = "RRA LAR-15";
@@ -1164,6 +1177,7 @@ class CfgWeapons {
         aiDispersionCoefY = 12.0;
         aiDispersionCoefX = 8.0;
         recoil = "recoil_mx";
+        initspeed = -1;
         model = "hlc_wp_ar15\mesh\honeybadger\car15.p3d";
         reloadAction = "HLC_GestureReloadAR15_catch_WS";
         picture = "\hlc_wp_ar15\tex\ui\gear_badger_ca";
