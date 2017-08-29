@@ -2051,41 +2051,41 @@ class CfgWeapons {
             __AI_ROF_MG_SINGLE;
         };
         class 50m : FullAuto{ 
-			__AI_ROF_MG_FULLAUTO; 
-        		}; 
+            __AI_ROF_MG_FULLAUTO; 
+                }; 
         class AI_long : 50m { 
-			showToPlayer = 0; 
+            showToPlayer = 0; 
             aiBurstTerminable = 1; 
-			__AI_ROF_MG_LONG_BURST; 
-        		}; 
-		class AI_close: AI_long { 
-			__AI_ROF_MG_CLOSE_BURST; 
-        		}; 
-		class AI_short: AI_close { 
-			__AI_ROF_MG_SHORT_BURST; 
-        		}; 
-		class AI_medium: AI_close { 
-			__AI_ROF_MG_MEDIUM_BURST; 
-        		}; 
-		class AI_far: AI_close { 
-			__AI_ROF_MG_FAR_BURST; 
-        		}; 
-		class AI_toofar: AI_far { 
-			__AI_ROF_MG_VERYFAR_BURST; 
-        		}; 
-		class AI_far_optic1: AI_far { 
-			requiredOpticType = 1; 
-			__AI_ROF_MG_FAR_SCOPE_BURST; 
-        		}; 
-		class AI_toofar_optic1: AI_far_optic1 { 
-			__AI_ROF_MG_VERYFAR_SCOPE_BURST; 
-        		}; 
-		class AI_far_optic2: AI_far_optic1 { 
-			requiredOpticType = 2; 
-        		}; 
-		class AI_toofar_optic2: AI_toofar_optic1 { 
-			requiredOpticType = 2; 
-        		}; 
+            __AI_ROF_MG_LONG_BURST; 
+                }; 
+        class AI_close: AI_long { 
+            __AI_ROF_MG_CLOSE_BURST; 
+                }; 
+        class AI_short: AI_close { 
+            __AI_ROF_MG_SHORT_BURST; 
+                }; 
+        class AI_medium: AI_close { 
+            __AI_ROF_MG_MEDIUM_BURST; 
+                }; 
+        class AI_far: AI_close { 
+            __AI_ROF_MG_FAR_BURST; 
+                }; 
+        class AI_toofar: AI_far { 
+            __AI_ROF_MG_VERYFAR_BURST; 
+                }; 
+        class AI_far_optic1: AI_far { 
+            requiredOpticType = 1; 
+            __AI_ROF_MG_FAR_SCOPE_BURST; 
+                }; 
+        class AI_toofar_optic1: AI_far_optic1 { 
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST; 
+                }; 
+        class AI_far_optic2: AI_far_optic1 { 
+            requiredOpticType = 2; 
+                }; 
+        class AI_toofar_optic2: AI_toofar_optic1 { 
+            requiredOpticType = 2; 
+                }; 
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 96;
