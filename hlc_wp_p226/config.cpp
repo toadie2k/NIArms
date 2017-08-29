@@ -1037,8 +1037,8 @@ class CfgWeapons {
         bullet12[] = { "A3\sounds_f\weapons\shells\9mm\grass_9mm_04", 0.22387211, 1, 15 };
         soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
         drysound[] = { "hlc_wp_p226\snd\p226_dryfire", 1, 1, 20 };
-        changeFiremodeSound[] = { "\hlc_wp_p226\snd\p226_dryfire", 1, 1, 8 };
-        reloadmagazinesound[] = { "\hlc_wp_p226\snd\p226_reload", 0.7, 1, 20 };
+        changeFiremodeSound[] = { "hlc_wp_p226\snd\p226_dryfire", 1, 1, 8 };
+        reloadmagazinesound[] = { "hlc_wp_p226\snd\p226_reload", 0.7, 1, 20 };
         sounds[] = { "StandardSound", "SilencedSound" };
 
         modes[] = { "Single" };

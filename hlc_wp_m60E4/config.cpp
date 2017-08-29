@@ -216,8 +216,8 @@ class CfgWeapons {
             aiRateOfFireDistance = 900;
         };
 
-        drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
-        reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
+        drysound[] = {"hlc_core\sound\empty_machineguns", 1, 1, 10};
+        reloadmagazinesound[] = {"hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
     };
     class hlc_lmg_M60E4 : hlc_M60e4_base {
         maxZeroing = 1100;

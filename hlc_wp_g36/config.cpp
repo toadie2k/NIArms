@@ -713,7 +713,7 @@ class CfgWeapons {
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        changeFiremodeSound[] = { "hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         class hlc_GL_AG36 : UGL_F {

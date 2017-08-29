@@ -630,7 +630,7 @@ class CfgWeapons {
 
 
     class hlc_g3_base : Rifle_Base_F {
-        changeFiremodeSound[] = { "\hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
+        changeFiremodeSound[] = { "hlc_wp_g3\snd\SWITCH6", 1, 1, 8 };
         dlc = "Niarms_G3";
         recoil = "recoil_dmr_03";
         magazineReloadSwitchPhase = 0.5;
@@ -762,8 +762,8 @@ class CfgWeapons {
             burst = 4;
             __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
-        drysound[] = {"\hlc_core\sound\empty_sniperrifles", 1, 1, 10};
-        // reloadMagazineSound[] = {"\hlc_wp_ak\snd\ak74m_reload",0.74,1,30};
+        drysound[] = {"hlc_core\sound\empty_sniperrifles", 1, 1, 10};
+        // reloadMagazineSound[] = {"hlc_wp_ak\snd\ak74m_reload",0.74,1,30};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
     };
 
