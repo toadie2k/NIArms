@@ -359,7 +359,6 @@ class CfgWeapons
         bullet12[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_04.wss", 0.01, 1, 15 };
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
         modes[] = { "FullAuto", "close", "short", "medium", "medium_burst", "far", "veryfar", "far_optic1", "toofar_optic1", "far_optic2", "toofar_optic2" };
-        {
         inertia = 0.8;
         class FullAuto : Mode_FullAuto 
         {
@@ -417,12 +416,10 @@ class CfgWeapons
             __AI_ROF_MG_VERYFAR_SCOPE_BURST;
         };
         class far_optic2 : far_optic1 {
-        {
             requiredOpticType = 2;
             __AI_ROF_MG_FAR_SCOPE_BURST;
         };
         class toofar_optic2 : far_optic2 {
-        {
             requiredOpticType = 2;
             showToPlayer = 0;
             __AI_ROF_MG_VERYFAR_SCOPE_BURST;
