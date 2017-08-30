@@ -59,11 +59,11 @@ class CfgMovesBasic
             HLC_GestureReloadMG42[] = { "HLC_GestureReloadMG42_Prone", "Gesture" };
             HLC_GestureReloadMG3[] = { "HLC_GestureReloadMG3_Prone", "Gesture" };
         };
-/*
-class RifleKneelActions : RifleBaseStandActions
-{
-HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Crouch", "Gesture" };
-};*/
+        /*
+        class RifleKneelActions : RifleBaseStandActions
+        {
+        HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Crouch", "Gesture" };
+        };*/
         class RifleAdjustProneBaseActions;
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions
         {
@@ -72,8 +72,8 @@ HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Crouch", "Gesture" };
         };
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions
         {
-        HLC_GestureReloadMG42[] = { "HLC_GestureReloadMG42_Context", "Gesture" };
-        HLC_GestureReloadMG3[] = { "HLC_GestureReloadMG3_Context", "Gesture" };
+            HLC_GestureReloadMG42[] = { "HLC_GestureReloadMG42_Context", "Gesture" };
+            HLC_GestureReloadMG3[] = { "HLC_GestureReloadMG3_Context", "Gesture" };
 
             class RifleAdjustFProneActions : RifleAdjustProneBaseActions
             {
@@ -276,21 +276,21 @@ class CfgMagazines
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
-        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 100<br />Used in: MG42";
-        displayname = "MG42 Belt (FMJ) 100rnd 7.92mm";
-        mass = 63.3;
+        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 100";
+        displayname = "Gurt34-Link Belt (FMJ) 100rnd 7.92mm";
+        mass = 72;
     };
     class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 200;
-        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Rounds: 200<br />Used in: MG42";
-        displayname = "MG42 Belt (FMJ) 200rnd 7.92mm";
-        mass = 126.6;
+        descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 200";
+        displayname = "Gurt34-Link Belt (FMJ) 200rnd 7.92mm";
+        mass = 120;
     };
-    class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 
-    {
+
+    class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_792x57_Tracer";
@@ -571,12 +571,12 @@ class CfgWeapons
                 directionName = "Nabojniceend";
                 effectName = "CaselessAmmoCloud";
             };
-/*class MuzzleCloud
-{
-positionName = "usti hlavne";
-directionName = "konec hlavne";
-effectName = "MachineGunCloud";
-};*/
+            /*class MuzzleCloud
+            {
+            positionName = "usti hlavne";
+            directionName = "konec hlavne";
+            effectName = "MachineGunCloud";
+            };*/
         };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
@@ -612,6 +612,7 @@ effectName = "MachineGunCloud";
                 closure2[] = { "\hlc_wp_Mg3\snd\mg3_first", 1, 1, 10 };
                 soundClosure[] = { closure1, 0.5, closure2, 0.5 };
             };
+
             class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
             {
                 soundSetShot[] = { "MG42_Shot_SoundSet", "MG42_Tail_SoundSet" };
@@ -735,7 +736,7 @@ effectName = "MachineGunCloud";
         distanceZoomMax = 1100;
         discretedistanceinitindex = 0;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2wood_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2wood_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
         __DEXTERITY(11.6,-3);
         class WeaponSlotsInfo : WeaponSlotsInfo
@@ -754,7 +755,7 @@ effectName = "MachineGunCloud";
         model = "\hlc_wp_MG3\mesh\mg42\mg42_a.p3d";
         displayName = "Mauser MG42(Bakelite)";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
     class hlc_lmg_MG42KWS_t : hlc_lmg_MG42 
     {
@@ -772,21 +773,21 @@ effectName = "MachineGunCloud";
         };
         inertia = 1.2;
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverKWS_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1KWS_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverKWS_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1KWS_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
     class hlc_lmg_mg42kws_g: hlc_lmg_mg42kws_t
     {
         author = "Toadie";
         displayName = "Rheinmetall MG42-KWS(Green)";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_green_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_green_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
     class hlc_lmg_mg42kws_b :hlc_lmg_MG42KWS_t
     {
-            author = "Toadie";
-            displayName = "Rheinmetall MG42-KWS(Black)";
-            hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-            hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.paa" };
+        author = "Toadie";
+        displayName = "Rheinmetall MG42-KWS(Black)";
+        hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
     class hlc_lmg_MG3 : hlc_MG42_base 
     {
@@ -922,23 +923,23 @@ effectName = "MachineGunCloud";
         };
         class Library
         {
-        libTextDesc = "MG3";
+            libTextDesc = "MG3";
         };
     };
     class hlc_lmg_MG3_optic : hlc_lmg_MG3 
     {
-            scope = public;
-            author = "Toadie";
-            model = "\hlc_wp_MG3\mesh\mg3\mg3_later.p3d";
-            picture = "\hlc_wp_mg3\tex\ui\gear_m62_ca";
-            displayName = "Rheinmetall Mg M/62";
-            hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-            hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverDane_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.paa" };
+        scope = public;
+        author = "Toadie";
+        model = "\hlc_wp_MG3\mesh\mg3\mg3_later.p3d";
+        picture = "\hlc_wp_mg3\tex\ui\gear_m62_ca";
+        displayName = "Rheinmetall Mg M/62";
+        hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverDane_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
 
-            class WeaponSlotsInfo : WeaponSlotsInfo
-            {
+        class WeaponSlotsInfo : WeaponSlotsInfo
+        {
                 mass = 237;
-                class CowsSlot : asdg_OpticRail1913_short_MG {
+            class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.30000001 };
                 iconScale = 0.2;
             };
@@ -953,7 +954,7 @@ effectName = "MachineGunCloud";
         displayName = "Rheinmetall MG3-KWS(Tan)";
         __DEXTERITY(10.5,-2);
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverkws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3recieverkws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
 
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
@@ -969,13 +970,13 @@ effectName = "MachineGunCloud";
         author = "Toadie";
         displayName = "Rheinmetall MG3-KWS(Black)";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
     };
     class hlc_lmg_MG3KWS_g :hlc_lmg_MG3KWS
     {
         author = "Toadie";
         displayName = "Rheinmetall MG3-KWS(Green)";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_green_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.paa" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_green_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_green_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
     };
 };

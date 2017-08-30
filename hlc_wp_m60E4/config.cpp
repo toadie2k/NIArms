@@ -67,8 +67,8 @@ class CfgVehicles {
             __M_ITM(optic_ACO_grn,10);
         };
     };
-//    __WEAPONHOLDER(hlc_lmg_M60E4,hlc_100Rnd_762x51_M_M60E4,M60E4,Niarms_M60,Toadie,MachineGuns);
-//    __WEAPONHOLDER(hlc_lmg_m60,hlc_100Rnd_762x51_M_M60E4,M60,Niarms_M60,Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_M60E4,hlc_100Rnd_762x51_M_M60E4,M60E4,Niarms_M60,Toadie,MachineGuns);
+    __WEAPONHOLDER(hlc_lmg_m60,hlc_100Rnd_762x51_M_M60E4,M60,Niarms_M60,Toadie,MachineGuns);
 };
 
 class CfgWeapons {
@@ -88,7 +88,7 @@ class CfgWeapons {
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = {__762MG3_MAGS,__762NATO_BELTS,__762NATO_BI_BELTS};
+        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
@@ -244,7 +244,7 @@ class CfgWeapons {
         TMR_acc_bipod = 1;
         model = "\hlc_wp_M60E4\mesh\M60e4.p3d";
         hiddenSelections[] = { "Main", "rail" };
-        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.paa", "hlc_wp_m60e4\tex\m249_para_co.paa" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.tga", "hlc_wp_m60e4\tex\m249_para_co.tga" };
         reloadaction = "HLC_GestureReloadM60";
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
         displayName = "M60E4";
@@ -300,7 +300,7 @@ class CfgWeapons {
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60_x_ca";
         model = "\hlc_wp_M60E4\mesh\m60classic\M60.p3d";
         hiddenSelections[] = { "Box", "Reciever", "Stock", "Fore_opaq", "Bipod_transp" };
-        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\mil m60\ammobox_co.paa", "hlc_wp_m60e4\tex\mil m60\body_co.paa","hlc_wp_m60e4\tex\mil m60\body2_co.paa","hlc_wp_m60e4\tex\mil m60\fore_co.paa","hlc_wp_m60e4\tex\mil m60\fore_ca.paa" };
+        hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\mil m60\ammobox_co.tga", "hlc_wp_m60e4\tex\mil m60\body_co.tga","hlc_wp_m60e4\tex\mil m60\body2_co.tga","hlc_wp_m60e4\tex\mil m60\fore_co.tga","hlc_wp_m60e4\tex\mil m60\fore_ca.tga" };
         reloadaction = "HLC_GestureReloadM60";
         discretedistance[] = {300,400,500,600,700,800,900,1000,1100};
         cameradir = "aim_point";

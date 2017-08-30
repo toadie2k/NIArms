@@ -2019,15 +2019,15 @@ class CfgWeapons {
         };
         inertia = 0.68;
         __DEXTERITY(4.8,0);
-        class __MAGSWITCHCLASS
+        class __MAGSWITCHCLASS 
         {
-//            hlc_45rnd_762x39_T_rpk = "hlc_rifle_rpk_45rnd";
-//            hlc_45Rnd_762x39_m_rpk = "hlc_rifle_rpk_45rnd";
-//            hlc_75Rnd_762x39_m_rpk = "hlc_rifle_rpk_75rnd";
-//            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_rpk_45rnd";
-//            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_rpk_75rnd";
-//            default = "hlc_rifle_rpk";
-      };
+            HLC_45rnd_762x39_T_RPK = "hlc_rifle_rpk_45rnd";
+            hlc_45Rnd_762x39_m_rpk = "hlc_rifle_rpk_45rnd";
+            hlc_75Rnd_762x39_m_rpk = "hlc_rifle_rpk_75rnd";
+            hlc_45Rnd_762x39_AP_rpk = "hlc_rifle_rpk_45rnd";
+            hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_rpk_75rnd";
+            default = "hlc_rifle_rpk";
+        };
     };
     class hlc_rifle_rpk_45rnd : hlc_rifle_rpk
     {

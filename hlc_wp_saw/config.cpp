@@ -140,36 +140,36 @@ class CfgGesturesMale
         mask = "handsWeapon_context";
     };
 /*
-class HLC_GestureReloadM249STANAG : Default {
-file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_stand.rtm";
-speed = 0.24;
-looped = false;
-mask = "handsWeapon";
-headBobStrength = 0.1;
-headBobMode = 2;
+        class HLC_GestureReloadM249STANAG : Default {
+            file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_stand.rtm";
+            speed = 0.24;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.1;
+            headBobMode = 2;
 
-rightHandIKCurve[] = { 0, 1, 1, 1 };
-leftHandIKBeg = true;
-leftHandIKEnd = true;
-leftHandIKCurve[] = { 0, 1, 0.0476190, 0, 0.8492063, 0, 0.873015, 1 };
-};
-class HLC_GestureReloadM249STANAG_Prone : Default {
-file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_prone.rtm";
-speed = 0.24;
-looped = false;
-mask = "handsWeapon";
-headBobStrength = 0.1;
-headBobMode = 2;
-rightHandIKBeg = true;
-rightHandIKEnd = true;
-rightHandIKCurve[] = { 0, 1 ,1,1};
-leftHandIKBeg = true;
-leftHandIKEnd = true;
-leftHandIKCurve[] = { 0, 1, 0.047619, 0,0.8492063, 0, 0.873015, 1 };
-};
-class HLC_GestureReloadM249STANAF_Context : HLC_GestureReloadM249STANAG {
-mask = "handsWeapon_context";
-};*/
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, 0.0476190, 0, 0.8492063, 0, 0.873015, 1 };
+        };
+        class HLC_GestureReloadM249STANAG_Prone : Default {
+            file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_prone.rtm";
+            speed = 0.24;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+            rightHandIKCurve[] = { 0, 1 ,1,1};
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, 0.047619, 0,0.8492063, 0, 0.873015, 1 };
+        };
+        class HLC_GestureReloadM249STANAF_Context : HLC_GestureReloadM249STANAG {
+            mask = "handsWeapon_context";
+        };*/
     };
 };
 
@@ -359,27 +359,25 @@ class CfgWeapons
         bullet12[] = { "A3\sounds_f\weapons\shells\5_56\grass_556_04.wss", 0.01, 1, 15 };
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
         modes[] = { "FullAuto", "close", "short", "medium", "medium_burst", "far", "veryfar", "far_optic1", "toofar_optic1", "far_optic2", "toofar_optic2" };
+        {
         inertia = 0.8;
         class FullAuto : Mode_FullAuto 
         {
             sounds[] = {"StandardSound","SilencedSound"};
 
-            class BaseSoundModeType 
-            { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect = "DefaultRifle";
+             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect  = "DefaultRifle";
 
                 closure1[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
                 closure2[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
                 soundClosure[]={closure1,0.5, closure2,0.5};
             };
 
-            class StandardSound : BaseSoundModeType 
-            { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "saw_Shot_SoundSet", "saw_Tail_SoundSet" };
             };
 
-            class SilencedSound : BaseSoundModeType 
-            { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "saw_silencerShot_SoundSet", "saw_silencerTail_SoundSet" };
             };
             reloadTime = 0.105;
@@ -429,9 +427,7 @@ class CfgWeapons
         drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
         reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
     };
-
-    class hlc_lmg_minimipara : hlc_saw_base 
-    {
+    class hlc_lmg_minimipara : hlc_saw_base {
         dlc = "Niarms_SAW";
         author = "Toadie";
         scope = public;
@@ -778,7 +774,7 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
         model = "\hlc_wp_saw\mesh\mk46\mk46mod1.p3d";
         displayName = "Mk.46 Mod.1                 [16.3 inch:HS:RIS] ";
         picture = "\hlc_wp_saw\tex\ui\gear_mk46mod1_ca";
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\bis_m249\stockpouch_co.paa", "hlc_wp_saw\tex\melon_vfg\vgrip_co.paa", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.paa", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.paa" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\bis_m249\stockpouch_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         inertia = 0.55;
         __DEXTERITY(5.5 + 0.3, 1);
         class WeaponSlotsInfo : WeaponSlotsInfo 
@@ -795,72 +791,65 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
     ACE_barrelLength = 502;
     AB_barrelTwist = 12;
     AB_barrelLength = 19.75;
-    AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
-    AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-    AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-    agm_overheating_allowbarrelswap = 1;
-    cse_bipod = 1;
-    tmr_autorest_deployable = 1;
-    TMR_acc_bipod = 1;
-    hasBipod = false;
-    reloadaction = "HLC_GestureReloadM249";
-    deployedPivot = "deploypoint";                /// what point should be used to be on surface while unfolded
-    handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
+        AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
+        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
+        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
+        agm_overheating_allowbarrelswap = 1;
+        cse_bipod = 1;
+        tmr_autorest_deployable = 1;
+        TMR_acc_bipod = 1;
+        hasBipod = false;
+        reloadaction = "HLC_GestureReloadM249";
+        deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_saw\anim\gesture\handpose_VFG.rtm" };
     recoil = "recoil_mmg";
     recoilprone = "recoil_mmg_prone";
     inertia = 0.81;
     __DEXTERITY(8.12 + 0.3, 1);
-    magazines[] = {__762MG3_MAGS,__762NATO_BELTS,__762NATO_BI_BELTS};
-    discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 1000 };
+        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
+        discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
     discretedistanceinitindex = 2;
     reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };
-    class GunParticles : GunParticles 
-    {
-        class AmmoBeltEject 
-        {
-            directionName = "linkeject_end";
-            effectName = "MachineGunEject2";
-            positionName = "linkeject_start";
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {
+                directionName = "linkeject_end";
+                effectName = "MachineGunEject2";
+                positionName = "linkeject_start";
+            };
         };
-    };
-    class WeaponSlotsInfo : WeaponSlotsInfo 
-    {
-        mass = 178.9;                        // set and weighed as no bipod available
-        //class UnderBarrelSlot : asdg_UnderSlot {};
-        class CowsSlot : asdg_OpticRail1913_short_MG {};
-        class PointerSlot : asdg_FrontSideRail {};
-    };
-    picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
-    model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 178.9;                           set and weighed as: no bipod attachable
+            class UnderBarrelSlot : asdg_UnderSlot {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {};
+            class PointerSlot : asdg_FrontSideRail {};
+        };
+        picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
+        model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
     displayName = "Mk.48 Mod.0                 [20 inch:HS:VFG:RIS] ";
-    descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
-    hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG","Rail","Bipod" };
-    hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.paa","hlc_wp_saw\tex\mk48\mk48_quadrail_co.paa","" };
-    class FullAuto : Mode_FullAuto 
-    {
-        sounds[] = { "StandardSound", "SilencedSound" };
+        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG","Rail","Bipod" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga","hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga","" };
+        class FullAuto : Mode_FullAuto {
+            sounds[] = { "StandardSound", "SilencedSound" };
 
-        class BaseSoundModeType 
-        { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-        weaponSoundEffect = "DefaultRifle";
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
 
-        closure1[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 10 };
-        closure2[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 10 };
-        soundClosure[] = { closure1, 0.5, closure2, 0.5 };
-        };
+                closure1[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_saw\snd\mk48_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
 
-        class StandardSound : BaseSoundModeType 
-        { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-            soundSetShot[] = { "mk48_Shot_SoundSet", "mk48_Tail_SoundSet" };
-        };
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "mk48_Shot_SoundSet", "mk48_Tail_SoundSet" };
+            };
 
-        class SilencedSound : BaseSoundModeType 
-        { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-            soundSetShot[] = { "mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet" };
-        };
-        reloadTime = 0.084;
-        dispersion = 0.000261799;
-        __AI_ROF_MG_FULLAUTO;
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet" };
+            };
+            reloadTime = 0.084;
+            dispersion = 0.000261799;
+            __AI_ROF_MG_FULLAUTO;
         }; 
         class short : close{
             __AI_ROF_MG_CLOSE_BURST;
@@ -906,160 +895,160 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
         deployedPivot = "deploypivot";
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
         model = "\hlc_wp_saw\mesh\mk48\Mk48mod1.p3d";
+        hasBipod = true;
         displayName = "Mk.48 Mod.1             [20 inch:HS:RIS] ";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.paa", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.paa", "hlc_wp_saw\tex\toadie_m249\barrel_co.paa", "hlc_wp_saw\tex\toadie_m249\misc_co.paa", "hlc_wp_saw\tex\toadie_m249\fore_co.paa", "hlc_wp_saw\tex\toadie_m249\stockmap_co.paa", "hlc_wp_saw\tex\toadie_m249\rearsight_co.paa", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.paa", "hlc_wp_saw\tex\melon_vfg\vgrip_co.paa", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.paa", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.paa" };
-        class WeaponSlotsInfo : WeaponSlotsInfo 
-        {
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
+        class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 182.6;
-            //class UnderBarrelSlot {};
+            class UnderBarrelSlot {};
         };
     };
-/*Commented Out
-//Reason - Mk48 test model deleted for release, "test" M249 deleted because redundant. 
-class hlc_lmg_mk48 : hlc_saw_base {
-scope = public;
-magazines[] = {
-"hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_T_M60E4"
-};
-model = "\hlc_wp_saw\mesh\mk48_des\Mk48.p3d";
-reloadaction = "HLC_GestureReloadM60";
-descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
-drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-reloadmagazinesound[] = {"\hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
-picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-displayName = "FN Mk.48 Mod.0";
-discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
-discretedistanceinitindex = 2;
-bg_bipod = 1; 
-handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-class WeaponSlotsInfo : WeaponSlotsInfo {
-mass = 102;
-class MuzzleSlot : SlotInfo {
-linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-compatibleItems[] = {"muzzle_snds_H_MG"};
-};
-class asdg_OpticRail_hl48: asdg_OpticRail1913 {};
-class asdg_FrontSideRail_hl48: asdg_FrontSideRail {};
-};
-class ItemInfo {
-priority = 1;
-RMBhint = "XMC";
-onHoverText = "TODO XMC DSS";
-};
-class FullAuto : Mode_FullAuto {
-sounds[] = {"StandardSound","SilencedSound"};
+    /*Commented Out
+    //Reason - Mk48 test model deleted for release, "test" M249 deleted because redundant. 
+    class hlc_lmg_mk48 : hlc_saw_base {
+        scope = public;
+        magazines[] = {
+            "hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_T_M60E4"
+        };
+        model = "\hlc_wp_saw\mesh\mk48_des\Mk48.p3d";
+        reloadaction = "HLC_GestureReloadM60";
+        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
+        reloadmagazinesound[] = {"\hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
+        picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
+        displayName = "FN Mk.48 Mod.0";
+        discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
+        discretedistanceinitindex = 2;
+        bg_bipod = 1; 
+        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 102;
+            class MuzzleSlot : SlotInfo {
+                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+                compatibleItems[] = {"muzzle_snds_H_MG"};
+            };
+            class asdg_OpticRail_hl48: asdg_OpticRail1913 {};
+            class asdg_FrontSideRail_hl48: asdg_FrontSideRail {};
+        };
+        class ItemInfo {
+            priority = 1;
+            RMBhint = "XMC";
+            onHoverText = "TODO XMC DSS";
+        };
+        class FullAuto : Mode_FullAuto {
+            sounds[] = {"StandardSound","SilencedSound"};
 
- class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-weaponSoundEffect= "DefaultRifle";
+             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect  = "DefaultRifle";
 
-closure1[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
-closure2[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
-soundClosure[]={closure1,0.5, closure2,0.5};
-};
+                closure1[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
+                closure2[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
+                soundClosure[]={closure1,0.5, closure2,0.5};
+            };
 
-class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-begin1[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-begin2[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-begin3[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-};
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                begin1[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
+                begin2[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
+                begin3[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
+                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
+            };
 
-class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-begin1[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
-begin2[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
-soundBegin[]={begin1,0.5, begin2,0.5};
-};
-begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-soundBegin[] = {"begin1",0.5,"begin2",0.5};
-closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-soundClosure[] = {"closure1",0.5,"closure2",0.5};
-weaponSoundEffect = "DefaultRifle";
-reloadTime = 0.084;
-dispersion=0.000261799;
-maxrange = 600;
-maxrangeprobab = 0.05;
-midrange = 300;
-midrangeprobab = 0.7;
-minrange = 1;
-minrangeprobab = 0.3;
-airateoffire = 4;
-};
-class Library {
-libTextDesc = "US Ordnance M60E4";
-};
-};
-class hlc_lmg_m249pip : hlc_lmg_mk48 {
-scope = public;
-magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_B_SAW","hlc_200rnd_556x45_T_SAW","hlc_30rnd_556x45_EPR","hlc_20rnd_556x45_STANAG","30Rnd_556x45_Stanag","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow"};
-model = "\hlc_wp_saw\mesh\m249e2\m249e2.p3d";
-reloadaction = "HLC_GestureReloadM60";
-descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-reloadmagazinesound[] = {"\hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
-picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-displayName = "M249E2";
-discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
-discretedistanceinitindex = 2;
-bg_bipod = 1; 
-handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-class WeaponSlotsInfo : WeaponSlotsInfo {
-mass = 102;
-class MuzzleSlot : SlotInfo {
-linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-compatibleItems[] = {"muzzle_snds_M"};
-};
-};
-class ItemInfo {
-priority = 1;
-RMBhint = "XMC";
-onHoverText = "TODO XMC DSS";
-};
-class FullAuto : Mode_FullAuto {
-sounds[] = {"StandardSound","SilencedSound"};
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                begin1[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
+                begin2[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
+                soundBegin[]={begin1,0.5, begin2,0.5};
+            };
+            begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
+            begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
+            soundBegin[] = {"begin1",0.5,"begin2",0.5};
+            closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
+            closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
+            soundClosure[] = {"closure1",0.5,"closure2",0.5};
+            weaponSoundEffect = "DefaultRifle";
+            reloadTime = 0.084;
+            dispersion=0.000261799;
+            maxrange = 600;
+            maxrangeprobab = 0.05;
+            midrange = 300;
+            midrangeprobab = 0.7;
+            minrange = 1;
+            minrangeprobab = 0.3;
+            airateoffire = 4;
+        };
+        class Library {
+            libTextDesc = "US Ordnance M60E4";
+        };
+    };
+    class hlc_lmg_m249pip : hlc_lmg_mk48 {
+        scope = public;
+        magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_B_SAW","hlc_200rnd_556x45_T_SAW","hlc_30rnd_556x45_EPR","hlc_20rnd_556x45_STANAG","30Rnd_556x45_Stanag","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow"};
+        model = "\hlc_wp_saw\mesh\m249e2\m249e2.p3d";
+        reloadaction = "HLC_GestureReloadM60";
+        descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
+        drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
+        reloadmagazinesound[] = {"\hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
+        picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
+        displayName = "M249E2";
+        discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
+        discretedistanceinitindex = 2;
+        bg_bipod = 1; 
+        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 102;
+            class MuzzleSlot : SlotInfo {
+                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+                compatibleItems[] = {"muzzle_snds_M"};
+            };
+        };
+        class ItemInfo {
+            priority = 1;
+            RMBhint = "XMC";
+            onHoverText = "TODO XMC DSS";
+        };
+        class FullAuto : Mode_FullAuto {
+            sounds[] = {"StandardSound","SilencedSound"};
 
-class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-weaponSoundEffect= "DefaultRifle";
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect  = "DefaultRifle";
 
-closure1[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
-closure2[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
-soundClosure[]={closure1,0.5, closure2,0.5};
-};
+                closure1[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
+                closure2[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
+                soundClosure[]={closure1,0.5, closure2,0.5};
+            };
 
-class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-begin1[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-begin2[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-begin3[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-};
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                begin1[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
+                begin2[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
+                begin3[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
+                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
+            };
 
-class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-begin1[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-begin2[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-soundBegin[]={begin1,0.5, begin2,0.5};
-};
-begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-soundBegin[] = {"begin1",0.5,"begin2",0.5};
-closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-soundClosure[] = {"closure1",0.5,"closure2",0.5};
-weaponSoundEffect = "DefaultRifle";
-reloadTime = 0.067;
-dispersion=0.000261799;
-maxrange = 600;
-maxrangeprobab = 0.05;
-midrange = 300;
-midrangeprobab = 0.7;
-minrange = 1;
-minrangeprobab = 0.3;
-airateoffire = 4;
-};
-class Library {
-libTextDesc = "FN USa M249E2 P";
-};
-};*/
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                begin1[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
+                begin2[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
+                soundBegin[]={begin1,0.5, begin2,0.5};
+            };
+            begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
+            begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
+            soundBegin[] = {"begin1",0.5,"begin2",0.5};
+            closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
+            closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
+            soundClosure[] = {"closure1",0.5,"closure2",0.5};
+            weaponSoundEffect = "DefaultRifle";
+            reloadTime = 0.067;
+            dispersion=0.000261799;
+            maxrange = 600;
+            maxrangeprobab = 0.05;
+            midrange = 300;
+            midrangeprobab = 0.7;
+            minrange = 1;
+            minrangeprobab = 0.3;
+            airateoffire = 4;
+        };
+        class Library {
+            libTextDesc = "FN USa M249E2 P";
+        };
+    };*/
 };

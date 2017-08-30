@@ -114,36 +114,36 @@ class CfgMagazines
         picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
     };
 
-/*
-//FAL MAGs
-class hlc_20rnd_762x51_b_fal;
-class hlc_20rnd_762x51_t_fal;
-class hlc_20rnd_762x51_s_fal;
+    /*
+    //FAL MAGs
+    class hlc_20rnd_762x51_b_fal;
+    class hlc_20rnd_762x51_t_fal;
+    class hlc_20rnd_762x51_s_fal;
 
-class hlc_20rnd_762x51_B_SCAR : hlc_20Rnd_762x51_B_fal {
-descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-displayname = "SCAR-H Mag (Ball) 20rnd 7.62mm";
-initspeed = 714;
-mass = 7;
-displaynameshort = "7.62mm Ball";
-picture = "\hlc_core\tex\ui\ammo\m_scarhball_ca.paa";
-};
-class hlc_20rnd_762x51_T_SCAR : hlc_20Rnd_762x51_T_fal {
-descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-displayname = "SCAR-H Mag (Tracer) 20rnd 7.62mm";
-initspeed = 714;
-mass = 7;
-displaynameshort = "7.62mm Tracer";
-picture = "\hlc_core\tex\ui\ammo\m_scarhTracer_ca.paa";
-};
-class hlc_20rnd_762x51_S_SCAR : hlc_20Rnd_762x51_S_fal {
-descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-displayname = "SCAR-H Mag (SubSonic) 20rnd 7.62mm";
-displaynameshort = "7.62mm Subsonic";
-picture = "\hlc_core\tex\ui\ammo\m_scarhsubsonic_ca.paa";
-mass = 7;
-};
-*/
+    class hlc_20rnd_762x51_B_SCAR : hlc_20Rnd_762x51_B_fal {
+    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
+    displayname = "SCAR-H Mag (Ball) 20rnd 7.62mm";
+    initspeed = 714;
+    mass = 7;
+    displaynameshort = "7.62mm Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_scarhball_ca.paa";
+    };
+    class hlc_20rnd_762x51_T_SCAR : hlc_20Rnd_762x51_T_fal {
+    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
+    displayname = "SCAR-H Mag (Tracer) 20rnd 7.62mm";
+    initspeed = 714;
+    mass = 7;
+    displaynameshort = "7.62mm Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_scarhTracer_ca.paa";
+    };
+    class hlc_20rnd_762x51_S_SCAR : hlc_20Rnd_762x51_S_fal {
+    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
+    displayname = "SCAR-H Mag (SubSonic) 20rnd 7.62mm";
+    displaynameshort = "7.62mm Subsonic";
+    picture = "\hlc_core\tex\ui\ammo\m_scarhsubsonic_ca.paa";
+    mass = 7;
+    };
+    */
 
 // Tommy Gun Drums
     class hlc_50Rnd_45ACP_B_1921 : 30Rnd_556x45_Stanag
@@ -260,7 +260,7 @@ mass = 7;
 	
 	
 	
-    class hlc_200Rnd_762x51_B_M80A1 : hlc_100Rnd_762x51_B_M60E4
+    class hlc_200Rnd_762x51_B_M80A1 : hlc_100Rnd_762x51_B_M60E4	                         // new belt for the m60/mg3
     {
         dlc = "Niarms_M60";
         author = "Toadie";
@@ -316,46 +316,46 @@ mass = 7;
 
 /*
 
-//Trenchgun loads
-class hlc_5Rnd_12G_Slug_Trench : hlc_30Rnd_545x39_T_ak {
-ammo = "B_12Gauge_Slug";
-count = 5;
-descriptionshort = "Type: 12 Gauge Slugs<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-displayname = "12 Gauge Slugs(M1897)";
-picture = "\A3\Weapons_F\Data\UI\M_12gauge_slugs_CA.paa";
-lastroundstracer = 0;
-scope = 0;
-tracersevery = 0;
-mass = 2;
-displaynameshort = "12 Gauge Slug";
-};
-class hlc_5Rnd_12G_Buck_Trench : hlc_30Rnd_545x39_T_ak {
-ammo = "B_12Gauge_Pellets";
-count = 5;
-descriptionshort = "Type: 12 Gauge Buckshot<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-displayname = "12 Gauge 00BuckShot (M1897)";
-lastroundstracer = 0;
-initspeed = 396;
-picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
-scope = 0;
-tracersevery = 0;
-mass = 2;
-displaynameshort = "12 Gauge 00Buck";
-};
-class hlc_5Rnd_12G_DISTRACTION_Trench : hlc_30Rnd_545x39_T_ak {
-ammo = "FH_12G_Distraction";
-count = 5;
-descriptionshort = "Type: 12 Gauge DISTRACTION<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-displayname = "12 Gauge DISTRACTION (M1897)";
-lastroundstracer = 0;
-initspeed = 396;
-mass = 1;
-picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
-scope = 0;
-tracersevery = 1;
-displaynameshort = "12 Gau-DISTRACTION";
-};
-*/
+    //Trenchgun loads
+    class hlc_5Rnd_12G_Slug_Trench : hlc_30Rnd_545x39_T_ak {
+        ammo = "B_12Gauge_Slug";
+        count = 5;
+        descriptionshort = "Type: 12 Gauge Slugs<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+        displayname = "12 Gauge Slugs(M1897)";
+        picture = "\A3\Weapons_F\Data\UI\M_12gauge_slugs_CA.paa";
+        lastroundstracer = 0;
+        scope = 0;
+        tracersevery = 0;
+        mass = 2;
+        displaynameshort = "12 Gauge Slug";
+    };
+    class hlc_5Rnd_12G_Buck_Trench : hlc_30Rnd_545x39_T_ak {
+        ammo = "B_12Gauge_Pellets";
+        count = 5;
+        descriptionshort = "Type: 12 Gauge Buckshot<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+        displayname = "12 Gauge 00BuckShot (M1897)";
+        lastroundstracer = 0;
+        initspeed = 396;
+        picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
+        scope = 0;
+        tracersevery = 0;
+        mass = 2;
+        displaynameshort = "12 Gauge 00Buck";
+    };
+    class hlc_5Rnd_12G_DISTRACTION_Trench : hlc_30Rnd_545x39_T_ak {
+        ammo = "FH_12G_Distraction";
+        count = 5;
+        descriptionshort = "Type: 12 Gauge DISTRACTION<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+        displayname = "12 Gauge DISTRACTION (M1897)";
+        lastroundstracer = 0;
+        initspeed = 396;
+        mass = 1;
+        picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
+        scope = 0;
+        tracersevery = 1;
+        displaynameshort = "12 Gau-DISTRACTION";
+    };
+    */
 
 //Bren Gun
     class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 
@@ -534,29 +534,29 @@ displaynameshort = "12 Gau-DISTRACTION";
         displaynameshort = "9x19mm Ball";
     };
 
-/*
-class hlc_32rnd_9x19_B_MP40 : hlc_50Rnd_45ACP_B_1921 {
-ammo = "HLC_9x19_Ball";
-initspeed = 400;
-count = 32;
-descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
-displayname = "MP40 Mag (Ball) 32rnd 9x19mm";
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
-scope = 2;
-tracersevery = 2;
-mass = 4;
-displaynameshort = "9x19mm Ball";
-};
-class hlc_30rnd_9x19_B_MAB38 : hlc_32rnd_9x19_B_sten {
-count = 30;
-initspeed = 429;
-descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 30<br />Used in: Sten";
-displayname = "MAB38 Mag (Ball) 32rnd 9x19mm";
-displaynameshort = "9x19mm Ball";
-mass = 4;
-};
-*/
+    /*
+    class hlc_32rnd_9x19_B_MP40 : hlc_50Rnd_45ACP_B_1921 {
+    ammo = "HLC_9x19_Ball";
+    initspeed = 400;
+    count = 32;
+    descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
+    displayname = "MP40 Mag (Ball) 32rnd 9x19mm";
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
+    scope = 2;
+    tracersevery = 2;
+    mass = 4;
+    displaynameshort = "9x19mm Ball";
+    };
+    class hlc_30rnd_9x19_B_MAB38 : hlc_32rnd_9x19_B_sten {
+    count = 30;
+    initspeed = 429;
+    descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 30<br />Used in: Sten";
+    displayname = "MAB38 Mag (Ball) 32rnd 9x19mm";
+    displaynameshort = "9x19mm Ball";
+    mass = 4;
+    };
+    */
 
 //HK45C Mags
     class hlc_8Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 
@@ -684,268 +684,268 @@ mass = 4;
         picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
         };
 
-/*
-//Lewis Gun Pans
-class hlc_97Rnd_303_B_Lewis : hlc_30Rnd_303_B_bren {
-ammo = "HLC_303Brit_B";
-count = 97;
-descriptionshort = "Caliber: .303British Ball<br />Rounds: 97<br />Used in: Lewis";
-displayname = "Lewis Pan (Ball) 30rnd .303British";
-picture = "\hlc_core\tex\ui\ammo\m_lewisball_ca.paa";
-lastroundstracer = 10;
-initspeed = 840;
-mass = 29;
-displaynameshort = ".303British Ball";
-};
-class hlc_97Rnd_303_T_Lewis : hlc_30Rnd_303_T_bren {
-ammo = "HLC_303Brit_T";
-count = 97;
-descriptionshort = "Caliber: .303British Tracer<br />Rounds: 97<br />Used in: Lewis";
-displayname = "Lewis Pan (Tracer) 97rnd .303British";
-lastroundstracer = 1;
-initspeed = 770;
-tracersevery = 3;
-mass = 29;
-displaynameshort = ".303British Tracer";
-picture = "\hlc_core\tex\ui\ammo\m_lewistracer_ca.paa";
-};
-class hlc_97Rnd_303_AP_Lewis : hlc_30Rnd_303_AP_bren {
-ammo = "HLC_303Brit_AP";
-count = 97;
-descriptionshort = "Caliber: .303British AP<br />Rounds: 97<br />Used in: Lewis";
-displayname = "Lewis Pan (AP) 97rnd .303British";
-lastroundstracer = 0;
-initspeed = 720;
-tracersevery = 1;
-mass = 29;
-displaynameshort = ".303British AP";
-picture = "\hlc_core\tex\ui\ammo\m_lewistracer_ca.paa";
-};
+    /*
+    //Lewis Gun Pans
+    class hlc_97Rnd_303_B_Lewis : hlc_30Rnd_303_B_bren {
+    ammo = "HLC_303Brit_B";
+    count = 97;
+    descriptionshort = "Caliber: .303British Ball<br />Rounds: 97<br />Used in: Lewis";
+    displayname = "Lewis Pan (Ball) 30rnd .303British";
+    picture = "\hlc_core\tex\ui\ammo\m_lewisball_ca.paa";
+    lastroundstracer = 10;
+    initspeed = 840;
+    mass = 29;
+    displaynameshort = ".303British Ball";
+    };
+    class hlc_97Rnd_303_T_Lewis : hlc_30Rnd_303_T_bren {
+    ammo = "HLC_303Brit_T";
+    count = 97;
+    descriptionshort = "Caliber: .303British Tracer<br />Rounds: 97<br />Used in: Lewis";
+    displayname = "Lewis Pan (Tracer) 97rnd .303British";
+    lastroundstracer = 1;
+    initspeed = 770;
+    tracersevery = 3;
+    mass = 29;
+    displaynameshort = ".303British Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_lewistracer_ca.paa";
+    };
+    class hlc_97Rnd_303_AP_Lewis : hlc_30Rnd_303_AP_bren {
+    ammo = "HLC_303Brit_AP";
+    count = 97;
+    descriptionshort = "Caliber: .303British AP<br />Rounds: 97<br />Used in: Lewis";
+    displayname = "Lewis Pan (AP) 97rnd .303British";
+    lastroundstracer = 0;
+    initspeed = 720;
+    tracersevery = 1;
+    mass = 29;
+    displaynameshort = ".303British AP";
+    picture = "\hlc_core\tex\ui\ammo\m_lewistracer_ca.paa";
+    };
 
 
-//PKM BOXES HOLD ONTO YOUR BUTT
-class hlc_100Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_ball";
-count =100;
-descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Ball) 100rnd 7.62x54mm";
-initspeed = 825;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm100ball_ca.paa";
-scope = 2;
-tracersevery = 0;
-mass = 25;
-displaynameshort = "7.62x54mm Ball";
-};
-class hlc_100Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_tracer";
-count =100;
-descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Mixed) 100rnd 7.62x54mm";
-initspeed = 798;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm100mixed_ca.paa";
-scope = 2;
-tracersevery = 4;
-mass = 25;
-displaynameshort = "7.62x54mm Ball/Tracer";
-};
-class hlc_100Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_tracer";
-count =100;
-descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Tracer) 100rnd 7.62x54mm";
-initspeed = 798;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm100tracer_ca.paa";
-scope = 2;
-tracersevery = 1;
-mass = 25;
-displaynameshort = "7.62x54mm 7T2 Tracer";
-};
-class hlc_250Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_ball";
-count =250;
-descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Ball) 250rnd 7.62x54mm";
-initspeed = 825;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm250ball_ca.paa";
-scope = 2;
-tracersevery = 0;
-mass = 63;
-displaynameshort = "7.62x54mm Ball";
-};
-class hlc_250Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_tracer";
-count =250;
-descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Mixed) 250rnd 7.62x54mm";
-initspeed = 798;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm250mixed_ca.paa";
-scope = 2;
-tracersevery = 4;
-mass = 63;
-displaynameshort = "7.62x54mm Ball/Tracer";
-};
-class hlc_250Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_tracer";
-count =250;
-descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (Tracer) 250rnd 7.62x54mm";
-initspeed = 798;
-lastroundstracer = 1;
-picture = "\hlc_core\tex\ui\ammo\m_pkm250tracer_ca.paa";
-scope = 2;
-tracersevery = 1;
-mass = 63;
-displaynameshort = "7.62x54mm 7T2 Tracer";
-};
-class hlc_100Rnd_762x54_AP_PKM : 30Rnd_556x45_Stanag {
-ammo = "HLC_762x54_AP";
-count =100;
-descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (AP) 100rnd 7.62x54mm";
-initspeed = 825;
-lastroundstracer = 3;
-picture = "\hlc_core\tex\ui\ammo\m_pkm100ap_ca.paa";
-scope = 2;
-tracersevery = 0;
-mass = 25;
-displaynameshort = "7.62x54mm 7N13 AP";
-};
-class hlc_250Rnd_762x54_AP_PKM : hlc_100Rnd_762x54_AP_PKM {
-ammo = "HLC_762x54_AP";
-count =250;
-descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 100<br />Used in: PKM";
-displayname = "PKM Belt (AP) 250rnd 7.62x54mm";
-initspeed = 825;
-lastroundstracer = 3;
-picture = "\hlc_core\tex\ui\ammo\m_pkm250ap_ca.paa";
-scope = 2;
-tracersevery = 0;
-mass = 63;
-displaynameshort = "7.62x54mm 7N13 AP";
-};
+    //PKM BOXES HOLD ONTO YOUR BUTT
+    class hlc_100Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_ball";
+    count =100;
+    descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Ball) 100rnd 7.62x54mm";
+    initspeed = 825;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100ball_ca.paa";
+    scope = 2;
+    tracersevery = 0;
+    mass = 25;
+    displaynameshort = "7.62x54mm Ball";
+    };
+    class hlc_100Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_tracer";
+    count =100;
+    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Mixed) 100rnd 7.62x54mm";
+    initspeed = 798;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100mixed_ca.paa";
+    scope = 2;
+    tracersevery = 4;
+    mass = 25;
+    displaynameshort = "7.62x54mm Ball/Tracer";
+    };
+    class hlc_100Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_tracer";
+    count =100;
+    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Tracer) 100rnd 7.62x54mm";
+    initspeed = 798;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100tracer_ca.paa";
+    scope = 2;
+    tracersevery = 1;
+    mass = 25;
+    displaynameshort = "7.62x54mm 7T2 Tracer";
+    };
+    class hlc_250Rnd_762x54_B_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_ball";
+    count =250;
+    descriptionshort = "Caliber: 7.62x54mm Ball<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Ball) 250rnd 7.62x54mm";
+    initspeed = 825;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250ball_ca.paa";
+    scope = 2;
+    tracersevery = 0;
+    mass = 63;
+    displaynameshort = "7.62x54mm Ball";
+    };
+    class hlc_250Rnd_762x54_M_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_tracer";
+    count =250;
+    descriptionshort = "Caliber: 7.62x54mm Ball/Tracer Mix<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Mixed) 250rnd 7.62x54mm";
+    initspeed = 798;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250mixed_ca.paa";
+    scope = 2;
+    tracersevery = 4;
+    mass = 63;
+    displaynameshort = "7.62x54mm Ball/Tracer";
+    };
+    class hlc_250Rnd_762x54_T_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_tracer";
+    count =250;
+    descriptionshort = "Caliber: 7.62x54mm 7T2 Tracer<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (Tracer) 250rnd 7.62x54mm";
+    initspeed = 798;
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250tracer_ca.paa";
+    scope = 2;
+    tracersevery = 1;
+    mass = 63;
+    displaynameshort = "7.62x54mm 7T2 Tracer";
+    };
+    class hlc_100Rnd_762x54_AP_PKM : 30Rnd_556x45_Stanag {
+    ammo = "HLC_762x54_AP";
+    count =100;
+    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (AP) 100rnd 7.62x54mm";
+    initspeed = 825;
+    lastroundstracer = 3;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm100ap_ca.paa";
+    scope = 2;
+    tracersevery = 0;
+    mass = 25;
+    displaynameshort = "7.62x54mm 7N13 AP";
+    };
+    class hlc_250Rnd_762x54_AP_PKM : hlc_100Rnd_762x54_AP_PKM {
+    ammo = "HLC_762x54_AP";
+    count =250;
+    descriptionshort = "Caliber: 7.62x54mm 7N13 AP<br />Rounds: 100<br />Used in: PKM";
+    displayname = "PKM Belt (AP) 250rnd 7.62x54mm";
+    initspeed = 825;
+    lastroundstracer = 3;
+    picture = "\hlc_core\tex\ui\ammo\m_pkm250ap_ca.paa";
+    scope = 2;
+    tracersevery = 0;
+    mass = 63;
+    displaynameshort = "7.62x54mm 7N13 AP";
+    };
 
-//Breda LMG
-class hlc_20Rnd_735_B_Breda : hlc_6Rnd_735_B_Carcano {
-count = 20;
-ammo = "HLC_542x42_ball";
-descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 20<br />Used in: Breda";
-displayname = "Breda (Ball) 20rnd 6.5mm";
-initspeed = 630;
-mass = 10;
-displaynameshort = "6.5x52mm Ball";
-picture = "\hlc_core\tex\ui\ammo\m_bredaball_ca.paa";
-};
-class hlc_20Rnd_735_T_Breda : hlc_6Rnd_735_T_Carcano {
-ammo = "HLC_542x42_tracer";
-count = 20;
-descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 20<br />Used in: Breda";
-displayname = "Breda (Tracer) 20rnd 6.5mm";
-tracersevery = 1;
-initspeed = 630;
-mass = 10;
-displaynameshort = "6.5x52mm Tracer";
-picture = "\hlc_core\tex\ui\ammo\m_bredatracer_ca.paa";
-};
+    //Breda LMG
+    class hlc_20Rnd_735_B_Breda : hlc_6Rnd_735_B_Carcano {
+    count = 20;
+    ammo = "HLC_542x42_ball";
+    descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 20<br />Used in: Breda";
+    displayname = "Breda (Ball) 20rnd 6.5mm";
+    initspeed = 630;
+    mass = 10;
+    displaynameshort = "6.5x52mm Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_bredaball_ca.paa";
+    };
+    class hlc_20Rnd_735_T_Breda : hlc_6Rnd_735_T_Carcano {
+    ammo = "HLC_542x42_tracer";
+    count = 20;
+    descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 20<br />Used in: Breda";
+    displayname = "Breda (Tracer) 20rnd 6.5mm";
+    tracersevery = 1;
+    initspeed = 630;
+    mass = 10;
+    displaynameshort = "6.5x52mm Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_bredatracer_ca.paa";
+    };
 
-//Kar98kClips
-class hlc_5Rnd_792_B_Kar98 : hlc_10Rnd_303_B_enfield {
-ammo = "HLC_792x57_Ball";
-count = 5;
-descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 5<br />Used in: Kar98";
-displayname = "Kar98 (Ball) 5rnd 7.92mm";
-tracersevery = 0;
-lastroundstracer = 1;
-initspeed = 770;
-mass = 2;
-displaynameshort = "7.92x57mm Ball";
-picture = "\hlc_core\tex\ui\ammo\m_k98ball_ca.paa";
-};
+    //Kar98kClips
+    class hlc_5Rnd_792_B_Kar98 : hlc_10Rnd_303_B_enfield {
+    ammo = "HLC_792x57_Ball";
+    count = 5;
+    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 5<br />Used in: Kar98";
+    displayname = "Kar98 (Ball) 5rnd 7.92mm";
+    tracersevery = 0;
+    lastroundstracer = 1;
+    initspeed = 770;
+    mass = 2;
+    displaynameshort = "7.92x57mm Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_k98ball_ca.paa";
+    };
 
-//MG34 Boxes
-class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
-count = 75;
-descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 75<br />Used in: MG34";
-displayname = "MG34 (Ball) 75rnd 7.92mm";
-picture = "\hlc_core\tex\ui\ammo\m_mg34ball_ca.paa";
-tracersevery = 3;
-mass = 17;
-initspeed = 762;
-displaynameshort = "7.92x57mm Ball";
-};
-class hlc_75rnd_792_T_MG34 : hlc_75rnd_792_B_MG34 {
-ammo = "HLC_792x57_Tracer";
-count = 75;
-descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 75<br />Used in: MG34";
-displayname = "MG34 (Tracer) 75rnd 7.92mm";
-picture = "\hlc_core\tex\ui\ammo\m_mg34tracer_ca.paa";
-tracersevery = 3;
-mass = 17;
-displaynameshort = "7.92x57mm Tracer";
-};
-class hlc_75rnd_792_AP_MG34 : hlc_75rnd_792_B_MG34 {
-ammo = "HLC_792x57_AP";
-count = 75;
-descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 75<br />Used in: MG34";
-displayname = "MG34 (AP) 75rnd 7.92mm";
-picture = "\hlc_core\tex\ui\ammo\m_mg34ap_ca.paa";
-tracersevery = 3;
-mass = 17;
-displaynameshort = "7.92x57mm Armour-Piercing";
-};
+    //MG34 Boxes
+    class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
+    count = 75;
+    descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 75<br />Used in: MG34";
+    displayname = "MG34 (Ball) 75rnd 7.92mm";
+    picture = "\hlc_core\tex\ui\ammo\m_mg34ball_ca.paa";
+    tracersevery = 3;
+    mass = 17;
+    initspeed = 762;
+    displaynameshort = "7.92x57mm Ball";
+    };
+    class hlc_75rnd_792_T_MG34 : hlc_75rnd_792_B_MG34 {
+    ammo = "HLC_792x57_Tracer";
+    count = 75;
+    descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 75<br />Used in: MG34";
+    displayname = "MG34 (Tracer) 75rnd 7.92mm";
+    picture = "\hlc_core\tex\ui\ammo\m_mg34tracer_ca.paa";
+    tracersevery = 3;
+    mass = 17;
+    displaynameshort = "7.92x57mm Tracer";
+    };
+    class hlc_75rnd_792_AP_MG34 : hlc_75rnd_792_B_MG34 {
+    ammo = "HLC_792x57_AP";
+    count = 75;
+    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 75<br />Used in: MG34";
+    displayname = "MG34 (AP) 75rnd 7.92mm";
+    picture = "\hlc_core\tex\ui\ammo\m_mg34ap_ca.paa";
+    tracersevery = 3;
+    mass = 17;
+    displaynameshort = "7.92x57mm Armour-Piercing";
+    };
 
 
-//TAC50 Mags
-class hlc_5Rnd_50BMG_B_TAC50 : hlc_50Rnd_45ACP_B_1921 {
-ammo = "B_127x99_Ball";
-count = 5;
-descriptionshort = "Caliber: .50 BMG Ball<br />Rounds: 5<br />Used in: TAC-50";
-displayname = "TAC-50 Ball 5rnd .50BMG";
-lastroundstracer = 0;
-initspeed = 1024;
-mass = 12;
-displaynameshort = ".50 BMG Ball";
-picture = "\hlc_core\tex\ui\ammo\m_tac50ball_ca.paa";
-};
-class hlc_5Rnd_50BMG_T_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
-ammo = "B_127x99_Ball_Tracer_Red";
-count = 5;
-descriptionshort = "Caliber: .50 BMG Tracer<br />Rounds: 5<br />Used in: TAC-50";
-displayname = "TAC-50 Tracer 5rnd .50BMG";
-lastroundstracer = 0;
-initspeed = 928;
-tracersevery = 1;
-mass = 12;
-displaynameshort = ".50 BMG Tracer";
-picture = "\hlc_core\tex\ui\ammo\m_tac50tracer_ca.paa";
-};
-class hlc_5Rnd_50BMG_SLAP_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
-ammo = "FH_50BMG_SLAP";
-count = 5;
-descriptionshort = "Caliber: .50 BMG SLAP<br />Rounds: 5<br />Used in: TAC-50";
-displayname = "TAC-50 SLAP 5rnd .50BMG";
-lastroundstracer = 0;
-initspeed = 1219;
-tracersevery = 1;
-mass = 12;
-displaynameshort = ".50 BMG SLAP";
-picture = "\hlc_core\tex\ui\ammo\m_tac50slap_ca.paa";
-};
-class hlc_5Rnd_50BMG_Raufoss_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
-ammo = "FH_50BMG_Raufoss";
-count = 5;
-descriptionshort = "Caliber: .50 BMG Raufoss<br />Rounds: 5<br />Used in: TAC-50";
-displayname = "TAC-50 Raufoss 5rnd .50BMG";
-lastroundstracer = 0;
-initspeed = 889;
-tracersevery = 1;
-mass = 12;
-displaynameshort = ".50 BMG Raufoss";
-picture = "\hlc_core\tex\ui\ammo\m_tac50raufoss_ca.paa";
-};
-*/
+    //TAC50 Mags
+    class hlc_5Rnd_50BMG_B_TAC50 : hlc_50Rnd_45ACP_B_1921 {
+    ammo = "B_127x99_Ball";
+    count = 5;
+    descriptionshort = "Caliber: .50 BMG Ball<br />Rounds: 5<br />Used in: TAC-50";
+    displayname = "TAC-50 Ball 5rnd .50BMG";
+    lastroundstracer = 0;
+    initspeed = 1024;
+    mass = 12;
+    displaynameshort = ".50 BMG Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_tac50ball_ca.paa";
+    };
+    class hlc_5Rnd_50BMG_T_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
+    ammo = "B_127x99_Ball_Tracer_Red";
+    count = 5;
+    descriptionshort = "Caliber: .50 BMG Tracer<br />Rounds: 5<br />Used in: TAC-50";
+    displayname = "TAC-50 Tracer 5rnd .50BMG";
+    lastroundstracer = 0;
+    initspeed = 928;
+    tracersevery = 1;
+    mass = 12;
+    displaynameshort = ".50 BMG Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_tac50tracer_ca.paa";
+    };
+    class hlc_5Rnd_50BMG_SLAP_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
+    ammo = "FH_50BMG_SLAP";
+    count = 5;
+    descriptionshort = "Caliber: .50 BMG SLAP<br />Rounds: 5<br />Used in: TAC-50";
+    displayname = "TAC-50 SLAP 5rnd .50BMG";
+    lastroundstracer = 0;
+    initspeed = 1219;
+    tracersevery = 1;
+    mass = 12;
+    displaynameshort = ".50 BMG SLAP";
+    picture = "\hlc_core\tex\ui\ammo\m_tac50slap_ca.paa";
+    };
+    class hlc_5Rnd_50BMG_Raufoss_TAC50 : hlc_5Rnd_50BMG_B_TAC50 {
+    ammo = "FH_50BMG_Raufoss";
+    count = 5;
+    descriptionshort = "Caliber: .50 BMG Raufoss<br />Rounds: 5<br />Used in: TAC-50";
+    displayname = "TAC-50 Raufoss 5rnd .50BMG";
+    lastroundstracer = 0;
+    initspeed = 889;
+    tracersevery = 1;
+    mass = 12;
+    displaynameshort = ".50 BMG Raufoss";
+    picture = "\hlc_core\tex\ui\ammo\m_tac50raufoss_ca.paa";
+    };
+    */
 };
