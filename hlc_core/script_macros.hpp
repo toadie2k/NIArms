@@ -58,7 +58,7 @@
 #define __545x39_BI_MAGS "30Rnd_545x39_Mag_F", "30Rnd_545x39_Mag_Green_F", "30Rnd_545x39_Mag_Tracer_F", "30Rnd_545x39_Mag_Tracer_Green_F"
 #define __545x39_RHS_MAGS "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK_no_tracers", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_7U1_AK", "rhs_45Rnd_545x39_AK", "rhs_45Rnd_545x39_7N10_AK", "rhs_45Rnd_545x39_7N22_AK", "rhs_45Rnd_545x39_AK_green", "rhs_45Rnd_545x39_7U1_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_45Rnd_545x39_7N6_AK"
 
-#define __762x39_MAGS "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak", "hlc_75Rnd_762x39_m_rpk","hlc_30Rnd_762x39_AP_ak","hlc_45Rnd_762x39_AP_rpk","hlc_75Rnd_762x39_AP_rpk"
+#define __762x39_MAGS "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak_orig", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak", "hlc_75Rnd_762x39_m_rpk","hlc_30Rnd_762x39_AP_ak","hlc_45Rnd_762x39_AP_rpk","hlc_75Rnd_762x39_AP_rpk"
 #define __762x39_BI_MAGS "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_Green_F", "30Rnd_762x39_Mag_Tracer_F", "30Rnd_762x39_Mag_Tracer_Green_F"
 #define __762x39_RHS_MAGS "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_U"
 

@@ -10,7 +10,7 @@ class CfgPatches {
             "Weapon_hlc_rifle_aks74u","Weapon_hlc_rifle_aek971worn","Weapon_hlc_rifle_aek971","Weapon_hlc_rifle_ak47","Weapon_hlc_rifle_akm","Weapon_hlc_rifle_akmgl","Weapon_hlc_rifle_rpk","Weapon_hlc_rifle_rpk74n","Weapon_hlc_rifle_saiga12k"
         };
         weapons[] = {"HLC_Optic_PSO1","HLC_Optic_1p29","hlc_muzzle_545SUP_AK","hlc_muzzle_762SUP_AK","hlc_rifle_ak74","hlc_rifle_aks74","hlc_optic_kobra","hlc_optic_goshawk","hlc_rifle_ak12","hlc_rifle_aks74u","hlc_rifle_ak47","hlc_rifle_akm","hlc_rifle_akmgl","hlc_rifle_rpk","hlc_rifle_aks74_GL","hlc_rifle_aek971","hlc_rifle_saiga12k"};
-        magazines[] = { "hlc_10rnd_12g_buck_S12", "hlc_10rnd_12g_slug_S12", "hlc_30Rnd_545x39_B_AK", "hlc_30Rnd_545x39_t_ak", "hlc_45Rnd_545x39_t_rpk", "hlc_30Rnd_545x39_EP_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_m_rpk", "hlc_75Rnd_762x39_m_rpk", "hlc_VOG25_AK", "hlc_GRD_Red", "hlc_GRD_blue", "hlc_GRD_green", "hlc_GRD_yellow", "hlc_GRD_white", "hlc_GRD_purple", "hlc_GRD_orange", "hlc_30Rnd_762x39_b_akm" };
+        magazines[] = { "hlc_10rnd_12g_buck_S12", "hlc_10rnd_12g_slug_S12", "hlc_30Rnd_545x39_B_AK", "hlc_30Rnd_545x39_t_ak", "hlc_45Rnd_545x39_t_rpk", "hlc_30Rnd_545x39_EP_ak", "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_t_rpk", "hlc_45Rnd_762x39_m_rpk", "hlc_75Rnd_762x39_m_rpk", "hlc_VOG25_AK", "hlc_GRD_Red", "hlc_GRD_blue", "hlc_GRD_green", "hlc_GRD_yellow", "hlc_GRD_white", "hlc_GRD_purple", "hlc_GRD_orange", "hlc_30Rnd_762x39_b_ak_orig" };
         version="V2.1";
         author="toadie";
     };
@@ -417,16 +417,16 @@ class CfgMagazines {
         ammo = "HLC_762x39_Ball";
         count = 30;
         displaynameshort = "M43 Ball";
-        displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball (DOI: 1944) Original Magazine used in AK47 / AKM / RPK";
-        initspeed = 710;
+        displayname = "AKM Mag (Ball) 30rnd 7.62mm";
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball, Magazine (DOI: 1959) used in AK47 / AKM / RPK";
+        initspeed = 718;
         lastroundstracer = 1;
         tracersevery = 0;
-        mass = 20.3;                                            // old fashioned, original heavy ak 47 magazine before the akm came out: 920 gramm
+        mass = 14.5;                                             //akm magazine is much lighter
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
     };
-    class hlc_30Rnd_762x39_b_akm : 30Rnd_556x45_Stanag {        // is new class to have also a lighter magazine
+    class hlc_30Rnd_762x39_b_ak_orig : 30Rnd_556x45_Stanag {        // is new class to have the original ak 47 magazine
         dlc = "Niarms_AK";
         author = "Toadie";
         scope = 2;
@@ -434,11 +434,11 @@ class CfgMagazines {
         count = 30;
         displaynameshort = "M43 Ball";
         displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
-        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball, Magazine (DOI: 1959) used in AK47 / AKM / RPK";
-        initspeed = 718;
-        mass = 14.5;                         //akm magazine is lighter
+        descriptionshort = "Caliber: 7.62x39mm 57-N-231 M43 Ball (DOI: 1944) Original Magazine used in AK47 / AKM / RPK";        
+        initspeed = 710;
+        mass = 20.3;                        // old fashioned, original heavy ak 47 magazine before the akm came out: 920 gramm
         tracersevery = 0;
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         picture = "\hlc_wp_ak\tex\ui\m_ak47_b_ca.paa";
         model = "\hlc_wp_ak\mesh\magazine\magazine.p3d";
     };
