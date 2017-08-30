@@ -278,7 +278,7 @@ class CfgMagazines
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 100";
         displayname = "Gurt34-Link Belt (FMJ) 100rnd 7.92mm";
-        mass = 72;
+        mass = 63.3;
     };
     class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
     {
@@ -287,7 +287,7 @@ class CfgMagazines
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 200";
         displayname = "Gurt34-Link Belt (FMJ) 200rnd 7.92mm";
-        mass = 120;
+        mass = 126.6;
     };
 
     class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 {
