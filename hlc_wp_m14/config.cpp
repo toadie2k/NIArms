@@ -576,8 +576,8 @@ class CfgWeapons {
             __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
 
-        drysound[] = { "\hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
+        drysound[] = { "hlc_wp_m14\snd\soundshaders\m14_dry", 1, 1, 10 };
+        reloadmagazinesound[] = { "hlc_wp_M14\snd\soundshaders\m14_reload", 0.7, 1, 18 };
         reloadaction = "HLC_GestureReloadm14";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
     };

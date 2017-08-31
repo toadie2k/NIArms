@@ -428,8 +428,8 @@ class CfgWeapons {
         aiDispersionCoefY = 10;
         aiDispersionCoefX = 8;
 
-        drysound[] = { "\hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
+        drysound[] = { "hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
+        reloadmagazinesound[] = { "hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
 
         class ItemInfo {
             priority = 1;

@@ -812,7 +812,7 @@ class CfgWeapons {
             showToPlayer = 0;
             __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
-        drysound[] = { "\hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
+        drysound[] = { "hlc_wp_aug\snd\clipempty_rifle", 1, 1, 10 };
         reloadMagazineSound[] = { "hlc_wp_aug\snd\f88a1_reload2", 1, 1, 30 };
 
         class ItemInfo {

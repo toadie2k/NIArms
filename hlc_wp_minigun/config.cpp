@@ -358,7 +358,7 @@ class CfgWeapons {
             aiRateOfFire = 2.0;
             aiRateOfFireDistance = 200;
         };
-        drysound[] = { "\hlc_wp_minigun\snd\m134_dryfire", 1, 1, 10 };
-        reloadMagazineSound[] = { "\hlc_wp_minigun\snd\m134_reload", 0.74, 1, 17 };
+        drysound[] = { "hlc_wp_minigun\snd\m134_dryfire", 1, 1, 10 };
+        reloadMagazineSound[] = { "hlc_wp_minigun\snd\m134_reload", 0.74, 1, 17 };
     };
 };

@@ -437,8 +437,8 @@ class CfgWeapons {
 		aiDispersionCoefY = 10;
 		aiDispersionCoefX = 8;
 
-		drysound[] = { "\hlc_core\sound\empty_machineguns", 1, 1, 10 };
-		reloadmagazinesound[] = { "\hlc_core\sound\empty_machineguns", 0.5, 1,10 };
+		drysound[] = { "hlc_core\sound\empty_machineguns", 1, 1, 10 };
+		reloadmagazinesound[] = { "hlc_core\sound\empty_machineguns", 0.5, 1,10 };
 	};
 
 
@@ -481,8 +481,8 @@ class CfgWeapons {
 		model = "\hlc_wp_springfield\mesh\1903A1fUnertl\1903A1.p3d";
 		reloadaction = "HLC_GestureReloadM1903A1_UN";
 		descriptionShort = "Springfield M1903A1 <br/>Sniper Rifle<br/>Caliber: .30-06";
-		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
-		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1Unertl_reload", 0.8, 1, 20 };
+		drysound[] = { "hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
+		reloadmagazinesound[] = { "hlc_wp_springfield\snd\1903A1Unertl_reload", 0.8, 1, 20 };
 		modeloptics[] = { "\hlc_wp_springfield\mesh\1903A1Unertl\fine_reticle" };
 		inertia = 0.51;
         __DEXTERITY(5.1, 0);
@@ -582,7 +582,7 @@ class CfgWeapons {
 		model = "\hlc_wp_springfield\mesh\1903A1\1903A1.p3d";
 		reloadaction = "HLC_GestureReloadM1903A1";
 		descriptionShort = "Springfield M1903A1<br/>Infantry Rifle<br/>Caliber: .30-06";
-		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
+		drysound[] = { "hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
 		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1_reload_noscope", 0.8, 1, 20 };
 		inertia = 0.43;
         __DEXTERITY(4.43, 0);

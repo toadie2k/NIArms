@@ -619,7 +619,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         modes[] = { "Single", "FullAuto", "single_close_optics1", "single_medium_optics1", "single_far_optics1", "fullauto_medium" };
         reloadmagazinesound[] = { "hlc_wp_sigamt\snd\sigamt_reload", 0.630957, 1, 35 };
-        changeFiremodeSound[] = { "\hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
+        changeFiremodeSound[] = { "hlc_wp_sigamt\snd\amtswitch", 1, 1, 8 };
         soundbullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
