@@ -1,5 +1,6 @@
 class CfgMagazines 
 {
+
     class 30Rnd_556x45_Stanag;
 
     class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag
