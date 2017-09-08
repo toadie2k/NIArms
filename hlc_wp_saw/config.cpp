@@ -424,8 +424,8 @@ class CfgWeapons
         };
         __AI_DISPERSION_COEF;
 
-        drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
-        reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
+        drysound[] = {"hlc_core\sound\empty_machineguns", 1, 1, 10};
+        reloadmagazinesound[] = {"hlc_core\sound\empty_machineguns", 0.5, 1};
     };
     class hlc_lmg_minimipara : hlc_saw_base {
         dlc = "Niarms_SAW";
@@ -461,8 +461,8 @@ class CfgWeapons
         model = "\hlc_wp_saw\mesh\minimi_para\minimi.p3d";
         reloadaction = "HLC_GestureReloadM249";
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-        drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
+        drysound[] = { "hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
+        reloadmagazinesound[] = { "hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
         inertia = 0.65;
         __DEXTERITY(6.56, 0);
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
@@ -915,8 +915,8 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
         model = "\hlc_wp_saw\mesh\mk48_des\Mk48.p3d";
         reloadaction = "HLC_GestureReloadM60";
         descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
-        drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-        reloadmagazinesound[] = {"\hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
+        drysound[] = {"hlc_core\sound\empty_machineguns", 0.01, 1, 10};
+        reloadmagazinesound[] = {"hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
         displayName = "FN Mk.48 Mod.0";
         discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
@@ -987,8 +987,8 @@ class hlc_lmg_mk46 : hlc_lmg_minimi_railed
         model = "\hlc_wp_saw\mesh\m249e2\m249e2.p3d";
         reloadaction = "HLC_GestureReloadM60";
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-        drysound[] = {"\hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-        reloadmagazinesound[] = {"\hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
+        drysound[] = {"hlc_core\sound\empty_machineguns", 0.01, 1, 10};
+        reloadmagazinesound[] = {"hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
         displayName = "M249E2";
         discretedistance[] = {100, 200, 300, 400, 500,600,700,800};

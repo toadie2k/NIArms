@@ -974,8 +974,8 @@ class CfgWeapons {
                 burst = 2; 
                 textureType = "dual"; 
         };
-        drysound[] = {"\hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
-        reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
+        drysound[] = {"hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
+        reloadMagazineSound[] = { "hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
 
@@ -2482,7 +2482,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Main" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\nix_rk62\rk62_co.paa" };
 
-        drysound[] = { "\hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
+        drysound[] = { "hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rk62\rk62_reload", 1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK";
         recoil = "recoil_mx";

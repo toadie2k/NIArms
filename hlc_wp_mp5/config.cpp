@@ -311,7 +311,7 @@ class CfgWeapons {
         ACE_barrelLength = 228.6;
         drysound[] = {"hlc_wp_mp5\snd\mp5_dryfire", 1, 1, 20};
         changeFiremodeSound[] = { "hlc_wp_mp5\snd\mp5_safety", 1, 1, 8 };
-        reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
+        reloadmagazinesound[] = { "hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         magazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_GD_MP5", "hlc_30Rnd_9x19_SD_MP5"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;

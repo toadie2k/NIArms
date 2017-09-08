@@ -482,7 +482,7 @@ class hlc_acr_base : Rifle_Base_F {
         __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
     };
 
-    drysound[] = { "\hlc_core\sound\empty_assaultrifles", 1, 1, 10 };
+    drysound[] = { "hlc_core\sound\empty_assaultrifles", 1, 1, 10 };
     reloadMagazineSound[] = { "hlc_wp_acr\snd\ACR_reload", 0.74, 1, 30 };
     changeFiremodeSound[] = { "hlc_wp_acr\snd\ar15_selector", 1, 1, 8 };
     UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";

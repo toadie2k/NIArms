@@ -706,8 +706,8 @@ class CfgWeapons
             __AI_ROF_MG_VERYFAR_SCOPE_BURST;
         };
 
-        drysound[] = { "\hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg42_reload", 0.8, 1, 18 };
+        drysound[] = { "hlc_wp_mg3\snd\mg3_dryfire", 1, 1, 10 };
+        reloadmagazinesound[] = { "hlc_wp_mg3\snd\mg42_reload", 0.8, 1, 18 };
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
