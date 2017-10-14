@@ -40,7 +40,7 @@ class asdg_FrontSideRail;
 class asdg_OpticRail1913_short_MG;
 
 class CfgMovesBasic
-{
+    {
     class DefaultDie;
     class ManActions
     {
@@ -80,10 +80,6 @@ class CfgMovesBasic
                 HLC_GestureReloadMG42[] = { "HLC_GestureReloadMG42_Prone", "Gesture" };
                 HLC_GestureReloadMG3[] = { "HLC_GestureReloadMG3_Prone", "Gesture" };
             };
-
-
-
-
         };
     };
 };
@@ -251,13 +247,13 @@ class CfgVehicles
     __WEAPONHOLDER(hlc_lmg_MG3KWS, hlc_50Rnd_762x51_M_MG3, MG3KWS(Tan), Niarms_MG3, Toadie, MachineGuns);
     __WEAPONHOLDER(hlc_lmg_MG3KWS_b, hlc_50Rnd_762x51_M_MG3, MG3KWS(Black), Niarms_MG3, Toadie, MachineGuns);
     __WEAPONHOLDER(hlc_lmg_MG3KWS_g, hlc_50Rnd_762x51_M_MG3, MG3KWS(Green), Niarms_MG3, Toadie, MachineGuns);
-
 };
 
-class CfgMagazines{
+class CfgMagazines
+{
     class 30Rnd_556x45_Stanag;
-
-    class hlc_50Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag{
+    class hlc_50Rnd_792x57_B_MG42 : 30Rnd_556x45_Stanag 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_792x57_Ball";
@@ -270,26 +266,28 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 40;
-        displaynameshort = "FMJ";
+        mass = 31.7;
+        displaynameshort = "7.92mm FMJ";
         nameSound = "mgun";
         ACE_isBelt = 1;
     };
-    class hlc_100Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
+    class hlc_100Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 100";
         displayname = "Gurt34-Link Belt (FMJ) 100rnd 7.92mm";
-        mass = 72;
+        mass = 63.3;
     };
-    class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
+    class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm Ss Patrone<br />Type: Boat-Tailed Full-Metal Jacket<br />Rounds: 200";
         displayname = "Gurt34-Link Belt (FMJ) 200rnd 7.92mm";
-        mass = 120;
+        mass = 126.6;
     };
 
     class hlc_50Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_B_MG42 {
@@ -303,27 +301,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 40;
+        mass = 31.7;
         displaynameshort = "EPR/Tracer";
     };
-    class hlc_100Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
+    class hlc_100Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmKv/SmK L'spur<br />Type: Spitzgeschoﬂ mit Kern (Enhanced Penetrator FMJ)/Incendiary-tip Tracer<br />Rounds: 100";
         displayname = "Gurt34-Link Belt (EPR-Tracer) 100rnd 7.92mm";
-        mass = 72;
+        mass = 63.3;
     };
-    class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
+    class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmKv/SmK L'spur<br />Type: Spitzgeschoﬂ mit Kern (Enhanced Penetrator FMJ)/Incendiary-tip Tracer<br />Rounds: 200";
         displayname = "Gurt34-Link Belt (EPR-Tracer) 200rnd 7.92mm";
-        mass = 120;
+        mass = 126.6;
     };
-
-    class hlc_50Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_B_MG42 {
+    class hlc_50Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_B_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_792x57_Tracer";
@@ -335,27 +335,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 40;
-        displaynameshort = "SmKL' Tracer";
+        mass = 28.5;
+        displaynameshort = "7.92mm Tracer";
     };
-    class hlc_100Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
+    class hlc_100Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Type: Spitzgeschoﬂ mit Kern Leuchtspur (Spitzer with Tracer)<br />Rounds: 100";
         displayname = "Gurt34-Link Belt (Tracer) 100rnd 7.92mm";
-        mass = 72;
+        mass = 57;
     };
-    class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
+    class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmK L'Spur<br />Type: Spitzgeschoﬂ mit Kern Leuchtspur (Spitzer with Tracer)<br />Rounds: 200";
         displayname = "Gurt34/41 Belt (Tracer) 200rnd 7.92mm";
-        mass = 120;
+        mass = 113.9;
     };
-
-    class hlc_50Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_B_MG42 {
+    class hlc_50Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_B_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_792x57_AP";
@@ -366,27 +368,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg42AP_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 24;
+        mass = 30.5;
         displaynameshort = "SmKH AP";
     };
-    class hlc_100Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
+    class hlc_100Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.92x57mm SmKH <br />Type: Spitzgeschoﬂ mit Hartkern (Spitzer with Hard Core-Armor-Piercing)<br />Rounds: 100";
         displayname = "Gurt34-Link Belt (AP) 100rnd 7.92mm";
-        mass = 48;
+        mass = 61.1;
     };
-    class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
+    class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 200;
         descriptionshort = "Caliber: 7.92x57mm SmKH <br />Type: Spitzgeschoﬂ mit Hartkern (Spitzer with Hard Core-Armor-Piercing)<br />Rounds: 200";
         displayname = "Gurt34-Link Belt (AP) 200rnd 7.92mm";
-        mass = 96;
+        mass = 122.2;
     };
-
-    class hlc_50Rnd_762x51_B_MG3 : hlc_50Rnd_792x57_B_MG42 { 
+    class hlc_50Rnd_762x51_B_MG3 : hlc_50Rnd_792x57_B_MG42 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
@@ -399,27 +403,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 20;
+        mass = 29.1;
         displaynameshort = "M80A1 EPR";
     };
-    class hlc_100Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
+    class hlc_100Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
         displayname = "DM6-Link Belt (EPR) 100rnd 7.62mm";
-        mass = 48;
+        mass = 58.2;
     };
-    class hlc_250Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 {
+    class hlc_250Rnd_762x51_B_MG3 : hlc_50Rnd_762x51_B_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 250";
         displayname = "DM6-Link Belt (EPR) 250rnd 7.62mm";
-        mass = 110;
+        mass = 145.3;
     };
-
-    class hlc_50Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_B_MG3 {
+    class hlc_50Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_B_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
@@ -430,27 +436,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 20;
+        mass = 29.1;
         displaynameshort = "EPR/Tracer";
     };
-    class hlc_100Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
+    class hlc_100Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
         displayname = "DM6-Link Belt (Ball-Tracer Mix) 100rnd 7.62mm";
-        mass = 48;
+        mass = 58.2;
     };
-    class hlc_250Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 {
+    class hlc_250Rnd_762x51_M_MG3 : hlc_50Rnd_762x51_M_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 250";
         displayname = "DM6-Link Belt (Ball-Tracer Mix) 250rnd 7.62mm";
-        mass = 110;
+        mass = 145.3;
     };
-
-    class hlc_50Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_B_MG3 {
+    class hlc_50Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_B_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
@@ -461,27 +469,29 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 20;
+        mass = 29.1;
         displaynameshort = "Mk319/Tracer";
     };
-    class hlc_100Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
+    class hlc_100Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
         displayname = "DM6-Link Belt (Mk319-Tracer) 100rnd 7.62mm";
-        mass = 48;
+        mass = 58.2;
     };
-    class hlc_250Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 {
+    class hlc_250Rnd_762x51_Barrier_MG3 : hlc_50Rnd_762x51_Barrier_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 250";
         displayname = "DM6-Link Belt (Mk319-Tracer) 250rnd 7.62mm";
-        mass = 110;
+        mass = 145.3;
     };
-
-    class hlc_50Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_B_MG3 {
+    class hlc_50Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_B_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
@@ -492,30 +502,32 @@ class CfgMagazines{
         picture = "\hlc_wp_mg3\tex\ui\m_mg3tracer_ca.paa";
         scope = 2;
         tracersevery = 1;
-        mass = 20;
+        mass = 28;
         displaynameshort = "M62A1 Tracer";
     };
-    class hlc_100Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
+    class hlc_100Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 100;
         descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
         displayname = "DM6-Link Belt (Tracer) 100rnd 7.62mm";
-        mass = 48;
+        mass = 55.9;
     };
-    class hlc_250Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 {
+    class hlc_250Rnd_762x51_T_MG3 : hlc_50Rnd_762x51_T_MG3 
+    {
         dlc = "Niarms_MG3";
         author = "Toadie, Spartan0536";
         count = 250;
         descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 250";
         displayname = "DM6-Link Belt (Tracer) 250rnd 7.62mm";
-        mass = 110;
+        mass = 139.8;
     };
 };
 
-class CfgWeapons {
+class CfgWeapons 
+{
     class Rifle;
-
     class Rifle_Base_F : Rifle
     {
         class WeaponSlotsInfo;
@@ -547,8 +559,8 @@ class CfgWeapons {
         magazines[] = { __792MG42_MAGS };
         maxRecoilSway = 0.0150;
         swayDecaySpeed = 1.25;
-        recoil = "recoil_zafir";
-        __AI_DISPERSION_COEF;
+        recoil = "recoil_mmg";
+        recoilprone = "recoil_mmg_prone";
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "", "", "", "", "" };
         class GunParticles : GunParticles
@@ -705,9 +717,9 @@ class CfgWeapons {
             RMBhint = "XMC";
             onHoverText = "TODO XMC DSS";
         };
-   };
-
-    class hlc_lmg_MG42 : hlc_MG42_base {
+    };
+    class hlc_lmg_MG42 : hlc_MG42_base 
+    {
         maxZeroing = 1100;
         scope = public;
         author = "Toadie";
@@ -729,10 +741,9 @@ class CfgWeapons {
         __DEXTERITY(11.6,-3);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 242;
+        mass = 253.5;
         };
         inertia = 1.36;
-
         class Library
         {
             libTextDesc = "MG42";
@@ -746,7 +757,8 @@ class CfgWeapons {
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG42reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
-    class hlc_lmg_MG42KWS_t : hlc_lmg_MG42 {
+    class hlc_lmg_MG42KWS_t : hlc_lmg_MG42 
+    {
         author = "Toadie";
         model = "\hlc_wp_MG3\mesh\mg42\mg42kws.p3d";
         displayName = "Rheinmetall MG42-KWS(Tan)";
@@ -755,7 +767,7 @@ class CfgWeapons {
         __DEXTERITY(10.5,-2);
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 193;
+            mass = 253.5;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail{};
         };
@@ -777,8 +789,8 @@ class CfgWeapons {
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\mg3recieverkws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2kws_black_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_black_co.paa", "\hlc_wp_mg3\tex\standard\mg42gurtrommel_co.tga" };
     };
-
-    class hlc_lmg_MG3 : hlc_MG42_base {
+    class hlc_lmg_MG3 : hlc_MG42_base 
+    {
         maxZeroing = 1100;
         scope = public;
         author = "Toadie";
@@ -792,26 +804,23 @@ class CfgWeapons {
         reloadmagazinesound[] = { "\hlc_wp_mg3\snd\mg3_reload", 0.8, 1, 18 };
         hiddenSelections[] = { "Camo1", "Camo2", "Camo3", "Camo4", "Camo5" };
         __DEXTERITY(10.5,-3);
-        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.tga" };
-        magazines[] = { __762MG3_MAGS };
+        hiddenSelectionsTextures[] = { "\hlc_wp_mg3\tex\Standard\MG3reciever_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap1_Co.paa", "\hlc_wp_mg3\tex\Standard\partsmap2plastic_co.paa", "\hlc_wp_mg3\tex\Standard\partsmap3_co.paa", "\hlc_wp_mg3\tex\standard\MG3_drum_co.paa" };
+        magazines[] = {__762MG3_MAGS,__762NATO_BELTS,__762NATO_BI_BELTS};
         discretedistance[] = { 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100 };
         //cameradir = "aim_point";
         //discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
         distanceZoomMin = 100;
         distanceZoomMax = 1100;
         discretedistanceinitindex = 0;
-
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG42.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 220;
+            mass = 231.5;
         };
         inertia = 1.25;
-
         class FullAuto : FullAuto
         {
             class BaseSoundModeType;
-
             class StandardSound : BaseSoundModeType /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
             {
                 soundSetShot[] = { "MG3_Shot_SoundSet", "MG3_Tail_SoundSet" };
@@ -917,8 +926,8 @@ class CfgWeapons {
             libTextDesc = "MG3";
         };
     };
-
-    class hlc_lmg_MG3_optic : hlc_lmg_MG3 {
+    class hlc_lmg_MG3_optic : hlc_lmg_MG3 
+    {
         scope = public;
         author = "Toadie";
         model = "\hlc_wp_MG3\mesh\mg3\mg3_later.p3d";
@@ -929,15 +938,15 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 225;
+                mass = 237;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.30000001 };
                 iconScale = 0.2;
             };
         };
     };
-
-    class hlc_lmg_MG3KWS : hlc_lmg_MG3 {
+    class hlc_lmg_MG3KWS : hlc_lmg_MG3 
+    {
         scope = public;
         author = "Toadie";
         model = "\hlc_wp_MG3\mesh\mg3\mg3kws.p3d";
@@ -950,13 +959,12 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_MG3\anim\handpose_MG3kws.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo
         {
-            mass = 240;
+            mass = 237;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
             class PointerSlot : asdg_FrontSideRail {};
         };
         inertia = 1.20;
     };
-
     class hlc_lmg_MG3KWS_b :hlc_lmg_MG3KWS
     {
         author = "Toadie";

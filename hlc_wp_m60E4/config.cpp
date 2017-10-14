@@ -93,6 +93,8 @@ class CfgWeapons {
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
         aidispersioncoefy = 12;
+        recoil = "recoil_mmg";
+        recoilprone = "recoil_mmg_prone";
         class GunParticles : GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
@@ -257,7 +259,7 @@ class CfgWeapons {
         //modes[] = {"FullAuto"};
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 193;
+            mass = 207.2;
             class CowsSlot : asdg_OpticRail1913_short_MG {};
         };
         
@@ -317,7 +319,7 @@ class CfgWeapons {
             libTextDesc = "US Ordnance M60";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 168;
+            mass = 230;
         };
     };
 };

@@ -1137,7 +1137,7 @@ class CfgAmmo {
     // .30-06 M1 Ball
     class HLC_3006_FMJ :B_556x45_Ball {
         hit = 11.4;
-        airFriction = -0.00096;			//-0.00080900;
+        airFriction = -0.00096;            //-0.00080900;
         typicalSpeed = 810;
         //caliber = 0.922;
         caliber = 2;

@@ -49,7 +49,7 @@
 
 #define __556NATO_BI_DRUMS "150Rnd_556x45_Drum_Mag_F", "150Rnd_556x45_Drum_Mag_Tracer_F"
 
-#define __762NATO_BELTS "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4", "hlc_100Rnd_762x51_T_M60E4", "hlc_100Rnd_762x51_Mdim_M60E4"
+#define __762NATO_BELTS "hlc_100Rnd_762x51_M_M60E4", "hlc_100Rnd_762x51_B_M60E4", "hlc_100Rnd_762x51_Barrier_M60E4", "hlc_100Rnd_762x51_T_M60E4", "hlc_100Rnd_762x51_Mdim_M60E4","hlc_200Rnd_762x51_B_M80A1", "hlc_200Rnd_762x51_M_M80A1M62A1","hlc_200Rnd_762x51_Mdim_M80A1M276", "hlc_200Rnd_762x51_M_MK319M62A1", "hlc_200Rnd_762x51_T_M62A1"
 #define __762NATO_BI_BELTS "150Rnd_762x51_Box", "150Rnd_762x51_Box_Tracer"
 #define __762NATO_RHS_BELTS "rhsusf_50Rnd_762x51", "rhsusf_50Rnd_762x51_m61_ap", "rhsusf_50Rnd_762x51_m62_tracer", "rhsusf_50Rnd_762x51_m80a1epr", "rhsusf_50Rnd_762x51_m82_blank", "rhsusf_100Rnd_762x51", "rhsusf_100Rnd_762x51_m61_ap", "rhsusf_100Rnd_762x51_m62_tracer", "rhsusf_100Rnd_762x51_m80a1epr", "rhsusf_100Rnd_762x51_m82_blank", "rhsusf_50Rnd_762x51_m993", "rhsusf_100Rnd_762x51_m993"
 #define __762NATO_CUP_BELTS "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"
@@ -58,7 +58,7 @@
 #define __545x39_BI_MAGS "30Rnd_545x39_Mag_F", "30Rnd_545x39_Mag_Green_F", "30Rnd_545x39_Mag_Tracer_F", "30Rnd_545x39_Mag_Tracer_Green_F"
 #define __545x39_RHS_MAGS "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK_no_tracers", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N22_AK", "rhs_30Rnd_545x39_AK_green", "rhs_30Rnd_545x39_7U1_AK", "rhs_45Rnd_545x39_AK", "rhs_45Rnd_545x39_7N10_AK", "rhs_45Rnd_545x39_7N22_AK", "rhs_45Rnd_545x39_AK_green", "rhs_45Rnd_545x39_7U1_AK", "rhs_30Rnd_545x39_7N6_AK", "rhs_45Rnd_545x39_7N6_AK"
 
-#define __762x39_MAGS "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak", "hlc_75Rnd_762x39_m_rpk","hlc_30Rnd_762x39_AP_ak","hlc_45Rnd_762x39_AP_rpk","hlc_75Rnd_762x39_AP_rpk"
+#define __762x39_MAGS "hlc_30Rnd_762x39_b_ak", "hlc_30Rnd_762x39_b_ak_orig", "hlc_30Rnd_762x39_t_ak", "hlc_45Rnd_762x39_m_rpk", "HLC_45rnd_762x39_T_RPK", "hlc_30rnd_762x39_s_ak", "hlc_75Rnd_762x39_m_rpk","hlc_30Rnd_762x39_AP_ak","hlc_45Rnd_762x39_AP_rpk","hlc_75Rnd_762x39_AP_rpk"
 #define __762x39_BI_MAGS "30Rnd_762x39_Mag_F", "30Rnd_762x39_Mag_Green_F", "30Rnd_762x39_Mag_Tracer_F", "30Rnd_762x39_Mag_Tracer_Green_F"
 #define __762x39_RHS_MAGS "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_89", "rhs_30Rnd_762x39mm_U"
 
@@ -86,7 +86,7 @@
 #define __762M14_CUP_MAGS "CUP_20Rnd_762x51_DMR", "CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Red_Tracer_762x51_DMR", "CUP_20Rnd_TE1_Green_Tracer_762x51_DMR", "CUP_20Rnd_TE1_White_Tracer_762x51_DMR"
 
 #define __792MG42_MAGS "hlc_50Rnd_792x57_B_MG42","hlc_50Rnd_792x57_M_MG42","hlc_50Rnd_792x57_T_MG42", "hlc_100Rnd_792x57_B_MG42","hlc_100Rnd_792x57_M_MG42","hlc_100Rnd_792x57_T_MG42","hlc_200Rnd_792x57_B_MG42","hlc_200Rnd_792x57_M_MG42","hlc_200Rnd_792x57_T_MG42","hlc_50Rnd_792x57_AP_MG42","hlc_100Rnd_792x57_AP_MG42","hlc_200Rnd_792x57_AP_MG42"
-#define __762MG3_MAGS "hlc_50Rnd_762x51_B_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_Barrier_MG3","hlc_50Rnd_762x51_T_MG3","hlc_100Rnd_762x51_B_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_Barrier_MG3","hlc_100Rnd_762x51_T_MG3","hlc_250Rnd_762x51_B_MG3","hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3","hlc_250Rnd_762x51_Barrier_MG3","hlc_250Rnd_762x51_T_MG3"
+#define __762MG3_MAGS "hlc_50Rnd_762x51_B_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_Barrier_MG3","hlc_50Rnd_762x51_T_MG3","hlc_100Rnd_762x51_B_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_Barrier_MG3","hlc_100Rnd_762x51_T_MG3","hlc_250Rnd_762x51_B_MG3","hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3","hlc_250Rnd_762x51_Barrier_MG3","hlc_250Rnd_762x51_T_MG3","hlc_200Rnd_762x51_B_M80A1", "hlc_200Rnd_762x51_M_M80A1M62A1","hlc_200Rnd_762x51_Mdim_M80A1M276", "hlc_200Rnd_762x51_M_MK319M62A1", "hlc_200Rnd_762x51_T_M62A1"
 // calculate dexterity (how fast you can turn) with rifle based on it's total weight - meant to produce values close to BIS
 // __COMPONENTS = sum of parts defined below
 // __MODIF = 0 default, 1 for having a grip, 1 for bullpups, -3 for bulky weapons
