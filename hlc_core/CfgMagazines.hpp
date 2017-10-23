@@ -243,6 +243,207 @@ class CfgMagazines {
     };
 
 
+    class hlc_20Rnd_762x51_B_fal : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_FAL";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_ball";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
+        displayname = "FAL Mag (Ball) 20rnd 7.62mm";
+        initspeed = 908.4;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M80A1 EPR";
+    };
+    class hlc_20Rnd_762x51_mk316_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_MK316_20in";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
+        displayname = "FAL Mag (SBLR) 20rnd 7.62mm";
+        initspeed = 731;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK316 SBLR";
+    };
+    class hlc_20Rnd_762x51_barrier_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_Barrier";
+        count = 20;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
+        displayname = "FAL Mag (SOST) 20rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        initspeed = 890.4;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK319 OTM";
+    };
+    class hlc_20Rnd_762x51_T_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_tracer";
+        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
+        displayname = "FAL Mag (Tracer) 20rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
+        displaynameshort = "M62A1 Tracer";
+    };
+    class hlc_20Rnd_762x51_TDim_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
+        displayname = "FAL Mag (IR-DIM) 20rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
+        displaynameshort = "IR-DIM";
+    };
+    class hlc_50rnd_762x51_MDIM_FAL : hlc_20Rnd_762x51_B_fal {
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie, Spartan0536";
+        count = 50;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-FAL Magazine (EPR-IRDIM) 50rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        initspeed = 908.4;
+        mass = 17;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+    };
+    class hlc_20Rnd_762x51_S_fal : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_BTSub";
+        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 20";
+        displayname = "FAL Mag (SubSonic) 20rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 0;
+        initspeed = 325;
+        displaynameshort = "FMJ Subsonic";
+        picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
+    };
+    class hlc_50rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        count = 50;
+        mass = 17;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
+        displayname = "X-FAL Magazine (EPR-Tracer) 50rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        initspeed = 908.4;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+    };
+    class hlc_10Rnd_762x51_B_fal : 30Rnd_556x45_Stanag {
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        count = 10;
+        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 10";
+        displayname = "FAL Mag (Ball) 10rnd 7.62mm";
+        initspeed = 870;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M80A1 EPR";
+    };
+    class hlc_10Rnd_762x51_mk316_fal : hlc_10Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_762x51_MK316_20in";
+        count = 10;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 10";
+        displayname = "FAL Mag (SBLR) 10rnd 7.62mm";
+        initspeed = 890;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK316 SBLR";
+    };
+    class hlc_10Rnd_762x51_barrier_fal : hlc_10Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_762x51_Barrier";
+        count = 10;
+        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 10";
+        displayname = "FAL Mag (SOST) 10rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        initspeed = 850;
+        mass = 13;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK319 OTM";
+    };
+    class hlc_10Rnd_762x51_T_fal : hlc_10Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_762x51_tracer";
+        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 10s";
+        displayname = "FAL Mag (Tracer) 10rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
+        displaynameshort = "M62A1 Tracer";
+    };
+    class hlc_10Rnd_762x51_TDim_fal : hlc_10Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 10";
+        displayname = "FAL Mag (IR-DIM) 10rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
+        displaynameshort = "IR-DIM";
+    };
+    class hlc_10Rnd_762x51_S_fal : hlc_10Rnd_762x51_B_fal {
+        author = "Toadie";
+        ammo = "HLC_762x51_BTSub";
+        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 10";
+        displayname = "FAL Mag (SubSonic) 10rnd 7.62mm";
+        model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 13;
+        tracersevery = 0;
+        initspeed = 325;
+        displaynameshort = "FMJ Subsonic";
+        picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
+    };
+
     /*
 
     //Trenchgun loads

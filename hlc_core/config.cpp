@@ -24,6 +24,12 @@ class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
     class compatibleItems {
         hlc_muzzle_300blk_KAC = 1;
+        hlc_muzzle_MAG58_Brake = 1;
+    };
+};
+class asdg_MuzzleSlot_762MG : asdg_MuzzleSlot { // for 7.62, 6.5 and 5.56 universal mount MG suppressors
+    class compatibleItems {
+        hlc_muzzle_MAG58_Brake = 1;
     };
 };
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
@@ -55,6 +61,17 @@ class compatibleItems {
 };
 };
 
+class asdg_OpticRail1913 : asdg_OpticRail{
+    class compatibleItems {
+        hlc_optic_LeupoldM3A = 1;
+    };
+};
+class asdg_UnderSlot : asdg_SlotInfo
+{
+    class compatibleItems {
+        HLC_bipod_UTGShooters = 1;
+    };
+};
 class asdg_PistolUnderRail : asdg_SlotInfo  {
     linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
     displayName = "$STR_A3_PointerSlot0";
@@ -161,6 +178,11 @@ class CfgMovesBasic {
      class DefaultDie;
 
      class ManActions {
+        HLC_GestureRechamber3011 = "HLC_GestureRechamber3011";
+        HLC_GestureReload3011 = "HLC_GestureReload3011";
+        HLC_GestureReload3011_tac = "HLC_GestureReload3011_tac";
+        HLC_GestureReload3011_20rnd = "HLC_GestureReload3011_20rnd";
+        HLC_GestureReload3011_50rnd = "HLC_GestureReload3011_50rnd";
         HLC_GestureReloadAK = "HLC_GestureReloadAK";
         HLC_GestureReloadAK762 = "HLC_GestureReloadAK762";
         HLC_GestureReloadAK545OneHand= "HLC_GestureReloadAK545OneHand";
@@ -200,6 +222,11 @@ class CfgMovesBasic {
         class RifleAdjustProneBaseActions;
 
         class NoActions : ManActions {
+            HLC_GestureRechamber3011[] = { "HLC_GestureRechamber3011", "Gesture" };
+            HLC_GestureReload3011[] = { "HLC_GestureReload3011", "Gesture" };
+            HLC_GestureReload3011_tac[] = { "HLC_GestureReload3011_tac", "Gesture" };
+            HLC_GestureReload3011_20rnd[] = { "HLC_GestureReload3011_20rnd", "Gesture" };
+            HLC_GestureReload3011_50rnd[] = { "HLC_GestureReload3011_50rnd", "Gesture" };
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK", "Gesture"};
             HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762", "Gesture" };
             HLC_GestureReloadAK545OneHand[] = { "HLC_GestureReloadAK545OneHand", "Gesture" };
@@ -235,6 +262,11 @@ class CfgMovesBasic {
         };
 
         class RifleProneActions : RifleBaseStandActions {
+            HLC_GestureRechamber3011[] = { "HLC_GestureRechamber3011_Prone", "Gesture" };
+            HLC_GestureReload3011[] = { "HLC_GestureReload3011_Prone", "Gesture" };
+            HLC_GestureReload3011_tac[] = { "HLC_GestureReload3011_tac_Prone", "Gesture" };
+            HLC_GestureReload3011_20rnd[] = { "HLC_GestureReload3011_20rnd_Prone", "Gesture" };
+            HLC_GestureReload3011_50rnd[] = { "HLC_GestureReload3011_50rnd_Prone", "Gesture" };
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Prone","Gesture"};
             HLC_GestureReloadRPK[]= {"HLC_GestureReloadRPK_Prone","Gesture"};
             HLC_GestureReloadAK[]= {"HLC_GestureReloadAK_Prone","Gesture"};
@@ -268,6 +300,11 @@ class CfgMovesBasic {
         };
 
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
+            HLC_GestureRechamber3011[] = { "HLC_GestureRechamber3011_Context", "Gesture" };
+            HLC_GestureReload3011[] = { "HLC_GestureReload3011_Context", "Gesture" };
+            HLC_GestureReload3011_tac[] = { "HLC_GestureReload3011_tac_Context", "Gesture" };
+            HLC_GestureReload3011_20rnd[] = { "HLC_GestureReload3011_20rnd_Context", "Gesture" };
+            HLC_GestureReload3011_50rnd[] = { "HLC_GestureReload3011_50rnd_Context", "Gesture" };
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Context","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK_Context","Gesture"};
             HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762_Context", "Gesture" };
@@ -299,6 +336,11 @@ class CfgMovesBasic {
         };
 
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
+            HLC_GestureRechamber3011[] = { "HLC_GestureRechamber3011_Context", "Gesture" };
+            HLC_GestureReload3011[] = { "HLC_GestureReload3011_Context", "Gesture" };
+            HLC_GestureReload3011_tac[] = { "HLC_GestureReload3011_tac_Context", "Gesture" };
+            HLC_GestureReload3011_20rnd[] = { "HLC_GestureReload3011_20rnd_context", "Gesture" };
+            HLC_GestureReload3011_50rnd[] = { "HLC_GestureReload3011_50rnd_Context", "Gesture" };
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60_Context","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK_Context","Gesture"};
             HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762_Context", "Gesture" };
@@ -329,6 +371,11 @@ class CfgMovesBasic {
         };
 
         class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
+            HLC_GestureRechamber3011[] = { "HLC_GestureRechamber3011", "Gesture" };
+            HLC_GestureReload3011[] = { "HLC_GestureReload3011", "Gesture" };
+            HLC_GestureReload3011_tac[] = { "HLC_GestureReload3011_tac", "Gesture" };
+            HLC_GestureReload3011_20rnd[] = { "HLC_GestureReload3011_20rnd", "Gesture" };
+            HLC_GestureReload3011_50rnd[] = { "HLC_GestureReload3011_50rnd", "Gesture" };
             HLC_GestureReloadM60[] = {"HLC_GestureReloadM60","Gesture"};
             HLC_GestureReloadAK[] = {"HLC_GestureReloadAK","Gesture"};
             HLC_GestureReloadAK762[] = { "HLC_GestureReloadAK762", "Gesture" };
@@ -1271,6 +1318,171 @@ class CfgGesturesMale {
         class HLC_GestureReloadP226_Context : HLC_GestureReloadP226 {
             mask = "handsWeapon_context";
         };
+        class HLC_GestureRechamber3011 : Default {
+            file = "\hlc_core\animation\gesture\rechamber_3011_standing.rtm";
+            looped = 0;
+            speed = -2;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 0.06667, 0, 0.75, 0, 0.833333, 1 };
+            leftHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureRechamber3011_prone : Default {
+            file = "\hlc_core\animation\gesture\rechamber_3011_prone.rtm";
+            looped = 0;
+            speed = -2;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.06667, 0, 0.75, 0, 0.833333, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureRechamber3011_Context : HLC_GestureRechamber3011 {
+            mask = "handsWeapon_context";
+        };
+        class HLC_Gesturereload3011 : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_10rnd_standing.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.90555556, 0, 0.9555556, 1 };
+            leftHandIKCurve[] = { 0.155556, 1, 0.172228, 0, 0.7055556, 0, 0.738889, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_10rnd_prone.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0.155556, 1, 0.172228, 0, 0.7055556, 0, 0.738889, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_Context : HLC_Gesturereload3011 {
+            mask = "handsWeapon_context";
+        };
+        class HLC_Gesturereload3011_tac : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_10rnd_standing.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            leftHandIKCurve[] = { 0, 1, 0.027778, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_tac_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_10rnd_prone.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0.155556, 1, 0.172228, 0, 0.7055556, 0, 0.738889, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_tac_Context : HLC_Gesturereload3011_tac {
+            mask = "handsWeapon_context";
+        };
+        class HLC_Gesturereload3011_20rnd : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_20rnd_standing.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            leftHandIKCurve[] = { 0, 1, 0.027778, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_20rnd_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_20rnd_prone.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0.155556, 1, 0.172228, 0, 0.7055556, 0, 0.738889, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_20rnd_Context : HLC_Gesturereload3011_20rnd {
+            mask = "handsWeapon_context";
+        };
+        class HLC_Gesturereload3011_50rnd : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_50rnd_standing.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            leftHandIKCurve[] = { 0, 1, 0.027778, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_50rnd_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_3011_50rnd_prone.rtm";
+            looped = 0;
+            speed = -6;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            leftHandIKBeg = true;
+            leftHandIKCurve[] = { 0.155556, 1, 0.172228, 0, 0.7055556, 0, 0.738889, 1 };
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKCurve[] = { 0, 1, 0.027778, 0, 0.1388889, 0, 0.1611, 1, 0.76444, 1, 0.783333, 0, 0.90555556, 0, 0.9555556, 1 };
+            rightHandIKEnd = true;
+        };
+        class HLC_Gesturereload3011_50rnd_Context : HLC_Gesturereload3011_50rnd {
+            mask = "handsWeapon_context";
+        };
     };
 };
 
@@ -1339,8 +1551,6 @@ class CfgWeapons
         MRT_SwitchItemNextClass = "hlc_acc_DBALPL_FL";
         MRT_SwitchItemPrevClass = "hlc_acc_DBALPL_FL";
         MRT_switchItemHintText = "IR(Laser)";
-        ACE_nextModeClass = "hlc_acc_DBALPL_FL";
-        ACE_modeDescription = "IR(Laser)";
         dlc = "Niarms_Core";
         author = "Toadie";
         _generalMacro = "acc_flashlight";
@@ -1368,8 +1578,6 @@ class CfgWeapons
         MRT_SwitchItemNextClass = "hlc_acc_DBALPL";
         MRT_SwitchItemPrevClass = "hlc_acc_DBALPL";
         MRT_switchItemHintText = "VIS(Flashlight)";
-        ACE_nextModeClass = "hlc_acc_DBALPL";
-        ACE_modeDescription = "IR(Laser)";
         dlc = "Niarms_Core";
         author = "Toadie";
         _generalMacro = "acc_flashlight";
@@ -1486,8 +1694,87 @@ class CfgWeapons
         //picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
         //model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
     };
+    class NIA_muzzle_flash_rifle_MAG : ItemCore
+    {
+        dlc = "Niarms_ACR";
+        scope = 2;
+        model = "a3\data_f\proxies\muzzle_flash\muzzle_flash_rifle_Mk20.p3d";
+    };
+    class hlc_muzzle_MAG58_Brake : muzzle_snds_M {
+        dlc = "Niarms_Core";
+        author = "ImBrokeRU, Toadie";
+        displayName = "MAG58 Flash Hider";
+        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
+        model = "hlc_core\mesh\accessories\barrel\762\FNMAG_Brake.p3d";
+        class ItemInfo : ItemInfo {
+            mass = 1;
+            soundTypeIndex = 0;
+            muzzleEnd = "zaslehPoint"; // memory point in muzzle supressor's model
+            alternativeFire = "NIA_muzzle_flash_rifle_MAG";  // class in cfgWeapons with model of muzzle flash	
+        };
+        inertia = 0.00;
+    };
     class InventoryOpticsItem_Base_F;
     class optic_Arco;
+    class optic_LRPS : ItemCore {
+        class ItemInfo;
+    };
+    class hlc_optic_LeupoldM3A : optic_lrps {
+        dlc = "Niarms_FN3011";
+        author = "Toadie";
+        descriptionshort = "Leupold M3A Ultra<br />Magnification: 10x";
+        picture = "hlc_core\tex\ui\gear_LeupoldM3A_Ca";
+        model = "hlc_core\mesh\accessories\sights\LeupoldM3A.p3d";
+        displayname = "Leupold M3A";
+
+        class ItemInfo : ItemInfo {
+            class OpticsModes {
+                class Snip {
+                    opticsID = 1;
+                    opticsDisplayName = "WFOV";
+                    useModelOptics = 1;
+                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.0249;
+                    opticsZoomMax = 0.0249;
+                    opticsZoomInit = 0.0249;
+                    discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
+                    discreteDistanceInitIndex = 4;
+                    distanceZoomMin = 300;
+                    distanceZoomMax = 1200;
+                    memoryPointCamera = "Opticview";
+                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\Reticle_10xmildot" };
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsDisablePeripherialVision = 1;
+                    cameraDir = "";
+                };
+                class Iron : Snip {
+                    opticsID = 2;
+                    opticsDisplayName = "";
+                    useModelOptics = 0;
+                    opticsPPEffects[] = { "", "" };
+                    opticsFlare = 0;
+                    opticsDisablePeripherialVision = 0;
+                    __OPTICSZOOM_1X;
+                    memoryPointCamera = "eye2";
+                    visionMode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
+                };
+            };
+        };
+        tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
+        inertia = 0.07;
+    };
+    class bipod_01_F_snd : ItemCore{ class ItemInfo; };
+    class HLC_bipod_UTGShooters :bipod_01_F_snd
+    {
+        dlc = "Niarms_FN3011";
+        displayname = "UTG Lightweight";
+        model = "hlc_core\mesh\accessories\bipod\UTG\UTG.p3d";
+        descriptionshort = "UTG Shooter's Sniper Bipod, Steel Feet";
+    };
+
     //V is for Vanilla. 
     class HLC_optic_DocterV : optic_Arco {
         dlc = "Niarms_Core";
