@@ -564,18 +564,17 @@ class CfgWeapons {
 		deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
 		hasBipod = false;          /// a weapon with bipod obviously has a bipod
 		magazineReloadSwitchPhase = 0.5625;
-		class bg_weaponparameters
+		class EventHandlers
 		{
-
-			class onFired_Action
-			{
-				HandAction = "HLC_GestureRechamberM1903A1_UN";
-				Actiondelay = 0.02;
-				Sound = "hlc_bolt_1903";
-				Sound_Location = "RightHandMiddle1";
-				hasOptic = false;
-			};
-
+			fired = "_this call CBA_fnc_weaponEvents";
+		};
+		class CBA_weaponEvents
+		{
+			handAction = "HLC_GestureRechamberM1903A1_UN";
+			sound = "hlc_bolt_1903";
+			soundLocation = "RightHandMiddle1";
+			delay = 0.02;
+			onEmpty = 0;
 		};
 		cursor = "srifle";
 		cursorAim = "EmptyCursor";
@@ -617,18 +616,5 @@ class CfgWeapons {
 		displayName = "M1903A1 'Guthrie'";
 		model = "\hlc_wp_springfield\mesh\1903A1\1903A1_TMKB.p3d";
 		descriptionShort = "Seize the time,and storm the tower<br/>and come correct with maximum firepower";
-		class bg_weaponparameters
-		{
-
-			class onFired_Action
-			{
-				HandAction = "HLC_GestureRechamberM1903A1_UN";
-				Actiondelay = 0.02;
-				Sound = "hlc_bolt_1903";
-				Sound_Location = "RightHandMiddle1";
-				hasOptic = false;
-			};
-
-		};
 	};
 };
