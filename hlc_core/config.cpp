@@ -1694,11 +1694,10 @@ class CfgWeapons
         //picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
         //model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
     };
-    class NIA_muzzle_flash_rifle_MAG : ItemCore
+    class NIAmuzzle_flash_rifle_MAG : ItemCore
     {
-        dlc = "Niarms_ACR";
         scope = 2;
-        model = "a3\data_f\proxies\muzzle_flash\muzzle_flash_rifle_Mk20.p3d";
+        model = "hlc_core\mesh\muzzleflash\Muzzle_flash_MAG58.p3d";
     };
     class hlc_muzzle_MAG58_Brake : muzzle_snds_M {
         dlc = "Niarms_Core";
@@ -1709,11 +1708,12 @@ class CfgWeapons
         class ItemInfo : ItemInfo {
             mass = 1;
             soundTypeIndex = 0;
-            muzzleEnd = "zaslehPoint"; // memory point in muzzle supressor's model
-            alternativeFire = "NIA_muzzle_flash_rifle_MAG";  // class in cfgWeapons with model of muzzle flash	
+            muzzleEnd = "zaslehpoint"; // memory point in muzzle supressor's model
+            alternativeFire = "NIAmuzzle_flash_rifle_MAG";  // class in cfgWeapons with model of muzzle flash	
         };
         inertia = 0.00;
     };
+
     class InventoryOpticsItem_Base_F;
     class optic_Arco;
     class optic_LRPS : ItemCore {
@@ -1766,6 +1766,144 @@ class CfgWeapons
         tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
         inertia = 0.07;
     };
+class hlc_optic_PVS4base : optic_Arco {
+        author = "Bohemia Interactive, Toadie";
+        descriptionshort = "Night Vision Optic<br />Magnification: 4x";
+        displayname = "AN/PVS4";
+        picture = "\hlc_core\tex\ui\gear_PVS4_x_ca";
+        class ItemInfo : InventoryOpticsItem_Base_F {
+            __OPTIC_DMR;
+			mass = 36;
+            modelOptics = "hlc_core\mesh\accessories\sights\reticles\NV_anpvs4_optic";
+            class OpticsModes {
+                class Snip {
+                    useModelOptics = 1;
+                    opticsPPEffects[] = {};
+                    opticsZoomMin = 0.0625;
+                    opticsZoomMax = 0.0625;
+                    opticsZoomInit = 0.0625;
+                    discreteDistance[] = {200,300,400,500,600};
+                    discreteDistanceInitIndex = 1;
+                    distanceZoomMin = 300;
+                    distanceZoomMax = 600;
+                    memoryPointCamera = "eye";
+                    modelOptics[] = {"hlc_core\mesh\accessories\sights\reticles\NV_anpvs4_optic"};
+                    visionMode[] = {"NVG"};
+                    opticsFlare = 1;
+                    opticsid = 1;
+                    opticsDisablePeripherialVision = 1;
+                    cameraDir = "";
+                };
+                class Snip2: Snip {
+                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\NV_pvs4-daysight" };
+                    opticsid = 2;
+                };
+                class Kolimator {
+                    cameradir = "";
+                    distancezoommax = 100;
+                    distancezoommin = 100;
+                    memorypointcamera = "AOTT";
+                    opticsdisableperipherialvision = 0;
+                    opticsflare = 0;
+                    opticsid = 3;
+                    opticsppeffects[] = {};
+                    __OPTICSZOOM_1X;
+                    usemodeloptics = 0;
+                    visionmode[] = {};
+                };
+            };
+        };
+		inertia = 0.18;
+    };
+
+    class hlc_optic_VOMZ : optic_lrps {
+        dlc = "Niarms_SG550";
+        author = "Toadie";
+        descriptionshort = "VOMZ Pilad P3 <br />Magnification: 3.5x";
+        model = "hlc_core\mesh\accessories\sights\VOMZ_p3.p3d";
+        displayname = "VOMZ Pilad P3(2D)";
+
+        class ItemInfo : ItemInfo {
+            class OpticsModes {
+                class Snip {
+                    opticsID = 1;
+                    opticsDisplayName = "WFOV";
+                    useModelOptics = 1;
+                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.249/3.5;
+                    opticsZoomMax = 0.249/3.5;
+                    opticsZoomInit = 0.249/3.5;
+                    discreteDistance[] = { 100, 200, 300, 400, 500, 600,700, 800 };
+                    discreteDistanceInitIndex = 3;
+                    distanceZoomMin = 300;
+                    distanceZoomMax = 1200;
+                    memoryPointCamera = "opticview";
+                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\VOMZ_PU_3,5x" };
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsDisablePeripherialVision = 1;
+                    cameraDir = "";
+                };
+                class Iron : Snip {
+                    opticsID = 2;
+                    opticsDisplayName = "";
+                    useModelOptics = 0;
+                    opticsPPEffects[] = { "", "" };
+                    opticsFlare = 0;
+                    opticsDisablePeripherialVision = 0;
+                    __OPTICSZOOM_1X;
+                    memoryPointCamera = "eye2";
+                    visionMode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
+                };
+            };
+        };
+    };
+class hlc_optic_ZF95Base : optic_lrps {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        descriptionshort = "Kahles ZF95 with (forgotten reticle choice )<br />Magnification: 6x";
+        displayname = "Kahles ZF95";
+
+        class ItemInfo : ItemInfo {
+            class OpticsModes {
+                class Snip {
+                    opticsID = 1;
+                    opticsDisplayName = "WFOV";
+                    useModelOptics = 1;
+                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.249/6;
+                    opticsZoomMax = 0.249/6;
+                    opticsZoomInit = 0.0249;
+                    discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
+                    discreteDistanceInitIndex = 4;
+                    distanceZoomMin = 300;
+                    distanceZoomMax = 1200;
+                    memoryPointCamera = "eye";
+                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\NATORangefinder_ZF95_6x"};
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsDisablePeripherialVision = 1;
+                    cameraDir = "";
+                };
+                class Iron : Snip {
+                    opticsID = 2;
+                    opticsDisplayName = "";
+                    useModelOptics = 0;
+                    opticsPPEffects[] = { "", "" };
+                    opticsFlare = 0;
+                    opticsDisablePeripherialVision = 0;
+                    __OPTICSZOOM_1X;
+                    memoryPointCamera = "eye2";
+                    visionMode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
+                };
+            };
+        };
+    };
+
     class bipod_01_F_snd : ItemCore{ class ItemInfo; };
     class HLC_bipod_UTGShooters :bipod_01_F_snd
     {
