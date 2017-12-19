@@ -472,6 +472,7 @@ class CfgWeapons {
 			soundLocation = "RightHandMiddle1";
 			delay = 0.02;
 			onEmpty = 0;
+			hasOptic = 1;
 			soundEmpty = "";
 			soundLocationEmpty = "";
 		};
