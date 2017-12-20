@@ -1860,12 +1860,116 @@ class hlc_optic_PVS4base : optic_Arco {
             };
         };
     };
-class hlc_optic_ZF95Base : optic_lrps {
+ class hlc_optic_KernBase : optic_arco
+    {
+        dlc = "Niarms_Core";
+        scope = public;
+        author = "Toadie";
+        descriptionshort = "Kern 4x24 Zielfernrohr <br />Magnification: 4x";
+        displayname = "Kern AARAU 4x24";
+        picture = "hlc_core\tex\ui\gear_aarau_x_ca";
+        weaponInfoType = "RscWeaponZeroing";
+        class ItemInfo : InventoryOpticsItem_Base_F
+        {
+            mass = 10;
+            opticType = 1;
+            optics = 1;
+            modelOptics = "\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d";
+            class OpticsModes
+            {
+                class Snip
+                {
+                    useModelOptics = 1;
+                    cameradir = "";
+                    opticsZoomMin = 0.06225;
+                    opticsZoomMax = 0.06225;
+                    opticsZoomInit = 0.06225;
+                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    discreteDistance[] = { 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800 };
+                    discreteDistanceInitIndex = 0;
+                    distanceZoomMin = 200;
+                    distanceZoomMax = 800;
+                    memoryPointCamera = "eye2";
+                    modelOptics[] = {"\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d"};
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsid = 1;
+                    opticsDisablePeripherialVision = 1;
+                };
+                class Kolimator {
+                    cameradir = "";
+                    distancezoommax = 100;
+                    distancezoommin = 100;
+                    memorypointcamera = "AOTT";
+                    opticsdisableperipherialvision = 0;
+                    opticsflare = 0;
+                    opticsid = 2;
+                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.25;
+                    opticsZoomMax = 1.25;
+                    opticsZoomInit = 0.75;
+                    usemodeloptics = 0;
+                    visionmode[] = {};
+                };
+            };
+        };
+        inertia = 0.2;
+        tmr_optics_enhanced = 0;
+    };
+ class hlc_optic_ZF4xBase : optic_arco
+    {
+        dlc = "Niarms_Core";
+        scope = public;
+        author = "Toadie";
+        descriptionshort = "Hensoldt ZF 4x<br />Magnification: 4x";
+        displayname = "FN STANAG 4x28";
+        picture = "\hlc_core\tex\ui\gear_fnstanag_ca";
+        weaponInfoType = "RscWeaponZeroing";
+        class ItemInfo : InventoryOpticsItem_Base_F
+        {
+            mass = 10;
+            opticType = 2;
+            optics = 1;
+            modelOptics = "hlc_wp_FN3011\mesh\FN 4x\STANAG_optics";
+            class OpticsModes
+            {
+                class Snip
+                {
+                    useModelOptics = 1;
+                    opticsPPEffects[] = { "OpticsCHAbera2", "OpticsBlur3" };
+                    discreteDistance[] = { 100,200, 300, 400, 500, 600};
+                    discreteDistanceInitIndex = 1;
+                    distanceZoomMin = 100;
+                    distanceZoomMax = 600;
+                    modelOptics[] = { "hlc_wp_FN3011\mesh\FN 4x\STANAG_optics" };
+                };
+                class Kolimator {
+                    cameradir = "";
+                    distancezoommax = 100;
+                    distancezoommin = 100;
+                    memorypointcamera = "AOTT";
+                    opticsdisableperipherialvision = 0;
+                    opticsflare = 0;
+                    opticsid = 2;
+                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.25;
+                    opticsZoomMax = 1.25;
+                    opticsZoomInit = 0.75;
+                    usemodeloptics = 0;
+                    visionmode[] = {};
+                };
+            };
+        };
+        inertia = 0.2;
+        tmr_optics_enhanced = 0;
+    };
+    class hlc_optic_ZF95Base : optic_lrps
+    {
         dlc = "Niarms_Core";
         author = "Toadie";
-        descriptionshort = "Kahles ZF95 with (forgotten reticle choice )<br />Magnification: 6x";
+        descriptionshort = "Kahles ZF95 with NATO Rangefinding Reticle<br />Magnification: 6x";
         displayname = "Kahles ZF95";
-
+         __OPTIC_DMR;
         class ItemInfo : ItemInfo {
             class OpticsModes {
                 class Snip {
