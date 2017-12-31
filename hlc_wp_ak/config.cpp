@@ -271,9 +271,9 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "HLC_12G_Buck";
-        count = 10;
+        count = 8;
         descriptionshort = "Caliber: 12 Gauge 00-Buck<br />Rounds: 12<br />Used in: Saiga12K";
-        displayname = "Saiga Mag (Buckshot) 10rnd 12 Gauge";
+        displayname = "12 Gauge Buckshot 12Rnd Saiga Magazine";
         initspeed = 700;
         lastroundstracer = 1;
         picture = "\hlc_wp_ak\tex\ui\m_saiga12k_buck_ca.paa";
@@ -288,9 +288,9 @@ class CfgMagazines {
         dlc = "Niarms_AK";
         author = "Toadie";
         ammo = "B_12Gauge_Slug";
-        count = 10;
-        descriptionshort = "Caliber: 12 Gauge 00-Buck<br />Rounds: 12<br />Used in: Saiga12K";
-        displayname = "Saiga Mag (Slug) 10rnd 12 Gauge";
+        count = 8;
+        descriptionshort = "Caliber: 12 Gauge Slug<br />Rounds: 12<br />Used in: Saiga12K";
+        displayname = "12 Gauge Slug 12Rnd Saiga Magazine";
         initspeed = 700;
         lastroundstracer = 1;
         picture = "\hlc_wp_ak\tex\ui\m_saiga12k_slug_ca.paa";
@@ -306,7 +306,7 @@ class CfgMagazines {
         ammo = "FH_545x39_Ball";
         count = 30;
         descriptionshort = "Caliber: 5.45x39mm 7N6M<br />Type:Full Metal Jacket (Lead Tip, Mild Steel Core)<br />Rounds: 30";
-        displayname = "AK74 Mag (Ball) 30rnd 5.45mm";
+        displayname = "5.45mm FMJ 30Rnd AK Magazine";
         initSpeed = 879.9;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
@@ -322,7 +322,7 @@ class CfgMagazines {
         ammo = "FH_545x39_7u1";
         count = 30;
         descriptionshort = "Caliber: 5.45x39mm 7U1<br />Type:Full Metal Jacket<br />Rounds: 30";
-        displayname = "AK74 Mag (Subsonic) 30rnd 5.45mm";
+        displayname = "5.45mm Subsonic 30Rnd AK Magazine";
         initspeed = 371;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
@@ -337,7 +337,7 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_Tracer";
         descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium Tip, Mild Steel Core)<br />Rounds: 30";
-        displayname = "AK74 Mag (Tracer) 30rnd 5.45mm";
+        displayname = "5.45mm Tracer 30Rnd AK Magazine";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 1;
@@ -352,7 +352,7 @@ class CfgMagazines {
         ammo = "FH_545x39_Tracer";
         count = 45;
         descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
-        displayname = "RPK74 Mag (Tracer) 45rnd 5.45mm";
+        displayname = "5.45mm Tracer 45Rnd RPK74 Magazine";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -367,7 +367,7 @@ class CfgMagazines {
         ammo = "FH_545x39_Tracer";
         count = 45;
         descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
-        displayname = "RPK74 Mag (FMJ-Tracer) 45rnd 5.45mm";
+        displayname = "5.45mm FMJ 45Rnd RPK74 Magazine (Tracers Every 3)";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
@@ -382,8 +382,8 @@ class CfgMagazines {
         ammo = "FH_545x39_Tracer";
         count = 60;
         descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 60";
-        displayname = "RPK12 Mag (Tracer) 60rnd 5.45mm";
-        lastroundstracer = 1;
+        displayname = "5.45mm FMJ 60Rnd RPK Magazine";
+        lastroundstracer = 5;
         scope = 2;
         tracersevery = 3;
         mass = 16;
@@ -396,7 +396,7 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "FH_545x39_EP";
         descriptionshort = "Caliber: 5.45x39mm 7N10 EP<br />Type: Full Metal Jacket (Lead Tip, Hardened Steel Core)<br />Rounds: 30";
-        displayname = "AK74 Mag (Enhanced Peneterator) 30rnd 5.45mm";
+        displayname = "5.45mm EP 30Rnd AK Magazine";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -412,7 +412,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_Ball";
         count = 30;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231S(M43 Ball)<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
-        displayname = "AK47 Mag (Ball) 30rnd 7.62mm";
+        displayname = "7.62mm FMJ 30Rnd AK Magazine";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -428,7 +428,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_Tracer";
         count = 30;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
-        displayname = "AK47 Mag (Tracer) 30rnd 7.62mm";
+        displayname = "7.62mm Tracer 30Rnd AK Magazine";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -444,7 +444,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_AP";
         count = 30;
         descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 30";
-        displayname = "AK47 Mag (AP) 30rnd 7.62mm";
+        displayname = "7.62mm AP 30Rnd AK Magazine";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -460,7 +460,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_AP";
         count = 45;
         descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 45";
-        displayname = "RPK Mag (AP) 45rnd 7.62mm";
+        displayname = "7.62mm AP 45Rnd RPK Magazine";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -475,7 +475,7 @@ class CfgMagazines {
         author = "Toadie";
         count = 75;
         descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 75";
-        displayname = "RPK Drum (AP) 75rnd 7.62mm";
+        displayname = "7.62mm AP 75Rnd RPK Magazine";
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -491,7 +491,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_Ball";
         count = 30;
         descriptionshort = "Caliber: 7.62x39mm 557-N-321U<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
-        displayname = "AK47 Mag (Subsonic) 30rnd 7.62mm";
+        displayname = "7.62mm Subsonic 30Rnd AK Magazine";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -507,7 +507,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_Tracer";
         count = 45;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 45";
-        displayname = "RPK Mag (Tracer) 45rnd 7.62mm";
+        displayname = "7.62mm Tracer 45Rnd RPK Magazine";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -523,7 +523,7 @@ class CfgMagazines {
         ammo = "HLC_762x39_Tracer";
         count = 45;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 45";
-        displayname = "RPK Mag (Mixed) 45rnd 7.62mm";
+        displayname = "7.62mm FMJ 45Rnd RPK Magazine (Tracers Every 3)";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
@@ -538,7 +538,7 @@ class CfgMagazines {
         author = "Toadie";
         count = 75;
         descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 75";
-        displayname = "RPK Drum (Mixed) 75rnd 7.62mm";
+        displayname = "7.62mm FMJ 75Rnd RPK Magazine (Tracers every 3)";
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
@@ -739,7 +739,7 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         author = "Tigg, Toadie";
         descriptionshort = "Open Face Collimator Optic";
-        displayname = "Kobra Sight";
+        displayname = "Kobra EKP-1S-03M";
         model = "\hlc_wp_ak\mesh\Kobra\kobra.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_kobra_ca";
         scope = 2;
@@ -754,8 +754,8 @@ class CfgWeapons {
         dlc = "Niarms_AK";
         author = "Bohemia Interactive, Toadie";
         scope = public;
-        displayName = "Goshawk";
-        descriptionshort = "Goshawk Adaptable Thermal Optic<br />Magnification: 3.6x";
+        displayName = "Goshawk TIWS";
+        descriptionshort = "Goshawk Thermal Immaging Weapon Sight<br />Magnification: 3.6x";
         picture = "\hlc_wp_ak\tex\ui\gear_goshawk_ca";
         model = "\hlc_wp_ak\mesh\goshawk\goshawk.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
@@ -796,7 +796,7 @@ class CfgWeapons {
     class hlc_muzzle_545SUP_AK : muzzle_snds_H {
         dlc = "Niarms_AK";
         author = "Bohemia Interactive, Toadie";
-        displayName = "PBS4 AK Suppressor";
+        displayName = "PBS4 Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS4\pbs4";
         class ItemInfo: ItemInfo {
@@ -807,7 +807,7 @@ class CfgWeapons {
     class hlc_muzzle_762SUP_AK : hlc_muzzle_545SUP_AK {
         dlc = "Niarms_AK";
         author = "Jason9Jason, Toadie";
-        displayName = "PBS1 AK Suppressor";
+        displayName = "PBS1 Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "\hlc_wp_ak\mesh\PBS1\pbs1";
     };
@@ -846,9 +846,18 @@ class CfgWeapons {
             };
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            class MuzzleSlot : asdg_MuzzleSlot_545R {};
-            class CowsSlot {};
-            class PointerSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_545R {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
+            class CowsSlot {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+            class PointerSlot {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
         };
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -964,8 +973,8 @@ class CfgWeapons {
                 burst = 2; 
                 textureType = "dual"; 
         };
-        drysound[] = {"hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
-        reloadMagazineSound[] = { "hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
+        drysound[] = {"\hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
+        reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
 
@@ -1024,7 +1033,10 @@ class CfgWeapons {
         __AI_AK_MODES(Single, FullAuto);
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
-            class CowsSlot : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.45 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.3;
 		__DEXTERITY(3,0);
@@ -1302,8 +1314,14 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
-            class CowsSlot : asdg_OpticRail1913 {};
-            class PointerSlot : asdg_FrontSideRail {};
+            class CowsSlot : asdg_OpticRail1913 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
         };
         inertia = 0.33;
 		__DEXTERITY(3.3,0);
@@ -1619,7 +1637,7 @@ class CfgWeapons {
         displayName = "Izhmash AKS74U";
         initspeed = -0.816667;
         model = "\hlc_wp_ak\mesh\millaks74u\aks74u.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_aks74u_x_ca";
+        picture = "\hlc_wp_ak\tex\ui\gear_aks74u_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount","Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mil_aks\aks-74u_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga","hlc_wp_ak\tex\rifleman_ak74\body_co.tga" };
         discretedistance[] = {350,500};
@@ -1656,7 +1674,10 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 52;
-            class CowsSlot : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.26;
 		__DEXTERITY(2.6,0);
@@ -1729,49 +1750,57 @@ class CfgWeapons {
                 soundSetShot[] = { "Nia_ak47_Shot_Silenced_SoundSet", "Nia_ak47_ShotTail_Silenced_SoundSet" };
             };
         };
-        class fullauto_medium : FullAuto {
-            showToPlayer = 0;
-            burst = 3;
-            minRange = 2;
-            minRangeProbab = 0.5;
-            midRange = 75;
-            midRangeProbab = 0.7;
-            maxRange = 150;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 2.0;
-            aiRateOfFireDistance = 200;
+        class AI_Burst_close : FullAuto {
+            
+                showToPlayer = 0; 
+                aiBurstTerminable = 1; 
+                burst = 7; 
+                __AI_ROF_AK_CLOSE_BURST; 
+        }; 
+        class AI_Burst_far : AI_Burst_close {
+            
+                burst = 4; 
+                __AI_ROF_AK_FAR_BURST; 
+        }; 
+        class AI_Single_optics1 : Single {
+            
+                showToPlayer = 0; 
+                requiredOpticType = 1; 
+                __AI_ROF_AK_MSCOPE_SINGLE; 
+        }; 
+        class AI_Single_optics2 : AI_Single_optics1 {
+            
+                requiredOpticType = 2; 
+                __AI_ROF_AK_HSCOPE_SINGLE; 
+        }; 
+        class Burst3 : Single {
+            
+                __AI_ROF_AK_SHORT_BURST; 
+                burst = 3; 
+                displayName = $STR_DN_MODE_BURST; 
+                textureType = "burst"; 
+                soundBurst = 0; 
+                showToPlayer = 0;
+        }; 
+        class Burst2 : Burst3 {
+            
+                burst = 2; 
+                textureType = "dual"; 
         };
-        class single_medium_optics1 : Single {
-            requiredOpticType = 1;
-            showToPlayer = 0;
-            minRange = 2;
-            minRangeProbab = 0.2;
-            midRange = 450;
-            midRangeProbab = 0.7;
-            maxRange = 600;
-            maxRangeProbab = 0.2;
-            aiRateOfFire = 6;
-            aiRateOfFireDistance = 600;
-        };
-        class single_far_optics2 : single_medium_optics1 {
-            requiredOpticType = 2;
-            showToPlayer = 0;
-            minRange = 100;
-            minRangeProbab = 0.1;
-            midRange = 500;
-            midRangeProbab = 0.6;
-            maxRange = 700;
-            maxRangeProbab = 0.05;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 700;
-        };
+
         class Library {
             libTextDesc = "Izhmash AK47 (Type 1)";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 69;
-            class MuzzleSlot: asdg_MuzzleSlot_762R {};
-            class CowsSlot : asdg_OpticSideMount {};
+            class MuzzleSlot: asdg_MuzzleSlot_762R {
+                iconPosition[] = { 0.0, 0.4 };
+                iconScale = 0.2;
+            };
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.35;
 		__DEXTERITY(3.5,0);
@@ -1986,8 +2015,14 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 96;
-            class CowsSlot : asdg_OpticSideMount {};
-            class MuzzleSlot: asdg_MuzzleSlot_762R {};
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+            class MuzzleSlot: asdg_MuzzleSlot_762R {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.68;
 		__DEXTERITY(4.8,0);
@@ -2051,7 +2086,10 @@ class CfgWeapons {
         modes[] = { "FullAuto", "Single", "50m", "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar", "AI_far_optic1", "AI_toofar_optic1", "AI_far_optic2", "AI_toofar_optic2" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 94;
-            class CowsSlot : asdg_OpticSideMount {};
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.67;
 		__DEXTERITY(4.7,0);
@@ -2180,15 +2218,15 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
         displayName = "Izhmash AKS74(GL)";
-        model = "\hlc_wp_ak\mesh\aks74\aks74_45rnd.p3d";
-
+        model = "\hlc_wp_ak\mesh\aks74gl\aks74GL_45rnd.p3d";
+        muzzles[] = {"this", "hlc_GP30"};
     };
     class hlc_rifle_aks74_GL_60rnd : hlc_rifle_aks74_GL
     {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
         displayName = "Izhmash AKS74(GL)";
-        model = "\hlc_wp_ak\mesh\aks74\aks74_60rnd.p3d";
+        model = "\hlc_wp_ak\mesh\aks74gl\aks74GL_60rnd.p3d";
 
     };
 
@@ -2201,7 +2239,7 @@ class CfgWeapons {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         displayName = "ZID AEK971S";
         model = "\hlc_wp_ak\mesh\aek971\aek971clean.p3d";
-        picture = "\hlc_wp_ak\tex\ui\gear_aek_x_ca";
+        picture = "\hlc_wp_ak\tex\ui\gear_aek_ca";
         hiddenSelections[] = { "Main", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mill_aek\bull5hit\aek971_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         reloadMagazineSound[] = { "hlc_wp_ak\snd\soundshaders\aek\aek_reload", 1, 1, 20 };
@@ -2409,8 +2447,14 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 70;
-            class MuzzleSlot {};
-            class CowsSlot : asdg_OpticSideMount {};
+            class MuzzleSlot {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.35;
 		__DEXTERITY(3.5,0);
@@ -2435,13 +2479,16 @@ class CfgWeapons {
         hiddenSelections[] = { "Main" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\nix_rk62\rk62_co.paa" };
         displayName = "Valmet Rk.62";
-        drysound[] = { "hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
+        drysound[] = { "\hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rk62\rk62_reload", 1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK";
         recoil = "recoil_mx";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 70;
-            class MuzzleSlot : asdg_MuzzleSlot_762R {};
+            class MuzzleSlot : asdg_MuzzleSlot_762R {
+                iconPosition[] = { 0.0, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.35;
 		__DEXTERITY(3.5,0);
@@ -2604,9 +2651,18 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 56;
-            class CowsSlot : asdg_OpticSideMount {};
-            class PointerSlot : asdg_FrontSideRail {};
-            class MuzzleSlot : asdg_MuzzleSlot_762R {};
+            class CowsSlot : asdg_OpticSideMount {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
+            class MuzzleSlot : asdg_MuzzleSlot_762R {
+                iconPosition[] = { 0.0, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.28;
 		__DEXTERITY(2.8,0);
@@ -2648,7 +2704,10 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.3;
 		__DEXTERITY(2.8 + 0.2,0);
@@ -2689,7 +2748,10 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 64;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.32;
 		__DEXTERITY(3 + 0.2,0);
@@ -2800,7 +2862,10 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 72;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.36;
 		__DEXTERITY(3.4 + 0.2,0);
@@ -2834,7 +2899,10 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_aekmtk_ca";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 70;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.35;
 		__DEXTERITY(3.3 + 0.2,0);
@@ -2868,14 +2936,17 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_aks74umtk_ca";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 56;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.28;
 		__DEXTERITY(2.6 + 0.2,0);
         class __MAGSWITCHCLASS {
             hlc_45Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
             hlc_45Rnd_545x39_m_rpk = "hlc_rifle_aks74u_MTK_45rnd";
-            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_45rnd";
+            hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_MTK_60rnd";
             default = "hlc_rifle_aks74u_MTK";
         };
     };
@@ -2883,15 +2954,15 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
-        displayName = "ZID AEK971S(MTK)";
-        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_45rnd.p3d";
+        displayName = "Izhmash AKS74U(MTK)";
+        model = "\hlc_wp_ak\mesh\millaks74u\aks74u_mtk_45rnd.p3d";
     };
     class hlc_rifle_aks74u_MTK_60rnd : hlc_rifle_aks74u_MTK
     {
         scopeArsenal = 0;
         dlc = "Niarms_AK";
-        displayName = "ZID AEK971S(MTK)";
-        model = "\hlc_wp_ak\mesh\aek971\aek971_mtk_60rnd.p3d";
+        displayName = "Izhmash AKS74U(MTK)";
+        model = "\hlc_wp_ak\mesh\millaks74u\aks74u_mtk_60rnd.p3d";
     };
 
     class hlc_rifle_akm_MTK : hlc_rifle_akm {
@@ -2902,7 +2973,10 @@ class CfgWeapons {
         displayName = "Izhmash AKM(MTK)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 66;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.33;
 		__DEXTERITY(3.1 + 0.2,0);
@@ -2942,7 +3016,10 @@ class CfgWeapons {
         displayName = "Izhmash AKS74(MTK)";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 62;
-            class CowsSlot : asdg_OpticRail1913_short {};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
         inertia = 0.31;
 		__DEXTERITY(2.9 + 0.2,0);
