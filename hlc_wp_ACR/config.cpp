@@ -9,7 +9,7 @@ class CfgPatches
 	units[] = {  };
 	weapons[] = {"hlc_rifle_ACR"};
 	magazines[] = {};
-	version="0.something";
+	version="1.1";
 	author="toadie";
  };
 };
@@ -232,7 +232,7 @@ class hlc_30rnd_68x43_FMJ : 30Rnd_556x45_Stanag
 		ammo = "HLC_68x43_FMJ";
 		count = 26;
 		descriptionshort = "Caliber: 6.8x43mm SPC FMJ-BT<br />Type: Full Metal Jacket Boat Tail<br />Rounds: 26";
-		displayname = "PMAG (FMJ) 6.8mm";
+        displayname = "6.8mm FMJ 26Rnd STANAG Magazine";
         model = "hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
 		initspeed = 815.34;
 		mass = 9;
@@ -250,7 +250,7 @@ class hlc_30rnd_68x43_OTM : hlc_30rnd_68x43_FMJ
 		ammo = "hlc_68x43_OTM";
         count = 26;
         descriptionshort = "Caliber: 6.8x43mm SPC BT-BT<br />Type: Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)<br />Rounds: 26";
-		displayname = "PMAG (OTM) 6.8mm";
+        displayname = "6.8mm BT 26Rnd STANAG Magazine";
 		displaynameshort = "Ballistic Tip";
 		picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
 };
@@ -261,7 +261,7 @@ class hlc_30rnd_68x43_Tracer : hlc_30rnd_68x43_FMJ
     ammo = "HLC_68x43_FMJ";
     count = 26;
     descriptionshort = "Caliber: 6.8x43mm SPC Tracer<br />Type: Incendiary Tracer<br />Rounds: 26";
-    displayname = "PMAG (Tracer) 6.8mm";
+    displayname = "6.8mm Tracer 26Rnd STANAG Magazine";
     lastroundstracer = 4;
     tracersevery = 1;
     displaynameshort = "Tracer";
@@ -274,7 +274,7 @@ class hlc_30rnd_68x43_MIRDIM : hlc_30rnd_68x43_FMJ
 		ammo = "hlc_68x43_IRDIM";
         count = 26;
         descriptionshort = "Caliber: 6.8x43mm FMJ/IRDIM Tracer<br />Type:FMJ/IR-only Incendiary Tracer<br />Rounds: 26";
-		displayname = "PMAG (FMJ/IRDIM) 6.8mm";
+		displayname = "6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)";
 		lastroundstracer = 4;
 		scope = 2;
 		tracersevery = 3;
@@ -288,7 +288,7 @@ class hlc_30rnd_68x43_MFMJ : hlc_30rnd_68x43_FMJ
     ammo = "HLC_68x43_FMJ";
     count = 26;
     descriptionshort = "Caliber: 6.8x43mm FMJ/Tracer<br />Type: FMJ/Incendiary Tracer<br />Rounds: 26";
-    displayname = "PMAG (FMJ/Tracer) 6.8mm";
+    displayname = "6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)";
     lastroundstracer = 4;
     scope = 2;
     tracersevery = 3;
@@ -302,7 +302,7 @@ class hlc_30rnd_68x43_IRDIM : hlc_30rnd_68x43_Tracer
     ammo = "hlc_68x43_IRDIM";
     count = 26;
     descriptionshort = "Caliber: 6.8x43mm SPC IRDIM Tracer<br />Type: IR-only Incendiary Tracer<br />Rounds: 26";
-    displayname = "PMAG (IRDIM) 6.8mm";
+    displayname = "6.8mm IR-DIM 26Rnd STANAG Magazine (IR-DIM every 3)";
     lastroundstracer = 4;
     scope = 2;
     tracersevery = 1;
@@ -316,11 +316,11 @@ class hlc_30rnd_68x43_Sub : hlc_30rnd_68x43_Tracer
     ammo = "hlc_68x43_Sub";
     count = 26;
     descriptionshort = "Caliber: 6.8x43mm SPC Spitzer SP<br />Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)<br />Rounds: 26";
-    displayname = "PMAG (Subsonic) 6.8mm";
+    displayname = "6.8mm Spitzer 26Rnd STANAG Magazine (IR-DIM every 3)";
     lastroundstracer = 4;
     scope = 2;
     tracersevery = 1;
-    displaynameshort = "Subsonic";
+    displaynameshort = "Spitzer";
     picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
 };
 };
@@ -482,7 +482,7 @@ class hlc_acr_base : Rifle_Base_F {
         __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
     };
 
-    drysound[] = { "hlc_core\sound\empty_assaultrifles", 1, 1, 10 };
+    drysound[] = { "\hlc_core\sound\empty_assaultrifles", 1, 1, 10 };
     reloadMagazineSound[] = { "hlc_wp_acr\snd\ACR_reload", 0.74, 1, 30 };
     changeFiremodeSound[] = { "hlc_wp_acr\snd\ar15_selector", 1, 1, 8 };
     UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -925,6 +925,7 @@ class hlc_rifle_ACR_SBR_tan : hlc_acr556_base
     //soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
     AB_barrelTwist = 7;
     AB_barrelLength = 14.5;
+    initspeed = -0.86667;
     reloadAction = "HLC_GestureReloadACR";
     scope = public;
     model = "hlc_wp_acr\mesh\acr\acr.p3d";
@@ -1052,7 +1053,7 @@ class hlc_rifle_ACR_SBR_black :hlc_rifle_ACR_SBR_tan {
     dlc = "Niarms_acr";
     displayName = "Remington ACR-E (Compact/Black)";
     picture = "\hlc_wp_acr\tex\ui\gear_sbr-black_ca";
-    hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-556black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     class __MAGSWITCHCLASS {
         hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_SBR_black_x15";
         default = "hlc_rifle_ACR_SBR_black";
@@ -1097,11 +1098,23 @@ class hlc_rifleACR_SBR_cliffhanger :hlc_rifle_ACR_SBR_tan {
     picture = "\hlc_wp_acr\tex\ui\gear_SBR-cliffhanger_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1cliffhanger_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3cliffhanger_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     HiddenSelectionsMaterials[] = { "hlc_wp_ACR\mat\map1cliffhanger.rvmat", "hlc_wp_ACR\mat\map2.rvmat", "hlc_wp_ACR\mat\map3cliffhanger.rvmat", "hlc_wp_ACR\mat\mapyes.rvmat", "hlc_wp_ACR\mat\PMAG.rvmat", "hlc_wp_ACR\mat\afg.rvmat" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifleACR_SBR_cliffhanger_x15";
+        default = "hlc_rifleACR_SBR_cliffhanger";
+    };
 };
+class hlc_rifleACR_SBR_cliffhanger_x15 : hlc_rifleACR_SBR_cliffhanger
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\acr_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_Carb_black :hlc_rifle_ACR_SBR_tan
 {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 368.3;
+    initspeed = -0.9;
     author = "Toadie";
     model = "hlc_wp_acr\mesh\acr\ACR_Carbine.p3d";
     displayName = "Remington ACR-E (Short/Black)";
@@ -1119,7 +1132,18 @@ class hlc_rifle_ACR_Carb_black :hlc_rifle_ACR_SBR_tan
         __ROF(850);
         __MOA(2.1);
     };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_Carb_black_x15";
+        default = "hlc_rifle_ACR_Carb_black";
+    };
 };
+class hlc_rifle_ACR_Carb_black_x15 : hlc_rifle_ACR_Carb_black
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_Carb_tan :hlc_rifle_ACR_Carb_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 368.3;
@@ -1128,7 +1152,18 @@ class hlc_rifle_ACR_Carb_tan :hlc_rifle_ACR_Carb_black {
     displayName = "Remington ACR-E (Short/Tan)";
     picture = "\hlc_wp_acr\tex\ui\gear_carbine-tan_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_co.tga", "hlc_wp_ACR\tex\map2-68tan_co.tga", "hlc_wp_ACR\tex\map3_co.tga", "hlc_wp_ACR\tex\mapyes_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_Carb_tan_x15";
+        default = "hlc_rifle_ACR_Carb_tan";
+    };
 };
+class hlc_rifle_ACR_Carb_tan_x15 : hlc_rifle_ACR_Carb_tan
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_Carb_green :hlc_rifle_ACR_Carb_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 368.3;
@@ -1137,11 +1172,23 @@ class hlc_rifle_ACR_Carb_green :hlc_rifle_ACR_Carb_black {
     displayName = "Remington ACR-E (Short/Green)";
     picture = "\hlc_wp_acr\tex\ui\gear_carbine-green_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_green_co.tga", "hlc_wp_ACR\tex\map2-556green_co.tga", "hlc_wp_ACR\tex\map3-green_co.tga", "hlc_wp_ACR\tex\mapyesGreen_co.tga", "hlc_wp_ACR\tex\pmagGreen_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_Carb_green_x15";
+        default = "hlc_rifle_ACR_Carb_green";
+    };
 };
+class hlc_rifle_ACR_Carb_green_x15 : hlc_rifle_ACR_Carb_green
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_mid_black :hlc_rifle_ACR_SBR_tan
 {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 419.1;
+    initspeed = -0.93;
     author = "Toadie";
     model = "hlc_wp_acr\mesh\acr\ACR_midlength.p3d";
     displayName = "Remington ACR-E (Mid/Black)";
@@ -1159,7 +1206,18 @@ class hlc_rifle_ACR_mid_black :hlc_rifle_ACR_SBR_tan
         __ROF(849);
         __MOA(1.7);
     };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_mid_black_x15";
+        default = "hlc_rifle_ACR_mid_black";
+    };
 };
+class hlc_rifle_ACR_mid_black_x15 : hlc_rifle_ACR_mid_black
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_mid_tan :hlc_rifle_ACR_mid_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 419.1;
@@ -1168,7 +1226,18 @@ class hlc_rifle_ACR_mid_tan :hlc_rifle_ACR_mid_black {
     displayName = "Remington ACR-E (Mid/Tan)";
     picture = "\hlc_wp_acr\tex\ui\gear_mid-tan_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_co.tga", "hlc_wp_ACR\tex\map2-68tan_co.tga", "hlc_wp_ACR\tex\map3_co.tga", "hlc_wp_ACR\tex\mapyes_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_mid_tan_x15";
+        default = "hlc_rifle_ACR_mid_tan";
+    };
 };
+class hlc_rifle_ACR_mid_tan_x15 : hlc_rifle_ACR_mid_tan
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_mid_green :hlc_rifle_ACR_mid_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 419.1;
@@ -1177,12 +1246,24 @@ class hlc_rifle_ACR_mid_green :hlc_rifle_ACR_mid_black {
     displayName = "Remington ACR-E (Mid/Green)";
     picture = "\hlc_wp_acr\tex\ui\gear_mid-green_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_green_co.tga", "hlc_wp_ACR\tex\map2-556green_co.tga", "hlc_wp_ACR\tex\map3-green_co.tga", "hlc_wp_ACR\tex\mapyesGreen_co.tga", "hlc_wp_ACR\tex\pmagGreen_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_mid_green_x15";
+        default = "hlc_rifle_ACR_mid_green";
+    };
 };
+class hlc_rifle_ACR_mid_green_x15 : hlc_rifle_ACR_mid_green
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_full_black :hlc_rifle_ACR_SBR_tan
 {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 508;
     author = "Toadie";
+    initspeed = -1;
     model = "hlc_wp_acr\mesh\acr\ACR_riflelength.p3d";
     displayName = "Remington ACR-E (Long/Black)";
     picture = "\hlc_wp_acr\tex\ui\gear_rifle-black_ca";
@@ -1199,7 +1280,18 @@ class hlc_rifle_ACR_full_black :hlc_rifle_ACR_SBR_tan
         __ROF(847);
         __MOA(1.7);
     };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_full_black_x15";
+        default = "hlc_rifle_ACR_full_black";
+    };
 };
+class hlc_rifle_ACR_full_black_x15 : hlc_rifle_ACR_full_black
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_full_tan :hlc_rifle_ACR_full_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 508;
@@ -1208,7 +1300,18 @@ class hlc_rifle_ACR_full_tan :hlc_rifle_ACR_full_black {
     displayName = "Remington ACR-E (Long/Tan)";
     picture = "\hlc_wp_acr\tex\ui\gear_rifle-tan_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_co.tga", "hlc_wp_ACR\tex\map2-68tan_co.tga", "hlc_wp_ACR\tex\map3_co.tga", "hlc_wp_ACR\tex\mapyes_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_full_tan_x15";
+        default = "hlc_rifle_ACR_full_tan";
+    };
 };
+class hlc_rifle_ACR_full_tan_x15 : hlc_rifle_ACR_full_tan
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+};
+
 class hlc_rifle_ACR_full_green :hlc_rifle_ACR_full_black {
     ACE_barrelTwist = 228.6;
     ACE_barrelLength = 508;
@@ -1217,5 +1320,15 @@ class hlc_rifle_ACR_full_green :hlc_rifle_ACR_full_black {
     displayName = "Remington ACR-E (Long/Green)";
     picture = "\hlc_wp_acr\tex\ui\gear_rifle-green_ca";
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_green_co.tga", "hlc_wp_ACR\tex\map2-556green_co.tga", "hlc_wp_ACR\tex\map3-green_co.tga", "hlc_wp_ACR\tex\mapyesGreen_co.tga", "hlc_wp_ACR\tex\pmagGreen_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
+    class __MAGSWITCHCLASS {
+        hlc_50rnd_556x45_EPR = "hlc_rifle_ACR_full_green_x15";
+        default = "hlc_rifle_ACR_full_green";
+    };
+};
+class hlc_rifle_ACR_full_green_x15 : hlc_rifle_ACR_full_green
+{
+    scopeArsenal = 0;
+    model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
+    reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
 };
 };
