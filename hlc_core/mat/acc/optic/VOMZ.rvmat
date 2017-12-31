@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture="hlc_core\tex\acc\optic\VOMZ\VOMZ-P3_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,SMDI)";
+	texture="hlc_core\tex\acc\optic\VOMZ\VOMZ-P3_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

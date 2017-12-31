@@ -64,6 +64,9 @@ class compatibleItems {
 class asdg_OpticRail1913 : asdg_OpticRail{
     class compatibleItems {
         hlc_optic_LeupoldM3A = 1;
+        hlc_optic_ZF95Base = 1;
+        hlc_optic_VOMZ3d = 1;
+        hlc_optic_VOMZ = 1;
     };
 };
 class asdg_UnderSlot : asdg_SlotInfo
@@ -1723,7 +1726,7 @@ class CfgWeapons
         dlc = "Niarms_FN3011";
         author = "Toadie";
         descriptionshort = "Leupold M3A Ultra<br />Magnification: 10x";
-        picture = "hlc_core\tex\ui\gear_LeupoldM3A_Ca";
+        picture = "\hlc_core\tex\ui\gear_LeupoldM3A_Ca";
         model = "hlc_core\mesh\accessories\sights\LeupoldM3A.p3d";
         displayname = "Leupold M3A";
 
@@ -1810,6 +1813,8 @@ class hlc_optic_PVS4base : optic_Arco {
                     __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
                 };
             };
         };
@@ -1817,12 +1822,12 @@ class hlc_optic_PVS4base : optic_Arco {
     };
 
     class hlc_optic_VOMZ : optic_lrps {
-        dlc = "Niarms_SG550";
+        dlc = "Niarms_Core";
         author = "Toadie";
         descriptionshort = "VOMZ Pilad P3 <br />Magnification: 3.5x";
         model = "hlc_core\mesh\accessories\sights\VOMZ_p3.p3d";
         displayname = "VOMZ Pilad P3(2D)";
-
+        picture = "\hlc_core\tex\ui\gear_vomz_ca";
         class ItemInfo : ItemInfo {
             class OpticsModes {
                 class Snip {
@@ -1860,7 +1865,47 @@ class hlc_optic_PVS4base : optic_Arco {
             };
         };
     };
- class hlc_optic_KernBase : optic_arco
+    class hlc_optic_VOMZ3d:hlc_optic_VOMZ
+    {
+    author = "Toadie";
+    displayname = "VOMZ Pilad P3";
+        class ItemInfo : ItemInfo {
+            class OpticsModes {
+                class Snip {
+                    opticsID = 1;
+                    opticsDisplayName = "WFOV";
+                    useModelOptics = 0;
+                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    opticsZoomMin = 0.249/3.5;
+                    opticsZoomMax = 0.249/3.5;
+                    opticsZoomInit = 0.249/3.5;
+                    discreteDistance[] = { 100, 200, 300, 400, 500, 600,700, 800 };
+                    discreteDistanceInitIndex = 3;
+                    distanceZoomMin = 300;
+                    distanceZoomMax = 1200;
+                    memoryPointCamera = "eye";
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsDisablePeripherialVision = 0;
+                    cameraDir = "";
+                };
+                class Iron : Snip {
+                    opticsID = 2;
+                    opticsDisplayName = "";
+                    useModelOptics = 0;
+                    opticsPPEffects[] = { "", "" };
+                    opticsFlare = 0;
+                    opticsDisablePeripherialVision = 0;
+                    __OPTICSZOOM_1X;
+                    memoryPointCamera = "eye2";
+                    visionMode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
+                };
+            };
+        };
+    };
+    class hlc_optic_KernBase : optic_arco
     {
         dlc = "Niarms_Core";
         scope = public;
@@ -1872,8 +1917,7 @@ class hlc_optic_PVS4base : optic_Arco {
         class ItemInfo : InventoryOpticsItem_Base_F
         {
             mass = 10;
-            opticType = 1;
-            optics = 1;
+            __OPTIC_DMR;
             modelOptics = "\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d";
             class OpticsModes
             {
@@ -1905,11 +1949,11 @@ class hlc_optic_PVS4base : optic_Arco {
                     opticsflare = 0;
                     opticsid = 2;
                     opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1.25;
-                    opticsZoomInit = 0.75;
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
                 };
             };
         };
@@ -1930,7 +1974,7 @@ class hlc_optic_PVS4base : optic_Arco {
             mass = 10;
             opticType = 2;
             optics = 1;
-            modelOptics = "hlc_wp_FN3011\mesh\FN 4x\STANAG_optics";
+            modelOptics = "hlc_core\mesh\accessories\sights\reticles\ZFtype1_optics";
             class OpticsModes
             {
                 class Snip
@@ -1941,7 +1985,16 @@ class hlc_optic_PVS4base : optic_Arco {
                     discreteDistanceInitIndex = 1;
                     distanceZoomMin = 100;
                     distanceZoomMax = 600;
-                    modelOptics[] = { "hlc_wp_FN3011\mesh\FN 4x\STANAG_optics" };
+                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\ZFtype1_optics" };
+                    memoryPointCamera = "eye";
+                    cameradir = "";
+                    opticsZoomMin = 0.06225;
+                    opticsZoomMax = 0.06225;
+                    opticsZoomInit = 0.06225;
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsid = 1;
+                    opticsDisablePeripherialVision = 1;
                 };
                 class Kolimator {
                     cameradir = "";
@@ -1952,11 +2005,11 @@ class hlc_optic_PVS4base : optic_Arco {
                     opticsflare = 0;
                     opticsid = 2;
                     opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1.25;
-                    opticsZoomInit = 0.75;
+                    __OPTICSZOOM_1X;
                     usemodeloptics = 0;
                     visionmode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
                 };
             };
         };
@@ -1969,6 +2022,9 @@ class hlc_optic_PVS4base : optic_Arco {
         author = "Toadie";
         descriptionshort = "Kahles ZF95 with NATO Rangefinding Reticle<br />Magnification: 6x";
         displayname = "Kahles ZF95";
+        model = "hlc_core\mesh\accessories\sights\ZF95.p3d";
+        picture = "\hlc_core\tex\ui\gear_ZF95_ca";
+        scope = public;
          __OPTIC_DMR;
         class ItemInfo : ItemInfo {
             class OpticsModes {
