@@ -7,6 +7,9 @@ class CfgSoundShaders
 			{ "hlc_wp_MG3\snd\soundshaders\mg42\mg42_first", 1 } };
 		range = 10;
         volume = 1.2;
+		rangeCurve[] = {
+			{ 0, 1 },
+			{ 10, 0 } };
 	};
 	class MG42_closeShot_SoundShader
 	{
@@ -63,7 +66,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailforest", 1 } };
-        volume = " 1.938*((1-interior/1.4)*Forest/3)";
+        volume = "1*((1-interior/1.4)*Forest/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -74,7 +77,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailhouses", 1 } };
-        volume = "1.938*((1-interior/1.4)*houses/3)";
+        volume = "1*((1-interior/1.4)*houses/3)";
 		range = 1500;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -86,7 +89,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_MG3\snd\soundshaders\mg42\mg42_indoor", 1 } };
-        volume = " 1.938*((interior)*0.65)";
+        volume = "1*((interior)*0.65)";
 		range = 350;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -99,7 +102,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\hlc_wp_MG3\snd\soundshaders\mg42\mg42_meadow", 1 } };
-        volume = " 1.938*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -110,7 +113,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailtrees", 1 } };
-        volume = " 1.938*((1-interior/1.4)*trees/3)";
+        volume = "1*((1-interior/1.4)*trees/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -246,7 +249,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailforest", 1 } };
-        volume = " 1.938*((1-interior/1.4)*Forest/3)";
+        volume = "1*((1-interior/1.4)*Forest/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -257,7 +260,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailhouses", 1 } };
-        volume = "1.938*((1-interior/1.4)*houses/3)";
+        volume = "1*((1-interior/1.4)*houses/3)";
 		range = 1500;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -269,7 +272,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_MG3\snd\soundshaders\MG3\MG3_indoor", 1 } };
-        volume = " 1.938*((interior)*0.65)";
+        volume = "1*((interior)*0.65)";
 		range = 350;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -282,7 +285,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\hlc_wp_MG3\snd\soundshaders\MG3\MG3_meadow", 1 } };
-        volume = " 1.938*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },
@@ -293,7 +296,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tailtrees", 1 } };
-        volume = " 1.938*((1-interior/1.4)*trees/3)";
+        volume = "1*((1-interior/1.4)*trees/3)";
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 1 },

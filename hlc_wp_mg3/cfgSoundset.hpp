@@ -10,7 +10,8 @@ class CfgSoundSets
         stereoRadius = 10;
         sound3DProcessingType = "WeaponMediumShot3DProcessingType";
         distanceFilter = "HLC_defaultDistanceFilter";
-        frequencyRandomizer = 0.5;
+        frequencyRandomizer = 0.5; 
+		frequencyRandomizerMin = 0.1; 
         occlusionFactor = 0.5;
         obstructionFactor = 0.3;
         spatial = 1;
@@ -26,7 +27,8 @@ class CfgSoundSets
         stereoRadius = 50;
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
-        frequencyRandomizer = 0.3;
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
         occlusionFactor = 0.3;
         obstructionFactor = 0;
         spatial = 1;
@@ -43,7 +45,8 @@ class CfgSoundSets
         stereoRadius = 10;
         sound3DProcessingType = "WeaponMediumShot3DProcessingType";
         distanceFilter = "HLC_defaultDistanceFilter";
-        frequencyRandomizer = 0.5;
+        frequencyRandomizer = 0.5; 
+		frequencyRandomizerMin = 0.1; 
         occlusionFactor = 0.5;
         obstructionFactor = 0.3;
         spatial = 1;
@@ -59,7 +62,8 @@ class CfgSoundSets
         stereoRadius = 50;
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
-        frequencyRandomizer = 0.3;
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
         occlusionFactor = 0.3;
         obstructionFactor = 0;
         spatial = 1;
