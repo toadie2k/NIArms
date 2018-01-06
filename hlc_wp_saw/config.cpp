@@ -43,18 +43,18 @@ class CfgMovesBasic {
     class DefaultDie;
     class ManActions {
         HLC_GestureReloadM249 = "HLC_GestureReloadM249"; // Would reccommend changing the naming convention, just so nothing overlaps
-        //HLC_GestureReloadM249STANAG = "HLC_GestureReloadM249STANAG";
+        HLC_GestureReloadM249STANAG = "HLC_GestureReloadM249STANAG";
     };
 
     class Actions {
         class NoActions : ManActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249", "Gesture" };
-            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG", "Gesture" };
+            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG", "Gesture" };
         };
         class RifleBaseStandActions;
         class RifleProneActions : RifleBaseStandActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Prone", "Gesture" };
-            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Prone", "Gesture" };
+            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Prone", "Gesture" };
 
         };
         /*
@@ -64,15 +64,15 @@ class CfgMovesBasic {
         class RifleAdjustProneBaseActions;
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-            //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+            HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
         };
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
             HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-           //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+           HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
 
             class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
                 HLC_GestureReloadM249[] = { "HLC_GestureReloadM249_Context", "Gesture" };
-               //HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
+               HLC_GestureReloadM249STANAG[] = { "HLC_GestureReloadM249STANAG_Context", "Gesture" };
             };
         };
     };
@@ -119,37 +119,37 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadM249_Context : HLC_GestureReloadM249 {
             mask = "handsWeapon_context";
-        };/*
+        };
         class HLC_GestureReloadM249STANAG : Default {
             file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_stand.rtm";
-            speed = 0.24;
+            speed = -4.533;
             looped = false;
             mask = "handsWeapon";
-            headBobStrength = 0.1;
+            headBobStrength = 0.3;
             headBobMode = 2;
 
-            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            rightHandIKCurve[] = { 0, 1, (2/136), 0, (31/136), 0, (35/136), 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
-            leftHandIKCurve[] = { 0, 1, 0.0476190, 0, 0.8492063, 0, 0.873015, 1 };
+            leftHandIKCurve[] = { (31/136), 1, (34/136), 0, (111/136), 0, (118/136), 1 };
         };
         class HLC_GestureReloadM249STANAG_Prone : Default {
             file = "hlc_wp_saw\anim\gesture\m249_STANAGreload_prone.rtm";
-            speed = 0.24;
+            speed = -4.533;
             looped = false;
             mask = "handsWeapon";
             headBobStrength = 0.1;
             headBobMode = 2;
             rightHandIKBeg = true;
             rightHandIKEnd = true;
-            rightHandIKCurve[] = { 0, 1 ,1,1};
+            rightHandIKCurve[] = { 0, 1, (2/136), 0, (31/136), 0, (35/136), 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
-            leftHandIKCurve[] = { 0, 1, 0.047619, 0,0.8492063, 0, 0.873015, 1 };
+            leftHandIKCurve[] = { (31/136), 1, (34/136), 0, (111/136), 0, (118/136), 1 };
         };
         class HLC_GestureReloadM249STANAF_Context : HLC_GestureReloadM249STANAG {
             mask = "handsWeapon_context";
-        };*/
+        };
     };
 };
 
@@ -222,24 +222,23 @@ class CfgMagazines{
         ammo = "HLC_556NATO_EPR";
         count = 200;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: EPFMJ/Tracer<br />Rounds: 200";
-        displayname = "M27-Link Belt (EPR-Tracer) 200rnd 5.56mm";
+        displayname = "5.56mm EPR 200Rnd M27-Linked Belt(Tracers every 4)";
         model = "hlc_wp_saw\mesh\magazine\magazine.p3d";
         initspeed = 974.8;
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
-        mass = 58;
+        mass = 69;
         displaynameshort = "EPR/Tracer";
         nameSound = "mgun";
-        ACE_isBelt = 1;
     };
     class hlc_200rnd_556x45_T_SAW : hlc_200rnd_556x45_M_SAW {
         dlc = "Niarms_SAW";
         author = "Toadie, Spartan0536";
         ammo = "B_556x45_Ball_Tracer_Red";
         descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 200";
-        displayname = "M27-Link Belt (Tracer) 200rnd 5.56mm";
+        displayname = "5.56mm Tracers 200Rnd M27-Linked Belt";
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m249tracer_ca.paa";
         tracersevery = 1;
@@ -250,7 +249,7 @@ class CfgMagazines{
         author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: EPFMJ/Low-visibility Tracer<br />Rounds: 200";
-        displayname = "M27-Link Belt (EPR-IRDIM) 200rnd 5.56mm";
+        displayname = "5.56mm EPR 200Rnd M27-Linked Belt(IR-DIM every 4)";
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249mixed_ca.paa";
         tracersevery = 4;
@@ -261,7 +260,7 @@ class CfgMagazines{
         author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 200";
-        displayname = "M27-Link Belt (EPR) 200rnd 5.56mm";
+        displayname = "5.56mm EPR 200Rnd M27-Linked Belt";
         lastroundstracer = 10;
         picture = "\hlc_core\tex\ui\ammo\m_m249ball_ca.paa";
         tracersevery = 0;
@@ -308,9 +307,18 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 165;
-            class MuzzleSlot: asdg_MuzzleSlot_762MG {};
-            class CowsSlot {};
-            class PointerSlot {};
+            class MuzzleSlot: asdg_MuzzleSlot_762MG {
+                iconPosition[] = { 0.0, 0.4 };
+                iconScale = 0.2;
+            };
+            class CowsSlot {
+                iconPosition[] = { 0.5, 0.3 };
+                iconScale = 0.2;
+            };
+            class PointerSlot {
+                iconPosition[] = { 0.2, 0.4 };
+                iconScale = 0.25;
+            };
         };
         descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
         cursor = "mg";
@@ -396,8 +404,8 @@ class CfgWeapons {
         };
         __AI_DISPERSION_COEF;
 
-        drysound[] = {"hlc_core\sound\empty_machineguns", 1, 1, 10};
-        reloadmagazinesound[] = {"hlc_core\sound\empty_machineguns", 0.5, 1};
+        drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
+        reloadmagazinesound[] = {"\hlc_core\sound\empty_machineguns", 0.5, 1};
     };
     class hlc_lmg_minimipara : hlc_saw_base {
         dlc = "Niarms_SAW";
@@ -431,8 +439,8 @@ class CfgWeapons {
         model = "\hlc_wp_saw\mesh\minimi_para\minimi.p3d";
         reloadaction = "HLC_GestureReloadM249";
         descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-        drysound[] = { "hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
+        drysound[] = { "\hlc_wp_saw\snd\empty_machineguns", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_reload", 0.7, 1, 20 };
         inertia = 0.65;
         __DEXTERITY(6.56, 0);
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
@@ -459,7 +467,51 @@ class CfgWeapons {
         class Library {
             libTextDesc = "FN Herstal Minimi";
         };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
+        default = "hlc_lmg_minimipara";
     };
+    };
+class hlc_lmg_minimipara_30Rnd : hlc_lmg_minimipara
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.65-0.33+0.05;
+        __DEXTERITY(6.56-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+                class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
+
 
     class hlc_lmg_minimipara_railed : hlc_lmg_minimipara
 {
@@ -470,8 +522,53 @@ class CfgWeapons {
     __DEXTERITY(6.94, 0);
     class WeaponSlotsInfo : WeaponSlotsInfo {
         mass = 145;
-        class CowsSlot : asdg_OpticRail1913_short_MG {};
+        class CowsSlot : asdg_OpticRail1913_short_MG {
+            iconPosition[] = { 0.5, 0.3 };
+        };
     };
+class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_railed_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_railed_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_railed_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_railed_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+        default = "hlc_lmg_minimipara_railed";
+    };
+    };
+    class hlc_lmg_minimipara_railed_30Rnd : hlc_lmg_minimipara_railed
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
 };
     class hlc_lmg_minimipara_long : hlc_lmg_minimipara
 {
@@ -484,6 +581,49 @@ class CfgWeapons {
     class WeaponSlotsInfo : WeaponSlotsInfo {
         mass = 137;
     };
+class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+        default = "hlc_lmg_minimipara_long";
+    };
+    };
+    class hlc_lmg_minimipara_long_30Rnd : hlc_lmg_minimipara_long
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
 };
     class hlc_lmg_minimipara_long_railed : hlc_lmg_minimipara
 {
@@ -495,8 +635,53 @@ class CfgWeapons {
     __DEXTERITY(6.94, 0);
     class WeaponSlotsInfo : WeaponSlotsInfo {
         mass = 145;
-        class CowsSlot : asdg_OpticRail1913_short_MG {};
+        class CowsSlot : asdg_OpticRail1913_short_MG {
+            iconPosition[] = { 0.5, 0.3 };
+        };
     };
+class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_railed_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_railed_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_railed_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_railed_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+        default = "hlc_lmg_minimipara_long_railed";
+    };
+    };
+    class hlc_lmg_minimipara_long_railed_30Rnd : hlc_lmg_minimipara_long_railed
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
 };
     class hlc_lmg_minimi : hlc_lmg_minimipara {
         author = "Toadie";
@@ -524,7 +709,50 @@ class CfgWeapons {
             };
             mass = 144;
         };
+class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
+        default = "hlc_lmg_minimi";
     };
+    };
+    class hlc_lmg_minimi_30Rnd : hlc_lmg_minimi
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.68-0.33+0.05;
+        __DEXTERITY(6.8-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_lmg_minimi_railed : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed.p3d";
@@ -539,9 +767,54 @@ class CfgWeapons {
         initspeed = -1;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 145;
-            class CowsSlot : asdg_OpticRail1913_short_MG {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {
+                iconPosition[] = { 0.5, 0.3 };
+            };
         };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_railed_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_railed_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_railed_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_railed_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+        default = "hlc_lmg_minimi_railed";
     };
+    };
+    class hlc_lmg_minimi_railed_30Rnd : hlc_lmg_minimi_railed
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_lmg_m249para : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249paratrooper.p3d";
@@ -552,9 +825,52 @@ class CfgWeapons {
         AB_barrelTwist = 12;
         AB_barrelLength = 13.7;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
 
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_m249para_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_m249para_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_m249para_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_m249para_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
+        default = "hlc_lmg_m249para";
     };
+    };
+    class hlc_lmg_m249para_30Rnd : hlc_lmg_m249para
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249paratrooper_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_lmg_M249E2 : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249E2.p3d";
@@ -568,8 +884,51 @@ class CfgWeapons {
         AB_barrelLength = 18.3;
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_M249E2_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_M249E2_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_M249E2_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_M249E2_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
+        default = "hlc_lmg_M249E2";
     };
+    };
+    class hlc_lmg_M249E2_30Rnd : hlc_lmg_M249E2
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249E2_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.75-0.33+0.05;
+        __DEXTERITY(7.5-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_lmg_M249E1 : hlc_lmg_minimipara {
         author = "Toadie,da12thMonkey,j0zh94(RHS)";
         model = "\hlc_wp_saw\mesh\m249\m249E1.p3d";
@@ -583,8 +942,51 @@ class CfgWeapons {
         AB_barrelLength = 18.3;
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\rhs_m249\mk1_muzzleStock_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\rhs_m249\mk1_muzzleStock_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_lmg_M249E1_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_lmg_M249E1_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_lmg_M249E1_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_lmg_M249E1_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
+        default = "hlc_lmg_M249E1";
     };
+    };
+    class hlc_lmg_M249E1_30Rnd : hlc_lmg_M249E1
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249E1_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.72-0.33+0.05;
+        __DEXTERITY(7.25-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\rhs_m249\mk1_muzzleStock_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
 
     class hlc_m249_pip1 : hlc_lmg_minimi_railed {
         author = "Toadie";
@@ -599,8 +1001,51 @@ class CfgWeapons {
         AB_barrelLength = 18.3;
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_m249_pip1_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_m249_pip1_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_m249_pip1_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_m249_pip1_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
+        default = "hlc_m249_pip1";
     };
+    };
+    class hlc_m249_pip1_30Rnd : hlc_m249_pip1
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249e2_pip1_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.4-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_m249_pip2 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip2.p3d";
@@ -613,8 +1058,51 @@ class CfgWeapons {
         AB_barrelTwist = 12;
         AB_barrelLength = 13.7;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_m249_pip2_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_m249_pip2_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_m249_pip2_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_m249_pip2_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
+        default = "hlc_m249_pip2";
     };
+    };
+    class hlc_m249_pip2_30Rnd : hlc_m249_pip2
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249e2_pip2_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.8-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_m249_pip3 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
@@ -627,8 +1115,51 @@ class CfgWeapons {
         AB_barrelTwist = 12;
         AB_barrelLength = 13.7;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_m249_pip3_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_m249_pip3_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_m249_pip3_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_m249_pip3_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip3_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip3_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip3_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
+        default = "hlc_m249_pip3";
     };
+    };
+    class hlc_m249_pip3_30Rnd : hlc_m249_pip3
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249e2_pip3_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.68-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_m249_pip4 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip4.p3d";
@@ -645,13 +1176,58 @@ class CfgWeapons {
         AB_barrelLength = 18.3;
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
-        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
-            class PointerSlot : asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.4 };
+                };
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_m249_pip4_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_m249_pip4_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_m249_pip4_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_m249_pip4_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
+        default = "hlc_m249_pip4";
     };
+    };
+    class hlc_m249_pip4_30Rnd : hlc_m249_pip4
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249e2_pip4_30rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.65-0.33+0.05;
+        __DEXTERITY(6.55-3.3+0.499, 1);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_m249_SQuantoon : hlc_m249_pip4 {
         author = "Toadie, w/Special Thanks to Squantoon";
         model = "\hlc_wp_saw\mesh\m249\m249e2_squant.p3d";
@@ -662,7 +1238,49 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
         };
+    class __MAGSWITCHCLASS {
+        //NIArms Mags
+        hlc_30rnd_556x45_EPR = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_SOST = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_SPR = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_S = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_M = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_t = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_MDim = "hlc_m249_SQuantoon_30Rnd";
+        hlc_30rnd_556x45_TDim = "hlc_m249_SQuantoon_30Rnd";
+        //BI_MAGS
+        30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
+        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
+        30Rnd_556x45_Stanag_green = "hlc_m249_SQuantoon_30Rnd";
+        30Rnd_556x45_Stanag_red = "hlc_m249_SQuantoon_30Rnd";
+        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
+        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
+        //CUP Mags
+        CUP_30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
+        default = "hlc_m249_SQuantoon";
     };
+    };
+    class hlc_m249_SQuantoon_30Rnd : hlc_m249_SQuantoon
+{
+    scopeArsenal = 0;
+        model = "\hlc_wp_saw\mesh\m249\m249e2_Squant_30Rnd.p3d";
+        reloadaction = "HLC_GestureReloadM249STANAG";
+        inertia = 0.69-0.33+0.05;
+        __DEXTERITY(6.59-3.3+0.499, 0);
+        reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        class GunParticles : GunParticles {
+            class AmmoBeltEject {};
+        };
+};
     class hlc_lmg_mk46 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\mk46\mk46.p3d";
@@ -684,7 +1302,9 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 119;
-            class PointerSlot : asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.4 };
+            };
         };
         class FullAuto : FullAuto {
 
@@ -741,8 +1361,12 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 172;
             class UnderBarrelSlot : asdg_UnderSlot {};
-            class CowsSlot : asdg_OpticRail1913_short_MG {};
-            class PointerSlot : asdg_FrontSideRail {};
+            class CowsSlot : asdg_OpticRail1913_short_MG {
+                iconPosition[] = { 0.5, 0.3 };
+            };
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.4 };
+            };
         };
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
         model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";
@@ -826,150 +1450,4 @@ class CfgWeapons {
             class UnderBarrelSlot {};
         };
     };
-    /*Commented Out
-    //Reason - Mk48 test model deleted for release, "test" M249 deleted because redundant. 
-    class hlc_lmg_mk48 : hlc_saw_base {
-        scope = public;
-        magazines[] = {
-            "hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_T_M60E4"
-        };
-        model = "\hlc_wp_saw\mesh\mk48_des\Mk48.p3d";
-        reloadaction = "HLC_GestureReloadM60";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
-        drysound[] = {"hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-        reloadmagazinesound[] = {"hlc_wp_saw\snd\mk48_reload", 0.5, 1, 20};
-        picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-        displayName = "FN Mk.48 Mod.0";
-        discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
-        discretedistanceinitindex = 2;
-        bg_bipod = 1; 
-        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 102;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_H_MG"};
-            };
-            class asdg_OpticRail_hl48: asdg_OpticRail1913 {};
-            class asdg_FrontSideRail_hl48: asdg_FrontSideRail {};
-        };
-        class ItemInfo {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
-                closure2[]={"\hlc_wp_saw\snd\mk48_first", 1, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                begin1[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_saw\snd\mk48_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                begin1[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
-                begin2[]={"\hlc_wp_saw\snd\gpmg_suppressed", 1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-            };
-            begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-            begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-            closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.084;
-            dispersion=0.000261799;
-            maxrange = 600;
-            maxrangeprobab = 0.05;
-            midrange = 300;
-            midrangeprobab = 0.7;
-            minrange = 1;
-            minrangeprobab = 0.3;
-            airateoffire = 4;
-        };
-        class Library {
-            libTextDesc = "US Ordnance M60E4";
-        };
-    };
-    class hlc_lmg_m249pip : hlc_lmg_mk48 {
-        scope = public;
-        magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_B_SAW","hlc_200rnd_556x45_T_SAW","hlc_30rnd_556x45_EPR","hlc_20rnd_556x45_STANAG","30Rnd_556x45_Stanag","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_50rnd_556x45_EPR", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow"};
-        model = "\hlc_wp_saw\mesh\m249e2\m249e2.p3d";
-        reloadaction = "HLC_GestureReloadM60";
-        descriptionShort = "Light Machine Gun<br/>Caliber: 5.56mm";
-        drysound[] = {"hlc_core\sound\empty_machineguns", 0.01, 1, 10};
-        reloadmagazinesound[] = {"hlc_wp_saw\snd\saw_reload", 0.5, 1, 20};
-        picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-        displayName = "M249E2";
-        discretedistance[] = {100, 200, 300, 400, 500,600,700,800};
-        discretedistanceinitindex = 2;
-        bg_bipod = 1; 
-        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
-        class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 102;
-            class MuzzleSlot : SlotInfo {
-                linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-                compatibleItems[] = {"muzzle_snds_M"};
-            };
-        };
-        class ItemInfo {
-            priority = 1;
-            RMBhint = "XMC";
-            onHoverText = "TODO XMC DSS";
-        };
-        class FullAuto : Mode_FullAuto {
-            sounds[] = {"StandardSound","SilencedSound"};
-
-            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
-                weaponSoundEffect  = "DefaultRifle";
-
-                closure1[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
-                closure2[]={"\hlc_wp_saw\snd\saw_first", 0.7, 1,10};
-                soundClosure[]={closure1,0.5, closure2,0.5};
-            };
-
-            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
-                begin1[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                begin2[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                begin3[]={"\hlc_wp_saw\snd\saw_fire", 1, 1,1200};
-                soundBegin[]={begin1,0.33, begin2,0.33, begin3,0.34};
-            };
-
-            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
-                begin1[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-                begin2[]={"\hlc_wp_saw\snd\saw_suppressed", 1.1, 1,200};
-                soundBegin[]={begin1,0.5, begin2,0.5};
-            };
-            begin1[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-            begin2[] = {"\hlc_wp_saw\snd\mk48_fire",1.3,1,1200};
-            soundBegin[] = {"begin1",0.5,"begin2",0.5};
-            closure1[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-            closure2[] = {"\hlc_wp_saw\snd\mk48_first",1,1,30};
-            soundClosure[] = {"closure1",0.5,"closure2",0.5};
-            weaponSoundEffect = "DefaultRifle";
-            reloadTime = 0.067;
-            dispersion=0.000261799;
-            maxrange = 600;
-            maxrangeprobab = 0.05;
-            midrange = 300;
-            midrangeprobab = 0.7;
-            minrange = 1;
-            minrangeprobab = 0.3;
-            airateoffire = 4;
-        };
-        class Library {
-            libTextDesc = "FN USa M249E2 P";
-        };
-    };*/
 };
