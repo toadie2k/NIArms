@@ -19,7 +19,7 @@ class CfgSoundSets
 	class Nia_ak74_Tail_SoundSet
 	{
 		soundShaders[] = {"nia_ak74_tailForest_SoundShader", "nia_ak74_tailHouses_SoundShader", "nia_ak74_tailInterior_SoundShader", "nia_ak74_tailMeadows_SoundShader", "nia_ak74_tailTrees_SoundShader","nia_ak74_tailForest_mid_SoundShader", "nia_ak74_tailHouses_mid_SoundShader", "nia_ak74_tailInterior_mid_SoundShader", "nia_ak74_tailMeadows_mid_SoundShader", "nia_ak74_tailTrees_mid_SoundShader"  };
-		volumeFactor = 1.5;
+		volumeFactor = 1.1;
 		volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -65,8 +65,8 @@ class CfgSoundSets
 
 	class Nia_ak47_Shot_SoundSet
 	{
-		soundShaders[] = { "nia_ak47_Closure_SoundShader", "nia_ak47_closeShot_SoundShader", "nia_ak47_midShot_SoundShader", "nia_ak47_distShot_SoundShader" };
-        volumeFactor = 1.5;
+		soundShaders[] = { "nia_ak47_Closure_SoundShader", "nia_ak47_closeShot_SoundShader", "nia_ak47_midShot_SoundShader", "nia_ak47_distShot_SoundShader"};
+        volumeFactor = 1.3;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShot3DProcessingType";
         distanceFilter = "HLC_defaultDistanceFilter";
@@ -81,7 +81,7 @@ class CfgSoundSets
 	class Nia_ak47_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_ak47_tailInterior_SoundShader", "nia_ak47_tailTrees_SoundShader", "nia_ak47_tailForest_SoundShader", "nia_ak47_tailMeadows_SoundShader", "nia_ak47_tailHouses_SoundShader","nia_ak47_tailInterior_mid_SoundShader", "nia_ak47_tailTrees_mid_SoundShader", "nia_ak47_tailForest_mid_SoundShader", "nia_ak47_tailMeadows_mid_SoundShader", "nia_ak47_tailHouses_mid_SoundShader" };
-		volumeFactor = 1.5;
+		volumeFactor = 1.1;
 		volumeCurve = "InverseSquare2Curve";
 		sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -172,7 +172,7 @@ class CfgSoundSets
 	class Nia_rpk_Tail_SoundSet
 	{
 		soundShaders[] = { "nia_rpk_tailInterior_SoundShader", "nia_rpk_tailTrees_SoundShader", "nia_rpk_tailForest_SoundShader", "nia_rpk_tailMeadows_SoundShader", "nia_rpk_tailHouses_SoundShader","nia_rpk_tailInterior_mid_SoundShader", "nia_rpk_tailTrees_mid_SoundShader", "nia_rpk_tailForest_mid_SoundShader", "nia_rpk_tailMeadows_mid_SoundShader", "nia_rpk_tailHouses_mid_SoundShader" };
-		volumeFactor = 1.35;
+		volumeFactor = 1.1;
 		volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
