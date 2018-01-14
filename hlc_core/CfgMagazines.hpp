@@ -1,13 +1,28 @@
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
 //displayname =  "<Caliber> <Round> <Capacity> <Container/Gun> (<Tracers> every <rate>)"
+
+/*
+Further musings
+45.38g=1 mass - mags
+
+21.8g=1 mass - bigger
+
+M80 Ball = 25.4G
+M855 Ball = 12.31G
+6.8mm SPC - @19.5G
+Pmag - 160
+9x19mm M882 - 12.7
+FAL mag = 250g
+
+FAL mag = 250g*/
     class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag{
         ammo = "HLC_556NATO_EPR";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd STANAG";
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -20,7 +35,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "5.56mm SOST 30Rnd STANAG";
         initspeed = 954.4;
-        mass = 8;
+        mass = 12; //+1 mass over EPR for ever 30
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -33,7 +48,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
         displayname = "5.56mm SBLR 30Rnd STANAG";
         initspeed = 868.7;
-        mass = 8;
+        mass = 14; //+2 mass over EPR for ever 30
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -53,7 +68,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd STANAG (Tracers every 4)";
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -67,7 +82,7 @@ class CfgMagazines {
         displayname = "5.56mm Tracer 30Rnd STANAG";
         
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -100,7 +115,7 @@ class CfgMagazines {
         count = 50;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
         displayname = "5.56mm EPR 50Rnd STANAG (Tracers every 4)";
-        mass = 14;
+        mass = 43.53;
         tracersevery = 4;
         picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
     };
@@ -111,7 +126,7 @@ class CfgMagazines {
         count = 50;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 50";
         displayname = "5.56mm EPR 50Rnd STANAG (IR-DIM every 4)";
-        mass = 14;
+        mass = 43.53;
         tracersevery = 4;
         picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
     };
@@ -157,7 +172,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_m1928ball_ca.paa";
         scope = 0;
-        mass = 12;
+        mass = 47.9;
         tracersevery = 0;
         displaynameshort = ".45ACP Ball";
     };
@@ -168,7 +183,7 @@ class CfgMagazines {
         displayname = "M1928 Mag (Tracer) 50rnd .45ACP";
         displaynameshort = ".45ACP LV Tracer";
         lastroundstracer = 1;
-        mass = 12;
+        mass = 47.9;
         picture = "\hlc_core\tex\ui\ammo\m_m1928tracer_ca.paa";
         scope = 0;
         tracersevery = 2;
@@ -182,7 +197,7 @@ class CfgMagazines {
         displayname = "9MMAR Mag (Ball) 50rnd 9x19mm";
         displaynameshort = "9mm Ball";
         picture = "\hlc_core\tex\ui\ammo\m_9mmarball_ca.paa";
-        mass = 9;
+        mass = 12.9;
         initspeed = 423;
     };
    
@@ -204,7 +219,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 27;
+        mass = 58.2;
         displaynameshort = "M80A1 EPR";
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -263,7 +278,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
         displayname = "7.62mm EPR 20Rnd FAL Magazine";
         initspeed = 908.4;
-        mass = 13;
+        mass = 16.7;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
@@ -278,7 +293,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
         displayname = "7.62mm SBLR 20Rnd FAL Magazine";
         initspeed = 731;
-        mass = 13;
+        mass = 18.7; // +2 per 20 rounds 
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
@@ -294,7 +309,7 @@ class CfgMagazines {
         displayname = "7.62mm SOST 20Rnd FAL Magazine";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         initspeed = 890.4;
-        mass = 13;
+        mass = 17.7; // +2 per 20
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
@@ -309,7 +324,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 16.7;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "M62A1 Tracer";
@@ -322,7 +337,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 16.7;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "IR-DIM";
@@ -332,10 +347,10 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         count = 50;
         descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
-        displayname = "7.62mm EPR 50Rnd FAL Magazine (IR-DIM ever 4)";
+        displayname = "7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)";
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         initspeed = 908.4;
-        mass = 17;
+        mass = 49.47;
         lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
         scope = 2;
@@ -350,7 +365,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 16.3;
         tracersevery = 0;
         initspeed = 325;
         displaynameshort = "FMJ Subsonic";
@@ -359,13 +374,13 @@ class CfgMagazines {
     class hlc_50rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         count = 50;
-        mass = 17;
+        mass = 49.47;
         descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
         displayname = "7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)";
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         initspeed = 908.4;
         lastroundstracer = 3;
-        picture = "\hlc_core\tex\ui\ammo\m_faltracer_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
         scope = 2;
         tracersevery = 4;
         displaynameshort = "EPR/Tracer";
@@ -377,7 +392,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 10";
         displayname = "7.62mm EPR 10Rnd FAL Magazine";
         initspeed = 870;
-        mass = 13;
+        mass = 8.7;
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
@@ -392,7 +407,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 10";
         displayname = "7.62mm SBLR 10Rnd FAL Magazine";
         initspeed = 890;
-        mass = 13;
+        mass = 9.2;
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
@@ -408,7 +423,7 @@ class CfgMagazines {
         displayname = "7.62mm SOST 10Rnd FAL Magazine";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         initspeed = 850;
-        mass = 13;
+        mass = 8.9;
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
         scope = 2;
@@ -423,7 +438,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 8.7;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "M62A1 Tracer";
@@ -436,7 +451,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 8.7;
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
         displaynameshort = "IR-DIM";
@@ -449,7 +464,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 13;
+        mass = 8.0;
         tracersevery = 0;
         initspeed = 325;
         displaynameshort = "FMJ Subsonic";

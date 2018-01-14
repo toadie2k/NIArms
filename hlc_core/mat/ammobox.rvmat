@@ -1,7 +1,4 @@
-class StageTI
-{
-	texture="hlc_wp_m60E4\tex\m60e4_TI_CA.tga";
-};
+
 ambient[]={1,1,1,1};
 diffuse[]={0.70400006,0.70400006,0.70400006,1};
 forcedDiffuse[]={0,0,0,0};

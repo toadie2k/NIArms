@@ -9,7 +9,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="hlc_WP_m14\tex\BIS_PVS4\anpvs4_nohq.tga";
+	texture="hlc_core\tex\acc\optic\BIS_PVS4\anpvs4_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -45,7 +45,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="hlc_WP_m14\tex\BIS_PVS4\anpvs4_as.tga";
+	texture="hlc_core\tex\acc\optic\BIS_PVS4\anpvs4_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -57,7 +57,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hlc_WP_m14\tex\BIS_PVS4\anpvs4_smdi.tga";
+	texture="hlc_core\tex\acc\optic\BIS_PVS4\anpvs4_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

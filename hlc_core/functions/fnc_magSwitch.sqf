@@ -34,6 +34,7 @@ if (!niarms_magSwitch) exitWith {}; // Exit if disabled
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
 if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
+if (_weapon != _muzzle) exitWith {};
 
 TRACE_1("PARAMS",_this);
 

@@ -11,7 +11,7 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
 		versionDesc = "NIARMA - CORE";
 		versionAct = "";
-        version = "1.1";
+        version = "1.3";
     };
 };
 #include "CfgAmmo.hpp"  
@@ -431,18 +431,18 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK_prone : Default {
-            file="\hlc_core\animation\gesture\reload_ak_prone.rtm";
-            looped=0;
-            speed=0.29;
-            mask="handsWeapon";
+            file = "\hlc_core\animation\gesture\reload_ak_prone.rtm";
+            looped = 0;
+            speed = -4.8;
+            mask = "handsWeapon";
             // mask="empty";
-            headBobStrength=0.02;
-            headBobMode=2;
+            headBobStrength = 0.2;
+            headBobMode = 2;
             leftHandIKBeg = false;
-            leftHandIKCurve[] = {0, 1, 0.075, 0, 0.85, 0, 0.93, 1};
+            leftHandIKCurve[] = { 0, 1, 0.075, 0, 0.85, 0, 0.93, 1 };
             leftHandIKEnd = true;
             rightHandIKBeg = true;
-            rightHandIKCurve[] = {1};
+            rightHandIKCurve[] = { 1 };
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK_Context : HLC_GestureReloadAK {
@@ -563,7 +563,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762Drum_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak76drum_prone.rtm";
             looped = 0;
             speed = 0.29;
             mask = "handsWeapon";
@@ -632,7 +632,7 @@ class CfgGesturesMale {
         class HLC_GestureReloadAR15_BADX15_WS : Default {
             file = "hlc_core\animation\gesture\reload_ar15X15_BAD_standing.rtm";
             looped = 0;
-            speed = 0.3003000;
+            speed = -2.766;
             mask = "handsWeapon";
             // mask="empty";
             headBobStrength = 0.3;
@@ -645,18 +645,18 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAR15_BADX15_WS_prone : Default {
-            file = "hlc_core\animation\gesture\reload_ar15_BAD_workspace.rtm";
-            looped = 0;
-            speed = 0.3003000;
-            mask = "handsWeapon";
+            file="hlc_core\animation\gesture\reload_ar15_prone.rtm";
+            looped=0;
+            speed=0.25;
+            mask="handsWeapon";
             // mask="empty";
-            headBobStrength = 0.1;
-            headBobMode = 2;
+            headBobStrength=0.05;
+            headBobMode=2;
             leftHandIKBeg = true;
-            leftHandIKCurve[] = { 0, 1, 0.07, 0, 0.81, 0, 0.86, 1 };
+            leftHandIKCurve[] = {0, 1, 0.07, 0, 0.81, 0, 0.86, 1};
             leftHandIKEnd = true;
             rightHandIKBeg = true;
-            rightHandIKCurve[] = { 0, 1, 0.08, 0, 0.14, 0, 0.17, 1, 0.57, 1, 0.68, 0, 0.78, 1 };
+            rightHandIKCurve[] = {0,1,0.08,0,0.14, 0, 0.17, 1,0.57,1,0.68,0,0.78,1};
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAR15_BADX15_WS_Context : HLC_GestureReloadAR15_BADX15_WS {
@@ -1731,6 +1731,7 @@ class CfgWeapons
         displayname = "Leupold M3A";
 
         class ItemInfo : ItemInfo {
+            mass = 10.5;
             class OpticsModes {
                 class Snip {
                     opticsID = 1;
@@ -1767,7 +1768,7 @@ class CfgWeapons
             };
         };
         tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
-        inertia = 0.07;
+        inertia = 0.05;
     };
 class hlc_optic_PVS4base : optic_Arco {
         author = "Bohemia Interactive, Toadie";
@@ -1776,7 +1777,7 @@ class hlc_optic_PVS4base : optic_Arco {
         picture = "\hlc_core\tex\ui\gear_PVS4_x_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
-			mass = 36;
+            mass = 49.6;
             modelOptics = "hlc_core\mesh\accessories\sights\reticles\NV_anpvs4_optic";
             class OpticsModes {
                 class Snip {
@@ -1818,7 +1819,7 @@ class hlc_optic_PVS4base : optic_Arco {
                 };
             };
         };
-		inertia = 0.18;
+		inertia = 0.22;
     };
 
     class hlc_optic_VOMZ : optic_lrps {
@@ -1828,7 +1829,9 @@ class hlc_optic_PVS4base : optic_Arco {
         model = "hlc_core\mesh\accessories\sights\VOMZ_p3.p3d";
         displayname = "VOMZ Pilad P3(2D)";
         picture = "\hlc_core\tex\ui\gear_vomz_ca";
+        inertia = 0.05;
         class ItemInfo : ItemInfo {
+            mass = 11;
             class OpticsModes {
                 class Snip {
                     opticsID = 1;
@@ -1905,7 +1908,8 @@ class hlc_optic_PVS4base : optic_Arco {
             };
         };
     };
-    class hlc_optic_KernBase : optic_arco
+    class optic_aco;
+    class hlc_optic_KernBase : optic_aco
     {
         dlc = "Niarms_Core";
         scope = public;
@@ -1916,7 +1920,7 @@ class hlc_optic_PVS4base : optic_Arco {
         weaponInfoType = "RscWeaponZeroing";
         class ItemInfo : InventoryOpticsItem_Base_F
         {
-            mass = 10;
+            mass = 8.8;
             __OPTIC_DMR;
             modelOptics = "\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d";
             class OpticsModes
@@ -1957,10 +1961,10 @@ class hlc_optic_PVS4base : optic_Arco {
                 };
             };
         };
-        inertia = 0.2;
+        inertia = 0.04;
         tmr_optics_enhanced = 0;
     };
- class hlc_optic_ZF4xBase : optic_arco
+ class hlc_optic_ZF4xBase : optic_aco
     {
         dlc = "Niarms_Core";
         scope = public;
@@ -1971,7 +1975,7 @@ class hlc_optic_PVS4base : optic_Arco {
         weaponInfoType = "RscWeaponZeroing";
         class ItemInfo : InventoryOpticsItem_Base_F
         {
-            mass = 10;
+            mass = 7.7;
             opticType = 2;
             optics = 1;
             modelOptics = "hlc_core\mesh\accessories\sights\reticles\ZFtype1_optics";
@@ -2013,7 +2017,7 @@ class hlc_optic_PVS4base : optic_Arco {
                 };
             };
         };
-        inertia = 0.2;
+        inertia = 0.04;
         tmr_optics_enhanced = 0;
     };
     class hlc_optic_ZF95Base : optic_lrps
@@ -2026,41 +2030,47 @@ class hlc_optic_PVS4base : optic_Arco {
         picture = "\hlc_core\tex\ui\gear_ZF95_ca";
         scope = public;
          __OPTIC_DMR;
-        class ItemInfo : ItemInfo {
-            class OpticsModes {
-                class Snip {
-                    opticsID = 1;
-                    opticsDisplayName = "WFOV";
-                    useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.249/6;
-                    opticsZoomMax = 0.249/6;
-                    opticsZoomInit = 0.0249;
-                    discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
-                    discreteDistanceInitIndex = 4;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 1200;
-                    memoryPointCamera = "eye";
-                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\NATORangefinder_ZF95_6x"};
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    cameraDir = "";
-                };
-                class Iron : Snip {
-                    opticsID = 2;
-                    opticsDisplayName = "";
-                    useModelOptics = 0;
-                    opticsPPEffects[] = { "", "" };
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    __OPTICSZOOM_1X;
-                    memoryPointCamera = "eye2";
-                    visionMode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
+         inertia = 0.052;
+         class ItemInfo : ItemInfo
+         {
+             mass = 14.54;
+             class OpticsModes
+             {
+                 class Snip
+                 {
+                     opticsID = 1;
+                     opticsDisplayName = "WFOV";
+                     useModelOptics = 1;
+                     opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
+                     opticsZoomMin = 0.249 / 6;
+                     opticsZoomMax = 0.249 / 6;
+                     opticsZoomInit = 0.0249;
+                     discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200};
+                     discreteDistanceInitIndex = 4;
+                     distanceZoomMin = 300;
+                     distanceZoomMax = 1200;
+                     memoryPointCamera = "eye";
+                     modelOptics[] = {"hlc_core\mesh\accessories\sights\reticles\NATORangefinder_ZF95_6x"};
+                     visionMode[] = {"Normal"};
+                     opticsFlare = 1;
+                     opticsDisablePeripherialVision = 1;
+                     cameraDir = "";
+                 };
+                 class Iron : Snip
+                 {
+                     opticsID = 2;
+                     opticsDisplayName = "";
+                     useModelOptics = 0;
+                     opticsPPEffects[] = {"", ""};
+                     opticsFlare = 0;
+                     opticsDisablePeripherialVision = 0;
+                     __OPTICSZOOM_1X;
+                     memoryPointCamera = "eye2";
+                     visionMode[] = {};
+                     discreteDistance[] = {100};
+                     discreteDistanceInitIndex = 0;
+                 };
+             };
         };
     };
 
