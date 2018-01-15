@@ -5,11 +5,11 @@ class CfgPatches
 {
  class hlcweapons_acr
  {
-     requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Weapons_F_Acc", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core", "hlcweapons_ar15" };
+     requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Weapons_F_Acc", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core" };
 	units[] = {  };
 	weapons[] = {"hlc_rifle_ACR"};
 	magazines[] = {};
-	version="1.1";
+	version="1.2";
 	author="toadie";
  };
 };
@@ -126,8 +126,8 @@ class asdg_MuzzleSlot_556;
 
 class CfgVehicles
 {
-    class NATO_Box_Base;
-   class Niarms_ACR_Box : NATO_Box_Base
+    class B_supplyCrate_F;
+   class Niarms_ACR_Box : B_supplyCrate_F
 	{	
 		dlc = "Niarms_ACR";
 		scope = 2;
@@ -231,11 +231,11 @@ class hlc_30rnd_68x43_FMJ : 30Rnd_556x45_Stanag
         author = "Toadie,Spartan0536";
 		ammo = "HLC_68x43_FMJ";
 		count = 26;
-		descriptionshort = "Caliber: 6.8x43mm SPC FMJ-BT<br />Type: Full Metal Jacket Boat Tail<br />Rounds: 26";
+		descriptionshort = "Caliber: 6.8x43mm SPC FMJ-BT<br />Type: Full Metal Jacket<br />Rounds: 26";
         displayname = "6.8mm FMJ 26Rnd STANAG Magazine";
         model = "hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
 		initspeed = 815.34;
-		mass = 9;
+		mass = 14.68;
 		lastroundstracer = 4;
 		scope = 2;
 		tracersevery = 0;
@@ -538,7 +538,7 @@ class hlc_rifle_ACR68_SBR_tan : hlc_acr_base
     __DEXTERITY(3.6 + 0.1, 1); //afg,kx3
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
-            mass = 58;
+            mass = 81.5;
 			class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
                 iconScale = 0.2;
@@ -674,10 +674,15 @@ class hlc_rifle_ACR68_Carb_black :hlc_rifle_ACR68_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.39;
     __DEXTERITY(3.9 + 0.1, 1); //afg,kx3
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 88;
+        };
+    
     class Single : Single
-    {
-        __ROF(850);
-        __MOA(2.1);
+        {
+            __ROF(850);
+            __MOA(2.1);
     };
     class FullAuto : FullAuto
     {
@@ -714,6 +719,12 @@ class hlc_rifle_ACR68_mid_black :hlc_rifle_ACR68_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.42;
     __DEXTERITY(4.1 + 0.1, 1); //afg,kx3
+    
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 92;
+        };
+    
     class Single : Single
     {
         __ROF(849);
@@ -754,6 +765,11 @@ class hlc_rifle_ACR68_full_black :hlc_rifle_ACR68_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.45;
     __DEXTERITY(4.4 + 0.1, 1); //afg,kx3
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 99;
+        };
+    
     class Single : Single
     {
         __ROF(847);
@@ -834,7 +850,7 @@ class hlc_rifle_ACR68_aron :hlc_rifle_ACR68_Carb_black
 class hlc_acr556_base : hlc_acr_base
 {
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_co.tga", "hlc_wp_ACR\tex\map2_co.tga", "hlc_wp_ACR\tex\map3_co.tga", "hlc_wp_ACR\tex\mapyes_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
-//    HiddenSelectionsMaterials[] = { "hlc_wp_ACR\mat\map1.rvmat", "hlc_wp_ACR\mat\map2.rvmat", "hlc_wp_ACR\mat\map3.rvmat", "hlc_wp_ACR\mat\mapyes.rvmat", "hlc_wp_ACR\mat\PMAG.rvmat", "hlc_wp_ACR\mat\afg.rvmat" };
+    //    HiddenSelectionsMaterials[] = { "hlc_wp_ACR\mat\map1.rvmat", "hlc_wp_ACR\mat\map2.rvmat", "hlc_wp_ACR\mat\map3.rvmat", "hlc_wp_ACR\mat\mapyes.rvmat", "hlc_wp_ACR\mat\PMAG.rvmat", "hlc_wp_ACR\mat\afg.rvmat" };
     class WeaponSlotsInfo : WeaponSlotsInfo {
         class MuzzleSlot : asdg_MuzzleSlot_556{};
     };
@@ -951,7 +967,7 @@ class hlc_rifle_ACR_SBR_tan : hlc_acr556_base
     __DEXTERITY(3.6 + 0.1, 1); //afg,kx3
     class WeaponSlotsInfo : WeaponSlotsInfo
     {
-        mass = 58;
+        mass = 81.5;
         class UnderBarrelSlot : asdg_UnderSlot {};
         class CowsSlot : asdg_OpticRail1913 {};
         class PointerSlot : asdg_FrontSideRail {};
@@ -1043,6 +1059,8 @@ class hlc_rifle_ACR_SBR_tan_x15 : hlc_rifle_ACR_SBR_tan
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\acr_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.36+0.19;
+    __DEXTERITY(3.6 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 
@@ -1064,6 +1082,8 @@ class hlc_rifle_ACR_SBR_black_x15 : hlc_rifle_ACR_SBR_black
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\acr_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.36+0.19;
+    __DEXTERITY(3.6 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 
@@ -1085,6 +1105,8 @@ class hlc_rifle_ACR_SBR_green_x15 : hlc_rifle_ACR_SBR_green
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\acr_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.36+0.19;
+    __DEXTERITY(3.6 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 
@@ -1108,6 +1130,8 @@ class hlc_rifleACR_SBR_cliffhanger_x15 : hlc_rifleACR_SBR_cliffhanger
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\acr_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.36+0.19;
+    __DEXTERITY(3.6 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_Carb_black :hlc_rifle_ACR_SBR_tan
@@ -1122,6 +1146,11 @@ class hlc_rifle_ACR_Carb_black :hlc_rifle_ACR_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.39;
     __DEXTERITY(3.9 + 0.1, 1); //afg,kx3
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 88;
+        };
+    
     class Single : Single
     {
         __ROF(850);
@@ -1142,6 +1171,8 @@ class hlc_rifle_ACR_Carb_black_x15 : hlc_rifle_ACR_Carb_black
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.39+0.19;
+    __DEXTERITY(3.9 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_Carb_tan :hlc_rifle_ACR_Carb_black {
@@ -1162,6 +1193,8 @@ class hlc_rifle_ACR_Carb_tan_x15 : hlc_rifle_ACR_Carb_tan
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.39+0.19;
+    __DEXTERITY(3.9 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_Carb_green :hlc_rifle_ACR_Carb_black {
@@ -1182,6 +1215,8 @@ class hlc_rifle_ACR_Carb_green_x15 : hlc_rifle_ACR_Carb_green
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_Carbine_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.39+0.19;
+    __DEXTERITY(3.9 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_mid_black :hlc_rifle_ACR_SBR_tan
@@ -1196,6 +1231,12 @@ class hlc_rifle_ACR_mid_black :hlc_rifle_ACR_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.42;
     __DEXTERITY(4.1 + 0.1, 1); //afg,kx3
+    
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 92;
+        };
+    
     class Single : Single
     {
         __ROF(849);
@@ -1216,6 +1257,8 @@ class hlc_rifle_ACR_mid_black_x15 : hlc_rifle_ACR_mid_black
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.42+0.19;
+    __DEXTERITY(4.1 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_mid_tan :hlc_rifle_ACR_mid_black {
@@ -1236,6 +1279,8 @@ class hlc_rifle_ACR_mid_tan_x15 : hlc_rifle_ACR_mid_tan
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.42+0.19;
+    __DEXTERITY(4.1 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_mid_green :hlc_rifle_ACR_mid_black {
@@ -1256,6 +1301,8 @@ class hlc_rifle_ACR_mid_green_x15 : hlc_rifle_ACR_mid_green
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_midlength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.42+0.19;
+    __DEXTERITY(4.1 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_full_black :hlc_rifle_ACR_SBR_tan
@@ -1270,6 +1317,12 @@ class hlc_rifle_ACR_full_black :hlc_rifle_ACR_SBR_tan
     hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1-black_co.tga", "hlc_wp_ACR\tex\map2-68black_co.tga", "hlc_wp_ACR\tex\map3-black_co.tga", "hlc_wp_ACR\tex\mapyesblack_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
     inertia = 0.45;
     __DEXTERITY(4.4 + 0.1, 1); //afg,kx3
+    
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass = 99;
+        };
+    
     class Single : Single
     {
         __ROF(847);
@@ -1290,6 +1343,8 @@ class hlc_rifle_ACR_full_black_x15 : hlc_rifle_ACR_full_black
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.44+0.19;
+    __DEXTERITY(4.4 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_full_tan :hlc_rifle_ACR_full_black {
@@ -1310,6 +1365,8 @@ class hlc_rifle_ACR_full_tan_x15 : hlc_rifle_ACR_full_tan
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.44+0.19;
+    __DEXTERITY(4.4 + 0.1 + 1.9, 1); //afg,kx3   
 };
 
 class hlc_rifle_ACR_full_green :hlc_rifle_ACR_full_black {
@@ -1330,5 +1387,7 @@ class hlc_rifle_ACR_full_green_x15 : hlc_rifle_ACR_full_green
     scopeArsenal = 0;
     model = "hlc_wp_acr\mesh\acr\ACR_riflelength_x15.p3d";
     reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+    inertia = 0.44+0.19;
+    __DEXTERITY(4.4 + 0.1 + 1.9, 1); //afg,kx3   
 };
 };

@@ -20,7 +20,7 @@ class CfgSoundSets
 	class acr_Tail_SoundSet
 	{
 		soundShaders[] = { "acr_tailDistant_SoundShader", "acr_tailForest_SoundShader", "acr_tailHouses_SoundShader", "acr_tailInterior_SoundShader", "acr_tailMeadows_SoundShader", "acr_tailTrees_SoundShader", "acr_tailForest_mid_SoundShader", "acr_tailHouses_mid_SoundShader", "acr_tailInterior_mid_SoundShader", "acr_tailMeadows_mid_SoundShader", "acr_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -80,7 +80,7 @@ class CfgSoundSets
 	class ACRsixeight_Tail_SoundSet
 	{
 		soundShaders[] = { "ACRsixeight_tailDistant_SoundShader", "ACRsixeight_tailForest_SoundShader", "ACRsixeight_tailHouses_SoundShader", "ACRsixeight_tailInterior_SoundShader", "ACRsixeight_tailMeadows_SoundShader", "ACRsixeight_tailTrees_SoundShader","ACRsixeight_tailForest_mid_SoundShader", "ACRsixeight_tailHouses_mid_SoundShader", "ACRsixeight_tailInterior_mid_SoundShader", "ACRsixeight_tailMeadows_mid_SoundShader", "ACRsixeight_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";

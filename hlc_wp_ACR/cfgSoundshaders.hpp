@@ -65,7 +65,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "hlc_wp_acr\snd\soundshaders\five56\acrfive56_forest", 1 } };
-            volume = "1*((1-interior/1.4)*Forest/3)";
+            volume = "1.675*((1-interior/1.675)*Forest/3)";
         	range = 250;
         	rangeCurve[] = { 
             { 0,1 }, 
@@ -77,7 +77,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\five56\acrfive56_forest_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*Forest/3)";
+        volume = " 1.675*((1-interior/1.675)*Forest/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -90,7 +90,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_Urban", 1 } };
-            volume = " 1*((1-interior/1.4)*houses/3)";
+            volume = " 1.675*((1-interior/1.675)*houses/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -102,7 +102,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\five56\acrfive56_urban_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.675*((1-interior/1.675)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -115,7 +115,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_indoor", 1 } };
-            volume = "1*((interior)*0.65)";
+            volume = "1.675*((interior)*0.65)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -128,7 +128,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_indoor_mid", 1 }
         };
-        volume = " 1*((interior)*0.65)";
+        volume = " 1.675*((interior)*0.65)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 0.4 }, 
@@ -141,7 +141,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_meadows", 1 } };
-            volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+            volume = "1.675*((1-interior/1.675)*(meadows/2 max sea/2)/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -153,7 +153,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_meadows_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 1.675*((1-interior/1.675)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -166,7 +166,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_Trees", 1 } };
-            volume = "1*((1-interior/1.4)*trees/3)";
+            volume = "1.675*((1-interior/1.675)*trees/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -178,7 +178,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\five56\ACRfive56_trees_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*trees/3)";
+        volume = " 1.675*((1-interior/1.675)*trees/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -214,7 +214,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 } };
-			volume = "(1-interior/1.4)*forest/3";
+			volume = "(1-interior/1.675)*forest/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -225,7 +225,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
-			volume = "(1-interior/1.4)*houses/3";
+			volume = "(1-interior/1.675)*houses/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -248,7 +248,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "hlc_wp_acr\snd\acr_suppressed_meadow", 1 } };
-			volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+			volume = "(1-interior/1.675)*(meadows/2 max sea/2)/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -259,7 +259,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 } };
-			volume = "(1-interior/1.4)*trees/3";
+			volume = "(1-interior/1.675)*trees/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -323,7 +323,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "hlc_wp_acr\snd\soundshaders\six8\acrsix8_Forest", 1 } };
-            volume = "1*((1-interior/1.4)*Forest/3)";
+            volume = "1.675*((1-interior/1.675)*Forest/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -335,7 +335,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_Forest_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.675*((1-interior/1.675)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -348,7 +348,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_Urban", 1 } };
-            volume = "1*((1-interior/1.4)*houses/3)";
+            volume = "1.675*((1-interior/1.675)*houses/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -360,7 +360,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_urban_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.675*((1-interior/1.675)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -373,7 +373,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_indoor", 1 } };
-            volume = "1*((interior)*0.65)";
+            volume = "1.675*((interior)*0.65)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -386,7 +386,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_indoor_mid", 1 }
         };
-        volume = " 1*((interior)*0.65)";
+        volume = " 1.675*((interior)*0.65)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 0.4 }, 
@@ -399,7 +399,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_meadows", 1 } };
-            volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+            volume = "1.675*((1-interior/1.675)*(meadows/2 max sea/2)/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -411,7 +411,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_meadows_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.675*((1-interior/1.675)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -424,7 +424,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
                 { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_Trees", 1 } };
-            volume = "1*((1-interior/1.4)*trees/3)";
+            volume = "1.675*((1-interior/1.675)*trees/3)";
 			range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -436,7 +436,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_acr\snd\soundshaders\six8\acrsix8_Trees_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.675*((1-interior/1.675)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -472,7 +472,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 } };
-			volume = "(1-interior/1.4)*forest/3";
+			volume = "(1-interior/1.675)*forest/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -483,7 +483,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 } };
-			volume = "(1-interior/1.4)*houses/3";
+			volume = "(1-interior/1.675)*houses/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -506,7 +506,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\Silencer_Mk20_Tail_meadows", 1 } };
-			volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+			volume = "(1-interior/1.675)*(meadows/2 max sea/2)/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
@@ -517,7 +517,7 @@ class CfgSoundShaders
 		{
 			samples[] = {
 				{ "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 } };
-			volume = "(1-interior/1.4)*trees/3";
+			volume = "(1-interior/1.675)*trees/3";
 			range = 150;
 			rangeCurve[] = {
 				{ 0, 1 },
