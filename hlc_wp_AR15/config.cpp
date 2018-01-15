@@ -10,7 +10,7 @@ class CfgPatches {
             "Weapon_hlc_rifle_SAMR2","Weapon_hlc_rifle_CQBR","Weapon_hlc_rifle_M4","Weapon_hlc_rifle_m4m203","Weapon_hlc_rifle_bcmjack","Weapon_hlc_rifle_Bushmaster300","Weapon_hlc_rifle_vendimus","Weapon_hlc_rifle_honeybadger" };
         weapons[] = {"hlc_rifle_RU556","hlc_rifle_RU5562","hlc_rifle_Colt727","hlc_rifle_bcmjack","hlc_rifle_Colt727_GL","hlc_rifle_Bushmaster300","hlc_rifle_vendimus","hlc_rifle_SAMR","hlc_rifle_honeybadger","hlc_rifle_honeybase","hlc_rifle_bcmblackjack"};
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S"};
-        version="1.95";
+        version="1.99";
         author="toadie";
     };
 };
@@ -53,15 +53,14 @@ class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount sup
 };
 
 class CfgVehicles {
-    class NATO_Box_Base;
+    class B_supplyCrate_F;
     class Weapon_Base_F;
 
-    class HLC_AR_ammobox : NATO_Box_Base {
+    class HLC_AR_ammobox : B_supplyCrate_F {
         dlc = "Niarms_AR15";
         scope = 2;
         vehicleClass = "Ammo";
         displayName = "HLC AR15 Supply Box";
-        model = "\A3\weapons_F\AmmoBoxes\Supplydrop";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
@@ -69,6 +68,7 @@ class CfgVehicles {
             __M_MAG(29rnd_300BLK_STANAG,60);
             __M_MAG(29rnd_300BLK_STANAG_T,60);
             __M_MAG(29rnd_300BLK_STANAG_S,60);
+            __M_MAG(hlc_50rnd_300BLK_STANAG_EPR,60);
             __M_MAG(30Rnd_556x45_Stanag,60);
             __M_MAG(hlc_30rnd_556x45_EPR,60);
             __M_MAG(hlc_30rnd_556x45_SOST,60);
@@ -134,6 +134,7 @@ class CfgVehicles {
     __WEAPONHOLDER(hlc_rifle_M4a1carryhandle,hlc_30rnd_556x45_EPR,Colt M4A1 (Carryhandle),Niarms_AR15,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_m4m203,hlc_30rnd_556x45_EPR,Colt M4+M203,Niarms_AR15,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_bcmjack,hlc_30rnd_556x45_EPR,BCM 'Jack' Carbine,Niarms_AR15,Toadie,AssaultRifles);
+    __WEAPONHOLDER(hlc_rifle_bcmblackjack,29rnd_300BLK_STANAG,'BlackJack' Custom,Niarms_AR15,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_Bushmaster300,29rnd_300BLK_STANAG,Bushmaster .300BLK Carbine,Niarms_AR15,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_vendimus,29rnd_300BLK_STANAG,AR15 .300 Dissipator,Niarms_AR15,Toadie,AssaultRifles);
     __WEAPONHOLDER(hlc_rifle_honeybadger,29rnd_300BLK_STANAG,AAC Honeybadger,Niarms_AR15,Toadie,AssaultRifles);
@@ -165,7 +166,7 @@ class CfgMagazines {
         displayname = ".300AAC EPR 30Rnd STANAG Magazine";
         model = "hlc_wp_ar15\mesh\magazine\magazine_300.p3d";
         initspeed = 674.6;
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         tracersevery = 0;
         displaynameshort = "Blackout EPR";
         picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
@@ -202,7 +203,7 @@ class CfgMagazines {
         descriptionshort = "Caliber: .300 AAC Blackout EPR<br />Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet) <br />Rounds: 50";
         displayname = ".300AAC EPR 50Rnd STANAG Magazine";
         mass = 14;
-        tracersevery = 5;
+        tracersevery = 0;
         picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
     };
 };
@@ -398,7 +399,7 @@ class CfgWeapons {
             "\hlc_wp_ar15\gesture\newgesture\bad_hands.rtm"
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 57;
+            mass = 48;
             class CowsSlot: asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
@@ -466,6 +467,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\ru556\car15_X15.p3d";
         reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+            inertia = 0.22+0.19;
+            __DEXTERITY(2.2 + 0.1 + 1.9, 1); //afg,kx3   
     };
 
 
@@ -489,6 +492,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\ru556\car15_2_X15.p3d";
         reloadAction = "HLC_GestureReloadAR15_BADX15_WS";
+            inertia = 0.22+0.19;
+            __DEXTERITY(2.2 + 0.1 + 1.9, 1); //afg,kx3   
     };
 
 
@@ -548,6 +553,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\cqbr\cqbr_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.20+0.19;
+        __DEXTERITY(2.5 + 0.1 + 1.9, 1); //afg,kx3   
     };
 
 
@@ -614,6 +621,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\cqbr\M4A1_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.30+0.19;
+        __DEXTERITY(2.9 + 0.1 + 1.9, 1); //afg,kx3   
     };
 
 
@@ -651,6 +660,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\cqbr\M4A1M203_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.6+0.19;
+        __DEXTERITY(2.9 + 1.3+ 0.1 + 1.9, 0); //afg,kx3   
     };
 
 
@@ -771,6 +782,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\JackCarbine\samr_X15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.3+0.19;
+        __DEXTERITY(3 + 1.9, 0); //afg,kx3   
     };
 
 
@@ -844,6 +857,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\JackCarbine\samr_X15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.3+0.19;
+        __DEXTERITY(3 + 1.9, 0); //afg,kx3   
     };
 
     class hlc_rifle_Colt727 : hlc_ar15_base {
@@ -931,6 +946,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\carbine\colt727_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.27+0.19;
+        __DEXTERITY(2.72+ 1.9, 0); //afg,kx3   
     };
 
 
@@ -970,6 +987,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\carbinegl\colt727_GL_X15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.6+0.19;
+        __DEXTERITY(2.72+1.3+ 1.9, 0); //afg,kx3   
     };
 
 
@@ -1074,6 +1093,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\mill_bushmaster\car15_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.26+0.19;
+        __DEXTERITY(2.7+ 1.9, 0); //afg,kx3   
     };
 
     class hlc_rifle_vendimus : hlc_rifle_Bushmaster300 {
@@ -1152,6 +1173,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\pbear\car15_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.28+0.19;
+        __DEXTERITY(2.8+1.3+ 1.9, 0); //afg,kx3   
     };
 
     class hlc_rifle_SAMR : hlc_ar15_base {
@@ -1193,8 +1216,8 @@ class CfgWeapons {
                 iconScale = 0.2;
             };
         };
-        inertia = 0.57;
-		__DEXTERITY(3.7 + 0.1 + 0.3,1);
+        inertia = 0.55;
+		__DEXTERITY(3.7 + 0.1 ,1);
 
         handAnim[] = {
             "OFP2_ManSkeleton",
@@ -1245,6 +1268,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\Lar15_SAMR\samr_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.54+0.19;
+        __DEXTERITY(3.7+1.3+ 1.9, 0); //afg,kx3   
     };
 
 
@@ -1265,6 +1290,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\Lar15_SAMR\samr_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.54+0.19;
+        __DEXTERITY(3.7+1.3+ 1.9, 0); //afg,kx3
     };
 
 
@@ -1353,7 +1380,7 @@ class CfgWeapons {
                 iconScale = 0.2;
             };
         };
-		inertia = 0.23;
+		inertia = 0.27;
 		__DEXTERITY(2.7,0);
         class __MAGSWITCHCLASS {
             hlc_50rnd_300BLK_STANAG_EPR = "hlc_rifle_honeybase_x15";
@@ -1372,6 +1399,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\honeybadger\car15_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.23+0.19;
+        __DEXTERITY(2.7+ 1.9, 0); //afg,kx3
     };
     class hlc_rifle_mk18mod0: hlc_rifle_CQBR
     {
@@ -1397,6 +1426,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\cqbr\mk18mod0_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.20+0.19;
+        __DEXTERITY(2.5 + 0.1 + 1.9, 1); //afg,kx3   
     };
     class hlc_rifle_M4a1carryhandle: hlc_rifle_M4
     {
@@ -1420,6 +1451,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         model = "hlc_wp_ar15\mesh\cqbr\M4a1carryhandle_x15.p3d";
         reloadAction = "HLC_GestureReloadAR15_X15";
+        inertia = 0.20+0.19;
+        __DEXTERITY(2.5 + 0.1 + 1.9, 1); //afg,kx3   
     };
 
 };

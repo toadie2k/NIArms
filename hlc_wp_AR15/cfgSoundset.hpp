@@ -17,7 +17,7 @@ class CfgSoundSets {
     };
     class 300BLK_Tail_SoundSet {
         soundShaders[] = { "300BLK_tailInterior_SoundShader","300BLK_tailInterior_mid_SoundShader", "300BLK_tailTrees_SoundShader","300BLK_tailTrees_mid_SoundShader", "300BLK_tailForest_SoundShader","300BLK_tailForest_mid_SoundShader", "300BLK_tailMeadows_SoundShader","300BLK_tailMeadows_mid_SoundShader", "300BLK_tailHouses_SoundShader", "300BLK_tailHouses_mid_SoundShader" };
-		volumeFactor = 1.35 ;
+		volumeFactor = 1.1 ;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -45,7 +45,7 @@ class CfgSoundSets {
     };
     class 300BLK_ShotTail_Silenced_SoundSet {
         soundShaders[] = { "300BLK_tailInterior_Silenced_SoundShader", "300BLK_tailTrees_Silenced_SoundShader", "300BLK_tailForest_Silenced_SoundShader", "300BLK_tailMeadows_Silenced_SoundShader", "300BLK_tailHouses_Silenced_SoundShader" };
-        volumeFactor = 0.7;
+        volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         frequencyRandomizer = 0.1;
@@ -71,7 +71,7 @@ class CfgSoundSets {
     };
     class 300BLK_silencerTail_SoundSet {
         soundShaders[] = { "300BLK_tailTrees_Silenced_SoundShader", "300BLK_tailForest_Silenced_SoundShader", "300BLK_tailMeadows_Silenced_SoundShader", "300BLK_tailHouses_Silenced_SoundShader", "300BLK_tailInterior_Silenced_SoundShader" };
-        volumeFactor = 0.7;
+        volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -96,7 +96,7 @@ class CfgSoundSets {
     };
     class badger_silencerTail_SoundSet {
         soundShaders[] = { "badger_tailTrees_Silenced_SoundShader", "badger_tailForest_Silenced_SoundShader", "badger_tailMeadows_Silenced_SoundShader", "badger_tailHouses_Silenced_SoundShader", "badger_tailInterior_Silenced_SoundShader" };
-        volumeFactor = 0.7;
+        volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -126,7 +126,7 @@ class CfgSoundSets {
     };
     class samr_Tail_SoundSet {
         soundShaders[] = {  "samr_tailForest_SoundShader","samr_tailForest_mid_SoundShader", "samr_tailHouses_SoundShader","samr_tailHouses_mid_SoundShader", "samr_tailInterior_SoundShader","samr_tailInterior_mid_SoundShader", "samr_tailMeadows_SoundShader","samr_tailHouses_mid_SoundShader", "samr_tailTrees_SoundShader","samr_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -152,7 +152,7 @@ class CfgSoundSets {
     };
     class samr_silencerTail_SoundSet {
         soundShaders[] = { "samr_silencerTailTrees_SoundShader", "samr_silencerTailForest_SoundShader", "samr_silencerTailMeadows_SoundShader", "samr_silencerTailHouses_SoundShader", "samr_silencerTailInterior_SoundShader" };
-        volumeFactor = 0.7;
+        volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -182,7 +182,7 @@ class CfgSoundSets {
     };
     class PBEAR_Tail_SoundSet {
         soundShaders[] = { "300BLK_tailInterior_SoundShader","300BLK_tailInterior_mid_SoundShader", "300BLK_tailTrees_SoundShader","300BLK_tailTrees_mid_SoundShader", "300BLK_tailForest_SoundShader","300BLK_tailForest_mid_SoundShader", "300BLK_tailMeadows_SoundShader","300BLK_tailMeadows_mid_SoundShader", "300BLK_tailHouses_SoundShader", "300BLK_tailHouses_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -212,7 +212,7 @@ class CfgSoundSets {
     };
     class jack_Tail_SoundSet {
         soundShaders[] = {  "jack_tailForest_SoundShader", "jack_tailHouses_SoundShader", "jack_tailInterior_SoundShader", "jack_tailMeadows_SoundShader", "jack_tailTrees_SoundShader","jack_tailForest_mid_SoundShader", "jack_tailHouses_mid_SoundShader", "jack_tailInterior_mid_SoundShader", "jack_tailMeadows_mid_SoundShader", "jack_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -240,7 +240,7 @@ class CfgSoundSets {
     };
     class jack_silencerTail_SoundSet {
         soundShaders[] = { "jack_silencerTailTrees_SoundShader", "jack_silencerTailForest_SoundShader", "jack_silencerTailMeadows_SoundShader", "jack_silencerTailHouses_SoundShader", "jack_silencerTailInterior_SoundShader" };
-        volumeFactor = 0.7;
+        volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -270,7 +270,7 @@ class CfgSoundSets {
     };
     class blackjack_Tail_SoundSet {
         soundShaders[] = { "300BLK_tailInterior_SoundShader","300BLK_tailInterior_mid_SoundShader", "300BLK_tailTrees_SoundShader","300BLK_tailTrees_mid_SoundShader", "300BLK_tailForest_SoundShader","300BLK_tailForest_mid_SoundShader", "300BLK_tailMeadows_SoundShader","300BLK_tailMeadows_mid_SoundShader", "300BLK_tailHouses_SoundShader", "300BLK_tailHouses_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
@@ -326,7 +326,7 @@ class CfgSoundSets {
     };
     class carbine_Tail_SoundSet {
         soundShaders[] = {  "carbine_tailForest_SoundShader", "carbine_tailHouses_SoundShader", "carbine_tailInterior_SoundShader", "carbine_tailMeadows_SoundShader", "carbine_tailTrees_mid_SoundShader","carbine_tailForest_mid_SoundShader", "carbine_tailHouses_mid_SoundShader", "carbine_tailInterior_mid_SoundShader", "carbine_tailMeadows_mid_SoundShader", "carbine_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
@@ -382,7 +382,7 @@ class CfgSoundSets {
     };
     class SBR_Tail_SoundSet {
         soundShaders[] = { "SBR_tailForest_SoundShader", "SBR_tailHouses_SoundShader", "SBR_tailInterior_SoundShader", "SBR_tailMeadows_SoundShader", "SBR_tailTrees_SoundShader",  "SBR_tailForest_mid_SoundShader", "SBR_tailHouses_mid_SoundShader", "SBR_tailInterior_mid_SoundShader", "SBR_tailMeadows_mid_SoundShader", "SBR_tailTrees_mid_SoundShader" };
-        volumeFactor = 1.675;
+        volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
         frequencyRandomizerMin = 0.2;
