@@ -5,14 +5,14 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_fhAWC\snd\AWC_first", 1 }
         };
-        range = 5;
+        range = 15;
         volume = 1;
     };
     class AWM_closeShot_SoundShader {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_Close", 1 }
         };
-        volume = 0.85;
+        volume = 0.7;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -20,12 +20,12 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1.6252;
         range = 2500;
         rangeCurve[] = {
-            { 0, 0.2 },
+            { 0, 0.5 },
             { 100, 1 },
-            { 300, 0 },
+            { 500, 0 },
             { 2500, 0 }
         };
     };
@@ -35,12 +35,12 @@ class CfgSoundShaders {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_distShot_02", 1 },
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_distShot_03", 1 }
         };
-        volume = 1.0;
+        volume = 1.2;
         range = 2500;
         rangeCurve[] = {
             { 0, 0 },
             { 100, 0 },
-            { 300, 1 },
+            { 500, 1 },
             { 2500, 1 }
         };
     };
@@ -48,102 +48,167 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_taildistant", 1 }
         };
-        volume = 1.0;
+        volume = 0.5;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
-            { 600, 0.7 },
+            { 1000, 0.7 },
             { 2000, 1 }
         };
         limitation = 1;
     };
     class AWM_tailForest_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_tailforest", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_forest", 1 }
         };
-        volume = "(1-interior/1.4)*forest/3";
-        range = 2000;
-        rangeCurve[] = {
-            { 0, 1 },
-            { 2000, 0 }
+        volume = "1*((1-interior/1.4)*Forest/3)";
+        range = 250;
+        rangeCurve[] = { 
+            { 0,1 }, 
+            { 250, 0 } 
+        }; 
+        limitation = 1;
+    };
+    class AWM_tailForest_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_forest_mid", 1 }
         };
+        volume = " 1*((1-interior/1.4)*Forest/3)";
+        rangeCurve[] = { 
+			{ 0,0 }, 
+			{ 250, 1 }, 
+            { 1800, 1 }
+		}; 
+        range = 1800;
         limitation = 1;
     };
     class AWM_tailHouses_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_tailhouses", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_urban", 1 }
         };
-        volume = "(1-interior/1.4)*houses/3";
-        range = 1500;
-        rangeCurve[] = {
-            { 0, 1 },
-            { 250, 0.3 },
-            { 1500, 0 }
+        volume = "1*((1-interior/1.4)*houses/3)";
+        range = 250;
+        rangeCurve[] = { 
+            { 0,1 }, 
+            { 250, 0 } 
+        }; 
+        limitation = 1;
+    };
+    class AWM_tailHouses_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_urban_mid", 1 }
         };
+        volume = "1*((1-interior/1.4)*houses/3)";
+        rangeCurve[] = { 
+			{ 0,0 }, 
+			{ 250, 1 }, 
+            { 2000, 1 }
+		}; 
+        range = 2000;
         limitation = 1;
     };
     class AWM_tailInterior_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_tailinterior", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_indoor", 1 }
         };
-        volume = "interior";
-        range = 350;
-        rangeCurve[] = {
-            { 0, 1 },
-            { 50, 0.4 },
-            { 100, 0.2 },
-            { 350, 0 }
+        volume = " 1*(interior))";
+		range = 250;
+        rangeCurve[] = { 
+            { 0,0.7 }, 
+            { 250, 0 } 
+        }; 
+        limitation = 1;
+    };
+
+    class AWM_tailInterior_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_indoor_mid", 1 }
         };
+        volume = " 1*(interior)";
+        rangeCurve[] = { 
+			{ 0,0 }, 
+			{ 250, 0.4 }, 
+            { 320, 0 } 
+		}; 
+        range = 500;
         limitation = 1;
     };
     class AWM_tailMeadows_SoundShader {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_meadow", 1 }
         };
-        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
-        range = 2000;
-        rangeCurve[] = {
-            { 0, 1 },
-            { 2000, 0 }
+        volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        range = 250;
+        rangeCurve[] = { 
+            { 0,1 }, 
+            { 250, 0 } 
+        }; 
+        limitation = 1;
+    };
+    class AWM_tailMeadows_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_meadow_mid", 1 }
         };
+        volume = " 1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        rangeCurve[] = { 
+			{ 0,0 }, 
+			{ 250, 1 }, 
+            { 2000,1}
+		}; 
+        range = 2000;
         limitation = 1;
     };
     class AWM_tailTrees_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_tailtrees", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_trees", 1 }
         };
-        volume = "(1-interior/1.4)*trees/3";
+        volume = "1*((1-interior/1.4)*trees/3)";
+        range = 250;
+        rangeCurve[] = { 
+            { 0,1 }, 
+            { 250, 0 } 
+        }; 
+        limitation = 1;
+    };
+    class AWM_tailTrees_mid_SoundShader {
+        samples[] = {
+            { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_trees_mid", 1 }
+        };
+        volume = " 1*((1-interior/1.4)*trees/3)";
+        rangeCurve[] = { 
+			{ 0,0 }, 
+			{ 250, 1 }, 
+            { 2000,1}
+		}; 
         range = 2000;
-        rangeCurve[] = {
-            { 0, 1 },
-            { 2000, 0 }
-        };
         limitation = 1;
     };
     class awc_silencerShot_SoundShader {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Covert\AWC_Close", 1 }
         };
-        volume = 1.0;
+        volume = 0.8;
         range = 100;
-        rangeCurve = "closeShotCurve";
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0 }
+        };
     };
     class AWc_midShot_SoundShader {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Covert\AWC_mid", 1 }
         };
-        volume = 0.70794576;
+        volume = 1;
         range = 350;
         rangeCurve[] = {
             { 0, 0.2 },
-            { 100, 1 },
-            { 300, 0 },
+            { 50, 1 },
             { 350, 0 }
         };
     };
     class awc_silencerTailForest_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailForest", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Covert\AWC_meadow", 1 }
         };
         volume = "(1-interior/1.4)*forest/3";
         range = 150;
@@ -155,7 +220,7 @@ class CfgSoundShaders {
     };
     class awc_silencerTailHouses_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailHouses", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Covert\AWC_meadow", 1 }
         };
         volume = "(1-interior/1.4)*houses/3";
         range = 150;
@@ -192,7 +257,7 @@ class CfgSoundShaders {
     };
     class awc_silencerTailTrees_SoundShader {
         samples[] = {
-            { "A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_silencerTailTrees", 1 }
+            { "hlc_wp_fhAWC\snd\soundshader\Covert\AWC_meadow", 1 }
         };
         volume = "(1-interior/1.4)*trees/3";
         range = 150;

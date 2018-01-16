@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {"HLC_LRR_ammobox","Weapon_hlc_rifle_awcovert","Weapon_hlc_rifle_awcovert_BL","Weapon_hlc_rifle_awcovert_FDE","Weapon_hlc_rifle_awmagnum","Weapon_hlc_rifle_awmagnum_BL","Weapon_hlc_rifle_awmagnum_FDE","Weapon_hlc_rifle_awMagnum_OD_ghillie","Weapon_hlc_rifle_awMagnum_FDE_ghillie","Weapon_hlc_rifle_awMagnum_BL_ghillie"};
         weapons[] = {};
         magazines[] = {};
-        version="1.25";
+        version="1.5";
         author="toadie";
     };
 };
@@ -164,15 +164,14 @@ class CfgGesturesMale {
 
 
 class CfgVehicles {
-    class NATO_Box_Base;
+    class B_supplyCrate_F;
     class Weapon_Base_F;
 
-    class HLC_LRR_ammobox: NATO_Box_Base {
+    class HLC_LRR_ammobox: B_supplyCrate_F {
         dlc = "Niarms_AWC";
         scope = 2;
         vehicleClass = "Ammo";
         displayName = "HLC LRR Box";
-        model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
@@ -201,15 +200,186 @@ class CfgVehicles {
             __M_ITM(optic_SOS,10);
         };
     };
-    __WEAPONHOLDER(hlc_rifle_awcovert,hlc_5rnd_300WM_FMJ_AWM,AI AWC-M (OD),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awmagnum,hlc_5rnd_300WM_FMJ_AWM,AI AWM (OD),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awmagnum_BL,hlc_5rnd_300WM_FMJ_AWM,AI AWM (Black),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awmagnum_FDE,hlc_5rnd_300WM_FMJ_AWM,AI AWM (FDE),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awMagnum_OD_ghillie,hlc_5rnd_300WM_FMJ_AWM,AI AWM (OD+Ghillie),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awMagnum_FDE_ghillie,hlc_5rnd_300WM_FMJ_AWM,AI AWM (FDE+Ghillie),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awMagnum_BL_ghillie,hlc_5rnd_300WM_FMJ_AWM,AI AWM (Black+Ghillie),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awcovert_BL,hlc_5rnd_300WM_FMJ_AWM,AI AWC-M (Black),Niarms_AWC,Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_awcovert_FDE,hlc_5rnd_300WM_FMJ_AWM,AI AWC-M (FDE),Niarms_AWC,Toadie,SniperRifles);
+    class Weapon_hlc_rifle_awcovert : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWC-M(OD)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awcovert";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_BTSP_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awcovert_BL : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWC-M(Black)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awcovert_BL";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_BTSP_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awcovert_FDE : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWC-M(FDE)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awcovert_FDE";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_BTSP_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awmagnum : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(OD)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awmagnum";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awmagnum_BL : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(Black)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awmagnum_BL";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awmagnum_FDE : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(FDE)";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awmagnum_FDE";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awMagnum_OD_ghillie : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(OD)+Ghillie";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awMagnum_OD_ghillie";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awMagnum_FDE_ghillie : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(FDE)+Ghillie";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awMagnum_FDE_ghillie";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
+    class Weapon_hlc_rifle_awMagnum_BL_ghillie : Weapon_Base_F {
+        dlc = "Niarms_AWC";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AWM(Black)+Ghillie";
+        author = "Toadie";
+        vehicleClass = "WeaponsPrimary";
+        class TransportWeapons {
+            class srifle_EBR_F {
+                weapon = "hlc_rifle_awMagnum_BL_ghillie";
+                count = 1;
+            };
+        };
+        class TransportMagazines {
+            class 20Rnd_762x51_Mag {
+                magazine = "hlc_5rnd_300WM_mk248_AWM";
+                count = 1;
+            };
+        };
+    };
 };
 
 class CfgMagazines {
@@ -219,8 +389,8 @@ class CfgMagazines {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_FMJ";
         count = 5;
-        descriptionshort = "Caliber: .300 Winchester Magnum 150gr FMJ<br />Rounds: 5<br />Used in: AWC-M, AWM-F";
-        displayname = "AWM Magazine (FMJ) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum Sniper-line FMJ<br />Type: Steel Full-Metal Jacket <br />Rounds: 5";
+        displayname = ".300WM FMJ 5Rnd AWM Magazine";
         initspeed = 841.2;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_FMJ_ca";
@@ -235,8 +405,8 @@ class CfgMagazines {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_AP";
         count = 5;
-        descriptionshort = "Caliber: .300 Winchester Magnum MEN DM131 AP <br />Rounds: 5<br />Used in: AWC-M, AWM-F";
-        displayname = "AWM Magazine (AP) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum MEN DM131 AP <br />Used in: Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round <br />Rounds: 5";
+        displayname = ".300WM AP 5Rnd AWM Magazine";
         initspeed = 861;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_AP_ca";
@@ -250,8 +420,8 @@ class CfgMagazines {
     class hlc_5rnd_300WM_T_AWM : hlc_5rnd_300WM_FMJ_AWM{
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_Tracer";
-        descriptionshort = "Caliber: .300 Winchester Magnum Re-loaded M62 Tracer <br />Rounds: 5<br />Used in: AWC-M, AWM-F";
-        displayname = "AWM Magazine (Tracer) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum Re-loaded M62 Tracer <br />Type: Incendiary-Tip FMJ<br />Rounds: 5";
+        displayname = ".300WM Tracer 5Rnd AWM Magazine";
         initspeed = 861;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_FMJ_ca";
@@ -263,8 +433,8 @@ class CfgMagazines {
     class hlc_5rnd_300WM_BTSP_AWM : hlc_5rnd_300WM_FMJ_AWM  {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_BTSP";
-        descriptionshort = "Caliber: .300 Winchester Magnum 190gr Soft-point Boat-tail<br />Rounds: 5<br />Used in: AWC-M, AWM-F";
-        displayname = "AWM Magazine (Soft-point) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum A191 <br />Used in: 190gr Boat-Tail (Sierra Match-King)<br />Rounds: 5";
+        displayname = ".300WM Soft-Point 5Rnd AWM Magazine";
         initspeed = 935;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_spbt_ca";
@@ -276,8 +446,8 @@ class CfgMagazines {
     class hlc_5rnd_300WM_mk248_AWM : hlc_5rnd_300WM_FMJ_AWM {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_BTHP";
-        descriptionshort = "Caliber: .300 Winchester Magnum 220gr Mk248 Mod1<br />Rounds: 5<br />Used in: AWC-M, AWM-F";
-        displayname = "AWM Magazine (Mk248 Mod.1) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum 220gr Mk248 Mod1<br />Used in: 220gr  Hollow-Point Boat-Tail (Sierra Match-King)<br />Rounds: 5";
+        displayname = ".300WM Mk.248 Mod1 5Rnd AWM Magazine";
         initspeed = 899;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_hpbt_ca";
@@ -289,8 +459,8 @@ class CfgMagazines {
     class hlc_5rnd_300WM_SBT_AWM : hlc_5rnd_300WM_FMJ_AWM {
         dlc = "Niarms_AWC";
         ammo = "HLC_300WM_S_BT";
-        descriptionshort = "Caliber: .300Winchester Magnum 230gr Swaged Lead-core<br />Rounds: 5<br />Used in: AWC-M, AWM-F<br /> DISCLAIMER: Loading .300WM rounds this lightly is specifically dangerous to the end-user.";
-        displayname = "AWM Magazine (Subsonic Boat-Tail) 5rnd .300WM";
+        descriptionshort = "Caliber: .300 Winchester Magnum 230gr Subsonic Hand-Load<br />Type: Swaged Lead-Core <br />Rounds: 5<br /> DISCLAIMER: Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL.";
+        displayname = ".300WM Subsonic 5Rnd AWM Magazine";
         initspeed = 380;
         lastroundstracer = 0;
         picture = "\hlc_wp_fhawc\tex\ui\m_awm_sub_ca";
@@ -337,9 +507,12 @@ class CfgWeapons {
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class MuzzleSlot {};
             class PointerSlot {};
-            class CowsSlot : asdg_OpticRail1913 {};
+            class CowsSlot : asdg_OpticRail1913 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
         };
-        descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
+        descriptionShort = "Long-Range Rifle<br/>Caliber: .300WM";
 
         dexterity = 1.8;
         bullet1[] = { "A3\sounds_f\weapons\shells\5_56\metal_556_01.wss", 0.1, 1, 15 };
@@ -380,56 +553,28 @@ class CfgWeapons {
             reloadTime = 1.6666666666666666666666666666667;
             dispersion = 0.000111119;
 
-            maxrange = 500;
-            maxrangeprobab = 0.05;
-            midrange = 300;
-            midrangeprobab = 0.7;
-            minrange = 1;
-            minrangeprobab = 0.3;
-            aiRateOfFire = 3;
-            aiRateOfFireDistance = 300;
+            __AI_ROF_338SNIPER_SEMI;
         };
         class far_optic1 : Single {
             showToPlayer = 0;
-            minRange = 150;
-            minRangeProbab = 0.2;
-            midRange = 500;
-            midRangeProbab = 0.7;
-            maxRange = 1500;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 4;
-            aiRateOfFireDistance = 500;
             requiredOpticType = 1;
+            __AI_ROF_338SNIPER_MSCOPE_SEMI;
         };
         class medium_optic2 : Single {
             showToPlayer = 0;
-            minRange = 250;
-            minRangeProbab = 0.2;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 1000;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1000;
+            __AI_ROF_338SNIPER_HSCOPE_SEMI;
             requiredOpticType = 2;
         };
         class far_optic2 : far_optic1 {
-            minRange = 500;
-            minRangeProbab = 0.2;
-            midRange = 1200;
-            midRangeProbab = 0.7;
-            maxRange = 2100;
-            maxRangeProbab = 0.3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1200;
+            __AI_ROF_338SNIPER_HSCOPE_SEMI;
             requiredOpticType = 2;
         };
 
         aiDispersionCoefY = 10;
         aiDispersionCoefX = 8;
 
-        drysound[] = { "hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
-        reloadmagazinesound[] = { "hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
+        drysound[] = { "\hlc_wp_fhawc\snd\AWC_dryfire", 1, 1, 10 };
+        reloadmagazinesound[] = { "\hlc_wp_fhawc\snd\AWC_reload", 0.5, 1, 20 };
 
         class ItemInfo {
             priority = 1;
@@ -491,8 +636,8 @@ class CfgWeapons {
         model = "\hlc_wp_fhawc\mesh\awcovert\covert.p3d";
         reloadaction = "HLC_GestureReloadAWM";
         descriptionShort = "Accuracy International Arctic Warfare Covert Magnum<br/>Covert Rifle<br/>Caliber: .300WM";
-        inertia = 0.65;
-        __DEXTERITY(6.5, 0);
+        inertia = 0.60;
+        __DEXTERITY(6.0, 0);
         picture = "\hlc_wp_fhawc\tex\ui\gear_awcOD_ca";
         displayName = "AI AWC-M (OD)";
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
@@ -502,7 +647,7 @@ class CfgWeapons {
         hiddenSelections[] = { "camo", "camo2"};
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa", "\hlc_wp_fhAWC\tex\AWC_Scope_co.paa"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 121;
+            mass = 132;
         };
         class Single : Single {
             sounds[] = {"StandardSound"};
@@ -513,37 +658,16 @@ class CfgWeapons {
         };
         class far_optic1 : Single {
             showToPlayer = 0;
-            minRange = 150;
-            minRangeProbab = 0.2;
-            midRange = 500;
-            midRangeProbab = 0.7;
-            maxRange = 1500;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 4;
-            aiRateOfFireDistance = 500;
             requiredOpticType = 1;
+            __AI_ROF_338SNIPER_MSCOPE_SEMI;
         };
         class medium_optic2 : Single {
             showToPlayer = 0;
-            minRange = 250;
-            minRangeProbab = 0.2;
-            midRange = 750;
-            midRangeProbab = 0.7;
-            maxRange = 1000;
-            maxRangeProbab = 0.4;
-            aiRateOfFire = 8;
-            aiRateOfFireDistance = 1000;
+            __AI_ROF_338SNIPER_HSCOPE_SEMI;
             requiredOpticType = 2;
         };
         class far_optic2 : far_optic1 {
-            minRange = 500;
-            minRangeProbab = 0.2;
-            midRange = 1200;
-            midRangeProbab = 0.7;
-            maxRange = 2100;
-            maxRangeProbab = 0.3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1200;
+            __AI_ROF_338SNIPER_HSCOPE_SEMI;
             requiredOpticType = 2;
         };
         class Library {
@@ -573,15 +697,14 @@ class CfgWeapons {
         magazineReloadSwitchPhase = 0.5;
         hiddenSelections[] = { "camo", "camo2", "Camo3" };
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa","\hlc_wp_fhAWC\tex\AWC_Scope_co.paa","\hlc_wp_fhAWC\tex\Magnumbits_ca.paa" };
-        class EventHandlers {
-            fired = "_this call CBA_fnc_weaponEvents";
-        };
-        class CBA_weaponEvents {
-            handAction = "HLC_GestureRechamberAWM";
-            sound = "hlc_bolt_AWM";
-            soundLocation = "RightHandMiddle1";
-            delay = 0.02;
-            onEmpty = 0;
+        class bg_weaponparameters {
+            class onFired_Action {
+                HandAction = "HLC_GestureRechamberAWM";
+                Actiondelay = 0.02;
+                Sound = "hlc_bolt_AWM";
+                Sound_Location = "RightHandMiddle1";
+                hasOptic = false;
+            };
         };
         cursor = "srifle";
         cursorAim = "EmptyCursor";
@@ -597,7 +720,7 @@ class CfgWeapons {
         bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_fhAWC\anim\awmhands.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 136;
+            mass = 143;
 //            class PointerSlot : PointerSlot {
 //                compatibleItems[] = {/* "hlc_acc_Ghilliewrap" */};
 //            };
