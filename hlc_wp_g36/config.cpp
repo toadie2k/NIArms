@@ -18,7 +18,7 @@ class CfgPatches {
             "hlc_rifle_G36KTAC", "hlc_rifle_G36CTAC", "hlc_rifle_G36MLIC", "hlc_rifle_G36KMLIC", "hlc_rifle_G36CMLIC","hlc_rifle_G36MLIAG36"
         };
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_30rnd_556x45_SOST_G36","hlc_30rnd_556x45_SPR_G36","hlc_100rnd_556x45_EPR_G36"};
-        version = "v1.25";
+        version = "v1.3";
         author="toadie";
     };
 };
@@ -65,8 +65,8 @@ class niarms_G36_OpticSlot: asdg_OpticRail {
 
 class CfgVehicles { 
     dlc = "Niarms_G36";
-    class NATO_Box_Base;
-    class HLC_G36_ammobox : NATO_Box_Base {
+    class B_supplyCrate_F;
+    class HLC_G36_ammobox : B_supplyCrate_F {
         scope = 2;
         vehicleClass = "Ammo";
         displayName = "HLC G36 Supply Box";
@@ -78,7 +78,13 @@ class CfgVehicles {
             __M_MAG(hlc_30rnd_556x45_EPR_G36,60);
             __M_MAG(hlc_30rnd_556x45_SOST_G36,60);
             __M_MAG(hlc_30rnd_556x45_SPR_G36,60);
+            __M_MAG(hlc_30rnd_556x45_S_G36,60);
+            __M_MAG(hlc_30rnd_556x45_Tracers_G36,60);
+            __M_MAG(hlc_30rnd_556x45_MDIM_G36,60);
+            __M_MAG(hlc_30rnd_556x45_TDIM_G36,60);
             __M_MAG(hlc_100rnd_556x45_EPR_G36,60);
+            __M_MAG(hlc_100rnd_556x45_M_G36,60);
+            __M_MAG(hlc_100rnd_556x45_Mdim_G36,60);
             __M_MAG(30Rnd_65x39_caseless_mag,60);
             __M_MAG(30Rnd_65x39_caseless_mag_Tracer,60);
             __M_MAG(100Rnd_65x39_caseless_mag_Tracer,60);
@@ -115,6 +121,7 @@ class CfgVehicles {
             __M_WEP(hlc_rifle_G36E1AG36,10);
             __M_WEP(hlc_rifle_G36vAG36,10);
             __M_WEP(hlc_rifle_G36MLIAG36,10);
+            __M_WEP(hlc_rifle_MG36,10);
         };
         class TransportItems {
             __M_ITM(optic_Holosight,10);
@@ -344,10 +351,10 @@ class CfgMagazines {
         ammo = "HLC_556NATO_EPR";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "G36 Mag (EPR) 5.56mm";
+        displayname = "5.56mm EPR 30Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
-        mass = 8;
+        mass = 11.1;
         lastroundstracer = 2;
         scope = 2;
         tracersevery = 0;
@@ -361,10 +368,10 @@ class CfgMagazines {
         ammo = "HLC_556NATO_SOST";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "G36 Mag (SOST) 5.56mm";
+        displayname = "5.56mm SOST 30Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 954.4;
-        mass = 8;
+        mass = 12.1;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -378,10 +385,10 @@ class CfgMagazines {
         ammo = "HLC_556NATO_SPR";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "G36 Mag (SPR) 5.56mm";
+        displayname = "5.56mm SBLR 30Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 868.7;
-        mass = 8;
+        mass = 13.1;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
@@ -395,7 +402,7 @@ class CfgMagazines {
         ammo = "HLC_556NATO_EPR";
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
-        displayname = "G36 C-Mag (EPR) 5.56mm";
+        displayname = "5.56mm EPR 100Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
@@ -412,7 +419,7 @@ class CfgMagazines {
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 100";
-        displayname = "G36 C-Mag (EPR-Tracer) 5.56mm";
+        displayname = "5.56mm EPR 100Rnd G36 Magazine (Tracers Every 4)";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
@@ -429,7 +436,7 @@ class CfgMagazines {
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 100";
-        displayname = "G36 C-Mag (EPR-IRDIM) 5.56mm";
+        displayname = "5.56mm EPR 100Rnd G36 Magazine (IR-DIM Every 4)";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
@@ -440,11 +447,11 @@ class CfgMagazines {
         model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
     };
-    class hlc_30rnd_556x45_S : hlc_30rnd_556x45_EPR_G36 {
+    class hlc_30rnd_556x45_S_G36 : hlc_30rnd_556x45_EPR_G36 {
         author = "Toadie";
         initspeed = 340;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "G36 Mag (Subsonic) 5.56mm";
+        displayname = "5.56mm Subsonioc 30Rnd G36 Magazine";
     };
     class hlc_30rnd_556x45_Tracers_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
@@ -452,10 +459,10 @@ class CfgMagazines {
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "G36 Mag (Tracer) 5.56mm";
+        displayname = "5.56mm Tracer 30Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -469,10 +476,10 @@ class CfgMagazines {
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "G36 Mag (IR-DIM) 5.56mm";
+        displayname = "5.56mm IR-DIM 30Rnd G36 Magazine";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -486,10 +493,10 @@ class CfgMagazines {
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "G36 Mag (EPR-IRDIM) 5.56mm";
+        displayname = "5.56mm EPR 30Rnd G36 Magazine (IR-DIM Every 4)";
         magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
-        mass = 8;
+        mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 4;
@@ -519,6 +526,7 @@ class CfgWeapons {
         displayname = "G36 Dual-Optic 3.5x";
         model = "\hlc_wp_G36\mesh\optics\dualoptic3-5x.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
+        inertia = 0;
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
             mass = 7;
@@ -559,6 +567,7 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         displayname = "G36 Dual-Optic 3.5x(2D)";
+        inertia = 0;
         class ItemInfo : ItemInfo {
             class OpticsModes: OpticsModes {
                 class Snip: Snip {
@@ -683,7 +692,7 @@ class CfgWeapons {
             soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
             soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
         };
-        inertia = 0.2;						/// how much does the bipod add to inertia of the weapon
+        inertia = 0.02;						/// how much does the bipod add to inertia of the weapon
     };
     class hlc_G36_base : Rifle_Base_F {
         scope = protected;
@@ -713,7 +722,7 @@ class CfgWeapons {
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         drysound[] = { "hlc_wp_g36\snd\g36_dryfire", 1.01, 1, 10 };
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
-        changeFiremodeSound[] = { "hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
+        changeFiremodeSound[] = { "\hlc_wp_g36\snd\g36_switch", 1, 1, 8 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         class hlc_GL_AG36 : UGL_F {
@@ -758,7 +767,10 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class PointerSlot {};
-            class MuzzleSlot : asdg_MuzzleSlot_556 {};
+            class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
         };
 
         modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2","AI_Burst_close" };
@@ -911,7 +923,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_a1_co.tga","hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga","hlc_wp_g36\tex\placeholder\g36_magwell_co.tga","hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            mass = 73;
+            mass = 79;
             class CowsSlot : niarms_G36_OpticSlot {};
             class UnderBarrelSlot
             {
@@ -937,6 +949,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1-cmag_ca.paa";
+        inertia = 0.36+0.21;
+        __DEXTERITY(3.6+2.1, 0);
     };
 
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
@@ -976,6 +990,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_AG36A1-cmag_ca.paa";
+        inertia = 0.51+0.21;
+        __DEXTERITY(3.6+2.1+1.5, 0);
     };
 
     class hlc_rifle_MG36 : hlc_G36_base {
@@ -988,6 +1004,8 @@ class CfgWeapons {
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = true;
+        soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
+        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
         recoil = "recoil_trg20";
         displayName = "HK MG36A1";
         descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
@@ -1034,8 +1052,8 @@ class CfgWeapons {
             mass = 80;
             class CowsSlot : niarms_G36_OpticSlot {};
         };
-        inertia = 0.38;
-        __DEXTERITY(3.8 + 1.5, 0);
+        inertia = 0.38+0.21;
+        __DEXTERITY(3.8+2.1, 0);
         class fullauto_medium : fullauto_medium {
             burst = 4;
             minRange = 10;
@@ -1059,6 +1077,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36 LSW\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1_ca.paa";
+        inertia = 0.38;
+        __DEXTERITY(3.8, 0);
     };
     class hlc_rifle_G36KA1 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
@@ -1130,6 +1150,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36A1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36k-cmag_ca.paa";
+        inertia = 0.34+0.21;
+        __DEXTERITY(3.4+2.1, 0);
     };
 
     class hlc_rifle_G36C : hlc_G36_base {
@@ -1155,7 +1177,7 @@ class CfgWeapons {
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 56;
+            mass = 61;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
         };
@@ -1276,6 +1298,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36c_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36c-cmag_ca.paa";
+        inertia = 0.28+0.21;
+        __DEXTERITY(2.8+2.1, 0);
     };
 
     class hlc_rifle_G36E1 : hlc_rifle_g36A1 {
@@ -1303,6 +1327,9 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36e-cmag_ca.paa";
+        inertia = 0.36+0.21;
+        __DEXTERITY(3.6+2.1, 0);
+
     };
 
     class hlc_rifle_G36E1AG36 : hlc_rifle_G36A1AG36 {
@@ -1330,6 +1357,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_ag36E-CMAG_ca.paa";
+        inertia = 0.51+0.21;
+        __DEXTERITY(3.6+1.5+2.1, 0);
     };
 
     class hlc_rifle_G36E1AG36_Romi : hlc_rifle_G36E1AG36
@@ -1354,6 +1383,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36E-Romicmag_ca.paa";
+        inertia = 0.51+0.21;
+        __DEXTERITY(3.6+1.5+2.1, 0);
     };
 
     class hlc_rifle_G36KE1 : hlc_rifle_g36KA1 {
@@ -1386,6 +1417,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36E1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36ke-cmag_ca.paa";
+        inertia = 0.34+0.21;
+        __DEXTERITY(3.4+2.1, 0);
     };
 
     class hlc_rifle_G36V : hlc_rifle_G36E1 {
@@ -1436,6 +1469,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36v-cmag_ca.paa";
+        inertia = 0.33+0.21;
+        __DEXTERITY(3.3+2.1, 0);
     };
 
     class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
@@ -1486,6 +1521,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36kv-cmag_ca.paa";
+        inertia = 0.3+0.21;
+        __DEXTERITY(3.0+2.1, 0);
     };
 
     class hlc_rifle_G36CV : hlc_rifle_G36C {
@@ -1513,6 +1550,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36cv-cmag_ca.paa";
+        inertia = 0.28+0.21;
+        __DEXTERITY(2.8+2.1, 0);
     };
 
     class hlc_rifle_G36VAG36 : hlc_rifle_G36V {
@@ -1546,6 +1585,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36v-cmag_ca.paa";
+        inertia = 0.48+0.21;
+        __DEXTERITY(3.3+1.5+2.1, 0);
     };
 
     class hlc_rifle_G36KA1KSK : hlc_rifle_G36KV
@@ -1574,6 +1615,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36KSK\G36ksk_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ksk-cmag_ca.paa";
+        inertia = 0.3+0.21;
+        __DEXTERITY(3.0+2.1, 0);
     };
 
     class HLC_Rifle_G36KSKAG36 : hlc_rifle_G36KA1KSK
@@ -1606,6 +1649,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36KSK\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36ksk-cmag_ca.paa";
+        inertia = 0.45+0.21;
+        __DEXTERITY(3.0+1.5+2.1, 0);
     };
 
     class hlc_rifle_G36TAC : hlc_rifle_G36V {
@@ -1634,6 +1679,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36tac-cmag_ca.paa";
+        inertia = 0.32+0.21;
+        __DEXTERITY(3.2+2.1, 0);
     };
 
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
@@ -1662,6 +1709,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ktac-cmag_ca.paa";
+        inertia = 0.3+0.21;
+        __DEXTERITY(3.0+2.1, 0);
     };
 
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
@@ -1691,6 +1740,8 @@ class CfgWeapons {
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36Tactical\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ctac-cmag_ca.paa";
+        inertia = 0.28+0.21;
+        __DEXTERITY(2.8+2.1, 0);
     };
     ///CASELESS 
 
@@ -1733,7 +1784,10 @@ class CfgWeapons {
             mass = 70;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
-            class MuzzleSlot : asdg_MuzzleSlot_762 {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
 
