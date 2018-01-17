@@ -11,7 +11,8 @@
 if (!niarms_magSwitch) exitWith {}; // Exit if disabled
 
 params ["_unit"];
-waitUntil {isNull objectParent _unit}; //can't get current muzzle when unit is in vehicle, so wait until it gets out
-
-private _currentMuzzle = currentMuzzle _unit;
-[_unit, currentWeapon _unit, _currentMuzzle, [currentMagazine _unit, _unit ammo _currentMuzzle]] call Niarms_fnc_magSwitch;
+[
+    {isNull objectParent _this}, //can't get current muzzle when unit is in vehicle, so wait until it gets out
+    {private _cm = currentMuzzle _this; [_this, currentWeapon _this, _cm, [currentMagazine _this, _this ammo _cm]] call Niarms_fnc_magSwitch},
+    _unit
+] call CBA_fnc_waitUntilAndExecute;

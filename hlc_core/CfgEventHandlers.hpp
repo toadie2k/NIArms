@@ -15,7 +15,7 @@ class Extended_Reloaded_EventHandlers {
 class Extended_InitPost_EventHandlers {
     class CAManBase {
         class nia_core {
-            clientInit = "_this spawn Niarms_fnc_magInit";
+            clientInit = "_this call Niarms_fnc_magInit";
         };
     };
 };
