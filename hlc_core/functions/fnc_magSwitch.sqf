@@ -34,25 +34,25 @@ if (!niarms_magSwitch) exitWith {}; // Exit if disabled
 params ["_unit", "_weapon", "_muzzle", "_newmag", ["_oldmag", ["","","",""]]];
 
 if (!isPlayer _unit) exitWith {}; //don't care about this on the AI for now
-if (_weapon != _muzzle) exitWith {};
 
 TRACE_1("PARAMS",_this);
 
-if (!local _unit || _weapon == "") exitWith {}; //should not happen but just in case
+if !(_weapon isEqualTo _muzzle) exitWith {}; //no support for extra muzzles yet
+if (!local _unit || _weapon isEqualTo "") exitWith {}; //should not happen but just in case
 
 _newmag params ["_newmagtype", "_newmagcapacity"];
 _oldmag params ["_oldmagtype"];
 
-if (_newmagtype == _oldmagtype) exitWith {
+if (_newmagtype isEqualTo _oldmagtype) exitWith {
     LOG("loaded mag of same kind, no change");
 };
 
 //get weapon type and it's attachments
 private "_weaponItems";
 private _currWeaponType = call {
-    if (_weapon == primaryWeapon _unit) exitWith {_weaponItems = primaryWeaponItems _unit; 1};
-    if (_weapon == handgunWeapon _unit) exitWith {_weaponItems = handgunItems _unit; 2};
-    if (_weapon == secondaryWeapon _unit) exitWith {_weaponItems = secondaryWeaponItems _unit; 4};
+    if (_weapon isEqualTo primaryWeapon _unit) exitWith {_weaponItems = primaryWeaponItems _unit; 1};
+    if (_weapon isEqualTo handgunWeapon _unit) exitWith {_weaponItems = handgunItems _unit; 2};
+    if (_weapon isEqualTo secondaryWeapon _unit) exitWith {_weaponItems = secondaryWeaponItems _unit; 4};
     _weaponItems = "";
     -1
 };
@@ -68,7 +68,7 @@ if (isNil "_newWeapon") then {
 
 TRACE_2("",_weapon,_newWeapon);
 
-if (_newWeapon == _weapon) exitWith {
+if (_newWeapon isEqualTo _weapon) exitWith {
     LOG("same weapon, no change");
 };
 
@@ -97,16 +97,8 @@ Magazine format:
 ]
 */
 
-//get compatible mags; what about the mags in other muzzles ?
-private "_mags";
-if (_muzzle == _weapon) then {
-	_mags = getArray(configFile >> "CfgWeapons" >> _weapon >> "magazines");
-} else {
-	_mags = getArray(configFile >> "CfgWeapons" >> _weapon >> _muzzle >> "magazines");
-};
-{
-	_mags set[_forEachIndex, (toLower _x)]; // Find is case sensitive
-} forEach _mags;
+//get compatible mags, lower cased
+private _mags = (getArray(configFile >> "CfgWeapons" >> _weapon >> "magazines")) apply {toLower _x};
 
 //temporarily remove all mags for this weapon; this is to ensure exactly the same mag will be loaded into the new weapon on switch
 {_unit removeMagazines _x} forEach _mags;
@@ -115,7 +107,9 @@ if (_muzzle == _weapon) then {
 _unit addMagazine [_newmagtype, _newmagcapacity];
 _unit removeWeapon _weapon;
 _unit addWeapon _newWeapon;
-[_unit, _newWeapon, _cwm] spawn CBA_fnc_selectWeapon;
+if (isNull objectParent _unit) then { 
+    [_unit, _newWeapon, _cwm] spawn CBA_fnc_selectWeapon; //this function wouldn't work for units reloading while inside vehicles
+};
 
 switch (_currWeaponType) do {
     case 1: {
