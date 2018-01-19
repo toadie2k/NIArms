@@ -11,8 +11,9 @@
 if (!niarms_magSwitch) exitWith {}; // Exit if disabled
 
 params ["_unit"];
-[
-    {isNull objectParent _this}, //can't get current muzzle when unit is in vehicle, so wait until it gets out
-    {private _cm = currentMuzzle _this; [_this, currentWeapon _this, _cm, [currentMagazine _this, _this ammo _cm]] call Niarms_fnc_magSwitch},
-    _unit
-] call CBA_fnc_waitUntilAndExecute;
+if (!isPlayer _unit) exitWith {}; // just bail out for non players
+
+private _pw = primaryWeapon _unit;
+if !(_pw isEqualTo "") then {
+    [_unit, _pw, _pw, [(primaryWeaponMagazine _unit) select 0, _unit ammo _pw]] call Niarms_fnc_magSwitch;
+};
