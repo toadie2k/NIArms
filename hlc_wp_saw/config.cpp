@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = { "HLC_SAW_ammobox", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimi", "Weapon_hlc_lmg_minimi_railed", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_m249_pip1", "Weapon_hlc_m249_pip2", "Weapon_hlc_m249_pip3", "Weapon_hlc_m249_pip4" };
         weapons[] = { "hlc_lmg_minimipara", "hlc_lmg_minimi", "hlc_lmg_m249para", "hlc_lmg_M249E2", "hlc_lmg_minimi_railed", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_SQuantoon","hlc_lmg_mk48"};
         magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_T_SAW","hlc_200rnd_556x45_B_SAW"};
-        version="1.35";
+        version="1.42";
         author="toadie";
     };
 };
@@ -154,14 +154,13 @@ class CfgGesturesMale {
 };
 
 class CfgVehicles {
-    class NATO_Box_Base;
-    class HLC_SAW_ammobox : NATO_Box_Base {
+    class B_supplyCrate_F;
+    class HLC_SAW_ammobox : B_supplyCrate_F {
         dlc = "Niarms_SAW";
         scope = 2;
         scopeCurator = 2;
         vehicleClass = "Ammo";
         displayName = "HLC SAW Supply Box";
-        model = "\A3\weapons_F\AmmoBoxes\Supplydrop";
         icon = "iconCrateWpns";
         transportMaxWeapons = 25;
         transportMaxMagazines = 250;
@@ -506,6 +505,7 @@ class hlc_lmg_minimipara_30Rnd : hlc_lmg_minimipara
         inertia = 0.65-0.33+0.05;
         __DEXTERITY(6.56-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
                 class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -565,6 +565,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.69-0.33+0.05;
         __DEXTERITY(6.59-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -620,6 +621,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.69-0.33+0.05;
         __DEXTERITY(6.59-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+                hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -678,6 +680,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.69-0.33+0.05;
         __DEXTERITY(6.59-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+                hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -748,6 +751,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.68-0.33+0.05;
         __DEXTERITY(6.8-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -810,6 +814,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.69-0.33+0.05;
         __DEXTERITY(6.59-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -924,6 +929,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.75-0.33+0.05;
         __DEXTERITY(7.5-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -1223,6 +1229,7 @@ class __MAGSWITCHCLASS {
         inertia = 0.65-0.33+0.05;
         __DEXTERITY(6.55-3.3+0.499, 1);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
@@ -1235,6 +1242,8 @@ class __MAGSWITCHCLASS {
         picture = "\hlc_wp_saw\tex\ui\gear_m249SQUANT_x_ca";
         inertia = 0.69;
         initspeed = -1;
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_squant_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmapsquant_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_squant_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
         };
@@ -1277,6 +1286,8 @@ class __MAGSWITCHCLASS {
         inertia = 0.69-0.33+0.05;
         __DEXTERITY(6.59-3.3+0.499, 0);
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\SAW\saw_magfeed_reload", 0.7, 1, 20 };
+        hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
+        hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_squant_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmapsquant_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_core\tex\magazines\30roundmag_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_squant_co.tga" };
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
@@ -1311,6 +1322,7 @@ class __MAGSWITCHCLASS {
             __ROF(730);
             dispersion = 0.000261799;
         };
+            class __MAGSWITCHCLASS {};
     };
     class hlc_lmg_mk46mod1 : hlc_lmg_mk46
     {
@@ -1449,5 +1461,6 @@ class __MAGSWITCHCLASS {
             mass = 185;
             class UnderBarrelSlot {};
         };
+        class __MAGSWITCHCLASS {};
     };
 };

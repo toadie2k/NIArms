@@ -21,8 +21,8 @@ class CfgSoundSets
 	};
 	class mk48_tail_SoundSet
 	{
-		soundShaders[] = { "mk48_tailDistant_SoundShader", "mk48_tailForest_SoundShader", "mk48_tailHouses_SoundShader", "mk48_tailInterior_SoundShader", "mk48_tailMeadows_SoundShader", "mk48_tailTrees_SoundShader", "mk48_tailForest_mid_SoundShader", "mk48_tailHouses_mid_SoundShader", "mk48_tailInterior_mid_SoundShader", "mk48_tailMeadows_mid_SoundShader", "mk48_tailTrees_mid_SoundShader" };
-		volumeFactor = 1.3;
+		soundShaders[] = { "mk48_tailDistant_SoundShader", "mk48_tailForest_SoundShader", "mk48_tailHouses_SoundShader", "mk48_tailInterior_SoundShader", "mk48_tailMeadows_SoundShader", "mk48_tailTrees_SoundShader"/*, "mk48_tailForest_mid_SoundShader", "mk48_tailHouses_mid_SoundShader", "mk48_tailInterior_mid_SoundShader", "mk48_tailMeadows_mid_SoundShader", "mk48_tailTrees_mid_SoundShader"*/ };
+		volumeFactor = 1.1;
 		volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
         stereoRadius = 50;
@@ -82,8 +82,8 @@ class CfgSoundSets
 	};
 	class SAW_tail_SoundSet
 	{
-		soundShaders[] = { "SAW_tailDistant_SoundShader", "SAW_tailForest_SoundShader", "SAW_tailHouses_SoundShader", "SAW_tailInterior_SoundShader", "SAW_tailMeadows_SoundShader", "SAW_tailTrees_SoundShader", "SAW_tailForest_mid_SoundShader", "SAW_tailHouses_mid_SoundShader", "SAW_tailInterior_mid_SoundShader", "SAW_tailMeadows_mid_SoundShader", "SAW_tailTrees_mid_SoundShader" };
-		volumeFactor = 1.3;
+		soundShaders[] = { "SAW_tailDistant_SoundShader", "SAW_tailForest_SoundShader", "SAW_tailHouses_SoundShader", "SAW_tailInterior_SoundShader", "SAW_tailMeadows_SoundShader", "SAW_tailTrees_SoundShader"/*, "SAW_tailForest_mid_SoundShader", "SAW_tailHouses_mid_SoundShader", "SAW_tailInterior_mid_SoundShader", "SAW_tailMeadows_mid_SoundShader", "SAW_tailTrees_mid_SoundShader"*/ };
+		volumeFactor = 1.1;
 		volumeCurve = "InverseSquare2Curve";
         stereoStartDistance = 100;
         stereoRadius = 50;

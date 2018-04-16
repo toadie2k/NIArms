@@ -60,7 +60,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_forest", 1 } };
-        volume = "1*((1-interior/1.4)*Forest/3)";
+        volume = "1.4*((1-interior/1.4)*Forest/3)";
         range = 250;
         	rangeCurve[] = { 
             { 0,1 }, 
@@ -72,7 +72,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_forest_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*Forest/3)";
+        volume = " 1.4*((1-interior/1.4)*Forest/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -85,7 +85,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_urban", 1 } };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.4*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -97,7 +97,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_urban_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.4*((1-interior/1.4)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -110,7 +110,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_indoor", 1 } };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.4*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -123,7 +123,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_indoor_mid", 1 }
         };
-        volume = " 1*((interior)*0.65)";
+        volume = " 1.4*((interior)*0.65)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 0.4 }, 
@@ -136,7 +136,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_Meadows", 1 } };
-        volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = "1.4*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -148,7 +148,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_Meadows_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 1.4*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -161,7 +161,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_trees", 1 } };
-        volume = "1*((1-interior/1.4)*trees/3)";
+        volume = "1.4*((1-interior/1.4)*trees/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -173,7 +173,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_trees_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*trees/3)";
+        volume = "1.4*((1-interior/1.4)*trees/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -306,7 +306,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_forest", 1 } };
-        volume = "1*((1-interior/1.4)*Forest/3)";
+        volume = "1.4*((1-interior/1.4)*Forest/3)";
         range = 250;
         	rangeCurve[] = { 
             { 0,1 }, 
@@ -318,7 +318,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_forest_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*Forest/3)";
+        volume = " 1.4*((1-interior/1.4)*Forest/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -331,7 +331,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_urban", 1 } };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.4*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -343,7 +343,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_urban_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*houses/3)";
+        volume = "1.4*((1-interior/1.4)*houses/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -356,7 +356,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_indoor", 1 } };
-        volume = "1*((interior)*0.65)";
+        volume = "1.4*((interior)*0.65)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -369,7 +369,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_indoor_mid", 1 }
         };
-        volume = " 1*((interior)*0.65)";
+        volume = " 1.4*((interior)*0.65)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 0.4 }, 
@@ -382,7 +382,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_Meadows", 1 } };
-        volume = "1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = "1.4*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -394,7 +394,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_Meadows_mid", 1 }
         };
-        volume = " 1*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 1.4*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
@@ -407,7 +407,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_trees", 1 } };
-        volume = "1*((1-interior/1.4)*trees/3)";
+        volume = "1.4*((1-interior/1.4)*trees/3)";
         range = 250;
         rangeCurve[] = { 
             { 0,1 }, 
@@ -419,7 +419,7 @@ class CfgSoundShaders
         samples[] = {
             { "hlc_wp_saw\snd\soundshaders\saw_trees_mid", 1 }
         };
-        volume = "1*((1-interior/1.4)*trees/3)";
+        volume = "1.4*((1-interior/1.4)*trees/3)";
         rangeCurve[] = { 
 			{ 0,0 }, 
 			{ 250, 1 }, 
