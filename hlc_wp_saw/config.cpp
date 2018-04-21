@@ -466,40 +466,47 @@ class CfgWeapons {
         class Library {
             libTextDesc = "FN Herstal Minimi";
         };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
-        default = "hlc_lmg_minimipara";
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimipara_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimipara_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_30Rnd";
+            default = "hlc_lmg_minimipara";
+        };
     };
-    };
-class hlc_lmg_minimipara_30Rnd : hlc_lmg_minimipara
-{
-    scopeArsenal = 0;
+    class hlc_lmg_minimipara_30Rnd : hlc_lmg_minimipara
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.65-0.33+0.05;
@@ -510,56 +517,63 @@ class hlc_lmg_minimipara_30Rnd : hlc_lmg_minimipara
                 class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
 
 
     class hlc_lmg_minimipara_railed : hlc_lmg_minimipara
-{
-    author = "Toadie";
-    model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed.p3d";
-    displayName = "FN Minimi Para (Short/RIS)";
-    inertia = 0.69;
-    __DEXTERITY(6.94, 0);
-    class WeaponSlotsInfo : WeaponSlotsInfo {
-        mass = 145;
-        class CowsSlot : asdg_OpticRail1913_short_MG {
-            iconPosition[] = { 0.5, 0.3 };
+    {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed.p3d";
+        displayName = "FN Minimi Para (Short/RIS)";
+        inertia = 0.69;
+        __DEXTERITY(6.94, 0);
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 145;
+            class CowsSlot : asdg_OpticRail1913_short_MG {
+                iconPosition[] = { 0.5, 0.3 };
+            };
+        };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_railed_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_railed_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_railed_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_railed_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimipara_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
+            default = "hlc_lmg_minimipara_railed";
         };
     };
-class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_railed_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_railed_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_railed_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_railed_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_railed_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_railed_30Rnd";
-        default = "hlc_lmg_minimipara_railed";
-    };
-    };
     class hlc_lmg_minimipara_railed_30Rnd : hlc_lmg_minimipara_railed
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_railed_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -570,52 +584,59 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_minimipara_long : hlc_lmg_minimipara
-{
-    author = "Toadie";
-    model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer.p3d";
-    displayName = "FN Minimi Para (Long)";
-    initspeed = -1;
-    inertia = 0.68;
-    __DEXTERITY(6.85, 0);
-    class WeaponSlotsInfo : WeaponSlotsInfo {
-        mass = 137;
-    };
-class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
-        default = "hlc_lmg_minimipara_long";
-    };
+    {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer.p3d";
+        displayName = "FN Minimi Para (Long)";
+        initspeed = -1;
+        inertia = 0.68;
+        __DEXTERITY(6.85, 0);
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 137;
+        };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimipara_long_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_30Rnd";
+            default = "hlc_lmg_minimipara_long";
+        };
     };
     class hlc_lmg_minimipara_long_30Rnd : hlc_lmg_minimipara_long
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -626,55 +647,62 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_minimipara_long_railed : hlc_lmg_minimipara
-{
-    author = "Toadie";
-    model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
-    displayName = "FN Minimi Para (Long/RIS)";
-    initspeed = -1;
-    inertia = 0.69;
-    __DEXTERITY(6.94, 0);
-    class WeaponSlotsInfo : WeaponSlotsInfo {
-        mass = 145;
-        class CowsSlot : asdg_OpticRail1913_short_MG {
-            iconPosition[] = { 0.5, 0.3 };
+    {
+        author = "Toadie";
+        model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
+        displayName = "FN Minimi Para (Long/RIS)";
+        initspeed = -1;
+        inertia = 0.69;
+        __DEXTERITY(6.94, 0);
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            mass = 145;
+            class CowsSlot : asdg_OpticRail1913_short_MG {
+                iconPosition[] = { 0.5, 0.3 };
+            };
+        };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_railed_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_railed_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_railed_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_railed_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimipara_long_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
+            default = "hlc_lmg_minimipara_long_railed";
         };
     };
-class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimipara_long_railed_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimipara_long_railed_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimipara_long_railed_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimipara_long_railed_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimipara_long_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimipara_long_railed_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimipara_long_railed_30Rnd";
-        default = "hlc_lmg_minimipara_long_railed";
-    };
-    };
     class hlc_lmg_minimipara_long_railed_30Rnd : hlc_lmg_minimipara_long_railed
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -685,7 +713,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_minimi : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer.p3d";
@@ -712,40 +740,47 @@ class __MAGSWITCHCLASS {
             };
             mass = 144;
         };
-class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
-        default = "hlc_lmg_minimi";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimi_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimi_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_30Rnd";
+            default = "hlc_lmg_minimi";
+        };
     };
     class hlc_lmg_minimi_30Rnd : hlc_lmg_minimi
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.68-0.33+0.05;
@@ -756,7 +791,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_minimi_railed : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed.p3d";
@@ -775,40 +810,47 @@ class __MAGSWITCHCLASS {
                 iconPosition[] = { 0.5, 0.3 };
             };
         };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_railed_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_railed_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_railed_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_railed_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
-        default = "hlc_lmg_minimi_railed";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_minimi_railed_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_minimi_railed_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_minimi_railed_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_minimi_railed_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_minimi_railed_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_minimi_railed_30Rnd";
+            default = "hlc_lmg_minimi_railed";
+        };
     };
     class hlc_lmg_minimi_railed_30Rnd : hlc_lmg_minimi_railed
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_longer_railed_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -819,7 +861,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_m249para : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249paratrooper.p3d";
@@ -832,40 +874,47 @@ class __MAGSWITCHCLASS {
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
 
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_m249para_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_m249para_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_m249para_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_m249para_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
-        default = "hlc_lmg_m249para";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_m249para_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_m249para_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_m249para_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_m249para_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_m249para_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_m249para_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_m249para_30Rnd";
+            default = "hlc_lmg_m249para";
+        };
     };
     class hlc_lmg_m249para_30Rnd : hlc_lmg_m249para
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249paratrooper_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -875,7 +924,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_M249E2 : hlc_lmg_minimipara {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249E2.p3d";
@@ -890,40 +939,47 @@ class __MAGSWITCHCLASS {
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_M249E2_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_M249E2_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_M249E2_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_M249E2_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
-        default = "hlc_lmg_M249E2";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_M249E2_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_M249E2_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_M249E2_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_M249E2_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_M249E2_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_M249E2_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E2_30Rnd";
+            default = "hlc_lmg_M249E2";
+        };
     };
     class hlc_lmg_M249E2_30Rnd : hlc_lmg_M249E2
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249E2_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.75-0.33+0.05;
@@ -934,7 +990,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_M249E1 : hlc_lmg_minimipara {
         author = "Toadie,da12thMonkey,j0zh94(RHS)";
         model = "\hlc_wp_saw\mesh\m249\m249E1.p3d";
@@ -949,40 +1005,47 @@ class __MAGSWITCHCLASS {
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\rhs_m249\mk1_muzzleStock_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_lmg_M249E1_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_lmg_M249E1_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_lmg_M249E1_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_lmg_M249E1_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
-        default = "hlc_lmg_M249E1";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_lmg_M249E1_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_lmg_M249E1_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_lmg_M249E1_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_lmg_M249E1_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_lmg_M249E1_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_lmg_M249E1_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_lmg_M249E1_30Rnd";
+            default = "hlc_lmg_M249E1";
+        };
     };
     class hlc_lmg_M249E1_30Rnd : hlc_lmg_M249E1
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249E1_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.72-0.33+0.05;
@@ -992,7 +1055,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
 
     class hlc_m249_pip1 : hlc_lmg_minimi_railed {
         author = "Toadie";
@@ -1008,40 +1071,47 @@ class __MAGSWITCHCLASS {
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_m249_pip1_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_m249_pip1_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_m249_pip1_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_m249_pip1_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
-        default = "hlc_m249_pip1";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_m249_pip1_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_m249_pip1_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_m249_pip1_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_m249_pip1_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_m249_pip1_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_m249_pip1_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_m249_pip1_30Rnd";
+            default = "hlc_m249_pip1";
+        };
     };
     class hlc_m249_pip1_30Rnd : hlc_m249_pip1
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip1_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -1051,7 +1121,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_m249_pip2 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip2.p3d";
@@ -1065,40 +1135,47 @@ class __MAGSWITCHCLASS {
         AB_barrelLength = 13.7;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_m249_pip2_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_m249_pip2_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_m249_pip2_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_m249_pip2_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
-        default = "hlc_m249_pip2";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_m249_pip2_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_m249_pip2_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_m249_pip2_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_m249_pip2_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_m249_pip2_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_m249_pip2_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_m249_pip2_30Rnd";
+            default = "hlc_m249_pip2";
+        };
     };
     class hlc_m249_pip2_30Rnd : hlc_m249_pip2
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip2_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -1108,7 +1185,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_m249_pip3 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip3.p3d";
@@ -1122,40 +1199,47 @@ class __MAGSWITCHCLASS {
         AB_barrelLength = 13.7;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_m249_pip3_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_m249_pip3_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_m249_pip3_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_m249_pip3_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip3_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip3_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip3_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
-        default = "hlc_m249_pip3";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_m249_pip3_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_m249_pip3_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_m249_pip3_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_m249_pip3_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_m249_pip3_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_m249_pip3_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_m249_pip3_30Rnd";
+            default = "hlc_m249_pip3";
+        };
     };
     class hlc_m249_pip3_30Rnd : hlc_m249_pip3
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip3_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.68-0.33+0.05;
@@ -1165,7 +1249,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_m249_pip4 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip4.p3d";
@@ -1190,40 +1274,47 @@ class __MAGSWITCHCLASS {
                 };
             class UnderBarrelSlot : asdg_UnderSlot {};
         };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_m249_pip4_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_m249_pip4_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_m249_pip4_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_m249_pip4_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
-        default = "hlc_m249_pip4";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_m249_pip4_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_m249_pip4_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_m249_pip4_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_m249_pip4_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_m249_pip4_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_m249_pip4_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_m249_pip4_30Rnd";
+            default = "hlc_m249_pip4";
+        };
     };
     class hlc_m249_pip4_30Rnd : hlc_m249_pip4
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249e2_pip4_30rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.65-0.33+0.05;
@@ -1234,7 +1325,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_m249_SQuantoon : hlc_m249_pip4 {
         author = "Toadie, w/Special Thanks to Squantoon";
         model = "\hlc_wp_saw\mesh\m249\m249e2_squant.p3d";
@@ -1247,40 +1338,47 @@ class __MAGSWITCHCLASS {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 142;
         };
-    class __MAGSWITCHCLASS {
-        //NIArms Mags
-        hlc_30rnd_556x45_EPR = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_SOST = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_SPR = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_S = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_M = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_t = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_MDim = "hlc_m249_SQuantoon_30Rnd";
-        hlc_30rnd_556x45_TDim = "hlc_m249_SQuantoon_30Rnd";
-        //BI_MAGS
-        30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
-        30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
-        30Rnd_556x45_Stanag_green = "hlc_m249_SQuantoon_30Rnd";
-        30Rnd_556x45_Stanag_red = "hlc_m249_SQuantoon_30Rnd";
-        //RHS Mags (God fucking help me, when I commit, I COMMIT. )
-        //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
-        rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
-        rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
-        //CUP Mags
-        CUP_30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
-        default = "hlc_m249_SQuantoon";
-    };
+        class __MAGSWITCHCLASS {
+            //NIArms Mags
+            hlc_30rnd_556x45_EPR = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_SOST = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_SPR = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_S = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_M = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_t = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_MDim = "hlc_m249_SQuantoon_30Rnd";
+            hlc_30rnd_556x45_TDim = "hlc_m249_SQuantoon_30Rnd";
+            //BI_MAGS
+            30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
+            30Rnd_556x45_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
+            30Rnd_556x45_Stanag_green = "hlc_m249_SQuantoon_30Rnd";
+            30Rnd_556x45_Stanag_red = "hlc_m249_SQuantoon_30Rnd";
+            //RHS Mags (God fucking help me, when I commit, I COMMIT. )
+            //IN THEORY THIS should work so I don't need to add this post-hoc in the compat)
+            rhs_mag_30Rnd_556x45_Mk318_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_Mk262_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Green = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Yellow = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Orange = "hlc_m249_SQuantoon_30Rnd";
+            rhs_mag_30Rnd_556x45_M200_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            //CUP Mags
+            CUP_30Rnd_556x45_Stanag = "hlc_m249_SQuantoon_30Rnd";
+            default = "hlc_m249_SQuantoon";
+        };
     };
     class hlc_m249_SQuantoon_30Rnd : hlc_m249_SQuantoon
-{
-    scopeArsenal = 0;
+    {
+        scopeArsenal = 0;
         model = "\hlc_wp_saw\mesh\m249\m249e2_Squant_30Rnd.p3d";
         reloadaction = "HLC_GestureReloadM249STANAG";
         inertia = 0.69-0.33+0.05;
@@ -1291,7 +1389,7 @@ class __MAGSWITCHCLASS {
         class GunParticles : GunParticles {
             class AmmoBeltEject {};
         };
-};
+    };
     class hlc_lmg_mk46 : hlc_lmg_minimi_railed {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\mk46\mk46.p3d";
@@ -1322,7 +1420,7 @@ class __MAGSWITCHCLASS {
             __ROF(730);
             dispersion = 0.000261799;
         };
-            class __MAGSWITCHCLASS {};
+        class __MAGSWITCHCLASS {};
     };
     class hlc_lmg_mk46mod1 : hlc_lmg_mk46
     {
