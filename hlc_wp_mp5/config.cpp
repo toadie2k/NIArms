@@ -163,7 +163,7 @@ class CfgMagazines {
     class hlc_30Rnd_9x19_GD_MP5: 30Rnd_9x21_Mag {
         dlc = "Niarms_MP5";
         author = "Toadie";
-        ammo = "HLC_9x19_GoldDot";
+        ammo = "HLC_9x19_JHP_SMG";
         count =30;
         descriptionshort = "Caliber: 9x19mm<br />Rounds: 30<br />Used in: MP5s";
         displayname = "MP5 Magazine (JHP) 30rnd 9mm";
