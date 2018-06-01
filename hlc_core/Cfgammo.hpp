@@ -1719,7 +1719,24 @@ class CfgAmmo {
         AB_barrelLengths[] = { 4, 5, 9 };
     };
 
-
+    //7.63x25mm
+    //WIP
+    class HLC_763x25_FMJ : HLC_10mm_FMJ
+    {
+    hit = 4.945778;
+    indirectHit = 0;
+    indirectHitRange = 0;
+    suppressionRadiusBulletClose = 2;
+    cartridge = "FxCartridge_9mm";
+    model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
+    caliber = 0.674;
+    deflecting = 29;
+    visibleFire = 1.5;
+    audibleFire = 3;
+    cost = 100;
+    typicalSpeed = 390.1;
+    airFriction = -0.0027667; 
+};
     //.45ACP
     /*
     US Military Designated M1911 Ball

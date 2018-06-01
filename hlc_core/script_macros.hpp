@@ -88,6 +88,7 @@
 
 #define __792MG42_MAGS "hlc_50Rnd_792x57_B_MG42","hlc_50Rnd_792x57_M_MG42","hlc_50Rnd_792x57_T_MG42", "hlc_100Rnd_792x57_B_MG42","hlc_100Rnd_792x57_M_MG42","hlc_100Rnd_792x57_T_MG42","hlc_200Rnd_792x57_B_MG42","hlc_200Rnd_792x57_M_MG42","hlc_200Rnd_792x57_T_MG42","hlc_50Rnd_792x57_AP_MG42","hlc_100Rnd_792x57_AP_MG42","hlc_200Rnd_792x57_AP_MG42"
 #define __762MG3_MAGS "hlc_50Rnd_762x51_B_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_Barrier_MG3","hlc_50Rnd_762x51_T_MG3","hlc_100Rnd_762x51_B_MG3","hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_Barrier_MG3","hlc_100Rnd_762x51_T_MG3","hlc_250Rnd_762x51_B_MG3","hlc_250Rnd_762x51_B_MG3", "hlc_250Rnd_762x51_M_MG3","hlc_250Rnd_762x51_Barrier_MG3","hlc_250Rnd_762x51_T_MG3"
+#define __GRIPS_RHS_ACC rhsusf_acc_grip1 = 1; rhsusf_acc_grip2 = 1; rhsusf_acc_grip2_tan = 1; rhsusf_acc_grip2_wd = 1; rhsusf_acc_grip3 = 1; rhsusf_acc_grip3_tan = 1; rhs_acc_grip_rk2 = 1; rhs_acc_grip_rk6 = 1; rhs_acc_grip_ffg2 = 1;
 // calculate dexterity (how fast you can turn) with rifle based on it's total weight - meant to produce values close to BIS
 // __COMPONENTS = sum of parts defined below
 // __MODIF = 0 default, 1 for having a grip, 1 for bullpups, -3 for bulky weapons

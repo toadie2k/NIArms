@@ -72,22 +72,70 @@ if (_newWeapon isEqualTo _weapon) exitWith {
     LOG("same weapon, no change");
 };
 
-//save current state
+//save current mode
 private _cwm = currentWeaponMode _unit;
-private _isFLOn = _unit isFlashlightOn _weapon;
-private _isIROn = _unit isIRLaserOn _weapon;
 
-//swap weapon then re-add magazine and attachments
+//save current mag loadout
+private _magLoadout = magazinesAmmoFull _unit;
+/*
+Magazine format:
+0: Magazine class name
+1: Magazine current ammo count
+2: Magazine state (true - loaded, false - not loaded)
+3: Magazine type (-1 - n/a, 0 - grenade, 1 - primary weapon mag, 2 - handgun mag, 4 - secondary weapon mag, 65536 - vehicle mag)
+4: Magazine location ("Vest", "Uniform", "Backpack", "") or corresponding currentMuzzle
+
+[
+	["30Rnd_65x39_caseless_mag",30,false,-1,"Uniform"],
+	["30Rnd_65x39_caseless_mag",30,false,-1,"Vest"],
+	["16Rnd_9x21_Mag",16,false,-1,"Vest"],
+	["SmokeShellGreen",1,true,0,"SmokeShellGreenMuzzle"],
+	["Chemlight_green",1,true,0,"ChemlightGreenMuzzle"],
+	["HandGrenade",1,true,0,"HandGrenadeMuzzle"],
+	["30Rnd_65x39_caseless_mag",30,true,1,"arifle_MX_ACO_pointer_F"],
+	["16Rnd_9x21_Mag",16,true,2,"hgun_P07_F"]
+]
+*/
+
+//get compatible mags, lower cased
+private _mags = (getArray(configFile >> "CfgWeapons" >> _weapon >> "magazines")) apply {toLower _x};
+
+//temporarily remove all mags for this weapon; this is to ensure exactly the same mag will be loaded into the new weapon on switch
+{_unit removeMagazines _x} forEach _mags;
+
+//re-add mag that was loaded, new weapon and attachments
+_unit addMagazine [_newmagtype, _newmagcapacity];
 _unit removeWeapon _weapon;
 _unit addWeapon _newWeapon;
-_unit addWeaponItem [_newWeapon, [_newmagtype, _newmagcapacity]];
-{ if (_x != "") then {_unit addWeaponItem [_newWeapon, _x]} } forEach _weaponItems;
-
 if (isNull objectParent _unit) then { 
     [_unit, _newWeapon, _cwm] spawn CBA_fnc_selectWeapon; //this function wouldn't work for units reloading while inside vehicles
 };
-call {
-    if (_isFLOn) exitWith {_unit action ["GunLightOn", _unit]};
-    if (_isIROn) exitWith {_unit action ["IRLaserOn", _unit]};
-}
+
+switch (_currWeaponType) do {
+    case 1: {
+        { if (_x != "") then {_unit addPrimaryWeaponItem _x} } forEach _weaponItems;
+    };
+    case 2: {
+        { if (_x != "") then {_unit addHandgunItem _x} } forEach _weaponItems;
+    };
+    case 4: {
+        { if (_x != "") then {_unit addSecondaryWeaponItem _x} } forEach _weaponItems;
+    };
+};
+
+//re-add the other mags into the same pockets as before
+private "_container";
+{
+    _x params ["_magClass","_ammoCnt","_magLoaded","_magType","_magLoc"];
+    if (!_magLoaded && {(tolower _magClass) in _mags}) then {
+        _container = switch (_magLoc) do {
+            case "Uniform": {uniformContainer _unit};
+            case "Vest": {vestContainer _unit};
+            case "Backpack" : {backpackContainer _unit};
+            default {objNull};
+        };
+        if (!isNull _container) then {_container addMagazineAmmoCargo [_magClass, 1, _ammoCnt]};
+    };
+} forEach _magLoadout;
+
 LOG("DONE");

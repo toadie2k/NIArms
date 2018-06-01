@@ -18,7 +18,9 @@ class CfgPatches {
 #include "CfgMagazines.hpp"  
 #include "CfgFunctions.hpp"
 #include "CfgEventhandlers.hpp"
-
+#include "cfgsoundshaders.hpp"
+#include "cfgsoundset.hpp"
+#include "Particles.hpp"
 
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
@@ -67,6 +69,34 @@ class asdg_OpticRail1913 : asdg_OpticRail{
         hlc_optic_ZF95Base = 1;
         hlc_optic_VOMZ3d = 1;
         hlc_optic_VOMZ = 1;
+    };
+};
+class UnderBarrelSlot;
+class nia_rifle_gripod_slot : UnderBarrelSlot
+{
+    displayName = "Gripod slot";
+    class compatibleItems
+    {
+    };
+};
+class nia_rifle_grips_slot : nia_rifle_gripod_slot
+{
+    linkProxy = "\hlc_core\mesh\nia_grip_proxy";
+};
+class PointerSlot;
+class nia_charms_slot : PointerSlot
+{
+    displayName = "$STR_A3_PointerSlot0";
+    iconPicture = "\a3\weapons_f\Data\ui\attachment_side";
+    linkProxy = "\hlc_core\mesh\nia_charm_proxy";
+    class compatibleItems
+    {
+        //The commented out ones are special patron ones. While I can't stop anyone with the wherewithall to compile a PBO from just uncommenting them and whatever, you know, keep it to yourself. 
+        //HLC_Charm_Eurojank = 1;
+        //HLC_Charm_NIArmsbacker = 1;
+        //HLC_Charm_NIArmsbacker_dirty = 1;
+        HLC_Charm_Izhmash = 1;
+        HLC_Charm_Herstal = 1;
     };
 };
 class asdg_UnderSlot : asdg_SlotInfo
@@ -218,6 +248,10 @@ class CfgMovesBasic {
         HLC_GestureReloadAUGPara = "HLC_GestureReloadAUGPara";
         HLC_GestureSwapBarrelAUG = "HLC_GestureSwapBarrelAUG";
         HLC_GestureReloadp226 = "HLC_GestureReloadp226";
+        HLC_GestureReloadSG550 = "HLC_GestureReloadSG550";
+        HLC_GestureReloadSG553R = "HLC_GestureReloadSG553R";
+        HLC_GestureReloadSG553RDrum = "HLC_GestureReloadSG553RDrum";
+        HLC_GestureReloadGL5040 = "HLC_GestureReloadGL5040";
     };
 
     class Actions {
@@ -262,6 +296,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAUGa3[] = { "HLC_GestureReloadAUGa3", "Gesture" };
             HLC_GestureSwapBarrelAUG[] = { "HLC_GestureSwapBarrelAUG", "Gesture" };
             HLC_GestureReloadp226[] = { "HLC_GestureReloadp226", "Gesture" };
+            HLC_GestureReloadSG550[] = { "HLC_GestureReloadSG550", "Gesture" };
+            HLC_GestureReloadSG553R[] = { "HLC_GesturereloadSG553R", "Gesture" };
+            HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum", "Gesture" };
+            HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040", "Gesture" };
         };
 
         class RifleProneActions : RifleBaseStandActions {
@@ -300,6 +338,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAUGPara[] = { "HLC_GestureReloadAUGPara_Prone", "Gesture" };
             HLC_GestureSwapBarrelAUG[] = { "HLC_GestureSwapBarrelAUG_prone", "Gesture" };
             HLC_GestureReloadp226[] = { "HLC_GestureReloadp226_prone", "Gesture" };
+            HLC_GestureReloadSG550[] = { "HLC_GestureReloadSG550_prone", "Gesture" };
+            HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R_prone", "Gesture" };
+            HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_prone", "Gesture" };
+            HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_prone", "Gesture" };
         };
 
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
@@ -336,6 +378,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAUGPara[] = { "HLC_GestureReloadAUGPara_context", "Gesture" };
             HLC_GestureSwapBarrelAUG[] = { "HLC_GestureSwapBarrelAUG_context", "Gesture" };
             HLC_GestureReloadp226[] = { "HLC_GestureReloadp226_context", "Gesture" };
+            HLC_GestureReloadSG550[] = { "HLC_GestureReloadSG550_context", "Gesture" };
+            HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R_context", "Gesture" };
+            HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_context", "Gesture" };
+            HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_context", "Gesture" };
         };
 
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
@@ -371,6 +417,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAUGPara[] = { "HLC_GestureReloadAUGPara_context", "Gesture" };
             HLC_GestureSwapBarrelAUG[] = { "HLC_GestureSwapBarrelAUG_context", "Gesture" };
             HLC_GestureReloadp226[] = { "HLC_GestureReloadp226_context", "Gesture" };
+            HLC_GestureReloadSG550[] = { "HLC_GestureReloadSG550_context", "Gesture" };
+            HLC_GesturereloadSG553R[] = { "HLC_GestureReloadSG553R_context", "Gesture" };
+            HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_context", "Gesture" };
+            HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_context", "Gesture" };
         };
 
         class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
@@ -406,6 +456,10 @@ class CfgMovesBasic {
             HLC_GestureReloadAUGPara[] = { "HLC_GestureReloadAUGPara", "Gesture" };
             HLC_GestureSwapBarrelAUG[] = { "HLC_GestureSwapBarrelAUG", "Gesture" };
             HLC_GestureReloadp226[] = { "HLC_GestureReloadp226", "Gesture" };
+            HLC_GestureReloadSG550[] = { "HLC_GestureReloadSG550", "Gesture" };
+            HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R", "Gesture" };
+            HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum", "Gesture" };
+            HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040", "Gesture" };
         };
     };
 };
@@ -565,7 +619,7 @@ class CfgGesturesMale {
         class HLC_GestureReloadAK762Drum_prone : Default {
             file = "\hlc_core\animation\gesture\reload_ak76drum_prone.rtm";
             looped = 0;
-            speed = 0.29;
+            speed = -5.833333;
             mask = "handsWeapon";
             // mask="empty";
             headBobStrength = 0.02;
@@ -1486,6 +1540,134 @@ class CfgGesturesMale {
         class HLC_Gesturereload3011_50rnd_Context : HLC_Gesturereload3011_50rnd {
             mask = "handsWeapon_context";
         };
+        class HLC_GesturereloadSG550 : Default {
+            file = "\hlc_core\animation\gesture\reload_sg550_standing.rtm";
+            looped = 0;
+            speed = -4.133;
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4/124), 0, (108/124), 0, (117/124), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG550_prone : Default {
+            file = "hlc_core\animation\gesture\reload_sg550_prone.rtm";
+            speed = -4.133;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 124), 0, (108 / 124), 0, (117 / 124), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG550_context : HLC_GesturereloadSG550 {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GesturereloadSG553R : Default {
+            file = "\hlc_core\animation\gesture\reload_sg553R_standing.rtm";
+            looped = 0;
+            speed = -(134/30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 124), 0, (108 / 124), 0, (117 / 124), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG553R_prone : Default {
+            file = "hlc_core\animation\gesture\reload_sg553R_prone.rtm";
+            speed = -4.133;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 124), 0, (108 / 124), 0, (117 / 124), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG553R_context : HLC_GesturereloadSG553R {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GesturereloadSG553RDrum : Default {
+            file = "\hlc_core\animation\gesture\reload_sg553Rdrum_standing.rtm";
+            looped = 0;
+            speed = -(160 / 30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { (113 / 160), 1, (117 / 160), 0, (143 / 160), 0, (147 / 160), 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 160), 0, (108 / 160), 0, (115 / 160), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG553RDrum_prone : Default {
+            file = "hlc_core\animation\gesture\reload_sg553Rdrum_prone.rtm";
+            speed = -(160 / 30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { (113 / 160), 1, (117 / 160), 0, (143 / 160), 0, (147 / 160), 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 160), 0, (108 / 160), 0, (115 / 160), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GesturereloadSG553RDrum_context : HLC_GesturereloadSG553RDrum {
+            mask = "handsWeapon_context";
+        };
+        class HLC_GestureReloadGL5040 : Default {
+            file = "\hlc_core\animation\gesture\reload_gl5040_standing.rtm";
+            looped = 0;
+            speed = -(107/30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4/107), 0, (90/107), 0, (93/107), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadGL5040_prone : Default {
+            file = "\hlc_core\animation\gesture\reload_gl5040_prone.rtm";
+            speed = -(107/30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKCurve[] = { 0, 1, (4 / 107), 0, (90 / 107), 0, (93 / 107), 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            rightHandIKBeg = true;
+            rightHandIKEnd = true;
+        };
+        class HLC_GestureReloadGL5040_context : HLC_GestureReloadGL5040 {
+            mask = "handsWeapon_context";
+        };
     };
 };
 
@@ -1770,7 +1952,7 @@ class CfgWeapons
         tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
         inertia = 0.05;
     };
-class hlc_optic_PVS4base : optic_Arco {
+    class hlc_optic_PVS4base : optic_Arco {
         author = "Bohemia Interactive, Toadie";
         descriptionshort = "Night Vision Optic<br />Magnification: 4x";
         displayname = "AN/PVS4";
@@ -2082,7 +2264,62 @@ class hlc_optic_PVS4base : optic_Arco {
         model = "hlc_core\mesh\accessories\bipod\UTG\UTG.p3d";
         descriptionshort = "UTG Shooter's Sniper Bipod, Steel Feet";
     };
-
+    class HLC_Charm_base : ItemCore
+    {
+        dlc = "Niarms_Core";
+        scope = public;
+        author = "Toadie";
+        descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
+        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
+        model = "hlc_core\mesh\accessories\acc\charms\eurojank.p3d";
+        descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
+        class ItemInfo : InventoryFlashLightItem_Base_F
+        {
+            mass = 1;
+        };
+        inertia = 0.01;
+    };
+    class HLC_Charm_Eurojank :HLC_Charm_base
+    {
+        author = "Toadie";
+        scope = public;
+        displayname = "Charm- Eurojank";
+        model = "hlc_core\mesh\accessories\acc\charms\eurojank.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_eurc_ca.paa";
+        descriptionshort = "Charm promoting the concept of Eurojank.";
+    };
+    class HLC_Charm_NIArmsbacker :HLC_Charm_base
+    {
+        author = "Toadie";
+        displayname = "Charm- NIArms Backer";
+        model = "hlc_core\mesh\accessories\acc\charms\niarms.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_niac_ca.paa";
+        descriptionshort = "Charm";
+    };
+    class HLC_Charm_NIArmsbacker_dirty :HLC_Charm_base
+    {
+        author = "Toadie";
+        displayname = "Charm- NIArms Backer(Dirty)";
+        model = "hlc_core\mesh\accessories\acc\charms\niarms_dirty.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_niac_ca.paa";
+        descriptionshort = "Charm";
+    };
+    class HLC_Charm_Izhmash :HLC_Charm_base
+    {
+        author = "Toadie";
+        displayname = "Charm- Izhmash";
+        model = "hlc_core\mesh\accessories\acc\charms\izhmash.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_izhmash_ca.paa";
+        descriptionshort = "Charm of the Izhmash Logo";
+    };
+    class HLC_Charm_Herstal :HLC_Charm_base
+    {
+        author = "Toadie";
+        displayname = "Charm- FN Herstal";
+        model = "hlc_core\mesh\accessories\acc\charms\FNH.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_herstal_ca.paa";
+        descriptionshort = "Charm of the Izhmash Logo";
+    };
     //V is for Vanilla. 
     class HLC_optic_DocterV : optic_Arco {
         dlc = "Niarms_Core";
