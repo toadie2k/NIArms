@@ -1,4 +1,4 @@
-// NOTE TO  FUTURE ME - 
+// NOTE TO  FUTURE ME -
 //G36 Rifle-length cycle - 0.093
 //Carbine = 0.88
 //Compact - 0.82
@@ -63,7 +63,7 @@ class niarms_G36_OpticSlot: asdg_OpticRail {
     };
 };
 
-class CfgVehicles { 
+class CfgVehicles {
     dlc = "Niarms_G36";
     class B_supplyCrate_F;
     class HLC_G36_ammobox : B_supplyCrate_F {
@@ -690,7 +690,7 @@ class CfgWeapons {
             hasBipod = true;			/// bipod obviously has a bipod
             mass = 10;			/// what is the mass of the object
             soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
-            soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
+            soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding
         };
         inertia = 0.02;						/// how much does the bipod add to inertia of the weapon
     };
@@ -863,10 +863,10 @@ class CfgWeapons {
             __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class AI_Burst_close : FullAuto {
-            
-                showToPlayer = 0; 
+
+                showToPlayer = 0;
                 aiBurstTerminable = 1;
-                burst = 4; 
+                burst = 4;
                 __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
@@ -1282,7 +1282,7 @@ class CfgWeapons {
             showToPlayer = 0;
             aiBurstTerminable = 1;
             burst = 4;
-            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36c_CMAG";
@@ -1435,7 +1435,9 @@ class CfgWeapons {
             class Kolimator {
                 cameradir = "";
                 distancezoommax = 100;
-                distancezoommin = 100;
+                distancezoommin = 500;
+                discreteDistance[] = {100, 200, 300, 400, 500};
+                discreteDistanceInitIndex = 1;
                 memorypointcamera = "eye";
                 opticsdisableperipherialvision = 0;
                 opticsflare = 0;
@@ -1487,7 +1489,9 @@ class CfgWeapons {
             class Kolimator {
                 cameradir = "";
                 distancezoommax = 100;
-                distancezoommin = 100;
+                distancezoommin = 500;
+                discreteDistance[] = {100, 200, 300, 400, 500};
+                discreteDistanceInitIndex = 1;
                 memorypointcamera = "eye";
                 opticsdisableperipherialvision = 0;
                 opticsflare = 0;
@@ -1743,7 +1747,7 @@ class CfgWeapons {
         inertia = 0.28+0.21;
         __DEXTERITY(2.8+2.1, 0);
     };
-    ///CASELESS 
+    ///CASELESS
 
     class hlc_rifle_G36MLIC : hlc_G36_base {
         dlc = "Niarms_G36";
