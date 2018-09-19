@@ -12,6 +12,14 @@ class Extended_Reloaded_EventHandlers {
     };
 };
 
+class Extended_Take_EventHandlers {
+    class CAManBase {
+        class nia_core {
+            clientInit = "_this call Niarms_fnc_magInit";
+        };
+    };
+};
+
 class Extended_InitPost_EventHandlers {
     class CAManBase {
         class nia_core {
