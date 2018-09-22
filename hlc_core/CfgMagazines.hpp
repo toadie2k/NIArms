@@ -16,53 +16,72 @@ Pmag - 160
 FAL mag = 250g
 
 FAL mag = 250g*/
-    class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag{
+
+    class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd STANAG";
         initspeed = 974.8;
         mass = 11;
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
         displaynameshort = "M855A1 EPR";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_EPR_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
+        modelSpecialIsProxy = 1;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
     };
-    class hlc_30rnd_556x45_SOST : 30Rnd_556x45_Stanag{
+    class hlc_30rnd_556x45_SOST : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SOST";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "5.56mm SOST 30Rnd STANAG";
         initspeed = 954.4;
         mass = 12; //+1 mass over EPR for ever 30
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
         displaynameshort = "MK318 SOST";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_sost_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
+        modelSpecialIsProxy = 1;
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
-    class hlc_30rnd_556x45_SPR : 30Rnd_556x45_Stanag{
+    class hlc_30rnd_556x45_SPR : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SPR";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
         displayname = "5.56mm SBLR 30Rnd STANAG";
         initspeed = 868.7;
         mass = 14; //+2 mass over EPR for ever 30
-        lastroundstracer = 1;
+        lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
         displaynameshort = "MK262 Mod 1";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_ball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_spr_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
+        modelSpecialIsProxy = 1;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_30rnd_556x45_S : hlc_30rnd_556x45_EPR {
-        author = "Toadie";
+        author = "Toadie,Spartan0536,Tigg";
         initspeed = 340;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "5.56mm Subsonic 30Rnd STANAG";
-        picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_s_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
-    class hlc_30rnd_556x45_M : 30Rnd_556x45_Stanag{
+    class hlc_30rnd_556x45_M : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
@@ -72,10 +91,12 @@ FAL mag = 250g*/
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR,Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+        displaynameshort = "EPR/Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
-    class hlc_30rnd_556x45_t : 30Rnd_556x45_Stanag{
+    class hlc_30rnd_556x45_t : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
@@ -87,53 +108,539 @@ FAL mag = 250g*/
         scope = 2;
         tracersevery = 1;
         displaynameshort = "M856A1 Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
-    class hlc_30rnd_556x45_MDim :hlc_30rnd_556x45_EPR {
-        author = "Toadie";
+    class hlc_30rnd_556x45_MDim : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd STANAG (IR-DIM every 4)";
         tracersevery = 4;
         displaynameshort = "EPR/IR-DIM";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
     class hlc_30rnd_556x45_TDim :hlc_30rnd_556x45_EPR {
-        author = "Toadie";
+        author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "5.56mm IR-Dim 30Rnd STANAG";
         tracersevery = 1;
         displaynameshort = "IR-DIM";
-        picture = "\hlc_core\tex\ui\ammo\m_STANAG_tracer_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
+    //X-15 Magazine
     class hlc_50rnd_556x45_EPR : hlc_30rnd_556x45_EPR {
-        ammo = "HLC_556NATO_EPR_Tracer";
-        author = "Toadie";
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR";
         count = 50;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
-        displayname = "5.56mm EPR 50Rnd STANAG (Tracers every 4)";
+        displayname = "5.56mm EPR 50Rnd X15";
+        mass = 43.53;
+        tracersevery = 0;
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_EPR_ca.paa";
+        lastroundstracer = 0;
+        modelSpecial = \hlc_core\mesh\magazines\proxies\50rnd_556NATO_X15;
+        modelSpecialIsProxy = 1;
+        model = "\hlc_core\mesh\magazines\50rnd_556NATO_X15.p3d";
+    };
+    class hlc_50rnd_556x45_SOST : hlc_50rnd_556x45_EPR {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SOST";
+        mass = 44.53;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_sost_ca.paa";
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 50";
+        displayname = "5.56mm SOST 50Rnd X15";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_50rnd_556x45_SPR : hlc_50rnd_556x45_EPR {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SPR";
+        mass = 44.53;
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_SPR_ca.paa";
+        displaynameshort = "MK262 Mod 1";
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 50";
+        displayname = "5.56mm SBLR 50Rnd X15";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_50rnd_556x45_M : hlc_50rnd_556x45_EPR {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 50;
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
+        displayname = "5.56mm EPR 50Rnd X15 (Tracers every 4)";
         mass = 43.53;
         tracersevery = 4;
-        picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
+        displaynameshort = "EPR/Tracer";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        lastroundstracer = 2;
     };
-        class hlc_50rnd_556x45_MDim : hlc_30rnd_556x45_EPR {
+    class hlc_50rnd_556x45_MDim : hlc_50rnd_556x45_EPR {
+        author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        author = "Toadie";
         count = 50;
+        displaynameshort = "EPR/IR-DIM";
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 50";
-        displayname = "5.56mm EPR 50Rnd STANAG (IR-DIM every 4)";
+        displayname = "5.56mm EPR 50Rnd X15 (IR-DIM every 4)";
         mass = 43.53;
         tracersevery = 4;
-        picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
+    //PMAG
+    class hlc_30rnd_556x45_EPR_PMAG : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd PMAG";
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_EPR_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_PMAG;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_PMAG.p3d";
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30rnd_556x45_SOST_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SOST";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "5.56mm SOST 30Rnd PMAG";
+        initspeed = 954.4;
+        mass = 12.6; //+1 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_sost_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_SPR_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "5.56mm SBLR 30Rnd PMAG";
+        initspeed = 868.7;
+        mass = 14.6; //+2 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_spr_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_S_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm Subsonic 30Rnd PMAG";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_s_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_M_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        ammo = "HLC_556NATO_EPR_Tracer";
+        author = "Toadie,Spartan0536";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd PMAG (Tracers every 4)";
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_t_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "5.56mm Tracer 30Rnd PMAG";
 
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "M856A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_MDim_PMAG : hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd PMAG (IR-DIM every 4)";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_TDim_PMAG :hlc_30rnd_556x45_EPR_PMAG {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm IR-Dim 30Rnd PMAG";
+        tracersevery = 1;
+        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    // H&K Heavy Duty STANAG
+    class hlc_30rnd_556x45_EPR_STANAGHD : hlc_30rnd_556x45_EPR{
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd STANAG-Heavy";
+        initspeed = 974.8;
+        mass = 13.6;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_EPR_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_HD;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_HD.p3d";
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30rnd_556x45_SOST_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SOST";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "5.56mm SOST 30Rnd STANAG-Heavy";
+        initspeed = 954.4;
+        mass = 15.6; //+1 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_sost_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_SPR_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "5.56mm SBLR 30Rnd STANAG-Heavy";
+        initspeed = 868.7;
+        mass = 16.6; //+2 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_spr_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_S_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm Subsonic 30Rnd STANAG-Heavy";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_s_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_M_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)";
+        initspeed = 974.8;
+        mass = 13.6;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_t_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "5.56mm Tracer 30Rnd STANAG-Heavy";
+
+        initspeed = 974.8;
+        mass = 13.6;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "M856A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_MDim_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_TDim_STANAGHD :hlc_30rnd_556x45_EPR_STANAGHD {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm IR-Dim 30Rnd STANAG-Heavy";
+        tracersevery = 1;
+        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    //Lancer L5
+    class hlc_30rnd_556x45_EPR_L5 : 30Rnd_556x45_Stanag {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd Lancer";
+        initspeed = 974.8;
+        mass = 10.8;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_EPR_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_Lancer;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_Lancer.p3d";
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30rnd_556x45_SOST_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SOST";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "5.56mm SOST 30Rnd Lancer";
+        initspeed = 954.4;
+        mass = 11.8; //+1 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_sost_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_SPR_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_SPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "5.56mm SBLR 30Rnd Lancer";
+        initspeed = 868.7;
+        mass = 13.8; //+2 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_spr_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_S_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm Subsonic 30Rnd Lancer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_s_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_M_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd Lancer (Tracers every 4)";
+        initspeed = 974.8;
+        mass = 10.8;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_t_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "5.56mm Tracer 30Rnd Lancer";
+
+        initspeed = 974.8;
+        mass = 10.8;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "M856A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_MDim_L5 : hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd Lancer (IR-DIM every 4)";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_TDim_L5 :hlc_30rnd_556x45_EPR_L5 {
+        author = "Toadie,Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm IR-Dim 30Rnd Lancer";
+        tracersevery = 1;
+        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_EPR_EMAG : hlc_30rnd_556x45_EPR {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_556NATO_EPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd EMAG";
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_EPR_ca.paa";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_EMAG;
+        model = "\hlc_core\mesh\magazines\30rnd_556NATO_EMAG.p3d";
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30rnd_556x45_SOST_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_556NATO_SOST";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
+        displayname = "5.56mm SOST 30Rnd EMAG";
+        initspeed = 954.4;
+        mass = 12.6; //+1 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK318 SOST";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sost_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_SPR_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_556NATO_SPR";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
+        displayname = "5.56mm SBLR 30Rnd EMAG";
+        initspeed = 868.7;
+        mass = 14.6; //+2 mass over EPR for ever 30
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "MK262 Mod 1";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sPR_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_S_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        initspeed = 340;
+        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
+        displayname = "5.56mm Subsonic 30Rnd EMAG";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sPR_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+    };
+    class hlc_30rnd_556x45_M_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        ammo = "HLC_556NATO_EPR_Tracer";
+        author = "Toadie,Spartan0536,Tigg";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd EMAG (Tracers every 4)";
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = "EPR/Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_t_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
+        displayname = "5.56mm Tracer 30Rnd EMAG";
+
+        initspeed = 974.8;
+        mass = 11.6;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        displaynameshort = "M856A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_MDim_EMAG : hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm EPR 30Rnd EMAG (IR-DIM every 4)";
+        tracersevery = 4;
+        displaynameshort = "EPR/IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
+    class hlc_30rnd_556x45_TDim_EMAG :hlc_30rnd_556x45_EPR_EMAG {
+        author = "Toadie,Spartan0536,Tigg";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        initspeed = 950.3664;
+        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
+        displayname = "5.56mm IR-Dim 30Rnd EMAG";
+        tracersevery = 1;
+        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_t_ca.paa";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+    };
 
 
         class hlc_30Rnd_545x39_B_AK : 30Rnd_556x45_Stanag{
+
             dlc = "Niarms_AK";
             author = "Toadie";
             ammo = "FH_545x39_Ball";

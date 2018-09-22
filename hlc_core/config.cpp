@@ -11,7 +11,7 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
 		versionDesc = "NIARMA - CORE";
 		versionAct = "";
-        version = "1.3";
+        version = "1.5";
     };
 };
 #include "CfgAmmo.hpp"  
@@ -21,6 +21,7 @@ class CfgPatches {
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 #include "Particles.hpp"
+#include "CfgMagazineWells.hpp"
 
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
@@ -37,6 +38,9 @@ class asdg_MuzzleSlot_762MG : asdg_MuzzleSlot { // for 7.62, 6.5 and 5.56 univer
 class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
     class compatibleItems {
         hlc_muzzle_556NATO_KAC = 1;
+        hlc_muzzle_556NATO_rotexiiic_tan = 1;
+        hlc_muzzle_556NATO_rotexiiic_grey = 1;
+        hlc_muzzle_556NATO_M42000 = 1;
     };
 };
 class asdg_MuzzleSlot_9MM : asdg_MuzzleSlot { // for 9x19mm universal mount pistol suppressors
@@ -69,6 +73,14 @@ class asdg_OpticRail1913 : asdg_OpticRail{
         hlc_optic_ZF95Base = 1;
         hlc_optic_VOMZ3d = 1;
         hlc_optic_VOMZ = 1;
+        hlc_optic_HensoldtZO_Hi = 1;
+        hlc_optic_HensoldtZO_Hi_2D = 1;
+        hlc_optic_HensoldtZO_lo = 1;
+        hlc_optic_HensoldtZO_lo_2D = 1;
+        hlc_optic_HensoldtZO_lo_Docter = 1;
+        hlc_optic_HensoldtZO_lo_Docter_2D = 1;
+        hlc_optic_HensoldtZO_Hi_Docter = 1;
+        hlc_optic_HensoldtZO_Hi_Docter_2D = 1;
     };
 };
 class UnderBarrelSlot;
@@ -79,9 +91,18 @@ class nia_rifle_gripod_slot : UnderBarrelSlot
     {
     };
 };
+class asdg_UnderSlot : asdg_SlotInfo
+{
+    class compatibleItems {
+        HLC_bipod_UTGShooters = 1;
+    };
+};
 class nia_rifle_grips_slot : nia_rifle_gripod_slot
 {
     linkProxy = "\hlc_core\mesh\nia_grip_proxy";
+};
+class nia_rifle_bipodsgrips_slot :asdg_UnderSlot 
+{
 };
 class PointerSlot;
 class nia_charms_slot : PointerSlot
@@ -99,12 +120,7 @@ class nia_charms_slot : PointerSlot
         HLC_Charm_Herstal = 1;
     };
 };
-class asdg_UnderSlot : asdg_SlotInfo
-{
-    class compatibleItems {
-        HLC_bipod_UTGShooters = 1;
-    };
-};
+
 class asdg_PistolUnderRail : asdg_SlotInfo  {
     linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
     displayName = "$STR_A3_PointerSlot0";
@@ -252,6 +268,11 @@ class CfgMovesBasic {
         HLC_GestureReloadSG553R = "HLC_GestureReloadSG553R";
         HLC_GestureReloadSG553RDrum = "HLC_GestureReloadSG553RDrum";
         HLC_GestureReloadGL5040 = "HLC_GestureReloadGL5040";
+        NIA_GestureReload416 = "NIA_GestureReload416";
+        NIA_GestureReload416_x15 = "NIA_GestureReload416_x15";
+        NIA_GestureReload416_WS = "NIA_GestureReload416_WS";
+        NIA_GestureReload416_BAD = "NIA_GestureReload416_BAD";
+        NIA_GestureReloadAGC = "NIA_GestureReloadAGC";
     };
 
     class Actions {
@@ -300,6 +321,11 @@ class CfgMovesBasic {
             HLC_GestureReloadSG553R[] = { "HLC_GesturereloadSG553R", "Gesture" };
             HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum", "Gesture" };
             HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040", "Gesture" };
+            NIA_GestureReload416[] = { "NIA_GestureReload416", "Gesture" };
+            NIA_GestureReload416_x15[] = { "NIA_GestureReload416_x15", "Gesture" };
+            NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS", "Gesture" };
+            NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD", "Gesture" };
+            NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC", "Gesture" };
         };
 
         class RifleProneActions : RifleBaseStandActions {
@@ -342,6 +368,11 @@ class CfgMovesBasic {
             HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R_prone", "Gesture" };
             HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_prone", "Gesture" };
             HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_prone", "Gesture" };
+            NIA_GestureReload416[] = { "NIA_GestureReload416_Prone", "Gesture" };
+            NIA_GestureReload416_x15[] = { "NIA_GestureReload416_x15_Prone", "Gesture" };
+            NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Prone", "Gesture" };
+            NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Prone", "Gesture" };
+            NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Prone", "Gesture" };
         };
 
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
@@ -382,6 +413,11 @@ class CfgMovesBasic {
             HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R_context", "Gesture" };
             HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_context", "Gesture" };
             HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_context", "Gesture" };
+            NIA_GestureReload416[] = { "NIA_GestureReload416_Context", "Gesture" };
+            NIA_GestureReload416_x15[] = { "NIA_GestureReload416_x15_Context", "Gesture" };
+            NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Context", "Gesture" };
+            NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Context", "Gesture" };
+            NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Context", "Gesture" };
         };
 
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
@@ -421,6 +457,11 @@ class CfgMovesBasic {
             HLC_GesturereloadSG553R[] = { "HLC_GestureReloadSG553R_context", "Gesture" };
             HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum_context", "Gesture" };
             HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040_context", "Gesture" };
+            NIA_GestureReload416[] = { "NIA_GestureReload416_Context", "Gesture" };
+            NIA_GestureReload416_x15[] = { "NIA_GestureReload416_x15_Context", "Gesture" };
+            NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Context", "Gesture" };
+            NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Context", "Gesture" };
+            NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Context", "Gesture" };
         };
 
         class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
@@ -460,6 +501,11 @@ class CfgMovesBasic {
             HLC_GesturereloadSG553R[] = { "HLC_GesturereloadSG553R", "Gesture" };
             HLC_GestureReloadSG553RDrum[] = { "HLC_GestureReloadSG553RDrum", "Gesture" };
             HLC_GestureReloadGL5040[] = { "HLC_GestureReloadGL5040", "Gesture" };
+            NIA_GestureReload416[] = { "NIA_GestureReload416", "Gesture" };
+            NIA_GestureReload416_x15[] = { "NIA_GestureReload416_x15", "Gesture" };
+            NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS", "Gesture" };
+            NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD", "Gesture" };
+            NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC", "Gesture" };
         };
     };
 };
@@ -1668,6 +1714,133 @@ class CfgGesturesMale {
         class HLC_GestureReloadGL5040_context : HLC_GestureReloadGL5040 {
             mask = "handsWeapon_context";
         };
+        class NIA_GestureReload416 : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_downrange.rtm";
+            speed = -(100 / 30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.1;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 100), 0, (90 / 100), 0, (96 / 100), 1 };
+        };
+        class NIA_GestureReload416_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_prone_new.rtm";
+            looped = 0;
+            speed = -(100 / 30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 100), 0, (90 / 100), 0, (96 / 100), 1 };
+            rightHandIKEnd = true;
+        };
+        class NIA_GestureReload416_Context : NIA_GestureReload416 {
+            mask = "handsWeapon_context";
+        };
+        class NIA_GestureReload416_x15 : NIA_GestureReload416
+        {
+            file = "hlc_core\animation\gesture\reload_ar15_x15_standing.rtm";
+        };
+        class NIA_GestureReload416_x15_prone : NIA_GestureReload416_Prone
+        {
+            file = "hlc_core\animation\gesture\reload_ar15_x15_prone.rtm";
+        };
+        class NIA_GestureReload416_x15_Context : NIA_GestureReload416_x15 {
+            mask = "handsWeapon_context";
+        };
+        class NIA_GestureReload416_WS : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_workspace.rtm";
+            speed = -(100 / 30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 100), 0, (90 / 100), 0, (96 / 100), 1 };
+        };
+        class NIA_GestureReload416_WS_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_prone_new.rtm";
+            looped = 0;
+            speed = -(100 / 30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 100), 0, (90 / 100), 0, (96 / 100), 1 };
+            rightHandIKEnd = true;
+        };
+        class NIA_GestureReload416_WS_Context : NIA_GestureReload416_WS {
+            mask = "handsWeapon_context";
+        };
+        class NIA_GestureReload416_BAD : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_bad_standing.rtm";
+            speed = -(92 / 30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.3;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 92), 0, (78 / 92), 0, (86 / 92), 1 };
+        };
+        class NIA_GestureReload416_BAD_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_ar15_bad_prone.rtm";
+            looped = 0;
+            speed = -(92 / 30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 92), 0, (78 / 92), 0, (86 / 92), 1 };
+            rightHandIKEnd = true;
+        };
+        class NIA_GestureReload416_BAD_Context : NIA_GestureReload416_BAD {
+            mask = "handsWeapon_context";
+        };
+        class NIA_GestureReloadAGC : Default {
+            file = "hlc_core\animation\gesture\reload_agc_standing.rtm";
+            speed = -(125 / 30);
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.25;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 125), 0, (118 / 125), 0, (121 / 125), 1 };
+        };
+        class NIA_GestureReloadAGC_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_agc_prone.rtm";
+            looped = 0;
+            speed = -(125 / 30);
+            mask = "handsWeapon";
+            // mask="empty";
+            headBobStrength = 0.05;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 1, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, (6 / 125), 0, (118 / 125), 0, (121 / 125), 1 };
+            rightHandIKEnd = true;
+        };
+        class NIA_GestureReloadAGC_Context : NIA_GestureReloadAGC {
+            mask = "handsWeapon_context";
+        };
     };
 };
 
@@ -1808,16 +1981,38 @@ class CfgWeapons
     class hlc_muzzle_300blk_KAC : muzzle_snds_M {
         dlc = "Niarms_Core";
         author = "ImBrokeRU, Toadie";
-        displayName = "QD .300BLK Suppressor";
+        displayName = ".300BLK Suppressor";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
     };
     class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
         dlc = "Niarms_Core";
         author = "Toadie";
-        displayName = "Gemtech Halo 5.56mm Suppressor";
+        displayName = "Gemtech Halo";
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
+    };
+    class hlc_muzzle_556NATO_M42000 : muzzle_snds_M {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayName = "AAC M4-2000";
+        picture = "\hlc_core\tex\ui\gear_aac-m42k_ca.paa";
+        model = "hlc_core\mesh\accessories\barrel\556\M4-2000.p3d";
+    };
+    class hlc_muzzle_556NATO_rotexiiic_tan : muzzle_snds_M {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayName = "Rotex-IIIC (Tan)";
+        picture = "\hlc_core\tex\ui\gear_rotexiiic-tan_ca.paa";
+        model = "hlc_core\mesh\accessories\barrel\556\RotexIIIC.p3d";
+    };
+    class hlc_muzzle_556NATO_rotexiiic_grey : hlc_muzzle_556NATO_rotexiiic_tan
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayName = "Rotex-IIIC (Grey)";
+        picture = "\hlc_core\tex\ui\gear_rotexiiic-grey_ca.paa";
+        model = "hlc_core\mesh\accessories\barrel\556\RotexIIIC_grey.p3d";
     };
     class hlc_muzzle_Tundra : muzzle_snds_M
     {
@@ -2090,7 +2285,130 @@ class CfgWeapons
             };
         };
     };
+
     class optic_aco;
+
+    class hlc_optic_HensoldtZO_Hi : optic_aco
+    {
+        dlc = "Niarms_Core";
+        scope = public;
+        author = "Toadie";
+        descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
+        displayname = "Hensoldt ZO (Riser)";
+        picture = "\hlc_core\tex\ui\gear_zo-hi_ca";
+        weaponInfoType = "RscWeaponZeroing";
+        model = "hlc_core\mesh\accessories\sights\ZO_HI.p3d";
+        class ItemInfo : InventoryOpticsItem_Base_F
+        {
+            mass = 6;
+            __OPTIC_DMR;
+            modelOptics = "\hlc_core\mesh\accessories\sights\reticles\ZO_reticle.p3d";
+            class OpticsModes
+            {
+                class Snip
+                {
+                    useModelOptics = 0;
+                    cameradir = "look_dir";
+                    opticsZoomMin = 0.06225;
+                    opticsZoomMax = 0.06225;
+                    opticsZoomInit = 0.06225;
+                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    discreteDistance[] = { 200 };
+                    discreteDistanceInitIndex = 0;
+                    distanceZoomMin = 200;
+                    distanceZoomMax = 200;
+                    memoryPointCamera = "eye";
+                    modelOptics[] = { "\hlc_core\mesh\accessories\sights\reticles\ZO_reticle.p3d" };
+                    visionMode[] = { "Normal" };
+                    opticsFlare = 1;
+                    opticsid = 1;
+                    opticsDisablePeripherialVision = 1;
+                };
+                class Kolimator {
+                    cameradir = "";
+                    distancezoommax = 100;
+                    distancezoommin = 100;
+                    memorypointcamera = "AOTT";
+                    opticsdisableperipherialvision = 0;
+                    opticsflare = 0;
+                    opticsid = 2;
+                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                    __OPTICSZOOM_1X;
+                    usemodeloptics = 0;
+                    visionmode[] = {};
+                    discreteDistance[] = { 100 };
+                    discreteDistanceInitIndex = 0;
+                };
+            };
+        };
+        inertia = 0.06;
+        tmr_optics_enhanced = 0;
+    };
+    class hlc_optic_HensoldtZO_Hi_2D : hlc_optic_HensoldtZO_Hi
+    {
+        descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
+        displayname = "Hensoldt ZO (Riser/2D)";
+        class ItemInfo :ItemInfo
+        {
+            class OpticsModes :OpticsModes
+            {
+                class Snip : Snip
+                {
+                    useModelOptics = 1;
+                };
+                class Kolimator : Kolimator{};
+            };
+        };
+    };
+    class hlc_optic_HensoldtZO_Hi_Docter : hlc_optic_HensoldtZO_Hi
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO (Riser/RDS)";
+        picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
+    };
+    class hlc_optic_HensoldtZO_Hi_Docter_2D : hlc_optic_HensoldtZO_Hi_2D
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO (Riser/RDS/2D)";
+        picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
+    };
+    class hlc_optic_HensoldtZO_Lo :hlc_optic_HensoldtZO_Hi
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO";
+        picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
+    };
+    class hlc_optic_HensoldtZO_Lo_2D : hlc_optic_HensoldtZO_Hi_2D
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO (2D)";
+        picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
+    };
+    class hlc_optic_HensoldtZO_lo_Docter : hlc_optic_HensoldtZO_lo
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO (RDS)";
+        picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
+    };
+    class hlc_optic_HensoldtZO_lo_Docter_2D : hlc_optic_HensoldtZO_lo_2D
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        displayname = "Hensoldt ZO (RDS/2D)";
+        picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
+        model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
+    };
+
     class hlc_optic_KernBase : optic_aco
     {
         dlc = "Niarms_Core";
