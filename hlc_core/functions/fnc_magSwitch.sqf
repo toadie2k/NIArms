@@ -47,17 +47,8 @@ if (_newmagtype isEqualTo _oldmagtype) exitWith {
     LOG("loaded mag of same kind, no change");
 };
 
-//get weapon type and it's attachments
-private "_weaponItems";
-private _currWeaponType = call {
-    if (_weapon isEqualTo primaryWeapon _unit) exitWith {_weaponItems = primaryWeaponItems _unit; 1};
-    if (_weapon isEqualTo handgunWeapon _unit) exitWith {_weaponItems = handgunItems _unit; 2};
-    if (_weapon isEqualTo secondaryWeapon _unit) exitWith {_weaponItems = secondaryWeaponItems _unit; 4};
-    _weaponItems = "";
-    -1
-};
-if (_currWeaponType < 0) exitWith {
-    LOG("reloaded a grenade or something else, not a weapon");
+if !(_weapon isEqualTo primaryWeapon _unit) exitWith {
+    LOG("only support primary weapon for now");
 };
 
 //get weapon class corresponding with loaded magazine
@@ -77,17 +68,59 @@ private _cwm = currentWeaponMode _unit;
 private _isFLOn = _unit isFlashlightOn _weapon;
 private _isIROn = _unit isIRLaserOn _weapon;
 
-//swap weapon then re-add magazine and attachments
-_unit removeWeapon _weapon;
-_unit addWeapon _newWeapon;
-_unit addWeaponItem [_newWeapon, [_newmagtype, _newmagcapacity]];
-{ if (_x != "") then {_unit addWeaponItem [_newWeapon, _x]} } forEach _weaponItems;
+//save unit loadout
+private _loadout = getUnitLoadout _unit;
+/*
+[
+     [
+          "arifle_MX_GL_F","muzzle_snds_H","acc_pointer_IR","optic_Aco",    //Primary weapon, (weapon items) silencer, pointer, optic
+          ["30Rnd_65x39_caseless_mag",30],    //Loaded mag in primary muzzle, ammo count
+          ["1Rnd_HE_Grenade_shell",1],     //Loaded mag in secondary muzzle, ammo count
+          ""     //Bipod
+     ],
+     [],     //Secondary weapon info (see primary above)
+     [     //handGun info (see primary above)
+          "hgun_P07_F","","","",
+          ["16Rnd_9x21_Mag",16],
+          [],
+          ""
+     ],
+     [     //Uniform
+          "U_B_CombatUniform_mcam",     //Uniform Type
+          [     //Uniform Items
+               ["FirstAidKit",1],     //Type, count
+               ["30Rnd_65x39_caseless_mag",30,2],     //Magazines are Type, ammo, count - Arma version 1.64> is Type, count, ammo
+          ]
+     ],
+     [     //Vest Info
+          "V_PlateCarrierGL_rgr",     //Vest Type
+          [     //Vest Items
+               ["30Rnd_65x39_caseless_mag",30,3]
+          ]
+     ],
+     [],     //Backpack Info (follows same layout as above for Uniform and Vest
+     "H_HelmetSpecB_blk",     //Helmet
+     "G_Tactical_Clear",     //Facewear glasses/bandanna etc
+     ["Binocular","","","",[],[],""],,     //Weapon Binocular (follows same layout as other weapons above)
+     ["ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","NVGoggles"]    //AssignedItems ItemGPS can also be a UAV Terminal
+]
+*/
 
+//swap weapon in loadout
+private _primary_loadout = _loadout select 0;
+_primary_loadout set [0, _newWeapon];
+_loadout set [0, _primary_loadout];
+
+//apply modified loadout
+_unit setUnitLoadout _loadout;
+
+// restore mode, light state
 if (isNull objectParent _unit) then { 
     [_unit, _newWeapon, _cwm] spawn CBA_fnc_selectWeapon; //this function wouldn't work for units reloading while inside vehicles
 };
 call {
-    if (_isFLOn) exitWith {_unit action ["GunLightOn", _unit]};
-    if (_isIROn) exitWith {_unit action ["IRLaserOn", _unit]};
+    if (_isFLOn) exitWith {_unit action ["GunLightOn", _unit];};
+    if (_isIROn) exitWith {_unit action ["IRLaserOn", _unit];};
 }
+
 LOG("DONE");
