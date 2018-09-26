@@ -3,7 +3,7 @@
 
 class CfgPatches {
     class hlcweapons_core {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","cba_main","cba_jr"};
+        requiredaddons[] = {"A3_Data_F_Destroyer_Loadorder","A3_Data_F_Sams_Loadorder","cba_main"}; //this covers all A3(v1.84) + CBA addons
         units[] = {};
         weapons[] = {};
         magazines[] = {};

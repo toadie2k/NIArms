@@ -5,7 +5,7 @@ class CfgPatches
 {
  class hlcweapons_acr
  {
-     requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Weapons_F_Acc", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core" };
+    requiredaddons[] = {"hlcweapons_ar15"};
 	units[] = {  };
 	weapons[] = {"hlc_rifle_ACR"};
 	magazines[] = {};

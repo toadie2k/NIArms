@@ -7,7 +7,7 @@ class CfgPatches
 {
     class niaweapons_226
     {
-        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "cba_jr", "hlcweapons_core" };
+        requiredaddons[] = {"hlcweapons_core"};
         units[] = {  };
         weapons[] = { };
         magazines[] = {  };

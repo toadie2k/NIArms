@@ -5,7 +5,7 @@
 
 class CfgPatches {
     class hlcweapons_AUG {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core"};
+        requiredaddons[] = {"hlcweapons_core"};
         units[] = { "HLC_AUG_ammobox", "HLC_AUG_Weaponbox1", 
             "Weapon_hlc_rifle_aug", "Weapon_hlc_rifle_auga1_t", "Weapon_hlc_rifle_auga1_b", 
             "Weapon_hlc_rifle_auga1carb", "Weapon_hlc_rifle_auga1carb_t", "Weapon_hlc_rifle_auga1carb_b", 

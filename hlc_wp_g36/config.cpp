@@ -11,7 +11,7 @@
 
 class CfgPatches {
     class hlcweapons_G36 {
-        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Weapons_F_Acc", "asdg_jointrails", "hlcweapons_core" };
+        requiredaddons[] = {"hlcweapons_core"};
         units[] = {};
         weapons[] = { "HLC_Optic_G36dualoptic35x","HLC_Optic_G36dualoptic35x2d","HLC_Optic_G36Export35x","HLC_Optic_G36Export35x","HLC_Optic_G36Export35x2d","HLC_Optic_G36Dualoptic15x","HLC_Optic_G36Dualoptic15x2d","HLC_Optic_G36Export15x","HLC_Optic_G36Export15x2d",
             "hlc_rifle_G36A1", "hlc_rifle_G36A1AG36", "hlc_rifle_G36KA1", "hlc_rifle_G36C", "hlc_rifle_G36E1", "hlc_rifle_G36E1AG36", "hlc_rifle_G36KE1", "hlc_rifle_G36V", "hlc_rifle_G36KV", "hlc_rifle_G36CV", "hlc_rifle_G36VAG36", "hlc_rifle_G36TAC",
