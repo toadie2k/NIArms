@@ -267,12 +267,6 @@ class CfgMagazines{
     };
 };
 
-class CfgMagazineWells {
-    class CBA_556x45_MINIMI {
-        NIA_belts[] = { __556NATO_BELTS };
-    };
-};
-
 class CfgRecoils {
     class recoil_default;
     class recoil_saw : recoil_default {
@@ -434,7 +428,6 @@ class CfgWeapons {
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_down", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         magazines[] = {__556NATO_BELTS,__556NATO_BI_BELTS,__556STANAG_MAGS,__556STANAG_BI_MAGS,__556NATO_BI_DRUMS};
-        magazineWell[] = {"CBA_556x45_MINIMI", "CBA_556x45_STANAG"};
         class GunParticles : GunParticles {
             class AmmoBeltEject {
                 directionName = "linkeject_end";
@@ -1414,7 +1407,6 @@ class CfgWeapons {
         AB_barrelLength = 16;
         initspeed = -0.976216;
         magazines[] = { __556NATO_BELTS, __556NATO_BI_BELTS };
-        magazineWell[] = {"CBA_556x45_MINIMI"};
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1466,7 +1458,6 @@ class CfgWeapons {
         inertia = 0.81;
         __DEXTERITY(8.12 + 0.3, 1);
         magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
-        magazineWell[] = {"CBA_762x51_LINKS"};
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         reloadmagazinesound[] = { "\hlc_wp_saw\snd\soundshaders\mk48\mk48_reload", 1, 1, 20 };

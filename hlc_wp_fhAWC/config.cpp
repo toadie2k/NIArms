@@ -471,12 +471,6 @@ class CfgMagazines {
     };
 };
 
-class CfgMagazineWells {
-    class CBA_300WM_AI {
-        NIA_mags[] = { __300WM_MAGS };
-    };
-};
-
 class CfgRecoils
 {
     class recoil_default;
@@ -500,7 +494,6 @@ class CfgWeapons {
         author = "Toadie";
         scope = protected;
         magazines[] = { __300WM_MAGS };
-        magazineWell[] = {"CBA_300WM_AI"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         maxZeroing = 1600;

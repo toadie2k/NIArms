@@ -488,24 +488,6 @@ class CfgMagazines {
 
 };
 
-class CfgMagazineWells {
-    class CBA_75x55_STGW57 {
-        NIA_mags[] = {
-			"hlc_24Rnd_75x55_B_stgw",
-			"hlc_24Rnd_75x55_ap_stgw",
-			"hlc_24Rnd_75x55_T_stgw"
-		};
-    };
-    class CBA_762x51_SIGAMT {
-        NIA_mags[] = {
-			"hlc_20Rnd_762x51_b_amt",
-			"hlc_20Rnd_762x51_mk316_amt",
-			"hlc_20Rnd_762x51_bball_amt",
-			"hlc_20Rnd_762x51_T_amt"
-		};
-    };
-};
-
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F : Rifle
@@ -614,7 +596,6 @@ class CfgWeapons {
         magazines[] = {
             "hlc_24Rnd_75x55_B_stgw", "hlc_24Rnd_75x55_ap_stgw", "hlc_24Rnd_75x55_T_stgw"
         };
-        magazineWell[] = {"CBA_75x55_STGW57"};
         class Library
         {
             libTextDesc = "SIG Stgw.510";
@@ -823,7 +804,6 @@ class CfgWeapons {
         magazines[] = {
             "hlc_20Rnd_762x51_b_amt", "hlc_20Rnd_762x51_mk316_amt", "hlc_20Rnd_762x51_bball_amt", "hlc_20Rnd_762x51_T_amt"
         };
-        magazineWell[] = {"CBA_762x51_SIGAMT"};
         descriptionShort = "Infantry Service Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadAMT";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };

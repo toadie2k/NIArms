@@ -208,17 +208,6 @@ class CfgMagazines {
     };
 };
 
-class CfgMagazineWells {
-    class CBA_762x35_STANAG {
-        NIA_mags[] = {
-			"29rnd_300BLK_STANAG",
-			"29rnd_300BLK_STANAG_T",
-			"29rnd_300BLK_STANAG_S",
-			"hlc_50rnd_300BLK_STANAG_EPR"
-		};
-    };
-};
-
 class CfgWeapons {
 
 //muzzles
@@ -256,7 +245,6 @@ class CfgWeapons {
         aidispersioncoefx = 4;
         aidispersioncoefy = 6;
         magazines[] = { __556STANAG_MAGS, __556STANAG_BI_MAGS, __556NATO_BI_DRUMS };
-        magazineWell[] = {"CBA_556x45_STANAG", "CBA_556x45_STANAG_L", "CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL"};
         class Library {
             libTextDesc = "AR15";
         };
@@ -374,7 +362,6 @@ class CfgWeapons {
             reloadAction = "GestureReloadTrgUGL";
             cursoraim = "gl";
             __AI_ROF_GL_SINGLE;
-            magazineWell[] = {"CBA_40mm_M203"};
         };
    };
 
@@ -809,7 +796,6 @@ class CfgWeapons {
         displayName = "BCM 'Black-Jack' Custom";
         descriptionShort = "Assault rifle<br/>Caliber: .300 Blackout";
         magazines[] = { "29rnd_300BLK_STANAG", "29rnd_300BLK_STANAG_T", "29rnd_300BLK_STANAG_S","hlc_50rnd_300BLK_STANAG_EPR" };
-        magazineWell[] = {"CBA_762x35_STANAG"};
         recoil = "recoil_mxc";
         initspeed = -1;
         hiddenSelections[] = { "Upper", "Lower", "Foregrip", "foregrip_rail", "Sights", "Stock" };
@@ -1020,7 +1006,6 @@ class CfgWeapons {
         initspeed = -0.93;
         author = "Sephiris, Agent95, Farengar, Siemko,  Toadie";
         magazines[] = {"29rnd_300BLK_STANAG","29rnd_300BLK_STANAG_T","29rnd_300BLK_STANAG_S","hlc_50rnd_300BLK_STANAG_EPR"};
-        magazineWell[] = {"CBA_762x35_STANAG"};
         model = "hlc_wp_ar15\mesh\mill_bushmaster\car15.p3d";
         reloadAction = "HLC_GestureReloadAR15_catch_DR";
         picture = "\hlc_wp_ar15\tex\ui\gear_bushmaster_ca";

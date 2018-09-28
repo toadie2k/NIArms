@@ -242,12 +242,6 @@ class CfgMagazines {
     };
 };
 
-class CfgMagazineWells {
-    class CBA_762x51_M14 {
-        NIA_mags[] = { __762M14_MAGS };
-    };
-};
-
 class CfgWeapons {
 
 //optics
@@ -483,7 +477,6 @@ class CfgWeapons {
         ACE_barrelLength = 558.8;
         __AI_DISPERSION_COEF;
         magazines[] = { __762M14_MAGS, __762M14_BI_MAGS };
-        magazineWell[] = {"CBA_762x51_M14"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         initspeed = -1.05;

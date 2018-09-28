@@ -374,7 +374,6 @@ class CfgWeapons {
         author = "Toadie";
         scope = protected;
         magazines[] = { __762FN_MAGS, __762FAL_MAGS };
-        magazineWell[] = {"CBA_762x51_FAL"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         maxZeroing = 1600;

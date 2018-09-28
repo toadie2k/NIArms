@@ -232,7 +232,6 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         magazines[] = { __762FAL_MAGS,__762FN_MAGS };
-        magazineWell[] = {"CBA_762x51_FAL"};
         class Library {
             libTextDesc = "FN FAL";
         };
@@ -447,7 +446,6 @@ class CfgWeapons {
             reloadAction = "GestureReloadTrgUGL";
             reloadtime = 0.1;
             __AI_ROF_GL_SINGLE;
-            magazineWell[] = {"CBA_40mm_M203"};
         };
         class __MAGSWITCHCLASS {
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_osw_GL_XMAG";

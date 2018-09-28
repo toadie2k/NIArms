@@ -484,15 +484,6 @@ class CfgMagazines {
     };
 };
 
-class CfgMagazineWells {
-    class CBA_762x51_G3 {
-        NIA_mags[] = { __762G3_MAGS };
-    };
-    class CBA_556x45_HK33 {
-        NIA_mags[] = { __556HK33_MAGS };
-    };
-};
-
 class CfgWeapons {
 
 //muzzles
@@ -830,7 +821,6 @@ class CfgWeapons {
         hasBipod = false;
         scope = protected;
         magazines[] = { __762G3_MAGS };
-        magazineWell[] = {"CBA_762x51_G3"};
         class Library {
             libTextDesc = "G3Base";
         };
@@ -860,7 +850,6 @@ class CfgWeapons {
             reloadtime = 0.1;
             reloadAction = "GestureReloadTrgUGL";
             __AI_ROF_GL_SINGLE;
-            magazineWell[] = {"CBA_40mm_M203"};
         };
         class WeaponSlotsInfo: WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail {
@@ -1600,8 +1589,9 @@ class CfgWeapons {
         cse_bipod = 0;
         bg_bipod = 0;
         initspeed = -0.85;
-        magazines[] = { __556HK33_MAGS };
-        magazineWell[] = {"CBA_556x45_HK33"};
+        magazines[] = {
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33", "hlc_30rnd_556x45_SPR_HK33"
+        };
         discreteDistance[] = { 100, 200, 300, 400 };
         model = "\hlc_wp_g3\mesh\hene_hk53\hk53.p3d";
         picture = "\hlc_wp_g3\tex\ui\gear_hk53_x_ca";
@@ -1759,8 +1749,9 @@ class CfgWeapons {
         agm_bipod = 0;
         cse_bipod = 0;
         bg_bipod = 0;
-        magazines[] = { __556HK33_MAGS };
-        magazineWell[] = {"CBA_556x45_HK33"};
+        magazines[] = {
+            "hlc_30rnd_556x45_b_hk33", "hlc_30rnd_556x45_t_hk33", "hlc_30rnd_556x45_epr_hk33", "hlc_30rnd_556x45_sost_hk33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
+        };
         discreteDistance[] = { 100, 200, 300, 400 };
         //cameradir = "Look";
         //discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4" }; /// the angle of gun changes with zeroing

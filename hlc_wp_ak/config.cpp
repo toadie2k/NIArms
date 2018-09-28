@@ -625,50 +625,6 @@ class CfgMagazines {
     };
 };
 
-class CfgMagazineWells {
-    class CBA_545x39_AK {
-        NIA_mags[] = {
-			"hlc_30Rnd_545x39_B_AK",
-			"hlc_30Rnd_545x39_T_AK",
-			"hlc_30Rnd_545x39_EP_AK",
-			"hlc_30Rnd_545x39_S_AK",
-			"hlc_60Rnd_545x39_t_rpk"
-		};
-    };
-    class CBA_545x39_RPK {
-        NIA_mags[] = {
-			"hlc_45Rnd_545x39_t_rpk",
-			"hlc_45Rnd_545x39_m_rpk",
-		};
-	};
-    class CBA_762x39_AK {
-        NIA_mags[] = {
-			"hlc_30Rnd_762x39_b_ak",
-			"hlc_30Rnd_762x39_t_ak",
-			"hlc_30rnd_762x39_s_ak",
-			"hlc_30Rnd_762x39_AP_ak",
-			"hlc_75Rnd_762x39_m_rpk",
-			"hlc_75Rnd_762x39_AP_rpk"
-		};
-    };
-    class CBA_762x39_RPK {
-        NIA_mags[] = {
-			"hlc_45Rnd_762x39_m_rpk",
-			"HLC_45rnd_762x39_T_RPK",
-			"hlc_45Rnd_762x39_AP_rpk"
-		};
-	};
-    class CBA_40mm_GP {
-        NIA_grenades[] = { __40MM_GP_GRENADES };
-    };
-    class CBA_12g_SAIGA {
-        NIA_mags[] = {
-			"hlc_10rnd_12g_buck_S12",
-			"hlc_10rnd_12g_slug_S12"
-		};
-    };
-};
-
 class CfgWeapons {
 
 //optics
@@ -1041,7 +997,6 @@ class CfgWeapons {
             cursoraim = "gl";
             magazinereloadtime = 0;
             magazines[] = { __40MM_GP_GRENADES };
-            magazineWell[] = {"CBA_40mm_GP"};
             reloadmagazinesound[] = { "\hlc_wp_ak\snd\gp30_reload", 1, 1, 20 };
             reloadtime = 0.1;
             sound[] = { "\hlc_wp_ak\snd\gp30_fire", 1.0, 1, 400 };
@@ -1092,7 +1047,6 @@ class CfgWeapons {
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_ak74_60rnd";
             default = "hlc_rifle_ak74";
         };
-        magazineWell[] = {"CBA_545x39_AK", "CBA_545x39_RPK"};
     };
     class hlc_rifle_ak74_45rnd : hlc_rifle_ak74
     {
@@ -1239,7 +1193,6 @@ class CfgWeapons {
         bg_bipod = 0;
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak12\ak12_reload2",1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK12New";
-        magazineWell[] = {"CBA_545x39_AK", "CBA_545x39_RPK"};
 
         modes[] = { "FullAuto", "Burst", "Single", "AI_Burst_close", "AI_Single_optics1", "AI_Single_optics2","AI_far","SemiAuto" };
 
@@ -1761,7 +1714,6 @@ class CfgWeapons {
             hlc_60Rnd_545x39_t_rpk = "hlc_rifle_aks74u_60rnd";
             default = "hlc_rifle_aks74u";
         };
-        magazineWell[] = {"CBA_545x39_AK", "CBA_545x39_RPK"};
     };
     class hlc_rifle_aks74u_45rnd : hlc_rifle_aks74u
     {
@@ -1807,7 +1759,7 @@ class CfgWeapons {
         descriptionShort = "Assault rifle<br/>Caliber: 7.62mm";
         reloadAction = "HLC_GestureReloadAK762";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\ak47\ak_reload_longer",0.9,1,30};
-        magazineWell[] = {"CBA_762x39_AK", "CBA_762x39_RPK"};
+
 
         class FullAuto: FullAuto {
             reloadTime = 0.097;
@@ -2041,7 +1993,6 @@ class CfgWeapons {
         cameraDir = "eye_look";
         descriptionShort = "Light Support Weapon<br/>Caliber: 7.62mm";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\rpk\rpk_reload",0.9,1,30};
-        magazineWell[] = {"CBA_762x39_AK", "CBA_762x39_RPK"};
 
         modes[] = { "FullAuto", "Single", "50m", "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar", "AI_far_optic1", "AI_toofar_optic1", "AI_far_optic2", "AI_toofar_optic2"};
         class FullAuto: FullAuto {
@@ -2177,7 +2128,6 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Dovetail", "Mount", "magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\bl_rpk\rpk_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\rifleman_aks\aks_co.tga" };
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
-        magazineWell[] = {"CBA_545x39_AK", "CBA_545x39_RPK"};
 
         modes[] = { "FullAuto", "Single", "50m", "AI_long", "AI_close", "AI_short", "AI_medium", "AI_far", "AI_toofar", "AI_far_optic1", "AI_toofar_optic1", "AI_far_optic2", "AI_toofar_optic2" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -2570,7 +2520,6 @@ class CfgWeapons {
         class __MAGSWITCHCLASS {
             default = "hlc_rifle_saiga12k";
         };
-        magazineWell[] = {"CBA_12g_SAIGA"};
     };
 
 
@@ -2657,7 +2606,6 @@ class CfgWeapons {
             hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_RK62_75rnd";
             default = "hlc_rifle_RK62";
         };
-        magazineWell[] = {"CBA_762x39_AK", "CBA_762x39_RPK"};
     };
     class hlc_rifle_RK62_45rnd : hlc_rifle_RK62
     {
@@ -2704,7 +2652,6 @@ class CfgWeapons {
         discretedistance[] = { 350, 500 };
         discretedistanceinitindex = 0;
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
-        magazineWell[] = {"CBA_762x39_AK", "CBA_762x39_RPK"};
 
         modes[] = { "FullAuto", "Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
 		class Single : Single {

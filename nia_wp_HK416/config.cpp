@@ -204,7 +204,7 @@ class hlc_HK416_base : Rifle_Base_F {
     ACE_barrelLength = 292.1;
     aidispersioncoefx = 4;
     aidispersioncoefy = 6;
-    magazineWell[] = { STANAG_556x45, "CBA_556x45_STANAG", "CBA_556x45_STANAG_L", "CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL" };
+    magazineWell[] = { STANAG_556x45 };
     magazines[] = { __556STANAG_MAGS, __556STANAG_BI_MAGS, __556NATO_BI_DRUMS };
     class Library {
         libTextDesc = "HK416";

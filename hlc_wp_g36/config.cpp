@@ -352,6 +352,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 11.1;
         lastroundstracer = 2;
@@ -368,6 +369,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
         displayname = "5.56mm SOST 30Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 954.4;
         mass = 12.1;
         lastroundstracer = 1;
@@ -384,6 +386,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
         displayname = "5.56mm SBLR 30Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 868.7;
         mass = 13.1;
         lastroundstracer = 1;
@@ -400,6 +403,7 @@ class CfgMagazines {
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
         displayname = "5.56mm EPR 100Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
         lastroundstracer = 5;
@@ -416,6 +420,7 @@ class CfgMagazines {
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 100";
         displayname = "5.56mm EPR 100Rnd G36 Magazine (Tracers Every 4)";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
         lastroundstracer = 5;
@@ -432,6 +437,7 @@ class CfgMagazines {
         count = 100;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 100";
         displayname = "5.56mm EPR 100Rnd G36 Magazine (IR-DIM Every 4)";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 46;
         lastroundstracer = 5;
@@ -454,6 +460,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
         displayname = "5.56mm Tracer 30Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
@@ -470,6 +477,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "5.56mm IR-DIM 30Rnd G36 Magazine";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
@@ -486,6 +494,7 @@ class CfgMagazines {
         count = 30;
         descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
         displayname = "5.56mm EPR 30Rnd G36 Magazine (IR-DIM Every 4)";
+        magazineGroup[] = { "G36_maggroup" };
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
@@ -494,12 +503,6 @@ class CfgMagazines {
         displaynameshort = "EPR/IR-DIM";
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
-    };
-};
-
-class CfgMagazineWells {
-    class CBA_556x45_G36 {
-        NIA_mags[] = { __556G36_MAGS };
     };
 };
 
@@ -699,7 +702,6 @@ class CfgWeapons {
         hasBipod = false;
         magazineReloadSwitchPhase = 0.5;
         magazines[] = { __556G36_MAGS };
-        magazineWell[] = {"CBA_556x45_G36"};
         class Library {
             libTextDesc = "H&K Gewehr36";
         };
@@ -1764,7 +1766,6 @@ class CfgWeapons {
         magazines[] = {
             "30Rnd_65x39_caseless_mag", "30Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag_Tracer", "100Rnd_65x39_caseless_mag"
         };
-        magazineWell[] = {"CBA_65x39_MX", "CBA_65x39_MX_XL"};
         class GunParticles : GunParticles {
             class SecondEffect {
                 positionName = "Nabojnicestart";
