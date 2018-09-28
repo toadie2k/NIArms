@@ -305,6 +305,11 @@ class CfgMagazines{
 		};
 
 };
+
+class CBA_3006_Spring {
+    NIA_clips[] = {"hlc_5rnd_3006_1903"};
+};
+
 class CfgRecoils
 {
 	class recoil_default;
@@ -328,6 +333,7 @@ class CfgWeapons {
 		author = "Toadie";
 		scope = protected;
 		magazines[] = { "hlc_5rnd_3006_1903" };
+        magazineWell[] = {"CBA_3006_Spring"};
 		recoil = "recoil_1903a1";
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;

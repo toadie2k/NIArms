@@ -80,6 +80,7 @@
 #define __556G36_RHS_MAGS "rhssaf_30rnd_556x45_EPR_G36", "rhssaf_30rnd_556x45_SOST_G36", "rhssaf_30rnd_556x45_SPR_G36", "rhssaf_100rnd_556x45_EPR_G36", "rhssaf_30rnd_556x45_Tracers_G36", "rhssaf_30rnd_556x45_TDIM_G36", "rhssaf_30rnd_556x45_MDIM_G36"
 #define __556AUG_MAGS "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_30Rnd_556x45_MDIM_AUG", "hlc_30Rnd_556x45_TDIM_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_40Rnd_556x45_TDIM_AUG"
 #define __556SG550_MAGS "hlc_30Rnd_556x45_EPR_sg550", "hlc_30Rnd_556x45_SOST_sg550", "hlc_30Rnd_556x45_SPR_sg550", "hlc_30Rnd_556x45_T_sg550", "hlc_30Rnd_556x45_MDIM_sg550","hlc_30Rnd_556x45_TDIM_sg550"
+#define __556HK33_MAGS "hlc_30rnd_556x45_b_HK33", "hlc_30rnd_556x45_t_HK33", "hlc_30rnd_556x45_EPR_HK33", "hlc_30rnd_556x45_SOST_HK33", "hlc_30rnd_556x45_SPR_HK33", "hlc_30rnd_556x45_tdim_HK33", "hlc_30rnd_556x45_mdim_HK33"
 
 #define __762M14_MAGS "hlc_20Rnd_762x51_B_M14", "hlc_20Rnd_762x51_Barrier_M14", "hlc_20Rnd_762x51_mk316_M14", "hlc_20Rnd_762x51_T_M14", "hlc_20Rnd_762x51_Mdim_M14", "hlc_20Rnd_762x51_Tdim_M14", "hlc_50Rnd_762x51_B_M14", "hlc_20Rnd_762x51_S_M14","hlc_50Rnd_762x51_MDIM_M14"
 #define __762M14_BI_MAGS "20Rnd_762x51_Mag"

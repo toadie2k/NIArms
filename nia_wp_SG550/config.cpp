@@ -288,6 +288,12 @@ class CfgMagazines {
     };
 };
 
+class CfgMagazineWells {
+    class CBA_556x45_SG550 {
+        NIA_mags[] = { __556SG550_MAGS };
+    };
+};
+
 class CfgWeapons {
 
     class ItemCore;
@@ -602,6 +608,7 @@ class CfgWeapons {
         distanceZoomMax = 300;
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
         magazines[] = { __556SG550_MAGS };
+        magazineWell[] = {"CBA_556x45_SG550"};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         inertia = 0.36;
@@ -735,6 +742,7 @@ class CfgWeapons {
                 recoilProne = "M240Recoil";
                 __AI_ROF_GL_SINGLE;
             };
+            magazineWell[] = {"CBA_40mm_M203"};
         };
     };
 
@@ -1796,6 +1804,7 @@ class CfgWeapons {
         recoil = "recoil_mx";
         handanim[] = { "OFP2_ManSkeleton", "\nia_wp_sg550\anim\handpose_sg550.rtm" };
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
+        magazineWell[] = {"CBA_762x39_AK", "CBA_762x39_RPK"};
         reloadMagazineSound[] = { "\nia_wp_SG550\snd\553r\sg553R_reload", 1, 1, 30 };
         reloadAction = "HLC_GesturereloadSG553R";
         discretedistance[] = { 100 };
