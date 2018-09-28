@@ -609,6 +609,19 @@ class CfgMagazines {
     };
 };
 
+class CfgMagazineWells {
+    class CBA_556x45_STEYR {
+        NIA_mags[] = { __556AUG_MAGS };
+    };
+    class CBA_9x19_STEYR {
+        NIA_mags[] = {
+			"hlc_25Rnd_9x19mm_M882_AUG",
+			"hlc_25Rnd_9x19mm_JHP_AUG",
+			"hlc_25Rnd_9x19mm_subsonic_AUG"
+		};
+    };
+};
+
 class CfgWeapons {
 
     class ItemCore;
@@ -725,6 +738,7 @@ class CfgWeapons {
         distanceZoomMax = 300;
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
         magazines[] = { __556AUG_MAGS };
+        magazineWell[] = {"CBA_556x45_STEYR"};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         inertia = 0.36;
@@ -1083,6 +1097,7 @@ class CfgWeapons {
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         scope = public;
         magazines[] = { "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG", "hlc_25Rnd_9x19mm_Subsonic_AUG" };
+        magazineWell[] = {"CBA_9x19_STEYR"};
         displayName = "Steyr AUGA1 9mm[OD]";
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
@@ -1339,6 +1354,7 @@ class CfgWeapons {
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 419.1;
         magazines[] = { "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG","hlc_25Rnd_9x19mm_Subsonic_AUG" };
+        magazineWell[] = {"CBA_9x19_STEYR"};
         displayName = "Steyr AUGA2 9mm[OD]";
         hiddenSelections[] = { "Camo" };
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
@@ -1908,6 +1924,7 @@ class CfgWeapons {
             useExternalOptic = false;
             reloadAction = "GestureReloadTrgUGL";
             cursoraim = "gl";
+            magazineWell[] = {"CBA_40mm_M203"};
         };
     };
     class hlc_rifle_auga3_GL_BL : hlc_rifle_auga3_GL {

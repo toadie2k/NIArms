@@ -89,6 +89,7 @@ class CfgWeapons {
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
         magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
+        magazineWell[] = {"CBA_762x51_LINKS"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
