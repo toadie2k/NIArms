@@ -326,7 +326,7 @@ class hlc_30rnd_68x43_Sub : hlc_30rnd_68x43_Tracer
 };
 
 class CfgMagazineWells {
-    class CBA_68x43_ACR {
+    class CBA_68SPC_STANAG {
         NIA_mags[] = {
             "hlc_30rnd_68x43_FMJ",
             "hlc_30rnd_68x43_OTM",
@@ -386,7 +386,7 @@ class hlc_acr_base : Rifle_Base_F {
     aidispersioncoefx = 4;
     aidispersioncoefy = 6;
     magazines[] = { "hlc_30rnd_68x43_FMJ", "hlc_30rnd_68x43_OTM", "hlc_30rnd_68x43_MFMJ", "hlc_30rnd_68x43_MIRDIM", "hlc_30rnd_68x43_Tracer", "hlc_30rnd_68x43_IRDIM","hlc_30rnd_68x43_Sub" };
-    magazineWell[] = {"CBA_68x43_ACR"};
+    magazineWell[] = {"CBA_68SPC_STANAG","CBA_68SPC_STANAG_L","CBA_68SPC_STANAG_XL","CBA_68SPC_STANAG_2D","CBA_68SPC_STANAG_2D_XL"};
     class Library {
         libTextDesc = "ACR";
     };
