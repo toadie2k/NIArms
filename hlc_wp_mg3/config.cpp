@@ -401,6 +401,7 @@ class CfgMagazines{
         scope = 2;
         tracersevery = 0;
         mass = 40;
+        ACE_isBelt = 1;
         displaynameshort = "FMJ";
         nameSound = "mgun";
     };
