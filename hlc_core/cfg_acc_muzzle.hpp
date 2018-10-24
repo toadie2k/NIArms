@@ -6,7 +6,7 @@ class muzzle_snds_M : muzzle_snds_H {
 class hlc_muzzle_300blk_KAC : muzzle_snds_M {
     dlc = "Niarms_Core";
     author = "ImBrokeRU, Toadie";
-    displayName = ".300BLK Suppressor";
+    displayName = "QD.300BLK Suppressor";
     picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
     model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
 };
