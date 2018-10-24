@@ -697,14 +697,15 @@ class CfgWeapons {
         magazineReloadSwitchPhase = 0.5;
         hiddenSelections[] = { "camo", "camo2", "Camo3" };
         hiddenSelectionsTextures[] = { "\hlc_wp_fhAWC\tex\awcstock_OD_co.paa","\hlc_wp_fhAWC\tex\AWC_Scope_co.paa","\hlc_wp_fhAWC\tex\Magnumbits_ca.paa" };
-        class bg_weaponparameters {
-            class onFired_Action {
-                HandAction = "HLC_GestureRechamberAWM";
-                Actiondelay = 0.02;
-                Sound = "hlc_bolt_AWM";
-                Sound_Location = "RightHandMiddle1";
-                hasOptic = false;
-            };
+        class EventHandlers {
+            fired = "_this call CBA_fnc_weaponEvents";
+        };
+        class CBA_weaponEvents {
+            handAction = "HLC_GestureRechamberAWM";
+            sound = "hlc_bolt_AWM";
+            soundLocation = "RightHandMiddle1";
+            delay = 0.02;
+            onEmpty = 0;
         };
         cursor = "srifle";
         cursorAim = "EmptyCursor";

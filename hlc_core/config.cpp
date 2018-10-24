@@ -1884,6 +1884,7 @@ Speed  = speed at 200m
 
 
 class CfgWeapons
+
 { 
     #include "cfg_acc_muzzle.hpp"
     #include "cfg_acc_sidemount.hpp"
