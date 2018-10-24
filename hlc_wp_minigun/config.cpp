@@ -143,6 +143,7 @@ class CfgMagazines {
         initspeed = 853;
         ammo = "HLC_B_762x51_minigun_tracer_red";
         picture = "\hlc_wp_minigun\tex\ui\m_casette_ca.paa";
+        type = "256";
         tracersevery = 2;
         lastroundstracer = 30;
     };
@@ -156,6 +157,7 @@ class CfgMagazines {
         initspeed = 853;
         ammo = "HLC_B_762x51_minigun_cinema_red";
         picture = "\hlc_wp_minigun\tex\ui\m_casette_ca.paa";
+        type = "256";
         tracersevery = 2;
         lastroundstracer = 30;
     };

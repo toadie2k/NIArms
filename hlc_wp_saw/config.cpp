@@ -229,6 +229,7 @@ class CfgMagazines{
         scope = 2;
         tracersevery = 4;
         mass = 69;
+        ACE_isBelt = 1;
         displaynameshort = "EPR/Tracer";
         nameSound = "mgun";
     };
