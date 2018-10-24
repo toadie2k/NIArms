@@ -1,4 +1,4 @@
-﻿#include "script_mod.hpp"
+#include "script_mod.hpp"
 #include "script_macros.hpp"
 
 class CfgPatches {
@@ -1969,3 +1969,4 @@ class CfgWeapons
         magazines[] += { __556STANAG_MAGS };
     };
 };
+

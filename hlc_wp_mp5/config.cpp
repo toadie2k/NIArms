@@ -222,6 +222,22 @@ class CfgMagazines {
     };
 };
 
+class CfgMagazineWells {
+    class CBA_9x19_MP5 {
+        NIA_mags[] = {
+			"hlc_30Rnd_9x19_B_MP5",
+			"hlc_30Rnd_9x19_GD_MP5",
+			"hlc_30Rnd_9x19_SD_MP5"
+		};
+    };
+    class CBA_10x25_MP5 {
+        NIA_mags[] = {
+			"hlc_30Rnd_10mm_B_MP5",
+			"hlc_30Rnd_10mm_JHP_MP5"
+		};
+    };
+};
+
 class CfgWeapons {
 
     class ItemCore;
@@ -313,6 +329,7 @@ class CfgWeapons {
         changeFiremodeSound[] = { "hlc_wp_mp5\snd\mp5_safety", 1, 1, 8 };
         reloadmagazinesound[] = { "hlc_wp_MP5\snd\mp5_reload_empty", 0.7, 1, 20 };
         magazines[] = {"hlc_30Rnd_9x19_B_MP5", "hlc_30Rnd_9x19_GD_MP5", "hlc_30Rnd_9x19_SD_MP5"};
+        magazineWell[] = {"CBA_9x19_MP5"};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         class GunParticles: GunParticles
@@ -708,6 +725,7 @@ class CfgWeapons {
                     soundBegin[] = {"begin1", 1};
                 };
             };
+            magazineWell[] = {"CBA_40mm_M203"};
         };
     };
 
@@ -764,6 +782,7 @@ class CfgWeapons {
         ACE_barrelLength = 228.6;
         author = "Twinke Masta, Geno,Toadie, Christian Øelund";
         magazines[] = {"hlc_30Rnd_10mm_B_MP5","hlc_30Rnd_10mm_JHP_MP5"};
+        magazineWell[] = {"CBA_10x25_MP5"};
         model = "\hlc_wp_Mp5\mesh\mp510\mp510.p3d";
         reloadaction = "HLC_GestureReloadMP510";
         reloadmagazinesound[] = { "\hlc_wp_MP5\snd\mp510_reload_empty", 0.7, 1, 20 };

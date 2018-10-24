@@ -324,6 +324,21 @@ class hlc_30rnd_68x43_Sub : hlc_30rnd_68x43_Tracer
     picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
 };
 };
+
+class CfgMagazineWells {
+    class CBA_68SPC_STANAG {
+        NIA_mags[] = {
+            "hlc_30rnd_68x43_FMJ",
+            "hlc_30rnd_68x43_OTM",
+            "hlc_30rnd_68x43_Tracer",
+            "hlc_30rnd_68x43_MIRDIM",
+            "hlc_30rnd_68x43_MFMJ",
+            "hlc_30rnd_68x43_IRDIM",
+            "hlc_30rnd_68x43_Sub"
+        };
+    };
+};
+
 class CfgWeapons {
     class Rifle;
     class Rifle_Base_F : Rifle  {
@@ -371,6 +386,7 @@ class hlc_acr_base : Rifle_Base_F {
     aidispersioncoefx = 4;
     aidispersioncoefy = 6;
     magazines[] = { "hlc_30rnd_68x43_FMJ", "hlc_30rnd_68x43_OTM", "hlc_30rnd_68x43_MFMJ", "hlc_30rnd_68x43_MIRDIM", "hlc_30rnd_68x43_Tracer", "hlc_30rnd_68x43_IRDIM","hlc_30rnd_68x43_Sub" };
+    magazineWell[] = {"CBA_68SPC_STANAG","CBA_68SPC_STANAG_L","CBA_68SPC_STANAG_XL","CBA_68SPC_STANAG_2D","CBA_68SPC_STANAG_2D_XL"};
     class Library {
         libTextDesc = "ACR";
     };
@@ -498,6 +514,7 @@ class hlc_acr_base : Rifle_Base_F {
         reloadAction = "GestureReloadTrgUGL";
         cursoraim = "gl";
         __AI_ROF_GL_SINGLE;
+        magazineWell[] = {"CBA_40mm_M203"};
     };
 };
 class hlc_rifle_ACR68_SBR_tan : hlc_acr_base
@@ -523,7 +540,6 @@ class hlc_rifle_ACR68_SBR_tan : hlc_acr_base
 	discretedistance[] = {100};
 	discretedistanceinitindex = 0;
 	bg_bipod = 0; 
-        magazines[] = { "hlc_30rnd_68x43_FMJ", "hlc_30rnd_68x43_OTM", "hlc_30rnd_68x43_MFMJ", "hlc_30rnd_68x43_MIRDIM", "hlc_30rnd_68x43_Tracer", "hlc_30rnd_68x43_IRDIM" };
         hiddenSelectionsTextures[] = { "hlc_wp_ACR\tex\map1_co.tga", "hlc_wp_ACR\tex\map2-68tan_co.tga", "hlc_wp_ACR\tex\map3_co.tga", "hlc_wp_ACR\tex\mapyes_co.tga", "hlc_wp_ACR\tex\pmag_co.tga", "hlc_wp_ACR\tex\afg2_co.tga" };
         HiddenSelectionsMaterials[] = { "hlc_wp_ACR\mat\map1.rvmat", "hlc_wp_ACR\mat\map2.rvmat", "hlc_wp_ACR\mat\map3.rvmat", "hlc_wp_ACR\mat\mapyes.rvmat", "hlc_wp_ACR\mat\PMAG.rvmat", "hlc_wp_ACR\mat\afg.rvmat" };
 	reloadMagazineSound[] = {"hlc_wp_acr\snd\ACR_reload",0.9,1,30};
@@ -855,6 +871,7 @@ class hlc_acr556_base : hlc_acr_base
         class MuzzleSlot : asdg_MuzzleSlot_556{};
     };
     magazines[] = { __556STANAG_MAGS, __556STANAG_BI_MAGS, __556NATO_BI_DRUMS };
+    magazineWell[] = {"CBA_556x45_STANAG", "CBA_556x45_STANAG_L", "CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL"};
 
     modes[] = { "Single", "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
 

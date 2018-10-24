@@ -615,6 +615,68 @@ class CfgMagazines {
     };
 };
 
+class CfgMagazineWells {
+    class CBA_9x19_P226 {
+        NIA_mags[] = {
+			"hlc_15Rnd_9x19_B_P226",
+			"hlc_15Rnd_9x19_JHP_P226",
+			"hlc_15Rnd_9x19_SD_P226"
+		};
+    };
+    class CBA_9x19_P228 {
+        NIA_mags[] = {
+			"hlc_13Rnd_9x19_B_P228",
+			"hlc_13Rnd_9x19_JHP_P228",
+			"hlc_13Rnd_9x19_SD_P228"
+		};
+    };
+    class CBA_9x19_P239 {
+        NIA_mags[] = {
+			"hlc_10Rnd_9x19_B_P239",
+			"hlc_10Rnd_9x19_JHP_P239",
+			"hlc_10Rnd_9x19_SD_P239"
+		};
+    };
+    class CBA_40SW_P226 {
+        NIA_mags[] = {
+			"hlc_12Rnd_40SW_B_P226",
+			"hlc_12Rnd_40sw_JHP_P226",
+			"hlc_12Rnd_40sw_SD_P226"
+		};
+    };
+    class CBA_40SW_P229 {
+        NIA_mags[] = {
+			"hlc_10Rnd_40SW_B_P229",
+			"hlc_10Rnd_40sw_JHP_P229",
+			"hlc_10Rnd_40sw_SD_P229"
+		};
+    };
+    class CBA_40SW_P239 {
+        NIA_mags[] = {
+			"hlc_8Rnd_40SW_B_P239",
+			"hlc_10Rnd_40sw_JHP_P239",
+			"hlc_10Rnd_40sw_SD_P239"
+		};
+    };
+    class CBA_357SIG_P226 {
+        NIA_mags[] = {
+			"hlc_12Rnd_357SIG_B_P226",
+			"hlc_12Rnd_357SIG_JHP_P226"
+		};
+    };
+    class CBA_357SIG_P229 {
+        NIA_mags[] = {
+			"hlc_10Rnd_357SIG_B_P229",
+			"hlc_10Rnd_357SIG_JHP_P229"
+		};
+    };
+    class CBA_357SIG_P239 {
+        NIA_mags[] = {
+			"hlc_8Rnd_357SIG_B_P239",
+			"hlc_8Rnd_357SIG_JHP_P239"
+		};
+    };
+};
 
 class CfgWeapons {
 
@@ -994,6 +1056,7 @@ class CfgWeapons {
         ACE_barrelTwist = 254.0;
         ACE_barrelLength = 228.6;
         magazines[] = { "hlc_15Rnd_9x19_B_P226", "hlc_15Rnd_9x19_JHP_P226", "hlc_15Rnd_9x19_SD_P226" };
+        magazineWell[] = {"CBA_9x19_P226"};
         minRange = 5;
         minRangeProbab = 0.3;
         midRange = 25;
@@ -1257,6 +1320,7 @@ class CfgWeapons {
     class hlc_P22640_Base : hlc_P226_Base
     {
         magazines[] = { "hlc_12Rnd_40SW_B_P226", "hlc_12Rnd_40sw_JHP_P226", "hlc_12Rnd_40SW_SD_P226" };
+        magazineWell[] = {"CBA_40SW_P226"};
         recoil = "recoil_pistol_acpc2";
         descriptionShort = "Pistol<br/>Caliber:.40 SW";
         class Single : Mode_SemiAuto
@@ -1380,6 +1444,7 @@ class CfgWeapons {
     class hlc_P226357_Base : hlc_P226_Base
     {
         magazines[] = { "hlc_12Rnd_357SIG_B_P226", "hlc_12Rnd_357SIG_JHP_P226"};
+        magazineWell[] = {"CBA_357SIG_P226"};
         recoil = "recoil_pistol_acpc2";
         descriptionShort = "Pistol<br/>Caliber:.357 SIG";
         class Single : Mode_SemiAuto
@@ -1509,6 +1574,7 @@ class CfgWeapons {
         ACE_barrelLength = 98;
 
         magazines[] = { "hlc_13Rnd_9x19_B_P228", "hlc_13Rnd_9x19_JHP_P228", "hlc_13Rnd_9x19_SD_P228", "hlc_15Rnd_9x19_B_P226", "hlc_15Rnd_9x19_JHP_P226", "hlc_15Rnd_9x19_SD_P226" };
+        magazineWell[] += {"CBA_9x19_P228"};
         class Single : Mode_SemiAuto
         {
             sounds[] = { "StandardSound", "SilencedSound" };
@@ -1719,6 +1785,7 @@ class CfgWeapons {
     class hlc_P22840_Base : hlc_P228_Base
     {
         magazines[] = { "hlc_10Rnd_40SW_B_P229", "hlc_10Rnd_40sw_JHP_P229", "hlc_10Rnd_40SW_SD_P229", "hlc_12Rnd_40SW_B_P226", "hlc_12Rnd_40sw_JHP_P226", "hlc_12Rnd_40SW_SD_P226" };
+        magazineWell[] = {"CBA_40SW_P226", "CBA_40SW_P229"};
         recoil = "recoil_pistol_acpc2";
         descriptionShort = "Pistol<br/>Caliber:.40 SW";
         class Single : Mode_SemiAuto
@@ -1851,6 +1918,7 @@ class CfgWeapons {
     class hlc_P228357_Base : hlc_P228_Base
     {
         magazines[] = { "hlc_10Rnd_357SIG_B_P229", "hlc_10Rnd_357SIG_JHP_P229", "hlc_12Rnd_357SIG_B_P226", "hlc_12Rnd_357SIG_JHP_P226" };
+        magazineWell[] = {"CBA_357SIG_P226", "CBA_357SIG_P229"};
         recoil = "recoil_pistol_acpc2";
         descriptionShort = "Pistol<br/>Caliber:.357 SIG";
         class Single : Mode_SemiAuto
@@ -1995,6 +2063,7 @@ class CfgWeapons {
        discretedistance[] = { 50 };
        discretedistanceinitindex = 0;
        magazines[] = { "hlc_10Rnd_9x19_B_P239", "hlc_10Rnd_9x19_JHP_P239", "hlc_10Rnd_9x19_SD_P239" };
+       magazineWell[] = {"CBA_9x19_P239"};
        reloadmagazinesound[] = { "\hlc_wp_p226\snd\p239_reload", 0.7, 1, 20 };
        reloadAction = "HLC_GestureReloadP226";
        class WeaponSlotsInfo : WeaponSlotsInfo
@@ -2033,6 +2102,7 @@ class CfgWeapons {
        discretedistance[] = { 50 };
        discretedistanceinitindex = 0;
        magazines[] = { "hlc_8Rnd_40SW_B_P239","hlc_8Rnd_40sw_JHP_P239","hlc_8Rnd_40sw_SD_P239" };
+       magazineWell[] = {"CBA_40SW_P239"};
        reloadmagazinesound[] = { "\hlc_wp_p226\snd\p239_reload", 0.7, 1, 20 };
        reloadAction = "HLC_GestureReloadP226";
        class WeaponSlotsInfo : WeaponSlotsInfo
@@ -2071,6 +2141,7 @@ class CfgWeapons {
        discretedistance[] = { 50 };
        discretedistanceinitindex = 0;
        magazines[] = { "hlc_8Rnd_357SIG_B_P239", "hlc_8Rnd_357SIG_JHP_P239"};
+       magazineWell[] = {"CBA_357SIG_P239"};
        reloadmagazinesound[] = { "\hlc_wp_p226\snd\p239_reload", 0.7, 1, 20 };
        reloadAction = "HLC_GestureReloadP226";
        class WeaponSlotsInfo : WeaponSlotsInfo
