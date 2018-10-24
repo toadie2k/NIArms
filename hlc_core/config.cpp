@@ -81,6 +81,7 @@ class asdg_OpticRail1913 : asdg_OpticRail{
         hlc_optic_HensoldtZO_lo_Docter_2D = 1;
         hlc_optic_HensoldtZO_Hi_Docter = 1;
         hlc_optic_HensoldtZO_Hi_Docter_2D = 1;
+        HLC_optic_DocterR = 1;
     };
 };
 class UnderBarrelSlot;
@@ -100,6 +101,11 @@ class asdg_UnderSlot : asdg_SlotInfo
 class nia_rifle_grips_slot : nia_rifle_gripod_slot
 {
     linkProxy = "\hlc_core\mesh\nia_grip_proxy";
+    class compatibleItems {
+        HLC_bipod_UTGShooters = 1;
+        hlc_grip_AFG2 = 1;
+        hlc_grip_PMVFG = 1;
+    };
 };
 class nia_rifle_bipodsgrips_slot :asdg_UnderSlot 
 {
@@ -273,6 +279,7 @@ class CfgMovesBasic {
         NIA_GestureReload416_WS = "NIA_GestureReload416_WS";
         NIA_GestureReload416_BAD = "NIA_GestureReload416_BAD";
         NIA_GestureReloadAGC = "NIA_GestureReloadAGC";
+        HLC_GestureReloadACRGL = "HLC_GestureReloadACRGL";
     };
 
     class Actions {
@@ -326,6 +333,8 @@ class CfgMovesBasic {
             NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS", "Gesture" };
             NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD", "Gesture" };
             NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC", "Gesture" };
+            HLC_GestureReloadACRGL[] = { "HLC_GestureReloadACRGL", "Gesture" };
+
         };
 
         class RifleProneActions : RifleBaseStandActions {
@@ -373,6 +382,7 @@ class CfgMovesBasic {
             NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Prone", "Gesture" };
             NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Prone", "Gesture" };
             NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Prone", "Gesture" };
+            HLC_GestureReloadACRGL[] = { "HLC_GestureReloadACRGL_Prone", "Gesture" };
         };
 
         class RifleAdjustRProneActions : RifleAdjustProneBaseActions {
@@ -418,6 +428,7 @@ class CfgMovesBasic {
             NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Context", "Gesture" };
             NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Context", "Gesture" };
             NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Context", "Gesture" };
+            HLC_GestureReloadACRGL[] = { "HLC_GestureReloadACRGL_context", "Gesture" };
         };
 
         class RifleAdjustLProneActions : RifleAdjustProneBaseActions {
@@ -462,6 +473,7 @@ class CfgMovesBasic {
             NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS_Context", "Gesture" };
             NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD_Context", "Gesture" };
             NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC_Context", "Gesture" };
+            HLC_GestureReloadACRGL[] = { "HLC_GestureReloadACRGL_context", "Gesture" };
         };
 
         class RifleAdjustFProneActions : RifleAdjustProneBaseActions {
@@ -506,6 +518,7 @@ class CfgMovesBasic {
             NIA_GestureReload416_WS[] = { "NIA_GestureReload416_WS", "Gesture" };
             NIA_GestureReload416_BAD[] = { "NIA_GestureReload416_BAD", "Gesture" };
             NIA_GestureReloadAGC[] = { "NIA_GestureReloadAGC", "Gesture" };
+            HLC_GestureReloadACRGL[] = { "HLC_GestureReloadACRGL", "Gesture" };
         };
     };
 };
@@ -1841,6 +1854,17 @@ class CfgGesturesMale {
         class NIA_GestureReloadAGC_Context : NIA_GestureReloadAGC {
             mask = "handsWeapon_context";
         };
+        class HLC_GestureReloadACRGL :HLC_GestureReloadGL5040
+        {
+            file = "hlc_core\animation\gesture\acrgl_reload_standing.rtm";
+        };
+        class HLC_GestureReloadACRGL_prone : HLC_GestureReloadGL5040_prone
+        {
+            file = "hlc_core\animation\gesture\acrgl_reload_prone.rtm";
+        };
+        class HLC_GestureReloadACRGL_context : HLC_GestureReloadACRGL {
+            mask = "handsWeapon_context";
+        };
     };
 };
 
@@ -1860,728 +1884,15 @@ Speed  = speed at 200m
 
 
 class CfgWeapons
-{
-    class ItemCore;
-    class InventoryFlashLightItem_Base_F;
-    class hlc_acc_TLR1 : ItemCore
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        _generalMacro = "acc_flashlight";
-        scope = 2;
-        displayName = "Streamlight TLR-1";
-        descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
-        model = "hlc_core\mesh\accessories\acc\tlr1.p3d";
-        descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
-        class ItemInfo : InventoryFlashLightItem_Base_F
-        {
-            mass = 7;
-            class FlashLight
-            {
-                position = "flash";
-                direction = "flash dir";
-                color[] = { 25, 22, 20 };
-                ambient[] = { 0.001, 0.001, 0.001 };
-                size = 1;
-                innerAngle = 50;
-                outerAngle = 120;
-                coneFadeCoef = 10;
-                intensity = 330;
-                useFlare = 1;
-                dayLight = 1;
-                FlareSize = 0.7;
-                onlyInNvg = 0;
-                class Attenuation
-                {
-                    start = 0;
-                    constant = 2;
-                    linear = 1;
-                    quadratic = 75;
-                };
-                scale[] = { 0 };
-            };
-        };
-        inertia = 0.05;
-    };
-    class hlc_acc_DBALPL : ItemCore
-    {
-        MRT_SwitchItemNextClass = "hlc_acc_DBALPL_FL";
-        MRT_SwitchItemPrevClass = "hlc_acc_DBALPL_FL";
-        MRT_switchItemHintText = "IR(Laser)";
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        _generalMacro = "acc_flashlight";
-        scope = 2;
-        displayName = "Steiner DBAL-PL(IR)";
-        descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
-        model = "hlc_core\mesh\accessories\acc\dbal.p3d";
-        descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
-        class ItemInfo : InventoryFlashLightItem_Base_F
-        {
-            mass = 7;
-            class Pointer
-            {
-                irLaserPos = "flash";
-                irLaserEnd = "flash dir";
-                irDistance = 5;
-            };
-            class FlashLight{};
-        };
-        inertia = 0.05;
-    };
-    class hlc_acc_DBALPL_FL : ItemCore
-    {
-        MRT_SwitchItemNextClass = "hlc_acc_DBALPL";
-        MRT_SwitchItemPrevClass = "hlc_acc_DBALPL";
-        MRT_switchItemHintText = "VIS(Flashlight)";
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        _generalMacro = "acc_flashlight";
-        scope = 2;
-        displayName = "Steiner DBAL-PL(VIS)";
-        descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
-        model = "hlc_core\mesh\accessories\acc\dbal_FL.p3d";
-        descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
-        class ItemInfo : InventoryFlashLightItem_Base_F
-        {
-            mass = 7;
-            class FlashLight{
-                position = "flash";
-                direction = "flash dir";
-                color[] = { 130, 160, 180 };
-                ambient[] = { 0.001, 0.001, 0.001 };
-                size = 1;
-                innerAngle = 22;
-                outerAngle = 50;
-                coneFadeCoef = 10;
-                intensity = 600;
-                useFlare = 1;
-                dayLight = 1;
-                FlareSize = 0.5;
-                onlyInNvg = 0;
-                class Attenuation
-                {
-                    start = 0;
-                    constant = 2;
-                    linear = 1;
-                    quadratic = 75;
-                };
-                scale[] = { 0 };
-            };
-        };
-        inertia = 0.05;
-    };
-    class muzzle_snds_H;
-    class muzzle_snds_M : muzzle_snds_H {
-        class ItemInfo;
-    };
-    class hlc_muzzle_300blk_KAC : muzzle_snds_M {
-        dlc = "Niarms_Core";
-        author = "ImBrokeRU, Toadie";
-        displayName = "QD .300BLK Suppressor";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_core\mesh\accessories\barrel\762\762.p3d";
-    };
-    class hlc_muzzle_556NATO_KAC : muzzle_snds_M {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayName = "Gemtech Halo";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_core\mesh\accessories\barrel\556\kacqd.p3d";
-    };
-    class hlc_muzzle_556NATO_M42000 : muzzle_snds_M {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayName = "AAC M4-2000";
-        picture = "\hlc_core\tex\ui\gear_aac-m42k_ca.paa";
-        model = "hlc_core\mesh\accessories\barrel\556\M4-2000.p3d";
-    };
-    class hlc_muzzle_556NATO_rotexiiic_tan : muzzle_snds_M {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayName = "Rotex-IIIC (Tan)";
-        picture = "\hlc_core\tex\ui\gear_rotexiiic-tan_ca.paa";
-        model = "hlc_core\mesh\accessories\barrel\556\RotexIIIC.p3d";
-    };
-    class hlc_muzzle_556NATO_rotexiiic_grey : hlc_muzzle_556NATO_rotexiiic_tan
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayName = "Rotex-IIIC (Grey)";
-        picture = "\hlc_core\tex\ui\gear_rotexiiic-grey_ca.paa";
-        model = "hlc_core\mesh\accessories\barrel\556\RotexIIIC_grey.p3d";
-    };
-    class hlc_muzzle_Tundra : muzzle_snds_M
-    {
-        dlc = "Niarms_core";
-        author = "r_populik,Toadie";
-        displayName = "Gemtech Tundra (9mm)";
-        picture = "\hlc_core\tex\ui\gear_tundra_ca";
-        model = "hlc_core\mesh\accessories\barrel\9\tundra.p3d";
-        class ItemInfo : ItemInfo {
-            mass = 5;
-        };
-        inertia = 0.04;
-    };
-    class hlc_muzzle_Octane9 : muzzle_snds_h
-    {
-        dlc = "Niarms_core";
-        author = " Toadie";
-        displayName = "SilencerCo Octane9 (9mm)";
-        picture = "\hlc_core\tex\UI\gear_octane9_ca.paa";
-        model = "hlc_core\mesh\accessories\barrel\9\octane9.p3d";
-    };
-    class hlc_muzzle_Evo9 : muzzle_snds_h
-    {
-        dlc = "Niarms_core";
-        author = "Toadie";
-        displayName = "AAC Evolution9 (9mm)";
-        picture = "\hlc_core\tex\UI\gear_evo9_ca.paa";
-        model = "hlc_core\mesh\accessories\barrel\9\evo9.p3d";
-    };
-    class hlc_muzzle_TiRant9 : muzzle_snds_h
-    {
-        dlc = "Niarms_core";
-        author = "Toadie";
-        displayName = "AAC Ti-Rant9 (9mm)";
-        model = "hlc_core\mesh\accessories\barrel\9\tirant9.p3d";
-        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
-    };
-    class hlc_muzzle_TiRant9S : muzzle_snds_h
-    {
-        dlc = "Niarms_core";
-        author = "Toadie";
-        displayName = "AAC Ti-Rant9S (9mm)";
-        model = "hlc_core\mesh\accessories\barrel\9\tirant9s.p3d";
-        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
-    };
-    class hlc_muzzle_Octane45 : hlc_muzzle_Octane9
-    {
-        dlc = "Niarms_core";
-        author = " Toadie";
-        displayName = "SilencerCo Octane (.45ACP)";
-        //picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
-        //model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
-    };
-    class hlc_muzzle_Evo40 : hlc_muzzle_Evo9
-    {
-        //dlc = "Niarms_226";
-        author = "Toadie";
-        displayName = "AAC Evolution (.40SW)";
-        //picture = "\hlc_wp_MP5\tex\ui\gear_agendasix_ca";
-        //model = "\hlc_wp_mp5\mesh\agendasix\a6.p3d";
-    };
-    class NIAmuzzle_flash_rifle_MAG : ItemCore
-    {
-        scope = 2;
-        model = "hlc_core\mesh\muzzleflash\Muzzle_flash_MAG58.p3d";
-    };
-    class hlc_muzzle_MAG58_Brake : muzzle_snds_M {
-        dlc = "Niarms_Core";
-        author = "ImBrokeRU, Toadie";
-        displayName = "MAG58 Flash Hider";
-        picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
-        model = "hlc_core\mesh\accessories\barrel\762\FNMAG_Brake.p3d";
-        class ItemInfo : ItemInfo {
-            mass = 1;
-            soundTypeIndex = 0;
-            muzzleEnd = "zaslehpoint"; // memory point in muzzle supressor's model
-            alternativeFire = "NIAmuzzle_flash_rifle_MAG";  // class in cfgWeapons with model of muzzle flash	
-        };
-        inertia = 0.00;
-    };
 
-    class InventoryOpticsItem_Base_F;
-    class optic_Arco;
-    class optic_LRPS : ItemCore {
-        class ItemInfo;
-    };
-    class hlc_optic_LeupoldM3A : optic_lrps {
-        dlc = "Niarms_FN3011";
-        author = "Toadie";
-        descriptionshort = "Leupold M3A Ultra<br />Magnification: 10x";
-        picture = "\hlc_core\tex\ui\gear_LeupoldM3A_Ca";
-        model = "hlc_core\mesh\accessories\sights\LeupoldM3A.p3d";
-        displayname = "Leupold M3A";
+{ 
+    #include "cfg_acc_muzzle.hpp"
+    #include "cfg_acc_sidemount.hpp"
+    #include "cfg_acc_scope.hpp"
+    #include "cfg_acc_underslot.hpp"
 
-        class ItemInfo : ItemInfo {
-            mass = 10.5;
-            class OpticsModes {
-                class Snip {
-                    opticsID = 1;
-                    opticsDisplayName = "WFOV";
-                    useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.0249;
-                    opticsZoomMax = 0.0249;
-                    opticsZoomInit = 0.0249;
-                    discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 };
-                    discreteDistanceInitIndex = 4;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 1200;
-                    memoryPointCamera = "Opticview";
-                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\Reticle_10xmildot" };
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    cameraDir = "";
-                };
-                class Iron : Snip {
-                    opticsID = 2;
-                    opticsDisplayName = "";
-                    useModelOptics = 0;
-                    opticsPPEffects[] = { "", "" };
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    __OPTICSZOOM_1X;
-                    memoryPointCamera = "eye2";
-                    visionMode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-        tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
-        inertia = 0.05;
-    };
-    class hlc_optic_PVS4base : optic_Arco {
-        author = "Bohemia Interactive, Toadie";
-        descriptionshort = "Night Vision Optic<br />Magnification: 4x";
-        displayname = "AN/PVS4";
-        picture = "\hlc_core\tex\ui\gear_PVS4_x_ca";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            __OPTIC_DMR;
-            mass = 49.6;
-            modelOptics = "hlc_core\mesh\accessories\sights\reticles\NV_anpvs4_optic";
-            class OpticsModes {
-                class Snip {
-                    useModelOptics = 1;
-                    opticsPPEffects[] = {};
-                    opticsZoomMin = 0.0625;
-                    opticsZoomMax = 0.0625;
-                    opticsZoomInit = 0.0625;
-                    discreteDistance[] = {200,300,400,500,600};
-                    discreteDistanceInitIndex = 1;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 600;
-                    memoryPointCamera = "eye";
-                    modelOptics[] = {"hlc_core\mesh\accessories\sights\reticles\NV_anpvs4_optic"};
-                    visionMode[] = {"NVG"};
-                    opticsFlare = 1;
-                    opticsid = 1;
-                    opticsDisablePeripherialVision = 1;
-                    cameraDir = "";
-                };
-                class Snip2: Snip {
-                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\NV_pvs4-daysight" };
-                    opticsid = 2;
-                };
-                class Kolimator {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "AOTT";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 3;
-                    opticsppeffects[] = {};
-                    __OPTICSZOOM_1X;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-		inertia = 0.22;
-    };
 
-    class hlc_optic_VOMZ : optic_lrps {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        descriptionshort = "VOMZ Pilad P3 <br />Magnification: 3.5x";
-        model = "hlc_core\mesh\accessories\sights\VOMZ_p3.p3d";
-        displayname = "VOMZ Pilad P3(2D)";
-        picture = "\hlc_core\tex\ui\gear_vomz_ca";
-        inertia = 0.05;
-        class ItemInfo : ItemInfo {
-            mass = 11;
-            class OpticsModes {
-                class Snip {
-                    opticsID = 1;
-                    opticsDisplayName = "WFOV";
-                    useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.249/3.5;
-                    opticsZoomMax = 0.249/3.5;
-                    opticsZoomInit = 0.249/3.5;
-                    discreteDistance[] = { 100, 200, 300, 400, 500, 600,700, 800 };
-                    discreteDistanceInitIndex = 3;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 1200;
-                    memoryPointCamera = "opticview";
-                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\VOMZ_PU_3,5x" };
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
-                    cameraDir = "";
-                };
-                class Iron : Snip {
-                    opticsID = 2;
-                    opticsDisplayName = "";
-                    useModelOptics = 0;
-                    opticsPPEffects[] = { "", "" };
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    __OPTICSZOOM_1X;
-                    memoryPointCamera = "eye2";
-                    visionMode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-    };
-    class hlc_optic_VOMZ3d:hlc_optic_VOMZ
-    {
-    author = "Toadie";
-    displayname = "VOMZ Pilad P3";
-        class ItemInfo : ItemInfo {
-            class OpticsModes {
-                class Snip {
-                    opticsID = 1;
-                    opticsDisplayName = "WFOV";
-                    useModelOptics = 0;
-                    opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.249/3.5;
-                    opticsZoomMax = 0.249/3.5;
-                    opticsZoomInit = 0.249/3.5;
-                    discreteDistance[] = { 100, 200, 300, 400, 500, 600,700, 800 };
-                    discreteDistanceInitIndex = 3;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 1200;
-                    memoryPointCamera = "eye";
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsDisablePeripherialVision = 0;
-                    cameraDir = "";
-                };
-                class Iron : Snip {
-                    opticsID = 2;
-                    opticsDisplayName = "";
-                    useModelOptics = 0;
-                    opticsPPEffects[] = { "", "" };
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    __OPTICSZOOM_1X;
-                    memoryPointCamera = "eye2";
-                    visionMode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-    };
 
-    class optic_aco;
-
-    class hlc_optic_HensoldtZO_Hi : optic_aco
-    {
-        dlc = "Niarms_Core";
-        scope = public;
-        author = "Toadie";
-        descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
-        displayname = "Hensoldt ZO (Riser)";
-        picture = "\hlc_core\tex\ui\gear_zo-hi_ca";
-        weaponInfoType = "RscWeaponZeroing";
-        model = "hlc_core\mesh\accessories\sights\ZO_HI.p3d";
-        class ItemInfo : InventoryOpticsItem_Base_F
-        {
-            mass = 6;
-            __OPTIC_DMR;
-            modelOptics = "\hlc_core\mesh\accessories\sights\reticles\ZO_reticle.p3d";
-            class OpticsModes
-            {
-                class Snip
-                {
-                    useModelOptics = 0;
-                    cameradir = "look_dir";
-                    opticsZoomMin = 0.06225;
-                    opticsZoomMax = 0.06225;
-                    opticsZoomInit = 0.06225;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    discreteDistance[] = { 200 };
-                    discreteDistanceInitIndex = 0;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 200;
-                    memoryPointCamera = "eye";
-                    modelOptics[] = { "\hlc_core\mesh\accessories\sights\reticles\ZO_reticle.p3d" };
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsid = 1;
-                    opticsDisablePeripherialVision = 1;
-                };
-                class Kolimator {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "AOTT";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 2;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    __OPTICSZOOM_1X;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-        inertia = 0.06;
-        tmr_optics_enhanced = 0;
-    };
-    class hlc_optic_HensoldtZO_Hi_2D : hlc_optic_HensoldtZO_Hi
-    {
-        descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
-        displayname = "Hensoldt ZO (Riser/2D)";
-        class ItemInfo :ItemInfo
-        {
-            class OpticsModes :OpticsModes
-            {
-                class Snip : Snip
-                {
-                    useModelOptics = 1;
-                };
-                class Kolimator : Kolimator{};
-            };
-        };
-    };
-    class hlc_optic_HensoldtZO_Hi_Docter : hlc_optic_HensoldtZO_Hi
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO (Riser/RDS)";
-        picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
-    };
-    class hlc_optic_HensoldtZO_Hi_Docter_2D : hlc_optic_HensoldtZO_Hi_2D
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO (Riser/RDS/2D)";
-        picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
-    };
-    class hlc_optic_HensoldtZO_Lo :hlc_optic_HensoldtZO_Hi
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO";
-        picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
-    };
-    class hlc_optic_HensoldtZO_Lo_2D : hlc_optic_HensoldtZO_Hi_2D
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO (2D)";
-        picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
-    };
-    class hlc_optic_HensoldtZO_lo_Docter : hlc_optic_HensoldtZO_lo
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO (RDS)";
-        picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
-    };
-    class hlc_optic_HensoldtZO_lo_Docter_2D : hlc_optic_HensoldtZO_lo_2D
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        displayname = "Hensoldt ZO (RDS/2D)";
-        picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
-        model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
-    };
-
-    class hlc_optic_KernBase : optic_aco
-    {
-        dlc = "Niarms_Core";
-        scope = public;
-        author = "Toadie";
-        descriptionshort = "Kern 4x24 Zielfernrohr <br />Magnification: 4x";
-        displayname = "Kern AARAU 4x24";
-        picture = "hlc_core\tex\ui\gear_aarau_x_ca";
-        weaponInfoType = "RscWeaponZeroing";
-        class ItemInfo : InventoryOpticsItem_Base_F
-        {
-            mass = 8.8;
-            __OPTIC_DMR;
-            modelOptics = "\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d";
-            class OpticsModes
-            {
-                class Snip
-                {
-                    useModelOptics = 1;
-                    cameradir = "";
-                    opticsZoomMin = 0.06225;
-                    opticsZoomMax = 0.06225;
-                    opticsZoomInit = 0.06225;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    discreteDistance[] = { 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800 };
-                    discreteDistanceInitIndex = 0;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 800;
-                    memoryPointCamera = "eye2";
-                    modelOptics[] = {"\hlc_core\mesh\accessories\sights\reticles\AARAU_optics.p3d"};
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsid = 1;
-                    opticsDisablePeripherialVision = 1;
-                };
-                class Kolimator {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "AOTT";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 2;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    __OPTICSZOOM_1X;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-        inertia = 0.04;
-        tmr_optics_enhanced = 0;
-    };
- class hlc_optic_ZF4xBase : optic_aco
-    {
-        dlc = "Niarms_Core";
-        scope = public;
-        author = "Toadie";
-        descriptionshort = "Hensoldt ZF 4x<br />Magnification: 4x";
-        displayname = "FN STANAG 4x28";
-        picture = "\hlc_core\tex\ui\gear_fnstanag_ca";
-        weaponInfoType = "RscWeaponZeroing";
-        class ItemInfo : InventoryOpticsItem_Base_F
-        {
-            mass = 7.7;
-            opticType = 2;
-            optics = 1;
-            modelOptics = "hlc_core\mesh\accessories\sights\reticles\ZFtype1_optics";
-            class OpticsModes
-            {
-                class Snip
-                {
-                    useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera2", "OpticsBlur3" };
-                    discreteDistance[] = { 100,200, 300, 400, 500, 600};
-                    discreteDistanceInitIndex = 1;
-                    distanceZoomMin = 100;
-                    distanceZoomMax = 600;
-                    modelOptics[] = { "hlc_core\mesh\accessories\sights\reticles\ZFtype1_optics" };
-                    memoryPointCamera = "eye";
-                    cameradir = "";
-                    opticsZoomMin = 0.06225;
-                    opticsZoomMax = 0.06225;
-                    opticsZoomInit = 0.06225;
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsid = 1;
-                    opticsDisablePeripherialVision = 1;
-                };
-                class Kolimator {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "AOTT";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 2;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    __OPTICSZOOM_1X;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                    discreteDistance[] = { 100 };
-                    discreteDistanceInitIndex = 0;
-                };
-            };
-        };
-        inertia = 0.04;
-        tmr_optics_enhanced = 0;
-    };
-    class hlc_optic_ZF95Base : optic_lrps
-    {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        descriptionshort = "Kahles ZF95 with NATO Rangefinding Reticle<br />Magnification: 6x";
-        displayname = "Kahles ZF95";
-        model = "hlc_core\mesh\accessories\sights\ZF95.p3d";
-        picture = "\hlc_core\tex\ui\gear_ZF95_ca";
-        scope = public;
-         __OPTIC_DMR;
-         inertia = 0.052;
-         class ItemInfo : ItemInfo
-         {
-             mass = 14.54;
-             class OpticsModes
-             {
-                 class Snip
-                 {
-                     opticsID = 1;
-                     opticsDisplayName = "WFOV";
-                     useModelOptics = 1;
-                     opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
-                     opticsZoomMin = 0.249 / 6;
-                     opticsZoomMax = 0.249 / 6;
-                     opticsZoomInit = 0.0249;
-                     discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200};
-                     discreteDistanceInitIndex = 4;
-                     distanceZoomMin = 300;
-                     distanceZoomMax = 1200;
-                     memoryPointCamera = "eye";
-                     modelOptics[] = {"hlc_core\mesh\accessories\sights\reticles\NATORangefinder_ZF95_6x"};
-                     visionMode[] = {"Normal"};
-                     opticsFlare = 1;
-                     opticsDisablePeripherialVision = 1;
-                     cameraDir = "";
-                 };
-                 class Iron : Snip
-                 {
-                     opticsID = 2;
-                     opticsDisplayName = "";
-                     useModelOptics = 0;
-                     opticsPPEffects[] = {"", ""};
-                     opticsFlare = 0;
-                     opticsDisablePeripherialVision = 0;
-                     __OPTICSZOOM_1X;
-                     memoryPointCamera = "eye2";
-                     visionMode[] = {};
-                     discreteDistance[] = {100};
-                     discreteDistanceInitIndex = 0;
-                 };
-             };
-        };
-    };
-
-    class bipod_01_F_snd : ItemCore{ class ItemInfo; };
-    class HLC_bipod_UTGShooters :bipod_01_F_snd
-    {
-        dlc = "Niarms_FN3011";
-        displayname = "UTG Lightweight";
-        model = "hlc_core\mesh\accessories\bipod\UTG\UTG.p3d";
-        descriptionshort = "UTG Shooter's Sniper Bipod, Steel Feet";
-    };
     class HLC_Charm_base : ItemCore
     {
         dlc = "Niarms_Core";
@@ -2638,73 +1949,7 @@ class CfgWeapons
         picture = "\hlc_core\tex\UI\cha\gear_herstal_ca.paa";
         descriptionshort = "Charm of the Izhmash Logo";
     };
-    //V is for Vanilla. 
-    class HLC_optic_DocterV : optic_Arco {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
-        displayname = "Docter RDS";
-        model = "hlc_core\mesh\accessories\sights\docter.p3d";
-        picture = "\hlc_core\tex\UI\gear_docter_ca.paa";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            mass = 4;
-            modelOptics = "\A3\Weapons_F\empty";
-            optics = 0;
-            class OpticsModes
-            {
-                class ACO
-                {
-                    opticsID = 1;
-                    useModelOptics = 0;
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1.25;
-                    opticsZoomInit = 0.75;
-                    memoryPointCamera = "RDeye";
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    distanceZoomMin = 50;
-                    distanceZoomMax = 50;
-                    cameraDir = "";
-                    visionMode[] = {};
-                    opticsPPEffects[] = { "Default" };
-                };
-            };
-        };
-        tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
-    };
-    class HLC_optic_RomeoV : optic_Arco {
-        dlc = "Niarms_Core";
-        author = "Toadie";
-        descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
-        displayname = "Romeo1 RDS";
-        model = "hlc_core\mesh\accessories\sights\romeo1.p3d";
-        picture = "\hlc_core\tex\UI\gear_romeo1_ca.paa";
-        class ItemInfo : InventoryOpticsItem_Base_F {
-            mass = 4;
-            modelOptics = "\A3\Weapons_F\empty";
-            optics = 0;
-            class OpticsModes
-            {
-                class ACO
-                {
-                    opticsID = 1;
-                    useModelOptics = 0;
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1.25;
-                    opticsZoomInit = 0.75;
-                    memoryPointCamera = "RDeye";
-                    opticsFlare = 0;
-                    opticsDisablePeripherialVision = 0;
-                    distanceZoomMin = 50;
-                    distanceZoomMax = 50;
-                    cameraDir = "";
-                    visionMode[] = {};
-                    opticsPPEffects[] = { "Default" };
-                };
-            };
-        };
-        tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
-    };
+
 
     // vanilla compat
     class Rifle_Base_F;
