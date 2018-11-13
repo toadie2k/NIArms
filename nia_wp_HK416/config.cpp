@@ -32,7 +32,6 @@ class cfgMods
 };
 
 
-
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
@@ -41,7 +40,6 @@ class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_long;
 class asdg_UnderSlot;
-class asdg_MuzzleSlot;
 class nia_rifle_bipodsgrips_slot;
 class nia_rifle_grips_slot;
 class nia_charms_slot;
@@ -189,14 +187,8 @@ class CfgWeapons {
         class WeaponSlotsInfo;
         class GunParticles;
     };
-	class InventoryItem_Base_F;
-	class InventoryMuzzleItem_Base_F;
-	class InventoryFlashLightItem_Base_F;
-	class InventoryOpticsItem_Base_F;
-	class GrenadeLauncher;
 	class UGL_F;
 	
-class ItemCore;
 class hlc_HK416_base : Rifle_Base_F {
     magazineReloadSwitchPhase = 0.5;
     scope = protected;

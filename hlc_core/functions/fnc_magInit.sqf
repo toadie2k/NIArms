@@ -15,5 +15,7 @@ if (!isPlayer _unit) exitWith {}; // just bail out for non players
 
 private _pw = primaryWeapon _unit;
 if !(_pw isEqualTo "") then {
-    [_unit, _pw, _pw, [(primaryWeaponMagazine _unit) select 0, _unit ammo _pw]] call Niarms_fnc_magSwitch;
+    private _pwmags = primaryWeaponMagazine _unit;
+    private _oldmag = if (_pwmags isEqualTo []) then {["",0]} else {[_pwmags select 0, _unit ammo _pw]};
+    [_unit, _pw, _pw, _oldmag] call Niarms_fnc_magSwitch;
 };

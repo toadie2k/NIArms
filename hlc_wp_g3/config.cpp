@@ -525,6 +525,7 @@ class CfgWeapons {
         displayname = "Zeiss Diavari-DA";
         model = "\hlc_wp_G3\mesh\sg1_scope\scope.p3d";
         picture = "\hlc_wp_G3\tex\ui\gear_diavari_x_ca";
+        weaponInfoType = "RscWeaponZeroing";
         class ItemInfo : InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
             mass = 20.9;
@@ -600,7 +601,7 @@ class CfgWeapons {
                     cameraDir = "";
                 };
                 class Iron {
-                                        distancezoommax = 100;
+                    distancezoommax = 100;
                     distancezoommin = 100;
                     discretedistance[] = {100};
                     discretedistanceinitindex = 0;
@@ -630,6 +631,7 @@ class CfgWeapons {
         displayname = "AN/PVS4(G3-Mount)";
         picture = "\hlc_wp_g3\tex\ui\gear_PVS4_x_ca";
         model = "\hlc_wp_g3\mesh\PVS4\scope.p3d";
+        weaponInfoType = "RscWeaponZeroing";
         class ItemInfo: InventoryOpticsItem_Base_F {
             __OPTIC_DMR;
             mass = 49.6;
@@ -680,13 +682,13 @@ class CfgWeapons {
     {
         class ItemInfo;
     };
-    class hlc_optic_STANAGZF2D_G3: hlc_optic_ZF4xBase
-    {
-                author = "Krycek,Toadie";
-                dlc = "Niarms_G3";
-                displayname = "Hensoldt ZF(2D)";
-                descriptionshort = "Hensoldt-Wetzlar ZF 4x NATO Magnified Optic<br />Magnification: 4x";
-                model = "\hlc_wp_G3\mesh\ZFmod1\scope.p3d";
+    class hlc_optic_STANAGZF2D_G3: hlc_optic_ZF4xBase {
+        author = "Krycek,Toadie";
+        dlc = "Niarms_G3";
+        displayname = "Hensoldt ZF(2D)";
+        descriptionshort = "Hensoldt-Wetzlar ZF 4x NATO Magnified Optic<br />Magnification: 4x";
+        model = "\hlc_wp_G3\mesh\ZFmod1\scope.p3d";
+        weaponInfoType = "RscWeaponZeroing";
         class ItemInfo : InventoryOpticsItem_Base_F
         {
             mass = 15.4;
@@ -732,7 +734,6 @@ class CfgWeapons {
             };
         };
         inertia = 0.1;
-        tmr_optics_enhanced = 0;
     };
     class hlc_optic_STANAGZF_G3 : hlc_optic_STANAGZF2D_G3
     {
@@ -786,13 +787,12 @@ class CfgWeapons {
     };
         };
     class optic_lrps;
-    class hlc_optic_LeupoldM3A : optic_lrps
-    {
+    class hlc_optic_LeupoldM3A : optic_lrps {
         class ItemInfo;
     };
-                class hlc_optic_ZF95Base : optic_lrps {
+    class hlc_optic_ZF95Base : optic_lrps {
         class ItemInfo;
-            };
+    };
     class hlc_optic_ZF95_g3:hlc_optic_ZF95Base
     {
         scope = public;
@@ -800,6 +800,7 @@ class CfgWeapons {
         author = "Toadie,Krycek";
         model = "\hlc_wp_G3\mesh\ZF95\scope.p3d";
         displayname = "Kahles ZF95 (G3)";
+        weaponInfoType = "RscWeaponZeroing";
     };
 
     class hlc_optic_LeupoldM3A_G3 : hlc_optic_LeupoldM3A
@@ -808,7 +809,9 @@ class CfgWeapons {
         author = "Toadie,Krycek";
         model = "\hlc_wp_G3\mesh\M3A\scope.p3d";
         displayname = "Leupold M3A (G3)";
+        weaponInfoType = "RscWeaponZeroing";
     };
+
     //weapons
 
     class Rifle;
