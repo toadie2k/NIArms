@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+    <Package name="hlc_wp_MP5">
+        <Container name="Names">
+            <Key ID="STR_NIA_MP5A2">
+            <Original>H&amp;K MP5A2</Original>
+            <English>H&amp;K MP5A2</English>
+            <Czech>H&amp;K MP5A2</Czech>
+            <French>H&amp;K MP5A2</French>
+            <Spanish>H&amp;K MP5A2</Spanish>
+            <Italian>H&amp;K MP5A2</Italian>
+            <Polish>H&amp;K MP5A2</Polish>
+            <Portuguese>H&amp;K MP5A2</Portuguese>
+            <Russian>H&amp;K MP5A2</Russian>
+            <German>H&amp;K MP5A2</German>
+            <Japanese>H&amp;K MP5A2</Japanese>
+            <Korean>H&amp;K MP5A2</Korean>
+            <Chinesesimp>H&amp;K MP5A2</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A2_Sfire">
+            <Original>H&amp;K MP5A2 (Weaponlight)</Original>
+            <English>H&amp;K MP5A2 (Weaponlight)</English>
+            <Czech>H&amp;K MP5A2 (Weaponlight)</Czech>
+            <French>H&amp;K MP5A2 (Weaponlight)</French>
+            <Spanish>H&amp;K MP5A2 (Weaponlight)</Spanish>
+            <Italian>H&amp;K MP5A2 (Weaponlight)</Italian>
+            <Polish>H&amp;K MP5A2 (Weaponlight)</Polish>
+            <Portuguese>H&amp;K MP5A2 (Weaponlight)</Portuguese>
+            <Russian>H&amp;K MP5A2 (Weaponlight)</Russian>
+            <German>H&amp;K MP5A2 (Weaponlight)</German>
+            <Japanese>H&amp;K MP5A2 (Weaponlight)</Japanese>
+            <Korean>H&amp;K MP5A2 (Weaponlight)</Korean>
+            <Chinesesimp>H&amp;K MP5A2 (Weaponlight)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A2_Tac">
+            <Original>H&amp;K MP5A2 (TAC)</Original>
+            <English>H&amp;K MP5A2 (TAC)</English>
+            <Czech>H&amp;K MP5A2 (TAC)</Czech>
+            <French>H&amp;K MP5A2 (TAC)</French>
+            <Spanish>H&amp;K MP52 (TAC)</Spanish>
+            <Italian>H&amp;K MP5A2 (TAC)</Italian>
+            <Polish>H&amp;K MP5A2 (TAC)</Polish>
+            <Portuguese>H&amp;K MP5A2 (TAC)</Portuguese>
+            <Russian>H&amp;K MP5A2 (TAC)</Russian>
+            <German>H&amp;K MP5A2 (TAC)</German>
+            <Japanese>H&amp;K MP5A2 (TAC)</Japanese>
+            <Korean>H&amp;K MP5A2 (TAC)</Korean>
+            <Chinesesimp>H&amp;K MP5A2 (TAC)</Chinesesimp>
+          </Key>
+            <Key ID="STR_NIA_MP5A3">
+            <Original>H&amp;K MP5A3</Original>
+            <English>H&amp;K MP5A3</English>
+            <Czech>H&amp;K MP5A3</Czech>
+            <French>H&amp;K MP5A3</French>
+            <Spanish>H&amp;K MP5A3</Spanish>
+            <Italian>H&amp;K MP5A3</Italian>
+            <Polish>H&amp;K MP5A3</Polish>
+            <Portuguese>H&amp;K MP5A3</Portuguese>
+            <Russian>H&amp;K MP5A3</Russian>
+            <German>H&amp;K MP5A3</German>
+            <Japanese>H&amp;K MP5A3</Japanese>
+            <Korean>H&amp;K MP5A3</Korean>
+            <Chinesesimp>H&amp;K MP5A3</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A4">
+            <Original>H&amp;K MP5A4</Original>
+            <English>H&amp;K MP5A4</English>
+            <Czech>H&amp;K MP5A4</Czech>
+            <French>H&amp;K MP5A4</French>
+            <Spanish>H&amp;K MP5A4</Spanish>
+            <Italian>H&amp;K MP5A4</Italian>
+            <Polish>H&amp;K MP5A4</Polish>
+            <Portuguese>H&amp;K MP5A4</Portuguese>
+            <Russian>H&amp;K MP5A4</Russian>
+            <German>H&amp;K MP5A4</German>
+            <Japanese>H&amp;K MP5A4</Japanese>
+            <Korean>H&amp;K MP5A4</Korean>
+            <Chinesesimp>H&amp;K MP5A4</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A3_Tac">
+            <Original>H&amp;K MP5A3 (TAC)</Original>
+            <English>H&amp;K MP5A3 (TAC)</English>
+            <Czech>H&amp;K MP5A3 (TAC)</Czech>
+            <French>H&amp;K MP5A3 (TAC)</French>
+            <Spanish>H&amp;K MP53 (TAC)</Spanish>
+            <Italian>H&amp;K MP5A3 (TAC)</Italian>
+            <Polish>H&amp;K MP5A3 (TAC)</Polish>
+            <Portuguese>H&amp;K MP5A3 (TAC)</Portuguese>
+            <Russian>H&amp;K MP5A3 (TAC)</Russian>
+            <German>H&amp;K MP5A3 (TAC)</German>
+            <Japanese>H&amp;K MP5A3 (TAC)</Japanese>
+            <Korean>H&amp;K MP5A3 (TAC)</Korean>
+            <Chinesesimp>H&amp;K MP5A3 (TAC)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A4_TAC">
+            <Original>H&amp;K MP5A4 (TAC)</Original>
+            <English>H&amp;K MP5A4 (TAC)</English>
+            <Czech>H&amp;K MP5A4(TAC)</Czech>
+            <French>H&amp;K MP5A4(TAC)</French>
+            <Spanish>H&amp;K MP5A4(TAC)</Spanish>
+            <Italian>H&amp;K MP5A4(TAC)</Italian>
+            <Polish>H&amp;K MP5A4(TAC)</Polish>
+            <Portuguese>H&amp;K MP5A4(TAC)</Portuguese>
+            <Russian>H&amp;K MP5A4(TAC)</Russian>
+            <German>H&amp;K MP5A4(TAC)</German>
+            <Japanese>H&amp;K MP5A4(TAC)</Japanese>
+            <Korean>H&amp;K MP5A4(TAC)</Korean>
+            <Chinesesimp>H&amp;K MP5A4(TAC)</Chinesesimp>
+          </Key>
+            <Key ID="STR_NIA_MP5A5">
+            <Original>H&amp;K MP5A5</Original>
+            <English>H&amp;K MP5A5</English>
+            <Czech>H&amp;K MP5A5</Czech>
+            <French>H&amp;K MP5A5</French>
+            <Spanish>H&amp;K MP5A5</Spanish>
+            <Italian>H&amp;K MP5A5</Italian>
+            <Polish>H&amp;K MP5A5</Polish>
+            <Portuguese>H&amp;K MP5A5</Portuguese>
+            <Russian>H&amp;K MP5A5</Russian>
+            <German>H&amp;K MP5A5</German>
+            <Japanese>H&amp;K MP5A5</Japanese>
+            <Korean>H&amp;K MP5A5</Korean>
+            <Chinesesimp>H&amp;K MP5A5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5A5_Tac">
+            <Original>H&amp;K MP5A5 (TAC)</Original>
+            <English>H&amp;K MP5A5 (TAC)</English>
+            <Czech>H&amp;K MP5A5 (TAC)</Czech>
+            <French>H&amp;K MP5A5 (TAC)</French>
+            <Spanish>H&amp;K MP5A5 (TAC)</Spanish>
+            <Italian>H&amp;K MP5A5 (TAC)</Italian>
+            <Polish>H&amp;K MP5A5 (TAC)</Polish>
+            <Portuguese>H&amp;K MP5A5 (TAC)</Portuguese>
+            <Russian>H&amp;K MP5A5 (TAC)</Russian>
+            <German>H&amp;K MP5A5 (TAC)</German>
+            <Japanese>H&amp;K MP5A5 (TAC)</Japanese>
+            <Korean>H&amp;K MP5A5 (TAC)</Korean>
+            <Chinesesimp>H&amp;K MP5A5 (TAC)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5SD5">
+            <Original>H&amp;K MP5SD5</Original>
+            <English>H&amp;K MP5SD5</English>
+            <Czech>H&amp;K MP5SD5</Czech>
+            <French>H&amp;K MP5SD5</French>
+            <Spanish>H&amp;K MP5SD5</Spanish>
+            <Italian>H&amp;K MP5SD5</Italian>
+            <Polish>H&amp;K MP5SD5</Polish>
+            <Portuguese>H&amp;K MP5SD5</Portuguese>
+            <Russian>H&amp;K MP5SD5</Russian>
+            <German>H&amp;K MP5SD5</German>
+            <Japanese>H&amp;K MP5SD5</Japanese>
+            <Korean>H&amp;K MP5SD5</Korean>
+            <Chinesesimp>H&amp;K MP5SD5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5SD6">
+            <Original>H&amp;K MP5SD6</Original>
+            <English>H&amp;K MP5SD6</English>
+            <Czech>H&amp;K MP5SD6</Czech>
+            <French>H&amp;K MP5SD6</French>
+            <Spanish>H&amp;K MP5SD6</Spanish>
+            <Italian>H&amp;K MP5SD6</Italian>
+            <Polish>H&amp;K MP5SD6</Polish>
+            <Portuguese>H&amp;K MP5SD6</Portuguese>
+            <Russian>H&amp;K MP5SD6</Russian>
+            <German>H&amp;K MP5SD6</German>
+            <Japanese>H&amp;K MP5SD6</Japanese>
+            <Korean>H&amp;K MP5SD6</Korean>
+            <Chinesesimp>H&amp;K MP5SD6</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5K">
+            <Original>H&amp;K MP5K</Original>
+            <English>H&amp;K MP5K</English>
+            <Czech>H&amp;K MP5K</Czech>
+            <French>H&amp;K MP5K</French>
+            <Spanish>H&amp;K MP5K</Spanish>
+            <Italian>H&amp;K MP5K</Italian>
+            <Polish>H&amp;K MP5K</Polish>
+            <Portuguese>H&amp;K MP5K</Portuguese>
+            <Russian>H&amp;K MP5K</Russian>
+            <German>H&amp;K MP5K</German>
+            <Japanese>H&amp;K MP5K</Japanese>
+            <Korean>H&amp;K MP5K</Korean>
+            <Chinesesimp>H&amp;K MP5K</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5K-PDW">
+            <Original>H&amp;K MP5K-PDW</Original>
+            <English>H&amp;K MP5K-PDW</English>
+            <Czech>H&amp;K MP5K-PDW</Czech>
+            <French>H&amp;K MP5K-PDW</French>
+            <Spanish>H&amp;K MP5K-PDW</Spanish>
+            <Italian>H&amp;K MP5K-PDW</Italian>
+            <Polish>H&amp;K MP5K-PDW</Polish>
+            <Portuguese>H&amp;K MP5K-PDW</Portuguese>
+            <Russian>H&amp;K MP5K-PDW</Russian>
+            <German>H&amp;K MP5K-PDW</German>
+            <Japanese>H&amp;K MP5K-PDW</Japanese>
+            <Korean>H&amp;K MP5K-PDW</Korean>
+            <Chinesesimp>H&amp;K MP5K-PDW</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP5KA1">
+            <Original>H&amp;K MP5KA1</Original>
+            <English>H&amp;K MP5KA1</English>
+            <Czech>H&amp;K MP5KA1</Czech>
+            <French>H&amp;K MP5KA1</French>
+            <Spanish>H&amp;K MP5KA1</Spanish>
+            <Italian>H&amp;K MP5KA1</Italian>
+            <Polish>H&amp;K MP5KA1</Polish>
+            <Portuguese>H&amp;K MP5KA1</Portuguese>
+            <Russian>H&amp;K MP5KA1</Russian>
+            <German>H&amp;K MP5KA1</German>
+            <Japanese>H&amp;K MP5KA1</Japanese>
+            <Korean>H&amp;K MP5KA1</Korean>
+            <Chinesesimp>H&amp;K MP5KA1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP510">
+            <Original>H&amp;K MP5/10A4</Original>
+            <English>H&amp;K MP5/10A4</English>
+            <Czech>H&amp;K MP5/10A4</Czech>
+            <French>H&amp;K MP5/10A4</French>
+            <Spanish>H&amp;K MP5/10A4</Spanish>
+            <Italian>H&amp;K MP5/10A4</Italian>
+            <Polish>H&amp;K MP5/10A4</Polish>
+            <Portuguese>H&amp;K MP5/10A4</Portuguese>
+            <Russian>H&amp;K MP5/10A4</Russian>
+            <German>H&amp;K MP5/10A4</German>
+            <Japanese>H&amp;K MP5/10A4</Japanese>
+            <Korean>H&amp;K MP5/10A4</Korean>
+            <Chinesesimp>H&amp;K MP5/10A4</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP510_TAC">
+            <Original>H&amp;K MP5/10A4 (TAC)</Original>
+            <English>H&amp;K MP5/10A4 (TAC)</English>
+            <Czech>H&amp;K MP5/10A4 (TAC)</Czech>
+            <French>H&amp;K MP5/10A4 (TAC)</French>
+            <Spanish>H&amp;K MP5/10A4 (TAC)</Spanish>
+            <Italian>H&amp;K MP5/10A4 (TAC)</Italian>
+            <Polish>H&amp;K MP5/10A4 (TAC)</Polish>
+            <Portuguese>H&amp;K MP5/10A4 (TAC)</Portuguese>
+            <Russian>H&amp;K MP5/10A4 (TAC)</Russian>
+            <German>H&amp;K MP5/10A4 (TAC)</German>
+            <Japanese>H&amp;K MP5/10A4 (TAC)</Japanese>
+            <Korean>H&amp;K MP5/10A4 (TAC)</Korean>
+            <Chinesesimp>H&amp;K MP5/10A4 (TAC)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_9mmar">
+            <Original>H&amp;K MP5N &apos;9mmAR&apos;</Original>
+            <English>H&amp;K MP5N &apos;9mmAR&apos;</English>
+            <Czech>H&amp;K MP5N &apos;9mmAR&apos;</Czech>
+            <French>H&amp;K MP5N &apos;9mmAR&apos;</French>
+            <Spanish>H&amp;K MP5N &apos;9mmAR&apos;</Spanish>
+            <Italian>H&amp;K MP5N &apos;9mmAR&apos;</Italian>
+            <Polish>H&amp;K MP5N &apos;9mmAR&apos;</Polish>
+            <Portuguese>H&amp;K MP5N &apos;9mmAR&apos;</Portuguese>
+            <Russian>H&amp;K MP5N &apos;9mmAR&apos;</Russian>
+            <German>H&amp;K MP5N &apos;9mmAR&apos;</German>
+            <Japanese>H&amp;K MP5N &apos;9mmAR&apos;</Japanese>
+            <Korean>H&amp;K MP5N &apos;9mmAR&apos;</Korean>
+            <Chinesesimp>H&amp;K MP5N &apos;9mmAR&apos;</Chinesesimp>
+            </Key>
+
+      </Container>
+      <Container name="acc_names">
+        <Key ID="STR_NIA_Surefiregrip">
+          <Original>Surefire Weaponlight</Original>
+          <English>Surefire Weaponlight</English>
+          <Czech>Surefire Weaponlight</Czech>
+          <French>Surefire Weaponlight</French>
+          <Spanish>Surefire Weaponlight</Spanish>
+          <Italian>Surefire Weaponlight</Italian>
+          <Polish>Surefire Weaponlight</Polish>
+          <Portuguese>Surefire Weaponlight</Portuguese>
+          <Russian>Surefire Weaponlight</Russian>
+          <German>Surefire Weaponlight</German>
+          <Japanese>Surefire Weaponlight</Japanese>
+          <Korean>Surefire Weaponlight</Korean>
+          <Chinesesimp>Surefire Weaponlight</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_AgendaSix">
+          <Original>AWC Agenda Six (9mm)</Original>
+          <English>AWC Agenda Six (9mm)</English>
+          <Czech>AWC Agenda Six (9mm)</Czech>
+          <French>AWC Agenda Six (9mm)</French>
+          <Spanish>AWC Agenda Six (9mm)</Spanish>
+          <Italian>AWC Agenda Six (9mm)</Italian>
+          <Polish>AWC Agenda Six (9mm)</Polish>
+          <Portuguese>AWC Agenda Six (9mm)</Portuguese>
+          <Russian>AWC Agenda Six (9mm)</Russian>
+          <German>AWC Agenda Six (9mm)</German>
+          <Japanese>AWC Agenda Six (9mm)</Japanese>
+          <Korean>AWC Agenda Six (9mm)</Korean>
+          <Chinesesimp>AWC Agenda Six (9mm)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_AgendaSix10mm">
+          <Original>AWC Agenda Six (10mm)</Original>
+          <English>AWC Agenda Six (10mm)</English>
+          <Czech>AWC Agenda Six (10mm)</Czech>
+          <French>AWC Agenda Six (10mm)</French>
+          <Spanish>AWC Agenda Six (10mm)</Spanish>
+          <Italian>AWC Agenda Six (10mm)</Italian>
+          <Polish>AWC Agenda Six (10mm)</Polish>
+          <Portuguese>AWC Agenda Six (10mm)</Portuguese>
+          <Russian>AWC Agenda Six (10mm)</Russian>
+          <German>AWC Agenda Six (10mm)</German>
+          <Japanese>AWC Agenda Six (10mm)</Japanese>
+          <Korean>AWC Agenda Six (10mm)</Korean>
+          <Chinesesimp>AWC Agenda Six (10mm)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Slimguard">
+          <Original>H&amp;K Slim Handguard</Original>
+          <English>H&amp;K Slim Handguard</English>
+          <Czech>H&amp;K Slim Handguard</Czech>
+          <French>H&amp;K Slim Handguard</French>
+          <Spanish>H&amp;K Slim Handguard</Spanish>
+          <Italian>H&amp;K Slim Handguard</Italian>
+          <Polish>H&amp;K Slim Handguard</Polish>
+          <Portuguese>H&amp;K Slim Handguard</Portuguese>
+          <Russian>H&amp;K Slim Handguard</Russian>
+          <German>H&amp;K Slim Handguard</German>
+          <Japanese>H&amp;K Slim Handguard</Japanese>
+          <Korean>H&amp;K Slim Handguard</Korean>
+          <Chinesesimp>H&amp;K Slim Handguard</Chinesesimp>
+        </Key>
+      </Container>
+      <Container name="Mag_Names">
+            <Key ID="STR_NIA_30Rnd_9x19_B_MP5">
+            <Original>9mm FMJ 30Rnd MP5 Magazine</Original>
+            <English>9mm FMJ 30Rnd MP5 Magazine</English>
+            <Czech>9mm FMJ 30Rnd MP5 Magazine</Czech>
+            <French>9mm FMJ 30Rnd MP5 Magazine</French>
+            <Spanish>9mm FMJ 30Rnd MP5 Magazine</Spanish>
+            <Italian>9mm FMJ 30Rnd MP5 Magazine</Italian>
+            <Polish>9mm FMJ 30Rnd MP5 Magazine</Polish>
+            <Portuguese>9mm FMJ 30Rnd MP5 Magazine</Portuguese>
+            <Russian>9mm FMJ 30Rnd MP5 Magazine</Russian>
+            <German>9mm FMJ 30Rnd MP5 Magazine</German>
+            <Japanese>9mm FMJ 30Rnd MP5 Magazine</Japanese>
+            <Korean>9mm FMJ 30Rnd MP5 Magazine</Korean>
+            <Chinesesimp>9mm FMJ 30Rnd MP5 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_9x19_GD_MP5">
+            <Original>9mm JHP 30Rnd MP5 Magazine</Original>
+            <English>9mm JHP 30Rnd MP5 Magazine</English>
+            <Czech>9mm JHP 30Rnd MP5 Magazine</Czech>
+            <French>9mm JHP 30Rnd MP5 Magazine</French>
+            <Spanish>9mm JHP 30Rnd MP5 Magazine</Spanish>
+            <Italian>9mm JHP 30Rnd MP5 Magazine</Italian>
+            <Polish>9mm JHP 30Rnd MP5 Magazine</Polish>
+            <Portuguese>9mm JHP 30Rnd MP5 Magazine</Portuguese>
+            <Russian>9mm JHP 30Rnd MP5 Magazine</Russian>
+            <German>9mm JHP 30Rnd MP5 Magazine</German>
+            <Japanese>9mm JHP 30Rnd MP5 Magazine</Japanese>
+            <Korean>9mm JHP 30Rnd MP5 Magazine</Korean>
+            <Chinesesimp>9mm JHP 30Rnd MP5 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_9x19_SD_MP5">
+            <Original>9mm Subsonic 30Rnd MP5 Magazine</Original>
+            <English>9mm Subsonic 30Rnd MP5 Magazine</English>
+            <Czech>9mm Subsonic 30Rnd MP5 Magazine</Czech>
+            <French>9mm Subsonic 30Rnd MP5 Magazine</French>
+            <Spanish>9mm Subsonic 30Rnd MP5 Magazine</Spanish>
+            <Italian>9mm Subsonic 30Rnd MP5 Magazine</Italian>
+            <Polish>9mm Subsonic 30Rnd MP5 Magazine</Polish>
+            <Portuguese>9mm Subsonic 30Rnd MP5 Magazine</Portuguese>
+            <Russian>9mm Subsonic 30Rnd MP5 Magazine</Russian>
+            <German>9mm Subsonic 30Rnd MP5 Magazine</German>
+            <Japanese>9mm Subsonic 30Rnd MP5 Magazine</Japanese>
+            <Korean>9mm Subsonic 30Rnd MP5 Magazine</Korean>
+            <Chinesesimp>9mm Subsonic 30Rnd MP5 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_10mm_B_MP5">
+            <Original>10mm FMJ 30Rnd MP5/10 Magazine</Original>
+            <English>10mm FMJ 30Rnd MP5/10 Magazine</English>
+            <Czech>10mm FMJ 30Rnd MP5/10 Magazine</Czech>
+            <French>10mm FMJ 30Rnd MP5/10 Magazine</French>
+            <Spanish>10mm FMJ 30Rnd MP5/10 Magazine</Spanish>
+            <Italian>10mm FMJ 30Rnd MP5/10 Magazine</Italian>
+            <Polish>10mm FMJ 30Rnd MP5/10 Magazine</Polish>
+            <Portuguese>10mm FMJ 30Rnd MP5/10 Magazine</Portuguese>
+            <Russian>10mm FMJ 30Rnd MP5/10 Magazine</Russian>
+            <German>10mm FMJ 30Rnd MP5/10 Magazine</German>
+            <Japanese>10mm FMJ 30Rnd MP5/10 Magazine</Japanese>
+            <Korean>10mm FMJ 30Rnd MP5/10 Magazine</Korean>
+            <Chinesesimp>10mm FMJ 30Rnd MP5/10 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_10mm_JHP_MP5">
+            <Original>10mm JHP 30Rnd MP5/10 Magazine</Original>
+            <English>10mm JHP 30Rnd MP5/10 Magazine</English>
+            <Czech>10mm JHP 30Rnd MP5/10 Magazine</Czech>
+            <French>10mm JHP 30Rnd MP5/10 Magazine</French>
+            <Spanish>10mm JHP 30Rnd MP5/10 Magazine</Spanish>
+            <Italian>10mm JHP 30Rnd MP5/10 Magazine</Italian>
+            <Polish>10mm JHP 30Rnd MP5/10 Magazine</Polish>
+            <Portuguese>10mm JHP 30Rnd MP5/10 Magazine</Portuguese>
+            <Russian>10mm JHP 30Rnd MP5/10 Magazine</Russian>
+            <German>10mm JHP 30Rnd MP5/10 Magazine</German>
+            <Japanese>10mm JHP 30Rnd MP5/10 Magazine</Japanese>
+            <Korean>10mm JHP 30Rnd MP5/10 Magazine</Korean>
+            <Chinesesimp>10mm JHP 30Rnd MP5/10 Magazine</Chinesesimp>
+            </Key>
+      </Container>
+      <Container name="Descriptions">
+            <Key ID="STR_NIA_MP5_DESC">
+            <Original>SMG&lt;br/&gt;Caliber:9x19mm NATO</Original>
+            <English>SMG&lt;br/&gt;Caliber:9x19mm NATO</English>
+            <Czech>SMG&lt;br/&gt;Caliber:9x19mm NATO</Czech>
+            <French>SMG&lt;br/&gt;Caliber:9x19mm NATO</French>
+            <Spanish>SMG&lt;br/&gt;Caliber:9x19mm NATO</Spanish>
+            <Italian>SMG&lt;br/&gt;Caliber:9x19mm NATO</Italian>
+            <Polish>SMG&lt;br/&gt;Caliber:9x19mm NATO</Polish>
+            <Portuguese>SMG&lt;br/&gt;Caliber:9x19mm NATO</Portuguese>
+            <Russian>SMG&lt;br/&gt;Caliber:9x19mm NATO</Russian>
+            <German>SMG&lt;br/&gt;Caliber:9x19mm NATO</German>
+            <Japanese>SMG&lt;br/&gt;Caliber:9x19mm NATO</Japanese>
+            <Korean>SMG&lt;br/&gt;Caliber:9x19mm NATO</Korean>
+            <Chinesesimp>SMG&lt;br/&gt;Caliber:9x19mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_MP510_DESC">
+            <Original>SMG&lt;br/&gt;Caliber:10mm AUTO</Original>
+            <English>SMG&lt;br/&gt;Caliber:10mm AUTO</English>
+            <Czech>SMG&lt;br/&gt;Caliber:10mm AUTO</Czech>
+            <French>SMG&lt;br/&gt;Caliber:10mm AUTO</French>
+            <Spanish>SMG&lt;br/&gt;Caliber:10mm AUTO</Spanish>
+            <Italian>SMG&lt;br/&gt;Caliber:10mm AUTO</Italian>
+            <Polish>SMG&lt;br/&gt;Caliber:10mm AUTO</Polish>
+            <Portuguese>SMG&lt;br/&gt;Caliber:10mm AUTO</Portuguese>
+            <Russian>SMG&lt;br/&gt;Caliber:10mm AUTO</Russian>
+            <German>SMG&lt;br/&gt;Caliber:10mm AUTO</German>
+            <Japanese>SMG&lt;br/&gt;Caliber:10mm AUTO</Japanese>
+            <Korean>SMG&lt;br/&gt;Caliber:10mm AUTO</Korean>
+            <Chinesesimp>SMG&lt;br/&gt;Caliber:10mm AUTO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_9x19_B_MP5">
+            <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Original>
+            <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</English>
+            <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Czech>
+            <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</French>
+            <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Spanish>
+            <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Italian>
+            <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Polish>
+            <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
+            <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
+            <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
+            <Japanese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Japanese>
+            <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
+            <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_9x19_GD_MP5">
+            <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Original>
+            <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</English>
+            <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Czech>
+            <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</French>
+            <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Spanish>
+            <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Italian>
+            <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Polish>
+            <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Portuguese>
+            <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Russian>
+            <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</German>
+            <Japanese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Japanese>
+            <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Korean>
+            <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_9x19_SD_MP5">
+            <Original>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Original>
+            <English>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</English>
+            <Czech>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Czech>
+            <French>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</French>
+            <Spanish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Spanish>
+            <Italian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Italian>
+            <Polish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Polish>
+            <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
+            <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
+            <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
+            <Japanese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Japanese>
+            <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
+            <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_10mm_B_MP5">
+            <Original>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Original>
+            <English>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</English>
+            <Czech>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Czech>
+            <French>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</French>
+            <Spanish>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Spanish>
+            <Italian>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Italian>
+            <Polish>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Polish>
+            <Portuguese>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Portuguese>
+            <Russian>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Russian>
+            <German>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</German>
+            <Japanese>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Japanese>
+            <Korean>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Korean>
+            <Chinesesimp>Caliber: 10mm AUTO Heavy FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_10mm_JHP_MP5">
+            <Original>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Original>
+            <English>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</English>
+            <Czech>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Czech>
+            <French>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</French>
+            <Spanish>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Spanish>
+            <Italian>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Italian>
+            <Polish>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Polish>
+            <Portuguese>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Portuguese>
+            <Russian>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Russian>
+            <German>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</German>
+            <Japanese>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Japanese>
+            <Korean>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Korean>
+            <Chinesesimp>Caliber: 10mm AUTO Low Flash JHP&lt;br/&gt;Type: Jacketed Hollow Point (Barnes TAC-XP Bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+        <Key ID="STR_NIA_Slimline_DESC">
+          <Original>Slimline&lt;br/&gt;Purely Aesthetic</Original>
+          <English>Slimline&lt;br/&gt;Purely Aesthetic</English>
+          <Czech>Slimline&lt;br/&gt;Purely Aesthetic</Czech>
+          <French>Slimline&lt;br/&gt;Purely Aesthetic</French>
+          <Spanish>Slimline&lt;br/&gt;Purely Aesthetic</Spanish>
+          <Italian>Slimline&lt;br/&gt;Purely Aesthetic</Italian>
+          <Polish>Slimline&lt;br/&gt;Purely Aesthetic</Polish>
+          <Portuguese>Slimline&lt;br/&gt;Purely Aesthetic</Portuguese>
+          <Russian>Slimline&lt;br/&gt;Purely Aesthetic</Russian>
+          <German>Slimline&lt;br/&gt;Purely Aesthetic</German>
+          <Japanese>Slimline&lt;br/&gt;Purely Aesthetic</Japanese>
+          <Korean>Slimline&lt;br/&gt;Purely Aesthetic</Korean>
+          <Chinesesimp>Slimline&lt;br/&gt;Purely Aesthetic</Chinesesimp>
+        </Key>
+      </Container>
+    </Package>
+</Project>

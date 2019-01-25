@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_M60E4">
+    <Container name="Names">
+      <Key ID="STR_NIA_M60E4">
+        <Original>M60E4</Original>
+        <English>M60E4</English>
+        <Czech>M60E4</Czech>
+        <French>M60E4</French>
+        <Spanish>M60E4</Spanish>
+        <Italian>M60E4</Italian>
+        <Polish>M60E4</Polish>
+        <Portuguese>M60E4</Portuguese>
+        <Russian>M60E4</Russian>
+        <German>M60E4</German>
+        <Japanese>M60E4</Japanese>
+        <Korean>M60E4</Korean>
+        <Chinesesimp>M60E4</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M60">
+        <Original>M60</Original>
+        <English>M60</English>
+        <Czech>M60</Czech>
+        <French>M60</French>
+        <Spanish>M60</Spanish>
+        <Italian>M60</Italian>
+        <Polish>M60</Polish>
+        <Portuguese>M60</Portuguese>
+        <Russian>M60</Russian>
+        <German>M60</German>
+        <Japanese>M60</Japanese>
+        <Korean>M60</Korean>
+        <Chinesesimp>M60</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_M60_DESC">
+        <Original>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>
