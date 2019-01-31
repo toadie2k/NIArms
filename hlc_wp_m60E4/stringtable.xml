@@ -28,9 +28,9 @@
         <Portuguese>M60</Portuguese>
         <Russian>M60</Russian>
         <German>M60</German>
-        <Japanese>M60</Japanese>
         <Korean>M60</Korean>
         <Chinesesimp>M60</Chinesesimp>
+        <Japanese>M60</Japanese>
       </Key>
     </Container>
     <Container name="Descriptions">
@@ -45,7 +45,7 @@
         <Portuguese>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>汎用機関銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Medium Machine Gun&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
