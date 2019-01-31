@@ -58,7 +58,7 @@
         <Portuguese>FMJ Subsonic</Portuguese>
         <Russian>FMJ Subsonic</Russian>
         <German>FMJ Subsonic</German>
-        <Japanese>FMJ Subsonic</Japanese>
+        <Japanese>FMJ 亜音速</Japanese>
         <Korean>FMJ Subsonic</Korean>
         <Chinesesimp>FMJ Subsonic</Chinesesimp>
       </Key>
@@ -73,7 +73,7 @@
         <Portuguese>M856A1 Tracer</Portuguese>
         <Russian>M856A1 Tracer</Russian>
         <German>M856A1 Tracer</German>
-        <Japanese>M856A1 Tracer</Japanese>
+        <Japanese>M856A1 曳光弾</Japanese>
         <Korean>M856A1 Tracer</Korean>
         <Chinesesimp>M856A1 Tracer</Chinesesimp>
       </Key>
@@ -118,11 +118,10 @@
         <Portuguese>EPR/Tracer</Portuguese>
         <Russian>EPR/Tracer</Russian>
         <German>EPR/Tracer</German>
-        <Japanese>EPR/Tracer</Japanese>
+        <Japanese>EPR/曳光弾</Japanese>
         <Korean>EPR/Tracer</Korean>
         <Chinesesimp>EPR/Tracer</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_68x43_FMJ">
         <Original>FMJ</Original>
         <English>FMJ</English>
@@ -149,7 +148,7 @@
         <Portuguese>Ballistic Tip</Portuguese>
         <Russian>Ballistic Tip</Russian>
         <German>Ballistic Tip</German>
-        <Japanese>Ballistic Tip</Japanese>
+        <Japanese>中空弾頭</Japanese>
         <Korean>Ballistic Tip</Korean>
         <Chinesesimp>Ballistic Tip</Chinesesimp>
       </Key>
@@ -164,7 +163,7 @@
         <Portuguese>FMJ Subsonic</Portuguese>
         <Russian>FMJ Subsonic</Russian>
         <German>FMJ Subsonic</German>
-        <Japanese>FMJ Subsonic</Japanese>
+        <Japanese>FMJ 亜音速</Japanese>
         <Korean>FMJ Subsonic</Korean>
         <Chinesesimp>FMJ Subsonic</Chinesesimp>
       </Key>
@@ -179,7 +178,7 @@
         <Portuguese>Tracer</Portuguese>
         <Russian>Tracer</Russian>
         <German>Tracer</German>
-        <Japanese>Tracer</Japanese>
+        <Japanese>曳光弾</Japanese>
         <Korean>Tracer</Korean>
         <Chinesesimp>Tracer</Chinesesimp>
       </Key>
@@ -224,11 +223,10 @@
         <Portuguese>FMJ/Tracer</Portuguese>
         <Russian>FMJ/Tracer</Russian>
         <German>FMJ/Tracer</German>
-        <Japanese>FMJ/Tracer</Japanese>
+        <Japanese>FMJ/曳光弾</Japanese>
         <Korean>FMJ/Tracer</Korean>
         <Chinesesimp>FMJ/Tracer</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_762NATO_EPR">
         <Original>M80A1 EPR</Original>
         <English>M80A1 EPR</English>
@@ -285,7 +283,7 @@
         <Portuguese>M62A1 Tracer</Portuguese>
         <Russian>M62A1 Tracer</Russian>
         <German>M62A1 Tracer</German>
-        <Japanese>M62A1 Tracer</Japanese>
+        <Japanese>M62A1 曳光弾</Japanese>
         <Korean>M62A1 Tracer</Korean>
         <Chinesesimp>M62A1 Tracer</Chinesesimp>
       </Key>
@@ -315,7 +313,7 @@
         <Portuguese>FMJ Subsonic</Portuguese>
         <Russian>FMJ Subsonic</Russian>
         <German>FMJ Subsonic</German>
-        <Japanese>FMJ Subsonic</Japanese>
+        <Japanese>FMJ 亜音速</Japanese>
         <Korean>FMJ Subsonic</Korean>
         <Chinesesimp>FMJ Subsonic</Chinesesimp>
       </Key>
@@ -330,7 +328,7 @@
         <Portuguese>Mk319/Tracer</Portuguese>
         <Russian>Mk319/Tracer</Russian>
         <German>Mk319/Tracer</German>
-        <Japanese>Mk319/Tracer</Japanese>
+        <Japanese>Mk319/曳光弾</Japanese>
         <Korean>Mk319/Tracer</Korean>
         <Chinesesimp>Mk319/Tracer</Chinesesimp>
       </Key>
@@ -360,11 +358,10 @@
         <Portuguese>EPR/Tracer</Portuguese>
         <Russian>EPR/Tracer</Russian>
         <German>EPR/Tracer</German>
-        <Japanese>EPR/Tracer</Japanese>
+        <Japanese>EPR/曳光弾</Japanese>
         <Korean>EPR/Tracer</Korean>
         <Chinesesimp>EPR/Tracer</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_545_FMJ">
         <Original>7N6M FMJ</Original>
         <English>7N6M FMJ</English>
@@ -391,7 +388,7 @@
         <Portuguese>7U1 Subsonic</Portuguese>
         <Russian>7U1 Subsonic</Russian>
         <German>7U1 Subsonic</German>
-        <Japanese>7U1 Subsonic</Japanese>
+        <Japanese>7U1 亜音速</Japanese>
         <Korean>7U1 Subsonic</Korean>
         <Chinesesimp>7U1 Subsonic</Chinesesimp>
       </Key>
@@ -406,7 +403,7 @@
         <Portuguese>7T3 Tracer</Portuguese>
         <Russian>7T3 Tracer</Russian>
         <German>7T3 Tracer</German>
-        <Japanese>7T3 Tracer</Japanese>
+        <Japanese>7T3 曳光弾</Japanese>
         <Korean>7T3 Tracer</Korean>
         <Chinesesimp>7T3 Tracer</Chinesesimp>
       </Key>
@@ -421,7 +418,7 @@
         <Portuguese>FMJ/Tracer</Portuguese>
         <Russian>FMJ/Tracer</Russian>
         <German>FMJ/Tracer</German>
-        <Japanese>FMJ/Tracer</Japanese>
+        <Japanese>FMJ/曳光弾</Japanese>
         <Korean>FMJ/Tracer</Korean>
         <Chinesesimp>FMJ/Tracer</Chinesesimp>
       </Key>
@@ -440,7 +437,6 @@
         <Korean>7N10 EP-FMJ</Korean>
         <Chinesesimp>7N10 EP-FMJ</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_762x39_FMJ">
         <Original>57-N-231S FMJ</Original>
         <English>57-N-231S FMJ</English>
@@ -467,7 +463,7 @@
         <Portuguese>57-N-231P Tracer</Portuguese>
         <Russian>57-N-231P Tracer</Russian>
         <German>57-N-231P Tracer</German>
-        <Japanese>57-N-231P Tracer</Japanese>
+        <Japanese>57-N-231P 曳光弾</Japanese>
         <Korean>57-N-231P Tracer</Korean>
         <Chinesesimp>57-N-231P Tracer</Chinesesimp>
       </Key>
@@ -482,7 +478,7 @@
         <Portuguese>FMJ/Tracer</Portuguese>
         <Russian>FMJ/Tracer</Russian>
         <German>FMJ/Tracer</German>
-        <Japanese>FMJ/Tracer</Japanese>
+        <Japanese>FMJ/曳光弾</Japanese>
         <Korean>FMJ/Tracer</Korean>
         <Chinesesimp>FMJ/Tracer</Chinesesimp>
       </Key>
@@ -512,11 +508,10 @@
         <Portuguese>57-N-321U Subsonic</Portuguese>
         <Russian>57-N-321U Subsonic</Russian>
         <German>57-N-321U Subsonic</German>
-        <Japanese>57-N-321U Subsonic</Japanese>
+        <Japanese>57-N-321U 亜音速</Japanese>
         <Korean>57-N-321U Subsonic</Korean>
         <Chinesesimp>57-N-321U Subsonic</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_9x19mm_FMJ">
         <Original>M882 FMJ</Original>
         <English>M882 FMJ</English>
@@ -558,11 +553,10 @@
         <Portuguese>FMJ Subsonic</Portuguese>
         <Russian>FMJ Subsonic</Russian>
         <German>FMJ Subsonic</German>
-        <Japanese>FMJ Subsonic</Japanese>
+        <Japanese>FMJ 亜音速</Japanese>
         <Korean>FMJ Subsonic</Korean>
         <Chinesesimp>FMJ Subsonic</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_10mmAUTO_FMJ">
         <Original>FMJ-FN</Original>
         <English>FMJ-FN</English>
@@ -604,7 +598,7 @@
         <Portuguese>HE Grenade</Portuguese>
         <Russian>HE Grenade</Russian>
         <German>HE Grenade</German>
-        <Japanese>HE Grenade</Japanese>
+        <Japanese>HE グレネード</Japanese>
         <Korean>HE Grenade</Korean>
         <Chinesesimp>HE Grenade</Chinesesimp>
       </Key>
@@ -619,7 +613,7 @@
         <Portuguese>White Smoke</Portuguese>
         <Russian>White Smoke</Russian>
         <German>White Smoke</German>
-        <Japanese>White Smoke</Japanese>
+        <Japanese>発煙弾 (白)</Japanese>
         <Korean>White Smoke</Korean>
         <Chinesesimp>White Smoke</Chinesesimp>
       </Key>
@@ -634,7 +628,7 @@
         <Portuguese>Red Smoke</Portuguese>
         <Russian>Red Smoke</Russian>
         <German>Red Smoke</German>
-        <Japanese>Red Smoke</Japanese>
+        <Japanese>発煙弾 (赤)</Japanese>
         <Korean>Red Smoke</Korean>
         <Chinesesimp>Red Smoke</Chinesesimp>
       </Key>
@@ -649,7 +643,7 @@
         <Portuguese>Green Smoke</Portuguese>
         <Russian>Green Smoke</Russian>
         <German>Green Smoke</German>
-        <Japanese>Green Smoke</Japanese>
+        <Japanese>発煙弾 (緑)</Japanese>
         <Korean>Green Smoke</Korean>
         <Chinesesimp>Green Smoke</Chinesesimp>
       </Key>
@@ -664,7 +658,7 @@
         <Portuguese>Yellow Smoke</Portuguese>
         <Russian>Yellow Smoke</Russian>
         <German>Yellow Smoke</German>
-        <Japanese>Yellow Smoke</Japanese>
+        <Japanese>発煙弾 (黄)</Japanese>
         <Korean>Yellow Smoke</Korean>
         <Chinesesimp>Yellow Smoke</Chinesesimp>
       </Key>
@@ -679,7 +673,7 @@
         <Portuguese>Orange Smoke</Portuguese>
         <Russian>Orange Smoke</Russian>
         <German>Orange Smoke</German>
-        <Japanese>Orange Smoke</Japanese>
+        <Japanese>発煙弾 (橙)</Japanese>
         <Korean>Orange Smoke</Korean>
         <Chinesesimp>Orange Smoke</Chinesesimp>
       </Key>
@@ -694,7 +688,7 @@
         <Portuguese>Purple Smoke</Portuguese>
         <Russian>Purple Smoke</Russian>
         <German>Purple Smoke</German>
-        <Japanese>Purple Smoke</Japanese>
+        <Japanese>発煙弾 (紫)</Japanese>
         <Korean>Purple Smoke</Korean>
         <Chinesesimp>Purple Smoke</Chinesesimp>
       </Key>
@@ -709,13 +703,13 @@
         <Portuguese>Blue Smoke</Portuguese>
         <Russian>Blue Smoke</Russian>
         <German>Blue Smoke</German>
-        <Japanese>Blue Smoke</Japanese>
+        <Japanese>発煙弾 (青)</Japanese>
         <Korean>Blue Smoke</Korean>
         <Chinesesimp>Blue Smoke</Chinesesimp>
       </Key>
     </Container>
     <Container name="Mag_Names">
-    <Key ID="STR_NIA_30rnd_556x45_EPR">
+      <Key ID="STR_NIA_30rnd_556x45_EPR">
         <Original>5.56mm EPR 30Rnd STANAG</Original>
         <English>5.56mm EPR 30Rnd STANAG</English>
         <Czech>5.56mm EPR 30Rnd STANAG</Czech>
@@ -726,7 +720,7 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG</Russian>
         <German>5.56mm EPR 30Rnd STANAG</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAG</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -741,7 +735,7 @@
         <Portuguese>5.56mm SOST 30Rnd STANAG</Portuguese>
         <Russian>5.56mm SOST 30Rnd STANAG</Russian>
         <German>5.56mm SOST 30Rnd STANAG</German>
-        <Japanese>5.56mm SOST 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm SOST 30発入り STANAG</Japanese>
         <Korean>5.56mm SOST 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -756,7 +750,7 @@
         <Portuguese>5.56mm SBLR 30Rnd STANAG</Portuguese>
         <Russian>5.56mm SBLR 30Rnd STANAG</Russian>
         <German>5.56mm SBLR 30Rnd STANAG</German>
-        <Japanese>5.56mm SBLR 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm SBLR 30発入り STANAG</Japanese>
         <Korean>5.56mm SBLR 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -771,7 +765,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd STANAG</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd STANAG</Russian>
         <German>5.56mm Subsonic 30Rnd STANAG</German>
-        <Japanese>5.56mm Subsonic 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り STANAG</Japanese>
         <Korean>5.56mm Subsonic 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -786,7 +780,7 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd STANAG (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAG (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG (Tracers every 4)</Chinesesimp>
       </Key>
@@ -801,7 +795,7 @@
         <Portuguese>5.56mm Tracer 30Rnd STANAG</Portuguese>
         <Russian>5.56mm Tracer 30Rnd STANAG</Russian>
         <German>5.56mm Tracer 30Rnd STANAG</German>
-        <Japanese>5.56mm Tracer 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り STANAG</Japanese>
         <Korean>5.56mm Tracer 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -816,7 +810,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd STANAG</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd STANAG</Russian>
         <German>5.56mm IR-DIM 30Rnd STANAG</German>
-        <Japanese>5.56mm IR-DIM 30Rnd STANAG</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り STANAG</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd STANAG</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd STANAG</Chinesesimp>
       </Key>
@@ -831,11 +825,10 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAG (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_50rnd_556x45_EPR">
         <Original>5.56mm EPR 50Rnd X15</Original>
         <English>5.56mm EPR 50Rnd X15</English>
@@ -847,7 +840,7 @@
         <Portuguese>5.56mm EPR 50Rnd X15</Portuguese>
         <Russian>5.56mm EPR 50Rnd X15</Russian>
         <German>5.56mm EPR 50Rnd X15</German>
-        <Japanese>5.56mm EPR 50Rnd X15</Japanese>
+        <Japanese>5.56mm EPR 50発入り X15</Japanese>
         <Korean>5.56mm EPR 50Rnd X15</Korean>
         <Chinesesimp>5.56mm EPR 50Rnd X15</Chinesesimp>
       </Key>
@@ -862,7 +855,7 @@
         <Portuguese>5.56mm SOST 50Rnd X15</Portuguese>
         <Russian>5.56mm SOST 50Rnd X15</Russian>
         <German>5.56mm SOST 50Rnd X15</German>
-        <Japanese>5.56mm SOST 50Rnd X15</Japanese>
+        <Japanese>5.56mm SOST 50発入り X15</Japanese>
         <Korean>5.56mm SOST 50Rnd X15</Korean>
         <Chinesesimp>5.56mm SOST 50Rnd X15</Chinesesimp>
       </Key>
@@ -877,7 +870,7 @@
         <Portuguese>5.56mm SBLR 50Rnd X15</Portuguese>
         <Russian>5.56mm SBLR 50Rnd X15</Russian>
         <German>5.56mm SBLR 50Rnd X15</German>
-        <Japanese>5.56mm SBLR 50Rnd X15</Japanese>
+        <Japanese>5.56mm SBLR 50発入り X15</Japanese>
         <Korean>5.56mm SBLR 50Rnd X15</Korean>
         <Chinesesimp>5.56mm SBLR 50Rnd X15</Chinesesimp>
       </Key>
@@ -892,7 +885,7 @@
         <Portuguese>5.56mm Subsonic 50Rnd X15</Portuguese>
         <Russian>5.56mm Subsonic 50Rnd X15</Russian>
         <German>5.56mm Subsonic 50Rnd X15</German>
-        <Japanese>5.56mm Subsonic 50Rnd X15</Japanese>
+        <Japanese>5.56mm 亜音速 50発入り X15</Japanese>
         <Korean>5.56mm Subsonic 50Rnd X15</Korean>
         <Chinesesimp>5.56mm Subsonic 50Rnd X15</Chinesesimp>
       </Key>
@@ -907,7 +900,7 @@
         <Portuguese>5.56mm EPR 50Rnd X15 (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 50Rnd X15 (Tracers every 4)</Russian>
         <German>5.56mm EPR 50Rnd X15 (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 50Rnd X15 (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 50発入り X15 (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 50Rnd X15 (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 50Rnd X15 (Tracers every 4)</Chinesesimp>
       </Key>
@@ -922,7 +915,7 @@
         <Portuguese>5.56mm Tracer 50Rnd X15</Portuguese>
         <Russian>5.56mm Tracer 50Rnd X15</Russian>
         <German>5.56mm Tracer 50Rnd X15</German>
-        <Japanese>5.56mm Tracer 50Rnd X15</Japanese>
+        <Japanese>5.56mm 曳光弾 50発入り X15</Japanese>
         <Korean>5.56mm Tracer 50Rnd X15</Korean>
         <Chinesesimp>5.56mm Tracer 50Rnd X15</Chinesesimp>
       </Key>
@@ -937,7 +930,7 @@
         <Portuguese>5.56mm IR-DIM 50Rnd X15</Portuguese>
         <Russian>5.56mm IR-DIM 50Rnd X15</Russian>
         <German>5.56mm IR-DIM 50Rnd X15</German>
-        <Japanese>5.56mm IR-DIM 50Rnd X15</Japanese>
+        <Japanese>5.56mm IR-DIM 50発入り X15</Japanese>
         <Korean>5.56mm IR-DIM 50Rnd X15</Korean>
         <Chinesesimp>5.56mm IR-DIM 50Rnd X15</Chinesesimp>
       </Key>
@@ -952,11 +945,10 @@
         <Portuguese>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 50発入り X15 (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30rnd_556x45_EPR_PMAG">
         <Original>5.56mm EPR 30Rnd PMAG</Original>
         <English>5.56mm EPR 30Rnd PMAG</English>
@@ -968,7 +960,7 @@
         <Portuguese>5.56mm EPR 30Rnd PMAG</Portuguese>
         <Russian>5.56mm EPR 30Rnd PMAG</Russian>
         <German>5.56mm EPR 30Rnd PMAG</German>
-        <Japanese>5.56mm EPR 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm EPR 30発入り PMAG</Japanese>
         <Korean>5.56mm EPR 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -983,7 +975,7 @@
         <Portuguese>5.56mm SOST 30Rnd PMAG</Portuguese>
         <Russian>5.56mm SOST 30Rnd PMAG</Russian>
         <German>5.56mm SOST 30Rnd PMAG</German>
-        <Japanese>5.56mm SOST 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm SOST 30発入り PMAG</Japanese>
         <Korean>5.56mm SOST 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -998,7 +990,7 @@
         <Portuguese>5.56mm SBLR 30Rnd PMAG</Portuguese>
         <Russian>5.56mm SBLR 30Rnd PMAG</Russian>
         <German>5.56mm SBLR 30Rnd PMAG</German>
-        <Japanese>5.56mm SBLR 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm SBLR 30発入り PMAG</Japanese>
         <Korean>5.56mm SBLR 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -1013,7 +1005,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd PMAG</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd PMAG</Russian>
         <German>5.56mm Subsonic 30Rnd PMAG</German>
-        <Japanese>5.56mm Subsonic 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り PMAG</Japanese>
         <Korean>5.56mm Subsonic 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -1028,7 +1020,7 @@
         <Portuguese>5.56mm EPR 30Rnd PMAG (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd PMAG (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd PMAG (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd PMAG (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り PMAG (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd PMAG (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd PMAG (Tracers every 4)</Chinesesimp>
       </Key>
@@ -1043,7 +1035,7 @@
         <Portuguese>5.56mm Tracer 30Rnd PMAG</Portuguese>
         <Russian>5.56mm Tracer 30Rnd PMAG</Russian>
         <German>5.56mm Tracer 30Rnd PMAG</German>
-        <Japanese>5.56mm Tracer 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り PMAG</Japanese>
         <Korean>5.56mm Tracer 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -1058,7 +1050,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd PMAG</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd PMAG</Russian>
         <German>5.56mm IR-DIM 30Rnd PMAG</German>
-        <Japanese>5.56mm IR-DIM 30Rnd PMAG</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り PMAG</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd PMAG</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd PMAG</Chinesesimp>
       </Key>
@@ -1073,11 +1065,10 @@
         <Portuguese>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り PMAG (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30rnd_556x45_EPR_STANAGHD">
         <Original>5.56mm EPR 30Rnd STANAG-Heavy</Original>
         <English>5.56mm EPR 30Rnd STANAG-Heavy</English>
@@ -1089,7 +1080,7 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm EPR 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1104,7 +1095,7 @@
         <Portuguese>5.56mm SOST 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm SOST 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm SOST 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm SOST 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm SOST 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm SOST 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1119,7 +1110,7 @@
         <Portuguese>5.56mm SBLR 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm SBLR 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm SBLR 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm SBLR 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm SBLR 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm SBLR 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1134,7 +1125,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm Subsonic 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm Subsonic 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm Subsonic 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1149,7 +1140,7 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAGヘビー (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)</Chinesesimp>
       </Key>
@@ -1164,7 +1155,7 @@
         <Portuguese>5.56mm Tracer 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm Tracer 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm Tracer 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm Tracer 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm Tracer 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1179,7 +1170,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd STANAG-Heavy</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd STANAG-Heavy</Russian>
         <German>5.56mm IR-DIM 30Rnd STANAG-Heavy</German>
-        <Japanese>5.56mm IR-DIM 30Rnd STANAG-Heavy</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り STANAGヘビー</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd STANAG-Heavy</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd STANAG-Heavy</Chinesesimp>
       </Key>
@@ -1194,12 +1185,10 @@
         <Portuguese>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り STANAGヘビー (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Chinesesimp>
       </Key>
-
-
       <Key ID="STR_NIA_30rnd_556x45_EPR_L5">
         <Original>5.56mm EPR 30Rnd Lancer</Original>
         <English>5.56mm EPR 30Rnd Lancer</English>
@@ -1211,7 +1200,7 @@
         <Portuguese>5.56mm EPR 30Rnd Lancer</Portuguese>
         <Russian>5.56mm EPR 30Rnd Lancer</Russian>
         <German>5.56mm EPR 30Rnd Lancer</German>
-        <Japanese>5.56mm EPR 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm EPR 30発入り ランサー</Japanese>
         <Korean>5.56mm EPR 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1226,7 +1215,7 @@
         <Portuguese>5.56mm SOST 30Rnd Lancer</Portuguese>
         <Russian>5.56mm SOST 30Rnd Lancer</Russian>
         <German>5.56mm SOST 30Rnd Lancer</German>
-        <Japanese>5.56mm SOST 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm SOST 30発入り ランサー</Japanese>
         <Korean>5.56mm SOST 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1241,7 +1230,7 @@
         <Portuguese>5.56mm SBLR 30Rnd Lancer</Portuguese>
         <Russian>5.56mm SBLR 30Rnd Lancer</Russian>
         <German>5.56mm SBLR 30Rnd Lancer</German>
-        <Japanese>5.56mm SBLR 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm SBLR 30発入り ランサー</Japanese>
         <Korean>5.56mm SBLR 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1256,7 +1245,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd Lancer</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd Lancer</Russian>
         <German>5.56mm Subsonic 30Rnd Lancer</German>
-        <Japanese>5.56mm Subsonic 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り ランサー</Japanese>
         <Korean>5.56mm Subsonic 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1271,7 +1260,7 @@
         <Portuguese>5.56mm EPR 30Rnd Lancer (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd Lancer (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd Lancer (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd Lancer (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り ランサー (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd Lancer (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd Lancer (Tracers every 4)</Chinesesimp>
       </Key>
@@ -1286,7 +1275,7 @@
         <Portuguese>5.56mm Tracer 30Rnd Lancer</Portuguese>
         <Russian>5.56mm Tracer 30Rnd Lancer</Russian>
         <German>5.56mm Tracer 30Rnd Lancer</German>
-        <Japanese>5.56mm Tracer 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り ランサー</Japanese>
         <Korean>5.56mm Tracer 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1301,7 +1290,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd Lancer</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd Lancer</Russian>
         <German>5.56mm IR-DIM 30Rnd Lancer</German>
-        <Japanese>5.56mm IR-DIM 30Rnd Lancer</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り ランサー</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd Lancer</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd Lancer</Chinesesimp>
       </Key>
@@ -1316,11 +1305,10 @@
         <Portuguese>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り ランサー (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30rnd_556x45_EPR_EMAG">
         <Original>5.56mm EPR 30Rnd EMAG</Original>
         <English>5.56mm EPR 30Rnd EMAG</English>
@@ -1332,7 +1320,7 @@
         <Portuguese>5.56mm EPR 30Rnd EMAG</Portuguese>
         <Russian>5.56mm EPR 30Rnd EMAG</Russian>
         <German>5.56mm EPR 30Rnd EMAG</German>
-        <Japanese>5.56mm EPR 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm EPR 30発入り EMAG</Japanese>
         <Korean>5.56mm EPR 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1347,7 +1335,7 @@
         <Portuguese>5.56mm SOST 30Rnd EMAG</Portuguese>
         <Russian>5.56mm SOST 30Rnd EMAG</Russian>
         <German>5.56mm SOST 30Rnd EMAG</German>
-        <Japanese>5.56mm SOST 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm SOST 30発入り EMAG</Japanese>
         <Korean>5.56mm SOST 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1362,7 +1350,7 @@
         <Portuguese>5.56mm SBLR 30Rnd EMAG</Portuguese>
         <Russian>5.56mm SBLR 30Rnd EMAG</Russian>
         <German>5.56mm SBLR 30Rnd EMAG</German>
-        <Japanese>5.56mm SBLR 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm SBLR 30発入り EMAG</Japanese>
         <Korean>5.56mm SBLR 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1377,7 +1365,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd EMAG</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd EMAG</Russian>
         <German>5.56mm Subsonic 30Rnd EMAG</German>
-        <Japanese>5.56mm Subsonic 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り EMAG</Japanese>
         <Korean>5.56mm Subsonic 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1392,7 +1380,7 @@
         <Portuguese>5.56mm EPR 30Rnd EMAG (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd EMAG (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd EMAG (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd EMAG (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り EMAG (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd EMAG (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd EMAG (Tracers every 4)</Chinesesimp>
       </Key>
@@ -1407,7 +1395,7 @@
         <Portuguese>5.56mm Tracer 30Rnd EMAG</Portuguese>
         <Russian>5.56mm Tracer 30Rnd EMAG</Russian>
         <German>5.56mm Tracer 30Rnd EMAG</German>
-        <Japanese>5.56mm Tracer 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り EMAG</Japanese>
         <Korean>5.56mm Tracer 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1422,7 +1410,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd EMAG</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd EMAG</Russian>
         <German>5.56mm IR-DIM 30Rnd EMAG</German>
-        <Japanese>5.56mm IR-DIM 30Rnd EMAG</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り EMAG</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd EMAG</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd EMAG</Chinesesimp>
       </Key>
@@ -1437,11 +1425,10 @@
         <Portuguese>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り EMAG (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_545x39_B_AK">
         <Original>5.45mm FMJ 30Rnd AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd AK Magazine</English>
@@ -1453,7 +1440,7 @@
         <Portuguese>5.45mm FMJ 30Rnd AK Magazine</Portuguese>
         <Russian>5.45mm FMJ 30Rnd AK Magazine</Russian>
         <German>5.45mm FMJ 30Rnd AK Magazine</German>
-        <Japanese>5.45mm FMJ 30Rnd AK Magazine</Japanese>
+        <Japanese>5.45mm FMJ 30発入り AK マガジン</Japanese>
         <Korean>5.45mm FMJ 30Rnd AK Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 30Rnd AK Magazine</Chinesesimp>
       </Key>
@@ -1468,7 +1455,7 @@
         <Portuguese>5.45mm Subsonic 30Rnd AK Magazine</Portuguese>
         <Russian>5.45mm Subsonic 30Rnd AK Magazine</Russian>
         <German>5.45mm Subsonic 30Rnd AK Magazine</German>
-        <Japanese>5.45mm Subsonic 30Rnd AK Magazine</Japanese>
+        <Japanese>5.45mm 亜音速 30発入り AK マガジン</Japanese>
         <Korean>5.45mm Subsonic 30Rnd AK Magazine</Korean>
         <Chinesesimp>5.45mm Subsonic 30Rnd AK Magazine</Chinesesimp>
       </Key>
@@ -1483,7 +1470,7 @@
         <Portuguese>"5.45mm Tracer 30Rnd AK Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 30Rnd AK Magazine"</Russian>
         <German>"5.45mm Tracer 30Rnd AK Magazine"</German>
-        <Japanese>"5.45mm Tracer 30Rnd AK Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 30発入り AK マガジン"</Japanese>
         <Korean>"5.45mm Tracer 30Rnd AK Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 30Rnd AK Magazine"</Chinesesimp>
       </Key>
@@ -1498,7 +1485,7 @@
         <Portuguese>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 30発入り AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1513,11 +1500,10 @@
         <Portuguese>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 30発入り AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_545x39_B_AKplum">
         <Original>5.45mm FMJ 30Rnd Plum AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd Plum AK Magazine</English>
@@ -1529,7 +1515,7 @@
         <Portuguese>5.45mm FMJ 30Rnd Plum AK Magazine</Portuguese>
         <Russian>5.45mm FMJ 30Rnd Plum AK Magazine</Russian>
         <German>5.45mm FMJ 30Rnd Plum AK Magazine</German>
-        <Japanese>5.45mm FMJ 30Rnd Plum AK Magazine</Japanese>
+        <Japanese>5.45mm FMJ 30発入り プラム AK マガジン</Japanese>
         <Korean>5.45mm FMJ 30Rnd Plum AK Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 30Rnd Plum AK Magazine</Chinesesimp>
       </Key>
@@ -1544,7 +1530,7 @@
         <Portuguese>5.45mm Subsonic 30Rnd Plum AK Magazine</Portuguese>
         <Russian>5.45mm Subsonic 30Rnd Plum AK Magazine</Russian>
         <German>5.45mm Subsonic 30Rnd Plum AK Magazine</German>
-        <Japanese>5.45mm Subsonic 30Rnd Plum AK Magazine</Japanese>
+        <Japanese>5.45mm 亜音速 30発入り プラム AK マガジン</Japanese>
         <Korean>5.45mm Subsonic 30Rnd Plum AK Magazine</Korean>
         <Chinesesimp>5.45mm Subsonic 30Rnd Plum AK Magazine</Chinesesimp>
       </Key>
@@ -1559,7 +1545,7 @@
         <Portuguese>"5.45mm Tracer 30Rnd Plum AK Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 30Rnd Plum AK Magazine"</Russian>
         <German>"5.45mm Tracer 30Rnd Plum AK Magazine"</German>
-        <Japanese>"5.45mm Tracer 30Rnd Plum AK Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 30発入り プラム AK マガジン"</Japanese>
         <Korean>"5.45mm Tracer 30Rnd Plum AK Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 30Rnd Plum AK Magazine"</Chinesesimp>
       </Key>
@@ -1574,7 +1560,7 @@
         <Portuguese>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 30発入り プラム AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1589,11 +1575,10 @@
         <Portuguese>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 30発入り プラム AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_30Rnd_545x39_B_AKBlack">
         <Original>5.45mm FMJ 30Rnd Black AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd Black AK Magazine</English>
@@ -1605,7 +1590,7 @@
         <Portuguese>5.45mm FMJ 30Rnd Black AK Magazine</Portuguese>
         <Russian>5.45mm FMJ 30Rnd Black AK Magazine</Russian>
         <German>5.45mm FMJ 30Rnd Black AK Magazine</German>
-        <Japanese>5.45mm FMJ 30Rnd Black AK Magazine</Japanese>
+        <Japanese>5.45mm FMJ 30発入り ブラック AK マガジン</Japanese>
         <Korean>5.45mm FMJ 30Rnd Black AK Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 30Rnd Black AK Magazine</Chinesesimp>
       </Key>
@@ -1620,7 +1605,7 @@
         <Portuguese>5.45mm Subsonic 30Rnd Black AK Magazine</Portuguese>
         <Russian>5.45mm Subsonic 30Rnd Black AK Magazine</Russian>
         <German>5.45mm Subsonic 30Rnd Black AK Magazine</German>
-        <Japanese>5.45mm Subsonic 30Rnd Black AK Magazine</Japanese>
+        <Japanese>5.45mm 亜音速 30発入り ブラック AK マガジン</Japanese>
         <Korean>5.45mm Subsonic 30Rnd Black AK Magazine</Korean>
         <Chinesesimp>5.45mm Subsonic 30Rnd Black AK Magazine</Chinesesimp>
       </Key>
@@ -1635,7 +1620,7 @@
         <Portuguese>"5.45mm Tracer 30Rnd Black AK Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 30Rnd Black AK Magazine"</Russian>
         <German>"5.45mm Tracer 30Rnd Black AK Magazine"</German>
-        <Japanese>"5.45mm Tracer 30Rnd Black AK Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 30発入り ブラック AK マガジン"</Japanese>
         <Korean>"5.45mm Tracer 30Rnd Black AK Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 30Rnd Black AK Magazine"</Chinesesimp>
       </Key>
@@ -1650,7 +1635,7 @@
         <Portuguese>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 30発入り ブラック AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1665,11 +1650,10 @@
         <Portuguese>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 30発入り ブラック AK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_45Rnd_545x39_b_rpk">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
         <English>5.45mm FMJ 45Rnd RPK74M Magazine</English>
@@ -1681,7 +1665,7 @@
         <Portuguese>5.45mm FMJ 45Rnd RPK74M Magazine</Portuguese>
         <Russian>5.45mm FMJ 45Rnd RPK74M Magazine</Russian>
         <German>5.45mm FMJ 45Rnd RPK74M Magazine</German>
-        <Japanese>5.45mm FMJ 45Rnd RPK74M Magazine</Japanese>
+        <Japanese>5.45mm FMJ 45発入り RPK74M マガジン</Japanese>
         <Korean>5.45mm FMJ 45Rnd RPK74M Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
@@ -1696,7 +1680,7 @@
         <Portuguese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Russian>
         <German>"5.45mm Tracer 45Rnd RPK74M Magazine"</German>
-        <Japanese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 45発入り RPK74M マガジン"</Japanese>
         <Korean>"5.45mm Tracer 45Rnd RPK74M Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 45Rnd RPK74M Magazine"</Chinesesimp>
       </Key>
@@ -1711,7 +1695,7 @@
         <Portuguese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1726,11 +1710,10 @@
         <Portuguese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_45Rnd_545x39_b_rpkm">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
         <English>5.45mm FMJ 45Rnd RPK74M Magazine</English>
@@ -1742,7 +1725,7 @@
         <Portuguese>5.45mm FMJ 45Rnd RPK74M Magazine</Portuguese>
         <Russian>5.45mm FMJ 45Rnd RPK74M Magazine</Russian>
         <German>5.45mm FMJ 45Rnd RPK74M Magazine</German>
-        <Japanese>5.45mm FMJ 45Rnd RPK74M Magazine</Japanese>
+        <Japanese>5.45mm FMJ 45発入り RPK74M マガジン</Japanese>
         <Korean>5.45mm FMJ 45Rnd RPK74M Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
@@ -1757,7 +1740,7 @@
         <Portuguese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Russian>
         <German>"5.45mm Tracer 45Rnd RPK74M Magazine"</German>
-        <Japanese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 45発入り RPK74M マガジン"</Japanese>
         <Korean>"5.45mm Tracer 45Rnd RPK74M Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 45Rnd RPK74M Magazine"</Chinesesimp>
       </Key>
@@ -1772,7 +1755,7 @@
         <Portuguese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1787,11 +1770,10 @@
         <Portuguese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_60Rnd_545x39_b_RPK">
         <Original>5.45mm FMJ 60Rnd RPK Magazine</Original>
         <English>5.45mm FMJ 60Rnd RPK Magazine</English>
@@ -1803,7 +1785,7 @@
         <Portuguese>5.45mm FMJ 60Rnd RPK Magazine</Portuguese>
         <Russian>5.45mm FMJ 60Rnd RPK Magazine</Russian>
         <German>5.45mm FMJ 60Rnd RPK Magazine</German>
-        <Japanese>5.45mm FMJ 60Rnd RPK Magazine</Japanese>
+        <Japanese>5.45mm FMJ 60発入り RPK マガジン</Japanese>
         <Korean>5.45mm FMJ 60Rnd RPK Magazine</Korean>
         <Chinesesimp>5.45mm FMJ 60Rnd RPK Magazine</Chinesesimp>
       </Key>
@@ -1818,7 +1800,7 @@
         <Portuguese>"5.45mm Tracer 60Rnd RPK Magazine"</Portuguese>
         <Russian>"5.45mm Tracer 60Rnd RPK Magazine"</Russian>
         <German>"5.45mm Tracer 60Rnd RPK Magazine"</German>
-        <Japanese>"5.45mm Tracer 60Rnd RPK Magazine"</Japanese>
+        <Japanese>"5.45mm 曳光弾 60発入り RPK マガジン"</Japanese>
         <Korean>"5.45mm Tracer 60Rnd RPK Magazine"</Korean>
         <Chinesesimp>"5.45mm Tracer 60Rnd RPK Magazine"</Chinesesimp>
       </Key>
@@ -1833,7 +1815,7 @@
         <Portuguese>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm FMJ 60発入り RPK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
@@ -1848,11 +1830,10 @@
         <Portuguese>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Portuguese>
         <Russian>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Russian>
         <German>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Japanese>
+        <Japanese>"5.45mm EPR 60発入り RPK マガジン (3発毎に曳光弾)"</Japanese>
         <Korean>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Korean>
         <Chinesesimp>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_762x39_b_ak">
         <Original>7.62mm FMJ 30Rnd AK Magazine</Original>
         <English>7.62mm FMJ 30Rnd AK Magazine</English>
@@ -1864,7 +1845,7 @@
         <Portuguese>7.62mm FMJ 30Rnd AK Magazine</Portuguese>
         <Russian>7.62mm FMJ 30Rnd AK Magazine</Russian>
         <German>7.62mm FMJ 30Rnd AK Magazine</German>
-        <Japanese>7.62mm FMJ 30Rnd AK Magazine</Japanese>
+        <Japanese>7.62mm FMJ 30発入り AK マガジン</Japanese>
         <Korean>7.62mm FMJ 30Rnd AK Magazine</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd AK Magazine</Chinesesimp>
       </Key>
@@ -1879,7 +1860,7 @@
         <Portuguese>7.62mm Tracer 30Rnd AK Magazine</Portuguese>
         <Russian>7.62mm Tracer 30Rnd AK Magazine</Russian>
         <German>7.62mm Tracer 30Rnd AK Magazine</German>
-        <Japanese>7.62mm Tracer 30Rnd AK Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 30発入り AK マガジン</Japanese>
         <Korean>7.62mm Tracer 30Rnd AK Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 30Rnd AK Magazine</Chinesesimp>
       </Key>
@@ -1894,7 +1875,7 @@
         <Portuguese>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 30発入り AK マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -1909,7 +1890,7 @@
         <Portuguese>7.62mm AP 30Rnd AK Magazine</Portuguese>
         <Russian>7.62mm AP 30Rnd AK Magazine</Russian>
         <German>7.62mm AP 30Rnd AK Magazine</German>
-        <Japanese>7.62mm AP 30Rnd AK Magazine</Japanese>
+        <Japanese>7.62mm AP 30発入り AK マガジン</Japanese>
         <Korean>7.62mm AP 30Rnd AK Magazine</Korean>
         <Chinesesimp>7.62mm AP 30Rnd AK Magazine</Chinesesimp>
       </Key>
@@ -1924,11 +1905,10 @@
         <Portuguese>7.62mm Subsonic 30Rnd AK Magazine</Portuguese>
         <Russian>7.62mm Subsonic 30Rnd AK Magazine</Russian>
         <German>7.62mm Subsonic 30Rnd AK Magazine</German>
-        <JSubsonicanese>7.62mm Subsonic 30Rnd AK Magazine</JSubsonicanese>
+        <Japanese>7.62mm 亜音速 30発入り AK マガジン</Japanese>
         <Korean>7.62mm Subsonic 30Rnd AK Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd AK Magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_762x39_b_ak_6l10">
         <Original>7.62mm FMJ 30Rnd 6L10 AK Magazine</Original>
         <English>7.62mm FMJ 30Rnd 6L10 AK Magazine</English>
@@ -1940,7 +1920,7 @@
         <Portuguese>7.62mm FMJ 30Rnd 6L10 AK Magazine</Portuguese>
         <Russian>7.62mm FMJ 30Rnd 6L10 AK Magazine</Russian>
         <German>7.62mm FMJ 30Rnd 6L10 AK Magazine</German>
-        <Japanese>7.62mm FMJ 30Rnd 6L10 AK Magazine</Japanese>
+        <Japanese>7.62mm FMJ 30発入り 6L10 AK マガジン</Japanese>
         <Korean>7.62mm FMJ 30Rnd 6L10 AK Magazine</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd 6L10 AK Magazine</Chinesesimp>
       </Key>
@@ -1955,7 +1935,7 @@
         <Portuguese>7.62mm Tracer 30Rnd 6L10 AK Magazine</Portuguese>
         <Russian>7.62mm Tracer 30Rnd 6L10 AK Magazine</Russian>
         <German>7.62mm Tracer 30Rnd 6L10 AK Magazine</German>
-        <Japanese>7.62mm Tracer 30Rnd 6L10 AK Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 30発入り 6L10 AK マガジン</Japanese>
         <Korean>7.62mm Tracer 30Rnd 6L10 AK Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 30Rnd 6L10 AK Magazine</Chinesesimp>
       </Key>
@@ -1970,7 +1950,7 @@
         <Portuguese>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 30発入り 6L10 AK マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd 6L10 AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -1985,7 +1965,7 @@
         <Portuguese>7.62mm AP 30Rnd 6L10 AK Magazine</Portuguese>
         <Russian>7.62mm AP 30Rnd 6L10 AK Magazine</Russian>
         <German>7.62mm AP 30Rnd 6L10 AK Magazine</German>
-        <Japanese>7.62mm AP 30Rnd 6L10 AK Magazine</Japanese>
+        <Japanese>7.62mm AP 30発入り 6L10 AK マガジン</Japanese>
         <Korean>7.62mm AP 30Rnd 6L10 AK Magazine</Korean>
         <Chinesesimp>7.62mm AP 30Rnd 6L10 AK Magazine</Chinesesimp>
       </Key>
@@ -2000,11 +1980,10 @@
         <Portuguese>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Portuguese>
         <Russian>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Russian>
         <German>7.62mm Subsonic 30Rnd 6L10 AK Magazine</German>
-        <JSubsonicanese>7.62mm Subsonic 30Rnd 6L10 AK Magazine</JSubsonicanese>
+        <Japanese>7.62mm 亜音速 30発入り 6L10 AK マガジン</Japanese>
         <Korean>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_762x39_b_RK62">
         <Original>7.62mm FMJ 30Rnd Rk62 Magazine</Original>
         <English>7.62mm FMJ 30Rnd Rk62 Magazine</English>
@@ -2016,7 +1995,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Rk62 Magazine</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Rk62 Magazine</Russian>
         <German>7.62mm FMJ 30Rnd Rk62 Magazine</German>
-        <Japanese>7.62mm FMJ 30Rnd Rk62 Magazine</Japanese>
+        <Japanese>7.62mm FMJ 30発入り Rk62 マガジン</Japanese>
         <Korean>7.62mm FMJ 30Rnd Rk62 Magazine</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Rk62 Magazine</Chinesesimp>
       </Key>
@@ -2031,7 +2010,7 @@
         <Portuguese>7.62mm Tracer 30Rnd Rk62 Magazine</Portuguese>
         <Russian>7.62mm Tracer 30Rnd Rk62 Magazine</Russian>
         <German>7.62mm Tracer 30Rnd Rk62 Magazine</German>
-        <Japanese>7.62mm Tracer 30Rnd Rk62 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 30発入り Rk62 マガジン</Japanese>
         <Korean>7.62mm Tracer 30Rnd Rk62 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 30Rnd Rk62 Magazine</Chinesesimp>
       </Key>
@@ -2046,7 +2025,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 30発入り Rk62 マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Rk62 Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -2061,7 +2040,7 @@
         <Portuguese>7.62mm AP 30Rnd Rk62 Magazine</Portuguese>
         <Russian>7.62mm AP 30Rnd Rk62 Magazine</Russian>
         <German>7.62mm AP 30Rnd Rk62 Magazine</German>
-        <Japanese>7.62mm AP 30Rnd Rk62 Magazine</Japanese>
+        <Japanese>7.62mm AP 30発入り Rk62 マガジン</Japanese>
         <Korean>7.62mm AP 30Rnd Rk62 Magazine</Korean>
         <Chinesesimp>7.62mm AP 30Rnd Rk62 Magazine</Chinesesimp>
       </Key>
@@ -2076,11 +2055,10 @@
         <Portuguese>7.62mm Subsonic 30Rnd Rk62 Magazine</Portuguese>
         <Russian>7.62mm Subsonic 30Rnd Rk62 Magazine</Russian>
         <German>7.62mm Subsonic 30Rnd Rk62 Magazine</German>
-        <JSubsonicanese>7.62mm Subsonic 30Rnd Rk62 Magazine</JSubsonicanese>
+        <Japanese>7.62mm 亜音速 30発入り Rk62 マガジン</Japanese>
         <Korean>7.62mm Subsonic 30Rnd Rk62 Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Rk62 Magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_762x39_b_PMAG_AK">
         <Original>7.62mm FMJ 30Rnd Black PMAG magazine</Original>
         <English>7.62mm FMJ 30Rnd Black PMAG magazine</English>
@@ -2092,7 +2070,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Black PMAG magazine</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Black PMAG magazine</Russian>
         <German>7.62mm FMJ 30Rnd Black PMAG magazine</German>
-        <Japanese>7.62mm FMJ 30Rnd Black PMAG magazine</Japanese>
+        <Japanese>7.62mm FMJ 30発入り ブラック PMAG マガジン</Japanese>
         <Korean>7.62mm FMJ 30Rnd Black PMAG magazine</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Black PMAG magazine</Chinesesimp>
       </Key>
@@ -2107,7 +2085,7 @@
         <Portuguese>7.62mm Tracer 30Rnd Black PMAG magazine</Portuguese>
         <Russian>7.62mm Tracer 30Rnd Black PMAG magazine</Russian>
         <German>7.62mm Tracer 30Rnd Black PMAG magazine</German>
-        <Japanese>7.62mm Tracer 30Rnd Black PMAG magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 30発入り ブラック PMAG マガジン</Japanese>
         <Korean>7.62mm Tracer 30Rnd Black PMAG magazine</Korean>
         <Chinesesimp>7.62mm Tracer 30Rnd Black PMAG magazine</Chinesesimp>
       </Key>
@@ -2122,7 +2100,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 30発入り ブラック PMAG マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Black PMAG magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -2137,7 +2115,7 @@
         <Portuguese>7.62mm AP 30Rnd Black PMAG magazine</Portuguese>
         <Russian>7.62mm AP 30Rnd Black PMAG magazine</Russian>
         <German>7.62mm AP 30Rnd Black PMAG magazine</German>
-        <Japanese>7.62mm AP 30Rnd Black PMAG magazine</Japanese>
+        <Japanese>7.62mm AP 30発入り ブラック PMAG マガジン</Japanese>
         <Korean>7.62mm AP 30Rnd Black PMAG magazine</Korean>
         <Chinesesimp>7.62mm AP 30Rnd Black PMAG magazine</Chinesesimp>
       </Key>
@@ -2152,11 +2130,10 @@
         <Portuguese>7.62mm Subsonic 30Rnd Black PMAG magazine</Portuguese>
         <Russian>7.62mm Subsonic 30Rnd Black PMAG magazine</Russian>
         <German>7.62mm Subsonic 30Rnd Black PMAG magazine</German>
-        <JSubsonicanese>7.62mm Subsonic 30Rnd Black PMAG magazine</JSubsonicanese>
+        <Japanese>7.62mm 亜音速 30発入り ブラック PMAG マガジン</Japanese>
         <Korean>7.62mm Subsonic 30Rnd Black PMAG magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Black PMAG magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_30Rnd_762x39_b_pmagd_AK">
         <Original>7.62mm FMJ 30Rnd Desert PMAG magazine</Original>
         <English>7.62mm FMJ 30Rnd Desert PMAG magazine</English>
@@ -2168,7 +2145,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Desert PMAG magazine</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Desert PMAG magazine</Russian>
         <German>7.62mm FMJ 30Rnd Desert PMAG magazine</German>
-        <Japanese>7.62mm FMJ 30Rnd Desert PMAG magazine</Japanese>
+        <Japanese>7.62mm FMJ 30発入り デザート PMAG マガジン</Japanese>
         <Korean>7.62mm FMJ 30Rnd Desert PMAG magazine</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Desert PMAG magazine</Chinesesimp>
       </Key>
@@ -2183,7 +2160,7 @@
         <Portuguese>7.62mm Tracer 30Rnd Desert PMAG magazine</Portuguese>
         <Russian>7.62mm Tracer 30Rnd Desert PMAG magazine</Russian>
         <German>7.62mm Tracer 30Rnd Desert PMAG magazine</German>
-        <Japanese>7.62mm Tracer 30Rnd Desert PMAG magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 30発入り デザート PMAG マガジン</Japanese>
         <Korean>7.62mm Tracer 30Rnd Desert PMAG magazine</Korean>
         <Chinesesimp>7.62mm Tracer 30Rnd Desert PMAG magazine</Chinesesimp>
       </Key>
@@ -2198,7 +2175,7 @@
         <Portuguese>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 30発入り デザート PMAG マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 30Rnd Desert PMAG magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -2213,7 +2190,7 @@
         <Portuguese>7.62mm AP 30Rnd Desert PMAG magazine</Portuguese>
         <Russian>7.62mm AP 30Rnd Desert PMAG magazine</Russian>
         <German>7.62mm AP 30Rnd Desert PMAG magazine</German>
-        <Japanese>7.62mm AP 30Rnd Desert PMAG magazine</Japanese>
+        <Japanese>7.62mm AP 30発入り デザート PMAG マガジン</Japanese>
         <Korean>7.62mm AP 30Rnd Desert PMAG magazine</Korean>
         <Chinesesimp>7.62mm AP 30Rnd Desert PMAG magazine</Chinesesimp>
       </Key>
@@ -2228,11 +2205,10 @@
         <Portuguese>7.62mm Subsonic 30Rnd Desert PMAG magazine</Portuguese>
         <Russian>7.62mm Subsonic 30Rnd Desert PMAG magazine</Russian>
         <German>7.62mm Subsonic 30Rnd Desert PMAG magazine</German>
-        <JSubsonicanese>7.62mm Subsonic 30Rnd Desert PMAG magazine</JSubsonicanese>
+        <Japanese>7.62mm 亜音速 30発入り デザート PMAG マガジン</Japanese>
         <Korean>7.62mm Subsonic 30Rnd Desert PMAG magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Desert PMAG magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_40Rnd_762x39_b_rpk">
         <Original>7.62mm FMJ 40Rnd RPK Magazine</Original>
         <English>7.62mm FMJ 40Rnd RPK Magazine</English>
@@ -2244,7 +2220,7 @@
         <Portuguese>7.62mm FMJ 40Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm FMJ 40Rnd RPK Magazine</Russian>
         <German>7.62mm FMJ 40Rnd RPK Magazine</German>
-        <Japanese>7.62mm FMJ 40Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm FMJ 40発入り RPK マガジン</Japanese>
         <Korean>7.62mm FMJ 40Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm FMJ 40Rnd RPK Magazine</Chinesesimp>
       </Key>
@@ -2259,7 +2235,7 @@
         <Portuguese>7.62mm Tracer 40Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm Tracer 40Rnd RPK Magazine</Russian>
         <German>7.62mm Tracer 40Rnd RPK Magazine</German>
-        <Japanese>7.62mm Tracer 40Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 40発入り RPK マガジン</Japanese>
         <Korean>7.62mm Tracer 40Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 40Rnd RPK Magazine</Chinesesimp>
       </Key>
@@ -2274,7 +2250,7 @@
         <Portuguese>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 40発入り RPK マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 40Rnd RPK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -2289,11 +2265,10 @@
         <Portuguese>7.62mm AP 40Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm AP 40Rnd RPK Magazine</Russian>
         <German>7.62mm AP 40Rnd RPK Magazine</German>
-        <Japanese>7.62mm AP 40Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm AP 40発入り RPK マガジン</Japanese>
         <Korean>7.62mm AP 40Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm AP 40Rnd RPK Magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_75Rnd_762x39_b_rpk">
         <Original>7.62mm FMJ 75Rnd RPK Magazine</Original>
         <English>7.62mm FMJ 75Rnd RPK Magazine</English>
@@ -2305,7 +2280,7 @@
         <Portuguese>7.62mm FMJ 75Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm FMJ 75Rnd RPK Magazine</Russian>
         <German>7.62mm FMJ 75Rnd RPK Magazine</German>
-        <Japanese>7.62mm FMJ 75Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm FMJ 75発入り RPK マガジン</Japanese>
         <Korean>7.62mm FMJ 75Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm FMJ 75Rnd RPK Magazine</Chinesesimp>
       </Key>
@@ -2320,7 +2295,7 @@
         <Portuguese>7.62mm Tracer 75Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm Tracer 75Rnd RPK Magazine</Russian>
         <German>7.62mm Tracer 75Rnd RPK Magazine</German>
-        <Japanese>7.62mm Tracer 75Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 75発入り RPK マガジン</Japanese>
         <Korean>7.62mm Tracer 75Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 75Rnd RPK Magazine</Chinesesimp>
       </Key>
@@ -2335,7 +2310,7 @@
         <Portuguese>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</Portuguese>
         <Russian>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</Russian>
         <German>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</German>
-        <Japanese>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</Japanese>
+        <Japanese>7.62mm FMJ 75発入り RPK マガジン (3発毎に曳光弾)</Japanese>
         <Korean>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>7.62mm FMJ 75Rnd RPK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
@@ -2350,11 +2325,10 @@
         <Portuguese>7.62mm AP 75Rnd RPK Magazine</Portuguese>
         <Russian>7.62mm AP 75Rnd RPK Magazine</Russian>
         <German>7.62mm AP 75Rnd RPK Magazine</German>
-        <Japanese>7.62mm AP 75Rnd RPK Magazine</Japanese>
+        <Japanese>7.62mm AP 75発入り RPK マガジン</Japanese>
         <Korean>7.62mm AP 75Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm AP 75Rnd RPK Magazine</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_VOG25_AK">
         <Original>VOG25P HE Round</Original>
         <English>VOG25P HE Round</English>
@@ -2366,7 +2340,7 @@
         <Portuguese>VOG25P HE Round</Portuguese>
         <Russian>VOG25P HE Round</Russian>
         <German>VOG25P HE Round</German>
-        <Japanese>VOG25P HE Round</Japanese>
+        <Japanese>VOG25P HE 弾</Japanese>
         <Korean>VOG25P HE Round</Korean>
         <Chinesesimp>VOG25P HE Round</Chinesesimp>
       </Key>
@@ -2381,7 +2355,7 @@
         <Portuguese>GRD-40 White Smoke (White)</Portuguese>
         <Russian>GRD-40 White Smoke (White)</Russian>
         <German>GRD-40 White Smoke (White)</German>
-        <Japanese>GRD-40 White Smoke (White)</Japanese>
+        <Japanese>GRD-40 発煙弾 (白)</Japanese>
         <Korean>GRD-40 White Smoke (White)</Korean>
         <Chinesesimp>GRD-40 White Smoke (White)</Chinesesimp>
       </Key>
@@ -2396,7 +2370,7 @@
         <Portuguese>GRD-40 White Smoke (Red)</Portuguese>
         <Russian>GRD-40 White Smoke (Red)</Russian>
         <German>GRD-40 White Smoke (Red)</German>
-        <Japanese>GRD-40 White Smoke (Red)</Japanese>
+        <Japanese>GRD-40 発煙弾 (赤)</Japanese>
         <Korean>GRD-40 White Smoke (Red)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Red)</Chinesesimp>
       </Key>
@@ -2411,7 +2385,7 @@
         <Portuguese>GRD-40 White Smoke (Green)</Portuguese>
         <Russian>GRD-40 White Smoke (Green)</Russian>
         <German>GRD-40 White Smoke (Green)</German>
-        <Japanese>GRD-40 White Smoke (Green)</Japanese>
+        <Japanese>GRD-40 発煙弾 (緑)</Japanese>
         <Korean>GRD-40 White Smoke (Green)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Green)</Chinesesimp>
       </Key>
@@ -2426,7 +2400,7 @@
         <Portuguese>GRD-40 White Smoke (Yellow)</Portuguese>
         <Russian>GRD-40 White Smoke (Yellow)</Russian>
         <German>GRD-40 White Smoke (Yellow)</German>
-        <Japanese>GRD-40 White Smoke (Yellow)</Japanese>
+        <Japanese>GRD-40 発煙弾 (黄)</Japanese>
         <Korean>GRD-40 White Smoke (Yellow)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Yellow)</Chinesesimp>
       </Key>
@@ -2441,7 +2415,7 @@
         <Portuguese>GRD-40 White Smoke (Orange)</Portuguese>
         <Russian>GRD-40 White Smoke (Orange)</Russian>
         <German>GRD-40 White Smoke (Orange)</German>
-        <Japanese>GRD-40 White Smoke (Orange)</Japanese>
+        <Japanese>GRD-40 発煙弾 (橙)</Japanese>
         <Korean>GRD-40 White Smoke (Orange)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Orange)</Chinesesimp>
       </Key>
@@ -2456,7 +2430,7 @@
         <Portuguese>GRD-40 White Smoke (Purple)</Portuguese>
         <Russian>GRD-40 White Smoke (Purple)</Russian>
         <German>GRD-40 White Smoke (Purple)</German>
-        <Japanese>GRD-40 White Smoke (Purple)</Japanese>
+        <Japanese>GRD-40 発煙弾 (紫)</Japanese>
         <Korean>GRD-40 White Smoke (Purple)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Purple)</Chinesesimp>
       </Key>
@@ -2471,11 +2445,10 @@
         <Portuguese>GRD-40 White Smoke (Blue)</Portuguese>
         <Russian>GRD-40 White Smoke (Blue)</Russian>
         <German>GRD-40 White Smoke (Blue)</German>
-        <Japanese>GRD-40 White Smoke (Blue)</Japanese>
+        <Japanese>GRD-40 発煙弾 (青)</Japanese>
         <Korean>GRD-40 White Smoke (Blue)</Korean>
         <Chinesesimp>GRD-40 White Smoke (Blue)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_100Rnd_762x51_B_M60E4">
         <Original>7.62mm EPR 100Rnd M13-linked belt</Original>
         <English>7.62mm EPR 100Rnd M13-linked belt</English>
@@ -2487,7 +2460,7 @@
         <Portuguese>7.62mm EPR 100Rnd M13-linked belt</Portuguese>
         <Russian>7.62mm EPR 100Rnd M13-linked belt</Russian>
         <German>7.62mm EPR 100Rnd M13-linked belt</German>
-        <Japanese>7.62mm EPR 100Rnd M13-linked belt</Japanese>
+        <Japanese>7.62mm EPR 100発入り M13リンク ベルト</Japanese>
         <Korean>7.62mm EPR 100Rnd M13-linked belt</Korean>
         <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt</Chinesesimp>
       </Key>
@@ -2502,7 +2475,7 @@
         <Portuguese>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Russian>
         <German>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 100発入り M13リンク ベルト (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -2517,7 +2490,7 @@
         <Portuguese>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Portuguese>
         <Russian>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Russian>
         <German>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</German>
-        <Japanese>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Japanese>
+        <Japanese>7.62mm EPR 100発入り M13リンク ベルト (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Chinesesimp>
       </Key>
@@ -2532,7 +2505,7 @@
         <Portuguese>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Russian>
         <German>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 100発入り M13リンク ベルト (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -2547,11 +2520,10 @@
         <Portuguese>7.62mm Tracer 100Rnd M13-linked belt</Portuguese>
         <Russian>7.62mm Tracer 100Rnd M13-linked belt</Russian>
         <German>7.62mm Tracer 100Rnd M13-linked belt</German>
-        <Japanese>7.62mm Tracer 100Rnd M13-linked belt</Japanese>
+        <Japanese>7.62mm 曳光弾 100発入り M13リンク ベルト</Japanese>
         <Korean>7.62mm Tracer 100Rnd M13-linked belt</Korean>
         <Chinesesimp>7.62mm Tracer 100Rnd M13-linked belt</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_20Rnd_762x51_B_fal">
         <Original>7.62mm EPR 20Rnd FAL Magazine</Original>
         <English>7.62mm EPR 20Rnd FAL Magazine</English>
@@ -2563,7 +2535,7 @@
         <Portuguese>7.62mm EPR 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm EPR 20Rnd FAL Magazine</Russian>
         <German>7.62mm EPR 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm EPR 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm EPR 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm EPR 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2578,7 +2550,7 @@
         <Portuguese>7.62mm SBLR 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm SBLR 20Rnd FAL Magazine</Russian>
         <German>7.62mm SBLR 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm SBLR 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm SBLR 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm SBLR 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm SBLR 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2593,7 +2565,7 @@
         <Portuguese>7.62mm SOST 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm SOST 20Rnd FAL Magazine</Russian>
         <German>7.62mm SOST 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm SOST 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm SOST 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm SOST 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm SOST 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2608,7 +2580,7 @@
         <Portuguese>7.62mm Tracer 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm Tracer 20Rnd FAL Magazine</Russian>
         <German>7.62mm Tracer 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm Tracer 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm Tracer 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2623,7 +2595,7 @@
         <Portuguese>7.62mm IR-DIM 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 20Rnd FAL Magazine</Russian>
         <German>7.62mm IR-DIM 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm IR-DIM 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm IR-DIM 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2638,7 +2610,7 @@
         <Portuguese>7.62mm Subsonic 20Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm Subsonic 20Rnd FAL Magazine</Russian>
         <German>7.62mm Subsonic 20Rnd FAL Magazine</German>
-        <Japanese>7.62mm Subsonic 20Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm 亜音速 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm Subsonic 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 20Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2653,7 +2625,7 @@
         <Portuguese>7.62mm EPR 50Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm EPR 50Rnd FAL Magazine</Russian>
         <German>7.62mm EPR 50Rnd FAL Magazine</German>
-        <Japanese>7.62mm EPR 50Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm EPR 50発入り FAL マガジン</Japanese>
         <Korean>7.62mm EPR 50Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2668,7 +2640,7 @@
         <Portuguese>7.62mm Tracer 50Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm Tracer 50Rnd FAL Magazine</Russian>
         <German>7.62mm Tracer 50Rnd FAL Magazine</German>
-        <Japanese>7.62mm Tracer 50Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 50Rnd FAL マガジン</Japanese>
         <Korean>7.62mm Tracer 50Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 50Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2683,7 +2655,7 @@
         <Portuguese>7.62mm IR-DIM 50Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 50Rnd FAL Magazine</Russian>
         <German>7.62mm IR-DIM 50Rnd FAL Magazine</German>
-        <Japanese>7.62mm IR-DIM 50Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 50発入り FAL マガジン</Japanese>
         <Korean>7.62mm IR-DIM 50Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 50Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2698,7 +2670,7 @@
         <Portuguese>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</Russian>
         <German>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り FAL マガジン (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -2713,11 +2685,10 @@
         <Portuguese>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Russian>
         <German>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り FAL マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_10Rnd_762x51_B_fal">
         <Original>7.62mm EPR 10Rnd FAL Magazine</Original>
         <English>7.62mm EPR 10Rnd FAL Magazine</English>
@@ -2729,7 +2700,7 @@
         <Portuguese>7.62mm EPR 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm EPR 10Rnd FAL Magazine</Russian>
         <German>7.62mm EPR 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm EPR 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm EPR 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm EPR 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm EPR 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2744,7 +2715,7 @@
         <Portuguese>7.62mm SBLR 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm SBLR 10Rnd FAL Magazine</Russian>
         <German>7.62mm SBLR 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm SBLR 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm SBLR 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm SBLR 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm SBLR 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2759,7 +2730,7 @@
         <Portuguese>7.62mm SOST 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm SOST 10Rnd FAL Magazine</Russian>
         <German>7.62mm SOST 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm SOST 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm SOST 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm SOST 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm SOST 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2774,7 +2745,7 @@
         <Portuguese>7.62mm Tracer 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm Tracer 10Rnd FAL Magazine</Russian>
         <German>7.62mm Tracer 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm Tracer 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm Tracer 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2789,7 +2760,7 @@
         <Portuguese>7.62mm IR-DIM 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 10Rnd FAL Magazine</Russian>
         <German>7.62mm IR-DIM 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm IR-DIM 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm IR-DIM 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2804,7 +2775,7 @@
         <Portuguese>7.62mm Subsonic 10Rnd FAL Magazine</Portuguese>
         <Russian>7.62mm Subsonic 10Rnd FAL Magazine</Russian>
         <German>7.62mm Subsonic 10Rnd FAL Magazine</German>
-        <Japanese>7.62mm Subsonic 10Rnd FAL Magazine</Japanese>
+        <Japanese>7.62mm 亜音速 10発入り FAL マガジン</Japanese>
         <Korean>7.62mm Subsonic 10Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 10Rnd FAL Magazine</Chinesesimp>
       </Key>
@@ -2821,7 +2792,7 @@
         <Portuguese>QD .300BLK Suppressor</Portuguese>
         <Russian>QD .300BLK Suppressor</Russian>
         <German>QD .300BLK Suppressor</German>
-        <Japanese>QD .300BLK Suppressor</Japanese>
+        <Japanese>QD .300BLK 消音器</Japanese>
         <Korean>QD .300BLK Suppressor</Korean>
         <Chinesesimp>QD .300BLK Suppressor</Chinesesimp>
       </Key>
@@ -2866,7 +2837,7 @@
         <Portuguese>B&amp;T RotexIIIC (Grey)</Portuguese>
         <Russian>B&amp;T RotexIIIC (Grey)</Russian>
         <German>B&amp;T RotexIIIC (Grey)</German>
-        <Japanese>B&amp;T RotexIIIC (Grey)</Japanese>
+        <Japanese>B&amp;T RotexIIIC (グレー)</Japanese>
         <Korean>B&amp;T RotexIIIC (Grey)</Korean>
         <Chinesesimp>B&amp;T RotexIIIC (Grey)</Chinesesimp>
       </Key>
@@ -2881,7 +2852,7 @@
         <Portuguese>B&amp;T RotexIIIC (Tan)</Portuguese>
         <Russian>B&amp;T RotexIIIC (Tan)</Russian>
         <German>B&amp;T RotexIIIC (Tan)</German>
-        <Japanese>B&amp;T RotexIIIC (Tan)</Japanese>
+        <Japanese>B&amp;T RotexIIIC (タン)</Japanese>
         <Korean>B&amp;T RotexIIIC (Tan)</Korean>
         <Chinesesimp>B&amp;T RotexIIIC (Tan)</Chinesesimp>
       </Key>
@@ -3001,7 +2972,7 @@
         <Portuguese>FN MAG58 Flash Hider</Portuguese>
         <Russian>FN MAG58 Flash Hider</Russian>
         <German>FN MAG58 Flash Hider</German>
-        <Japanese>FN MAG58 Flash Hider</Japanese>
+        <Japanese>FN MAG58 消炎器</Japanese>
         <Korean>FN MAG58 Flash Hider</Korean>
         <Chinesesimp>FN MAG58 Flash Hider</Chinesesimp>
       </Key>
@@ -3076,7 +3047,7 @@
         <Portuguese>Hensoldt ZO (Riser)</Portuguese>
         <Russian>Hensoldt ZO (Riser)</Russian>
         <German>Hensoldt ZO (Riser)</German>
-        <Japanese>Hensoldt ZO (Riser)</Japanese>
+        <Japanese>Hensoldt ZO (ハイマウント)</Japanese>
         <Korean>Hensoldt ZO (Riser)</Korean>
         <Chinesesimp>Hensoldt ZO (Riser)</Chinesesimp>
       </Key>
@@ -3091,24 +3062,24 @@
         <Portuguese>Hensoldt ZO (Riser/2D)</Portuguese>
         <Russian>Hensoldt ZO (Riser/2D)</Russian>
         <German>Hensoldt ZO (Riser/2D)</German>
-        <Japanese>Hensoldt ZO (Riser/2D)</Japanese>
+        <Japanese>Hensoldt ZO (ハイマウント/2D)</Japanese>
         <Korean>Hensoldt ZO (Riser/2D)</Korean>
         <Chinesesimp>Hensoldt ZO (Riser/2D)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_optic_HensoldtZO_Hi_docter">
-      <Original>Hensoldt ZO (Riser/RDS)</Original>
-      <English>Hensoldt ZO (Riser/RDS)</English>
-      <Czech>Hensoldt ZO (Riser/RDS)</Czech>
-      <French>Hensoldt ZO (Riser/RDS)</French>
-      <Spanish>Hensoldt ZO (Riser/RDS)</Spanish>
-      <Italian>Hensoldt ZO (Riser/RDS)</Italian>
-      <Polish>Hensoldt ZO (Riser/RDS)</Polish>
-      <Portuguese>Hensoldt ZO (Riser/RDS)</Portuguese>
-      <Russian>Hensoldt ZO (Riser/RDS)</Russian>
-      <German>Hensoldt ZO (Riser/RDS)</German>
-      <Japanese>Hensoldt ZO (Riser/RDS)</Japanese>
-      <Korean>Hensoldt ZO (Riser/RDS)</Korean>
-      <Chinesesimp>Hensoldt ZO (Riser/RDS)</Chinesesimp>
+        <Original>Hensoldt ZO (Riser/RDS)</Original>
+        <English>Hensoldt ZO (Riser/RDS)</English>
+        <Czech>Hensoldt ZO (Riser/RDS)</Czech>
+        <French>Hensoldt ZO (Riser/RDS)</French>
+        <Spanish>Hensoldt ZO (Riser/RDS)</Spanish>
+        <Italian>Hensoldt ZO (Riser/RDS)</Italian>
+        <Polish>Hensoldt ZO (Riser/RDS)</Polish>
+        <Portuguese>Hensoldt ZO (Riser/RDS)</Portuguese>
+        <Russian>Hensoldt ZO (Riser/RDS)</Russian>
+        <German>Hensoldt ZO (Riser/RDS)</German>
+        <Japanese>Hensoldt ZO (ハイマウント/RDS)</Japanese>
+        <Korean>Hensoldt ZO (Riser/RDS)</Korean>
+        <Chinesesimp>Hensoldt ZO (Riser/RDS)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_optic_HensoldtZO_Hi_docter_2D">
         <Original>Hensoldt ZO (Riser/RDS/2D)</Original>
@@ -3121,7 +3092,7 @@
         <Portuguese>Hensoldt ZO (Riser/RDS/2D)</Portuguese>
         <Russian>Hensoldt ZO (Riser/RDS/2D)</Russian>
         <German>Hensoldt ZO (Riser/RDS/2D)</German>
-        <Japanese>Hensoldt ZO (Riser/RDS/2D)</Japanese>
+        <Japanese>Hensoldt ZO (ハイマウント/RDS/2D)</Japanese>
         <Korean>Hensoldt ZO (Riser/RDS/2D)</Korean>
         <Chinesesimp>Hensoldt ZO (Riser/RDS/2D)</Chinesesimp>
       </Key>
@@ -3316,7 +3287,7 @@
         <Portuguese>Steiner DBAL-PL (VIS)</Portuguese>
         <Russian>Steiner DBAL-PL (VIS)</Russian>
         <German>Steiner DBAL-PL (VIS)</German>
-        <Japanese>Steiner DBAL-PL (VIS)</Japanese>
+        <Japanese>Steiner DBAL-PL (可視光)</Japanese>
         <Korean>Steiner DBAL-PL (VIS)</Korean>
         <Chinesesimp>Steiner DBAL-PL (VIS)</Chinesesimp>
       </Key>
@@ -3331,7 +3302,7 @@
         <Portuguese>UTG Lightweight Shooters Bipod</Portuguese>
         <Russian>UTG Lightweight Shooters Bipod</Russian>
         <German>UTG Lightweight Shooters Bipod</German>
-        <Japanese>UTG Lightweight Shooters Bipod</Japanese>
+        <Japanese>UTG Lightweight Shooters 二脚</Japanese>
         <Korean>UTG Lightweight Shooters Bipod</Korean>
         <Chinesesimp>UTG Lightweight Shooters Bipod</Chinesesimp>
       </Key>
@@ -3378,7 +3349,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3393,7 +3364,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3408,7 +3379,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3423,7 +3394,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3438,7 +3409,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3453,7 +3424,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3468,11 +3439,10 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_DESC_50Rnd_556x45_B">
         <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Original>
         <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</English>
@@ -3484,7 +3454,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3499,7 +3469,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット貫通弾芯 (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3514,7 +3484,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3529,7 +3499,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3544,7 +3514,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3559,7 +3529,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -3574,12 +3544,10 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
-      
-      
       <Key ID="STR_NIA_DESC_545x39_B_AK">
         <Original>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Original>
         <English>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</English>
@@ -3591,7 +3559,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3606,7 +3574,7 @@
         <Portuguese>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.45x39mm 7U1 亜音速 FMJ&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7U1 Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3621,7 +3589,7 @@
         <Portuguese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.45x39mm 7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3636,7 +3604,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ/7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3651,11 +3619,10 @@
         <Portuguese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.45x39mm 7N10 EPR&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、焼入鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_45rnd_545x39_B_AK">
         <Original>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Original>
         <English>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</English>
@@ -3667,7 +3634,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 45</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Chinesesimp>
       </Key>
@@ -3682,7 +3649,7 @@
         <Portuguese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Portuguese>
         <Russian>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Russian>
         <German>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</German>
-        <Japanese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Japanese>
+        <Japanese>口径: 5.45x39mm 7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 45</Japanese>
         <Korean>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 45</Chinesesimp>
       </Key>
@@ -3697,7 +3664,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ/7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 45</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 45</Chinesesimp>
       </Key>
@@ -3712,11 +3679,10 @@
         <Portuguese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</Russian>
         <German>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</German>
-        <Japanese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</Japanese>
+        <Japanese>口径: 5.45x39mm 7N10 EPR&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、焼入鋼製弾芯)&lt;br/&gt;弾数: 45</Japanese>
         <Korean>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 45</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_60rnd_545x39_B_AK">
         <Original>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Original>
         <English>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</English>
@@ -3728,7 +3694,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 60</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Chinesesimp>
       </Key>
@@ -3743,7 +3709,7 @@
         <Portuguese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Portuguese>
         <Russian>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Russian>
         <German>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</German>
-        <Japanese>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Japanese>
+        <Japanese>口径: 5.45x39mm 7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 60</Japanese>
         <Korean>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 60</Chinesesimp>
       </Key>
@@ -3758,7 +3724,7 @@
         <Portuguese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</Russian>
         <German>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</German>
-        <Japanese>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</Japanese>
+        <Japanese>口径: 5.45x39mm 7N6M FMJ/7T3 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 60</Japanese>
         <Korean>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N6M FMJ/7T3 Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 60</Chinesesimp>
       </Key>
@@ -3773,11 +3739,10 @@
         <Portuguese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</Portuguese>
         <Russian>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</Russian>
         <German>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</German>
-        <Japanese>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</Japanese>
+        <Japanese>口径: 5.45x39mm 7N10 EPR&lt;br/&gt;種類: フル メタル ジャケット (鉛弾丸、焼入鋼製弾芯)&lt;br/&gt;弾数: 60</Japanese>
         <Korean>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</Korean>
         <Chinesesimp>Caliber: 5.45x39mm 7N10 EPR&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Hardened Steel Core)&lt;br/&gt;Rounds: 60</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_30rnd_762x39_B_AK">
         <Original>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Original>
         <English>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</English>
@@ -3789,7 +3754,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S (M43 弾丸)&lt;br/&gt;種類: フル メタル ジャケット (軟鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3804,7 +3769,7 @@
         <Portuguese>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 7.62x39mm 557-N-321U 亜音速 FMJ&lt;br/&gt;種類: フル メタル ジャケット (軟鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 557-N-321U Subsonic FMJ&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3819,7 +3784,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3834,7 +3799,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S (M43 弾丸)/57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -3849,11 +3814,10 @@
         <Portuguese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 7.62x39mm 7N23 AP&lt;br/&gt;種類: フル メタル ジャケット (焼入鋼製弾芯)&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_40rnd_762x39_B_AK">
         <Original>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Original>
         <English>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</English>
@@ -3865,7 +3829,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S (M43 弾丸)&lt;br/&gt;種類: フル メタル ジャケット (軟鋼製弾芯)&lt;br/&gt;弾数: 40</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 40</Chinesesimp>
       </Key>
@@ -3880,7 +3844,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</Russian>
         <German>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 40</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 40</Chinesesimp>
       </Key>
@@ -3895,7 +3859,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S (M43 弾丸)/57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 40</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 40</Chinesesimp>
       </Key>
@@ -3910,11 +3874,10 @@
         <Portuguese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</Portuguese>
         <Russian>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</Russian>
         <German>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</German>
-        <Japanese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</Japanese>
+        <Japanese>口径: 7.62x39mm 7N23 AP&lt;br/&gt;種類: フル メタル ジャケット (焼入鋼製弾芯)&lt;br/&gt;弾数: 40</Japanese>
         <Korean>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 40</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_DESC_75rnd_762x39_B_AK">
         <Original>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Original>
         <English>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</English>
@@ -3926,7 +3889,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S (M43 弾丸)&lt;br/&gt;種類: フル メタル ジャケット (軟鋼製弾芯)&lt;br/&gt;弾数: 75</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)&lt;br/&gt;Type:Full Metal Jacket with Mild Steel Core&lt;br/&gt;Rounds: 75</Chinesesimp>
       </Key>
@@ -3941,7 +3904,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</Russian>
         <German>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット (バリウム塩弾丸、軟鋼製弾芯)&lt;br/&gt;弾数: 75</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket (Barium Tip, Mild Steel Core)&lt;br/&gt;Rounds: 75</Chinesesimp>
       </Key>
@@ -3956,7 +3919,7 @@
         <Portuguese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</Portuguese>
         <Russian>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</Russian>
         <German>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</German>
-        <Japanese>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</Japanese>
+        <Japanese>口径: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 75</Japanese>
         <Korean>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 57-N-231S(M43 Ball)/57-N-231P Tracer&lt;br/&gt;Type:Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 75</Chinesesimp>
       </Key>
@@ -3971,11 +3934,10 @@
         <Portuguese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</Portuguese>
         <Russian>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</Russian>
         <German>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</German>
-        <Japanese>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</Japanese>
+        <Japanese>口径: 7.62x39mm 7N23 AP&lt;br/&gt;種類: フル メタル ジャケット (焼入鋼製弾芯)&lt;br/&gt;弾数: 75</Japanese>
         <Korean>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</Korean>
         <Chinesesimp>Caliber: 7.62x39mm 7N23 Armor-Piercing&lt;br/&gt;Type:Full Metal Jacket with a Hardened Steel Core&lt;br/&gt;Rounds: 75</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_100Rnd_762x51_B">
         <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Original>
         <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</English>
@@ -3987,7 +3949,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -4002,7 +3964,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M62A1 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -4017,7 +3979,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;種類: フル メタル ジャケット/低視認性曳光弾&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -4032,7 +3994,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Mk319 SOST/M62A1 曳光弾&lt;br/&gt;種類: 中空弾頭/燃焼曳光弾&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -4047,11 +4009,10 @@
         <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M62A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_20Rnd_762x51_B_fal">
         <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Original>
         <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</English>
@@ -4063,11 +4024,10 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_DESC_20Rnd_762x51_sost_fal">
         <Original>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Original>
         <English>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</English>
@@ -4079,7 +4039,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;種類: 矢尻型中空弾頭&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4094,7 +4054,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4109,7 +4069,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4124,7 +4084,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M276 IR-Dim 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4139,7 +4099,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M62A1 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4154,7 +4114,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;種類: フル メタル ジャケット/低視認性曳光弾&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4169,7 +4129,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</Russian>
         <German>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</German>
-        <Japanese>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Lapua FMJ-BT 亜音速&lt;br/&gt;種類: 船尾形弾尾フル メタル ジャケット&lt;br/&gt;弾数: 20</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 20</Chinesesimp>
       </Key>
@@ -4184,7 +4144,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -4199,7 +4159,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M62A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -4214,7 +4174,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M276 IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -4229,7 +4189,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M62A1 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
@@ -4244,11 +4204,10 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/低視認性曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_10Rnd_762x51_B_fal">
         <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Original>
         <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</English>
@@ -4260,11 +4219,10 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_10Rnd_762x51_sost_fal">
         <Original>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Original>
         <English>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</English>
@@ -4276,7 +4234,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;種類: 矢尻型中空弾頭&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 Mod0 SOST&lt;br/&gt;Type: Reverse-Drawn Open Tip Match&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4291,7 +4249,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Mk316 Mod0 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4306,7 +4264,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M62A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4321,7 +4279,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M276 IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M276 IR-Dim Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4336,7 +4294,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M62A1 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4351,7 +4309,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM 曳光弾&lt;br/&gt;種類: フル メタル ジャケット/燃焼曳光弾&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4366,7 +4324,7 @@
         <Portuguese>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
         <Russian>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
         <German>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
-        <Japanese>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</Japanese>
+        <Japanese>口径: 7.62x51mm NATO Lapua FMJ-BT 亜音速&lt;br/&gt;種類: 船尾形弾尾フル メタル ジャケット&lt;br/&gt;弾数: 10</Japanese>
         <Korean>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
       </Key>
@@ -4381,7 +4339,7 @@
         <Portuguese>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</Portuguese>
         <Russian>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</Russian>
         <German>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</German>
-        <Japanese>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</Japanese>
+        <Japanese>Leupold M3A Ultra 高倍率ライフル照準器&lt;br/&gt;倍率: 10x&lt;br/&gt;調整範囲: BDC/ミルドット 100-1200m&lt;br/&gt;照準線: ミルドット</Japanese>
         <Korean>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</Korean>
         <Chinesesimp>Leupold M3A Ultra Magnified Rifle Sight&lt;br/&gt;Magnification: 10x&lt;br/&gt;Adjustment: BDC/Mildot 100-1200m&lt;br/&gt;Reticle: Mildot</Chinesesimp>
       </Key>
@@ -4396,7 +4354,7 @@
         <Portuguese>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</Portuguese>
         <Russian>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</Russian>
         <German>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</German>
-        <Japanese>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</Japanese>
+        <Japanese>AN/PVS-4 夜間暗視装置付き照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: 外部カメラ 200-600m&lt;br/&gt;照準線: 発光照準線</Japanese>
         <Korean>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</Korean>
         <Chinesesimp>AN/PVS-4 Light-Intensifying Night Vision Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: External Cam 200-600m&lt;br/&gt;Reticle: Illuminated Crosshair</Chinesesimp>
       </Key>
@@ -4411,7 +4369,7 @@
         <Portuguese>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</Portuguese>
         <Russian>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</Russian>
         <German>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</German>
-        <Japanese>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</Japanese>
+        <Japanese>Pilad VOMZ P3C 高倍率ライフル照準器&lt;br/&gt;倍率: 3.5x&lt;br/&gt;調整範囲: 手動ゼロイン 100-800m&lt;br/&gt;照準線: ドイツ軍 #1 T字型</Japanese>
         <Korean>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</Korean>
         <Chinesesimp>Pilad VOMZ P3C Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Manual Zero 100-800m&lt;br/&gt;Reticle: German #1 T-Post</Chinesesimp>
       </Key>
@@ -4426,7 +4384,7 @@
         <Portuguese>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Portuguese>
         <Russian>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Russian>
         <German>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</German>
-        <Japanese>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Japanese>
+        <Japanese>Hensoldt ZO 倍率付き戦闘用照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: ゼロイン 100m 固定&lt;br/&gt;照準線: BDC レンジファインダー (5.56mm 補正)</Japanese>
         <Korean>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Korean>
         <Chinesesimp>Hensoldt ZO Magnified Combat Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Fixed Zero 100m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Chinesesimp>
       </Key>
@@ -4441,7 +4399,7 @@
         <Portuguese>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</Portuguese>
         <Russian>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</Russian>
         <German>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</German>
-        <Japanese>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</Japanese>
+        <Japanese>Kern ARAAU 高倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-800m&lt;br/&gt;照準器: 発光中抜きT字型</Japanese>
         <Korean>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</Korean>
         <Chinesesimp>Kern ARAAU Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-800m&lt;br/&gt;Reticle: Illuminated Hollow-Post T</Chinesesimp>
       </Key>
@@ -4456,7 +4414,7 @@
         <Portuguese>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Portuguese>
         <Russian>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Russian>
         <German>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</German>
-        <Japanese>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Japanese>
+        <Japanese>FN ZF 4倍ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-600m&lt;br/&gt;照準線: ドイツ軍 #1 T字型スタイル</Japanese>
         <Korean>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Korean>
         <Chinesesimp>FN ZF 4x Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Chinesesimp>
       </Key>
@@ -4471,7 +4429,7 @@
         <Portuguese>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Portuguese>
         <Russian>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Russian>
         <German>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</German>
-        <Japanese>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Japanese>
+        <Japanese>Docter Sight II オープン コリメーター照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: NIL&lt;br/&gt;照準線: 3.5 MOA 発光ドット</Japanese>
         <Korean>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Korean>
         <Chinesesimp>Docter Sight II Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Chinesesimp>
       </Key>
@@ -4486,7 +4444,7 @@
         <Portuguese>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Portuguese>
         <Russian>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Russian>
         <German>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</German>
-        <Japanese>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Japanese>
+        <Japanese>Kahles ZF95 高倍率ライフル照準器&lt;br/&gt;倍率: 6x&lt;br/&gt;調整範囲: BDC 100-1200m&lt;br/&gt;照準線: NATO レンジファインダー照準線</Japanese>
         <Korean>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Korean>
         <Chinesesimp>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Chinesesimp>
       </Key>
@@ -4501,7 +4459,7 @@
         <Portuguese>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Portuguese>
         <Russian>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Russian>
         <German>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</German>
-        <Japanese>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Japanese>
+        <Japanese>SIG Romeo1 オープン コリメーター照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: NIL&lt;br/&gt;照準線: 3.5MOA 発光ドット</Japanese>
         <Korean>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Korean>
         <Chinesesimp>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Chinesesimp>
       </Key>
@@ -4516,7 +4474,7 @@
         <Portuguese>UTG Shooters Bipod&lt;br/&gt;Steel Feet</Portuguese>
         <Russian>UTG Shooters Bipod&lt;br/&gt;Steel Feet</Russian>
         <German>UTG Shooters Bipod&lt;br/&gt;Steel Feet</German>
-        <Japanese>UTG Shooters Bipod&lt;br/&gt;Steel Feet</Japanese>
+        <Japanese>UTG Shooters 二脚&lt;br/&gt;鉄製の支持脚</Japanese>
         <Korean>UTG Shooters Bipod&lt;br/&gt;Steel Feet</Korean>
         <Chinesesimp>UTG Shooters Bipod&lt;br/&gt;Steel Feet</Chinesesimp>
       </Key>
@@ -4531,7 +4489,7 @@
         <Portuguese>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Portuguese>
         <Russian>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Russian>
         <German>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</German>
-        <Japanese>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Japanese>
+        <Japanese>Magpul AFG 2 フォアグリップ&lt;br/&gt;AFG (アングルド フォアグリップ) は人間工学デザインを取り入れ、疲労を軽減させながらより正確な武器のコントールを可能にする、快適性と安定性を実現する器具です。</Japanese>
         <Korean>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Korean>
         <Chinesesimp>Magpul AFG 2 Foregrip&lt;br/&gt;The AFG (Angled Fore Grip) takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Chinesesimp>
       </Key>
@@ -4546,11 +4504,10 @@
         <Portuguese>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Portuguese>
         <Russian>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Russian>
         <German>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</German>
-        <Japanese>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Japanese>
+        <Japanese>バーティカル フォアグリップは人間工学デザインを取り入れ、疲労を軽減させながらより正確な武器のコントールを可能にする、快適性と安定性を実現する器具です。</Japanese>
         <Korean>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Korean>
         <Chinesesimp>The vertical fore grip takes into account natural body mechanics and provides a comfortable and stable user interface that reduces fatigue and allows for more precise weapon control.</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_762NATO_DESC">
         <Original>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Original>
         <English>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</English>
@@ -4562,24 +4519,24 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 7.62mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_762NATO_Mag58_DESC">
-      <Original>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
-      <English>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
-      <Czech>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
-      <French>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
-      <Spanish>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
-      <Italian>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
-      <Polish>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
-      <Portuguese>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
-      <Russian>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
-      <German>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
-      <Japanese>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Japanese>
-      <Korean>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
-      <Chinesesimp>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+        <Original>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
+        <English>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
+        <Czech>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
+        <French>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
+        <Spanish>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
+        <Italian>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
+        <Polish>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
+        <Portuguese>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
+        <Russian>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
+        <German>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
+        <Japanese>4-Port 消炎器&lt;br/&gt;口径: 7.62mm</Japanese>
+        <Korean>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
+        <Chinesesimp>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_300blk_DESC">
         <Original>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Original>
@@ -4592,7 +4549,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 7.62mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
@@ -4607,7 +4564,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 5.56mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
       </Key>
@@ -4622,7 +4579,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 9x19mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:9x19mm</Chinesesimp>
       </Key>
@@ -4637,7 +4594,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: .45 ACP</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:.45 ACP</Chinesesimp>
       </Key>
@@ -4652,7 +4609,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: .40 S&amp;W</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Chinesesimp>
       </Key>
