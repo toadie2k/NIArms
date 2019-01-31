@@ -2,7 +2,6 @@
 <Project name="NIArms">
   <Package name="hlc_wp_AK">
     <Container name="Names">
-      
       <Key ID="STR_NIA_ak74">
         <Original>Izhmash AK74</Original>
         <English>Izhmash AK74</English>
@@ -44,7 +43,7 @@
         <Portuguese>Izhmash AK74 (Worn)</Portuguese>
         <Russian>Izhmash AK74 (Worn)</Russian>
         <German>Izhmash AK74 (Worn)</German>
-        <Japanese>Izhmash AK74 (Worn)</Japanese>
+        <Japanese>Izhmash AK74 (使い古し)</Japanese>
         <Korean>Izhmash AK74 (Worn)</Korean>
         <Chinesesimp>Izhmash AK74 (Worn)</Chinesesimp>
       </Key>
@@ -89,7 +88,7 @@
         <Portuguese>Izhmash AK74M (GL)</Portuguese>
         <Russian>Izhmash AK74M (GL)</Russian>
         <German>Izhmash AK74M (GL)</German>
-        <Japanese>Izhmash AK74M (GL)</Japanese>
+        <Japanese>Izhmash AK74M (GP-25)</Japanese>
         <Korean>Izhmash AK74M (GL)</Korean>
         <Chinesesimp>Izhmash AK74M (GL)</Chinesesimp>
       </Key>
@@ -134,7 +133,7 @@
         <Portuguese>Izhmash AKS74 (GL)</Portuguese>
         <Russian>Izhmash AKS74 (GL)</Russian>
         <German>Izhmash AKS74 (GL)</German>
-        <Japanese>Izhmash AKS74 (GL)</Japanese>
+        <Japanese>Izhmash AKS74 (GP-25)</Japanese>
         <Korean>Izhmash AKS74 (GL)</Korean>
         <Chinesesimp>Izhmash AKS74 (GL)</Chinesesimp>
       </Key>
@@ -164,7 +163,7 @@
         <Portuguese>Izhmash AK12 (GL)</Portuguese>
         <Russian>Izhmash AK12 (GL)</Russian>
         <German>Izhmash AK12 (GL)</German>
-        <Japanese>Izhmash AK12 (GL)</Japanese>
+        <Japanese>Izhmash AK12 (GP-25)</Japanese>
         <Korean>Izhmash AK12 (GL)</Korean>
         <Chinesesimp>Izhmash AK12 (GL)</Chinesesimp>
       </Key>
@@ -284,7 +283,7 @@
         <Portuguese>Izhmash AKM (GL)</Portuguese>
         <Russian>Izhmash AKM (GL)</Russian>
         <German>Izhmash AKM (GL)</German>
-        <Japanese>Izhmash AKM (GL)</Japanese>
+        <Japanese>Izhmash AKM (GP-25)</Japanese>
         <Korean>Izhmash AKM (GL)</Korean>
         <Chinesesimp>Izhmash AKM (GL)</Chinesesimp>
       </Key>
@@ -344,7 +343,7 @@
         <Portuguese>Kovrov AEK-971S (Worn)</Portuguese>
         <Russian>Kovrov AEK-971S (Worn)</Russian>
         <German>Kovrov AEK-971S (Worn)</German>
-        <Japanese>Kovrov AEK-971S (Worn)</Japanese>
+        <Japanese>Kovrov AEK-971S (使い古し)</Japanese>
         <Korean>Kovrov AEK-971S (Worn)</Korean>
         <Chinesesimp>Kovrov AEK-971S (Worn)</Chinesesimp>
       </Key>
@@ -436,7 +435,7 @@
         <Portuguese>12 Gauge Buckshot 5Rnd Saiga Magazine</Portuguese>
         <Russian>12 Gauge Buckshot 5Rnd Saiga Magazine</Russian>
         <German>12 Gauge Buckshot 5Rnd Saiga Magazine</German>
-        <Japanese>12 Gauge Buckshot 5Rnd Saiga Magazine</Japanese>
+        <Japanese>12 ゲージ バックショット 5発入り サイガ マガジン</Japanese>
         <Korean>12 Gauge Buckshot 5Rnd Saiga Magazine</Korean>
         <Chinesesimp>12 Gauge Buckshot 5Rnd Saiga Magazine</Chinesesimp>
       </Key>
@@ -451,7 +450,7 @@
         <Portuguese>12 Gauge Slug 5Rnd Saiga Magazine</Portuguese>
         <Russian>12 Gauge Slug 5Rnd Saiga Magazine</Russian>
         <German>12 Gauge Slug 5Rnd Saiga Magazine</German>
-        <Japanese>12 Gauge Slug 5Rnd Saiga Magazine</Japanese>
+        <Japanese>12 ゲージ スラッグ 5発入り サイガ マガジン</Japanese>
         <Korean>12 Gauge Slug 5Rnd Saiga Magazine</Korean>
         <Chinesesimp>12 Gauge Slug 5Rnd Saiga Magazine</Chinesesimp>
       </Key>
@@ -558,11 +557,11 @@
         <Portuguese>Arsenal 4-Piece Linear Comp</Portuguese>
         <Russian>Arsenal 4-Piece Linear Comp</Russian>
         <German>Arsenal 4-Piece Linear Comp</German>
-        <Japanese>Arsenal 4-Piece Linear Comp</Japanese>
+        <Japanese>Arsenal 4-Piece ライナー コンプ</Japanese>
         <Korean>Arsenal 4-Piece Linear Comp</Korean>
         <Chinesesimp>Arsenal 4-Piece Linear Comp</Chinesesimp>
       </Key>
-      </Container>
+    </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_AK74_DESC">
         <Original>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Original>
@@ -575,7 +574,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Japanese>
+        <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
       </Key>
@@ -590,7 +589,7 @@
         <Portuguese>SMG&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
         <Russian>SMG&lt;br/&gt;Caliber:5.45x45mm</Russian>
         <German>SMG&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>SMG&lt;br/&gt;Caliber:5.45x45mm</Japanese>
+        <Japanese>カービン ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
         <Korean>SMG&lt;br/&gt;Caliber:5.45x45mm</Korean>
         <Chinesesimp>SMG&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
       </Key>
@@ -605,7 +604,7 @@
         <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
         <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Russian>
         <German>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Japanese>
+        <Japanese>軽支援火器&lt;br/&gt;口径: 5.45x45mm</Japanese>
         <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Korean>
         <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
       </Key>
@@ -620,7 +619,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Japanese>
+        <Japanese>アサルト ライフル&lt;br/&gt;口径: 7.62x39mm</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
       </Key>
@@ -635,7 +634,7 @@
         <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
         <Russian>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Russian>
         <German>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</German>
-        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Japanese>
+        <Japanese>軽支援火器&lt;br/&gt;口径: 7.62x39mm</Japanese>
         <Korean>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Korean>
         <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
       </Key>
@@ -650,27 +649,25 @@
         <Portuguese>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Portuguese>
         <Russian>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Russian>
         <German>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</German>
-        <Japanese>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Japanese>
+        <Japanese>オートマチック ショットガン&lt;br/&gt;口径: 12 ゲージ</Japanese>
         <Korean>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Korean>
         <Chinesesimp>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_SL107U_DESC">
-        <Original>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&lt;br/&gt;&quot;Room Broom&quot;</Original>
-        <English>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</English>
-        <Czech>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Czech>
-        <French>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</French>
-        <Spanish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Spanish>
-        <Italian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Italian>
-        <Polish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Polish>
-        <Portuguese>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Portuguese>
-        <Russian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Russian>
-        <German>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</German>
-        <Japanese>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Japanese>
-        <Korean>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Korean>
-        <Chinesesimp>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&quot;Room Broom&quot;</Chinesesimp>
+        <Original>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&lt;br/&gt;"Room Broom"</Original>
+        <English>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</English>
+        <Czech>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Czech>
+        <French>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</French>
+        <Spanish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Spanish>
+        <Italian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Italian>
+        <Polish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Polish>
+        <Portuguese>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Portuguese>
+        <Russian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Russian>
+        <German>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</German>
+        <Japanese>ショートバレル カービン&lt;br/&gt;口径: 7.62x39mm"ルーム ブルーム"</Japanese>
+        <Korean>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Korean>
+        <Chinesesimp>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Chinesesimp>
       </Key>
-
-      
       <Key ID="STR_NIA_PSO1_DESC">
         <Original>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Original>
         <English>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</English>
@@ -682,7 +679,7 @@
         <Portuguese>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
         <Russian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
         <German>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Japanese>
+        <Japanese>PSO-1 高倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-1000m&lt;br/&gt;照準線: 山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
         <Korean>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
         <Chinesesimp>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
       </Key>
@@ -697,7 +694,7 @@
         <Portuguese>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Portuguese>
         <Russian>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Russian>
         <German>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</German>
-        <Japanese>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Japanese>
+        <Japanese>1P29 倍率プリズム照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 400-1000m&lt;br/&gt;照準線: 反転山形ポスト + 簡易距離計</Japanese>
         <Korean>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Korean>
         <Chinesesimp>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Chinesesimp>
       </Key>
@@ -712,7 +709,7 @@
         <Portuguese>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Portuguese>
         <Russian>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Russian>
         <German>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</German>
-        <Japanese>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Japanese>
+        <Japanese>EKP-1S-03M オープン コリメーター照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: NIL&lt;br/&gt;照準線: 発光オープンT字型</Japanese>
         <Korean>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Korean>
         <Chinesesimp>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Chinesesimp>
       </Key>
@@ -727,11 +724,10 @@
         <Portuguese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
         <Russian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
         <German>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Japanese>
+        <Japanese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;倍率: 3.6x&lt;br/&gt;調整範囲: BDC 300-2200m&lt;br/&gt;照準線: C山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
         <Korean>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
         <Chinesesimp>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_PBS4_DESC">
         <Original>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Original>
         <English>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</English>
@@ -743,7 +739,7 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 5.45mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Chinesesimp>
       </Key>
@@ -758,7 +754,7 @@
         <Portuguese>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Portuguese>
         <Russian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Russian>
         <German>Linear Compensator&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Japanese>
+        <Japanese>ライナー コンペンセイター&lt;br/&gt;口径: 7.62mm</Japanese>
         <Korean>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Korean>
         <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
@@ -773,11 +769,10 @@
         <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Portuguese>
         <Russian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Russian>
         <German>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Japanese>
+        <Japanese>消音器&lt;br/&gt;口径: 7.62mm</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_5rnd_12g_buck_S12">
         <Original>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Original>
         <English>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</English>
@@ -789,7 +784,7 @@
         <Portuguese>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Portuguese>
         <Russian>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Russian>
         <German>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</German>
-        <Japanese>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Japanese>
+        <Japanese>口径: 12 ゲージ 00 バック&lt;br/&gt;種類: 鉛ペレット&lt;br/&gt;弾数: 5</Japanese>
         <Korean>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Korean>
         <Chinesesimp>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Chinesesimp>
       </Key>
@@ -804,7 +799,7 @@
         <Portuguese>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Portuguese>
         <Russian>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Russian>
         <German>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</German>
-        <Japanese>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Japanese>
+        <Japanese>口径: 12 ゲージ スラッグ&lt;br/&gt;種類: 単発鉛弾丸&lt;br/&gt;弾数: 5</Japanese>
         <Korean>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Korean>
         <Chinesesimp>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Chinesesimp>
       </Key>
