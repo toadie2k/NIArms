@@ -238,7 +238,7 @@
         <Portuguese>H&amp;K G36V (TAC)</Portuguese>
         <Russian>H&amp;K G36V (TAC)</Russian>
         <German>H&amp;K G36V (TAC)</German>
-        <Japanese>H&amp;K G36V (TAC)</Japanese>
+        <Japanese>H&amp;K G36V (タクティカル)</Japanese>
         <Korean>H&amp;K G36V (TAC)</Korean>
         <Chinesesimp>H&amp;K G36V (TAC)</Chinesesimp>
       </Key>
@@ -253,7 +253,7 @@
         <Portuguese>H&amp;K G36KV (TAC)</Portuguese>
         <Russian>H&amp;K G36KV (TAC)</Russian>
         <German>H&amp;K G36KV (TAC)</German>
-        <Japanese>H&amp;K G36KV (TAC)</Japanese>
+        <Japanese>H&amp;K G36KV (タクティカル)</Japanese>
         <Korean>H&amp;K G36KV (TAC)</Korean>
         <Chinesesimp>H&amp;K G36KV (TAC)</Chinesesimp>
       </Key>
@@ -268,7 +268,7 @@
         <Portuguese>H&amp;K G36CV (TAC)</Portuguese>
         <Russian>H&amp;K G36CV (TAC)</Russian>
         <German>H&amp;K G36CV (TAC)</German>
-        <Japanese>H&amp;K G36CV (TAC)</Japanese>
+        <Japanese>H&amp;K G36CV (タクティカル)</Japanese>
         <Korean>H&amp;K G36CV (TAC)</Korean>
         <Chinesesimp>H&amp;K G36CV (TAC)</Chinesesimp>
       </Key>
@@ -283,7 +283,7 @@
         <Portuguese>H&amp;K G36V (TAC/GL)</Portuguese>
         <Russian>H&amp;K G36V (TAC/GL)</Russian>
         <German>H&amp;K G36V (TAC/GL)</German>
-        <Japanese>H&amp;K G36V (TAC/GL)</Japanese>
+        <Japanese>H&amp;K G36V (タクティカル/GL)</Japanese>
         <Korean>H&amp;K G36V (TAC/GL)</Korean>
         <Chinesesimp>H&amp;K G36V (TAC/GL)</Chinesesimp>
       </Key>
@@ -360,7 +360,7 @@
         <Portuguese>G36 Dual-Optic 3.5x</Portuguese>
         <Russian>G36 Dual-Optic 3.5x</Russian>
         <German>G36 Dual-Optic 3.5x</German>
-        <Japanese>G36 Dual-Optic 3.5x</Japanese>
+        <Japanese>G36 デュアル照準器 3.5x</Japanese>
         <Korean>G36 Dual-Optic 3.5x</Korean>
         <Chinesesimp>G36 Dual-Optic 3.5x</Chinesesimp>
       </Key>
@@ -375,7 +375,7 @@
         <Portuguese>G36 Dual-Optic 3.5x (2D)</Portuguese>
         <Russian>G36 Dual-Optic 3.5x (2D)</Russian>
         <German>G36 Dual-Optic 3.5x (2D)</German>
-        <Japanese>G36 Dual-Optic 3.5x (2D)</Japanese>
+        <Japanese>G36 デュアル照準器 3.5x (2D)</Japanese>
         <Korean>G36 Dual-Optic 3.5x (2D)</Korean>
         <Chinesesimp>G36 Dual-Optic 3.5x (2D)</Chinesesimp>
       </Key>
@@ -390,7 +390,7 @@
         <Portuguese>G36 Export Optic 3.5x</Portuguese>
         <Russian>G36 Export Optic 3.5x</Russian>
         <German>G36 Export Optic 3.5x</German>
-        <Japanese>G36 Export Optic 3.5x</Japanese>
+        <Japanese>G36 独立型照準器 3.5x</Japanese>
         <Korean>G36 Export Optic 3.5x</Korean>
         <Chinesesimp>G36 Export Optic 3.5x</Chinesesimp>
       </Key>
@@ -405,7 +405,7 @@
         <Portuguese>G36 Export Optic 3.5x (2D)</Portuguese>
         <Russian>G36 Export Optic 3.5x (2D)</Russian>
         <German>G36 Export Optic 3.5x (2D)</German>
-        <Japanese>G36 Export Optic 3.5x (2D)</Japanese>
+        <Japanese>G36 独立型照準器 3.5x (2D)</Japanese>
         <Korean>G36 Export Optic 3.5x (2D)</Korean>
         <Chinesesimp>G36 Export Optic 3.5x (2D)</Chinesesimp>
       </Key>
@@ -420,7 +420,7 @@
         <Portuguese>G36 Dual-Optic 1.5x</Portuguese>
         <Russian>G36 Dual-Optic 1.5x</Russian>
         <German>G36 Dual-Optic 1.5x</German>
-        <Japanese>G36 Dual-Optic 1.5x</Japanese>
+        <Japanese>G36 デュアル照準器 1.5x</Japanese>
         <Korean>G36 Dual-Optic 1.5x</Korean>
         <Chinesesimp>G36 Dual-Optic 1.5x</Chinesesimp>
       </Key>
@@ -435,7 +435,7 @@
         <Portuguese>G36 Dual-Optic 1.5x (2D)</Portuguese>
         <Russian>G36 Dual-Optic 1.5x (2D)</Russian>
         <German>G36 Dual-Optic 1.5x (2D)</German>
-        <Japanese>G36 Dual-Optic 1.5x (2D)</Japanese>
+        <Japanese>G36 デュアル照準器 1.5x (2D)</Japanese>
         <Korean>G36 Dual-Optic 1.5x (2D)</Korean>
         <Chinesesimp>G36 Dual-Optic 1.5x (2D)</Chinesesimp>
       </Key>
@@ -450,7 +450,7 @@
         <Portuguese>G36 Export Optic 1.5x</Portuguese>
         <Russian>G36 Export Optic 1.5x</Russian>
         <German>G36 Export Optic 1.5x</German>
-        <Japanese>G36 Export Optic 1.5x</Japanese>
+        <Japanese>G36 独立型照準器 1.5x</Japanese>
         <Korean>G36 Export Optic 1.5x</Korean>
         <Chinesesimp>G36 Export Optic 1.5x</Chinesesimp>
       </Key>
@@ -465,7 +465,7 @@
         <Portuguese>G36 Export Optic 1.5x (2D)</Portuguese>
         <Russian>G36 Export Optic 1.5x (2D)</Russian>
         <German>G36 Export Optic 1.5x (2D)</German>
-        <Japanese>G36 Export Optic 1.5x (2D)</Japanese>
+        <Japanese>G36 独立型照準器 1.5x (2D)</Japanese>
         <Korean>G36 Export Optic 1.5x (2D)</Korean>
         <Chinesesimp>G36 Export Optic 1.5x (2D)</Chinesesimp>
       </Key>
@@ -480,7 +480,7 @@
         <Portuguese>G36 Bipod</Portuguese>
         <Russian>G36 Bipod</Russian>
         <German>G36 Bipod</German>
-        <Japanese>G36 Bipod</Japanese>
+        <Japanese>G36 二脚</Japanese>
         <Korean>G36 Bipod</Korean>
         <Chinesesimp>G36 Bipod</Chinesesimp>
       </Key>
@@ -497,7 +497,7 @@
         <Portuguese>5.56mm EPR 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm EPR 30Rnd G36 Magazine</Russian>
         <German>5.56mm EPR 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm EPR 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm EPR 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm EPR 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -512,7 +512,7 @@
         <Portuguese>5.56mm SOST 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm SOST 30Rnd G36 Magazine</Russian>
         <German>5.56mm SOST 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm SOST 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm SOST 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm SOST 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -527,7 +527,7 @@
         <Portuguese>5.56mm SBLR 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm SBLR 30Rnd G36 Magazine</Russian>
         <German>5.56mm SBLR 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm SBLR 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm SBLR 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm SBLR 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -542,7 +542,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd G36 Magazine</Russian>
         <German>5.56mm Subsonic 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm Subsonic 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm Subsonic 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -557,7 +557,7 @@
         <Portuguese>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り G36 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Chinesesimp>
       </Key>
@@ -572,7 +572,7 @@
         <Portuguese>5.56mm Tracer 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm Tracer 30Rnd G36 Magazine</Russian>
         <German>5.56mm Tracer 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm Tracer 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm Tracer 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -587,7 +587,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd G36 Magazine</Russian>
         <German>5.56mm IR-DIM 30Rnd G36 Magazine</German>
-        <Japanese>5.56mm IR-DIM 30Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り G36 マガジン</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -602,7 +602,7 @@
         <Portuguese>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り G36 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
@@ -617,7 +617,7 @@
         <Portuguese>5.56mm EPR 100Rnd G36 Magazine</Portuguese>
         <Russian>5.56mm EPR 100Rnd G36 Magazine</Russian>
         <German>5.56mm EPR 100Rnd G36 Magazine</German>
-        <Japanese>5.56mm EPR 100Rnd G36 Magazine</Japanese>
+        <Japanese>5.56mm EPR 100発入り G36 マガジン</Japanese>
         <Korean>5.56mm EPR 100Rnd G36 Magazine</Korean>
         <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine</Chinesesimp>
       </Key>
@@ -632,7 +632,7 @@
         <Portuguese>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Russian>
         <German>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 100発入り G36 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Chinesesimp>
       </Key>
@@ -647,7 +647,7 @@
         <Portuguese>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 100発入り G36 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
@@ -664,7 +664,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -679,7 +679,7 @@
         <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -694,7 +694,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -709,7 +709,7 @@
         <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -724,7 +724,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 6.5mm NATO ケースレス</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
       </Key>
@@ -739,7 +739,7 @@
         <Portuguese>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
         <Russian>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
         <German>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
-        <Japanese>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Japanese>カービン&lt;br/&gt;口径: 6.5mm NATO ケースレス</Japanese>
         <Korean>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
         <Chinesesimp>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
       </Key>
@@ -754,7 +754,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 6.5mm NATO ケースレス</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
       </Key>
@@ -769,7 +769,7 @@
         <Portuguese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Portuguese>
         <Russian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Russian>
         <German>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</German>
-        <Japanese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Japanese>
+        <Japanese>Hensoldt-Wetzlar 倍率ライフル照準器&lt;br/&gt;倍率: 3.5x&lt;br/&gt;調整範囲: ゼロイン固定 200m&lt;br/&gt;照準線: BDC 距離計 (5.56mm 補正)</Japanese>
         <Korean>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Korean>
         <Chinesesimp>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Chinesesimp>
       </Key>
@@ -784,7 +784,7 @@
         <Portuguese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Portuguese>
         <Russian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Russian>
         <German>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</German>
-        <Japanese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Japanese>
+        <Japanese>Hensoldt-Wetzlar 倍率ライフル照準器&lt;br/&gt;倍率: 1.5x&lt;br/&gt;調整範囲: ゼロイン固定 200m&lt;br/&gt;照準線: BDC 距離計 (5.56mm 補正)</Japanese>
         <Korean>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Korean>
         <Chinesesimp>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Chinesesimp>
       </Key>
@@ -800,7 +800,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -815,7 +815,7 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
@@ -830,11 +830,10 @@
         <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Russian>
         <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</German>
-        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
-    
     </Container>
   </Package>
 </Project>
