@@ -28,7 +28,7 @@
         <Portuguese>M14 (Bipod)</Portuguese>
         <Russian>M14 (Bipod)</Russian>
         <German>M14 (Bipod)</German>
-        <Japanese>M14 (Bipod)</Japanese>
+        <Japanese>M14 (二脚)</Japanese>
         <Korean>M14 (Bipod)</Korean>
         <Chinesesimp>M14 (Bipod)</Chinesesimp>
       </Key>
@@ -58,7 +58,7 @@
         <Portuguese>M14 (Bipod/RIS)</Portuguese>
         <Russian>M14 (Bipod/RIS)</Russian>
         <German>M14 (Bipod/RIS)</German>
-        <Japanese>M14 (Bipod/RIS)</Japanese>
+        <Japanese>M14 (二脚/RIS)</Japanese>
         <Korean>M14 (Bipod/RIS)</Korean>
         <Chinesesimp>M14 (Bipod/RIS)</Chinesesimp>
       </Key>
@@ -88,7 +88,7 @@
         <Portuguese>M21 (Bipod)</Portuguese>
         <Russian>M21 (Bipod)</Russian>
         <German>M21 (Bipod)</German>
-        <Japanese>M21 (Bipod)</Japanese>
+        <Japanese>M21 (二脚)</Japanese>
         <Korean>M21 (Bipod)</Korean>
         <Chinesesimp>M21 (Bipod)</Chinesesimp>
       </Key>
@@ -118,7 +118,7 @@
         <Portuguese>M21 (Bipod/RIS)</Portuguese>
         <Russian>M21 (Bipod/RIS)</Russian>
         <German>M21 (Bipod/RIS)</German>
-        <Japanese>M21 (Bipod/RIS)</Japanese>
+        <Japanese>M21 (二脚/RIS)</Japanese>
         <Korean>M21 (Bipod/RIS)</Korean>
         <Chinesesimp>M21 (Bipod/RIS)</Chinesesimp>
       </Key>
@@ -196,7 +196,7 @@
         <Portuguese>AN/PVS-4 (M14-Mount)</Portuguese>
         <Russian>AN/PVS-4 (M14-Mount)</Russian>
         <German>AN/PVS-4 (M14-Mount)</German>
-        <Japanese>AN/PVS-4 (M14-Mount)</Japanese>
+        <Japanese>AN/PVS-4 (M14 用マウント)</Japanese>
         <Korean>AN/PVS-4 (M14-Mount)</Korean>
         <Chinesesimp>AN/PVS-4 (M14-Mount)</Chinesesimp>
       </Key>
@@ -211,7 +211,7 @@
         <Portuguese>Leupold M3A Ultra (M14-Mount)</Portuguese>
         <Russian>Leupold M3A Ultra (M14-Mount)</Russian>
         <German>Leupold M3A Ultra (M14-Mount)</German>
-        <Japanese>Leupold M3A Ultra (M14-Mount)</Japanese>
+        <Japanese>Leupold M3A Ultra (M14 用マウント)</Japanese>
         <Korean>Leupold M3A Ultra (M14-Mount)</Korean>
         <Chinesesimp>Leupold M3A Ultra (M14-Mount)</Chinesesimp>
       </Key>
@@ -228,7 +228,7 @@
         <Portuguese>7.62mm EPR 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm EPR 20Rnd M14 Magazine</Russian>
         <German>7.62mm EPR 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm EPR 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm EPR 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm EPR 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -243,7 +243,7 @@
         <Portuguese>7.62mm SBLR 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm SBLR 20Rnd M14 Magazine</Russian>
         <German>7.62mm SBLR 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm SBLR 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm SBLR 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm SBLR 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm SBLR 20Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -258,7 +258,7 @@
         <Portuguese>7.62mm SOST 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm SOST 20Rnd M14 Magazine</Russian>
         <German>7.62mm SOST 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm SOST 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm SOST 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm SOST 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm SOST 20Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -273,7 +273,7 @@
         <Portuguese>7.62mm Tracer 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm Tracer 20Rnd M14 Magazine</Russian>
         <German>7.62mm Tracer 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm Tracer 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm Tracer 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 20Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -288,7 +288,7 @@
         <Portuguese>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Portuguese>
         <Russian>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Russian>
         <German>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</German>
-        <Japanese>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Japanese>
+        <Japanese>7.62mm EPR 20発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Chinesesimp>
       </Key>
@@ -303,7 +303,7 @@
         <Portuguese>7.62mm IR-DIM 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 20Rnd M14 Magazine</Russian>
         <German>7.62mm IR-DIM 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm IR-DIM 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm IR-DIM 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 20Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -318,11 +318,10 @@
         <Portuguese>7.62mm Subsonic 20Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm Subsonic 20Rnd M14 Magazine</Russian>
         <German>7.62mm Subsonic 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm Subsonic 20Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm 亜音速 20発入り M14 マガジン</Japanese>
         <Korean>7.62mm Subsonic 20Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 20Rnd M14 Magazine</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_50Rnd_762x51_B_M14">
         <Original>7.62mm EPR 50Rnd M14 Magazine</Original>
         <English>7.62mm EPR 50Rnd M14 Magazine</English>
@@ -334,7 +333,7 @@
         <Portuguese>7.62mm EPR 50Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm EPR 50Rnd M14 Magazine</Russian>
         <German>7.62mm EPR 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm EPR 50Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm EPR 50発入り M14 マガジン</Japanese>
         <Korean>7.62mm EPR 50Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -349,7 +348,7 @@
         <Portuguese>7.62mm Tracer 50Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm Tracer 50Rnd M14 Magazine</Russian>
         <German>7.62mm Tracer 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm Tracer 50Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 50発入り M14 マガジン</Japanese>
         <Korean>7.62mm Tracer 50Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 50Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -364,7 +363,7 @@
         <Portuguese>7.62mm IR-DIM 50Rnd M14 Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 50Rnd M14 Magazine</Russian>
         <German>7.62mm IR-DIM 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm IR-DIM 50Rnd M14 Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 50発入り M14 マガジン</Japanese>
         <Korean>7.62mm IR-DIM 50Rnd M14 Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 50Rnd M14 Magazine</Chinesesimp>
       </Key>
@@ -379,7 +378,7 @@
         <Portuguese>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Russian>
         <German>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -394,11 +393,10 @@
         <Portuguese>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Russian>
         <German>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
-      
     </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_M14_DESC">
@@ -412,7 +410,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -427,7 +425,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -442,7 +440,7 @@
         <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>  
@@ -457,7 +455,7 @@
         <Portuguese>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Portuguese>
         <Russian>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Russian>
         <German>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</German>
-        <Japanese>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Japanese>
+        <Japanese>Redfield AR-TEL 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 外部弾道カメラ 300-900m&lt;br/&gt;照準線: Redfield 測距十字線</Japanese>
         <Korean>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Korean>
         <Chinesesimp>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Chinesesimp>
       </Key>
