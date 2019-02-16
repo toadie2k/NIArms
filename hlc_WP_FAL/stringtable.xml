@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_FAL">
+    <Container name="Names">
+      <Key ID="STR_NIA_rifle_falosw">
+        <Original>DSArms SA58-OSW</Original>
+        <English>DSArms SA58-OSW</English>
+        <Czech>DSArms SA58-OSW</Czech>
+        <French>DSArms SA58-OSW</French>
+        <Spanish>DSArms SA58-OSW</Spanish>
+        <Italian>DSArms SA58-OSW</Italian>
+        <Polish>DSArms SA58-OSW</Polish>
+        <Portuguese>DSArms SA58-OSW</Portuguese>
+        <Russian>DSArms SA58-OSW</Russian>
+        <German>DSArms SA58-OSW</German>
+        <Japanese>DSArms SA58-OSW</Japanese>
+        <Korean>DSArms SA58-OSW</Korean>
+        <Chinesesimp>DSArms SA58-OSW</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_faloswgl">
+        <Original>DSArms SA58-OSW (GL)</Original>
+        <English>DSArms SA58-OSW (GL)</English>
+        <Czech>DSArms SA58-OSW (GL)</Czech>
+        <French>DSArms SA58-OSW (GL)</French>
+        <Spanish>DSArms SA58-OSW (GL)</Spanish>
+        <Italian>DSArms SA58-OSW (GL)</Italian>
+        <Polish>DSArms SA58-OSW (GL)</Polish>
+        <Portuguese>DSArms SA58-OSW (GL)</Portuguese>
+        <Russian>DSArms SA58-OSW (GL)</Russian>
+        <German>DSArms SA58-OSW (GL)</German>
+        <Japanese>DSArms SA58-OSW (GL)</Japanese>
+        <Korean>DSArms SA58-OSW (GL)</Korean>
+        <Chinesesimp>DSArms SA58-OSW (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_SLR">
+        <Original>Lithgow SLR</Original>
+        <English>Lithgow SLR</English>
+        <Czech>Lithgow SLR</Czech>
+        <French>Lithgow SLR</French>
+        <Spanish>Lithgow SLR</Spanish>
+        <Italian>Lithgow SLR</Italian>
+        <Polish>Lithgow SLR</Polish>
+        <Portuguese>Lithgow SLR</Portuguese>
+        <Russian>Lithgow SLR</Russian>
+        <German>Lithgow SLR</German>
+        <Japanese>Lithgow SLR</Japanese>
+        <Korean>Lithgow SLR</Korean>
+        <Chinesesimp>Lithgow SLR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_L1A1">
+        <Original>Enfield L1A1 SLR</Original>
+        <English>Enfield L1A1 SLR</English>
+        <Czech>Enfield L1A1 SLR</Czech>
+        <French>Enfield L1A1 SLR</French>
+        <Spanish>Enfield L1A1 SLR</Spanish>
+        <Italian>Enfield L1A1 SLR</Italian>
+        <Polish>Enfield L1A1 SLR</Polish>
+        <Portuguese>Enfield L1A1 SLR</Portuguese>
+        <Russian>Enfield L1A1 SLR</Russian>
+        <German>Enfield L1A1 SLR</German>
+        <Japanese>Enfield L1A1 SLR</Japanese>
+        <Korean>Enfield L1A1 SLR</Korean>
+        <Chinesesimp>Enfield L1A1 SLR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_stg58">
+        <Original>Steyr Stgw.58</Original>
+        <English>Steyr Stgw.58</English>
+        <Czech>Steyr Stgw.58</Czech>
+        <French>Steyr Stgw.58</French>
+        <Spanish>Steyr Stgw.58</Spanish>
+        <Italian>Steyr Stgw.58</Italian>
+        <Polish>Steyr Stgw.58</Polish>
+        <Portuguese>Steyr Stgw.58</Portuguese>
+        <Russian>Steyr Stgw.58</Russian>
+        <German>Steyr Stgw.58</German>
+        <Japanese>Steyr Stgw.58</Japanese>
+        <Korean>Steyr Stgw.58</Korean>
+        <Chinesesimp>Steyr Stgw.58</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_5061ris">
+        <Original>FN FAL 50.61 (RIS)</Original>
+        <English>FN FAL 50.61 (RIS)</English>
+        <Czech>FN FAL 50.61 (RIS)</Czech>
+        <French>FN FAL 50.61 (RIS)</French>
+        <Spanish>FN FAL 50.61 (RIS)</Spanish>
+        <Italian>FN FAL 50.61 (RIS)</Italian>
+        <Polish>FN FAL 50.61 (RIS)</Polish>
+        <Portuguese>FN FAL 50.61 (RIS)</Portuguese>
+        <Russian>FN FAL 50.61 (RIS)</Russian>
+        <German>FN FAL 50.61 (RIS)</German>
+        <Japanese>FN FAL 50.61 (RIS)</Japanese>
+        <Korean>FN FAL 50.61 (RIS)</Korean>
+        <Chinesesimp>FN FAL 50.61 (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_5061">
+        <Original>FN FAL 50.61</Original>
+        <English>FN FAL 50.61</English>
+        <Czech>FN FAL 50.61</Czech>
+        <French>FN FAL 50.61</French>
+        <Spanish>FN FAL 50.61</Spanish>
+        <Italian>FN FAL 50.61</Italian>
+        <Polish>FN FAL 50.61</Polish>
+        <Portuguese>FN FAL 50.61</Portuguese>
+        <Russian>FN FAL 50.61</Russian>
+        <German>FN FAL 50.61</German>
+        <Japanese>FN FAL 50.61</Japanese>
+        <Korean>FN FAL 50.61</Korean>
+        <Chinesesimp>FN FAL 50.61</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_5000">
+        <Original>FN FAL 50.00</Original>
+        <English>FN FAL 50.00</English>
+        <Czech>FN FAL 50.00</Czech>
+        <French>FN FAL 50.00</French>
+        <Spanish>FN FAL 50.00</Spanish>
+        <Italian>FN FAL 50.00</Italian>
+        <Polish>FN FAL 50.00</Polish>
+        <Portuguese>FN FAL 50.00</Portuguese>
+        <Russian>FN FAL 50.00</Russian>
+        <German>FN FAL 50.00</German>
+        <Japanese>FN FAL 50.00</Japanese>
+        <Korean>FN FAL 50.00</Korean>
+        <Chinesesimp>FN FAL 50.00</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_5000ris">
+        <Original>FN FAL 50.00 (RIS)</Original>
+        <English>FN FAL 50.00 (RIS)</English>
+        <Czech>FN FAL 50.00 (RIS)</Czech>
+        <French>FN FAL 50.00 (RIS)</French>
+        <Spanish>FN FAL 50.00 (RIS)</Spanish>
+        <Italian>FN FAL 50.00 (RIS)</Italian>
+        <Polish>FN FAL 50.00 (RIS)</Polish>
+        <Portuguese>FN FAL 50.00 (RIS)</Portuguese>
+        <Russian>FN FAL 50.00 (RIS)</Russian>
+        <German>FN FAL 50.00 (RIS)</German>
+        <Japanese>FN FAL 50.00 (RIS)</Japanese>
+        <Korean>FN FAL 50.00 (RIS)</Korean>
+        <Chinesesimp>FN FAL 50.00 (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_RhodFal">
+        <Original>FN FAL 50.00 (Rhod. Spraycam)</Original>
+        <English>FN FAL 50.00 (Rhod. Spraycam)</English>
+        <Czech>FN FAL 50.00 (Rhod. Spraycam)</Czech>
+        <French>FN FAL 50.00 (Rhod. Spraycam)</French>
+        <Spanish>FN FAL 50.00 (Rhod. Spraycam)</Spanish>
+        <Italian>FN FAL 50.00 (Rhod. Spraycam)</Italian>
+        <Polish>FN FAL 50.00 (Rhod. Spraycam)</Polish>
+        <Portuguese>FN FAL 50.00 (Rhod. Spraycam)</Portuguese>
+        <Russian>FN FAL 50.00 (Rhod. Spraycam)</Russian>
+        <German>FN FAL 50.00 (Rhod. Spraycam)</German>
+        <Japanese>FN FAL 50.00 (Rhod. Spraycam)</Japanese>
+        <Korean>FN FAL 50.00 (Rhod. Spraycam)</Korean>
+        <Chinesesimp>FN FAL 50.00 (Rhod. Spraycam)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_C1A1">
+        <Original>CAL C1A1 SLR</Original>
+        <English>CAL C1A1 SLR</English>
+        <Czech>CAL C1A1 SLR</Czech>
+        <French>CAL C1A1 SLR</French>
+        <Spanish>CAL C1A1 SLR</Spanish>
+        <Italian>CAL C1A1 SLR</Italian>
+        <Polish>CAL C1A1 SLR</Polish>
+        <Portuguese>CAL C1A1 SLR</Portuguese>
+        <Russian>CAL C1A1 SLR</Russian>
+        <German>CAL C1A1 SLR</German>
+        <Japanese>CAL C1A1 SLR</Japanese>
+        <Korean>CAL C1A1 SLR</Korean>
+        <Chinesesimp>CAL C1A1 SLR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_LAR">
+        <Original>FN LAR</Original>
+        <English>FN LAR</English>
+        <Czech>FN LAR</Czech>
+        <French>FN LAR</French>
+        <Spanish>FN LAR</Spanish>
+        <Italian>FN LAR</Italian>
+        <Polish>FN LAR</Polish>
+        <Portuguese>FN LAR</Portuguese>
+        <Russian>FN LAR</Russian>
+        <German>FN LAR</German>
+        <Japanese>FN LAR</Japanese>
+        <Korean>FN LAR</Korean>
+        <Chinesesimp>FN LAR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_FALSuchka">
+        <Original>Lithgow SLR &quot;Chopmod&quot;</Original>
+        <English>Lithgow SLR &quot;Chopmod&quot;</English>
+        <Czech>Lithgow SLR &quot;Chopmod&quot;</Czech>
+        <French>Lithgow SLR &quot;Chopmod&quot;</French>
+        <Spanish>Lithgow SLR &quot;Chopmod&quot;</Spanish>
+        <Italian>Lithgow SLR &quot;Chopmod&quot;</Italian>
+        <Polish>Lithgow SLR &quot;Chopmod&quot;</Polish>
+        <Portuguese>Lithgow SLR &quot;Chopmod&quot;</Portuguese>
+        <Russian>Lithgow SLR &quot;Chopmod&quot;</Russian>
+        <German>Lithgow SLR &quot;Chopmod&quot;</German>
+        <Japanese>Lithgow SLR &quot;Chopmod&quot;</Japanese>
+        <Korean>Lithgow SLR &quot;Chopmod&quot;</Korean>
+        <Chinesesimp>Lithgow SLR &quot;Chopmod&quot;</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Acc_names">
+      <Key ID="STR_NIA_optic_L2A2_SUIT">
+        <Original>L2A2 SUIT</Original>
+        <English>L2A2 SUIT</English>
+        <Czech>L2A2 SUIT</Czech>
+        <French>L2A2 SUIT</French>
+        <Spanish>L2A2 SUIT</Spanish>
+        <Italian>L2A2 SUIT</Italian>
+        <Polish>L2A2 SUIT</Polish>
+        <Portuguese>L2A2 SUIT</Portuguese>
+        <Russian>L2A2 SUIT</Russian>
+        <German>L2A2 SUIT</German>
+        <Japanese>L2A2 SUIT</Japanese>
+        <Korean>L2A2 SUIT</Korean>
+        <Chinesesimp>L2A2 SUIT</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ANPVS4Fal">
+        <Original>AN/PVS-4 (FAL-Mount)</Original>
+        <English>AN/PVS-4 (FAL-Mount)</English>
+        <Czech>AN/PVS-4 (FAL-Mount)</Czech>
+        <French>AN/PVS-4 (FAL-Mount)</French>
+        <Spanish>AN/PVS-4 (FAL-Mount)</Spanish>
+        <Italian>AN/PVS-4 (FAL-Mount)</Italian>
+        <Polish>AN/PVS-4 (FAL-Mount)</Polish>
+        <Portuguese>AN/PVS-4 (FAL-Mount)</Portuguese>
+        <Russian>AN/PVS-4 (FAL-Mount)</Russian>
+        <German>AN/PVS-4 (FAL-Mount)</German>
+        <Japanese>AN/PVS-4 (FAL-Mount)</Japanese>
+        <Korean>AN/PVS-4 (FAL-Mount)</Korean>
+        <Chinesesimp>AN/PVS-4 (FAL-Mount)</Chinesesimp>
+      </Key>
+    
+      </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_FAL_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_FAL_Carbine_DESC">
+        <Original>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Carbine&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_FAL_DESC">
+        <Original>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SUIT_DESC">
+        <Original>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Original>
+        <English>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</English>
+        <Czech>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Czech>
+        <French>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</French>
+        <Spanish>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Spanish>
+        <Italian>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Italian>
+        <Polish>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Polish>
+        <Portuguese>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Portuguese>
+        <Russian>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Russian>
+        <German>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</German>
+        <Japanese>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Japanese>
+        <Korean>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Korean>
+        <Chinesesimp>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Chinesesimp>
+      </Key>
+
+    </Container>
+  </Package>
+</Project>

@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_G36">
+    <Container name="Names">
+      <Key ID="STR_NIA_rifle_G36A1">
+        <Original>H&amp;K G36A1</Original>
+        <English>H&amp;K G36A1</English>
+        <Czech>H&amp;K G36A1</Czech>
+        <French>H&amp;K G36A1</French>
+        <Spanish>H&amp;K G36A1</Spanish>
+        <Italian>H&amp;K G36A1</Italian>
+        <Polish>H&amp;K G36A1</Polish>
+        <Portuguese>H&amp;K G36A1</Portuguese>
+        <Russian>H&amp;K G36A1</Russian>
+        <German>H&amp;K G36A1</German>
+        <Japanese>H&amp;K G36A1</Japanese>
+        <Korean>H&amp;K G36A1</Korean>
+        <Chinesesimp>H&amp;K G36A1</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36A1GL">
+        <Original>H&amp;K G36A1 (GL)</Original>
+        <English>H&amp;K G36A1 (GL)</English>
+        <Czech>H&amp;K G36A1 (GL)</Czech>
+        <French>H&amp;K G36A1 (GL)</French>
+        <Spanish>H&amp;K G36A1 (GL)</Spanish>
+        <Italian>H&amp;K G36A1 (GL)</Italian>
+        <Polish>H&amp;K G36A1 (GL)</Polish>
+        <Portuguese>H&amp;K G36A1 (GL)</Portuguese>
+        <Russian>H&amp;K G36A1 (GL)</Russian>
+        <German>H&amp;K G36A1 (GL)</German>
+        <Japanese>H&amp;K G36A1 (GL)</Japanese>
+        <Korean>H&amp;K G36A1 (GL)</Korean>
+        <Chinesesimp>H&amp;K G36A1 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_MG36">
+        <Original>H&amp;K MG36</Original>
+        <English>H&amp;K MG36</English>
+        <Czech>H&amp;K MG36</Czech>
+        <French>H&amp;K MG36</French>
+        <Spanish>H&amp;K MG36</Spanish>
+        <Italian>H&amp;K MG36</Italian>
+        <Polish>H&amp;K MG36</Polish>
+        <Portuguese>H&amp;K MG36</Portuguese>
+        <Russian>H&amp;K MG36</Russian>
+        <German>H&amp;K MG36</German>
+        <Japanese>H&amp;K MG36</Japanese>
+        <Korean>H&amp;K MG36</Korean>
+        <Chinesesimp>H&amp;K MG36</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KA1">
+        <Original>H&amp;K G36KA1</Original>
+        <English>H&amp;K G36KA1</English>
+        <Czech>H&amp;K G36KA1</Czech>
+        <French>H&amp;K G36KA1</French>
+        <Spanish>H&amp;K G36KA1</Spanish>
+        <Italian>H&amp;K G36KA1</Italian>
+        <Polish>H&amp;K G36KA1</Polish>
+        <Portuguese>H&amp;K G36KA1</Portuguese>
+        <Russian>H&amp;K G36KA1</Russian>
+        <German>H&amp;K G36KA1</German>
+        <Japanese>H&amp;K G36KA1</Japanese>
+        <Korean>H&amp;K G36KA1</Korean>
+        <Chinesesimp>H&amp;K G36KA1</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36C">
+        <Original>H&amp;K G36C</Original>
+        <English>H&amp;K G36C</English>
+        <Czech>H&amp;K G36C</Czech>
+        <French>H&amp;K G36C</French>
+        <Spanish>H&amp;K G36C</Spanish>
+        <Italian>H&amp;K G36C</Italian>
+        <Polish>H&amp;K G36C</Polish>
+        <Portuguese>H&amp;K G36C</Portuguese>
+        <Russian>H&amp;K G36C</Russian>
+        <German>H&amp;K G36C</German>
+        <Japanese>H&amp;K G36C</Japanese>
+        <Korean>H&amp;K G36C</Korean>
+        <Chinesesimp>H&amp;K G36C</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36E">
+        <Original>H&amp;K G36E</Original>
+        <English>H&amp;K G36E</English>
+        <Czech>H&amp;K G36E</Czech>
+        <French>H&amp;K G36E</French>
+        <Spanish>H&amp;K G36E</Spanish>
+        <Italian>H&amp;K G36E</Italian>
+        <Polish>H&amp;K G36E</Polish>
+        <Portuguese>H&amp;K G36E</Portuguese>
+        <Russian>H&amp;K G36E</Russian>
+        <German>H&amp;K G36E</German>
+        <Japanese>H&amp;K G36E</Japanese>
+        <Korean>H&amp;K G36E</Korean>
+        <Chinesesimp>H&amp;K G36E</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36EGL">
+        <Original>H&amp;K G36E (GL)</Original>
+        <English>H&amp;K G36E (GL)</English>
+        <Czech>H&amp;K G36E (GL)</Czech>
+        <French>H&amp;K G36E (GL)</French>
+        <Spanish>H&amp;K G36E (GL)</Spanish>
+        <Italian>H&amp;K G36E (GL)</Italian>
+        <Polish>H&amp;K G36E (GL)</Polish>
+        <Portuguese>H&amp;K G36E (GL)</Portuguese>
+        <Russian>H&amp;K G36E (GL)</Russian>
+        <German>H&amp;K G36E (GL)</German>
+        <Japanese>H&amp;K G36E (GL)</Japanese>
+        <Korean>H&amp;K G36E (GL)</Korean>
+        <Chinesesimp>H&amp;K G36E (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36EGL_Romi">
+        <Original>H&amp;K G36E &quot;Romi&quot; (GL)</Original>
+        <English>H&amp;K G36E &quot;Romi&quot; (GL)</English>
+        <Czech>H&amp;K G36E &quot;Romi&quot; (GL)</Czech>
+        <French>H&amp;K G36E &quot;Romi&quot; (GL)</French>
+        <Spanish>H&amp;K G36E &quot;Romi&quot; (GL)</Spanish>
+        <Italian>H&amp;K G36E &quot;Romi&quot; (GL)</Italian>
+        <Polish>H&amp;K G36E &quot;Romi&quot; (GL)</Polish>
+        <Portuguese>H&amp;K G36E &quot;Romi&quot; (GL)</Portuguese>
+        <Russian>H&amp;K G36E &quot;Romi&quot; (GL)</Russian>
+        <German>H&amp;K G36E &quot;Romi&quot; (GL)</German>
+        <Japanese>H&amp;K G36E &quot;Romi&quot; (GL)</Japanese>
+        <Korean>H&amp;K G36E &quot;Romi&quot; (GL)</Korean>
+        <Chinesesimp>H&amp;K G36E &quot;Romi&quot; (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KE">
+        <Original>H&amp;K G36KE</Original>
+        <English>H&amp;K G36KE</English>
+        <Czech>H&amp;K G36KE</Czech>
+        <French>H&amp;K G36KE</French>
+        <Spanish>H&amp;K G36KE</Spanish>
+        <Italian>H&amp;K G36KE</Italian>
+        <Polish>H&amp;K G36KE</Polish>
+        <Portuguese>H&amp;K G36KE</Portuguese>
+        <Russian>H&amp;K G36KE</Russian>
+        <German>H&amp;K G36KE</German>
+        <Japanese>H&amp;K G36KE</Japanese>
+        <Korean>H&amp;K G36KE</Korean>
+        <Chinesesimp>H&amp;K G36KE</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36V">
+        <Original>H&amp;K G36V</Original>
+        <English>H&amp;K G36V</English>
+        <Czech>H&amp;K G36V</Czech>
+        <French>H&amp;K G36V</French>
+        <Spanish>H&amp;K G36V</Spanish>
+        <Italian>H&amp;K G36V</Italian>
+        <Polish>H&amp;K G36V</Polish>
+        <Portuguese>H&amp;K G36V</Portuguese>
+        <Russian>H&amp;K G36V</Russian>
+        <German>H&amp;K G36V</German>
+        <Japanese>H&amp;K G36V</Japanese>
+        <Korean>H&amp;K G36V</Korean>
+        <Chinesesimp>H&amp;K G36V</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KV">
+        <Original>H&amp;K G36KV</Original>
+        <English>H&amp;K G36KV</English>
+        <Czech>H&amp;K G36KV</Czech>
+        <French>H&amp;K G36KV</French>
+        <Spanish>H&amp;K G36KV</Spanish>
+        <Italian>H&amp;K G36KV</Italian>
+        <Polish>H&amp;K G36KV</Polish>
+        <Portuguese>H&amp;K G36KV</Portuguese>
+        <Russian>H&amp;K G36KV</Russian>
+        <German>H&amp;K G36KV</German>
+        <Japanese>H&amp;K G36KV</Japanese>
+        <Korean>H&amp;K G36KV</Korean>
+        <Chinesesimp>H&amp;K G36KV</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36CV">
+        <Original>H&amp;K G36CV</Original>
+        <English>H&amp;K G36CV</English>
+        <Czech>H&amp;K G36CV</Czech>
+        <French>H&amp;K G36CV</French>
+        <Spanish>H&amp;K G36CV</Spanish>
+        <Italian>H&amp;K G36CV</Italian>
+        <Polish>H&amp;K G36CV</Polish>
+        <Portuguese>H&amp;K G36CV</Portuguese>
+        <Russian>H&amp;K G36CV</Russian>
+        <German>H&amp;K G36CV</German>
+        <Japanese>H&amp;K G36CV</Japanese>
+        <Korean>H&amp;K G36CV</Korean>
+        <Chinesesimp>H&amp;K G36CV</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36V_GL">
+        <Original>H&amp;K G36V (GL)</Original>
+        <English>H&amp;K G36V (GL)</English>
+        <Czech>H&amp;K G36V (GL)</Czech>
+        <French>H&amp;K G36V (GL)</French>
+        <Spanish>H&amp;K G36V (GL)</Spanish>
+        <Italian>H&amp;K G36V (GL)</Italian>
+        <Polish>H&amp;K G36V (GL)</Polish>
+        <Portuguese>H&amp;K G36V (GL)</Portuguese>
+        <Russian>H&amp;K G36V (GL)</Russian>
+        <German>H&amp;K G36V (GL)</German>
+        <Japanese>H&amp;K G36V (GL)</Japanese>
+        <Korean>H&amp;K G36V (GL)</Korean>
+        <Chinesesimp>H&amp;K G36V (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KVksk">
+        <Original>H&amp;K G36K-KSK</Original>
+        <English>H&amp;K G36K-KSK</English>
+        <Czech>H&amp;K G36K-KSK</Czech>
+        <French>H&amp;K G36K-KSK</French>
+        <Spanish>H&amp;K G36K-KSK</Spanish>
+        <Italian>H&amp;K G36K-KSK</Italian>
+        <Polish>H&amp;K G36K-KSK</Polish>
+        <Portuguese>H&amp;K G36K-KSK</Portuguese>
+        <Russian>H&amp;K G36K-KSK</Russian>
+        <German>H&amp;K G36K-KSK</German>
+        <Japanese>H&amp;K G36K-KSK</Japanese>
+        <Korean>H&amp;K G36K-KSK</Korean>
+        <Chinesesimp>H&amp;K G36K-KSK</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KVksk_GL">
+        <Original>H&amp;K G36K-KSK (GL)</Original>
+        <English>H&amp;K G36K-KSK (GL)</English>
+        <Czech>H&amp;K G36K-KSK (GL)</Czech>
+        <French>H&amp;K G36K-KSK (GL)</French>
+        <Spanish>H&amp;K G36K-KSK (GL)</Spanish>
+        <Italian>H&amp;K G36K-KSK (GL)</Italian>
+        <Polish>H&amp;K G36K-KSK (GL)</Polish>
+        <Portuguese>H&amp;K G36K-KSK (GL)</Portuguese>
+        <Russian>H&amp;K G36K-KSK (GL)</Russian>
+        <German>H&amp;K G36K-KSK (GL)</German>
+        <Japanese>H&amp;K G36K-KSK (GL)</Japanese>
+        <Korean>H&amp;K G36K-KSK (GL)</Korean>
+        <Chinesesimp>H&amp;K G36K-KSK (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36V_TAC">
+        <Original>H&amp;K G36V (TAC)</Original>
+        <English>H&amp;K G36V (TAC)</English>
+        <Czech>H&amp;K G36V (TAC)</Czech>
+        <French>H&amp;K G36V (TAC)</French>
+        <Spanish>H&amp;K G36V (TAC)</Spanish>
+        <Italian>H&amp;K G36V (TAC)</Italian>
+        <Polish>H&amp;K G36V (TAC)</Polish>
+        <Portuguese>H&amp;K G36V (TAC)</Portuguese>
+        <Russian>H&amp;K G36V (TAC)</Russian>
+        <German>H&amp;K G36V (TAC)</German>
+        <Japanese>H&amp;K G36V (TAC)</Japanese>
+        <Korean>H&amp;K G36V (TAC)</Korean>
+        <Chinesesimp>H&amp;K G36V (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36KV_TAC">
+        <Original>H&amp;K G36KV (TAC)</Original>
+        <English>H&amp;K G36KV (TAC)</English>
+        <Czech>H&amp;K G36KV (TAC)</Czech>
+        <French>H&amp;K G36KV (TAC)</French>
+        <Spanish>H&amp;K G36KV (TAC)</Spanish>
+        <Italian>H&amp;K G36KV (TAC)</Italian>
+        <Polish>H&amp;K G36KV (TAC)</Polish>
+        <Portuguese>H&amp;K G36KV (TAC)</Portuguese>
+        <Russian>H&amp;K G36KV (TAC)</Russian>
+        <German>H&amp;K G36KV (TAC)</German>
+        <Japanese>H&amp;K G36KV (TAC)</Japanese>
+        <Korean>H&amp;K G36KV (TAC)</Korean>
+        <Chinesesimp>H&amp;K G36KV (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36CV_TAC">
+        <Original>H&amp;K G36CV (TAC)</Original>
+        <English>H&amp;K G36CV (TAC)</English>
+        <Czech>H&amp;K G36CV (TAC)</Czech>
+        <French>H&amp;K G36CV (TAC)</French>
+        <Spanish>H&amp;K G36CV (TAC)</Spanish>
+        <Italian>H&amp;K G36CV (TAC)</Italian>
+        <Polish>H&amp;K G36CV (TAC)</Polish>
+        <Portuguese>H&amp;K G36CV (TAC)</Portuguese>
+        <Russian>H&amp;K G36CV (TAC)</Russian>
+        <German>H&amp;K G36CV (TAC)</German>
+        <Japanese>H&amp;K G36CV (TAC)</Japanese>
+        <Korean>H&amp;K G36CV (TAC)</Korean>
+        <Chinesesimp>H&amp;K G36CV (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36V_TAC_GL">
+        <Original>H&amp;K G36V (TAC/GL)</Original>
+        <English>H&amp;K G36V (TAC/GL)</English>
+        <Czech>H&amp;K G36V (TAC/GL)</Czech>
+        <French>H&amp;K G36V (TAC/GL)</French>
+        <Spanish>H&amp;K G36V (TAC/GL)</Spanish>
+        <Italian>H&amp;K G36V (TAC/GL)</Italian>
+        <Polish>H&amp;K G36V (TAC/GL)</Polish>
+        <Portuguese>H&amp;K G36V (TAC/GL)</Portuguese>
+        <Russian>H&amp;K G36V (TAC/GL)</Russian>
+        <German>H&amp;K G36V (TAC/GL)</German>
+        <Japanese>H&amp;K G36V (TAC/GL)</Japanese>
+        <Korean>H&amp;K G36V (TAC/GL)</Korean>
+        <Chinesesimp>H&amp;K G36V (TAC/GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36_MLI">
+        <Original>H&amp;K G36-MLI(C)</Original>
+        <English>H&amp;K G36-MLI(C)</English>
+        <Czech>H&amp;K G36-MLI(C)</Czech>
+        <French>H&amp;K G36-MLI(C)</French>
+        <Spanish>H&amp;K G36-MLI(C)</Spanish>
+        <Italian>H&amp;K G36-MLI(C)</Italian>
+        <Polish>H&amp;K G36-MLI(C)</Polish>
+        <Portuguese>H&amp;K G36-MLI(C)</Portuguese>
+        <Russian>H&amp;K G36-MLI(C)</Russian>
+        <German>H&amp;K G36-MLI(C)</German>
+        <Japanese>H&amp;K G36-MLI(C)</Japanese>
+        <Korean>H&amp;K G36-MLI(C)</Korean>
+        <Chinesesimp>H&amp;K G36-MLI(C)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36K_MLI">
+        <Original>H&amp;K G36K-MLI(C)</Original>
+        <English>H&amp;K G36K-MLI(C)</English>
+        <Czech>H&amp;K G36K-MLI(C)</Czech>
+        <French>H&amp;K G36K-MLI(C)</French>
+        <Spanish>H&amp;K G36K-MLI(C)</Spanish>
+        <Italian>H&amp;K G36K-MLI(C)</Italian>
+        <Polish>H&amp;K G36K-MLI(C)</Polish>
+        <Portuguese>H&amp;K G36K-MLI(C)</Portuguese>
+        <Russian>H&amp;K G36K-MLI(C)</Russian>
+        <German>H&amp;K G36K-MLI(C)</German>
+        <Japanese>H&amp;K G36K-MLI(C)</Japanese>
+        <Korean>H&amp;K G36K-MLI(C)</Korean>
+        <Chinesesimp>H&amp;K G36K-MLI(C)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36C_MLI">
+        <Original>H&amp;K G36C-MLI(C)</Original>
+        <English>H&amp;K G36C-MLI(C)</English>
+        <Czech>H&amp;K G36C-MLI(C)</Czech>
+        <French>H&amp;K G36C-MLI(C)</French>
+        <Spanish>H&amp;K G36C-MLI(C)</Spanish>
+        <Italian>H&amp;K G36C-MLI(C)</Italian>
+        <Polish>H&amp;K G36C-MLI(C)</Polish>
+        <Portuguese>H&amp;K G36C-MLI(C)</Portuguese>
+        <Russian>H&amp;K G36C-MLI(C)</Russian>
+        <German>H&amp;K G36C-MLI(C)</German>
+        <Japanese>H&amp;K G36C-MLI(C)</Japanese>
+        <Korean>H&amp;K G36C-MLI(C)</Korean>
+        <Chinesesimp>H&amp;K G36C-MLI(C)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_G36_MLI_GL">
+        <Original>H&amp;K G36-MLI(C) (GL)</Original>
+        <English>H&amp;K G36-MLI(C) (GL)</English>
+        <Czech>H&amp;K G36-MLI(C) (GL)</Czech>
+        <French>H&amp;K G36-MLI(C) (GL)</French>
+        <Spanish>H&amp;K G36-MLI(C) (GL)</Spanish>
+        <Italian>H&amp;K G36-MLI(C) (GL)</Italian>
+        <Polish>H&amp;K G36-MLI(C) (GL)</Polish>
+        <Portuguese>H&amp;K G36-MLI(C) (GL)</Portuguese>
+        <Russian>H&amp;K G36-MLI(C) (GL)</Russian>
+        <German>H&amp;K G36-MLI(C) (GL)</German>
+        <Japanese>H&amp;K G36-MLI(C) (GL)</Japanese>
+        <Korean>H&amp;K G36-MLI(C) (GL)</Korean>
+        <Chinesesimp>H&amp;K G36-MLI(C) (GL)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Acc_names">
+      <Key ID="STR_NIA_optic_G36dualoptic35x">
+        <Original>G36 Dual-Optic 3.5x</Original>
+        <English>G36 Dual-Optic 3.5x</English>
+        <Czech>G36 Dual-Optic 3.5x</Czech>
+        <French>G36 Dual-Optic 3.5x</French>
+        <Spanish>G36 Dual-Optic 3.5x</Spanish>
+        <Italian>G36 Dual-Optic 3.5x</Italian>
+        <Polish>G36 Dual-Optic 3.5x</Polish>
+        <Portuguese>G36 Dual-Optic 3.5x</Portuguese>
+        <Russian>G36 Dual-Optic 3.5x</Russian>
+        <German>G36 Dual-Optic 3.5x</German>
+        <Japanese>G36 Dual-Optic 3.5x</Japanese>
+        <Korean>G36 Dual-Optic 3.5x</Korean>
+        <Chinesesimp>G36 Dual-Optic 3.5x</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36dualoptic35x2D">
+        <Original>G36 Dual-Optic 3.5x (2D)</Original>
+        <English>G36 Dual-Optic 3.5x (2D)</English>
+        <Czech>G36 Dual-Optic 3.5x (2D)</Czech>
+        <French>G36 Dual-Optic 3.5x (2D)</French>
+        <Spanish>G36 Dual-Optic 3.5x (2D)</Spanish>
+        <Italian>G36 Dual-Optic 3.5x (2D)</Italian>
+        <Polish>G36 Dual-Optic 3.5x (2D)</Polish>
+        <Portuguese>G36 Dual-Optic 3.5x (2D)</Portuguese>
+        <Russian>G36 Dual-Optic 3.5x (2D)</Russian>
+        <German>G36 Dual-Optic 3.5x (2D)</German>
+        <Japanese>G36 Dual-Optic 3.5x (2D)</Japanese>
+        <Korean>G36 Dual-Optic 3.5x (2D)</Korean>
+        <Chinesesimp>G36 Dual-Optic 3.5x (2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36exportoptic35x">
+        <Original>G36 Export Optic 3.5x</Original>
+        <English>G36 Export Optic 3.5x</English>
+        <Czech>G36 Export Optic 3.5x</Czech>
+        <French>G36 Export Optic 3.5x</French>
+        <Spanish>G36 Export Optic 3.5x</Spanish>
+        <Italian>G36 Export Optic 3.5x</Italian>
+        <Polish>G36 Export Optic 3.5x</Polish>
+        <Portuguese>G36 Export Optic 3.5x</Portuguese>
+        <Russian>G36 Export Optic 3.5x</Russian>
+        <German>G36 Export Optic 3.5x</German>
+        <Japanese>G36 Export Optic 3.5x</Japanese>
+        <Korean>G36 Export Optic 3.5x</Korean>
+        <Chinesesimp>G36 Export Optic 3.5x</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36exportoptic35x2D">
+        <Original>G36 Export Optic 3.5x (2D)</Original>
+        <English>G36 Export Optic 3.5x (2D)</English>
+        <Czech>G36 Export Optic 3.5x (2D)</Czech>
+        <French>G36 Export Optic 3.5x (2D)</French>
+        <Spanish>G36 Export Optic 3.5x (2D)</Spanish>
+        <Italian>G36 Export Optic 3.5x (2D)</Italian>
+        <Polish>G36 Export Optic 3.5x (2D)</Polish>
+        <Portuguese>G36 Export Optic 3.5x (2D)</Portuguese>
+        <Russian>G36 Export Optic 3.5x (2D)</Russian>
+        <German>G36 Export Optic 3.5x (2D)</German>
+        <Japanese>G36 Export Optic 3.5x (2D)</Japanese>
+        <Korean>G36 Export Optic 3.5x (2D)</Korean>
+        <Chinesesimp>G36 Export Optic 3.5x (2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36dualoptic15x">
+        <Original>G36 Dual-Optic 1.5x</Original>
+        <English>G36 Dual-Optic 1.5x</English>
+        <Czech>G36 Dual-Optic 1.5x</Czech>
+        <French>G36 Dual-Optic 1.5x</French>
+        <Spanish>G36 Dual-Optic 1.5x</Spanish>
+        <Italian>G36 Dual-Optic 1.5x</Italian>
+        <Polish>G36 Dual-Optic 1.5x</Polish>
+        <Portuguese>G36 Dual-Optic 1.5x</Portuguese>
+        <Russian>G36 Dual-Optic 1.5x</Russian>
+        <German>G36 Dual-Optic 1.5x</German>
+        <Japanese>G36 Dual-Optic 1.5x</Japanese>
+        <Korean>G36 Dual-Optic 1.5x</Korean>
+        <Chinesesimp>G36 Dual-Optic 1.5x</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36dualoptic15x2D">
+        <Original>G36 Dual-Optic 1.5x (2D)</Original>
+        <English>G36 Dual-Optic 1.5x (2D)</English>
+        <Czech>G36 Dual-Optic 1.5x (2D)</Czech>
+        <French>G36 Dual-Optic 1.5x (2D)</French>
+        <Spanish>G36 Dual-Optic 1.5x (2D)</Spanish>
+        <Italian>G36 Dual-Optic 1.5x (2D)</Italian>
+        <Polish>G36 Dual-Optic 1.5x (2D)</Polish>
+        <Portuguese>G36 Dual-Optic 1.5x (2D)</Portuguese>
+        <Russian>G36 Dual-Optic 1.5x (2D)</Russian>
+        <German>G36 Dual-Optic 1.5x (2D)</German>
+        <Japanese>G36 Dual-Optic 1.5x (2D)</Japanese>
+        <Korean>G36 Dual-Optic 1.5x (2D)</Korean>
+        <Chinesesimp>G36 Dual-Optic 1.5x (2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36exportoptic15x">
+        <Original>G36 Export Optic 1.5x</Original>
+        <English>G36 Export Optic 1.5x</English>
+        <Czech>G36 Export Optic 1.5x</Czech>
+        <French>G36 Export Optic 1.5x</French>
+        <Spanish>G36 Export Optic 1.5x</Spanish>
+        <Italian>G36 Export Optic 1.5x</Italian>
+        <Polish>G36 Export Optic 1.5x</Polish>
+        <Portuguese>G36 Export Optic 1.5x</Portuguese>
+        <Russian>G36 Export Optic 1.5x</Russian>
+        <German>G36 Export Optic 1.5x</German>
+        <Japanese>G36 Export Optic 1.5x</Japanese>
+        <Korean>G36 Export Optic 1.5x</Korean>
+        <Chinesesimp>G36 Export Optic 1.5x</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36exportoptic15x2D">
+        <Original>G36 Export Optic 1.5x (2D)</Original>
+        <English>G36 Export Optic 1.5x (2D)</English>
+        <Czech>G36 Export Optic 1.5x (2D)</Czech>
+        <French>G36 Export Optic 1.5x (2D)</French>
+        <Spanish>G36 Export Optic 1.5x (2D)</Spanish>
+        <Italian>G36 Export Optic 1.5x (2D)</Italian>
+        <Polish>G36 Export Optic 1.5x (2D)</Polish>
+        <Portuguese>G36 Export Optic 1.5x (2D)</Portuguese>
+        <Russian>G36 Export Optic 1.5x (2D)</Russian>
+        <German>G36 Export Optic 1.5x (2D)</German>
+        <Japanese>G36 Export Optic 1.5x (2D)</Japanese>
+        <Korean>G36 Export Optic 1.5x (2D)</Korean>
+        <Chinesesimp>G36 Export Optic 1.5x (2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_G36Bipod">
+        <Original>G36 Bipod</Original>
+        <English>G36 Bipod</English>
+        <Czech>G36 Bipod</Czech>
+        <French>G36 Bipod</French>
+        <Spanish>G36 Bipod</Spanish>
+        <Italian>G36 Bipod</Italian>
+        <Polish>G36 Bipod</Polish>
+        <Portuguese>G36 Bipod</Portuguese>
+        <Russian>G36 Bipod</Russian>
+        <German>G36 Bipod</German>
+        <Japanese>G36 Bipod</Japanese>
+        <Korean>G36 Bipod</Korean>
+        <Chinesesimp>G36 Bipod</Chinesesimp>
+      </Key>
+      </Container>
+    <Container name="Mag_Names">
+      <Key ID="STR_NIA_30rnd_556x45_EPR_G36">
+        <Original>5.56mm EPR 30Rnd G36 Magazine</Original>
+        <English>5.56mm EPR 30Rnd G36 Magazine</English>
+        <Czech>5.56mm EPR 30Rnd G36 Magazine</Czech>
+        <French>5.56mm EPR 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm EPR 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm EPR 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm EPR 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm EPR 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm EPR 30Rnd G36 Magazine</Russian>
+        <German>5.56mm EPR 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm EPR 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm EPR 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_SOST_G36">
+        <Original>5.56mm SOST 30Rnd G36 Magazine</Original>
+        <English>5.56mm SOST 30Rnd G36 Magazine</English>
+        <Czech>5.56mm SOST 30Rnd G36 Magazine</Czech>
+        <French>5.56mm SOST 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm SOST 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm SOST 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm SOST 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm SOST 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm SOST 30Rnd G36 Magazine</Russian>
+        <German>5.56mm SOST 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm SOST 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm SOST 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm SOST 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_SPR_G36">
+        <Original>5.56mm SBLR 30Rnd G36 Magazine</Original>
+        <English>5.56mm SBLR 30Rnd G36 Magazine</English>
+        <Czech>5.56mm SBLR 30Rnd G36 Magazine</Czech>
+        <French>5.56mm SBLR 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm SBLR 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm SBLR 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm SBLR 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm SBLR 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm SBLR 30Rnd G36 Magazine</Russian>
+        <German>5.56mm SBLR 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm SBLR 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm SBLR 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm SBLR 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_S_G36">
+        <Original>5.56mm Subsonic 30Rnd G36 Magazine</Original>
+        <English>5.56mm Subsonic 30Rnd G36 Magazine</English>
+        <Czech>5.56mm Subsonic 30Rnd G36 Magazine</Czech>
+        <French>5.56mm Subsonic 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm Subsonic 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm Subsonic 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm Subsonic 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm Subsonic 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm Subsonic 30Rnd G36 Magazine</Russian>
+        <German>5.56mm Subsonic 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm Subsonic 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm Subsonic 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm Subsonic 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_556x45_M_G36">
+        <Original>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Original>
+        <English>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</English>
+        <Czech>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Czech>
+        <French>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</French>
+        <Spanish>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Spanish>
+        <Italian>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Italian>
+        <Polish>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Polish>
+        <Portuguese>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Portuguese>
+        <Russian>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Russian>
+        <German>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</German>
+        <Japanese>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Japanese>
+        <Korean>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine (Tracers every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_556x45_T_G36">
+        <Original>5.56mm Tracer 30Rnd G36 Magazine</Original>
+        <English>5.56mm Tracer 30Rnd G36 Magazine</English>
+        <Czech>5.56mm Tracer 30Rnd G36 Magazine</Czech>
+        <French>5.56mm Tracer 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm Tracer 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm Tracer 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm Tracer 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm Tracer 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm Tracer 30Rnd G36 Magazine</Russian>
+        <German>5.56mm Tracer 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm Tracer 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm Tracer 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm Tracer 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_TDim_G36">
+        <Original>5.56mm IR-DIM 30Rnd G36 Magazine</Original>
+        <English>5.56mm IR-DIM 30Rnd G36 Magazine</English>
+        <Czech>5.56mm IR-DIM 30Rnd G36 Magazine</Czech>
+        <French>5.56mm IR-DIM 30Rnd G36 Magazine</French>
+        <Spanish>5.56mm IR-DIM 30Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm IR-DIM 30Rnd G36 Magazine</Italian>
+        <Polish>5.56mm IR-DIM 30Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm IR-DIM 30Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm IR-DIM 30Rnd G36 Magazine</Russian>
+        <German>5.56mm IR-DIM 30Rnd G36 Magazine</German>
+        <Japanese>5.56mm IR-DIM 30Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm IR-DIM 30Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm IR-DIM 30Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_MDim_G36">
+        <Original>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Original>
+        <English>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</English>
+        <Czech>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Czech>
+        <French>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</French>
+        <Spanish>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Spanish>
+        <Italian>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Italian>
+        <Polish>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Polish>
+        <Portuguese>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Portuguese>
+        <Russian>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Russian>
+        <German>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</German>
+        <Japanese>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Japanese>
+        <Korean>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd G36 Magazine (IR-DIM every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_100Rnd_556x45_EPR_G36">
+        <Original>5.56mm EPR 100Rnd G36 Magazine</Original>
+        <English>5.56mm EPR 100Rnd G36 Magazine</English>
+        <Czech>5.56mm EPR 100Rnd G36 Magazine</Czech>
+        <French>5.56mm EPR 100Rnd G36 Magazine</French>
+        <Spanish>5.56mm EPR 100Rnd G36 Magazine</Spanish>
+        <Italian>5.56mm EPR 100Rnd G36 Magazine</Italian>
+        <Polish>5.56mm EPR 100Rnd G36 Magazine</Polish>
+        <Portuguese>5.56mm EPR 100Rnd G36 Magazine</Portuguese>
+        <Russian>5.56mm EPR 100Rnd G36 Magazine</Russian>
+        <German>5.56mm EPR 100Rnd G36 Magazine</German>
+        <Japanese>5.56mm EPR 100Rnd G36 Magazine</Japanese>
+        <Korean>5.56mm EPR 100Rnd G36 Magazine</Korean>
+        <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_100Rnd_556x45_M_G36">
+        <Original>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Original>
+        <English>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</English>
+        <Czech>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Czech>
+        <French>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</French>
+        <Spanish>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Spanish>
+        <Italian>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Italian>
+        <Polish>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Polish>
+        <Portuguese>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Portuguese>
+        <Russian>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Russian>
+        <German>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</German>
+        <Japanese>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Japanese>
+        <Korean>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine (Tracers every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_100Rnd_556x45_MDim_G36">
+        <Original>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Original>
+        <English>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</English>
+        <Czech>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Czech>
+        <French>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</French>
+        <Spanish>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Spanish>
+        <Italian>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Italian>
+        <Polish>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Polish>
+        <Portuguese>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Portuguese>
+        <Russian>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Russian>
+        <German>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</German>
+        <Japanese>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Japanese>
+        <Korean>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 100Rnd G36 Magazine (IR-DIM every 4)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_G36_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_G36_Carbine_DESC">
+        <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_G36_Compact_DESC">
+        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_MG36_DESC">
+        <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_G36MLI_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_G36MLI_Carbine_DESC">
+        <Original>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Original>
+        <English>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</English>
+        <Czech>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Czech>
+        <French>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</French>
+        <Spanish>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Spanish>
+        <Italian>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Italian>
+        <Polish>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Polish>
+        <Portuguese>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
+        <Russian>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
+        <German>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
+        <Japanese>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Korean>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
+        <Chinesesimp>Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_G36MLI_Compact_DESC">
+        <Original>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</German>
+        <Japanese>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:6.5mm NATO Caseless</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_35xoptic_DESC">
+        <Original>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Original>
+        <English>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</English>
+        <Czech>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Czech>
+        <French>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200mx&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</French>
+        <Spanish>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Spanish>
+        <Italian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Italian>
+        <Polish>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Polish>
+        <Portuguese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Portuguese>
+        <Russian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Russian>
+        <German>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</German>
+        <Japanese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Japanese>
+        <Korean>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Korean>
+        <Chinesesimp>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 3.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_15xoptic_DESC">
+        <Original>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Original>
+        <English>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</English>
+        <Czech>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Czech>
+        <French>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200mx&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</French>
+        <Spanish>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Spanish>
+        <Italian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Italian>
+        <Polish>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Polish>
+        <Portuguese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Portuguese>
+        <Russian>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Russian>
+        <German>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</German>
+        <Japanese>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Japanese>
+        <Korean>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Korean>
+        <Chinesesimp>Hensoldt-Wetzlar Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5x&lt;br/&gt;Adjustment: Fixed Zero 200m&lt;br/&gt;Reticle: BDC Rangefinding (5.56mm Calibration)</Chinesesimp>
+      </Key>
+
+      <Key ID="STR_NIA_DESC_100Rnd_556x45_B_G36">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_556x45_M_G36">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_556x45_Mdim_G36">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+    
+    </Container>
+  </Package>
+</Project>
