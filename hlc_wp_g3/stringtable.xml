@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
   <Package name="hlc_wp_G3">
     <Container name="Names">
@@ -118,7 +118,7 @@
         <Portuguese>H&amp;K G3A3 (Widegrip)</Portuguese>
         <Russian>H&amp;K G3A3 (Widegrip)</Russian>
         <German>H&amp;K G3A3 (Widegrip)</German>
-        <Japanese>H&amp;K G3A3 (Widegrip)</Japanese>
+        <Japanese>H&amp;K G3A3 (ワイドグリップ)</Japanese>
         <Korean>H&amp;K G3A3 (Widegrip)</Korean>
         <Chinesesimp>H&amp;K G3A3 (Widegrip)</Chinesesimp>
       </Key>
@@ -133,7 +133,7 @@
         <Portuguese>H&amp;K G3A3 (Widegrip/RIS)</Portuguese>
         <Russian>H&amp;K G3A3 (Widegrip/RIS)</Russian>
         <German>H&amp;K G3A3 (Widegrip/RIS)</German>
-        <Japanese>H&amp;K G3A3 (Widegrip/RIS)</Japanese>
+        <Japanese>H&amp;K G3A3 (ワイドグリップ/RIS)</Japanese>
         <Korean>H&amp;K G3A3 (Widegrip/RIS)</Korean>
         <Chinesesimp>H&amp;K G3A3 (Widegrip/RIS)</Chinesesimp>
       </Key>
@@ -272,7 +272,6 @@
         <Korean>H&amp;K HK33KA2 (RIS/GL)</Korean>
         <Chinesesimp>H&amp;K HK33KA2 (RIS/GL)</Chinesesimp>
       </Key>
-      
     </Container>
     <Container name="Acc_names">
       <Key ID="STR_NIA_optic_DiavariDA">
@@ -346,7 +345,7 @@
         <Portuguese>AN/PVS-4 (G3-Mount)</Portuguese>
         <Russian>AN/PVS-4 (G3-Mount)</Russian>
         <German>AN/PVS-4 (G3-Mount)</German>
-        <Japanese>AN/PVS-4 (G3-Mount)</Japanese>
+        <Japanese>AN/PVS-4 (G3 用マウント)</Japanese>
         <Korean>AN/PVS-4 (G3-Mount)</Korean>
         <Chinesesimp>AN/PVS-4 (G3-Mount)</Chinesesimp>
       </Key>
@@ -361,7 +360,7 @@
         <Portuguese>Kahles ZF95 (G3-Mount)</Portuguese>
         <Russian>Kahles ZF95 (G3-Mount)</Russian>
         <German>Kahles ZF95 (G3-Mount)</German>
-        <Japanese>Kahles ZF95 (G3-Mount)</Japanese>
+        <Japanese>Kahles ZF95 (G3 用マウント)</Japanese>
         <Korean>Kahles ZF95 (G3-Mount)</Korean>
         <Chinesesimp>Kahles ZF95 (G3-Mount)</Chinesesimp>
       </Key>
@@ -376,11 +375,10 @@
         <Portuguese>Leupold M3A Ultra (G3-Mount)</Portuguese>
         <Russian>Leupold M3A Ultra (G3-Mount)</Russian>
         <German>Leupold M3A Ultra (G3-Mount)</German>
-        <Japanese>Leupold M3A Ultra (G3-Mount)</Japanese>
+        <Japanese>Leupold M3A Ultra (G3 用マウント)</Japanese>
         <Korean>Leupold M3A Ultra (G3-Mount)</Korean>
         <Chinesesimp>Leupold M3A Ultra (G3-Mount)</Chinesesimp>
       </Key>
-    
       </Container>
     <Container name="Mag_Names">
       <Key ID="STR_NIA_20rnd_762x51_b_G3">
@@ -394,7 +392,7 @@
         <Portuguese>7.62mm EPR 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm EPR 20Rnd G3 Magazine</Russian>
         <German>7.62mm EPR 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm EPR 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm EPR 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm EPR 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -409,7 +407,7 @@
         <Portuguese>7.62mm SBLR 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm SBLR 20Rnd G3 Magazine</Russian>
         <German>7.62mm SBLR 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm SBLR 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm SBLR 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm SBLR 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm SBLR 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -424,7 +422,7 @@
         <Portuguese>7.62mm SOST 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm SOST 20Rnd G3 Magazine</Russian>
         <German>7.62mm SOST 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm SOST 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm SOST 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm SOST 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm SOST 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -439,7 +437,7 @@
         <Portuguese>7.62mm Tracer 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm Tracer 20Rnd G3 Magazine</Russian>
         <German>7.62mm Tracer 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm Tracer 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm Tracer 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -454,7 +452,7 @@
         <Portuguese>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Portuguese>
         <Russian>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Russian>
         <German>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</German>
-        <Japanese>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Japanese>
+        <Japanese>7.62mm EPR 20発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Chinesesimp>
       </Key>
@@ -469,7 +467,7 @@
         <Portuguese>7.62mm IR-DIM 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 20Rnd G3 Magazine</Russian>
         <German>7.62mm IR-DIM 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm IR-DIM 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm IR-DIM 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -484,7 +482,7 @@
         <Portuguese>7.62mm Subsonic 20Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm Subsonic 20Rnd G3 Magazine</Russian>
         <German>7.62mm Subsonic 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm Subsonic 20Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm 亜音速 20発入り G3 マガジン</Japanese>
         <Korean>7.62mm Subsonic 20Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 20Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -500,7 +498,7 @@
         <Portuguese>7.62mm EPR 50Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm EPR 50Rnd G3 Magazine</Russian>
         <German>7.62mm EPR 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm EPR 50Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm EPR 50発入り G3 マガジン</Japanese>
         <Korean>7.62mm EPR 50Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -515,7 +513,7 @@
         <Portuguese>7.62mm Tracer 50Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm Tracer 50Rnd G3 Magazine</Russian>
         <German>7.62mm Tracer 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm Tracer 50Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 50発入り G3 マガジン</Japanese>
         <Korean>7.62mm Tracer 50Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 50Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -530,7 +528,7 @@
         <Portuguese>7.62mm IR-DIM 50Rnd G3 Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 50Rnd G3 Magazine</Russian>
         <German>7.62mm IR-DIM 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm IR-DIM 50Rnd G3 Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 50発入り G3 マガジン</Japanese>
         <Korean>7.62mm IR-DIM 50Rnd G3 Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 50Rnd G3 Magazine</Chinesesimp>
       </Key>
@@ -545,7 +543,7 @@
         <Portuguese>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Russian>
         <German>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -560,7 +558,7 @@
         <Portuguese>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Russian>
         <German>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
@@ -576,7 +574,7 @@
         <Portuguese>5.56mm FMJ 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm FMJ 30Rnd HK33 Magazine</Russian>
         <German>5.56mm FMJ 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm FMJ 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm FMJ 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm FMJ 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm FMJ 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -591,7 +589,7 @@
         <Portuguese>5.56mm EPR 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm EPR 30Rnd HK33 Magazine</Russian>
         <German>5.56mm EPR 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm EPR 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm EPR 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm EPR 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -606,7 +604,7 @@
         <Portuguese>5.56mm SOST 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm SOST 30Rnd HK33 Magazine</Russian>
         <German>5.56mm SOST 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm SOST 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm SOST 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm SOST 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm SOST 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -621,7 +619,7 @@
         <Portuguese>5.56mm SBLR 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm SBLR 30Rnd HK33 Magazine</Russian>
         <German>5.56mm SBLR 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm SBLR 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm SBLR 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm SBLR 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm SBLR 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -636,7 +634,7 @@
         <Portuguese>5.56mm Subsonic 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm Subsonic 30Rnd HK33 Magazine</Russian>
         <German>5.56mm Subsonic 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm Subsonic 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm 亜音速 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm Subsonic 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm Subsonic 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -651,7 +649,7 @@
         <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Russian>
         <German>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Chinesesimp>
       </Key>
@@ -666,7 +664,7 @@
         <Portuguese>5.56mm Tracer 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm Tracer 30Rnd HK33 Magazine</Russian>
         <German>5.56mm Tracer 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm Tracer 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm 曳光弾 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm Tracer 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm Tracer 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -681,7 +679,7 @@
         <Portuguese>5.56mm IR-DIM 30Rnd HK33 Magazine</Portuguese>
         <Russian>5.56mm IR-DIM 30Rnd HK33 Magazine</Russian>
         <German>5.56mm IR-DIM 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm IR-DIM 30Rnd HK33 Magazine</Japanese>
+        <Japanese>5.56mm IR-DIM 30発入り HK33 マガジン</Japanese>
         <Korean>5.56mm IR-DIM 30Rnd HK33 Magazine</Korean>
         <Chinesesimp>5.56mm IR-DIM 30Rnd HK33 Magazine</Chinesesimp>
       </Key>
@@ -696,7 +694,7 @@
         <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Russian>
         <German>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
@@ -713,7 +711,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -728,7 +726,7 @@
         <Portuguese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -743,7 +741,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -758,7 +756,7 @@
         <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -773,7 +771,7 @@
         <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>高精度ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -788,7 +786,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -803,7 +801,7 @@
         <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -818,7 +816,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -833,7 +831,7 @@
         <Portuguese>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Portuguese>
         <Russian>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Russian>
         <German>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</German>
-        <Japanese>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Japanese>
+        <Japanese>Zeiss Diavari-DA 倍率ライフル照準器&lt;br/&gt;倍率: 1.5-6x&lt;br/&gt;調整範囲: 外部 BDC 100-600m&lt;br/&gt;照準線: 簡易距離計付きドイツ軍 #4</Japanese>
         <Korean>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Korean>
         <Chinesesimp>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Chinesesimp>
       </Key>
@@ -848,7 +846,7 @@
         <Portuguese>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Portuguese>
         <Russian>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Russian>
         <German>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</German>
-        <Japanese>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Japanese>
+        <Japanese>Trijicon Accupoint TR20 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 手動調整 200-1200m&lt;br/&gt;照準線: 発光方尖塔型先端</Japanese>
         <Korean>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Korean>
         <Chinesesimp>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Chinesesimp>
       </Key>
@@ -863,7 +861,7 @@
         <Portuguese>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Portuguese>
         <Russian>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Russian>
         <German>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</German>
-        <Japanese>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Japanese>
+        <Japanese>Hendsoldt-Wetzlar ZF NATO 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-600m&lt;br/&gt;照準線: ドイツ軍 #1 T字形</Japanese>
         <Korean>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Korean>
         <Chinesesimp>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Chinesesimp>
       </Key>
@@ -878,11 +876,10 @@
         <Portuguese>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
-        <Japanese>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Japanese>
+        <Japanese>口径: 5.56x45mm NATO M193 FMJ&lt;br/&gt;種類: 鉛弾芯フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
-    
     </Container>
     <Container name="Mag_DisplayShort">
       <Key ID="STR_NIA_556_FMJ">

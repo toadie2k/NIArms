@@ -750,7 +750,7 @@
         <Portuguese>5.56mm Tracer 42Rnd AUG Magazine</Portuguese>
         <Russian>5.56mm Tracer 42Rnd AUG Magazine</Russian>
         <German>5.56mm Tracer 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm Tracer 42発入り AUG マガジン</Japanese>
+        <Japanese>5.56mm 曳光弾 42発入り AUG マガジン</Japanese>
         <Korean>5.56mm Tracer 42Rnd AUG Magazine</Korean>
         <Chinesesimp>5.56mm Tracer 42Rnd AUG Magazine</Chinesesimp>
       </Key>
@@ -840,7 +840,7 @@
         <Portuguese>9mm Subsonic 25Rnd AUG SMG Magazine</Portuguese>
         <Russian>9mm Subsonic 25Rnd AUG SMG Magazine</Russian>
         <German>9mm Subsonic 25Rnd AUG SMG Magazine</German>
-        <Japanese>9mm Subsonic 25発入り AUG SMG マガジン</Japanese>
+        <Japanese>9mm 亜音速 25発入り AUG SMG マガジン</Japanese>
         <Korean>9mm Subsonic 25Rnd AUG SMG Magazine</Korean>
         <Chinesesimp>9mm Subsonic 25Rnd AUG SMG Magazine</Chinesesimp>
       </Key>
@@ -934,7 +934,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -949,7 +949,7 @@
         <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>カービン ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Japanese>インファントリー カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>

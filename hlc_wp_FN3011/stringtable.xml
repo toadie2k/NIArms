@@ -2,7 +2,6 @@
 <Project name="NIArms">
   <Package name="hlc_wp_FN3011">
     <Container name="Names">
-      
       <Key ID="STR_NIA_rifle_FN3011">
         <Original>FN30-11</Original>
         <English>FN30-11</English>
@@ -29,7 +28,7 @@
         <Portuguese>FN30-11 (Woodland)</Portuguese>
         <Russian>FN30-11 (Woodland)</Russian>
         <German>FN30-11 (Woodland)</German>
-        <Japanese>FN30-11 (Woodland)</Japanese>
+        <Japanese>FN30-11 (森林迷彩)</Japanese>
         <Korean>FN30-11 (Woodland)</Korean>
         <Chinesesimp>FN30-11 (Woodland)</Chinesesimp>
       </Key>
@@ -44,7 +43,7 @@
         <Portuguese>FN30-11 (Modernised)</Portuguese>
         <Russian>FN30-11 (Modernised)</Russian>
         <German>FN30-11 (Modernised)</German>
-        <Japanese>FN30-11 (Modernised)</Japanese>
+        <Japanese>FN30-11 (現代化)</Japanese>
         <Korean>FN30-11 (Modernised)</Korean>
         <Chinesesimp>FN30-11 (Modernised)</Chinesesimp>
       </Key>
@@ -59,7 +58,7 @@
         <Portuguese>FN30-11 (Modernised/Camo)</Portuguese>
         <Russian>FN30-11 (Modernised/Camo)</Russian>
         <German>FN30-11 (Modernised/Camo)</German>
-        <Japanese>FN30-11 (Modernised/Camo)</Japanese>
+        <Japanese>FN30-11 (現代化/迷彩)</Japanese>
         <Korean>FN30-11 (Modernised/Camo)</Korean>
         <Chinesesimp>FN30-11 (Modernised/Camo)</Chinesesimp>
       </Key>
@@ -89,7 +88,7 @@
         <Portuguese>FN30-11 (Tac/Walnut)</Portuguese>
         <Russian>FN30-11 (Tac/Walnut)</Russian>
         <German>FN30-11 (Tac/Walnut)</German>
-        <Japanese>FN30-11 (Tac/Walnut)</Japanese>
+        <Japanese>FN30-11 (タクティカル/ウォールナット)</Japanese>
         <Korean>FN30-11 (Tac/Walnut)</Korean>
         <Chinesesimp>FN30-11 (Tac/Walnut)</Chinesesimp>
       </Key>
@@ -104,7 +103,7 @@
         <Portuguese>FN30-11 (Tac/Greyash)</Portuguese>
         <Russian>FN30-11 (Tac/Greyash)</Russian>
         <German>FN30-11 (Tac/Greyash)</German>
-        <Japanese>FN30-11 (Tac/Greyash)</Japanese>
+        <Japanese>FN30-11 (タクティカル/グレーアッシュ)</Japanese>
         <Korean>FN30-11 (Tac/Greyash)</Korean>
         <Chinesesimp>FN30-11 (Tac/Greyash)</Chinesesimp>
       </Key>
@@ -119,7 +118,7 @@
         <Portuguese>FN30-11 (Tac/Green)</Portuguese>
         <Russian>FN30-11 (Tac/Green)</Russian>
         <German>FN30-11 (Tac/Green)</German>
-        <Japanese>FN30-11 (Tac/Green)</Japanese>
+        <Japanese>FN30-11 (タクティカル/グリーン)</Japanese>
         <Korean>FN30-11 (Tac/Green)</Korean>
         <Chinesesimp>FN30-11 (Tac/Green)</Chinesesimp>
       </Key>
@@ -136,7 +135,7 @@
         <Portuguese>AN/PVS-4 (FN3011-Mount)</Portuguese>
         <Russian>AN/PVS-4 (FN3011-Mount)</Russian>
         <German>AN/PVS-4 (FN3011-Mount)</German>
-        <Japanese>AN/PVS-4 (FN3011-Mount)</Japanese>
+        <Japanese>AN/PVS-4 (FN3011 用マウント)</Japanese>
         <Korean>AN/PVS-4 (FN3011-Mount)</Korean>
         <Chinesesimp>AN/PVS-4 (FN3011-Mount)</Chinesesimp>
       </Key>
@@ -151,7 +150,7 @@
         <Portuguese>Kern AARAU 4x24 (FN3011-Mount)</Portuguese>
         <Russian>Kern AARAU 4x24 (FN3011-Mount)</Russian>
         <German>Kern AARAU 4x24 (FN3011-Mount)</German>
-        <Japanese>Kern AARAU 4x24 (FN3011-Mount)</Japanese>
+        <Japanese>Kern AARAU 4x24 (FN3011 用マウント)</Japanese>
         <Korean>Kern AARAU 4x24 (FN3011-Mount)</Korean>
         <Chinesesimp>Kern AARAU 4x24 (FN3011-Mount)</Chinesesimp>
       </Key>
@@ -166,7 +165,7 @@
         <Portuguese>Leupold M3A Ultra (FN3011-Mount)</Portuguese>
         <Russian>Leupold M3A Ultra (FN3011-Mount)</Russian>
         <German>Leupold M3A Ultra (FN3011-Mount)</German>
-        <Japanese>Leupold M3A Ultra (FN3011-Mount)</Japanese>
+        <Japanese>Leupold M3A ウルトラ (FN3011 用マウント)</Japanese>
         <Korean>Leupold M3A Ultra (FN3011-Mount)</Korean>
         <Chinesesimp>Leupold M3A Ultra (FN3011-Mount)</Chinesesimp>
       </Key>
@@ -181,7 +180,7 @@
         <Portuguese>Kahles ZF95 (FN3011-Mount)</Portuguese>
         <Russian>Kahles ZF95 (FN3011-Mount)</Russian>
         <German>Kahles ZF95 (FN3011-Mount)</German>
-        <Japanese>Kahles ZF95 (FN3011-Mount)</Japanese>
+        <Japanese>Kahles ZF95 (FN3011 用マウント)</Japanese>
         <Korean>Kahles ZF95 (FN3011-Mount)</Korean>
         <Chinesesimp>Kahles ZF95 (FN3011-Mount)</Chinesesimp>
       </Key>
@@ -196,11 +195,10 @@
         <Portuguese>Anschutz Diopter</Portuguese>
         <Russian>Anschutz Diopter</Russian>
         <German>Anschutz Diopter</German>
-        <Japanese>Anschutz Diopter</Japanese>
+        <Japanese>Anschutz ダイオプター</Japanese>
         <Korean>Anschutz Diopter</Korean>
         <Chinesesimp>Anschutz Diopter</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_optic_kern_AARAU_2d_FN">
         <Original>Kern AARAU 4x24 (FN3011-Mount/2D)</Original>
         <English>Kern AARAU 4x24 (FN3011-Mount/2D)</English>
@@ -212,11 +210,10 @@
         <Portuguese>Kern AARAU 4x24 (FN3011-Mount/2D)</Portuguese>
         <Russian>Kern AARAU 4x24 (FN3011-Mount/2D)</Russian>
         <German>Kern AARAU 4x24 (FN3011-Mount/2D)</German>
-        <Japanese>Kern AARAU 4x24 (FN3011-Mount/2D)</Japanese>
+        <Japanese>Kern AARAU 4x24 (FN3011 用マウント/2D)</Japanese>
         <Korean>Kern AARAU 4x24 (FN3011-Mount/2D)</Korean>
         <Chinesesimp>Kern AARAU 4x24 (FN3011-Mount/2D)</Chinesesimp>
       </Key>
-    
       </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_FN3011_DESC">
@@ -230,7 +227,7 @@
         <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>高精度ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -245,7 +242,7 @@
         <Portuguese>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</Portuguese>
         <Russian>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</Russian>
         <German>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</German>
-        <Japanese>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</Japanese>
+        <Japanese>Anschutz 無倍率ダイオプター照準器&lt;br/&gt;倍率: 無し&lt;br/&gt;調整範囲: 外部視点 100-600m&lt;br/&gt;照準線: 開放型棒付きダイオプター</Japanese>
         <Korean>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</Korean>
         <Chinesesimp>Anschutz Unmagnified Match Diopter Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: External Cam 100-600m&lt;br/&gt;Reticle: Open Diopter with Post</Chinesesimp>
       </Key>

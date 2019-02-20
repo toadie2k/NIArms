@@ -574,7 +574,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
       </Key>
@@ -619,7 +619,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</German>
-        <Japanese>アサルト ライフル&lt;br/&gt;口径: 7.62x39mm</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62x39mm</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
       </Key>
@@ -679,7 +679,7 @@
         <Portuguese>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
         <Russian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
         <German>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>PSO-1 高倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-1000m&lt;br/&gt;照準線: 山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
+        <Japanese>PSO-1 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-1000m&lt;br/&gt;照準線: 山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
         <Korean>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
         <Chinesesimp>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
       </Key>
@@ -724,7 +724,7 @@
         <Portuguese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
         <Russian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
         <German>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;倍率: 3.6x&lt;br/&gt;調整範囲: BDC 300-2200m&lt;br/&gt;照準線: C山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
+        <Japanese>Goshawk サーマル イメージング照準器&lt;br/&gt;倍率: 3.6x&lt;br/&gt;調整範囲: BDC 300-2200m&lt;br/&gt;照準線: C山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
         <Korean>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
         <Chinesesimp>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
       </Key>

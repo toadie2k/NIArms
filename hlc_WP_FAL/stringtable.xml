@@ -225,11 +225,10 @@
         <Portuguese>AN/PVS-4 (FAL-Mount)</Portuguese>
         <Russian>AN/PVS-4 (FAL-Mount)</Russian>
         <German>AN/PVS-4 (FAL-Mount)</German>
-        <Japanese>AN/PVS-4 (FAL-Mount)</Japanese>
+        <Japanese>AN/PVS-4 (FAL 用マウント)</Japanese>
         <Korean>AN/PVS-4 (FAL-Mount)</Korean>
         <Chinesesimp>AN/PVS-4 (FAL-Mount)</Chinesesimp>
       </Key>
-    
       </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_FAL_DESC">
@@ -243,7 +242,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -258,7 +257,7 @@
         <Portuguese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -273,7 +272,7 @@
         <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>軽支援火器&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -288,11 +287,10 @@
         <Portuguese>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Portuguese>
         <Russian>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Russian>
         <German>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</German>
-        <Japanese>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Japanese>
+        <Japanese>Sight Unit Infantry Trilux 倍率プリズマ照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: 300-500m&lt;br/&gt;照準線: 発光反転方尖塔型</Japanese>
         <Korean>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Korean>
         <Chinesesimp>Sight Unit Infantry Trilux Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: 300-500m&lt;br/&gt;Reticle: Illuminated Inverted Obelisk Post</Chinesesimp>
       </Key>
-
     </Container>
   </Package>
 </Project>
