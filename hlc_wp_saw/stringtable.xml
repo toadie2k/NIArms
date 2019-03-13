@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_SAW">
+    <Container name="Names">
+      <Key ID="STR_NIA_lmg_minimipara">
+        <Original>FN Minimi Para (Short)</Original>
+        <English>FN Minimi Para (Short)</English>
+        <Czech>FN Minimi Para (Short)</Czech>
+        <French>FN Minimi Para (Short)</French>
+        <Spanish>FN Minimi Para (Short)</Spanish>
+        <Italian>FN Minimi Para (Short)</Italian>
+        <Polish>FN Minimi Para (Short)</Polish>
+        <Portuguese>FN Minimi Para (Short)</Portuguese>
+        <Russian>FN Minimi Para (Short)</Russian>
+        <German>FN Minimi Para (Short)</German>
+        <Japanese>FN Minimi Para (Short)</Japanese>
+        <Korean>FN Minimi Para (Short)</Korean>
+        <Chinesesimp>FN Minimi Para (Short)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_lmg_minimipara_railed">
+        <Original>FN Minimi Para (Short/RIS)</Original>
+        <English>FN Minimi Para (Short/RIS)</English>
+        <Czech>FN Minimi Para (Short/RIS)</Czech>
+        <French>FN Minimi Para (Short/RIS)</French>
+        <Spanish>FN Minimi Para (Short/RIS)</Spanish>
+        <Italian>FN Minimi Para (Short/RIS)</Italian>
+        <Polish>FN Minimi Para (Short/RIS)</Polish>
+        <Portuguese>FN Minimi Para (Short/RIS)</Portuguese>
+        <Russian>FN Minimi Para (Short/RIS)</Russian>
+        <German>FN Minimi Para (Short/RIS)</German>
+        <Japanese>FN Minimi Para (Short/RIS)</Japanese>
+        <Korean>FN Minimi Para (Short/RIS)</Korean>
+        <Chinesesimp>FN Minimi Para (Short/RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_lmg_minimipara_long">
+        <Original>FN Minimi Para (Long)</Original>
+        <English>FN Minimi Para (Long)</English>
+        <Czech>FN Minimi Para (Long)</Czech>
+        <French>FN Minimi Para (Long)</French>
+        <Spanish>FN Minimi Para (Long)</Spanish>
+        <Italian>FN Minimi Para (Long)</Italian>
+        <Polish>FN Minimi Para (Long)</Polish>
+        <Portuguese>FN Minimi Para (Long)</Portuguese>
+        <Russian>FN Minimi Para (Long)</Russian>
+        <German>FN Minimi Para (Long)</German>
+        <Japanese>FN Minimi Para (Long)</Japanese>
+        <Korean>FN Minimi Para (Long)</Korean>
+        <Chinesesimp>FN Minimi Para (Long)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_lmg_minimipara_railed">
+        <Original>FN Minimi Para (Long/RIS)</Original>
+        <English>FN Minimi Para (Long/RIS)</English>
+        <Czech>FN Minimi Para (Long/RIS)</Czech>
+        <French>FN Minimi Para (Long/RIS)</French>
+        <Spanish>FN Minimi Para (Long/RIS)</Spanish>
+        <Italian>FN Minimi Para (Long/RIS)</Italian>
+        <Polish>FN Minimi Para (Long/RIS)</Polish>
+        <Portuguese>FN Minimi Para (Long/RIS)</Portuguese>
+        <Russian>FN Minimi Para (Long/RIS)</Russian>
+        <German>FN Minimi Para (Long/RIS)</German>
+        <Japanese>FN Minimi Para (Long/RIS)</Japanese>
+        <Korean>FN Minimi Para (Long/RIS)</Korean>
+        <Chinesesimp>FN Minimi Para (Long/RIS)</Chinesesimp>
+      </Key>      
+      <Key ID="STR_NIA_lmg_minimi">
+        <Original>FN Minimi (Long)</Original>
+        <English>FN Minimi (Long)</English>
+        <Czech>FN Minimi (Long)</Czech>
+        <French>FN Minimi (Long)</French>
+        <Spanish>FN Minimi (Long)</Spanish>
+        <Italian>FN Minimi (Long)</Italian>
+        <Polish>FN Minimi (Long)</Polish>
+        <Portuguese>FN Minimi (Long)</Portuguese>
+        <Russian>FN Minimi (Long)</Russian>
+        <German>FN Minimi (Long)</German>
+        <Japanese>FN Minimi (Long)</Japanese>
+        <Korean>FN Minimi (Long)</Korean>
+        <Chinesesimp>FN Minimi (Long)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_lmg_minimi_railed">
+        <Original>FN Minimi (Long/RIS)</Original>
+        <English>FN Minimi (Long/RIS)</English>
+        <Czech>FN Minimi (Long/RIS)</Czech>
+        <French>FN Minimi (Long/RIS)</French>
+        <Spanish>FN Minimi (Long/RIS)</Spanish>
+        <Italian>FN Minimi (Long/RIS)</Italian>
+        <Polish>FN Minimi (Long/RIS)</Polish>
+        <Portuguese>FN Minimi (Long/RIS)</Portuguese>
+        <Russian>FN Minimi (Long/RIS)</Russian>
+        <German>FN Minimi (Long/RIS)</German>
+        <Japanese>FN Minimi (Long/RIS)</Japanese>
+        <Korean>FN Minimi (Long/RIS)</Korean>
+        <Chinesesimp>FN Minimi (Long/RIS)</Chinesesimp>
+      </Key>      
+      <Key ID="STR_NIA_lmg_m249para">
+        <Original>M249E2 Para (Short)</Original>
+        <English>M249E2 Para (Short)</English>
+        <Czech>M249E2 Para (Short)</Czech>
+        <French>M249E2 Para (Short)</French>
+        <Spanish>M249E2 Para (Short)</Spanish>
+        <Italian>M249E2 Para (Short)</Italian>
+        <Polish>M249E2 Para (Short)</Polish>
+        <Portuguese>M249E2 Para (Short)</Portuguese>
+        <Russian>M249E2 Para (Short)</Russian>
+        <German>M249E2 Para (Short)</German>
+        <Japanese>M249E2 Para (Short)</Japanese>
+        <Korean>M249E2 Para (Short)</Korean>
+        <Chinesesimp>M249E2 Para (Short)</Chinesesimp>
+      </Key>     
+      <Key ID="STR_NIA_lmg_M249E2">
+        <Original>M249E2</Original>
+        <English>M249E2</English>
+        <Czech>M249E2</Czech>
+        <French>M249E2</French>
+        <Spanish>M249E2</Spanish>
+        <Italian>M249E2</Italian>
+        <Polish>M249E2</Polish>
+        <Portuguese>M249E2</Portuguese>
+        <Russian>M249E2</Russian>
+        <German>M249E2</German>
+        <Japanese>M249E2</Japanese>
+        <Korean>M249E2</Korean>
+        <Chinesesimp>M249E2</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_lmg_M249E1">
+        <Original>M249E1</Original>
+        <English>M249E1</English>
+        <Czech>M249E1</Czech>
+        <French>M249E1</French>
+        <Spanish>M249E1</Spanish>
+        <Italian>M249E1</Italian>
+        <Polish>M249E1</Polish>
+        <Portuguese>M249E1</Portuguese>
+        <Russian>M249E1</Russian>
+        <German>M249E1</German>
+        <Japanese>M249E1</Japanese>
+        <Korean>M249E1</Korean>
+        <Chinesesimp>M249E1</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_m249_pip1">
+        <Original>M249 PIP (Long/RIS)</Original>
+        <English>M249 PIP (Long/RIS)</English>
+        <Czech>M249 PIP (Long/RIS)</Czech>
+        <French>M249 PIP (Long/RIS)</French>
+        <Spanish>M249 PIP (Long/RIS)</Spanish>
+        <Italian>M249 PIP (Long/RIS)</Italian>
+        <Polish>M249 PIP (Long/RIS)</Polish>
+        <Portuguese>M249 PIP (Long/RIS)</Portuguese>
+        <Russian>M249 PIP (Long/RIS)</Russian>
+        <German>M249 PIP (Long/RIS)</German>
+        <Japanese>M249 PIP (Long/RIS)</Japanese>
+        <Korean>M249 PIP (Long/RIS)</Korean>
+        <Chinesesimp>M249 PIP (Long/RIS)</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_m249_pip2">
+        <Original>M249E2 (Short/RIS)</Original>
+        <English>M249E2 (Short/RIS)</English>
+        <Czech>M249E2 (Short/RIS)</Czech>
+        <French>M249E2 (Short/RIS)</French>
+        <Spanish>M249E2 (Short/RIS)</Spanish>
+        <Italian>M249E2 (Short/RIS)</Italian>
+        <Polish>M249E2 (Short/RIS)</Polish>
+        <Portuguese>M249E2 (Short/RIS)</Portuguese>
+        <Russian>M249E2 (Short/RIS)</Russian>
+        <German>M249E2 (Short/RIS)</German>
+        <Japanese>M249E2 (Short/RIS)</Japanese>
+        <Korean>M249E2 (Short/RIS)</Korean>
+        <Chinesesimp>M249E2 (Short/RIS)</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_m249_pip3">
+        <Original>M249 PIP (Short/RIS)</Original>
+        <English>M249 PIP (Short/RIS)</English>
+        <Czech>M249 PIP (Short/RIS)</Czech>
+        <French>M249 PIP (Short/RIS)</French>
+        <Spanish>M249 PIP (Short/RIS)</Spanish>
+        <Italian>M249 PIP (Short/RIS)</Italian>
+        <Polish>M249 PIP (Short/RIS)</Polish>
+        <Portuguese>M249 PIP (Short/RIS)</Portuguese>
+        <Russian>M249 PIP (Short/RIS)</Russian>
+        <German>M249 PIP (Short/RIS)</German>
+        <Japanese>M249 PIP (Short/RIS)</Japanese>
+        <Korean>M249 PIP (Short/RIS)</Korean>
+        <Chinesesimp>M249 PIP (Short/RIS)</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_m249_pip4">
+        <Original>M249 PIP (Long/RIS)</Original>
+        <English>M249 PIP (Long/RIS)</English>
+        <Czech>M249 PIP (Long/RIS)</Czech>
+        <French>M249 PIP (Long/RIS)</French>
+        <Spanish>M249 PIP (Long/RIS)</Spanish>
+        <Italian>M249 PIP (Long/RIS)</Italian>
+        <Polish>M249 PIP (Long/RIS)</Polish>
+        <Portuguese>M249 PIP (Long/RIS)</Portuguese>
+        <Russian>M249 PIP (Long/RIS)</Russian>
+        <German>M249 PIP (Long/RIS)</German>
+        <Japanese>M249 PIP (Long/RIS)</Japanese>
+        <Korean>M249 PIP (Long/RIS)</Korean>
+        <Chinesesimp>M249 PIP (Long/RIS)</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_m249_SQuantoon">
+        <Original>M249 &quot;Squantoon Special&quot; (Long/RIS)</Original>
+        <English>M249 &quot;Squantoon Special&quot; (Long/RIS)</English>
+        <Czech>M249 &quot;Squantoon Special&quot; (Long/RIS)</Czech>
+        <French>M249 &quot;Squantoon Special&quot; (Long/RIS)</French>
+        <Spanish>M249 &quot;Squantoon Special&quot; (Long/RIS)</Spanish>
+        <Italian>M249 &quot;Squantoon Special&quot; (Long/RIS)</Italian>
+        <Polish>M249 &quot;Squantoon Special&quot; (Long/RIS)</Polish>
+        <Portuguese>M249 &quot;Squantoon Special&quot; (Long/RIS)</Portuguese>
+        <Russian>M249 &quot;Squantoon Special&quot; (Long/RIS)</Russian>
+        <German>M249 &quot;Squantoon Special&quot; (Long/RIS)</German>
+        <Japanese>M249 &quot;Squantoon Special&quot; (Long/RIS)</Japanese>
+        <Korean>M249 &quot;Squantoon Special&quot; (Long/RIS)</Korean>
+        <Chinesesimp>M249 &quot;Squantoon Special&quot; (Long/RIS)</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_mk46mod0">
+        <Original>Mk 46 Mod 0</Original>
+        <English>Mk 46 Mod 0</English>
+        <Czech>Mk 46 Mod 0</Czech>
+        <French>Mk 46 Mod 0</French>
+        <Spanish>Mk 46 Mod 0</Spanish>
+        <Italian>Mk 46 Mod 0</Italian>
+        <Polish>Mk 46 Mod 0</Polish>
+        <Portuguese>Mk 46 Mod 0</Portuguese>
+        <Russian>Mk 46 Mod 0</Russian>
+        <German>Mk 46 Mod 0</German>
+        <Japanese>Mk 46 Mod 0</Japanese>
+        <Korean>Mk 46 Mod 0</Korean>
+        <Chinesesimp>Mk 46 Mod 0</Chinesesimp>
+      </Key>  
+      <Key ID="STR_NIA_mk46mod1">
+        <Original>Mk 46 Mod 1</Original>
+        <English>Mk 46 Mod 1</English>
+        <Czech>Mk 46 Mod 1</Czech>
+        <French>Mk 46 Mod 1</French>
+        <Spanish>Mk 46 Mod 1</Spanish>
+        <Italian>Mk 46 Mod 1</Italian>
+        <Polish>Mk 46 Mod 1</Polish>
+        <Portuguese>Mk 46 Mod 1</Portuguese>
+        <Russian>Mk 46 Mod 1</Russian>
+        <German>Mk 46 Mod 1</German>
+        <Japanese>Mk 46 Mod 1</Japanese>
+        <Korean>Mk 46 Mod 1</Korean>
+        <Chinesesimp>Mk 46 Mod 1</Chinesesimp>
+      </Key> 
+      <Key ID="STR_NIA_mk48mod0">
+        <Original>Mk 48 Mod 0</Original>
+        <English>Mk 48 Mod 0</English>
+        <Czech>Mk 48 Mod 0</Czech>
+        <French>Mk 48 Mod 0</French>
+        <Spanish>Mk 48 Mod 0</Spanish>
+        <Italian>Mk 48 Mod 0</Italian>
+        <Polish>Mk 48 Mod 0</Polish>
+        <Portuguese>Mk 48 Mod 0</Portuguese>
+        <Russian>Mk 48 Mod 0</Russian>
+        <German>Mk 48 Mod 0</German>
+        <Japanese>Mk 48 Mod 0</Japanese>
+        <Korean>Mk 48 Mod 0</Korean>
+        <Chinesesimp>Mk 48 Mod 0</Chinesesimp>
+      </Key> 
+      <Key ID="STR_NIA_mk48mod1">
+        <Original>Mk 48 Mod 1</Original>
+        <English>Mk 48 Mod 1</English>
+        <Czech>Mk 48 Mod 1</Czech>
+        <French>Mk 48 Mod 1</French>
+        <Spanish>Mk 48 Mod 1</Spanish>
+        <Italian>Mk 48 Mod 1</Italian>
+        <Polish>Mk 48 Mod 1</Polish>
+        <Portuguese>Mk 48 Mod 1</Portuguese>
+        <Russian>Mk 48 Mod 1</Russian>
+        <German>Mk 48 Mod 1</German>
+        <Japanese>Mk 48 Mod 1</Japanese>
+        <Korean>Mk 48 Mod 1</Korean>
+        <Chinesesimp>Mk 48 Mod 1</Chinesesimp>
+      </Key> 
+    </Container>
+    <Container name="Acc_names">
+      <Key ID="STR_NIA_bipod_SAW_VFG">
+        <Original>SAW Pistol Grip</Original>
+        <English>SAW Pistol Grip</English>
+        <Czech>SAW Pistol Grip</Czech>
+        <French>SAW Pistol Grip</French>
+        <Spanish>SAW Pistol Grip</Spanish>
+        <Italian>SAW Pistol Grip</Italian>
+        <Polish>SAW Pistol Grip</Polish>
+        <Portuguese>SAW Pistol Grip</Portuguese>
+        <Russian>SAW Pistol Grip</Russian>
+        <German>SAW Pistol Grip</German>
+        <Japanese>SAW Pistol Grip</Japanese>
+        <Korean>SAW Pistol Grip</Korean>
+        <Chinesesimp>SAW Pistol Grip</Chinesesimp>
+      </Key>
+      </Container>
+    <Container name="Mag_Names">
+      <Key ID="STR_NIA_200rnd_556x45_M_SAW">
+        <Original>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Original>
+        <English>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</English>
+        <Czech>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Czech>
+        <French>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</French>
+        <Spanish>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Spanish>
+        <Italian>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Italian>
+        <Polish>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Polish>
+        <Portuguese>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Portuguese>
+        <Russian>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Russian>
+        <German>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</German>
+        <Japanese>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Japanese>
+        <Korean>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 200Rnd M27-Linked Belt (Tracers every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_556x45_B_SAW">
+        <Original>5.56mm EPR 200Rnd M27-Linked Belt</Original>
+        <English>5.56mm EPR 200Rnd M27-Linked Belt</English>
+        <Czech>5.56mm EPR 200Rnd M27-Linked Belt</Czech>
+        <French>5.56mm EPR 200Rnd M27-Linked Belt</French>
+        <Spanish>5.56mm EPR 200Rnd M27-Linked Belt</Spanish>
+        <Italian>5.56mm EPR 200Rnd M27-Linked Belt</Italian>
+        <Polish>5.56mm EPR 200Rnd M27-Linked Belt</Polish>
+        <Portuguese>5.56mm EPR 200Rnd M27-Linked Belt</Portuguese>
+        <Russian>5.56mm EPR 200Rnd M27-Linked Belt</Russian>
+        <German>5.56mm EPR 200Rnd M27-Linked Belt</German>
+        <Japanese>5.56mm EPR 200Rnd M27-Linked Belt</Japanese>
+        <Korean>5.56mm EPR 200Rnd M27-Linked Belt</Korean>
+        <Chinesesimp>5.56mm EPR 200Rnd M27-Linked Belt</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200rnd_556x45_Mdim_SAW">
+        <Original>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Original>
+        <English>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</English>
+        <Czech>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Czech>
+        <French>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</French>
+        <Spanish>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Spanish>
+        <Italian>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Italian>
+        <Polish>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Polish>
+        <Portuguese>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Portuguese>
+        <Russian>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Russian>
+        <German>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</German>
+        <Japanese>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Japanese>
+        <Korean>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 200Rnd M27-Linked Belt (IR-DIM every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200rnd_556x45_T_SAW">
+        <Original>5.56mm Tracers 200Rnd M27-Linked Belt</Original>
+        <English>5.56mm Tracers 200Rnd M27-Linked Belt</English>
+        <Czech>5.56mm Tracers 200Rnd M27-Linked Belt</Czech>
+        <French>5.56mm Tracers 200Rnd M27-Linked Belt</French>
+        <Spanish>5.56mm Tracers 200Rnd M27-Linked Belt</Spanish>
+        <Italian>5.56mm Tracers 200Rnd M27-Linked Belt</Italian>
+        <Polish>5.56mm Tracers 200Rnd M27-Linked Belt</Polish>
+        <Portuguese>5.56mm Tracers 200Rnd M27-Linked Belt</Portuguese>
+        <Russian>5.56mm Tracers 200Rnd M27-Linked Belt</Russian>
+        <German>5.56mm Tracers 200Rnd M27-Linked Belt</German>
+        <Japanese>5.56mm Tracers 200Rnd M27-Linked Belt</Japanese>
+        <Korean>5.56mm Tracers 200Rnd M27-Linked Belt</Korean>
+        <Chinesesimp>5.56mm Tracers 200Rnd M27-Linked Belt</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_M249_DESC">
+        <Original>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key> 
+      <Key ID="STR_NIA_Mk46_DESC">
+        <Original>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Mk48_DESC">
+        <Original>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_B">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_SOST">
+        <Original>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_SPR">
+        <Original>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_T">
+        <Original>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_irdim">
+        <Original>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_M">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_556x45_Mdim">
+        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>

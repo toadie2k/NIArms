@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+    <Package name="hlc_wp_P226">
+        <Container name="Names">
+            <Key ID="STR_NIA_pistol_P226WestGerman">
+            <Original>SIG P226 (West German)</Original>
+            <English>SIG P226 (West German)</English>
+            <Czech>SIG P226 (West German)</Czech>
+            <French>SIG P226 (West German)</French>
+            <Spanish>SIG P226 (West German)</Spanish>
+            <Italian>SIG P226 (West German)</Italian>
+            <Polish>SIG P226 (West German)</Polish>
+            <Portuguese>SIG P226 (West German)</Portuguese>
+            <Russian>SIG P226 (West German)</Russian>
+            <German>SIG P226 (West German)</German>
+            <Japanese>SIG P226 (West German)</Japanese>
+            <Korean>SIG P226 (West German)</Korean>
+            <Chinesesimp>SIG P226 (West German)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P226US">
+            <Original>SigSauer P226</Original>
+            <English>SigSauer P226</English>
+            <Czech>SigSauer P226</Czech>
+            <French>SigSauer P226</French>
+            <Spanish>SigSauer P226</Spanish>
+            <Italian>SigSauer P226</Italian>
+            <Polish>SigSauer P226</Polish>
+            <Portuguese>SigSauer P226</Portuguese>
+            <Russian>SigSauer P226</Russian>
+            <German>SigSauer P226</German>
+            <Japanese>SigSauer P226</Japanese>
+            <Korean>SigSauer P226</Korean>
+            <Chinesesimp>SigSauer P226</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P226R">
+            <Original>SigSauer P226R</Original>
+            <English>SigSauer P226R</English>
+            <Czech>SigSauer P226R</Czech>
+            <French>SigSauer P226R</French>
+            <Spanish>SigSauer P226R</Spanish>
+            <Italian>SigSauer P226R</Italian>
+            <Polish>SigSauer P226R</Polish>
+            <Portuguese>SigSauer P226R</Portuguese>
+            <Russian>SigSauer P226R</Russian>
+            <German>SigSauer P226R</German>
+            <Japanese>SigSauer P226R</Japanese>
+            <Korean>SigSauer P226R</Korean>
+            <Chinesesimp>SigSauer P226R</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P226R_Elite">
+            <Original>SigSauer P226R Elite</Original>
+            <English>SigSauer P226R Elite</English>
+            <Czech>SigSauer P226R Elite</Czech>
+            <French>SigSauer P226R Elite</French>
+            <Spanish>SigSauer P226R Elite</Spanish>
+            <Italian>SigSauer P226R Elite</Italian>
+            <Polish>SigSauer P226R Elite</Polish>
+            <Portuguese>SigSauer P226R Elite</Portuguese>
+            <Russian>SigSauer P226R Elite</Russian>
+            <German>SigSauer P226R Elite</German>
+            <Japanese>SigSauer P226R Elite</Japanese>
+            <Korean>SigSauer P226R Elite</Korean>
+            <Chinesesimp>SigSauer P226R Elite</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P226R_Combat">
+            <Original>SigSauer P226R Combat</Original>
+            <English>SigSauer P226R Combat</English>
+            <Czech>SigSauer P226R Combat</Czech>
+            <French>SigSauer P226R Combat</French>
+            <Spanish>SigSauer P226R Combat</Spanish>
+            <Italian>SigSauer P226R Combat</Italian>
+            <Polish>SigSauer P226R Combat</Polish>
+            <Portuguese>SigSauer P226R Combat</Portuguese>
+            <Russian>SigSauer P226R Combat</Russian>
+            <German>SigSauer P226R Combat</German>
+            <Japanese>SigSauer P226R Combat</Japanese>
+            <Korean>SigSauer P226R Combat</Korean>
+            <Chinesesimp>SigSauer P226R Combat</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_mk25">
+            <Original>Mk.25</Original>
+            <English>Mk.25</English>
+            <Czech>Mk.25</Czech>
+            <French>Mk.25</French>
+            <Spanish>Mk.25</Spanish>
+            <Italian>Mk.25</Italian>
+            <Polish>Mk.25</Polish>
+            <Portuguese>Mk.25</Portuguese>
+            <Russian>Mk.25</Russian>
+            <German>Mk.25</German>
+            <Japanese>Mk.25</Japanese>
+            <Korean>Mk.25</Korean>
+            <Chinesesimp>Mk.25</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_mk25d">
+            <Original>SigSauer Mk25-D</Original>
+            <English>SigSauer Mk25-D</English>
+            <Czech>SigSauer Mk25-D</Czech>
+            <French>SigSauer Mk25-D</French>
+            <Spanish>SigSauer Mk25-D</Spanish>
+            <Italian>SigSauer Mk25-D</Italian>
+            <Polish>SigSauer Mk25-D</Polish>
+            <Portuguese>SigSauer Mk25-D</Portuguese>
+            <Russian>SigSauer Mk25-D</Russian>
+            <German>SigSauer Mk25-D</German>
+            <Japanese>SigSauer Mk25-D</Japanese>
+            <Korean>SigSauer Mk25-D</Korean>
+            <Chinesesimp>SigSauer Mk25-D</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_mk25tr">
+            <Original>SigSauer Mk25-TR</Original>
+            <English>SigSauer Mk25-TR</English>
+            <Czech>SigSauer Mk25-TR</Czech>
+            <French>SigSauer Mk25-TR</French>
+            <Spanish>SigSauer Mk25-TR</Spanish>
+            <Italian>SigSauer Mk25-TR</Italian>
+            <Polish>SigSauer Mk25-TR</Polish>
+            <Portuguese>SigSauer Mk25-TR</Portuguese>
+            <Russian>SigSauer Mk25-TR</Russian>
+            <German>SigSauer Mk25-TR</German>
+            <Japanese>SigSauer Mk25-TR</Japanese>
+            <Korean>SigSauer Mk25-TR</Korean>
+            <Chinesesimp>SigSauer Mk25-TR</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_mk25rx">
+            <Original>SigSauer Mk25-RX</Original>
+            <English>SigSauer Mk25-RX</English>
+            <Czech>SigSauer Mk25-RX</Czech>
+            <French>SigSauer Mk25-RX</French>
+            <Spanish>SigSauer Mk25-RX</Spanish>
+            <Italian>SigSauer Mk25-RX</Italian>
+            <Polish>SigSauer Mk25-RX</Polish>
+            <Portuguese>SigSauer Mk25-RX</Portuguese>
+            <Russian>SigSauer Mk25-RX</Russian>
+            <German>SigSauer Mk25-RX</German>
+            <Japanese>SigSauer Mk25-RX</Japanese>
+            <Korean>SigSauer Mk25-RX</Korean>
+            <Chinesesimp>SigSauer Mk25-RX</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226r_40">
+            <Original>SigSauer P226R (.40)</Original>
+            <English>SigSauer P226R (.40)</English>
+            <Czech>SigSauer P226R (.40)</Czech>
+            <French>SigSauer P226R (.40)</French>
+            <Spanish>SigSauer P226R (.40)</Spanish>
+            <Italian>SigSauer P226R (.40)</Italian>
+            <Polish>SigSauer P226R (.40)</Polish>
+            <Portuguese>SigSauer P226R (.40)</Portuguese>
+            <Russian>SigSauer P226R (.40)</Russian>
+            <German>SigSauer P226R (.40)</German>
+            <Japanese>SigSauer P226R (.40)</Japanese>
+            <Korean>SigSauer P226R (.40)</Korean>
+            <Chinesesimp>SigSauer P226R (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226relite_40">
+            <Original>SigSauer P226R Elite (.40)</Original>
+            <English>SigSauer P226R Elite (.40)</English>
+            <Czech>SigSauer P226R Elite (.40)</Czech>
+            <French>SigSauer P226R Elite (.40)</French>
+            <Spanish>SigSauer P226R Elite (.40)</Spanish>
+            <Italian>SigSauer P226R Elite (.40)</Italian>
+            <Polish>SigSauer P226R Elite (.40)</Polish>
+            <Portuguese>SigSauer P226R Elite (.40)</Portuguese>
+            <Russian>SigSauer P226R Elite (.40)</Russian>
+            <German>SigSauer P226R Elite (.40)</German>
+            <Japanese>SigSauer P226R Elite (.40)</Japanese>
+            <Korean>SigSauer P226R Elite (.40)</Korean>
+            <Chinesesimp>SigSauer P226R Elite (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226rcombat_40">
+            <Original>SigSauer P226R Combat (.40)</Original>
+            <English>SigSauer P226R Combat (.40)</English>
+            <Czech>SigSauer P226R Combat (.40)</Czech>
+            <French>SigSauer P226R Combat (.40)</French>
+            <Spanish>SigSauer P226R Combat (.40)</Spanish>
+            <Italian>SigSauer P226R Combat (.40)</Italian>
+            <Polish>SigSauer P226R Combat (.40)</Polish>
+            <Portuguese>SigSauer P226R Combat (.40)</Portuguese>
+            <Russian>SigSauer P226R Combat (.40)</Russian>
+            <German>SigSauer P226R Combat (.40)</German>
+            <Japanese>SigSauer P226R Combat (.40)</Japanese>
+            <Korean>SigSauer P226R Combat (.40)</Korean>
+            <Chinesesimp>SigSauer P226R Combat (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226renox_40">
+            <Original>SigSauer P226R Equinox (.40)</Original>
+            <English>SigSauer P226R Equinox (.40)</English>
+            <Czech>SigSauer P226R Equinox (.40)</Czech>
+            <French>SigSauer P226R Equinox (.40)</French>
+            <Spanish>SigSauer P226R Equinox (.40)</Spanish>
+            <Italian>SigSauer P226R Equinox (.40)</Italian>
+            <Polish>SigSauer P226R Equinox (.40)</Polish>
+            <Portuguese>SigSauer P226R Equinox (.40)</Portuguese>
+            <Russian>SigSauer P226R Equinox (.40)</Russian>
+            <German>SigSauer P226R Equinox (.40)</German>
+            <Japanese>SigSauer P226R Equinox (.40)</Japanese>
+            <Korean>SigSauer P226R Equinox (.40)</Korean>
+            <Chinesesimp>SigSauer P226R Equinox (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226r_357">
+            <Original>SigSauer P226R (.357 SIG)</Original>
+            <English>SigSauer P226R (.357 SIG)</English>
+            <Czech>SigSauer P226R (.357 SIG)</Czech>
+            <French>SigSauer P226R (.357 SIG)</French>
+            <Spanish>SigSauer P226R (.357 SIG)</Spanish>
+            <Italian>SigSauer P226R (.357 SIG)</Italian>
+            <Polish>SigSauer P226R (.357 SIG)</Polish>
+            <Portuguese>SigSauer P226R (.357 SIG)</Portuguese>
+            <Russian>SigSauer P226R (.357 SIG)</Russian>
+            <German>SigSauer P226R (.357 SIG)</German>
+            <Japanese>SigSauer P226R (.357 SIG)</Japanese>
+            <Korean>SigSauer P226R (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P226R (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226relite_357">
+            <Original>SigSauer P226R Elite (.357 SIG)</Original>
+            <English>SigSauer P226R Elite (.357 SIG)</English>
+            <Czech>SigSauer P226R Elite (.357 SIG)</Czech>
+            <French>SigSauer P226R Elite (.357 SIG)</French>
+            <Spanish>SigSauer P226R Elite (.357 SIG)</Spanish>
+            <Italian>SigSauer P226R Elite (.357 SIG)</Italian>
+            <Polish>SigSauer P226R Elite (.357 SIG)</Polish>
+            <Portuguese>SigSauer P226R Elite (.357 SIG)</Portuguese>
+            <Russian>SigSauer P226R Elite (.357 SIG)</Russian>
+            <German>SigSauer P226R Elite (.357 SIG)</German>
+            <Japanese>SigSauer P226R Elite (.357 SIG)</Japanese>
+            <Korean>SigSauer P226R Elite (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P226R Elite (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226rcombat_357">
+            <Original>SigSauer P226R Combat (.357 SIG)</Original>
+            <English>SigSauer P226R Combat (.357 SIG)</English>
+            <Czech>SigSauer P226R Combat (.357 SIG)</Czech>
+            <French>SigSauer P226R Combat (.357 SIG)</French>
+            <Spanish>SigSauer P226R Combat (.357 SIG)</Spanish>
+            <Italian>SigSauer P226R Combat (.357 SIG)</Italian>
+            <Polish>SigSauer P226R Combat (.357 SIG)</Polish>
+            <Portuguese>SigSauer P226R Combat (.357 SIG)</Portuguese>
+            <Russian>SigSauer P226R Combat (.357 SIG)</Russian>
+            <German>SigSauer P226R Combat (.357 SIG)</German>
+            <Japanese>SigSauer P226R Combat (.357 SIG)</Japanese>
+            <Korean>SigSauer P226R Combat (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P226R Combat (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_p226rstainless_357">
+            <Original>SigSauer P226R Stainless (.357 SIG)</Original>
+            <English>SigSauer P226R Stainless (.357 SIG)</English>
+            <Czech>SigSauer P226R Stainless (.357 SIG)</Czech>
+            <French>SigSauer P226R Stainless (.357 SIG)</French>
+            <Spanish>SigSauer P226R Stainless (.357 SIG)</Spanish>
+            <Italian>SigSauer P226R Stainless (.357 SIG)</Italian>
+            <Polish>SigSauer P226R Stainless (.357 SIG)</Polish>
+            <Portuguese>SigSauer P226R Stainless (.357 SIG)</Portuguese>
+            <Russian>SigSauer P226R Stainless (.357 SIG)</Russian>
+            <German>SigSauer P226R Stainless (.357 SIG)</German>
+            <Japanese>SigSauer P226R Stainless (.357 SIG)</Japanese>
+            <Korean>SigSauer P226R Stainless (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P226R Stainless (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229WestGerman">
+            <Original>SIG P228 (German)</Original>
+            <English>SIG P228 (German)</English>
+            <Czech>SIG P228 (German)</Czech>
+            <French>SIG P228 (German)</French>
+            <Spanish>SIG P228 (German)</Spanish>
+            <Italian>SIG P228 (German)</Italian>
+            <Polish>SIG P228 (German)</Polish>
+            <Portuguese>SIG P228 (German)</Portuguese>
+            <Russian>SIG P228 (German)</Russian>
+            <German>SIG P228 (German)</German>
+            <Japanese>SIG P228 (German)</Japanese>
+            <Korean>SIG P228 (German)</Korean>
+            <Chinesesimp>SIG P228 (German)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229US">
+            <Original>SigSauer P229</Original>
+            <English>SigSauer P229</English>
+            <Czech>SigSauer P229</Czech>
+            <French>SigSauer P229</French>
+            <Spanish>SigSauer P229</Spanish>
+            <Italian>SigSauer P229</Italian>
+            <Polish>SigSauer P229</Polish>
+            <Portuguese>SigSauer P229</Portuguese>
+            <Russian>SigSauer P229</Russian>
+            <German>SigSauer P229</German>
+            <Japanese>SigSauer P229</Japanese>
+            <Korean>SigSauer P229</Korean>
+            <Chinesesimp>SigSauer P229</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229R">
+            <Original>SigSauer P229R</Original>
+            <English>SigSauer P229R</English>
+            <Czech>SigSauer P229R</Czech>
+            <French>SigSauer P229R</French>
+            <Spanish>SigSauer P229R</Spanish>
+            <Italian>SigSauer P229R</Italian>
+            <Polish>SigSauer P229R</Polish>
+            <Portuguese>SigSauer P229R</Portuguese>
+            <Russian>SigSauer P229R</Russian>
+            <German>SigSauer P229R</German>
+            <Japanese>SigSauer P229R</Japanese>
+            <Korean>SigSauer P229R</Korean>
+            <Chinesesimp>SigSauer P229R</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229R_Elite">
+            <Original>SigSauer P229R Elite</Original>
+            <English>SigSauer P229R Elite</English>
+            <Czech>SigSauer P229R Elite</Czech>
+            <French>SigSauer P229R Elite</French>
+            <Spanish>SigSauer P229R Elite</Spanish>
+            <Italian>SigSauer P229R Elite</Italian>
+            <Polish>SigSauer P229R Elite</Polish>
+            <Portuguese>SigSauer P229R Elite</Portuguese>
+            <Russian>SigSauer P229R Elite</Russian>
+            <German>SigSauer P229R Elite</German>
+            <Japanese>SigSauer P229R Elite</Japanese>
+            <Korean>SigSauer P229R Elite</Korean>
+            <Chinesesimp>SigSauer P229R Elite</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229R_Combat">
+            <Original>SigSauer P229R Combat</Original>
+            <English>SigSauer P229R Combat</English>
+            <Czech>SigSauer P229R Combat</Czech>
+            <French>SigSauer P229R Combat</French>
+            <Spanish>SigSauer P229R Combat</Spanish>
+            <Italian>SigSauer P229R Combat</Italian>
+            <Polish>SigSauer P229R Combat</Polish>
+            <Portuguese>SigSauer P229R Combat</Portuguese>
+            <Russian>SigSauer P229R Combat</Russian>
+            <German>SigSauer P229R Combat</German>
+            <Japanese>SigSauer P229R Combat</Japanese>
+            <Korean>SigSauer P229R Combat</Korean>
+            <Chinesesimp>SigSauer P229R Combat</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_M11">
+            <Original>M11</Original>
+            <English>M11</English>
+            <Czech>M11</Czech>
+            <French>M11</French>
+            <Spanish>M11</Spanish>
+            <Italian>M11</Italian>
+            <Polish>M11</Polish>
+            <Portuguese>M11</Portuguese>
+            <Russian>M11</Russian>
+            <German>M11</German>
+            <Japanese>M11</Japanese>
+            <Korean>M11</Korean>
+            <Chinesesimp>M11</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_m11a1d">
+            <Original>SigSauer M11A1-D</Original>
+            <English>SigSauer M11A1-D</English>
+            <Czech>SigSauer M11A1-D</Czech>
+            <French>SigSauer M11A1-D</French>
+            <Spanish>SigSauer M11A1-D</Spanish>
+            <Italian>SigSauer M11A1-D</Italian>
+            <Polish>SigSauer M11A1-D</Polish>
+            <Portuguese>SigSauer M11A1-D</Portuguese>
+            <Russian>SigSauer M11A1-D</Russian>
+            <German>SigSauer M11A1-D</German>
+            <Japanese>SigSauer M11A1-D</Japanese>
+            <Korean>SigSauer M11A1-D</Korean>
+            <Chinesesimp>SigSauer M11A1-D</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_m11a1">
+            <Original>SigSauer M11A1</Original>
+            <English>SigSauer M11A1</English>
+            <Czech>SigSauer M11A1</Czech>
+            <French>SigSauer M11A1</French>
+            <Spanish>SigSauer M11A1</Spanish>
+            <Italian>SigSauer M11A1</Italian>
+            <Polish>SigSauer M11A1</Polish>
+            <Portuguese>SigSauer M11A1</Portuguese>
+            <Russian>SigSauer M11A1</Russian>
+            <German>SigSauer M11A1</German>
+            <Japanese>SigSauer M11A1</Japanese>
+            <Korean>SigSauer M11A1</Korean>
+            <Chinesesimp>SigSauer M11A1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229r_40">
+            <Original>SigSauer P229R (.40)</Original>
+            <English>SigSauer P229R (.40)</English>
+            <Czech>SigSauer P229R (.40)</Czech>
+            <French>SigSauer P229R (.40)</French>
+            <Spanish>SigSauer P229R (.40)</Spanish>
+            <Italian>SigSauer P229R (.40)</Italian>
+            <Polish>SigSauer P229R (.40)</Polish>
+            <Portuguese>SigSauer P229R (.40)</Portuguese>
+            <Russian>SigSauer P229R (.40)</Russian>
+            <German>SigSauer P229R (.40)</German>
+            <Japanese>SigSauer P229R (.40)</Japanese>
+            <Korean>SigSauer P229R (.40)</Korean>
+            <Chinesesimp>SigSauer P229R (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229relite_40">
+            <Original>SigSauer P229R Elite (.40)</Original>
+            <English>SigSauer P229R Elite (.40)</English>
+            <Czech>SigSauer P229R Elite (.40)</Czech>
+            <French>SigSauer P229R Elite (.40)</French>
+            <Spanish>SigSauer P229R Elite (.40)</Spanish>
+            <Italian>SigSauer P229R Elite (.40)</Italian>
+            <Polish>SigSauer P229R Elite (.40)</Polish>
+            <Portuguese>SigSauer P229R Elite (.40)</Portuguese>
+            <Russian>SigSauer P229R Elite (.40)</Russian>
+            <German>SigSauer P229R Elite (.40)</German>
+            <Japanese>SigSauer P229R Elite (.40)</Japanese>
+            <Korean>SigSauer P229R Elite (.40)</Korean>
+            <Chinesesimp>SigSauer P229R Elite (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229rcombat_40">
+            <Original>SigSauer P229R Combat (.40)</Original>
+            <English>SigSauer P229R Combat (.40)</English>
+            <Czech>SigSauer P229R Combat (.40)</Czech>
+            <French>SigSauer P229R Combat (.40)</French>
+            <Spanish>SigSauer P229R Combat (.40)</Spanish>
+            <Italian>SigSauer P229R Combat (.40)</Italian>
+            <Polish>SigSauer P229R Combat (.40)</Polish>
+            <Portuguese>SigSauer P229R Combat (.40)</Portuguese>
+            <Russian>SigSauer P229R Combat (.40)</Russian>
+            <German>SigSauer P229R Combat (.40)</German>
+            <Japanese>SigSauer P229R Combat (.40)</Japanese>
+            <Korean>SigSauer P229R Combat (.40)</Korean>
+            <Chinesesimp>SigSauer P229R Combat (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229renox_40">
+            <Original>SigSauer P229R Equinox (.40)</Original>
+            <English>SigSauer P229R Equinox (.40)</English>
+            <Czech>SigSauer P229R Equinox (.40)</Czech>
+            <French>SigSauer P229R Equinox (.40)</French>
+            <Spanish>SigSauer P229R Equinox (.40)</Spanish>
+            <Italian>SigSauer P229R Equinox (.40)</Italian>
+            <Polish>SigSauer P229R Equinox (.40)</Polish>
+            <Portuguese>SigSauer P229R Equinox (.40)</Portuguese>
+            <Russian>SigSauer P229R Equinox (.40)</Russian>
+            <German>SigSauer P229R Equinox (.40)</German>
+            <Japanese>SigSauer P229R Equinox (.40)</Japanese>
+            <Korean>SigSauer P229R Equinox (.40)</Korean>
+            <Chinesesimp>SigSauer P229R Equinox (.40)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229r_357">
+            <Original>SigSauer P229R (.357 SIG)</Original>
+            <English>SigSauer P229R (.357 SIG)</English>
+            <Czech>SigSauer P229R (.357 SIG)</Czech>
+            <French>SigSauer P229R (.357 SIG)</French>
+            <Spanish>SigSauer P229R (.357 SIG)</Spanish>
+            <Italian>SigSauer P229R (.357 SIG)</Italian>
+            <Polish>SigSauer P229R (.357 SIG)</Polish>
+            <Portuguese>SigSauer P229R (.357 SIG)</Portuguese>
+            <Russian>SigSauer P229R (.357 SIG)</Russian>
+            <German>SigSauer P229R (.357 SIG)</German>
+            <Japanese>SigSauer P229R (.357 SIG)</Japanese>
+            <Korean>SigSauer P229R (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P229R (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229relite_357">
+            <Original>SigSauer P229R Elite (.357 SIG)</Original>
+            <English>SigSauer P229R Elite (.357 SIG)</English>
+            <Czech>SigSauer P229R Elite (.357 SIG)</Czech>
+            <French>SigSauer P229R Elite (.357 SIG)</French>
+            <Spanish>SigSauer P229R Elite (.357 SIG)</Spanish>
+            <Italian>SigSauer P229R Elite (.357 SIG)</Italian>
+            <Polish>SigSauer P229R Elite (.357 SIG)</Polish>
+            <Portuguese>SigSauer P229R Elite (.357 SIG)</Portuguese>
+            <Russian>SigSauer P229R Elite (.357 SIG)</Russian>
+            <German>SigSauer P229R Elite (.357 SIG)</German>
+            <Japanese>SigSauer P229R Elite (.357 SIG)</Japanese>
+            <Korean>SigSauer P229R Elite (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P229R Elite (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229rcombat_357">
+            <Original>SigSauer P229R Combat (.357 SIG)</Original>
+            <English>SigSauer P229R Combat (.357 SIG)</English>
+            <Czech>SigSauer P229R Combat (.357 SIG)</Czech>
+            <French>SigSauer P229R Combat (.357 SIG)</French>
+            <Spanish>SigSauer P229R Combat (.357 SIG)</Spanish>
+            <Italian>SigSauer P229R Combat (.357 SIG)</Italian>
+            <Polish>SigSauer P229R Combat (.357 SIG)</Polish>
+            <Portuguese>SigSauer P229R Combat (.357 SIG)</Portuguese>
+            <Russian>SigSauer P229R Combat (.357 SIG)</Russian>
+            <German>SigSauer P229R Combat (.357 SIG)</German>
+            <Japanese>SigSauer P229R Combat (.357 SIG)</Japanese>
+            <Korean>SigSauer P229R Combat (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P229R Combat (.357 SIG)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_pistol_P229rstainless_357">
+            <Original>SigSauer P229R Stainless (.357 SIG)</Original>
+            <English>SigSauer P229R Stainless (.357 SIG)</English>
+            <Czech>SigSauer P229R Stainless (.357 SIG)</Czech>
+            <French>SigSauer P229R Stainless (.357 SIG)</French>
+            <Spanish>SigSauer P229R Stainless (.357 SIG)</Spanish>
+            <Italian>SigSauer P229R Stainless (.357 SIG)</Italian>
+            <Polish>SigSauer P229R Stainless (.357 SIG)</Polish>
+            <Portuguese>SigSauer P229R Stainless (.357 SIG)</Portuguese>
+            <Russian>SigSauer P229R Stainless (.357 SIG)</Russian>
+            <German>SigSauer P229R Stainless (.357 SIG)</German>
+            <Japanese>SigSauer P229R Stainless (.357 SIG)</Japanese>
+            <Korean>SigSauer P229R Stainless (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P229R Stainless (.357 SIG)</Chinesesimp>
+            </Key>
+
+          <Key ID="STR_NIA_pistol_P239">
+            <Original>SIG P239</Original>
+            <English>SIG P239</English>
+            <Czech>SIG P239</Czech>
+            <French>SIG P239</French>
+            <Spanish>SIG P239</Spanish>
+            <Italian>SIG P239</Italian>
+            <Polish>SIG P239</Polish>
+            <Portuguese>SIG P239</Portuguese>
+            <Russian>SIG P239</Russian>
+            <German>SIG P239</German>
+            <Japanese>SIG P239</Japanese>
+            <Korean>SIG P239</Korean>
+            <Chinesesimp>SIG P239</Chinesesimp>
+          </Key>
+          <Key ID="STR_NIA_pistol_P239_40">
+            <Original>SigSauer P239 (.40)</Original>
+            <English>SigSauer P239 (.40)</English>
+            <Czech>SigSauer P239 (.40)</Czech>
+            <French>SigSauer P239 (.40)</French>
+            <Spanish>SigSauer P239 (.40)</Spanish>
+            <Italian>SigSauer P239 (.40)</Italian>
+            <Polish>SigSauer P239 (.40)</Polish>
+            <Portuguese>SigSauer P239 (.40)</Portuguese>
+            <Russian>SigSauer P239 (.40)</Russian>
+            <German>SigSauer P239 (.40)</German>
+            <Japanese>SigSauer P239 (.40)</Japanese>
+            <Korean>SigSauer P239 (.40)</Korean>
+            <Chinesesimp>SigSauer P239 (.40)</Chinesesimp>
+            </Key>
+          <Key ID="STR_NIA_pistol_P239_357">
+            <Original>SigSauer P239 (.357 SIG)</Original>
+            <English>SigSauer P239 (.357 SIG)</English>
+            <Czech>SigSauer P239 (.357 SIG)</Czech>
+            <French>SigSauer P239 (.357 SIG)</French>
+            <Spanish>SigSauer P239 (.357 SIG)</Spanish>
+            <Italian>SigSauer P239 (.357 SIG)</Italian>
+            <Polish>SigSauer P239 (.357 SIG)</Polish>
+            <Portuguese>SigSauer P239 (.357 SIG)</Portuguese>
+            <Russian>SigSauer P239 (.357 SIG)</Russian>
+            <German>SigSauer P239 (.357 SIG)</German>
+            <Japanese>SigSauer P239 (.357 SIG)</Japanese>
+            <Korean>SigSauer P239 (.357 SIG)</Korean>
+            <Chinesesimp>SigSauer P239 (.357 SIG)</Chinesesimp>
+            </Key>
+      </Container>
+      <Container name="acc_names">
+        <Key ID="STR_NIA_Stavenhagen">
+          <Original>Von Stavenhagen Sights (P226)</Original>
+          <English>Von Stavenhagen Sights (P226)</English>
+          <Czech>Von Stavenhagen Sights (P226)</Czech>
+          <French>Von Stavenhagen Sights (P226)</French>
+          <Spanish>Von Stavenhagen Sights (P226)</Spanish>
+          <Italian>Von Stavenhagen Sights (P226)</Italian>
+          <Polish>Von Stavenhagen Sights (P226)</Polish>
+          <Portuguese>Von Stavenhagen Sights (P226)</Portuguese>
+          <Russian>Von Stavenhagen Sights (P226)</Russian>
+          <German>Von Stavenhagen Sights (P226)</German>
+          <Japanese>Von Stavenhagen Sights (P226)</Japanese>
+          <Korean>Von Stavenhagen Sights (P226)</Korean>
+          <Chinesesimp>Von Stavenhagen Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Vtac">
+          <Original>V-TAC Sights (P226)</Original>
+          <English>V-TAC Sights (P226)</English>
+          <Czech>V-TAC Sights (P226)</Czech>
+          <French>V-TAC Sights (P226)</French>
+          <Spanish>V-TAC Sights (P226)</Spanish>
+          <Italian>V-TAC Sights (P226)</Italian>
+          <Polish>V-TAC Sights (P226)</Polish>
+          <Portuguese>V-TAC Sights (P226)</Portuguese>
+          <Russian>V-TAC Sights (P226)</Russian>
+          <German>V-TAC Sights (P226)</German>
+          <Japanese>V-TAC Sights (P226)</Japanese>
+          <Korean>V-TAC Sights (P226)</Korean>
+          <Chinesesimp>V-TAC Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_siglite">
+          <Original>SigLite Sights (P226)</Original>
+          <English>SigLite Sights (P226)</English>
+          <Czech>SigLite Sights (P226)</Czech>
+          <French>SigLite Sights (P226)</French>
+          <Spanish>SigLite Sights (P226)</Spanish>
+          <Italian>SigLite Sights (P226)</Italian>
+          <Polish>SigLite Sights (P226)</Polish>
+          <Portuguese>SigLite Sights (P226)</Portuguese>
+          <Russian>SigLite Sights (P226)</Russian>
+          <German>SigLite Sights (P226)</German>
+          <Japanese>SigLite Sights (P226)</Japanese>
+          <Korean>SigLite Sights (P226)</Korean>
+          <Chinesesimp>SigLite Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_HPSights">
+          <Original>High-Profile Sights (P226)</Original>
+          <English>High-Profile Sights (P226)</English>
+          <Czech>High-Profile Sights (P226)</Czech>
+          <French>High-Profile Sights (P226)</French>
+          <Spanish>High-Profile Sights (P226)</Spanish>
+          <Italian>High-Profile Sights (P226)</Italian>
+          <Polish>High-Profile Sights (P226)</Polish>
+          <Portuguese>High-Profile Sights (P226)</Portuguese>
+          <Russian>High-Profile Sights (P226)</Russian>
+          <German>High-Profile Sights (P226)</German>
+          <Japanese>High-Profile Sights (P226)</Japanese>
+          <Korean>High-Profile Sights (P226)</Korean>
+          <Chinesesimp>High-Profile Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_ATTriangular">
+          <Original>Triangular Sights (P226)</Original>
+          <English>Triangular Sights (P226)</English>
+          <Czech>Triangular Sights (P226)</Czech>
+          <French>Triangular Sights (P226)</French>
+          <Spanish>Triangular Sights (P226)</Spanish>
+          <Italian>Triangular Sights (P226)</Italian>
+          <Polish>Triangular Sights (P226)</Polish>
+          <Portuguese>Triangular Sights (P226)</Portuguese>
+          <Russian>Triangular Sights (P226)</Russian>
+          <German>Triangular Sights (P226)</German>
+          <Japanese>Triangular Sights (P226)</Japanese>
+          <Korean>Triangular Sights (P226)</Korean>
+          <Chinesesimp>Triangular Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_TrijiconXS">
+          <Original>Trijicon XS Sights (P226)</Original>
+          <English>Trijicon XS Sights (P226)</English>
+          <Czech>Trijicon XS Sights (P226)</Czech>
+          <French>Trijicon XS Sights (P226)</French>
+          <Spanish>Trijicon XS Sights (P226)</Spanish>
+          <Italian>Trijicon XS Sights (P226)</Italian>
+          <Polish>Trijicon XS Sights (P226)</Polish>
+          <Portuguese>Trijicon XS Sights (P226)</Portuguese>
+          <Russian>Trijicon XS Sights (P226)</Russian>
+          <German>Trijicon XS Sights (P226)</German>
+          <Japanese>Trijicon XS Sights (P226)</Japanese>
+          <Korean>Trijicon XS Sights (P226)</Korean>
+          <Chinesesimp>Trijicon XS Sights (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Romeo1">
+          <Original>SIG Romeo-1 (P226)</Original>
+          <English>SIG Romeo-1 (P226)</English>
+          <Czech>SIG Romeo-1 (P226)</Czech>
+          <French>SIG Romeo-1 (P226)</French>
+          <Spanish>SIG Romeo-1 (P226)</Spanish>
+          <Italian>SIG Romeo-1 (P226)</Italian>
+          <Polish>SIG Romeo-1 (P226)</Polish>
+          <Portuguese>SIG Romeo-1 (P226)</Portuguese>
+          <Russian>SIG Romeo-1 (P226)</Russian>
+          <German>SIG Romeo-1 (P226)</German>
+          <Japanese>SIG Romeo-1 (P226)</Japanese>
+          <Korean>SIG Romeo-1 (P226)</Korean>
+          <Chinesesimp>SIG Romeo-1 (P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Doctercadex">
+          <Original>Docter II (CADEX/P226)</Original>
+          <English>Docter II (CADEX/P226)</English>
+          <Czech>Docter II (CADEX/P226)</Czech>
+          <French>Docter II (CADEX/P226)</French>
+          <Spanish>Docter II (CADEX/P226)</Spanish>
+          <Italian>Docter II (CADEX/P226)</Italian>
+          <Polish>Docter II (CADEX/P226)</Polish>
+          <Portuguese>Docter II (CADEX/P226)</Portuguese>
+          <Russian>Docter II (CADEX/P226)</Russian>
+          <German>Docter II (CADEX/P226)</German>
+          <Japanese>Docter II (CADEX/P226)</Japanese>
+          <Korean>Docter II (CADEX/P226)</Korean>
+          <Chinesesimp>Docter II (CADEX/P226)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Stavenhagen_P229">
+          <Original>Von Stavenhagen Sights (P229)</Original>
+          <English>Von Stavenhagen Sights (P229)</English>
+          <Czech>Von Stavenhagen Sights (P229)</Czech>
+          <French>Von Stavenhagen Sights (P229)</French>
+          <Spanish>Von Stavenhagen Sights (P229)</Spanish>
+          <Italian>Von Stavenhagen Sights (P229)</Italian>
+          <Polish>Von Stavenhagen Sights (P229)</Polish>
+          <Portuguese>Von Stavenhagen Sights (P229)</Portuguese>
+          <Russian>Von Stavenhagen Sights (P229)</Russian>
+          <German>Von Stavenhagen Sights (P229)</German>
+          <Japanese>Von Stavenhagen Sights (P229)</Japanese>
+          <Korean>Von Stavenhagen Sights (P229)</Korean>
+          <Chinesesimp>Von Stavenhagen Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Vtac_P229">
+          <Original>V-TAC Sights (P229)</Original>
+          <English>V-TAC Sights (P229)</English>
+          <Czech>V-TAC Sights (P229)</Czech>
+          <French>V-TAC Sights (P229)</French>
+          <Spanish>V-TAC Sights (P229)</Spanish>
+          <Italian>V-TAC Sights (P229)</Italian>
+          <Polish>V-TAC Sights (P229)</Polish>
+          <Portuguese>V-TAC Sights (P229)</Portuguese>
+          <Russian>V-TAC Sights (P229)</Russian>
+          <German>V-TAC Sights (P229)</German>
+          <Japanese>V-TAC Sights (P229)</Japanese>
+          <Korean>V-TAC Sights (P229)</Korean>
+          <Chinesesimp>V-TAC Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_siglite_P229">
+          <Original>SigLite Sights (P229)</Original>
+          <English>SigLite Sights (P229)</English>
+          <Czech>SigLite Sights (P229)</Czech>
+          <French>SigLite Sights (P229)</French>
+          <Spanish>SigLite Sights (P229)</Spanish>
+          <Italian>SigLite Sights (P229)</Italian>
+          <Polish>SigLite Sights (P229)</Polish>
+          <Portuguese>SigLite Sights (P229)</Portuguese>
+          <Russian>SigLite Sights (P229)</Russian>
+          <German>SigLite Sights (P229)</German>
+          <Japanese>SigLite Sights (P229)</Japanese>
+          <Korean>SigLite Sights (P229)</Korean>
+          <Chinesesimp>SigLite Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_HPSights_P229">
+          <Original>High-Profile Sights (P229)</Original>
+          <English>High-Profile Sights (P229)</English>
+          <Czech>High-Profile Sights (P229)</Czech>
+          <French>High-Profile Sights (P229)</French>
+          <Spanish>High-Profile Sights (P229)</Spanish>
+          <Italian>High-Profile Sights (P229)</Italian>
+          <Polish>High-Profile Sights (P229)</Polish>
+          <Portuguese>High-Profile Sights (P229)</Portuguese>
+          <Russian>High-Profile Sights (P229)</Russian>
+          <German>High-Profile Sights (P229)</German>
+          <Japanese>High-Profile Sights (P229)</Japanese>
+          <Korean>High-Profile Sights (P229)</Korean>
+          <Chinesesimp>High-Profile Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_ATTriangular_P229">
+          <Original>Triangular Sights (P229)</Original>
+          <English>Triangular Sights (P229)</English>
+          <Czech>Triangular Sights (P229)</Czech>
+          <French>Triangular Sights (P229)</French>
+          <Spanish>Triangular Sights (P229)</Spanish>
+          <Italian>Triangular Sights (P229)</Italian>
+          <Polish>Triangular Sights (P229)</Polish>
+          <Portuguese>Triangular Sights (P229)</Portuguese>
+          <Russian>Triangular Sights (P229)</Russian>
+          <German>Triangular Sights (P229)</German>
+          <Japanese>Triangular Sights (P229)</Japanese>
+          <Korean>Triangular Sights (P229)</Korean>
+          <Chinesesimp>Triangular Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_TrijiconXS_P229">
+          <Original>Trijicon XS Sights (P229)</Original>
+          <English>Trijicon XS Sights (P229)</English>
+          <Czech>Trijicon XS Sights (P229)</Czech>
+          <French>Trijicon XS Sights (P229)</French>
+          <Spanish>Trijicon XS Sights (P229)</Spanish>
+          <Italian>Trijicon XS Sights (P229)</Italian>
+          <Polish>Trijicon XS Sights (P229)</Polish>
+          <Portuguese>Trijicon XS Sights (P229)</Portuguese>
+          <Russian>Trijicon XS Sights (P229)</Russian>
+          <German>Trijicon XS Sights (P229)</German>
+          <Japanese>Trijicon XS Sights (P229)</Japanese>
+          <Korean>Trijicon XS Sights (P229)</Korean>
+          <Chinesesimp>Trijicon XS Sights (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Romeo1_P229">
+          <Original>SIG Romeo-1 (P229)</Original>
+          <English>SIG Romeo-1 (P229)</English>
+          <Czech>SIG Romeo-1 (P229)</Czech>
+          <French>SIG Romeo-1 (P229)</French>
+          <Spanish>SIG Romeo-1 (P229)</Spanish>
+          <Italian>SIG Romeo-1 (P229)</Italian>
+          <Polish>SIG Romeo-1 (P229)</Polish>
+          <Portuguese>SIG Romeo-1 (P229)</Portuguese>
+          <Russian>SIG Romeo-1 (P229)</Russian>
+          <German>SIG Romeo-1 (P229)</German>
+          <Japanese>SIG Romeo-1 (P229)</Japanese>
+          <Korean>SIG Romeo-1 (P229)</Korean>
+          <Chinesesimp>SIG Romeo-1 (P229)</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_Doctercadex_P229">
+          <Original>Docter II (CADEX/P229)</Original>
+          <English>Docter II (CADEX/P229)</English>
+          <Czech>Docter II (CADEX/P229)</Czech>
+          <French>Docter II (CADEX/P229)</French>
+          <Spanish>Docter II (CADEX/P229)</Spanish>
+          <Italian>Docter II (CADEX/P229)</Italian>
+          <Polish>Docter II (CADEX/P229)</Polish>
+          <Portuguese>Docter II (CADEX/P229)</Portuguese>
+          <Russian>Docter II (CADEX/P229)</Russian>
+          <German>Docter II (CADEX/P229)</German>
+          <Japanese>Docter II (CADEX/P229)</Japanese>
+          <Korean>Docter II (CADEX/P229)</Korean>
+          <Chinesesimp>Docter II (CADEX/P229)</Chinesesimp>
+        </Key>
+      </Container>
+      <Container name="Mag_Names">
+            <Key ID="STR_NIA_15rnd_9x19_B_P226">
+            <Original>9mm FMJ 15rnd P226 Magazine</Original>
+            <English>9mm FMJ 15rnd P226 Magazine</English>
+            <Czech>9mm FMJ 15rnd P226 Magazine</Czech>
+            <French>9mm FMJ 15rnd P226 Magazine</French>
+            <Spanish>9mm FMJ 15rnd P226 Magazine</Spanish>
+            <Italian>9mm FMJ 15rnd P226 Magazine</Italian>
+            <Polish>9mm FMJ 15rnd P226 Magazine</Polish>
+            <Portuguese>9mm FMJ 15rnd P226 Magazine</Portuguese>
+            <Russian>9mm FMJ 15rnd P226 Magazine</Russian>
+            <German>9mm FMJ 15rnd P226 Magazine</German>
+            <Japanese>9mm FMJ 15rnd P226 Magazine</Japanese>
+            <Korean>9mm FMJ 15rnd P226 Magazine</Korean>
+            <Chinesesimp>9mm FMJ 15rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_15rnd_9x19_GD_P226">
+            <Original>9mm JHP 15rnd P226 Magazine</Original>
+            <English>9mm JHP 15rnd P226 Magazine</English>
+            <Czech>9mm JHP 15rnd P226 Magazine</Czech>
+            <French>9mm JHP 15rnd P226 Magazine</French>
+            <Spanish>9mm JHP 15rnd P226 Magazine</Spanish>
+            <Italian>9mm JHP 15rnd P226 Magazine</Italian>
+            <Polish>9mm JHP 15rnd P226 Magazine</Polish>
+            <Portuguese>9mm JHP 15rnd P226 Magazine</Portuguese>
+            <Russian>9mm JHP 15rnd P226 Magazine</Russian>
+            <German>9mm JHP 15rnd P226 Magazine</German>
+            <Japanese>9mm JHP 15rnd P226 Magazine</Japanese>
+            <Korean>9mm JHP 15rnd P226 Magazine</Korean>
+            <Chinesesimp>9mm JHP 15rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_15rnd_9x19_SD_P226">
+            <Original>9mm Subsonic 15rnd P226 Magazine</Original>
+            <English>9mm Subsonic 15rnd P226 Magazine</English>
+            <Czech>9mm Subsonic 15rnd P226 Magazine</Czech>
+            <French>9mm Subsonic 15rnd P226 Magazine</French>
+            <Spanish>9mm Subsonic 15rnd P226 Magazine</Spanish>
+            <Italian>9mm Subsonic 15rnd P226 Magazine</Italian>
+            <Polish>9mm Subsonic 15rnd P226 Magazine</Polish>
+            <Portuguese>9mm Subsonic 15rnd P226 Magazine</Portuguese>
+            <Russian>9mm Subsonic 15rnd P226 Magazine</Russian>
+            <German>9mm Subsonic 15rnd P226 Magazine</German>
+            <Japanese>9mm Subsonic 15rnd P226 Magazine</Japanese>
+            <Korean>9mm Subsonic 15rnd P226 Magazine</Korean>
+            <Chinesesimp>9mm Subsonic 15rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_13Rnd_9x19_B_P228">
+            <Original>9mm FMJ 13Rnd P228 Magazine</Original>
+            <English>9mm FMJ 13Rnd P228 Magazine</English>
+            <Czech>9mm FMJ 13Rnd P228 Magazine</Czech>
+            <French>9mm FMJ 13Rnd P228 Magazine</French>
+            <Spanish>9mm FMJ 13Rnd P228 Magazine</Spanish>
+            <Italian>9mm FMJ 13Rnd P228 Magazine</Italian>
+            <Polish>9mm FMJ 13Rnd P228 Magazine</Polish>
+            <Portuguese>9mm FMJ 13Rnd P228 Magazine</Portuguese>
+            <Russian>9mm FMJ 13Rnd P228 Magazine</Russian>
+            <German>9mm FMJ 13Rnd P228 Magazine</German>
+            <Japanese>9mm FMJ 13Rnd P228 Magazine</Japanese>
+            <Korean>9mm FMJ 13Rnd P228 Magazine</Korean>
+            <Chinesesimp>9mm FMJ 13Rnd P228 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_13Rnd_9x19_GD_P228">
+            <Original>9mm JHP 13Rnd P228 Magazine</Original>
+            <English>9mm JHP 13Rnd P228 Magazine</English>
+            <Czech>9mm JHP 13Rnd P228 Magazine</Czech>
+            <French>9mm JHP 13Rnd P228 Magazine</French>
+            <Spanish>9mm JHP 13Rnd P228 Magazine</Spanish>
+            <Italian>9mm JHP 13Rnd P228 Magazine</Italian>
+            <Polish>9mm JHP 13Rnd P228 Magazine</Polish>
+            <Portuguese>9mm JHP 13Rnd P228 Magazine</Portuguese>
+            <Russian>9mm JHP 13Rnd P228 Magazine</Russian>
+            <German>9mm JHP 13Rnd P228 Magazine</German>
+            <Japanese>9mm JHP 13Rnd P228 Magazine</Japanese>
+            <Korean>9mm JHP 13Rnd P228 Magazine</Korean>
+            <Chinesesimp>9mm JHP 13Rnd P228 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_13Rnd_9x19_SD_P228">
+            <Original>9mm Subsonic 13Rnd P228 Magazine</Original>
+            <English>9mm Subsonic 13Rnd P228 Magazine</English>
+            <Czech>9mm Subsonic 13Rnd P228 Magazine</Czech>
+            <French>9mm Subsonic 13Rnd P228 Magazine</French>
+            <Spanish>9mm Subsonic 13Rnd P228 Magazine</Spanish>
+            <Italian>9mm Subsonic 13Rnd P228 Magazine</Italian>
+            <Polish>9mm Subsonic 13Rnd P228 Magazine</Polish>
+            <Portuguese>9mm Subsonic 13Rnd P228 Magazine</Portuguese>
+            <Russian>9mm Subsonic 13Rnd P228 Magazine</Russian>
+            <German>9mm Subsonic 13Rnd P228 Magazine</German>
+            <Japanese>9mm Subsonic 13Rnd P228 Magazine</Japanese>
+            <Korean>9mm Subsonic 13Rnd P228 Magazine</Korean>
+            <Chinesesimp>9mm Subsonic 13Rnd P228 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_9x19_B_P239">
+            <Original>9mm FMJ 10Rnd P239 Magazine</Original>
+            <English>9mm FMJ 10Rnd P239 Magazine</English>
+            <Czech>9mm FMJ 10Rnd P239 Magazine</Czech>
+            <French>9mm FMJ 10Rnd P239 Magazine</French>
+            <Spanish>9mm FMJ 10Rnd P239 Magazine</Spanish>
+            <Italian>9mm FMJ 10Rnd P239 Magazine</Italian>
+            <Polish>9mm FMJ 10Rnd P239 Magazine</Polish>
+            <Portuguese>9mm FMJ 10Rnd P239 Magazine</Portuguese>
+            <Russian>9mm FMJ 10Rnd P239 Magazine</Russian>
+            <German>9mm FMJ 10Rnd P239 Magazine</German>
+            <Japanese>9mm FMJ 10Rnd P239 Magazine</Japanese>
+            <Korean>9mm FMJ 10Rnd P239 Magazine</Korean>
+            <Chinesesimp>9mm FMJ 10Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_9x19_GD_P239">
+            <Original>9mm JHP 10Rnd P239 Magazine</Original>
+            <English>9mm JHP 10Rnd P239 Magazine</English>
+            <Czech>9mm JHP 10Rnd P239 Magazine</Czech>
+            <French>9mm JHP 10Rnd P239 Magazine</French>
+            <Spanish>9mm JHP 10Rnd P239 Magazine</Spanish>
+            <Italian>9mm JHP 10Rnd P239 Magazine</Italian>
+            <Polish>9mm JHP 10Rnd P239 Magazine</Polish>
+            <Portuguese>9mm JHP 10Rnd P239 Magazine</Portuguese>
+            <Russian>9mm JHP 10Rnd P239 Magazine</Russian>
+            <German>9mm JHP 10Rnd P239 Magazine</German>
+            <Japanese>9mm JHP 10Rnd P239 Magazine</Japanese>
+            <Korean>9mm JHP 10Rnd P239 Magazine</Korean>
+            <Chinesesimp>9mm JHP 10Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_9x19_SD_P239">
+            <Original>9mm Subsonic 10Rnd P239 Magazine</Original>
+            <English>9mm Subsonic 10Rnd P239 Magazine</English>
+            <Czech>9mm Subsonic 10Rnd P239 Magazine</Czech>
+            <French>9mm Subsonic 10Rnd P239 Magazine</French>
+            <Spanish>9mm Subsonic 10Rnd P239 Magazine</Spanish>
+            <Italian>9mm Subsonic 10Rnd P239 Magazine</Italian>
+            <Polish>9mm Subsonic 10Rnd P239 Magazine</Polish>
+            <Portuguese>9mm Subsonic 10Rnd P239 Magazine</Portuguese>
+            <Russian>9mm Subsonic 10Rnd P239 Magazine</Russian>
+            <German>9mm Subsonic 10Rnd P239 Magazine</German>
+            <Japanese>9mm Subsonic 10Rnd P239 Magazine</Japanese>
+            <Korean>9mm Subsonic 10Rnd P239 Magazine</Korean>
+            <Chinesesimp>9mm Subsonic 10Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_8Rnd_40SW_B_P239">
+            <Original>.40 S&amp;W FMJ 8Rnd P239 Magazine</Original>
+            <English>.40 S&amp;W FMJ 8Rnd P239 Magazine</English>
+            <Czech>.40 S&amp;W FMJ 8Rnd P239 Magazine</Czech>
+            <French>.40 S&amp;W FMJ 8Rnd P239 Magazine</French>
+            <Spanish>.40 S&amp;W FMJ 8Rnd P239 Magazine</Spanish>
+            <Italian>.40 S&amp;W FMJ 8Rnd P239 Magazine</Italian>
+            <Polish>.40 S&amp;W FMJ 8Rnd P239 Magazine</Polish>
+            <Portuguese>.40 S&amp;W FMJ 8Rnd P239 Magazine</Portuguese>
+            <Russian>.40 S&amp;W FMJ 8Rnd P239 Magazine</Russian>
+            <German>.40 S&amp;W FMJ 8Rnd P239 Magazine</German>
+            <Japanese>.40 S&amp;W FMJ 8Rnd P239 Magazine</Japanese>
+            <Korean>.40 S&amp;W FMJ 8Rnd P239 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W FMJ 8Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_8Rnd_40SW_JHP_P239">
+            <Original>.40 S&amp;W JHP 8Rnd P239 Magazine</Original>
+            <English>.40 S&amp;W JHP 8Rnd P239 Magazine</English>
+            <Czech>.40 S&amp;W JHP 8Rnd P239 Magazine</Czech>
+            <French>.40 S&amp;W JHP 8Rnd P239 Magazine</French>
+            <Spanish>.40 S&amp;W JHP 8Rnd P239 Magazine</Spanish>
+            <Italian>.40 S&amp;W JHP 8Rnd P239 Magazine</Italian>
+            <Polish>.40 S&amp;W JHP 8Rnd P239 Magazine</Polish>
+            <Portuguese>.40 S&amp;W JHP 8Rnd P239 Magazine</Portuguese>
+            <Russian>.40 S&amp;W JHP 8Rnd P239 Magazine</Russian>
+            <German>.40 S&amp;W JHP 8Rnd P239 Magazine</German>
+            <Japanese>.40 S&amp;W JHP 8Rnd P239 Magazine</Japanese>
+            <Korean>.40 S&amp;W JHP 8Rnd P239 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W JHP 8Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_8Rnd_40SW_SD_P239">
+            <Original>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Original>
+            <English>.40 S&amp;W Subsonic 8Rnd P239 Magazine</English>
+            <Czech>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Czech>
+            <French>.40 S&amp;W Subsonic 8Rnd P239 Magazine</French>
+            <Spanish>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Spanish>
+            <Italian>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Italian>
+            <Polish>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Polish>
+            <Portuguese>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Portuguese>
+            <Russian>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Russian>
+            <German>.40 S&amp;W Subsonic 8Rnd P239 Magazine</German>
+            <Japanese>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Japanese>
+            <Korean>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W Subsonic 8Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_40SW_B_P229">
+            <Original>.40 S&amp;W FMJ 10Rnd P229 Magazine</Original>
+            <English>.40 S&amp;W FMJ 10Rnd P229 Magazine</English>
+            <Czech>.40 S&amp;W FMJ 10Rnd P229 Magazine</Czech>
+            <French>.40 S&amp;W FMJ 10Rnd P229 Magazine</French>
+            <Spanish>.40 S&amp;W FMJ 10Rnd P229 Magazine</Spanish>
+            <Italian>.40 S&amp;W FMJ 10Rnd P229 Magazine</Italian>
+            <Polish>.40 S&amp;W FMJ 10Rnd P229 Magazine</Polish>
+            <Portuguese>.40 S&amp;W FMJ 10Rnd P229 Magazine</Portuguese>
+            <Russian>.40 S&amp;W FMJ 10Rnd P229 Magazine</Russian>
+            <German>.40 S&amp;W FMJ 10Rnd P229 Magazine</German>
+            <Japanese>.40 S&amp;W FMJ 10Rnd P229 Magazine</Japanese>
+            <Korean>.40 S&amp;W FMJ 10Rnd P229 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W FMJ 10Rnd P229 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_40SW_JHP_P229">
+            <Original>.40 S&amp;W JHP 10Rnd P229 Magazine</Original>
+            <English>.40 S&amp;W JHP 10Rnd P229 Magazine</English>
+            <Czech>.40 S&amp;W JHP 10Rnd P229 Magazine</Czech>
+            <French>.40 S&amp;W JHP 10Rnd P229 Magazine</French>
+            <Spanish>.40 S&amp;W JHP 10Rnd P229 Magazine</Spanish>
+            <Italian>.40 S&amp;W JHP 10Rnd P229 Magazine</Italian>
+            <Polish>.40 S&amp;W JHP 10Rnd P229 Magazine</Polish>
+            <Portuguese>.40 S&amp;W JHP 10Rnd P229 Magazine</Portuguese>
+            <Russian>.40 S&amp;W JHP 10Rnd P229 Magazine</Russian>
+            <German>.40 S&amp;W JHP 10Rnd P229 Magazine</German>
+            <Japanese>.40 S&amp;W JHP 10Rnd P229 Magazine</Japanese>
+            <Korean>.40 S&amp;W JHP 10Rnd P229 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W JHP 10Rnd P229 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_40SW_SD_P229">
+            <Original>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Original>
+            <English>.40 S&amp;W Subsonic 10Rnd P229 Magazine</English>
+            <Czech>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Czech>
+            <French>.40 S&amp;W Subsonic 10Rnd P229 Magazine</French>
+            <Spanish>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Spanish>
+            <Italian>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Italian>
+            <Polish>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Polish>
+            <Portuguese>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Portuguese>
+            <Russian>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Russian>
+            <German>.40 S&amp;W Subsonic 10Rnd P229 Magazine</German>
+            <Japanese>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Japanese>
+            <Korean>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W Subsonic 10Rnd P229 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_12Rnd_40SW_B_P226">
+            <Original>.40 S&amp;W FMJ 12Rnd P226 Magazine</Original>
+            <English>.40 S&amp;W FMJ 12Rnd P226 Magazine</English>
+            <Czech>.40 S&amp;W FMJ 12Rnd P226 Magazine</Czech>
+            <French>.40 S&amp;W FMJ 12Rnd P226 Magazine</French>
+            <Spanish>.40 S&amp;W FMJ 12Rnd P226 Magazine</Spanish>
+            <Italian>.40 S&amp;W FMJ 12Rnd P226 Magazine</Italian>
+            <Polish>.40 S&amp;W FMJ 12Rnd P226 Magazine</Polish>
+            <Portuguese>.40 S&amp;W FMJ 12Rnd P226 Magazine</Portuguese>
+            <Russian>.40 S&amp;W FMJ 12Rnd P226 Magazine</Russian>
+            <German>.40 S&amp;W FMJ 12Rnd P226 Magazine</German>
+            <Japanese>.40 S&amp;W FMJ 12Rnd P226 Magazine</Japanese>
+            <Korean>.40 S&amp;W FMJ 12Rnd P226 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W FMJ 12Rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_12Rnd_40SW_JHP_P226">
+            <Original>.40 S&amp;W JHP 12Rnd P226 Magazine</Original>
+            <English>.40 S&amp;W JHP 12Rnd P226 Magazine</English>
+            <Czech>.40 S&amp;W JHP 12Rnd P226 Magazine</Czech>
+            <French>.40 S&amp;W JHP 12Rnd P226 Magazine</French>
+            <Spanish>.40 S&amp;W JHP 12Rnd P226 Magazine</Spanish>
+            <Italian>.40 S&amp;W JHP 12Rnd P226 Magazine</Italian>
+            <Polish>.40 S&amp;W JHP 12Rnd P226 Magazine</Polish>
+            <Portuguese>.40 S&amp;W JHP 12Rnd P226 Magazine</Portuguese>
+            <Russian>.40 S&amp;W JHP 12Rnd P226 Magazine</Russian>
+            <German>.40 S&amp;W JHP 12Rnd P226 Magazine</German>
+            <Japanese>.40 S&amp;W JHP 12Rnd P226 Magazine</Japanese>
+            <Korean>.40 S&amp;W JHP 12Rnd P226 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W JHP 12Rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_12Rnd_40SW_SD_P226">
+            <Original>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Original>
+            <English>.40 S&amp;W Subsonic 12Rnd P226 Magazine</English>
+            <Czech>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Czech>
+            <French>.40 S&amp;W Subsonic 12Rnd P226 Magazine</French>
+            <Spanish>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Spanish>
+            <Italian>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Italian>
+            <Polish>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Polish>
+            <Portuguese>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Portuguese>
+            <Russian>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Russian>
+            <German>.40 S&amp;W Subsonic 12Rnd P226 Magazine</German>
+            <Japanese>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Japanese>
+            <Korean>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Korean>
+            <Chinesesimp>.40 S&amp;W Subsonic 12Rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_8Rnd_357_B_P239">
+            <Original>.357SIG FMJ 8Rnd P239 Magazine</Original>
+            <English>.357SIG FMJ 8Rnd P239 Magazine</English>
+            <Czech>.357SIG FMJ 8Rnd P239 Magazine</Czech>
+            <French>.357SIG FMJ 8Rnd P239 Magazine</French>
+            <Spanish>.357SIG FMJ 8Rnd P239 Magazine</Spanish>
+            <Italian>.357SIG FMJ 8Rnd P239 Magazine</Italian>
+            <Polish>.357SIG FMJ 8Rnd P239 Magazine</Polish>
+            <Portuguese>.357SIG FMJ 8Rnd P239 Magazine</Portuguese>
+            <Russian>.357SIG FMJ 8Rnd P239 Magazine</Russian>
+            <German>.357SIG FMJ 8Rnd P239 Magazine</German>
+            <Japanese>.357SIG FMJ 8Rnd P239 Magazine</Japanese>
+            <Korean>.357SIG FMJ 8Rnd P239 Magazine</Korean>
+            <Chinesesimp>.357SIG FMJ 8Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_8Rnd_357_JHP_P239">
+            <Original>.357SIG JHP 8Rnd P239 Magazine</Original>
+            <English>.357SIG JHP 8Rnd P239 Magazine</English>
+            <Czech>.357SIG JHP 8Rnd P239 Magazine</Czech>
+            <French>.357SIG JHP 8Rnd P239 Magazine</French>
+            <Spanish>.357SIG JHP 8Rnd P239 Magazine</Spanish>
+            <Italian>.357SIG JHP 8Rnd P239 Magazine</Italian>
+            <Polish>.357SIG JHP 8Rnd P239 Magazine</Polish>
+            <Portuguese>.357SIG JHP 8Rnd P239 Magazine</Portuguese>
+            <Russian>.357SIG JHP 8Rnd P239 Magazine</Russian>
+            <German>.357SIG JHP 8Rnd P239 Magazine</German>
+            <Japanese>.357SIG JHP 8Rnd P239 Magazine</Japanese>
+            <Korean>.357SIG JHP 8Rnd P239 Magazine</Korean>
+            <Chinesesimp>.357SIG JHP 8Rnd P239 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_357_B_P229">
+            <Original>.357SIG FMJ 10Rnd P229 Magazine</Original>
+            <English>.357SIG FMJ 10Rnd P229 Magazine</English>
+            <Czech>.357SIG FMJ 10Rnd P229 Magazine</Czech>
+            <French>.357SIG FMJ 10Rnd P229 Magazine</French>
+            <Spanish>.357SIG FMJ 10Rnd P229 Magazine</Spanish>
+            <Italian>.357SIG FMJ 10Rnd P229 Magazine</Italian>
+            <Polish>.357SIG FMJ 10Rnd P229 Magazine</Polish>
+            <Portuguese>.357SIG FMJ 10Rnd P229 Magazine</Portuguese>
+            <Russian>.357SIG FMJ 10Rnd P229 Magazine</Russian>
+            <German>.357SIG FMJ 10Rnd P229 Magazine</German>
+            <Japanese>.357SIG FMJ 10Rnd P229 Magazine</Japanese>
+            <Korean>.357SIG FMJ 10Rnd P229 Magazine</Korean>
+            <Chinesesimp>.357SIG FMJ 10Rnd P229 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_10Rnd_357_JHP_P229">
+            <Original>.357SIG JHP 10Rnd P229 Magazine</Original>
+            <English>.357SIG JHP 10Rnd P229 Magazine</English>
+            <Czech>.357SIG JHP 10Rnd P229 Magazine</Czech>
+            <French>.357SIG JHP 10Rnd P229 Magazine</French>
+            <Spanish>.357SIG JHP 10Rnd P229 Magazine</Spanish>
+            <Italian>.357SIG JHP 10Rnd P229 Magazine</Italian>
+            <Polish>.357SIG JHP 10Rnd P229 Magazine</Polish>
+            <Portuguese>.357SIG JHP 10Rnd P229 Magazine</Portuguese>
+            <Russian>.357SIG JHP 10Rnd P229 Magazine</Russian>
+            <German>.357SIG JHP 10Rnd P229 Magazine</German>
+            <Japanese>.357SIG JHP 10Rnd P229 Magazine</Japanese>
+            <Korean>.357SIG JHP 10Rnd P229 Magazine</Korean>
+            <Chinesesimp>.357SIG JHP 10Rnd P229 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_12Rnd_357_B_P226">
+            <Original>.357SIG FMJ 12Rnd P226 Magazine</Original>
+            <English>.357SIG FMJ 12Rnd P226 Magazine</English>
+            <Czech>.357SIG FMJ 12Rnd P226 Magazine</Czech>
+            <French>.357SIG FMJ 12Rnd P226 Magazine</French>
+            <Spanish>.357SIG FMJ 12Rnd P226 Magazine</Spanish>
+            <Italian>.357SIG FMJ 12Rnd P226 Magazine</Italian>
+            <Polish>.357SIG FMJ 12Rnd P226 Magazine</Polish>
+            <Portuguese>.357SIG FMJ 12Rnd P226 Magazine</Portuguese>
+            <Russian>.357SIG FMJ 12Rnd P226 Magazine</Russian>
+            <German>.357SIG FMJ 12Rnd P226 Magazine</German>
+            <Japanese>.357SIG FMJ 12Rnd P226 Magazine</Japanese>
+            <Korean>.357SIG FMJ 12Rnd P226 Magazine</Korean>
+            <Chinesesimp>.357SIG FMJ 12Rnd P226 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_12Rnd_357_JHP_P226">
+            <Original>.357SIG JHP 12Rnd P226 Magazine</Original>
+            <English>.357SIG JHP 12Rnd P226 Magazine</English>
+            <Czech>.357SIG JHP 12Rnd P226 Magazine</Czech>
+            <French>.357SIG JHP 12Rnd P226 Magazine</French>
+            <Spanish>.357SIG JHP 12Rnd P226 Magazine</Spanish>
+            <Italian>.357SIG JHP 12Rnd P226 Magazine</Italian>
+            <Polish>.357SIG JHP 12Rnd P226 Magazine</Polish>
+            <Portuguese>.357SIG JHP 12Rnd P226 Magazine</Portuguese>
+            <Russian>.357SIG JHP 12Rnd P226 Magazine</Russian>
+            <German>.357SIG JHP 12Rnd P226 Magazine</German>
+            <Japanese>.357SIG JHP 12Rnd P226 Magazine</Japanese>
+            <Korean>.357SIG JHP 12Rnd P226 Magazine</Korean>
+            <Chinesesimp>.357SIG JHP 12Rnd P226 Magazine</Chinesesimp>
+            </Key>
+      </Container>
+      <Container name="Descriptions">
+            <Key ID="STR_NIA_p22269mm_DESC">
+            <Original>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Original>
+            <English>Pistol&lt;br/&gt;Caliber:9x19mm NATO</English>
+            <Czech>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Czech>
+            <French>Pistol&lt;br/&gt;Caliber:9x19mm NATO</French>
+            <Spanish>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Spanish>
+            <Italian>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Italian>
+            <Polish>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Polish>
+            <Portuguese>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Portuguese>
+            <Russian>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Russian>
+            <German>Pistol&lt;br/&gt;Caliber:9x19mm NATO</German>
+            <Japanese>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Japanese>
+            <Korean>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Korean>
+            <Chinesesimp>Pistol&lt;br/&gt;Caliber:9x19mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_p22640_DESC">
+            <Original>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Original>
+            <English>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</English>
+            <Czech>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Czech>
+            <French>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</French>
+            <Spanish>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Spanish>
+            <Italian>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Italian>
+            <Polish>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Polish>
+            <Portuguese>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Portuguese>
+            <Russian>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Russian>
+            <German>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</German>
+            <Japanese>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Japanese>
+            <Korean>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Korean>
+            <Chinesesimp>Pistol&lt;br/&gt;Caliber:.40 S&amp;W</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_p226357_DESC">
+            <Original>Pistol&lt;br/&gt;Caliber:.357 SIG</Original>
+            <English>Pistol&lt;br/&gt;Caliber:.357 SIG</English>
+            <Czech>Pistol&lt;br/&gt;Caliber:.357 SIG</Czech>
+            <French>Pistol&lt;br/&gt;Caliber:.357 SIG</French>
+            <Spanish>Pistol&lt;br/&gt;Caliber:.357 SIG</Spanish>
+            <Italian>Pistol&lt;br/&gt;Caliber:.357 SIG</Italian>
+            <Polish>Pistol&lt;br/&gt;Caliber:.357 SIG</Polish>
+            <Portuguese>Pistol&lt;br/&gt;Caliber:.357 SIG</Portuguese>
+            <Russian>Pistol&lt;br/&gt;Caliber:.357 SIG</Russian>
+            <German>Pistol&lt;br/&gt;Caliber:.357 SIG</German>
+            <Japanese>Pistol&lt;br/&gt;Caliber:.357 SIG</Japanese>
+            <Korean>Pistol&lt;br/&gt;Caliber:.357 SIG</Korean>
+            <Chinesesimp>Pistol&lt;br/&gt;Caliber:.357 SIG</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_15Rnd_9x19_B_P226">
+            <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Original>
+            <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</English>
+            <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Czech>
+            <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</French>
+            <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Spanish>
+            <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Italian>
+            <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Polish>
+            <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Portuguese>
+            <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Russian>
+            <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</German>
+            <Japanese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Japanese>
+            <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Korean>
+            <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_15Rnd_9x19_GD_P226">
+            <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Original>
+            <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</English>
+            <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Czech>
+            <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</French>
+            <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Spanish>
+            <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Italian>
+            <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Polish>
+            <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Portuguese>
+            <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Russian>
+            <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</German>
+            <Japanese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Japanese>
+            <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Korean>
+            <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 15</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_15Rnd_9x19_SD_P226">
+            <Original>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Original>
+            <English>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</English>
+            <Czech>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Czech>
+            <French>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</French>
+            <Spanish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Spanish>
+            <Italian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Italian>
+            <Polish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Polish>
+            <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Portuguese>
+            <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Russian>
+            <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</German>
+            <Japanese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Japanese>
+            <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Korean>
+            <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 15</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_13Rnd_9x19_B_P228">
+            <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Original>
+            <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</English>
+            <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Czech>
+            <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</French>
+            <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Spanish>
+            <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Italian>
+            <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Polish>
+            <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Portuguese>
+            <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Russian>
+            <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</German>
+            <Japanese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Japanese>
+            <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Korean>
+            <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_13Rnd_9x19_GD_P228">
+            <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Original>
+            <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</English>
+            <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Czech>
+            <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</French>
+            <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Spanish>
+            <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Italian>
+            <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Polish>
+            <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Portuguese>
+            <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Russian>
+            <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</German>
+            <Japanese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Japanese>
+            <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Korean>
+            <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 13</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_13Rnd_9x19_SD_P228">
+            <Original>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Original>
+            <English>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</English>
+            <Czech>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Czech>
+            <French>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</French>
+            <Spanish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Spanish>
+            <Italian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Italian>
+            <Polish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Polish>
+            <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Portuguese>
+            <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Russian>
+            <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</German>
+            <Japanese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Japanese>
+            <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Korean>
+            <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 13</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_9x19_B_P239">
+            <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_9x19_GD_P239">
+            <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_9x19_SD_P239">
+            <Original>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_12Rnd_40SW_B_P226">
+            <Original>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Original>
+            <English>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_12Rnd_40SW_GD_P226">
+            <Original>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Original>
+            <English>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_12Rnd_40SW_SD_P226">
+            <Original>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Original>
+            <English>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</English>
+            <Czech>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Czech>
+            <French>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</French>
+            <Spanish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Russian>
+            <German>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</German>
+            <Japanese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_40SW_B_P228">
+            <Original>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_40SW_GD_P228">
+            <Original>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_40SW_SD_P228">
+            <Original>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_8Rnd_40SW_B_P239">
+            <Original>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Original>
+            <English>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk309 Mod 0 Ball&lt;br/&gt;Type: Total Metal Jacket Flat Nose (Federal American Eagle AE40R2)&lt;br/&gt;Rounds: 8</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_8Rnd_40SW_GD_P239">
+            <Original>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Original>
+            <English>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</English>
+            <Czech>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Czech>
+            <French>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</French>
+            <Spanish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Russian>
+            <German>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</German>
+            <Japanese>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Mk308 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Federal Tactical HST P40HST2)&lt;br/&gt;Rounds: 8</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_8Rnd_40SW_SD_P239">
+            <Original>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Original>
+            <English>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</English>
+            <Czech>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Czech>
+            <French>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</French>
+            <Spanish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Spanish>
+            <Italian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Italian>
+            <Polish>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Polish>
+            <Portuguese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Portuguese>
+            <Russian>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Russian>
+            <German>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</German>
+            <Japanese>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Japanese>
+            <Korean>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Korean>
+            <Chinesesimp>Caliber: .40 Smith and Wesson Subsonic JHP&lt;br/&gt;Type: Jacketed Hollow Point (Hornady XTP Bullet)&lt;br/&gt;Rounds: 8</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_12Rnd_357SIG_B_P226">
+            <Original>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Original>
+            <English>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</English>
+            <Czech>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Czech>
+            <French>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</French>
+            <Spanish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Spanish>
+            <Italian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Italian>
+            <Polish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Polish>
+            <Portuguese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Portuguese>
+            <Russian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Russian>
+            <German>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</German>
+            <Japanese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Japanese>
+            <Korean>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Korean>
+            <Chinesesimp>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_12Rnd_357SIG_JHP_P226">
+            <Original>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Original>
+            <English>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</English>
+            <Czech>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Czech>
+            <French>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</French>
+            <Spanish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Spanish>
+            <Italian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Italian>
+            <Polish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Polish>
+            <Portuguese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Portuguese>
+            <Russian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Russian>
+            <German>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</German>
+            <Japanese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Japanese>
+            <Korean>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Korean>
+            <Chinesesimp>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_357SIG_B_p229">
+            <Original>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_10Rnd_357SIG_JHP_p229">
+            <Original>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Original>
+            <English>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</English>
+            <Czech>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Czech>
+            <French>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</French>
+            <Spanish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Spanish>
+            <Italian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Italian>
+            <Polish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Polish>
+            <Portuguese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Portuguese>
+            <Russian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Russian>
+            <German>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</German>
+            <Japanese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Japanese>
+            <Korean>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Korean>
+            <Chinesesimp>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 10</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_8Rnd_357SIG_B_p239">
+            <Original>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Original>
+            <English>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</English>
+            <Czech>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Czech>
+            <French>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</French>
+            <Spanish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Spanish>
+            <Italian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Italian>
+            <Polish>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Polish>
+            <Portuguese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Portuguese>
+            <Russian>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Russian>
+            <German>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</German>
+            <Japanese>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Japanese>
+            <Korean>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Korean>
+            <Chinesesimp>Caliber: .357 SIG FMJ-FN&lt;br/&gt;Used in: Full Metal Jacket Flat Nose&lt;br/&gt;Rounds: 8</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_8Rnd_357SIG_JHP_p239">
+            <Original>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Original>
+            <English>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</English>
+            <Czech>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Czech>
+            <French>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</French>
+            <Spanish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Spanish>
+            <Italian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Italian>
+            <Polish>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Polish>
+            <Portuguese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Portuguese>
+            <Russian>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Russian>
+            <German>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</German>
+            <Japanese>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Japanese>
+            <Korean>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Korean>
+            <Chinesesimp>Caliber: .357 SIG Flexlock JHP&lt;br/&gt;Type: Jacketed Hollow Point Ballistic Tip (FlexLock)&lt;br/&gt;Rounds: 8</Chinesesimp>
+            </Key>
+        <Key ID="STR_NIA_Slimline_DESC">
+          <Original>Slimline&lt;br/&gt;Purely Aesthetic</Original>
+          <English>Slimline&lt;br/&gt;Purely Aesthetic</English>
+          <Czech>Slimline&lt;br/&gt;Purely Aesthetic</Czech>
+          <French>Slimline&lt;br/&gt;Purely Aesthetic</French>
+          <Spanish>Slimline&lt;br/&gt;Purely Aesthetic</Spanish>
+          <Italian>Slimline&lt;br/&gt;Purely Aesthetic</Italian>
+          <Polish>Slimline&lt;br/&gt;Purely Aesthetic</Polish>
+          <Portuguese>Slimline&lt;br/&gt;Purely Aesthetic</Portuguese>
+          <Russian>Slimline&lt;br/&gt;Purely Aesthetic</Russian>
+          <German>Slimline&lt;br/&gt;Purely Aesthetic</German>
+          <Japanese>Slimline&lt;br/&gt;Purely Aesthetic</Japanese>
+          <Korean>Slimline&lt;br/&gt;Purely Aesthetic</Korean>
+          <Chinesesimp>Slimline&lt;br/&gt;Purely Aesthetic</Chinesesimp>
+        </Key>
+      </Container>
+      <Container name="Mag_DisplayShort">
+        <Key ID="STR_NIA_40SW_FMJ">
+          <Original>Mk309 Ball</Original>
+          <English>Mk309 Ball</English>
+          <Czech>Mk309 Ball</Czech>
+          <French>Mk309 Ball</French>
+          <Spanish>Mk309 Ball</Spanish>
+          <Italian>Mk309 Ball</Italian>
+          <Polish>Mk309 Ball</Polish>
+          <Portuguese>Mk309 Ball</Portuguese>
+          <Russian>Mk309 Ball</Russian>
+          <German>Mk309 Ball</German>
+          <Japanese>Mk309 Ball</Japanese>
+          <Korean>Mk309 Ball</Korean>
+          <Chinesesimp>Mk309 Ball</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_40SW_JHP">
+          <Original>Mk308 JHP</Original>
+          <English>Mk308 JHP</English>
+          <Czech>Mk308 JHP</Czech>
+          <French>Mk308 JHP</French>
+          <Spanish>Mk308 JHP</Spanish>
+          <Italian>Mk308 JHP</Italian>
+          <Polish>Mk308 JHP</Polish>
+          <Portuguese>Mk308 JHP</Portuguese>
+          <Russian>Mk308 JHP</Russian>
+          <German>Mk308 JHP</German>
+          <Japanese>Mk308 JHP</Japanese>
+          <Korean>Mk308 JHP</Korean>
+          <Chinesesimp>Mk308 JHP</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_40SW_SD">
+          <Original>JHP Subsonic</Original>
+          <English>JHP Subsonic</English>
+          <Czech>JHP Subsonic</Czech>
+          <French>JHP Subsonic</French>
+          <Spanish>JHP Subsonic</Spanish>
+          <Italian>JHP Subsonic</Italian>
+          <Polish>JHP Subsonic</Polish>
+          <Portuguese>JHP Subsonic</Portuguese>
+          <Russian>JHP Subsonic</Russian>
+          <German>JHP Subsonic</German>
+          <Japanese>JHP Subsonic</Japanese>
+          <Korean>JHP Subsonic</Korean>
+          <Chinesesimp>JHP Subsonic</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_357SIG_FMJ">
+          <Original>FMJ-FN</Original>
+          <English>FMJ-FN</English>
+          <Czech>FMJ-FN</Czech>
+          <French>FMJ-FN</French>
+          <Spanish>FMJ-FN</Spanish>
+          <Italian>FMJ-FN</Italian>
+          <Polish>FMJ-FN</Polish>
+          <Portuguese>FMJ-FN</Portuguese>
+          <Russian>FMJ-FN</Russian>
+          <German>FMJ-FN</German>
+          <Japanese>FMJ-FN</Japanese>
+          <Korean>FMJ-FN</Korean>
+          <Chinesesimp>FMJ-FN</Chinesesimp>
+        </Key>
+        <Key ID="STR_NIA_357SIG_JHP">
+          <Original>Flexlock JHP</Original>
+          <English>Flexlock JHP</English>
+          <Czech>Flexlock JHP</Czech>
+          <French>Flexlock JHP</French>
+          <Spanish>Flexlock JHP</Spanish>
+          <Italian>Flexlock JHP</Italian>
+          <Polish>Flexlock JHP</Polish>
+          <Portuguese>Flexlock JHP</Portuguese>
+          <Russian>Flexlock JHP</Russian>
+          <German>Flexlock JHP</German>
+          <Japanese>Flexlock JHP</Japanese>
+          <Korean>Flexlock JHP</Korean>
+          <Chinesesimp>Flexlock JHP</Chinesesimp>
+        </Key>
+      </Container>
+    </Package>
+</Project>
