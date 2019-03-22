@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_SIGAMT">
+    <Container name="Names">
+      <Key ID="STR_NIA_rifle_STGW57">
+        <Original>SIG Stgw.57</Original>
+        <English>SIG Stgw.57</English>
+        <Czech>SIG Stgw.57</Czech>
+        <French>SIG Stgw.57</French>
+        <Spanish>SIG Stgw.57</Spanish>
+        <Italian>SIG Stgw.57</Italian>
+        <Polish>SIG Stgw.57</Polish>
+        <Portuguese>SIG Stgw.57</Portuguese>
+        <Russian>SIG Stgw.57</Russian>
+        <German>SIG Stgw.57</German>
+        <Japanese>SIG Stgw.57</Japanese>
+        <Korean>SIG Stgw.57</Korean>
+        <Chinesesimp>SIG Stgw.57</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_STGW57_RIS">
+        <Original>SIG Stgw.57 (RIS)</Original>
+        <English>SIG Stgw.57 (RIS)</English>
+        <Czech>SIG Stgw.57 (RIS)</Czech>
+        <French>SIG Stgw.57 (RIS)</French>
+        <Spanish>SIG Stgw.57 (RIS)</Spanish>
+        <Italian>SIG Stgw.57 (RIS)</Italian>
+        <Polish>SIG Stgw.57 (RIS)</Polish>
+        <Portuguese>SIG Stgw.57 (RIS)</Portuguese>
+        <Russian>SIG Stgw.57 (RIS)</Russian>
+        <German>SIG Stgw.57 (RIS)</German>
+        <Japanese>SIG Stgw.57 (RIS)</Japanese>
+        <Korean>SIG Stgw.57 (RIS)</Korean>
+        <Chinesesimp>SIG Stgw.57 (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_STGW57_Commando">
+        <Original>SIG Stgw.57 Commando</Original>
+        <English>SIG Stgw.57 Commando</English>
+        <Czech>SIG Stgw.57 Commando</Czech>
+        <French>SIG Stgw.57 Commando</French>
+        <Spanish>SIG Stgw.57 Commando</Spanish>
+        <Italian>SIG Stgw.57 Commando</Italian>
+        <Polish>SIG Stgw.57 Commando</Polish>
+        <Portuguese>SIG Stgw.57 Commando</Portuguese>
+        <Russian>SIG Stgw.57 Commando</Russian>
+        <German>SIG Stgw.57 Commando</German>
+        <Japanese>SIG Stgw.57 Commando</Japanese>
+        <Korean>SIG Stgw.57 Commando</Korean>
+        <Chinesesimp>SIG Stgw.57 Commando</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_SG5104">
+        <Original>SIG SG510-4</Original>
+        <English>SIG SG510-4</English>
+        <Czech>SIG SG510-4</Czech>
+        <French>SIG SG510-4</French>
+        <Spanish>SIG SG510-4</Spanish>
+        <Italian>SIG SG510-4</Italian>
+        <Polish>SIG SG510-4</Polish>
+        <Portuguese>SIG SG510-4</Portuguese>
+        <Russian>SIG SG510-4</Russian>
+        <German>SIG SG510-4</German>
+        <Japanese>SIG SG510-4</Japanese>
+        <Korean>SIG SG510-4</Korean>
+        <Chinesesimp>SIG SG510-4</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_AMT">
+        <Original>SIG AMT</Original>
+        <English>SIG AMT</English>
+        <Czech>SIG AMT</Czech>
+        <French>SIG AMT</French>
+        <Spanish>SIG AMT</Spanish>
+        <Italian>SIG AMT</Italian>
+        <Polish>SIG AMT</Polish>
+        <Portuguese>SIG AMT</Portuguese>
+        <Russian>SIG AMT</Russian>
+        <German>SIG AMT</German>
+        <Japanese>SIG AMT</Japanese>
+        <Korean>SIG AMT</Korean>
+        <Chinesesimp>SIG AMT</Chinesesimp>
+      </Key>
+      </Container>
+    <Container name="Mag_Names">
+      <Key ID="STR_NIA_24rnd_75x55_B_STGW">
+        <Original>7.5mm FMJ 24Rnd Stgw.57 Magazine</Original>
+        <English>7.5mm FMJ 24Rnd Stgw.57 Magazine</English>
+        <Czech>7.5mm FMJ 24Rnd Stgw.57 Magazine</Czech>
+        <French>7.5mm FMJ 24Rnd Stgw.57 Magazine</French>
+        <Spanish>7.5mm FMJ 24Rnd Stgw.57 Magazine</Spanish>
+        <Italian>7.5mm FMJ 24Rnd Stgw.57 Magazine</Italian>
+        <Polish>7.5mm FMJ 24Rnd Stgw.57 Magazine</Polish>
+        <Portuguese>7.5mm FMJ 24Rnd Stgw.57 Magazine</Portuguese>
+        <Russian>7.5mm FMJ 24Rnd Stgw.57 Magazine</Russian>
+        <German>7.5mm FMJ 24Rnd Stgw.57 Magazine</German>
+        <Japanese>7.5mm FMJ 24Rnd Stgw.57 Magazine</Japanese>
+        <Korean>7.5mm FMJ 24Rnd Stgw.57 Magazine</Korean>
+        <Chinesesimp>7.5mm FMJ 24Rnd Stgw.57 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_24rnd_75x55_AP_STGW">
+        <Original>7.5mm AP 24Rnd Stgw.57 Magazine</Original>
+        <English>7.5mm AP 24Rnd Stgw.57 Magazine</English>
+        <Czech>7.5mm AP 24Rnd Stgw.57 Magazine</Czech>
+        <French>7.5mm AP 24Rnd Stgw.57 Magazine</French>
+        <Spanish>7.5mm AP 24Rnd Stgw.57 Magazine</Spanish>
+        <Italian>7.5mm AP 24Rnd Stgw.57 Magazine</Italian>
+        <Polish>7.5mm AP 24Rnd Stgw.57 Magazine</Polish>
+        <Portuguese>7.5mm AP 24Rnd Stgw.57 Magazine</Portuguese>
+        <Russian>7.5mm AP 24Rnd Stgw.57 Magazine</Russian>
+        <German>7.5mm AP 24Rnd Stgw.57 Magazine</German>
+        <Japanese>7.5mm AP 24Rnd Stgw.57 Magazine</Japanese>
+        <Korean>7.5mm AP 24Rnd Stgw.57 Magazine</Korean>
+        <Chinesesimp>7.5mm AP 24Rnd Stgw.57 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_24rnd_75x55_t_STGW">
+        <Original>7.5mm Tracer 24Rnd Stgw.57 Magazine</Original>
+        <English>7.5mm Tracer 24Rnd Stgw.57 Magazine</English>
+        <Czech>7.5mm Tracer 24Rnd Stgw.57 Magazine</Czech>
+        <French>7.5mm Tracer 24Rnd Stgw.57 Magazine</French>
+        <Spanish>7.5mm Tracer 24Rnd Stgw.57 Magazine</Spanish>
+        <Italian>7.5mm Tracer 24Rnd Stgw.57 Magazine</Italian>
+        <Polish>7.5mm Tracer 24Rnd Stgw.57 Magazine</Polish>
+        <Portuguese>7.5mm Tracer 24Rnd Stgw.57 Magazine</Portuguese>
+        <Russian>7.5mm Tracer 24Rnd Stgw.57 Magazine</Russian>
+        <German>7.5mm Tracer 24Rnd Stgw.57 Magazine</German>
+        <Japanese>7.5mm Tracer 24Rnd Stgw.57 Magazine</Japanese>
+        <Korean>7.5mm Tracer 24Rnd Stgw.57 Magazine</Korean>
+        <Chinesesimp>7.5mm Tracer 24Rnd Stgw.57 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_B_STGW">
+        <Original>7.62mm EPR 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm EPR 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm EPR 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm EPR 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm EPR 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm EPR 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm EPR 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm EPR 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm EPR 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm EPR 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_SBLR_STGW">
+        <Original>7.62mm SBLR 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm SBLR 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm SBLR 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm SBLR 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm SBLR 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm SBLR 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm SBLR 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm SBLR 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm SBLR 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm SBLR 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm SBLR 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm SBLR 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm SBLR 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_SOST_STGW">
+        <Original>7.62mm SOST 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm SOST 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm SOST 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm SOST 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm SOST 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm SOST 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm SOST 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm SOST 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm SOST 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm SOST 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm SOST 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm SOST 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm SOST 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_Tracer_STGW">
+        <Original>7.62mm Tracer 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm Tracer 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm Tracer 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm Tracer 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm Tracer 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm Tracer 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm Tracer 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm Tracer 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm Tracer 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm Tracer 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm Tracer 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm Tracer 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm Tracer 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20Rnd_762x51_Tdim_STGW">
+        <Original>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm IR-DIM 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm IR-DIM 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm IR-DIM 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_M_STGW">
+        <Original>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Original>
+        <English>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</English>
+        <Czech>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Czech>
+        <French>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</French>
+        <Spanish>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Spanish>
+        <Italian>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Italian>
+        <Polish>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Russian>
+        <German>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</German>
+        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Japanese>
+        <Korean>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_MDIM_STGW">
+        <Original>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Original>
+        <English>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</English>
+        <Czech>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Czech>
+        <French>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</French>
+        <Spanish>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Spanish>
+        <Italian>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Italian>
+        <Polish>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Polish>
+        <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Portuguese>
+        <Russian>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Russian>
+        <German>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</German>
+        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Japanese>
+        <Korean>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20Rnd_762x51_S_STGW">
+        <Original>7.62mm Subsonic 20Rnd SG510-4 Magazine</Original>
+        <English>7.62mm Subsonic 20Rnd SG510-4 Magazine</English>
+        <Czech>7.62mm Subsonic 20Rnd SG510-4 Magazine</Czech>
+        <French>7.62mm Subsonic 20Rnd SG510-4 Magazine</French>
+        <Spanish>7.62mm Subsonic 20Rnd SG510-4 Magazine</Spanish>
+        <Italian>7.62mm Subsonic 20Rnd SG510-4 Magazine</Italian>
+        <Polish>7.62mm Subsonic 20Rnd SG510-4 Magazine</Polish>
+        <Portuguese>7.62mm Subsonic 20Rnd SG510-4 Magazine</Portuguese>
+        <Russian>7.62mm Subsonic 20Rnd SG510-4 Magazine</Russian>
+        <German>7.62mm Subsonic 20Rnd SG510-4 Magazine</German>
+        <Japanese>7.62mm Subsonic 20Rnd SG510-4 Magazine</Japanese>
+        <Korean>7.62mm Subsonic 20Rnd SG510-4 Magazine</Korean>
+        <Chinesesimp>7.62mm Subsonic 20Rnd SG510-4 Magazine</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Acc_names">
+      <Key ID="STR_NIA_optic_Kern_510">
+        <Original>Kern AARAU 4x24 (Stgw.57 Mount)</Original>
+        <English>Kern AARAU 4x24 (Stgw.57 Mount)</English>
+        <Czech>Kern AARAU 4x24 (Stgw.57 Mount)</Czech>
+        <French>Kern AARAU 4x24 (Stgw.57 Mount)</French>
+        <Spanish>Kern AARAU 4x24 (Stgw.57 Mount)</Spanish>
+        <Italian>Kern AARAU 4x24 (Stgw.57 Mount)</Italian>
+        <Polish>Kern AARAU 4x24 (Stgw.57 Mount)</Polish>
+        <Portuguese>Kern AARAU 4x24 (Stgw.57 Mount)</Portuguese>
+        <Russian>Kern AARAU 4x24 (Stgw.57 Mount)</Russian>
+        <German>Kern AARAU 4x24 (Stgw.57 Mount)</German>
+        <Japanese>Kern AARAU 4x24 (Stgw.57 Mount)</Japanese>
+        <Korean>Kern AARAU 4x24 (Stgw.57 Mount)</Korean>
+        <Chinesesimp>Kern AARAU 4x24 (Stgw.57 Mount)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_Kern2D_510">
+        <Original>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Original>
+        <English>Kern AARAU 4x24 (Stgw.57 Mount\2D)</English>
+        <Czech>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Czech>
+        <French>Kern AARAU 4x24 (Stgw.57 Mount\2D)</French>
+        <Spanish>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Spanish>
+        <Italian>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Italian>
+        <Polish>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Polish>
+        <Portuguese>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Portuguese>
+        <Russian>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Russian>
+        <German>Kern AARAU 4x24 (Stgw.57 Mount\2D)</German>
+        <Japanese>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Japanese>
+        <Korean>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Korean>
+        <Chinesesimp>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_Stg57Commando_DESC">
+        <Original>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Original>
+        <English>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</English>
+        <Czech>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Czech>
+        <French>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</French>
+        <Spanish>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Spanish>
+        <Italian>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Italian>
+        <Polish>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Polish>
+        <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Portuguese>
+        <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Russian>
+        <German>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</German>
+        <Japanese>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Japanese>
+        <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Korean>
+        <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Stg57_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG5104_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_AMT_DESC">
+        <Original>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_24Rnd_75x55_B">
+        <Original>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Original>
+        <English>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</English>
+        <Czech>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Czech>
+        <French>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</French>
+        <Spanish>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Spanish>
+        <Italian>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Italian>
+        <Polish>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Polish>
+        <Portuguese>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Portuguese>
+        <Russian>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Russian>
+        <German>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</German>
+        <Japanese>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Japanese>
+        <Korean>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Korean>
+        <Chinesesimp>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_24Rnd_75x55_AP">
+        <Original>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Original>
+        <English>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</English>
+        <Czech>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Czech>
+        <French>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</French>
+        <Spanish>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Spanish>
+        <Italian>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Italian>
+        <Polish>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Polish>
+        <Portuguese>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Portuguese>
+        <Russian>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Russian>
+        <German>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</German>
+        <Japanese>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Japanese>
+        <Korean>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Korean>
+        <Chinesesimp>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_24Rnd_75x55_T">
+        <Original>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Original>
+        <English>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</English>
+        <Czech>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Czech>
+        <French>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</French>
+        <Spanish>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Spanish>
+        <Italian>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Italian>
+        <Polish>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Polish>
+        <Portuguese>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Portuguese>
+        <Russian>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Russian>
+        <German>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</German>
+        <Japanese>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Japanese>
+        <Korean>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Korean>
+        <Chinesesimp>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Mag_DisplayShort">
+      <Key ID="STR_NIA_75x55_FMJ">
+        <Original>GP11 FMJ</Original>
+        <English>GP11 FMJ</English>
+        <Czech>GP11 FMJ</Czech>
+        <French>GP11 FMJ</French>
+        <Spanish>GP11 FMJ</Spanish>
+        <Italian>GP11 FMJ</Italian>
+        <Polish>GP11 FMJ</Polish>
+        <Portuguese>GP11 FMJ</Portuguese>
+        <Russian>GP11 FMJ</Russian>
+        <German>GP11 FMJ</German>
+        <Japanese>GP11 FMJ</Japanese>
+        <Korean>GP11 FMJ</Korean>
+        <Chinesesimp>GP11 FMJ</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_75x55_AP">
+        <Original>St Ke Pat.11 AP</Original>
+        <English>St Ke Pat.11 AP</English>
+        <Czech>St Ke Pat.11 AP</Czech>
+        <French>St Ke Pat.11 AP</French>
+        <Spanish>St Ke Pat.11 AP</Spanish>
+        <Italian>St Ke Pat.11 AP</Italian>
+        <Polish>St Ke Pat.11 AP</Polish>
+        <Portuguese>St Ke Pat.11 AP</Portuguese>
+        <Russian>St Ke Pat.11 AP</Russian>
+        <German>St Ke Pat.11 AP</German>
+        <Japanese>St Ke Pat.11 AP</Japanese>
+        <Korean>St Ke Pat.11 AP</Korean>
+        <Chinesesimp>St Ke Pat.11 AP</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_75x55_Tracer">
+        <Original>L'spur Pat.11 Tracer</Original>
+        <English>L'spur Pat.11 Tracer</English>
+        <Czech>L'spur Pat.11 Tracer</Czech>
+        <French>L'spur Pat.11 Tracer</French>
+        <Spanish>L'spur Pat.11 Tracer</Spanish>
+        <Italian>L'spur Pat.11 Tracer</Italian>
+        <Polish>L'spur Pat.11 Tracer</Polish>
+        <Portuguese>L'spur Pat.11 Tracer</Portuguese>
+        <Russian>L'spur Pat.11 Tracer</Russian>
+        <German>L'spur Pat.11 Tracer</German>
+        <Japanese>L'spur Pat.11 Tracer</Japanese>
+        <Korean>L'spur Pat.11 Tracer</Korean>
+        <Chinesesimp>L'spur Pat.11 Tracer</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>

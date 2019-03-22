@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_M16A2">
+    <Container name="Names">
+      <Key ID="STR_NIA_M16A2">
+        <Original>M16A2</Original>
+        <English>M16A2</English>
+        <Czech>M16A2</Czech>
+        <French>M16A2</French>
+        <Spanish>M16A2</Spanish>
+        <Italian>M16A2</Italian>
+        <Polish>M16A2</Polish>
+        <Portuguese>M16A2</Portuguese>
+        <Russian>M16A2</Russian>
+        <German>M16A2</German>
+        <Japanese>M16A2</Japanese>
+        <Korean>M16A2</Korean>
+        <Chinesesimp>M16A2</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M16A2_M203">
+        <Original>M16A2 (GL)</Original>
+        <English>M16A2 (GL)</English>
+        <Czech>M16A2 (GL)</Czech>
+        <French>M16A2 (GL)</French>
+        <Spanish>M16A2 (GL)</Spanish>
+        <Italian>M16A2 (GL)</Italian>
+        <Polish>M16A2 (GL)</Polish>
+        <Portuguese>M16A2 (GL)</Portuguese>
+        <Russian>M16A2 (GL)</Russian>
+        <German>M16A2 (GL)</German>
+        <Japanese>M16A2 (GL)</Japanese>
+        <Korean>M16A2 (GL)</Korean>
+        <Chinesesimp>M16A2 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_XM177E2">
+        <Original>XM177E2</Original>
+        <English>XM177E2</English>
+        <Czech>XM177E2</Czech>
+        <French>XM177E2</French>
+        <Spanish>XM177E2</Spanish>
+        <Italian>XM177E2</Italian>
+        <Polish>XM177E2</Polish>
+        <Portuguese>XM177E2</Portuguese>
+        <Russian>XM177E2</Russian>
+        <German>XM177E2</German>
+        <Japanese>XM177E2</Japanese>
+        <Korean>XM177E2</Korean>
+        <Chinesesimp>XM177E2</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_RO727_Commando">
+        <Original>Colt RO727 Commando</Original>
+        <English>Colt RO727 Commando</English>
+        <Czech>Colt RO727 Commando</Czech>
+        <French>Colt RO727 Commando</French>
+        <Spanish>Colt RO727 Commando</Spanish>
+        <Italian>Colt RO727 Commando</Italian>
+        <Polish>Colt RO727 Commando</Polish>
+        <Portuguese>Colt RO727 Commando</Portuguese>
+        <Russian>Colt RO727 Commando</Russian>
+        <German>Colt RO727 Commando</German>
+        <Japanese>Colt RO727 Commando</Japanese>
+        <Korean>Colt RO727 Commando</Korean>
+        <Chinesesimp>Colt RO727 Commando</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_RO733_Commando">
+        <Original>Colt RO733 Commando</Original>
+        <English>Colt RO733 Commando</English>
+        <Czech>Colt RO733 Commando</Czech>
+        <French>Colt RO733 Commando</French>
+        <Spanish>Colt RO733 Commando</Spanish>
+        <Italian>Colt RO733 Commando</Italian>
+        <Polish>Colt RO733 Commando</Polish>
+        <Portuguese>Colt RO733 Commando</Portuguese>
+        <Russian>Colt RO733 Commando</Russian>
+        <German>Colt RO733 Commando</German>
+        <Japanese>Colt RO733 Commando</Japanese>
+        <Korean>Colt RO733 Commando</Korean>
+        <Chinesesimp>Colt RO733 Commando</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M16A1">
+        <Original>M16A1</Original>
+        <English>M16A1</English>
+        <Czech>M16A1</Czech>
+        <French>M16A1</French>
+        <Spanish>M16A1</Spanish>
+        <Italian>M16A1</Italian>
+        <Polish>M16A1</Polish>
+        <Portuguese>M16A1</Portuguese>
+        <Russian>M16A1</Russian>
+        <German>M16A1</German>
+        <Japanese>M16A1</Japanese>
+        <Korean>M16A1</Korean>
+        <Chinesesimp>M16A1</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M16A1_M203">
+        <Original>M16A1 (GL)</Original>
+        <English>M16A1 (GL)</English>
+        <Czech>M16A1 (GL)</Czech>
+        <French>M16A1 (GL)</French>
+        <Spanish>M16A1 (GL)</Spanish>
+        <Italian>M16A1 (GL)</Italian>
+        <Polish>M16A1 (GL)</Polish>
+        <Portuguese>M16A1 (GL)</Portuguese>
+        <Russian>M16A1 (GL)</Russian>
+        <German>M16A1 (GL)</German>
+        <Japanese>M16A1 (GL)</Japanese>
+        <Korean>M16A1 (GL)</Korean>
+        <Chinesesimp>M16A1 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M4">
+        <Original>M4</Original>
+        <English>M4</English>
+        <Czech>M4</Czech>
+        <French>M4</French>
+        <Spanish>M4</Spanish>
+        <Italian>M4</Italian>
+        <Polish>M4</Polish>
+        <Portuguese>M4</Portuguese>
+        <Russian>M4</Russian>
+        <German>M4</German>
+        <Japanese>M4</Japanese>
+        <Korean>M4</Korean>
+        <Chinesesimp>M4</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_M16_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_CAR15_DESC">
+        <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>

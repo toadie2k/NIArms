@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="hlc_wp_Minigun">
+    <Container name="Names">
+      <Key ID="STR_NIA_M134Painless">
+        <Original>M134D &quot;Epilator&quot;</Original>
+        <English>M134D &quot;Epilator&quot;</English>
+        <Czech>M134D &quot;Epilator&quot;</Czech>
+        <French>M134D &quot;Epilator&quot;</French>
+        <Spanish>M134D &quot;Epilator&quot;</Spanish>
+        <Italian>M134D &quot;Epilator&quot;</Italian>
+        <Polish>M134D &quot;Epilator&quot;</Polish>
+        <Portuguese>M134D &quot;Epilator&quot;</Portuguese>
+        <Russian>M134D &quot;Epilator&quot;</Russian>
+        <German>M134D &quot;Epilator&quot;</German>
+        <Japanese>M134D &quot;Epilator&quot;</Japanese>
+        <Korean>M134D &quot;Epilator&quot;</Korean>
+        <Chinesesimp>M134D &quot;Epilator&quot;</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Mag_Names">
+      
+      <Key ID="STR_NIA_500rnd_762x51_Belt">
+        <Original>7.62mm EPR 500Rnd M134D Casette</Original>
+        <English>7.62mm EPR 500Rnd M134D Casette</English>
+        <Czech>7.62mm EPR 500Rnd M134D Casette</Czech>
+        <French>7.62mm EPR 500Rnd M134D Casette</French>
+        <Spanish>7.62mm EPR 500Rnd M134D Casette</Spanish>
+        <Italian>7.62mm EPR 500Rnd M134D Casette</Italian>
+        <Polish>7.62mm EPR 500Rnd M134D Casette</Polish>
+        <Portuguese>7.62mm EPR 500Rnd M134D Casette</Portuguese>
+        <Russian>7.62mm EPR 500Rnd M134D Casette</Russian>
+        <German>7.62mm EPR 500Rnd M134D Casette</German>
+        <Japanese>7.62mm EPR 500Rnd M134D Casette</Japanese>
+        <Korean>7.62mm EPR 500Rnd M134D Casette</Korean>
+        <Chinesesimp>7.62mm EPR 500Rnd M134D Casette</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_500rnd_762x51_Cinematic">
+        <Original>7.62mm Cinematic 500Rnd M134D Casette</Original>
+        <English>7.62mm Cinematic 500Rnd M134D Casette</English>
+        <Czech>7.62mm Cinematic 500Rnd M134D Casette</Czech>
+        <French>7.62mm Cinematic 500Rnd M134D Casette</French>
+        <Spanish>7.62mm Cinematic 500Rnd M134D Casette</Spanish>
+        <Italian>7.62mm Cinematic 500Rnd M134D Casette</Italian>
+        <Polish>7.62mm Cinematic 500Rnd M134D Casette</Polish>
+        <Portuguese>7.62mm Cinematic 500Rnd M134D Casette</Portuguese>
+        <Russian>7.62mm Cinematic 500Rnd M134D Casette</Russian>
+        <German>7.62mm Cinematic 500Rnd M134D Casette</German>
+        <Japanese>7.62mm Cinematic 500Rnd M134D Casette</Japanese>
+        <Korean>7.62mm Cinematic 500Rnd M134D Casette</Korean>
+        <Chinesesimp>7.62mm Cinematic 500Rnd M134D Casette</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_M134_DESC">
+        <Original>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Korean>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Death Machine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_500rnd_762x51_Belt">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 500</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_762x51_M">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_762x51_Mdim">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_762x51_Msost">
+        <Original>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_762x51_T">
+        <Original>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_250Rnd_762x51_B">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 250</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_250Rnd_762x51_M">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 250</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_250Rnd_762x51_Mdim">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 250</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_250Rnd_762x51_Msost">
+        <Original>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Original>
+        <English>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</English>
+        <Czech>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Czech>
+        <French>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</French>
+        <Spanish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Italian>
+        <Polish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Russian>
+        <German>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</German>
+        <Japanese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 250</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_250Rnd_762x51_T">
+        <Original>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Original>
+        <English>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</English>
+        <Czech>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Czech>
+        <French>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</French>
+        <Spanish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Russian>
+        <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</German>
+        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 250</Chinesesimp>
+      </Key>
+
+    
+      <Key ID="STR_NIA_DESC_50Rnd_792x57_B">
+        <Original>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_792x57_M">
+        <Original>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_792x57_T">
+        <Original>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50Rnd_792x57_AP">
+        <Original>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_792x57_B">
+        <Original>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_792x57_M">
+        <Original>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_792x57_T">
+        <Original>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_100Rnd_792x57_AP">
+        <Original>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Original>
+        <English>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</English>
+        <Czech>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Czech>
+        <French>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</French>
+        <Spanish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Spanish>
+        <Italian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Italian>
+        <Polish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Polish>
+        <Portuguese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Portuguese>
+        <Russian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Russian>
+        <German>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</German>
+        <Japanese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Japanese>
+        <Korean>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_792x57_B">
+        <Original>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm Ss Patrone&lt;br/&gt;Type: Boat-Tailed Full-Metal Jacket&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_792x57_M">
+        <Original>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K.v/S.m.K L'spur Tracer&lt;br/&gt;Type: Steel-Core FMJ/Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_792x57_T">
+        <Original>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm S.m.K L'spur&lt;br/&gt;Type: Steel-Core Incendiary Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_792x57_AP">
+        <Original>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.92x57mm  S.m.K.H&lt;br/&gt;Type: Hardened Steel-Core (Armor-Piercing)&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>
