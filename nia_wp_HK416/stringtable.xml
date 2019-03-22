@@ -1,504 +1,504 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-    <Package name="NIA_wp_HK416">
-        <Container name="Names">
-            <Key ID="STR_NIA_416145">
-            <Original>H&amp;K HK416 D14.5</Original>
-            <English>H&amp;K HK416 D14.5</English>
-            <Czech>H&amp;K HK416 D14.5</Czech>
-            <French>H&amp;K HK416 D14.5</French>
-            <Spanish>H&amp;K HK416 D14.5</Spanish>
-            <Italian>H&amp;K HK416 D14.5</Italian>
-            <Polish>H&amp;K HK416 D14.5</Polish>
-            <Portuguese>H&amp;K HK416 D14.5</Portuguese>
-            <Russian>H&amp;K HK416 D14.5</Russian>
-            <German>H&amp;K HK416 D14.5</German>
-            <Japanese>H&amp;K HK416 D14.5</Japanese>
-            <Korean>H&amp;K HK416 D14.5</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416145_Tan">
-            <Original>H&amp;K HK416 D14.5 (Tan)</Original>
-            <English>H&amp;K HK416 D14.5 (Tan)</English>
-            <Czech>H&amp;K HK416 D14.5 (Tan)</Czech>
-            <French>H&amp;K HK416 D14.5 (Tan)</French>
-            <Spanish>H&amp;K HK416 D14.5 (Tan)</Spanish>
-            <Italian>H&amp;K HK416 D14.5 (Tan)</Italian>
-            <Polish>H&amp;K HK416 D14.5 (Tan)</Polish>
-            <Portuguese>H&amp;K HK416 D14.5 (Tan)</Portuguese>
-            <Russian>H&amp;K HK416 D14.5 (Tan)</Russian>
-            <German>H&amp;K HK416 D14.5 (Tan)</German>
-            <Japanese>H&amp;K HK416 D14.5 (Tan)</Japanese>
-            <Korean>H&amp;K HK416 D14.5 (Tan)</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5 (Tan)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416145_Woodland">
-            <Original>H&amp;K HK416 D14.5 (Woodland)</Original>
-            <English>H&amp;K HK416 D14.5 (Woodland)</English>
-            <Czech>H&amp;K HK416 D14.5 (Woodland)</Czech>
-            <French>H&amp;K HK416 D14.5 (Woodland)</French>
-            <Spanish>H&amp;K HK416 D14.5 (Woodland)</Spanish>
-            <Italian>H&amp;K HK416 D14.5 (Woodland)</Italian>
-            <Polish>H&amp;K HK416 D14.5 (Woodland)</Polish>
-            <Portuguese>H&amp;K HK416 D14.5 (Woodland)</Portuguese>
-            <Russian>H&amp;K HK416 D14.5 (Woodland)</Russian>
-            <German>H&amp;K HK416 D14.5 (Woodland)</German>
-            <Japanese>H&amp;K HK416 D14.5 (Woodland)</Japanese>
-            <Korean>H&amp;K HK416 D14.5 (Woodland)</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5 (Woodland)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416145_CAG">
-            <Original>H&amp;K HK416 D14.5 (CAG)</Original>
-            <English>H&amp;K HK416 D14.5 (CAG)</English>
-            <Czech>H&amp;K HK416 D14.5 (CAG)</Czech>
-            <French>H&amp;K HK416 D14.5 (CAG)</French>
-            <Spanish>H&amp;K HK416 D14.5 (CAG)</Spanish>
-            <Italian>H&amp;K HK416 D14.5 (CAG)</Italian>
-            <Polish>H&amp;K HK416 D14.5 (CAG)</Polish>
-            <Portuguese>H&amp;K HK416 D14.5 (CAG)</Portuguese>
-            <Russian>H&amp;K HK416 D14.5 (CAG)</Russian>
-            <German>H&amp;K HK416 D14.5 (CAG)</German>
-            <Japanese>H&amp;K HK416 D14.5 (CAG)</Japanese>
-            <Korean>H&amp;K HK416 D14.5 (CAG)</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5 (CAG)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416145c">
-            <Original>H&amp;K HK416 D14.5C</Original>
-            <English>H&amp;K HK416 D14.5C</English>
-            <Czech>H&amp;K HK416 D14.5C</Czech>
-            <French>H&amp;K HK416 D14.5C</French>
-            <Spanish>H&amp;K HK416 D14.5C</Spanish>
-            <Italian>H&amp;K HK416 D14.5C</Italian>
-            <Polish>H&amp;K HK416 D14.5C</Polish>
-            <Portuguese>H&amp;K HK416 D14.5C</Portuguese>
-            <Russian>H&amp;K HK416 D14.5C</Russian>
-            <German>H&amp;K HK416 D14.5C</German>
-            <Japanese>H&amp;K HK416 D14.5C</Japanese>
-            <Korean>H&amp;K HK416 D14.5C</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5C</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416145_GL">
-            <Original>H&amp;K HK416 D14.5 (GL)</Original>
-            <English>H&amp;K HK416 D14.5 (GL)</English>
-            <Czech>H&amp;K HK416 D14.5 (GL)</Czech>
-            <French>H&amp;K HK416 D14.5 (GL)</French>
-            <Spanish>H&amp;K HK416 D14.5 (GL)</Spanish>
-            <Italian>H&amp;K HK416 D14.5 (GL)</Italian>
-            <Polish>H&amp;K HK416 D14.5 (GL)</Polish>
-            <Portuguese>H&amp;K HK416 D14.5 (GL)</Portuguese>
-            <Russian>H&amp;K HK416 D14.5 (GL)</Russian>
-            <German>H&amp;K HK416 D14.5 (GL)</German>
-            <Japanese>H&amp;K HK416 D14.5 (GL)</Japanese>
-            <Korean>H&amp;K HK416 D14.5 (GL)</Korean>
-            <Chinesesimp>H&amp;K HK416 D14.5 (GL)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610">
-            <Original>H&amp;K HK416 D10</Original>
-            <English>H&amp;K HK416 D10</English>
-            <Czech>H&amp;K HK416 D10</Czech>
-            <French>H&amp;K HK416 D10</French>
-            <Spanish>H&amp;K HK416 D10</Spanish>
-            <Italian>H&amp;K HK416 D10</Italian>
-            <Polish>H&amp;K HK416 D10</Polish>
-            <Portuguese>H&amp;K HK416 D10</Portuguese>
-            <Russian>H&amp;K HK416 D10</Russian>
-            <German>H&amp;K HK416 D10</German>
-            <Japanese>H&amp;K HK416 D10</Japanese>
-            <Korean>H&amp;K HK416 D10</Korean>
-            <Chinesesimp>H&amp;K HK416 D10</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610_Tan">
-            <Original>H&amp;K HK416 D10 (Tan)</Original>
-            <English>H&amp;K HK416 D10 (Tan)</English>
-            <Czech>H&amp;K HK416 D10 (Tan)</Czech>
-            <French>H&amp;K HK416 D10 (Tan)</French>
-            <Spanish>H&amp;K HK416 D10 (Tan)</Spanish>
-            <Italian>H&amp;K HK416 D10 (Tan)</Italian>
-            <Polish>H&amp;K HK416 D10 (Tan)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (Tan)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (Tan)</Russian>
-            <German>H&amp;K HK416 D10 (Tan)</German>
-            <Japanese>H&amp;K HK416 D10 (Tan)</Japanese>
-            <Korean>H&amp;K HK416 D10 (Tan)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (Tan)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610_Woodland">
-            <Original>H&amp;K HK416 D10 (Woodland)</Original>
-            <English>H&amp;K HK416 D10 (Woodland)</English>
-            <Czech>H&amp;K HK416 D10 (Woodland)</Czech>
-            <French>H&amp;K HK416 D10 (Woodland)</French>
-            <Spanish>H&amp;K HK416 D10 (Woodland)</Spanish>
-            <Italian>H&amp;K HK416 D10 (Woodland)</Italian>
-            <Polish>H&amp;K HK416 D10 (Woodland)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (Woodland)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (Woodland)</Russian>
-            <German>H&amp;K HK416 D10 (Woodland)</German>
-            <Japanese>H&amp;K HK416 D10 (Woodland)</Japanese>
-            <Korean>H&amp;K HK416 D10 (Woodland)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (Woodland)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610_DEVGRU">
-            <Original>H&amp;K HK416 D10 (DEVGRU)</Original>
-            <English>H&amp;K HK416 D10 (DEVGRU)</English>
-            <Czech>H&amp;K HK416 D10 (DEVGRU)</Czech>
-            <French>H&amp;K HK416 D10 (DEVGRU)</French>
-            <Spanish>H&amp;K HK416 D10 (DEVGRU)</Spanish>
-            <Italian>H&amp;K HK416 D10 (DEVGRU)</Italian>
-            <Polish>H&amp;K HK416 D10 (DEVGRU)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (DEVGRU)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (DEVGRU)</Russian>
-            <German>H&amp;K HK416 D10 (DEVGRU)</German>
-            <Japanese>H&amp;K HK416 D10 (DEVGRU)</Japanese>
-            <Korean>H&amp;K HK416 D10 (DEVGRU)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (DEVGRU)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416D10_Murphy">
-            <Original>H&amp;K HK416 D10 (Potato)</Original>
-            <English>H&amp;K HK416 D10 (Potato)</English>
-            <Czech>H&amp;K HK416 D10 (Potato)</Czech>
-            <French>H&amp;K HK416 D10 (Potato)</French>
-            <Spanish>H&amp;K HK416 D10 (Potato)</Spanish>
-            <Italian>H&amp;K HK416 D10 (Potato)</Italian>
-            <Polish>H&amp;K HK416 D10 (Potato)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (Potato)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (Potato)</Russian>
-            <German>H&amp;K HK416 D10 (Potato)</German>
-            <Japanese>H&amp;K HK416 D10 (Potato)</Japanese>
-            <Korean>H&amp;K HK416 D10 (Potato)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (Potato)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416D10_Geisele">
-            <Original>H&amp;K HK416 D10 (SMR)</Original>
-            <English>H&amp;K HK416 D10 (SMR)</English>
-            <Czech>H&amp;K HK416 D10 (SMR)</Czech>
-            <French>H&amp;K HK416 D10 (SMR)</French>
-            <Spanish>H&amp;K HK416 D10 (SMR)</Spanish>
-            <Italian>H&amp;K HK416 D10 (SMR)</Italian>
-            <Polish>H&amp;K HK416 D10 (SMR)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (SMR)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (SMR)</Russian>
-            <German>H&amp;K HK416 D10 (SMR)</German>
-            <Japanese>H&amp;K HK416 D10 (SMR)</Japanese>
-            <Korean>H&amp;K HK416 D10 (SMR)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (SMR)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416D10_RAHG">
-            <Original>H&amp;K HK416 D10 (RAHG)</Original>
-            <English>H&amp;K HK416 D10 (RAHG)</English>
-            <Czech>H&amp;K HK416 D10 (RAHG)</Czech>
-            <French>H&amp;K HK416 D10 (RAHG)</French>
-            <Spanish>H&amp;K HK416 D10 (RAHG)</Spanish>
-            <Italian>H&amp;K HK416 D10 (RAHG)</Italian>
-            <Polish>H&amp;K HK416 D10 (RAHG)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (RAHG)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (RAHG)</Russian>
-            <German>H&amp;K HK416 D10 (RAHG)</German>
-            <Japanese>H&amp;K HK416 D10 (RAHG)</Japanese>
-            <Korean>H&amp;K HK416 D10 (RAHG)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (RAHG)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610c">
-            <Original>H&amp;K HK416 D10C</Original>
-            <English>H&amp;K HK416 D10C</English>
-            <Czech>H&amp;K HK416 D10C</Czech>
-            <French>H&amp;K HK416 D10C</French>
-            <Spanish>H&amp;K HK416 D10C</Spanish>
-            <Italian>H&amp;K HK416 D10C</Italian>
-            <Polish>H&amp;K HK416 D10C</Polish>
-            <Portuguese>H&amp;K HK416 D10C</Portuguese>
-            <Russian>H&amp;K HK416 D10C</Russian>
-            <German>H&amp;K HK416 D10C</German>
-            <Japanese>H&amp;K HK416 D10C</Japanese>
-            <Korean>H&amp;K HK416 D10C</Korean>
-            <Chinesesimp>H&amp;K HK416 D10C</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416D10C_PTC">
-            <Original>H&amp;K HK416 D10C (PTC)</Original>
-            <English>H&amp;K HK416 D10C (PTC)</English>
-            <Czech>H&amp;K HK416 D10C (PTC)</Czech>
-            <French>H&amp;K HK416 D10C (PTC)</French>
-            <Spanish>H&amp;K HK416 D10C (PTC)</Spanish>
-            <Italian>H&amp;K HK416 D10C (PTC)</Italian>
-            <Polish>H&amp;K HK416 D10C (PTC)</Polish>
-            <Portuguese>H&amp;K HK416 D10C (PTC)</Portuguese>
-            <Russian>H&amp;K HK416 D10C (PTC)</Russian>
-            <German>H&amp;K HK416 D10C (PTC)</German>
-            <Japanese>H&amp;K HK416 D10C (PTC)</Japanese>
-            <Korean>H&amp;K HK416 D10C (PTC)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10C (PTC)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41610_GL">
-            <Original>H&amp;K HK416 D10 (GL)</Original>
-            <English>H&amp;K HK416 D10 (GL)</English>
-            <Czech>H&amp;K HK416 D10 (GL)</Czech>
-            <French>H&amp;K HK416 D10 (GL)</French>
-            <Spanish>H&amp;K HK416 D10 (GL)</Spanish>
-            <Italian>H&amp;K HK416 D10 (GL)</Italian>
-            <Polish>H&amp;K HK416 D10 (GL)</Polish>
-            <Portuguese>H&amp;K HK416 D10 (GL)</Portuguese>
-            <Russian>H&amp;K HK416 D10 (GL)</Russian>
-            <German>H&amp;K HK416 D10 (GL)</German>
-            <Japanese>H&amp;K HK416 D10 (GL)</Japanese>
-            <Korean>H&amp;K HK416 D10 (GL)</Korean>
-            <Chinesesimp>H&amp;K HK416 D10 (GL)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416C">
-            <Original>H&amp;K HK416C</Original>
-            <English>H&amp;K HK416C</English>
-            <Czech>H&amp;K HK416C</Czech>
-            <French>H&amp;K HK416C</French>
-            <Spanish>H&amp;K HK416C</Spanish>
-            <Italian>H&amp;K HK416C</Italian>
-            <Polish>H&amp;K HK416C</Polish>
-            <Portuguese>H&amp;K HK416C</Portuguese>
-            <Russian>H&amp;K HK416C</Russian>
-            <German>H&amp;K HK416C</German>
-            <Japanese>H&amp;K HK416C</Japanese>
-            <Korean>H&amp;K HK416C</Korean>
-            <Chinesesimp>H&amp;K HK416C</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416C_BAB">
-            <Original>H&amp;K HK416C (Team Bab)</Original>
-            <English>H&amp;K HK416C (Team Bab)</English>
-            <Czech>H&amp;K HK416C (Team Bab)</Czech>
-            <French>H&amp;K HK416C (Team Bab)</French>
-            <Spanish>H&amp;K HK416C (Team Bab)</Spanish>
-            <Italian>H&amp;K HK416C (Team Bab)</Italian>
-            <Polish>H&amp;K HK416C (Team Bab)</Polish>
-            <Portuguese>H&amp;K HK416C (Team Bab)</Portuguese>
-            <Russian>H&amp;K HK416C (Team Bab)</Russian>
-            <German>H&amp;K HK416C (Team Bab)</German>
-            <Japanese>H&amp;K HK416C (Team Bab)</Japanese>
-            <Korean>H&amp;K HK416C (Team Bab)</Korean>
-            <Chinesesimp>H&amp;K HK416C (Team Bab)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_M27">
-            <Original>M27 IAR</Original>
-            <English>M27 IAR</English>
-            <Czech>M27 IAR</Czech>
-            <French>M27 IAR</French>
-            <Spanish>M27 IAR</Spanish>
-            <Italian>M27 IAR</Italian>
-            <Polish>M27 IAR</Polish>
-            <Portuguese>M27 IAR</Portuguese>
-            <Russian>M27 IAR</Russian>
-            <German>M27 IAR</German>
-            <Japanese>M27 IAR</Japanese>
-            <Korean>M27 IAR</Korean>
-            <Chinesesimp>M27 IAR</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416165">
-            <Original>H&amp;K HK416 D16.5</Original>
-            <English>H&amp;K HK416 D16.5</English>
-            <Czech>H&amp;K HK416 D16.5</Czech>
-            <French>H&amp;K HK416 D16.5</French>
-            <Spanish>H&amp;K HK416 D16.5</Spanish>
-            <Italian>H&amp;K HK416 D16.5</Italian>
-            <Polish>H&amp;K HK416 D16.5</Polish>
-            <Portuguese>H&amp;K HK416 D16.5</Portuguese>
-            <Russian>H&amp;K HK416 D16.5</Russian>
-            <German>H&amp;K HK416 D16.5</German>
-            <Japanese>H&amp;K HK416 D16.5</Japanese>
-            <Korean>H&amp;K HK416 D16.5</Korean>
-            <Chinesesimp>H&amp;K HK416 D16.5</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416165_Tan">
-            <Original>H&amp;K HK416 D16.5 (Tan)</Original>
-            <English>H&amp;K HK416 D16.5 (Tan)</English>
-            <Czech>H&amp;K HK416 D16.5 (Tan)</Czech>
-            <French>H&amp;K HK416 D16.5 (Tan)</French>
-            <Spanish>H&amp;K HK416 D16.5 (Tan)</Spanish>
-            <Italian>H&amp;K HK416 D16.5 (Tan)</Italian>
-            <Polish>H&amp;K HK416 D16.5 (Tan)</Polish>
-            <Portuguese>H&amp;K HK416 D16.5 (Tan)</Portuguese>
-            <Russian>H&amp;K HK416 D16.5 (Tan)</Russian>
-            <German>H&amp;K HK416 D16.5 (Tan)</German>
-            <Japanese>H&amp;K HK416 D16.5 (Tan)</Japanese>
-            <Korean>H&amp;K HK416 D16.5 (Tan)</Korean>
-            <Chinesesimp>H&amp;K HK416 D16.5 (Tan)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416165_Woodland">
-            <Original>H&amp;K HK416 D16.5 (Woodland)</Original>
-            <English>H&amp;K HK416 D16.5 (Woodland)</English>
-            <Czech>H&amp;K HK416 D16.5 (Woodland)</Czech>
-            <French>H&amp;K HK416 D16.5 (Woodland)</French>
-            <Spanish>H&amp;K HK416 D16.5 (Woodland)</Spanish>
-            <Italian>H&amp;K HK416 D16.5 (Woodland)</Italian>
-            <Polish>H&amp;K HK416 D16.5 (Woodland)</Polish>
-            <Portuguese>H&amp;K HK416 D16.5 (Woodland)</Portuguese>
-            <Russian>H&amp;K HK416 D16.5 (Woodland)</Russian>
-            <German>H&amp;K HK416 D16.5 (Woodland)</German>
-            <Japanese>H&amp;K HK416 D16.5 (Woodland)</Japanese>
-            <Korean>H&amp;K HK416 D16.5 (Woodland)</Korean>
-            <Chinesesimp>H&amp;K HK416 D16.5 (Woodland)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416165_GL">
-            <Original>H&amp;K HK416 D16.5 (GL)</Original>
-            <English>H&amp;K HK416 D16.5 (GL)</English>
-            <Czech>H&amp;K HK416 D16.5 (GL)</Czech>
-            <French>H&amp;K HK416 D16.5 (GL)</French>
-            <Spanish>H&amp;K HK416 D16.5 (GL)</Spanish>
-            <Italian>H&amp;K HK416 D16.5 (GL)</Italian>
-            <Polish>H&amp;K HK416 D16.5 (GL)</Polish>
-            <Portuguese>H&amp;K HK416 D16.5 (GL)</Portuguese>
-            <Russian>H&amp;K HK416 D16.5 (GL)</Russian>
-            <German>H&amp;K HK416 D16.5 (GL)</German>
-            <Japanese>H&amp;K HK416 D16.5 (GL)</Japanese>
-            <Korean>H&amp;K HK416 D16.5 (GL)</Korean>
-            <Chinesesimp>H&amp;K HK416 D16.5 (GL)</Chinesesimp>
-            </Key>            
-          <Key ID="STR_NIA_416N_GL">
-            <Original>H&amp;K HK416N (GL)</Original>
-            <English>H&amp;K HK416N (GL)</English>
-            <Czech>H&amp;K HK416N (GL)</Czech>
-            <French>H&amp;K HK416N (GL)</French>
-            <Spanish>H&amp;K HK416N (GL)</Spanish>
-            <Italian>H&amp;K HK416N (GL)</Italian>
-            <Polish>H&amp;K HK416N (GL)</Polish>
-            <Portuguese>H&amp;K HK416N (GL)</Portuguese>
-            <Russian>H&amp;K HK416N (GL)</Russian>
-            <German>H&amp;K HK416N (GL)</German>
-            <Japanese>H&amp;K HK416N (GL)</Japanese>
-            <Korean>H&amp;K HK416N (GL)</Korean>
-            <Chinesesimp>H&amp;K HK416N (GL)</Chinesesimp>
-            </Key>            
-          <Key ID="STR_NIA_416N">
-            <Original>H&amp;K HK416N</Original>
-            <English>H&amp;K HK416N</English>
-            <Czech>H&amp;K HK416N</Czech>
-            <French>H&amp;K HK416N</French>
-            <Spanish>H&amp;K HK416N</Spanish>
-            <Italian>H&amp;K HK416N</Italian>
-            <Polish>H&amp;K HK416N</Polish>
-            <Portuguese>H&amp;K HK416N</Portuguese>
-            <Russian>H&amp;K HK416N</Russian>
-            <German>H&amp;K HK416N</German>
-            <Japanese>H&amp;K HK416N</Japanese>
-            <Korean>H&amp;K HK416N</Korean>
-            <Chinesesimp>H&amp;K HK416N</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41620">
-            <Original>H&amp;K HK416 D20</Original>
-            <English>H&amp;K HK416 D20</English>
-            <Czech>H&amp;K HK416 D20</Czech>
-            <French>H&amp;K HK416 D20</French>
-            <Spanish>H&amp;K HK416 D20</Spanish>
-            <Italian>H&amp;K HK416 D20</Italian>
-            <Polish>H&amp;K HK416 D20</Polish>
-            <Portuguese>H&amp;K HK416 D20</Portuguese>
-            <Russian>H&amp;K HK416 D20</Russian>
-            <German>H&amp;K HK416 D20</German>
-            <Japanese>H&amp;K HK416 D20</Japanese>
-            <Korean>H&amp;K HK416 D20</Korean>
-            <Chinesesimp>H&amp;K HK416 D20</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41620_Tan">
-            <Original>H&amp;K HK416 D20 (Tan)</Original>
-            <English>H&amp;K HK416 D20 (Tan)</English>
-            <Czech>H&amp;K HK416 D20 (Tan)</Czech>
-            <French>H&amp;K HK416 D20 (Tan)</French>
-            <Spanish>H&amp;K HK416 D20 (Tan)</Spanish>
-            <Italian>H&amp;K HK416 D20 (Tan)</Italian>
-            <Polish>H&amp;K HK416 D20 (Tan)</Polish>
-            <Portuguese>H&amp;K HK416 D20 (Tan)</Portuguese>
-            <Russian>H&amp;K HK416 D20 (Tan)</Russian>
-            <German>H&amp;K HK416 D20 (Tan)</German>
-            <Japanese>H&amp;K HK416 D20 (Tan)</Japanese>
-            <Korean>H&amp;K HK416 D20 (Tan)</Korean>
-            <Chinesesimp>H&amp;K HK416 D20 (Tan)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_41620_Woodland">
-            <Original>H&amp;K HK416 D20 (Woodland)</Original>
-            <English>H&amp;K HK416 D20 (Woodland)</English>
-            <Czech>H&amp;K HK416 D20 (Woodland)</Czech>
-            <French>H&amp;K HK416 D20 (Woodland)</French>
-            <Spanish>H&amp;K HK416 D20 (Woodland)</Spanish>
-            <Italian>H&amp;K HK416 D20 (Woodland)</Italian>
-            <Polish>H&amp;K HK416 D20 (Woodland)</Polish>
-            <Portuguese>H&amp;K HK416 D20 (Woodland)</Portuguese>
-            <Russian>H&amp;K HK416 D20 (Woodland)</Russian>
-            <German>H&amp;K HK416 D20 (Woodland)</German>
-            <Japanese>H&amp;K HK416 D20 (Woodland)</Japanese>
-            <Korean>H&amp;K HK416 D20 (Woodland)</Korean>
-            <Chinesesimp>H&amp;K HK416 D20 (Woodland)</Chinesesimp>
-            </Key>
-      </Container>
-      <Container name="Descriptions">
-            <Key ID="STR_NIA_D145_DESC">
-            <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_Potato_DESC">
-            <Original>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_416C_DESC">
-            <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_M27_DESC">
-            <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_D165_DESC">
-            <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-      </Container>
-    </Package>
+  <Package name="NIA_wp_HK416">
+    <Container name="Names">
+      <Key ID="STR_NIA_416145">
+        <Original>H&amp;K HK416 D14.5</Original>
+        <English>H&amp;K HK416 D14.5</English>
+        <Czech>H&amp;K HK416 D14.5</Czech>
+        <French>H&amp;K HK416 D14.5</French>
+        <Spanish>H&amp;K HK416 D14.5</Spanish>
+        <Italian>H&amp;K HK416 D14.5</Italian>
+        <Polish>H&amp;K HK416 D14.5</Polish>
+        <Portuguese>H&amp;K HK416 D14.5</Portuguese>
+        <Russian>H&amp;K HK416 D14.5</Russian>
+        <German>H&amp;K HK416 D14.5</German>
+        <Japanese>H&amp;K HK416 D14.5</Japanese>
+        <Korean>H&amp;K HK416 D14.5</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416145_Tan">
+        <Original>H&amp;K HK416 D14.5 (Tan)</Original>
+        <English>H&amp;K HK416 D14.5 (Tan)</English>
+        <Czech>H&amp;K HK416 D14.5 (Tan)</Czech>
+        <French>H&amp;K HK416 D14.5 (Tan)</French>
+        <Spanish>H&amp;K HK416 D14.5 (Tan)</Spanish>
+        <Italian>H&amp;K HK416 D14.5 (Tan)</Italian>
+        <Polish>H&amp;K HK416 D14.5 (Tan)</Polish>
+        <Portuguese>H&amp;K HK416 D14.5 (Tan)</Portuguese>
+        <Russian>H&amp;K HK416 D14.5 (Tan)</Russian>
+        <German>H&amp;K HK416 D14.5 (Tan)</German>
+        <Japanese>H&amp;K HK416 D14.5 (タン)</Japanese>
+        <Korean>H&amp;K HK416 D14.5 (Tan)</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5 (Tan)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416145_Woodland">
+        <Original>H&amp;K HK416 D14.5 (Woodland)</Original>
+        <English>H&amp;K HK416 D14.5 (Woodland)</English>
+        <Czech>H&amp;K HK416 D14.5 (Woodland)</Czech>
+        <French>H&amp;K HK416 D14.5 (Woodland)</French>
+        <Spanish>H&amp;K HK416 D14.5 (Woodland)</Spanish>
+        <Italian>H&amp;K HK416 D14.5 (Woodland)</Italian>
+        <Polish>H&amp;K HK416 D14.5 (Woodland)</Polish>
+        <Portuguese>H&amp;K HK416 D14.5 (Woodland)</Portuguese>
+        <Russian>H&amp;K HK416 D14.5 (Woodland)</Russian>
+        <German>H&amp;K HK416 D14.5 (Woodland)</German>
+        <Japanese>H&amp;K HK416 D14.5 (森林迷彩)</Japanese>
+        <Korean>H&amp;K HK416 D14.5 (Woodland)</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5 (Woodland)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416145_CAG">
+        <Original>H&amp;K HK416 D14.5 (CAG)</Original>
+        <English>H&amp;K HK416 D14.5 (CAG)</English>
+        <Czech>H&amp;K HK416 D14.5 (CAG)</Czech>
+        <French>H&amp;K HK416 D14.5 (CAG)</French>
+        <Spanish>H&amp;K HK416 D14.5 (CAG)</Spanish>
+        <Italian>H&amp;K HK416 D14.5 (CAG)</Italian>
+        <Polish>H&amp;K HK416 D14.5 (CAG)</Polish>
+        <Portuguese>H&amp;K HK416 D14.5 (CAG)</Portuguese>
+        <Russian>H&amp;K HK416 D14.5 (CAG)</Russian>
+        <German>H&amp;K HK416 D14.5 (CAG)</German>
+        <Japanese>H&amp;K HK416 D14.5 (CAG)</Japanese>
+        <Korean>H&amp;K HK416 D14.5 (CAG)</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5 (CAG)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416145c">
+        <Original>H&amp;K HK416 D14.5C</Original>
+        <English>H&amp;K HK416 D14.5C</English>
+        <Czech>H&amp;K HK416 D14.5C</Czech>
+        <French>H&amp;K HK416 D14.5C</French>
+        <Spanish>H&amp;K HK416 D14.5C</Spanish>
+        <Italian>H&amp;K HK416 D14.5C</Italian>
+        <Polish>H&amp;K HK416 D14.5C</Polish>
+        <Portuguese>H&amp;K HK416 D14.5C</Portuguese>
+        <Russian>H&amp;K HK416 D14.5C</Russian>
+        <German>H&amp;K HK416 D14.5C</German>
+        <Japanese>H&amp;K HK416 D14.5C</Japanese>
+        <Korean>H&amp;K HK416 D14.5C</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5C</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416145_GL">
+        <Original>H&amp;K HK416 D14.5 (GL)</Original>
+        <English>H&amp;K HK416 D14.5 (GL)</English>
+        <Czech>H&amp;K HK416 D14.5 (GL)</Czech>
+        <French>H&amp;K HK416 D14.5 (GL)</French>
+        <Spanish>H&amp;K HK416 D14.5 (GL)</Spanish>
+        <Italian>H&amp;K HK416 D14.5 (GL)</Italian>
+        <Polish>H&amp;K HK416 D14.5 (GL)</Polish>
+        <Portuguese>H&amp;K HK416 D14.5 (GL)</Portuguese>
+        <Russian>H&amp;K HK416 D14.5 (GL)</Russian>
+        <German>H&amp;K HK416 D14.5 (GL)</German>
+        <Japanese>H&amp;K HK416 D14.5 (GL)</Japanese>
+        <Korean>H&amp;K HK416 D14.5 (GL)</Korean>
+        <Chinesesimp>H&amp;K HK416 D14.5 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610">
+        <Original>H&amp;K HK416 D10</Original>
+        <English>H&amp;K HK416 D10</English>
+        <Czech>H&amp;K HK416 D10</Czech>
+        <French>H&amp;K HK416 D10</French>
+        <Spanish>H&amp;K HK416 D10</Spanish>
+        <Italian>H&amp;K HK416 D10</Italian>
+        <Polish>H&amp;K HK416 D10</Polish>
+        <Portuguese>H&amp;K HK416 D10</Portuguese>
+        <Russian>H&amp;K HK416 D10</Russian>
+        <German>H&amp;K HK416 D10</German>
+        <Japanese>H&amp;K HK416 D10</Japanese>
+        <Korean>H&amp;K HK416 D10</Korean>
+        <Chinesesimp>H&amp;K HK416 D10</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610_Tan">
+        <Original>H&amp;K HK416 D10 (Tan)</Original>
+        <English>H&amp;K HK416 D10 (Tan)</English>
+        <Czech>H&amp;K HK416 D10 (Tan)</Czech>
+        <French>H&amp;K HK416 D10 (Tan)</French>
+        <Spanish>H&amp;K HK416 D10 (Tan)</Spanish>
+        <Italian>H&amp;K HK416 D10 (Tan)</Italian>
+        <Polish>H&amp;K HK416 D10 (Tan)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (Tan)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (Tan)</Russian>
+        <German>H&amp;K HK416 D10 (Tan)</German>
+        <Japanese>H&amp;K HK416 D10 (タン)</Japanese>
+        <Korean>H&amp;K HK416 D10 (Tan)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (Tan)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610_Woodland">
+        <Original>H&amp;K HK416 D10 (Woodland)</Original>
+        <English>H&amp;K HK416 D10 (Woodland)</English>
+        <Czech>H&amp;K HK416 D10 (Woodland)</Czech>
+        <French>H&amp;K HK416 D10 (Woodland)</French>
+        <Spanish>H&amp;K HK416 D10 (Woodland)</Spanish>
+        <Italian>H&amp;K HK416 D10 (Woodland)</Italian>
+        <Polish>H&amp;K HK416 D10 (Woodland)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (Woodland)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (Woodland)</Russian>
+        <German>H&amp;K HK416 D10 (Woodland)</German>
+        <Japanese>H&amp;K HK416 D10 (森林迷彩)</Japanese>
+        <Korean>H&amp;K HK416 D10 (Woodland)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (Woodland)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610_DEVGRU">
+        <Original>H&amp;K HK416 D10 (DEVGRU)</Original>
+        <English>H&amp;K HK416 D10 (DEVGRU)</English>
+        <Czech>H&amp;K HK416 D10 (DEVGRU)</Czech>
+        <French>H&amp;K HK416 D10 (DEVGRU)</French>
+        <Spanish>H&amp;K HK416 D10 (DEVGRU)</Spanish>
+        <Italian>H&amp;K HK416 D10 (DEVGRU)</Italian>
+        <Polish>H&amp;K HK416 D10 (DEVGRU)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (DEVGRU)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (DEVGRU)</Russian>
+        <German>H&amp;K HK416 D10 (DEVGRU)</German>
+        <Japanese>H&amp;K HK416 D10 (DEVGRU)</Japanese>
+        <Korean>H&amp;K HK416 D10 (DEVGRU)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (DEVGRU)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416D10_Murphy">
+        <Original>H&amp;K HK416 D10 (Potato)</Original>
+        <English>H&amp;K HK416 D10 (Potato)</English>
+        <Czech>H&amp;K HK416 D10 (Potato)</Czech>
+        <French>H&amp;K HK416 D10 (Potato)</French>
+        <Spanish>H&amp;K HK416 D10 (Potato)</Spanish>
+        <Italian>H&amp;K HK416 D10 (Potato)</Italian>
+        <Polish>H&amp;K HK416 D10 (Potato)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (ポテト)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (Potato)</Russian>
+        <German>H&amp;K HK416 D10 (Potato)</German>
+        <Japanese>H&amp;K HK416 D10 (ポテト)</Japanese>
+        <Korean>H&amp;K HK416 D10 (Potato)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (Potato)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416D10_Geisele">
+        <Original>H&amp;K HK416 D10 (SMR)</Original>
+        <English>H&amp;K HK416 D10 (SMR)</English>
+        <Czech>H&amp;K HK416 D10 (SMR)</Czech>
+        <French>H&amp;K HK416 D10 (SMR)</French>
+        <Spanish>H&amp;K HK416 D10 (SMR)</Spanish>
+        <Italian>H&amp;K HK416 D10 (SMR)</Italian>
+        <Polish>H&amp;K HK416 D10 (SMR)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (SMR)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (SMR)</Russian>
+        <German>H&amp;K HK416 D10 (SMR)</German>
+        <Japanese>H&amp;K HK416 D10 (SMR)</Japanese>
+        <Korean>H&amp;K HK416 D10 (SMR)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (SMR)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416D10_RAHG">
+        <Original>H&amp;K HK416 D10 (RAHG)</Original>
+        <English>H&amp;K HK416 D10 (RAHG)</English>
+        <Czech>H&amp;K HK416 D10 (RAHG)</Czech>
+        <French>H&amp;K HK416 D10 (RAHG)</French>
+        <Spanish>H&amp;K HK416 D10 (RAHG)</Spanish>
+        <Italian>H&amp;K HK416 D10 (RAHG)</Italian>
+        <Polish>H&amp;K HK416 D10 (RAHG)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (RAHG)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (RAHG)</Russian>
+        <German>H&amp;K HK416 D10 (RAHG)</German>
+        <Japanese>H&amp;K HK416 D10 (RAHG)</Japanese>
+        <Korean>H&amp;K HK416 D10 (RAHG)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (RAHG)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610c">
+        <Original>H&amp;K HK416 D10C</Original>
+        <English>H&amp;K HK416 D10C</English>
+        <Czech>H&amp;K HK416 D10C</Czech>
+        <French>H&amp;K HK416 D10C</French>
+        <Spanish>H&amp;K HK416 D10C</Spanish>
+        <Italian>H&amp;K HK416 D10C</Italian>
+        <Polish>H&amp;K HK416 D10C</Polish>
+        <Portuguese>H&amp;K HK416 D10C</Portuguese>
+        <Russian>H&amp;K HK416 D10C</Russian>
+        <German>H&amp;K HK416 D10C</German>
+        <Japanese>H&amp;K HK416 D10C</Japanese>
+        <Korean>H&amp;K HK416 D10C</Korean>
+        <Chinesesimp>H&amp;K HK416 D10C</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416D10C_PTC">
+        <Original>H&amp;K HK416 D10C (PTC)</Original>
+        <English>H&amp;K HK416 D10C (PTC)</English>
+        <Czech>H&amp;K HK416 D10C (PTC)</Czech>
+        <French>H&amp;K HK416 D10C (PTC)</French>
+        <Spanish>H&amp;K HK416 D10C (PTC)</Spanish>
+        <Italian>H&amp;K HK416 D10C (PTC)</Italian>
+        <Polish>H&amp;K HK416 D10C (PTC)</Polish>
+        <Portuguese>H&amp;K HK416 D10C (PTC)</Portuguese>
+        <Russian>H&amp;K HK416 D10C (PTC)</Russian>
+        <German>H&amp;K HK416 D10C (PTC)</German>
+        <Japanese>H&amp;K HK416 D10C (PTC)</Japanese>
+        <Korean>H&amp;K HK416 D10C (PTC)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10C (PTC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41610_GL">
+        <Original>H&amp;K HK416 D10 (GL)</Original>
+        <English>H&amp;K HK416 D10 (GL)</English>
+        <Czech>H&amp;K HK416 D10 (GL)</Czech>
+        <French>H&amp;K HK416 D10 (GL)</French>
+        <Spanish>H&amp;K HK416 D10 (GL)</Spanish>
+        <Italian>H&amp;K HK416 D10 (GL)</Italian>
+        <Polish>H&amp;K HK416 D10 (GL)</Polish>
+        <Portuguese>H&amp;K HK416 D10 (GL)</Portuguese>
+        <Russian>H&amp;K HK416 D10 (GL)</Russian>
+        <German>H&amp;K HK416 D10 (GL)</German>
+        <Japanese>H&amp;K HK416 D10 (GL)</Japanese>
+        <Korean>H&amp;K HK416 D10 (GL)</Korean>
+        <Chinesesimp>H&amp;K HK416 D10 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416C">
+        <Original>H&amp;K HK416C</Original>
+        <English>H&amp;K HK416C</English>
+        <Czech>H&amp;K HK416C</Czech>
+        <French>H&amp;K HK416C</French>
+        <Spanish>H&amp;K HK416C</Spanish>
+        <Italian>H&amp;K HK416C</Italian>
+        <Polish>H&amp;K HK416C</Polish>
+        <Portuguese>H&amp;K HK416C</Portuguese>
+        <Russian>H&amp;K HK416C</Russian>
+        <German>H&amp;K HK416C</German>
+        <Japanese>H&amp;K HK416C</Japanese>
+        <Korean>H&amp;K HK416C</Korean>
+        <Chinesesimp>H&amp;K HK416C</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416C_BAB">
+        <Original>H&amp;K HK416C (Team Bab)</Original>
+        <English>H&amp;K HK416C (Team Bab)</English>
+        <Czech>H&amp;K HK416C (Team Bab)</Czech>
+        <French>H&amp;K HK416C (Team Bab)</French>
+        <Spanish>H&amp;K HK416C (Team Bab)</Spanish>
+        <Italian>H&amp;K HK416C (Team Bab)</Italian>
+        <Polish>H&amp;K HK416C (Team Bab)</Polish>
+        <Portuguese>H&amp;K HK416C (Team Bab)</Portuguese>
+        <Russian>H&amp;K HK416C (Team Bab)</Russian>
+        <German>H&amp;K HK416C (Team Bab)</German>
+        <Japanese>H&amp;K HK416C (チーム Bab)</Japanese>
+        <Korean>H&amp;K HK416C (Team Bab)</Korean>
+        <Chinesesimp>H&amp;K HK416C (Team Bab)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M27">
+        <Original>M27 IAR</Original>
+        <English>M27 IAR</English>
+        <Czech>M27 IAR</Czech>
+        <French>M27 IAR</French>
+        <Spanish>M27 IAR</Spanish>
+        <Italian>M27 IAR</Italian>
+        <Polish>M27 IAR</Polish>
+        <Portuguese>M27 IAR</Portuguese>
+        <Russian>M27 IAR</Russian>
+        <German>M27 IAR</German>
+        <Japanese>M27 IAR</Japanese>
+        <Korean>M27 IAR</Korean>
+        <Chinesesimp>M27 IAR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416165">
+        <Original>H&amp;K HK416 D16.5</Original>
+        <English>H&amp;K HK416 D16.5</English>
+        <Czech>H&amp;K HK416 D16.5</Czech>
+        <French>H&amp;K HK416 D16.5</French>
+        <Spanish>H&amp;K HK416 D16.5</Spanish>
+        <Italian>H&amp;K HK416 D16.5</Italian>
+        <Polish>H&amp;K HK416 D16.5</Polish>
+        <Portuguese>H&amp;K HK416 D16.5</Portuguese>
+        <Russian>H&amp;K HK416 D16.5</Russian>
+        <German>H&amp;K HK416 D16.5</German>
+        <Japanese>H&amp;K HK416 D16.5</Japanese>
+        <Korean>H&amp;K HK416 D16.5</Korean>
+        <Chinesesimp>H&amp;K HK416 D16.5</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416165_Tan">
+        <Original>H&amp;K HK416 D16.5 (Tan)</Original>
+        <English>H&amp;K HK416 D16.5 (Tan)</English>
+        <Czech>H&amp;K HK416 D16.5 (Tan)</Czech>
+        <French>H&amp;K HK416 D16.5 (Tan)</French>
+        <Spanish>H&amp;K HK416 D16.5 (Tan)</Spanish>
+        <Italian>H&amp;K HK416 D16.5 (Tan)</Italian>
+        <Polish>H&amp;K HK416 D16.5 (Tan)</Polish>
+        <Portuguese>H&amp;K HK416 D16.5 (Tan)</Portuguese>
+        <Russian>H&amp;K HK416 D16.5 (Tan)</Russian>
+        <German>H&amp;K HK416 D16.5 (Tan)</German>
+        <Japanese>H&amp;K HK416 D16.5 (タン)</Japanese>
+        <Korean>H&amp;K HK416 D16.5 (Tan)</Korean>
+        <Chinesesimp>H&amp;K HK416 D16.5 (Tan)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416165_Woodland">
+        <Original>H&amp;K HK416 D16.5 (Woodland)</Original>
+        <English>H&amp;K HK416 D16.5 (Woodland)</English>
+        <Czech>H&amp;K HK416 D16.5 (Woodland)</Czech>
+        <French>H&amp;K HK416 D16.5 (Woodland)</French>
+        <Spanish>H&amp;K HK416 D16.5 (Woodland)</Spanish>
+        <Italian>H&amp;K HK416 D16.5 (Woodland)</Italian>
+        <Polish>H&amp;K HK416 D16.5 (Woodland)</Polish>
+        <Portuguese>H&amp;K HK416 D16.5 (Woodland)</Portuguese>
+        <Russian>H&amp;K HK416 D16.5 (Woodland)</Russian>
+        <German>H&amp;K HK416 D16.5 (Woodland)</German>
+        <Japanese>H&amp;K HK416 D16.5 (森林迷彩)</Japanese>
+        <Korean>H&amp;K HK416 D16.5 (Woodland)</Korean>
+        <Chinesesimp>H&amp;K HK416 D16.5 (Woodland)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416165_GL">
+        <Original>H&amp;K HK416 D16.5 (GL)</Original>
+        <English>H&amp;K HK416 D16.5 (GL)</English>
+        <Czech>H&amp;K HK416 D16.5 (GL)</Czech>
+        <French>H&amp;K HK416 D16.5 (GL)</French>
+        <Spanish>H&amp;K HK416 D16.5 (GL)</Spanish>
+        <Italian>H&amp;K HK416 D16.5 (GL)</Italian>
+        <Polish>H&amp;K HK416 D16.5 (GL)</Polish>
+        <Portuguese>H&amp;K HK416 D16.5 (GL)</Portuguese>
+        <Russian>H&amp;K HK416 D16.5 (GL)</Russian>
+        <German>H&amp;K HK416 D16.5 (GL)</German>
+        <Japanese>H&amp;K HK416 D16.5 (GL)</Japanese>
+        <Korean>H&amp;K HK416 D16.5 (GL)</Korean>
+        <Chinesesimp>H&amp;K HK416 D16.5 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416N_GL">
+        <Original>H&amp;K HK416N (GL)</Original>
+        <English>H&amp;K HK416N (GL)</English>
+        <Czech>H&amp;K HK416N (GL)</Czech>
+        <French>H&amp;K HK416N (GL)</French>
+        <Spanish>H&amp;K HK416N (GL)</Spanish>
+        <Italian>H&amp;K HK416N (GL)</Italian>
+        <Polish>H&amp;K HK416N (GL)</Polish>
+        <Portuguese>H&amp;K HK416N (GL)</Portuguese>
+        <Russian>H&amp;K HK416N (GL)</Russian>
+        <German>H&amp;K HK416N (GL)</German>
+        <Japanese>H&amp;K HK416N (GL)</Japanese>
+        <Korean>H&amp;K HK416N (GL)</Korean>
+        <Chinesesimp>H&amp;K HK416N (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416N">
+        <Original>H&amp;K HK416N</Original>
+        <English>H&amp;K HK416N</English>
+        <Czech>H&amp;K HK416N</Czech>
+        <French>H&amp;K HK416N</French>
+        <Spanish>H&amp;K HK416N</Spanish>
+        <Italian>H&amp;K HK416N</Italian>
+        <Polish>H&amp;K HK416N</Polish>
+        <Portuguese>H&amp;K HK416N</Portuguese>
+        <Russian>H&amp;K HK416N</Russian>
+        <German>H&amp;K HK416N</German>
+        <Japanese>H&amp;K HK416N</Japanese>
+        <Korean>H&amp;K HK416N</Korean>
+        <Chinesesimp>H&amp;K HK416N</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41620">
+        <Original>H&amp;K HK416 D20</Original>
+        <English>H&amp;K HK416 D20</English>
+        <Czech>H&amp;K HK416 D20</Czech>
+        <French>H&amp;K HK416 D20</French>
+        <Spanish>H&amp;K HK416 D20</Spanish>
+        <Italian>H&amp;K HK416 D20</Italian>
+        <Polish>H&amp;K HK416 D20</Polish>
+        <Portuguese>H&amp;K HK416 D20</Portuguese>
+        <Russian>H&amp;K HK416 D20</Russian>
+        <German>H&amp;K HK416 D20</German>
+        <Japanese>H&amp;K HK416 D20</Japanese>
+        <Korean>H&amp;K HK416 D20</Korean>
+        <Chinesesimp>H&amp;K HK416 D20</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41620_Tan">
+        <Original>H&amp;K HK416 D20 (Tan)</Original>
+        <English>H&amp;K HK416 D20 (Tan)</English>
+        <Czech>H&amp;K HK416 D20 (Tan)</Czech>
+        <French>H&amp;K HK416 D20 (Tan)</French>
+        <Spanish>H&amp;K HK416 D20 (Tan)</Spanish>
+        <Italian>H&amp;K HK416 D20 (Tan)</Italian>
+        <Polish>H&amp;K HK416 D20 (Tan)</Polish>
+        <Portuguese>H&amp;K HK416 D20 (Tan)</Portuguese>
+        <Russian>H&amp;K HK416 D20 (Tan)</Russian>
+        <German>H&amp;K HK416 D20 (Tan)</German>
+        <Japanese>H&amp;K HK416 D20 (タン)</Japanese>
+        <Korean>H&amp;K HK416 D20 (Tan)</Korean>
+        <Chinesesimp>H&amp;K HK416 D20 (Tan)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_41620_Woodland">
+        <Original>H&amp;K HK416 D20 (Woodland)</Original>
+        <English>H&amp;K HK416 D20 (Woodland)</English>
+        <Czech>H&amp;K HK416 D20 (Woodland)</Czech>
+        <French>H&amp;K HK416 D20 (Woodland)</French>
+        <Spanish>H&amp;K HK416 D20 (Woodland)</Spanish>
+        <Italian>H&amp;K HK416 D20 (Woodland)</Italian>
+        <Polish>H&amp;K HK416 D20 (Woodland)</Polish>
+        <Portuguese>H&amp;K HK416 D20 (Woodland)</Portuguese>
+        <Russian>H&amp;K HK416 D20 (Woodland)</Russian>
+        <German>H&amp;K HK416 D20 (Woodland)</German>
+        <Japanese>H&amp;K HK416 D20 (森林迷彩)</Japanese>
+        <Korean>H&amp;K HK416 D20 (Woodland)</Korean>
+        <Chinesesimp>H&amp;K HK416 D20 (Woodland)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_D145_DESC">
+        <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>カービング&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Potato_DESC">
+        <Original>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>アサルト チューバー&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Assault Tuber&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_416C_DESC">
+        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M27_DESC">
+        <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_D165_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
 </Project>
