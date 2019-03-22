@@ -43,7 +43,7 @@
         <Portuguese>SIG Stgw.57 Commando</Portuguese>
         <Russian>SIG Stgw.57 Commando</Russian>
         <German>SIG Stgw.57 Commando</German>
-        <Japanese>SIG Stgw.57 Commando</Japanese>
+        <Japanese>SIG Stgw.57 コマンド</Japanese>
         <Korean>SIG Stgw.57 Commando</Korean>
         <Chinesesimp>SIG Stgw.57 Commando</Chinesesimp>
       </Key>
@@ -77,7 +77,7 @@
         <Korean>SIG AMT</Korean>
         <Chinesesimp>SIG AMT</Chinesesimp>
       </Key>
-      </Container>
+    </Container>
     <Container name="Mag_Names">
       <Key ID="STR_NIA_24rnd_75x55_B_STGW">
         <Original>7.5mm FMJ 24Rnd Stgw.57 Magazine</Original>
@@ -90,7 +90,7 @@
         <Portuguese>7.5mm FMJ 24Rnd Stgw.57 Magazine</Portuguese>
         <Russian>7.5mm FMJ 24Rnd Stgw.57 Magazine</Russian>
         <German>7.5mm FMJ 24Rnd Stgw.57 Magazine</German>
-        <Japanese>7.5mm FMJ 24Rnd Stgw.57 Magazine</Japanese>
+        <Japanese>7.5mm FMJ 24発入り Stgw.57 マガジン</Japanese>
         <Korean>7.5mm FMJ 24Rnd Stgw.57 Magazine</Korean>
         <Chinesesimp>7.5mm FMJ 24Rnd Stgw.57 Magazine</Chinesesimp>
       </Key>
@@ -105,7 +105,7 @@
         <Portuguese>7.5mm AP 24Rnd Stgw.57 Magazine</Portuguese>
         <Russian>7.5mm AP 24Rnd Stgw.57 Magazine</Russian>
         <German>7.5mm AP 24Rnd Stgw.57 Magazine</German>
-        <Japanese>7.5mm AP 24Rnd Stgw.57 Magazine</Japanese>
+        <Japanese>7.5mm AP 24発入り Stgw.57 マガジン</Japanese>
         <Korean>7.5mm AP 24Rnd Stgw.57 Magazine</Korean>
         <Chinesesimp>7.5mm AP 24Rnd Stgw.57 Magazine</Chinesesimp>
       </Key>
@@ -120,7 +120,7 @@
         <Portuguese>7.5mm Tracer 24Rnd Stgw.57 Magazine</Portuguese>
         <Russian>7.5mm Tracer 24Rnd Stgw.57 Magazine</Russian>
         <German>7.5mm Tracer 24Rnd Stgw.57 Magazine</German>
-        <Japanese>7.5mm Tracer 24Rnd Stgw.57 Magazine</Japanese>
+        <Japanese>7.5mm 曳光弾 24発入り Stgw.57 マガジン</Japanese>
         <Korean>7.5mm Tracer 24Rnd Stgw.57 Magazine</Korean>
         <Chinesesimp>7.5mm Tracer 24Rnd Stgw.57 Magazine</Chinesesimp>
       </Key>
@@ -135,7 +135,7 @@
         <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm EPR 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm EPR 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm EPR 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm EPR 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -150,7 +150,7 @@
         <Portuguese>7.62mm SBLR 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm SBLR 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm SBLR 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm SBLR 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm SBLR 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm SBLR 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm SBLR 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -165,7 +165,7 @@
         <Portuguese>7.62mm SOST 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm SOST 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm SOST 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm SOST 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm SOST 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm SOST 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm SOST 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -180,7 +180,7 @@
         <Portuguese>7.62mm Tracer 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm Tracer 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm Tracer 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm Tracer 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm 曳光弾 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm Tracer 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm Tracer 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -195,7 +195,7 @@
         <Portuguese>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm IR-DIM 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm IR-DIM 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -210,7 +210,7 @@
         <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Portuguese>
         <Russian>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Russian>
         <German>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Japanese>
+        <Japanese>7.62mm EPR 20発入り SG510-4 マガジン (4発毎に曳光弾)</Japanese>
         <Korean>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine (Tracers Every 4)</Chinesesimp>
       </Key>
@@ -225,7 +225,7 @@
         <Portuguese>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Portuguese>
         <Russian>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Russian>
         <German>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Japanese>
+        <Japanese>7.62mm EPR 20発入り SG510-4 マガジン (4発毎にIR-DIM)</Japanese>
         <Korean>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>7.62mm EPR 20Rnd SG510-4 Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
@@ -240,7 +240,7 @@
         <Portuguese>7.62mm Subsonic 20Rnd SG510-4 Magazine</Portuguese>
         <Russian>7.62mm Subsonic 20Rnd SG510-4 Magazine</Russian>
         <German>7.62mm Subsonic 20Rnd SG510-4 Magazine</German>
-        <Japanese>7.62mm Subsonic 20Rnd SG510-4 Magazine</Japanese>
+        <Japanese>7.62mm 亜音速 20発入り SG510-4 マガジン</Japanese>
         <Korean>7.62mm Subsonic 20Rnd SG510-4 Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 20Rnd SG510-4 Magazine</Chinesesimp>
       </Key>
@@ -257,7 +257,7 @@
         <Portuguese>Kern AARAU 4x24 (Stgw.57 Mount)</Portuguese>
         <Russian>Kern AARAU 4x24 (Stgw.57 Mount)</Russian>
         <German>Kern AARAU 4x24 (Stgw.57 Mount)</German>
-        <Japanese>Kern AARAU 4x24 (Stgw.57 Mount)</Japanese>
+        <Japanese>Kern AARAU 4x24 (Stgw.57 用マウント)</Japanese>
         <Korean>Kern AARAU 4x24 (Stgw.57 Mount)</Korean>
         <Chinesesimp>Kern AARAU 4x24 (Stgw.57 Mount)</Chinesesimp>
       </Key>
@@ -272,7 +272,7 @@
         <Portuguese>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Portuguese>
         <Russian>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Russian>
         <German>Kern AARAU 4x24 (Stgw.57 Mount\2D)</German>
-        <Japanese>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Japanese>
+        <Japanese>Kern AARAU 4x24 (Stgw.57 用マウント\2D)</Japanese>
         <Korean>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Korean>
         <Chinesesimp>Kern AARAU 4x24 (Stgw.57 Mount\2D)</Chinesesimp>
       </Key>
@@ -289,7 +289,7 @@
         <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Portuguese>
         <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Russian>
         <German>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</German>
-        <Japanese>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Japanese>
+        <Japanese>特殊武器&lt;br/&gt;口径: 7.5mm GP11</Japanese>
         <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Korean>
         <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:7.5mm GP11</Chinesesimp>
       </Key>
@@ -304,7 +304,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.5mm GP11</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.5mm GP11</Chinesesimp>
       </Key>
@@ -319,7 +319,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -334,7 +334,7 @@
         <Portuguese>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
         <Russian>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
         <German>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
+        <Japanese>半自動ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
         <Korean>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
         <Chinesesimp>Self-Loading Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
       </Key>
@@ -349,7 +349,7 @@
         <Portuguese>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Portuguese>
         <Russian>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Russian>
         <German>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</German>
-        <Japanese>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Japanese>
+        <Japanese>口径: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;種類: 174gr 船尾形弾尾フル メタル ジャケット&lt;br/&gt;弾数: 24</Japanese>
         <Korean>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Korean>
         <Chinesesimp>Caliber: 7.5x55mm GP11 Pat.11 FMJ&lt;br/&gt;Type: 174gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 24</Chinesesimp>
       </Key>
@@ -364,7 +364,7 @@
         <Portuguese>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Portuguese>
         <Russian>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Russian>
         <German>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</German>
-        <Japanese>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Japanese>
+        <Japanese>口径: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;種類: 徹甲弾 船尾形弾尾&lt;br/&gt;弾数: 24</Japanese>
         <Korean>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Korean>
         <Chinesesimp>Caliber: 7.5x55mm GP11 Stahl Kern Pat.11 AP&lt;br/&gt;Type: Armour Piercing Boat-Tail&lt;br/&gt;Rounds: 24</Chinesesimp>
       </Key>
@@ -379,7 +379,7 @@
         <Portuguese>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Portuguese>
         <Russian>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Russian>
         <German>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</German>
-        <Japanese>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Japanese>
+        <Japanese>口径: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 24</Japanese>
         <Korean>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Korean>
         <Chinesesimp>Caliber: 7.5x55mm GP11 Lspr. Pat. 11&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 24</Chinesesimp>
       </Key>
@@ -426,7 +426,7 @@
         <Portuguese>L'spur Pat.11 Tracer</Portuguese>
         <Russian>L'spur Pat.11 Tracer</Russian>
         <German>L'spur Pat.11 Tracer</German>
-        <Japanese>L'spur Pat.11 Tracer</Japanese>
+        <Japanese>L'spur Pat.11 曳光弾</Japanese>
         <Korean>L'spur Pat.11 Tracer</Korean>
         <Chinesesimp>L'spur Pat.11 Tracer</Chinesesimp>
       </Key>
