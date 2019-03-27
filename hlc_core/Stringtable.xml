@@ -587,6 +587,82 @@
         <Korean>TAC-XP JHP</Korean>
         <Chinesesimp>TAC-XP JHP</Chinesesimp>
       </Key>
+
+      <Key ID="STR_NIA_40SW_FMJ">
+        <Original>Mk309 Ball</Original>
+        <English>Mk309 Ball</English>
+        <Czech>Mk309 Ball</Czech>
+        <French>Mk309 Ball</French>
+        <Spanish>Mk309 Ball</Spanish>
+        <Italian>Mk309 Ball</Italian>
+        <Polish>Mk309 Ball</Polish>
+        <Portuguese>Mk309 Ball</Portuguese>
+        <Russian>Mk309 Ball</Russian>
+        <German>Mk309 Ball</German>
+        <Japanese>Mk309 Ball</Japanese>
+        <Korean>Mk309 Ball</Korean>
+        <Chinesesimp>Mk309 Ball</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_40SW_JHP">
+        <Original>Mk308 JHP</Original>
+        <English>Mk308 JHP</English>
+        <Czech>Mk308 JHP</Czech>
+        <French>Mk308 JHP</French>
+        <Spanish>Mk308 JHP</Spanish>
+        <Italian>Mk308 JHP</Italian>
+        <Polish>Mk308 JHP</Polish>
+        <Portuguese>Mk308 JHP</Portuguese>
+        <Russian>Mk308 JHP</Russian>
+        <German>Mk308 JHP</German>
+        <Japanese>Mk308 JHP</Japanese>
+        <Korean>Mk308 JHP</Korean>
+        <Chinesesimp>Mk308 JHP</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_40SW_SD">
+        <Original>JHP Subsonic</Original>
+        <English>JHP Subsonic</English>
+        <Czech>JHP Subsonic</Czech>
+        <French>JHP Subsonic</French>
+        <Spanish>JHP Subsonic</Spanish>
+        <Italian>JHP Subsonic</Italian>
+        <Polish>JHP Subsonic</Polish>
+        <Portuguese>JHP Subsonic</Portuguese>
+        <Russian>JHP Subsonic</Russian>
+        <German>JHP Subsonic</German>
+        <Japanese>JHP Subsonic</Japanese>
+        <Korean>JHP Subsonic</Korean>
+        <Chinesesimp>JHP Subsonic</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_357SIG_FMJ">
+        <Original>FMJ-FN</Original>
+        <English>FMJ-FN</English>
+        <Czech>FMJ-FN</Czech>
+        <French>FMJ-FN</French>
+        <Spanish>FMJ-FN</Spanish>
+        <Italian>FMJ-FN</Italian>
+        <Polish>FMJ-FN</Polish>
+        <Portuguese>FMJ-FN</Portuguese>
+        <Russian>FMJ-FN</Russian>
+        <German>FMJ-FN</German>
+        <Japanese>FMJ-FN</Japanese>
+        <Korean>FMJ-FN</Korean>
+        <Chinesesimp>FMJ-FN</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_357SIG_JHP">
+        <Original>Flexlock JHP</Original>
+        <English>Flexlock JHP</English>
+        <Czech>Flexlock JHP</Czech>
+        <French>Flexlock JHP</French>
+        <Spanish>Flexlock JHP</Spanish>
+        <Italian>Flexlock JHP</Italian>
+        <Polish>Flexlock JHP</Polish>
+        <Portuguese>Flexlock JHP</Portuguese>
+        <Russian>Flexlock JHP</Russian>
+        <German>Flexlock JHP</German>
+        <Japanese>Flexlock JHP</Japanese>
+        <Korean>Flexlock JHP</Korean>
+        <Chinesesimp>Flexlock JHP</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_40mm_HE">
         <Original>HE Grenade</Original>
         <English>HE Grenade</English>
@@ -1460,49 +1536,49 @@
         <Chinesesimp>5.45mm Subsonic 30Rnd AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_t_ak">
-        <Original>"5.45mm Tracer 30Rnd AK Magazine"</Original>
-        <English>"5.45mm Tracer 30Rnd AK Magazine"</English>
-        <Czech>"5.45mm Tracer 30Rnd AK Magazine"</Czech>
-        <French>"5.45mm Tracer 30Rnd AK Magazine"</French>
-        <Spanish>"5.45mm Tracer 30Rnd AK Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 30Rnd AK Magazine"</Italian>
-        <Polish>"5.45mm Tracer 30Rnd AK Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 30Rnd AK Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 30Rnd AK Magazine"</Russian>
-        <German>"5.45mm Tracer 30Rnd AK Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 30発入り AK マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 30Rnd AK Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 30Rnd AK Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 30Rnd AK Magazine</Original>
+        <English>5.45mm Tracer 30Rnd AK Magazine</English>
+        <Czech>5.45mm Tracer 30Rnd AK Magazine</Czech>
+        <French>5.45mm Tracer 30Rnd AK Magazine</French>
+        <Spanish>5.45mm Tracer 30Rnd AK Magazine</Spanish>
+        <Italian>5.45mm Tracer 30Rnd AK Magazine</Italian>
+        <Polish>5.45mm Tracer 30Rnd AK Magazine</Polish>
+        <Portuguese>5.45mm Tracer 30Rnd AK Magazine</Portuguese>
+        <Russian>5.45mm Tracer 30Rnd AK Magazine</Russian>
+        <German>5.45mm Tracer 30Rnd AK Magazine</German>
+        <Japanese>5.45mm 曳光弾 30発入り AK マガジン</Japanese>
+        <Korean>5.45mm Tracer 30Rnd AK Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 30Rnd AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_m_ak">
-        <Original>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30発入り AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 30発入り AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 30Rnd AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_EP_ak">
-        <Original>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30発入り AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 30発入り AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_B_AKplum">
         <Original>5.45mm FMJ 30Rnd Plum AK Magazine</Original>
@@ -1535,49 +1611,49 @@
         <Chinesesimp>5.45mm Subsonic 30Rnd Plum AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_t_AKplum">
-        <Original>"5.45mm Tracer 30Rnd Plum AK Magazine"</Original>
-        <English>"5.45mm Tracer 30Rnd Plum AK Magazine"</English>
-        <Czech>"5.45mm Tracer 30Rnd Plum AK Magazine"</Czech>
-        <French>"5.45mm Tracer 30Rnd Plum AK Magazine"</French>
-        <Spanish>"5.45mm Tracer 30Rnd Plum AK Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 30Rnd Plum AK Magazine"</Italian>
-        <Polish>"5.45mm Tracer 30Rnd Plum AK Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 30Rnd Plum AK Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 30Rnd Plum AK Magazine"</Russian>
-        <German>"5.45mm Tracer 30Rnd Plum AK Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 30発入り プラム AK マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 30Rnd Plum AK Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 30Rnd Plum AK Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 30Rnd Plum AK Magazine</Original>
+        <English>5.45mm Tracer 30Rnd Plum AK Magazine</English>
+        <Czech>5.45mm Tracer 30Rnd Plum AK Magazine</Czech>
+        <French>5.45mm Tracer 30Rnd Plum AK Magazine</French>
+        <Spanish>5.45mm Tracer 30Rnd Plum AK Magazine</Spanish>
+        <Italian>5.45mm Tracer 30Rnd Plum AK Magazine</Italian>
+        <Polish>5.45mm Tracer 30Rnd Plum AK Magazine</Polish>
+        <Portuguese>5.45mm Tracer 30Rnd Plum AK Magazine</Portuguese>
+        <Russian>5.45mm Tracer 30Rnd Plum AK Magazine</Russian>
+        <German>5.45mm Tracer 30Rnd Plum AK Magazine</German>
+        <Japanese>5.45mm 曳光弾 30発入り プラム AK マガジン</Japanese>
+        <Korean>5.45mm Tracer 30Rnd Plum AK Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 30Rnd Plum AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_m_AKplum">
-        <Original>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30発入り プラム AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 30発入り プラム AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 30Rnd Plum AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_EP_AKplum">
-        <Original>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30発入り プラム AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 30発入り プラム AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_B_AKBlack">
         <Original>5.45mm FMJ 30Rnd Black AK Magazine</Original>
@@ -1610,49 +1686,49 @@
         <Chinesesimp>5.45mm Subsonic 30Rnd Black AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_t_AKBlack">
-        <Original>"5.45mm Tracer 30Rnd Black AK Magazine"</Original>
-        <English>"5.45mm Tracer 30Rnd Black AK Magazine"</English>
-        <Czech>"5.45mm Tracer 30Rnd Black AK Magazine"</Czech>
-        <French>"5.45mm Tracer 30Rnd Black AK Magazine"</French>
-        <Spanish>"5.45mm Tracer 30Rnd Black AK Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 30Rnd Black AK Magazine"</Italian>
-        <Polish>"5.45mm Tracer 30Rnd Black AK Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 30Rnd Black AK Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 30Rnd Black AK Magazine"</Russian>
-        <German>"5.45mm Tracer 30Rnd Black AK Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 30発入り ブラック AK マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 30Rnd Black AK Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 30Rnd Black AK Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 30Rnd Black AK Magazine</Original>
+        <English>5.45mm Tracer 30Rnd Black AK Magazine</English>
+        <Czech>5.45mm Tracer 30Rnd Black AK Magazine</Czech>
+        <French>5.45mm Tracer 30Rnd Black AK Magazine</French>
+        <Spanish>5.45mm Tracer 30Rnd Black AK Magazine</Spanish>
+        <Italian>5.45mm Tracer 30Rnd Black AK Magazine</Italian>
+        <Polish>5.45mm Tracer 30Rnd Black AK Magazine</Polish>
+        <Portuguese>5.45mm Tracer 30Rnd Black AK Magazine</Portuguese>
+        <Russian>5.45mm Tracer 30Rnd Black AK Magazine</Russian>
+        <German>5.45mm Tracer 30Rnd Black AK Magazine</German>
+        <Japanese>5.45mm 曳光弾 30発入り ブラック AK マガジン</Japanese>
+        <Korean>5.45mm Tracer 30Rnd Black AK Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 30Rnd Black AK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_m_AKBlack">
-        <Original>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 30発入り ブラック AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 30発入り ブラック AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 30Rnd Black AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_545x39_EP_AKBlack">
-        <Original>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 30発入り ブラック AK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 30発入り ブラック AK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_b_rpk">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
@@ -1670,49 +1746,49 @@
         <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_t_rpk">
-        <Original>"5.45mm Tracer 45Rnd RPK74M Magazine"</Original>
-        <English>"5.45mm Tracer 45Rnd RPK74M Magazine"</English>
-        <Czech>"5.45mm Tracer 45Rnd RPK74M Magazine"</Czech>
-        <French>"5.45mm Tracer 45Rnd RPK74M Magazine"</French>
-        <Spanish>"5.45mm Tracer 45Rnd RPK74M Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Italian>
-        <Polish>"5.45mm Tracer 45Rnd RPK74M Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Russian>
-        <German>"5.45mm Tracer 45Rnd RPK74M Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 45発入り RPK74M マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 45Rnd RPK74M Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 45Rnd RPK74M Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 45Rnd RPK74M Magazine</Original>
+        <English>5.45mm Tracer 45Rnd RPK74M Magazine</English>
+        <Czech>5.45mm Tracer 45Rnd RPK74M Magazine</Czech>
+        <French>5.45mm Tracer 45Rnd RPK74M Magazine</French>
+        <Spanish>5.45mm Tracer 45Rnd RPK74M Magazine</Spanish>
+        <Italian>5.45mm Tracer 45Rnd RPK74M Magazine</Italian>
+        <Polish>5.45mm Tracer 45Rnd RPK74M Magazine</Polish>
+        <Portuguese>5.45mm Tracer 45Rnd RPK74M Magazine</Portuguese>
+        <Russian>5.45mm Tracer 45Rnd RPK74M Magazine</Russian>
+        <German>5.45mm Tracer 45Rnd RPK74M Magazine</German>
+        <Japanese>5.45mm 曳光弾 45発入り RPK74M マガジン</Japanese>
+        <Korean>5.45mm Tracer 45Rnd RPK74M Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_m_rpk">
-        <Original>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_EP_rpk">
-        <Original>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_b_rpkm">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
@@ -1730,49 +1806,49 @@
         <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_t_rpkm">
-        <Original>"5.45mm Tracer 45Rnd RPK74M Magazine"</Original>
-        <English>"5.45mm Tracer 45Rnd RPK74M Magazine"</English>
-        <Czech>"5.45mm Tracer 45Rnd RPK74M Magazine"</Czech>
-        <French>"5.45mm Tracer 45Rnd RPK74M Magazine"</French>
-        <Spanish>"5.45mm Tracer 45Rnd RPK74M Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Italian>
-        <Polish>"5.45mm Tracer 45Rnd RPK74M Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 45Rnd RPK74M Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 45Rnd RPK74M Magazine"</Russian>
-        <German>"5.45mm Tracer 45Rnd RPK74M Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 45発入り RPK74M マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 45Rnd RPK74M Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 45Rnd RPK74M Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 45Rnd RPK74M Magazine</Original>
+        <English>5.45mm Tracer 45Rnd RPK74M Magazine</English>
+        <Czech>5.45mm Tracer 45Rnd RPK74M Magazine</Czech>
+        <French>5.45mm Tracer 45Rnd RPK74M Magazine</French>
+        <Spanish>5.45mm Tracer 45Rnd RPK74M Magazine</Spanish>
+        <Italian>5.45mm Tracer 45Rnd RPK74M Magazine</Italian>
+        <Polish>5.45mm Tracer 45Rnd RPK74M Magazine</Polish>
+        <Portuguese>5.45mm Tracer 45Rnd RPK74M Magazine</Portuguese>
+        <Russian>5.45mm Tracer 45Rnd RPK74M Magazine</Russian>
+        <German>5.45mm Tracer 45Rnd RPK74M Magazine</German>
+        <Japanese>5.45mm 曳光弾 45発入り RPK74M マガジン</Japanese>
+        <Korean>5.45mm Tracer 45Rnd RPK74M Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 45Rnd RPK74M Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_m_rpkm">
-        <Original>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 45発入り RPK74M マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_45Rnd_545x39_EP_rpkm">
-        <Original>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 45発入り RPK74M マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_60Rnd_545x39_b_RPK">
         <Original>5.45mm FMJ 60Rnd RPK Magazine</Original>
@@ -1790,49 +1866,49 @@
         <Chinesesimp>5.45mm FMJ 60Rnd RPK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_60Rnd_545x39_t_RPK">
-        <Original>"5.45mm Tracer 60Rnd RPK Magazine"</Original>
-        <English>"5.45mm Tracer 60Rnd RPK Magazine"</English>
-        <Czech>"5.45mm Tracer 60Rnd RPK Magazine"</Czech>
-        <French>"5.45mm Tracer 60Rnd RPK Magazine"</French>
-        <Spanish>"5.45mm Tracer 60Rnd RPK Magazine"</Spanish>
-        <Italian>"5.45mm Tracer 60Rnd RPK Magazine"</Italian>
-        <Polish>"5.45mm Tracer 60Rnd RPK Magazine"</Polish>
-        <Portuguese>"5.45mm Tracer 60Rnd RPK Magazine"</Portuguese>
-        <Russian>"5.45mm Tracer 60Rnd RPK Magazine"</Russian>
-        <German>"5.45mm Tracer 60Rnd RPK Magazine"</German>
-        <Japanese>"5.45mm 曳光弾 60発入り RPK マガジン"</Japanese>
-        <Korean>"5.45mm Tracer 60Rnd RPK Magazine"</Korean>
-        <Chinesesimp>"5.45mm Tracer 60Rnd RPK Magazine"</Chinesesimp>
+        <Original>5.45mm Tracer 60Rnd RPK Magazine</Original>
+        <English>5.45mm Tracer 60Rnd RPK Magazine</English>
+        <Czech>5.45mm Tracer 60Rnd RPK Magazine</Czech>
+        <French>5.45mm Tracer 60Rnd RPK Magazine</French>
+        <Spanish>5.45mm Tracer 60Rnd RPK Magazine</Spanish>
+        <Italian>5.45mm Tracer 60Rnd RPK Magazine</Italian>
+        <Polish>5.45mm Tracer 60Rnd RPK Magazine</Polish>
+        <Portuguese>5.45mm Tracer 60Rnd RPK Magazine</Portuguese>
+        <Russian>5.45mm Tracer 60Rnd RPK Magazine</Russian>
+        <German>5.45mm Tracer 60Rnd RPK Magazine</German>
+        <Japanese>5.45mm 曳光弾 60発入り RPK マガジン</Japanese>
+        <Korean>5.45mm Tracer 60Rnd RPK Magazine</Korean>
+        <Chinesesimp>5.45mm Tracer 60Rnd RPK Magazine</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_60Rnd_545x39_m_RPK">
-        <Original>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm FMJ 60発入り RPK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm FMJ 60発入り RPK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm FMJ 60Rnd RPK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_60Rnd_545x39_EP_RPK">
-        <Original>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Original>
-        <English>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</English>
-        <Czech>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Czech>
-        <French>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</French>
-        <Spanish>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Spanish>
-        <Italian>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Italian>
-        <Polish>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Polish>
-        <Portuguese>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Portuguese>
-        <Russian>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Russian>
-        <German>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</German>
-        <Japanese>"5.45mm EPR 60発入り RPK マガジン (3発毎に曳光弾)"</Japanese>
-        <Korean>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Korean>
-        <Chinesesimp>"5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)"</Chinesesimp>
+        <Original>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Original>
+        <English>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</English>
+        <Czech>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Czech>
+        <French>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</French>
+        <Spanish>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Spanish>
+        <Italian>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Italian>
+        <Polish>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Polish>
+        <Portuguese>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Portuguese>
+        <Russian>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Russian>
+        <German>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</German>
+        <Japanese>5.45mm EPR 60発入り RPK マガジン (3発毎に曳光弾)</Japanese>
+        <Korean>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Korean>
+        <Chinesesimp>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_30Rnd_762x39_b_ak">
         <Original>7.62mm FMJ 30Rnd AK Magazine</Original>
@@ -2524,6 +2600,82 @@
         <Korean>7.62mm Tracer 100Rnd M13-linked belt</Korean>
         <Chinesesimp>7.62mm Tracer 100Rnd M13-linked belt</Chinesesimp>
       </Key>
+
+      <Key ID="STR_NIA_200Rnd_762x51_B_M60E4">
+        <Original>7.62mm EPR 200Rnd M13-linked belt</Original>
+        <English>7.62mm EPR 200Rnd M13-linked belt</English>
+        <Czech>7.62mm EPR 200Rnd M13-linked belt</Czech>
+        <French>7.62mm EPR 200Rnd M13-linked belt</French>
+        <Spanish>7.62mm EPR 200Rnd M13-linked belt</Spanish>
+        <Italian>7.62mm EPR 200Rnd M13-linked belt</Italian>
+        <Polish>7.62mm EPR 200Rnd M13-linked belt</Polish>
+        <Portuguese>7.62mm EPR 200Rnd M13-linked belt</Portuguese>
+        <Russian>7.62mm EPR 200Rnd M13-linked belt</Russian>
+        <German>7.62mm EPR 200Rnd M13-linked belt</German>
+        <Japanese>7.62mm EPR 200Rnd M13-linked belt</Japanese>
+        <Korean>7.62mm EPR 200Rnd M13-linked belt</Korean>
+        <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200Rnd_762x51_M_M60E4">
+        <Original>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Original>
+        <English>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</English>
+        <Czech>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Czech>
+        <French>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</French>
+        <Spanish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Spanish>
+        <Italian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Italian>
+        <Polish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Russian>
+        <German>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</German>
+        <Japanese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Japanese>
+        <Korean>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200Rnd_762x51_Mdim_M60E4">
+        <Original>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Original>
+        <English>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</English>
+        <Czech>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Czech>
+        <French>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</French>
+        <Spanish>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Spanish>
+        <Italian>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Italian>
+        <Polish>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Polish>
+        <Portuguese>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Portuguese>
+        <Russian>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Russian>
+        <German>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</German>
+        <Japanese>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Japanese>
+        <Korean>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200Rnd_762x51_Barrier_M60E4">
+        <Original>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Original>
+        <English>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</English>
+        <Czech>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Czech>
+        <French>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</French>
+        <Spanish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Spanish>
+        <Italian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Italian>
+        <Polish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Russian>
+        <German>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</German>
+        <Japanese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Japanese>
+        <Korean>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_200Rnd_762x51_T_M60E4">
+        <Original>7.62mm Tracer 200Rnd M13-linked belt</Original>
+        <English>7.62mm Tracer 200Rnd M13-linked belt</English>
+        <Czech>7.62mm Tracer 200Rnd M13-linked belt</Czech>
+        <French>7.62mm Tracer 200Rnd M13-linked belt</French>
+        <Spanish>7.62mm Tracer 200Rnd M13-linked belt</Spanish>
+        <Italian>7.62mm Tracer 200Rnd M13-linked belt</Italian>
+        <Polish>7.62mm Tracer 200Rnd M13-linked belt</Polish>
+        <Portuguese>7.62mm Tracer 200Rnd M13-linked belt</Portuguese>
+        <Russian>7.62mm Tracer 200Rnd M13-linked belt</Russian>
+        <German>7.62mm Tracer 200Rnd M13-linked belt</German>
+        <Japanese>7.62mm Tracer 200Rnd M13-linked belt</Japanese>
+        <Korean>7.62mm Tracer 200Rnd M13-linked belt</Korean>
+        <Chinesesimp>7.62mm Tracer 200Rnd M13-linked belt</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_20Rnd_762x51_B_fal">
         <Original>7.62mm EPR 20Rnd FAL Magazine</Original>
         <English>7.62mm EPR 20Rnd FAL Magazine</English>
@@ -2598,6 +2750,36 @@
         <Japanese>7.62mm IR-DIM 20発入り FAL マガジン</Japanese>
         <Korean>7.62mm IR-DIM 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm IR-DIM 20Rnd FAL Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_M_fal">
+        <Original>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Original>
+        <English>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</English>
+        <Czech>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Czech>
+        <French>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</French>
+        <Spanish>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Spanish>
+        <Italian>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Italian>
+        <Polish>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Russian>
+        <German>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</German>
+        <Japanese>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Japanese>
+        <Korean>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 20Rnd FAL Magazine (Tracers Every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_762x51_MDIM_fal">
+        <Original>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Original>
+        <English>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</English>
+        <Czech>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Czech>
+        <French>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</French>
+        <Spanish>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Spanish>
+        <Italian>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Italian>
+        <Polish>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Polish>
+        <Portuguese>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Portuguese>
+        <Russian>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Russian>
+        <German>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</German>
+        <Japanese>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Japanese>
+        <Korean>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Korean>
+        <Chinesesimp>7.62mm EPR 20Rnd FAL Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_20Rnd_762x51_S_fal">
         <Original>7.62mm Subsonic 20Rnd FAL Magazine</Original>
@@ -3186,6 +3368,21 @@
         <Korean>FN STANAG 4x28</Korean>
         <Chinesesimp>FN STANAG 4x28</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_optic_ZF4x_2d">
+        <Original>FN STANAG 4x28 (2D)</Original>
+        <English>FN STANAG 4x28 (2D)</English>
+        <Czech>FN STANAG 4x28 (2D)</Czech>
+        <French>FN STANAG 4x28 (2D)</French>
+        <Spanish>FN STANAG 4x28 (2D)</Spanish>
+        <Italian>FN STANAG 4x28 (2D)</Italian>
+        <Polish>FN STANAG 4x28 (2D)</Polish>
+        <Portuguese>FN STANAG 4x28 (2D)</Portuguese>
+        <Russian>FN STANAG 4x28 (2D)</Russian>
+        <German>FN STANAG 4x28 (2D)</German>
+        <Japanese>FN STANAG 4x28 (2D)</Japanese>
+        <Korean>FN STANAG 4x28 (2D)</Korean>
+        <Chinesesimp>FN STANAG 4x28 (2D)</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_optic_DocterR">
         <Original>Docter Sight II L/E</Original>
         <English>Docter Sight II L/E</English>
@@ -3215,6 +3412,36 @@
         <Japanese>Kahles ZF95</Japanese>
         <Korean>Kahles ZF95</Korean>
         <Chinesesimp>Kahles ZF95</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ATACROffset">
+        <Original>Nightforce ATACR F1 (Offset RDS)</Original>
+        <English>Nightforce ATACR F1(Offset RDS)</English>
+        <Czech>Nightforce ATACR F1(Offset RDS)</Czech>
+        <French>Nightforce ATACR F1(Offset RDS)</French>
+        <Spanish>Nightforce ATACR F1(Offset RDS)</Spanish>
+        <Italian>Nightforce ATACR F1(Offset RDS)</Italian>
+        <Polish>Nightforce ATACR F1(Offset RDS)</Polish>
+        <Portuguese>Nightforce ATACR F1(Offset RDS)</Portuguese>
+        <Russian>Nightforce ATACR F1(Offset RDS)</Russian>
+        <German>Nightforce ATACR F1(Offset RDS)</German>
+        <Japanese>Nightforce ATACR F1(Offset RDS)</Japanese>
+        <Korean>Nightforce ATACR F1(Offset RDS)</Korean>
+        <Chinesesimp>Nightforce ATACR F1(Offset RDS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ATACR">
+        <Original>Nightforce ATACR F1</Original>
+        <English>Nightforce ATACR F1</English>
+        <Czech>Nightforce ATACR F1</Czech>
+        <French>Nightforce ATACR F1</French>
+        <Spanish>Nightforce ATACR F1</Spanish>
+        <Italian>Nightforce ATACR F1</Italian>
+        <Polish>Nightforce ATACR F1</Polish>
+        <Portuguese>Nightforce ATACR F1</Portuguese>
+        <Russian>Nightforce ATACR F1</Russian>
+        <German>Nightforce ATACR F1</German>
+        <Japanese>Nightforce ATACR F1</Japanese>
+        <Korean>Nightforce ATACR F1</Korean>
+        <Chinesesimp>Nightforce ATACR F1</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_optic_DocterV">
         <Original>Docter Sight II</Original>
@@ -4013,6 +4240,81 @@
         <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_762x51_B">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_762x51_M">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M62A1 Tracer&lt;br/&gt;Type: Full Metal Jacket/Incendiary Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_762x51_Mdim">
+        <Original>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M80A1 EPR/M276 IR-DIM&lt;br/&gt;Type: Full Metal Jacket/Low-Visibility Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_762x51_Msost">
+        <Original>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO Mk319 SOST/M62A1 Tracer&lt;br/&gt;Type: Open-Tip Match/Incendiary Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_200Rnd_762x51_T">
+        <Original>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Original>
+        <English>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</English>
+        <Czech>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Czech>
+        <French>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</French>
+        <Spanish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Spanish>
+        <Italian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Italian>
+        <Polish>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Polish>
+        <Portuguese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Portuguese>
+        <Russian>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Russian>
+        <German>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</German>
+        <Japanese>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Japanese>
+        <Korean>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Korean>
+        <Chinesesimp>Caliber: 7.62x51mm NATO M62A1 Tracer&lt;br/&gt;Type: Incendiary Tracer&lt;br/&gt;Rounds: 200</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_DESC_20Rnd_762x51_B_fal">
         <Original>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</Original>
         <English>Caliber: 7.62x51mm NATO M80A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 20</English>
@@ -4447,6 +4749,21 @@
         <Japanese>Kahles ZF95 高倍率ライフル照準器&lt;br/&gt;倍率: 6x&lt;br/&gt;調整範囲: BDC 100-1200m&lt;br/&gt;照準線: NATO レンジファインダー照準線</Japanese>
         <Korean>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Korean>
         <Chinesesimp>Kahles ZF95 Magnified Rifle Sight&lt;br/&gt;Magnification: 6x&lt;br/&gt;Adjustment: BDC 100-1200m&lt;br/&gt;Reticle: NATO Rangefinding Reticle</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_ATACR_DESC">
+        <Original>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Original>
+        <English>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</English>
+        <Czech>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Czech>
+        <French>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200mx&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</French>
+        <Spanish>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Spanish>
+        <Italian>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Italian>
+        <Polish>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Polish>
+        <Portuguese>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Portuguese>
+        <Russian>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Russian>
+        <German>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</German>
+        <Japanese>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Japanese>
+        <Korean>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Korean>
+        <Chinesesimp>Nightforce ATACR Variable Short-Dort Rifle Sight&lt;br/&gt;Magnification: 1-8x&lt;br/&gt;Adjustment: Mil-dot 100-1200m&lt;br/&gt;Reticle: FC-DM Rangefinding Reticle</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_romeo_DESC">
         <Original>SIG Romeo1 Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Original>
