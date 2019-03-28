@@ -26,7 +26,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -50,7 +50,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
-		volume = 0.4;
+		volume = 1;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
@@ -274,7 +274,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\FAL\fal_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 2500;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -298,7 +298,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
 		range = 2000;
 		rangeCurve[] = {
             { 0, 0 },
@@ -470,7 +470,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\mk18\mk18_taildistant", 1 } };
-        volume = 0.3;
+        volume = 1;
 		range = 2000;
 		rangeCurve[] = {
             { 0, 0 },
