@@ -1,902 +1,900 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_G3">
-    <Container name="Names">
-      <Key ID="STR_NIA_rifle_G3sg1">
-        <Original>H&amp;K G3/SG1</Original>
-        <English>H&amp;K G3/SG1</English>
-        <Czech>H&amp;K G3/SG1</Czech>
-        <French>H&amp;K G3/SG1</French>
-        <Spanish>H&amp;K G3/SG1</Spanish>
-        <Italian>H&amp;K G3/SG1</Italian>
-        <Polish>H&amp;K G3/SG1</Polish>
-        <Portuguese>H&amp;K G3/SG1</Portuguese>
-        <Russian>H&amp;K G3/SG1</Russian>
-        <German>H&amp;K G3/SG1</German>
-        <Japanese>H&amp;K G3/SG1</Japanese>
-        <Korean>H&amp;K G3/SG1</Korean>
-        <Chinesesimp>H&amp;K G3/SG1</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3sg1_RIS">
-        <Original>H&amp;K G3/SG1 (RIS)</Original>
-        <English>H&amp;K G3/SG1 (RIS)</English>
-        <Czech>H&amp;K G3/SG1 (RIS)</Czech>
-        <French>H&amp;K G3/SG1 (RIS)</French>
-        <Spanish>H&amp;K G3/SG1 (RIS)</Spanish>
-        <Italian>H&amp;K G3/SG1 (RIS)</Italian>
-        <Polish>H&amp;K G3/SG1 (RIS)</Polish>
-        <Portuguese>H&amp;K G3/SG1 (RIS)</Portuguese>
-        <Russian>H&amp;K G3/SG1 (RIS)</Russian>
-        <German>H&amp;K G3/SG1 (RIS)</German>
-        <Japanese>H&amp;K G3/SG1 (RIS)</Japanese>
-        <Korean>H&amp;K G3/SG1 (RIS)</Korean>
-        <Chinesesimp>H&amp;K G3/SG1 (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_psg1">
-        <Original>H&amp;K PSG1</Original>
-        <English>H&amp;K PSG1</English>
-        <Czech>H&amp;K PSG1</Czech>
-        <French>H&amp;K PSG1</French>
-        <Spanish>H&amp;K PSG1</Spanish>
-        <Italian>H&amp;K PSG1</Italian>
-        <Polish>H&amp;K PSG1</Polish>
-        <Portuguese>H&amp;K PSG1</Portuguese>
-        <Russian>H&amp;K PSG1</Russian>
-        <German>H&amp;K PSG1</German>
-        <Japanese>H&amp;K PSG1</Japanese>
-        <Korean>H&amp;K PSG1</Korean>
-        <Chinesesimp>H&amp;K PSG1</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_psg1a1">
-        <Original>H&amp;K PSG1A1</Original>
-        <English>H&amp;K PSG1A1</English>
-        <Czech>H&amp;K PSG1A1</Czech>
-        <French>H&amp;K PSG1A1</French>
-        <Spanish>H&amp;K PSG1A1</Spanish>
-        <Italian>H&amp;K PSG1A1</Italian>
-        <Polish>H&amp;K PSG1A1</Polish>
-        <Portuguese>H&amp;K PSG1A1</Portuguese>
-        <Russian>H&amp;K PSG1A1</Russian>
-        <German>H&amp;K PSG1A1</German>
-        <Japanese>H&amp;K PSG1A1</Japanese>
-        <Korean>H&amp;K PSG1A1</Korean>
-        <Chinesesimp>H&amp;K PSG1A1</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_psg1a1_ris">
-        <Original>H&amp;K PSG1A1 (RIS)</Original>
-        <English>H&amp;K PSG1A1 (RIS)</English>
-        <Czech>H&amp;K PSG1A1 (RIS)</Czech>
-        <French>H&amp;K PSG1A1 (RIS)</French>
-        <Spanish>H&amp;K PSG1A1 (RIS)</Spanish>
-        <Italian>H&amp;K PSG1A1 (RIS)</Italian>
-        <Polish>H&amp;K PSG1A1 (RIS)</Polish>
-        <Portuguese>H&amp;K PSG1A1 (RIS)</Portuguese>
-        <Russian>H&amp;K PSG1A1 (RIS)</Russian>
-        <German>H&amp;K PSG1A1 (RIS)</German>
-        <Japanese>H&amp;K PSG1A1 (RIS)</Japanese>
-        <Korean>H&amp;K PSG1A1 (RIS)</Korean>
-        <Chinesesimp>H&amp;K PSG1A1 (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A3">
-        <Original>H&amp;K G3A3</Original>
-        <English>H&amp;K G3A3</English>
-        <Czech>H&amp;K G3A3</Czech>
-        <French>H&amp;K G3A3</French>
-        <Spanish>H&amp;K G3A3</Spanish>
-        <Italian>H&amp;K G3A3</Italian>
-        <Polish>H&amp;K G3A3</Polish>
-        <Portuguese>H&amp;K G3A3</Portuguese>
-        <Russian>H&amp;K G3A3</Russian>
-        <German>H&amp;K G3A3</German>
-        <Japanese>H&amp;K G3A3</Japanese>
-        <Korean>H&amp;K G3A3</Korean>
-        <Chinesesimp>H&amp;K G3A3</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A3_RIS">
-        <Original>H&amp;K G3A3 (RIS)</Original>
-        <English>H&amp;K G3A3 (RIS)</English>
-        <Czech>H&amp;K G3A3 (RIS)</Czech>
-        <French>H&amp;K G3A3 (RIS)</French>
-        <Spanish>H&amp;K G3A3 (RIS)</Spanish>
-        <Italian>H&amp;K G3A3 (RIS)</Italian>
-        <Polish>H&amp;K G3A3 (RIS)</Polish>
-        <Portuguese>H&amp;K G3A3 (RIS)</Portuguese>
-        <Russian>H&amp;K G3A3 (RIS)</Russian>
-        <German>H&amp;K G3A3 (RIS)</German>
-        <Japanese>H&amp;K G3A3 (RIS)</Japanese>
-        <Korean>H&amp;K G3A3 (RIS)</Korean>
-        <Chinesesimp>H&amp;K G3A3 (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A3_Wide">
-        <Original>H&amp;K G3A3 (Widegrip)</Original>
-        <English>H&amp;K G3A3 (Widegrip)</English>
-        <Czech>H&amp;K G3A3 (Widegrip)</Czech>
-        <French>H&amp;K G3A3 (Widegrip)</French>
-        <Spanish>H&amp;K G3A3 (Widegrip)</Spanish>
-        <Italian>H&amp;K G3A3 (Widegrip)</Italian>
-        <Polish>H&amp;K G3A3 (Widegrip)</Polish>
-        <Portuguese>H&amp;K G3A3 (Widegrip)</Portuguese>
-        <Russian>H&amp;K G3A3 (Widegrip)</Russian>
-        <German>H&amp;K G3A3 (Widegrip)</German>
-        <Japanese>H&amp;K G3A3 (ワイドグリップ)</Japanese>
-        <Korean>H&amp;K G3A3 (Widegrip)</Korean>
-        <Chinesesimp>H&amp;K G3A3 (Widegrip)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A3_RIS_Wide">
-        <Original>H&amp;K G3A3 (Widegrip/RIS)</Original>
-        <English>H&amp;K G3A3 (Widegrip/RIS)</English>
-        <Czech>H&amp;K G3A3 (Widegrip/RIS)</Czech>
-        <French>H&amp;K G3A3 (Widegrip/RIS)</French>
-        <Spanish>H&amp;K G3A3 (Widegrip/RIS)</Spanish>
-        <Italian>H&amp;K G3A3 (Widegrip/RIS)</Italian>
-        <Polish>H&amp;K G3A3 (Widegrip/RIS)</Polish>
-        <Portuguese>H&amp;K G3A3 (Widegrip/RIS)</Portuguese>
-        <Russian>H&amp;K G3A3 (Widegrip/RIS)</Russian>
-        <German>H&amp;K G3A3 (Widegrip/RIS)</German>
-        <Japanese>H&amp;K G3A3 (ワイドグリップ/RIS)</Japanese>
-        <Korean>H&amp;K G3A3 (Widegrip/RIS)</Korean>
-        <Chinesesimp>H&amp;K G3A3 (Widegrip/RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A4">
-        <Original>H&amp;K G3KA4 RAS</Original>
-        <English>H&amp;K G3KA4 RAS</English>
-        <Czech>H&amp;K G3KA4 RAS</Czech>
-        <French>H&amp;K G3KA4 RAS</French>
-        <Spanish>H&amp;K G3KA4 RAS</Spanish>
-        <Italian>H&amp;K G3KA4 RAS</Italian>
-        <Polish>H&amp;K G3KA4 RAS</Polish>
-        <Portuguese>H&amp;K G3KA4 RAS</Portuguese>
-        <Russian>H&amp;K G3KA4 RAS</Russian>
-        <German>H&amp;K G3KA4 RAS</German>
-        <Japanese>H&amp;K G3KA4 RAS</Japanese>
-        <Korean>H&amp;K G3KA4 RAS</Korean>
-        <Chinesesimp>H&amp;K G3KA4 RAS</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_G3A4_GL">
-        <Original>H&amp;K G3KA4 RAS (GL)</Original>
-        <English>H&amp;K G3KA4 RAS (GL)</English>
-        <Czech>H&amp;K G3KA4 RAS (GL)</Czech>
-        <French>H&amp;K G3KA4 RAS (GL)</French>
-        <Spanish>H&amp;K G3KA4 RAS (GL)</Spanish>
-        <Italian>H&amp;K G3KA4 RAS (GL)</Italian>
-        <Polish>H&amp;K G3KA4 RAS (GL)</Polish>
-        <Portuguese>H&amp;K G3KA4 RAS (GL)</Portuguese>
-        <Russian>H&amp;K G3KA4 RAS (GL)</Russian>
-        <German>H&amp;K G3KA4 RAS (GL)</German>
-        <Japanese>H&amp;K G3KA4 RAS (GL)</Japanese>
-        <Korean>H&amp;K G3KA4 RAS (GL)</Korean>
-        <Chinesesimp>H&amp;K G3KA4 RAS (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_HK51">
-        <Original>FR Ordnance MC51</Original>
-        <English>FR Ordnance MC51</English>
-        <Czech>FR Ordnance MC51</Czech>
-        <French>FR Ordnance MC51</French>
-        <Spanish>FR Ordnance MC51</Spanish>
-        <Italian>FR Ordnance MC51</Italian>
-        <Polish>FR Ordnance MC51</Polish>
-        <Portuguese>FR Ordnance MC51</Portuguese>
-        <Russian>FR Ordnance MC51</Russian>
-        <German>FR Ordnance MC51</German>
-        <Japanese>FR Ordnance MC51</Japanese>
-        <Korean>FR Ordnance MC51</Korean>
-        <Chinesesimp>FR Ordnance MC51</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_HK53">
-        <Original>H&amp;K HK53</Original>
-        <English>H&amp;K HK53</English>
-        <Czech>H&amp;K HK53</Czech>
-        <French>H&amp;K HK53</French>
-        <Spanish>H&amp;K HK53</Spanish>
-        <Italian>H&amp;K HK53</Italian>
-        <Polish>H&amp;K HK53</Polish>
-        <Portuguese>H&amp;K HK53</Portuguese>
-        <Russian>H&amp;K HK53</Russian>
-        <German>H&amp;K HK53</German>
-        <Japanese>H&amp;K HK53</Japanese>
-        <Korean>H&amp;K HK53</Korean>
-        <Chinesesimp>H&amp;K HK53</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_HK53_RAS">
-        <Original>H&amp;K HK53 (RAS)</Original>
-        <English>H&amp;K HK53 (RAS)</English>
-        <Czech>H&amp;K HK53 (RAS)</Czech>
-        <French>H&amp;K HK53 (RAS)</French>
-        <Spanish>H&amp;K HK53 (RAS)</Spanish>
-        <Italian>H&amp;K HK53 (RAS)</Italian>
-        <Polish>H&amp;K HK53 (RAS)</Polish>
-        <Portuguese>H&amp;K HK53 (RAS)</Portuguese>
-        <Russian>H&amp;K HK53 (RAS)</Russian>
-        <German>H&amp;K HK53 (RAS)</German>
-        <Japanese>H&amp;K HK53 (RAS)</Japanese>
-        <Korean>H&amp;K HK53 (RAS)</Korean>
-        <Chinesesimp>H&amp;K HK53 (RAS)</Chinesesimp>
-      </Key>
-       <Key ID="STR_NIA_rifle_HK33a2">
-        <Original>H&amp;K HK33A2</Original>
-        <English>H&amp;K HK33A2</English>
-        <Czech>H&amp;K HK33A2</Czech>
-        <French>H&amp;K HK33A2</French>
-        <Spanish>H&amp;K HK33A2</Spanish>
-        <Italian>H&amp;K HK33A2</Italian>
-        <Polish>H&amp;K HK33A2</Polish>
-        <Portuguese>H&amp;K HK33A2</Portuguese>
-        <Russian>H&amp;K HK33A2</Russian>
-        <German>H&amp;K HK33A2</German>
-        <Japanese>H&amp;K HK33A2</Japanese>
-        <Korean>H&amp;K HK33A2</Korean>
-        <Chinesesimp>H&amp;K HK33A2</Chinesesimp>
-      </Key>
-       <Key ID="STR_NIA_rifle_HK33KA3">
-        <Original>H&amp;K HK33KA3</Original>
-        <English>H&amp;K HK33KA3</English>
-        <Czech>H&amp;K HK33KA3</Czech>
-        <French>H&amp;K HK33KA3</French>
-        <Spanish>H&amp;K HK33KA3</Spanish>
-        <Italian>H&amp;K HK33KA3</Italian>
-        <Polish>H&amp;K HK33KA3</Polish>
-        <Portuguese>H&amp;K HK33KA3</Portuguese>
-        <Russian>H&amp;K HK33KA3</Russian>
-        <German>H&amp;K HK33KA3</German>
-        <Japanese>H&amp;K HK33KA3</Japanese>
-        <Korean>H&amp;K HK33KA3</Korean>
-        <Chinesesimp>H&amp;K HK33KA3</Chinesesimp>
-      </Key>
-       <Key ID="STR_NIA_rifle_HK33KA2_RIS">
-        <Original>H&amp;K HK33KA2 (RIS)</Original>
-        <English>H&amp;K HK33KA2 (RIS)</English>
-        <Czech>H&amp;K HK33KA2 (RIS)</Czech>
-        <French>H&amp;K HK33KA2 (RIS)</French>
-        <Spanish>H&amp;K HK33KA2 (RIS)</Spanish>
-        <Italian>H&amp;K HK33KA2 (RIS)</Italian>
-        <Polish>H&amp;K HK33KA2 (RIS)</Polish>
-        <Portuguese>H&amp;K HK33KA2 (RIS)</Portuguese>
-        <Russian>H&amp;K HK33KA2 (RIS)</Russian>
-        <German>H&amp;K HK33KA2 (RIS)</German>
-        <Japanese>H&amp;K HK33KA2 (RIS)</Japanese>
-        <Korean>H&amp;K HK33KA2 (RIS)</Korean>
-        <Chinesesimp>H&amp;K HK33KA2 (RIS)</Chinesesimp>
-      </Key>
-       <Key ID="STR_NIA_rifle_HK33KA2_RIS_GL">
-        <Original>H&amp;K HK33KA2 (RIS/GL)</Original>
-        <English>H&amp;K HK33KA2 (RIS/GL)</English>
-        <Czech>H&amp;K HK33KA2 (RIS/GL)</Czech>
-        <French>H&amp;K HK33KA2 (RIS/GL)</French>
-        <Spanish>H&amp;K HK33KA2 (RIS/GL)</Spanish>
-        <Italian>H&amp;K HK33KA2 (RIS/GL)</Italian>
-        <Polish>H&amp;K HK33KA2 (RIS/GL)</Polish>
-        <Portuguese>H&amp;K HK33KA2 (RIS/GL)</Portuguese>
-        <Russian>H&amp;K HK33KA2 (RIS/GL)</Russian>
-        <German>H&amp;K HK33KA2 (RIS/GL)</German>
-        <Japanese>H&amp;K HK33KA2 (RIS/GL)</Japanese>
-        <Korean>H&amp;K HK33KA2 (RIS/GL)</Korean>
-        <Chinesesimp>H&amp;K HK33KA2 (RIS/GL)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Acc_names">
-      <Key ID="STR_NIA_optic_DiavariDA">
-        <Original>Zeiss Diavari-DA</Original>
-        <English>Zeiss Diavari-DA</English>
-        <Czech>Zeiss Diavari-DA</Czech>
-        <French>Zeiss Diavari-DA</French>
-        <Spanish>Zeiss Diavari-DA</Spanish>
-        <Italian>Zeiss Diavari-DA</Italian>
-        <Polish>Zeiss Diavari-DA</Polish>
-        <Portuguese>Zeiss Diavari-DA</Portuguese>
-        <Russian>Zeiss Diavari-DA</Russian>
-        <German>Zeiss Diavari-DA</German>
-        <Japanese>Zeiss Diavari-DA</Japanese>
-        <Korean>Zeiss Diavari-DA</Korean>
-        <Chinesesimp>Zeiss Diavari-DA</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_accupoint">
-        <Original>Trijicon Accupoint TR20</Original>
-        <English>Trijicon Accupoint TR20</English>
-        <Czech>Trijicon Accupoint TR20</Czech>
-        <French>Trijicon Accupoint TR20</French>
-        <Spanish>Trijicon Accupoint TR20</Spanish>
-        <Italian>Trijicon Accupoint TR20</Italian>
-        <Polish>Trijicon Accupoint TR20</Polish>
-        <Portuguese>Trijicon Accupoint TR20</Portuguese>
-        <Russian>Trijicon Accupoint TR20</Russian>
-        <German>Trijicon Accupoint TR20</German>
-        <Japanese>Trijicon Accupoint TR20</Japanese>
-        <Korean>Trijicon Accupoint TR20</Korean>
-        <Chinesesimp>Trijicon Accupoint TR20</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_ZF">
-        <Original>Hendsoldt ZF</Original>
-        <English>Hendsoldt ZF</English>
-        <Czech>Hendsoldt ZF</Czech>
-        <French>Hendsoldt ZF</French>
-        <Spanish>Hendsoldt ZF</Spanish>
-        <Italian>Hendsoldt ZF</Italian>
-        <Polish>Hendsoldt ZF</Polish>
-        <Portuguese>Hendsoldt ZF</Portuguese>
-        <Russian>Hendsoldt ZF</Russian>
-        <German>Hendsoldt ZF</German>
-        <Japanese>Hendsoldt ZF</Japanese>
-        <Korean>Hendsoldt ZF</Korean>
-        <Chinesesimp>Hendsoldt ZF</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_ZF2d">
-        <Original>Hendsoldt ZF (2D)</Original>
-        <English>Hendsoldt ZF (2D)</English>
-        <Czech>Hendsoldt ZF (2D)</Czech>
-        <French>Hendsoldt ZF (2D)</French>
-        <Spanish>Hendsoldt ZF (2D)</Spanish>
-        <Italian>Hendsoldt ZF (2D)</Italian>
-        <Polish>Hendsoldt ZF (2D)</Polish>
-        <Portuguese>Hendsoldt ZF (2D)</Portuguese>
-        <Russian>Hendsoldt ZF (2D)</Russian>
-        <German>Hendsoldt ZF (2D)</German>
-        <Japanese>Hendsoldt ZF (2D)</Japanese>
-        <Korean>Hendsoldt ZF (2D)</Korean>
-        <Chinesesimp>Hendsoldt ZF (2D)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_ANPVS4G3">
-        <Original>AN/PVS-4 (G3-Mount)</Original>
-        <English>AN/PVS-4 (G3-Mount)</English>
-        <Czech>AN/PVS-4 (G3-Mount)</Czech>
-        <French>AN/PVS-4 (G3-Mount)</French>
-        <Spanish>AN/PVS-4 (G3-Mount)</Spanish>
-        <Italian>AN/PVS-4 (G3-Mount)</Italian>
-        <Polish>AN/PVS-4 (G3-Mount)</Polish>
-        <Portuguese>AN/PVS-4 (G3-Mount)</Portuguese>
-        <Russian>AN/PVS-4 (G3-Mount)</Russian>
-        <German>AN/PVS-4 (G3-Mount)</German>
-        <Japanese>AN/PVS-4 (G3 用マウント)</Japanese>
-        <Korean>AN/PVS-4 (G3-Mount)</Korean>
-        <Chinesesimp>AN/PVS-4 (G3-Mount)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_ZF95_G3">
-        <Original>Kahles ZF95 (G3-Mount)</Original>
-        <English>Kahles ZF95 (G3-Mount)</English>
-        <Czech>Kahles ZF95 (G3-Mount)</Czech>
-        <French>Kahles ZF95 (G3-Mount)</French>
-        <Spanish>Kahles ZF95 (G3-Mount)</Spanish>
-        <Italian>Kahles ZF95 (G3-Mount)</Italian>
-        <Polish>Kahles ZF95 (G3-Mount)</Polish>
-        <Portuguese>Kahles ZF95 (G3-Mount)</Portuguese>
-        <Russian>Kahles ZF95 (G3-Mount)</Russian>
-        <German>Kahles ZF95 (G3-Mount)</German>
-        <Japanese>Kahles ZF95 (G3 用マウント)</Japanese>
-        <Korean>Kahles ZF95 (G3-Mount)</Korean>
-        <Chinesesimp>Kahles ZF95 (G3-Mount)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_M3a_G3">
-        <Original>Leupold M3A Ultra (G3-Mount)</Original>
-        <English>Leupold M3A Ultra (G3-Mount)</English>
-        <Czech>Leupold M3A Ultra (G3-Mount)</Czech>
-        <French>Leupold M3A Ultra (G3-Mount)</French>
-        <Spanish>Leupold M3A Ultra (G3-Mount)</Spanish>
-        <Italian>Leupold M3A Ultra (G3-Mount)</Italian>
-        <Polish>Leupold M3A Ultra (G3-Mount)</Polish>
-        <Portuguese>Leupold M3A Ultra (G3-Mount)</Portuguese>
-        <Russian>Leupold M3A Ultra (G3-Mount)</Russian>
-        <German>Leupold M3A Ultra (G3-Mount)</German>
-        <Japanese>Leupold M3A Ultra (G3 用マウント)</Japanese>
-        <Korean>Leupold M3A Ultra (G3-Mount)</Korean>
-        <Chinesesimp>Leupold M3A Ultra (G3-Mount)</Chinesesimp>
-      </Key>
-      </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_20rnd_762x51_b_G3">
-        <Original>7.62mm EPR 20Rnd G3 Magazine</Original>
-        <English>7.62mm EPR 20Rnd G3 Magazine</English>
-        <Czech>7.62mm EPR 20Rnd G3 Magazine</Czech>
-        <French>7.62mm EPR 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm EPR 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm EPR 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm EPR 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm EPR 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm EPR 20Rnd G3 Magazine</Russian>
-        <German>7.62mm EPR 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm EPR 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm EPR 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Mk316_G3">
-        <Original>7.62mm SBLR 20Rnd G3 Magazine</Original>
-        <English>7.62mm SBLR 20Rnd G3 Magazine</English>
-        <Czech>7.62mm SBLR 20Rnd G3 Magazine</Czech>
-        <French>7.62mm SBLR 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm SBLR 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm SBLR 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm SBLR 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm SBLR 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm SBLR 20Rnd G3 Magazine</Russian>
-        <German>7.62mm SBLR 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm SBLR 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm SBLR 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm SBLR 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_SOST_G3">
-        <Original>7.62mm SOST 20Rnd G3 Magazine</Original>
-        <English>7.62mm SOST 20Rnd G3 Magazine</English>
-        <Czech>7.62mm SOST 20Rnd G3 Magazine</Czech>
-        <French>7.62mm SOST 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm SOST 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm SOST 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm SOST 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm SOST 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm SOST 20Rnd G3 Magazine</Russian>
-        <German>7.62mm SOST 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm SOST 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm SOST 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm SOST 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Tracer_G3">
-        <Original>7.62mm Tracer 20Rnd G3 Magazine</Original>
-        <English>7.62mm Tracer 20Rnd G3 Magazine</English>
-        <Czech>7.62mm Tracer 20Rnd G3 Magazine</Czech>
-        <French>7.62mm Tracer 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm Tracer 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm Tracer 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm Tracer 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm Tracer 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm Tracer 20Rnd G3 Magazine</Russian>
-        <German>7.62mm Tracer 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm 曳光弾 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm Tracer 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm Tracer 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_MDim_G3">
-        <Original>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Original>
-        <English>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</English>
-        <Czech>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Czech>
-        <French>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</French>
-        <Spanish>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Spanish>
-        <Italian>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Italian>
-        <Polish>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Polish>
-        <Portuguese>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Portuguese>
-        <Russian>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Russian>
-        <German>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</German>
-        <Japanese>7.62mm EPR 20発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_IRDIM_G3">
-        <Original>7.62mm IR-DIM 20Rnd G3 Magazine</Original>
-        <English>7.62mm IR-DIM 20Rnd G3 Magazine</English>
-        <Czech>7.62mm IR-DIM 20Rnd G3 Magazine</Czech>
-        <French>7.62mm IR-DIM 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm IR-DIM 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm IR-DIM 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm IR-DIM 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm IR-DIM 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm IR-DIM 20Rnd G3 Magazine</Russian>
-        <German>7.62mm IR-DIM 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm IR-DIM 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm IR-DIM 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm IR-DIM 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Subsonic_G3">
-        <Original>7.62mm Subsonic 20Rnd G3 Magazine</Original>
-        <English>7.62mm Subsonic 20Rnd G3 Magazine</English>
-        <Czech>7.62mm Subsonic 20Rnd G3 Magazine</Czech>
-        <French>7.62mm Subsonic 20Rnd G3 Magazine</French>
-        <Spanish>7.62mm Subsonic 20Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm Subsonic 20Rnd G3 Magazine</Italian>
-        <Polish>7.62mm Subsonic 20Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm Subsonic 20Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm Subsonic 20Rnd G3 Magazine</Russian>
-        <German>7.62mm Subsonic 20Rnd G3 Magazine</German>
-        <Japanese>7.62mm 亜音速 20発入り G3 マガジン</Japanese>
-        <Korean>7.62mm Subsonic 20Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm Subsonic 20Rnd G3 Magazine</Chinesesimp>
-      </Key>
-
-      <Key ID="STR_NIA_50Rnd_762x51_B_G3">
-        <Original>7.62mm EPR 50Rnd G3 Magazine</Original>
-        <English>7.62mm EPR 50Rnd G3 Magazine</English>
-        <Czech>7.62mm EPR 50Rnd G3 Magazine</Czech>
-        <French>7.62mm EPR 50Rnd G3 Magazine</French>
-        <Spanish>7.62mm EPR 50Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm EPR 50Rnd G3 Magazine</Italian>
-        <Polish>7.62mm EPR 50Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm EPR 50Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm EPR 50Rnd G3 Magazine</Russian>
-        <German>7.62mm EPR 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm EPR 50発入り G3 マガジン</Japanese>
-        <Korean>7.62mm EPR 50Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_762x51_T_G3">
-        <Original>7.62mm Tracer 50Rnd G3 Magazine</Original>
-        <English>7.62mm Tracer 50Rnd G3 Magazine</English>
-        <Czech>7.62mm Tracer 50Rnd G3 Magazine</Czech>
-        <French>7.62mm Tracer 50Rnd G3 Magazine</French>
-        <Spanish>7.62mm Tracer 50Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm Tracer 50Rnd G3 Magazine</Italian>
-        <Polish>7.62mm Tracer 50Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm Tracer 50Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm Tracer 50Rnd G3 Magazine</Russian>
-        <German>7.62mm Tracer 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm 曳光弾 50発入り G3 マガジン</Japanese>
-        <Korean>7.62mm Tracer 50Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm Tracer 50Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_762x51_Tdim_G3">
-        <Original>7.62mm IR-DIM 50Rnd G3 Magazine</Original>
-        <English>7.62mm IR-DIM 50Rnd G3 Magazine</English>
-        <Czech>7.62mm IR-DIM 50Rnd G3 Magazine</Czech>
-        <French>7.62mm IR-DIM 50Rnd G3 Magazine</French>
-        <Spanish>7.62mm IR-DIM 50Rnd G3 Magazine</Spanish>
-        <Italian>7.62mm IR-DIM 50Rnd G3 Magazine</Italian>
-        <Polish>7.62mm IR-DIM 50Rnd G3 Magazine</Polish>
-        <Portuguese>7.62mm IR-DIM 50Rnd G3 Magazine</Portuguese>
-        <Russian>7.62mm IR-DIM 50Rnd G3 Magazine</Russian>
-        <German>7.62mm IR-DIM 50Rnd G3 Magazine</German>
-        <Japanese>7.62mm IR-DIM 50発入り G3 マガジン</Japanese>
-        <Korean>7.62mm IR-DIM 50Rnd G3 Magazine</Korean>
-        <Chinesesimp>7.62mm IR-DIM 50Rnd G3 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50rnd_762x51_M_G3">
-        <Original>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Original>
-        <English>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</English>
-        <Czech>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Czech>
-        <French>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</French>
-        <Spanish>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Spanish>
-        <Italian>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Italian>
-        <Polish>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Polish>
-        <Portuguese>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Portuguese>
-        <Russian>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Russian>
-        <German>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎に曳光弾)</Japanese>
-        <Korean>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50rnd_762x51_MDIM_G3">
-        <Original>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Original>
-        <English>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</English>
-        <Czech>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Czech>
-        <French>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</French>
-        <Spanish>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Spanish>
-        <Italian>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Italian>
-        <Polish>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Polish>
-        <Portuguese>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Portuguese>
-        <Russian>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Russian>
-        <German>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Chinesesimp>
-      </Key>
-      
-      <Key ID="STR_NIA_30rnd_556x45_FMJ_HK33">
-        <Original>5.56mm FMJ 30Rnd HK33 Magazine</Original>
-        <English>5.56mm FMJ 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm FMJ 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm FMJ 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm FMJ 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm FMJ 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm FMJ 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm FMJ 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm FMJ 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm FMJ 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm FMJ 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm FMJ 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm FMJ 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_EPR_HK33">
-        <Original>5.56mm EPR 30Rnd HK33 Magazine</Original>
-        <English>5.56mm EPR 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm EPR 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm EPR 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm EPR 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm EPR 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm EPR 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm EPR 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm EPR 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm EPR 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm EPR 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm EPR 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_SOST_HK33">
-        <Original>5.56mm SOST 30Rnd HK33 Magazine</Original>
-        <English>5.56mm SOST 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm SOST 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm SOST 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm SOST 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm SOST 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm SOST 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm SOST 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm SOST 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm SOST 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm SOST 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm SOST 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm SOST 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_SPR_HK33">
-        <Original>5.56mm SBLR 30Rnd HK33 Magazine</Original>
-        <English>5.56mm SBLR 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm SBLR 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm SBLR 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm SBLR 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm SBLR 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm SBLR 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm SBLR 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm SBLR 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm SBLR 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm SBLR 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm SBLR 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm SBLR 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_S_HK33">
-        <Original>5.56mm Subsonic 30Rnd HK33 Magazine</Original>
-        <English>5.56mm Subsonic 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm Subsonic 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm Subsonic 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm Subsonic 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm Subsonic 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm Subsonic 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm Subsonic 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm Subsonic 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm Subsonic 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm 亜音速 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm Subsonic 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm Subsonic 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_M_HK33">
-        <Original>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Original>
-        <English>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</English>
-        <Czech>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Czech>
-        <French>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</French>
-        <Spanish>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Spanish>
-        <Italian>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Italian>
-        <Polish>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Polish>
-        <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Portuguese>
-        <Russian>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Russian>
-        <German>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎に曳光弾)</Japanese>
-        <Korean>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_T_HK33">
-        <Original>5.56mm Tracer 30Rnd HK33 Magazine</Original>
-        <English>5.56mm Tracer 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm Tracer 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm Tracer 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm Tracer 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm Tracer 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm Tracer 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm Tracer 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm Tracer 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm Tracer 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm 曳光弾 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm Tracer 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm Tracer 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_TDim_HK33">
-        <Original>5.56mm IR-DIM 30Rnd HK33 Magazine</Original>
-        <English>5.56mm IR-DIM 30Rnd HK33 Magazine</English>
-        <Czech>5.56mm IR-DIM 30Rnd HK33 Magazine</Czech>
-        <French>5.56mm IR-DIM 30Rnd HK33 Magazine</French>
-        <Spanish>5.56mm IR-DIM 30Rnd HK33 Magazine</Spanish>
-        <Italian>5.56mm IR-DIM 30Rnd HK33 Magazine</Italian>
-        <Polish>5.56mm IR-DIM 30Rnd HK33 Magazine</Polish>
-        <Portuguese>5.56mm IR-DIM 30Rnd HK33 Magazine</Portuguese>
-        <Russian>5.56mm IR-DIM 30Rnd HK33 Magazine</Russian>
-        <German>5.56mm IR-DIM 30Rnd HK33 Magazine</German>
-        <Japanese>5.56mm IR-DIM 30発入り HK33 マガジン</Japanese>
-        <Korean>5.56mm IR-DIM 30Rnd HK33 Magazine</Korean>
-        <Chinesesimp>5.56mm IR-DIM 30Rnd HK33 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30rnd_556x45_MDim_HK33">
-        <Original>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Original>
-        <English>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</English>
-        <Czech>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Czech>
-        <French>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</French>
-        <Spanish>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Spanish>
-        <Italian>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Italian>
-        <Polish>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Polish>
-        <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Portuguese>
-        <Russian>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Russian>
-        <German>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_G3_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_G3_Carbine_DESC">
-        <Original>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Carbine&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_G3_Compact_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_G3SG1_DESC">
-        <Original>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PSG1_DESC">
-        <Original>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>高精度ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_HK33_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_HK33_Carbine_DESC">
-        <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_HK53_Compact_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DiavariDA_DESC">
-        <Original>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Original>
-        <English>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</English>
-        <Czech>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Czech>
-        <French>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</French>
-        <Spanish>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Spanish>
-        <Italian>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Italian>
-        <Polish>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Polish>
-        <Portuguese>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Portuguese>
-        <Russian>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Russian>
-        <German>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</German>
-        <Japanese>Zeiss Diavari-DA 倍率ライフル照準器&lt;br/&gt;倍率: 1.5-6x&lt;br/&gt;調整範囲: 外部 BDC 100-600m&lt;br/&gt;照準線: 簡易距離計付きドイツ軍 #4</Japanese>
-        <Korean>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Korean>
-        <Chinesesimp>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_TR20_DESC">
-        <Original>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Original>
-        <English>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</English>
-        <Czech>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Czech>
-        <French>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</French>
-        <Spanish>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Spanish>
-        <Italian>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Italian>
-        <Polish>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Polish>
-        <Portuguese>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Portuguese>
-        <Russian>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Russian>
-        <German>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</German>
-        <Japanese>Trijicon Accupoint TR20 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 手動調整 200-1200m&lt;br/&gt;照準線: 発光方尖塔型先端</Japanese>
-        <Korean>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Korean>
-        <Chinesesimp>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_HenZF4x_DESC">
-        <Original>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Original>
-        <English>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</English>
-        <Czech>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Czech>
-        <French>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600mx&lt;br/&gt;Reticle: German #1 T-style</French>
-        <Spanish>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Spanish>
-        <Italian>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Italian>
-        <Polish>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Polish>
-        <Portuguese>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Portuguese>
-        <Russian>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Russian>
-        <German>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</German>
-        <Japanese>Hendsoldt-Wetzlar ZF NATO 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-600m&lt;br/&gt;照準線: ドイツ軍 #1 T字形</Japanese>
-        <Korean>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Korean>
-        <Chinesesimp>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_fmj">
-        <Original>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO M193 FMJ&lt;br/&gt;種類: 鉛弾芯フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_DisplayShort">
-      <Key ID="STR_NIA_556_FMJ">
-        <Original>M193 FMJ</Original>
-        <English>M193 FMJ</English>
-        <Czech>M193 FMJ</Czech>
-        <French>M193 FMJ</French>
-        <Spanish>M193 FMJ</Spanish>
-        <Italian>M193 FMJ</Italian>
-        <Polish>M193 FMJ</Polish>
-        <Portuguese>M193 FMJ</Portuguese>
-        <Russian>M193 FMJ</Russian>
-        <German>M193 FMJ</German>
-        <Japanese>M193 FMJ</Japanese>
-        <Korean>M193 FMJ</Korean>
-        <Chinesesimp>M193 FMJ</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_G3">
+        <Container name="Names">
+            <Key ID="STR_NIA_rifle_G3sg1">
+                <Original>H&amp;K G3/SG1</Original>
+                <English>H&amp;K G3/SG1</English>
+                <Czech>H&amp;K G3/SG1</Czech>
+                <French>H&amp;K G3/SG1</French>
+                <Spanish>H&amp;K G3/SG1</Spanish>
+                <Italian>H&amp;K G3/SG1</Italian>
+                <Polish>H&amp;K G3/SG1</Polish>
+                <Portuguese>H&amp;K G3/SG1</Portuguese>
+                <Russian>H&amp;K G3/SG1</Russian>
+                <German>H&amp;K G3/SG1</German>
+                <Japanese>H&amp;K G3/SG1</Japanese>
+                <Korean>H&amp;K G3/SG1</Korean>
+                <Chinesesimp>H&amp;K G3/SG1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3sg1_RIS">
+                <Original>H&amp;K G3/SG1 (RIS)</Original>
+                <English>H&amp;K G3/SG1 (RIS)</English>
+                <Czech>H&amp;K G3/SG1 (RIS)</Czech>
+                <French>H&amp;K G3/SG1 (RIS)</French>
+                <Spanish>H&amp;K G3/SG1 (RIS)</Spanish>
+                <Italian>H&amp;K G3/SG1 (RIS)</Italian>
+                <Polish>H&amp;K G3/SG1 (RIS)</Polish>
+                <Portuguese>H&amp;K G3/SG1 (RIS)</Portuguese>
+                <Russian>H&amp;K G3/SG1 (RIS)</Russian>
+                <German>H&amp;K G3/SG1 (RIS)</German>
+                <Japanese>H&amp;K G3/SG1 (RIS)</Japanese>
+                <Korean>H&amp;K G3/SG1 (RIS)</Korean>
+                <Chinesesimp>H&amp;K G3/SG1 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_psg1">
+                <Original>H&amp;K PSG1</Original>
+                <English>H&amp;K PSG1</English>
+                <Czech>H&amp;K PSG1</Czech>
+                <French>H&amp;K PSG1</French>
+                <Spanish>H&amp;K PSG1</Spanish>
+                <Italian>H&amp;K PSG1</Italian>
+                <Polish>H&amp;K PSG1</Polish>
+                <Portuguese>H&amp;K PSG1</Portuguese>
+                <Russian>H&amp;K PSG1</Russian>
+                <German>H&amp;K PSG1</German>
+                <Japanese>H&amp;K PSG1</Japanese>
+                <Korean>H&amp;K PSG1</Korean>
+                <Chinesesimp>H&amp;K PSG1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_psg1a1">
+                <Original>H&amp;K PSG1A1</Original>
+                <English>H&amp;K PSG1A1</English>
+                <Czech>H&amp;K PSG1A1</Czech>
+                <French>H&amp;K PSG1A1</French>
+                <Spanish>H&amp;K PSG1A1</Spanish>
+                <Italian>H&amp;K PSG1A1</Italian>
+                <Polish>H&amp;K PSG1A1</Polish>
+                <Portuguese>H&amp;K PSG1A1</Portuguese>
+                <Russian>H&amp;K PSG1A1</Russian>
+                <German>H&amp;K PSG1A1</German>
+                <Japanese>H&amp;K PSG1A1</Japanese>
+                <Korean>H&amp;K PSG1A1</Korean>
+                <Chinesesimp>H&amp;K PSG1A1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_psg1a1_ris">
+                <Original>H&amp;K PSG1A1 (RIS)</Original>
+                <English>H&amp;K PSG1A1 (RIS)</English>
+                <Czech>H&amp;K PSG1A1 (RIS)</Czech>
+                <French>H&amp;K PSG1A1 (RIS)</French>
+                <Spanish>H&amp;K PSG1A1 (RIS)</Spanish>
+                <Italian>H&amp;K PSG1A1 (RIS)</Italian>
+                <Polish>H&amp;K PSG1A1 (RIS)</Polish>
+                <Portuguese>H&amp;K PSG1A1 (RIS)</Portuguese>
+                <Russian>H&amp;K PSG1A1 (RIS)</Russian>
+                <German>H&amp;K PSG1A1 (RIS)</German>
+                <Japanese>H&amp;K PSG1A1 (RIS)</Japanese>
+                <Korean>H&amp;K PSG1A1 (RIS)</Korean>
+                <Chinesesimp>H&amp;K PSG1A1 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A3">
+                <Original>H&amp;K G3A3</Original>
+                <English>H&amp;K G3A3</English>
+                <Czech>H&amp;K G3A3</Czech>
+                <French>H&amp;K G3A3</French>
+                <Spanish>H&amp;K G3A3</Spanish>
+                <Italian>H&amp;K G3A3</Italian>
+                <Polish>H&amp;K G3A3</Polish>
+                <Portuguese>H&amp;K G3A3</Portuguese>
+                <Russian>H&amp;K G3A3</Russian>
+                <German>H&amp;K G3A3</German>
+                <Japanese>H&amp;K G3A3</Japanese>
+                <Korean>H&amp;K G3A3</Korean>
+                <Chinesesimp>H&amp;K G3A3</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A3_RIS">
+                <Original>H&amp;K G3A3 (RIS)</Original>
+                <English>H&amp;K G3A3 (RIS)</English>
+                <Czech>H&amp;K G3A3 (RIS)</Czech>
+                <French>H&amp;K G3A3 (RIS)</French>
+                <Spanish>H&amp;K G3A3 (RIS)</Spanish>
+                <Italian>H&amp;K G3A3 (RIS)</Italian>
+                <Polish>H&amp;K G3A3 (RIS)</Polish>
+                <Portuguese>H&amp;K G3A3 (RIS)</Portuguese>
+                <Russian>H&amp;K G3A3 (RIS)</Russian>
+                <German>H&amp;K G3A3 (RIS)</German>
+                <Japanese>H&amp;K G3A3 (RIS)</Japanese>
+                <Korean>H&amp;K G3A3 (RIS)</Korean>
+                <Chinesesimp>H&amp;K G3A3 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A3_Wide">
+                <Original>H&amp;K G3A3 (Widegrip)</Original>
+                <English>H&amp;K G3A3 (Widegrip)</English>
+                <Czech>H&amp;K G3A3 (Widegrip)</Czech>
+                <French>H&amp;K G3A3 (Poignée Large)</French>
+                <Spanish>H&amp;K G3A3 (Widegrip)</Spanish>
+                <Italian>H&amp;K G3A3 (Widegrip)</Italian>
+                <Polish>H&amp;K G3A3 (Widegrip)</Polish>
+                <Portuguese>H&amp;K G3A3 (Widegrip)</Portuguese>
+                <Russian>H&amp;K G3A3 (Widegrip)</Russian>
+                <German>H&amp;K G3A3 (Widegrip)</German>
+                <Japanese>H&amp;K G3A3 (ワイドグリップ)</Japanese>
+                <Korean>H&amp;K G3A3 (Widegrip)</Korean>
+                <Chinesesimp>H&amp;K G3A3 (Widegrip)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A3_RIS_Wide">
+                <Original>H&amp;K G3A3 (Widegrip/RIS)</Original>
+                <English>H&amp;K G3A3 (Widegrip/RIS)</English>
+                <Czech>H&amp;K G3A3 (Widegrip/RIS)</Czech>
+                <French>H&amp;K G3A3 (Poignée Large/RIS)</French>
+                <Spanish>H&amp;K G3A3 (Widegrip/RIS)</Spanish>
+                <Italian>H&amp;K G3A3 (Widegrip/RIS)</Italian>
+                <Polish>H&amp;K G3A3 (Widegrip/RIS)</Polish>
+                <Portuguese>H&amp;K G3A3 (Widegrip/RIS)</Portuguese>
+                <Russian>H&amp;K G3A3 (Widegrip/RIS)</Russian>
+                <German>H&amp;K G3A3 (Widegrip/RIS)</German>
+                <Japanese>H&amp;K G3A3 (ワイドグリップ/RIS)</Japanese>
+                <Korean>H&amp;K G3A3 (Widegrip/RIS)</Korean>
+                <Chinesesimp>H&amp;K G3A3 (Widegrip/RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A4">
+                <Original>H&amp;K G3KA4 RAS</Original>
+                <English>H&amp;K G3KA4 RAS</English>
+                <Czech>H&amp;K G3KA4 RAS</Czech>
+                <French>H&amp;K G3KA4 RAS</French>
+                <Spanish>H&amp;K G3KA4 RAS</Spanish>
+                <Italian>H&amp;K G3KA4 RAS</Italian>
+                <Polish>H&amp;K G3KA4 RAS</Polish>
+                <Portuguese>H&amp;K G3KA4 RAS</Portuguese>
+                <Russian>H&amp;K G3KA4 RAS</Russian>
+                <German>H&amp;K G3KA4 RAS</German>
+                <Japanese>H&amp;K G3KA4 RAS</Japanese>
+                <Korean>H&amp;K G3KA4 RAS</Korean>
+                <Chinesesimp>H&amp;K G3KA4 RAS</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_G3A4_GL">
+                <Original>H&amp;K G3KA4 RAS (GL)</Original>
+                <English>H&amp;K G3KA4 RAS (GL)</English>
+                <Czech>H&amp;K G3KA4 RAS (GL)</Czech>
+                <French>H&amp;K G3KA4 RAS (LGI)</French>
+                <Spanish>H&amp;K G3KA4 RAS (GL)</Spanish>
+                <Italian>H&amp;K G3KA4 RAS (GL)</Italian>
+                <Polish>H&amp;K G3KA4 RAS (GL)</Polish>
+                <Portuguese>H&amp;K G3KA4 RAS (GL)</Portuguese>
+                <Russian>H&amp;K G3KA4 RAS (GL)</Russian>
+                <German>H&amp;K G3KA4 RAS (GL)</German>
+                <Japanese>H&amp;K G3KA4 RAS (GL)</Japanese>
+                <Korean>H&amp;K G3KA4 RAS (GL)</Korean>
+                <Chinesesimp>H&amp;K G3KA4 RAS (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK51">
+                <Original>FR Ordnance MC51</Original>
+                <English>FR Ordnance MC51</English>
+                <Czech>FR Ordnance MC51</Czech>
+                <French>FR Ordnance MC51</French>
+                <Spanish>FR Ordnance MC51</Spanish>
+                <Italian>FR Ordnance MC51</Italian>
+                <Polish>FR Ordnance MC51</Polish>
+                <Portuguese>FR Ordnance MC51</Portuguese>
+                <Russian>FR Ordnance MC51</Russian>
+                <German>FR Ordnance MC51</German>
+                <Japanese>FR Ordnance MC51</Japanese>
+                <Korean>FR Ordnance MC51</Korean>
+                <Chinesesimp>FR Ordnance MC51</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK53">
+                <Original>H&amp;K HK53</Original>
+                <English>H&amp;K HK53</English>
+                <Czech>H&amp;K HK53</Czech>
+                <French>H&amp;K HK53</French>
+                <Spanish>H&amp;K HK53</Spanish>
+                <Italian>H&amp;K HK53</Italian>
+                <Polish>H&amp;K HK53</Polish>
+                <Portuguese>H&amp;K HK53</Portuguese>
+                <Russian>H&amp;K HK53</Russian>
+                <German>H&amp;K HK53</German>
+                <Japanese>H&amp;K HK53</Japanese>
+                <Korean>H&amp;K HK53</Korean>
+                <Chinesesimp>H&amp;K HK53</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK53_RAS">
+                <Original>H&amp;K HK53 (RAS)</Original>
+                <English>H&amp;K HK53 (RAS)</English>
+                <Czech>H&amp;K HK53 (RAS)</Czech>
+                <French>H&amp;K HK53 (RAS)</French>
+                <Spanish>H&amp;K HK53 (RAS)</Spanish>
+                <Italian>H&amp;K HK53 (RAS)</Italian>
+                <Polish>H&amp;K HK53 (RAS)</Polish>
+                <Portuguese>H&amp;K HK53 (RAS)</Portuguese>
+                <Russian>H&amp;K HK53 (RAS)</Russian>
+                <German>H&amp;K HK53 (RAS)</German>
+                <Japanese>H&amp;K HK53 (RAS)</Japanese>
+                <Korean>H&amp;K HK53 (RAS)</Korean>
+                <Chinesesimp>H&amp;K HK53 (RAS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK33a2">
+                <Original>H&amp;K HK33A2</Original>
+                <English>H&amp;K HK33A2</English>
+                <Czech>H&amp;K HK33A2</Czech>
+                <French>H&amp;K HK33A2</French>
+                <Spanish>H&amp;K HK33A2</Spanish>
+                <Italian>H&amp;K HK33A2</Italian>
+                <Polish>H&amp;K HK33A2</Polish>
+                <Portuguese>H&amp;K HK33A2</Portuguese>
+                <Russian>H&amp;K HK33A2</Russian>
+                <German>H&amp;K HK33A2</German>
+                <Japanese>H&amp;K HK33A2</Japanese>
+                <Korean>H&amp;K HK33A2</Korean>
+                <Chinesesimp>H&amp;K HK33A2</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK33KA3">
+                <Original>H&amp;K HK33KA3</Original>
+                <English>H&amp;K HK33KA3</English>
+                <Czech>H&amp;K HK33KA3</Czech>
+                <French>H&amp;K HK33KA3</French>
+                <Spanish>H&amp;K HK33KA3</Spanish>
+                <Italian>H&amp;K HK33KA3</Italian>
+                <Polish>H&amp;K HK33KA3</Polish>
+                <Portuguese>H&amp;K HK33KA3</Portuguese>
+                <Russian>H&amp;K HK33KA3</Russian>
+                <German>H&amp;K HK33KA3</German>
+                <Japanese>H&amp;K HK33KA3</Japanese>
+                <Korean>H&amp;K HK33KA3</Korean>
+                <Chinesesimp>H&amp;K HK33KA3</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK33KA2_RIS">
+                <Original>H&amp;K HK33KA2 (RIS)</Original>
+                <English>H&amp;K HK33KA2 (RIS)</English>
+                <Czech>H&amp;K HK33KA2 (RIS)</Czech>
+                <French>H&amp;K HK33KA2 (RIS)</French>
+                <Spanish>H&amp;K HK33KA2 (RIS)</Spanish>
+                <Italian>H&amp;K HK33KA2 (RIS)</Italian>
+                <Polish>H&amp;K HK33KA2 (RIS)</Polish>
+                <Portuguese>H&amp;K HK33KA2 (RIS)</Portuguese>
+                <Russian>H&amp;K HK33KA2 (RIS)</Russian>
+                <German>H&amp;K HK33KA2 (RIS)</German>
+                <Japanese>H&amp;K HK33KA2 (RIS)</Japanese>
+                <Korean>H&amp;K HK33KA2 (RIS)</Korean>
+                <Chinesesimp>H&amp;K HK33KA2 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_HK33KA2_RIS_GL">
+                <Original>H&amp;K HK33KA2 (RIS/GL)</Original>
+                <English>H&amp;K HK33KA2 (RIS/GL)</English>
+                <Czech>H&amp;K HK33KA2 (RIS/GL)</Czech>
+                <French>H&amp;K HK33KA2 (RIS/LGI)</French>
+                <Spanish>H&amp;K HK33KA2 (RIS/GL)</Spanish>
+                <Italian>H&amp;K HK33KA2 (RIS/GL)</Italian>
+                <Polish>H&amp;K HK33KA2 (RIS/GL)</Polish>
+                <Portuguese>H&amp;K HK33KA2 (RIS/GL)</Portuguese>
+                <Russian>H&amp;K HK33KA2 (RIS/GL)</Russian>
+                <German>H&amp;K HK33KA2 (RIS/GL)</German>
+                <Japanese>H&amp;K HK33KA2 (RIS/GL)</Japanese>
+                <Korean>H&amp;K HK33KA2 (RIS/GL)</Korean>
+                <Chinesesimp>H&amp;K HK33KA2 (RIS/GL)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Acc_names">
+            <Key ID="STR_NIA_optic_DiavariDA">
+                <Original>Zeiss Diavari-DA</Original>
+                <English>Zeiss Diavari-DA</English>
+                <Czech>Zeiss Diavari-DA</Czech>
+                <French>Zeiss Diavari-DA</French>
+                <Spanish>Zeiss Diavari-DA</Spanish>
+                <Italian>Zeiss Diavari-DA</Italian>
+                <Polish>Zeiss Diavari-DA</Polish>
+                <Portuguese>Zeiss Diavari-DA</Portuguese>
+                <Russian>Zeiss Diavari-DA</Russian>
+                <German>Zeiss Diavari-DA</German>
+                <Japanese>Zeiss Diavari-DA</Japanese>
+                <Korean>Zeiss Diavari-DA</Korean>
+                <Chinesesimp>Zeiss Diavari-DA</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_accupoint">
+                <Original>Trijicon Accupoint TR20</Original>
+                <English>Trijicon Accupoint TR20</English>
+                <Czech>Trijicon Accupoint TR20</Czech>
+                <French>Trijicon Accupoint TR20</French>
+                <Spanish>Trijicon Accupoint TR20</Spanish>
+                <Italian>Trijicon Accupoint TR20</Italian>
+                <Polish>Trijicon Accupoint TR20</Polish>
+                <Portuguese>Trijicon Accupoint TR20</Portuguese>
+                <Russian>Trijicon Accupoint TR20</Russian>
+                <German>Trijicon Accupoint TR20</German>
+                <Japanese>Trijicon Accupoint TR20</Japanese>
+                <Korean>Trijicon Accupoint TR20</Korean>
+                <Chinesesimp>Trijicon Accupoint TR20</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_ZF">
+                <Original>Hendsoldt ZF</Original>
+                <English>Hendsoldt ZF</English>
+                <Czech>Hendsoldt ZF</Czech>
+                <French>Hendsoldt ZF</French>
+                <Spanish>Hendsoldt ZF</Spanish>
+                <Italian>Hendsoldt ZF</Italian>
+                <Polish>Hendsoldt ZF</Polish>
+                <Portuguese>Hendsoldt ZF</Portuguese>
+                <Russian>Hendsoldt ZF</Russian>
+                <German>Hendsoldt ZF</German>
+                <Japanese>Hendsoldt ZF</Japanese>
+                <Korean>Hendsoldt ZF</Korean>
+                <Chinesesimp>Hendsoldt ZF</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_ZF2d">
+                <Original>Hendsoldt ZF (2D)</Original>
+                <English>Hendsoldt ZF (2D)</English>
+                <Czech>Hendsoldt ZF (2D)</Czech>
+                <French>Hendsoldt ZF (2D)</French>
+                <Spanish>Hendsoldt ZF (2D)</Spanish>
+                <Italian>Hendsoldt ZF (2D)</Italian>
+                <Polish>Hendsoldt ZF (2D)</Polish>
+                <Portuguese>Hendsoldt ZF (2D)</Portuguese>
+                <Russian>Hendsoldt ZF (2D)</Russian>
+                <German>Hendsoldt ZF (2D)</German>
+                <Japanese>Hendsoldt ZF (2D)</Japanese>
+                <Korean>Hendsoldt ZF (2D)</Korean>
+                <Chinesesimp>Hendsoldt ZF (2D)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_ANPVS4G3">
+                <Original>AN/PVS-4 (G3-Mount)</Original>
+                <English>AN/PVS-4 (G3-Mount)</English>
+                <Czech>AN/PVS-4 (G3-Mount)</Czech>
+                <French>AN/PVS-4 (Montage G3)</French>
+                <Spanish>AN/PVS-4 (G3-Mount)</Spanish>
+                <Italian>AN/PVS-4 (G3-Mount)</Italian>
+                <Polish>AN/PVS-4 (G3-Mount)</Polish>
+                <Portuguese>AN/PVS-4 (G3-Mount)</Portuguese>
+                <Russian>AN/PVS-4 (G3-Mount)</Russian>
+                <German>AN/PVS-4 (G3-Mount)</German>
+                <Japanese>AN/PVS-4 (G3 用マウント)</Japanese>
+                <Korean>AN/PVS-4 (G3-Mount)</Korean>
+                <Chinesesimp>AN/PVS-4 (G3-Mount)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_ZF95_G3">
+                <Original>Kahles ZF95 (G3-Mount)</Original>
+                <English>Kahles ZF95 (G3-Mount)</English>
+                <Czech>Kahles ZF95 (G3-Mount)</Czech>
+                <French>Kahles ZF95 (Montage G3)</French>
+                <Spanish>Kahles ZF95 (G3-Mount)</Spanish>
+                <Italian>Kahles ZF95 (G3-Mount)</Italian>
+                <Polish>Kahles ZF95 (G3-Mount)</Polish>
+                <Portuguese>Kahles ZF95 (G3-Mount)</Portuguese>
+                <Russian>Kahles ZF95 (G3-Mount)</Russian>
+                <German>Kahles ZF95 (G3-Mount)</German>
+                <Japanese>Kahles ZF95 (G3 用マウント)</Japanese>
+                <Korean>Kahles ZF95 (G3-Mount)</Korean>
+                <Chinesesimp>Kahles ZF95 (G3-Mount)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_M3a_G3">
+                <Original>Leupold M3A Ultra (G3-Mount)</Original>
+                <English>Leupold M3A Ultra (G3-Mount)</English>
+                <Czech>Leupold M3A Ultra (G3-Mount)</Czech>
+                <French>Leupold M3A Ultra (Montage G3)</French>
+                <Spanish>Leupold M3A Ultra (G3-Mount)</Spanish>
+                <Italian>Leupold M3A Ultra (G3-Mount)</Italian>
+                <Polish>Leupold M3A Ultra (G3-Mount)</Polish>
+                <Portuguese>Leupold M3A Ultra (G3-Mount)</Portuguese>
+                <Russian>Leupold M3A Ultra (G3-Mount)</Russian>
+                <German>Leupold M3A Ultra (G3-Mount)</German>
+                <Japanese>Leupold M3A Ultra (G3 用マウント)</Japanese>
+                <Korean>Leupold M3A Ultra (G3-Mount)</Korean>
+                <Chinesesimp>Leupold M3A Ultra (G3-Mount)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_20rnd_762x51_b_G3">
+                <Original>7.62mm EPR 20Rnd G3 Magazine</Original>
+                <English>7.62mm EPR 20Rnd G3 Magazine</English>
+                <Czech>7.62mm EPR 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm EPR</French>
+                <Spanish>7.62mm EPR 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm EPR 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm EPR 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm EPR 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm EPR 20Rnd G3 Magazine</Russian>
+                <German>7.62mm EPR 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm EPR 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm EPR 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Mk316_G3">
+                <Original>7.62mm SBLR 20Rnd G3 Magazine</Original>
+                <English>7.62mm SBLR 20Rnd G3 Magazine</English>
+                <Czech>7.62mm SBLR 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm SBLR</French>
+                <Spanish>7.62mm SBLR 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm SBLR 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm SBLR 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm SBLR 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm SBLR 20Rnd G3 Magazine</Russian>
+                <German>7.62mm SBLR 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm SBLR 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm SBLR 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm SBLR 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_SOST_G3">
+                <Original>7.62mm SOST 20Rnd G3 Magazine</Original>
+                <English>7.62mm SOST 20Rnd G3 Magazine</English>
+                <Czech>7.62mm SOST 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm SOST</French>
+                <Spanish>7.62mm SOST 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm SOST 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm SOST 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm SOST 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm SOST 20Rnd G3 Magazine</Russian>
+                <German>7.62mm SOST 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm SOST 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm SOST 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm SOST 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Tracer_G3">
+                <Original>7.62mm Tracer 20Rnd G3 Magazine</Original>
+                <English>7.62mm Tracer 20Rnd G3 Magazine</English>
+                <Czech>7.62mm Tracer 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm Traçante</French>
+                <Spanish>7.62mm Tracer 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm Tracer 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm Tracer 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm Tracer 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm Tracer 20Rnd G3 Magazine</Russian>
+                <German>7.62mm Tracer 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm 曳光弾 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm Tracer 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm Tracer 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_MDim_G3">
+                <Original>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Original>
+                <English>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</English>
+                <Czech>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm EPR (IR-DIM toutes les 4)</French>
+                <Spanish>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Spanish>
+                <Italian>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Italian>
+                <Polish>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Polish>
+                <Portuguese>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Portuguese>
+                <Russian>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Russian>
+                <German>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</German>
+                <Japanese>7.62mm EPR 20発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 20Rnd G3 Magazine (IR-DIM Every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_IRDIM_G3">
+                <Original>7.62mm IR-DIM 20Rnd G3 Magazine</Original>
+                <English>7.62mm IR-DIM 20Rnd G3 Magazine</English>
+                <Czech>7.62mm IR-DIM 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm IR-DIM</French>
+                <Spanish>7.62mm IR-DIM 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm IR-DIM 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm IR-DIM 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm IR-DIM 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm IR-DIM 20Rnd G3 Magazine</Russian>
+                <German>7.62mm IR-DIM 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm IR-DIM 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm IR-DIM 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm IR-DIM 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Subsonic_G3">
+                <Original>7.62mm Subsonic 20Rnd G3 Magazine</Original>
+                <English>7.62mm Subsonic 20Rnd G3 Magazine</English>
+                <Czech>7.62mm Subsonic 20Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 20 Coups Cal 7.62mm Subsonique</French>
+                <Spanish>7.62mm Subsonic 20Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm Subsonic 20Rnd G3 Magazine</Italian>
+                <Polish>7.62mm Subsonic 20Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm Subsonic 20Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm Subsonic 20Rnd G3 Magazine</Russian>
+                <German>7.62mm Subsonic 20Rnd G3 Magazine</German>
+                <Japanese>7.62mm 亜音速 20発入り G3 マガジン</Japanese>
+                <Korean>7.62mm Subsonic 20Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm Subsonic 20Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_B_G3">
+                <Original>7.62mm EPR 50Rnd G3 Magazine</Original>
+                <English>7.62mm EPR 50Rnd G3 Magazine</English>
+                <Czech>7.62mm EPR 50Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 50 Coups Cal 7.62mm EPR</French>
+                <Spanish>7.62mm EPR 50Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm EPR 50Rnd G3 Magazine</Italian>
+                <Polish>7.62mm EPR 50Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm EPR 50Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm EPR 50Rnd G3 Magazine</Russian>
+                <German>7.62mm EPR 50Rnd G3 Magazine</German>
+                <Japanese>7.62mm EPR 50発入り G3 マガジン</Japanese>
+                <Korean>7.62mm EPR 50Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_T_G3">
+                <Original>7.62mm Tracer 50Rnd G3 Magazine</Original>
+                <English>7.62mm Tracer 50Rnd G3 Magazine</English>
+                <Czech>7.62mm Tracer 50Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 50 Coups Cal 7.62mm Traçante</French>
+                <Spanish>7.62mm Tracer 50Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm Tracer 50Rnd G3 Magazine</Italian>
+                <Polish>7.62mm Tracer 50Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm Tracer 50Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm Tracer 50Rnd G3 Magazine</Russian>
+                <German>7.62mm Tracer 50Rnd G3 Magazine</German>
+                <Japanese>7.62mm 曳光弾 50発入り G3 マガジン</Japanese>
+                <Korean>7.62mm Tracer 50Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm Tracer 50Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_Tdim_G3">
+                <Original>7.62mm IR-DIM 50Rnd G3 Magazine</Original>
+                <English>7.62mm IR-DIM 50Rnd G3 Magazine</English>
+                <Czech>7.62mm IR-DIM 50Rnd G3 Magazine</Czech>
+                <French>Chargeur G3 50 Coups Cal 7.62mm IR-DIM</French>
+                <Spanish>7.62mm IR-DIM 50Rnd G3 Magazine</Spanish>
+                <Italian>7.62mm IR-DIM 50Rnd G3 Magazine</Italian>
+                <Polish>7.62mm IR-DIM 50Rnd G3 Magazine</Polish>
+                <Portuguese>7.62mm IR-DIM 50Rnd G3 Magazine</Portuguese>
+                <Russian>7.62mm IR-DIM 50Rnd G3 Magazine</Russian>
+                <German>7.62mm IR-DIM 50Rnd G3 Magazine</German>
+                <Japanese>7.62mm IR-DIM 50発入り G3 マガジン</Japanese>
+                <Korean>7.62mm IR-DIM 50Rnd G3 Magazine</Korean>
+                <Chinesesimp>7.62mm IR-DIM 50Rnd G3 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50rnd_762x51_M_G3">
+                <Original>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Original>
+                <English>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</English>
+                <Czech>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Czech>
+                <French>Chargeur G3 50 Coups Cal 7.62mm EPR (Traçante toutes les 4)</French>
+                <Spanish>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Spanish>
+                <Italian>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Italian>
+                <Polish>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Polish>
+                <Portuguese>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Portuguese>
+                <Russian>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Russian>
+                <German>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</German>
+                <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎に曳光弾)</Japanese>
+                <Korean>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (Tracers Every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50rnd_762x51_MDIM_G3">
+                <Original>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Original>
+                <English>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</English>
+                <Czech>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Czech>
+                <French>Chargeur G3 50 Coups Cal 7.62mm EPR (IR-DIM toutes les 4)</French>
+                <Spanish>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Spanish>
+                <Italian>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Italian>
+                <Polish>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Polish>
+                <Portuguese>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Portuguese>
+                <Russian>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Russian>
+                <German>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</German>
+                <Japanese>7.62mm EPR 50発入り G3 マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd G3 Magazine (IR-DIM every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_FMJ_HK33">
+                <Original>5.56mm FMJ 30Rnd HK33 Magazine</Original>
+                <English>5.56mm FMJ 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm FMJ 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm FMJ</French>
+                <Spanish>5.56mm FMJ 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm FMJ 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm FMJ 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm FMJ 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm FMJ 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm FMJ 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm FMJ 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm FMJ 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm FMJ 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_EPR_HK33">
+                <Original>5.56mm EPR 30Rnd HK33 Magazine</Original>
+                <English>5.56mm EPR 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm EPR 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm EPR</French>
+                <Spanish>5.56mm EPR 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm EPR 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm EPR 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm EPR 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm EPR 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm EPR 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm EPR 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm EPR 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_SOST_HK33">
+                <Original>5.56mm SOST 30Rnd HK33 Magazine</Original>
+                <English>5.56mm SOST 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm SOST 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm SOST</French>
+                <Spanish>5.56mm SOST 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm SOST 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm SOST 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm SOST 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm SOST 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm SOST 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm SOST 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm SOST 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm SOST 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_SPR_HK33">
+                <Original>5.56mm SBLR 30Rnd HK33 Magazine</Original>
+                <English>5.56mm SBLR 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm SBLR 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm SBLR</French>
+                <Spanish>5.56mm SBLR 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm SBLR 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm SBLR 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm SBLR 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm SBLR 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm SBLR 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm SBLR 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm SBLR 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm SBLR 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_S_HK33">
+                <Original>5.56mm Subsonic 30Rnd HK33 Magazine</Original>
+                <English>5.56mm Subsonic 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm Subsonic 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm Subsonique</French>
+                <Spanish>5.56mm Subsonic 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm Subsonic 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm Subsonic 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm Subsonic 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm Subsonic 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm Subsonic 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm 亜音速 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm Subsonic 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm Subsonic 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_M_HK33">
+                <Original>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Original>
+                <English>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</English>
+                <Czech>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm EPR (Traçante toutes les 4)</French>
+                <Spanish>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Spanish>
+                <Italian>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Italian>
+                <Polish>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Polish>
+                <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Portuguese>
+                <Russian>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Russian>
+                <German>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</German>
+                <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎に曳光弾)</Japanese>
+                <Korean>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (Tracers every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_T_HK33">
+                <Original>5.56mm Tracer 30Rnd HK33 Magazine</Original>
+                <English>5.56mm Tracer 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm Tracer 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm Traçante</French>
+                <Spanish>5.56mm Tracer 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm Tracer 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm Tracer 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm Tracer 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm Tracer 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm Tracer 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm 曳光弾 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm Tracer 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm Tracer 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_TDim_HK33">
+                <Original>5.56mm IR-DIM 30Rnd HK33 Magazine</Original>
+                <English>5.56mm IR-DIM 30Rnd HK33 Magazine</English>
+                <Czech>5.56mm IR-DIM 30Rnd HK33 Magazine</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm IR-DIM</French>
+                <Spanish>5.56mm IR-DIM 30Rnd HK33 Magazine</Spanish>
+                <Italian>5.56mm IR-DIM 30Rnd HK33 Magazine</Italian>
+                <Polish>5.56mm IR-DIM 30Rnd HK33 Magazine</Polish>
+                <Portuguese>5.56mm IR-DIM 30Rnd HK33 Magazine</Portuguese>
+                <Russian>5.56mm IR-DIM 30Rnd HK33 Magazine</Russian>
+                <German>5.56mm IR-DIM 30Rnd HK33 Magazine</German>
+                <Japanese>5.56mm IR-DIM 30発入り HK33 マガジン</Japanese>
+                <Korean>5.56mm IR-DIM 30Rnd HK33 Magazine</Korean>
+                <Chinesesimp>5.56mm IR-DIM 30Rnd HK33 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30rnd_556x45_MDim_HK33">
+                <Original>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Original>
+                <English>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</English>
+                <Czech>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Czech>
+                <French>Chargeur HK33 30 Coups Cal 5.56mm EPR (IR-DIM toutes les 4)</French>
+                <Spanish>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Spanish>
+                <Italian>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Italian>
+                <Polish>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Polish>
+                <Portuguese>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Portuguese>
+                <Russian>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Russian>
+                <German>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</German>
+                <Japanese>5.56mm EPR 30発入り HK33 マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd HK33 Magazine (IR-DIM every 4)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_G3_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_G3_Carbine_DESC">
+                <Original>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Carabine&lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_G3_Compact_DESC">
+                <Original>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_G3SG1_DESC">
+                <Original>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Fusil de Tireur de Précision &lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PSG1_DESC">
+                <Original>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Fusil de Précision&lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>高精度ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_HK33_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_HK33_Carbine_DESC">
+                <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_HK53_Compact_DESC">
+                <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DiavariDA_DESC">
+                <Original>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Original>
+                <English>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</English>
+                <Czech>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Czech>
+                <French>Lunette de Visée Zeiss Diavari-DA&lt;br/&gt;Grossissement: 1.5-6x&lt;br/&gt;Ajustment: BDC Externe 100-600m&lt;br/&gt;Réticule: German #4 Avec Rangefinder par étapes</French>
+                <Spanish>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Spanish>
+                <Italian>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Italian>
+                <Polish>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Polish>
+                <Portuguese>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Portuguese>
+                <Russian>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Russian>
+                <German>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</German>
+                <Japanese>Zeiss Diavari-DA 倍率ライフル照準器&lt;br/&gt;倍率: 1.5-6x&lt;br/&gt;調整範囲: 外部 BDC 100-600m&lt;br/&gt;照準線: 簡易距離計付きドイツ軍 #4</Japanese>
+                <Korean>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Korean>
+                <Chinesesimp>Zeiss Diavari-DA Magnified Rifle Sight&lt;br/&gt;Magnification: 1.5-6x&lt;br/&gt;Adjustment: External BDC 100-600m&lt;br/&gt;Reticle: German #4 with Rangefinding Stadia</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_TR20_DESC">
+                <Original>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Original>
+                <English>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</English>
+                <Czech>L</Czech>
+                <French>Lunette de Visée Trijicon Accupoint TR20&lt;br/&gt;Grossissement: 3-9x&lt;br/&gt;Ajustment: Correction manuelle 200-1200m&lt;br/&gt;Réticule: Obélisque avec Pointe Illuminée</French>
+                <Spanish>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Spanish>
+                <Italian>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Italian>
+                <Polish>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Polish>
+                <Portuguese>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Portuguese>
+                <Russian>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Russian>
+                <German>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</German>
+                <Japanese>Trijicon Accupoint TR20 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 手動調整 200-1200m&lt;br/&gt;照準線: 発光方尖塔型先端</Japanese>
+                <Korean>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Korean>
+                <Chinesesimp>Trijicon Accupoint TR20 Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: Manual Correction 200-1200m&lt;br/&gt;Reticle: Illuminated Tip Obelisk</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_HenZF4x_DESC">
+                <Original>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Original>
+                <English>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</English>
+                <Czech>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Czech>
+                <French>Lunette de Visée Hendsoldt-Wetzlar ZF OTAN&lt;br/&gt;Grossissement: 4x&lt;br/&gt;Ajustment: BDC 100-600mx&lt;br/&gt;Réticule: German #1 Style T</French>
+                <Spanish>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Spanish>
+                <Italian>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Italian>
+                <Polish>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Polish>
+                <Portuguese>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Portuguese>
+                <Russian>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Russian>
+                <German>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</German>
+                <Japanese>Hendsoldt-Wetzlar ZF NATO 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-600m&lt;br/&gt;照準線: ドイツ軍 #1 T字形</Japanese>
+                <Korean>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Korean>
+                <Chinesesimp>Hendsoldt-Wetzlar ZF NATO Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-600m&lt;br/&gt;Reticle: German #1 T-style</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_fmj">
+                <Original>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN M193 FMJ&lt;br/&gt;Type: Balle Chemisée avec Noyau en Plomb&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO M193 FMJ&lt;br/&gt;種類: 鉛弾芯フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M193 FMJ&lt;br/&gt;Type: Lead Core Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_DisplayShort">
+            <Key ID="STR_NIA_556_FMJ">
+                <Original>M193 FMJ</Original>
+                <English>M193 FMJ</English>
+                <Czech>M193 FMJ</Czech>
+                <French>M193 FMJ</French>
+                <Spanish>M193 FMJ</Spanish>
+                <Italian>M193 FMJ</Italian>
+                <Polish>M193 FMJ</Polish>
+                <Portuguese>M193 FMJ</Portuguese>
+                <Russian>M193 FMJ</Russian>
+                <German>M193 FMJ</German>
+                <Japanese>M193 FMJ</Japanese>
+                <Korean>M193 FMJ</Korean>
+                <Chinesesimp>M193 FMJ</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>
