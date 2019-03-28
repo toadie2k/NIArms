@@ -10,7 +10,8 @@ class CfgSoundShaders {
     };
     class G3_closeShot_SoundShader {
         samples[] = {
-            { "hlc_WP_G3\snd\soundshaders\generic\G3_close", 1 }
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close1", 1 },
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close2", 1 }
         };
         volume = 0.8;
         range = 100;
@@ -20,7 +21,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -46,7 +47,7 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_03_MkI_EMR\DMR03_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -260,7 +261,8 @@ class CfgSoundShaders {
     };
     class G3KA4_closeShot_SoundShader {
         samples[] = {
-            { "hlc_WP_G3\snd\soundshaders\generic\G3_close", 1 }
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close1", 1 },
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close2", 1 }
         };
         volume = 0.8;
         range = 100;
@@ -270,7 +272,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -441,7 +443,8 @@ class CfgSoundShaders {
     };
     class G3SG1_closeShot_SoundShader {
         samples[] = {
-            { "hlc_WP_G3\snd\soundshaders\generic\G3_close", 1 }
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close1", 1 },
+            { "hlc_WP_G3\snd\soundshaders\generic\G3_close2", 1 }
         };
         volume = 0.8;
         range = 100;
@@ -451,7 +454,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\generic\G3_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -616,7 +619,8 @@ class CfgSoundShaders {
 
     class HK51_closeShot_SoundShader {
         samples[] = {
-            { "hlc_WP_G3\snd\soundshaders\hk51\HK51_close", 1 }
+            { "hlc_WP_G3\snd\soundshaders\hk51\HK51_close1", 1 },
+            { "hlc_WP_G3\snd\soundshaders\hk51\HK51_close2", 1 }
         };
         volume = 0.8;
         range = 100;
@@ -626,7 +630,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\hk51\HK51_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -868,7 +872,8 @@ class CfgSoundShaders {
 
     class PSG1_closeShot_SoundShader {
         samples[] = {
-            { "hlc_WP_G3\snd\soundshaders\psg1\PSG1_close", 1 }
+            { "hlc_WP_G3\snd\soundshaders\psg1\psg1_close2", 1 },
+            { "hlc_WP_G3\snd\soundshaders\psg1\psg1_close1", 1 }
         };
         volume = 0.8;
         range = 100;
@@ -878,7 +883,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_WP_G3\snd\soundshaders\psg1\PSG1_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -904,7 +909,7 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_03_MkI_EMR\DMR03_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -1050,8 +1055,8 @@ class CfgSoundShaders {
     };
     class hk33_closeShot_SoundShader {
         samples[] = {
-            { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close", 1 },
-            { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close", 1 }
+            { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close1", 1 },
+            { "hlc_wp_g3\snd\soundshaders\hk33\hk33_close2", 1 }
         };
         volume = 0.8;
         range = 50;
@@ -1061,7 +1066,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_g3\snd\soundshaders\hk33\hk33_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -1087,7 +1092,7 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -1301,8 +1306,8 @@ class CfgSoundShaders {
     };
     class hk53_closeShot_SoundShader {
         samples[] = {
-            { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close", 1 },
-            { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close", 1 }
+            { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close1", 1 },
+            { "hlc_wp_g3\snd\soundshaders\hk53\hk53_close2", 1 }
         };
         volume = 0.8;
         range = 50;
@@ -1312,7 +1317,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_g3\snd\soundshaders\hk53\hk53_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -1338,7 +1343,7 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
