@@ -14,8 +14,8 @@ class CfgSoundShaders
 	class aug_closeShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close", 1 },
-			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close", 1 } };
+			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close1", 1 },
+			{ "hlc_wp_aug\snd\soundshaders\aug\aug_close2", 1 } };
 		volume = 0.8;
 		range = 50;
 		rangeCurve = "closeShotCurve";
@@ -48,7 +48,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-		volume = 0.4;
+		volume = 0.8;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0 },
@@ -272,8 +272,8 @@ class CfgSoundShaders
 		class augcarbine_closeShot_SoundShader
 	{
 		samples[] = {
-			{ "hlc_wp_aug\snd\soundshaders\augcarbine\augcarbine_close", 1 },
-			{ "hlc_wp_aug\snd\soundshaders\augcarbine\augcarbine_close", 1 } };
+			{ "hlc_wp_aug\snd\soundshaders\augcarbine\augcarbine_close1", 1 },
+			{ "hlc_wp_aug\snd\soundshaders\augcarbine\augcarbine_close2", 1 } };
         volume = 0.8;
 		range = 50;
 		rangeCurve = "closeShotCurve";
@@ -534,8 +534,8 @@ class CfgSoundShaders
 		class aughbar_closeShot_SoundShader
 		{
 			samples[] = {
-				{ "hlc_wp_aug\snd\soundshaders\aughbar\aughbar_close", 1 },
-				{ "hlc_wp_aug\snd\soundshaders\aughbar\aughbar_close", 1 } };
+				{ "hlc_wp_aug\snd\soundshaders\aughbar\aughbar_close1", 1 },
+				{ "hlc_wp_aug\snd\soundshaders\aughbar\aughbar_close2", 1 } };
 			volume = 0.8;
 			range = 50;
 			rangeCurve = "closeShotCurve";
