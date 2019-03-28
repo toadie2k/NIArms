@@ -20,7 +20,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_fhAWC\snd\soundshader\Magnum\AWM_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.5 },
@@ -48,7 +48,7 @@ class CfgSoundShaders {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_taildistant", 1 }
         };
-        volume = 0.5;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
