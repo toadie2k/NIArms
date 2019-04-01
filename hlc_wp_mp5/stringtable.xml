@@ -43,7 +43,7 @@
         <Portuguese>H&amp;K MP5A2 (TAC)</Portuguese>
         <Russian>H&amp;K MP5A2 (TAC)</Russian>
         <German>H&amp;K MP5A2 (TAC)</German>
-        <Japanese>H&amp;K MP5A2 (TAC)</Japanese>
+        <Japanese>H&amp;K MP5A2 (タクティカル)</Japanese>
         <Korean>H&amp;K MP5A2 (TAC)</Korean>
         <Chinesesimp>H&amp;K MP5A2 (TAC)</Chinesesimp>
       </Key>
@@ -88,7 +88,7 @@
         <Portuguese>H&amp;K MP5A3 (TAC)</Portuguese>
         <Russian>H&amp;K MP5A3 (TAC)</Russian>
         <German>H&amp;K MP5A3 (TAC)</German>
-        <Japanese>H&amp;K MP5A3 (TAC)</Japanese>
+        <Japanese>H&amp;K MP5A3 (タクティカル)</Japanese>
         <Korean>H&amp;K MP5A3 (TAC)</Korean>
         <Chinesesimp>H&amp;K MP5A3 (TAC)</Chinesesimp>
       </Key>
@@ -103,7 +103,7 @@
         <Portuguese>H&amp;K MP5A4(TAC)</Portuguese>
         <Russian>H&amp;K MP5A4(TAC)</Russian>
         <German>H&amp;K MP5A4(TAC)</German>
-        <Japanese>H&amp;K MP5A4 (TAC)</Japanese>
+        <Japanese>H&amp;K MP5A4 (タクティカル)</Japanese>
         <Korean>H&amp;K MP5A4(TAC)</Korean>
         <Chinesesimp>H&amp;K MP5A4(TAC)</Chinesesimp>
       </Key>
@@ -133,7 +133,7 @@
         <Portuguese>H&amp;K MP5A5 (TAC)</Portuguese>
         <Russian>H&amp;K MP5A5 (TAC)</Russian>
         <German>H&amp;K MP5A5 (TAC)</German>
-        <Japanese>H&amp;K MP5A5 (TAC)</Japanese>
+        <Japanese>H&amp;K MP5A5 (タクティカル)</Japanese>
         <Korean>H&amp;K MP5A5 (TAC)</Korean>
         <Chinesesimp>H&amp;K MP5A5 (TAC)</Chinesesimp>
       </Key>
@@ -238,7 +238,7 @@
         <Portuguese>H&amp;K MP5/10A4 (TAC)</Portuguese>
         <Russian>H&amp;K MP5/10A4 (TAC)</Russian>
         <German>H&amp;K MP5/10A4 (TAC)</German>
-        <Japanese>H&amp;K MP5/10A4 (TAC)</Japanese>
+        <Japanese>H&amp;K MP5/10A4 (タクティカル)</Japanese>
         <Korean>H&amp;K MP5/10A4 (TAC)</Korean>
         <Chinesesimp>H&amp;K MP5/10A4 (TAC)</Chinesesimp>
       </Key>
@@ -439,7 +439,7 @@
         <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 9x19mm M882 Ball&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
+        <Japanese>口径: 9x19mm M882 ボール弾&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>
@@ -469,7 +469,7 @@
         <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Portuguese>
         <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Russian>
         <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 9x19mm Ball&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
+        <Japanese>口径: 9x19mm ボール弾&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 30</Japanese>
         <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Korean>
         <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 30</Chinesesimp>
       </Key>

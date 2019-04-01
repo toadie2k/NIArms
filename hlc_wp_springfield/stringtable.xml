@@ -28,7 +28,7 @@
         <Portuguese>M1903A1 {Sniper)</Portuguese>
         <Russian>M1903A1 {Sniper)</Russian>
         <German>M1903A1 {Sniper)</German>
-        <Japanese>M1903A1 {Sniper)</Japanese>
+        <Japanese>M1903A1 (狙撃仕様)</Japanese>
         <Korean>M1903A1 {Sniper)</Korean>
         <Chinesesimp>M1903A1 {Sniper)</Chinesesimp>
       </Key>
@@ -43,11 +43,11 @@
         <Portuguese>M1903A1 &quot;Guthrie&quot;</Portuguese>
         <Russian>M1903A1 &quot;Guthrie&quot;</Russian>
         <German>M1903A1 &quot;Guthrie&quot;</German>
-        <Japanese>M1903A1 &quot;Guthrie&quot;</Japanese>
+        <Japanese>M1903A1 &quot;ガスリー&quot;</Japanese>
         <Korean>M1903A1 &quot;Guthrie&quot;</Korean>
         <Chinesesimp>M1903A1 &quot;Guthrie&quot;</Chinesesimp>
       </Key>
-      </Container>
+    </Container>
     <Container name="Mag_Names">
       <Key ID="STR_NIA_5rnd_3006_B_M1903">
         <Original>.30-06 FMJ 5Rnd M1903 Clip</Original>
@@ -60,7 +60,7 @@
         <Portuguese>.30-06 FMJ 5Rnd M1903 Clip</Portuguese>
         <Russian>.30-06 FMJ 5Rnd M1903 Clip</Russian>
         <German>.30-06 FMJ 5Rnd M1903 Clip</German>
-        <Japanese>.30-06 FMJ 5Rnd M1903 Clip</Japanese>
+        <Japanese>.30-06 FMJ 5発入り M1903 クリップ</Japanese>
         <Korean>.30-06 FMJ 5Rnd M1903 Clip</Korean>
         <Chinesesimp>.30-06 FMJ 5Rnd M1903 Clip</Chinesesimp>
       </Key>
@@ -75,7 +75,7 @@
         <Portuguese>.30-06 Tracer 5Rnd M1903 Clip</Portuguese>
         <Russian>.30-06 Tracer 5Rnd M1903 Clip</Russian>
         <German>.30-06 Tracer 5Rnd M1903 Clip</German>
-        <Japanese>.30-06 Tracer 5Rnd M1903 Clip</Japanese>
+        <Japanese>.30-06 曳光弾 5発入り M1903 クリップ</Japanese>
         <Korean>.30-06 Tracer 5Rnd M1903 Clip</Korean>
         <Chinesesimp>.30-06 Tracer 5Rnd M1903 Clip</Chinesesimp>
       </Key>
@@ -92,7 +92,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber: .30-06</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber: .30-06</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber: .30-06</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber: .30-06</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: .30-06</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber: .30-06</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber: .30-06</Chinesesimp>
       </Key>
@@ -107,7 +107,7 @@
         <Portuguese>Precision Rifle&lt;br/&gt;Caliber: .30-06</Portuguese>
         <Russian>Precision Rifle&lt;br/&gt;Caliber: .30-06</Russian>
         <German>Precision Rifle&lt;br/&gt;Caliber: .30-06</German>
-        <Japanese>Precision Rifle&lt;br/&gt;Caliber: .30-06</Japanese>
+        <Japanese>高精度ライフル&lt;br/&gt;口径: .30-06</Japanese>
         <Korean>Precision Rifle&lt;br/&gt;Caliber: .30-06</Korean>
         <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber: .30-06</Chinesesimp>
       </Key>
@@ -122,7 +122,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: .30-06&lt;br/&gt; &quot; その時を逃すな塔に嵐が吹き荒れる、&lt;br/&gt; そして巨大な力が正確に降り注ぐ。&quot;</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber: .30-06&lt;br/&gt; &quot; Seize the time and storm the tower, &lt;br/&gt; and come correct with maximum firepower.&quot;</Chinesesimp>
       </Key>
@@ -137,7 +137,7 @@
         <Portuguese>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</Portuguese>
         <Russian>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</Russian>
         <German>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</German>
-        <Japanese>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</Japanese>
+        <Japanese>口径: .30-06 Ball, M2 FMJ&lt;br/&gt;種類: 150gr 船尾形弾尾フル メタル ジャケット&lt;br/&gt;弾数: 5</Japanese>
         <Korean>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</Korean>
         <Chinesesimp>Caliber: .30-06 Ball, M2 FMJ&lt;br/&gt;Type: 150gr Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 5</Chinesesimp>
       </Key>
@@ -152,41 +152,41 @@
         <Portuguese>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Portuguese>
         <Russian>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Russian>
         <German>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</German>
-        <Japanese>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Japanese>
+        <Japanese>口径: .30-06 曳光弾、M2 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 5</Japanese>
         <Korean>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Korean>
         <Chinesesimp>Caliber: .30-06 Tracer, M2 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Chinesesimp>
       </Key>
     </Container>
     <Container name="Mag_DisplayShort">
       <Key ID="STR_NIA_3006_FMJ">
-          <Original>M2 FMJ</Original>
-          <English>M2 FMJ</English>
-          <Czech>M2 FMJ</Czech>
-          <French>M2 FMJ</French>
-          <Spanish>M2 FMJ</Spanish>
-          <Italian>M2 FMJ</Italian>
-          <Polish>M2 FMJ</Polish>
-          <Portuguese>M2 FMJ</Portuguese>
-          <Russian>M2 FMJ</Russian>
-          <German>M2 FMJ</German>
-          <Japanese>M2 FMJ</Japanese>
-          <Korean>M2 FMJ</Korean>
-          <Chinesesimp>M2 FMJ</Chinesesimp>
+        <Original>M2 FMJ</Original>
+        <English>M2 FMJ</English>
+        <Czech>M2 FMJ</Czech>
+        <French>M2 FMJ</French>
+        <Spanish>M2 FMJ</Spanish>
+        <Italian>M2 FMJ</Italian>
+        <Polish>M2 FMJ</Polish>
+        <Portuguese>M2 FMJ</Portuguese>
+        <Russian>M2 FMJ</Russian>
+        <German>M2 FMJ</German>
+        <Japanese>M2 FMJ</Japanese>
+        <Korean>M2 FMJ</Korean>
+        <Chinesesimp>M2 FMJ</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_3006_Tracer">
-          <Original>M2 Tracer</Original>
-          <English>M2 Tracer</English>
-          <Czech>M2 Tracer</Czech>
-          <French>M2 Tracer</French>
-          <Spanish>M2 Tracer</Spanish>
-          <Italian>M2 Tracer</Italian>
-          <Polish>M2 Tracer</Polish>
-          <Portuguese>M2 Tracer</Portuguese>
-          <Russian>M2 Tracer</Russian>
-          <German>M2 Tracer</German>
-          <Japanese>M2 Tracer</Japanese>
-          <Korean>M2 Tracer</Korean>
-          <Chinesesimp>M2 Tracer</Chinesesimp>
+        <Original>M2 Tracer</Original>
+        <English>M2 Tracer</English>
+        <Czech>M2 Tracer</Czech>
+        <French>M2 Tracer</French>
+        <Spanish>M2 Tracer</Spanish>
+        <Italian>M2 Tracer</Italian>
+        <Polish>M2 Tracer</Polish>
+        <Portuguese>M2 Tracer</Portuguese>
+        <Russian>M2 Tracer</Russian>
+        <German>M2 Tracer</German>
+        <Japanese>M2 曳光弾</Japanese>
+        <Korean>M2 Tracer</Korean>
+        <Chinesesimp>M2 Tracer</Chinesesimp>
       </Key>
     </Container>
   </Package>
