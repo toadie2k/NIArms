@@ -499,6 +499,21 @@
         <Korean>Kern AARAU 4x24 (SG550 Mount/2D)</Korean>
         <Chinesesimp>Kern AARAU 4x24 (SG550 Mount/2D)</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_muzzle_snds_ROTEX3P">
+        <Original>B&amp;T Rotex 3-Prong Brake</Original>
+            <English>B&amp;T Rotex 3-Prong Brake</English>
+            <Czech>B&amp;T Rotex 3-Prong Brake</Czech>
+            <French>B&amp;T Rotex 3-Prong Brake</French>
+            <Spanish>B&amp;T Rotex 3-Prong Brake</Spanish>
+            <Italian>B&amp;T Rotex 3-Prong Brake</Italian>
+            <Polish>B&amp;T Rotex 3-Prong Brake</Polish>
+            <Portuguese>B&amp;T Rotex 3-Prong Brake</Portuguese>
+            <Russian>B&amp;T Rotex 3-Prong Brake</Russian>
+            <German>B&amp;T Rotex 3-Prong Brake</German>
+            <Japanese>B&amp;T Rotex 3-Prong 消炎器</Japanese>
+            <Korean>B&amp;T Rotex 3-Prong Brake</Korean>
+            <Chinesesimp>B&amp;T Rotex 3-Prong Brake</Chinesesimp>
+        </Key>
     </Container>
     <Container name="Mag_Names">
       <Key ID="STR_NIA_30rnd_556x45_EPR_SG550">
@@ -623,6 +638,21 @@
       </Key>
     </Container>
     <Container name="Descriptions">
+      <Key ID="STR_NIA_brake_Rotex3P_556_DESC">
+          <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
+          <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
+          <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
+          <French>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</French>
+          <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Spanish>
+          <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Italian>
+          <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Polish>
+          <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
+          <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
+          <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
+          <Japanese>3 点消炎器lt;br/&gt;口径: 5.56mm</Japanese>
+          <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
+          <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_SG550_DESC">
         <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
         <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
