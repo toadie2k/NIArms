@@ -5,7 +5,7 @@
 
 class CfgPatches {
     class hlcweapons_falpocalypse {
-        requiredaddons[] = {"hlcweapons_core"};
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core"};
         units[] = {"HLC_FAL_ammobox","Weapon_hlc_rifle_SLRchopmod","Weapon_hlc_rifle_LAR","Weapon_hlc_rifle_c1A1","Weapon_hlc_rifle_FAL5061","Weapon_hlc_rifle_STG58F","Weapon_hlc_rifle_SLR","Weapon_hlc_rifle_L1A1slr","Weapon_hlc_rifle_osw_GL","Weapon_hlc_rifle_falosw","weapon_hlc_rifle_FAL5061Rail"};
         weapons[] = {"hlc_rifle_SLRchopmod","hlc_rifle_LAR","hlc_rifle_c1A1","hlc_rifle_FAL5061","hlc_rifle_STG58F","hlc_rifle_SLR","hlc_rifle_L1A1slr","hlc_rifle_osw_GL","hlc_rifle_falosw","hlc_muzzle_snds_fal","hlc_optic_suit","hlc_optic_PVS4FAL"};
         magazines[] = {"hlc_20Rnd_762x51_B_fal","hlc_20Rnd_762x51_t_fal","hlc_50rnd_762x51_M_FAL","hlc_20Rnd_762x51_S_fal"};
@@ -37,7 +37,9 @@ class Mode_FullAuto;
 class asdg_FrontSideRail;
 class asdg_OpticRail;
 class asdg_OpticRail1913;
+class nia_rifle_grips_slot;
 class asdg_UnderSlot;
+class nia_charms_slot;
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
     class compatibleItems{
@@ -113,8 +115,8 @@ class CfgWeapons {
         dlc = "Niarms_FAL";
         scope= public;
         author = "Pete, Acid Snake, Toadie";
-        descriptionshort = "Single Unit, Infantry, Trilux Optic<br />Magnification: 4x";
-        displayname = "SUIT";
+        descriptionshort = $STR_NIA_SUIT_DESC;
+        displayname = $STR_NIA_optic_L2A2_SUIT;
         picture = "\hlc_wp_FAL\tex\ui\gear_suit_x_ca";
         model = "\hlc_wp_FAL\mesh\SUIT\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
@@ -128,7 +130,7 @@ class CfgWeapons {
                     opticsZoomMin = 0.0625;
                     opticsZoomMax = 0.0625;
                     opticsZoomInit = 0.0625;
-                    discreteDistance[] = {200,300,400,500,600};
+                    discreteDistance[] = {300,500};
                     discreteDistanceInitIndex = 1;
                     distanceZoomMin = 300;
                     distanceZoomMax = 600;
@@ -163,8 +165,8 @@ class CfgWeapons {
     {
         dlc = "Niarms_FAL";
         author = "Pete, Enron, Bohemia Interactive, Toadie";
-        descriptionshort = "Night Vision Optic<br />Magnification: 4x";
-        displayname = "AN/PVS4(FAL)";
+        descriptionshort = $STR_NIA_anpvs4_DESC;
+        displayname = $STR_NIA_optic_ANPVS4Fal;
         picture = "\hlc_wp_FAL\tex\ui\gear_PVS4_x_ca";
         model = "\hlc_wp_FAL\mesh\PVS4\scope.p3d";
         class ItemInfo : InventoryOpticsItem_Base_F {
@@ -232,7 +234,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         magazines[] = { __762FAL_MAGS,__762FN_MAGS };
-        magazineWell[] = {"CBA_762x51_FAL"};
+        magazineWell[] = { "CBA_762x51_FAL" };
         class Library {
             libTextDesc = "FN FAL";
         };
@@ -344,9 +346,9 @@ class CfgWeapons {
         ACE_barrelLength = 330.2;
         initspeed = -0.868;
         scope = public;
-        displayName = "DSArms FAL OSW";
-        handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\hands_osw.rtm"};
-        descriptionShort = "Short-Barreled Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_falosw;
+        handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_STD.rtm"};
+        descriptionShort = $STR_NIA_FAL_Carbine_DESC;
         reloadAction = "HLC_GestureReloadOSW";
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
@@ -371,9 +373,10 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.7 };
                 iconScale = 0.2;
             };
+            class GripodSlot : nia_rifle_grips_slot {};
         };
 		inertia = 0.48;
-        __DEXTERITY(4.8 + 0.1, 1);
+        __DEXTERITY(4.8 + 0.1, 0);
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundSetShot[] = { "OSW_Shot_SoundSet", "OSW_Tail_SoundSet" };
@@ -401,20 +404,96 @@ class CfgWeapons {
             __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
         };
         class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_falosw_XMAG";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_falosw_XMAG";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_falosw_XMAG";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_falosw_XMAG";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_falosw_XMAG";
             default = "hlc_rifle_falosw";
-
+        };
+        rhs_grip1_change = "hlc_rifle_falosw_grip";
+        rhs_grip2_change = "hlc_rifle_falosw_grip2";
+        rhs_grip3_change = "hlc_rifle_falosw_grip3";
+        baseWeapon = "hlc_rifle_falosw";
+    };
+    class hlc_rifle_falosw_grip : hlc_rifle_falosw
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_VFG.rtm" };
+        inertia = (0.48 + 0.066);
+        __DEXTERITY((4.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_falosw_XMAG_grip";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_falosw_XMAG_grip";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_falosw_XMAG_grip";
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_falosw_XMAG_grip";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_falosw_XMAG_grip";
+            default = "hlc_rifle_falosw_grip";
         };
     };
+    class hlc_rifle_falosw_grip2 : hlc_rifle_falosw
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_AFG.rtm" };
+        inertia = (0.48 + 0.066);
+        __DEXTERITY((4.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_falosw_XMAG_grip2";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_falosw_XMAG_grip2";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_falosw_XMAG_grip2";
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_falosw_XMAG_grip2";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_falosw_XMAG_grip2";
+            default = "hlc_rifle_falosw_grip2";
+        };
+    };
+    class hlc_rifle_falosw_grip3 : hlc_rifle_falosw
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_VFG.rtm" };
+        inertia = (0.48 + 0.066);
+        __DEXTERITY((4.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_falosw_XMAG_grip3";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_falosw_XMAG_grip3";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_falosw_XMAG_grip3";
+            hlc_50rnd_762x51_M_FAL = "hlc_rifle_falosw_XMAG_grip3";
+            hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_falosw_XMAG_grip3";
+            default = "hlc_rifle_falosw_grip3";
+        };
+    };
+
     class hlc_rifle_falosw_XMAG : hlc_rifle_falosw
     {
         scopeArsenal = 0;
         author = "Pete, Enron, Toadie";
-        model = "\hlc_wp_FAL\mesh\sa58\osw_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
-        inertia = 0.48+0.225;
-        __DEXTERITY(4.8 + 0.1+2.25, 1);
+        inertia = 0.48 + 0.225;
+        __DEXTERITY(4.8 + 0.1 + 2.25, 0);
+        rhs_grip1_change = "hlc_rifle_falosw_XMAG_grip";
+        rhs_grip2_change = "hlc_rifle_falosw_XMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_falosw_XMAG_grip3";
+        baseWeapon = "hlc_rifle_falosw_XMAG";
+    };
+    class hlc_rifle_falosw_XMAG_grip : hlc_rifle_falosw_XMAG
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_VFG.rtm" };
+        inertia = (0.48 + 0.066 + 0.225);
+        __DEXTERITY((4.8 + 0.66), 1);
+    };
+    class hlc_rifle_falosw_XMAG_grip2 : hlc_rifle_falosw_XMAG
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_AFG.rtm" };
+        inertia = (0.48 + 0.066 + 0.225);
+        __DEXTERITY((4.8 + 0.66 + 2.25), 1);
+    };
+    class hlc_rifle_falosw_XMAG_grip3 : hlc_rifle_falosw_XMAG
+    {
+        scopeArsenal = 0;
+        handAnim[] = { "OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_VFG.rtm" };
+        inertia = (0.48 + 0.066 + 0.225);
+        __DEXTERITY((4.8 + 0.66 + 2.25), 1);
     };
 
     class UGL_F;
@@ -422,11 +501,13 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 130; 
             class UnderBarrelSlot {};
+            class GripodSlot {};
+            class Charmslot : nia_charms_slot {};
         };
 		inertia = 0.77;
         __DEXTERITY(4.8 + 1.36, 0);
         author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
-        displayName = "DSArms FAL OSW(GL)";
+        displayName = $STR_NIA_rifle_faloswgl;
         model = "\hlc_wp_FAL\mesh\sag58gl\osw_gl.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_oswgl_x_ca";
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "M203" };
@@ -434,32 +515,49 @@ class CfgWeapons {
         muzzles[] = {"this", "hlc_M203_OSW"};
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\osw_gl_hands.rtm"};
         class hlc_M203_OSW : UGL_F {
-            cameradir = "GL Look";
-            discreteDistance[] = {50,100,150,200,250,300,350,400};
-            discreteDistanceCameraPoint[] = {"GL Eye05","GL Eye1","GL Eye15", "GL Eye2","GL Eye25", "GL Eye3","gl eye35", "GL Eye4"}; /// the angle of gun changes with zeroing
+            cameradir = "gl_look";
+            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350 };
+            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m", "gl_eye_300m", "gl_eye_350m" }; /// the angle of gun changes with zeroing
             discreteDistanceInitIndex = 1;
-            displayname = "M203";
+            displayname = "M203-2003";
             useModelOptics = false;
             useExternalOptic = false;
             optics = 1;
             cursoraim = "gl";
             magazinereloadtime = 0;
-            reloadAction = "GestureReloadTrgUGL";
             reloadtime = 0.1;
-            __AI_ROF_GL_SINGLE;
-            magazineWell[] = {"CBA_40mm_M203"};
+            reloadAction = "HLC_GestureReloadACRGL";
+            reloadMagazineSound[] = { "hlc_core\sound\GL\M203_reload", 1.0, 1, 10 };
+            drySound[] = { "hlc_core\sound\GL\GL_drystrike", 1, 1, 10 };
+            modes[] = { "Single" };
+            class Single : Mode_SemiAuto {
+                sounds[] = { "StandardSound" };
+                class StandardSound {
+                    weaponSoundEffect = "DefaultRifle";
+                    closure1[] = { "hlc_core\sound\GL\GL_striker", 1, 1, 10 };
+                    closure2[] = { "hlc_core\sound\GL\GL_striker", 1, 1, 10 };
+                    soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+                    soundSetShot[] = { "NIA_GL_Shot_SoundSet", "NIA_GL_Tail_SoundSet" };
+                };
+                recoil = "M240Recoil";
+                recoilProne = "M240Recoil";
+                __AI_ROF_GL_SINGLE;
+            };
         };
         class __MAGSWITCHCLASS {
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_osw_GL_XMAG";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_osw_GL_XMAG";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_osw_GL_XMAG";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_osw_GL_XMAG";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_osw_GL_XMAG";
             default = "hlc_rifle_osw_GL";
         };
+        baseWeapon = "hlc_rifle_osw_GL";
     };
     class hlc_rifle_osw_GL_XMAG : hlc_rifle_osw_GL
     {
         scopeArsenal = 0;
         author = "Pete, Enron, Tigg, Bohemia Interactive, Toadie";
-        model = "\hlc_wp_FAL\mesh\SAG58GL\OSW_GL_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\tigg_m203\m203_co.tga" };
         inertia = 0.77+0.225;
         __DEXTERITY(4.8 + 1.36+2.25, 0);
@@ -472,8 +570,8 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 551.18;
         scope = public;
-        displayName = "Lithgow SLR";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_SLR;
+        descriptionShort = $STR_NIA_FAL_DESC;
         recoil = "recoil_ebr";
         maxZeroing = 1600;
         reloadAction = "HLC_GestureReloadFALLONG";
@@ -526,6 +624,7 @@ class CfgWeapons {
                     hlc_optic_PVS4FAL = 1;
                 };
             };
+            class Charmslot : nia_charms_slot {};
         };
         class __MAGSWITCHCLASS {
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_SLR_XMAG";
@@ -537,7 +636,7 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Pete, Enron, Toadie, Clifton Vlodhammer";
-        model = "\hlc_wp_FAL\mesh\slr\l1a1_1_xmag.p3d";
+
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
         inertia = 0.45+0.225;
         __DEXTERITY(4.4 + 2.25, 0);
@@ -550,8 +649,8 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 533.4;
         scope = public;
-        displayName = "Steyr STG.58";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_stg58;
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
@@ -571,6 +670,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
                 };
+            class Charmslot : nia_charms_slot {};
         };
 	
         class __MAGSWITCHCLASS {
@@ -583,7 +683,7 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Pete, Enron, Bohemia Interactive, Toadie, Clifton Vlodhammer";
-        model = "\hlc_wp_FAL\mesh\stg58\stg58_xmag.p3d";
+
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\fore-grooved_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\rsight-modern_co.tga", "hlc_wp_fal\tex\stock-solid_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga" };
         inertia = 0.51+0.225;
         __DEXTERITY(5.1 + 2.25, 0);
@@ -592,10 +692,10 @@ class CfgWeapons {
     class hlc_rifle_FAL5061Rail : hlc_fal_base {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie";
-        displayName = "FN FAL 50.61'Para' (RIS)";
+        displayName = $STR_NIA_rifle_5061ris;
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_rails.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_para_x_ca";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 7.62x51mm NATO";
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         hiddenSelections[] = { "Main", "Magazine", "Rail"};
@@ -609,6 +709,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
                 };
+            class Charmslot : nia_charms_slot {};
         };
 		inertia = 0.44;
         __DEXTERITY(3.9+0.5, 0);
@@ -622,7 +723,6 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Bohemia Interactive, Arby25, Toadie";
-        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_rails_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga" };
         inertia = 0.44+0.225;
         __DEXTERITY(4.4 + 2.25, 0);
@@ -635,8 +735,8 @@ class CfgWeapons {
         AB_barrelLength=18;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 457.2;
-        displayName = "FN FAL 50.61'Para'";
-        descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_5061;
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
@@ -658,6 +758,7 @@ class CfgWeapons {
                     hlc_optic_PVS4FAL = 1;
                 };
             };
+            class Charmslot : nia_charms_slot {};
         };
         class __MAGSWITCHCLASS {
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FAL5061_XMAG";
@@ -669,7 +770,7 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Bohemia Interactive, Arby25, Toadie";
-        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_xmag.p3d";
+
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
         inertia = 0.39+0.225;
         __DEXTERITY(3.9 + 2.25, 0);
@@ -682,7 +783,7 @@ class CfgWeapons {
         AB_barrelLength = 18;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 457.2;
-        displayName = "FN FAL 50.00";
+        displayName = $STR_NIA_rifle_5000;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
@@ -708,7 +809,6 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Bohemia Interactive, Arby25, Toadie";
-        model = "\hlc_wp_FAL\mesh\FN_FAL\FNFAL_full_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga","hlc_core\tex\magazines\XMags_co.tga"};
         inertia = 0.43+0.225;
         __DEXTERITY(4.3 + 2.25, 0);
@@ -716,7 +816,7 @@ class CfgWeapons {
 
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
-        displayName = "FN FAL 50.00 (RIS)";
+        displayName = $STR_NIA_rifle_5000ris;
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_fal_ca";
@@ -737,7 +837,6 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Bohemia Interactive, Arby25, Toadie";
-        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga", "hlc_core\tex\magazines\XMags_co.tga" };
         inertia = 0.5+0.225;
         __DEXTERITY(4.6 + 2.25, 0);
@@ -746,7 +845,7 @@ class CfgWeapons {
     class hlc_rifle_FAL5000_RH : hlc_rifle_FAL5000
     {
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
-        displayName = "FN FAL 50.00(Rhod. Spraycam)";
+        displayName = $STR_NIA_rifle_RhodFal;
         picture = "\hlc_wp_FAL\tex\ui\gear_falRH_ca";
         hiddenSelections[] = { "Main", "Stock", "Barrel" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_Rhodie_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_Rhodie_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_Rhodie_co.tga" };
@@ -760,7 +859,6 @@ class CfgWeapons {
     {
         scopeArsenal = 0;
         author = "Bohemia Interactive, Arby25, Toadie";
-        model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_xmag.p3d";
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_Rhodie_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_Rhodie_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_Rhodie_co.tga" };
         inertia = 0.43+0.225;
         __DEXTERITY(4.3 + 2.25, 0);
@@ -773,8 +871,8 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 551.18;
         scope = public;
-        displayName = "Enfield L1A1 SLR";
-        descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_L1A1;
+        descriptionShort = $STR_NIA_FAL_DESC;
         model = "\hlc_wp_FAL\mesh\l1a1\L1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_l1a1_x_ca";
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
@@ -803,10 +901,10 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 551.18;
         scope = public;
-        displayName = "CAL C1A1";
+        displayName = $STR_NIA_rifle_C1A1;
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\c1\rec_co.tga", "hlc_wp_fal\tex\barrel-slr_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\fsight2_co.tga", "hlc_wp_fal\tex\c1\foregrip-vented_co.tga","hlc_wp_fal\tex\c1\grip-enfield_co.tga","hlc_wp_fal\tex\israeli\rearsight-slr_co.tga","hlc_wp_fal\tex\c1\stock-solid_co.tga","hlc_wp_fal\tex\mag-20_co.tga" };
-        descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
+        descriptionShort = $STR_NIA_FAL_DESC;
         model = "\hlc_wp_FAL\mesh\C1A1\C1A1.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_c1_x_ca";
         class __MAGSWITCHCLASS {
@@ -832,8 +930,8 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 533.4;
         scope = public;
-        displayName = "FN LAR";
-        descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_LAR;
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handanim[] = {"OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm"};
@@ -903,8 +1001,8 @@ class CfgWeapons {
         ACE_barrelLength = 457.2;
         scope = public;
         initspeed = -0.868;
-        displayName = "Lithgow SLR Chopmod";
-        descriptionShort = "Butchered AOW<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_FALSuchka;
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = {"hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35};
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\chopmod_hands.rtm"};

@@ -20,7 +20,7 @@ class CfgSoundShaders {
         samples[] = {
             { "hlc_wp_fn3011\snd\FN3011_mid", 1 }
         };
-        volume = 1.672;
+        volume = 1;
         range = 2500;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -44,9 +44,9 @@ class CfgSoundShaders {
     };
     class FN3011_tailDistant_SoundShader {
         samples[] = {
-            { "\A3\Sounds_F\arsenal\weapons\LongRangeRifles\M320\M320_taildistant", 1 }
+            { "\A3\sounds_f_mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR06_tailDistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
