@@ -1,514 +1,507 @@
+    
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-    <Package name="NIA_wp_SG550">
-        <Container name="Names">
-            <Key ID="STR_NIA_SG550">
-            <Original>SIG SG550</Original>
-            <English>SIG SG550</English>
-            <Czech>SIG SG550</Czech>
-            <French>SIG SG550</French>
-            <Spanish>SIG SG550</Spanish>
-            <Italian>SIG SG550</Italian>
-            <Polish>SIG SG550</Polish>
-            <Portuguese>SIG SG550</Portuguese>
-            <Russian>SIG SG550</Russian>
-            <German>SIG SG550</German>
-            <Japanese>SIG SG550</Japanese>
-            <Korean>SIG SG550</Korean>
-            <Chinesesimp>SIG SG550</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG550_RIS">
-            <Original>SIG SG550 (RIS)</Original>
-            <English>SIG SG550 (RIS)</English>
-            <Czech>SIG SG550 (RIS)</Czech>
-            <French>SIG SG550 (RIS)</French>
-            <Spanish>SIG SG550 (RIS)</Spanish>
-            <Italian>SIG SG550 (RIS)</Italian>
-            <Polish>SIG SG550 (RIS)</Polish>
-            <Portuguese>SIG SG550 (RIS)</Portuguese>
-            <Russian>SIG SG550 (RIS)</Russian>
-            <German>SIG SG550 (RIS)</German>
-            <Japanese>SIG SG550 (RIS)</Japanese>
-            <Korean>SIG SG550 (RIS)</Korean>
-            <Chinesesimp>SIG SG550 (RIS)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG550_TAC">
-            <Original>SIG SG550 (TAC)</Original>
-            <English>SIG SG550 (TAC)</English>
-            <Czech>SIG SG550 (TAC)</Czech>
-            <French>SIG SG550 (TAC)</French>
-            <Spanish>SIG SG550 (TAC)</Spanish>
-            <Italian>SIG SG550 (TAC)</Italian>
-            <Polish>SIG SG550 (TAC)</Polish>
-            <Portuguese>SIG SG550 (TAC)</Portuguese>
-            <Russian>SIG SG550 (TAC)</Russian>
-            <German>SIG SG550 (TAC)</German>
-            <Japanese>SIG SG550 (TAC)</Japanese>
-            <Korean>SIG SG550 (TAC)</Korean>
-            <Chinesesimp>SIG SG550 (TAC)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG550_GL">
-            <Original>SIG SG550 (GL)</Original>
-            <English>SIG SG550 (GL)</English>
-            <Czech>SIG SG550 (GL)</Czech>
-            <French>SIG SG550 (GL)</French>
-            <Spanish>SIG SG550 (GL)</Spanish>
-            <Italian>SIG SG550 (GL)</Italian>
-            <Polish>SIG SG550 (GL)</Polish>
-            <Portuguese>SIG SG550 (GL)</Portuguese>
-            <Russian>SIG SG550 (GL)</Russian>
-            <German>SIG SG550 (GL)</German>
-            <Japanese>SIG SG550 (GL)</Japanese>
-            <Korean>SIG SG550 (GL)</Korean>
-            <Chinesesimp>SIG SG550 (GL)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG550_TAC_GL">
-            <Original>SIG SG550 (TAC/GL)</Original>
-            <EnTAC/GLish>SIG SG550 (TAC/GL)</EnTAC/GLish>
-            <Czech>SIG SG550 (TAC/GL)</Czech>
-            <French>SIG SG550 (TAC/GL)</French>
-            <Spanish>SIG SG550 (TAC/GL)</Spanish>
-            <Italian>SIG SG550 (TAC/GL)</Italian>
-            <Polish>SIG SG550 (TAC/GL)</Polish>
-            <Portuguese>SIG SG550 (TAC/GL)</Portuguese>
-            <Russian>SIG SG550 (TAC/GL)</Russian>
-            <German>SIG SG550 (TAC/GL)</German>
-            <Japanese>SIG SG550 (TAC/GL)</Japanese>
-            <Korean>SIG SG550 (TAC/GL)</Korean>
-            <Chinesesimp>SIG SG550 (TAC/GL)</Chinesesimp>
-            </Key>
-
-            <Key ID="STR_NIA_SG551SB">
-            <Original>SIG SG551-SB</Original>
-            <English>SIG SG551-SB</English>
-            <Czech>SIG SG551-SB</Czech>
-            <French>SIG SG551-SB</French>
-            <Spanish>SIG SG551-SB</Spanish>
-            <Italian>SIG SG551-SB</Italian>
-            <Polish>SIG SG551-SB</Polish>
-            <Portuguese>SIG SG551-SB</Portuguese>
-            <Russian>SIG SG551-SB</Russian>
-            <German>SIG SG551-SB</German>
-            <Japanese>SIG SG551-SB</Japanese>
-            <Korean>SIG SG551-SB</Korean>
-            <Chinesesimp>SIG SG551-SB</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551SB_RIS">
-            <Original>SIG SG551-SB (RIS)</Original>
-            <English>SIG SG551-SB (RIS)</English>
-            <Czech>SIG SG551-SB (RIS)</Czech>
-            <French>SIG SG551-SB (RIS)</French>
-            <Spanish>SIG SG551-SB (RIS)</Spanish>
-            <Italian>SIG SG551-SB (RIS)</Italian>
-            <Polish>SIG SG551-SB (RIS)</Polish>
-            <Portuguese>SIG SG551-SB (RIS)</Portuguese>
-            <Russian>SIG SG551-SB (RIS)</Russian>
-            <German>SIG SG551-SB (RIS)</German>
-            <Japanese>SIG SG551-SB (RIS)</Japanese>
-            <Korean>SIG SG551-SB (RIS)</Korean>
-            <Chinesesimp>SIG SG551-SB (RIS)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551SB_TAC">
-            <Original>SIG SG551-SB (TAC)</Original>
-            <English>SIG SG551-SB (TAC)</English>
-            <Czech>SIG SG551-SB (TAC)</Czech>
-            <French>SIG SG551-SB (TAC)</French>
-            <Spanish>SIG SG551-SB (TAC)</Spanish>
-            <Italian>SIG SG551-SB (TAC)</Italian>
-            <Polish>SIG SG551-SB (TAC)</Polish>
-            <Portuguese>SIG SG551-SB (TAC)</Portuguese>
-            <Russian>SIG SG551-SB (TAC)</Russian>
-            <German>SIG SG551-SB (TAC)</German>
-            <Japanese>SIG SG551-SB (TAC)</Japanese>
-            <Korean>SIG SG551-SB (TAC)</Korean>
-            <Chinesesimp>SIG SG551-SB (TAC)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551SB_GL">
-            <Original>SIG SG551-SB (TAC/GL)</Original>
-            <English>SIG SG551-SB (TAC/GL)</English>
-            <Czech>SIG SG551-SB (TAC/GL)</Czech>
-            <French>SIG SG551-SB (TAC/GL)</French>
-            <Spanish>SIG SG551-SB (TAC/GL)</Spanish>
-            <Italian>SIG SG551-SB (TAC/GL)</Italian>
-            <Polish>SIG SG551-SB (TAC/GL)</Polish>
-            <Portuguese>SIG SG551-SB (TAC/GL)</Portuguese>
-            <Russian>SIG SG551-SB (TAC/GL)</Russian>
-            <German>SIG SG551-SB (TAC/GL)</German>
-            <Japanese>SIG SG551-SB (TAC/GL)</Japanese>
-            <Korean>SIG SG551-SB (TAC/GL)</Korean>
-            <Chinesesimp>SIG SG551-SB (TAC/GL)</Chinesesimp>
-            </Key>
-          
-            <Key ID="STR_NIA_SG551LB">
-            <Original>SIG SG551-LB</Original>
-            <English>SIG SG551-LB</English>
-            <Czech>SIG SG551-LB</Czech>
-            <French>SIG SG551-LB</French>
-            <Spanish>SIG SG551-LB</Spanish>
-            <Italian>SIG SG551-LB</Italian>
-            <Polish>SIG SG551-LB</Polish>
-            <Portuguese>SIG SG551-LB</Portuguese>
-            <Russian>SIG SG551-LB</Russian>
-            <German>SIG SG551-LB</German>
-            <Japanese>SIG SG551-LB</Japanese>
-            <Korean>SIG SG551-LB</Korean>
-            <Chinesesimp>SIG SG551-LB</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551LB_RIS">
-            <Original>SIG SG551-LB (RIS)</Original>
-            <English>SIG SG551-LB (RIS)</English>
-            <Czech>SIG SG551-LB (RIS)</Czech>
-            <French>SIG SG551-LB (RIS)</French>
-            <Spanish>SIG SG551-LB (RIS)</Spanish>
-            <Italian>SIG SG551-LB (RIS)</Italian>
-            <Polish>SIG SG551-LB (RIS)</Polish>
-            <Portuguese>SIG SG551-LB (RIS)</Portuguese>
-            <Russian>SIG SG551-LB (RIS)</Russian>
-            <German>SIG SG551-LB (RIS)</German>
-            <Japanese>SIG SG551-LB (RIS)</Japanese>
-            <Korean>SIG SG551-LB (RIS)</Korean>
-            <Chinesesimp>SIG SG551-LB (RIS)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551LB_TAC">
-            <Original>SIG SG551-LB (TAC)</Original>
-            <English>SIG SG551-LB (TAC)</English>
-            <Czech>SIG SG551-LB (TAC)</Czech>
-            <French>SIG SG551-LB (TAC)</French>
-            <Spanish>SIG SG551-LB (TAC)</Spanish>
-            <Italian>SIG SG551-LB (TAC)</Italian>
-            <Polish>SIG SG551-LB (TAC)</Polish>
-            <Portuguese>SIG SG551-LB (TAC)</Portuguese>
-            <Russian>SIG SG551-LB (TAC)</Russian>
-            <German>SIG SG551-LB (TAC)</German>
-            <Japanese>SIG SG551-LB (TAC)</Japanese>
-            <Korean>SIG SG551-LB (TAC)</Korean>
-            <Chinesesimp>SIG SG551-LB (TAC)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551LB_GL">
-            <Original>SIG SG551-LB (TAC/GL)</Original>
-            <English>SIG SG551-LB (TAC/GL)</English>
-            <Czech>SIG SG551-LB (TAC/GL)</Czech>
-            <French>SIG SG551-LB (TAC/GL)</French>
-            <Spanish>SIG SG551-LB (TAC/GL)</Spanish>
-            <Italian>SIG SG551-LB (TAC/GL)</Italian>
-            <Polish>SIG SG551-LB (TAC/GL)</Polish>
-            <Portuguese>SIG SG551-LB (TAC/GL)</Portuguese>
-            <Russian>SIG SG551-LB (TAC/GL)</Russian>
-            <German>SIG SG551-LB (TAC/GL)</German>
-            <Japanese>SIG SG551-LB (TAC/GL)</Japanese>
-            <Korean>SIG SG551-LB (TAC/GL)</Korean>
-            <Chinesesimp>SIG SG551-LB (TAC/GL)</Chinesesimp>
-            </Key>
-          
-            <Key ID="STR_NIA_SG553SB">
-            <Original>SIG SG553-SB</Original>
-            <English>SIG SG553-SB</English>
-            <Czech>SIG SG553-SB</Czech>
-            <French>SIG SG553-SB</French>
-            <Spanish>SIG SG553-SB</Spanish>
-            <Italian>SIG SG553-SB</Italian>
-            <Polish>SIG SG553-SB</Polish>
-            <Portuguese>SIG SG553-SB</Portuguese>
-            <Russian>SIG SG553-SB</Russian>
-            <German>SIG SG553-SB</German>
-            <Japanese>SIG SG553-SB</Japanese>
-            <Korean>SIG SG553-SB</Korean>
-            <Chinesesimp>SIG SG553-SB</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553SB_RIS">
-            <Original>SIG SG553-SB (RIS)</Original>
-            <English>SIG SG553-SB (RIS)</English>
-            <Czech>SIG SG553-SB (RIS)</Czech>
-            <French>SIG SG553-SB (RIS)</French>
-            <Spanish>SIG SG553-SB (RIS)</Spanish>
-            <Italian>SIG SG553-SB (RIS)</Italian>
-            <Polish>SIG SG553-SB (RIS)</Polish>
-            <Portuguese>SIG SG553-SB (RIS)</Portuguese>
-            <Russian>SIG SG553-SB (RIS)</Russian>
-            <German>SIG SG553-SB (RIS)</German>
-            <Japanese>SIG SG553-SB (RIS)</Japanese>
-            <Korean>SIG SG553-SB (RIS)</Korean>
-            <Chinesesimp>SIG SG553-SB (RIS)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553SB_TAC">
-            <Original>SIG SG553-SB (TAC)</Original>
-            <English>SIG SG553-SB (TAC)</English>
-            <Czech>SIG SG553-SB (TAC)</Czech>
-            <French>SIG SG553-SB (TAC)</French>
-            <Spanish>SIG SG553-SB (TAC)</Spanish>
-            <Italian>SIG SG553-SB (TAC)</Italian>
-            <Polish>SIG SG553-SB (TAC)</Polish>
-            <Portuguese>SIG SG553-SB (TAC)</Portuguese>
-            <Russian>SIG SG553-SB (TAC)</Russian>
-            <German>SIG SG553-SB (TAC)</German>
-            <Japanese>SIG SG553-SB (TAC)</Japanese>
-            <Korean>SIG SG553-SB (TAC)</Korean>
-            <Chinesesimp>SIG SG553-SB (TAC)</Chinesesimp>
-            </Key>
-          
-            <Key ID="STR_NIA_SG553LB">
-            <Original>SIG SG553-LB</Original>
-            <English>SIG SG553-LB</English>
-            <Czech>SIG SG553-LB</Czech>
-            <French>SIG SG553-LB</French>
-            <Spanish>SIG SG553-LB</Spanish>
-            <Italian>SIG SG553-LB</Italian>
-            <Polish>SIG SG553-LB</Polish>
-            <Portuguese>SIG SG553-LB</Portuguese>
-            <Russian>SIG SG553-LB</Russian>
-            <German>SIG SG553-LB</German>
-            <Japanese>SIG SG553-LB</Japanese>
-            <Korean>SIG SG553-LB</Korean>
-            <Chinesesimp>SIG SG553-LB</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553LB_RIS">
-            <Original>SIG SG553-LB (RIS)</Original>
-            <English>SIG SG553-LB (RIS)</English>
-            <Czech>SIG SG553-LB (RIS)</Czech>
-            <French>SIG SG553-LB (RIS)</French>
-            <Spanish>SIG SG553-LB (RIS)</Spanish>
-            <Italian>SIG SG553-LB (RIS)</Italian>
-            <Polish>SIG SG553-LB (RIS)</Polish>
-            <Portuguese>SIG SG553-LB (RIS)</Portuguese>
-            <Russian>SIG SG553-LB (RIS)</Russian>
-            <German>SIG SG553-LB (RIS)</German>
-            <Japanese>SIG SG553-LB (RIS)</Japanese>
-            <Korean>SIG SG553-LB (RIS)</Korean>
-            <Chinesesimp>SIG SG553-LB (RIS)</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553LB_TAC">
-            <Original>SIG SG553-LB (TAC)</Original>
-            <English>SIG SG553-LB (TAC)</English>
-            <Czech>SIG SG553-LB (TAC)</Czech>
-            <French>SIG SG553-LB (TAC)</French>
-            <Spanish>SIG SG553-LB (TAC)</Spanish>
-            <Italian>SIG SG553-LB (TAC)</Italian>
-            <Polish>SIG SG553-LB (TAC)</Polish>
-            <Portuguese>SIG SG553-LB (TAC)</Portuguese>
-            <Russian>SIG SG553-LB (TAC)</Russian>
-            <German>SIG SG553-LB (TAC)</German>
-            <Japanese>SIG SG553-LB (TAC)</Japanese>
-            <Korean>SIG SG553-LB (TAC)</Korean>
-            <Chinesesimp>SIG SG553-LB (TAC)</Chinesesimp>
-            </Key>
-
-          <Key ID="STR_NIA_SG550Sniper">
-            <Original>SIG SG550-1 SP</Original>
-            <English>SIG SG550-1 SP</English>
-            <Czech>SIG SG550-1 SP</Czech>
-            <French>SIG SG550-1 SP</French>
-            <Spanish>SIG SG550-1 SP</Spanish>
-            <Italian>SIG SG550-1 SP</Italian>
-            <Polish>SIG SG550-1 SP</Polish>
-            <Portuguese>SIG SG550-1 SP</Portuguese>
-            <Russian>SIG SG550-1 SP</Russian>
-            <German>SIG SG550-1 SP</German>
-            <Japanese>SIG SG550-1 SP</Japanese>
-            <Korean>SIG SG550-1 SP</Korean>
-            <Chinesesimp>SIG SG550-1 SP</Chinesesimp>
-          </Key>
-          <Key ID="STR_NIA_SG550Sniper_RIS">
-            <Original>SIG SG550-1 SP (RIS)</Original>
-            <English>SIG SG550-1 SP (RIS)</English>
-            <Czech>SIG SG550-1 SP (RIS)</Czech>
-            <French>SIG SG550-1 SP (RIS)</French>
-            <Spanish>SIG SG550-1 SP (RIS)</Spanish>
-            <Italian>SIG SG550-1 SP (RIS)</Italian>
-            <Polish>SIG SG550-1 SP (RIS)</Polish>
-            <Portuguese>SIG SG550-1 SP (RIS)</Portuguese>
-            <Russian>SIG SG550-1 SP (RIS)</Russian>
-            <German>SIG SG550-1 SP (RIS)</German>
-            <Japanese>SIG SG550-1 SP (RIS)</Japanese>
-            <Korean>SIG SG550-1 SP (RIS)</Korean>
-            <Chinesesimp>SIG SG550-1 SP (RIS)</Chinesesimp>
-          </Key>
-          <Key ID="STR_NIA_SG553RSB">
-            <Original>SIG SG553R-SB</Original>
-            <English>SIG SG553R-SB</English>
-            <Czech>SIG SG553R-SB</Czech>
-            <French>SIG SG553R-SB</French>
-            <Spanish>SIG SG553R-SB</Spanish>
-            <Italian>SIG SG553R-SB</Italian>
-            <Polish>SIG SG553R-SB</Polish>
-            <Portuguese>SIG SG553R-SB</Portuguese>
-            <Russian>SIG SG553R-SB</Russian>
-            <German>SIG SG553R-SB</German>
-            <Japanese>SIG SG553R-SB</Japanese>
-            <Korean>SIG SG553R-SB</Korean>
-            <Chinesesimp>SIG SG553R-SB</Chinesesimp>
-            </Key>
-          <Key ID="STR_NIA_SG553RSB_RIS">
-            <Original>SIG SG553R-SB (RIS)</Original>
-            <English>SIG SG553R-SB (RIS)</English>
-            <Czech>SIG SG553R-SB (RIS)</Czech>
-            <French>SIG SG553R-SB (RIS)</French>
-            <Spanish>SIG SG553R-SB (RIS)</Spanish>
-            <Italian>SIG SG553R-SB (RIS)</Italian>
-            <Polish>SIG SG553R-SB (RIS)</Polish>
-            <Portuguese>SIG SG553R-SB (RIS)</Portuguese>
-            <Russian>SIG SG553R-SB (RIS)</Russian>
-            <German>SIG SG553R-SB (RIS)</German>
-            <Japanese>SIG SG553R-SB (RIS)</Japanese>
-            <Korean>SIG SG553R-SB (RIS)</Korean>
-            <Chinesesimp>SIG SG553R-SB (RIS)</Chinesesimp>
-          </Key>
-          <Key ID="STR_NIA_SG553RSB_TAC">
-          <Original>SIG SG553R-SB (TAC)</Original>
-          <English>SIG SG553R-SB (TAC)</English>
-          <Czech>SIG SG553R-SB (TAC)</Czech>
-          <French>SIG SG553R-SB (TAC)</French>
-          <Spanish>SIG SG553R-SB (TAC)</Spanish>
-          <Italian>SIG SG553R-SB (TAC)</Italian>
-          <Polish>SIG SG553R-SB (TAC)</Polish>
-          <Portuguese>SIG SG553R-SB (TAC)</Portuguese>
-          <Russian>SIG SG553R-SB (TAC)</Russian>
-          <German>SIG SG553R-SB (TAC)</German>
-          <Japanese>SIG SG553R-SB (TAC)</Japanese>
-          <Korean>SIG SG553R-SB (TAC)</Korean>
-          <Chinesesimp>SIG SG553R-SB (TAC)</Chinesesimp>
-          </Key>
-          
-          <Key ID="STR_NIA_SG553RLB">
-          <Original>SIG SG553R-LB</Original>
-          <English>SIG SG553R-LB</English>
-          <Czech>SIG SG553R-LB</Czech>
-          <French>SIG SG553R-LB</French>
-          <Spanish>SIG SG553R-LB</Spanish>
-          <Italian>SIG SG553R-LB</Italian>
-          <Polish>SIG SG553R-LB</Polish>
-          <Portuguese>SIG SG553R-LB</Portuguese>
-          <Russian>SIG SG553R-LB</Russian>
-          <German>SIG SG553R-LB</German>
-          <Japanese>SIG SG553R-LB</Japanese>
-          <Korean>SIG SG553R-LB</Korean>
-          <Chinesesimp>SIG SG553R-LB</Chinesesimp>
-          </Key>
-          <Key ID="STR_NIA_SG553RLB_RIS">
-          <Original>SIG SG553R-LB (RIS)</Original>
-          <English>SIG SG553R-LB (RIS)</English>
-          <Czech>SIG SG553R-LB (RIS)</Czech>
-          <French>SIG SG553R-LB (RIS)</French>
-          <Spanish>SIG SG553R-LB (RIS)</Spanish>
-          <Italian>SIG SG553R-LB (RIS)</Italian>
-          <Polish>SIG SG553R-LB (RIS)</Polish>
-          <Portuguese>SIG SG553R-LB (RIS)</Portuguese>
-          <Russian>SIG SG553R-LB (RIS)</Russian>
-          <German>SIG SG553R-LB (RIS)</German>
-          <Japanese>SIG SG553R-LB (RIS)</Japanese>
-          <Korean>SIG SG553R-LB (RIS)</Korean>
-          <Chinesesimp>SIG SG553R-LB (RIS)</Chinesesimp>
-          </Key>
-          <Key ID="STR_NIA_SG553RLB_TAC">
-          <Original>SIG SG553R-LB (TAC)</Original>
-          <English>SIG SG553R-LB (TAC)</English>
-          <Czech>SIG SG553R-LB (TAC)</Czech>
-          <French>SIG SG553R-LB (TAC)</French>
-          <Spanish>SIG SG553R-LB (TAC)</Spanish>
-          <Italian>SIG SG553R-LB (TAC)</Italian>
-          <Polish>SIG SG553R-LB (TAC)</Polish>
-          <Portuguese>SIG SG553R-LB (TAC)</Portuguese>
-          <Russian>SIG SG553R-LB (TAC)</Russian>
-          <German>SIG SG553R-LB (TAC)</German>
-          <Japanese>SIG SG553R-LB (TAC)</Japanese>
-          <Korean>SIG SG553R-LB (TAC)</Korean>
-          <Chinesesimp>SIG SG553R-LB (TAC)</Chinesesimp>
-          </Key>
-      </Container>
-      <Container name="acc_names">
-        <Key ID="STR_NIA_optic_ZF95_550">
-          <Original>Kahles ZF95 (SG550 Mount)</Original>
-          <English>Kahles ZF95 (SG550 Mount)</English>
-          <Czech>Kahles ZF95 (SG550 Mount)</Czech>
-          <French>Kahles ZF95 (SG550 Mount)</French>
-          <Spanish>Kahles ZF95 (SG550 Mount)</Spanish>
-          <Italian>Kahles ZF95 (SG550 Mount)</Italian>
-          <Polish>Kahles ZF95 (SG550 Mount)</Polish>
-          <Portuguese>Kahles ZF95 (SG550 Mount)</Portuguese>
-          <Russian>Kahles ZF95 (SG550 Mount)</Russian>
-          <German>Kahles ZF95 (SG550 Mount)</German>
-          <Japanese>Kahles ZF95 (SG550 Mount)</Japanese>
-          <Korean>Kahles ZF95 (SG550 Mount)</Korean>
-          <Chinesesimp>Kahles ZF95 (SG550 Mount)</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_opticDiavariZ_550">
-          <Original>Zeiss Diavari-Z (SG550-1 Mount)</Original>
-          <English>Zeiss Diavari-Z (SG550-1 Mount)</English>
-          <Czech>Zeiss Diavari-Z (SG550-1 Mount)</Czech>
-          <French>Zeiss Diavari-Z (SG550-1 Mount)</French>
-          <Spanish>Zeiss Diavari-Z (SG550-1 Mount)</Spanish>
-          <Italian>Zeiss Diavari-Z (SG550-1 Mount)</Italian>
-          <Polish>Zeiss Diavari-Z (SG550-1 Mount)</Polish>
-          <Portuguese>Zeiss Diavari-Z (SG550-1 Mount)</Portuguese>
-          <Russian>Zeiss Diavari-Z (SG550-1 Mount)</Russian>
-          <German>Zeiss Diavari-Z (SG550-1 Mount)</German>
-          <Japanese>Zeiss Diavari-Z (SG550-1 Mount)</Japanese>
-          <Korean>Zeiss Diavari-Z (SG550-1 Mount)</Korean>
-          <Chinesesimp>Zeiss Diavari-Z (SG550-1 Mount)</Chinesesimp>
-        </Key>
-
-        <Key ID="STR_NIA_optic_ZF4x_550">
-          <Original>FN STANAG 4x28 (SG550 Mount)</Original>
-          <English>FN STANAG 4x28 (SG550 Mount)</English>
-          <Czech>FN STANAG 4x28 (SG550 Mount)</Czech>
-          <French>FN STANAG 4x28 (SG550 Mount)</French>
-          <Spanish>FN STANAG 4x28 (SG550 Mount)</Spanish>
-          <Italian>FN STANAG 4x28 (SG550 Mount)</Italian>
-          <Polish>FN STANAG 4x28 (SG550 Mount)</Polish>
-          <Portuguese>FN STANAG 4x28 (SG550 Mount)</Portuguese>
-          <Russian>FN STANAG 4x28 (SG550 Mount)</Russian>
-          <German>FN STANAG 4x28 (SG550 Mount)</German>
-          <Japanese>FN STANAG 4x28 (SG550 Mount)</Japanese>
-          <Korean>FN STANAG 4x28 (SG550 Mount)</Korean>
-          <Chinesesimp>FN STANAG 4x28 (SG550 Mount)</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_optic_ZF4x_550_2d">
-          <Original>FN STANAG 4x28 (SG550 Mount/2D)</Original>
-          <English>FN STANAG 4x28 (SG550 Mount/2D)</English>
-          <Czech>FN STANAG 4x28 (SG550 Mount/2D)</Czech>
-          <French>FN STANAG 4x28 (SG550 Mount/2D)</French>
-          <Spanish>FN STANAG 4x28 (SG550 Mount/2D)</Spanish>
-          <Italian>FN STANAG 4x28 (SG550 Mount/2D)</Italian>
-          <Polish>FN STANAG 4x28 (SG550 Mount/2D)</Polish>
-          <Portuguese>FN STANAG 4x28 (SG550 Mount/2D)</Portuguese>
-          <Russian>FN STANAG 4x28 (SG550 Mount/2D)</Russian>
-          <German>FN STANAG 4x28 (SG550 Mount/2D)</German>
-          <Japanese>FN STANAG 4x28 (SG550 Mount/2D)</Japanese>
-          <Korean>FN STANAG 4x28 (SG550 Mount/2D)</Korean>
-          <Chinesesimp>FN STANAG 4x28 (SG550 Mount/2D)</Chinesesimp>
-        </Key>
-
-        <Key ID="STR_NIA_optic_kern_AARAU_550">
-          <Original>Kern AARAU 4x24 (SG550 Mount)</Original>
-          <English>Kern AARAU 4x24 (SG550 Mount)</English>
-          <Czech>Kern AARAU 4x24 (SG550 Mount)</Czech>
-          <French>Kern AARAU 4x24 (SG550 Mount)</French>
-          <Spanish>Kern AARAU 4x24 (SG550 Mount)</Spanish>
-          <Italian>Kern AARAU 4x24 (SG550 Mount)</Italian>
-          <Polish>Kern AARAU 4x24 (SG550 Mount)</Polish>
-          <Portuguese>Kern AARAU 4x24 (SG550 Mount)</Portuguese>
-          <Russian>Kern AARAU 4x24 (SG550 Mount)</Russian>
-          <German>Kern AARAU 4x24 (SG550 Mount)</German>
-          <Japanese>Kern AARAU 4x24 (SG550 Mount)</Japanese>
-          <Korean>Kern AARAU 4x24 (SG550 Mount)</Korean>
-          <Chinesesimp>Kern AARAU 4x24 (SG550 Mount)</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_optic_kern_AARAU_550_2D">
-          <Original>Kern AARAU 4x24 (SG550 Mount/2D)</Original>
-          <English>Kern AARAU 4x24 (SG550 Mount/2D)</English>
-          <Czech>Kern AARAU 4x24 (SG550 Mount/2D)</Czech>
-          <French>Kern AARAU 4x24 (SG550 Mount/2D)</French>
-          <Spanish>Kern AARAU 4x24 (SG550 Mount/2D)</Spanish>
-          <Italian>Kern AARAU 4x24 (SG550 Mount/2D)</Italian>
-          <Polish>Kern AARAU 4x24 (SG550 Mount/2D)</Polish>
-          <Portuguese>Kern AARAU 4x24 (SG550 Mount/2D)</Portuguese>
-          <Russian>Kern AARAU 4x24 (SG550 Mount/2D)</Russian>
-          <German>Kern AARAU 4x24 (SG550 Mount/2D)</German>
-          <Japanese>Kern AARAU 4x24 (SG550 Mount/2D)</Japanese>
-          <Korean>Kern AARAU 4x24 (SG550 Mount/2D)</Korean>
-          <Chinesesimp>Kern AARAU 4x24 (SG550 Mount/2D)</Chinesesimp>
-        </Key>
-          <Key ID="STR_NIA_muzzle_snds_ROTEX3P">
-            <Original>B&amp;T Rotex 3-Prong Brake</Original>
+  <Package name="NIA_wp_SG550">
+    <Container name="Names">
+      <Key ID="STR_NIA_SG550">
+        <Original>SIG SG550</Original>
+        <English>SIG SG550</English>
+        <Czech>SIG SG550</Czech>
+        <French>SIG SG550</French>
+        <Spanish>SIG SG550</Spanish>
+        <Italian>SIG SG550</Italian>
+        <Polish>SIG SG550</Polish>
+        <Portuguese>SIG SG550</Portuguese>
+        <Russian>SIG SG550</Russian>
+        <German>SIG SG550</German>
+        <Korean>SIG SG550</Korean>
+        <Chinesesimp>SIG SG550</Chinesesimp>
+        <Japanese>SIG SG550</Japanese>
+      </Key>
+      <Key ID="STR_NIA_SG550_RIS">
+        <Original>SIG SG550 (RIS)</Original>
+        <English>SIG SG550 (RIS)</English>
+        <Czech>SIG SG550 (RIS)</Czech>
+        <French>SIG SG550 (RIS)</French>
+        <Spanish>SIG SG550 (RIS)</Spanish>
+        <Italian>SIG SG550 (RIS)</Italian>
+        <Polish>SIG SG550 (RIS)</Polish>
+        <Portuguese>SIG SG550 (RIS)</Portuguese>
+        <Russian>SIG SG550 (RIS)</Russian>
+        <German>SIG SG550 (RIS)</German>
+        <Japanese>SIG SG550 (RIS)</Japanese>
+        <Korean>SIG SG550 (RIS)</Korean>
+        <Chinesesimp>SIG SG550 (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550_TAC">
+        <Original>SIG SG550 (TAC)</Original>
+        <English>SIG SG550 (TAC)</English>
+        <Czech>SIG SG550 (TAC)</Czech>
+        <French>SIG SG550 (TAC)</French>
+        <Spanish>SIG SG550 (TAC)</Spanish>
+        <Italian>SIG SG550 (TAC)</Italian>
+        <Polish>SIG SG550 (TAC)</Polish>
+        <Portuguese>SIG SG550 (TAC)</Portuguese>
+        <Russian>SIG SG550 (TAC)</Russian>
+        <German>SIG SG550 (TAC)</German>
+        <Japanese>SIG SG550 (タクティカル)</Japanese>
+        <Korean>SIG SG550 (TAC)</Korean>
+        <Chinesesimp>SIG SG550 (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550_GL">
+        <Original>SIG SG550 (GL)</Original>
+        <English>SIG SG550 (GL)</English>
+        <Czech>SIG SG550 (GL)</Czech>
+        <French>SIG SG550 (GL)</French>
+        <Spanish>SIG SG550 (GL)</Spanish>
+        <Italian>SIG SG550 (GL)</Italian>
+        <Polish>SIG SG550 (GL)</Polish>
+        <Portuguese>SIG SG550 (GL)</Portuguese>
+        <Russian>SIG SG550 (GL)</Russian>
+        <German>SIG SG550 (GL)</German>
+        <Japanese>SIG SG550 (GL)</Japanese>
+        <Korean>SIG SG550 (GL)</Korean>
+        <Chinesesimp>SIG SG550 (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550_TAC_GL">
+        <Original>SIG SG550 (TAC/GL)</Original>
+        <English>SIG SG550 (TAC/GL)</English>
+        <Czech>SIG SG550 (TAC/GL)</Czech>
+        <French>SIG SG550 (TAC/GL)</French>
+        <Spanish>SIG SG550 (TAC/GL)</Spanish>
+        <Italian>SIG SG550 (TAC/GL)</Italian>
+        <Polish>SIG SG550 (TAC/GL)</Polish>
+        <Portuguese>SIG SG550 (TAC/GL)</Portuguese>
+        <Russian>SIG SG550 (TAC/GL)</Russian>
+        <German>SIG SG550 (TAC/GL)</German>
+        <Japanese>SIG SG550 (タクティカル/GL)</Japanese>
+        <Korean>SIG SG550 (TAC/GL)</Korean>
+        <Chinesesimp>SIG SG550 (TAC/GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551SB">
+        <Original>SIG SG551-SB</Original>
+        <English>SIG SG551-SB</English>
+        <Czech>SIG SG551-SB</Czech>
+        <French>SIG SG551-SB</French>
+        <Spanish>SIG SG551-SB</Spanish>
+        <Italian>SIG SG551-SB</Italian>
+        <Polish>SIG SG551-SB</Polish>
+        <Portuguese>SIG SG551-SB</Portuguese>
+        <Russian>SIG SG551-SB</Russian>
+        <German>SIG SG551-SB</German>
+        <Japanese>SIG SG551-SB</Japanese>
+        <Korean>SIG SG551-SB</Korean>
+        <Chinesesimp>SIG SG551-SB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551SB_RIS">
+        <Original>SIG SG551-SB (RIS)</Original>
+        <English>SIG SG551-SB (RIS)</English>
+        <Czech>SIG SG551-SB (RIS)</Czech>
+        <French>SIG SG551-SB (RIS)</French>
+        <Spanish>SIG SG551-SB (RIS)</Spanish>
+        <Italian>SIG SG551-SB (RIS)</Italian>
+        <Polish>SIG SG551-SB (RIS)</Polish>
+        <Portuguese>SIG SG551-SB (RIS)</Portuguese>
+        <Russian>SIG SG551-SB (RIS)</Russian>
+        <German>SIG SG551-SB (RIS)</German>
+        <Japanese>SIG SG551-SB (RIS)</Japanese>
+        <Korean>SIG SG551-SB (RIS)</Korean>
+        <Chinesesimp>SIG SG551-SB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551SB_TAC">
+        <Original>SIG SG551-SB (TAC)</Original>
+        <English>SIG SG551-SB (TAC)</English>
+        <Czech>SIG SG551-SB (TAC)</Czech>
+        <French>SIG SG551-SB (TAC)</French>
+        <Spanish>SIG SG551-SB (TAC)</Spanish>
+        <Italian>SIG SG551-SB (TAC)</Italian>
+        <Polish>SIG SG551-SB (TAC)</Polish>
+        <Portuguese>SIG SG551-SB (TAC)</Portuguese>
+        <Russian>SIG SG551-SB (TAC)</Russian>
+        <German>SIG SG551-SB (TAC)</German>
+        <Japanese>SIG SG551-SB (タクティカル)</Japanese>
+        <Korean>SIG SG551-SB (TAC)</Korean>
+        <Chinesesimp>SIG SG551-SB (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551SB_GL">
+        <Original>SIG SG551-SB (TAC/GL)</Original>
+        <English>SIG SG551-SB (TAC/GL)</English>
+        <Czech>SIG SG551-SB (TAC/GL)</Czech>
+        <French>SIG SG551-SB (TAC/GL)</French>
+        <Spanish>SIG SG551-SB (TAC/GL)</Spanish>
+        <Italian>SIG SG551-SB (TAC/GL)</Italian>
+        <Polish>SIG SG551-SB (TAC/GL)</Polish>
+        <Portuguese>SIG SG551-SB (TAC/GL)</Portuguese>
+        <Russian>SIG SG551-SB (TAC/GL)</Russian>
+        <German>SIG SG551-SB (TAC/GL)</German>
+        <Japanese>SIG SG551-SB (タクティカル/GL)</Japanese>
+        <Korean>SIG SG551-SB (TAC/GL)</Korean>
+        <Chinesesimp>SIG SG551-SB (TAC/GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551LB">
+        <Original>SIG SG551-LB</Original>
+        <English>SIG SG551-LB</English>
+        <Czech>SIG SG551-LB</Czech>
+        <French>SIG SG551-LB</French>
+        <Spanish>SIG SG551-LB</Spanish>
+        <Italian>SIG SG551-LB</Italian>
+        <Polish>SIG SG551-LB</Polish>
+        <Portuguese>SIG SG551-LB</Portuguese>
+        <Russian>SIG SG551-LB</Russian>
+        <German>SIG SG551-LB</German>
+        <Japanese>SIG SG551-LB</Japanese>
+        <Korean>SIG SG551-LB</Korean>
+        <Chinesesimp>SIG SG551-LB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551LB_RIS">
+        <Original>SIG SG551-LB (RIS)</Original>
+        <English>SIG SG551-LB (RIS)</English>
+        <Czech>SIG SG551-LB (RIS)</Czech>
+        <French>SIG SG551-LB (RIS)</French>
+        <Spanish>SIG SG551-LB (RIS)</Spanish>
+        <Italian>SIG SG551-LB (RIS)</Italian>
+        <Polish>SIG SG551-LB (RIS)</Polish>
+        <Portuguese>SIG SG551-LB (RIS)</Portuguese>
+        <Russian>SIG SG551-LB (RIS)</Russian>
+        <German>SIG SG551-LB (RIS)</German>
+        <Japanese>SIG SG551-LB (RIS)</Japanese>
+        <Korean>SIG SG551-LB (RIS)</Korean>
+        <Chinesesimp>SIG SG551-LB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551LB_TAC">
+        <Original>SIG SG551-LB (TAC)</Original>
+        <English>SIG SG551-LB (TAC)</English>
+        <Czech>SIG SG551-LB (TAC)</Czech>
+        <French>SIG SG551-LB (TAC)</French>
+        <Spanish>SIG SG551-LB (TAC)</Spanish>
+        <Italian>SIG SG551-LB (TAC)</Italian>
+        <Polish>SIG SG551-LB (TAC)</Polish>
+        <Portuguese>SIG SG551-LB (TAC)</Portuguese>
+        <Russian>SIG SG551-LB (TAC)</Russian>
+        <German>SIG SG551-LB (TAC)</German>
+        <Japanese>SIG SG551-LB (タクティカル)</Japanese>
+        <Korean>SIG SG551-LB (TAC)</Korean>
+        <Chinesesimp>SIG SG551-LB (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551LB_GL">
+        <Original>SIG SG551-LB (TAC/GL)</Original>
+        <English>SIG SG551-LB (TAC/GL)</English>
+        <Czech>SIG SG551-LB (TAC/GL)</Czech>
+        <French>SIG SG551-LB (TAC/GL)</French>
+        <Spanish>SIG SG551-LB (TAC/GL)</Spanish>
+        <Italian>SIG SG551-LB (TAC/GL)</Italian>
+        <Polish>SIG SG551-LB (TAC/GL)</Polish>
+        <Portuguese>SIG SG551-LB (TAC/GL)</Portuguese>
+        <Russian>SIG SG551-LB (TAC/GL)</Russian>
+        <German>SIG SG551-LB (TAC/GL)</German>
+        <Japanese>SIG SG551-LB (タクティカル/GL)</Japanese>
+        <Korean>SIG SG551-LB (TAC/GL)</Korean>
+        <Chinesesimp>SIG SG551-LB (TAC/GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553SB">
+        <Original>SIG SG553-SB</Original>
+        <English>SIG SG553-SB</English>
+        <Czech>SIG SG553-SB</Czech>
+        <French>SIG SG553-SB</French>
+        <Spanish>SIG SG553-SB</Spanish>
+        <Italian>SIG SG553-SB</Italian>
+        <Polish>SIG SG553-SB</Polish>
+        <Portuguese>SIG SG553-SB</Portuguese>
+        <Russian>SIG SG553-SB</Russian>
+        <German>SIG SG553-SB</German>
+        <Japanese>SIG SG553-SB</Japanese>
+        <Korean>SIG SG553-SB</Korean>
+        <Chinesesimp>SIG SG553-SB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553SB_RIS">
+        <Original>SIG SG553-SB (RIS)</Original>
+        <English>SIG SG553-SB (RIS)</English>
+        <Czech>SIG SG553-SB (RIS)</Czech>
+        <French>SIG SG553-SB (RIS)</French>
+        <Spanish>SIG SG553-SB (RIS)</Spanish>
+        <Italian>SIG SG553-SB (RIS)</Italian>
+        <Polish>SIG SG553-SB (RIS)</Polish>
+        <Portuguese>SIG SG553-SB (RIS)</Portuguese>
+        <Russian>SIG SG553-SB (RIS)</Russian>
+        <German>SIG SG553-SB (RIS)</German>
+        <Japanese>SIG SG553-SB (RIS)</Japanese>
+        <Korean>SIG SG553-SB (RIS)</Korean>
+        <Chinesesimp>SIG SG553-SB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553SB_TAC">
+        <Original>SIG SG553-SB (TAC)</Original>
+        <English>SIG SG553-SB (TAC)</English>
+        <Czech>SIG SG553-SB (TAC)</Czech>
+        <French>SIG SG553-SB (TAC)</French>
+        <Spanish>SIG SG553-SB (TAC)</Spanish>
+        <Italian>SIG SG553-SB (TAC)</Italian>
+        <Polish>SIG SG553-SB (TAC)</Polish>
+        <Portuguese>SIG SG553-SB (TAC)</Portuguese>
+        <Russian>SIG SG553-SB (TAC)</Russian>
+        <German>SIG SG553-SB (TAC)</German>
+        <Japanese>SIG SG553-SB (タクティカル)</Japanese>
+        <Korean>SIG SG553-SB (TAC)</Korean>
+        <Chinesesimp>SIG SG553-SB (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553LB">
+        <Original>SIG SG553-LB</Original>
+        <English>SIG SG553-LB</English>
+        <Czech>SIG SG553-LB</Czech>
+        <French>SIG SG553-LB</French>
+        <Spanish>SIG SG553-LB</Spanish>
+        <Italian>SIG SG553-LB</Italian>
+        <Polish>SIG SG553-LB</Polish>
+        <Portuguese>SIG SG553-LB</Portuguese>
+        <Russian>SIG SG553-LB</Russian>
+        <German>SIG SG553-LB</German>
+        <Japanese>SIG SG553-LB</Japanese>
+        <Korean>SIG SG553-LB</Korean>
+        <Chinesesimp>SIG SG553-LB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553LB_RIS">
+        <Original>SIG SG553-LB (RIS)</Original>
+        <English>SIG SG553-LB (RIS)</English>
+        <Czech>SIG SG553-LB (RIS)</Czech>
+        <French>SIG SG553-LB (RIS)</French>
+        <Spanish>SIG SG553-LB (RIS)</Spanish>
+        <Italian>SIG SG553-LB (RIS)</Italian>
+        <Polish>SIG SG553-LB (RIS)</Polish>
+        <Portuguese>SIG SG553-LB (RIS)</Portuguese>
+        <Russian>SIG SG553-LB (RIS)</Russian>
+        <German>SIG SG553-LB (RIS)</German>
+        <Japanese>SIG SG553-LB (RIS)</Japanese>
+        <Korean>SIG SG553-LB (RIS)</Korean>
+        <Chinesesimp>SIG SG553-LB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553LB_TAC">
+        <Original>SIG SG553-LB (TAC)</Original>
+        <English>SIG SG553-LB (TAC)</English>
+        <Czech>SIG SG553-LB (TAC)</Czech>
+        <French>SIG SG553-LB (TAC)</French>
+        <Spanish>SIG SG553-LB (TAC)</Spanish>
+        <Italian>SIG SG553-LB (TAC)</Italian>
+        <Polish>SIG SG553-LB (TAC)</Polish>
+        <Portuguese>SIG SG553-LB (TAC)</Portuguese>
+        <Russian>SIG SG553-LB (TAC)</Russian>
+        <German>SIG SG553-LB (TAC)</German>
+        <Japanese>SIG SG553-LB (タクティカル)</Japanese>
+        <Korean>SIG SG553-LB (TAC)</Korean>
+        <Chinesesimp>SIG SG553-LB (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550Sniper">
+        <Original>SIG SG550-1 SP</Original>
+        <English>SIG SG550-1 SP</English>
+        <Czech>SIG SG550-1 SP</Czech>
+        <French>SIG SG550-1 SP</French>
+        <Spanish>SIG SG550-1 SP</Spanish>
+        <Italian>SIG SG550-1 SP</Italian>
+        <Polish>SIG SG550-1 SP</Polish>
+        <Portuguese>SIG SG550-1 SP</Portuguese>
+        <Russian>SIG SG550-1 SP</Russian>
+        <German>SIG SG550-1 SP</German>
+        <Japanese>SIG SG550-1 SP</Japanese>
+        <Korean>SIG SG550-1 SP</Korean>
+        <Chinesesimp>SIG SG550-1 SP</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550Sniper_RIS">
+        <Original>SIG SG550-1 SP (RIS)</Original>
+        <English>SIG SG550-1 SP (RIS)</English>
+        <Czech>SIG SG550-1 SP (RIS)</Czech>
+        <French>SIG SG550-1 SP (RIS)</French>
+        <Spanish>SIG SG550-1 SP (RIS)</Spanish>
+        <Italian>SIG SG550-1 SP (RIS)</Italian>
+        <Polish>SIG SG550-1 SP (RIS)</Polish>
+        <Portuguese>SIG SG550-1 SP (RIS)</Portuguese>
+        <Russian>SIG SG550-1 SP (RIS)</Russian>
+        <German>SIG SG550-1 SP (RIS)</German>
+        <Japanese>SIG SG550-1 SP (RIS)</Japanese>
+        <Korean>SIG SG550-1 SP (RIS)</Korean>
+        <Chinesesimp>SIG SG550-1 SP (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RSB">
+        <Original>SIG SG553R-SB</Original>
+        <English>SIG SG553R-SB</English>
+        <Czech>SIG SG553R-SB</Czech>
+        <French>SIG SG553R-SB</French>
+        <Spanish>SIG SG553R-SB</Spanish>
+        <Italian>SIG SG553R-SB</Italian>
+        <Polish>SIG SG553R-SB</Polish>
+        <Portuguese>SIG SG553R-SB</Portuguese>
+        <Russian>SIG SG553R-SB</Russian>
+        <German>SIG SG553R-SB</German>
+        <Japanese>SIG SG553R-SB</Japanese>
+        <Korean>SIG SG553R-SB</Korean>
+        <Chinesesimp>SIG SG553R-SB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RSB_RIS">
+        <Original>SIG SG553R-SB (RIS)</Original>
+        <English>SIG SG553R-SB (RIS)</English>
+        <Czech>SIG SG553R-SB (RIS)</Czech>
+        <French>SIG SG553R-SB (RIS)</French>
+        <Spanish>SIG SG553R-SB (RIS)</Spanish>
+        <Italian>SIG SG553R-SB (RIS)</Italian>
+        <Polish>SIG SG553R-SB (RIS)</Polish>
+        <Portuguese>SIG SG553R-SB (RIS)</Portuguese>
+        <Russian>SIG SG553R-SB (RIS)</Russian>
+        <German>SIG SG553R-SB (RIS)</German>
+        <Japanese>SIG SG553R-SB (RIS)</Japanese>
+        <Korean>SIG SG553R-SB (RIS)</Korean>
+        <Chinesesimp>SIG SG553R-SB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RSB_TAC">
+        <Original>SIG SG553R-SB (TAC)</Original>
+        <English>SIG SG553R-SB (TAC)</English>
+        <Czech>SIG SG553R-SB (TAC)</Czech>
+        <French>SIG SG553R-SB (TAC)</French>
+        <Spanish>SIG SG553R-SB (TAC)</Spanish>
+        <Italian>SIG SG553R-SB (TAC)</Italian>
+        <Polish>SIG SG553R-SB (TAC)</Polish>
+        <Portuguese>SIG SG553R-SB (TAC)</Portuguese>
+        <Russian>SIG SG553R-SB (TAC)</Russian>
+        <German>SIG SG553R-SB (TAC)</German>
+        <Japanese>SIG SG553R-SB (タクティカル)</Japanese>
+        <Korean>SIG SG553R-SB (TAC)</Korean>
+        <Chinesesimp>SIG SG553R-SB (TAC)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RLB">
+        <Original>SIG SG553R-LB</Original>
+        <English>SIG SG553R-LB</English>
+        <Czech>SIG SG553R-LB</Czech>
+        <French>SIG SG553R-LB</French>
+        <Spanish>SIG SG553R-LB</Spanish>
+        <Italian>SIG SG553R-LB</Italian>
+        <Polish>SIG SG553R-LB</Polish>
+        <Portuguese>SIG SG553R-LB</Portuguese>
+        <Russian>SIG SG553R-LB</Russian>
+        <German>SIG SG553R-LB</German>
+        <Japanese>SIG SG553R-LB</Japanese>
+        <Korean>SIG SG553R-LB</Korean>
+        <Chinesesimp>SIG SG553R-LB</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RLB_RIS">
+        <Original>SIG SG553R-LB (RIS)</Original>
+        <English>SIG SG553R-LB (RIS)</English>
+        <Czech>SIG SG553R-LB (RIS)</Czech>
+        <French>SIG SG553R-LB (RIS)</French>
+        <Spanish>SIG SG553R-LB (RIS)</Spanish>
+        <Italian>SIG SG553R-LB (RIS)</Italian>
+        <Polish>SIG SG553R-LB (RIS)</Polish>
+        <Portuguese>SIG SG553R-LB (RIS)</Portuguese>
+        <Russian>SIG SG553R-LB (RIS)</Russian>
+        <German>SIG SG553R-LB (RIS)</German>
+        <Japanese>SIG SG553R-LB (RIS)</Japanese>
+        <Korean>SIG SG553R-LB (RIS)</Korean>
+        <Chinesesimp>SIG SG553R-LB (RIS)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553RLB_TAC">
+        <Original>SIG SG553R-LB (TAC)</Original>
+        <English>SIG SG553R-LB (TAC)</English>
+        <Czech>SIG SG553R-LB (TAC)</Czech>
+        <French>SIG SG553R-LB (TAC)</French>
+        <Spanish>SIG SG553R-LB (TAC)</Spanish>
+        <Italian>SIG SG553R-LB (TAC)</Italian>
+        <Polish>SIG SG553R-LB (TAC)</Polish>
+        <Portuguese>SIG SG553R-LB (TAC)</Portuguese>
+        <Russian>SIG SG553R-LB (TAC)</Russian>
+        <German>SIG SG553R-LB (TAC)</German>
+        <Japanese>SIG SG553R-LB (タクティカル)</Japanese>
+        <Korean>SIG SG553R-LB (TAC)</Korean>
+        <Chinesesimp>SIG SG553R-LB (TAC)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="acc_names">
+      <Key ID="STR_NIA_optic_ZF95_550">
+        <Original>Kahles ZF95 (SG550 Mount)</Original>
+        <English>Kahles ZF95 (SG550 Mount)</English>
+        <Czech>Kahles ZF95 (SG550 Mount)</Czech>
+        <French>Kahles ZF95 (SG550 Mount)</French>
+        <Spanish>Kahles ZF95 (SG550 Mount)</Spanish>
+        <Italian>Kahles ZF95 (SG550 Mount)</Italian>
+        <Polish>Kahles ZF95 (SG550 Mount)</Polish>
+        <Portuguese>Kahles ZF95 (SG550 Mount)</Portuguese>
+        <Russian>Kahles ZF95 (SG550 Mount)</Russian>
+        <German>Kahles ZF95 (SG550 Mount)</German>
+        <Japanese>Kahles ZF95 (SG550 マウント用)</Japanese>
+        <Korean>Kahles ZF95 (SG550 Mount)</Korean>
+        <Chinesesimp>Kahles ZF95 (SG550 Mount)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_opticDiavariZ_550">
+        <Original>Zeiss Diavari-Z (SG550-1 Mount)</Original>
+        <English>Zeiss Diavari-Z (SG550-1 Mount)</English>
+        <Czech>Zeiss Diavari-Z (SG550-1 Mount)</Czech>
+        <French>Zeiss Diavari-Z (SG550-1 Mount)</French>
+        <Spanish>Zeiss Diavari-Z (SG550-1 Mount)</Spanish>
+        <Italian>Zeiss Diavari-Z (SG550-1 Mount)</Italian>
+        <Polish>Zeiss Diavari-Z (SG550-1 Mount)</Polish>
+        <Portuguese>Zeiss Diavari-Z (SG550-1 Mount)</Portuguese>
+        <Russian>Zeiss Diavari-Z (SG550-1 Mount)</Russian>
+        <German>Zeiss Diavari-Z (SG550-1 Mount)</German>
+        <Japanese>Zeiss Diavari-Z (SG550-1 マウント用)</Japanese>
+        <Korean>Zeiss Diavari-Z (SG550-1 Mount)</Korean>
+        <Chinesesimp>Zeiss Diavari-Z (SG550-1 Mount)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ZF4x_550">
+        <Original>FN STANAG 4x28 (SG550 Mount)</Original>
+        <English>FN STANAG 4x28 (SG550 Mount)</English>
+        <Czech>FN STANAG 4x28 (SG550 Mount)</Czech>
+        <French>FN STANAG 4x28 (SG550 Mount)</French>
+        <Spanish>FN STANAG 4x28 (SG550 Mount)</Spanish>
+        <Italian>FN STANAG 4x28 (SG550 Mount)</Italian>
+        <Polish>FN STANAG 4x28 (SG550 Mount)</Polish>
+        <Portuguese>FN STANAG 4x28 (SG550 Mount)</Portuguese>
+        <Russian>FN STANAG 4x28 (SG550 Mount)</Russian>
+        <German>FN STANAG 4x28 (SG550 Mount)</German>
+        <Japanese>FN STANAG 4x28 (SG550 マウント用)</Japanese>
+        <Korean>FN STANAG 4x28 (SG550 Mount)</Korean>
+        <Chinesesimp>FN STANAG 4x28 (SG550 Mount)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ZF4x_550_2d">
+        <Original>FN STANAG 4x28 (SG550 Mount/2D)</Original>
+        <English>FN STANAG 4x28 (SG550 Mount/2D)</English>
+        <Czech>FN STANAG 4x28 (SG550 Mount/2D)</Czech>
+        <French>FN STANAG 4x28 (SG550 Mount/2D)</French>
+        <Spanish>FN STANAG 4x28 (SG550 Mount/2D)</Spanish>
+        <Italian>FN STANAG 4x28 (SG550 Mount/2D)</Italian>
+        <Polish>FN STANAG 4x28 (SG550 Mount/2D)</Polish>
+        <Portuguese>FN STANAG 4x28 (SG550 Mount/2D)</Portuguese>
+        <Russian>FN STANAG 4x28 (SG550 Mount/2D)</Russian>
+        <German>FN STANAG 4x28 (SG550 Mount/2D)</German>
+        <Japanese>FN STANAG 4x28 (SG550 マウント用/2D)</Japanese>
+        <Korean>FN STANAG 4x28 (SG550 Mount/2D)</Korean>
+        <Chinesesimp>FN STANAG 4x28 (SG550 Mount/2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_kern_AARAU_550">
+        <Original>Kern AARAU 4x24 (SG550 Mount)</Original>
+        <English>Kern AARAU 4x24 (SG550 Mount)</English>
+        <Czech>Kern AARAU 4x24 (SG550 Mount)</Czech>
+        <French>Kern AARAU 4x24 (SG550 Mount)</French>
+        <Spanish>Kern AARAU 4x24 (SG550 Mount)</Spanish>
+        <Italian>Kern AARAU 4x24 (SG550 Mount)</Italian>
+        <Polish>Kern AARAU 4x24 (SG550 Mount)</Polish>
+        <Portuguese>Kern AARAU 4x24 (SG550 Mount)</Portuguese>
+        <Russian>Kern AARAU 4x24 (SG550 Mount)</Russian>
+        <German>Kern AARAU 4x24 (SG550 Mount)</German>
+        <Japanese>Kern AARAU 4x24 (SG550 マウント用)</Japanese>
+        <Korean>Kern AARAU 4x24 (SG550 Mount)</Korean>
+        <Chinesesimp>Kern AARAU 4x24 (SG550 Mount)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_kern_AARAU_550_2D">
+        <Original>Kern AARAU 4x24 (SG550 Mount/2D)</Original>
+        <English>Kern AARAU 4x24 (SG550 Mount/2D)</English>
+        <Czech>Kern AARAU 4x24 (SG550 Mount/2D)</Czech>
+        <French>Kern AARAU 4x24 (SG550 Mount/2D)</French>
+        <Spanish>Kern AARAU 4x24 (SG550 Mount/2D)</Spanish>
+        <Italian>Kern AARAU 4x24 (SG550 Mount/2D)</Italian>
+        <Polish>Kern AARAU 4x24 (SG550 Mount/2D)</Polish>
+        <Portuguese>Kern AARAU 4x24 (SG550 Mount/2D)</Portuguese>
+        <Russian>Kern AARAU 4x24 (SG550 Mount/2D)</Russian>
+        <German>Kern AARAU 4x24 (SG550 Mount/2D)</German>
+        <Japanese>Kern AARAU 4x24 (SG550 マウント用/2D)</Japanese>
+        <Korean>Kern AARAU 4x24 (SG550 Mount/2D)</Korean>
+        <Chinesesimp>Kern AARAU 4x24 (SG550 Mount/2D)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_snds_ROTEX3P">
+        <Original>B&amp;T Rotex 3-Prong Brake</Original>
             <English>B&amp;T Rotex 3-Prong Brake</English>
             <Czech>B&amp;T Rotex 3-Prong Brake</Czech>
             <French>B&amp;T Rotex 3-Prong Brake</French>
@@ -518,136 +511,135 @@
             <Portuguese>B&amp;T Rotex 3-Prong Brake</Portuguese>
             <Russian>B&amp;T Rotex 3-Prong Brake</Russian>
             <German>B&amp;T Rotex 3-Prong Brake</German>
-            <Japanese>B&amp;T Rotex 3-Prong Brake</Japanese>
+            <Japanese>B&amp;T Rotex 3-Prong 消炎器</Japanese>
             <Korean>B&amp;T Rotex 3-Prong Brake</Korean>
             <Chinesesimp>B&amp;T Rotex 3-Prong Brake</Chinesesimp>
-          </Key>
-      </Container>
-      <Container name="Mag_Names">
-
-        <Key ID="STR_NIA_30rnd_556x45_EPR_SG550">
-          <Original>5.56mm EPR 30Rnd SG550 Magazine</Original>
-          <English>5.56mm EPR 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm EPR 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm EPR 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm EPR 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm EPR 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm EPR 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm EPR 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm EPR 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm EPR 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm EPR 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm EPR 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine</Chinesesimp>
         </Key>
-        <Key ID="STR_NIA_30rnd_556x45_SOST_SG550">
-          <Original>5.56mm SOST 30Rnd SG550 Magazine</Original>
-          <English>5.56mm SOST 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm SOST 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm SOST 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm SOST 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm SOST 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm SOST 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm SOST 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm SOST 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm SOST 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm SOST 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm SOST 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm SOST 30Rnd SG550 Magazine</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30rnd_556x45_SPR_SG550">
-          <Original>5.56mm SBLR 30Rnd SG550 Magazine</Original>
-          <English>5.56mm SBLR 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm SBLR 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm SBLR 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm SBLR 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm SBLR 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm SBLR 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm SBLR 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm SBLR 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm SBLR 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm SBLR 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm SBLR 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm SBLR 30Rnd SG550 Magazine</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30rnd_556x45_S_SG550">
-          <Original>5.56mm Subsonic 30Rnd SG550 Magazine</Original>
-          <English>5.56mm Subsonic 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm Subsonic 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm Subsonic 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm Subsonic 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm Subsonic 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm Subsonic 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm Subsonic 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm Subsonic 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm Subsonic 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm Subsonic 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm Subsonic 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm Subsonic 30Rnd SG550 Magazine</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30Rnd_556x45_M_SG550">
-          <Original>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Original>
-          <English>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</English>
-          <Czech>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Czech>
-          <French>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</French>
-          <Spanish>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Spanish>
-          <Italian>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Italian>
-          <Polish>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Polish>
-          <Portuguese>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Portuguese>
-          <Russian>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Russian>
-          <German>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</German>
-          <Japanese>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Japanese>
-          <Korean>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Korean>
-          <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30Rnd_556x45_T_SG550">
-          <Original>5.56mm Tracer 30Rnd SG550 Magazine</Original>
-          <English>5.56mm Tracer 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm Tracer 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm Tracer 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm Tracer 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm Tracer 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm Tracer 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm Tracer 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm Tracer 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm Tracer 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm Tracer 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm Tracer 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm Tracer 30Rnd SG550 Magazine</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30rnd_556x45_TDim_SG550">
-          <Original>5.56mm IR-DIM 30Rnd SG550 Magazine</Original>
-          <English>5.56mm IR-DIM 30Rnd SG550 Magazine</English>
-          <Czech>5.56mm IR-DIM 30Rnd SG550 Magazine</Czech>
-          <French>5.56mm IR-DIM 30Rnd SG550 Magazine</French>
-          <Spanish>5.56mm IR-DIM 30Rnd SG550 Magazine</Spanish>
-          <Italian>5.56mm IR-DIM 30Rnd SG550 Magazine</Italian>
-          <Polish>5.56mm IR-DIM 30Rnd SG550 Magazine</Polish>
-          <Portuguese>5.56mm IR-DIM 30Rnd SG550 Magazine</Portuguese>
-          <Russian>5.56mm IR-DIM 30Rnd SG550 Magazine</Russian>
-          <German>5.56mm IR-DIM 30Rnd SG550 Magazine</German>
-          <Japanese>5.56mm IR-DIM 30Rnd SG550 Magazine</Japanese>
-          <Korean>5.56mm IR-DIM 30Rnd SG550 Magazine</Korean>
-          <Chinesesimp>5.56mm IR-DIM 30Rnd SG550 Magazine</Chinesesimp>
-        </Key>
-        <Key ID="STR_NIA_30rnd_556x45_MDim_SG550">
-          <Original>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Original>
-          <English>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</English>
-          <Czech>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Czech>
-          <French>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</French>
-          <Spanish>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Spanish>
-          <Italian>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Italian>
-          <Polish>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Polish>
-          <Portuguese>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Portuguese>
-          <Russian>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Russian>
-          <German>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</German>
-          <Japanese>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Japanese>
-          <Korean>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Korean>
-          <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Chinesesimp>
-        </Key>
-      </Container>
-      <Container name="Descriptions">
-        <Key ID="STR_NIA_brake_Rotex3P_556_DESC">
+    </Container>
+    <Container name="Mag_Names">
+      <Key ID="STR_NIA_30rnd_556x45_EPR_SG550">
+        <Original>5.56mm EPR 30Rnd SG550 Magazine</Original>
+        <English>5.56mm EPR 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm EPR 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm EPR 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm EPR 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm EPR 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm EPR 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm EPR 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm EPR 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm EPR 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm EPR 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm EPR 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_SOST_SG550">
+        <Original>5.56mm SOST 30Rnd SG550 Magazine</Original>
+        <English>5.56mm SOST 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm SOST 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm SOST 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm SOST 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm SOST 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm SOST 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm SOST 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm SOST 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm SOST 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm SOST 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm SOST 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm SOST 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_SPR_SG550">
+        <Original>5.56mm SBLR 30Rnd SG550 Magazine</Original>
+        <English>5.56mm SBLR 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm SBLR 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm SBLR 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm SBLR 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm SBLR 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm SBLR 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm SBLR 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm SBLR 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm SBLR 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm SBLR 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm SBLR 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm SBLR 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_S_SG550">
+        <Original>5.56mm Subsonic 30Rnd SG550 Magazine</Original>
+        <English>5.56mm Subsonic 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm Subsonic 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm Subsonic 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm Subsonic 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm Subsonic 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm Subsonic 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm Subsonic 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm Subsonic 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm Subsonic 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm 亜音速 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm Subsonic 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm Subsonic 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_556x45_M_SG550">
+        <Original>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Original>
+        <English>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</English>
+        <Czech>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Czech>
+        <French>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</French>
+        <Spanish>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Spanish>
+        <Italian>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Italian>
+        <Polish>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Polish>
+        <Portuguese>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Portuguese>
+        <Russian>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Russian>
+        <German>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</German>
+        <Japanese>5.56mm EPR 30発入り SG550 マガジン (4発毎に曳光弾)</Japanese>
+        <Korean>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine (Tracers every 4)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_556x45_T_SG550">
+        <Original>5.56mm Tracer 30Rnd SG550 Magazine</Original>
+        <English>5.56mm Tracer 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm Tracer 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm Tracer 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm Tracer 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm Tracer 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm Tracer 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm Tracer 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm Tracer 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm Tracer 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm 曳光弾 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm Tracer 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm Tracer 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_TDim_SG550">
+        <Original>5.56mm IR-DIM 30Rnd SG550 Magazine</Original>
+        <English>5.56mm IR-DIM 30Rnd SG550 Magazine</English>
+        <Czech>5.56mm IR-DIM 30Rnd SG550 Magazine</Czech>
+        <French>5.56mm IR-DIM 30Rnd SG550 Magazine</French>
+        <Spanish>5.56mm IR-DIM 30Rnd SG550 Magazine</Spanish>
+        <Italian>5.56mm IR-DIM 30Rnd SG550 Magazine</Italian>
+        <Polish>5.56mm IR-DIM 30Rnd SG550 Magazine</Polish>
+        <Portuguese>5.56mm IR-DIM 30Rnd SG550 Magazine</Portuguese>
+        <Russian>5.56mm IR-DIM 30Rnd SG550 Magazine</Russian>
+        <German>5.56mm IR-DIM 30Rnd SG550 Magazine</German>
+        <Japanese>5.56mm IR-DIM 30発入り SG550 マガジン</Japanese>
+        <Korean>5.56mm IR-DIM 30Rnd SG550 Magazine</Korean>
+        <Chinesesimp>5.56mm IR-DIM 30Rnd SG550 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30rnd_556x45_MDim_SG550">
+        <Original>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Original>
+        <English>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</English>
+        <Czech>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Czech>
+        <French>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</French>
+        <Spanish>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Spanish>
+        <Italian>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Italian>
+        <Polish>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Polish>
+        <Portuguese>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Portuguese>
+        <Russian>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Russian>
+        <German>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</German>
+        <Japanese>5.56mm EPR 30発入り SG550 マガジン (IR-DIM every 4)</Japanese>
+        <Korean>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Korean>
+        <Chinesesimp>5.56mm EPR 30Rnd SG550 Magazine (IR-DIM every 4)</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_brake_Rotex3P_556_DESC">
           <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
           <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
           <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
@@ -658,101 +650,100 @@
           <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
           <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
           <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
-          <Japanese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Japanese>
+          <Japanese>3 点消炎器lt;br/&gt;口径: 5.56mm</Japanese>
           <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
           <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
-        </Key>
-            <Key ID="STR_NIA_SG550_DESC">
-            <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG551_DESC">
-            <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553_DESC">
-            <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-            <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-            <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-            <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-            <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-            <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-            <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-            <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-            <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-            <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-            <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
-            <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-            <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG550Sniper_DESC">
-              <Original>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-              <English>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-              <Czech>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-              <French>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-              <Spanish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-              <Italian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-              <Polish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-              <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-              <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-              <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-              <Japanese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Japanese>
-              <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-              <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-            </Key>
-            <Key ID="STR_NIA_SG553R_DESC">
-              <Original>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Original>
-              <English>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</English>
-              <Czech>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Czech>
-              <French>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</French>
-              <Spanish>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Spanish>
-              <Italian>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Italian>
-              <Polish>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Polish>
-              <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Portuguese>
-              <Russian>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Russian>
-              <German>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</German>
-              <Japanese>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Japanese>
-              <Korean>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Korean>
-              <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Chinesesimp>
-            </Key>
-
-        <Key ID="STR_NIA_DiavariZ_DESC">
-          <Original>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Original>
-          <English>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</English>
-          <Czech>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Czech>
-          <French>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200mx&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</French>
-          <Spanish>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Spanish>
-          <Italian>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Italian>
-          <Polish>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Polish>
-          <Portuguese>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Portuguese>
-          <Russian>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Russian>
-          <German>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</German>
-          <Japanese>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Japanese>
-          <Korean>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Korean>
-          <Chinesesimp>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Chinesesimp>
-        </Key>
-      </Container>
-    </Package>
+      </Key>
+      <Key ID="STR_NIA_SG550_DESC">
+        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>インファントリー ライフル&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG551_DESC">
+        <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553_DESC">
+        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG550Sniper_DESC">
+        <Original>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+        <English>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+        <Czech>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+        <French>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
+        <Spanish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+        <Italian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+        <Polish>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+        <Portuguese>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+        <Russian>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+        <German>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+        <Japanese>高精度ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+        <Korean>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+        <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_SG553R_DESC">
+        <Original>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</German>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62x39mm</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7,62x39mm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DiavariZ_DESC">
+        <Original>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Original>
+        <English>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</English>
+        <Czech>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Czech>
+        <French>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200mx&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</French>
+        <Spanish>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Spanish>
+        <Italian>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Italian>
+        <Polish>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Polish>
+        <Portuguese>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Portuguese>
+        <Russian>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Russian>
+        <German>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</German>
+        <Japanese>Zeiss Diavari-Z 倍率ライフル照準器&lt;br/&gt;倍率: 2.5-10x&lt;br/&gt;調整範囲: ミリラジアン 100-1200m&lt;br/&gt;照準線: Zeiss 照準線ナンバー 4</Japanese>
+        <Korean>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Korean>
+        <Chinesesimp>Zeiss Diavari-Z Magnified Rifle Sight&lt;br/&gt;Magnification: 2.5-10x&lt;br/&gt;Adjustment: Milrad Adjustment 100-1200m&lt;br/&gt;Reticle:Number 4 Zeiss Crosshair</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
 </Project>
