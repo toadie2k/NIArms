@@ -1,568 +1,568 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_AR15">
-    <Container name="Names">
-      <Key ID="STR_NIA_RU556_1">
-        <Original>AR15 Sanitised Carbine</Original>
-        <English>AR15 Sanitised Carbine</English>
-        <Czech>AR15 Sanitised Carbine</Czech>
-        <French>AR15 Sanitised Carbine</French>
-        <Spanish>AR15 Sanitised Carbine</Spanish>
-        <Italian>AR15 Sanitised Carbine</Italian>
-        <Polish>AR15 Sanitised Carbine</Polish>
-        <Portuguese>AR15 Sanitised Carbine</Portuguese>
-        <Russian>AR15 Sanitised Carbine</Russian>
-        <German>AR15 Sanitised Carbine</German>
-        <Japanese>AR15 Sanitised カービン</Japanese>
-        <Korean>AR15 Sanitised Carbine</Korean>
-        <Chinesesimp>AR15 Sanitised Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_RU556_2">
-        <Original>AR15 Magpul Carbine</Original>
-        <English>AR15 Magpul Carbine</English>
-        <Czech>AR15 Magpul Carbine</Czech>
-        <French>AR15 Magpul Carbine</French>
-        <Spanish>AR15 Magpul Carbine</Spanish>
-        <Italian>AR15 Magpul Carbine</Italian>
-        <Polish>AR15 Magpul Carbine</Polish>
-        <Portuguese>AR15 Magpul Carbine</Portuguese>
-        <Russian>AR15 Magpul Carbine</Russian>
-        <German>AR15 Magpul Carbine</German>
-        <Japanese>AR15 Magpul カービン</Japanese>
-        <Korean>AR15 Magpul Carbine</Korean>
-        <Chinesesimp>AR15 Magpul Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M4Commando">
-        <Original>Colt M4LE Commando</Original>
-        <English>Colt M4LE Commando</English>
-        <Czech>Colt M4LE Commando</Czech>
-        <French>Colt M4LE Commando</French>
-        <Spanish>Colt M4LE Commando</Spanish>
-        <Italian>Colt M4LE Commando</Italian>
-        <Polish>Colt M4LE Commando</Polish>
-        <Portuguese>Colt M4LE Commando</Portuguese>
-        <Russian>Colt M4LE Commando</Russian>
-        <German>Colt M4LE Commando</German>
-        <Japanese>Colt M4LE コマンド</Japanese>
-        <Korean>Colt M4LE Commando</Korean>
-        <Chinesesimp>Colt M4LE Commando</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M4A1">
-        <Original>Colt M4A1 Carbine</Original>
-        <English>Colt M4A1 Carbine</English>
-        <Czech>Colt M4A1 Carbine</Czech>
-        <French>Colt M4A1 Carbine</French>
-        <Spanish>Colt M4A1 Carbine</Spanish>
-        <Italian>Colt M4A1 Carbine</Italian>
-        <Polish>Colt M4A1 Carbine</Polish>
-        <Portuguese>Colt M4A1 Carbine</Portuguese>
-        <Russian>Colt M4A1 Carbine</Russian>
-        <German>Colt M4A1 Carbine</German>
-        <Japanese>Colt M4A1 カービン</Japanese>
-        <Korean>Colt M4A1 Carbine</Korean>
-        <Chinesesimp>Colt M4A1 Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M4A1_M203">
-        <Original>Colt M4A1 Carbine (GL)</Original>
-        <English>Colt M4A1 Carbine (GL)</English>
-        <Czech>Colt M4A1 Carbine (GL)</Czech>
-        <French>Colt M4A1 Carbine (GL)</French>
-        <Spanish>Colt M4A1 Carbine (GL)</Spanish>
-        <Italian>Colt M4A1 Carbine (GL)</Italian>
-        <Polish>Colt M4A1 Carbine (GL)</Polish>
-        <Portuguese>Colt M4A1 Carbine (GL)</Portuguese>
-        <Russian>Colt M4A1 Carbine (GL)</Russian>
-        <German>Colt M4A1 Carbine (GL)</German>
-        <Japanese>Colt M4A1 カービン (GL)</Japanese>
-        <Korean>Colt M4A1 Carbine (GL)</Korean>
-        <Chinesesimp>Colt M4A1 Carbine (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M4A1_carryhandle">
-        <Original>Colt M4A1 Carbine (Carryhandle)</Original>
-        <English>Colt M4A1 Carbine (Carryhandle)</English>
-        <Czech>Colt M4A1 Carbine (Carryhandle)</Czech>
-        <French>Colt M4A1 Carbine (Carryhandle)</French>
-        <Spanish>Colt M4A1 Carbine (Carryhandle)</Spanish>
-        <Italian>Colt M4A1 Carbine (Carryhandle)</Italian>
-        <Polish>Colt M4A1 Carbine (Carryhandle)</Polish>
-        <Portuguese>Colt M4A1 Carbine (Carryhandle)</Portuguese>
-        <Russian>Colt M4A1 Carbine (Carryhandle)</Russian>
-        <German>Colt M4A1 Carbine (Carryhandle)</German>
-        <Japanese>Colt M4A1 カービン (キャリー ハンドル)</Japanese>
-        <Korean>Colt M4A1 Carbine (Carryhandle)</Korean>
-        <Chinesesimp>Colt M4A1 Carbine (Carryhandle)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Mk18mod0">
-        <Original>Mk 18 Mod 0</Original>
-        <English>Mk 18 Mod 0</English>
-        <Czech>Mk 18 Mod 0</Czech>
-        <French>Mk 18 Mod 0</French>
-        <Spanish>Mk 18 Mod 0</Spanish>
-        <Italian>Mk 18 Mod 0</Italian>
-        <Polish>Mk 18 Mod 0</Polish>
-        <Portuguese>Mk 18 Mod 0</Portuguese>
-        <Russian>Mk 18 Mod 0</Russian>
-        <German>Mk 18 Mod 0</German>
-        <Japanese>Mk 18 Mod 0</Japanese>
-        <Korean>Mk 18 Mod 0</Korean>
-        <Chinesesimp>Mk 18 Mod 0</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_BCMJack">
-        <Original>BCM &quot;Jack&quot; Carbine</Original>
-        <English>BCM &quot;Jack&quot; Carbine</English>
-        <Czech>BCM &quot;Jack&quot; Carbine</Czech>
-        <French>BCM &quot;Jack&quot; Carbine</French>
-        <Spanish>BCM &quot;Jack&quot; Carbine</Spanish>
-        <Italian>BCM &quot;Jack&quot; Carbine</Italian>
-        <Polish>BCM &quot;Jack&quot; Carbine</Polish>
-        <Portuguese>BCM &quot;Jack&quot; Carbine</Portuguese>
-        <Russian>BCM &quot;Jack&quot; Carbine</Russian>
-        <German>BCM &quot;Jack&quot; Carbine</German>
-        <Japanese>BCM &quot;Jack&quot; カービン</Japanese>
-        <Korean>BCM &quot;Jack&quot; Carbine</Korean>
-        <Chinesesimp>BCM &quot;Jack&quot; Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_BCMBlackJack">
-        <Original>BCM &quot;Black-Jack&quot; Custom Carbine</Original>
-        <English>BCM &quot;Black-Jack&quot; Custom Carbine</English>
-        <Czech>BCM &quot;Black-Jack&quot; Custom Carbine</Czech>
-        <French>BCM &quot;Black-Jack&quot; Custom Carbine</French>
-        <Spanish>BCM &quot;Black-Jack&quot; Custom Carbine</Spanish>
-        <Italian>BCM &quot;Black-Jack&quot; Custom Carbine</Italian>
-        <Polish>BCM &quot;Black-Jack&quot; Custom Carbine</Polish>
-        <Portuguese>BCM &quot;Black-Jack&quot; Custom Carbine</Portuguese>
-        <Russian>BCM &quot;Black-Jack&quot; Custom Carbine</Russian>
-        <German>BCM &quot;Black-Jack&quot; Custom Carbine</German>
-        <Japanese>BCM &quot;Black-Jack&quot; カスタム カービン</Japanese>
-        <Korean>BCM &quot;Black-Jack&quot; Custom Carbine</Korean>
-        <Chinesesimp>BCM &quot;Black-Jack&quot; Custom Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Colt727">
-        <Original>Colt RO727 Carbine</Original>
-        <English>Colt RO727 Carbine</English>
-        <Czech>Colt RO727 Carbine</Czech>
-        <French>Colt RO727 Carbine</French>
-        <Spanish>Colt RO727 Carbine</Spanish>
-        <Italian>Colt RO727 Carbine</Italian>
-        <Polish>Colt RO727 Carbine</Polish>
-        <Portuguese>Colt RO727 Carbine</Portuguese>
-        <Russian>Colt RO727 Carbine</Russian>
-        <German>Colt RO727 Carbine</German>
-        <Japanese>Colt RO727 カービン</Japanese>
-        <Korean>Colt RO727 Carbine</Korean>
-        <Chinesesimp>Colt RO727 Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Colt727GL">
-        <Original>Colt RO727 Carbine (GL)</Original>
-        <English>Colt RO727 Carbine (GL)</English>
-        <Czech>Colt RO727 Carbine (GL)</Czech>
-        <French>Colt RO727 Carbine (GL)</French>
-        <Spanish>Colt RO727 Carbine (GL)</Spanish>
-        <Italian>Colt RO727 Carbine (GL)</Italian>
-        <Polish>Colt RO727 Carbine (GL)</Polish>
-        <Portuguese>Colt RO727 Carbine (GL)</Portuguese>
-        <Russian>Colt RO727 Carbine (GL)</Russian>
-        <German>Colt RO727 Carbine (GL)</German>
-        <Japanese>Colt RO727 カービン (GL)</Japanese>
-        <Korean>Colt RO727 Carbine (GL)</Korean>
-        <Chinesesimp>Colt RO727 Carbine (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Bushmaster300">
-        <Original>Bushmaster .300 AAC Carbine</Original>
-        <English>Bushmaster .300 AAC Carbine</English>
-        <Czech>Bushmaster .300 AAC Carbine</Czech>
-        <French>Bushmaster .300 AAC Carbine</French>
-        <Spanish>Bushmaster .300 AAC Carbine</Spanish>
-        <Italian>Bushmaster .300 AAC Carbine</Italian>
-        <Polish>Bushmaster .300 AAC Carbine</Polish>
-        <Portuguese>Bushmaster .300 AAC Carbine</Portuguese>
-        <Russian>Bushmaster .300 AAC Carbine</Russian>
-        <German>Bushmaster .300 AAC Carbine</German>
-        <Japanese>Bushmaster .300 AAC カービン</Japanese>
-        <Korean>Bushmaster .300 AAC Carbine</Korean>
-        <Chinesesimp>Bushmaster .300 AAC Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Vendimus">
-        <Original>AR15 .300 AAC Dissipator Carbine</Original>
-        <English>AR15 .300 AAC Dissipator Carbine</English>
-        <Czech>AR15 .300 AAC Dissipator Carbine</Czech>
-        <French>AR15 .300 AAC Dissipator Carbine</French>
-        <Spanish>AR15 .300 AAC Dissipator Carbine</Spanish>
-        <Italian>AR15 .300 AAC Dissipator Carbine</Italian>
-        <Polish>AR15 .300 AAC Dissipator Carbine</Polish>
-        <Portuguese>AR15 .300 AAC Dissipator Carbine</Portuguese>
-        <Russian>AR15 .300 AAC Dissipator Carbine</Russian>
-        <German>AR15 .300 AAC Dissipator Carbine</German>
-        <Japanese>AR15 .300 AAC Dissipator カービン</Japanese>
-        <Korean>AR15 .300 AAC Dissipator Carbine</Korean>
-        <Chinesesimp>AR15 .300 AAC Dissipator Carbine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_LAR15">
-        <Original>RRA LAR-15 AMR</Original>
-        <English>RRA LAR-15 AMR</English>
-        <Czech>RRA LAR-15 AMR</Czech>
-        <French>RRA LAR-15 AMR</French>
-        <Spanish>RRA LAR-15 AMR</Spanish>
-        <Italian>RRA LAR-15 AMR</Italian>
-        <Polish>RRA LAR-15 AMR</Polish>
-        <Portuguese>RRA LAR-15 AMR</Portuguese>
-        <Russian>RRA LAR-15 AMR</Russian>
-        <German>RRA LAR-15 AMR</German>
-        <Japanese>RRA LAR-15 AMR</Japanese>
-        <Korean>RRA LAR-15 AMR</Korean>
-        <Chinesesimp>RRA LAR-15 AMR</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Honebadger">
-        <Original>AAC &quot;Honey-Badger&quot; Carbine</Original>
-        <English>AAC &quot;Honey-Badger&quot; Carbine</English>
-        <Czech>AAC &quot;Honey-Badger&quot; Carbine</Czech>
-        <French>AAC &quot;Honey-Badger&quot; Carbine</French>
-        <Spanish>AAC &quot;Honey-Badger&quot; Carbine</Spanish>
-        <Italian>AAC &quot;Honey-Badger&quot; Carbine</Italian>
-        <Polish>AAC &quot;Honey-Badger&quot; Carbine</Polish>
-        <Portuguese>AAC &quot;Honey-Badger&quot; Carbine</Portuguese>
-        <Russian>AAC &quot;Honey-Badger&quot; Carbine</Russian>
-        <German>AAC &quot;Honey-Badger&quot; Carbine</German>
-        <Japanese>AAC &quot;Honey-Badger&quot; カービン</Japanese>
-        <Korean>AAC &quot;Honey-Badger&quot; Carbine</Korean>
-        <Chinesesimp>AAC &quot;Honey-Badger&quot; Carbine</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_29rnd_300BLK_STANAG">
-        <Original>.300AAC EPR 30Rnd STANAG Magazine</Original>
-        <English>.300AAC EPR 30Rnd STANAG Magazine</English>
-        <Czech>.300AAC EPR 30Rnd STANAG Magazine</Czech>
-        <French>.300AAC EPR 30Rnd STANAG Magazine</French>
-        <Spanish>.300AAC EPR 30Rnd STANAG Magazine</Spanish>
-        <Italian>.300AAC EPR 30Rnd STANAG Magazine</Italian>
-        <Polish>.300AAC EPR 30Rnd STANAG Magazine</Polish>
-        <Portuguese>.300AAC EPR 30Rnd STANAG Magazine</Portuguese>
-        <Russian>.300AAC EPR 30Rnd STANAG Magazine</Russian>
-        <German>.300AAC EPR 30Rnd STANAG Magazine</German>
-        <Japanese>.300AAC EPR 30発入り STANAG マガジン</Japanese>
-        <Korean>.300AAC EPR 30Rnd STANAG Magazine</Korean>
-        <Chinesesimp>.300AAC EPR 30Rnd STANAG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_29Rnd_300BLK_T_STANAG">
-        <Original>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Original>
-        <English>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</English>
-        <Czech>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Czech>
-        <French>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</French>
-        <Spanish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Spanish>
-        <Italian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Italian>
-        <Polish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Polish>
-        <Portuguese>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Portuguese>
-        <Russian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Russian>
-        <German>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</German>
-        <Japanese>.300AAC Ballistic 曳光弾 30発入り STANAG マガジン</Japanese>
-        <Korean>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Korean>
-        <Chinesesimp>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_29Rnd_300BLK_IRDIM_STANAG">
-        <Original>.300AAC TAC-TX 30Rnd STANAG Magazine</Original>
-        <English>.300AAC TAC-TX 30Rnd STANAG Magazine</English>
-        <Czech>.300AAC TAC-TX 30Rnd STANAG Magazine</Czech>
-        <French>.300AAC TAC-TX 30Rnd STANAG Magazine</French>
-        <Spanish>.300AAC TAC-TX 30Rnd STANAG Magazine</Spanish>
-        <Italian>.300AAC TAC-TX 30Rnd STANAG Magazine</Italian>
-        <Polish>.300AAC TAC-TX 30Rnd STANAG Magazine</Polish>
-        <Portuguese>.300AAC TAC-TX 30Rnd STANAG Magazine</Portuguese>
-        <Russian>.300AAC TAC-TX 30Rnd STANAG Magazine</Russian>
-        <German>.300AAC TAC-TX 30Rnd STANAG Magazine</German>
-        <Japanese>.300AAC TAC-TX 30発入り STANAG マガジン</Japanese>
-        <Korean>.300AAC TAC-TX 30Rnd STANAG Magazine</Korean>
-        <Chinesesimp>.300AAC TAC-TX 30Rnd STANAG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_300BLK_M_STANAG">
-        <Original>.300AAC TAC-TX 50Rnd STANAG Magazine</Original>
-        <English>.300AAC TAC-TX 50Rnd STANAG Magazine</English>
-        <Czech>.300AAC TAC-TX 50Rnd STANAG Magazine</Czech>
-        <French>.300AAC TAC-TX 50Rnd STANAG Magazine</French>
-        <Spanish>.300AAC TAC-TX 50Rnd STANAG Magazine</Spanish>
-        <Italian>.300AAC TAC-TX 50Rnd STANAG Magazine</Italian>
-        <Polish>.300AAC TAC-TX 50Rnd STANAG Magazine</Polish>
-        <Portuguese>.300AAC TAC-TX 50Rnd STANAG Magazine</Portuguese>
-        <Russian>.300AAC TAC-TX 50Rnd STANAG Magazine</Russian>
-        <German>.300AAC TAC-TX 50Rnd STANAG Magazine</German>
-        <Japanese>.300AAC TAC-TX 50発入り STANAG マガジン</Japanese>
-        <Korean>.300AAC TAC-TX 50Rnd STANAG Magazine</Korean>
-        <Chinesesimp>.300AAC TAC-TX 50Rnd STANAG Magazine</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Acc_names">
-      <Key ID="STR_NIA_muzzle_HBADGER">
-        <Original>AAC Honeybadger Suppressor</Original>
-        <English>AAC Honeybadger Suppressor</English>
-        <Czech>AAC Honeybadger Suppressor</Czech>
-        <French>AAC Honeybadger Suppressor</French>
-        <Spanish>AAC Honeybadger Suppressor</Spanish>
-        <Italian>AAC Honeybadger Suppressor</Italian>
-        <Polish>AAC Honeybadger Suppressor</Polish>
-        <Portuguese>AAC Honeybadger Suppressor</Portuguese>
-        <Russian>AAC Honeybadger Suppressor</Russian>
-        <German>AAC Honeybadger Suppressor</German>
-        <Japanese>AAC Honeybadger 消音器</Japanese>
-        <Korean>AAC Honeybadger Suppressor</Korean>
-        <Chinesesimp>AAC Honeybadger Suppressor</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_muzzle_Gunfighter">
-        <Original>BCM Gunfighter Compensator</Original>
-        <English>BCM Gunfighter Compensator</English>
-        <Czech>BCM Gunfighter Compensator</Czech>
-        <French>BCM Gunfighter Compensator</French>
-        <Spanish>BCM Gunfighter Compensator</Spanish>
-        <Italian>BCM Gunfighter Compensator</Italian>
-        <Polish>BCM Gunfighter Compensator</Polish>
-        <Portuguese>BCM Gunfighter Compensator</Portuguese>
-        <Russian>BCM Gunfighter Compensator</Russian>
-        <German>BCM Gunfighter Compensator</German>
-        <Japanese>BCM Gunfighter コンペイセイター</Japanese>
-        <Korean>BCM Gunfighter Compensator</Korean>
-        <Chinesesimp>BCM Gunfighter Compensator</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_muzzle_KX3">
-        <Original>Noveske KX3 &quot; Flaming Pig &quot;</Original>
-        <English>Noveske KX3 &quot; Flaming Pig &quot;</English>
-        <Czech>Noveske KX3 &quot; Flaming Pig &quot;</Czech>
-        <French>Noveske KX3 &quot; Flaming Pig &quot;</French>
-        <Spanish>Noveske KX3 &quot; Flaming Pig &quot;</Spanish>
-        <Italian>Noveske KX3 &quot; Flaming Pig &quot;</Italian>
-        <Polish>Noveske KX3 &quot; Flaming Pig &quot;</Polish>
-        <Portuguese>Noveske KX3 &quot; Flaming Pig &quot;</Portuguese>
-        <Russian>Noveske KX3 &quot; Flaming Pig &quot;</Russian>
-        <German>Noveske KX3 &quot; Flaming Pig &quot;</German>
-        <Japanese>Noveske KX3 &quot; Flaming Pig &quot;</Japanese>
-        <Korean>Noveske KX3 &quot; Flaming Pig &quot;</Korean>
-        <Chinesesimp>Noveske KX3 &quot; Flaming Pig &quot;</Chinesesimp>
-      </Key>
-      </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_Gunfighter_DESC">
-        <Original>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Compensator&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Compensator&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Compensator&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>コンペイセイター&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_KX3_DESC">
-        <Original>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>ライナー コンペイセイター&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_ICarbine_DESC">
-        <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_Carbine_DESC">
-        <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_SBR_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_LSW_DESC">
-        <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_Blackout_DESC">
-        <Original>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
-        <English>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</English>
-        <Czech>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
-        <French>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</French>
-        <Spanish>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
-        <Italian>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
-        <Polish>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
-        <Portuguese>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
-        <Russian>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
-        <German>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</German>
-        <Japanese>ライフル&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
-        <Korean>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
-        <Chinesesimp>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_Carbine_Blackout_DESC">
-        <Original>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
-        <English>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</English>
-        <Czech>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
-        <French>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</French>
-        <Spanish>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
-        <Italian>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
-        <Polish>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
-        <Portuguese>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
-        <Russian>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
-        <German>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</German>
-        <Japanese>カービン&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
-        <Korean>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
-        <Chinesesimp>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_SBR_Blackout_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</German>
-        <Japanese>コンパクト カービン&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AR15_SPW_Blackout_DESC">
-        <Original>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
-        <English>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</English>
-        <Czech>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
-        <French>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</French>
-        <Spanish>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
-        <Italian>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
-        <Polish>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
-        <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
-        <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
-        <German>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</German>
-        <Japanese>特殊武器&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
-        <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
-        <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_29rnd_300BLK_STANAG">
-        <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: .300 AAC Blackout EPR&lt;br/&gt;種類: M80A1 EPR 弾頭を抜き取り、手動装弾 (Remington 製真鍮、最大装填された 19.5 グレインの Hodgdon Lil 発射薬、7 1/2 小型ライフル マグナム雷管、米軍 M80A1 EPR 弾頭)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_300BLK_STANAG_T">
-        <Original>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: .300 AAC Blackout RNBT-BT&lt;br/&gt;種類: 蛍光弾頭、丸形弾頭、船尾形弾尾 (ブラック ニッケル塗装された Noveske 真鍮、75% 装薬された 8.5 グレインの Alliant 2400 発射薬、CCI No 41 雷管を使用、Nosler)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_300BLK_STANAG_S">
-        <Original>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: .300 AAC Blackout 手動装填の TAC-TX&lt;br/&gt;種類: 固形銅製弾頭、船尾型弾尾 (Hornady 製真鍮、17.5 グレインの Winchester W296 発射薬、CCI #400 小型ライフル雷管使用、Barnes 120 グレイン TAC-TX 弾頭)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_50rnd_300BLK_STANAG">
-        <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Original>
-        <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</English>
-        <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Czech>
-        <French>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</French>
-        <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Spanish>
-        <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Italian>
-        <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Polish>
-        <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Portuguese>
-        <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Russian>
-        <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</German>
-        <Japanese>口径: .300 AAC Blackout EPR&lt;br/&gt;種類: M80A1 EPR 弾頭を抜き取り、手動装弾 (Remington 製真鍮、最大装填された 19.5 グレインの Hodgdon Lil 発射薬、7 1/2 小型ライフル マグナム雷管、米軍 M80A1 EPR 弾頭)&lt;br/&gt;弾数: 50</Japanese>
-        <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Korean>
-        <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_AR15">
+        <Container name="Names">
+            <Key ID="STR_NIA_RU556_1">
+                <Original>AR15 Sanitised Carbine</Original>
+                <English>AR15 Sanitised Carbine</English>
+                <Czech>AR15 Sanitised Carbine</Czech>
+                <French>AR15 Sanitised Carabine</French>
+                <Spanish>AR15 Sanitised Carbine</Spanish>
+                <Italian>AR15 Sanitised Carbine</Italian>
+                <Polish>AR15 Sanitised Carbine</Polish>
+                <Portuguese>AR15 Sanitised Carbine</Portuguese>
+                <Russian>AR15 Sanitised Carbine</Russian>
+                <German>AR15 Sanitised Carbine</German>
+                <Japanese>AR15 Sanitised カービン</Japanese>
+                <Korean>AR15 Sanitised Carbine</Korean>
+                <Chinesesimp>AR15 Sanitised Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_RU556_2">
+                <Original>AR15 Magpul Carbine</Original>
+                <English>AR15 Magpul Carbine</English>
+                <Czech>AR15 Magpul Carbine</Czech>
+                <French>AR15 Magpul Carabine</French>
+                <Spanish>AR15 Magpul Carbine</Spanish>
+                <Italian>AR15 Magpul Carbine</Italian>
+                <Polish>AR15 Magpul Carbine</Polish>
+                <Portuguese>AR15 Magpul Carbine</Portuguese>
+                <Russian>AR15 Magpul Carbine</Russian>
+                <German>AR15 Magpul Carbine</German>
+                <Japanese>AR15 Magpul カービン</Japanese>
+                <Korean>AR15 Magpul Carbine</Korean>
+                <Chinesesimp>AR15 Magpul Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M4Commando">
+                <Original>Colt M4LE Commando</Original>
+                <English>Colt M4LE Commando</English>
+                <Czech>Colt M4LE Commando</Czech>
+                <French>Colt M4LE Commando</French>
+                <Spanish>Colt M4LE Commando</Spanish>
+                <Italian>Colt M4LE Commando</Italian>
+                <Polish>Colt M4LE Commando</Polish>
+                <Portuguese>Colt M4LE Commando</Portuguese>
+                <Russian>Colt M4LE Commando</Russian>
+                <German>Colt M4LE Commando</German>
+                <Japanese>Colt M4LE コマンド</Japanese>
+                <Korean>Colt M4LE Commando</Korean>
+                <Chinesesimp>Colt M4LE Commando</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M4A1">
+                <Original>Colt M4A1 Carbine</Original>
+                <English>Colt M4A1 Carbine</English>
+                <Czech>Colt M4A1 Carbine</Czech>
+                <French>Colt M4A1 Carabine</French>
+                <Spanish>Colt M4A1 Carbine</Spanish>
+                <Italian>Colt M4A1 Carbine</Italian>
+                <Polish>Colt M4A1 Carbine</Polish>
+                <Portuguese>Colt M4A1 Carbine</Portuguese>
+                <Russian>Colt M4A1 Carbine</Russian>
+                <German>Colt M4A1 Carbine</German>
+                <Japanese>Colt M4A1 カービン</Japanese>
+                <Korean>Colt M4A1 Carbine</Korean>
+                <Chinesesimp>Colt M4A1 Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M4A1_M203">
+                <Original>Colt M4A1 Carbine (GL)</Original>
+                <English>Colt M4A1 Carbine (GL)</English>
+                <Czech>Colt M4A1 Carbine (GL)</Czech>
+                <French>Colt M4A1 Carabine (LGI)</French>
+                <Spanish>Colt M4A1 Carbine (GL)</Spanish>
+                <Italian>Colt M4A1 Carbine (GL)</Italian>
+                <Polish>Colt M4A1 Carbine (GL)</Polish>
+                <Portuguese>Colt M4A1 Carbine (GL)</Portuguese>
+                <Russian>Colt M4A1 Carbine (GL)</Russian>
+                <German>Colt M4A1 Carbine (GL)</German>
+                <Japanese>Colt M4A1 カービン (GL)</Japanese>
+                <Korean>Colt M4A1 Carbine (GL)</Korean>
+                <Chinesesimp>Colt M4A1 Carbine (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M4A1_carryhandle">
+                <Original>Colt M4A1 Carbine (Carryhandle)</Original>
+                <English>Colt M4A1 Carbine (Carryhandle)</English>
+                <Czech>Colt M4A1 Carbine (Carryhandle)</Czech>
+                <French>Colt M4A1 Carabine (Carryhandle)</French>
+                <Spanish>Colt M4A1 Carbine (Carryhandle)</Spanish>
+                <Italian>Colt M4A1 Carbine (Carryhandle)</Italian>
+                <Polish>Colt M4A1 Carbine (Carryhandle)</Polish>
+                <Portuguese>Colt M4A1 Carbine (Carryhandle)</Portuguese>
+                <Russian>Colt M4A1 Carbine (Carryhandle)</Russian>
+                <German>Colt M4A1 Carbine (Carryhandle)</German>
+                <Japanese>Colt M4A1 カービン (キャリー ハンドル)</Japanese>
+                <Korean>Colt M4A1 Carbine (Carryhandle)</Korean>
+                <Chinesesimp>Colt M4A1 Carbine (Carryhandle)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Mk18mod0">
+                <Original>Mk 18 Mod 0</Original>
+                <English>Mk 18 Mod 0</English>
+                <Czech>Mk 18 Mod 0</Czech>
+                <French>Mk 18 Mod 0</French>
+                <Spanish>Mk 18 Mod 0</Spanish>
+                <Italian>Mk 18 Mod 0</Italian>
+                <Polish>Mk 18 Mod 0</Polish>
+                <Portuguese>Mk 18 Mod 0</Portuguese>
+                <Russian>Mk 18 Mod 0</Russian>
+                <German>Mk 18 Mod 0</German>
+                <Japanese>Mk 18 Mod 0</Japanese>
+                <Korean>Mk 18 Mod 0</Korean>
+                <Chinesesimp>Mk 18 Mod 0</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_BCMJack">
+                <Original>BCM "Jack" Carbine</Original>
+                <English>BCM "Jack" Carbine</English>
+                <Czech>BCM "Jack" Carbine</Czech>
+                <French>BCM Carabine "Jack"</French>
+                <Spanish>BCM "Jack" Carbine</Spanish>
+                <Italian>BCM "Jack" Carbine</Italian>
+                <Polish>BCM "Jack" Carbine</Polish>
+                <Portuguese>BCM "Jack" Carbine</Portuguese>
+                <Russian>BCM "Jack" Carbine</Russian>
+                <German>BCM "Jack" Carbine</German>
+                <Japanese>BCM "Jack" カービン</Japanese>
+                <Korean>BCM "Jack" Carbine</Korean>
+                <Chinesesimp>BCM "Jack" Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_BCMBlackJack">
+                <Original>BCM "Black-Jack" Custom Carbine</Original>
+                <English>BCM "Black-Jack" Custom Carbine</English>
+                <Czech>BCM "Black-Jack" Custom Carbine</Czech>
+                <French>BCM Carabine Custom "Black-Jack" </French>
+                <Spanish>BCM "Black-Jack" Custom Carbine</Spanish>
+                <Italian>BCM "Black-Jack" Custom Carbine</Italian>
+                <Polish>BCM "Black-Jack" Custom Carbine</Polish>
+                <Portuguese>BCM "Black-Jack" Custom Carbine</Portuguese>
+                <Russian>BCM "Black-Jack" Custom Carbine</Russian>
+                <German>BCM "Black-Jack" Custom Carbine</German>
+                <Japanese>BCM "Black-Jack" カスタム カービン</Japanese>
+                <Korean>BCM "Black-Jack" Custom Carbine</Korean>
+                <Chinesesimp>BCM "Black-Jack" Custom Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Colt727">
+                <Original>Colt RO727 Carbine</Original>
+                <English>Colt RO727 Carbine</English>
+                <Czech>Colt RO727 Carbine</Czech>
+                <French>Colt RO727 Carabine</French>
+                <Spanish>Colt RO727 Carbine</Spanish>
+                <Italian>Colt RO727 Carbine</Italian>
+                <Polish>Colt RO727 Carbine</Polish>
+                <Portuguese>Colt RO727 Carbine</Portuguese>
+                <Russian>Colt RO727 Carbine</Russian>
+                <German>Colt RO727 Carbine</German>
+                <Japanese>Colt RO727 カービン</Japanese>
+                <Korean>Colt RO727 Carbine</Korean>
+                <Chinesesimp>Colt RO727 Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Colt727GL">
+                <Original>Colt RO727 Carbine (GL)</Original>
+                <English>Colt RO727 Carbine (GL)</English>
+                <Czech>Colt RO727 Carbine (GL)</Czech>
+                <French>Colt RO727 Carabine (LGI)</French>
+                <Spanish>Colt RO727 Carbine (GL)</Spanish>
+                <Italian>Colt RO727 Carbine (GL)</Italian>
+                <Polish>Colt RO727 Carbine (GL)</Polish>
+                <Portuguese>Colt RO727 Carbine (GL)</Portuguese>
+                <Russian>Colt RO727 Carbine (GL)</Russian>
+                <German>Colt RO727 Carbine (GL)</German>
+                <Japanese>Colt RO727 カービン (GL)</Japanese>
+                <Korean>Colt RO727 Carbine (GL)</Korean>
+                <Chinesesimp>Colt RO727 Carbine (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Bushmaster300">
+                <Original>Bushmaster .300 AAC Carbine</Original>
+                <English>Bushmaster .300 AAC Carbine</English>
+                <Czech>Bushmaster .300 AAC Carbine</Czech>
+                <French>Bushmaster .300 AAC Carabine</French>
+                <Spanish>Bushmaster .300 AAC Carbine</Spanish>
+                <Italian>Bushmaster .300 AAC Carbine</Italian>
+                <Polish>Bushmaster .300 AAC Carbine</Polish>
+                <Portuguese>Bushmaster .300 AAC Carbine</Portuguese>
+                <Russian>Bushmaster .300 AAC Carbine</Russian>
+                <German>Bushmaster .300 AAC Carbine</German>
+                <Japanese>Bushmaster .300 AAC カービン</Japanese>
+                <Korean>Bushmaster .300 AAC Carbine</Korean>
+                <Chinesesimp>Bushmaster .300 AAC Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Vendimus">
+                <Original>AR15 .300 AAC Dissipator Carbine</Original>
+                <English>AR15 .300 AAC Dissipator Carbine</English>
+                <Czech>AR15 .300 AAC Dissipator Carbine</Czech>
+                <French>AR15 .300 AAC Dissipator Carabine</French>
+                <Spanish>AR15 .300 AAC Dissipator Carbine</Spanish>
+                <Italian>AR15 .300 AAC Dissipator Carbine</Italian>
+                <Polish>AR15 .300 AAC Dissipator Carbine</Polish>
+                <Portuguese>AR15 .300 AAC Dissipator Carbine</Portuguese>
+                <Russian>AR15 .300 AAC Dissipator Carbine</Russian>
+                <German>AR15 .300 AAC Dissipator Carbine</German>
+                <Japanese>AR15 .300 AAC Dissipator カービン</Japanese>
+                <Korean>AR15 .300 AAC Dissipator Carbine</Korean>
+                <Chinesesimp>AR15 .300 AAC Dissipator Carbine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_LAR15">
+                <Original>RRA LAR-15 AMR</Original>
+                <English>RRA LAR-15 AMR</English>
+                <Czech>RRA LAR-15 AMR</Czech>
+                <French>RRA LAR-15 AMR</French>
+                <Spanish>RRA LAR-15 AMR</Spanish>
+                <Italian>RRA LAR-15 AMR</Italian>
+                <Polish>RRA LAR-15 AMR</Polish>
+                <Portuguese>RRA LAR-15 AMR</Portuguese>
+                <Russian>RRA LAR-15 AMR</Russian>
+                <German>RRA LAR-15 AMR</German>
+                <Japanese>RRA LAR-15 AMR</Japanese>
+                <Korean>RRA LAR-15 AMR</Korean>
+                <Chinesesimp>RRA LAR-15 AMR</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Honebadger">
+                <Original>AAC "Honey-Badger" Carbine</Original>
+                <English>AAC "Honey-Badger" Carbine</English>
+                <Czech>AAC "Honey-Badger" Carbine</Czech>
+                <French>AAC "Honey-Badger" Carabine</French>
+                <Spanish>AAC "Honey-Badger" Carbine</Spanish>
+                <Italian>AAC "Honey-Badger" Carbine</Italian>
+                <Polish>AAC "Honey-Badger" Carbine</Polish>
+                <Portuguese>AAC "Honey-Badger" Carbine</Portuguese>
+                <Russian>AAC "Honey-Badger" Carbine</Russian>
+                <German>AAC "Honey-Badger" Carbine</German>
+                <Japanese>AAC "Honey-Badger" カービン</Japanese>
+                <Korean>AAC "Honey-Badger" Carbine</Korean>
+                <Chinesesimp>AAC "Honey-Badger" Carbine</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_29rnd_300BLK_STANAG">
+                <Original>.300AAC EPR 30Rnd STANAG Magazine</Original>
+                <English>.300AAC EPR 30Rnd STANAG Magazine</English>
+                <Czech>.300AAC EPR 30Rnd STANAG Magazine</Czech>
+                <French>Chargeur STANAG 30 Coups Cal .300AAC EPR</French>
+                <Spanish>.300AAC EPR 30Rnd STANAG Magazine</Spanish>
+                <Italian>.300AAC EPR 30Rnd STANAG Magazine</Italian>
+                <Polish>.300AAC EPR 30Rnd STANAG Magazine</Polish>
+                <Portuguese>.300AAC EPR 30Rnd STANAG Magazine</Portuguese>
+                <Russian>.300AAC EPR 30Rnd STANAG Magazine</Russian>
+                <German>.300AAC EPR 30Rnd STANAG Magazine</German>
+                <Japanese>.300AAC EPR 30発入り STANAG マガジン</Japanese>
+                <Korean>.300AAC EPR 30Rnd STANAG Magazine</Korean>
+                <Chinesesimp>.300AAC EPR 30Rnd STANAG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_29Rnd_300BLK_T_STANAG">
+                <Original>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Original>
+                <English>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</English>
+                <Czech>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Czech>
+                <French>Chargeur STANAG 30 Coups Cal .300AAC Traçante Balistique</French>
+                <Spanish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Spanish>
+                <Italian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Italian>
+                <Polish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Polish>
+                <Portuguese>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Portuguese>
+                <Russian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Russian>
+                <German>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</German>
+                <Japanese>.300AAC Ballistic 曳光弾 30発入り STANAG マガジン</Japanese>
+                <Korean>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Korean>
+                <Chinesesimp>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_29Rnd_300BLK_IRDIM_STANAG">
+                <Original>.300AAC TAC-TX 30Rnd STANAG Magazine</Original>
+                <English>.300AAC TAC-TX 30Rnd STANAG Magazine</English>
+                <Czech>.300AAC TAC-TX 30Rnd STANAG Magazine</Czech>
+                <French>Chargeur STANAG 30 Coups Cal .300AAC TAC-TX</French>
+                <Spanish>.300AAC TAC-TX 30Rnd STANAG Magazine</Spanish>
+                <Italian>.300AAC TAC-TX 30Rnd STANAG Magazine</Italian>
+                <Polish>.300AAC TAC-TX 30Rnd STANAG Magazine</Polish>
+                <Portuguese>.300AAC TAC-TX 30Rnd STANAG Magazine</Portuguese>
+                <Russian>.300AAC TAC-TX 30Rnd STANAG Magazine</Russian>
+                <German>.300AAC TAC-TX 30Rnd STANAG Magazine</German>
+                <Japanese>.300AAC TAC-TX 30発入り STANAG マガジン</Japanese>
+                <Korean>.300AAC TAC-TX 30Rnd STANAG Magazine</Korean>
+                <Chinesesimp>.300AAC TAC-TX 30Rnd STANAG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_300BLK_M_STANAG">
+                <Original>.300AAC TAC-TX 50Rnd STANAG Magazine</Original>
+                <English>.300AAC TAC-TX 50Rnd STANAG Magazine</English>
+                <Czech>.300AAC TAC-TX 50Rnd STANAG Magazine</Czech>
+                <French>Chargeur STANAG 50 Coups Cal .300AAC TAC-TX</French>
+                <Spanish>.300AAC TAC-TX 50Rnd STANAG Magazine</Spanish>
+                <Italian>.300AAC TAC-TX 50Rnd STANAG Magazine</Italian>
+                <Polish>.300AAC TAC-TX 50Rnd STANAG Magazine</Polish>
+                <Portuguese>.300AAC TAC-TX 50Rnd STANAG Magazine</Portuguese>
+                <Russian>.300AAC TAC-TX 50Rnd STANAG Magazine</Russian>
+                <German>.300AAC TAC-TX 50Rnd STANAG Magazine</German>
+                <Japanese>.300AAC TAC-TX 50発入り STANAG マガジン</Japanese>
+                <Korean>.300AAC TAC-TX 50Rnd STANAG Magazine</Korean>
+                <Chinesesimp>.300AAC TAC-TX 50Rnd STANAG Magazine</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Acc_names">
+            <Key ID="STR_NIA_muzzle_HBADGER">
+                <Original>AAC Honeybadger Suppressor</Original>
+                <English>AAC Honeybadger Suppressor</English>
+                <Czech>AAC Honeybadger Suppressor</Czech>
+                <French>Silencieux AAC pour Honeybadger</French>
+                <Spanish>AAC Honeybadger Suppressor</Spanish>
+                <Italian>AAC Honeybadger Suppressor</Italian>
+                <Polish>AAC Honeybadger Suppressor</Polish>
+                <Portuguese>AAC Honeybadger Suppressor</Portuguese>
+                <Russian>AAC Honeybadger Suppressor</Russian>
+                <German>AAC Honeybadger Suppressor</German>
+                <Japanese>AAC Honeybadger 消音器</Japanese>
+                <Korean>AAC Honeybadger Suppressor</Korean>
+                <Chinesesimp>AAC Honeybadger Suppressor</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_muzzle_Gunfighter">
+                <Original>BCM Gunfighter Compensator</Original>
+                <English>BCM Gunfighter Compensator</English>
+                <Czech>BCM Gunfighter Compensator</Czech>
+                <French>Compensateur BCM Gunfighter </French>
+                <Spanish>BCM Gunfighter Compensator</Spanish>
+                <Italian>BCM Gunfighter Compensator</Italian>
+                <Polish>BCM Gunfighter Compensator</Polish>
+                <Portuguese>BCM Gunfighter Compensator</Portuguese>
+                <Russian>BCM Gunfighter Compensator</Russian>
+                <German>BCM Gunfighter Compensator</German>
+                <Japanese>BCM Gunfighter コンペイセイター</Japanese>
+                <Korean>BCM Gunfighter Compensator</Korean>
+                <Chinesesimp>BCM Gunfighter Compensator</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_muzzle_KX3">
+                <Original>Noveske KX3 " Flaming Pig "</Original>
+                <English>Noveske KX3 " Flaming Pig "</English>
+                <Czech>Noveske KX3 " Flaming Pig "</Czech>
+                <French>Noveske KX3 " Flaming Pig "</French>
+                <Spanish>Noveske KX3 " Flaming Pig "</Spanish>
+                <Italian>Noveske KX3 " Flaming Pig "</Italian>
+                <Polish>Noveske KX3 " Flaming Pig "</Polish>
+                <Portuguese>Noveske KX3 " Flaming Pig "</Portuguese>
+                <Russian>Noveske KX3 " Flaming Pig "</Russian>
+                <German>Noveske KX3 " Flaming Pig "</German>
+                <Japanese>Noveske KX3 " Flaming Pig "</Japanese>
+                <Korean>Noveske KX3 " Flaming Pig "</Korean>
+                <Chinesesimp>Noveske KX3 " Flaming Pig "</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_Gunfighter_DESC">
+                <Original>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Compensator&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Compensateur&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Compensator&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>コンペイセイター&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Compensator&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_KX3_DESC">
+                <Original>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Compensateur Linéaire&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>ライナー コンペイセイター&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_ICarbine_DESC">
+                <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine d'Infanterie&lt;br/&gt;Caliber:5.56mm OTAN</French>
+                <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_Carbine_DESC">
+                <Original>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_SBR_DESC">
+                <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_LSW_DESC">
+                <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Mitrailleuse Légère&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_Blackout_DESC">
+                <Original>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
+                <English>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</English>
+                <Czech>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
+                <French>Fusil&lt;br/&gt;Calibre:.300 AAC Blackout</French>
+                <Spanish>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
+                <Italian>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
+                <Polish>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
+                <Portuguese>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
+                <Russian>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
+                <German>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</German>
+                <Japanese>ライフル&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
+                <Korean>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
+                <Chinesesimp>Rifle&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_Carbine_Blackout_DESC">
+                <Original>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
+                <English>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</English>
+                <Czech>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
+                <French>Carabine&lt;br/&gt;Calibre:.300 AAC Blackout</French>
+                <Spanish>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
+                <Italian>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
+                <Polish>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
+                <Portuguese>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
+                <Russian>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
+                <German>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</German>
+                <Japanese>カービン&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
+                <Korean>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
+                <Chinesesimp>Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_SBR_Blackout_DESC">
+                <Original>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
+                <English>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</English>
+                <Czech>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre:.300 AAC Blackout</French>
+                <Spanish>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
+                <Italian>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
+                <Polish>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
+                <Portuguese>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
+                <Russian>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
+                <German>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</German>
+                <Japanese>コンパクト カービン&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
+                <Korean>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
+                <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AR15_SPW_Blackout_DESC">
+                <Original>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Original>
+                <English>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</English>
+                <Czech>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Czech>
+                <French>Arme à Usage Spécial&lt;br/&gt;Calibre:.300 AAC Blackout</French>
+                <Spanish>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Spanish>
+                <Italian>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Italian>
+                <Polish>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Polish>
+                <Portuguese>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Portuguese>
+                <Russian>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Russian>
+                <German>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</German>
+                <Japanese>特殊武器&lt;br/&gt;口径: .300 AAC Blackout</Japanese>
+                <Korean>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Korean>
+                <Chinesesimp>Special Purpose Weapon&lt;br/&gt;Caliber:.300 AAC Blackout</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_29rnd_300BLK_STANAG">
+                <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: .300 AAC Blackout EPR&lt;br/&gt;Type: Munition M80A1 EPR, préparée à la main (Douille Remington, 19.5 grains de poudre Hodgdon Lil'Gun, chargée au volume maximum, utilise une amorce Remington 7 1/2 Small Rifle Magnum et une balle US Military M80A1 EPR)&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: .300 AAC Blackout EPR&lt;br/&gt;種類: M80A1 EPR 弾頭を抜き取り、手動装弾 (Remington 製真鍮、最大装填された 19.5 グレインの Hodgdon Lil 発射薬、7 1/2 小型ライフル マグナム雷管、米軍 M80A1 EPR 弾頭)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_300BLK_STANAG_T">
+                <Original>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Munition arrondie à pointe balistique et lumineuse avec chanfrein de culot en V (Douille Noveske avec placage en nickel noir, 8.5 grains de poudre Alliant 2400 chargée à 75%, utilise une amorce CCI No 41 primer, Nosler )&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: .300 AAC Blackout RNBT-BT&lt;br/&gt;種類: 蛍光弾頭、丸形弾頭、船尾形弾尾 (ブラック ニッケル塗装された Noveske 真鍮、75% 装薬された 8.5 グレインの Alliant 2400 発射薬、CCI No 41 雷管を使用、Nosler)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_300BLK_STANAG_S">
+                <Original>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: .300 AAC Blackout préparée à la main TAC-TX&lt;br/&gt;Type: Balle monolithique en cuivre Barnes à pointe polymère (Douille Hornady, 17.5 Grains de poudre Winchester W296,Utilise une amorce CCI #400 Small Rifle, Balle Barnes 120 grain TAC-TX)&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: .300 AAC Blackout 手動装填の TAC-TX&lt;br/&gt;種類: 固形銅製弾頭、船尾型弾尾 (Hornady 製真鍮、17.5 グレインの Winchester W296 発射薬、CCI #400 小型ライフル雷管使用、Barnes 120 グレイン TAC-TX 弾頭)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_50rnd_300BLK_STANAG">
+                <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Original>
+                <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</English>
+                <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Czech>
+                <French>Calibre: .300 AAC Blackout EPR&lt;br/&gt;Type: Munition M80A1 EPR, préparée à la main (Douille Remington, 19.5 grains de poudre Hodgdon Lil'Gun, chargée au volume maximum, utilise une amorce Remington 7 1/2 Small Rifle Magnum et une balle US Military M80A1 EPR)&lt;br/&gt;Coups: 50</French>
+                <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Spanish>
+                <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Italian>
+                <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Polish>
+                <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Portuguese>
+                <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Russian>
+                <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</German>
+                <Japanese>口径: .300 AAC Blackout EPR&lt;br/&gt;種類: M80A1 EPR 弾頭を抜き取り、手動装弾 (Remington 製真鍮、最大装填された 19.5 グレインの Hodgdon Lil 発射薬、7 1/2 小型ライフル マグナム雷管、米軍 M80A1 EPR 弾頭)&lt;br/&gt;弾数: 50</Japanese>
+                <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Korean>
+                <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>
