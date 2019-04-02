@@ -420,7 +420,7 @@ class CfgMagazines {
         mass = 46;
         lastroundstracer = 5;
         scope = 2;
-        tracersevery = 0;
+        tracersevery = 4;
         displaynameshort = "EPR/Tracer";
         model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
@@ -436,7 +436,7 @@ class CfgMagazines {
         mass = 46;
         lastroundstracer = 5;
         scope = 2;
-        tracersevery = 0;
+        tracersevery = 4;
         displaynameshort = "EPR/IR-DIM";
         model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
         picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
@@ -445,7 +445,7 @@ class CfgMagazines {
         author = "Toadie";
         initspeed = 340;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonioc 30Rnd G36 Magazine";
+        displayname = "5.56mm Subsonic 30Rnd G36 Magazine";
     };
     class hlc_30rnd_556x45_Tracers_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
