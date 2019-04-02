@@ -1,808 +1,808 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_AK">
-    <Container name="Names">
-      <Key ID="STR_NIA_ak74">
-        <Original>Izhmash AK74</Original>
-        <English>Izhmash AK74</English>
-        <Czech>Izhmash AK74</Czech>
-        <French>Izhmash AK74</French>
-        <Spanish>Izhmash AK74</Spanish>
-        <Italian>Izhmash AK74</Italian>
-        <Polish>Izhmash AK74</Polish>
-        <Portuguese>Izhmash AK74</Portuguese>
-        <Russian>Izhmash AK74</Russian>
-        <German>Izhmash AK74</German>
-        <Japanese>Izhmash AK74</Japanese>
-        <Korean>Izhmash AK74</Korean>
-        <Chinesesimp>Izhmash AK74</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak74mtk">
-        <Original>Izhmash AK74 (MTK)</Original>
-        <English>Izhmash AK74 (MTK)</English>
-        <Czech>Izhmash AK74 (MTK)</Czech>
-        <French>Izhmash AK74 (MTK)</French>
-        <Spanish>Izhmash AK74 (MTK)</Spanish>
-        <Italian>Izhmash AK74 (MTK)</Italian>
-        <Polish>Izhmash AK74 (MTK)</Polish>
-        <Portuguese>Izhmash AK74 (MTK)</Portuguese>
-        <Russian>Izhmash AK74 (MTK)</Russian>
-        <German>Izhmash AK74 (MTK)</German>
-        <Japanese>Izhmash AK74 (MTK)</Japanese>
-        <Korean>Izhmash AK74 (MTK)</Korean>
-        <Chinesesimp>Izhmash AK74 (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak74var1">
-        <Original>Izhmash AK74 (Worn)</Original>
-        <English>Izhmash AK74 (Worn)</English>
-        <Czech>Izhmash AK74 (Worn)</Czech>
-        <French>Izhmash AK74 (Worn)</French>
-        <Spanish>Izhmash AK74 (Worn)</Spanish>
-        <Italian>Izhmash AK74 (Worn)</Italian>
-        <Polish>Izhmash AK74 (Worn)</Polish>
-        <Portuguese>Izhmash AK74 (Worn)</Portuguese>
-        <Russian>Izhmash AK74 (Worn)</Russian>
-        <German>Izhmash AK74 (Worn)</German>
-        <Japanese>Izhmash AK74 (使い古し)</Japanese>
-        <Korean>Izhmash AK74 (Worn)</Korean>
-        <Chinesesimp>Izhmash AK74 (Worn)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak74m">
-        <Original>Izhmash AK74M</Original>
-        <English>Izhmash AK74M</English>
-        <Czech>Izhmash AK74M</Czech>
-        <French>Izhmash AK74M</French>
-        <Spanish>Izhmash AK74M</Spanish>
-        <Italian>Izhmash AK74M</Italian>
-        <Polish>Izhmash AK74M</Polish>
-        <Portuguese>Izhmash AK74M</Portuguese>
-        <Russian>Izhmash AK74M</Russian>
-        <German>Izhmash AK74M</German>
-        <Japanese>Izhmash AK74M</Japanese>
-        <Korean>Izhmash AK74M</Korean>
-        <Chinesesimp>Izhmash AK74M</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak74mmtk">
-        <Original>Izhmash AK74M (MTK)</Original>
-        <English>Izhmash AK74M (MTK)</English>
-        <Czech>Izhmash AK74M (MTK)</Czech>
-        <French>Izhmash AK74M (MTK)</French>
-        <Spanish>Izhmash AK74M (MTK)</Spanish>
-        <Italian>Izhmash AK74M (MTK)</Italian>
-        <Polish>Izhmash AK74M (MTK)</Polish>
-        <Portuguese>Izhmash AK74M (MTK)</Portuguese>
-        <Russian>Izhmash AK74M (MTK)</Russian>
-        <German>Izhmash AK74M (MTK)</German>
-        <Japanese>Izhmash AK74M (MTK)</Japanese>
-        <Korean>Izhmash AK74M (MTK)</Korean>
-        <Chinesesimp>Izhmash AK74M (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak74mgl">
-        <Original>Izhmash AK74M (GL)</Original>
-        <English>Izhmash AK74M (GL)</English>
-        <Czech>Izhmash AK74M (GL)</Czech>
-        <French>Izhmash AK74M (GL)</French>
-        <Spanish>Izhmash AK74M (GL)</Spanish>
-        <Italian>Izhmash AK74M (GL)</Italian>
-        <Polish>Izhmash AK74M (GL)</Polish>
-        <Portuguese>Izhmash AK74M (GL)</Portuguese>
-        <Russian>Izhmash AK74M (GL)</Russian>
-        <German>Izhmash AK74M (GL)</German>
-        <Japanese>Izhmash AK74M (GL)</Japanese>
-        <Korean>Izhmash AK74M (GL)</Korean>
-        <Chinesesimp>Izhmash AK74M (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_aks74">
-        <Original>Izhmash AKS74</Original>
-        <English>Izhmash AKS74</English>
-        <Czech>Izhmash AKS74</Czech>
-        <French>Izhmash AKS74</French>
-        <Spanish>Izhmash AKS74</Spanish>
-        <Italian>Izhmash AKS74</Italian>
-        <Polish>Izhmash AKS74</Polish>
-        <Portuguese>Izhmash AKS74</Portuguese>
-        <Russian>Izhmash AKS74</Russian>
-        <German>Izhmash AKS74</German>
-        <Japanese>Izhmash AKS74</Japanese>
-        <Korean>Izhmash AKS74</Korean>
-        <Chinesesimp>Izhmash AKS74</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_aks74mtk">
-        <Original>Izhmash AKS74 (MTK)</Original>
-        <English>Izhmash AKS74 (MTK)</English>
-        <Czech>Izhmash AKS74 (MTK)</Czech>
-        <French>Izhmash AKS74 (MTK)</French>
-        <Spanish>Izhmash AKS74 (MTK)</Spanish>
-        <Italian>Izhmash AKS74 (MTK)</Italian>
-        <Polish>Izhmash AKS74 (MTK)</Polish>
-        <Portuguese>Izhmash AKS74 (MTK)</Portuguese>
-        <Russian>Izhmash AKS74 (MTK)</Russian>
-        <German>Izhmash AKS74 (MTK)</German>
-        <Japanese>Izhmash AKS74 (MTK)</Japanese>
-        <Korean>Izhmash AKS74 (MTK)</Korean>
-        <Chinesesimp>Izhmash AKS74 (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_aks74gl">
-        <Original>Izhmash AKS74 (GL)</Original>
-        <English>Izhmash AKS74 (GL)</English>
-        <Czech>Izhmash AKS74 (GL)</Czech>
-        <French>Izhmash AKS74 (GL)</French>
-        <Spanish>Izhmash AKS74 (GL)</Spanish>
-        <Italian>Izhmash AKS74 (GL)</Italian>
-        <Polish>Izhmash AKS74 (GL)</Polish>
-        <Portuguese>Izhmash AKS74 (GL)</Portuguese>
-        <Russian>Izhmash AKS74 (GL)</Russian>
-        <German>Izhmash AKS74 (GL)</German>
-        <Japanese>Izhmash AKS74 (GL)</Japanese>
-        <Korean>Izhmash AKS74 (GL)</Korean>
-        <Chinesesimp>Izhmash AKS74 (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak12">
-        <Original>Izhmash AK12</Original>
-        <English>Izhmash AK12</English>
-        <Czech>Izhmash AK12</Czech>
-        <French>Izhmash AK12</French>
-        <Spanish>Izhmash AK12</Spanish>
-        <Italian>Izhmash AK12</Italian>
-        <Polish>Izhmash AK12</Polish>
-        <Portuguese>Izhmash AK12</Portuguese>
-        <Russian>Izhmash AK12</Russian>
-        <German>Izhmash AK12</German>
-        <Japanese>Izhmash AK12</Japanese>
-        <Korean>Izhmash AK12</Korean>
-        <Chinesesimp>Izhmash AK12</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak12gl">
-        <Original>Izhmash AK12 (GL)</Original>
-        <English>Izhmash AK12 (GL)</English>
-        <Czech>Izhmash AK12 (GL)</Czech>
-        <French>Izhmash AK12 (GL)</French>
-        <Spanish>Izhmash AK12 (GL)</Spanish>
-        <Italian>Izhmash AK12 (GL)</Italian>
-        <Polish>Izhmash AK12 (GL)</Polish>
-        <Portuguese>Izhmash AK12 (GL)</Portuguese>
-        <Russian>Izhmash AK12 (GL)</Russian>
-        <German>Izhmash AK12 (GL)</German>
-        <Japanese>Izhmash AK12 (GL)</Japanese>
-        <Korean>Izhmash AK12 (GL)</Korean>
-        <Chinesesimp>Izhmash AK12 (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak12u">
-        <Original>Izhmash AK12U</Original>
-        <English>Izhmash AK12U</English>
-        <Czech>Izhmash AK12U</Czech>
-        <French>Izhmash AK12U</French>
-        <Spanish>Izhmash AK12U</Spanish>
-        <Italian>Izhmash AK12U</Italian>
-        <Polish>Izhmash AK12U</Polish>
-        <Portuguese>Izhmash AK12U</Portuguese>
-        <Russian>Izhmash AK12U</Russian>
-        <German>Izhmash AK12U</German>
-        <Japanese>Izhmash AK12U</Japanese>
-        <Korean>Izhmash AK12U</Korean>
-        <Chinesesimp>Izhmash AK12U</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rpk12">
-        <Original>Izhmash RPK12</Original>
-        <English>Izhmash RPK12</English>
-        <Czech>Izhmash RPK12</Czech>
-        <French>Izhmash RPK12</French>
-        <Spanish>Izhmash RPK12</Spanish>
-        <Italian>Izhmash RPK12</Italian>
-        <Polish>Izhmash RPK12</Polish>
-        <Portuguese>Izhmash RPK12</Portuguese>
-        <Russian>Izhmash RPK12</Russian>
-        <German>Izhmash RPK12</German>
-        <Japanese>Izhmash RPK12</Japanese>
-        <Korean>Izhmash RPK12</Korean>
-        <Chinesesimp>Izhmash RPK12</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_aks74u">
-        <Original>Izhmash AKS74U</Original>
-        <English>Izhmash AKS74U</English>
-        <Czech>Izhmash AKS74U</Czech>
-        <French>Izhmash AKS74U</French>
-        <Spanish>Izhmash AKS74U</Spanish>
-        <Italian>Izhmash AKS74U</Italian>
-        <Polish>Izhmash AKS74U</Polish>
-        <Portuguese>Izhmash AKS74U</Portuguese>
-        <Russian>Izhmash AKS74U</Russian>
-        <German>Izhmash AKS74U</German>
-        <Japanese>Izhmash AKS74U</Japanese>
-        <Korean>Izhmash AKS74U</Korean>
-        <Chinesesimp>Izhmash AKS74U</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_aks74umtk">
-        <Original>Izhmash AKS74U (MTK)</Original>
-        <English>Izhmash AKS74U (MTK)</English>
-        <Czech>Izhmash AKS74U (MTK)</Czech>
-        <French>Izhmash AKS74U (MTK)</French>
-        <Spanish>Izhmash AKS74U (MTK)</Spanish>
-        <Italian>Izhmash AKS74U (MTK)</Italian>
-        <Polish>Izhmash AKS74U (MTK)</Polish>
-        <Portuguese>Izhmash AKS74U (MTK)</Portuguese>
-        <Russian>Izhmash AKS74U (MTK)</Russian>
-        <German>Izhmash AKS74U (MTK)</German>
-        <Japanese>Izhmash AKS74U (MTK)</Japanese>
-        <Korean>Izhmash AKS74U (MTK)</Korean>
-        <Chinesesimp>Izhmash AKS74U (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ak47">
-        <Original>Izhmash AK</Original>
-        <English>Izhmash AK</English>
-        <Czech>Izhmash AK</Czech>
-        <French>Izhmash AK</French>
-        <Spanish>Izhmash AK</Spanish>
-        <Italian>Izhmash AK</Italian>
-        <Polish>Izhmash AK</Polish>
-        <Portuguese>Izhmash AK</Portuguese>
-        <Russian>Izhmash AK</Russian>
-        <German>Izhmash AK</German>
-        <Japanese>Izhmash AK</Japanese>
-        <Korean>Izhmash AK</Korean>
-        <Chinesesimp>Izhmash AK</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_akm">
-        <Original>Izhmash AKM</Original>
-        <English>Izhmash AKM</English>
-        <Czech>Izhmash AKM</Czech>
-        <French>Izhmash AKM</French>
-        <Spanish>Izhmash AKM</Spanish>
-        <Italian>Izhmash AKM</Italian>
-        <Polish>Izhmash AKM</Polish>
-        <Portuguese>Izhmash AKM</Portuguese>
-        <Russian>Izhmash AKM</Russian>
-        <German>Izhmash AKM</German>
-        <Japanese>Izhmash AKM</Japanese>
-        <Korean>Izhmash AKM</Korean>
-        <Chinesesimp>Izhmash AKM</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_akmmtk">
-        <Original>Izhmash AKM (MTK)</Original>
-        <English>Izhmash AKM (MTK)</English>
-        <Czech>Izhmash AKM (MTK)</Czech>
-        <French>Izhmash AKM (MTK)</French>
-        <Spanish>Izhmash AKM (MTK)</Spanish>
-        <Italian>Izhmash AKM (MTK)</Italian>
-        <Polish>Izhmash AKM (MTK)</Polish>
-        <Portuguese>Izhmash AKM (MTK)</Portuguese>
-        <Russian>Izhmash AKM (MTK)</Russian>
-        <German>Izhmash AKM (MTK)</German>
-        <Japanese>Izhmash AKM (MTK)</Japanese>
-        <Korean>Izhmash AKM (MTK)</Korean>
-        <Chinesesimp>Izhmash AKM (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_akmgl">
-        <Original>Izhmash AKM (GL)</Original>
-        <English>Izhmash AKM (GL)</English>
-        <Czech>Izhmash AKM (GL)</Czech>
-        <French>Izhmash AKM (GL)</French>
-        <Spanish>Izhmash AKM (GL)</Spanish>
-        <Italian>Izhmash AKM (GL)</Italian>
-        <Polish>Izhmash AKM (GL)</Polish>
-        <Portuguese>Izhmash AKM (GL)</Portuguese>
-        <Russian>Izhmash AKM (GL)</Russian>
-        <German>Izhmash AKM (GL)</German>
-        <Japanese>Izhmash AKM (GL)</Japanese>
-        <Korean>Izhmash AKM (GL)</Korean>
-        <Chinesesimp>Izhmash AKM (GL)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rpk">
-        <Original>Molot RPK</Original>
-        <English>Molot RPK</English>
-        <Czech>Molot RPK</Czech>
-        <French>Molot RPK</French>
-        <Spanish>Molot RPK</Spanish>
-        <Italian>Molot RPK</Italian>
-        <Polish>Molot RPK</Polish>
-        <Portuguese>Molot RPK</Portuguese>
-        <Russian>Molot RPK</Russian>
-        <German>Molot RPK</German>
-        <Japanese>Molot RPK</Japanese>
-        <Korean>Molot RPK</Korean>
-        <Chinesesimp>Molot RPK</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rpk74">
-        <Original>Molot RPK74</Original>
-        <English>Molot RPK74</English>
-        <Czech>Molot RPK74</Czech>
-        <French>Molot RPK74</French>
-        <Spanish>Molot RPK74</Spanish>
-        <Italian>Molot RPK74</Italian>
-        <Polish>Molot RPK74</Polish>
-        <Portuguese>Molot RPK74</Portuguese>
-        <Russian>Molot RPK74</Russian>
-        <German>Molot RPK74</German>
-        <Japanese>Molot RPK74</Japanese>
-        <Korean>Molot RPK74</Korean>
-        <Chinesesimp>Molot RPK74</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AEK971S">
-        <Original>Kovrov AEK-971S</Original>
-        <English>Kovrov AEK-971S</English>
-        <Czech>Kovrov AEK-971S</Czech>
-        <French>Kovrov AEK-971S</French>
-        <Spanish>Kovrov AEK-971S</Spanish>
-        <Italian>Kovrov AEK-971S</Italian>
-        <Polish>Kovrov AEK-971S</Polish>
-        <Portuguese>Kovrov AEK-971S</Portuguese>
-        <Russian>Kovrov AEK-971S</Russian>
-        <German>Kovrov AEK-971S</German>
-        <Japanese>Kovrov AEK-971S</Japanese>
-        <Korean>Kovrov AEK-971S</Korean>
-        <Chinesesimp>Kovrov AEK-971S</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AEK971Svar1">
-        <Original>Kovrov AEK-971S (Worn)</Original>
-        <English>Kovrov AEK-971S (Worn)</English>
-        <Czech>Kovrov AEK-971S (Worn)</Czech>
-        <French>Kovrov AEK-971S (Worn)</French>
-        <Spanish>Kovrov AEK-971S (Worn)</Spanish>
-        <Italian>Kovrov AEK-971S (Worn)</Italian>
-        <Polish>Kovrov AEK-971S (Worn)</Polish>
-        <Portuguese>Kovrov AEK-971S (Worn)</Portuguese>
-        <Russian>Kovrov AEK-971S (Worn)</Russian>
-        <German>Kovrov AEK-971S (Worn)</German>
-        <Japanese>Kovrov AEK-971S (使い古し)</Japanese>
-        <Korean>Kovrov AEK-971S (Worn)</Korean>
-        <Chinesesimp>Kovrov AEK-971S (Worn)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AEK971Smtk">
-        <Original>Kovrov AEK-971S (MTK)</Original>
-        <English>Kovrov AEK-971S (MTK)</English>
-        <Czech>Kovrov AEK-971S (MTK)</Czech>
-        <French>Kovrov AEK-971S (MTK)</French>
-        <Spanish>Kovrov AEK-971S (MTK)</Spanish>
-        <Italian>Kovrov AEK-971S (MTK)</Italian>
-        <Polish>Kovrov AEK-971S (MTK)</Polish>
-        <Portuguese>Kovrov AEK-971S (MTK)</Portuguese>
-        <Russian>Kovrov AEK-971S (MTK)</Russian>
-        <German>Kovrov AEK-971S (MTK)</German>
-        <Japanese>Kovrov AEK-971S (MTK)</Japanese>
-        <Korean>Kovrov AEK-971S (MTK)</Korean>
-        <Chinesesimp>Kovrov AEK-971S (MTK)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_saiga12">
-        <Original>Saiga-12S</Original>
-        <English>Saiga-12S</English>
-        <Czech>Saiga-12S</Czech>
-        <French>Saiga-12S</French>
-        <Spanish>Saiga-12S</Spanish>
-        <Italian>Saiga-12S</Italian>
-        <Polish>Saiga-12S</Polish>
-        <Portuguese>Saiga-12S</Portuguese>
-        <Russian>Saiga-12S</Russian>
-        <German>Saiga-12S</German>
-        <Japanese>Saiga-12S</Japanese>
-        <Korean>Saiga-12S</Korean>
-        <Chinesesimp>Saiga-12S</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rk62">
-        <Original>Valmet Rk.62</Original>
-        <English>Valmet Rk.62</English>
-        <Czech>Valmet Rk.62</Czech>
-        <French>Valmet Rk.62</French>
-        <Spanish>Valmet Rk.62</Spanish>
-        <Italian>Valmet Rk.62</Italian>
-        <Polish>Valmet Rk.62</Polish>
-        <Portuguese>Valmet Rk.62</Portuguese>
-        <Russian>Valmet Rk.62</Russian>
-        <German>Valmet Rk.62</German>
-        <Japanese>Valmet Rk.62</Japanese>
-        <Korean>Valmet Rk.62</Korean>
-        <Chinesesimp>Valmet Rk.62</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_SLR107U">
-        <Original>Arsenal Inc. SLR107U</Original>
-        <English>Arsenal Inc. SLR107U</English>
-        <Czech>Arsenal Inc. SLR107U</Czech>
-        <French>Arsenal Inc. SLR107U</French>
-        <Spanish>Arsenal Inc. SLR107U</Spanish>
-        <Italian>Arsenal Inc. SLR107U</Italian>
-        <Polish>Arsenal Inc. SLR107U</Polish>
-        <Portuguese>Arsenal Inc. SLR107U</Portuguese>
-        <Russian>Arsenal Inc. SLR107U</Russian>
-        <German>Arsenal Inc. SLR107U</German>
-        <Japanese>Arsenal Inc. SLR107U</Japanese>
-        <Korean>Arsenal Inc. SLR107U</Korean>
-        <Chinesesimp>Arsenal Inc. SLR107U</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_SLR107Umtk">
-        <Original>Arsenal Inc. SLR107U (MTK)</Original>
-        <English>Arsenal Inc. SLR107U (MTK)</English>
-        <Czech>Arsenal Inc. SLR107U (MTK)</Czech>
-        <French>Arsenal Inc. SLR107U (MTK)</French>
-        <Spanish>Arsenal Inc. SLR107U (MTK)</Spanish>
-        <Italian>Arsenal Inc. SLR107U (MTK)</Italian>
-        <Polish>Arsenal Inc. SLR107U (MTK)</Polish>
-        <Portuguese>Arsenal Inc. SLR107U (MTK)</Portuguese>
-        <Russian>Arsenal Inc. SLR107U (MTK)</Russian>
-        <German>Arsenal Inc. SLR107U (MTK)</German>
-        <Japanese>Arsenal Inc. SLR107U (MTK)</Japanese>
-        <Korean>Arsenal Inc. SLR107U (MTK)</Korean>
-        <Chinesesimp>Arsenal Inc. SLR107U (MTK)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_5rnd_12g_buck_S12">
-        <Original>12 Gauge Buckshot 5Rnd Saiga Magazine</Original>
-        <English>12 Gauge Buckshot 5Rnd Saiga Magazine</English>
-        <Czech>12 Gauge Buckshot 5Rnd Saiga Magazine</Czech>
-        <French>12 Gauge Buckshot 5Rnd Saiga Magazine</French>
-        <Spanish>12 Gauge Buckshot 5Rnd Saiga Magazine</Spanish>
-        <Italian>12 Gauge Buckshot 5Rnd Saiga Magazine</Italian>
-        <Polish>12 Gauge Buckshot 5Rnd Saiga Magazine</Polish>
-        <Portuguese>12 Gauge Buckshot 5Rnd Saiga Magazine</Portuguese>
-        <Russian>12 Gauge Buckshot 5Rnd Saiga Magazine</Russian>
-        <German>12 Gauge Buckshot 5Rnd Saiga Magazine</German>
-        <Japanese>12 ゲージ バックショット 5発入り サイガ マガジン</Japanese>
-        <Korean>12 Gauge Buckshot 5Rnd Saiga Magazine</Korean>
-        <Chinesesimp>12 Gauge Buckshot 5Rnd Saiga Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_12g_slug_S12">
-        <Original>12 Gauge Slug 5Rnd Saiga Magazine</Original>
-        <English>12 Gauge Slug 5Rnd Saiga Magazine</English>
-        <Czech>12 Gauge Slug 5Rnd Saiga Magazine</Czech>
-        <French>12 Gauge Slug 5Rnd Saiga Magazine</French>
-        <Spanish>12 Gauge Slug 5Rnd Saiga Magazine</Spanish>
-        <Italian>12 Gauge Slug 5Rnd Saiga Magazine</Italian>
-        <Polish>12 Gauge Slug 5Rnd Saiga Magazine</Polish>
-        <Portuguese>12 Gauge Slug 5Rnd Saiga Magazine</Portuguese>
-        <Russian>12 Gauge Slug 5Rnd Saiga Magazine</Russian>
-        <German>12 Gauge Slug 5Rnd Saiga Magazine</German>
-        <Japanese>12 ゲージ スラッグ 5発入り サイガ マガジン</Japanese>
-        <Korean>12 Gauge Slug 5Rnd Saiga Magazine</Korean>
-        <Chinesesimp>12 Gauge Slug 5Rnd Saiga Magazine</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Acc_names">
-      <Key ID="STR_NIA_PSO1">
-        <Original>NPZ PSO-1</Original>
-        <English>NPZ PSO-1</English>
-        <Czech>NPZ PSO-1</Czech>
-        <French>NPZ PSO-1</French>
-        <Spanish>NPZ PSO-1</Spanish>
-        <Italian>NPZ PSO-1</Italian>
-        <Polish>NPZ PSO-1</Polish>
-        <Portuguese>NPZ PSO-1</Portuguese>
-        <Russian>NPZ PSO-1</Russian>
-        <German>NPZ PSO-1</German>
-        <Japanese>NPZ PSO-1</Japanese>
-        <Korean>NPZ PSO-1</Korean>
-        <Chinesesimp>NPZ PSO-1</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_1p29">
-        <Original>NPZ 1P29</Original>
-        <English>NPZ 1P29</English>
-        <Czech>NPZ 1P29</Czech>
-        <French>NPZ 1P29</French>
-        <Spanish>NPZ 1P29</Spanish>
-        <Italian>NPZ 1P29</Italian>
-        <Polish>NPZ 1P29</Polish>
-        <Portuguese>NPZ 1P29</Portuguese>
-        <Russian>NPZ 1P29</Russian>
-        <German>NPZ 1P29</German>
-        <Japanese>NPZ 1P29</Japanese>
-        <Korean>NPZ 1P29</Korean>
-        <Chinesesimp>NPZ 1P29</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Kobra">
-        <Original>Kobra EKP-1S-03M </Original>
-        <English>Kobra EKP-1S-03M</English>
-        <Czech>Kobra EKP-1S-03M</Czech>
-        <French>Kobra EKP-1S-03M</French>
-        <Spanish>Kobra EKP-1S-03M</Spanish>
-        <Italian>Kobra EKP-1S-03M</Italian>
-        <Polish>Kobra EKP-1S-03M</Polish>
-        <Portuguese>Kobra EKP-1S-03M</Portuguese>
-        <Russian>Kobra EKP-1S-03M</Russian>
-        <German>Kobra EKP-1S-03M</German>
-        <Japanese>Kobra EKP-1S-03M</Japanese>
-        <Korean>Kobra EKP-1S-03M</Korean>
-        <Chinesesimp>Kobra EKP-1S-03M</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Goshawk">
-        <Original>Goshawk TIWS </Original>
-        <English>Goshawk TIWS</English>
-        <Czech>Goshawk TIWS</Czech>
-        <French>Goshawk TIWS</French>
-        <Spanish>Goshawk TIWS</Spanish>
-        <Italian>Goshawk TIWS</Italian>
-        <Polish>Goshawk TIWS</Polish>
-        <Portuguese>Goshawk TIWS</Portuguese>
-        <Russian>Goshawk TIWS</Russian>
-        <German>Goshawk TIWS</German>
-        <Japanese>Goshawk TIWS</Japanese>
-        <Korean>Goshawk TIWS</Korean>
-        <Chinesesimp>Goshawk TIWS</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PBS4">
-        <Original>PBS-4</Original>
-        <English>PBS-4</English>
-        <Czech>PBS-4</Czech>
-        <French>PBS-4</French>
-        <Spanish>PBS-4</Spanish>
-        <Italian>PBS-4</Italian>
-        <Polish>PBS-4</Polish>
-        <Portuguese>PBS-4</Portuguese>
-        <Russian>PBS-4</Russian>
-        <German>PBS-4</German>
-        <Japanese>PBS-4</Japanese>
-        <Korean>PBS-4</Korean>
-        <Chinesesimp>PBS-4</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PBS1">
-        <Original>PBS-1</Original>
-        <English>PBS-1</English>
-        <Czech>PBS-1</Czech>
-        <French>PBS-1</French>
-        <Spanish>PBS-1</Spanish>
-        <Italian>PBS-1</Italian>
-        <Polish>PBS-1</Polish>
-        <Portuguese>PBS-1</Portuguese>
-        <Russian>PBS-1</Russian>
-        <German>PBS-1</German>
-        <Japanese>PBS-1</Japanese>
-        <Korean>PBS-1</Korean>
-        <Chinesesimp>PBS-1</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_4PComp">
-        <Original>Arsenal 4-Piece Linear Comp</Original>
-        <English>Arsenal 4-Piece Linear Comp</English>
-        <Czech>Arsenal 4-Piece Linear Comp</Czech>
-        <French>Arsenal 4-Piece Linear Comp</French>
-        <Spanish>Arsenal 4-Piece Linear Comp</Spanish>
-        <Italian>Arsenal 4-Piece Linear Comp</Italian>
-        <Polish>Arsenal 4-Piece Linear Comp</Polish>
-        <Portuguese>Arsenal 4-Piece Linear Comp</Portuguese>
-        <Russian>Arsenal 4-Piece Linear Comp</Russian>
-        <German>Arsenal 4-Piece Linear Comp</German>
-        <Japanese>Arsenal 4-Piece ライナー コンプ</Japanese>
-        <Korean>Arsenal 4-Piece Linear Comp</Korean>
-        <Chinesesimp>Arsenal 4-Piece Linear Comp</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_AK74_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AKS74U_DESC">
-        <Original>SMG&lt;br/&gt;Caliber:5.45x45mm</Original>
-        <English>SMG&lt;br/&gt;Caliber:5.45x45mm</English>
-        <Czech>SMG&lt;br/&gt;Caliber:5.45x45mm</Czech>
-        <French>SMG&lt;br/&gt;Caliber:5.45x45mm</French>
-        <Spanish>SMG&lt;br/&gt;Caliber:5.45x45mm</Spanish>
-        <Italian>SMG&lt;br/&gt;Caliber:5.45x45mm</Italian>
-        <Polish>SMG&lt;br/&gt;Caliber:5.45x45mm</Polish>
-        <Portuguese>SMG&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
-        <Russian>SMG&lt;br/&gt;Caliber:5.45x45mm</Russian>
-        <German>SMG&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>カービン ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
-        <Korean>SMG&lt;br/&gt;Caliber:5.45x45mm</Korean>
-        <Chinesesimp>SMG&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_RPK74_DESC">
-        <Original>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Original>
-        <English>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</English>
-        <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Czech>
-        <French>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</French>
-        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Spanish>
-        <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Italian>
-        <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Polish>
-        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
-        <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Russian>
-        <German>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</German>
-        <Japanese>軽支援火器&lt;br/&gt;口径: 5.45x45mm</Japanese>
-        <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Korean>
-        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AK_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62x39mm</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_RPK_DESC">
-        <Original>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Original>
-        <English>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</English>
-        <Czech>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Czech>
-        <French>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</French>
-        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Spanish>
-        <Italian>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Italian>
-        <Polish>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Polish>
-        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
-        <Russian>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Russian>
-        <German>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</German>
-        <Japanese>軽支援火器&lt;br/&gt;口径: 7.62x39mm</Japanese>
-        <Korean>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Korean>
-        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_S12S_DESC">
-        <Original>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Original>
-        <English>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</English>
-        <Czech>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Czech>
-        <French>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</French>
-        <Spanish>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Spanish>
-        <Italian>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Italian>
-        <Polish>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Polish>
-        <Portuguese>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Portuguese>
-        <Russian>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Russian>
-        <German>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</German>
-        <Japanese>オートマチック ショットガン&lt;br/&gt;口径: 12 ゲージ</Japanese>
-        <Korean>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Korean>
-        <Chinesesimp>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_SL107U_DESC">
-        <Original>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&lt;br/&gt;"Room Broom"</Original>
-        <English>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</English>
-        <Czech>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Czech>
-        <French>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</French>
-        <Spanish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Spanish>
-        <Italian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Italian>
-        <Polish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Polish>
-        <Portuguese>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Portuguese>
-        <Russian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Russian>
-        <German>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</German>
-        <Japanese>ショートバレル カービン&lt;br/&gt;口径: 7.62x39mm"ルーム ブルーム"</Japanese>
-        <Korean>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Korean>
-        <Chinesesimp>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PSO1_DESC">
-        <Original>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Original>
-        <English>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</English>
-        <Czech>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Czech>
-        <French>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4&lt;br/&gt;Adjustment: BDC 100-1000mx&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</French>
-        <Spanish>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Spanish>
-        <Italian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Italian>
-        <Polish>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Polish>
-        <Portuguese>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
-        <Russian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
-        <German>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>PSO-1 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-1000m&lt;br/&gt;照準線: 山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
-        <Korean>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
-        <Chinesesimp>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_1P29_DESC">
-        <Original>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Original>
-        <English>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</English>
-        <Czech>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Czech>
-        <French>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</French>
-        <Spanish>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Spanish>
-        <Italian>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Italian>
-        <Polish>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Polish>
-        <Portuguese>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Portuguese>
-        <Russian>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Russian>
-        <German>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</German>
-        <Japanese>1P29 倍率プリズム照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 400-1000m&lt;br/&gt;照準線: 反転山形ポスト + 簡易距離計</Japanese>
-        <Korean>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Korean>
-        <Chinesesimp>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Kobra_DESC">
-        <Original>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Original>
-        <English>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</English>
-        <Czech>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Czech>
-        <French>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</French>
-        <Spanish>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Spanish>
-        <Italian>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Italian>
-        <Polish>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Polish>
-        <Portuguese>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Portuguese>
-        <Russian>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Russian>
-        <German>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</German>
-        <Japanese>EKP-1S-03M オープン コリメーター照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: NIL&lt;br/&gt;照準線: 発光オープンT字型</Japanese>
-        <Korean>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Korean>
-        <Chinesesimp>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_Goshawk_DESC">
-        <Original>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Original>
-        <English>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</English>
-        <Czech>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Czech>
-        <French>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</French>
-        <Spanish>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Spanish>
-        <Italian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Italian>
-        <Polish>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Polish>
-        <Portuguese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
-        <Russian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
-        <German>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
-        <Japanese>Goshawk サーマル イメージング照準器&lt;br/&gt;倍率: 3.6x&lt;br/&gt;調整範囲: BDC 300-2200m&lt;br/&gt;照準線: C山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
-        <Korean>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
-        <Chinesesimp>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PBS4_DESC">
-        <Original>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Original>
-        <English>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</English>
-        <Czech>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Czech>
-        <French>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</French>
-        <Spanish>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Spanish>
-        <Italian>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Italian>
-        <Polish>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Polish>
-        <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Portuguese>
-        <Russian>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Russian>
-        <German>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</German>
-        <Japanese>消音器&lt;br/&gt;口径: 5.45mm</Japanese>
-        <Korean>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Korean>
-        <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_4PComp_DESC">
-        <Original>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Original>
-        <English>Linear Compensator&lt;br/&gt;Caliber:7.62mm</English>
-        <Czech>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Czech>
-        <French>Linear Compensator&lt;br/&gt;Caliber:7.62mm</French>
-        <Spanish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Spanish>
-        <Italian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Italian>
-        <Polish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Polish>
-        <Portuguese>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Portuguese>
-        <Russian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Russian>
-        <German>Linear Compensator&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>ライナー コンペンセイター&lt;br/&gt;口径: 7.62mm</Japanese>
-        <Korean>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Korean>
-        <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_PBS1_DESC">
-        <Original>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Original>
-        <English>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</English>
-        <Czech>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Czech>
-        <French>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</French>
-        <Spanish>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Spanish>
-        <Italian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Italian>
-        <Polish>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Polish>
-        <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Portuguese>
-        <Russian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Russian>
-        <German>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</German>
-        <Japanese>消音器&lt;br/&gt;口径: 7.62mm</Japanese>
-        <Korean>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Korean>
-        <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_12g_buck_S12">
-        <Original>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: 12 ゲージ 00 バック&lt;br/&gt;種類: 鉛ペレット&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_12g_slug_S12">
-        <Original>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: 12 ゲージ スラッグ&lt;br/&gt;種類: 単発鉛弾丸&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_AK">
+        <Container name="Names">
+            <Key ID="STR_NIA_ak74">
+                <Original>Izhmash AK74</Original>
+                <English>Izhmash AK74</English>
+                <Czech>Izhmash AK74</Czech>
+                <French>Izhmash AK74</French>
+                <Spanish>Izhmash AK74</Spanish>
+                <Italian>Izhmash AK74</Italian>
+                <Polish>Izhmash AK74</Polish>
+                <Portuguese>Izhmash AK74</Portuguese>
+                <Russian>Izhmash AK74</Russian>
+                <German>Izhmash AK74</German>
+                <Japanese>Izhmash AK74</Japanese>
+                <Korean>Izhmash AK74</Korean>
+                <Chinesesimp>Izhmash AK74</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak74mtk">
+                <Original>Izhmash AK74 (MTK)</Original>
+                <English>Izhmash AK74 (MTK)</English>
+                <Czech>Izhmash AK74 (MTK)</Czech>
+                <French>Izhmash AK74 (MTK)</French>
+                <Spanish>Izhmash AK74 (MTK)</Spanish>
+                <Italian>Izhmash AK74 (MTK)</Italian>
+                <Polish>Izhmash AK74 (MTK)</Polish>
+                <Portuguese>Izhmash AK74 (MTK)</Portuguese>
+                <Russian>Izhmash AK74 (MTK)</Russian>
+                <German>Izhmash AK74 (MTK)</German>
+                <Japanese>Izhmash AK74 (MTK)</Japanese>
+                <Korean>Izhmash AK74 (MTK)</Korean>
+                <Chinesesimp>Izhmash AK74 (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak74var1">
+                <Original>Izhmash AK74 (Worn)</Original>
+                <English>Izhmash AK74 (Worn)</English>
+                <Czech>Izhmash AK74 (Worn)</Czech>
+                <French>Izhmash AK74 (Usé)</French>
+                <Spanish>Izhmash AK74 (Worn)</Spanish>
+                <Italian>Izhmash AK74 (Worn)</Italian>
+                <Polish>Izhmash AK74 (Worn)</Polish>
+                <Portuguese>Izhmash AK74 (Worn)</Portuguese>
+                <Russian>Izhmash AK74 (Worn)</Russian>
+                <German>Izhmash AK74 (Worn)</German>
+                <Japanese>Izhmash AK74 (使い古し)</Japanese>
+                <Korean>Izhmash AK74 (Worn)</Korean>
+                <Chinesesimp>Izhmash AK74 (Worn)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak74m">
+                <Original>Izhmash AK74M</Original>
+                <English>Izhmash AK74M</English>
+                <Czech>Izhmash AK74M</Czech>
+                <French>Izhmash AK74M</French>
+                <Spanish>Izhmash AK74M</Spanish>
+                <Italian>Izhmash AK74M</Italian>
+                <Polish>Izhmash AK74M</Polish>
+                <Portuguese>Izhmash AK74M</Portuguese>
+                <Russian>Izhmash AK74M</Russian>
+                <German>Izhmash AK74M</German>
+                <Japanese>Izhmash AK74M</Japanese>
+                <Korean>Izhmash AK74M</Korean>
+                <Chinesesimp>Izhmash AK74M</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak74mmtk">
+                <Original>Izhmash AK74M (MTK)</Original>
+                <English>Izhmash AK74M (MTK)</English>
+                <Czech>Izhmash AK74M (MTK)</Czech>
+                <French>Izhmash AK74M (MTK)</French>
+                <Spanish>Izhmash AK74M (MTK)</Spanish>
+                <Italian>Izhmash AK74M (MTK)</Italian>
+                <Polish>Izhmash AK74M (MTK)</Polish>
+                <Portuguese>Izhmash AK74M (MTK)</Portuguese>
+                <Russian>Izhmash AK74M (MTK)</Russian>
+                <German>Izhmash AK74M (MTK)</German>
+                <Japanese>Izhmash AK74M (MTK)</Japanese>
+                <Korean>Izhmash AK74M (MTK)</Korean>
+                <Chinesesimp>Izhmash AK74M (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak74mgl">
+                <Original>Izhmash AK74M (GL)</Original>
+                <English>Izhmash AK74M (GL)</English>
+                <Czech>Izhmash AK74M (GL)</Czech>
+                <French>Izhmash AK74M (LGI)</French>
+                <Spanish>Izhmash AK74M (GL)</Spanish>
+                <Italian>Izhmash AK74M (GL)</Italian>
+                <Polish>Izhmash AK74M (GL)</Polish>
+                <Portuguese>Izhmash AK74M (GL)</Portuguese>
+                <Russian>Izhmash AK74M (GL)</Russian>
+                <German>Izhmash AK74M (GL)</German>
+                <Japanese>Izhmash AK74M (GL)</Japanese>
+                <Korean>Izhmash AK74M (GL)</Korean>
+                <Chinesesimp>Izhmash AK74M (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_aks74">
+                <Original>Izhmash AKS74</Original>
+                <English>Izhmash AKS74</English>
+                <Czech>Izhmash AKS74</Czech>
+                <French>Izhmash AKS74</French>
+                <Spanish>Izhmash AKS74</Spanish>
+                <Italian>Izhmash AKS74</Italian>
+                <Polish>Izhmash AKS74</Polish>
+                <Portuguese>Izhmash AKS74</Portuguese>
+                <Russian>Izhmash AKS74</Russian>
+                <German>Izhmash AKS74</German>
+                <Japanese>Izhmash AKS74</Japanese>
+                <Korean>Izhmash AKS74</Korean>
+                <Chinesesimp>Izhmash AKS74</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_aks74mtk">
+                <Original>Izhmash AKS74 (MTK)</Original>
+                <English>Izhmash AKS74 (MTK)</English>
+                <Czech>Izhmash AKS74 (MTK)</Czech>
+                <French>Izhmash AKS74 (MTK)</French>
+                <Spanish>Izhmash AKS74 (MTK)</Spanish>
+                <Italian>Izhmash AKS74 (MTK)</Italian>
+                <Polish>Izhmash AKS74 (MTK)</Polish>
+                <Portuguese>Izhmash AKS74 (MTK)</Portuguese>
+                <Russian>Izhmash AKS74 (MTK)</Russian>
+                <German>Izhmash AKS74 (MTK)</German>
+                <Japanese>Izhmash AKS74 (MTK)</Japanese>
+                <Korean>Izhmash AKS74 (MTK)</Korean>
+                <Chinesesimp>Izhmash AKS74 (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_aks74gl">
+                <Original>Izhmash AKS74 (GL)</Original>
+                <English>Izhmash AKS74 (GL)</English>
+                <Czech>Izhmash AKS74 (GL)</Czech>
+                <French>Izhmash AKS74 (LGI)</French>
+                <Spanish>Izhmash AKS74 (GL)</Spanish>
+                <Italian>Izhmash AKS74 (GL)</Italian>
+                <Polish>Izhmash AKS74 (GL)</Polish>
+                <Portuguese>Izhmash AKS74 (GL)</Portuguese>
+                <Russian>Izhmash AKS74 (GL)</Russian>
+                <German>Izhmash AKS74 (GL)</German>
+                <Japanese>Izhmash AKS74 (GL)</Japanese>
+                <Korean>Izhmash AKS74 (GL)</Korean>
+                <Chinesesimp>Izhmash AKS74 (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak12">
+                <Original>Izhmash AK12</Original>
+                <English>Izhmash AK12</English>
+                <Czech>Izhmash AK12</Czech>
+                <French>Izhmash AK12</French>
+                <Spanish>Izhmash AK12</Spanish>
+                <Italian>Izhmash AK12</Italian>
+                <Polish>Izhmash AK12</Polish>
+                <Portuguese>Izhmash AK12</Portuguese>
+                <Russian>Izhmash AK12</Russian>
+                <German>Izhmash AK12</German>
+                <Japanese>Izhmash AK12</Japanese>
+                <Korean>Izhmash AK12</Korean>
+                <Chinesesimp>Izhmash AK12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak12gl">
+                <Original>Izhmash AK12 (GL)</Original>
+                <English>Izhmash AK12 (GL)</English>
+                <Czech>Izhmash AK12 (GL)</Czech>
+                <French>Izhmash AK12 (LGI)</French>
+                <Spanish>Izhmash AK12 (GL)</Spanish>
+                <Italian>Izhmash AK12 (GL)</Italian>
+                <Polish>Izhmash AK12 (GL)</Polish>
+                <Portuguese>Izhmash AK12 (GL)</Portuguese>
+                <Russian>Izhmash AK12 (GL)</Russian>
+                <German>Izhmash AK12 (GL)</German>
+                <Japanese>Izhmash AK12 (GL)</Japanese>
+                <Korean>Izhmash AK12 (GL)</Korean>
+                <Chinesesimp>Izhmash AK12 (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak12u">
+                <Original>Izhmash AK12U</Original>
+                <English>Izhmash AK12U</English>
+                <Czech>Izhmash AK12U</Czech>
+                <French>Izhmash AK12U</French>
+                <Spanish>Izhmash AK12U</Spanish>
+                <Italian>Izhmash AK12U</Italian>
+                <Polish>Izhmash AK12U</Polish>
+                <Portuguese>Izhmash AK12U</Portuguese>
+                <Russian>Izhmash AK12U</Russian>
+                <German>Izhmash AK12U</German>
+                <Japanese>Izhmash AK12U</Japanese>
+                <Korean>Izhmash AK12U</Korean>
+                <Chinesesimp>Izhmash AK12U</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rpk12">
+                <Original>Izhmash RPK12</Original>
+                <English>Izhmash RPK12</English>
+                <Czech>Izhmash RPK12</Czech>
+                <French>Izhmash RPK12</French>
+                <Spanish>Izhmash RPK12</Spanish>
+                <Italian>Izhmash RPK12</Italian>
+                <Polish>Izhmash RPK12</Polish>
+                <Portuguese>Izhmash RPK12</Portuguese>
+                <Russian>Izhmash RPK12</Russian>
+                <German>Izhmash RPK12</German>
+                <Japanese>Izhmash RPK12</Japanese>
+                <Korean>Izhmash RPK12</Korean>
+                <Chinesesimp>Izhmash RPK12</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_aks74u">
+                <Original>Izhmash AKS74U</Original>
+                <English>Izhmash AKS74U</English>
+                <Czech>Izhmash AKS74U</Czech>
+                <French>Izhmash AKS74U</French>
+                <Spanish>Izhmash AKS74U</Spanish>
+                <Italian>Izhmash AKS74U</Italian>
+                <Polish>Izhmash AKS74U</Polish>
+                <Portuguese>Izhmash AKS74U</Portuguese>
+                <Russian>Izhmash AKS74U</Russian>
+                <German>Izhmash AKS74U</German>
+                <Japanese>Izhmash AKS74U</Japanese>
+                <Korean>Izhmash AKS74U</Korean>
+                <Chinesesimp>Izhmash AKS74U</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_aks74umtk">
+                <Original>Izhmash AKS74U (MTK)</Original>
+                <English>Izhmash AKS74U (MTK)</English>
+                <Czech>Izhmash AKS74U (MTK)</Czech>
+                <French>Izhmash AKS74U (MTK)</French>
+                <Spanish>Izhmash AKS74U (MTK)</Spanish>
+                <Italian>Izhmash AKS74U (MTK)</Italian>
+                <Polish>Izhmash AKS74U (MTK)</Polish>
+                <Portuguese>Izhmash AKS74U (MTK)</Portuguese>
+                <Russian>Izhmash AKS74U (MTK)</Russian>
+                <German>Izhmash AKS74U (MTK)</German>
+                <Japanese>Izhmash AKS74U (MTK)</Japanese>
+                <Korean>Izhmash AKS74U (MTK)</Korean>
+                <Chinesesimp>Izhmash AKS74U (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ak47">
+                <Original>Izhmash AK</Original>
+                <English>Izhmash AK</English>
+                <Czech>Izhmash AK</Czech>
+                <French>Izhmash AK</French>
+                <Spanish>Izhmash AK</Spanish>
+                <Italian>Izhmash AK</Italian>
+                <Polish>Izhmash AK</Polish>
+                <Portuguese>Izhmash AK</Portuguese>
+                <Russian>Izhmash AK</Russian>
+                <German>Izhmash AK</German>
+                <Japanese>Izhmash AK</Japanese>
+                <Korean>Izhmash AK</Korean>
+                <Chinesesimp>Izhmash AK</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_akm">
+                <Original>Izhmash AKM</Original>
+                <English>Izhmash AKM</English>
+                <Czech>Izhmash AKM</Czech>
+                <French>Izhmash AKM</French>
+                <Spanish>Izhmash AKM</Spanish>
+                <Italian>Izhmash AKM</Italian>
+                <Polish>Izhmash AKM</Polish>
+                <Portuguese>Izhmash AKM</Portuguese>
+                <Russian>Izhmash AKM</Russian>
+                <German>Izhmash AKM</German>
+                <Japanese>Izhmash AKM</Japanese>
+                <Korean>Izhmash AKM</Korean>
+                <Chinesesimp>Izhmash AKM</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_akmmtk">
+                <Original>Izhmash AKM (MTK)</Original>
+                <English>Izhmash AKM (MTK)</English>
+                <Czech>Izhmash AKM (MTK)</Czech>
+                <French>Izhmash AKM (MTK)</French>
+                <Spanish>Izhmash AKM (MTK)</Spanish>
+                <Italian>Izhmash AKM (MTK)</Italian>
+                <Polish>Izhmash AKM (MTK)</Polish>
+                <Portuguese>Izhmash AKM (MTK)</Portuguese>
+                <Russian>Izhmash AKM (MTK)</Russian>
+                <German>Izhmash AKM (MTK)</German>
+                <Japanese>Izhmash AKM (MTK)</Japanese>
+                <Korean>Izhmash AKM (MTK)</Korean>
+                <Chinesesimp>Izhmash AKM (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_akmgl">
+                <Original>Izhmash AKM (GL)</Original>
+                <English>Izhmash AKM (GL)</English>
+                <Czech>Izhmash AKM (GL)</Czech>
+                <French>Izhmash AKM (LGI)</French>
+                <Spanish>Izhmash AKM (GL)</Spanish>
+                <Italian>Izhmash AKM (GL)</Italian>
+                <Polish>Izhmash AKM (GL)</Polish>
+                <Portuguese>Izhmash AKM (GL)</Portuguese>
+                <Russian>Izhmash AKM (GL)</Russian>
+                <German>Izhmash AKM (GL)</German>
+                <Japanese>Izhmash AKM (GL)</Japanese>
+                <Korean>Izhmash AKM (GL)</Korean>
+                <Chinesesimp>Izhmash AKM (GL)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rpk">
+                <Original>Molot RPK</Original>
+                <English>Molot RPK</English>
+                <Czech>Molot RPK</Czech>
+                <French>Molot RPK</French>
+                <Spanish>Molot RPK</Spanish>
+                <Italian>Molot RPK</Italian>
+                <Polish>Molot RPK</Polish>
+                <Portuguese>Molot RPK</Portuguese>
+                <Russian>Molot RPK</Russian>
+                <German>Molot RPK</German>
+                <Japanese>Molot RPK</Japanese>
+                <Korean>Molot RPK</Korean>
+                <Chinesesimp>Molot RPK</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rpk74">
+                <Original>Molot RPK74</Original>
+                <English>Molot RPK74</English>
+                <Czech>Molot RPK74</Czech>
+                <French>Molot RPK74</French>
+                <Spanish>Molot RPK74</Spanish>
+                <Italian>Molot RPK74</Italian>
+                <Polish>Molot RPK74</Polish>
+                <Portuguese>Molot RPK74</Portuguese>
+                <Russian>Molot RPK74</Russian>
+                <German>Molot RPK74</German>
+                <Japanese>Molot RPK74</Japanese>
+                <Korean>Molot RPK74</Korean>
+                <Chinesesimp>Molot RPK74</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AEK971S">
+                <Original>Kovrov AEK-971S</Original>
+                <English>Kovrov AEK-971S</English>
+                <Czech>Kovrov AEK-971S</Czech>
+                <French>Kovrov AEK-971S</French>
+                <Spanish>Kovrov AEK-971S</Spanish>
+                <Italian>Kovrov AEK-971S</Italian>
+                <Polish>Kovrov AEK-971S</Polish>
+                <Portuguese>Kovrov AEK-971S</Portuguese>
+                <Russian>Kovrov AEK-971S</Russian>
+                <German>Kovrov AEK-971S</German>
+                <Japanese>Kovrov AEK-971S</Japanese>
+                <Korean>Kovrov AEK-971S</Korean>
+                <Chinesesimp>Kovrov AEK-971S</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AEK971Svar1">
+                <Original>Kovrov AEK-971S (Worn)</Original>
+                <English>Kovrov AEK-971S (Worn)</English>
+                <Czech>Kovrov AEK-971S (Worn)</Czech>
+                <French>Kovrov AEK-971S (Usé)</French>
+                <Spanish>Kovrov AEK-971S (Worn)</Spanish>
+                <Italian>Kovrov AEK-971S (Worn)</Italian>
+                <Polish>Kovrov AEK-971S (Worn)</Polish>
+                <Portuguese>Kovrov AEK-971S (Worn)</Portuguese>
+                <Russian>Kovrov AEK-971S (Worn)</Russian>
+                <German>Kovrov AEK-971S (Worn)</German>
+                <Japanese>Kovrov AEK-971S (使い古し)</Japanese>
+                <Korean>Kovrov AEK-971S (Worn)</Korean>
+                <Chinesesimp>Kovrov AEK-971S (Worn)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AEK971Smtk">
+                <Original>Kovrov AEK-971S (MTK)</Original>
+                <English>Kovrov AEK-971S (MTK)</English>
+                <Czech>Kovrov AEK-971S (MTK)</Czech>
+                <French>Kovrov AEK-971S (MTK)</French>
+                <Spanish>Kovrov AEK-971S (MTK)</Spanish>
+                <Italian>Kovrov AEK-971S (MTK)</Italian>
+                <Polish>Kovrov AEK-971S (MTK)</Polish>
+                <Portuguese>Kovrov AEK-971S (MTK)</Portuguese>
+                <Russian>Kovrov AEK-971S (MTK)</Russian>
+                <German>Kovrov AEK-971S (MTK)</German>
+                <Japanese>Kovrov AEK-971S (MTK)</Japanese>
+                <Korean>Kovrov AEK-971S (MTK)</Korean>
+                <Chinesesimp>Kovrov AEK-971S (MTK)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_saiga12">
+                <Original>Saiga-12S</Original>
+                <English>Saiga-12S</English>
+                <Czech>Saiga-12S</Czech>
+                <French>Saiga-12S</French>
+                <Spanish>Saiga-12S</Spanish>
+                <Italian>Saiga-12S</Italian>
+                <Polish>Saiga-12S</Polish>
+                <Portuguese>Saiga-12S</Portuguese>
+                <Russian>Saiga-12S</Russian>
+                <German>Saiga-12S</German>
+                <Japanese>Saiga-12S</Japanese>
+                <Korean>Saiga-12S</Korean>
+                <Chinesesimp>Saiga-12S</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rk62">
+                <Original>Valmet Rk.62</Original>
+                <English>Valmet Rk.62</English>
+                <Czech>Valmet Rk.62</Czech>
+                <French>Valmet Rk.62</French>
+                <Spanish>Valmet Rk.62</Spanish>
+                <Italian>Valmet Rk.62</Italian>
+                <Polish>Valmet Rk.62</Polish>
+                <Portuguese>Valmet Rk.62</Portuguese>
+                <Russian>Valmet Rk.62</Russian>
+                <German>Valmet Rk.62</German>
+                <Japanese>Valmet Rk.62</Japanese>
+                <Korean>Valmet Rk.62</Korean>
+                <Chinesesimp>Valmet Rk.62</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_SLR107U">
+                <Original>Arsenal Inc. SLR107U</Original>
+                <English>Arsenal Inc. SLR107U</English>
+                <Czech>Arsenal Inc. SLR107U</Czech>
+                <French>Arsenal Inc. SLR107U</French>
+                <Spanish>Arsenal Inc. SLR107U</Spanish>
+                <Italian>Arsenal Inc. SLR107U</Italian>
+                <Polish>Arsenal Inc. SLR107U</Polish>
+                <Portuguese>Arsenal Inc. SLR107U</Portuguese>
+                <Russian>Arsenal Inc. SLR107U</Russian>
+                <German>Arsenal Inc. SLR107U</German>
+                <Japanese>Arsenal Inc. SLR107U</Japanese>
+                <Korean>Arsenal Inc. SLR107U</Korean>
+                <Chinesesimp>Arsenal Inc. SLR107U</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_SLR107Umtk">
+                <Original>Arsenal Inc. SLR107U (MTK)</Original>
+                <English>Arsenal Inc. SLR107U (MTK)</English>
+                <Czech>Arsenal Inc. SLR107U (MTK)</Czech>
+                <French>Arsenal Inc. SLR107U (MTK)</French>
+                <Spanish>Arsenal Inc. SLR107U (MTK)</Spanish>
+                <Italian>Arsenal Inc. SLR107U (MTK)</Italian>
+                <Polish>Arsenal Inc. SLR107U (MTK)</Polish>
+                <Portuguese>Arsenal Inc. SLR107U (MTK)</Portuguese>
+                <Russian>Arsenal Inc. SLR107U (MTK)</Russian>
+                <German>Arsenal Inc. SLR107U (MTK)</German>
+                <Japanese>Arsenal Inc. SLR107U (MTK)</Japanese>
+                <Korean>Arsenal Inc. SLR107U (MTK)</Korean>
+                <Chinesesimp>Arsenal Inc. SLR107U (MTK)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_5rnd_12g_buck_S12">
+                <Original>12 Gauge Buckshot 5Rnd Saiga Magazine</Original>
+                <English>12 Gauge Buckshot 5Rnd Saiga Magazine</English>
+                <Czech>12 Gauge Buckshot 5Rnd Saiga Magazine</Czech>
+                <French>Chargeur Saiga 5 Coups Chevrotine Calibre 12</French>
+                <Spanish>12 Gauge Buckshot 5Rnd Saiga Magazine</Spanish>
+                <Italian>12 Gauge Buckshot 5Rnd Saiga Magazine</Italian>
+                <Polish>12 Gauge Buckshot 5Rnd Saiga Magazine</Polish>
+                <Portuguese>12 Gauge Buckshot 5Rnd Saiga Magazine</Portuguese>
+                <Russian>12 Gauge Buckshot 5Rnd Saiga Magazine</Russian>
+                <German>12 Gauge Buckshot 5Rnd Saiga Magazine</German>
+                <Japanese>12 ゲージ バックショット 5発入り サイガ マガジン</Japanese>
+                <Korean>12 Gauge Buckshot 5Rnd Saiga Magazine</Korean>
+                <Chinesesimp>12 Gauge Buckshot 5Rnd Saiga Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_12g_slug_S12">
+                <Original>12 Gauge Slug 5Rnd Saiga Magazine</Original>
+                <English>12 Gauge Slug 5Rnd Saiga Magazine</English>
+                <Czech>12 Gauge Slug 5Rnd Saiga Magazine</Czech>
+                <French>Chargeur Saiga 5 Coups Balle Calibre 12</French>
+                <Spanish>12 Gauge Slug 5Rnd Saiga Magazine</Spanish>
+                <Italian>12 Gauge Slug 5Rnd Saiga Magazine</Italian>
+                <Polish>12 Gauge Slug 5Rnd Saiga Magazine</Polish>
+                <Portuguese>12 Gauge Slug 5Rnd Saiga Magazine</Portuguese>
+                <Russian>12 Gauge Slug 5Rnd Saiga Magazine</Russian>
+                <German>12 Gauge Slug 5Rnd Saiga Magazine</German>
+                <Japanese>12 ゲージ スラッグ 5発入り サイガ マガジン</Japanese>
+                <Korean>12 Gauge Slug 5Rnd Saiga Magazine</Korean>
+                <Chinesesimp>12 Gauge Slug 5Rnd Saiga Magazine</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Acc_names">
+            <Key ID="STR_NIA_PSO1">
+                <Original>NPZ PSO-1</Original>
+                <English>NPZ PSO-1</English>
+                <Czech>NPZ PSO-1</Czech>
+                <French>NPZ PSO-1</French>
+                <Spanish>NPZ PSO-1</Spanish>
+                <Italian>NPZ PSO-1</Italian>
+                <Polish>NPZ PSO-1</Polish>
+                <Portuguese>NPZ PSO-1</Portuguese>
+                <Russian>NPZ PSO-1</Russian>
+                <German>NPZ PSO-1</German>
+                <Japanese>NPZ PSO-1</Japanese>
+                <Korean>NPZ PSO-1</Korean>
+                <Chinesesimp>NPZ PSO-1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_1p29">
+                <Original>NPZ 1P29</Original>
+                <English>NPZ 1P29</English>
+                <Czech>NPZ 1P29</Czech>
+                <French>NPZ 1P29</French>
+                <Spanish>NPZ 1P29</Spanish>
+                <Italian>NPZ 1P29</Italian>
+                <Polish>NPZ 1P29</Polish>
+                <Portuguese>NPZ 1P29</Portuguese>
+                <Russian>NPZ 1P29</Russian>
+                <German>NPZ 1P29</German>
+                <Japanese>NPZ 1P29</Japanese>
+                <Korean>NPZ 1P29</Korean>
+                <Chinesesimp>NPZ 1P29</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Kobra">
+                <Original>Kobra EKP-1S-03M </Original>
+                <English>Kobra EKP-1S-03M</English>
+                <Czech>Kobra EKP-1S-03M</Czech>
+                <French>Kobra EKP-1S-03M</French>
+                <Spanish>Kobra EKP-1S-03M</Spanish>
+                <Italian>Kobra EKP-1S-03M</Italian>
+                <Polish>Kobra EKP-1S-03M</Polish>
+                <Portuguese>Kobra EKP-1S-03M</Portuguese>
+                <Russian>Kobra EKP-1S-03M</Russian>
+                <German>Kobra EKP-1S-03M</German>
+                <Japanese>Kobra EKP-1S-03M</Japanese>
+                <Korean>Kobra EKP-1S-03M</Korean>
+                <Chinesesimp>Kobra EKP-1S-03M</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Goshawk">
+                <Original>Goshawk TIWS </Original>
+                <English>Goshawk TIWS</English>
+                <Czech>Goshawk TIWS</Czech>
+                <French>Goshawk TIWS</French>
+                <Spanish>Goshawk TIWS</Spanish>
+                <Italian>Goshawk TIWS</Italian>
+                <Polish>Goshawk TIWS</Polish>
+                <Portuguese>Goshawk TIWS</Portuguese>
+                <Russian>Goshawk TIWS</Russian>
+                <German>Goshawk TIWS</German>
+                <Japanese>Goshawk TIWS</Japanese>
+                <Korean>Goshawk TIWS</Korean>
+                <Chinesesimp>Goshawk TIWS</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PBS4">
+                <Original>PBS-4</Original>
+                <English>PBS-4</English>
+                <Czech>PBS-4</Czech>
+                <French>PBS-4</French>
+                <Spanish>PBS-4</Spanish>
+                <Italian>PBS-4</Italian>
+                <Polish>PBS-4</Polish>
+                <Portuguese>PBS-4</Portuguese>
+                <Russian>PBS-4</Russian>
+                <German>PBS-4</German>
+                <Japanese>PBS-4</Japanese>
+                <Korean>PBS-4</Korean>
+                <Chinesesimp>PBS-4</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PBS1">
+                <Original>PBS-1</Original>
+                <English>PBS-1</English>
+                <Czech>PBS-1</Czech>
+                <French>PBS-1</French>
+                <Spanish>PBS-1</Spanish>
+                <Italian>PBS-1</Italian>
+                <Polish>PBS-1</Polish>
+                <Portuguese>PBS-1</Portuguese>
+                <Russian>PBS-1</Russian>
+                <German>PBS-1</German>
+                <Japanese>PBS-1</Japanese>
+                <Korean>PBS-1</Korean>
+                <Chinesesimp>PBS-1</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_4PComp">
+                <Original>Arsenal 4-Piece Linear Comp</Original>
+                <English>Arsenal 4-Piece Linear Comp</English>
+                <Czech>Arsenal 4-Piece Linear Comp</Czech>
+                <French>Arsenal 4-Piece Compo Linéaire</French>
+                <Spanish>Arsenal 4-Piece Linear Comp</Spanish>
+                <Italian>Arsenal 4-Piece Linear Comp</Italian>
+                <Polish>Arsenal 4-Piece Linear Comp</Polish>
+                <Portuguese>Arsenal 4-Piece Linear Comp</Portuguese>
+                <Russian>Arsenal 4-Piece Linear Comp</Russian>
+                <German>Arsenal 4-Piece Linear Comp</German>
+                <Japanese>Arsenal 4-Piece ライナー コンプ</Japanese>
+                <Korean>Arsenal 4-Piece Linear Comp</Korean>
+                <Chinesesimp>Arsenal 4-Piece Linear Comp</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_AK74_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:5.45x45mm</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AKS74U_DESC">
+                <Original>SMG&lt;br/&gt;Caliber:5.45x45mm</Original>
+                <English>SMG&lt;br/&gt;Caliber:5.45x45mm</English>
+                <Czech>SMG&lt;br/&gt;Caliber:5.45x45mm</Czech>
+                <French>PM&lt;br/&gt;Calibre:5.45x45mm</French>
+                <Spanish>SMG&lt;br/&gt;Caliber:5.45x45mm</Spanish>
+                <Italian>SMG&lt;br/&gt;Caliber:5.45x45mm</Italian>
+                <Polish>SMG&lt;br/&gt;Caliber:5.45x45mm</Polish>
+                <Portuguese>SMG&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
+                <Russian>SMG&lt;br/&gt;Caliber:5.45x45mm</Russian>
+                <German>SMG&lt;br/&gt;Caliber:5.45x45mm</German>
+                <Japanese>カービン ライフル&lt;br/&gt;口径: 5.45x45mm</Japanese>
+                <Korean>SMG&lt;br/&gt;Caliber:5.45x45mm</Korean>
+                <Chinesesimp>SMG&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_RPK74_DESC">
+                <Original>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Original>
+                <English>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</English>
+                <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Czech>
+                <French>Mitrailleuse Légère&lt;br/&gt;Calibre:5.45x45mm</French>
+                <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Spanish>
+                <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Italian>
+                <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Polish>
+                <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Portuguese>
+                <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Russian>
+                <German>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</German>
+                <Japanese>軽支援火器&lt;br/&gt;口径: 5.45x45mm</Japanese>
+                <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Korean>
+                <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.45x45mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AK_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:7.62x39mm</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62x39mm</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_RPK_DESC">
+                <Original>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Original>
+                <English>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</English>
+                <Czech>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Czech>
+                <French>Mitrailleuse Légère&lt;br/&gt;Calibre:7.62x39mm</French>
+                <Spanish>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Spanish>
+                <Italian>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Italian>
+                <Polish>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Polish>
+                <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Portuguese>
+                <Russian>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Russian>
+                <German>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</German>
+                <Japanese>軽支援火器&lt;br/&gt;口径: 7.62x39mm</Japanese>
+                <Korean>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Korean>
+                <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:7.62x39mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_S12S_DESC">
+                <Original>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Original>
+                <English>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</English>
+                <Czech>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Czech>
+                <French>Fusil à Pompe Semi-Automatique&lt;br/&gt;Calibre:Calibre 12</French>
+                <Spanish>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Spanish>
+                <Italian>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Italian>
+                <Polish>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Polish>
+                <Portuguese>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Portuguese>
+                <Russian>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Russian>
+                <German>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</German>
+                <Japanese>オートマチック ショットガン&lt;br/&gt;口径: 12 ゲージ</Japanese>
+                <Korean>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Korean>
+                <Chinesesimp>Auto-loading Shotgun&lt;br/&gt;Caliber:12 Gauge</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_SL107U_DESC">
+                <Original>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm&lt;br/&gt;"Room Broom"</Original>
+                <English>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</English>
+                <Czech>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre:7.62x39mm"Room Broom"</French>
+                <Spanish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Spanish>
+                <Italian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Italian>
+                <Polish>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Polish>
+                <Portuguese>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Portuguese>
+                <Russian>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Russian>
+                <German>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</German>
+                <Japanese>ショートバレル カービン&lt;br/&gt;口径: 7.62x39mm"ルーム ブルーム"</Japanese>
+                <Korean>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Korean>
+                <Chinesesimp>Short-Barrel Carbine&lt;br/&gt;Caliber:7.62x39mm"Room Broom"</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PSO1_DESC">
+                <Original>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Original>
+                <English>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</English>
+                <Czech>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Czech>
+                <French>Lunette de visée PSO-1&lt;br/&gt;Grossissement: 4x&lt;br/&gt;Ajustment: BDC 100-1000mx&lt;br/&gt;Réticule: Chevrons-BDC + Rangefinder Stadimétrique (Calibré pour 5.45mm)</French>
+                <Spanish>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Spanish>
+                <Italian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Italian>
+                <Polish>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Polish>
+                <Portuguese>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
+                <Russian>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
+                <German>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
+                <Japanese>PSO-1 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 100-1000m&lt;br/&gt;照準線: 山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
+                <Korean>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
+                <Chinesesimp>PSO-1 Magnified Rifle Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 100-1000m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_1P29_DESC">
+                <Original>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Original>
+                <English>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</English>
+                <Czech>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Czech>
+                <French>Lunette de visée 1P29&lt;br/&gt;Grossissement: 4x&lt;br/&gt;Ajustment: BDC 400-1000m&lt;br/&gt;Réticule: Chevrons inversés +  Rangefinder Stadimétrique</French>
+                <Spanish>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Spanish>
+                <Italian>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Italian>
+                <Polish>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Polish>
+                <Portuguese>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Portuguese>
+                <Russian>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Russian>
+                <German>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</German>
+                <Japanese>1P29 倍率プリズム照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: BDC 400-1000m&lt;br/&gt;照準線: 反転山形ポスト + 簡易距離計</Japanese>
+                <Korean>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Korean>
+                <Chinesesimp>1P29 Magnified Prismatic Sight&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: BDC 400-1000m&lt;br/&gt;Reticle: Inverted Chevron Post + Stadiametric Rangefinder</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Kobra_DESC">
+                <Original>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Original>
+                <English>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</English>
+                <Czech>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Czech>
+                <French>Collimateur Ouvert EKP-1S-03M&lt;br/&gt;Grossissement: NIL&lt;br/&gt;Ajustment: NIL&lt;br/&gt;Réticule: T Ouvert Illuminé</French>
+                <Spanish>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Spanish>
+                <Italian>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Italian>
+                <Polish>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Polish>
+                <Portuguese>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Portuguese>
+                <Russian>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Russian>
+                <German>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</German>
+                <Japanese>EKP-1S-03M オープン コリメーター照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: NIL&lt;br/&gt;照準線: 発光オープンT字型</Japanese>
+                <Korean>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Korean>
+                <Chinesesimp>EKP-1S-03M Open Colimator Sight&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: NIL&lt;br/&gt;Reticle: Illuminated Open T</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_Goshawk_DESC">
+                <Original>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Original>
+                <English>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</English>
+                <Czech>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Czech>
+                <French>Lunette à Imagerie Thermique Goshawk&lt;br/&gt;Grossissement: 3.6x&lt;br/&gt;Ajustment: BDC 300-2200m&lt;br/&gt;Réticule: Chevrons-BDC + Rangefinder Stadimétrique (Calibré pour 5.45mm)</French>
+                <Spanish>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Spanish>
+                <Italian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Italian>
+                <Polish>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Polish>
+                <Portuguese>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Portuguese>
+                <Russian>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Russian>
+                <German>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</German>
+                <Japanese>Goshawk サーマル イメージング照準器&lt;br/&gt;倍率: 3.6x&lt;br/&gt;調整範囲: BDC 300-2200m&lt;br/&gt;照準線: C山形 BDC + 簡易距離計 (5.45mm 補正)</Japanese>
+                <Korean>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Korean>
+                <Chinesesimp>Goshawk Thermal-Imaging Weapon Sight&lt;br/&gt;Magnification: 3.6x&lt;br/&gt;Adjustment: BDC 300-2200m&lt;br/&gt;Reticle: Chevron-BDC + Stadiametric Rangefinder (5.45mm Calibration)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PBS4_DESC">
+                <Original>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Original>
+                <English>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</English>
+                <Czech>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Czech>
+                <French>Suppresseur de Son&lt;br/&gt;Calibre:5.45mm</French>
+                <Spanish>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Spanish>
+                <Italian>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Italian>
+                <Polish>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Polish>
+                <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Portuguese>
+                <Russian>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Russian>
+                <German>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</German>
+                <Japanese>消音器&lt;br/&gt;口径: 5.45mm</Japanese>
+                <Korean>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Korean>
+                <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:5.45mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_4PComp_DESC">
+                <Original>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Original>
+                <English>Linear Compensator&lt;br/&gt;Caliber:7.62mm</English>
+                <Czech>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Czech>
+                <French>Compensateur de Relèvement&lt;br/&gt;Calibre:7.62mm</French>
+                <Spanish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Spanish>
+                <Italian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Italian>
+                <Polish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Polish>
+                <Portuguese>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Portuguese>
+                <Russian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Russian>
+                <German>Linear Compensator&lt;br/&gt;Caliber:7.62mm</German>
+                <Japanese>ライナー コンペンセイター&lt;br/&gt;口径: 7.62mm</Japanese>
+                <Korean>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Korean>
+                <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_PBS1_DESC">
+                <Original>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Original>
+                <English>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</English>
+                <Czech>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Czech>
+                <French>Suppresseur de Son&lt;br/&gt;Calibre:7.62mm</French>
+                <Spanish>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Spanish>
+                <Italian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Italian>
+                <Polish>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Polish>
+                <Portuguese>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Portuguese>
+                <Russian>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Russian>
+                <German>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</German>
+                <Japanese>消音器&lt;br/&gt;口径: 7.62mm</Japanese>
+                <Korean>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Korean>
+                <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_12g_buck_S12">
+                <Original>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: Calibre 12 00-Buck&lt;br/&gt;Type: Grains de Plomb&lt;br/&gt;Coups:5</French>
+                <Spanish>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: 12 ゲージ 00 バック&lt;br/&gt;種類: 鉛ペレット&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: 12 Gauge 00-Buck&lt;br/&gt;Type: Lead Pellets&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_12g_slug_S12">
+                <Original>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: Balle Calibre 12&lt;br/&gt;Type: Plomb Unique de Calibre 12 &lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: 12 ゲージ スラッグ&lt;br/&gt;種類: 単発鉛弾丸&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: 12 Gauge Slug&lt;br/&gt;Type: Single-piece Lead Slug&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>

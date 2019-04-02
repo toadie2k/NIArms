@@ -1,1303 +1,1303 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_AUG">
-    <Container name="Names">
-      <Key ID="STR_NIA_AUGA1_OD">
-        <Original>Steyr AUGA1 (OD)</Original>
-        <English>Steyr AUGA1 (OD)</English>
-        <Czech>Steyr AUGA1 (OD)</Czech>
-        <French>Steyr AUGA1 (OD)</French>
-        <Spanish>Steyr AUGA1 (OD)</Spanish>
-        <Italian>Steyr AUGA1 (OD)</Italian>
-        <Polish>Steyr AUGA1 (OD)</Polish>
-        <Portuguese>Steyr AUGA1 (OD)</Portuguese>
-        <Russian>Steyr AUGA1 (OD)</Russian>
-        <German>Steyr AUGA1 (OD)</German>
-        <Japanese>Steyr AUGA1 (OD)</Japanese>
-        <Korean>Steyr AUGA1 (OD)</Korean>
-        <Chinesesimp>Steyr AUGA1 (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_T">
-        <Original>Steyr AUGA1 (Tan)</Original>
-        <English>Steyr AUGA1 (Tan)</English>
-        <Czech>Steyr AUGA1 (Tan)</Czech>
-        <French>Steyr AUGA1 (Tan)</French>
-        <Spanish>Steyr AUGA1 (Tan)</Spanish>
-        <Italian>Steyr AUGA1 (Tan)</Italian>
-        <Polish>Steyr AUGA1 (Tan)</Polish>
-        <Portuguese>Steyr AUGA1 (Tan)</Portuguese>
-        <Russian>Steyr AUGA1 (Tan)</Russian>
-        <German>Steyr AUGA1 (Tan)</German>
-        <Japanese>Steyr AUGA1 (タン)</Japanese>
-        <Korean>Steyr AUGA1 (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA1 (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_B">
-        <Original>Steyr AUGA1 (Black)</Original>
-        <English>Steyr AUGA1 (Black)</English>
-        <Czech>Steyr AUGA1 (Black)</Czech>
-        <French>Steyr AUGA1 (Black)</French>
-        <Spanish>Steyr AUGA1 (Black)</Spanish>
-        <Italian>Steyr AUGA1 (Black)</Italian>
-        <Polish>Steyr AUGA1 (Black)</Polish>
-        <Portuguese>Steyr AUGA1 (Black)</Portuguese>
-        <Russian>Steyr AUGA1 (Black)</Russian>
-        <German>Steyr AUGA1 (Black)</German>
-        <Japanese>Steyr AUGA1 (ブラック)</Japanese>
-        <Korean>Steyr AUGA1 (Black)</Korean>
-        <Chinesesimp>Steyr AUGA1 (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_Carbine_OD">
-        <Original>Steyr AUGA1 Carbine (OD)</Original>
-        <English>Steyr AUGA1 Carbine (OD)</English>
-        <Czech>Steyr AUGA1 Carbine (OD)</Czech>
-        <French>Steyr AUGA1 Carbine (OD)</French>
-        <Spanish>Steyr AUGA1 Carbine (OD)</Spanish>
-        <Italian>Steyr AUGA1 Carbine (OD)</Italian>
-        <Polish>Steyr AUGA1 Carbine (OD)</Polish>
-        <Portuguese>Steyr AUGA1 Carbine (OD)</Portuguese>
-        <Russian>Steyr AUGA1 Carbine (OD)</Russian>
-        <German>Steyr AUGA1 Carbine (OD)</German>
-        <Japanese>Steyr AUGA1 カービン (OD)</Japanese>
-        <Korean>Steyr AUGA1 Carbine (OD)</Korean>
-        <Chinesesimp>Steyr AUGA1 Carbine (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_Carbine_T">
-        <Original>Steyr AUGA1 Carbine (Tan)</Original>
-        <English>Steyr AUGA1 Carbine (Tan)</English>
-        <Czech>Steyr AUGA1 Carbine (Tan)</Czech>
-        <French>Steyr AUGA1 Carbine (Tan)</French>
-        <Spanish>Steyr AUGA1 Carbine (Tan)</Spanish>
-        <Italian>Steyr AUGA1 Carbine (Tan)</Italian>
-        <Polish>Steyr AUGA1 Carbine (Tan)</Polish>
-        <Portuguese>Steyr AUGA1 Carbine (Tan)</Portuguese>
-        <Russian>Steyr AUGA1 Carbine (Tan)</Russian>
-        <German>Steyr AUGA1 Carbine (Tan)</German>
-        <Japanese>Steyr AUGA1 カービン (タン)</Japanese>
-        <Korean>Steyr AUGA1 Carbine (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA1 Carbine (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_Carbine_B">
-        <Original>Steyr AUGA1 Carbine (Black)</Original>
-        <English>Steyr AUGA1 Carbine (Black)</English>
-        <Czech>Steyr AUGA1 Carbine (Black)</Czech>
-        <French>Steyr AUGA1 Carbine (Black)</French>
-        <Spanish>Steyr AUGA1 Carbine (Black)</Spanish>
-        <Italian>Steyr AUGA1 Carbine (Black)</Italian>
-        <Polish>Steyr AUGA1 Carbine (Black)</Polish>
-        <Portuguese>Steyr AUGA1 Carbine (Black)</Portuguese>
-        <Russian>Steyr AUGA1 Carbine (Black)</Russian>
-        <German>Steyr AUGA1 Carbine (Black)</German>
-        <Japanese>Steyr AUGA1 カービン (ブラック)</Japanese>
-        <Korean>Steyr AUGA1 Carbine (Black)</Korean>
-        <Chinesesimp>Steyr AUGA1 Carbine (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_HBAR_OD">
-        <Original>Steyr AUGA1 HBAR (OD)</Original>
-        <English>Steyr AUGA1 HBAR (OD)</English>
-        <Czech>Steyr AUGA1 HBAR (OD)</Czech>
-        <French>Steyr AUGA1 HBAR (OD)</French>
-        <Spanish>Steyr AUGA1 HBAR (OD)</Spanish>
-        <Italian>Steyr AUGA1 HBAR (OD)</Italian>
-        <Polish>Steyr AUGA1 HBAR (OD)</Polish>
-        <Portuguese>Steyr AUGA1 HBAR (OD)</Portuguese>
-        <Russian>Steyr AUGA1 HBAR (OD)</Russian>
-        <German>Steyr AUGA1 HBAR (OD)</German>
-        <Japanese>Steyr AUGA1 HBAR (OD)</Japanese>
-        <Korean>Steyr AUGA1 HBAR (OD)</Korean>
-        <Chinesesimp>Steyr AUGA1 HBAR (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_HBAR_T">
-        <Original>Steyr AUGA1 HBAR (Tan)</Original>
-        <English>Steyr AUGA1 HBAR (Tan)</English>
-        <Czech>Steyr AUGA1 HBAR (Tan)</Czech>
-        <French>Steyr AUGA1 HBAR (Tan)</French>
-        <Spanish>Steyr AUGA1 HBAR (Tan)</Spanish>
-        <Italian>Steyr AUGA1 HBAR (Tan)</Italian>
-        <Polish>Steyr AUGA1 HBAR (Tan)</Polish>
-        <Portuguese>Steyr AUGA1 HBAR (Tan)</Portuguese>
-        <Russian>Steyr AUGA1 HBAR (Tan)</Russian>
-        <German>Steyr AUGA1 HBAR (Tan)</German>
-        <Japanese>Steyr AUGA1 HBAR (タン)</Japanese>
-        <Korean>Steyr AUGA1 HBAR (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA1 HBAR (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_HBAR_B">
-        <Original>Steyr AUGA1 HBAR (Black)</Original>
-        <English>Steyr AUGA1 HBAR (Black)</English>
-        <Czech>Steyr AUGA1 HBAR (Black)</Czech>
-        <French>Steyr AUGA1 HBAR (Black)</French>
-        <Spanish>Steyr AUGA1 HBAR (Black)</Spanish>
-        <Italian>Steyr AUGA1 HBAR (Black)</Italian>
-        <Polish>Steyr AUGA1 HBAR (Black)</Polish>
-        <Portuguese>Steyr AUGA1 HBAR (Black)</Portuguese>
-        <Russian>Steyr AUGA1 HBAR (Black)</Russian>
-        <German>Steyr AUGA1 HBAR (Black)</German>
-        <Japanese>Steyr AUGA1 HBAR (ブラック)</Japanese>
-        <Korean>Steyr AUGA1 HBAR (Black)</Korean>
-        <Chinesesimp>Steyr AUGA1 HBAR (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_9mm_OD">
-        <Original>Steyr AUGA1 Para 9mm (OD)</Original>
-        <English>Steyr AUGA1 Para 9mm (OD)</English>
-        <Czech>Steyr AUGA1 Para 9mm (OD)</Czech>
-        <French>Steyr AUGA1 Para 9mm (OD)</French>
-        <Spanish>Steyr AUGA1 Para 9mm (OD)</Spanish>
-        <Italian>Steyr AUGA1 Para 9mm (OD)</Italian>
-        <Polish>Steyr AUGA1 Para 9mm (OD)</Polish>
-        <Portuguese>Steyr AUGA1 Para 9mm (OD)</Portuguese>
-        <Russian>Steyr AUGA1 Para 9mm (OD)</Russian>
-        <German>Steyr AUGA1 Para 9mm (OD)</German>
-        <Japanese>Steyr AUGA1 Para 9mm (OD)</Japanese>
-        <Korean>Steyr AUGA1 Para 9mm (OD)</Korean>
-        <Chinesesimp>Steyr AUGA1 Para 9mm (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_9mm_T">
-        <Original>Steyr AUGA1 Para 9mm (Tan)</Original>
-        <English>Steyr AUGA1 Para 9mm (Tan)</English>
-        <Czech>Steyr AUGA1 Para 9mm (Tan)</Czech>
-        <French>Steyr AUGA1 Para 9mm (Tan)</French>
-        <Spanish>Steyr AUGA1 Para 9mm (Tan)</Spanish>
-        <Italian>Steyr AUGA1 Para 9mm (Tan)</Italian>
-        <Polish>Steyr AUGA1 Para 9mm (Tan)</Polish>
-        <Portuguese>Steyr AUGA1 Para 9mm (Tan)</Portuguese>
-        <Russian>Steyr AUGA1 Para 9mm (Tan)</Russian>
-        <German>Steyr AUGA1 Para 9mm (Tan)</German>
-        <Japanese>Steyr AUGA1 空挺 9mm (タン)</Japanese>
-        <Korean>Steyr AUGA1 Para 9mm (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA1 Para 9mm (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA1_9mm_B">
-        <Original>Steyr AUGA1 Para 9mm (Black)</Original>
-        <English>Steyr AUGA1 Para 9mm (Black)</English>
-        <Czech>Steyr AUGA1 Para 9mm (Black)</Czech>
-        <French>Steyr AUGA1 Para 9mm (Black)</French>
-        <Spanish>Steyr AUGA1 Para 9mm (Black)</Spanish>
-        <Italian>Steyr AUGA1 Para 9mm (Black)</Italian>
-        <Polish>Steyr AUGA1 Para 9mm (Black)</Polish>
-        <Portuguese>Steyr AUGA1 Para 9mm (Black)</Portuguese>
-        <Russian>Steyr AUGA1 Para 9mm (Black)</Russian>
-        <German>Steyr AUGA1 Para 9mm (Black)</German>
-        <Japanese>Steyr AUGA1 空挺 9mm (ブラック)</Japanese>
-        <Korean>Steyr AUGA1 Para 9mm (Black)</Korean>
-        <Chinesesimp>Steyr AUGA1 Para 9mm (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_OD">
-        <Original>Steyr AUGA2 (OD)</Original>
-        <English>Steyr AUGA2 (OD)</English>
-        <Czech>Steyr AUGA2 (OD)</Czech>
-        <French>Steyr AUGA2 (OD)</French>
-        <Spanish>Steyr AUGA2 (OD)</Spanish>
-        <Italian>Steyr AUGA2 (OD)</Italian>
-        <Polish>Steyr AUGA2 (OD)</Polish>
-        <Portuguese>Steyr AUGA2 (OD)</Portuguese>
-        <Russian>Steyr AUGA2 (OD)</Russian>
-        <German>Steyr AUGA2 (OD)</German>
-        <Japanese>Steyr AUGA2 (OD)</Japanese>
-        <Korean>Steyr AUGA2 (OD)</Korean>
-        <Chinesesimp>Steyr AUGA2 (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_T">
-        <Original>Steyr AUGA2 (Tan)</Original>
-        <English>Steyr AUGA2 (Tan)</English>
-        <Czech>Steyr AUGA2 (Tan)</Czech>
-        <French>Steyr AUGA2 (Tan)</French>
-        <Spanish>Steyr AUGA2 (Tan)</Spanish>
-        <Italian>Steyr AUGA2 (Tan)</Italian>
-        <Polish>Steyr AUGA2 (Tan)</Polish>
-        <Portuguese>Steyr AUGA2 (Tan)</Portuguese>
-        <Russian>Steyr AUGA2 (Tan)</Russian>
-        <German>Steyr AUGA2 (Tan)</German>
-        <Japanese>Steyr AUGA2 (タン)</Japanese>
-        <Korean>Steyr AUGA2 (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA2 (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_B">
-        <Original>Steyr AUGA2 (Black)</Original>
-        <English>Steyr AUGA2 (Black)</English>
-        <Czech>Steyr AUGA2 (Black)</Czech>
-        <French>Steyr AUGA2 (Black)</French>
-        <Spanish>Steyr AUGA2 (Black)</Spanish>
-        <Italian>Steyr AUGA2 (Black)</Italian>
-        <Polish>Steyr AUGA2 (Black)</Polish>
-        <Portuguese>Steyr AUGA2 (Black)</Portuguese>
-        <Russian>Steyr AUGA2 (Black)</Russian>
-        <German>Steyr AUGA2 (Black)</German>
-        <Japanese>Steyr AUGA2 (ブラック)</Japanese>
-        <Korean>Steyr AUGA2 (Black)</Korean>
-        <Chinesesimp>Steyr AUGA2 (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_Carbine_OD">
-        <Original>Steyr AUGA2 Carbine (OD)</Original>
-        <English>Steyr AUGA2 Carbine (OD)</English>
-        <Czech>Steyr AUGA2 Carbine (OD)</Czech>
-        <French>Steyr AUGA2 Carbine (OD)</French>
-        <Spanish>Steyr AUGA2 Carbine (OD)</Spanish>
-        <Italian>Steyr AUGA2 Carbine (OD)</Italian>
-        <Polish>Steyr AUGA2 Carbine (OD)</Polish>
-        <Portuguese>Steyr AUGA2 Carbine (OD)</Portuguese>
-        <Russian>Steyr AUGA2 Carbine (OD)</Russian>
-        <German>Steyr AUGA2 Carbine (OD)</German>
-        <Japanese>Steyr AUGA2 カービン (OD)</Japanese>
-        <Korean>Steyr AUGA2 Carbine (OD)</Korean>
-        <Chinesesimp>Steyr AUGA2 Carbine (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_Carbine_T">
-        <Original>Steyr AUGA2 Carbine (Tan)</Original>
-        <English>Steyr AUGA2 Carbine (Tan)</English>
-        <Czech>Steyr AUGA2 Carbine (Tan)</Czech>
-        <French>Steyr AUGA2 Carbine (Tan)</French>
-        <Spanish>Steyr AUGA2 Carbine (Tan)</Spanish>
-        <Italian>Steyr AUGA2 Carbine (Tan)</Italian>
-        <Polish>Steyr AUGA2 Carbine (Tan)</Polish>
-        <Portuguese>Steyr AUGA2 Carbine (Tan)</Portuguese>
-        <Russian>Steyr AUGA2 Carbine (Tan)</Russian>
-        <German>Steyr AUGA2 Carbine (Tan)</German>
-        <Japanese>Steyr AUGA2 カービン (タン)</Japanese>
-        <Korean>Steyr AUGA2 Carbine (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA2 Carbine (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_Carbine_B">
-        <Original>Steyr AUGA2 Carbine (Black)</Original>
-        <English>Steyr AUGA2 Carbine (Black)</English>
-        <Czech>Steyr AUGA2 Carbine (Black)</Czech>
-        <French>Steyr AUGA2 Carbine (Black)</French>
-        <Spanish>Steyr AUGA2 Carbine (Black)</Spanish>
-        <Italian>Steyr AUGA2 Carbine (Black)</Italian>
-        <Polish>Steyr AUGA2 Carbine (Black)</Polish>
-        <Portuguese>Steyr AUGA2 Carbine (Black)</Portuguese>
-        <Russian>Steyr AUGA2 Carbine (Black)</Russian>
-        <German>Steyr AUGA2 Carbine (Black)</German>
-        <Japanese>Steyr AUGA2 カービン (ブラック)</Japanese>
-        <Korean>Steyr AUGA2 Carbine (Black)</Korean>
-        <Chinesesimp>Steyr AUGA2 Carbine (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_HBAR_OD">
-        <Original>Steyr AUGA2 HBAR (OD)</Original>
-        <English>Steyr AUGA2 HBAR (OD)</English>
-        <Czech>Steyr AUGA2 HBAR (OD)</Czech>
-        <French>Steyr AUGA2 HBAR (OD)</French>
-        <Spanish>Steyr AUGA2 HBAR (OD)</Spanish>
-        <Italian>Steyr AUGA2 HBAR (OD)</Italian>
-        <Polish>Steyr AUGA2 HBAR (OD)</Polish>
-        <Portuguese>Steyr AUGA2 HBAR (OD)</Portuguese>
-        <Russian>Steyr AUGA2 HBAR (OD)</Russian>
-        <German>Steyr AUGA2 HBAR (OD)</German>
-        <Japanese>Steyr AUGA2 HBAR (OD)</Japanese>
-        <Korean>Steyr AUGA2 HBAR (OD)</Korean>
-        <Chinesesimp>Steyr AUGA2 HBAR (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_HBAR_T">
-        <Original>Steyr AUGA2 HBAR (Tan)</Original>
-        <English>Steyr AUGA2 HBAR (Tan)</English>
-        <Czech>Steyr AUGA2 HBAR (Tan)</Czech>
-        <French>Steyr AUGA2 HBAR (Tan)</French>
-        <Spanish>Steyr AUGA2 HBAR (Tan)</Spanish>
-        <Italian>Steyr AUGA2 HBAR (Tan)</Italian>
-        <Polish>Steyr AUGA2 HBAR (Tan)</Polish>
-        <Portuguese>Steyr AUGA2 HBAR (Tan)</Portuguese>
-        <Russian>Steyr AUGA2 HBAR (Tan)</Russian>
-        <German>Steyr AUGA2 HBAR (Tan)</German>
-        <Japanese>Steyr AUGA2 HBAR (タン)</Japanese>
-        <Korean>Steyr AUGA2 HBAR (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA2 HBAR (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_HBAR_B">
-        <Original>Steyr AUGA2 HBAR (Black)</Original>
-        <English>Steyr AUGA2 HBAR (Black)</English>
-        <Czech>Steyr AUGA2 HBAR (Black)</Czech>
-        <French>Steyr AUGA2 HBAR (Black)</French>
-        <Spanish>Steyr AUGA2 HBAR (Black)</Spanish>
-        <Italian>Steyr AUGA2 HBAR (Black)</Italian>
-        <Polish>Steyr AUGA2 HBAR (Black)</Polish>
-        <Portuguese>Steyr AUGA2 HBAR (Black)</Portuguese>
-        <Russian>Steyr AUGA2 HBAR (Black)</Russian>
-        <German>Steyr AUGA2 HBAR (Black)</German>
-        <Japanese>Steyr AUGA2 HBAR (ブラック)</Japanese>
-        <Korean>Steyr AUGA2 HBAR (Black)</Korean>
-        <Chinesesimp>Steyr AUGA2 HBAR (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_9mm_OD">
-        <Original>Steyr AUGA2 Para 9mm (OD)</Original>
-        <English>Steyr AUGA2 Para 9mm (OD)</English>
-        <Czech>Steyr AUGA2 Para 9mm (OD)</Czech>
-        <French>Steyr AUGA2 Para 9mm (OD)</French>
-        <Spanish>Steyr AUGA2 Para 9mm (OD)</Spanish>
-        <Italian>Steyr AUGA2 Para 9mm (OD)</Italian>
-        <Polish>Steyr AUGA2 Para 9mm (OD)</Polish>
-        <Portuguese>Steyr AUGA2 Para 9mm (OD)</Portuguese>
-        <Russian>Steyr AUGA2 Para 9mm (OD)</Russian>
-        <German>Steyr AUGA2 Para 9mm (OD)</German>
-        <Japanese>Steyr AUGA2 空挺 9mm (OD)</Japanese>
-        <Korean>Steyr AUGA2 Para 9mm (OD)</Korean>
-        <Chinesesimp>Steyr AUGA2 Para 9mm (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_9mm_T">
-        <Original>Steyr AUGA2 Para 9mm (Tan)</Original>
-        <English>Steyr AUGA2 Para 9mm (Tan)</English>
-        <Czech>Steyr AUGA2 Para 9mm (Tan)</Czech>
-        <French>Steyr AUGA2 Para 9mm (Tan)</French>
-        <Spanish>Steyr AUGA2 Para 9mm (Tan)</Spanish>
-        <Italian>Steyr AUGA2 Para 9mm (Tan)</Italian>
-        <Polish>Steyr AUGA2 Para 9mm (Tan)</Polish>
-        <Portuguese>Steyr AUGA2 Para 9mm (Tan)</Portuguese>
-        <Russian>Steyr AUGA2 Para 9mm (Tan)</Russian>
-        <German>Steyr AUGA2 Para 9mm (Tan)</German>
-        <Japanese>Steyr AUGA2 空挺 9mm (タン)</Japanese>
-        <Korean>Steyr AUGA2 Para 9mm (Tan)</Korean>
-        <Chinesesimp>Steyr AUGA2 Para 9mm (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA2_9mm_B">
-        <Original>Steyr AUGA2 Para 9mm (Black)</Original>
-        <English>Steyr AUGA2 Para 9mm (Black)</English>
-        <Czech>Steyr AUGA2 Para 9mm (Black)</Czech>
-        <French>Steyr AUGA2 Para 9mm (Black)</French>
-        <Spanish>Steyr AUGA2 Para 9mm (Black)</Spanish>
-        <Italian>Steyr AUGA2 Para 9mm (Black)</Italian>
-        <Polish>Steyr AUGA2 Para 9mm (Black)</Polish>
-        <Portuguese>Steyr AUGA2 Para 9mm (Black)</Portuguese>
-        <Russian>Steyr AUGA2 Para 9mm (Black)</Russian>
-        <German>Steyr AUGA2 Para 9mm (Black)</German>
-        <Japanese>Steyr AUGA2 空挺 9mm (ブラック)</Japanese>
-        <Korean>Steyr AUGA2 Para 9mm (Black)</Korean>
-        <Chinesesimp>Steyr AUGA2 Para 9mm (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_OD">
-        <Original>Steyr AUG-SR (OD)</Original>
-        <English>Steyr AUG-SR (OD)</English>
-        <Czech>Steyr AUG-SR (OD)</Czech>
-        <French>Steyr AUG-SR (OD)</French>
-        <Spanish>Steyr AUG-SR (OD)</Spanish>
-        <Italian>Steyr AUG-SR (OD)</Italian>
-        <Polish>Steyr AUG-SR (OD)</Polish>
-        <Portuguese>Steyr AUG-SR (OD)</Portuguese>
-        <Russian>Steyr AUG-SR (OD)</Russian>
-        <German>Steyr AUG-SR (OD)</German>
-        <Japanese>Steyr AUG-SR (OD)</Japanese>
-        <Korean>Steyr AUG-SR (OD)</Korean>
-        <Chinesesimp>Steyr AUG-SR (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_T">
-        <Original>Steyr AUG-SR (Tan)</Original>
-        <English>Steyr AUG-SR (Tan)</English>
-        <Czech>Steyr AUG-SR (Tan)</Czech>
-        <French>Steyr AUG-SR (Tan)</French>
-        <Spanish>Steyr AUG-SR (Tan)</Spanish>
-        <Italian>Steyr AUG-SR (Tan)</Italian>
-        <Polish>Steyr AUG-SR (Tan)</Polish>
-        <Portuguese>Steyr AUG-SR (Tan)</Portuguese>
-        <Russian>Steyr AUG-SR (Tan)</Russian>
-        <German>Steyr AUG-SR (Tan)</German>
-        <Japanese>Steyr AUG-SR (タン)</Japanese>
-        <Korean>Steyr AUG-SR (Tan)</Korean>
-        <Chinesesimp>Steyr AUG-SR (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_B">
-        <Original>Steyr AUG-SR (Black)</Original>
-        <English>Steyr AUG-SR (Black)</English>
-        <Czech>Steyr AUG-SR (Black)</Czech>
-        <French>Steyr AUG-SR (Black)</French>
-        <Spanish>Steyr AUG-SR (Black)</Spanish>
-        <Italian>Steyr AUG-SR (Black)</Italian>
-        <Polish>Steyr AUG-SR (Black)</Polish>
-        <Portuguese>Steyr AUG-SR (Black)</Portuguese>
-        <Russian>Steyr AUG-SR (Black)</Russian>
-        <German>Steyr AUG-SR (Black)</German>
-        <Japanese>Steyr AUG-SR (ブラック)</Japanese>
-        <Korean>Steyr AUG-SR (Black)</Korean>
-        <Chinesesimp>Steyr AUG-SR (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_Carbine_OD">
-        <Original>Steyr AUG-SR Carbine (OD)</Original>
-        <English>Steyr AUG-SR Carbine (OD)</English>
-        <Czech>Steyr AUG-SR Carbine (OD)</Czech>
-        <French>Steyr AUG-SR Carbine (OD)</French>
-        <Spanish>Steyr AUG-SR Carbine (OD)</Spanish>
-        <Italian>Steyr AUG-SR Carbine (OD)</Italian>
-        <Polish>Steyr AUG-SR Carbine (OD)</Polish>
-        <Portuguese>Steyr AUG-SR Carbine (OD)</Portuguese>
-        <Russian>Steyr AUG-SR Carbine (OD)</Russian>
-        <German>Steyr AUG-SR Carbine (OD)</German>
-        <Japanese>Steyr AUG-SR カービン (OD)</Japanese>
-        <Korean>Steyr AUG-SR Carbine (OD)</Korean>
-        <Chinesesimp>Steyr AUG-SR Carbine (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_Carbine_T">
-        <Original>Steyr AUG-SR Carbine (Tan)</Original>
-        <English>Steyr AUG-SR Carbine (Tan)</English>
-        <Czech>Steyr AUG-SR Carbine (Tan)</Czech>
-        <French>Steyr AUG-SR Carbine (Tan)</French>
-        <Spanish>Steyr AUG-SR Carbine (Tan)</Spanish>
-        <Italian>Steyr AUG-SR Carbine (Tan)</Italian>
-        <Polish>Steyr AUG-SR Carbine (Tan)</Polish>
-        <Portuguese>Steyr AUG-SR Carbine (Tan)</Portuguese>
-        <Russian>Steyr AUG-SR Carbine (Tan)</Russian>
-        <German>Steyr AUG-SR Carbine (Tan)</German>
-        <Japanese>Steyr AUG-SR カービン (タン)</Japanese>
-        <Korean>Steyr AUG-SR Carbine (Tan)</Korean>
-        <Chinesesimp>Steyr AUG-SR Carbine (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_Carbine_B">
-        <Original>Steyr AUG-SR Carbine (Black)</Original>
-        <English>Steyr AUG-SR Carbine (Black)</English>
-        <Czech>Steyr AUG-SR Carbine (Black)</Czech>
-        <French>Steyr AUG-SR Carbine (Black)</French>
-        <Spanish>Steyr AUG-SR Carbine (Black)</Spanish>
-        <Italian>Steyr AUG-SR Carbine (Black)</Italian>
-        <Polish>Steyr AUG-SR Carbine (Black)</Polish>
-        <Portuguese>Steyr AUG-SR Carbine (Black)</Portuguese>
-        <Russian>Steyr AUG-SR Carbine (Black)</Russian>
-        <German>Steyr AUG-SR Carbine (Black)</German>
-        <Japanese>Steyr AUG-SR カービン (ブラック)</Japanese>
-        <Korean>Steyr AUG-SR Carbine (Black)</Korean>
-        <Chinesesimp>Steyr AUG-SR Carbine (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_HBAR_OD">
-        <Original>Steyr AUG-SR HBAR (OD)</Original>
-        <English>Steyr AUG-SR HBAR (OD)</English>
-        <Czech>Steyr AUG-SR HBAR (OD)</Czech>
-        <French>Steyr AUG-SR HBAR (OD)</French>
-        <Spanish>Steyr AUG-SR HBAR (OD)</Spanish>
-        <Italian>Steyr AUG-SR HBAR (OD)</Italian>
-        <Polish>Steyr AUG-SR HBAR (OD)</Polish>
-        <Portuguese>Steyr AUG-SR HBAR (OD)</Portuguese>
-        <Russian>Steyr AUG-SR HBAR (OD)</Russian>
-        <German>Steyr AUG-SR HBAR (OD)</German>
-        <Japanese>Steyr AUG-SR HBAR (OD)</Japanese>
-        <Korean>Steyr AUG-SR HBAR (OD)</Korean>
-        <Chinesesimp>Steyr AUG-SR HBAR (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_HBAR_T">
-        <Original>Steyr AUG-SR HBAR (Tan)</Original>
-        <English>Steyr AUG-SR HBAR (Tan)</English>
-        <Czech>Steyr AUG-SR HBAR (Tan)</Czech>
-        <French>Steyr AUG-SR HBAR (Tan)</French>
-        <Spanish>Steyr AUG-SR HBAR (Tan)</Spanish>
-        <Italian>Steyr AUG-SR HBAR (Tan)</Italian>
-        <Polish>Steyr AUG-SR HBAR (Tan)</Polish>
-        <Portuguese>Steyr AUG-SR HBAR (Tan)</Portuguese>
-        <Russian>Steyr AUG-SR HBAR (Tan)</Russian>
-        <German>Steyr AUG-SR HBAR (Tan)</German>
-        <Japanese>Steyr AUG-SR HBAR (タン)</Japanese>
-        <Korean>Steyr AUG-SR HBAR (Tan)</Korean>
-        <Chinesesimp>Steyr AUG-SR HBAR (Tan)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_SR_HBAR_B">
-        <Original>Steyr AUG-SR HBAR (Black)</Original>
-        <English>Steyr AUG-SR HBAR (Black)</English>
-        <Czech>Steyr AUG-SR HBAR (Black)</Czech>
-        <French>Steyr AUG-SR HBAR (Black)</French>
-        <Spanish>Steyr AUG-SR HBAR (Black)</Spanish>
-        <Italian>Steyr AUG-SR HBAR (Black)</Italian>
-        <Polish>Steyr AUG-SR HBAR (Black)</Polish>
-        <Portuguese>Steyr AUG-SR HBAR (Black)</Portuguese>
-        <Russian>Steyr AUG-SR HBAR (Black)</Russian>
-        <German>Steyr AUG-SR HBAR (Black)</German>
-        <Japanese>Steyr AUG-SR HBAR (ブラック)</Japanese>
-        <Korean>Steyr AUG-SR HBAR (Black)</Korean>
-        <Chinesesimp>Steyr AUG-SR HBAR (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3_Green">
-        <Original>Steyr AUGA3 (Green)</Original>
-        <English>Steyr AUGA3 (Green)</English>
-        <Czech>Steyr AUGA3 (Green)</Czech>
-        <French>Steyr AUGA3 (Green)</French>
-        <Spanish>Steyr AUGA3 (Green)</Spanish>
-        <Italian>Steyr AUGA3 (Green)</Italian>
-        <Polish>Steyr AUGA3 (Green)</Polish>
-        <Portuguese>Steyr AUGA3 (Green)</Portuguese>
-        <Russian>Steyr AUGA3 (Green)</Russian>
-        <German>Steyr AUGA3 (Green)</German>
-        <Japanese>Steyr AUGA3 (グリーン)</Japanese>
-        <Korean>Steyr AUGA3 (Green)</Korean>
-        <Chinesesimp>Steyr AUGA3 (Green)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3_bl">
-        <Original>Steyr AUGA3 (Blue)</Original>
-        <English>Steyr AUGA3 (Blue)</English>
-        <Czech>Steyr AUGA3 (Blue)</Czech>
-        <French>Steyr AUGA3 (Blue)</French>
-        <Spanish>Steyr AUGA3 (Blue)</Spanish>
-        <Italian>Steyr AUGA3 (Blue)</Italian>
-        <Polish>Steyr AUGA3 (Blue)</Polish>
-        <Portuguese>Steyr AUGA3 (Blue)</Portuguese>
-        <Russian>Steyr AUGA3 (Blue)</Russian>
-        <German>Steyr AUGA3 (Blue)</German>
-        <Japanese>Steyr AUGA3 (ブルー)</Japanese>
-        <Korean>Steyr AUGA3 (Blue)</Korean>
-        <Chinesesimp>Steyr AUGA3 (Blue)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3_B">
-        <Original>Steyr AUGA3 (Black)</Original>
-        <English>Steyr AUGA3 (Black)</English>
-        <Czech>Steyr AUGA3 (Black)</Czech>
-        <French>Steyr AUGA3 (Black)</French>
-        <Spanish>Steyr AUGA3 (Black)</Spanish>
-        <Italian>Steyr AUGA3 (Black)</Italian>
-        <Polish>Steyr AUGA3 (Black)</Polish>
-        <Portuguese>Steyr AUGA3 (Black)</Portuguese>
-        <Russian>Steyr AUGA3 (Black)</Russian>
-        <German>Steyr AUGA3 (Black)</German>
-        <Japanese>Steyr AUGA3 (ブラック)</Japanese>
-        <Korean>Steyr AUGA3 (Black)</Korean>
-        <Chinesesimp>Steyr AUGA3 (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3GL_Green">
-        <Original>Steyr AUGA3 (GL\Green)</Original>
-        <English>Steyr AUGA3 (GL\Green)</English>
-        <Czech>Steyr AUGA3 (GL\Green)</Czech>
-        <French>Steyr AUGA3 (GL\Green)</French>
-        <Spanish>Steyr AUGA3 (GL\Green)</Spanish>
-        <Italian>Steyr AUGA3 (GL\Green)</Italian>
-        <Polish>Steyr AUGA3 (GL\Green)</Polish>
-        <Portuguese>Steyr AUGA3 (GL\Green)</Portuguese>
-        <Russian>Steyr AUGA3 (GL\Green)</Russian>
-        <German>Steyr AUGA3 (GL\Green)</German>
-        <Japanese>Steyr AUGA3 (M203/グリーン)</Japanese>
-        <Korean>Steyr AUGA3 (GL\Green)</Korean>
-        <Chinesesimp>Steyr AUGA3 (GL\Green)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3GL_bl">
-        <Original>Steyr AUGA3 (GL\Blue)</Original>
-        <English>Steyr AUGA3 (GL\Blue)</English>
-        <Czech>Steyr AUGA3 (GL\Blue)</Czech>
-        <French>Steyr AUGA3 (GL\Blue)</French>
-        <Spanish>Steyr AUGA3 (GL\Blue)</Spanish>
-        <Italian>Steyr AUGA3 (GL\Blue)</Italian>
-        <Polish>Steyr AUGA3 (GL\Blue)</Polish>
-        <Portuguese>Steyr AUGA3 (GL\Blue)</Portuguese>
-        <Russian>Steyr AUGA3 (GL\Blue)</Russian>
-        <German>Steyr AUGA3 (GL\Blue)</German>
-        <Japanese>Steyr AUGA3 (M203/ブルー)</Japanese>
-        <Korean>Steyr AUGA3 (GL\Blue)</Korean>
-        <Chinesesimp>Steyr AUGA3 (GL\Blue)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGA3GL_B">
-        <Original>Steyr AUGA3 (GL\Black)</Original>
-        <English>Steyr AUGA3 (GL\Black)</English>
-        <Czech>Steyr AUGA3 (GL\Black)</Czech>
-        <French>Steyr AUGA3 (GL\Black)</French>
-        <Spanish>Steyr AUGA3 (GL\Black)</Spanish>
-        <Italian>Steyr AUGA3 (GL\Black)</Italian>
-        <Polish>Steyr AUGA3 (GL\Black)</Polish>
-        <Portuguese>Steyr AUGA3 (GL\Black)</Portuguese>
-        <Russian>Steyr AUGA3 (GL\Black)</Russian>
-        <German>Steyr AUGA3 (GL\Black)</German>
-        <Japanese>Steyr AUGA3 (M203/ブラック)</Japanese>
-        <Korean>Steyr AUGA3 (GL\Black)</Korean>
-        <Chinesesimp>Steyr AUGA3 (GL\Black)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_30Rnd_556x45_B_AUG">
-        <Original>5.56mm EPR 30Rnd AUG Magazine</Original>
-        <English>5.56mm EPR 30Rnd AUG Magazine</English>
-        <Czech>5.56mm EPR 30Rnd AUG Magazine</Czech>
-        <French>5.56mm EPR 30Rnd AUG Magazine</French>
-        <Spanish>5.56mm EPR 30Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm EPR 30Rnd AUG Magazine</Italian>
-        <Polish>5.56mm EPR 30Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm EPR 30Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm EPR 30Rnd AUG Magazine</Russian>
-        <German>5.56mm EPR 30Rnd AUG Magazine</German>
-        <Japanese>5.56mm EPR 30発入り AUG マガジン</Japanese>
-        <Korean>5.56mm EPR 30Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_SOST_AUG">
-        <Original>5.56mm SOST 30Rnd AUG Magazine</Original>
-        <English>5.56mm SOST 30Rnd AUG Magazine</English>
-        <Czech>5.56mm SOST 30Rnd AUG Magazine</Czech>
-        <French>5.56mm SOST 30Rnd AUG Magazine</French>
-        <Spanish>5.56mm SOST 30Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm SOST 30Rnd AUG Magazine</Italian>
-        <Polish>5.56mm SOST 30Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm SOST 30Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm SOST 30Rnd AUG Magazine</Russian>
-        <German>5.56mm SOST 30Rnd AUG Magazine</German>
-        <Japanese>5.56mm SOST 30発入り AUG マガジン</Japanese>
-        <Korean>5.56mm SOST 30Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm SOST 30Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_SPR_AUG">
-        <Original>5.56mm SBLR 30Rnd AUG Magazine</Original>
-        <English>5.56mm SBLR 30Rnd AUG Magazine</English>
-        <Czech>5.56mm SBLR 30Rnd AUG Magazine</Czech>
-        <French>5.56mm SBLR 30Rnd AUG Magazine</French>
-        <Spanish>5.56mm SBLR 30Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm SBLR 30Rnd AUG Magazine</Italian>
-        <Polish>5.56mm SBLR 30Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm SBLR 30Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm SBLR 30Rnd AUG Magazine</Russian>
-        <German>5.56mm SBLR 30Rnd AUG Magazine</German>
-        <Japanese>5.56mm SBLR 30発入り AUG マガジン</Japanese>
-        <Korean>5.56mm SBLR 30Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm SBLR 30Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_T_AUG">
-        <Original>5.56mm Tracer 30Rnd AUG Magazine</Original>
-        <English>5.56mm Tracer 30Rnd AUG Magazine</English>
-        <Czech>5.56mm Tracer 30Rnd AUG Magazine</Czech>
-        <French>5.56mm Tracer 30Rnd AUG Magazine</French>
-        <Spanish>5.56mm Tracer 30Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm Tracer 30Rnd AUG Magazine</Italian>
-        <Polish>5.56mm Tracer 30Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm Tracer 30Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm Tracer 30Rnd AUG Magazine</Russian>
-        <German>5.56mm Tracer 30Rnd AUG Magazine</German>
-        <Japanese>5.56mm 曳光弾 30発入り AUG マガジン</Japanese>
-        <Korean>5.56mm Tracer 30Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm Tracer 30Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_IRDIM_AUG">
-        <Original>5.56mm IR-DIM 30Rnd AUG Magazine</Original>
-        <English>5.56mm IR-DIM 30Rnd AUG Magazine</English>
-        <Czech>5.56mm IR-DIM 30Rnd AUG Magazine</Czech>
-        <French>5.56mm IR-DIM 30Rnd AUG Magazine</French>
-        <Spanish>5.56mm IR-DIM 30Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm IR-DIM 30Rnd AUG Magazine</Italian>
-        <Polish>5.56mm IR-DIM 30Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm IR-DIM 30Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm IR-DIM 30Rnd AUG Magazine</Russian>
-        <German>5.56mm IR-DIM 30Rnd AUG Magazine</German>
-        <Japanese>5.56mm IR-DIM 曳光弾 30発入り AUG マガジン</Japanese>
-        <Korean>5.56mm IR-DIM 30Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm IR-DIM 30Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_M_AUG">
-        <Original>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Original>
-        <English>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</English>
-        <Czech>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Czech>
-        <French>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</French>
-        <Spanish>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Spanish>
-        <Italian>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Italian>
-        <Polish>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Polish>
-        <Portuguese>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Portuguese>
-        <Russian>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Russian>
-        <German>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 30発入り AUG マガジン (4発毎に曳光弾)</Japanese>
-        <Korean>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_30Rnd_556x45_MDIM_AUG">
-        <Original>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Original>
-        <English>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</English>
-        <Czech>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Czech>
-        <French>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</French>
-        <Spanish>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Spanish>
-        <Italian>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Italian>
-        <Polish>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Polish>
-        <Portuguese>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Portuguese>
-        <Russian>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Russian>
-        <German>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 30発入り AUG マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_B_AUG">
-        <Original>5.56mm EPR 42Rnd AUG Magazine</Original>
-        <English>5.56mm EPR 42Rnd AUG Magazine</English>
-        <Czech>5.56mm EPR 42Rnd AUG Magazine</Czech>
-        <French>5.56mm EPR 42Rnd AUG Magazine</French>
-        <Spanish>5.56mm EPR 42Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm EPR 42Rnd AUG Magazine</Italian>
-        <Polish>5.56mm EPR 42Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm EPR 42Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm EPR 42Rnd AUG Magazine</Russian>
-        <German>5.56mm EPR 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm EPR 42発入り AUG マガジン</Japanese>
-        <Korean>5.56mm EPR 42Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_SOST_AUG">
-        <Original>5.56mm SOST 42Rnd AUG Magazine</Original>
-        <English>5.56mm SOST 42Rnd AUG Magazine</English>
-        <Czech>5.56mm SOST 42Rnd AUG Magazine</Czech>
-        <French>5.56mm SOST 42Rnd AUG Magazine</French>
-        <Spanish>5.56mm SOST 42Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm SOST 42Rnd AUG Magazine</Italian>
-        <Polish>5.56mm SOST 42Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm SOST 42Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm SOST 42Rnd AUG Magazine</Russian>
-        <German>5.56mm SOST 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm SOST 42発入り AUG マガジン</Japanese>
-        <Korean>5.56mm SOST 42Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm SOST 42Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_SPR_AUG">
-        <Original>5.56mm SBLR 42Rnd AUG Magazine</Original>
-        <English>5.56mm SBLR 42Rnd AUG Magazine</English>
-        <Czech>5.56mm SBLR 42Rnd AUG Magazine</Czech>
-        <French>5.56mm SBLR 42Rnd AUG Magazine</French>
-        <Spanish>5.56mm SBLR 42Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm SBLR 42Rnd AUG Magazine</Italian>
-        <Polish>5.56mm SBLR 42Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm SBLR 42Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm SBLR 42Rnd AUG Magazine</Russian>
-        <German>5.56mm SBLR 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm SBLR 42発入り AUG マガジン</Japanese>
-        <Korean>5.56mm SBLR 42Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm SBLR 42Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_T_AUG">
-        <Original>5.56mm Tracer 42Rnd AUG Magazine</Original>
-        <English>5.56mm Tracer 42Rnd AUG Magazine</English>
-        <Czech>5.56mm Tracer 42Rnd AUG Magazine</Czech>
-        <French>5.56mm Tracer 42Rnd AUG Magazine</French>
-        <Spanish>5.56mm Tracer 42Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm Tracer 42Rnd AUG Magazine</Italian>
-        <Polish>5.56mm Tracer 42Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm Tracer 42Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm Tracer 42Rnd AUG Magazine</Russian>
-        <German>5.56mm Tracer 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm 曳光弾 42発入り AUG マガジン</Japanese>
-        <Korean>5.56mm Tracer 42Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm Tracer 42Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_IRDIM_AUG">
-        <Original>5.56mm IR-DIM 42Rnd AUG Magazine</Original>
-        <English>5.56mm IR-DIM 42Rnd AUG Magazine</English>
-        <Czech>5.56mm IR-DIM 42Rnd AUG Magazine</Czech>
-        <French>5.56mm IR-DIM 42Rnd AUG Magazine</French>
-        <Spanish>5.56mm IR-DIM 42Rnd AUG Magazine</Spanish>
-        <Italian>5.56mm IR-DIM 42Rnd AUG Magazine</Italian>
-        <Polish>5.56mm IR-DIM 42Rnd AUG Magazine</Polish>
-        <Portuguese>5.56mm IR-DIM 42Rnd AUG Magazine</Portuguese>
-        <Russian>5.56mm IR-DIM 42Rnd AUG Magazine</Russian>
-        <German>5.56mm IR-DIM 42Rnd AUG Magazine</German>
-        <Japanese>5.56mm IR-DIM 42発入り AUG マガジン</Japanese>
-        <Korean>5.56mm IR-DIM 42Rnd AUG Magazine</Korean>
-        <Chinesesimp>5.56mm IR-DIM 42Rnd AUG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_M_AUG">
-        <Original>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Original>
-        <English>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</English>
-        <Czech>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Czech>
-        <French>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</French>
-        <Spanish>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Spanish>
-        <Italian>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Italian>
-        <Polish>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Polish>
-        <Portuguese>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Portuguese>
-        <Russian>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Russian>
-        <German>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</German>
-        <Japanese>5.56mm EPR 42発入り AUG マガジン (4発毎に曳光弾)</Japanese>
-        <Korean>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_42Rnd_556x45_MDIM_AUG">
-        <Original>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Original>
-        <English>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</English>
-        <Czech>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Czech>
-        <French>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</French>
-        <Spanish>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Spanish>
-        <Italian>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Italian>
-        <Polish>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Polish>
-        <Portuguese>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Portuguese>
-        <Russian>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Russian>
-        <German>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</German>
-        <Japanese>5.56mm EPR 42発入り AUG マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Korean>
-        <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_25Rnd_9x19mm_M882_AUG">
-        <Original>9mm FMJ 25Rnd AUG SMG Magazine</Original>
-        <English>9mm FMJ 25Rnd AUG SMG Magazine</English>
-        <Czech>9mm FMJ 25Rnd AUG SMG Magazine</Czech>
-        <French>9mm FMJ 25Rnd AUG SMG Magazine</French>
-        <Spanish>9mm FMJ 25Rnd AUG SMG Magazine</Spanish>
-        <Italian>9mm FMJ 25Rnd AUG SMG Magazine</Italian>
-        <Polish>9mm FMJ 25Rnd AUG SMG Magazine</Polish>
-        <Portuguese>9mm FMJ 25Rnd AUG SMG Magazine</Portuguese>
-        <Russian>9mm FMJ 25Rnd AUG SMG Magazine</Russian>
-        <German>9mm FMJ 25Rnd AUG SMG Magazine</German>
-        <Japanese>9mm FMJ 25発入り AUG SMG マガジン</Japanese>
-        <Korean>9mm FMJ 25Rnd AUG SMG Magazine</Korean>
-        <Chinesesimp>9mm FMJ 25Rnd AUG SMG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_25Rnd_9x19mm_JHP_AUG">
-        <Original>9mm JHP 25Rnd AUG SMG Magazine</Original>
-        <English>9mm JHP 25Rnd AUG SMG Magazine</English>
-        <Czech>9mm JHP 25Rnd AUG SMG Magazine</Czech>
-        <French>9mm JHP 25Rnd AUG SMG Magazine</French>
-        <Spanish>9mm JHP 25Rnd AUG SMG Magazine</Spanish>
-        <Italian>9mm JHP 25Rnd AUG SMG Magazine</Italian>
-        <Polish>9mm JHP 25Rnd AUG SMG Magazine</Polish>
-        <Portuguese>9mm JHP 25Rnd AUG SMG Magazine</Portuguese>
-        <Russian>9mm JHP 25Rnd AUG SMG Magazine</Russian>
-        <German>9mm JHP 25Rnd AUG SMG Magazine</German>
-        <Japanese>9mm JHP 25発入り AUG SMG マガジン</Japanese>
-        <Korean>9mm JHP 25Rnd AUG SMG Magazine</Korean>
-        <Chinesesimp>9mm JHP 25Rnd AUG SMG Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_25Rnd_9x19mm_Subsonic_AUG">
-        <Original>9mm Subsonic 25Rnd AUG SMG Magazine</Original>
-        <English>9mm Subsonic 25Rnd AUG SMG Magazine</English>
-        <Czech>9mm Subsonic 25Rnd AUG SMG Magazine</Czech>
-        <French>9mm Subsonic 25Rnd AUG SMG Magazine</French>
-        <Spanish>9mm Subsonic 25Rnd AUG SMG Magazine</Spanish>
-        <Italian>9mm Subsonic 25Rnd AUG SMG Magazine</Italian>
-        <Polish>9mm Subsonic 25Rnd AUG SMG Magazine</Polish>
-        <Portuguese>9mm Subsonic 25Rnd AUG SMG Magazine</Portuguese>
-        <Russian>9mm Subsonic 25Rnd AUG SMG Magazine</Russian>
-        <German>9mm Subsonic 25Rnd AUG SMG Magazine</German>
-        <Japanese>9mm 亜音速 25発入り AUG SMG マガジン</Japanese>
-        <Korean>9mm Subsonic 25Rnd AUG SMG Magazine</Korean>
-        <Chinesesimp>9mm Subsonic 25Rnd AUG SMG Magazine</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Acc_names">
-      <Key ID="STR_NIA_barrel_agenda6">
-        <Original>"AWC Agenda Six (AUG-9mm)"</Original>
-        <English>AWC Agenda Six (AUG-9mm)</English>
-        <Czech>AWC Agenda Six (AUG-9mm)</Czech>
-        <French>AWC Agenda Six (AUG-9mm)</French>
-        <Spanish>AWC Agenda Six (AUG-9mm)</Spanish>
-        <Italian>AWC Agenda Six (AUG-9mm)</Italian>
-        <Polish>AWC Agenda Six (AUG-9mm)</Polish>
-        <Portuguese>AWC Agenda Six (AUG-9mm)</Portuguese>
-        <Russian>AWC Agenda Six (AUG-9mm)</Russian>
-        <German>AWC Agenda Six (AUG-9mm)</German>
-        <Japanese>AWC Agenda Six (AUG-9mm)</Japanese>
-        <Korean>AWC Agenda Six (AUG-9mm)</Korean>
-        <Chinesesimp>AWC Agenda Six (AUG-9mm)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_standard">
-        <Original>AUG Barrel (Standard)</Original>
-        <English>AUG Barrel (Standard)</English>
-        <Czech>AUG Barrel (Standard)</Czech>
-        <French>AUG Barrel (Standard)</French>
-        <Spanish>AUG Barrel (Standard)</Spanish>
-        <Italian>AUG Barrel (Standard)</Italian>
-        <Polish>AUG Barrel (Standard)</Polish>
-        <Portuguese>AUG Barrel (Standard)</Portuguese>
-        <Russian>AUG Barrel (Standard)</Russian>
-        <German>AUG Barrel (Standard)</German>
-        <Japanese>AUG バレル (通常)</Japanese>
-        <Korean>AUG Barrel (Standard)</Korean>
-        <Chinesesimp>AUG Barrel (Standard)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_carbine">
-        <Original>AUG Barrel (Carbine)</Original>
-        <English>AUG Barrel (Carbine)</English>
-        <Czech>AUG Barrel (Carbine)</Czech>
-        <French>AUG Barrel (Carbine)</French>
-        <Spanish>AUG Barrel (Carbine)</Spanish>
-        <Italian>AUG Barrel (Carbine)</Italian>
-        <Polish>AUG Barrel (Carbine)</Polish>
-        <Portuguese>AUG Barrel (Carbine)</Portuguese>
-        <Russian>AUG Barrel (Carbine)</Russian>
-        <German>AUG Barrel (Carbine)</German>
-        <Japanese>AUG バレル (カービン)</Japanese>
-        <Korean>AUG Barrel (Carbine)</Korean>
-        <Chinesesimp>AUG Barrel (Carbine)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_hbar">
-        <Original>AUG Barrel (HBAR)</Original>
-        <English>AUG Barrel (HBAR)</English>
-        <Czech>AUG Barrel (HBAR)</Czech>
-        <French>AUG Barrel (HBAR)</French>
-        <Spanish>AUG Barrel (HBAR)</Spanish>
-        <Italian>AUG Barrel (HBAR)</Italian>
-        <Polish>AUG Barrel (HBAR)</Polish>
-        <Portuguese>AUG Barrel (HBAR)</Portuguese>
-        <Russian>AUG Barrel (HBAR)</Russian>
-        <German>AUG Barrel (HBAR)</German>
-        <Japanese>AUG バレル (HBAR)</Japanese>
-        <Korean>AUG Barrel (HBAR)</Korean>
-        <Chinesesimp>AUG Barrel (HBAR)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_9mm">
-        <Original>AUG 9mm Caliber Kit</Original>
-        <English>AUG 9mm Caliber Kit</English>
-        <Czech>AUG 9mm Caliber Kit</Czech>
-        <French>AUG 9mm Caliber Kit</French>
-        <Spanish>AUG 9mm Caliber Kit</Spanish>
-        <Italian>AUG 9mm Caliber Kit</Italian>
-        <Polish>AUG 9mm Caliber Kit</Polish>
-        <Portuguese>AUG 9mm Caliber Kit</Portuguese>
-        <Russian>AUG 9mm Caliber Kit</Russian>
-        <German>AUG 9mm Caliber Kit</German>
-        <Japanese>AUG 9mm カービン化キット</Japanese>
-        <Korean>AUG 9mm Caliber Kit</Korean>
-        <Chinesesimp>AUG 9mm Caliber Kit</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_AUG_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_Carbine_DESC">
-        <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>インファントリー カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUG_HBAR_DESC">
-        <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_AUGPAra_DESC">
-        <Original>SMG&lt;br/&gt;Caliber:9x19mm</Original>
-        <English>SMG&lt;br/&gt;Caliber:9x19mm</English>
-        <Czech>SMG&lt;br/&gt;Caliber:9x19mm</Czech>
-        <French>SMG&lt;br/&gt;Caliber:9x19mm</French>
-        <Spanish>SMG&lt;br/&gt;Caliber:9x19mm</Spanish>
-        <Italian>SMG&lt;br/&gt;Caliber:9x19mm</Italian>
-        <Polish>SMG&lt;br/&gt;Caliber:9x19mm</Polish>
-        <Portuguese>SMG&lt;br/&gt;Caliber:9x19mm</Portuguese>
-        <Russian>SMG&lt;br/&gt;Caliber:9x19mm</Russian>
-        <German>SMG&lt;br/&gt;Caliber:9x19mm</German>
-        <Japanese>短機関銃&lt;br/&gt;口径: 9x19mm</Japanese>
-        <Korean>SMG&lt;br/&gt;Caliber:9x19mm</Korean>
-        <Chinesesimp>SMG&lt;br/&gt;Caliber:9x19mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_standard_DESC">
-        <Original>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Steyr AUG用 20&quot; 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>20&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_carbine_DESC">
-        <Original>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Steyr AUG用 16&quot; 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>16&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_HBAR_DESC">
-        <Original>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Steyr AUG用 24&quot; 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>24&quot; Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_barrel_9mm_DESC">
-        <Original>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Original>
-        <English>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</English>
-        <Czech>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Czech>
-        <French>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</French>
-        <Spanish>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Spanish>
-        <Italian>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Italian>
-        <Polish>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Polish>
-        <Portuguese>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Portuguese>
-        <Russian>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Russian>
-        <German>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</German>
-        <Japanese>Steyr AUG用 9mm コンバージョン キット &lt;br/&gt;口径: 9x19mm</Japanese>
-        <Korean>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Korean>
-        <Chinesesimp>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_B_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_SOST_AUG">
-        <Original>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_SPR_AUG">
-        <Original>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_T_AUG">
-        <Original>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_irdim_AUG">
-        <Original>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_M_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_30Rnd_556x45_Mdim_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_B_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_SOST_AUG">
-        <Original>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット貫通弾芯 (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_SPR_AUG">
-        <Original>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_T_AUG">
-        <Original>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_irdim_AUG">
-        <Original>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_M_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_42Rnd_556x45_Mdim_AUG">
-        <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Original>
-        <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</English>
-        <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Czech>
-        <French>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</French>
-        <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Spanish>
-        <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Italian>
-        <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Polish>
-        <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Portuguese>
-        <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Russian>
-        <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</German>
-        <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 42</Japanese>
-        <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Korean>
-        <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_25Rnd_9x19mm_M882_AUG">
-        <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Original>
-        <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</English>
-        <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Czech>
-        <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</French>
-        <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Spanish>
-        <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Italian>
-        <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Polish>
-        <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Portuguese>
-        <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Russian>
-        <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</German>
-        <Japanese>口径: 9x19mm M882 弾丸&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 25</Japanese>
-        <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Korean>
-        <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_25Rnd_9x19mm_JHP_AUG">
-        <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Original>
-        <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</English>
-        <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Czech>
-        <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</French>
-        <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Spanish>
-        <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Italian>
-        <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Polish>
-        <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Portuguese>
-        <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Russian>
-        <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</German>
-        <Japanese>口径: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;種類: ジャケット ホロー ポイント (Winchester USA9JHP2)&lt;br/&gt;弾数: 25</Japanese>
-        <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Korean>
-        <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_25Rnd_9x19mm_subsonic_AUG">
-        <Original>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Original>
-        <English>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</English>
-        <Czech>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Czech>
-        <French>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</French>
-        <Spanish>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Spanish>
-        <Italian>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Italian>
-        <Polish>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Polish>
-        <Portuguese>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Portuguese>
-        <Russian>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Russian>
-        <German>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</German>
-        <Japanese>口径: 9x19mm 亜音速 FMJ&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 25</Japanese>
-        <Korean>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Korean>
-        <Chinesesimp>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_AUG">
+        <Container name="Names">
+            <Key ID="STR_NIA_AUGA1_OD">
+                <Original>Steyr AUGA1 (OD)</Original>
+                <English>Steyr AUGA1 (OD)</English>
+                <Czech>Steyr AUGA1 (OD)</Czech>
+                <French>Steyr AUGA1 (OD)</French>
+                <Spanish>Steyr AUGA1 (OD)</Spanish>
+                <Italian>Steyr AUGA1 (OD)</Italian>
+                <Polish>Steyr AUGA1 (OD)</Polish>
+                <Portuguese>Steyr AUGA1 (OD)</Portuguese>
+                <Russian>Steyr AUGA1 (OD)</Russian>
+                <German>Steyr AUGA1 (OD)</German>
+                <Japanese>Steyr AUGA1 (OD)</Japanese>
+                <Korean>Steyr AUGA1 (OD)</Korean>
+                <Chinesesimp>Steyr AUGA1 (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_T">
+                <Original>Steyr AUGA1 (Tan)</Original>
+                <English>Steyr AUGA1 (Tan)</English>
+                <Czech>Steyr AUGA1 (Tan)</Czech>
+                <French>Steyr AUGA1 (Tan)</French>
+                <Spanish>Steyr AUGA1 (Tan)</Spanish>
+                <Italian>Steyr AUGA1 (Tan)</Italian>
+                <Polish>Steyr AUGA1 (Tan)</Polish>
+                <Portuguese>Steyr AUGA1 (Tan)</Portuguese>
+                <Russian>Steyr AUGA1 (Tan)</Russian>
+                <German>Steyr AUGA1 (Tan)</German>
+                <Japanese>Steyr AUGA1 (タン)</Japanese>
+                <Korean>Steyr AUGA1 (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA1 (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_B">
+                <Original>Steyr AUGA1 (Black)</Original>
+                <English>Steyr AUGA1 (Black)</English>
+                <Czech>Steyr AUGA1 (Black)</Czech>
+                <French>Steyr AUGA1 (Noir)</French>
+                <Spanish>Steyr AUGA1 (Black)</Spanish>
+                <Italian>Steyr AUGA1 (Black)</Italian>
+                <Polish>Steyr AUGA1 (Black)</Polish>
+                <Portuguese>Steyr AUGA1 (Black)</Portuguese>
+                <Russian>Steyr AUGA1 (Black)</Russian>
+                <German>Steyr AUGA1 (Black)</German>
+                <Japanese>Steyr AUGA1 (ブラック)</Japanese>
+                <Korean>Steyr AUGA1 (Black)</Korean>
+                <Chinesesimp>Steyr AUGA1 (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_Carbine_OD">
+                <Original>Steyr AUGA1 Carbine (OD)</Original>
+                <English>Steyr AUGA1 Carbine (OD)</English>
+                <Czech>Steyr AUGA1 Carbine (OD)</Czech>
+                <French>Steyr AUGA1 Carabine (OD)</French>
+                <Spanish>Steyr AUGA1 Carbine (OD)</Spanish>
+                <Italian>Steyr AUGA1 Carbine (OD)</Italian>
+                <Polish>Steyr AUGA1 Carbine (OD)</Polish>
+                <Portuguese>Steyr AUGA1 Carbine (OD)</Portuguese>
+                <Russian>Steyr AUGA1 Carbine (OD)</Russian>
+                <German>Steyr AUGA1 Carbine (OD)</German>
+                <Japanese>Steyr AUGA1 カービン (OD)</Japanese>
+                <Korean>Steyr AUGA1 Carbine (OD)</Korean>
+                <Chinesesimp>Steyr AUGA1 Carbine (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_Carbine_T">
+                <Original>Steyr AUGA1 Carbine (Tan)</Original>
+                <English>Steyr AUGA1 Carbine (Tan)</English>
+                <Czech>Steyr AUGA1 Carbine (Tan)</Czech>
+                <French>Steyr AUGA1 Carabine (Tan)</French>
+                <Spanish>Steyr AUGA1 Carbine (Tan)</Spanish>
+                <Italian>Steyr AUGA1 Carbine (Tan)</Italian>
+                <Polish>Steyr AUGA1 Carbine (Tan)</Polish>
+                <Portuguese>Steyr AUGA1 Carbine (Tan)</Portuguese>
+                <Russian>Steyr AUGA1 Carbine (Tan)</Russian>
+                <German>Steyr AUGA1 Carbine (Tan)</German>
+                <Japanese>Steyr AUGA1 カービン (タン)</Japanese>
+                <Korean>Steyr AUGA1 Carbine (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA1 Carbine (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_Carbine_B">
+                <Original>Steyr AUGA1 Carbine (Black)</Original>
+                <English>Steyr AUGA1 Carbine (Black)</English>
+                <Czech>Steyr AUGA1 Carbine (Black)</Czech>
+                <French>Steyr AUGA1 Carabine (Noir)</French>
+                <Spanish>Steyr AUGA1 Carbine (Black)</Spanish>
+                <Italian>Steyr AUGA1 Carbine (Black)</Italian>
+                <Polish>Steyr AUGA1 Carbine (Black)</Polish>
+                <Portuguese>Steyr AUGA1 Carbine (Black)</Portuguese>
+                <Russian>Steyr AUGA1 Carbine (Black)</Russian>
+                <German>Steyr AUGA1 Carbine (Black)</German>
+                <Japanese>Steyr AUGA1 カービン (ブラック)</Japanese>
+                <Korean>Steyr AUGA1 Carbine (Black)</Korean>
+                <Chinesesimp>Steyr AUGA1 Carbine (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_HBAR_OD">
+                <Original>Steyr AUGA1 HBAR (OD)</Original>
+                <English>Steyr AUGA1 HBAR (OD)</English>
+                <Czech>Steyr AUGA1 HBAR (OD)</Czech>
+                <French>Steyr AUGA1 HBAR (OD)</French>
+                <Spanish>Steyr AUGA1 HBAR (OD)</Spanish>
+                <Italian>Steyr AUGA1 HBAR (OD)</Italian>
+                <Polish>Steyr AUGA1 HBAR (OD)</Polish>
+                <Portuguese>Steyr AUGA1 HBAR (OD)</Portuguese>
+                <Russian>Steyr AUGA1 HBAR (OD)</Russian>
+                <German>Steyr AUGA1 HBAR (OD)</German>
+                <Japanese>Steyr AUGA1 HBAR (OD)</Japanese>
+                <Korean>Steyr AUGA1 HBAR (OD)</Korean>
+                <Chinesesimp>Steyr AUGA1 HBAR (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_HBAR_T">
+                <Original>Steyr AUGA1 HBAR (Tan)</Original>
+                <English>Steyr AUGA1 HBAR (Tan)</English>
+                <Czech>Steyr AUGA1 HBAR (Tan)</Czech>
+                <French>Steyr AUGA1 HBAR (Tan)</French>
+                <Spanish>Steyr AUGA1 HBAR (Tan)</Spanish>
+                <Italian>Steyr AUGA1 HBAR (Tan)</Italian>
+                <Polish>Steyr AUGA1 HBAR (Tan)</Polish>
+                <Portuguese>Steyr AUGA1 HBAR (Tan)</Portuguese>
+                <Russian>Steyr AUGA1 HBAR (Tan)</Russian>
+                <German>Steyr AUGA1 HBAR (Tan)</German>
+                <Japanese>Steyr AUGA1 HBAR (タン)</Japanese>
+                <Korean>Steyr AUGA1 HBAR (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA1 HBAR (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_HBAR_B">
+                <Original>Steyr AUGA1 HBAR (Black)</Original>
+                <English>Steyr AUGA1 HBAR (Black)</English>
+                <Czech>Steyr AUGA1 HBAR (Black)</Czech>
+                <French>Steyr AUGA1 HBAR (Noir)</French>
+                <Spanish>Steyr AUGA1 HBAR (Black)</Spanish>
+                <Italian>Steyr AUGA1 HBAR (Black)</Italian>
+                <Polish>Steyr AUGA1 HBAR (Black)</Polish>
+                <Portuguese>Steyr AUGA1 HBAR (Black)</Portuguese>
+                <Russian>Steyr AUGA1 HBAR (Black)</Russian>
+                <German>Steyr AUGA1 HBAR (Black)</German>
+                <Japanese>Steyr AUGA1 HBAR (ブラック)</Japanese>
+                <Korean>Steyr AUGA1 HBAR (Black)</Korean>
+                <Chinesesimp>Steyr AUGA1 HBAR (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_9mm_OD">
+                <Original>Steyr AUGA1 Para 9mm (OD)</Original>
+                <English>Steyr AUGA1 Para 9mm (OD)</English>
+                <Czech>Steyr AUGA1 Para 9mm (OD)</Czech>
+                <French>Steyr AUGA1 Para 9mm (OD)</French>
+                <Spanish>Steyr AUGA1 Para 9mm (OD)</Spanish>
+                <Italian>Steyr AUGA1 Para 9mm (OD)</Italian>
+                <Polish>Steyr AUGA1 Para 9mm (OD)</Polish>
+                <Portuguese>Steyr AUGA1 Para 9mm (OD)</Portuguese>
+                <Russian>Steyr AUGA1 Para 9mm (OD)</Russian>
+                <German>Steyr AUGA1 Para 9mm (OD)</German>
+                <Japanese>Steyr AUGA1 Para 9mm (OD)</Japanese>
+                <Korean>Steyr AUGA1 Para 9mm (OD)</Korean>
+                <Chinesesimp>Steyr AUGA1 Para 9mm (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_9mm_T">
+                <Original>Steyr AUGA1 Para 9mm (Tan)</Original>
+                <English>Steyr AUGA1 Para 9mm (Tan)</English>
+                <Czech>Steyr AUGA1 Para 9mm (Tan)</Czech>
+                <French>Steyr AUGA1 Para 9mm (Tan)</French>
+                <Spanish>Steyr AUGA1 Para 9mm (Tan)</Spanish>
+                <Italian>Steyr AUGA1 Para 9mm (Tan)</Italian>
+                <Polish>Steyr AUGA1 Para 9mm (Tan)</Polish>
+                <Portuguese>Steyr AUGA1 Para 9mm (Tan)</Portuguese>
+                <Russian>Steyr AUGA1 Para 9mm (Tan)</Russian>
+                <German>Steyr AUGA1 Para 9mm (Tan)</German>
+                <Japanese>Steyr AUGA1 空挺 9mm (タン)</Japanese>
+                <Korean>Steyr AUGA1 Para 9mm (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA1 Para 9mm (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA1_9mm_B">
+                <Original>Steyr AUGA1 Para 9mm (Black)</Original>
+                <English>Steyr AUGA1 Para 9mm (Black)</English>
+                <Czech>Steyr AUGA1 Para 9mm (Black)</Czech>
+                <French>Steyr AUGA1 Para 9mm (Noir)</French>
+                <Spanish>Steyr AUGA1 Para 9mm (Black)</Spanish>
+                <Italian>Steyr AUGA1 Para 9mm (Black)</Italian>
+                <Polish>Steyr AUGA1 Para 9mm (Black)</Polish>
+                <Portuguese>Steyr AUGA1 Para 9mm (Black)</Portuguese>
+                <Russian>Steyr AUGA1 Para 9mm (Black)</Russian>
+                <German>Steyr AUGA1 Para 9mm (Black)</German>
+                <Japanese>Steyr AUGA1 空挺 9mm (ブラック)</Japanese>
+                <Korean>Steyr AUGA1 Para 9mm (Black)</Korean>
+                <Chinesesimp>Steyr AUGA1 Para 9mm (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_OD">
+                <Original>Steyr AUGA2 (OD)</Original>
+                <English>Steyr AUGA2 (OD)</English>
+                <Czech>Steyr AUGA2 (OD)</Czech>
+                <French>Steyr AUGA2 (OD)</French>
+                <Spanish>Steyr AUGA2 (OD)</Spanish>
+                <Italian>Steyr AUGA2 (OD)</Italian>
+                <Polish>Steyr AUGA2 (OD)</Polish>
+                <Portuguese>Steyr AUGA2 (OD)</Portuguese>
+                <Russian>Steyr AUGA2 (OD)</Russian>
+                <German>Steyr AUGA2 (OD)</German>
+                <Japanese>Steyr AUGA2 (OD)</Japanese>
+                <Korean>Steyr AUGA2 (OD)</Korean>
+                <Chinesesimp>Steyr AUGA2 (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_T">
+                <Original>Steyr AUGA2 (Tan)</Original>
+                <English>Steyr AUGA2 (Tan)</English>
+                <Czech>Steyr AUGA2 (Tan)</Czech>
+                <French>Steyr AUGA2 (Tan)</French>
+                <Spanish>Steyr AUGA2 (Tan)</Spanish>
+                <Italian>Steyr AUGA2 (Tan)</Italian>
+                <Polish>Steyr AUGA2 (Tan)</Polish>
+                <Portuguese>Steyr AUGA2 (Tan)</Portuguese>
+                <Russian>Steyr AUGA2 (Tan)</Russian>
+                <German>Steyr AUGA2 (Tan)</German>
+                <Japanese>Steyr AUGA2 (タン)</Japanese>
+                <Korean>Steyr AUGA2 (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA2 (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_B">
+                <Original>Steyr AUGA2 (Black)</Original>
+                <English>Steyr AUGA2 (Black)</English>
+                <Czech>Steyr AUGA2 (Black)</Czech>
+                <French>Steyr AUGA2 (Noir)</French>
+                <Spanish>Steyr AUGA2 (Black)</Spanish>
+                <Italian>Steyr AUGA2 (Black)</Italian>
+                <Polish>Steyr AUGA2 (Black)</Polish>
+                <Portuguese>Steyr AUGA2 (Black)</Portuguese>
+                <Russian>Steyr AUGA2 (Black)</Russian>
+                <German>Steyr AUGA2 (Black)</German>
+                <Japanese>Steyr AUGA2 (ブラック)</Japanese>
+                <Korean>Steyr AUGA2 (Black)</Korean>
+                <Chinesesimp>Steyr AUGA2 (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_Carbine_OD">
+                <Original>Steyr AUGA2 Carbine (OD)</Original>
+                <English>Steyr AUGA2 Carbine (OD)</English>
+                <Czech>Steyr AUGA2 Carbine (OD)</Czech>
+                <French>Steyr AUGA2 Carbine (OD)</French>
+                <Spanish>Steyr AUGA2 Carbine (OD)</Spanish>
+                <Italian>Steyr AUGA2 Carbine (OD)</Italian>
+                <Polish>Steyr AUGA2 Carbine (OD)</Polish>
+                <Portuguese>Steyr AUGA2 Carbine (OD)</Portuguese>
+                <Russian>Steyr AUGA2 Carbine (OD)</Russian>
+                <German>Steyr AUGA2 Carbine (OD)</German>
+                <Japanese>Steyr AUGA2 カービン (OD)</Japanese>
+                <Korean>Steyr AUGA2 Carbine (OD)</Korean>
+                <Chinesesimp>Steyr AUGA2 Carbine (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_Carbine_T">
+                <Original>Steyr AUGA2 Carbine (Tan)</Original>
+                <English>Steyr AUGA2 Carbine (Tan)</English>
+                <Czech>Steyr AUGA2 Carbine (Tan)</Czech>
+                <French>Steyr AUGA2 Carabine (Tan)</French>
+                <Spanish>Steyr AUGA2 Carbine (Tan)</Spanish>
+                <Italian>Steyr AUGA2 Carbine (Tan)</Italian>
+                <Polish>Steyr AUGA2 Carbine (Tan)</Polish>
+                <Portuguese>Steyr AUGA2 Carbine (Tan)</Portuguese>
+                <Russian>Steyr AUGA2 Carbine (Tan)</Russian>
+                <German>Steyr AUGA2 Carbine (Tan)</German>
+                <Japanese>Steyr AUGA2 カービン (タン)</Japanese>
+                <Korean>Steyr AUGA2 Carbine (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA2 Carbine (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_Carbine_B">
+                <Original>Steyr AUGA2 Carbine (Black)</Original>
+                <English>Steyr AUGA2 Carbine (Black)</English>
+                <Czech>Steyr AUGA2 Carbine (Black)</Czech>
+                <French>Steyr AUGA2 Carabine (Noir)</French>
+                <Spanish>Steyr AUGA2 Carbine (Black)</Spanish>
+                <Italian>Steyr AUGA2 Carbine (Black)</Italian>
+                <Polish>Steyr AUGA2 Carbine (Black)</Polish>
+                <Portuguese>Steyr AUGA2 Carbine (Black)</Portuguese>
+                <Russian>Steyr AUGA2 Carbine (Black)</Russian>
+                <German>Steyr AUGA2 Carbine (Black)</German>
+                <Japanese>Steyr AUGA2 カービン (ブラック)</Japanese>
+                <Korean>Steyr AUGA2 Carbine (Black)</Korean>
+                <Chinesesimp>Steyr AUGA2 Carbine (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_HBAR_OD">
+                <Original>Steyr AUGA2 HBAR (OD)</Original>
+                <English>Steyr AUGA2 HBAR (OD)</English>
+                <Czech>Steyr AUGA2 HBAR (OD)</Czech>
+                <French>Steyr AUGA2 HBAR (OD)</French>
+                <Spanish>Steyr AUGA2 HBAR (OD)</Spanish>
+                <Italian>Steyr AUGA2 HBAR (OD)</Italian>
+                <Polish>Steyr AUGA2 HBAR (OD)</Polish>
+                <Portuguese>Steyr AUGA2 HBAR (OD)</Portuguese>
+                <Russian>Steyr AUGA2 HBAR (OD)</Russian>
+                <German>Steyr AUGA2 HBAR (OD)</German>
+                <Japanese>Steyr AUGA2 HBAR (OD)</Japanese>
+                <Korean>Steyr AUGA2 HBAR (OD)</Korean>
+                <Chinesesimp>Steyr AUGA2 HBAR (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_HBAR_T">
+                <Original>Steyr AUGA2 HBAR (Tan)</Original>
+                <English>Steyr AUGA2 HBAR (Tan)</English>
+                <Czech>Steyr AUGA2 HBAR (Tan)</Czech>
+                <French>Steyr AUGA2 HBAR (Tan)</French>
+                <Spanish>Steyr AUGA2 HBAR (Tan)</Spanish>
+                <Italian>Steyr AUGA2 HBAR (Tan)</Italian>
+                <Polish>Steyr AUGA2 HBAR (Tan)</Polish>
+                <Portuguese>Steyr AUGA2 HBAR (Tan)</Portuguese>
+                <Russian>Steyr AUGA2 HBAR (Tan)</Russian>
+                <German>Steyr AUGA2 HBAR (Tan)</German>
+                <Japanese>Steyr AUGA2 HBAR (タン)</Japanese>
+                <Korean>Steyr AUGA2 HBAR (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA2 HBAR (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_HBAR_B">
+                <Original>Steyr AUGA2 HBAR (Black)</Original>
+                <English>Steyr AUGA2 HBAR (Black)</English>
+                <Czech>Steyr AUGA2 HBAR (Black)</Czech>
+                <French>Steyr AUGA2 HBAR (Noir)</French>
+                <Spanish>Steyr AUGA2 HBAR (Black)</Spanish>
+                <Italian>Steyr AUGA2 HBAR (Black)</Italian>
+                <Polish>Steyr AUGA2 HBAR (Black)</Polish>
+                <Portuguese>Steyr AUGA2 HBAR (Black)</Portuguese>
+                <Russian>Steyr AUGA2 HBAR (Black)</Russian>
+                <German>Steyr AUGA2 HBAR (Black)</German>
+                <Japanese>Steyr AUGA2 HBAR (ブラック)</Japanese>
+                <Korean>Steyr AUGA2 HBAR (Black)</Korean>
+                <Chinesesimp>Steyr AUGA2 HBAR (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_9mm_OD">
+                <Original>Steyr AUGA2 Para 9mm (OD)</Original>
+                <English>Steyr AUGA2 Para 9mm (OD)</English>
+                <Czech>Steyr AUGA2 Para 9mm (OD)</Czech>
+                <French>Steyr AUGA2 Para 9mm (OD)</French>
+                <Spanish>Steyr AUGA2 Para 9mm (OD)</Spanish>
+                <Italian>Steyr AUGA2 Para 9mm (OD)</Italian>
+                <Polish>Steyr AUGA2 Para 9mm (OD)</Polish>
+                <Portuguese>Steyr AUGA2 Para 9mm (OD)</Portuguese>
+                <Russian>Steyr AUGA2 Para 9mm (OD)</Russian>
+                <German>Steyr AUGA2 Para 9mm (OD)</German>
+                <Japanese>Steyr AUGA2 空挺 9mm (OD)</Japanese>
+                <Korean>Steyr AUGA2 Para 9mm (OD)</Korean>
+                <Chinesesimp>Steyr AUGA2 Para 9mm (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_9mm_T">
+                <Original>Steyr AUGA2 Para 9mm (Tan)</Original>
+                <English>Steyr AUGA2 Para 9mm (Tan)</English>
+                <Czech>Steyr AUGA2 Para 9mm (Tan)</Czech>
+                <French>Steyr AUGA2 Para 9mm (Tan)</French>
+                <Spanish>Steyr AUGA2 Para 9mm (Tan)</Spanish>
+                <Italian>Steyr AUGA2 Para 9mm (Tan)</Italian>
+                <Polish>Steyr AUGA2 Para 9mm (Tan)</Polish>
+                <Portuguese>Steyr AUGA2 Para 9mm (Tan)</Portuguese>
+                <Russian>Steyr AUGA2 Para 9mm (Tan)</Russian>
+                <German>Steyr AUGA2 Para 9mm (Tan)</German>
+                <Japanese>Steyr AUGA2 空挺 9mm (タン)</Japanese>
+                <Korean>Steyr AUGA2 Para 9mm (Tan)</Korean>
+                <Chinesesimp>Steyr AUGA2 Para 9mm (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA2_9mm_B">
+                <Original>Steyr AUGA2 Para 9mm (Black)</Original>
+                <English>Steyr AUGA2 Para 9mm (Black)</English>
+                <Czech>Steyr AUGA2 Para 9mm (Black)</Czech>
+                <French>Steyr AUGA2 Para 9mm (Noir)</French>
+                <Spanish>Steyr AUGA2 Para 9mm (Black)</Spanish>
+                <Italian>Steyr AUGA2 Para 9mm (Black)</Italian>
+                <Polish>Steyr AUGA2 Para 9mm (Black)</Polish>
+                <Portuguese>Steyr AUGA2 Para 9mm (Black)</Portuguese>
+                <Russian>Steyr AUGA2 Para 9mm (Black)</Russian>
+                <German>Steyr AUGA2 Para 9mm (Black)</German>
+                <Japanese>Steyr AUGA2 空挺 9mm (ブラック)</Japanese>
+                <Korean>Steyr AUGA2 Para 9mm (Black)</Korean>
+                <Chinesesimp>Steyr AUGA2 Para 9mm (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_OD">
+                <Original>Steyr AUG-SR (OD)</Original>
+                <English>Steyr AUG-SR (OD)</English>
+                <Czech>Steyr AUG-SR (OD)</Czech>
+                <French>Steyr AUG-SR (OD)</French>
+                <Spanish>Steyr AUG-SR (OD)</Spanish>
+                <Italian>Steyr AUG-SR (OD)</Italian>
+                <Polish>Steyr AUG-SR (OD)</Polish>
+                <Portuguese>Steyr AUG-SR (OD)</Portuguese>
+                <Russian>Steyr AUG-SR (OD)</Russian>
+                <German>Steyr AUG-SR (OD)</German>
+                <Japanese>Steyr AUG-SR (OD)</Japanese>
+                <Korean>Steyr AUG-SR (OD)</Korean>
+                <Chinesesimp>Steyr AUG-SR (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_T">
+                <Original>Steyr AUG-SR (Tan)</Original>
+                <English>Steyr AUG-SR (Tan)</English>
+                <Czech>Steyr AUG-SR (Tan)</Czech>
+                <French>Steyr AUG-SR (Tan)</French>
+                <Spanish>Steyr AUG-SR (Tan)</Spanish>
+                <Italian>Steyr AUG-SR (Tan)</Italian>
+                <Polish>Steyr AUG-SR (Tan)</Polish>
+                <Portuguese>Steyr AUG-SR (Tan)</Portuguese>
+                <Russian>Steyr AUG-SR (Tan)</Russian>
+                <German>Steyr AUG-SR (Tan)</German>
+                <Japanese>Steyr AUG-SR (タン)</Japanese>
+                <Korean>Steyr AUG-SR (Tan)</Korean>
+                <Chinesesimp>Steyr AUG-SR (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_B">
+                <Original>Steyr AUG-SR (Black)</Original>
+                <English>Steyr AUG-SR (Black)</English>
+                <Czech>Steyr AUG-SR (Black)</Czech>
+                <French>Steyr AUG-SR (Noir)</French>
+                <Spanish>Steyr AUG-SR (Black)</Spanish>
+                <Italian>Steyr AUG-SR (Black)</Italian>
+                <Polish>Steyr AUG-SR (Black)</Polish>
+                <Portuguese>Steyr AUG-SR (Black)</Portuguese>
+                <Russian>Steyr AUG-SR (Black)</Russian>
+                <German>Steyr AUG-SR (Black)</German>
+                <Japanese>Steyr AUG-SR (ブラック)</Japanese>
+                <Korean>Steyr AUG-SR (Black)</Korean>
+                <Chinesesimp>Steyr AUG-SR (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_Carbine_OD">
+                <Original>Steyr AUG-SR Carbine (OD)</Original>
+                <English>Steyr AUG-SR Carbine (OD)</English>
+                <Czech>Steyr AUG-SR Carbine (OD)</Czech>
+                <French>Steyr AUG-SR Carabine (OD)</French>
+                <Spanish>Steyr AUG-SR Carbine (OD)</Spanish>
+                <Italian>Steyr AUG-SR Carbine (OD)</Italian>
+                <Polish>Steyr AUG-SR Carbine (OD)</Polish>
+                <Portuguese>Steyr AUG-SR Carbine (OD)</Portuguese>
+                <Russian>Steyr AUG-SR Carbine (OD)</Russian>
+                <German>Steyr AUG-SR Carbine (OD)</German>
+                <Japanese>Steyr AUG-SR カービン (OD)</Japanese>
+                <Korean>Steyr AUG-SR Carbine (OD)</Korean>
+                <Chinesesimp>Steyr AUG-SR Carbine (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_Carbine_T">
+                <Original>Steyr AUG-SR Carbine (Tan)</Original>
+                <English>Steyr AUG-SR Carbine (Tan)</English>
+                <Czech>Steyr AUG-SR Carbine (Tan)</Czech>
+                <French>Steyr AUG-SR Carabine (Tan)</French>
+                <Spanish>Steyr AUG-SR Carbine (Tan)</Spanish>
+                <Italian>Steyr AUG-SR Carbine (Tan)</Italian>
+                <Polish>Steyr AUG-SR Carbine (Tan)</Polish>
+                <Portuguese>Steyr AUG-SR Carbine (Tan)</Portuguese>
+                <Russian>Steyr AUG-SR Carbine (Tan)</Russian>
+                <German>Steyr AUG-SR Carbine (Tan)</German>
+                <Japanese>Steyr AUG-SR カービン (タン)</Japanese>
+                <Korean>Steyr AUG-SR Carbine (Tan)</Korean>
+                <Chinesesimp>Steyr AUG-SR Carbine (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_Carbine_B">
+                <Original>Steyr AUG-SR Carbine (Black)</Original>
+                <English>Steyr AUG-SR Carbine (Black)</English>
+                <Czech>Steyr AUG-SR Carbine (Black)</Czech>
+                <French>Steyr AUG-SR Carabine (Noir)</French>
+                <Spanish>Steyr AUG-SR Carbine (Black)</Spanish>
+                <Italian>Steyr AUG-SR Carbine (Black)</Italian>
+                <Polish>Steyr AUG-SR Carbine (Black)</Polish>
+                <Portuguese>Steyr AUG-SR Carbine (Black)</Portuguese>
+                <Russian>Steyr AUG-SR Carbine (Black)</Russian>
+                <German>Steyr AUG-SR Carbine (Black)</German>
+                <Japanese>Steyr AUG-SR カービン (ブラック)</Japanese>
+                <Korean>Steyr AUG-SR Carbine (Black)</Korean>
+                <Chinesesimp>Steyr AUG-SR Carbine (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_HBAR_OD">
+                <Original>Steyr AUG-SR HBAR (OD)</Original>
+                <English>Steyr AUG-SR HBAR (OD)</English>
+                <Czech>Steyr AUG-SR HBAR (OD)</Czech>
+                <French>Steyr AUG-SR HBAR (OD)</French>
+                <Spanish>Steyr AUG-SR HBAR (OD)</Spanish>
+                <Italian>Steyr AUG-SR HBAR (OD)</Italian>
+                <Polish>Steyr AUG-SR HBAR (OD)</Polish>
+                <Portuguese>Steyr AUG-SR HBAR (OD)</Portuguese>
+                <Russian>Steyr AUG-SR HBAR (OD)</Russian>
+                <German>Steyr AUG-SR HBAR (OD)</German>
+                <Japanese>Steyr AUG-SR HBAR (OD)</Japanese>
+                <Korean>Steyr AUG-SR HBAR (OD)</Korean>
+                <Chinesesimp>Steyr AUG-SR HBAR (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_HBAR_T">
+                <Original>Steyr AUG-SR HBAR (Tan)</Original>
+                <English>Steyr AUG-SR HBAR (Tan)</English>
+                <Czech>Steyr AUG-SR HBAR (Tan)</Czech>
+                <French>Steyr AUG-SR HBAR (Tan)</French>
+                <Spanish>Steyr AUG-SR HBAR (Tan)</Spanish>
+                <Italian>Steyr AUG-SR HBAR (Tan)</Italian>
+                <Polish>Steyr AUG-SR HBAR (Tan)</Polish>
+                <Portuguese>Steyr AUG-SR HBAR (Tan)</Portuguese>
+                <Russian>Steyr AUG-SR HBAR (Tan)</Russian>
+                <German>Steyr AUG-SR HBAR (Tan)</German>
+                <Japanese>Steyr AUG-SR HBAR (タン)</Japanese>
+                <Korean>Steyr AUG-SR HBAR (Tan)</Korean>
+                <Chinesesimp>Steyr AUG-SR HBAR (Tan)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_SR_HBAR_B">
+                <Original>Steyr AUG-SR HBAR (Black)</Original>
+                <English>Steyr AUG-SR HBAR (Black)</English>
+                <Czech>Steyr AUG-SR HBAR (Black)</Czech>
+                <French>Steyr AUG-SR HBAR (Noir)</French>
+                <Spanish>Steyr AUG-SR HBAR (Black)</Spanish>
+                <Italian>Steyr AUG-SR HBAR (Black)</Italian>
+                <Polish>Steyr AUG-SR HBAR (Black)</Polish>
+                <Portuguese>Steyr AUG-SR HBAR (Black)</Portuguese>
+                <Russian>Steyr AUG-SR HBAR (Black)</Russian>
+                <German>Steyr AUG-SR HBAR (Black)</German>
+                <Japanese>Steyr AUG-SR HBAR (ブラック)</Japanese>
+                <Korean>Steyr AUG-SR HBAR (Black)</Korean>
+                <Chinesesimp>Steyr AUG-SR HBAR (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3_Green">
+                <Original>Steyr AUGA3 (Green)</Original>
+                <English>Steyr AUGA3 (Green)</English>
+                <Czech>Steyr AUGA3 (Green)</Czech>
+                <French>Steyr AUGA3 (Vert)</French>
+                <Spanish>Steyr AUGA3 (Green)</Spanish>
+                <Italian>Steyr AUGA3 (Green)</Italian>
+                <Polish>Steyr AUGA3 (Green)</Polish>
+                <Portuguese>Steyr AUGA3 (Green)</Portuguese>
+                <Russian>Steyr AUGA3 (Green)</Russian>
+                <German>Steyr AUGA3 (Green)</German>
+                <Japanese>Steyr AUGA3 (グリーン)</Japanese>
+                <Korean>Steyr AUGA3 (Green)</Korean>
+                <Chinesesimp>Steyr AUGA3 (Green)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3_bl">
+                <Original>Steyr AUGA3 (Blue)</Original>
+                <English>Steyr AUGA3 (Blue)</English>
+                <Czech>Steyr AUGA3 (Blue)</Czech>
+                <French>Steyr AUGA3 (Bleu)</French>
+                <Spanish>Steyr AUGA3 (Blue)</Spanish>
+                <Italian>Steyr AUGA3 (Blue)</Italian>
+                <Polish>Steyr AUGA3 (Blue)</Polish>
+                <Portuguese>Steyr AUGA3 (Blue)</Portuguese>
+                <Russian>Steyr AUGA3 (Blue)</Russian>
+                <German>Steyr AUGA3 (Blue)</German>
+                <Japanese>Steyr AUGA3 (ブルー)</Japanese>
+                <Korean>Steyr AUGA3 (Blue)</Korean>
+                <Chinesesimp>Steyr AUGA3 (Blue)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3_B">
+                <Original>Steyr AUGA3 (Black)</Original>
+                <English>Steyr AUGA3 (Black)</English>
+                <Czech>Steyr AUGA3 (Black)</Czech>
+                <French>Steyr AUGA3 (Noir)</French>
+                <Spanish>Steyr AUGA3 (Black)</Spanish>
+                <Italian>Steyr AUGA3 (Black)</Italian>
+                <Polish>Steyr AUGA3 (Black)</Polish>
+                <Portuguese>Steyr AUGA3 (Black)</Portuguese>
+                <Russian>Steyr AUGA3 (Black)</Russian>
+                <German>Steyr AUGA3 (Black)</German>
+                <Japanese>Steyr AUGA3 (ブラック)</Japanese>
+                <Korean>Steyr AUGA3 (Black)</Korean>
+                <Chinesesimp>Steyr AUGA3 (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3GL_Green">
+                <Original>Steyr AUGA3 (GL\Green)</Original>
+                <English>Steyr AUGA3 (GL\Green)</English>
+                <Czech>Steyr AUGA3 (GL\Green)</Czech>
+                <French>Steyr AUGA3 (LGI\Vert)</French>
+                <Spanish>Steyr AUGA3 (GL\Green)</Spanish>
+                <Italian>Steyr AUGA3 (GL\Green)</Italian>
+                <Polish>Steyr AUGA3 (GL\Green)</Polish>
+                <Portuguese>Steyr AUGA3 (GL\Green)</Portuguese>
+                <Russian>Steyr AUGA3 (GL\Green)</Russian>
+                <German>Steyr AUGA3 (GL\Green)</German>
+                <Japanese>Steyr AUGA3 (M203/グリーン)</Japanese>
+                <Korean>Steyr AUGA3 (GL\Green)</Korean>
+                <Chinesesimp>Steyr AUGA3 (GL\Green)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3GL_bl">
+                <Original>Steyr AUGA3 (GL\Blue)</Original>
+                <English>Steyr AUGA3 (GL\Blue)</English>
+                <Czech>Steyr AUGA3 (GL\Blue)</Czech>
+                <French>Steyr AUGA3 (LGI\Bleu)</French>
+                <Spanish>Steyr AUGA3 (GL\Blue)</Spanish>
+                <Italian>Steyr AUGA3 (GL\Blue)</Italian>
+                <Polish>Steyr AUGA3 (GL\Blue)</Polish>
+                <Portuguese>Steyr AUGA3 (GL\Blue)</Portuguese>
+                <Russian>Steyr AUGA3 (GL\Blue)</Russian>
+                <German>Steyr AUGA3 (GL\Blue)</German>
+                <Japanese>Steyr AUGA3 (M203/ブルー)</Japanese>
+                <Korean>Steyr AUGA3 (GL\Blue)</Korean>
+                <Chinesesimp>Steyr AUGA3 (GL\Blue)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGA3GL_B">
+                <Original>Steyr AUGA3 (GL\Black)</Original>
+                <English>Steyr AUGA3 (GL\Black)</English>
+                <Czech>Steyr AUGA3 (GL\Black)</Czech>
+                <French>Steyr AUGA3 (LGI\Noir)</French>
+                <Spanish>Steyr AUGA3 (GL\Black)</Spanish>
+                <Italian>Steyr AUGA3 (GL\Black)</Italian>
+                <Polish>Steyr AUGA3 (GL\Black)</Polish>
+                <Portuguese>Steyr AUGA3 (GL\Black)</Portuguese>
+                <Russian>Steyr AUGA3 (GL\Black)</Russian>
+                <German>Steyr AUGA3 (GL\Black)</German>
+                <Japanese>Steyr AUGA3 (M203/ブラック)</Japanese>
+                <Korean>Steyr AUGA3 (GL\Black)</Korean>
+                <Chinesesimp>Steyr AUGA3 (GL\Black)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_30Rnd_556x45_B_AUG">
+                <Original>5.56mm EPR 30Rnd AUG Magazine</Original>
+                <English>5.56mm EPR 30Rnd AUG Magazine</English>
+                <Czech>5.56mm EPR 30Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm EPR</French>
+                <Spanish>5.56mm EPR 30Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm EPR 30Rnd AUG Magazine</Italian>
+                <Polish>5.56mm EPR 30Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm EPR 30Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm EPR 30Rnd AUG Magazine</Russian>
+                <German>5.56mm EPR 30Rnd AUG Magazine</German>
+                <Japanese>5.56mm EPR 30発入り AUG マガジン</Japanese>
+                <Korean>5.56mm EPR 30Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_SOST_AUG">
+                <Original>5.56mm SOST 30Rnd AUG Magazine</Original>
+                <English>5.56mm SOST 30Rnd AUG Magazine</English>
+                <Czech>5.56mm SOST 30Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm SOST</French>
+                <Spanish>5.56mm SOST 30Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm SOST 30Rnd AUG Magazine</Italian>
+                <Polish>5.56mm SOST 30Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm SOST 30Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm SOST 30Rnd AUG Magazine</Russian>
+                <German>5.56mm SOST 30Rnd AUG Magazine</German>
+                <Japanese>5.56mm SOST 30発入り AUG マガジン</Japanese>
+                <Korean>5.56mm SOST 30Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm SOST 30Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_SPR_AUG">
+                <Original>5.56mm SBLR 30Rnd AUG Magazine</Original>
+                <English>5.56mm SBLR 30Rnd AUG Magazine</English>
+                <Czech>5.56mm SBLR 30Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm SBLR</French>
+                <Spanish>5.56mm SBLR 30Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm SBLR 30Rnd AUG Magazine</Italian>
+                <Polish>5.56mm SBLR 30Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm SBLR 30Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm SBLR 30Rnd AUG Magazine</Russian>
+                <German>5.56mm SBLR 30Rnd AUG Magazine</German>
+                <Japanese>5.56mm SBLR 30発入り AUG マガジン</Japanese>
+                <Korean>5.56mm SBLR 30Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm SBLR 30Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_T_AUG">
+                <Original>5.56mm Tracer 30Rnd AUG Magazine</Original>
+                <English>5.56mm Tracer 30Rnd AUG Magazine</English>
+                <Czech>5.56mm Tracer 30Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm Traçante</French>
+                <Spanish>5.56mm Tracer 30Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm Tracer 30Rnd AUG Magazine</Italian>
+                <Polish>5.56mm Tracer 30Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm Tracer 30Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm Tracer 30Rnd AUG Magazine</Russian>
+                <German>5.56mm Tracer 30Rnd AUG Magazine</German>
+                <Japanese>5.56mm 曳光弾 30発入り AUG マガジン</Japanese>
+                <Korean>5.56mm Tracer 30Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm Tracer 30Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_IRDIM_AUG">
+                <Original>5.56mm IR-DIM 30Rnd AUG Magazine</Original>
+                <English>5.56mm IR-DIM 30Rnd AUG Magazine</English>
+                <Czech>5.56mm IR-DIM 30Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm IR-DIM</French>
+                <Spanish>5.56mm IR-DIM 30Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm IR-DIM 30Rnd AUG Magazine</Italian>
+                <Polish>5.56mm IR-DIM 30Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm IR-DIM 30Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm IR-DIM 30Rnd AUG Magazine</Russian>
+                <German>5.56mm IR-DIM 30Rnd AUG Magazine</German>
+                <Japanese>5.56mm IR-DIM 曳光弾 30発入り AUG マガジン</Japanese>
+                <Korean>5.56mm IR-DIM 30Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm IR-DIM 30Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_M_AUG">
+                <Original>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Original>
+                <English>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</English>
+                <Czech>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm EPR (Traçante toutes les 4)</French>
+                <Spanish>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Spanish>
+                <Italian>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Italian>
+                <Polish>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Polish>
+                <Portuguese>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Portuguese>
+                <Russian>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Russian>
+                <German>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</German>
+                <Japanese>5.56mm EPR 30発入り AUG マガジン (4発毎に曳光弾)</Japanese>
+                <Korean>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine (Tracers every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_30Rnd_556x45_MDIM_AUG">
+                <Original>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Original>
+                <English>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</English>
+                <Czech>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Czech>
+                <French>Chargeur AUG 30 Coups Cal 5.56mm EPR (IR-DIM toutes les 4)</French>
+                <Spanish>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Spanish>
+                <Italian>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Italian>
+                <Polish>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Polish>
+                <Portuguese>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Portuguese>
+                <Russian>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Russian>
+                <German>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</German>
+                <Japanese>5.56mm EPR 30発入り AUG マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_B_AUG">
+                <Original>5.56mm EPR 42Rnd AUG Magazine</Original>
+                <English>5.56mm EPR 42Rnd AUG Magazine</English>
+                <Czech>5.56mm EPR 42Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm EPR</French>
+                <Spanish>5.56mm EPR 42Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm EPR 42Rnd AUG Magazine</Italian>
+                <Polish>5.56mm EPR 42Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm EPR 42Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm EPR 42Rnd AUG Magazine</Russian>
+                <German>5.56mm EPR 42Rnd AUG Magazine</German>
+                <Japanese>5.56mm EPR 42発入り AUG マガジン</Japanese>
+                <Korean>5.56mm EPR 42Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_SOST_AUG">
+                <Original>5.56mm SOST 42Rnd AUG Magazine</Original>
+                <English>5.56mm SOST 42Rnd AUG Magazine</English>
+                <Czech>5.56mm SOST 42Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm SOST</French>
+                <Spanish>5.56mm SOST 42Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm SOST 42Rnd AUG Magazine</Italian>
+                <Polish>5.56mm SOST 42Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm SOST 42Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm SOST 42Rnd AUG Magazine</Russian>
+                <German>5.56mm SOST 42Rnd AUG Magazine</German>
+                <Japanese>5.56mm SOST 42発入り AUG マガジン</Japanese>
+                <Korean>5.56mm SOST 42Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm SOST 42Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_SPR_AUG">
+                <Original>5.56mm SBLR 42Rnd AUG Magazine</Original>
+                <English>5.56mm SBLR 42Rnd AUG Magazine</English>
+                <Czech>5.56mm SBLR 42Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm SBLR</French>
+                <Spanish>5.56mm SBLR 42Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm SBLR 42Rnd AUG Magazine</Italian>
+                <Polish>5.56mm SBLR 42Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm SBLR 42Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm SBLR 42Rnd AUG Magazine</Russian>
+                <German>5.56mm SBLR 42Rnd AUG Magazine</German>
+                <Japanese>5.56mm SBLR 42発入り AUG マガジン</Japanese>
+                <Korean>5.56mm SBLR 42Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm SBLR 42Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_T_AUG">
+                <Original>5.56mm Tracer 42Rnd AUG Magazine</Original>
+                <English>5.56mm Tracer 42Rnd AUG Magazine</English>
+                <Czech>5.56mm Tracer 42Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm Traçante</French>
+                <Spanish>5.56mm Tracer 42Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm Tracer 42Rnd AUG Magazine</Italian>
+                <Polish>5.56mm Tracer 42Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm Tracer 42Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm Tracer 42Rnd AUG Magazine</Russian>
+                <German>5.56mm Tracer 42Rnd AUG Magazine</German>
+                <Japanese>5.56mm 曳光弾 42発入り AUG マガジン</Japanese>
+                <Korean>5.56mm Tracer 42Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm Tracer 42Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_IRDIM_AUG">
+                <Original>5.56mm IR-DIM 42Rnd AUG Magazine</Original>
+                <English>5.56mm IR-DIM 42Rnd AUG Magazine</English>
+                <Czech>5.56mm IR-DIM 42Rnd AUG Magazine</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm IR-DIM</French>
+                <Spanish>5.56mm IR-DIM 42Rnd AUG Magazine</Spanish>
+                <Italian>5.56mm IR-DIM 42Rnd AUG Magazine</Italian>
+                <Polish>5.56mm IR-DIM 42Rnd AUG Magazine</Polish>
+                <Portuguese>5.56mm IR-DIM 42Rnd AUG Magazine</Portuguese>
+                <Russian>5.56mm IR-DIM 42Rnd AUG Magazine</Russian>
+                <German>5.56mm IR-DIM 42Rnd AUG Magazine</German>
+                <Japanese>5.56mm IR-DIM 42発入り AUG マガジン</Japanese>
+                <Korean>5.56mm IR-DIM 42Rnd AUG Magazine</Korean>
+                <Chinesesimp>5.56mm IR-DIM 42Rnd AUG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_M_AUG">
+                <Original>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Original>
+                <English>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</English>
+                <Czech>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm EPR (Traçante toutes les 4)</French>
+                <Spanish>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Spanish>
+                <Italian>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Italian>
+                <Polish>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Polish>
+                <Portuguese>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Portuguese>
+                <Russian>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Russian>
+                <German>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</German>
+                <Japanese>5.56mm EPR 42発入り AUG マガジン (4発毎に曳光弾)</Japanese>
+                <Korean>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine (Tracers every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_42Rnd_556x45_MDIM_AUG">
+                <Original>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Original>
+                <English>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</English>
+                <Czech>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Czech>
+                <French>Chargeur AUG 42 Coups Cal 5.56mm EPR (IR-DIM toutes les 4)</French>
+                <Spanish>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Spanish>
+                <Italian>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Italian>
+                <Polish>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Polish>
+                <Portuguese>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Portuguese>
+                <Russian>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Russian>
+                <German>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</German>
+                <Japanese>5.56mm EPR 42発入り AUG マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Korean>
+                <Chinesesimp>5.56mm EPR 42Rnd AUG Magazine (IR-DIM every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_25Rnd_9x19mm_M882_AUG">
+                <Original>9mm FMJ 25Rnd AUG SMG Magazine</Original>
+                <English>9mm FMJ 25Rnd AUG SMG Magazine</English>
+                <Czech>9mm FMJ 25Rnd AUG SMG Magazine</Czech>
+                <French>Chargeur AUG PM 25 Coups Cal 9mm FMJ</French>
+                <Spanish>9mm FMJ 25Rnd AUG SMG Magazine</Spanish>
+                <Italian>9mm FMJ 25Rnd AUG SMG Magazine</Italian>
+                <Polish>9mm FMJ 25Rnd AUG SMG Magazine</Polish>
+                <Portuguese>9mm FMJ 25Rnd AUG SMG Magazine</Portuguese>
+                <Russian>9mm FMJ 25Rnd AUG SMG Magazine</Russian>
+                <German>9mm FMJ 25Rnd AUG SMG Magazine</German>
+                <Japanese>9mm FMJ 25発入り AUG SMG マガジン</Japanese>
+                <Korean>9mm FMJ 25Rnd AUG SMG Magazine</Korean>
+                <Chinesesimp>9mm FMJ 25Rnd AUG SMG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_25Rnd_9x19mm_JHP_AUG">
+                <Original>9mm JHP 25Rnd AUG SMG Magazine</Original>
+                <English>9mm JHP 25Rnd AUG SMG Magazine</English>
+                <Czech>9mm JHP 25Rnd AUG SMG Magazine</Czech>
+                <French>Chargeur AUG PM 25 Coups Cal 9mm JHP</French>
+                <Spanish>9mm JHP 25Rnd AUG SMG Magazine</Spanish>
+                <Italian>9mm JHP 25Rnd AUG SMG Magazine</Italian>
+                <Polish>9mm JHP 25Rnd AUG SMG Magazine</Polish>
+                <Portuguese>9mm JHP 25Rnd AUG SMG Magazine</Portuguese>
+                <Russian>9mm JHP 25Rnd AUG SMG Magazine</Russian>
+                <German>9mm JHP 25Rnd AUG SMG Magazine</German>
+                <Japanese>9mm JHP 25発入り AUG SMG マガジン</Japanese>
+                <Korean>9mm JHP 25Rnd AUG SMG Magazine</Korean>
+                <Chinesesimp>9mm JHP 25Rnd AUG SMG Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_25Rnd_9x19mm_Subsonic_AUG">
+                <Original>9mm Subsonic 25Rnd AUG SMG Magazine</Original>
+                <English>9mm Subsonic 25Rnd AUG SMG Magazine</English>
+                <Czech>9mm Subsonic 25Rnd AUG SMG Magazine</Czech>
+                <French>Chargeur AUG PM 25 Coups Cal 9mm Subsonique</French>
+                <Spanish>9mm Subsonic 25Rnd AUG SMG Magazine</Spanish>
+                <Italian>9mm Subsonic 25Rnd AUG SMG Magazine</Italian>
+                <Polish>9mm Subsonic 25Rnd AUG SMG Magazine</Polish>
+                <Portuguese>9mm Subsonic 25Rnd AUG SMG Magazine</Portuguese>
+                <Russian>9mm Subsonic 25Rnd AUG SMG Magazine</Russian>
+                <German>9mm Subsonic 25Rnd AUG SMG Magazine</German>
+                <Japanese>9mm 亜音速 25発入り AUG SMG マガジン</Japanese>
+                <Korean>9mm Subsonic 25Rnd AUG SMG Magazine</Korean>
+                <Chinesesimp>9mm Subsonic 25Rnd AUG SMG Magazine</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Acc_names">
+            <Key ID="STR_NIA_barrel_agenda6">
+                <Original>"AWC Agenda Six (AUG-9mm)"</Original>
+                <English>AWC Agenda Six (AUG-9mm)</English>
+                <Czech>AWC Agenda Six (AUG-9mm)</Czech>
+                <French>AWC Agenda Six (AUG-9mm)</French>
+                <Spanish>AWC Agenda Six (AUG-9mm)</Spanish>
+                <Italian>AWC Agenda Six (AUG-9mm)</Italian>
+                <Polish>AWC Agenda Six (AUG-9mm)</Polish>
+                <Portuguese>AWC Agenda Six (AUG-9mm)</Portuguese>
+                <Russian>AWC Agenda Six (AUG-9mm)</Russian>
+                <German>AWC Agenda Six (AUG-9mm)</German>
+                <Japanese>AWC Agenda Six (AUG-9mm)</Japanese>
+                <Korean>AWC Agenda Six (AUG-9mm)</Korean>
+                <Chinesesimp>AWC Agenda Six (AUG-9mm)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_standard">
+                <Original>AUG Barrel (Standard)</Original>
+                <English>AUG Barrel (Standard)</English>
+                <Czech>AUG Barrel (Standard)</Czech>
+                <French>Canon AUG (Standard)</French>
+                <Spanish>AUG Barrel (Standard)</Spanish>
+                <Italian>AUG Barrel (Standard)</Italian>
+                <Polish>AUG Barrel (Standard)</Polish>
+                <Portuguese>AUG Barrel (Standard)</Portuguese>
+                <Russian>AUG Barrel (Standard)</Russian>
+                <German>AUG Barrel (Standard)</German>
+                <Japanese>AUG バレル (通常)</Japanese>
+                <Korean>AUG Barrel (Standard)</Korean>
+                <Chinesesimp>AUG Barrel (Standard)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_carbine">
+                <Original>AUG Barrel (Carbine)</Original>
+                <English>AUG Barrel (Carbine)</English>
+                <Czech>AUG Barrel (Carbine)</Czech>
+                <French>Canon AUG (Carabine)</French>
+                <Spanish>AUG Barrel (Carbine)</Spanish>
+                <Italian>AUG Barrel (Carbine)</Italian>
+                <Polish>AUG Barrel (Carbine)</Polish>
+                <Portuguese>AUG Barrel (Carbine)</Portuguese>
+                <Russian>AUG Barrel (Carbine)</Russian>
+                <German>AUG Barrel (Carbine)</German>
+                <Japanese>AUG バレル (カービン)</Japanese>
+                <Korean>AUG Barrel (Carbine)</Korean>
+                <Chinesesimp>AUG Barrel (Carbine)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_hbar">
+                <Original>AUG Barrel (HBAR)</Original>
+                <English>AUG Barrel (HBAR)</English>
+                <Czech>AUG Barrel (HBAR)</Czech>
+                <French>Canon AUG (HBAR)</French>
+                <Spanish>AUG Barrel (HBAR)</Spanish>
+                <Italian>AUG Barrel (HBAR)</Italian>
+                <Polish>AUG Barrel (HBAR)</Polish>
+                <Portuguese>AUG Barrel (HBAR)</Portuguese>
+                <Russian>AUG Barrel (HBAR)</Russian>
+                <German>AUG Barrel (HBAR)</German>
+                <Japanese>AUG バレル (HBAR)</Japanese>
+                <Korean>AUG Barrel (HBAR)</Korean>
+                <Chinesesimp>AUG Barrel (HBAR)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_9mm">
+                <Original>AUG 9mm Caliber Kit</Original>
+                <English>AUG 9mm Caliber Kit</English>
+                <Czech>AUG 9mm Caliber Kit</Czech>
+                <French>AUG Kit Calibre 9mm</French>
+                <Spanish>AUG 9mm Caliber Kit</Spanish>
+                <Italian>AUG 9mm Caliber Kit</Italian>
+                <Polish>AUG 9mm Caliber Kit</Polish>
+                <Portuguese>AUG 9mm Caliber Kit</Portuguese>
+                <Russian>AUG 9mm Caliber Kit</Russian>
+                <German>AUG 9mm Caliber Kit</German>
+                <Japanese>AUG 9mm カービン化キット</Japanese>
+                <Korean>AUG 9mm Caliber Kit</Korean>
+                <Chinesesimp>AUG 9mm Caliber Kit</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_AUG_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_Carbine_DESC">
+                <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Carabine d'Infanterie&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>インファントリー カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUG_HBAR_DESC">
+                <Original>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Mitrailleuse Légère&lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>軽支援火器&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>Light Support Weapon&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_AUGPAra_DESC">
+                <Original>SMG&lt;br/&gt;Caliber:9x19mm</Original>
+                <English>SMG&lt;br/&gt;Caliber:9x19mm</English>
+                <Czech>SMG&lt;br/&gt;Caliber:9x19mm</Czech>
+                <French>PM&lt;br/&gt;Calibre:9x19mm</French>
+                <Spanish>SMG&lt;br/&gt;Caliber:9x19mm</Spanish>
+                <Italian>SMG&lt;br/&gt;Caliber:9x19mm</Italian>
+                <Polish>SMG&lt;br/&gt;Caliber:9x19mm</Polish>
+                <Portuguese>SMG&lt;br/&gt;Caliber:9x19mm</Portuguese>
+                <Russian>SMG&lt;br/&gt;Caliber:9x19mm</Russian>
+                <German>SMG&lt;br/&gt;Caliber:9x19mm</German>
+                <Japanese>短機関銃&lt;br/&gt;口径: 9x19mm</Japanese>
+                <Korean>SMG&lt;br/&gt;Caliber:9x19mm</Korean>
+                <Chinesesimp>SMG&lt;br/&gt;Caliber:9x19mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_standard_DESC">
+                <Original>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Canon de 20" à Attache Rapide pour Steyr AUG &lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>Steyr AUG用 20" 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>20" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_carbine_DESC">
+                <Original>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Canon de 16" à Attache Rapide pour Steyr AUG &lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>Steyr AUG用 16" 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>16" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_HBAR_DESC">
+                <Original>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Original>
+                <English>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</English>
+                <Czech>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Czech>
+                <French>Canon de 24" à Attache Rapide pour Steyr AUG &lt;br/&gt;Calibre:5.56mm OTAN</French>
+                <Spanish>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+                <Italian>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Italian>
+                <Polish>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Polish>
+                <Portuguese>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+                <Russian>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Russian>
+                <German>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</German>
+                <Japanese>Steyr AUG用 24" 脱着式バレル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
+                <Korean>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Korean>
+                <Chinesesimp>24" Quick-Detach Barrel for Steyr AUG &lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_barrel_9mm_DESC">
+                <Original>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Original>
+                <English>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</English>
+                <Czech>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Czech>
+                <French>Kit de Conversion 9mm pour Steyr AUG &lt;br/&gt;Calibre:9x19mm</French>
+                <Spanish>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Spanish>
+                <Italian>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Italian>
+                <Polish>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Polish>
+                <Portuguese>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Portuguese>
+                <Russian>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Russian>
+                <German>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</German>
+                <Japanese>Steyr AUG用 9mm コンバージョン キット &lt;br/&gt;口径: 9x19mm</Japanese>
+                <Korean>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Korean>
+                <Chinesesimp>9mm Caliber Conversion Kit for Steyr AUG &lt;br/&gt;Caliber:9x19mm</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_B_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR&lt;br/&gt;Type: Balle Chemisée avec Pénétrateur Exposé (Balle à Pénétration Améliorée)&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_SOST_AUG">
+                <Original>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN Mk318 Mod 1 SOST&lt;br/&gt;Type: Balle Chemisée avec Placage en Nickel (SOST)&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_SPR_AUG">
+                <Original>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Balle Spéciale Longue Portée)&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_T_AUG">
+                <Original>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN M856A1 Traçante&lt;br/&gt;Type: Pointe Incendiaire Traçante&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_irdim_AUG">
+                <Original>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN Traçante IR-DIM&lt;br/&gt;Type: Traçante à Faible Luminosité&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_M_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR/M856A1 Traçanter&lt;br/&gt;Type: Balle à Pénétration Améliorée/Pointe Incendiaire Traçante&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_30Rnd_556x45_Mdim_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR/IR-DIM Traçante&lt;br/&gt;Type: Balle à Pénétration Améliorée/Traçante à Faible Luminosité&lt;br/&gt;Coups: 30</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 30</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 30</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_B_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR&lt;br/&gt;Type: Balle Chemisée avec Pénétrateur Exposé (Balle à Pénétration Améliorée)&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;種類: 矢尻型フル メタル ジャケット露頭貫通弾芯 (エンハンスド パフォーマンス ラウンド)&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR&lt;br/&gt;Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_SOST_AUG">
+                <Original>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN Mk318 Mod 1 SOST&lt;br/&gt;Type: Balle Chemisée avec Placage en Nickel (SOST)&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;種類: ニッケル合金矢尻型フル メタル ジャケット貫通弾芯 (スペシャル オペレーション サイエンス アンド テクノロジー)&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST&lt;br/&gt;Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_SPR_AUG">
+                <Original>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Balle Spéciale Longue Portée)&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;種類: 中空弾頭 (スペシャル ボール ロング レンジ)&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR&lt;br/&gt;Type: Open Tip Match (Special Ball Long Range)&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_T_AUG">
+                <Original>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN M856A1 Traçante&lt;br/&gt;Type: Pointe Incendiaire Traçante&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO M856A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M856A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_irdim_AUG">
+                <Original>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN Traçante IR-DIM&lt;br/&gt;Type: Traçante à Faible Luminosité&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_M_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR/M856A1 Traçante&lt;br/&gt;Type: Balle à Pénétration Améliorée/Pointe Incendiaire Traçante&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/燃焼曳光弾&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/M856A1 Tracer&lt;br/&gt;Type: Enhanced Performance Round/Incendiary-tip Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_42Rnd_556x45_Mdim_AUG">
+                <Original>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Original>
+                <English>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</English>
+                <Czech>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Czech>
+                <French>Calibre: 5.56x45mm OTAN M855A1 EPR/IR-DIM Traçante&lt;br/&gt;Type: Balle à Pénétration Améliorée/Traçante à Faible Luminosité&lt;br/&gt;Coups: 42</French>
+                <Spanish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Spanish>
+                <Italian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Italian>
+                <Polish>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Polish>
+                <Portuguese>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Portuguese>
+                <Russian>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Russian>
+                <German>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</German>
+                <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 42</Japanese>
+                <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Korean>
+                <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 42</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_25Rnd_9x19mm_M882_AUG">
+                <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Original>
+                <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</English>
+                <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Czech>
+                <French>Calibre: 9x19mm M882 Ball&lt;br/&gt;Type: Balle Chemisée&lt;br/&gt;Coups: 25</French>
+                <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Spanish>
+                <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Italian>
+                <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Polish>
+                <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Portuguese>
+                <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Russian>
+                <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</German>
+                <Japanese>口径: 9x19mm M882 弾丸&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 25</Japanese>
+                <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Korean>
+                <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_25Rnd_9x19mm_JHP_AUG">
+                <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Original>
+                <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</English>
+                <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Czech>
+                <French>Calibre: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Balle à Pointe Creuse Chemisée (Winchester USA9JHP2)&lt;br/&gt;Coups: 25</French>
+                <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Spanish>
+                <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Italian>
+                <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Polish>
+                <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Portuguese>
+                <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Russian>
+                <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</German>
+                <Japanese>口径: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;種類: ジャケット ホロー ポイント (Winchester USA9JHP2)&lt;br/&gt;弾数: 25</Japanese>
+                <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Korean>
+                <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 25</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_25Rnd_9x19mm_subsonic_AUG">
+                <Original>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Original>
+                <English>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</English>
+                <Czech>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Czech>
+                <French>Calibre: 9x19mm Subsonique FMJ&lt;br/&gt;Type: Balle Chemisée Subsonique&lt;br/&gt;Coups: 25</French>
+                <Spanish>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Spanish>
+                <Italian>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Italian>
+                <Polish>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Polish>
+                <Portuguese>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Portuguese>
+                <Russian>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Russian>
+                <German>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</German>
+                <Japanese>口径: 9x19mm 亜音速 FMJ&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 25</Japanese>
+                <Korean>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Korean>
+                <Chinesesimp>Caliber: 9x19mm Subsonic FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 25</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>

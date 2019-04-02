@@ -1,448 +1,448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_AWM">
-    <Container name="Names">
-      <Key ID="STR_NIA_rifle_AWC_OD">
-        <Original>AI AWC-M (OD)</Original>
-        <English>AI AWC-M (OD)</English>
-        <Czech>AI AWC-M (OD)</Czech>
-        <French>AI AWC-M (OD)</French>
-        <Spanish>AI AWC-M (OD)</Spanish>
-        <Italian>AI AWC-M (OD)</Italian>
-        <Polish>AI AWC-M (OD)</Polish>
-        <Portuguese>AI AWC-M (OD)</Portuguese>
-        <Russian>AI AWC-M (OD)</Russian>
-        <German>AI AWC-M (OD)</German>
-        <Japanese>AI AWC-M (OD)</Japanese>
-        <Korean>AI AWC-M (OD)</Korean>
-        <Chinesesimp>AI AWC-M (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWC_BLack">
-        <Original>AI AWC-M (Black)</Original>
-        <English>AI AWC-M (Black)</English>
-        <Czech>AI AWC-M (Black)</Czech>
-        <French>AI AWC-M (Black)</French>
-        <Spanish>AI AWC-M (Black)</Spanish>
-        <Italian>AI AWC-M (Black)</Italian>
-        <Polish>AI AWC-M (Black)</Polish>
-        <Portuguese>AI AWC-M (Black)</Portuguese>
-        <Russian>AI AWC-M (Black)</Russian>
-        <German>AI AWC-M (Black)</German>
-        <Japanese>AI AWC-M (ブラック)</Japanese>
-        <Korean>AI AWC-M (Black)</Korean>
-        <Chinesesimp>AI AWC-M (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWC_FDE">
-        <Original>AI AWC-M (FDE)</Original>
-        <English>AI AWC-M (FDE)</English>
-        <Czech>AI AWC-M (FDE)</Czech>
-        <French>AI AWC-M (FDE)</French>
-        <Spanish>AI AWC-M (FDE)</Spanish>
-        <Italian>AI AWC-M (FDE)</Italian>
-        <Polish>AI AWC-M (FDE)</Polish>
-        <Portuguese>AI AWC-M (FDE)</Portuguese>
-        <Russian>AI AWC-M (FDE)</Russian>
-        <German>AI AWC-M (FDE)</German>
-        <Japanese>AI AWC-M (FDE)</Japanese>
-        <Korean>AI AWC-M (FDE)</Korean>
-        <Chinesesimp>AI AWC-M (FDE)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_OD">
-        <Original>AI AWM (OD)</Original>
-        <English>AI AWM (OD)</English>
-        <Czech>AI AWM (OD)</Czech>
-        <French>AI AWM (OD)</French>
-        <Spanish>AI AWM (OD)</Spanish>
-        <Italian>AI AWM (OD)</Italian>
-        <Polish>AI AWM (OD)</Polish>
-        <Portuguese>AI AWM (OD)</Portuguese>
-        <Russian>AI AWM (OD)</Russian>
-        <German>AI AWM (OD)</German>
-        <Japanese>AI AWM (OD)</Japanese>
-        <Korean>AI AWM (OD)</Korean>
-        <Chinesesimp>AI AWM (OD)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_Black">
-        <Original>AI AWM (Black)</Original>
-        <English>AI AWM (Black)</English>
-        <Czech>AI AWM (Black)</Czech>
-        <French>AI AWM (Black)</French>
-        <Spanish>AI AWM (Black)</Spanish>
-        <Italian>AI AWM (Black)</Italian>
-        <Polish>AI AWM (Black)</Polish>
-        <Portuguese>AI AWM (Black)</Portuguese>
-        <Russian>AI AWM (Black)</Russian>
-        <German>AI AWM (Black)</German>
-        <Japanese>AI AWM (ブラック)</Japanese>
-        <Korean>AI AWM (Black)</Korean>
-        <Chinesesimp>AI AWM (Black)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_FDE">
-        <Original>AI AWM (FDE)</Original>
-        <English>AI AWM (FDE)</English>
-        <Czech>AI AWM (FDE)</Czech>
-        <French>AI AWM (FDE)</French>
-        <Spanish>AI AWM (FDE)</Spanish>
-        <Italian>AI AWM (FDE)</Italian>
-        <Polish>AI AWM (FDE)</Polish>
-        <Portuguese>AI AWM (FDE)</Portuguese>
-        <Russian>AI AWM (FDE)</Russian>
-        <German>AI AWM (FDE)</German>
-        <Japanese>AI AWM (FDE)</Japanese>
-        <Korean>AI AWM (FDE)</Korean>
-        <Chinesesimp>AI AWM (FDE)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_OD_Ghillie">
-        <Original>AI AWM (OD/Ghillie)</Original>
-        <English>AI AWM (OD/Ghillie)</English>
-        <Czech>AI AWM (OD/Ghillie)</Czech>
-        <French>AI AWM (OD/Ghillie)</French>
-        <Spanish>AI AWM (OD/Ghillie)</Spanish>
-        <Italian>AI AWM (OD/Ghillie)</Italian>
-        <Polish>AI AWM (OD/Ghillie)</Polish>
-        <Portuguese>AI AWM (OD/Ghillie)</Portuguese>
-        <Russian>AI AWM (OD/Ghillie)</Russian>
-        <German>AI AWM (OD/Ghillie)</German>
-        <Japanese>AI AWM (OD/ギリー)</Japanese>
-        <Korean>AI AWM (OD/Ghillie)</Korean>
-        <Chinesesimp>AI AWM (OD/Ghillie)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_FDE_Ghillie">
-        <Original>AI AWM (FDE/Ghillie)</Original>
-        <English>AI AWM (FDE/Ghillie)</English>
-        <Czech>AI AWM (FDE/Ghillie)</Czech>
-        <French>AI AWM (FDE/Ghillie)</French>
-        <Spanish>AI AWM (FDE/Ghillie)</Spanish>
-        <Italian>AI AWM (FDE/Ghillie)</Italian>
-        <Polish>AI AWM (FDE/Ghillie)</Polish>
-        <Portuguese>AI AWM (FDE/Ghillie)</Portuguese>
-        <Russian>AI AWM (FDE/Ghillie)</Russian>
-        <German>AI AWM (FDE/Ghillie)</German>
-        <Japanese>AI AWM (FDE/ギリー)</Japanese>
-        <Korean>AI AWM (FDE/Ghillie)</Korean>
-        <Chinesesimp>AI AWM (FDE/Ghillie)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_AWM_Black_Ghillie">
-        <Original>AI AWM (Black/Ghillie)</Original>
-        <English>AI AWM (Black/Ghillie)</English>
-        <Czech>AI AWM (Black/Ghillie)</Czech>
-        <French>AI AWM (Black/Ghillie)</French>
-        <Spanish>AI AWM (Black/Ghillie)</Spanish>
-        <Italian>AI AWM (Black/Ghillie)</Italian>
-        <Polish>AI AWM (Black/Ghillie)</Polish>
-        <Portuguese>AI AWM (Black/Ghillie)</Portuguese>
-        <Russian>AI AWM (Black/Ghillie)</Russian>
-        <German>AI AWM (Black/Ghillie)</German>
-        <Japanese>AI AWM (Black/ギリー)</Japanese>
-        <Korean>AI AWM (Black/Ghillie)</Korean>
-        <Chinesesimp>AI AWM (Black/Ghillie)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_5rnd_300WM_FMJ_AWM">
-        <Original>.300WM FMJ 5Rnd AWM Magazine</Original>
-        <English>.300WM FMJ 5Rnd AWM Magazine</English>
-        <Czech>.300WM FMJ 5Rnd AWM Magazine</Czech>
-        <French>.300WM FMJ 5Rnd AWM Magazine</French>
-        <Spanish>.300WM FMJ 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM FMJ 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM FMJ 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM FMJ 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM FMJ 5Rnd AWM Magazine</Russian>
-        <German>.300WM FMJ 5Rnd AWM Magazine</German>
-        <Japanese>.300WM FMJ 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM FMJ 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM FMJ 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_300WM_AP_AWM">
-        <Original>.300WM AP 5Rnd AWM Magazine</Original>
-        <English>.300WM AP 5Rnd AWM Magazine</English>
-        <Czech>.300WM AP 5Rnd AWM Magazine</Czech>
-        <French>.300WM AP 5Rnd AWM Magazine</French>
-        <Spanish>.300WM AP 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM AP 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM AP 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM AP 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM AP 5Rnd AWM Magazine</Russian>
-        <German>.300WM AP 5Rnd AWM Magazine</German>
-        <Japanese>.300WM AP 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM AP 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM AP 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_300WM_T_AWM">
-        <Original>.300WM Tracer 5Rnd AWM Magazine</Original>
-        <English>.300WM Tracer 5Rnd AWM Magazine</English>
-        <Czech>.300WM Tracer 5Rnd AWM Magazine</Czech>
-        <French>.300WM Tracer 5Rnd AWM Magazine</French>
-        <Spanish>.300WM Tracer 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM Tracer 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM Tracer 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM Tracer 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM Tracer 5Rnd AWM Magazine</Russian>
-        <German>.300WM Tracer 5Rnd AWM Magazine</German>
-        <Japanese>.300WM 曳光弾 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM Tracer 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM Tracer 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_300WM_BTSP_AWM">
-        <Original>.300WM A191 5Rnd AWM Magazine</Original>
-        <English>.300WM A191 5Rnd AWM Magazine</English>
-        <Czech>.300WM A191 5Rnd AWM Magazine</Czech>
-        <French>.300WM A191 5Rnd AWM Magazine</French>
-        <Spanish>.300WM A191 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM A191 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM A191 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM A191 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM A191 5Rnd AWM Magazine</Russian>
-        <German>.300WM A191 5Rnd AWM Magazine</German>
-        <Japanese>.300WM A191 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM A191 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM A191 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_300WM_mk248_AWM">
-        <Original>.300WM Mk248 Mod1 5Rnd AWM Magazine</Original>
-        <English>.300WM Mk248 Mod1 5Rnd AWM Magazine</English>
-        <Czech>.300WM Mk248 Mod1 5Rnd AWM Magazine</Czech>
-        <French>.300WM Mk248 Mod1 5Rnd AWM Magazine</French>
-        <Spanish>.300WM Mk248 Mod1 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM Mk248 Mod1 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM Mk248 Mod1 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM Mk248 Mod1 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM Mk248 Mod1 5Rnd AWM Magazine</Russian>
-        <German>.300WM Mk248 Mod1 5Rnd AWM Magazine</German>
-        <Japanese>.300WM Mk248 Mod1 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM Mk248 Mod1 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM Mk248 Mod1 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_5rnd_300WM_sbt_AWM">
-        <Original>.300WM Subsonic 5Rnd AWM Magazine</Original>
-        <English>.300WM Subsonic 5Rnd AWM Magazine</English>
-        <Czech>.300WM Subsonic 5Rnd AWM Magazine</Czech>
-        <French>.300WM Subsonic 5Rnd AWM Magazine</French>
-        <Spanish>.300WM Subsonic 5Rnd AWM Magazine</Spanish>
-        <Italian>.300WM Subsonic 5Rnd AWM Magazine</Italian>
-        <Polish>.300WM Subsonic 5Rnd AWM Magazine</Polish>
-        <Portuguese>.300WM Subsonic 5Rnd AWM Magazine</Portuguese>
-        <Russian>.300WM Subsonic 5Rnd AWM Magazine</Russian>
-        <German>.300WM Subsonic 5Rnd AWM Magazine</German>
-        <Japanese>.300WM 亜音速 5発入り AWM マガジン</Japanese>
-        <Korean>.300WM Subsonic 5Rnd AWM Magazine</Korean>
-        <Chinesesimp>.300WM Subsonic 5Rnd AWM Magazine</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_AWM_DESC">
-        <Original>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Original>
-        <English>Precision Rifle&lt;br/&gt;Caliber:.300 WM</English>
-        <Czech>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Czech>
-        <French>Precision Rifle&lt;br/&gt;Caliber:.300 WM</French>
-        <Spanish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
-        <Italian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
-        <Polish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
-        <Portuguese>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
-        <Russian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
-        <German>Precision Rifle&lt;br/&gt;Caliber:.300 WM</German>
-        <Japanese>高精度ライフル&lt;br/&gt;口径: .300 WM</Japanese>
-        <Korean>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
-        <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_awcm_Carbine_DESC">
-        <Original>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Original>
-        <English>Covert Rifle&lt;br/&gt;Caliber:.300 WM</English>
-        <Czech>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Czech>
-        <French>Covert Rifle&lt;br/&gt;Caliber:.300 WM</French>
-        <Spanish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
-        <Italian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
-        <Polish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
-        <Portuguese>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
-        <Russian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
-        <German>Covert Rifle&lt;br/&gt;Caliber:.300 WM</German>
-        <Japanese>隠密ライフル&lt;br/&gt;口径: .300 WM</Japanese>
-        <Korean>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
-        <Chinesesimp>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_FMJ_AWM">
-        <Original>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: .300 Win Mag FMJ&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_AP_AWM">
-        <Original>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: .300 Win Mag AP&lt;br/&gt;種類: MEN DM131- タングステン弾芯、銅鋼ジャケット徹甲弾&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_T_AWM">
-        <Original>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: .300 Win Mag 再装弾 M62A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_btsp_AWM">
-        <Original>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: .300 Win Mag A191 FMJBT&lt;br/&gt;種類: Sierra Match King を 190 gr 入り (船尾形弾尾 FMJ)&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_mk248_AWM">
-        <Original>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Original>
-        <English>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</English>
-        <Czech>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Czech>
-        <French>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</French>
-        <Spanish>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Spanish>
-        <Italian>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Italian>
-        <Polish>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Polish>
-        <Portuguese>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Portuguese>
-        <Russian>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Russian>
-        <German>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</German>
-        <Japanese>口径: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;種類: Sierra Match King を 190 gr 入り (船尾形弾尾ホロー ポイント)&lt;br/&gt;弾数: 5</Japanese>
-        <Korean>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_DESC_5rnd_300WM_sub_AWM">
-        <Original>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Original>
-        <English>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</English>
-        <Czech>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Czech>
-        <French>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</French>
-        <Spanish>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Spanish>
-        <Italian>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Italian>
-        <Polish>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Polish>
-        <Portuguese>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Portuguese>
-        <Russian>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Russian>
-        <German>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</German>
-        <Japanese>口径: .300 Win Mag 亜音速 弾丸&lt;br/&gt;種類: 鉛弾芯へ置き換え加締め&lt;br/&gt;弾数: 5 &lt;br/&gt; 現実世界で使用者が .300WM の装弾をする事は危険です。試さないで下さい。</Japanese>
-        <Korean>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Korean>
-        <Chinesesimp>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Mag_DisplayShort">
-      <Key ID="STR_NIA_300WM_FMJ">
-        <Original>FMJ</Original>
-        <English>FMJ</English>
-        <Czech>FMJ</Czech>
-        <French>FMJ</French>
-        <Spanish>FMJ</Spanish>
-        <Italian>FMJ</Italian>
-        <Polish>FMJ</Polish>
-        <Portuguese>FMJ</Portuguese>
-        <Russian>FMJ</Russian>
-        <German>FMJ</German>
-        <Japanese>FMJ</Japanese>
-        <Korean>FMJ</Korean>
-        <Chinesesimp>FMJ</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_300WM_AP">
-        <Original>AP</Original>
-        <English>AP</English>
-        <Czech>AP</Czech>
-        <French>AP</French>
-        <Spanish>AP</Spanish>
-        <Italian>AP</Italian>
-        <Polish>AP</Polish>
-        <Portuguese>AP</Portuguese>
-        <Russian>AP</Russian>
-        <German>AP</German>
-        <Japanese>AP</Japanese>
-        <Korean>AP</Korean>
-        <Chinesesimp>AP</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_300WM_BTSP">
-        <Original>A191 FMJBT</Original>
-        <English>A191 FMJBT</English>
-        <Czech>A191 FMJBT</Czech>
-        <French>A191 FMJBT</French>
-        <Spanish>A191 FMJBT</Spanish>
-        <Italian>A191 FMJBT</Italian>
-        <Polish>A191 FMJBT</Polish>
-        <Portuguese>A191 FMJBT</Portuguese>
-        <Russian>A191 FMJBT</Russian>
-        <German>A191 FMJBT</German>
-        <Japanese>A191 FMJBT</Japanese>
-        <Korean>A191 FMJBT</Korean>
-        <Chinesesimp>A191 FMJBT</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_300WM_mk248">
-        <Original>Mk248 Mod1 EPR</Original>
-        <English>Mk248 Mod1 EPR</English>
-        <Czech>Mk248 Mod1 EPR</Czech>
-        <French>Mk248 Mod1 EPR</French>
-        <Spanish>Mk248 Mod1 EPR</Spanish>
-        <Italian>Mk248 Mod1 EPR</Italian>
-        <Polish>Mk248 Mod1 EPR</Polish>
-        <Portuguese>Mk248 Mod1 EPR</Portuguese>
-        <Russian>Mk248 Mod1 EPR</Russian>
-        <German>Mk248 Mod1 EPR</German>
-        <Japanese>Mk248 Mod1 EPR</Japanese>
-        <Korean>Mk248 Mod1 EPR</Korean>
-        <Chinesesimp>Mk248 Mod1 EPR</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_300WM_T">
-        <Original>Tracer</Original>
-        <English>Tracer</English>
-        <Czech>Tracer</Czech>
-        <French>Tracer</French>
-        <Spanish>Tracer</Spanish>
-        <Italian>Tracer</Italian>
-        <Polish>Tracer</Polish>
-        <Portuguese>Tracer</Portuguese>
-        <Russian>Tracer</Russian>
-        <German>Tracer</German>
-        <Japanese>曳光弾</Japanese>
-        <Korean>Tracer</Korean>
-        <Chinesesimp>Tracer</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_300WM_Sub">
-        <Original>SWLC Subsonic</Original>
-        <English>SWLC Subsonic</English>
-        <Czech>SWLC Subsonic</Czech>
-        <French>SWLC Subsonic</French>
-        <Spanish>SWLC Subsonic</Spanish>
-        <Italian>SWLC Subsonic</Italian>
-        <Polish>SWLC Subsonic</Polish>
-        <Portuguese>SWLC Subsonic</Portuguese>
-        <Russian>SWLC Subsonic</Russian>
-        <German>SWLC Subsonic</German>
-        <Japanese>SWLC 亜音速</Japanese>
-        <Korean>SWLC Subsonic</Korean>
-        <Chinesesimp>SWLC Subsonic</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_AWM">
+        <Container name="Names">
+            <Key ID="STR_NIA_rifle_AWC_OD">
+                <Original>AI AWC-M (OD)</Original>
+                <English>AI AWC-M (OD)</English>
+                <Czech>AI AWC-M (OD)</Czech>
+                <French>AI AWC-M (OD)</French>
+                <Spanish>AI AWC-M (OD)</Spanish>
+                <Italian>AI AWC-M (OD)</Italian>
+                <Polish>AI AWC-M (OD)</Polish>
+                <Portuguese>AI AWC-M (OD)</Portuguese>
+                <Russian>AI AWC-M (OD)</Russian>
+                <German>AI AWC-M (OD)</German>
+                <Japanese>AI AWC-M (OD)</Japanese>
+                <Korean>AI AWC-M (OD)</Korean>
+                <Chinesesimp>AI AWC-M (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWC_BLack">
+                <Original>AI AWC-M (Black)</Original>
+                <English>AI AWC-M (Black)</English>
+                <Czech>AI AWC-M (Black)</Czech>
+                <French>AI AWC-M (Noir)</French>
+                <Spanish>AI AWC-M (Black)</Spanish>
+                <Italian>AI AWC-M (Black)</Italian>
+                <Polish>AI AWC-M (Black)</Polish>
+                <Portuguese>AI AWC-M (Black)</Portuguese>
+                <Russian>AI AWC-M (Black)</Russian>
+                <German>AI AWC-M (Black)</German>
+                <Japanese>AI AWC-M (ブラック)</Japanese>
+                <Korean>AI AWC-M (Black)</Korean>
+                <Chinesesimp>AI AWC-M (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWC_FDE">
+                <Original>AI AWC-M (FDE)</Original>
+                <English>AI AWC-M (FDE)</English>
+                <Czech>AI AWC-M (FDE)</Czech>
+                <French>AI AWC-M (FDE)</French>
+                <Spanish>AI AWC-M (FDE)</Spanish>
+                <Italian>AI AWC-M (FDE)</Italian>
+                <Polish>AI AWC-M (FDE)</Polish>
+                <Portuguese>AI AWC-M (FDE)</Portuguese>
+                <Russian>AI AWC-M (FDE)</Russian>
+                <German>AI AWC-M (FDE)</German>
+                <Japanese>AI AWC-M (FDE)</Japanese>
+                <Korean>AI AWC-M (FDE)</Korean>
+                <Chinesesimp>AI AWC-M (FDE)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_OD">
+                <Original>AI AWM (OD)</Original>
+                <English>AI AWM (OD)</English>
+                <Czech>AI AWM (OD)</Czech>
+                <French>AI AWM (OD)</French>
+                <Spanish>AI AWM (OD)</Spanish>
+                <Italian>AI AWM (OD)</Italian>
+                <Polish>AI AWM (OD)</Polish>
+                <Portuguese>AI AWM (OD)</Portuguese>
+                <Russian>AI AWM (OD)</Russian>
+                <German>AI AWM (OD)</German>
+                <Japanese>AI AWM (OD)</Japanese>
+                <Korean>AI AWM (OD)</Korean>
+                <Chinesesimp>AI AWM (OD)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_Black">
+                <Original>AI AWM (Black)</Original>
+                <English>AI AWM (Black)</English>
+                <Czech>AI AWM (Black)</Czech>
+                <French>AI AWM (Noir)</French>
+                <Spanish>AI AWM (Black)</Spanish>
+                <Italian>AI AWM (Black)</Italian>
+                <Polish>AI AWM (Black)</Polish>
+                <Portuguese>AI AWM (Black)</Portuguese>
+                <Russian>AI AWM (Black)</Russian>
+                <German>AI AWM (Black)</German>
+                <Japanese>AI AWM (ブラック)</Japanese>
+                <Korean>AI AWM (Black)</Korean>
+                <Chinesesimp>AI AWM (Black)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_FDE">
+                <Original>AI AWM (FDE)</Original>
+                <English>AI AWM (FDE)</English>
+                <Czech>AI AWM (FDE)</Czech>
+                <French>AI AWM (FDE)</French>
+                <Spanish>AI AWM (FDE)</Spanish>
+                <Italian>AI AWM (FDE)</Italian>
+                <Polish>AI AWM (FDE)</Polish>
+                <Portuguese>AI AWM (FDE)</Portuguese>
+                <Russian>AI AWM (FDE)</Russian>
+                <German>AI AWM (FDE)</German>
+                <Japanese>AI AWM (FDE)</Japanese>
+                <Korean>AI AWM (FDE)</Korean>
+                <Chinesesimp>AI AWM (FDE)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_OD_Ghillie">
+                <Original>AI AWM (OD/Ghillie)</Original>
+                <English>AI AWM (OD/Ghillie)</English>
+                <Czech>AI AWM (OD/Ghillie)</Czech>
+                <French>AI AWM (OD/Ghillie)</French>
+                <Spanish>AI AWM (OD/Ghillie)</Spanish>
+                <Italian>AI AWM (OD/Ghillie)</Italian>
+                <Polish>AI AWM (OD/Ghillie)</Polish>
+                <Portuguese>AI AWM (OD/Ghillie)</Portuguese>
+                <Russian>AI AWM (OD/Ghillie)</Russian>
+                <German>AI AWM (OD/Ghillie)</German>
+                <Japanese>AI AWM (OD/ギリー)</Japanese>
+                <Korean>AI AWM (OD/Ghillie)</Korean>
+                <Chinesesimp>AI AWM (OD/Ghillie)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_FDE_Ghillie">
+                <Original>AI AWM (FDE/Ghillie)</Original>
+                <English>AI AWM (FDE/Ghillie)</English>
+                <Czech>AI AWM (FDE/Ghillie)</Czech>
+                <French>AI AWM (FDE/Ghillie)</French>
+                <Spanish>AI AWM (FDE/Ghillie)</Spanish>
+                <Italian>AI AWM (FDE/Ghillie)</Italian>
+                <Polish>AI AWM (FDE/Ghillie)</Polish>
+                <Portuguese>AI AWM (FDE/Ghillie)</Portuguese>
+                <Russian>AI AWM (FDE/Ghillie)</Russian>
+                <German>AI AWM (FDE/Ghillie)</German>
+                <Japanese>AI AWM (FDE/ギリー)</Japanese>
+                <Korean>AI AWM (FDE/Ghillie)</Korean>
+                <Chinesesimp>AI AWM (FDE/Ghillie)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_AWM_Black_Ghillie">
+                <Original>AI AWM (Black/Ghillie)</Original>
+                <English>AI AWM (Black/Ghillie)</English>
+                <Czech>AI AWM (Black/Ghillie)</Czech>
+                <French>AI AWM (Noir/Ghillie)</French>
+                <Spanish>AI AWM (Black/Ghillie)</Spanish>
+                <Italian>AI AWM (Black/Ghillie)</Italian>
+                <Polish>AI AWM (Black/Ghillie)</Polish>
+                <Portuguese>AI AWM (Black/Ghillie)</Portuguese>
+                <Russian>AI AWM (Black/Ghillie)</Russian>
+                <German>AI AWM (Black/Ghillie)</German>
+                <Japanese>AI AWM (Black/ギリー)</Japanese>
+                <Korean>AI AWM (Black/Ghillie)</Korean>
+                <Chinesesimp>AI AWM (Black/Ghillie)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_5rnd_300WM_FMJ_AWM">
+                <Original>.300WM FMJ 5Rnd AWM Magazine</Original>
+                <English>.300WM FMJ 5Rnd AWM Magazine</English>
+                <Czech>.300WM FMJ 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM FMJ</French>
+                <Spanish>.300WM FMJ 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM FMJ 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM FMJ 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM FMJ 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM FMJ 5Rnd AWM Magazine</Russian>
+                <German>.300WM FMJ 5Rnd AWM Magazine</German>
+                <Japanese>.300WM FMJ 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM FMJ 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM FMJ 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_300WM_AP_AWM">
+                <Original>.300WM AP 5Rnd AWM Magazine</Original>
+                <English>.300WM AP 5Rnd AWM Magazine</English>
+                <Czech>.300WM AP 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM AP</French>
+                <Spanish>.300WM AP 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM AP 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM AP 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM AP 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM AP 5Rnd AWM Magazine</Russian>
+                <German>.300WM AP 5Rnd AWM Magazine</German>
+                <Japanese>.300WM AP 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM AP 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM AP 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_300WM_T_AWM">
+                <Original>.300WM Tracer 5Rnd AWM Magazine</Original>
+                <English>.300WM Tracer 5Rnd AWM Magazine</English>
+                <Czech>.300WM Tracer 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM Traçante</French>
+                <Spanish>.300WM Tracer 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM Tracer 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM Tracer 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM Tracer 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM Tracer 5Rnd AWM Magazine</Russian>
+                <German>.300WM Tracer 5Rnd AWM Magazine</German>
+                <Japanese>.300WM 曳光弾 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM Tracer 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM Tracer 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_300WM_BTSP_AWM">
+                <Original>.300WM A191 5Rnd AWM Magazine</Original>
+                <English>.300WM A191 5Rnd AWM Magazine</English>
+                <Czech>.300WM A191 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM A191</French>
+                <Spanish>.300WM A191 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM A191 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM A191 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM A191 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM A191 5Rnd AWM Magazine</Russian>
+                <German>.300WM A191 5Rnd AWM Magazine</German>
+                <Japanese>.300WM A191 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM A191 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM A191 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_300WM_mk248_AWM">
+                <Original>.300WM Mk248 Mod1 5Rnd AWM Magazine</Original>
+                <English>.300WM Mk248 Mod1 5Rnd AWM Magazine</English>
+                <Czech>.300WM Mk248 Mod1 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM Mk248 Mod1</French>
+                <Spanish>.300WM Mk248 Mod1 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM Mk248 Mod1 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM Mk248 Mod1 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM Mk248 Mod1 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM Mk248 Mod1 5Rnd AWM Magazine</Russian>
+                <German>.300WM Mk248 Mod1 5Rnd AWM Magazine</German>
+                <Japanese>.300WM Mk248 Mod1 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM Mk248 Mod1 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM Mk248 Mod1 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_5rnd_300WM_sbt_AWM">
+                <Original>.300WM Subsonic 5Rnd AWM Magazine</Original>
+                <English>.300WM Subsonic 5Rnd AWM Magazine</English>
+                <Czech>.300WM Subsonic 5Rnd AWM Magazine</Czech>
+                <French>Chargeur AWM 5 Coups Cal .300WM Subsonique </French>
+                <Spanish>.300WM Subsonic 5Rnd AWM Magazine</Spanish>
+                <Italian>.300WM Subsonic 5Rnd AWM Magazine</Italian>
+                <Polish>.300WM Subsonic 5Rnd AWM Magazine</Polish>
+                <Portuguese>.300WM Subsonic 5Rnd AWM Magazine</Portuguese>
+                <Russian>.300WM Subsonic 5Rnd AWM Magazine</Russian>
+                <German>.300WM Subsonic 5Rnd AWM Magazine</German>
+                <Japanese>.300WM 亜音速 5発入り AWM マガジン</Japanese>
+                <Korean>.300WM Subsonic 5Rnd AWM Magazine</Korean>
+                <Chinesesimp>.300WM Subsonic 5Rnd AWM Magazine</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_AWM_DESC">
+                <Original>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Original>
+                <English>Precision Rifle&lt;br/&gt;Caliber:.300 WM</English>
+                <Czech>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Czech>
+                <French>Fusil de Précision&lt;br/&gt;Calibre:.300 WM</French>
+                <Spanish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
+                <Italian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
+                <Polish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
+                <Portuguese>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
+                <Russian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
+                <German>Precision Rifle&lt;br/&gt;Caliber:.300 WM</German>
+                <Japanese>高精度ライフル&lt;br/&gt;口径: .300 WM</Japanese>
+                <Korean>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
+                <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_awcm_Carbine_DESC">
+                <Original>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Original>
+                <English>Covert Rifle&lt;br/&gt;Caliber:.300 WM</English>
+                <Czech>Fusil </Czech>
+                <French>Fusil "Covert" &lt;br/&gt;Calibre:.300 WM</French>
+                <Spanish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
+                <Italian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
+                <Polish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
+                <Portuguese>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
+                <Russian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
+                <German>Covert Rifle&lt;br/&gt;Caliber:.300 WM</German>
+                <Japanese>隠密ライフル&lt;br/&gt;口径: .300 WM</Japanese>
+                <Korean>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
+                <Chinesesimp>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_FMJ_AWM">
+                <Original>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: .300 Win Mag FMJ&lt;br/&gt;Type: Balle Chemisée&lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: .300 Win Mag FMJ&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_AP_AWM">
+                <Original>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Noyau en Tungstène, Chemise Acier-Cuivre, Perce-Blindage&lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: .300 Win Mag AP&lt;br/&gt;種類: MEN DM131- タングステン弾芯、銅鋼ジャケット徹甲弾&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag AP&lt;br/&gt;Type: MEN DM131- Tungsten-Core, Steel-copper Jacket Armour-Penetrating Round&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_T_AWM">
+                <Original>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: .300 Win Mag Rechargé M62A1 Traçante&lt;br/&gt;Type: Pointe Incendiaire&lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: .300 Win Mag 再装弾 M62A1 曳光弾&lt;br/&gt;種類: 燃焼曳光弾&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag Re-Loaded M62A1 Tracer&lt;br/&gt;Type: Incendiary-tip Tracer&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_btsp_AWM">
+                <Original>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Chanfrein de Culot en V, Balle Chemisée)&lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: .300 Win Mag A191 FMJBT&lt;br/&gt;種類: Sierra Match King を 190 gr 入り (船尾形弾尾 FMJ)&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag A191 FMJBT&lt;br/&gt;Type: 190 gr Sierra Match King (Boat-Tail FMJ)&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_mk248_AWM">
+                <Original>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Original>
+                <English>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</English>
+                <Czech>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Czech>
+                <French>Calibre: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Chanfrein de Culot en V, Balle à Pointe Creuse)&lt;br/&gt;Coups: 5</French>
+                <Spanish>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Spanish>
+                <Italian>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Italian>
+                <Polish>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Polish>
+                <Portuguese>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Portuguese>
+                <Russian>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Russian>
+                <German>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</German>
+                <Japanese>口径: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;種類: Sierra Match King を 190 gr 入り (船尾形弾尾ホロー ポイント)&lt;br/&gt;弾数: 5</Japanese>
+                <Korean>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag Mk248 Mod1 EPR&lt;br/&gt;Type: 220 gr Sierra Match King (Hollow Point Boat Tail)&lt;br/&gt;Rounds: 5</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_DESC_5rnd_300WM_sub_AWM">
+                <Original>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Original>
+                <English>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</English>
+                <Czech>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Czech>
+                <French>Calibre: .300 Win Mag Balle Subsonique&lt;br/&gt;Type: Munition Faiblement Chargée&lt;br/&gt;Coups: 5 &lt;br/&gt; Chargée une munition .300WM de cette façon est dangereux pour l'utilisateur final IRL, ne pas reproduire.</French>
+                <Spanish>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Spanish>
+                <Italian>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Italian>
+                <Polish>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Polish>
+                <Portuguese>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Portuguese>
+                <Russian>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Russian>
+                <German>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</German>
+                <Japanese>口径: .300 Win Mag 亜音速 弾丸&lt;br/&gt;種類: 鉛弾芯へ置き換え加締め&lt;br/&gt;弾数: 5 &lt;br/&gt; 現実世界で使用者が .300WM の装弾をする事は危険です。試さないで下さい。</Japanese>
+                <Korean>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Korean>
+                <Chinesesimp>Caliber: .300 Win Mag Subsonic Ball&lt;br/&gt;Type: Down-load Swaged Lead-Core&lt;br/&gt;Rounds: 5 &lt;br/&gt; Loading .300WM rounds this lightly is specifically dangerous to the end-user IRL. Do not attempt.</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_DisplayShort">
+            <Key ID="STR_NIA_300WM_FMJ">
+                <Original>FMJ</Original>
+                <English>FMJ</English>
+                <Czech>FMJ</Czech>
+                <French>Balle Chemisée</French>
+                <Spanish>FMJ</Spanish>
+                <Italian>FMJ</Italian>
+                <Polish>FMJ</Polish>
+                <Portuguese>FMJ</Portuguese>
+                <Russian>FMJ</Russian>
+                <German>FMJ</German>
+                <Japanese>FMJ</Japanese>
+                <Korean>FMJ</Korean>
+                <Chinesesimp>FMJ</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_300WM_AP">
+                <Original>AP</Original>
+                <English>AP</English>
+                <Czech>AP</Czech>
+                <French>Perce-Blindage</French>
+                <Spanish>AP</Spanish>
+                <Italian>AP</Italian>
+                <Polish>AP</Polish>
+                <Portuguese>AP</Portuguese>
+                <Russian>AP</Russian>
+                <German>AP</German>
+                <Japanese>AP</Japanese>
+                <Korean>AP</Korean>
+                <Chinesesimp>AP</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_300WM_BTSP">
+                <Original>A191 FMJBT</Original>
+                <English>A191 FMJBT</English>
+                <Czech>A191 FMJBT</Czech>
+                <French>A191 FMJBT</French>
+                <Spanish>A191 FMJBT</Spanish>
+                <Italian>A191 FMJBT</Italian>
+                <Polish>A191 FMJBT</Polish>
+                <Portuguese>A191 FMJBT</Portuguese>
+                <Russian>A191 FMJBT</Russian>
+                <German>A191 FMJBT</German>
+                <Japanese>A191 FMJBT</Japanese>
+                <Korean>A191 FMJBT</Korean>
+                <Chinesesimp>A191 FMJBT</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_300WM_mk248">
+                <Original>Mk248 Mod1 EPR</Original>
+                <English>Mk248 Mod1 EPR</English>
+                <Czech>Mk248 Mod1 EPR</Czech>
+                <French>Mk248 Mod1 EPR</French>
+                <Spanish>Mk248 Mod1 EPR</Spanish>
+                <Italian>Mk248 Mod1 EPR</Italian>
+                <Polish>Mk248 Mod1 EPR</Polish>
+                <Portuguese>Mk248 Mod1 EPR</Portuguese>
+                <Russian>Mk248 Mod1 EPR</Russian>
+                <German>Mk248 Mod1 EPR</German>
+                <Japanese>Mk248 Mod1 EPR</Japanese>
+                <Korean>Mk248 Mod1 EPR</Korean>
+                <Chinesesimp>Mk248 Mod1 EPR</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_300WM_T">
+                <Original>Tracer</Original>
+                <English>Tracer</English>
+                <Czech>Tracer</Czech>
+                <French>Traçante</French>
+                <Spanish>Tracer</Spanish>
+                <Italian>Tracer</Italian>
+                <Polish>Tracer</Polish>
+                <Portuguese>Tracer</Portuguese>
+                <Russian>Tracer</Russian>
+                <German>Tracer</German>
+                <Japanese>曳光弾</Japanese>
+                <Korean>Tracer</Korean>
+                <Chinesesimp>Tracer</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_300WM_Sub">
+                <Original>SWLC Subsonic</Original>
+                <English>SWLC Subsonic</English>
+                <Czech>SWLC Subsonic</Czech>
+                <French>SWLC Subsonique</French>
+                <Spanish>SWLC Subsonic</Spanish>
+                <Italian>SWLC Subsonic</Italian>
+                <Polish>SWLC Subsonic</Polish>
+                <Portuguese>SWLC Subsonic</Portuguese>
+                <Russian>SWLC Subsonic</Russian>
+                <German>SWLC Subsonic</German>
+                <Japanese>SWLC 亜音速</Japanese>
+                <Korean>SWLC Subsonic</Korean>
+                <Chinesesimp>SWLC Subsonic</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>

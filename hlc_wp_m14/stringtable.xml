@@ -1,464 +1,463 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="NIArms">
-  <Package name="hlc_wp_M14">
-    <Container name="Names">
-      <Key ID="STR_NIA_rifle_M14">
-        <Original>M14</Original>
-        <English>M14</English>
-        <Czech>M14</Czech>
-        <French>M14</French>
-        <Spanish>M14</Spanish>
-        <Italian>M14</Italian>
-        <Polish>M14</Polish>
-        <Portuguese>M14</Portuguese>
-        <Russian>M14</Russian>
-        <German>M14</German>
-        <Japanese>M14</Japanese>
-        <Korean>M14</Korean>
-        <Chinesesimp>M14</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M14Bipod">
-        <Original>M14 (Bipod)</Original>
-        <English>M14 (Bipod)</English>
-        <Czech>M14 (Bipod)</Czech>
-        <French>M14 (Bipod)</French>
-        <Spanish>M14 (Bipod)</Spanish>
-        <Italian>M14 (Bipod)</Italian>
-        <Polish>M14 (Bipod)</Polish>
-        <Portuguese>M14 (Bipod)</Portuguese>
-        <Russian>M14 (Bipod)</Russian>
-        <German>M14 (Bipod)</German>
-        <Japanese>M14 (二脚)</Japanese>
-        <Korean>M14 (Bipod)</Korean>
-        <Chinesesimp>M14 (Bipod)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M14Rail">
-        <Original>M14 (RIS)</Original>
-        <English>M14 (RIS)</English>
-        <Czech>M14 (RIS)</Czech>
-        <French>M14 (RIS)</French>
-        <Spanish>M14 (RIS)</Spanish>
-        <Italian>M14 (RIS)</Italian>
-        <Polish>M14 (RIS)</Polish>
-        <Portuguese>M14 (RIS)</Portuguese>
-        <Russian>M14 (RIS)</Russian>
-        <German>M14 (RIS)</German>
-        <Japanese>M14 (RIS)</Japanese>
-        <Korean>M14 (RIS)</Korean>
-        <Chinesesimp>M14 (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M14BipodRail">
-        <Original>M14 (Bipod/RIS)</Original>
-        <English>M14 (Bipod/RIS)</English>
-        <Czech>M14 (Bipod/RIS)</Czech>
-        <French>M14 (Bipod/RIS)</French>
-        <Spanish>M14 (Bipod/RIS)</Spanish>
-        <Italian>M14 (Bipod/RIS)</Italian>
-        <Polish>M14 (Bipod/RIS)</Polish>
-        <Portuguese>M14 (Bipod/RIS)</Portuguese>
-        <Russian>M14 (Bipod/RIS)</Russian>
-        <German>M14 (Bipod/RIS)</German>
-        <Japanese>M14 (二脚/RIS)</Japanese>
-        <Korean>M14 (Bipod/RIS)</Korean>
-        <Chinesesimp>M14 (Bipod/RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M21">
-        <Original>M21</Original>
-        <English>M21</English>
-        <Czech>M21</Czech>
-        <French>M21</French>
-        <Spanish>M21</Spanish>
-        <Italian>M21</Italian>
-        <Polish>M21</Polish>
-        <Portuguese>M21</Portuguese>
-        <Russian>M21</Russian>
-        <German>M21</German>
-        <Japanese>M21</Japanese>
-        <Korean>M21</Korean>
-        <Chinesesimp>M21</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M21Bipod">
-        <Original>M21 (Bipod)</Original>
-        <English>M21 (Bipod)</English>
-        <Czech>M21 (Bipod)</Czech>
-        <French>M21 (Bipod)</French>
-        <Spanish>M21 (Bipod)</Spanish>
-        <Italian>M21 (Bipod)</Italian>
-        <Polish>M21 (Bipod)</Polish>
-        <Portuguese>M21 (Bipod)</Portuguese>
-        <Russian>M21 (Bipod)</Russian>
-        <German>M21 (Bipod)</German>
-        <Japanese>M21 (二脚)</Japanese>
-        <Korean>M21 (Bipod)</Korean>
-        <Chinesesimp>M21 (Bipod)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M21Rail">
-        <Original>M21 (RIS)</Original>
-        <English>M21 (RIS)</English>
-        <Czech>M21 (RIS)</Czech>
-        <French>M21 (RIS)</French>
-        <Spanish>M21 (RIS)</Spanish>
-        <Italian>M21 (RIS)</Italian>
-        <Polish>M21 (RIS)</Polish>
-        <Portuguese>M21 (RIS)</Portuguese>
-        <Russian>M21 (RIS)</Russian>
-        <German>M21 (RIS)</German>
-        <Japanese>M21 (RIS)</Japanese>
-        <Korean>M21 (RIS)</Korean>
-        <Chinesesimp>M21 (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M21BipodRail">
-        <Original>M21 (Bipod/RIS)</Original>
-        <English>M21 (Bipod/RIS)</English>
-        <Czech>M21 (Bipod/RIS)</Czech>
-        <French>M21 (Bipod/RIS)</French>
-        <Spanish>M21 (Bipod/RIS)</Spanish>
-        <Italian>M21 (Bipod/RIS)</Italian>
-        <Polish>M21 (Bipod/RIS)</Polish>
-        <Portuguese>M21 (Bipod/RIS)</Portuguese>
-        <Russian>M21 (Bipod/RIS)</Russian>
-        <German>M21 (Bipod/RIS)</German>
-        <Japanese>M21 (二脚/RIS)</Japanese>
-        <Korean>M21 (Bipod/RIS)</Korean>
-        <Chinesesimp>M21 (Bipod/RIS)</Chinesesimp>
-      </Key>
-
-      <Key ID="STR_NIA_rifle_M14DMR">
-        <Original>M14-DMR</Original>
-        <English>M14-DMR</English>
-        <Czech>M14-DMR</Czech>
-        <French>M14-DMR</French>
-        <Spanish>M14-DMR</Spanish>
-        <Italian>M14-DMR</Italian>
-        <Polish>M14-DMR</Polish>
-        <Portuguese>M14-DMR</Portuguese>
-        <Russian>M14-DMR</Russian>
-        <German>M14-DMR</German>
-        <Japanese>M14-DMR</Japanese>
-        <Korean>M14-DMR</Korean>
-        <Chinesesimp>M14-DMR</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M14DMRRail">
-        <Original>M14-DMR (RIS)</Original>
-        <English>M14-DMR (RIS)</English>
-        <Czech>M14-DMR (RIS)</Czech>
-        <French>M14-DMR (RIS)</French>
-        <Spanish>M14-DMR (RIS)</Spanish>
-        <Italian>M14-DMR (RIS)</Italian>
-        <Polish>M14-DMR (RIS)</Polish>
-        <Portuguese>M14-DMR (RIS)</Portuguese>
-        <Russian>M14-DMR (RIS)</Russian>
-        <German>M14-DMR (RIS)</German>
-        <Japanese>M14-DMR (RIS)</Japanese>
-        <Korean>M14-DMR (RIS)</Korean>
-        <Chinesesimp>M14-DMR (RIS)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_rifle_M14TAC">
-        <Original>Troy M14 SOPMOD</Original>
-        <English>Troy M14 SOPMOD</English>
-        <Czech>Troy M14 SOPMOD</Czech>
-        <French>Troy M14 SOPMOD</French>
-        <Spanish>Troy M14 SOPMOD</Spanish>
-        <Italian>Troy M14 SOPMOD</Italian>
-        <Polish>Troy M14 SOPMOD</Polish>
-        <Portuguese>Troy M14 SOPMOD</Portuguese>
-        <Russian>Troy M14 SOPMOD</Russian>
-        <German>Troy M14 SOPMOD</German>
-        <Japanese>Troy M14 SOPMOD</Japanese>
-        <Korean>Troy M14 SOPMOD</Korean>
-        <Chinesesimp>Troy M14 SOPMOD</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Acc_names">
-      <Key ID="STR_NIA_optic_ARTEL">
-        <Original>Redfield AR-TEL</Original>
-        <English>Redfield AR-TEL</English>
-        <Czech>Redfield AR-TEL</Czech>
-        <French>Redfield AR-TEL</French>
-        <Spanish>Redfield AR-TEL</Spanish>
-        <Italian>Redfield AR-TEL</Italian>
-        <Polish>Redfield AR-TEL</Polish>
-        <Portuguese>Redfield AR-TEL</Portuguese>
-        <Russian>Redfield AR-TEL</Russian>
-        <German>Redfield AR-TEL</German>
-        <Japanese>Redfield AR-TEL</Japanese>
-        <Korean>Redfield AR-TEL</Korean>
-        <Chinesesimp>Redfield AR-TEL</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_ANPVS4M14">
-        <Original>AN/PVS-4 (M14-Mount)</Original>
-        <English>AN/PVS-4 (M14-Mount)</English>
-        <Czech>AN/PVS-4 (M14-Mount)</Czech>
-        <French>AN/PVS-4 (M14-Mount)</French>
-        <Spanish>AN/PVS-4 (M14-Mount)</Spanish>
-        <Italian>AN/PVS-4 (M14-Mount)</Italian>
-        <Polish>AN/PVS-4 (M14-Mount)</Polish>
-        <Portuguese>AN/PVS-4 (M14-Mount)</Portuguese>
-        <Russian>AN/PVS-4 (M14-Mount)</Russian>
-        <German>AN/PVS-4 (M14-Mount)</German>
-        <Japanese>AN/PVS-4 (M14 用マウント)</Japanese>
-        <Korean>AN/PVS-4 (M14-Mount)</Korean>
-        <Chinesesimp>AN/PVS-4 (M14-Mount)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_optic_M3a_M14">
-        <Original>Leupold M3A Ultra (M14-Mount)</Original>
-        <English>Leupold M3A Ultra (M14-Mount)</English>
-        <Czech>Leupold M3A Ultra (M14-Mount)</Czech>
-        <French>Leupold M3A Ultra (M14-Mount)</French>
-        <Spanish>Leupold M3A Ultra (M14-Mount)</Spanish>
-        <Italian>Leupold M3A Ultra (M14-Mount)</Italian>
-        <Polish>Leupold M3A Ultra (M14-Mount)</Polish>
-        <Portuguese>Leupold M3A Ultra (M14-Mount)</Portuguese>
-        <Russian>Leupold M3A Ultra (M14-Mount)</Russian>
-        <German>Leupold M3A Ultra (M14-Mount)</German>
-        <Japanese>Leupold M3A Ultra (M14 用マウント)</Japanese>
-        <Korean>Leupold M3A Ultra (M14-Mount)</Korean>
-        <Chinesesimp>Leupold M3A Ultra (M14-Mount)</Chinesesimp>
-      </Key>
-      </Container>
-    <Container name="Mag_Names">
-      <Key ID="STR_NIA_20rnd_762x51_b_M14">
-        <Original>7.62mm EPR 20Rnd M14 Magazine</Original>
-        <English>7.62mm EPR 20Rnd M14 Magazine</English>
-        <Czech>7.62mm EPR 20Rnd M14 Magazine</Czech>
-        <French>7.62mm EPR 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm EPR 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm EPR 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm EPR 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm EPR 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm EPR 20Rnd M14 Magazine</Russian>
-        <German>7.62mm EPR 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm EPR 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm EPR 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Mk316_M14">
-        <Original>7.62mm SBLR 20Rnd M14 Magazine</Original>
-        <English>7.62mm SBLR 20Rnd M14 Magazine</English>
-        <Czech>7.62mm SBLR 20Rnd M14 Magazine</Czech>
-        <French>7.62mm SBLR 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm SBLR 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm SBLR 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm SBLR 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm SBLR 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm SBLR 20Rnd M14 Magazine</Russian>
-        <German>7.62mm SBLR 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm SBLR 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm SBLR 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm SBLR 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_SOST_M14">
-        <Original>7.62mm SOST 20Rnd M14 Magazine</Original>
-        <English>7.62mm SOST 20Rnd M14 Magazine</English>
-        <Czech>7.62mm SOST 20Rnd M14 Magazine</Czech>
-        <French>7.62mm SOST 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm SOST 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm SOST 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm SOST 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm SOST 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm SOST 20Rnd M14 Magazine</Russian>
-        <German>7.62mm SOST 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm SOST 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm SOST 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm SOST 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Tracer_M14">
-        <Original>7.62mm Tracer 20Rnd M14 Magazine</Original>
-        <English>7.62mm Tracer 20Rnd M14 Magazine</English>
-        <Czech>7.62mm Tracer 20Rnd M14 Magazine</Czech>
-        <French>7.62mm Tracer 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm Tracer 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm Tracer 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm Tracer 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm Tracer 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm Tracer 20Rnd M14 Magazine</Russian>
-        <German>7.62mm Tracer 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm 曳光弾 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm Tracer 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm Tracer 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_MDim_M14">
-        <Original>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Original>
-        <English>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</English>
-        <Czech>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Czech>
-        <French>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</French>
-        <Spanish>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Spanish>
-        <Italian>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Italian>
-        <Polish>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Polish>
-        <Portuguese>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Portuguese>
-        <Russian>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Russian>
-        <German>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</German>
-        <Japanese>7.62mm EPR 20発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_IRDIM_M14">
-        <Original>7.62mm IR-DIM 20Rnd M14 Magazine</Original>
-        <English>7.62mm IR-DIM 20Rnd M14 Magazine</English>
-        <Czech>7.62mm IR-DIM 20Rnd M14 Magazine</Czech>
-        <French>7.62mm IR-DIM 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm IR-DIM 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm IR-DIM 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm IR-DIM 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm IR-DIM 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm IR-DIM 20Rnd M14 Magazine</Russian>
-        <German>7.62mm IR-DIM 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm IR-DIM 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm IR-DIM 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm IR-DIM 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_20rnd_762x51_Subsonic_M14">
-        <Original>7.62mm Subsonic 20Rnd M14 Magazine</Original>
-        <English>7.62mm Subsonic 20Rnd M14 Magazine</English>
-        <Czech>7.62mm Subsonic 20Rnd M14 Magazine</Czech>
-        <French>7.62mm Subsonic 20Rnd M14 Magazine</French>
-        <Spanish>7.62mm Subsonic 20Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm Subsonic 20Rnd M14 Magazine</Italian>
-        <Polish>7.62mm Subsonic 20Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm Subsonic 20Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm Subsonic 20Rnd M14 Magazine</Russian>
-        <German>7.62mm Subsonic 20Rnd M14 Magazine</German>
-        <Japanese>7.62mm 亜音速 20発入り M14 マガジン</Japanese>
-        <Korean>7.62mm Subsonic 20Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm Subsonic 20Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_762x51_B_M14">
-        <Original>7.62mm EPR 50Rnd M14 Magazine</Original>
-        <English>7.62mm EPR 50Rnd M14 Magazine</English>
-        <Czech>7.62mm EPR 50Rnd M14 Magazine</Czech>
-        <French>7.62mm EPR 50Rnd M14 Magazine</French>
-        <Spanish>7.62mm EPR 50Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm EPR 50Rnd M14 Magazine</Italian>
-        <Polish>7.62mm EPR 50Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm EPR 50Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm EPR 50Rnd M14 Magazine</Russian>
-        <German>7.62mm EPR 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm EPR 50発入り M14 マガジン</Japanese>
-        <Korean>7.62mm EPR 50Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_762x51_T_M14">
-        <Original>7.62mm Tracer 50Rnd M14 Magazine</Original>
-        <English>7.62mm Tracer 50Rnd M14 Magazine</English>
-        <Czech>7.62mm Tracer 50Rnd M14 Magazine</Czech>
-        <French>7.62mm Tracer 50Rnd M14 Magazine</French>
-        <Spanish>7.62mm Tracer 50Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm Tracer 50Rnd M14 Magazine</Italian>
-        <Polish>7.62mm Tracer 50Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm Tracer 50Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm Tracer 50Rnd M14 Magazine</Russian>
-        <German>7.62mm Tracer 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm 曳光弾 50発入り M14 マガジン</Japanese>
-        <Korean>7.62mm Tracer 50Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm Tracer 50Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50Rnd_762x51_Tdim_M14">
-        <Original>7.62mm IR-DIM 50Rnd M14 Magazine</Original>
-        <English>7.62mm IR-DIM 50Rnd M14 Magazine</English>
-        <Czech>7.62mm IR-DIM 50Rnd M14 Magazine</Czech>
-        <French>7.62mm IR-DIM 50Rnd M14 Magazine</French>
-        <Spanish>7.62mm IR-DIM 50Rnd M14 Magazine</Spanish>
-        <Italian>7.62mm IR-DIM 50Rnd M14 Magazine</Italian>
-        <Polish>7.62mm IR-DIM 50Rnd M14 Magazine</Polish>
-        <Portuguese>7.62mm IR-DIM 50Rnd M14 Magazine</Portuguese>
-        <Russian>7.62mm IR-DIM 50Rnd M14 Magazine</Russian>
-        <German>7.62mm IR-DIM 50Rnd M14 Magazine</German>
-        <Japanese>7.62mm IR-DIM 50発入り M14 マガジン</Japanese>
-        <Korean>7.62mm IR-DIM 50Rnd M14 Magazine</Korean>
-        <Chinesesimp>7.62mm IR-DIM 50Rnd M14 Magazine</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50rnd_762x51_M_M14">
-        <Original>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Original>
-        <English>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</English>
-        <Czech>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Czech>
-        <French>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</French>
-        <Spanish>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Spanish>
-        <Italian>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Italian>
-        <Polish>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Polish>
-        <Portuguese>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Portuguese>
-        <Russian>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Russian>
-        <German>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎に曳光弾)</Japanese>
-        <Korean>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_50rnd_762x51_MDIM_M14">
-        <Original>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Original>
-        <English>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</English>
-        <Czech>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Czech>
-        <French>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</French>
-        <Spanish>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Spanish>
-        <Italian>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Italian>
-        <Polish>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Polish>
-        <Portuguese>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Portuguese>
-        <Russian>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Russian>
-        <German>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</German>
-        <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
-        <Korean>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Chinesesimp>
-      </Key>
-    </Container>
-    <Container name="Descriptions">
-      <Key ID="STR_NIA_M14_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M14_Compact_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_M21_DESC">
-        <Original>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
-        <English>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
-        <Czech>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
-        <French>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</French>
-        <Spanish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
-        <Italian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
-        <Polish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
-        <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
-        <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
-        <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
-        <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
-        <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
-        <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
-      </Key>  
-      <Key ID="STR_NIA_ARTEL_DESC">
-        <Original>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Original>
-        <English>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</English>
-        <Czech>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Czech>
-        <French>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</French>
-        <Spanish>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Spanish>
-        <Italian>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Italian>
-        <Polish>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Polish>
-        <Portuguese>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Portuguese>
-        <Russian>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Russian>
-        <German>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</German>
-        <Japanese>Redfield AR-TEL 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 外部弾道カメラ 300-900m&lt;br/&gt;照準線: Redfield 測距十字線</Japanese>
-        <Korean>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Korean>
-        <Chinesesimp>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Chinesesimp>
-      </Key>
-    </Container>
-  </Package>
+    <Package name="hlc_wp_M14">
+        <Container name="Names">
+            <Key ID="STR_NIA_rifle_M14">
+                <Original>M14</Original>
+                <English>M14</English>
+                <Czech>M14</Czech>
+                <French>M14</French>
+                <Spanish>M14</Spanish>
+                <Italian>M14</Italian>
+                <Polish>M14</Polish>
+                <Portuguese>M14</Portuguese>
+                <Russian>M14</Russian>
+                <German>M14</German>
+                <Japanese>M14</Japanese>
+                <Korean>M14</Korean>
+                <Chinesesimp>M14</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14Bipod">
+                <Original>M14 (Bipod)</Original>
+                <English>M14 (Bipod)</English>
+                <Czech>M14 (Bipod)</Czech>
+                <French>M14 (Bipied)</French>
+                <Spanish>M14 (Bipod)</Spanish>
+                <Italian>M14 (Bipod)</Italian>
+                <Polish>M14 (Bipod)</Polish>
+                <Portuguese>M14 (Bipod)</Portuguese>
+                <Russian>M14 (Bipod)</Russian>
+                <German>M14 (Bipod)</German>
+                <Japanese>M14 (二脚)</Japanese>
+                <Korean>M14 (Bipod)</Korean>
+                <Chinesesimp>M14 (Bipod)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14Rail">
+                <Original>M14 (RIS)</Original>
+                <English>M14 (RIS)</English>
+                <Czech>M14 (RIS)</Czech>
+                <French>M14 (RIS)</French>
+                <Spanish>M14 (RIS)</Spanish>
+                <Italian>M14 (RIS)</Italian>
+                <Polish>M14 (RIS)</Polish>
+                <Portuguese>M14 (RIS)</Portuguese>
+                <Russian>M14 (RIS)</Russian>
+                <German>M14 (RIS)</German>
+                <Japanese>M14 (RIS)</Japanese>
+                <Korean>M14 (RIS)</Korean>
+                <Chinesesimp>M14 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14BipodRail">
+                <Original>M14 (Bipod/RIS)</Original>
+                <English>M14 (Bipod/RIS)</English>
+                <Czech>M14 (Bipod/RIS)</Czech>
+                <French>M14 (Bipied/RIS)</French>
+                <Spanish>M14 (Bipod/RIS)</Spanish>
+                <Italian>M14 (Bipod/RIS)</Italian>
+                <Polish>M14 (Bipod/RIS)</Polish>
+                <Portuguese>M14 (Bipod/RIS)</Portuguese>
+                <Russian>M14 (Bipod/RIS)</Russian>
+                <German>M14 (Bipod/RIS)</German>
+                <Japanese>M14 (二脚/RIS)</Japanese>
+                <Korean>M14 (Bipod/RIS)</Korean>
+                <Chinesesimp>M14 (Bipod/RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M21">
+                <Original>M21</Original>
+                <English>M21</English>
+                <Czech>M21</Czech>
+                <French>M21</French>
+                <Spanish>M21</Spanish>
+                <Italian>M21</Italian>
+                <Polish>M21</Polish>
+                <Portuguese>M21</Portuguese>
+                <Russian>M21</Russian>
+                <German>M21</German>
+                <Japanese>M21</Japanese>
+                <Korean>M21</Korean>
+                <Chinesesimp>M21</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M21Bipod">
+                <Original>M21 (Bipod)</Original>
+                <English>M21 (Bipod)</English>
+                <Czech>M21 (Bipod)</Czech>
+                <French>M21 (Bipied)</French>
+                <Spanish>M21 (Bipod)</Spanish>
+                <Italian>M21 (Bipod)</Italian>
+                <Polish>M21 (Bipod)</Polish>
+                <Portuguese>M21 (Bipod)</Portuguese>
+                <Russian>M21 (Bipod)</Russian>
+                <German>M21 (Bipod)</German>
+                <Japanese>M21 (二脚)</Japanese>
+                <Korean>M21 (Bipod)</Korean>
+                <Chinesesimp>M21 (Bipod)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M21Rail">
+                <Original>M21 (RIS)</Original>
+                <English>M21 (RIS)</English>
+                <Czech>M21 (RIS)</Czech>
+                <French>M21 (RIS)</French>
+                <Spanish>M21 (RIS)</Spanish>
+                <Italian>M21 (RIS)</Italian>
+                <Polish>M21 (RIS)</Polish>
+                <Portuguese>M21 (RIS)</Portuguese>
+                <Russian>M21 (RIS)</Russian>
+                <German>M21 (RIS)</German>
+                <Japanese>M21 (RIS)</Japanese>
+                <Korean>M21 (RIS)</Korean>
+                <Chinesesimp>M21 (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M21BipodRail">
+                <Original>M21 (Bipod/RIS)</Original>
+                <English>M21 (Bipod/RIS)</English>
+                <Czech>M21 (Bipod/RIS)</Czech>
+                <French>M21 (Bipied/RIS)</French>
+                <Spanish>M21 (Bipod/RIS)</Spanish>
+                <Italian>M21 (Bipod/RIS)</Italian>
+                <Polish>M21 (Bipod/RIS)</Polish>
+                <Portuguese>M21 (Bipod/RIS)</Portuguese>
+                <Russian>M21 (Bipod/RIS)</Russian>
+                <German>M21 (Bipod/RIS)</German>
+                <Japanese>M21 (二脚/RIS)</Japanese>
+                <Korean>M21 (Bipod/RIS)</Korean>
+                <Chinesesimp>M21 (Bipod/RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14DMR">
+                <Original>M14-DMR</Original>
+                <English>M14-DMR</English>
+                <Czech>M14-DMR</Czech>
+                <French>M14-DMR</French>
+                <Spanish>M14-DMR</Spanish>
+                <Italian>M14-DMR</Italian>
+                <Polish>M14-DMR</Polish>
+                <Portuguese>M14-DMR</Portuguese>
+                <Russian>M14-DMR</Russian>
+                <German>M14-DMR</German>
+                <Japanese>M14-DMR</Japanese>
+                <Korean>M14-DMR</Korean>
+                <Chinesesimp>M14-DMR</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14DMRRail">
+                <Original>M14-DMR (RIS)</Original>
+                <English>M14-DMR (RIS)</English>
+                <Czech>M14-DMR (RIS)</Czech>
+                <French>M14-DMR (RIS)</French>
+                <Spanish>M14-DMR (RIS)</Spanish>
+                <Italian>M14-DMR (RIS)</Italian>
+                <Polish>M14-DMR (RIS)</Polish>
+                <Portuguese>M14-DMR (RIS)</Portuguese>
+                <Russian>M14-DMR (RIS)</Russian>
+                <German>M14-DMR (RIS)</German>
+                <Japanese>M14-DMR (RIS)</Japanese>
+                <Korean>M14-DMR (RIS)</Korean>
+                <Chinesesimp>M14-DMR (RIS)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_rifle_M14TAC">
+                <Original>Troy M14 SOPMOD</Original>
+                <English>Troy M14 SOPMOD</English>
+                <Czech>Troy M14 SOPMOD</Czech>
+                <French>Troy M14 SOPMOD</French>
+                <Spanish>Troy M14 SOPMOD</Spanish>
+                <Italian>Troy M14 SOPMOD</Italian>
+                <Polish>Troy M14 SOPMOD</Polish>
+                <Portuguese>Troy M14 SOPMOD</Portuguese>
+                <Russian>Troy M14 SOPMOD</Russian>
+                <German>Troy M14 SOPMOD</German>
+                <Japanese>Troy M14 SOPMOD</Japanese>
+                <Korean>Troy M14 SOPMOD</Korean>
+                <Chinesesimp>Troy M14 SOPMOD</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Acc_names">
+            <Key ID="STR_NIA_optic_ARTEL">
+                <Original>Redfield AR-TEL</Original>
+                <English>Redfield AR-TEL</English>
+                <Czech>Redfield AR-TEL</Czech>
+                <French>Redfield AR-TEL</French>
+                <Spanish>Redfield AR-TEL</Spanish>
+                <Italian>Redfield AR-TEL</Italian>
+                <Polish>Redfield AR-TEL</Polish>
+                <Portuguese>Redfield AR-TEL</Portuguese>
+                <Russian>Redfield AR-TEL</Russian>
+                <German>Redfield AR-TEL</German>
+                <Japanese>Redfield AR-TEL</Japanese>
+                <Korean>Redfield AR-TEL</Korean>
+                <Chinesesimp>Redfield AR-TEL</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_ANPVS4M14">
+                <Original>AN/PVS-4 (M14-Mount)</Original>
+                <English>AN/PVS-4 (M14-Mount)</English>
+                <Czech>AN/PVS-4 (M14-Mount)</Czech>
+                <French>AN/PVS-4 (Montage M14)</French>
+                <Spanish>AN/PVS-4 (M14-Mount)</Spanish>
+                <Italian>AN/PVS-4 (M14-Mount)</Italian>
+                <Polish>AN/PVS-4 (M14-Mount)</Polish>
+                <Portuguese>AN/PVS-4 (M14-Mount)</Portuguese>
+                <Russian>AN/PVS-4 (M14-Mount)</Russian>
+                <German>AN/PVS-4 (M14-Mount)</German>
+                <Japanese>AN/PVS-4 (M14 用マウント)</Japanese>
+                <Korean>AN/PVS-4 (M14-Mount)</Korean>
+                <Chinesesimp>AN/PVS-4 (M14-Mount)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_optic_M3a_M14">
+                <Original>Leupold M3A Ultra (M14-Mount)</Original>
+                <English>Leupold M3A Ultra (M14-Mount)</English>
+                <Czech>Leupold M3A Ultra (M14-Mount)</Czech>
+                <French>Leupold M3A Ultra (Montage M14)</French>
+                <Spanish>Leupold M3A Ultra (M14-Mount)</Spanish>
+                <Italian>Leupold M3A Ultra (M14-Mount)</Italian>
+                <Polish>Leupold M3A Ultra (M14-Mount)</Polish>
+                <Portuguese>Leupold M3A Ultra (M14-Mount)</Portuguese>
+                <Russian>Leupold M3A Ultra (M14-Mount)</Russian>
+                <German>Leupold M3A Ultra (M14-Mount)</German>
+                <Japanese>Leupold M3A Ultra (M14 用マウント)</Japanese>
+                <Korean>Leupold M3A Ultra (M14-Mount)</Korean>
+                <Chinesesimp>Leupold M3A Ultra (M14-Mount)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Mag_Names">
+            <Key ID="STR_NIA_20rnd_762x51_b_M14">
+                <Original>7.62mm EPR 20Rnd M14 Magazine</Original>
+                <English>7.62mm EPR 20Rnd M14 Magazine</English>
+                <Czech>7.62mm EPR 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm EPR</French>
+                <Spanish>7.62mm EPR 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm EPR 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm EPR 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm EPR 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm EPR 20Rnd M14 Magazine</Russian>
+                <German>7.62mm EPR 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm EPR 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm EPR 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Mk316_M14">
+                <Original>7.62mm SBLR 20Rnd M14 Magazine</Original>
+                <English>7.62mm SBLR 20Rnd M14 Magazine</English>
+                <Czech>7.62mm SBLR 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm SBLR</French>
+                <Spanish>7.62mm SBLR 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm SBLR 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm SBLR 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm SBLR 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm SBLR 20Rnd M14 Magazine</Russian>
+                <German>7.62mm SBLR 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm SBLR 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm SBLR 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm SBLR 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_SOST_M14">
+                <Original>7.62mm SOST 20Rnd M14 Magazine</Original>
+                <English>7.62mm SOST 20Rnd M14 Magazine</English>
+                <Czech>7.62mm SOST 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm SOST</French>
+                <Spanish>7.62mm SOST 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm SOST 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm SOST 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm SOST 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm SOST 20Rnd M14 Magazine</Russian>
+                <German>7.62mm SOST 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm SOST 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm SOST 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm SOST 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Tracer_M14">
+                <Original>7.62mm Tracer 20Rnd M14 Magazine</Original>
+                <English>7.62mm Tracer 20Rnd M14 Magazine</English>
+                <Czech>7.62mm Tracer 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm Traçante</French>
+                <Spanish>7.62mm Tracer 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm Tracer 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm Tracer 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm Tracer 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm Tracer 20Rnd M14 Magazine</Russian>
+                <German>7.62mm Tracer 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm 曳光弾 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm Tracer 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm Tracer 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_MDim_M14">
+                <Original>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Original>
+                <English>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</English>
+                <Czech>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm (IR-DIM toutes les 4)</French>
+                <Spanish>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Spanish>
+                <Italian>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Italian>
+                <Polish>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Polish>
+                <Portuguese>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Portuguese>
+                <Russian>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Russian>
+                <German>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</German>
+                <Japanese>7.62mm EPR 20発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 20Rnd M14 Magazine (IR-DIM Every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_IRDIM_M14">
+                <Original>7.62mm IR-DIM 20Rnd M14 Magazine</Original>
+                <English>7.62mm IR-DIM 20Rnd M14 Magazine</English>
+                <Czech>7.62mm IR-DIM 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm IR-DIM</French>
+                <Spanish>7.62mm IR-DIM 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm IR-DIM 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm IR-DIM 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm IR-DIM 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm IR-DIM 20Rnd M14 Magazine</Russian>
+                <German>7.62mm IR-DIM 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm IR-DIM 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm IR-DIM 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm IR-DIM 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_20rnd_762x51_Subsonic_M14">
+                <Original>7.62mm Subsonic 20Rnd M14 Magazine</Original>
+                <English>7.62mm Subsonic 20Rnd M14 Magazine</English>
+                <Czech>7.62mm Subsonic 20Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 20 Coups Cal 7.62mm Subsonique</French>
+                <Spanish>7.62mm Subsonic 20Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm Subsonic 20Rnd M14 Magazine</Italian>
+                <Polish>7.62mm Subsonic 20Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm Subsonic 20Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm Subsonic 20Rnd M14 Magazine</Russian>
+                <German>7.62mm Subsonic 20Rnd M14 Magazine</German>
+                <Japanese>7.62mm 亜音速 20発入り M14 マガジン</Japanese>
+                <Korean>7.62mm Subsonic 20Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm Subsonic 20Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_B_M14">
+                <Original>7.62mm EPR 50Rnd M14 Magazine</Original>
+                <English>7.62mm EPR 50Rnd M14 Magazine</English>
+                <Czech>7.62mm EPR 50Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 50 Coups Cal 7.62mm EPR</French>
+                <Spanish>7.62mm EPR 50Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm EPR 50Rnd M14 Magazine</Italian>
+                <Polish>7.62mm EPR 50Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm EPR 50Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm EPR 50Rnd M14 Magazine</Russian>
+                <German>7.62mm EPR 50Rnd M14 Magazine</German>
+                <Japanese>7.62mm EPR 50発入り M14 マガジン</Japanese>
+                <Korean>7.62mm EPR 50Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_T_M14">
+                <Original>7.62mm Tracer 50Rnd M14 Magazine</Original>
+                <English>7.62mm Tracer 50Rnd M14 Magazine</English>
+                <Czech>7.62mm Tracer 50Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 50 Coups Cal 7.62mm Traçante</French>
+                <Spanish>7.62mm Tracer 50Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm Tracer 50Rnd M14 Magazine</Italian>
+                <Polish>7.62mm Tracer 50Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm Tracer 50Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm Tracer 50Rnd M14 Magazine</Russian>
+                <German>7.62mm Tracer 50Rnd M14 Magazine</German>
+                <Japanese>7.62mm 曳光弾 50発入り M14 マガジン</Japanese>
+                <Korean>7.62mm Tracer 50Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm Tracer 50Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50Rnd_762x51_Tdim_M14">
+                <Original>7.62mm IR-DIM 50Rnd M14 Magazine</Original>
+                <English>7.62mm IR-DIM 50Rnd M14 Magazine</English>
+                <Czech>7.62mm IR-DIM 50Rnd M14 Magazine</Czech>
+                <French>Chargeur M14 50 Coups Cal 7.62mm IR-DIM</French>
+                <Spanish>7.62mm IR-DIM 50Rnd M14 Magazine</Spanish>
+                <Italian>7.62mm IR-DIM 50Rnd M14 Magazine</Italian>
+                <Polish>7.62mm IR-DIM 50Rnd M14 Magazine</Polish>
+                <Portuguese>7.62mm IR-DIM 50Rnd M14 Magazine</Portuguese>
+                <Russian>7.62mm IR-DIM 50Rnd M14 Magazine</Russian>
+                <German>7.62mm IR-DIM 50Rnd M14 Magazine</German>
+                <Japanese>7.62mm IR-DIM 50発入り M14 マガジン</Japanese>
+                <Korean>7.62mm IR-DIM 50Rnd M14 Magazine</Korean>
+                <Chinesesimp>7.62mm IR-DIM 50Rnd M14 Magazine</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50rnd_762x51_M_M14">
+                <Original>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Original>
+                <English>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</English>
+                <Czech>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Czech>
+                <French>Chargeur M14 50 coups Cal 7.62mm EPR (Traçante tous les 4)</French>
+                <Spanish>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Spanish>
+                <Italian>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Italian>
+                <Polish>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Polish>
+                <Portuguese>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Portuguese>
+                <Russian>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Russian>
+                <German>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</German>
+                <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎に曳光弾)</Japanese>
+                <Korean>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (Tracers Every 4)</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_50rnd_762x51_MDIM_M14">
+                <Original>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Original>
+                <English>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</English>
+                <Czech>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Czech>
+                <French>Chargeur M14 50 coups Cal 7.62mm EPR (IR-DIM tous les 4)</French>
+                <Spanish>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Spanish>
+                <Italian>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Italian>
+                <Polish>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Polish>
+                <Portuguese>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Portuguese>
+                <Russian>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Russian>
+                <German>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</German>
+                <Japanese>7.62mm EPR 50発入り M14 マガジン (4発毎にIR-DIM)</Japanese>
+                <Korean>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Korean>
+                <Chinesesimp>7.62mm EPR 50Rnd M14 Magazine (IR-DIM every 4)</Chinesesimp>
+            </Key>
+        </Container>
+        <Container name="Descriptions">
+            <Key ID="STR_NIA_M14_DESC">
+                <Original>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Fusil d'Assaut&lt;br/&gt;Calibre:7.62mm OTAN</French>
+                <Spanish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>インファントリー ライフル&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M14_Compact_DESC">
+                <Original>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Carabine Compacte&lt;br/&gt;Calibre: 7.62mm OTAN</French>
+                <Spanish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>コンパクト カービン&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_M21_DESC">
+                <Original>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Original>
+                <English>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</English>
+                <Czech>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Czech>
+                <French>Fusil de Tireur de Précision&lt;br/&gt;Calibre: 7.62mm OTAN</French>
+                <Spanish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Spanish>
+                <Italian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Italian>
+                <Polish>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Polish>
+                <Portuguese>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Portuguese>
+                <Russian>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Russian>
+                <German>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</German>
+                <Japanese>分隊選抜射手小銃&lt;br/&gt;口径: 7.62mm NATO</Japanese>
+                <Korean>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Korean>
+                <Chinesesimp>Designated Marksman Rifle&lt;br/&gt;Caliber:7.62mm NATO</Chinesesimp>
+            </Key>
+            <Key ID="STR_NIA_ARTEL_DESC">
+                <Original>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Original>
+                <English>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</English>
+                <Czech>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Czech>
+                <French>Lunette de visée Redfield AR-TEL&lt;br/&gt;Grossissement: 3-9x&lt;br/&gt;Ajustement: Came Balistique Externe 300-900m&lt;br/&gt;Réticule: Réticule Rangefinder Redfield</French>
+                <Spanish>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Spanish>
+                <Italian>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Italian>
+                <Polish>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Polish>
+                <Portuguese>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Portuguese>
+                <Russian>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Russian>
+                <German>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</German>
+                <Japanese>Redfield AR-TEL 倍率ライフル照準器&lt;br/&gt;倍率: 3-9x&lt;br/&gt;調整範囲: 外部弾道カメラ 300-900m&lt;br/&gt;照準線: Redfield 測距十字線</Japanese>
+                <Korean>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Korean>
+                <Chinesesimp>Redfield AR-TEL Magnified Rifle Sight&lt;br/&gt;Magnification: 3-9x&lt;br/&gt;Adjustment: External Ballistic Cam 300-900m&lt;br/&gt;Reticle: Redfield Ranging Crosshair</Chinesesimp>
+            </Key>
+        </Container>
+    </Package>
 </Project>

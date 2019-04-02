@@ -5,11 +5,11 @@
 
 class CfgPatches {
     class hlcweapons_FN3011 {
-        requiredaddons[] = {"hlcweapons_core"};
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","asdg_jointrails","hlcweapons_core"};
         units[] = {};
         weapons[] = {};
         magazines[] = {};
-        version="1";
+        version="1.05";
         author="toadie";
     };
 };
@@ -41,6 +41,7 @@ class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_long;
+class nia_charms_slot;
 class asdg_SlotInfo;
 class asdg_UnderSlot;
 class asdg_MuzzleSlot;
@@ -133,8 +134,8 @@ class CfgWeapons {
         dlc = "Niarms_FN3011";
         scope = public;
         author = "Toadie";
-        descriptionshort = "FN 4x28 STANAG Scope<br />Magnification: 4x";
-        displayname = "FN STANAG 4x28";
+        descriptionshort = $STR_NIA_FNZF4x_DESC;
+        displayname = $STR_NIA_optic_ZF4xBase;
         picture = "\hlc_core\tex\ui\gear_fnstanag_ca";
         model = "hlc_wp_FN3011\mesh\FN 4x\Scope.p3d";
         weaponInfoType = "RscWeaponZeroing";
@@ -188,7 +189,7 @@ class CfgWeapons {
     class hlc_optic_FNSTANAG2D : hlc_optic_FNSTANAG4X
     {
         author = "Toadie";
-        displayname = "FN STANAG 4x28(2D)";
+        displayname = $STR_NIA_optic_ZF4x_2d;
         class ItemInfo : ItemInfo
         {
             class OpticsModes : OpticsModes
@@ -213,8 +214,8 @@ class CfgWeapons {
         dlc = "Niarms_FN3011";
         scope = public;
         author = "Toadie";
-        descriptionshort = "Kern 4x24 Zielfernrohr <br />Magnification: 4x";
-        displayname = "Kern AARAU 4x24";
+        descriptionshort = $STR_NIA_AARAU_DESC;
+        displayname = $STR_NIA_optic_kern_AARAU_FN;
         picture = "hlc_core\tex\ui\gear_aarau_x_ca";
         model = "hlc_wp_FN3011\mesh\aarau\AARAU.p3d";
         weaponInfoType = "RscWeaponZeroing";
@@ -270,7 +271,7 @@ class CfgWeapons {
     {
         dlc = "Niarms_FN3011";
         author = "Toadie, Kaukaussus";
-        displayname = "Kern AARAU 4x24(2D)";
+        displayname = $STR_NIA_optic_kern_AARAU_2d_FN;
         class ItemInfo : ItemInfo
         {
             class OpticsModes : OpticsModes
@@ -294,8 +295,8 @@ class CfgWeapons {
         dlc = "Niarms_FN3011";
         scope = public;
         author = "Toadie";
-        descriptionshort = "Anschutz Match Diopter Sights<br />Magnification: 1x";
-        displayname = "Anschutz Diopter";
+        descriptionshort = $STR_NIA_anshutz_DESC;
+        displayname = $STR_NIA_optic_AnschutzN;
         picture = "\hlc_wp_FN3011\tex\ui\gear_diopter_ca";
         model = "hlc_wp_FN3011\mesh\angschutz\Scope.p3d";
         weaponInfoType = "RscWeaponZeroing";
@@ -353,12 +354,14 @@ class CfgWeapons {
     {
                 author = "Toadie";
                 model = "hlc_wp_FN3011\mesh\zf95\Scope.p3d";
+                displayname = $STR_NIA_optic_ZF95_FN;
     };
     class hlc_optic_LeupoldM3A;
     class hlc_optic_LeupoldM3A_3011:hlc_optic_LeupoldM3A
     {
             author = "Toadie";
             model = "hlc_wp_FN3011\mesh\m3a_3011\Scope.p3d";
+            displayname = $STR_NIA_optic_LeupoldM3A_FN;
 
     };
     class ItemCore;
@@ -374,7 +377,7 @@ class CfgWeapons {
         author = "Toadie";
         scope = protected;
         magazines[] = { __762FN_MAGS, __762FAL_MAGS };
-        magazineWell[] = {"CBA_762x51_FAL"};
+        magazineWell[] = { "CBA_762x51_FAL" };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         maxZeroing = 1600;
@@ -398,8 +401,9 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
             };
+            class Charmslot : nia_charms_slot {};
         };
-        descriptionShort = "Long-Range Rifle<br/>Caliber: 7.62mmx51 NATO";
+        descriptionShort = $STR_NIA_FN3011_DESC;
 
         dexterity = 1.8;
         bullet1[] = { "A3\sounds_f\weapons\shells\7_62\metal_762_01", 0.398107, 1, 15 };
@@ -507,11 +511,11 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         model = "\hlc_wp_FN3011\mesh\rifle\3011.p3d";
         reloadaction = "HLC_GestureReload3011";
-        descriptionShort = "Long-Range Rifle<br/>Caliber: 7.62mmx51 NATO";
+        descriptionShort = $STR_NIA_FN3011_DESC;
         inertia = 0.485;
         __DEXTERITY(4.85, 0);
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011_ca";
-        displayName = "FN30-11";
+        displayName = $STR_NIA_rifle_FN3011;
         discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
         bg_bipod = 1;
@@ -549,8 +553,12 @@ class CfgWeapons {
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011_50rnd";
+
             default = "hlc_rifle_FN3011";
         };
     };
@@ -559,7 +567,6 @@ class CfgWeapons {
             scopeArsenal = 0;
             author = "Toadie";
             reloadaction = "HLC_GestureReload3011_20rnd";
-            model = "\hlc_wp_FN3011\mesh\rifle\3011_20rnd.p3d";
             //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
             inertia = 0.485+0.078;
             __DEXTERITY(4.85+0.78, 0);
@@ -569,7 +576,6 @@ class CfgWeapons {
             scopeArsenal = 0;
             author = "Toadie";
             reloadaction = "HLC_GestureReload3011_50rnd";
-            model = "\hlc_wp_FN3011\mesh\rifle\3011_50rnd.p3d";
             //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
             inertia = 0.485+0.225;
             __DEXTERITY(4.85+2.25, 0);
@@ -578,7 +584,7 @@ class CfgWeapons {
         class hlc_rifle_FN3011_WDL: hlc_rifle_FN3011
         {
             picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011wdl_ca";
-            displayName = "FN30-11(Woodland)";
+            displayName = $STR_NIA_rifle_FN3011WDL;
             hiddenSelections[] = { "camo", "camo2","camo3"};
             hiddenSelectionsTextures[] = { "hlc_wp_fn3011\tex\main\3011_main_woodland_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories2_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories1_co.tga"  };
             HiddenSelectionsMaterials[] = { "hlc_wp_fn3011\mat\FN3011_main_wdl.rvmat", "hlc_wp_fn3011\mat\FN3011_accessories2.rvmat", "hlc_wp_fn3011\mat\FN3011_accessories1.rvmat"};
@@ -589,6 +595,9 @@ class CfgWeapons {
                 hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011_WDL_20rnd";
                 hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011_WDL_20rnd";
                 hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011_WDL_20rnd";
+                hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011_WDL_50rnd";
+                hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011_WDL_50rnd";
+                hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011_WDL_50rnd";
                 hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011_WDL_50rnd";
                 hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011_WDL_50rnd";
                 default = "hlc_rifle_FN3011_WDL";
@@ -599,7 +608,6 @@ class CfgWeapons {
             scopeArsenal = 0;
             author = "Toadie";
             reloadaction = "HLC_GestureReload3011_20rnd";
-            model = "\hlc_wp_FN3011\mesh\rifle\3011_20rnd.p3d";
             inertia = 0.485+0.078;
             __DEXTERITY(4.85+0.78, 0);
         };
@@ -608,7 +616,6 @@ class CfgWeapons {
             scopeArsenal = 0;
             author = "Toadie";
             reloadaction = "HLC_GestureReload3011_50rnd";
-            model = "\hlc_wp_FN3011\mesh\rifle\3011_50rnd.p3d";
             inertia = 0.485+0.225;
             __DEXTERITY(4.85+2.25, 0);
         };
@@ -649,11 +656,11 @@ class CfgWeapons {
         cursorAim = "EmptyCursor";
         model = "\hlc_wp_FN3011\mesh\rifle\3011Modernised.p3d";
         reloadaction = "HLC_GestureReload3011";
-        descriptionShort = "Long-Range Rifle<br/>Caliber: 7.62mmx51 NATO";
+        descriptionShort = $STR_NIA_FN3011_DESC;
         inertia = 0.485;
         __DEXTERITY(4.85, 0);
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011mod_ca";
-        displayName = "FN30-11 (Modernised)";
+        displayName = $STR_NIA_rifle_FN3011modern;
         discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
         bg_bipod = 1;
@@ -690,6 +697,9 @@ class CfgWeapons {
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Modern_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Modern_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Modern_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Modern_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Modern_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Modern_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Modern_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Modern_50rnd";
             default = "hlc_rifle_FN3011Modern";
@@ -700,7 +710,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Modernised_20rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.078;
         __DEXTERITY(4.85+0.78, 0);
@@ -710,7 +719,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Modernised_50rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.225;
         __DEXTERITY(4.85+2.25, 0);
@@ -718,7 +726,7 @@ class CfgWeapons {
 
     class hlc_rifle_FN3011Modern_camo : hlc_rifle_FN3011Modern
     {
-        displayName = "FN30-11(Modernised/Camo)";
+        displayName = $STR_NIA_rifle_FN3011moderncamo;
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011modkandahar_ca";
         hiddenSelections[] = { "camo", "camo2","camo3"};
         hiddenSelectionsTextures[] = { "hlc_wp_fn3011\tex\main\3011_main_kand_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories2_co.tga", "hlc_wp_fn3011\tex\lynx\3011_accessories1_co.tga"  };
@@ -730,6 +738,9 @@ class CfgWeapons {
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Modern_camo_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Modern_camo_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Modern_camo_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Modern_camo_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Modern_camo_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Modern_camo_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Modern_camo_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Modern_camo_50rnd";
             default = "hlc_rifle_FN3011Modern_camo";
@@ -740,16 +751,14 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Modernised_20rnd.p3d";
         inertia = 0.485+0.078;
         __DEXTERITY(4.85+0.78, 0);
     };
-class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
+    class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
     {
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Modernised_50rnd.p3d";
         inertia = 0.485+0.225;
         __DEXTERITY(4.85+2.25, 0);
     };
@@ -768,7 +777,7 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         cse_bipod = 0;
         tmr_autorest_deployable = 0;
         TMR_acc_bipod = 0;
-        displayName = "FN30-11 (Lynx)";
+        displayName = $STR_NIA_rifle_FN3011lynx;
         deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         magazineReloadSwitchPhase = 0.5;
@@ -787,7 +796,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         cursorAim = "EmptyCursor";
         model = "\hlc_wp_FN3011\mesh\rifle\3011Lynx.p3d";
         reloadaction = "HLC_GestureReload3011";
-        descriptionShort = "Long-Range Rifle<br/>Caliber: 7.62mmx51 NATO";
         inertia = 0.485;
         __DEXTERITY(4.85, 0);
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011lynx_ca";
@@ -826,6 +834,9 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Lynx_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Lynx_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Lynx_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Lynx_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Lynx_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Lynx_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Lynx_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Lynx_50rnd";
             default = "hlc_rifle_FN3011Lynx";
@@ -836,7 +847,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Lynx_20rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.078;
         __DEXTERITY(4.85+0.78, 0);
@@ -846,7 +856,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Lynx_50rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.225;
         __DEXTERITY(4.85+2.25, 0);
@@ -888,11 +897,10 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         cursorAim = "EmptyCursor";
         model = "\hlc_wp_FN3011\mesh\rifle\3011tactical.p3d";
         reloadaction = "HLC_Gesturereload3011_tac";
-        descriptionShort = "Long-Range Rifle<br/>Caliber: 7.62mmx51 NATO";
         inertia = 0.485+0.05;
         __DEXTERITY(4.85+0.480, 0);
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011tac1_ca";
-        displayName = "FN30-11 (Tac/Walnut)";
+        displayName = $STR_NIA_rifle_FN3011TAC_Wal;
         discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
         bg_bipod = 1;
@@ -915,6 +923,7 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
                 iconPosition[] = { 0.2, 0.45 };
                 iconScale = 0.25;
             };
+            class Charmslot {};
         };
         class Single : Single {
             __MOA(1.01);
@@ -930,6 +939,9 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Tactical_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Tactical_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Tactical_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Tactical_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Tactical_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Tactical_50rnd";
             default = "hlc_rifle_FN3011Tactical";
@@ -940,7 +952,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Tactical_20rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.05+0.078;
         __DEXTERITY(4.85+0.480+0.78, 0);
@@ -950,7 +961,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011Tactical_50rnd.p3d";
         //hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_core\tex\magazines\XMags_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         inertia = 0.485+0.05+0.225;
         __DEXTERITY(4.85+0.480+2.25, 0);
@@ -958,7 +968,7 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
 
     class hlc_rifle_FN3011Tactical_grey: hlc_rifle_FN3011Tactical
     {
-        displayName = "FN30-11 (Tac/Greyash)";
+        displayName = $STR_NIA_rifle_FN3011TAC_Grey;
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011tac2_ca";
         hiddenSelections[] = { "camo", "camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = { "hlc_wp_fn3011\tex\main\3011_main_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories2_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories1_co.tga", "hlc_wp_fn3011\tex\main\3011_golstock_Gray_co.tga"  };
@@ -969,6 +979,9 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Tactical_grey_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_grey_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Tactical_grey_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Tactical_grey_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Tactical_grey_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_grey_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Tactical_grey_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Tactical_grey_50rnd";
             default = "hlc_rifle_FN3011Tactical_grey";
@@ -979,7 +992,6 @@ class hlc_rifle_FN3011Modern_camo_50rnd : hlc_rifle_FN3011Modern_camo
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011tactical_20rnd.p3d";
         inertia = 0.485+0.05+0.078;
         __DEXTERITY(4.85+0.480+0.78, 0);
     };
@@ -988,13 +1000,12 @@ class hlc_rifle_FN3011Tactical_grey_50rnd : hlc_rifle_FN3011Tactical_grey
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011tactical_50rnd.p3d";
         inertia = 0.485+0.05+0.225;
         __DEXTERITY(4.85+0.480+2.25, 0);
     };
 class hlc_rifle_FN3011Tactical_green: hlc_rifle_FN3011Tactical
     {
-        displayName = "FN30-11 (Tac/Green)";
+        displayName = $STR_NIA_rifle_FN3011TAC_Green;
         picture = "\hlc_wp_fn3011\tex\ui\gear_fn3011tac3_ca";
         hiddenSelections[] = { "camo", "camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = { "hlc_wp_fn3011\tex\main\3011_main_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories2_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories1_co.tga", "hlc_wp_fn3011\tex\main\3011_golstock_beatsbydre_co.tga"  };
@@ -1005,6 +1016,9 @@ class hlc_rifle_FN3011Tactical_green: hlc_rifle_FN3011Tactical
             hlc_20Rnd_762x51_t_fal = "hlc_rifle_FN3011Tactical_green_20rnd";
             hlc_20Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_green_20rnd";
             hlc_20Rnd_762x51_S_fal = "hlc_rifle_FN3011Tactical_green_20rnd";
+            hlc_50Rnd_762x51_B_fal = "hlc_rifle_FN3011Tactical_green_50rnd";
+            hlc_50Rnd_762x51_T_fal = "hlc_rifle_FN3011Tactical_green_50rnd";
+            hlc_50Rnd_762x51_TDim_fal = "hlc_rifle_FN3011Tactical_green_50rnd";
             hlc_50rnd_762x51_M_FAL = "hlc_rifle_FN3011Tactical_green_50rnd";
             hlc_50rnd_762x51_MDIM_FAL = "hlc_rifle_FN3011Tactical_green_50rnd";
             default = "hlc_rifle_FN3011Tactical_green";
@@ -1015,7 +1029,6 @@ class hlc_rifle_FN3011Tactical_green_20rnd : hlc_rifle_FN3011Tactical_green
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_20rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011tactical_20rnd.p3d";
         inertia = 0.485+0.05+0.078;
         __DEXTERITY(4.85+0.480+0.78, 0);
     };
@@ -1024,7 +1037,6 @@ class hlc_rifle_FN3011Tactical_green_50rnd : hlc_rifle_FN3011Tactical_green
         scopeArsenal = 0;
         author = "Toadie";
         reloadaction = "HLC_GestureReload3011_50rnd";
-        model = "\hlc_wp_FN3011\mesh\rifle\3011tactical_50rnd.p3d";
         inertia = 0.485+0.05+0.225;
         __DEXTERITY(4.85+0.480+2.25, 0);
     };

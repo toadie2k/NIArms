@@ -38,7 +38,7 @@ class CfgPatches {
         };
         magazines[] = { "hlc_30Rnd_556x45_B_AUG", "hlc_30Rnd_556x45_SOST_AUG", "hlc_30Rnd_556x45_SPR_AUG", "hlc_30Rnd_556x45_T_AUG", "hlc_40Rnd_556x45_B_AUG", "hlc_40Rnd_556x45_SOST_AUG", "hlc_40Rnd_556x45_SPR_AUG", "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG","hlc_25Rnd_9x19mm_subsonic_AUG" };
         author="toadie";
-        version = "1.85";
+        version = "1.9";
     };
 };
 
@@ -57,7 +57,9 @@ class CfgSounds {
 class asdg_FrontSideRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
+class nia_rifle_grips_slot;
 class asdg_UnderSlot;
+class nia_charms_slot;
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_556: asdg_MuzzleSlot {
     class compatibleItems {
@@ -409,203 +411,336 @@ class CfgMagazines {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_B_AUG;
         initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
         mass = 10.8;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         author = "Spartan0536,Toadie";
     };
+
     class hlc_30Rnd_556x45_SOST_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_SOST_AUG;
         initspeed = 954.4;
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_aug_SOST_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
         scope = 2;
         tracersevery = 0;
         mass = 11.8;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         author = "Spartan0536,Toadie";
     };
+
     class hlc_30Rnd_556x45_SPR_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_SPR_AUG;
         initspeed = 868.7;
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_aug_SPR_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
         scope = 2;
         tracersevery = 0;
         mass = 12.8;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         author = "Spartan0536,Toadie";
     };
+
     class hlc_30Rnd_556x45_T_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_T_AUG;
         initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         scope = 2;
         tracersevery = 1;
         mass = 10.8;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         author = "Spartan0536,Toadie";
     };
+
+    class hlc_30Rnd_556x45_M_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_M_AUG;
+        initspeed = 974.8;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_aug_m_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        scope = 2;
+        tracersevery = 4;
+        mass = 10.8;
+        displaynameshort = $STR_NIA_556_M;
+        author = "Spartan0536,Toadie";
+    };
+
     class hlc_30Rnd_556x45_MDIM_AUG : 30Rnd_556x45_Stanag{
         dlc = "Niarms_AUG";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd AUG Magazine (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_MDIM_AUG;
         initspeed = 974.8;
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_aug_m_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         scope = 2;
         tracersevery = 4;
         mass = 10.8;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDIM;
         author = "Toadie";
     };
+
     class hlc_30Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
         dlc = "Niarms_AUG";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-DIM 30Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim_AUG;
+        displayname = $STR_NIA_30Rnd_556x45_IRDIM_AUG;
         initspeed = 974.8;
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         scope = 2;
         tracersevery = 1;
         mass = 10.8;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         author = "Toadie";
     };
+
     class hlc_40Rnd_556x45_B_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_EPR";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 42";
-        displayname = "5.56mm EPR 42Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_B_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_B_AUG;
         initspeed = 974.8;
         picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d; // I don't have a 42 round mag around to use, plz no bully. 
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
         scope = 2;
-        tracersevery = 3;
+        tracersevery = 0;
         mass = 14;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         author = "Spartan0536,Toadie";
-    };
-    class hlc_40Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
-        dlc = "Niarms_AUG";
-        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        count = 42;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 42";
-        displayname = "5.56mm IR-DIM 42Rnd AUG Magazine";
-        initspeed = 975;
-        lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
-        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
-        scope = 2;
-        tracersevery = 1;
-        mass = 14;
-        displaynameshort = "IR-DIM";
-        author = "Toadie";
     };
     class hlc_40Rnd_556x45_SOST_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SOST";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 42";
-        displayname = "5.56mm SOST 42Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_SOST_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_SOST_AUG;
         initspeed = 954.4;
-        picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_aug_SOST_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
         scope = 2;
         tracersevery = 3;
         mass = 15.2;
-        displaynameshort = "Mk318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         author = "Spartan0536,Toadie";
     };
     class hlc_40Rnd_556x45_SPR_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_556NATO_SPR";
         count = 42;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 42";
-        displayname = "5.56mm SBLR 42Rnd AUG Magazine";
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_SPR_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_SPR_AUG;
         initspeed = 868.7;
-        picture = "\hlc_core\tex\ui\ammo\m_augball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_aug_SPR_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
         scope = 2;
         tracersevery = 3;
         mass = 15.8;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         author = "Spartan0536,Toadie";
+    };
+    class hlc_40Rnd_556x45_T_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 42;
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_T_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_T_AUG;
+        initspeed = 974.8;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        scope = 2;
+        tracersevery = 1;
+        mass = 14;
+        displaynameshort = $STR_NIA_556_Tracer;
+        author = "Spartan0536,Toadie";
+    };
+    class hlc_40Rnd_556x45_TDIM_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 42;
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_irdim_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_irdim_AUG;
+        initspeed = 975;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_augtracer_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        scope = 2;
+        tracersevery = 1;
+        mass = 14;
+        displaynameshort = $STR_NIA_556_IRDIM;
+        author = "Toadie";
+    };
+    class hlc_40Rnd_556x45_M_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_M_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_M_AUG;
+        initspeed = 974.8;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_aug_m_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        scope = 2;
+        tracersevery = 4;
+        mass = 14;
+        displaynameshort = $STR_NIA_556_M;
+        author = "Spartan0536,Toadie";
+    };
+    class hlc_40Rnd_556x45_MDIM_AUG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AUG";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 42;
+        descriptionshort = $STR_NIA_DESC_42Rnd_556x45_Mdim_AUG;
+        displayname = $STR_NIA_42Rnd_556x45_MDIM_AUG;
+        initspeed = 974.8;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_aug_m_ca.paa";
+        model = "\hlc_wp_aug\mesh\magazine\magazine.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\30rnd_556NATO_AUG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        scope = 2;
+        tracersevery = 4;
+        mass = 10.8;
+        displaynameshort = $STR_NIA_556_MDIM;
+        author = "Toadie";
     };
     class hlc_25Rnd_9x19mm_M882_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_9x19_M882_SMG";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm M882 Ball<br />Type: Full Metal Jacket<br />Rounds: 25";
-        displayname = "9mm FMJ 25Rnd AUG SMG Magazine";
+        descriptionshort = $STR_NIA_DESC_25Rnd_9x19mm_M882_AUG;
+        displayname = $STR_NIA_25Rnd_9x19mm_M882_AUG;
         initspeed = 416.1;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_ball_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
         mass = 12.8;
-        displaynameshort = "M882 Ball";
+        displaynameshort = $STR_NIA_9x19mm_FMJ;
         author = "Spartan0536,Toadie";
     };
     class hlc_25Rnd_9x19mm_JHP_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_9x19_JHP_SMG";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm Mk243 Mod 0 JHP<br />Type: Jacketed Hollow Point (Winchester USA9JHP2)<br />Rounds: 25";
-        displayname = "9mm JHP 25Rnd AUG SMG Magazine";
+        descriptionshort = $STR_NIA_DESC_25Rnd_9x19mm_JHP_AUG;
+        displayname = $STR_NIA_25Rnd_9x19mm_JHP_AUG;
         initspeed = 315.8;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_JHP_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
         mass = 12.8;
-        displaynameshort = "Mk243 JHP";
+        displaynameshort = $STR_NIA_9x19mm_FMJ;
         author = "Spartan0536,Toadie";
     };
     class hlc_25Rnd_9x19mm_subsonic_AUG : 30Rnd_556x45_Stanag {
         dlc = "Niarms_AUG";
         ammo = "HLC_9x19_Subsonic";
         count = 25;
-        descriptionshort = "Caliber: 9x19mm Ball<br />Type: Full Metal Jacket<br />Rounds: 25";
-        displayname = "9mm Subsonic 25Rnd AUG SMG Magazine";
+        descriptionshort = $STR_NIA_DESC_25Rnd_9x19mm_subsonic_AUG;
+        displayname = $STR_NIA_25Rnd_9x19mm_Subsonic_AUG;
         initspeed = 305.8;
         picture = "\hlc_wp_aug\tex\ui\m_aug9mm_sub_ca.paa";
         model = "\hlc_wp_aug\mesh\magazine\magazine2.p3d";
+        modelSpecial = \hlc_wp_aug\mesh\magazine\proxy\25rnd_9x19mm_AUG.p3d;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
         mass = 12.6;
         author = "Spartan0536,Toadie";
-        displaynameshort = "Subsonic";
+        displaynameshort = $STR_NIA_9x19mm_Subsonic;
     };
 };
 
@@ -621,6 +756,18 @@ class CfgMagazineWells {
 		};
     };
 };
+class CfgRecoils
+{
+    class recoil_ebr;
+    class recoil_AUG9mm : recoil_ebr
+    {
+        muzzleOuter[] = { 0.1, 0.4, 0.2, 0.2 };
+        kickBack[] = { 0.01, 0.02 };
+        temporary = 0.007;
+        permanent = 0.09;
+    };
+};
+
 
 class CfgWeapons {
 
@@ -638,7 +785,7 @@ class CfgWeapons {
     class hlc_muzzle_snds_a6AUG : muzzle_snds_H {
         dlc = "Niarms_AUG";
         author = "Toadie";
-        displayName = "AWC Agenda Six (AUG-Thread)";
+        displayName = $STR_NIA_barrel_agenda6;
         picture = "\A3\weapons_F\Data\UI\gear_acca_snds_h_CA.paa";
         model = "hlc_wp_aug\mesh\agendasix\a6";
     };
@@ -648,8 +795,8 @@ class CfgWeapons {
     class hlc_barrel_standard : Itemcore {
         dlc = "Niarms_AUG";
         author = "Toadie";
-        displayName = "AUG Barrel (Standard)";
-        descriptionshort = "Steyr AUG QD-Barrel- 20in. Rifle";
+        displayName = $STR_NIA_barrel_standard;
+        descriptionshort = $STR_NIA_barrel_standard_DESC;
         picture = "\hlc_wp_aug\tex\ui\gear_barrel_standard_ca.paa";
         model = "hlc_wp_aug\mesh\pickup\Standard_barrel.p3d";
         scope = 2;
@@ -661,8 +808,8 @@ class CfgWeapons {
     class hlc_barrel_carbine : Itemcore {
         dlc = "Niarms_AUG";
         author = "Toadie";
-        displayName = "AUG Barrel (Carbine)";
-        descriptionshort = "Steyr AUG QD-Barrel- 16in. Carbine";
+        displayName = $STR_NIA_barrel_carbine;
+        descriptionshort = $STR_NIA_barrel_carbine_DESC;
         picture = "\hlc_wp_aug\tex\ui\gear_barrel_carbine_ca.paa";
         model = "hlc_wp_aug\mesh\pickup\Carbine_barrel.p3d";
         scope = 2;
@@ -674,8 +821,8 @@ class CfgWeapons {
     class hlc_barrel_hbar : Itemcore {
         dlc = "Niarms_AUG";
         author = "Toadie";
-        displayName = "AUG Barrel (HBAR)";
-        descriptionshort = "Steyr AUG QD-Barrel- 24in. HBAR";
+        displayName = $STR_NIA_barrel_hbar;
+        descriptionshort = $STR_NIA_barrel_HBAR_DESC;
         picture = "\hlc_wp_aug\tex\ui\gear_barrel_hbar_ca.paa";
         model = "hlc_wp_aug\mesh\pickup\HBAR_barrel.p3d";
         scope = 2;
@@ -687,8 +834,8 @@ class CfgWeapons {
     class hlc_barrel_9mm : Itemcore {
         dlc = "Niarms_AUG";
         author = "Toadie";
-        descriptionshort = "AUG 9mm Kit";
-        displayName = "Steyr AUG 9mm Caliber Conversion Kit";
+        descriptionshort = $STR_NIA_barrel_9mm_DESC;
+        displayName = $STR_NIA_barrel_9mm;
         picture = "\hlc_wp_aug\tex\ui\gear_barrel_9mm_ca.paa";
         model = "hlc_wp_aug\mesh\pickup\9mm_kit.p3d";
         scope = 2;
@@ -708,6 +855,7 @@ class CfgWeapons {
     };
 
     class hlc_aug_base : Rifle_Base_F {
+        recoil = "recoil_trg21";
         dlc = "Niarms_AUG";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
@@ -736,7 +884,7 @@ class CfgWeapons {
         };
         distanceZoomMin = 300;
         distanceZoomMax = 300;
-        descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
+        descriptionShort = $STR_NIA_AUG_DESC;
         magazines[] = { __556AUG_MAGS };
         magazineWell[] = {"CBA_556x45_STEYR"};
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
@@ -849,7 +997,7 @@ class CfgWeapons {
         inertia = 0.36;
         __DEXTERITY(3.6, 2);
         scope = public;
-        displayName = "Steyr AUGA1[OD]";
+        displayName = $STR_NIA_AUGA1_OD;
         model = "hlc_wp_aug\mesh\auga1\auga1.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1OD_x_ca";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
@@ -860,7 +1008,7 @@ class CfgWeapons {
         //modeloptics = "\hlc_wp_aug\mesh\auga1\reticle_a1";
         optics = 1;
         visionmode[] = { "Normal" };
-        HLC_CompatibleBarrels_Classes[]    = { "hlc_rifle_aug", "hlc_rifle_auga1carb", "hlc_rifle_aughbar", "hlc_rifle_augpara" };
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_aug", "hlc_rifle_auga1carb", "hlc_rifle_aughbar", "hlc_rifle_augpara" };
         HLC_CurrentBarrel = "hlc_barrel_standard";
 
         class Library {
@@ -873,6 +1021,7 @@ class CfgWeapons {
                 iconScale = 0.0;
             };
             class CowsSlot {};
+            class Charmslot : nia_charms_slot {};
         };
 
         modes[] = { "FullAuto", "Single", "fullauto_medium" }; // fixed optics, other modes don't work since we can't attach other opticsType's
@@ -885,7 +1034,7 @@ class CfgWeapons {
         class OpticsModes {
             class ACOG {
                 useModelOptics = 0;
-                opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+                opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
                 opticsFlare = 1;
                 opticsDisablePeripherialVision = 1;
                 opticsZoomInit = 0.166;
@@ -895,7 +1044,7 @@ class CfgWeapons {
                 distanceZoomMax = 300;
                 memorypointcamera = "eye";
                 opticsid = 1;
-                visionmode[] = {"Normal"};
+                visionmode[] = { "Normal" };
             };
             class Kolimator {
                 cameradir = "";
@@ -905,7 +1054,7 @@ class CfgWeapons {
                 opticsdisableperipherialvision = 0;
                 opticsflare = 0;
                 opticsid = 2;
-                opticsppeffects[] = {"", ""};
+                opticsppeffects[] = { "", "" };
                 __OPTICSZOOM_1X;
                 usemodeloptics = 0;
                 visionmode[] = {};
@@ -914,7 +1063,7 @@ class CfgWeapons {
     };
     class hlc_rifle_auga1_t : hlc_rifle_aug {
         author = "Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA1[Tan]";
+        displayName = $STR_NIA_AUGA1_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga1TAN_x_ca";
@@ -923,13 +1072,14 @@ class CfgWeapons {
     };
     class hlc_rifle_auga1_b : hlc_rifle_aug {
         author = "Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA1[Black]";
+        displayName = $STR_NIA_AUGA1_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga1carbineblack_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_b", "hlc_rifle_auga1carb_b", "hlc_rifle_aughbar_b", "hlc_rifle_augpara_b" };
         HLC_CurrentBarrel = "hlc_barrel_standard";
     };
+
     class hlc_rifle_auga1carb : hlc_rifle_aug {
         author = "Sarv, Tenoyl, Toadie";
         AB_barrelTwist = 9;
@@ -944,7 +1094,8 @@ class CfgWeapons {
         AGM_Overheating_allowSwapBarrel = 1;
         model = "hlc_wp_aug\mesh\auga1\AUGa1_Carbine.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1carbineOD_x_ca";
-        displayName = "Steyr AUGA1 Carbine[OD]";
+        displayName = $STR_NIA_AUGA1_Carbine_OD;
+        descriptionShort = $STR_NIA_AUG_Carbine_DESC;
         hiddenSelections[] = { "Camo" };
         reloadAction = "HLC_GestureReloadAUG";
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
@@ -967,9 +1118,9 @@ class CfgWeapons {
         };
         class fullauto_medium : FullAuto {
             showToPlayer = 0;
-            aiBurstTerminable = 1; 
-                burst = 4; 
-                __AI_ROF_CQB_CLOSE_BURST;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_CQB_CLOSE_BURST;
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 72;
@@ -979,7 +1130,7 @@ class CfgWeapons {
         author = "Sarv, Tenoyl, Toadie";
         model = "hlc_wp_aug\mesh\auga1\AUGa1_Carbine.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1carbineblack_x_ca";
-        displayName = "Steyr AUGA1 Carbine[Black]";
+        displayName = $STR_NIA_AUGA1_Carbine_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_black_co.paa" };
         modes[] = { "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
@@ -990,13 +1141,14 @@ class CfgWeapons {
         author = "Sarv, Tenoyl, Toadie";
         model = "hlc_wp_aug\mesh\auga1\AUGa1_Carbine.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1carbinetan_x_ca";
-        displayName = "Steyr AUGA1 Carbine[Tan]";
+        displayName = $STR_NIA_AUGA1_Carbine_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         modes[] = { "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_t", "hlc_rifle_auga1carb_t", "hlc_rifle_aughbar_t", "hlc_rifle_augpara_t" };
         HLC_CurrentBarrel = "hlc_barrel_carbine";
     };
+
     class hlc_rifle_aughbar : hlc_rifle_aug {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
@@ -1019,7 +1171,8 @@ class CfgWeapons {
         tmr_autorest_deployable = 1;
         model = "hlc_wp_aug\mesh\auga1\auga1_hbar.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1hbarOD_x_ca";
-        displayName = "Steyr AUGA1 HBAR[OD]";
+        displayName = $STR_NIA_AUGA1_HBAR_OD;
+        descriptionShort = $STR_NIA_AUG_HBAR_DESC;
         hiddenSelections[] = { "Camo" };
         reloadAction = "HLC_GestureReloadAUG";
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
@@ -1041,17 +1194,17 @@ class CfgWeapons {
             __AI_ROF_RIFLE_MEDIUM_SINGLE;
         };
 
-        modes[] = {"FullAuto", "close", "medium", "far"};
+        modes[] = { "FullAuto", "close", "medium", "far" };
 
         class close : FullAuto {
             showToPlayer = 0;
-            aiBurstTerminable = 1; 
-                burst = 7; 
-                __AI_ROF_AK_CLOSE_BURST;
+            aiBurstTerminable = 1;
+            burst = 7;
+            __AI_ROF_AK_CLOSE_BURST;
         };
         class medium : close {
             burst = 5;
-            __AI_ROF_AK_FAR_BURST; 
+            __AI_ROF_AK_FAR_BURST;
         };
         class far : close {
             requiredOpticType = 1;
@@ -1066,10 +1219,10 @@ class CfgWeapons {
         author = "Sarv, Tenoyl, Toadie";
         model = "hlc_wp_aug\mesh\auga1\auga1_hbar.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1hbarBLACK_x_ca";
-        displayName = "Steyr AUGA1 HBAR[Black]";
+        displayName = $STR_NIA_AUGA1_HBAR_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_black_co.paa" };
-        modes[] = { "FullAuto","fullauto_medium", "single_medium_optics1", "single_far_optics2" };
+        modes[] = { "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_b", "hlc_rifle_auga1carb_b", "hlc_rifle_aughbar_b", "hlc_rifle_augpara_b" };
         HLC_CurrentBarrel = "hlc_barrel_hbar";
     };
@@ -1077,14 +1230,16 @@ class CfgWeapons {
         author = "Sarv, Tenoyl, Toadie";
         model = "hlc_wp_aug\mesh\auga1\auga1_hbar.p3d";
         picture = "\hlc_wp_aug\tex\ui\gear_auga1hbarTAN_x_ca";
-        displayName = "Steyr AUGA1 HBAR[Tan]";
+        displayName = $STR_NIA_AUGA1_HBAR_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
-        modes[] = { "FullAuto","fullauto_medium", "single_medium_optics1", "single_far_optics2" };
+        modes[] = { "FullAuto", "fullauto_medium", "single_medium_optics1", "single_far_optics2" };
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_t", "hlc_rifle_auga1carb_t", "hlc_rifle_aughbar_t", "hlc_rifle_augpara_t" };
         HLC_CurrentBarrel = "hlc_barrel_hbar";
     };
+
     class hlc_rifle_augpara : hlc_aug_base {
+        recoil = "recoil_AUG9mm";
         author = "Sarv, Tenoyl, Toadie";
         inertia = 0.31;
         __DEXTERITY(3.1, 2);
@@ -1097,13 +1252,13 @@ class CfgWeapons {
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         scope = public;
         magazines[] = { "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG", "hlc_25Rnd_9x19mm_Subsonic_AUG" };
-        magazineWell[] = {"CBA_9x19_STEYR"};
-        displayName = "Steyr AUGA1 9mm[OD]";
+        magazineWell[] = { "CBA_9x19_STEYR" };
+        displayName = $STR_NIA_AUGA1_9mm_OD;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
         model = "hlc_wp_aug\mesh\augSMG\AUGa1.p3d";
         reloadAction = "HLC_GestureReloadAUGPara";
-        descriptionShort = "SMG<br/>Caliber: 9x19mm NATO";
+        descriptionShort = $STR_NIA_AUGPAra_DESC;
         reloadMagazineSound[] = { "hlc_wp_aug\snd\aug-arra_reload", 1, 1, 30 };
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
         optics = 0;
@@ -1117,6 +1272,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
             };
+            class Charmslot : nia_charms_slot {};
         };
 
         modes[] = { "FullAuto", "Single", "fullauto_medium" }; // fixed optics, other modes don't work since we can't attach other opticsType's
@@ -1206,22 +1362,24 @@ class CfgWeapons {
     };
     class hlc_rifle_augpara_b : hlc_rifle_augpara {
         author = "Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA1 9mm[Black]";
+        displayName = $STR_NIA_AUGA1_9mm_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
-        picture = "\hlc_wp_aug\tex\ui\gear_aug9mmBLACK_x_ca";\
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_b", "hlc_rifle_auga1carb_b", "hlc_rifle_aughbar_b", "hlc_rifle_augpara_b" };
+        picture = "\hlc_wp_aug\tex\ui\gear_aug9mmBLACK_x_ca"; \
+            HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_b", "hlc_rifle_auga1carb_b", "hlc_rifle_aughbar_b", "hlc_rifle_augpara_b" };
         HLC_CurrentBarrel = "hlc_barrel_9mm";
     };
     class hlc_rifle_augpara_t : hlc_rifle_augpara {
         author = "Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA1 9mm[Tan]";
+        displayName = $STR_NIA_AUGA1_9mm_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_aug9mmTAN_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga1_t", "hlc_rifle_auga1carb_t", "hlc_rifle_aughbar_t", "hlc_rifle_augpara_t" };
         HLC_CurrentBarrel = "hlc_barrel_9mm";
     };
+
+
 
     class hlc_rifle_auga2 : hlc_rifle_aug {
         author = "Sproily, Sarv, Tenoyl, Toadie";
@@ -1237,14 +1395,14 @@ class CfgWeapons {
         AGM_Overheating_allowSwapBarrel = 1;
         scope = public;
         picture = "\hlc_wp_aug\tex\ui\gear_auga2OD_x_ca";
-        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm"};
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
         reloadAction = "HLC_GestureReloadAUG";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2", "hlc_rifle_auga2carb", "hlc_rifle_auga2lsw", "hlc_rifle_auga2para" };
         HLC_CurrentBarrel = "hlc_barrel_standard";
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
-        bg_bipod = 0;      
-        displayName = "Steyr AUGA2[OD]";
+        bg_bipod = 0;
+        displayName = $STR_NIA_AUGA2_OD;
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1271,9 +1429,9 @@ class CfgWeapons {
             maxRange = 500;
         };
 
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 81;
-            class CowsSlot: asdg_OpticRail1913_short {
+            class CowsSlot : asdg_OpticRail1913_short {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
             };
@@ -1284,7 +1442,7 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2_t : hlc_rifle_auga2 {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2[Tan]";
+        displayName = $STR_NIA_AUGA2_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
@@ -1293,56 +1451,16 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2_b : hlc_rifle_auga2 {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2[Black]";
+        displayName = $STR_NIA_AUGA2_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2_b", "hlc_rifle_auga2carb_B", "hlc_rifle_auga2lsw_B", "hlc_rifle_auga2para_b" };
         HLC_CurrentBarrel = "hlc_barrel_standard";
     };
-    class hlc_rifle_augsr : hlc_rifle_auga2 {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        AGM_Overheating_Dispersion[] = { 0, 0.001, 0.002, 0.004 };
-        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
-        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
-        AGM_Overheating_allowSwapBarrel = 1;
-        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
-        reloadAction = "HLC_GestureReloadAUG";
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr", "hlc_rifle_augsrcarb", "hlc_rifle_augsrhbar"};
-        HLC_CurrentBarrel = "hlc_barrel_standard";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
-        bg_bipod = 0;
-        displayName = "Steyr AUG-SR[OD]";
-        inertia = 0.37;
-        __DEXTERITY(3.7, 2);
-        model = "hlc_wp_aug\mesh\auga2\auga2.p3d";
 
-        modes[] = { "Single", "single_medium_optics1", "single_far_optics2" };
-        class Single : Single {
-            showToPlayer = 1;
-            minRange = 0;
-        };
-    };
-    class hlc_rifle_augsr_t : hlc_rifle_augsr {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUG-SR[Tan]";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
-        picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_t", "hlc_rifle_augsrcarb_t", "hlc_rifle_augsrhbar_t" };
-        HLC_CurrentBarrel = "hlc_barrel_standard";
-    };
-    class hlc_rifle_augsr_b : hlc_rifle_augsr {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUG-SR[Black]";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
-        picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_b", "hlc_rifle_augsrcarb_B", "hlc_rifle_augsrhbar_B" };
-        HLC_CurrentBarrel = "hlc_barrel_standard";
-    };
     class hlc_rifle_auga2para : hlc_aug_base {
+        recoil = "recoil_AUG9mm";
         author = "Sproily, Sarv, Tenoyl, Toadie";
         AGM_Overheating_Dispersion[] = { 0, 0.001, 0.002, 0.004 };
         AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
@@ -1353,9 +1471,9 @@ class CfgWeapons {
         AB_barrelLength = 16.5;
         ACE_barrelTwist = 228.6;
         ACE_barrelLength = 419.1;
-        magazines[] = { "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG","hlc_25Rnd_9x19mm_Subsonic_AUG" };
-        magazineWell[] = {"CBA_9x19_STEYR"};
-        displayName = "Steyr AUGA2 9mm[OD]";
+        magazines[] = { "hlc_25Rnd_9x19mm_M882_AUG", "hlc_25Rnd_9x19mm_JHP_AUG", "hlc_25Rnd_9x19mm_Subsonic_AUG" };
+        magazineWell[] = { "CBA_9x19_STEYR" };
+        displayName = $STR_NIA_AUGA2_9mm_OD;
         hiddenSelections[] = { "Camo" };
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
@@ -1364,7 +1482,7 @@ class CfgWeapons {
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2", "hlc_rifle_auga2carb", "hlc_rifle_auga2lsw", "hlc_rifle_auga2para" };
         HLC_CurrentBarrel = "hlc_barrel_9mm";
         reloadMagazineSound[] = { "hlc_wp_aug\snd\aug-arra_reload", 1, 1, 30 };
-        descriptionShort = "SMG<br/>Caliber: 9x19mm NATO";
+        descriptionShort = $STR_NIA_AUGPAra_DESC;
         inertia = 0.31;
         __DEXTERITY(3.1, 2);
         optics = 0;
@@ -1383,7 +1501,7 @@ class CfgWeapons {
                 visionmode[] = {};
             };
         };
-        discretedistance[] = { 100};
+        discretedistance[] = { 100 };
         discretedistanceinitindex = 0;
         picture = "\hlc_wp_aug\tex\ui\gear_aug9mmA2_x_ca";
 
@@ -1476,6 +1594,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
             };
+            class Charmslot : nia_charms_slot {};
         };
         class Library {
             libTextDesc = "Steyr AUG A2";
@@ -1483,7 +1602,7 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2para_t : hlc_rifle_auga2para {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 9mm[Tan]";
+        displayName = $STR_NIA_AUGA2_9mm_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_aug9mmA2TAN_x_ca";
@@ -1492,13 +1611,14 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2para_b : hlc_rifle_auga2para {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 9mm[Black]";
+        displayName = $STR_NIA_AUGA2_9mm_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_aug9mmA2BLACK_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2_b", "hlc_rifle_auga2carb_B", "hlc_rifle_auga2lsw_B", "hlc_rifle_auga2para_b" };
         HLC_CurrentBarrel = "hlc_barrel_9mm";
     };
+
     class hlc_rifle_auga2carb : hlc_rifle_auga2 {
         author = "Sproily, Sarv, Tenoyl, Toadie";
 
@@ -1510,7 +1630,8 @@ class CfgWeapons {
         AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         AGM_Overheating_allowSwapBarrel = 1;
-        displayName = "Steyr AUGA2 Carbine[OD]";
+        displayName = $STR_NIA_AUGA2_Carbine_OD;
+        descriptionShort = $STR_NIA_AUG_Carbine_DESC;
         model = "hlc_wp_aug\mesh\auga2\AUGa2_carbine.p3d";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2", "hlc_rifle_auga2carb", "hlc_rifle_auga2lsw", "hlc_rifle_auga2para" };
         HLC_CurrentBarrel = "hlc_barrel_carbine";
@@ -1575,7 +1696,7 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2carb_t : hlc_rifle_auga2carb {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 Carbine[Tan]";
+        displayName = $STR_NIA_AUGA2_Carbine_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineTAN_x_ca";
@@ -1585,47 +1706,14 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2carb_b : hlc_rifle_auga2carb {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 Carbine[Black]";
+        displayName = $STR_NIA_AUGA2_Carbine_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineBLACK_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2_b", "hlc_rifle_auga2carb_B", "hlc_rifle_auga2lsw_B", "hlc_rifle_auga2para_b" };
         HLC_CurrentBarrel = "hlc_barrel_carbine";
     };
-    class hlc_rifle_augsrcarb : hlc_rifle_auga2carb {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        model = "hlc_wp_aug\mesh\auga2\augsr_carbine.p3d";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
-        bg_bipod = 0;
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr", "hlc_rifle_augsrcarb", "hlc_rifle_augsrhbar" };
-        HLC_CurrentBarrel = "hlc_barrel_carbine";
-        displayName = "Steyr AUG-SR Carbine[OD]";
 
-        modes[] = { "Single", "single_medium_optics1", "single_far_optics2" };
-        class Single : Single {
-            showToPlayer = 1;
-            minRange = 0;
-        };
-    };
-    class hlc_rifle_augsrcarb_t : hlc_rifle_augsrcarb {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA-SR Carbine[Tan]";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
-        picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineTAN_x_ca";
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_t", "hlc_rifle_augsrcarb_t", "hlc_rifle_augsrhbar_t" };
-        HLC_CurrentBarrel = "hlc_barrel_carbine";
-    };
-    class hlc_rifle_augsrcarb_b : hlc_rifle_augsrcarb {
-        author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUG-SR Carbine[Black]";
-        hiddenSelections[] = { "Camo" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
-        picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineBLACK_x_ca";
-        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_b", "hlc_rifle_augsrcarb_B", "hlc_rifle_augsrhbar_B" };
-        HLC_CurrentBarrel = "hlc_barrel_carbine";
-    };
     class hlc_rifle_auga2lsw : hlc_rifle_aughbar {
         author = "Sproily, Sarv, Tenoyl, Toadie";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1646,7 +1734,8 @@ class CfgWeapons {
         bg_bipod = 1;
         cse_bipod = 1;
         model = "hlc_wp_aug\mesh\auga2\auga2_hbar.p3d";
-        displayName = "Steyr AUGA2 HBAR[OD]";    
+        displayName = $STR_NIA_AUGA2_HBAR_OD;
+        descriptionShort = $STR_NIA_AUG_HBAR_DESC;
         picture = "\hlc_wp_aug\tex\ui\gear_auga2hbarOD_x_ca";
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
@@ -1672,7 +1761,7 @@ class CfgWeapons {
             class CowsSlot : asdg_OpticRail1913_short {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
-                };
+            };
         };
         class Library {
             libTextDesc = "Steyr AUG A2";
@@ -1685,7 +1774,7 @@ class CfgWeapons {
             __ROF(750);
         };
 
-        modes[] = {"FullAuto", "close", "short", "medium", "far_optic1", "far_optic2"};
+        modes[] = { "FullAuto", "close", "short", "medium", "far_optic1", "far_optic2" };
 
         class close : FullAuto {
             burst = 8;
@@ -1700,7 +1789,7 @@ class CfgWeapons {
             maxRangeProbab = 0.1;
             showToPlayer = 0;
         };
-        class short : close {
+        class short : close{
             burst = 7;
             aiRateOfFire = 2;
             aiRateOfFireDistance = 450;
@@ -1725,7 +1814,7 @@ class CfgWeapons {
             maxRangeProbab = 0.1;
         };
         class far_optic1 : close {
-			requiredOpticType = 1;
+            requiredOpticType = 1;
             burst = 3;
             aiRateOfFire = 3;
             aiRateOfFireDistance = 800;
@@ -1766,7 +1855,7 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2lsw_t : hlc_rifle_auga2lsw {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 HBAR[Tan]";
+        displayName = $STR_NIA_AUGA2_HBAR_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2hbarTAN_x_ca";
@@ -1775,13 +1864,94 @@ class CfgWeapons {
     };
     class hlc_rifle_auga2lsw_b : hlc_rifle_auga2lsw {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUGA2 HBAR[Black]";
+        displayName = $STR_NIA_AUGA2_HBAR_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2hbarBLACK_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_auga2_b", "hlc_rifle_auga2carb_B", "hlc_rifle_auga2lsw_B", "hlc_rifle_auga2para_b" };
         HLC_CurrentBarrel = "hlc_barrel_hbar";
     };
+
+
+
+    class hlc_rifle_augsr : hlc_rifle_auga2 {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        AGM_Overheating_Dispersion[] = { 0, 0.001, 0.002, 0.004 };
+        AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
+        AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
+        AGM_Overheating_allowSwapBarrel = 1;
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\aughands_hands.rtm" };
+        reloadAction = "HLC_GestureReloadAUG";
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr", "hlc_rifle_augsrcarb", "hlc_rifle_augsrhbar" };
+        HLC_CurrentBarrel = "hlc_barrel_standard";
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
+        bg_bipod = 0;
+        displayName = $STR_NIA_AUG_SR_OD;
+        inertia = 0.37;
+        __DEXTERITY(3.7, 2);
+        model = "hlc_wp_aug\mesh\auga2\auga2.p3d";
+
+        modes[] = { "Single", "single_medium_optics1", "single_far_optics2" };
+        class Single : Single {
+            showToPlayer = 1;
+            minRange = 0;
+        };
+    };
+    class hlc_rifle_augsr_t : hlc_rifle_augsr {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        displayName = $STR_NIA_AUG_SR_T;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
+        picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_t", "hlc_rifle_augsrcarb_t", "hlc_rifle_augsrhbar_t" };
+        HLC_CurrentBarrel = "hlc_barrel_standard";
+    };
+    class hlc_rifle_augsr_b : hlc_rifle_augsr {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        displayName = $STR_NIA_AUG_SR_B;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
+        picture = "\hlc_wp_aug\tex\ui\gear_auga2TAN_x_ca";
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_b", "hlc_rifle_augsrcarb_B", "hlc_rifle_augsrhbar_B" };
+        HLC_CurrentBarrel = "hlc_barrel_standard";
+    };
+
+    class hlc_rifle_augsrcarb : hlc_rifle_auga2carb {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        model = "hlc_wp_aug\mesh\auga2\augsr_carbine.p3d";
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
+        bg_bipod = 0;
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr", "hlc_rifle_augsrcarb", "hlc_rifle_augsrhbar" };
+        HLC_CurrentBarrel = "hlc_barrel_carbine";
+        displayName = $STR_NIA_AUG_SR_Carbine_OD;
+        descriptionShort = $STR_NIA_AUG_Carbine_DESC;
+        modes[] = { "Single", "single_medium_optics1", "single_far_optics2" };
+        class Single : Single {
+            showToPlayer = 1;
+            minRange = 0;
+        };
+    };
+    class hlc_rifle_augsrcarb_t : hlc_rifle_augsrcarb {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        displayName = $STR_NIA_AUG_SR_Carbine_T;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
+        picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineTAN_x_ca";
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_t", "hlc_rifle_augsrcarb_t", "hlc_rifle_augsrhbar_t" };
+        HLC_CurrentBarrel = "hlc_barrel_carbine";
+    };
+    class hlc_rifle_augsrcarb_b : hlc_rifle_augsrcarb {
+        author = "Sproily, Sarv, Tenoyl, Toadie";
+        displayName = $STR_NIA_AUG_SR_Carbine_B;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
+        picture = "\hlc_wp_aug\tex\ui\gear_auga2carbineBLACK_x_ca";
+        HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_b", "hlc_rifle_augsrcarb_B", "hlc_rifle_augsrhbar_B" };
+        HLC_CurrentBarrel = "hlc_barrel_carbine";
+    };
+
     class hlc_rifle_augsrhbar : hlc_rifle_auga2lsw {
         author = "Sproily, Sarv, Tenoyl, Toadie";
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
@@ -1792,7 +1962,8 @@ class CfgWeapons {
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_co.paa" };
         bg_bipod = 0;
-        displayName = "Steyr AUG-SR HBAR[OD]";
+        displayName = $STR_NIA_AUG_SR_HBAR_OD;
+        descriptionShort = $STR_NIA_AUG_HBAR_DESC;
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr", "hlc_rifle_augsrcarb", "hlc_rifle_augsrhbar" };
         HLC_CurrentBarrel = "hlc_barrel_hbar";
 
@@ -1804,7 +1975,7 @@ class CfgWeapons {
     };
     class hlc_rifle_augsrhbar_t : hlc_rifle_augsrhbar {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUG-SR HBAR[Tan]";
+        displayName = $STR_NIA_AUG_SR_HBAR_T;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_tan_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2hbarTAN_x_ca";
@@ -1813,17 +1984,20 @@ class CfgWeapons {
     };
     class hlc_rifle_augsrhbar_b : hlc_rifle_augsrhbar {
         author = "Sproily, Sarv, Tenoyl, Toadie";
-        displayName = "Steyr AUG-SR HBAR[Black]";
+        displayName = $STR_NIA_AUG_SR_HBAR_B;
         hiddenSelections[] = { "Camo" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\steyr_aug_BLACK_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga2hbarBLACK_x_ca";
         HLC_CompatibleBarrels_Classes[] = { "hlc_rifle_augsr_b", "hlc_rifle_augsrcarb_B", "hlc_rifle_augsrhbar_B" };
         HLC_CurrentBarrel = "hlc_barrel_hbar";
     };
+
+
+
     class hlc_rifle_auga3 : hlc_rifle_aug {
         author = "Wang_Chung, Philibuster, Toadie";
         inertia = 0.37;
-        __DEXTERITY(3.7, 2);
+        __DEXTERITY(3.7, 1);
         AB_barrelTwist = 9;
         AB_barrelLength = 18;
         ACE_barrelTwist = 228.6;
@@ -1833,12 +2007,12 @@ class CfgWeapons {
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
         AGM_Overheating_allowSwapBarrel = 1;
         scope = public;
-        displayName = "Steyr AUGA3[Green]";
+        displayName = $STR_NIA_AUGA3_Green;
         model = "hlc_wp_aug\mesh\auga3\auga3.p3d";
-        handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\auga3_hands.rtm"};
-        hiddenSelections[] = { "Camo","Vert" };
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_co.paa","\hlc_wp_aug\tex\redrogue_MVG\MVG_Diffuse-Green_co.paa" };
-        bg_bipod = 0;    
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_STD.rtm" };
+        hiddenSelections[] = { "Camo", "Vert" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_co.paa", "\hlc_wp_aug\tex\redrogue_MVG\MVG_Diffuse-Green_co.paa" };
+        bg_bipod = 0;
         optics = 0;
         class OpticsModes {
             class Kolimator {
@@ -1869,32 +2043,121 @@ class CfgWeapons {
         class Library {
             libTextDesc = "Steyr AUG A3";
         };
-        class WeaponSlotsInfo: WeaponSlotsInfo {
+        class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 81;
-            class CowsSlot: asdg_OpticRail1913 {
+            class CowsSlot : asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
             };
-            class PointerSlot: asdg_FrontSideRail {};
+            class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
+            class GripodSlot : nia_rifle_grips_slot {};
+            class Charmslot {};
         };
+
+        rhs_grip1_change = "hlc_rifle_auga3_grip";
+        rhs_grip2_change = "hlc_rifle_auga3_grip2";
+        rhs_grip3_change = "hhlc_rifle_auga3_grip3";
+        baseWeapon = "hlc_rifle_auga3";
     };
 
+    class hlc_rifle_auga3_grip : hlc_rifle_auga3
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hlc_rifle_auga3_grip2 : hlc_rifle_auga3
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_afg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hhlc_rifle_auga3_grip3 : hlc_rifle_auga3
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };        
     class hlc_rifle_auga3_bl : hlc_rifle_auga3 {
         author = "Wang_Chung, Philibuster, Toadie";
-        displayName = "Steyr AUGA3[Blue]";
+        displayName = $STR_NIA_AUGA3_bl;
         hiddenSelections[] = { "Camo", "Vert" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_blue_co.paa", "\hlc_wp_aug\tex\redrogue_MVG\MVG_Diffuse-Black_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga3BLUE_x_ca";
+        rhs_grip1_change = "hlc_rifle_auga3_bl_grip";
+        rhs_grip2_change = "hlc_rifle_auga3_bl_grip2";
+        rhs_grip3_change = "hhlc_rifle_auga3_bl_grip3";
+        baseWeapon = "hlc_rifle_auga3_bl";
+    };
 
+    class hlc_rifle_auga3_bl_grip : hlc_rifle_auga3_bl
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hlc_rifle_auga3_bl_grip2 : hlc_rifle_auga3_bl
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_afg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hhlc_rifle_auga3_bl_grip3 : hlc_rifle_auga3_bl
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
     };
     class hlc_rifle_auga3_b : hlc_rifle_auga3 {
         author = "Wang_Chung, Philibuster, Toadie";
-        displayName = "Steyr AUGA3[Black]";
+        displayName = $STR_NIA_AUGA3_B;
         hiddenSelections[] = { "Camo", "Vert" };
         hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_black_co.paa", "\hlc_wp_aug\tex\redrogue_MVG\MVG_Diffuse-Black_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_auga3BLACK_x_ca";
+        rhs_grip1_change = "hlc_rifle_auga3_b_grip";
+        rhs_grip2_change = "hlc_rifle_auga3_b_grip2";
+        rhs_grip3_change = "hhlc_rifle_auga3_b_grip3";
+        baseWeapon = "hlc_rifle_auga3_b";
     };
+
+    class hlc_rifle_auga3_b_grip : hlc_rifle_auga3_b
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hlc_rifle_auga3_b_grip2 : hlc_rifle_auga3_b
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_afg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+    class hhlc_rifle_auga3_b_grip3 : hlc_rifle_auga3_b
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\augA3_vfg.rtm" };
+        inertia = (0.37 + 0.066);
+        __DEXTERITY((3.7 + 0.66), 2);
+    };
+
     class hlc_rifle_auga3_GL : hlc_rifle_auga3 {
         author = "Wang_Chung, Philibuster, Toadie";
         scope = public;
@@ -1906,39 +2169,57 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 85;
             class UnderBarrelSlot {};
+            class GripodSlot {};
         };
-        inertia = 0.38+0.13;
-        __DEXTERITY(3.8+1.36, 2);
-        displayName = "Steyr AUGA3(GL)[Green]";
+        inertia = 0.38 + 0.13;
+        __DEXTERITY(3.8 + 1.36, 2);
+        displayName = $STR_NIA_AUGA3GL_Green;
         model = "hlc_wp_aug\mesh\auga3\AUGa3GL.p3d";
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_aug\gesture\a3\auga3gl_hands.rtm" };
         muzzles[] = { "this", "hlc_M203_AUGA3" };
         picture = "\hlc_wp_aug\tex\ui\gear_augglGREEN_x_ca";
         class hlc_M203_AUGA3 : UGL_F {
-            cameradir = "GL Look";
-            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350, 400 };
-            discreteDistanceCameraPoint[] = { "GL Eye1", "GL Eye15", "GL Eye2", "GL Eye25", "GL Eye3", "GL Eye35", "GL Eye4", "GL Eye45" }; /// the angle of gun changes with zeroing
+            cameradir = "GL_Look";
+            discreteDistance[] = { 50, 100, 150, 200, 250, 300, 350 };
+            discreteDistanceCameraPoint[] = { "gl_eye_50m", "gl_eye_100m", "gl_eye_150m", "gl_eye_200m", "gl_eye_250m", "gl_eye_300m", "gl_eye_350m" }; /// the angle of gun changes with zeroing
             discreteDistanceInitIndex = 1;
-            displayname = "M203A1";
+            displayname = "M203-2003";
             useModelOptics = false;
             useExternalOptic = false;
-            reloadAction = "GestureReloadTrgUGL";
-            cursoraim = "gl";
-            magazineWell[] = {"CBA_40mm_M203"};
+            reloadAction = "HLC_GestureReloadACRGL";
+            reloadMagazineSound[] = { "hlc_core\sound\GL\M203_reload", 1.0, 1, 10 };
+            drySound[] = { "hlc_core\sound\GL\GL_drystrike", 1, 1, 10 };
+            magazineWell[] = { "CBA_40mm_M203" };
+            class Single : Mode_SemiAuto {
+                sounds[] = { "StandardSound" };
+                class StandardSound {
+                    weaponSoundEffect = "DefaultRifle";
+                    closure1[] = { "hlc_core\sound\GL\GL_striker", 1, 1, 10 };
+                    closure2[] = { "hlc_core\sound\GL\GL_striker", 1, 1, 10 };
+                    soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+                    soundSetShot[] = { "NIA_GL_Shot_SoundSet", "NIA_GL_Tail_SoundSet" };
+                };
+                recoil = "M240Recoil";
+                recoilProne = "M240Recoil";
+                __AI_ROF_GL_SINGLE;
+            };
         };
+        baseWeapon = "hlc_rifle_auga3_GL";
     };
     class hlc_rifle_auga3_GL_BL : hlc_rifle_auga3_GL {
         author = "Wang_Chung, Philibuster, Toadie";
-        displayName = "Steyr AUGA3(GL)[Blue]";
-        hiddenSelections[] = { "Camo"};
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_blue_co.paa"};
+        displayName = $STR_NIA_AUGA3GL_bl;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_blue_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_augglBLUE_x_ca";
+        baseWeapon = "hlc_rifle_auga3_GL_BL";
     };
     class hlc_rifle_auga3_GL_B : hlc_rifle_auga3_GL {
         author = "Wang_Chung, Philibuster, Toadie";
-        displayName = "Steyr AUGA3(GL)[Black]";
-        hiddenSelections[] = { "Camo"};
-        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_black_co.paa"};
+        displayName = $STR_NIA_AUGA3GL_B;
+        hiddenSelections[] = { "Camo" };
+        hiddenSelectionsTextures[] = { "\hlc_wp_aug\tex\Philibust_A3\Wangchung\map2_black_co.paa" };
         picture = "\hlc_wp_aug\tex\ui\gear_augglBLACK_x_ca";
+        baseWeapon = "hlc_rifle_auga3_GL_B";
     };
 };
