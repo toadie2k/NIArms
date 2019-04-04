@@ -5,11 +5,11 @@
 
 class CfgPatches {
     class hlcweapons_m60e4 {
-        requiredaddons[] = {"hlcweapons_core"};
+        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","A3_Sounds_F_Mark","asdg_jointrails","hlcweapons_core"};
         units[] = {"HLC_M60E4_ammobox","Weapon_hlc_lmg_M60E4","Weapon_hlc_lmg_M60"};
         weapons[] = {};
         magazines[] = {};
-        version="10.5";
+        version="13";
         author="toadie";
     };
 };
@@ -34,7 +34,7 @@ class cfgMods {
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-
+class nia_charms_slot;
 class asdg_OpticRail1913_short_MG;
 
 class CfgVehicles {
@@ -57,8 +57,8 @@ class CfgVehicles {
             __M_MAG(hlc_100Rnd_762x51_M_M60E4,30);
         };
         class TransportWeapons {
-            __M_WEP(hlc_lmg_M60E4,20);
-            __M_WEP(hlc_lmg_M60,20);
+            __M_WEP(hlc_lmg_M60E4,10);
+            __M_WEP(hlc_lmg_M60,10);
         };
         class TransportItems {
             __M_ITM(optic_Holosight,10);
@@ -88,8 +88,8 @@ class CfgWeapons {
         cursor = "mg";
         cursoraim = "EmptyCursor";
         magazineReloadSwitchPhase = 0.5;
-        magazines[] = {__762NATO_BELTS,__762NATO_BI_BELTS};
-        magazineWell[] = {"CBA_762x51_LINKS"};
+        magazines[] = { __762NATO_BELTS, __762NATO_BI_BELTS };
+        magazineWell[] = { "CBA_762x51_LINKS" };
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
         aidispersioncoefx = 10;
@@ -108,10 +108,14 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class MuzzleSlot {};
-            class CowsSlot {};
+            class CowsSlot {
+                iconPosition[] = { 0.5, 0.30000001 };
+                iconScale = 0.2;
+            };
             class PointerSlot {};
+            class CharmSlot : nia_charms_slot{};
         };
-        descriptionShort = "Light Machine Gun<br/>Caliber: 7.62mm";
+        descriptionShort = $STR_NIA_M60_DESC;
         UiPicture = "\A3\weapons_f\data\UI\icon_mg_CA.paa";
 
         dexterity = 1.8;
@@ -128,7 +132,7 @@ class CfgWeapons {
         bullet8[] = {"A3\sounds_f\weapons\shells\7_62\dirt_762_04", 0.281838, 1, 15};
         bullet9[] = {"A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15};
         soundBullet[] = {"bullet1",0.083,"bullet2",0.083,"bullet3",0.083,"bullet4",0.083,"bullet5",0.083,"bullet6",0.083,"bullet7",0.083,"bullet8",0.083,"bullet9",0.083,"bullet10",0.083,"bullet11",0.083,"bullet12",0.083};
-        modes[] = {"FullAuto","close","short","medium","far_optic1","far_optic2"};
+        modes[] = {"FullAuto","close","short","medium","medium_burst","far","veryfar","far_optic1","toofar_optic1","far_optic2","toofar_optic2"};
         class FullAuto : Mode_FullAuto {
             sounds[] = {"StandardSound","SilencedSound"};
 
@@ -149,60 +153,36 @@ class CfgWeapons {
             };
             reloadTime = 0.105;
             dispersion=0.000261799;
-            minRange = 0;
-            minRangeProbab = 0.3;
-            midRange = 5;
-            midRangeProbab = 0.7;
-            maxRange = 10;
-            maxRangeProbab = 0.04;
-            airateoffire = 4;
+            __AI_ROF_MG_FULLAUTO;
         };
         class close : FullAuto {
-            burst = 10;
-            aiRateOfFire = 0.5;
-            aiRateOfFireDistance = 50;
-            minRange = 10;
-            minRangeProbab = 0.05;
-            midRange = 20;
-            midRangeProbab = 0.7;
-            maxRange = 50;
-            maxRangeProbab = 0.04;
+            __AI_ROF_MG_LONG_BURST;
             showToPlayer = 0;
         };
         class short : close {
-            burst = 8;
-            aiRateOfFire = 2;
-            aiRateOfFireDistance = 300;
-            minRange = 50;
-            minRangeProbab = 0.05;
-            midRange = 150;
-            midRangeProbab = 0.7;
-            maxRange = 300;
-            maxRangeProbab = 0.04;
+            __AI_ROF_MG_CLOSE_BURST;
         };
         class medium : close {
-            burst = 7;
-            aiRateOfFire = 4;
-            aiRateOfFireDistance = 600;
-            minRange = 200;
-            minRangeProbab = 0.05;
-            midRange = 300;
-            midRangeProbab = 0.3;
-            maxRange = 500;
-            maxRangeProbab = 0.05;
+            __AI_ROF_MG_SHORT_BURST;
+        };
+        class medium_burst : close {
+            __AI_ROF_MG_MEDIUM_BURST;
+        };
+        class far : close {
+            __AI_ROF_MG_FAR_BURST;
+        };
+        class veryfar : close {
+            __AI_ROF_MG_VERYFAR_BURST;
         };
         class far_optic1 : medium {
             requiredOpticType = 1;
             showToPlayer = 0;
-            burst = 3;
-            aiRateOfFire = 10;
-            aiRateOfFireDistance = 1000;
-            minRange = 300;
-            minRangeProbab = 0.05;
-            midRange = 500;
-            midRangeProbab = 0.4;
-            maxRange = 650;
-            maxRangeProbab = 0.01;
+            __AI_ROF_MG_FAR_SCOPE_BURST;
+        };
+        class toofar_optic1 : medium {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
         };
         class far_optic2 : far_optic1 {
             burst = 3;
@@ -216,9 +196,13 @@ class CfgWeapons {
             aiRateOfFire = 10;
             aiRateOfFireDistance = 900;
         };
-
-        drysound[] = {"hlc_core\sound\empty_machineguns", 1, 1, 10};
-        reloadmagazinesound[] = {"hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
+        class toofar_optic2 : far_optic2 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        };
+        drysound[] = {"\hlc_core\sound\empty_machineguns", 1, 1, 10};
+        reloadmagazinesound[] = {"\hlc_wp_M60E4\snd\m60_reload", 1, 1,10};
     };
     class hlc_lmg_M60E4 : hlc_M60e4_base {
         maxZeroing = 1100;
@@ -246,7 +230,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_m60e4\tex\m60e4_co.tga", "hlc_wp_m60e4\tex\m249_para_co.tga" };
         reloadaction = "HLC_GestureReloadM60";
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60e4_x_ca";
-        displayName = "M60E4";
+        displayName = $STR_NIA_M60E4;
         discretedistance[] = {300, 400, 500,600,700,800,900,1000,1100};
         cameradir = "aim_point";
         discreteDistanceCameraPoint[] = { "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11" }; /// the angle of gun changes with zeroing
@@ -258,8 +242,10 @@ class CfgWeapons {
         //modes[] = {"FullAuto"};
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m60e4\gesture\m60e4.rtm"};
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 193;
-            class CowsSlot : asdg_OpticRail1913_short_MG {};
+            mass = 212;
+            class CowsSlot : asdg_OpticRail1913_short_MG {                
+                iconPosition[] = { 0.5, 0.30000001 };
+                iconScale = 0.2;};
         };
         
 
@@ -271,6 +257,19 @@ class CfgWeapons {
         class Library {
             libTextDesc = "US Ordnance M60E4";
         };
+        class __MAGSWITCHCLASS {
+            hlc_200Rnd_762x51_B_M60E4 = "hlc_lmg_M60E4_200rnd";
+            hlc_200Rnd_762x51_M_M60E4 = "hlc_lmg_M60E4_200rnd";
+            hlc_200Rnd_762x51_Mdim_M60E4 = "hlc_lmg_M60E4_200rnd";
+            hlc_200Rnd_762x51_Barrier_M60E4 = "hlc_lmg_M60E4_200rnd";
+            hlc_200Rnd_762x51_T_M60E4 = "hlc_lmg_M60E4_200rnd";
+            default = "hlc_lmg_M60E4";
+        };
+    };
+    class hlc_lmg_M60E4_200rnd : hlc_lmg_M60E4
+    {
+        scopearsenal = 0;
+        model = "\hlc_wp_M60E4\mesh\m60e4_200rnd.p3d";
     };
     class hlc_lmg_m60 : hlc_M60e4_base
     {
@@ -295,7 +294,7 @@ class CfgWeapons {
         scope = public;
         inertia = 1.05;
         __DEXTERITY(10.5, 1);
-        displayName = "M60";
+        displayName = $STR_NIA_M60;
         picture = "\hlc_wp_M60E4\tex\ui\gear_m60_x_ca";
         model = "\hlc_wp_M60E4\mesh\m60classic\M60.p3d";
         hiddenSelections[] = { "Box", "Reciever", "Stock", "Fore_opaq", "Bipod_transp" };
@@ -318,7 +317,20 @@ class CfgWeapons {
             libTextDesc = "US Ordnance M60";
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 168;
+            mass = 231;
         };
+        class __MAGSWITCHCLASS {
+            hlc_200Rnd_762x51_B_M60E4 = "hlc_lmg_M60_200rnd";
+            hlc_200Rnd_762x51_M_M60E4 = "hlc_lmg_M60_200rnd";
+            hlc_200Rnd_762x51_Mdim_M60E4 = "hlc_lmg_M60_200rnd";
+            hlc_200Rnd_762x51_Barrier_M60E4 = "hlc_lmg_M60_200rnd";
+            hlc_200Rnd_762x51_T_M60E4 = "hlc_lmg_M60_200rnd";
+            default = "hlc_lmg_m60";
+        };
+    };
+    class hlc_lmg_M60_200rnd : hlc_lmg_M60E4
+    {
+        scopearsenal = 0;
+        model = "\hlc_wp_M60E4\mesh\m60classic\m60_200rnd.p3d";
     };
 };
