@@ -47,6 +47,9 @@ class asdg_OpticRail;
 class asdg_OpticRail1913;
 class asdg_OpticRail1913_short;
 class asdg_UnderSlot;
+class nia_rifle_bipodsgrips_slot;
+class nia_rifle_grips_slot;
+class nia_charms_slot;
 class asdg_MuzzleSlot_556;
 class asdg_MuzzleSlot_762;
 
@@ -350,15 +353,19 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR_G36;
         initspeed = 974.8;
         mass = 11.1;
         lastroundstracer = 2;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
         picture = "\hlc_wp_g36\tex\ui\m_g36_EPR_ca.paa";
     };
     class hlc_30rnd_556x45_SOST_G36 : 30Rnd_556x45_Stanag {
@@ -366,15 +373,19 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST_G36;
         initspeed = 954.4;
         mass = 12.1;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+        modelSpecialIsProxy = 1;
         picture = "\hlc_wp_g36\tex\ui\m_g36_SOST_ca.paa";
     };
     class hlc_30rnd_556x45_SPR_G36 : 30Rnd_556x45_Stanag {
@@ -382,85 +393,48 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR_G36;
         initspeed = 868.7;
         mass = 13.1;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
         picture = "\hlc_wp_g36\tex\ui\m_g36_SPR_ca.paa";
-    };
-    class hlc_100rnd_556x45_EPR_G36 : 30Rnd_556x45_Stanag {
-        dlc = "Niarms_G36";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_556NATO_EPR";
-        count = 100;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
-        displayname = "5.56mm EPR 100Rnd G36 Magazine";
-        initspeed = 974.8;
-        mass = 46;
-        lastroundstracer = 5;
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
-        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
-        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
-    };
-    class hlc_100rnd_556x45_M_G36 : 30Rnd_556x45_Stanag{
-        dlc = "Niarms_G36";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_556NATO_EPR_Tracer";
-        count = 100;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 100";
-        displayname = "5.56mm EPR 100Rnd G36 Magazine (Tracers Every 4)";
-        initspeed = 974.8;
-        mass = 46;
-        lastroundstracer = 5;
-        scope = 2;
-        tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
-        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
-        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
-    };
-    class hlc_100rnd_556x45_Mdim_G36 : 30Rnd_556x45_Stanag{
-        dlc = "Niarms_G36";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        count = 100;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 100";
-        displayname = "5.56mm EPR 100Rnd G36 Magazine (IR-DIM Every 4)";
-        initspeed = 974.8;
-        mass = 46;
-        lastroundstracer = 5;
-        scope = 2;
-        tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
-        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
-        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
     };
     class hlc_30rnd_556x45_S_G36 : hlc_30rnd_556x45_EPR_G36 {
         author = "Toadie";
         initspeed = 340;
-        descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displaynameshort = $STR_NIA_556_Sub;
+        displayname = $STR_NIA_30rnd_556x45_S_G36;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_30rnd_556x45_Tracers_G36 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_G36";
         author = "Toadie, Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T_G36;
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
     class hlc_30rnd_556x45_TDIM_G36 : 30Rnd_556x45_Stanag{
@@ -468,15 +442,19 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-DIM 30Rnd G36 Magazine";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim_G36;
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
     };
     class hlc_30rnd_556x45_MDIM_G36 : 30Rnd_556x45_Stanag{
@@ -484,16 +462,100 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd G36 Magazine (IR-DIM Every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim_G36;
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
+    };
+    class hlc_30rnd_556x45_M_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M_G36;
+        initspeed = 974.8;
+        mass = 11;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_556_M;
+        model = "\hlc_wp_g36\mesh\magazine\magazine_556.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\30rnd_556NATO_G36.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        picture = "\hlc_wp_g36\tex\ui\m_g36_tracer_ca.paa";
+    };
+    class hlc_100rnd_556x45_EPR_G36 : 30Rnd_556x45_Stanag {
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_EPR";
+        count = 100;
+        descriptionshort = $STR_NIA_DESC_100Rnd_556x45_B_G36;
+        displayname = $STR_NIA_100Rnd_556x45_EPR_G36;
+        initspeed = 974.8;
+        mass = 46;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = "M855A1 EPR";
+        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\100rnd_556NATO_CMAG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
+        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
+    };
+    class hlc_100rnd_556x45_M_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_556NATO_EPR_Tracer";
+        count = 100;
+        descriptionshort = $STR_NIA_DESC_100Rnd_556x45_M_G36;
+        displayname = $STR_NIA_100Rnd_556x45_M_G36;
+        initspeed = 974.8;
+        mass = 46;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_556_M;
+        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\100rnd_556NATO_CMAG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
+    };
+    class hlc_100rnd_556x45_Mdim_G36 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_G36";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+        count = 100;
+        descriptionshort = $STR_NIA_DESC_100Rnd_556x45_Mdim_G36;
+        displayname = $STR_NIA_100Rnd_556x45_MDim_G36;
+        initspeed = 974.8;
+        mass = 46;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_556_MDim;
+        model = "\hlc_wp_g36\mesh\magazine\magazine_cmag.p3d";
+        modelSpecial = \hlc_wp_g36\mesh\magazine\proxy\100rnd_556NATO_CMAG.p3d;
+        modelSpecialIsProxy = 1;
+        hiddenSelections[] = { "roundtype1", "roundtype2" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
+        picture = "\hlc_wp_g36\tex\ui\m_g36_CMAG_ca.paa";
     };
 };
 
@@ -519,8 +581,8 @@ class CfgWeapons {
     class HLC_Optic_G36dualoptic35x : optic_Arco {
         dlc = "Niarms_G36";
         author = "Toadie";
-        descriptionshort = "Hensoldt-Wetzlar Dual Optic Sight for the G36 Rifle<br />Magnification: 3.5x";
-        displayname = "G36 Dual-Optic 3.5x";
+        descriptionshort = $STR_NIA_35xoptic_DESC;
+        displayname = $STR_NIA_optic_G36dualoptic35x;
         model = "\hlc_wp_G36\mesh\optics\dualoptic3-5x.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         inertia = 0;
@@ -563,7 +625,7 @@ class CfgWeapons {
     class HLC_Optic_G36dualoptic35x2d : HLC_Optic_G36dualoptic35x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayname = "G36 Dual-Optic 3.5x(2D)";
+        displayname = $STR_NIA_optic_G36dualoptic35x2D;
         inertia = 0;
         class ItemInfo : ItemInfo {
             class OpticsModes: OpticsModes {
@@ -576,15 +638,15 @@ class CfgWeapons {
     };
     class HLC_Optic_G36Export35x : HLC_Optic_G36dualoptic35x {
         author = "Toadie";
-        descriptionshort = "Hensoldt-Wetzlar Optic Sight for the G36 Rifle(Export Variant)<br />Magnification: 3.5x";
-        displayname = "G36 Export Optic 3.5x";
+        descriptionshort = $STR_NIA_35xoptic_DESC;
+        displayname = $STR_NIA_optic_G36exportoptic35x;
         model = "\hlc_wp_G36\mesh\optics\Export3-5x.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_exportoptic_ca";
     };
     class HLC_Optic_G36Export35x2d : HLC_Optic_G36Export35x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayname = "G36 Export Optic 3.5x(2D)";
+        displayname = $STR_NIA_optic_G36exportoptic35x2D;
         class ItemInfo : ItemInfo {
             class OpticsModes: OpticsModes {
                 class Snip: Snip {
@@ -598,8 +660,8 @@ class CfgWeapons {
     class HLC_Optic_G36Dualoptic15x : HLC_Optic_G36dualoptic35x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayname = "G36 Dual-Optic 1.5x";
-        descriptionshort = "Hensoldt-Wetzlar Dual Optic Sight for the G36 Rifle<br />Magnification: 1.5x";
+        displayname = $STR_NIA_optic_G36dualoptic15x;
+        descriptionshort = $STR_NIA_15xoptic_DESC;
         model = "\hlc_wp_G36\mesh\optics\dualoptic1-5x.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_dualoptic_ca";
         class ItemInfo : InventoryOpticsItem_Base_F {
@@ -639,8 +701,8 @@ class CfgWeapons {
     class HLC_Optic_G36Dualoptic15x2d : HLC_Optic_G36Dualoptic15x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        descriptionshort = "Hensoldt-Wetzlar Dual Optic Sight for the G36 Rifle<br />Magnification: 1.5x";
-        displayname = "G36 Dual-Optic 1.5x(2D)";
+        descriptionshort = $STR_NIA_15xoptic_DESC;
+        displayname = $STR_NIA_optic_G36dualoptic15x2D;
         class ItemInfo : ItemInfo {
             class OpticsModes: OpticsModes {
                 class Snip: Snip {
@@ -653,8 +715,8 @@ class CfgWeapons {
     class HLC_Optic_G36Export15x : HLC_Optic_G36dualoptic15x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        descriptionshort = "Hensoldt-Wetzlar Optic Sight for the G36 Rifle(Export Variant)<br />Magnification: 1.5x";
-        displayname = "G36 Export Optic 1.5x";
+        descriptionshort = $STR_NIA_15xoptic_DESC;
+        displayname = $STR_NIA_optic_G36exportoptic15x;
         model = "\hlc_wp_G36\mesh\optics\Export1-5xy.p3d";
         picture = "\hlc_wp_G36\tex\ui\gear_exportoptic_ca";
 
@@ -662,8 +724,8 @@ class CfgWeapons {
     class HLC_Optic_G36Export15x2d : HLC_Optic_G36Export15x {
         dlc = "Niarms_G36";
         author = "Toadie";
-        descriptionshort = "Hensoldt-Wetzlar Optic Sight for the G36 Rifle(Export Variant)<br />Magnification: 1.5x";
-        displayname = "G36 Export Optic 1.5x(2D)";
+        descriptionshort = $STR_NIA_15xoptic_DESC;
+        displayname = $STR_NIA_optic_G36exportoptic15x2D;
         class ItemInfo : ItemInfo {
             class OpticsModes: OpticsModes {
                 class Snip: Snip {
@@ -678,7 +740,7 @@ class CfgWeapons {
     class HLC_Bipod_G36 : ItemCore
     {
         scope = 2;																	/// available in Arsenal
-        displayName = "G36 Bipod";													/// name of item in Inventory (and Arsenal)
+        displayName = $STR_NIA_optic_G36Bipod;													/// name of item in Inventory (and Arsenal)
         picture = "\A3\Weapons_F_Mark\Data\UI\gear_accu_bipod_01_snd_CA.paa";			/// icon in Inventory
         model = "hlc_wp_g36\mesh\acc\MG_Bipod.p3d";						/// path to model"P:\hlc_wp_g36\mesh\acc\MG_Bipod.p3d"
         class ItemInfo : InventoryUnderItem_Base_F
@@ -693,7 +755,7 @@ class CfgWeapons {
     };
     class hlc_G36_base : Rifle_Base_F {
         scope = protected;
-        recoil = "recoil_trg20";
+        recoil = "recoil_mk20";
         maxZeroing = 1600;
         deployedpivot = "deploypivot";
         hasBipod = false;
@@ -879,10 +941,10 @@ class CfgWeapons {
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = false;
-        displayName = "HK G36A1";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
+        displayName = $STR_NIA_rifle_G36A1;
+        descriptionShort =$STR_NIA_G36_DESC;
         reloadAction = "HLC_GestureReloadG36A1";
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_STD.rtm" };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -930,6 +992,7 @@ class CfgWeapons {
                     HLC_Bipod_G36 =  1;
                 };
             };
+            class CharmSlot :nia_charms_slot{};
         };
         inertia = 0.36;
         __DEXTERITY(3.6, 0);
@@ -945,7 +1008,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36A1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1-cmag_ca.paa";
         inertia = 0.36+0.21;
         __DEXTERITY(3.6+2.1, 0);
@@ -954,7 +1016,7 @@ class CfgWeapons {
     class hlc_rifle_G36A1AG36 : hlc_rifle_G36A1 {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36A1(GL)";
+        displayName = $STR_NIA_rifle_G36A1GL;
         muzzles[] = { "this", "hlc_GL_AG36"};
         model = "hlc_wp_g36\mesh\G36A1\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
@@ -986,7 +1048,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36A1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_AG36A1-cmag_ca.paa";
         inertia = 0.51+0.21;
         __DEXTERITY(3.6+2.1+1.5, 0);
@@ -1004,11 +1065,11 @@ class CfgWeapons {
         hasBipod = true;
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
-        recoil = "recoil_trg20";
-        displayName = "HK MG36A1";
-        descriptionShort = "Infantry Rifle<br/>Caliber: 5.56mm NATO";
+        recoil = "recoil_mk20";
+        displayName = $STR_NIA_rifle_MG36;
+        descriptionShort = $STR_NIA_MG36_DESC;
         reloadAction = "HLC_GestureReloadG36A1";
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_STD.rtm" };
         class OpticsModes {
             class Kolimator {
                 cameradir = "";
@@ -1049,6 +1110,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
             class CowsSlot : niarms_G36_OpticSlot {};
+            class CharmSlot :nia_charms_slot{};
         };
         inertia = 0.38+0.21;
         __DEXTERITY(3.8+2.1, 0);
@@ -1073,7 +1135,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36 LSW\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36A1_ca.paa";
         inertia = 0.38;
         __DEXTERITY(3.8, 0);
@@ -1083,8 +1144,8 @@ class CfgWeapons {
         ACE_barrelTwist = 178;
         ACE_barrelLength = 318;
         author = "Toadie";
-        displayName = "HK G36KA1";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 5.56mm NATO";
+        displayName = $STR_NIA_rifle_G36KA1;
+        descriptionShort = $STR_NIA_G36_Carbine_DESC;
         model = "hlc_wp_g36\mesh\G36A1\G36K.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_G36k_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
@@ -1146,7 +1207,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36A1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36k-cmag_ca.paa";
         inertia = 0.34+0.21;
         __DEXTERITY(3.4+2.1, 0);
@@ -1162,8 +1222,8 @@ class CfgWeapons {
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = false;
-        displayName = "HK G36C";
-        descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
+        displayName = $STR_NIA_rifle_G36C;
+        descriptionShort = $STR_NIA_G36_Compact_DESC;
         reloadAction = "HLC_GestureReloadG36A1";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
         discretedistance[] = { 100, 200, 300, 400, 500 };
@@ -1178,6 +1238,7 @@ class CfgWeapons {
             mass = 61;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
+            class CharmSlot :nia_charms_slot{};
         };
         inertia = 0.28;
         __DEXTERITY(2.8, 0);
@@ -1294,7 +1355,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36E1\G36c_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36c-cmag_ca.paa";
         inertia = 0.28+0.21;
         __DEXTERITY(2.8+2.1, 0);
@@ -1305,7 +1365,7 @@ class CfgWeapons {
         author = "Toadie";
         scope = public;
         model = "hlc_wp_g36\mesh\G36E1\G36.p3d";
-        displayName = "HK G36E";
+        displayName = $STR_NIA_rifle_G36E;
         picture = "\hlc_wp_g36\tex\ui\Gear_G36E_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
@@ -1323,7 +1383,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36E1\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36e-cmag_ca.paa";
         inertia = 0.36+0.21;
         __DEXTERITY(3.6+2.1, 0);
@@ -1335,7 +1394,7 @@ class CfgWeapons {
         author = "Toadie";
         scope = public;
         model = "hlc_wp_g36\mesh\G36E1\AG36.p3d";
-        displayName = "HK G36E(GL)";
+        displayName = $STR_NIA_rifle_G36EGL;
         picture = "\hlc_wp_g36\tex\ui\gear_AG36E_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
@@ -1353,7 +1412,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_ag36E-CMAG_ca.paa";
         inertia = 0.51+0.21;
         __DEXTERITY(3.6+1.5+2.1, 0);
@@ -1363,7 +1421,7 @@ class CfgWeapons {
     {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36E'Romi'(GL)";
+        displayName = $STR_NIA_rifle_G36EGL_Romi;
         scope = public;
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\daitomod\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_magwell_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\commonmaps\daitomod\g36_ag36_co.tga" };
 
@@ -1379,7 +1437,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36E1\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36E-Romicmag_ca.paa";
         inertia = 0.51+0.21;
         __DEXTERITY(3.6+1.5+2.1, 0);
@@ -1389,8 +1446,8 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         scope = public;
-        model = "hlc_wp_g36\mesh\G36E1\G36K.p3d";
-        displayName = "HK G36KE";
+        model = "hlc_wp_g36\mesh\G36E1\G36k.p3d";
+        displayName = $STR_NIA_rifle_G36KE;
         picture = "\hlc_wp_g36\tex\ui\gear_g36ke_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_ke_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
@@ -1413,7 +1470,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36E1\G36k_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36ke-cmag_ca.paa";
         inertia = 0.34+0.21;
         __DEXTERITY(3.4+2.1, 0);
@@ -1422,12 +1478,13 @@ class CfgWeapons {
     class hlc_rifle_G36V : hlc_rifle_G36E1 {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36V";
+        displayName = $STR_NIA_rifle_G36V;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_STD.rtm" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
         class OpticsModes {
             class Kolimator {
@@ -1449,6 +1506,8 @@ class CfgWeapons {
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
+            class GripodSlot : nia_rifle_grips_slot {};
+            class CharmSlot{};
         };
         inertia = 0.33;
         __DEXTERITY(3.3, 0);
@@ -1459,22 +1518,98 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36V_CMAG";
             default = "hlc_rifle_G36V";
         };
+        rhs_grip1_change = "hlc_rifle_G36V_grip";
+        rhs_grip2_change = "hlc_rifle_G36V_grip2";
+        rhs_grip3_change = "hlc_rifle_G36V_grip3";
+        baseWeapon = "hlc_rifle_G36V";
     };
+
+    class hlc_rifle_G36V_grip : hlc_rifle_G36V
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36V_CMAG_grip";
+            default = "hlc_rifle_G36V_grip";
+        };
+    };
+    class hlc_rifle_G36V_grip2 : hlc_rifle_G36V
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_AFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36V_CMAG_grip2";
+            default = "hlc_rifle_G36V_grip2";
+        };
+    };
+    class hlc_rifle_G36V_grip3 : hlc_rifle_G36V
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36V_CMAG_grip3";
+            default = "hlc_rifle_G36V_grip3";
+        };
+    };
+
     class hlc_rifle_G36V_CMAG : hlc_rifle_G36V
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36V\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36v-cmag_ca.paa";
-        inertia = 0.33+0.21;
-        __DEXTERITY(3.3+2.1, 0);
+        inertia = 0.36+0.21;
+        __DEXTERITY(3.6+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36V_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36V_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36V_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36V_CMAG";
     };
+    class hlc_rifle_G36V_CMAG_grip : hlc_rifle_G36V_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36V_CMAG_grip2 : hlc_rifle_G36V_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_AFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36V_CMAG_grip3 : hlc_rifle_G36V_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+
 
     class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36KV";
+        displayName = $STR_NIA_rifle_G36KV;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
@@ -1501,6 +1636,8 @@ class CfgWeapons {
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
+            class GripodSlot : nia_rifle_grips_slot {};
+            class CharmSlot{};
         };
         inertia = 0.3;
         __DEXTERITY(3.0, 0);
@@ -1511,51 +1648,206 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KV_CMAG";
             default = "hlc_rifle_G36KV";
         };
+        rhs_grip1_change = "hlc_rifle_G36KV_grip";
+        rhs_grip2_change = "hlc_rifle_G36KV_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KV_grip3";
+        baseWeapon = "hlc_rifle_G36KV";
+    };
+    class hlc_rifle_G36KV_grip : hlc_rifle_G36KV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KV_CMAG_grip";
+            default = "hlc_rifle_G36KV_grip";
+        };
+    };
+    class hlc_rifle_G36KV_grip2 : hlc_rifle_G36KV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KV_CMAG_grip2";
+            default = "hlc_rifle_G36KV_grip2";
+        };
+    };
+    class hlc_rifle_G36KV_grip3 : hlc_rifle_G36KV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KV_CMAG_grip3";
+            default = "hlc_rifle_G36KV_grip3";
+        };
     };
     class hlc_rifle_G36KV_CMAG : hlc_rifle_G36KV
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36V\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36kv-cmag_ca.paa";
-        inertia = 0.3+0.21;
-        __DEXTERITY(3.0+2.1, 0);
+        inertia = 0.33+0.21;
+        __DEXTERITY(3.3+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36KV_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36KV_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KV_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36KV_CMAG";
     };
+
+    class hlc_rifle_G36KV_CMAG_grip : hlc_rifle_G36KV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.33 + 0.21 + 0.066);
+        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KV_CMAG_grip2 : hlc_rifle_G36KV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
+        inertia = (0.33 + 0.21 + 0.066);
+        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KV_CMAG_grip3 : hlc_rifle_G36KV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+
 
     class hlc_rifle_G36CV : hlc_rifle_G36C {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36CV";
+        displayName = $STR_NIA_rifle_G36CV;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36C.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36CV_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
-
+        class WeaponSlotsInfo : WeaponSlotsInfo {
+            class CowsSlot : asdg_OpticRail1913 {};
+            class PointerSlot : asdg_FrontSideRail {};
+            class UnderBarrelSlot :asdg_UnderSlot {};
+            class GripodSlot : nia_rifle_grips_slot {};
+            class CharmSlot{};
+        };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36cV_CMAG";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36cV_CMAG";
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36cV_CMAG";
             default = "hlc_rifle_G36cV";
         };
+        rhs_grip1_change = "hlc_rifle_G36CV_grip";
+        rhs_grip2_change = "hlc_rifle_G36CV_grip2";
+        rhs_grip3_change = "hlc_rifle_G36CV_grip3";
+        baseWeapon = "hlc_rifle_G36CV";
     };
+    class hlc_rifle_G36CV_grip : hlc_rifle_G36CV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CV_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CV_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CV_CMAG_grip";
+            default = "hlc_rifle_G36CV_grip";
+        };
+    };
+    class hlc_rifle_G36CV_grip2 : hlc_rifle_G36CV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CV_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CV_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CV_CMAG_grip2";
+            default = "hlc_rifle_G36CV_grip2";
+        };
+    };
+    class hlc_rifle_G36CV_grip3 : hlc_rifle_G36CV
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CV_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CV_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CV_CMAG_grip3";
+            default = "hlc_rifle_G36CV_grip3";
+        };
+    };
+
     class hlc_rifle_G36cV_CMAG : hlc_rifle_G36cV
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36cv-cmag_ca.paa";
         inertia = 0.28+0.21;
         __DEXTERITY(2.8+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36CV_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36CV_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36CV_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36CV_CMAG";
+    };
+    class hlc_rifle_G36CV_CMAG_grip : hlc_rifle_G36CV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((2.8 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36CV_CMAG_grip2 : hlc_rifle_G36CV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36CV_CMAG_grip3 : hlc_rifle_G36CV_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((2.8 + 2.1 + 0.66), 1);
     };
 
     class hlc_rifle_G36VAG36 : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36V(GL)";
+        displayName = $STR_NIA_rifle_G36V_GL;
         muzzles[] = { "this", "hlc_GL_AG36" };
         model = "hlc_wp_g36\mesh\G36V\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
@@ -1565,6 +1857,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 100;
             class UnderBarrelSlot {};
+            class GripodSlot {};
         };
         inertia = 0.48;
         __DEXTERITY(3.3 + 1.5, 0);
@@ -1575,13 +1868,13 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36VAG36_CMAG";
             default = "hlc_rifle_G36VAG36";
         };
+        baseWeapon = "hlc_rifle_G36VAG36";
     };
     class hlc_rifle_G36VAG36_CMAG : hlc_rifle_G36VAG36
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36V\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36v-cmag_ca.paa";
         inertia = 0.48+0.21;
         __DEXTERITY(3.3+1.5+2.1, 0);
@@ -1592,9 +1885,10 @@ class CfgWeapons {
         model = "hlc_wp_g36\mesh\G36KSK\G36KSK.p3d";
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36K(KSK)";
+        displayName = $STR_NIA_rifle_G36KVksk;
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36_reload", 0.9, 1, 35 };
         reloadAction = "HLC_GestureReloadG36A1";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36","Rails" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         modes[] = { "Single", "FullAuto", "single_medium_optics1", "single_far_optics2" };
@@ -1605,16 +1899,89 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1KSK_CMAG";
             default = "hlc_rifle_G36KA1KSK";
         };
+        rhs_grip1_change = "hlc_rifle_G36KA1KSK_grip";
+        rhs_grip2_change = "hlc_rifle_G36KA1KSK_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KA1KSK_grip3";
+        baseWeapon = "hlc_rifle_G36KA1KSK";
+    };
+    class hlc_rifle_G36KA1KSK_grip : hlc_rifle_G36KA1KSK
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip";
+            default = "hlc_rifle_G36KA1KSK_grip";
+        };
+    };
+    class hlc_rifle_G36KA1KSK_grip2 : hlc_rifle_G36KA1KSK
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip2";
+            default = "hlc_rifle_G36KA1KSK_grip2";
+        };
+    };
+    class hlc_rifle_G36KA1KSK_grip3 : hlc_rifle_G36KA1KSK
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KA1KSK_CMAG_grip3";
+            default = "hlc_rifle_G36KA1KSK_grip3";
+        };
     };
     class hlc_rifle_G36KA1KSK_CMAG : hlc_rifle_G36KA1KSK
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36KSK\G36ksk_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ksk-cmag_ca.paa";
         inertia = 0.3+0.21;
         __DEXTERITY(3.0+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36KA1KSK_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36KA1KSK_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KA1KSK_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36KA1KSK_CMAG";
+    };
+    class hlc_rifle_G36KA1KSK_CMAG_grip : hlc_rifle_G36KA1KSK_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.21 + 0.066);
+        __DEXTERITY((3 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KA1KSK_CMAG_grip2 : hlc_rifle_G36KA1KSK_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.3 + 0.21 + 0.066);
+        __DEXTERITY((3 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KA1KSK_CMAG_grip3 : hlc_rifle_G36KA1KSK_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.21 + 0.066);
+        __DEXTERITY((3 + 2.1 + 0.66), 1);
     };
 
     class HLC_Rifle_G36KSKAG36 : hlc_rifle_G36KA1KSK
@@ -1623,7 +1990,7 @@ class CfgWeapons {
         model = "hlc_wp_g36\mesh\G36KSK\AG36.p3d";
         dlc = "Niarms_G36";
         author = "Toadie";
-        displayName = "HK G36K(KSK/GL)";
+        displayName = $STR_NIA_rifle_G36KVksk_GL;
         muzzles[] = { "this", "hlc_GL_AG36" };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1645,7 +2012,6 @@ class CfgWeapons {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36KSK\AG36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_ag36ksk-cmag_ca.paa";
         inertia = 0.45+0.21;
         __DEXTERITY(3.0+1.5+2.1, 0);
@@ -1655,8 +2021,9 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36tactical\G36.p3d";
-        displayName = "HK G36V(KAC)";
+        displayName = $STR_NIA_rifle_G36V_TAC;
         picture = "\hlc_wp_g36\tex\ui\Gear_G36tac_ca.paa";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock","Rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1669,24 +2036,98 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36TAC_CMAG";
             default = "hlc_rifle_G36TAC";
         };
+        rhs_grip1_change = "hlc_rifle_G36TAC_grip";
+        rhs_grip2_change = "hlc_rifle_G36TAC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36TAC_grip3";
+        baseWeapon = "hlc_rifle_G36TAC";
+    };
+    class hlc_rifle_G36TAC_grip : hlc_rifle_G36TAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.32 + 0.066);
+        __DEXTERITY((3.2 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36TAC_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36TAC_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36TAC_CMAG_grip";
+            default = "hlc_rifle_G36TAC_grip";
+        };
+    };
+    class hlc_rifle_G36TAC_grip2 : hlc_rifle_G36TAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.32 + 0.066);
+        __DEXTERITY((3.2 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36TAC_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36TAC_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36TAC_CMAG_grip2";
+            default = "hlc_rifle_G36TAC_grip2";
+        };
+    };
+    class hlc_rifle_G36TAC_grip3 : hlc_rifle_G36TAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.32 + 0.066);
+        __DEXTERITY((3.2 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36TAC_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36TAC_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36TAC_CMAG_grip3";
+            default = "hlc_rifle_G36TAC_grip3";
+        };
     };
     class hlc_rifle_G36TAC_CMAG : hlc_rifle_G36TAC
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36Tactical\G36_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36tac-cmag_ca.paa";
         inertia = 0.32+0.21;
         __DEXTERITY(3.2+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36TAC_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36TAC_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36TAC_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36TAC_CMAG";
+    };
+    class hlc_rifle_G36TAC_CMAG_grip : hlc_rifle_G36TAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.32 + 0.21 + 0.066);
+        __DEXTERITY((3.2 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36TAC_CMAG_grip2 : hlc_rifle_G36TAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.32 + 0.21 + 0.066);
+        __DEXTERITY((3.2 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36TAC_CMAG_grip3 : hlc_rifle_G36TAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.32 + 0.21 + 0.066);
+        __DEXTERITY((3.2 + 2.1 + 0.66), 1);
     };
 
     class hlc_rifle_g36KTac : hlc_rifle_G36KV {
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36tactical\G36K.p3d";
-        displayName = "HK G36KV(KAC)";
+        displayName = $STR_NIA_rifle_G36KV_TAC;
         picture = "\hlc_wp_g36\tex\ui\Gear_G36ktac_ca.paa";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1699,25 +2140,99 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_g36KTac_CMAG";
             default = "hlc_rifle_g36KTac";
         };
+        rhs_grip1_change = "hlc_rifle_G36KTAC_grip";
+        rhs_grip2_change = "hlc_rifle_G36KTAC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KTAC_grip3";
+        baseWeapon = "hlc_rifle_g36KTac";
+    };
+    class hlc_rifle_G36KTAC_grip : hlc_rifle_G36KTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KTAC_CMAG_grip";
+            default = "hlc_rifle_G36KTAC_grip";
+        };
+    };
+    class hlc_rifle_G36KTAC_grip2 : hlc_rifle_G36KTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KTAC_CMAG_grip2";
+            default = "hlc_rifle_G36KTAC_grip2";
+        };
+    };
+    class hlc_rifle_G36KTAC_grip3 : hlc_rifle_G36KTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.36 + 0.066);
+        __DEXTERITY((3.6 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36KTAC_CMAG_grip3";
+            default = "hlc_rifle_G36KTAC_grip3";
+        };
     };
     class hlc_rifle_g36KTac_CMAG : hlc_rifle_g36KTac
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36Tactical\G36K_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ktac-cmag_ca.paa";
         inertia = 0.3+0.21;
         __DEXTERITY(3.0+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36KTAC_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36KTAC_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KTAC_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36KTAC_CMAG";
+    };
+    class hlc_rifle_G36KTAC_CMAG_grip : hlc_rifle_G36KTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KTAC_CMAG_grip2 : hlc_rifle_G36KTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36KTAC_CMAG_grip3 : hlc_rifle_G36KTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.36 + 0.21 + 0.066);
+        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
     };
 
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
         dlc = "Niarms_G36";
         author = "Toadie";
         model = "hlc_wp_g36\mesh\G36tactical\G36C.p3d";
-        displayName = "HK G36CV(KAC)";
+        displayName = $STR_NIA_rifle_G36CV_TAC;
         descriptionShort = "Compact Carbine<br/>Caliber: 5.56mm NATO";
         picture = "\hlc_wp_g36\tex\ui\Gear_G36Ctac_ca.paa";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "Rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_cv_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -1730,16 +2245,89 @@ class CfgWeapons {
             hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CTac_CMAG";
             default = "hlc_rifle_G36CTac";
         };
+        rhs_grip1_change = "hlc_rifle_G36CTAC_grip";
+        rhs_grip2_change = "hlc_rifle_G36CTAC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36CTAC_grip3";
+        baseWeapon = "hlc_rifle_G36CTAC";
+    };
+    class hlc_rifle_G36CTAC_grip : hlc_rifle_G36CTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CTAC_CMAG_grip";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CTAC_CMAG_grip";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CTAC_CMAG_grip";
+            default = "hlc_rifle_G36CTAC_grip";
+        };
+    };
+    class hlc_rifle_G36CTAC_grip2 : hlc_rifle_G36CTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CTAC_CMAG_grip2";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CTAC_CMAG_grip2";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CTAC_CMAG_grip2";
+            default = "hlc_rifle_G36CTAC_grip2";
+        };
+    };
+    class hlc_rifle_G36CTAC_grip3 : hlc_rifle_G36CTAC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+        class __MAGSWITCHCLASS {
+            hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36CTAC_CMAG_grip3";
+            hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36CTAC_CMAG_grip3";
+            hlc_100rnd_556x45_M_G36 = "hlc_rifle_G36CTAC_CMAG_grip3";
+            default = "hlc_rifle_G36CTAC_grip3";
+        };
     };
     class hlc_rifle_G36CTac_CMAG : hlc_rifle_G36CTac
     {
         scopeArsenal = 0;
         dlc = "Niarms_G36";
         author = "Toadie";
-        model = "hlc_wp_g36\mesh\G36Tactical\G36C_CMag.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36ctac-cmag_ca.paa";
         inertia = 0.28+0.21;
         __DEXTERITY(2.8+2.1, 0);
+        rhs_grip1_change = "hlc_rifle_G36CTAC_CMAG_grip";
+        rhs_grip2_change = "hlc_rifle_G36CTAC_CMAG_grip2";
+        rhs_grip3_change = "hlc_rifle_G36CTAC_CMAG_grip3";
+        baseWeapon = "hlc_rifle_G36CTAC_CMAG";
+    };
+    class hlc_rifle_G36CTAC_CMAG_grip : hlc_rifle_G36CTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((2.8 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36CTAC_CMAG_grip2 : hlc_rifle_G36CTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((2.8 + 2.1 + 0.66), 1);
+    };
+    class hlc_rifle_G36CTAC_CMAG_grip3 : hlc_rifle_G36CTAC_CMAG
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.21 + 0.066);
+        __DEXTERITY((2.8 + 2.1 + 0.66), 1);
     };
     ///CASELESS 
 
@@ -1754,11 +2342,11 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         recoil = "recoil_mx";
-        displayName = "HK G36-MLI(C)";
-        descriptionShort = "Infantry Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
+        displayName = $STR_NIA_rifle_G36_MLI;
+        descriptionShort = $STR_NIA_G36MLI_DESC;
         reloadAction = "HLC_GestureReloadG36MLI";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\g36mlic_reload", 0.9, 1, 35 };
-        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ar18.rtm" };
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         discretedistance[] = { 100, 200, 300, 400, 500,600,700,800 };
         discretedistanceinitindex = 1;
         magazines[] = {
@@ -1788,6 +2376,7 @@ class CfgWeapons {
                 iconScale = 0.0;
             };
             class UnderBarrelSlot : asdg_UnderSlot {};
+            class GripodSlot : nia_rifle_grips_slot {};
         };
 
         modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
@@ -1848,6 +2437,34 @@ class CfgWeapons {
             burst = 4;
             __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
+        rhs_grip1_change = "hlc_rifle_G36MLIC_grip";
+        rhs_grip2_change = "hlc_rifle_G36MLIC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36MLIC_grip3";
+        baseWeapon = "hlc_rifle_G36MLIC";
+    };
+    class hlc_rifle_G36MLIC_grip : hlc_rifle_G36MLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
+    };
+    class hlc_rifle_G36MLIC_grip2 : hlc_rifle_G36MLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
+    };
+    class hlc_rifle_G36MLIC_grip3 : hlc_rifle_G36MLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
     };
 
     class hlc_rifle_G36KMLIC : hlc_rifle_G36MLIC {
@@ -1855,7 +2472,8 @@ class CfgWeapons {
         author = "Toadie";
         ACE_barrelTwist = 203;
         ACE_barrelLength = 318;
-        displayName = "HK G36K-MLI(C)";
+        displayName = $STR_NIA_rifle_G36K_MLI;
+        descriptionShort = $STR_NIA_G36MLI_Carbine_DESC;
         model = "hlc_wp_g36\mesh\G36MLIC\G36K.p3d";
         inertia = 0.3;
         __DEXTERITY(3.0, 0);
@@ -1913,15 +2531,42 @@ class CfgWeapons {
             burst = 4;
             __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
+        rhs_grip1_change = "hlc_rifle_G36KMLIC_grip";
+        rhs_grip2_change = "hlc_rifle_G36KMLIC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36KMLIC_grip3";
+        baseWeapon = "hlc_rifle_G36KMLIC";
     };
-
+    class hlc_rifle_G36KMLIC_grip : hlc_rifle_G36KMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+    };
+    class hlc_rifle_G36KMLIC_grip2 : hlc_rifle_G36KMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+    };
+    class hlc_rifle_G36KMLIC_grip3 : hlc_rifle_G36KMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3 + 0.66), 1);
+    };
     class hlc_rifle_G36CMLIC : hlc_rifle_G36MLIC {
         dlc = "Niarms_G36";
         author = "Toadie";
         ACE_barrelTwist = 203;
         ACE_barrelLength = 278;
-        displayName = "HK G36C-MLI(C)";
-        descriptionShort = "Compact Carbine<br/>Caliber: 6.5x38mm NATO Caseless";
+        displayName = $STR_NIA_rifle_G36C_MLI;
+        descriptionShort = $STR_NIA_G36MLI_Compact_DESC;
         model = "hlc_wp_g36\mesh\G36MLIC\G36C.p3d";
         inertia = 0.28;
         __DEXTERITY(2.8, 0);
@@ -2010,11 +2655,39 @@ class CfgWeapons {
             burst = 4;
             __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
+        rhs_grip1_change = "hlc_rifle_G36CMLIC_grip";
+        rhs_grip2_change = "hlc_rifle_G36CMLIC_grip2";
+        rhs_grip3_change = "hlc_rifle_G36CMLIC_grip3";
+        baseWeapon = "hlc_rifle_G36CMLIC";
+    };
+    class hlc_rifle_G36CMLIC_grip : hlc_rifle_G36CMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+    };
+    class hlc_rifle_G36CMLIC_grip2 : hlc_rifle_G36CMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_AFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
+    };
+    class hlc_rifle_G36CMLIC_grip3 : hlc_rifle_G36CMLIC
+    {
+        scopeArsenal = 0;
+        author = "Toadie";
+        handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_VFG.rtm" };
+        inertia = (0.28 + 0.066);
+        __DEXTERITY((2.8 + 0.66), 1);
     };
 
     class hlc_rifle_G36MLIAG36 : hlc_rifle_G36MLIC {
         dlc = "Niarms_G36";
-        displayName = "HK G36MLI(C)(GL)";
+        displayName = $STR_NIA_rifle_G36_MLI_GL;
         muzzles[] = { "this", "hlc_GL_AG36" };
         model = "hlc_wp_g36\mesh\G36MLIC\AG36.p3d";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\handpose_ag36.rtm" };
@@ -2025,6 +2698,8 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 100;
             class UnderBarrelSlot {};
+            class GripodSlot {};
         };
+        baseWeapon = "hlc_rifle_G36MLIAG36";
     };
 };

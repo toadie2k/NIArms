@@ -25,7 +25,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\G36_MLI\g36_mli_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -273,7 +273,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36c_MLI\g36c_MLI_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -442,7 +442,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36k_MLI\g36k_MLI_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 1800;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -612,7 +612,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36\g36_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -636,7 +636,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -886,7 +886,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36c\g36c_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -1070,7 +1070,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "hlc_wp_g36\snd\soundshaders\g36k\g36k_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
 		range = 2000;
 		rangeCurve[] = {
 			{ 0, 0.5 },
@@ -1094,7 +1094,7 @@ class CfgSoundShaders
 	{
 		samples[] = {
 			{ "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
