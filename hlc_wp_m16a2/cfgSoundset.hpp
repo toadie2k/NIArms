@@ -1,0 +1,184 @@
+
+class CfgSoundSets {
+
+    class nia_carbine2_Shot_SoundSet {
+        soundShaders[] = { "carbine2_closeShot_SoundShader", "carbine2_midShot_SoundShader", "carbine2_distShot_SoundShader", "carbine2_Closure_SoundShader" };
+        volumeFactor = 1.3;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+    };
+    class nia_carbine2_Tail_SoundSet {
+        soundShaders[] = { "carbine2_tailDistant_SoundShader", "carbine2_tailForest_SoundShader", "carbine2_tailHouses_SoundShader", "carbine2_tailInterior_SoundShader", "carbine2_tailMeadows_SoundShader", "carbine2_tailTrees_SoundShader" };
+        volumeFactor = 1.4;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_carbine2_silencerShot_SoundSet {
+        soundShaders[] = { "carbine2_silencerShot_SoundShader", "carbine2_Closure_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+    };
+    class nia_carbine2_silencerTail_SoundSet {
+        soundShaders[] = { "carbine2_silencerTailTrees_SoundShader", "carbine2_silencerTailForest_SoundShader", "carbine2_silencerTailMeadows_SoundShader", "carbine2_silencerTailHouses_SoundShader", "carbine2_silencerTailInterior_SoundShader" };
+        volumeFactor = 0.7;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_SBR2_Shot_SoundSet {
+        soundShaders[] = { "SBR2_closeShot_SoundShader", "SBR2_midShot_SoundShader", "SBR2_distShot_SoundShader", "SBR2_Closure_SoundShader" };
+        volumeFactor = 1.35;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+    };
+    class nia_sbr2_Tail_SoundSet {
+        soundShaders[] = { "sbr2_tailDistant_SoundShader", "sbr2_tailForest_SoundShader", "sbr2_tailHouses_SoundShader", "sbr2_tailInterior_SoundShader", "sbr2_tailMeadows_SoundShader", "sbr2_tailTrees_SoundShader" };
+        volumeFactor = 1.4;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_sbr2_silencerShot_SoundSet {
+        soundShaders[] = { "sbr2_silencerShot_SoundShader", "sbr2_Closure_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+    };
+    class nia_sbr2_silencerTail_SoundSet {
+        soundShaders[] = { "sbr2_silencerTailTrees_SoundShader", "sbr2_silencerTailForest_SoundShader", "sbr2_silencerTailMeadows_SoundShader", "sbr2_silencerTailHouses_SoundShader", "sbr2_silencerTailInterior_SoundShader" };
+        volumeFactor = 0.7;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_xm177_Shot_SoundSet {
+        soundShaders[] = { "xm177_closeShot_SoundShader", "xm177_midShot_SoundShader", "xm177_distShot_SoundShader", "xm177_Closure_SoundShader" };
+        volumeFactor = 1.27;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+    };
+    class nia_xm177_Tail_SoundSet {
+        soundShaders[] = { "xm177_tailDistant_SoundShader", "xm177_tailForest_SoundShader", "xm177_tailHouses_SoundShader", "xm177_tailInterior_SoundShader", "xm177_tailMeadows_SoundShader", "xm177_tailTrees_SoundShader" };
+        volumeFactor = 1.4;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_m16a1_Shot_SoundSet {
+        soundShaders[] = { "m16a1_closeShot_SoundShader", "m16a1_midShot_SoundShader", "m16a1_distShot_SoundShader", "m16a1_Closure_SoundShader" };
+        volumeFactor = 1.25;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+    };
+    class nia_m16a1_Tail_SoundSet {
+        soundShaders[] = { "m16a1_tailDistant_SoundShader", "m16a1_tailForest_SoundShader", "m16a1_tailHouses_SoundShader", "m16a1_tailInterior_SoundShader", "m16a1_tailMeadows_SoundShader", "m16a1_tailTrees_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+    class nia_m16a2_Shot_SoundSet {
+        soundShaders[] = { "m16a2_closeShot_SoundShader", "m16a2_midShot_SoundShader", "m16a2_distShot_SoundShader", "m16a2_Closure_SoundShader" };
+        volumeFactor = 1.25;
+        volumeCurve = "InverseSquare2Curve";
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+    };
+    class nia_m16a2_Tail_SoundSet {
+        soundShaders[] = { "m16a2_tailDistant_SoundShader", "m16a2_tailForest_SoundShader", "m16a2_tailHouses_SoundShader", "m16a2_tailInterior_SoundShader", "m16a2_tailMeadows_SoundShader", "m16a2_tailTrees_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.1;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
+};
