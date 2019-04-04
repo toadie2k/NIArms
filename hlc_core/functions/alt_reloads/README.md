@@ -22,6 +22,8 @@ class NIArms_Alt_Reloads //The main class, without this it won't work
   };
 };
 ```
+If no conditions return true, it will simply default to engine reloading!
+
 Keep the reload classes simple and identical to their parent class.
 Example:
 ```cpp
