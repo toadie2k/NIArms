@@ -14,14 +14,15 @@ class CfgPatches {
         version = "1.5";
     };
 };
-#include "CfgAmmo.hpp"  
-#include "CfgMagazines.hpp"  
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
 #include "CfgFunctions.hpp"
 #include "CfgEventhandlers.hpp"
 #include "cfgsoundshaders.hpp"
 #include "cfgsoundset.hpp"
 #include "Particles.hpp"
 #include "CfgMagazineWells.hpp"
+#include "RscInGameUI.hpp"
 
 class asdg_MuzzleSlot;
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
@@ -107,7 +108,7 @@ class nia_rifle_grips_slot : nia_rifle_gripod_slot
         hlc_grip_PMVFG = 1;
     };
 };
-class nia_rifle_bipodsgrips_slot :asdg_UnderSlot 
+class nia_rifle_bipodsgrips_slot :asdg_UnderSlot
 {
 };
 class PointerSlot;
@@ -118,7 +119,7 @@ class nia_charms_slot : PointerSlot
     linkProxy = "\hlc_core\mesh\nia_charm_proxy";
     class compatibleItems
     {
-        //The commented out ones are special patron ones. While I can't stop anyone with the wherewithall to compile a PBO from just uncommenting them and whatever, you know, keep it to yourself. 
+        //The commented out ones are special patron ones. While I can't stop anyone with the wherewithall to compile a PBO from just uncommenting them and whatever, you know, keep it to yourself.
         //HLC_Charm_Eurojank = 1;
         //HLC_Charm_NIArmsbacker = 1;
         //HLC_Charm_NIArmsbacker_dirty = 1;
@@ -159,7 +160,7 @@ class CfgDistanceFilters
     };
 };
 /*
-Scripting notes- 
+Scripting notes-
 
 
 Weaponslotsinfo MASS is approximate to CENTAGRAMS... that is to say a mass of 7 is a mass of about 700 grams. Take consideration of this
@@ -194,16 +195,16 @@ class CfgMovesBasic
      class DefaultDie;
      class ManActions
      {
-         FHQ_GestureReloadACR = "FHQ_GestureReloadACR";    
+         FHQ_GestureReloadACR = "FHQ_GestureReloadACR";
      };
-    
+
     class Actions {
         class NoActions : ManActions {
             FHQ_GestureReloadACR[] = {"FHQ_GestureReloadACR", "Gesture"};
         };
     };
 };
- 
+
 class CfgGesturesMale
 {
     class Default;
@@ -952,7 +953,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadG3SG1_Context : HLC_GestureReloadG3SG1 {
             mask = "handsWeapon_context";
-        };         
+        };
         class HLC_GestureReloadHK53 : Default {
             file="hlc_core\animation\gesture\reload_hk53_standing.rtm";
             speed=0.16666666666666666666666666666667;
@@ -1885,7 +1886,7 @@ Speed  = speed at 200m
 
 class CfgWeapons
 
-{ 
+{
     #include "cfg_acc_muzzle.hpp"
     #include "cfg_acc_sidemount.hpp"
     #include "cfg_acc_scope.hpp"
@@ -1969,4 +1970,3 @@ class CfgWeapons
         magazines[] += { __556STANAG_MAGS };
     };
 };
-
