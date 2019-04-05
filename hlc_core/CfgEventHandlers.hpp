@@ -9,6 +9,9 @@ class Extended_Reloaded_EventHandlers {
         class nia_core {
             clientReloaded = "_this call Niarms_fnc_magSwitch";
         };
+        class nia_altReloads {
+            clientReloaded = "_this call NIArms_altReloads_fnc_afterReload;";
+        };
     };
 };
 
