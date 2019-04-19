@@ -6,7 +6,7 @@ ambient[]={0.5,0.5,0.5,1};
 diffuse[]={0.5,0.5,0.5,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={0.2,0.2,0.2,1};
+specular[]={1,1,1,1};
 specularPower=100;
 PixelShaderID="Super";
 VertexShaderID="Super";
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texture="hlc_wp_springfield\tex\C-Stock_as.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -72,7 +72,7 @@ class Stage5
 };
 class Stage6
 {
-	texture="#(ai,64,64,1)fresnel(5.4,1.4)";
+	texture="#(ai,64,64,1)fresnelGlass()";
 	uvSource="none";
 };
 class Stage7

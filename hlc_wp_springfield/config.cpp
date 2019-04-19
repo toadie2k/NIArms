@@ -7,11 +7,11 @@ class CfgPatches
 {
  class hlcweapons_Springfield1903
  {
-	 requiredaddons[] = {"hlcweapons_core"};
+	 requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark","asdg_jointrails", "hlcweapons_core" };
 	units[] = {"HLC_LRR_ammobox"};
 	weapons[] = {};
 	magazines[] = {};
-	version="1.25";
+	version="1.4";
 	author="toadie";
  };
 };
@@ -35,7 +35,7 @@ class cfgMods
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-
+class nia_charms_slot;
 class asdg_FrontSideRail;
 
 class CfgSounds
@@ -209,9 +209,9 @@ class CfgMovesBasic
 		};
 	};
 
-
+    /*
 	class CfgAmmo {
-		/*external*/ class B_556x45_Ball;
+
 		// Load Data - US Army .30-06 M1 Ball
 		// Provided by ACE3/Ruthberg
 		class HLC_3006_FMJ	 :B_556x45_Ball {
@@ -256,11 +256,11 @@ class CfgMovesBasic
 				distance = 1;
 			};
 		};
-	};
+	};*/
 class CfgVehicles
 {
-	class NATO_Box_Base;
-	class HLC_LRR_ammobox: NATO_Box_Base
+	class B_supplyCrate_F;
+	class HLC_LRR_ammobox: B_supplyCrate_F
 	{	
 		dlc = "Niarms_M1903";
 		scope = 2;
@@ -281,9 +281,9 @@ class CfgVehicles
 		};
 	};
 	class Weapon_Base_F;
-    __WEAPONHOLDER(hlc_rifle_M1903A1_unertl, hlc_5rnd_3006_1903, M1903A1 Sniper, Niarms_M1903, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M1903A1, hlc_5rnd_3006_1903, M1903A1, Niarms_M1903, Toadie,SniperRifles);
-    __WEAPONHOLDER(hlc_rifle_M1903A1OMR, hlc_5rnd_3006_1903, M1903A1(One-Man Revolution), Niarms_M1903, Toadie,SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1_unertl, hlc_5rnd_3006_1903, M1903A1 Sniper, Niarms_M1903, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1, hlc_5rnd_3006_1903, M1903A1, Niarms_M1903, Toadie, SniperRifles);
+    __WEAPONHOLDER(hlc_rifle_M1903A1OMR, hlc_5rnd_3006_1903, M1903A1(One-Man Revolution), Niarms_M1903, Toadie, SniperRifles);
 	};
 class CfgMagazines{
 		class 30Rnd_556x45_Stanag;
@@ -292,24 +292,39 @@ class CfgMagazines{
 			dlc = "Niarms_M1903";
 			ammo = "HLC_3006_FMJ";
 			count = 5;
-			descriptionshort = "Caliber: .30-06 M1 Ball <br />Rounds: 5<br />Used in: M1903A1,M1903A4";
-			displayname = "5rnd .30-06 (Ball)";
+            descriptionshort = $STR_NIA_DESC_5Rnd_3006_B;
+            displayname = $STR_NIA_5rnd_3006_B_M1903;
 			initspeed = 854;
 			lastroundstracer = 0;
 			picture = "\hlc_wp_springfield\tex\ui\m_M1903A1_ca";
 			scope = 2;
 			tracersevery = 0;
 			mass = 8;
-			displaynameshort = ".30-06";
+            displaynameshort = $STR_NIA_3006_FMJ;
 			author = "toadie";
 		};
+        class hlc_5rnd_3006_T_1903 : hlc_5rnd_3006_1903
+        {
+            dlc = "Niarms_M1903";
+            ammo = "HLC_3006_FMJ";
+            count = 5;
+            descriptionshort = $STR_NIA_DESC_5Rnd_3006_T;
+            displayname = $STR_NIA_5rnd_3006_T_M1903;
+            initspeed = 854;
+            lastroundstracer = 0;
+            picture = "\hlc_wp_springfield\tex\ui\m_M1903A1_ca";
+            scope = 2;
+            tracersevery = 1;
+            mass = 8;
+            displaynameshort = $STR_NIA_3006_Tracer;
+            author = "toadie";
+        };
 
 };
 
 class CBA_3006_Spring {
-    NIA_clips[] = {"hlc_5rnd_3006_1903"};
+    NIA_clips[] = { "hlc_5rnd_3006_1903","hlc_5rnd_3006_T_1903" };
 };
-
 class CfgRecoils
 {
 	class recoil_default;
@@ -332,8 +347,8 @@ class CfgWeapons {
 		dlc = "Niarms_M1903";
 		author = "Toadie";
 		scope = protected;
-		magazines[] = { "hlc_5rnd_3006_1903" };
-        magazineWell[] = {"CBA_3006_Spring"};
+        magazines[] = { "hlc_5rnd_3006_1903" };
+        magazineWell[] = { "CBA_3006_Spring" };
 		recoil = "recoil_1903a1";
 		maxRecoilSway = 0.0125;
 		swayDecaySpeed = 1.25;
@@ -353,6 +368,7 @@ class CfgWeapons {
 			class MuzzleSlot {};
 			class CowsSlot {};
             class PointerSlot {};
+            class CharmSlot : nia_charms_slot{};
 		};
 		descriptionShort = "Assault rifle<br/>Caliber: 5.45mm";
 
@@ -443,8 +459,8 @@ class CfgWeapons {
 		aiDispersionCoefY = 10;
 		aiDispersionCoefX = 8;
 
-		drysound[] = { "hlc_core\sound\empty_machineguns", 1, 1, 10 };
-		reloadmagazinesound[] = { "hlc_core\sound\empty_machineguns", 0.5, 1,10 };
+		drysound[] = { "\hlc_core\sound\empty_machineguns", 1, 1, 10 };
+		reloadmagazinesound[] = { "\hlc_core\sound\empty_machineguns", 0.5, 1,10 };
 	};
 
 
@@ -476,7 +492,7 @@ class CfgWeapons {
 			handAction = "HLC_GestureRechamberM1903A1_UN";
 			sound = "hlc_bolt_1903";
 			soundLocation = "RightHandMiddle1";
-			delay = 0.02;
+			delay = 0.00;
 			onEmpty = 0;
 			hasOptic = 1;
 			soundEmpty = "";
@@ -486,15 +502,17 @@ class CfgWeapons {
 		cursorAim = "EmptyCursor";
 		model = "\hlc_wp_springfield\mesh\1903A1fUnertl\1903A1.p3d";
 		reloadaction = "HLC_GestureReloadM1903A1_UN";
-		descriptionShort = "Springfield M1903A1 <br/>Sniper Rifle<br/>Caliber: .30-06";
-		drysound[] = { "hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
-		reloadmagazinesound[] = { "hlc_wp_springfield\snd\1903A1Unertl_reload", 0.8, 1, 20 };
+        descriptionShort = $STR_NIA_1903a1_UN_DESC;
+		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
+		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1Unertl_reload", 0.8, 1, 20 };
 		modeloptics[] = { "\hlc_wp_springfield\mesh\1903A1Unertl\fine_reticle" };
-		inertia = 0.51;
-        __DEXTERITY(5.1, 0);
+		inertia = 0.47;
+		__DEXTERITY(4.7, 0);
 		picture = "\hlc_wp_springfield\tex\ui\gear_M1903A1_ca";
+        hiddenSelections[] = { "MAin", "reciever", "Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_springfield\tex\1903a1_commonparts_co.tga", "hlc_wp_springfield\tex\1903a1_unertl_co.tga", "hlc_wp_springfield\tex\c-stock_co.tga" };
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-		displayName = "M1903A1 (Sniper)";
+        displayName = $STR_NIA_rifle_M1903A1_sniper;
 		discretedistance[] = { 90, 180, 270, 360, 450, 540, 630, 720, 810, 900, 990, 1010, 1180, 1280, 1370, 1460, 1550, 1640, 1740, 1810 };
 		discretedistanceinitindex = 2;
 		bg_bipod = 1;
@@ -523,7 +541,7 @@ class CfgWeapons {
 		};
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
-			mass = 107;
+			mass = 104;
 			class PointerSlot : asdg_FrontSideRail {};
 		};
 		class ItemInfo
@@ -535,18 +553,11 @@ class CfgWeapons {
 		modes[] = {"Single"};
 		class Single : Single
 		{
-            aiRateOfFire = 7;
-            aiRateOfFireDistance = 1000;
-            minRange = 0;
-            minRangeProbab = 0.4;
-            midRange = 500;
-            midRangeProbab = 0.8;
-            maxRange = 1400;
-            maxRangeProbab = 0.1;
+            __AI_ROF_338SNIPER_MSCOPE_SEMI;
 		};
 		class Library
 		{
-			libTextDesc = "Accuracy International Arctic Warfare Magnum";
+			libTextDesc = "US Rifle,Model of 1903, Advance 1";
 		};
 
 	};
@@ -570,7 +581,7 @@ class CfgWeapons {
 		deployedPivot = "deploypoint";       /// what point should be used to be on surface while unfolded
 		hasBipod = false;          /// a weapon with bipod obviously has a bipod
 		magazineReloadSwitchPhase = 0.5625;
-		class EventHandlers
+				class EventHandlers
 		{
 			fired = "_this call CBA_fnc_weaponEvents";
 		};
@@ -579,30 +590,39 @@ class CfgWeapons {
 			handAction = "HLC_GestureRechamberM1903A1_UN";
 			sound = "hlc_bolt_1903";
 			soundLocation = "RightHandMiddle1";
-			delay = 0.02;
+			delay = 0.00;
 			onEmpty = 0;
+			hasOptic = 1;
+			soundEmpty = "";
+			soundLocationEmpty = "";
 		};
 		cursor = "srifle";
 		cursorAim = "EmptyCursor";
 		model = "\hlc_wp_springfield\mesh\1903A1\1903A1.p3d";
 		reloadaction = "HLC_GestureReloadM1903A1";
-		descriptionShort = "Springfield M1903A1<br/>Infantry Rifle<br/>Caliber: .30-06";
-		drysound[] = { "hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
+        descriptionShort = $STR_NIA_1903a1_DESC;
+		drysound[] = { "\hlc_wp_springfield\snd\1903A1_dryfire", 1, 1, 10 };
 		reloadmagazinesound[] = { "\hlc_wp_springfield\snd\1903A1_reload_noscope", 0.8, 1, 20 };
-		inertia = 0.43;
-        __DEXTERITY(4.43, 0);
+		inertia = 0.4;
+		__DEXTERITY(4.025, 0);
 		picture = "\hlc_wp_springfield\tex\ui\gear_M1903_ca";
+        hiddenSelections[] = { "MAin","reciever","Stock" };
+        hiddenSelectionsTextures[] = { "hlc_wp_springfield\tex\1903a1_commonparts_co.tga", "hlc_wp_springfield\tex\1903a1_unertlnoscope_co.tga", "hlc_wp_springfield\tex\c-stock_co.tga" };
 		UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
-		displayName = "M1903A1";
+        displayName = $STR_NIA_rifle_M1903A1;
 		discretedistance[] = { 180, 90, 180, 270, 360, 450/*500 Yards*/, 540, 630, 720, 810, 900/*1000 Yards*/, 990, 1010, 1180, 1280, 1370/*1500 Yards*/, 1460, 1550, 1640, 1740, 1830/*2000 Yards*/, 1920, 2010, 2100, 2190, 2280, 2370, 2460 };
 		discretedistanceinitindex = 0;
 		cameradir = "look";
 		discreteDistanceCameraPoint[] = { "eye2", "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9", "eye10", "eye11", "eye12", "eye13", "eye14", "eye15", "eye16", "eye17", "eye18", "eye19", "eye20", "eye21", "eye22", "eye23", "eye24", "eye25", "eye26", "eye27" }; /// the angle of gun changes with zeroing
 		bg_bipod = 1;
 		handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_springfield\anim\awmhands.rtm" };
+        class Single : Single
+        {
+            __AI_ROF_338SNIPER_SEMI;
+        };
 		class WeaponSlotsInfo : WeaponSlotsInfo
 		{
-			mass = 90;
+			mass = 88;
 		};
 		class ItemInfo
 		{
@@ -612,15 +632,31 @@ class CfgWeapons {
 		};
 		class Library
 		{
-			libTextDesc = "Accuracy International Arctic Warfare Magnum";
+			libTextDesc = "US Rifle,Model of 1903, Advance 1";
 		};
 
 	};
 	class hlc_rifle_M1903A1OMR : hlc_rifle_M1903A1
 	{
 		author = "Toadie";
-		displayName = "M1903A1 'Guthrie'";
+        displayName = $STR_NIA_rifle_M1903A1_OMR;
 		model = "\hlc_wp_springfield\mesh\1903A1\1903A1_TMKB.p3d";
-		descriptionShort = "Seize the time,and storm the tower<br/>and come correct with maximum firepower";
+        descriptionShort = $STR_NIA_1903a1_OMR_DESC;
+        hiddenSelectionsTextures[] = { "hlc_wp_springfield\tex\1903a1_commonparts_co.tga", "hlc_wp_springfield\tex\1903a1_unertlnoscope_co.tga", "hlc_wp_springfield\tex\tmkb\c-stock-tmkb_co.tga" };
+		class EventHandlers
+		{
+			fired = "_this call CBA_fnc_weaponEvents";
+		};
+		class CBA_weaponEvents
+		{
+			handAction = "HLC_GestureRechamberM1903A1_UN";
+			sound = "hlc_bolt_1903";
+			soundLocation = "RightHandMiddle1";
+			delay = 0.00;
+			onEmpty = 0;
+			hasOptic = 1;
+			soundEmpty = "";
+			soundLocationEmpty = "";
+		};
 	};
 };
