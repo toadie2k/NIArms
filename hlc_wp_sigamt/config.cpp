@@ -34,8 +34,14 @@ class cfgMods
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-
+class nia_charms_slot;
 class asdg_OpticRail1913_short;
+class asdg_MuzzleSlot;
+class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
+};
+class asdg_MuzzleSlot_556 : asdg_MuzzleSlot { // for 5.56x45 universal mount suppressors
+    class compatibleItems {};
+};
 
 class cfgRecoils
 {
@@ -383,107 +389,167 @@ class CfgMagazines {
         author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_FMJ";
         count = 24;
-        descriptionshort = "Caliber: 7.5x55mm GP11-FMJ<br />Type: Boat-Tailed Full Metal Jacket<br />Rounds: 24";
-        displayname = "Stgw.57 Mag (FMJ) 24rnd GP11";
+        descriptionshort = $STR_NIA_DESC_24Rnd_75x55_B;
+        displayname = $STR_NIA_24rnd_75x55_B_STGW;
         initspeed = 780;
         mass = 14;
         lastroundstracer = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_ball_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
+        modelSpecial = \hlc_wp_sigamt\mesh\magazine\Proxy\24rnd_GP11_STGW57;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "GP11 Ball";
+        displaynameshort = $STR_NIA_75x55_FMJ;
     };
     class hlc_24Rnd_75x55_ap_stgw : hlc_24Rnd_75x55_B_stgw{
         dlc = "Niarms_SG510";
         author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_APBT";
         count = 24;
-        descriptionshort = "Caliber: 7.5x55mm GP11-AP<br />Type: Armour piercing Boat-Tail<br />Rounds: 24";
-        displayname = "Stgw.57 Mag (AP) 24rnd GP11";
+        descriptionshort = $STR_NIA_DESC_24Rnd_75x55_AP;
+        displayname = $STR_NIA_24rnd_75x55_AP_STGW;
         initspeed = 910;
         mass = 14;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_AP_ca.paa";
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "GP11 AP";
-    };
-    class hlc_20Rnd_762x51_b_amt : hlc_24Rnd_75x55_B_stgw{
-        dlc = "Niarms_SG510";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_762x51_ball";
-        count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
-        displayname = "SIG 510-4 Mag (EPR) 20rnd GP11";
-        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
-        initspeed = 908.4;
-        mass = 12;
-        lastroundstracer = 1;
-        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "M80A1 EPR";
-    };
-    class hlc_20Rnd_762x51_mk316_amt : hlc_24Rnd_75x55_B_stgw{
-        dlc = "Niarms_SG510";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_762x51_MK316_20in";
-        count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
-        displayname = "SIG 510-4 Mag (SBLR) 20rnd 7.62mm";
-        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
-        initspeed = 930;
-        mass = 12;
-        lastroundstracer = 1;
-        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "MK316 SBLR";
-    };
-    class hlc_20Rnd_762x51_bball_amt : hlc_24Rnd_75x55_B_stgw{
-        dlc = "Niarms_SG510";
-        author = "Toadie, Spartan0536";
-        ammo = "HLC_762x51_Barrier";
-        count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
-        displayname = "SIG 510-4 Mag (SOST) 20rnd 7.62mm";
-        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
-        initspeed = 930;
-        mass = 12;
-        lastroundstracer = 1;
-        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
-        scope = 2;
-        tracersevery = 0;
-        displaynameshort = "MK319 OTM";
-    };
-    class hlc_20Rnd_762x51_T_amt : hlc_20Rnd_762x51_b_amt {
-        dlc = "Niarms_SG510";
-        author = "Toadie, Spartan0536";
-        ammo = "B_762x51_Tracer_Green";
-        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
-        displayname = "SIG 510-4 Mag (Tracer) 20rnd 7.62mm";
-        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
-        lastroundstracer = 0;
-        scope = 2;
-        mass = 12;
-        tracersevery = 1;
-        picture = "\hlc_wp_sigamt\tex\ui\m_amt_tracer_ca.paa";
-        displaynameshort = "M62A1 Tracer";
+        displaynameshort = $STR_NIA_75x55_AP;
     };
     class hlc_24Rnd_75x55_T_stgw : hlc_24Rnd_75x55_ap_stgw {
         dlc = "Niarms_SG510";
         author = "Toadie, Spartan0536";
         ammo = "HLC_GP11_tracer";
-        descriptionshort = "Caliber: 7.5x55mm GP11-BTI<br />Type: Boat-Tailed Incendiary Tracer<br />Rounds: 24";
-        displayname = "Stgw.57 Mag (Tracer) 24rnd GP11";
+        descriptionshort = $STR_NIA_DESC_24Rnd_75x55_T;
+        displayname = $STR_NIA_24rnd_75x55_t_STGW;
         model = "\hlc_wp_sigamt\mesh\magazine\magazine_stgw.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 14;
         tracersevery = 1;
         picture = "\hlc_wp_sigamt\tex\ui\m_stgw57_Tracer_ca.paa";
-        displaynameshort = "GP11 Tracer";
+        displaynameshort = $STR_NIA_75x55_Tracer;
+    };
+    class hlc_20Rnd_762x51_b_amt : hlc_24Rnd_75x55_B_stgw{
+        dlc = "Niarms_SG510";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_ball";
+        count = 20;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_B_fal;
+        displayname = $STR_NIA_20rnd_762x51_B_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        modelSpecial = \hlc_wp_sigamt\mesh\magazine\Proxy\20rnd_762NATO_STGW;
+        modelSpecialIsProxy = 1;
+        initspeed = 908.4;
+        mass = 12;
+        lastroundstracer = 1;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = $STR_NIA_762NATO_EPR;
+    };
+    class hlc_20Rnd_762x51_mk316_amt : hlc_24Rnd_75x55_B_stgw{
+        dlc = "Niarms_SG510";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_MK316_20in";
+        count = 20;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sblr_fal;
+        displayname = $STR_NIA_20rnd_762x51_SBLR_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        initspeed = 930;
+        mass = 12;
+        lastroundstracer = 1;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = $STR_NIA_762NATO_SBLR;
+    };
+    class hlc_20Rnd_762x51_bball_amt : hlc_24Rnd_75x55_B_stgw{
+        dlc = "Niarms_SG510";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_Barrier";
+        count = 20;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sost_fal;
+        displayname = $STR_NIA_20rnd_762x51_SOST_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        initspeed = 930;
+        mass = 12;
+        lastroundstracer = 1;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = $STR_NIA_762NATO_SOST;
+    };
+    class hlc_20Rnd_762x51_T_amt : hlc_20Rnd_762x51_b_amt {
+        dlc = "Niarms_SG510";
+        author = "Toadie, Spartan0536";
+        ammo = "B_762x51_Tracer_Green";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_T_fal;
+        displayname = $STR_NIA_20rnd_762x51_Tracer_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 12;
+        tracersevery = 1;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_tracer_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Tracer;
+    };
+    class hlc_20Rnd_762x51_TDim_amt : hlc_20Rnd_762x51_b_amt {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_Tdim_fal;
+        displayname = $STR_NIA_20Rnd_762x51_Tdim_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 16.7;
+        tracersevery = 1;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_tracer_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_IRDIM;
+    };
+    class hlc_20rnd_762x51_M_amt : hlc_20Rnd_762x51_b_amt {
+        author = "Toadie, Spartan0536";
+        count = 20;
+        mass = 16.7;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_M_fal;
+        displayname = $STR_NIA_20rnd_762x51_M_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        initspeed = 908.4;
+        lastroundstracer = 3;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_M;
+    };
+    class hlc_20rnd_762x51_MDIM_amt : hlc_20Rnd_762x51_b_amt {
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie, Spartan0536";
+        count = 20;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_Mdim_fal;
+        displayname = $STR_NIA_20rnd_762x51_MDIM_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        initspeed = 908.4;
+        mass = 16.7;
+        lastroundstracer = 3;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_mixed_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_MDim;
+    };
+    class hlc_20Rnd_762x51_S_amt : hlc_20Rnd_762x51_b_amt {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_BTSub";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_s_fal;
+        displayname = $STR_NIA_20Rnd_762x51_S_STGW;
+        model = "\hlc_wp_sigamt\mesh\magazine\magazine_amt.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 16.3;
+        tracersevery = 0;
+        initspeed = 325;
+        displaynameshort = $STR_NIA_762NATO_Subsonic;
+        picture = "\hlc_wp_sigamt\tex\ui\m_amt_subsonic_ca.paa";
     };
 
 };
@@ -501,7 +567,10 @@ class CfgMagazineWells {
 			"hlc_20Rnd_762x51_b_amt",
 			"hlc_20Rnd_762x51_mk316_amt",
 			"hlc_20Rnd_762x51_bball_amt",
-			"hlc_20Rnd_762x51_T_amt"
+			"hlc_20Rnd_762x51_T_amt",
+            "hlc_20Rnd_762x51_TDim_amt",
+            "hlc_20rnd_762x51_MDIM_amt",
+            "hlc_20Rnd_762x51_S_amt"
 		};
     };
 };
@@ -515,74 +584,34 @@ class CfgWeapons {
     };
 
     class InventoryOpticsItem_Base_F;
-    class optic_Arco;
+    class optic_aco;
+    class hlc_optic_KernBase : optic_aco {
+        class ItemInfo : InventoryOpticsItem_Base_F{
+            class OpticsModes
+            {
+                class Snip;
+                class Kolimator;
+            };
+        };
+    };
 
-    class hlc_optic_Kern: optic_arco
+    class hlc_optic_Kern : hlc_optic_KernBase
     {
         dlc = "Niarms_SG510";
         scope = public;
         author = "Toadie, Kaukaussus";
-        descriptionshort = "Kern 4x24 Zielfernrohr <br />Magnification: 4x";
-        displayname = "Kern AARAU 4x24";
+        displayname = $STR_NIA_optic_Kern_510;
         picture = "\hlc_wp_sigamt\tex\ui\gear_aarau_x_ca";
         model = "hlc_wp_sigamt\mesh\aarau\AARAU.p3d";
         weaponInfoType = "RscWeaponZeroing";
-        ACE_ScopeAdjust_Vertical[] = { -5, 13 };
-        ACE_ScopeAdjust_Horizontal[] = { -7, 7 };
-        ACE_ScopeAdjust_VerticalIncrement = 0.25;
-        ACE_ScopeAdjust_HorizontalIncrement = 0.25;
-
-        class ItemInfo : InventoryOpticsItem_Base_F
-        {
-            mass = 10;
-            opticType = 1;
-            optics = 1;
-            modelOptics = "\hlc_wp_sigamt\mesh\aarau\aarau_optics";
-            class OpticsModes
-            {
-                class Snip
-                {
-                    cameradir = "";
-                    usemodeloptics = 0;
-                    opticsZoomMin = 0.06225;
-                    opticsZoomMax = 0.06225;
-                    opticsZoomInit = 0.06225;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    discreteDistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
-                    discreteDistanceInitIndex = 0;
-                    distanceZoomMin = 200;
-                    distanceZoomMax = 800;
-                    memoryPointCamera = "ADS_eye";
-                    //modelOptics[] = {"\hlc_wp_sigamt\mesh\aarau\aarau_optics"};
-                    visionMode[] = { "Normal" };
-                    opticsFlare = 1;
-                    opticsid = 1;
-                    opticsDisablePeripherialVision = 1;
-                };
-                class Kolimator {
-                    cameradir = "";
-                    distancezoommax = 100;
-                    distancezoommin = 100;
-                    memorypointcamera = "AOTT_EYE";
-                    opticsdisableperipherialvision = 0;
-                    opticsflare = 0;
-                    opticsid = 2;
-                    opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                    opticsZoomMin = 0.25;
-                    opticsZoomMax = 1.25;
-                    opticsZoomInit = 0.75;
-                    usemodeloptics = 0;
-                    visionmode[] = {};
-                };
-            };
-        };
         inertia = 0.2;
 		tmr_optics_enhanced = 0;
+        
     };
     class hlc_optic_Kern2d : hlc_optic_Kern
     {
         author = "Toadie, Kaukaussus";
-        displayname = "Kern AARAU 4x24(2D)";
+        displayname = $STR_NIA_optic_Kern2D_510;
         class ItemInfo : ItemInfo
         {
             class OpticsModes : OpticsModes
@@ -590,11 +619,6 @@ class CfgWeapons {
                 class Snip : Snip
                 {
                     useModelOptics = 1;
-                    opticsPPEffects[] = { "OpticsCHAbera2", "OpticsBlur3" };
-                    discreteDistance[] = { 200, 300, 400, 500, 600, 700, 800 };
-                    discreteDistanceInitIndex = 1;
-                    distanceZoomMin = 300;
-                    distanceZoomMax = 800;
                     modelOptics[] = { "\hlc_wp_sigamt\mesh\aarau\aarau_optics" };
                 };
                 class Kolimator : Kolimator {};
@@ -731,8 +755,8 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = true;
         recoil = "recoil_stgw57";
-        displayName = "SIG Stgw.57";
-        descriptionShort = "Infantry Service Rifle<br/>Caliber: 7.5x55mm GP11";
+        displayName = $STR_NIA_rifle_STGW57;
+        descriptionShort = $STR_NIA_Stg57_DESC;
         reloadAction = "HLC_GestureReloadSTGW57";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\stgw\stgw57.p3d";
@@ -750,16 +774,15 @@ class CfgWeapons {
                 linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
                 compatibleitems[] = { "hlc_optic_Kern", "hlc_optic_Kern2d" };
             };
+            class CharmSlot : nia_charms_slot{};
         };
     };
-
-
     class hlc_rifle_stgw57_RIS : hlc_STGW_base
     {
         author = "Toadie, Kaukassus";
         picture = "\hlc_wp_sigamt\tex\ui\gear_57ris_x_ca.paa";
-        displayName = "SIG Stgw.57+RIS";
-        descriptionShort = "Infantry Service Rifle mit Richner-Waffen Fass57 M1913 Rail<br/>Caliber: 7.5x55mm GP11";
+        displayName = $STR_NIA_rifle_STGW57_RIS;
+        descriptionShort = $STR_NIA_Stg57_DESC;
         model = "hlc_wp_sigamt\mesh\57commando\stgw57.p3d";
         AB_barrelTwist = 10.6;
         AB_barrelLength = 23;
@@ -782,9 +805,9 @@ class CfgWeapons {
         {
             mass = 89;
             class CowsSlot : asdg_OpticRail1913_short {};
+            class CharmSlot : nia_charms_slot{};
         };
     };
-
     class hlc_rifle_stgw57_commando :hlc_rifle_stgw57_RIS
     {
         author = "Toadie, Kaukassus";
@@ -795,7 +818,8 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
 
-        displayName = "SIG Stgw.57 Commando";
+        displayName = $STR_NIA_rifle_STGW57_Commando;
+        descriptionShort = $STR_NIA_Stg57Commando_DESC;
         model = "hlc_wp_sigamt\mesh\57commando\commando.p3d";
         inertia = 0.45;
         recoil = "recoil_stgw57k";
@@ -805,7 +829,6 @@ class CfgWeapons {
             mass = 75;
         };
     };
-
     class hlc_rifle_sig5104 : hlc_STGW_base
     {
         author = "Toadie,Kaukassus";
@@ -817,14 +840,14 @@ class CfgWeapons {
         maxZeroing = 1600;
         deployedpivot = "deploypivot";
         hasBipod = true;
-        displayName = "SIG SG510-4";
+        displayName = $STR_NIA_rifle_SG5104;
+        descriptionShort = $STR_NIA_SG5104_DESC;
         inertia = 0.5;
-        recoil = "recoil_5104";
+        recoil = "recoil_stgw57";
         magazines[] = {
             "hlc_20Rnd_762x51_b_amt", "hlc_20Rnd_762x51_mk316_amt", "hlc_20Rnd_762x51_bball_amt", "hlc_20Rnd_762x51_T_amt"
         };
         magazineWell[] = {"CBA_762x51_SIGAMT"};
-        descriptionShort = "Infantry Service Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadAMT";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_sigamt\anim\hand_stgw57.rtm" };
         model = "hlc_wp_sigamt\mesh\amt\5104.p3d";
@@ -838,9 +861,13 @@ class CfgWeapons {
         {
             mass = 89;
             class CowsSlot : asdg_OpticRail1913_short {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.0;
+            };
+            class CharmSlot : nia_charms_slot{};
         };
     };
-
     class hlc_rifle_amt : hlc_rifle_sig5104
     {
         author = "Toadie, Kaukassus";
@@ -852,8 +879,8 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = false;
         scope = public;
-        displayName = "SIG AMT";
-        descriptionShort = "Infantry Service Rifle<br/>Caliber: 7.62x51mm NATO";
+        displayName = $STR_NIA_rifle_AMT;
+        descriptionShort = $STR_NIA_AMT_DESC;
         reloadAction = "HLC_GestureReloadAMT";
         picture = "\hlc_wp_sigamt\tex\ui\gear_amt_x_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_wp_sigamt\tex\toadie_510\510_barrel_sights_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_bipodshandguards_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_amt_objects_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_reciever_amt_co.tga", "hlc_wp_sigamt\tex\toadie_510\510_picmounts_co.tga" };
