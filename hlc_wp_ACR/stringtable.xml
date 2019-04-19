@@ -2,7 +2,6 @@
 <Project name="NIArms">
   <Package name="hlc_wp_ACR">
     <Container name="Names">
-      
       <Key ID="STR_NIA_ACR68_SBR_tan">
         <Original>Remington ACR-E 6.8mm (Compact/Tan)</Original>
         <English>Remington ACR-E 6.8mm (Compact/Tan)</English>
@@ -14,7 +13,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Compact/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Compact/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (Compact/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (Compact/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (コンパクト/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Compact/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Compact/Tan)</Chinesesimp>
       </Key>
@@ -29,7 +28,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Compact/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Compact/Black)</Russian>
         <German>Remington ACR-E 6.8mm (Compact/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (Compact/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (コンパクト/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Compact/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Compact/Black)</Chinesesimp>
       </Key>
@@ -44,11 +43,10 @@
         <Portuguese>Remington ACR-E 6.8mm (Compact/Green</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Compact/Green</Russian>
         <German>Remington ACR-E 6.8mm (Compact/Green</German>
-        <Japanese>Remington ACR-E 6.8mm (Compact/Green</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (コンパクト/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Compact/Green</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Compact/Green</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR68_SBRGL_tan">
         <Original>Remington ACR-E 6.8mm (GL/Compact/Tan)</Original>
         <English>Remington ACR-E 6.8mm (GL/Compact/Tan)</English>
@@ -60,7 +58,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Compact/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Compact/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Compact/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Compact/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/コンパクト/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Compact/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Compact/Tan)</Chinesesimp>
       </Key>
@@ -75,7 +73,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Compact/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Compact/Black)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Compact/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Compact/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/コンパクト/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Compact/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Compact/Black)</Chinesesimp>
       </Key>
@@ -90,11 +88,10 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Compact/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Compact/Green)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Compact/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Compact/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/コンパクト/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Compact/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Compact/Green)</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_ACR68_Carbine_tan">
         <Original>Remington ACR-E 6.8mm (Carbine/Tan)</Original>
         <English>Remington ACR-E 6.8mm (Carbine/Tan)</English>
@@ -106,7 +103,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Carbine/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Carbine/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (Carbine/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (Carbine/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (カービン/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Carbine/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Carbine/Tan)</Chinesesimp>
       </Key>
@@ -121,7 +118,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Carbine/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Carbine/Black)</Russian>
         <German>Remington ACR-E 6.8mm (Carbine/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (Carbine/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (カービン/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Carbine/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Carbine/Black)</Chinesesimp>
       </Key>
@@ -136,11 +133,10 @@
         <Portuguese>Remington ACR-E 6.8mm (Carbine/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Carbine/Green)</Russian>
         <German>Remington ACR-E 6.8mm (Carbine/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (Carbine/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm カービン/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Carbine/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Carbine/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR68_CarbineGL_tan">
         <Original>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Original>
         <English>Remington ACR-E 6.8mm (GL/Carbine/Tan)</English>
@@ -152,7 +148,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Carbine/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/カービン/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Carbine/Tan)</Chinesesimp>
       </Key>
@@ -167,7 +163,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Carbine/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Carbine/Black)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Carbine/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Carbine/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/カービン/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Carbine/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Carbine/Black)</Chinesesimp>
       </Key>
@@ -182,11 +178,10 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Carbine/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Carbine/Green)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Carbine/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Carbine/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/カービン/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Carbine/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Carbine/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR68_Mid_tan">
         <Original>Remington ACR-E 6.8mm (Mid/Tan)</Original>
         <English>Remington ACR-E 6.8mm (Mid/Tan)</English>
@@ -198,7 +193,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Mid/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Mid/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (Mid/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (Mid/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (中/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Mid/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Mid/Tan)</Chinesesimp>
       </Key>
@@ -213,7 +208,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Mid/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Mid/Black)</Russian>
         <German>Remington ACR-E 6.8mm (Mid/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (Mid/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (中/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Mid/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Mid/Black)</Chinesesimp>
       </Key>
@@ -228,11 +223,10 @@
         <Portuguese>Remington ACR-E 6.8mm (Mid/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Mid/Green)</Russian>
         <German>Remington ACR-E 6.8mm (Mid/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (Mid/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm 中/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Mid/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Mid/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR68_midlengthGL_tan">
         <Original>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Original>
         <English>Remington ACR-E 6.8mm (GL/Midlength/Tan)</English>
@@ -244,7 +238,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Midlength/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/中/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Midlength/Tan)</Chinesesimp>
       </Key>
@@ -259,7 +253,7 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Midlength/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Midlength/Black)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Midlength/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Midlength/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/中/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Midlength/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Midlength/Black)</Chinesesimp>
       </Key>
@@ -274,11 +268,10 @@
         <Portuguese>Remington ACR-E 6.8mm (GL/Midlength/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (GL/Midlength/Green)</Russian>
         <German>Remington ACR-E 6.8mm (GL/Midlength/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (GL/Midlength/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (GL/中/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (GL/Midlength/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (GL/Midlength/Green)</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_ACR68_full_tan">
         <Original>Remington ACR-E 6.8mm (Long/Tan)</Original>
         <English>Remington ACR-E 6.8mm (Long/Tan)</English>
@@ -290,7 +283,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Long/Tan)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Long/Tan)</Russian>
         <German>Remington ACR-E 6.8mm (Long/Tan)</German>
-        <Japanese>Remington ACR-E 6.8mm (Long/Tan)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (長/タン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Long/Tan)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Long/Tan)</Chinesesimp>
       </Key>
@@ -305,7 +298,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Long/Black)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Long/Black)</Russian>
         <German>Remington ACR-E 6.8mm (Long/Black)</German>
-        <Japanese>Remington ACR-E 6.8mm (Long/Black)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (長/ブラック)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Long/Black)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Long/Black)</Chinesesimp>
       </Key>
@@ -320,11 +313,10 @@
         <Portuguese>Remington ACR-E 6.8mm (Long/Green)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Long/Green)</Russian>
         <German>Remington ACR-E 6.8mm (Long/Green)</German>
-        <Japanese>Remington ACR-E 6.8mm (Long/Green)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (長/グリーン)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Long/Green)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Long/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR68_Squant">
         <Original>Remington ACR-E 6.8mm (Compact/Tan SQ)</Original>
         <English>Remington ACR-E 6.8mm (Compact/Tan SQ)</English>
@@ -336,7 +328,7 @@
         <Portuguese>Remington ACR-E 6.8mm (Compact/Tan SQ)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Compact/Tan SQ)</Russian>
         <German>Remington ACR-E 6.8mm (Compact/Tan SQ)</German>
-        <Japanese>Remington ACR-E 6.8mm (Compact/Tan SQ)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (コンパクト/タン SQ)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Compact/Tan SQ)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Compact/Tan SQ)</Chinesesimp>
       </Key>
@@ -351,11 +343,10 @@
         <Portuguese>Remington ACR-E 6.8mm (Short/Black AR)</Portuguese>
         <Russian>Remington ACR-E 6.8mm (Short/Black AR)</Russian>
         <German>Remington ACR-E 6.8mm (Short/Black AR)</German>
-        <Japanese>Remington ACR-E 6.8mm (Short/Black AR)</Japanese>
+        <Japanese>Remington ACR-E 6.8mm (短/ブラック AR)</Japanese>
         <Korean>Remington ACR-E 6.8mm (Short/Black AR)</Korean>
         <Chinesesimp>Remington ACR-E 6.8mm (Short/Black AR)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR_SBR_tan">
         <Original>Remington ACR-E (Compact/Tan)</Original>
         <English>Remington ACR-E (Compact/Tan)</English>
@@ -367,7 +358,7 @@
         <Portuguese>Remington ACR-E (Compact/Tan)</Portuguese>
         <Russian>Remington ACR-E (Compact/Tan)</Russian>
         <German>Remington ACR-E (Compact/Tan)</German>
-        <Japanese>Remington ACR-E (Compact/Tan)</Japanese>
+        <Japanese>Remington ACR-E (コンパクト/タン)</Japanese>
         <Korean>Remington ACR-E (Compact/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (Compact/Tan)</Chinesesimp>
       </Key>
@@ -382,7 +373,7 @@
         <Portuguese>Remington ACR-E (Compact/Black)</Portuguese>
         <Russian>Remington ACR-E (Compact/Black)</Russian>
         <German>Remington ACR-E (Compact/Black)</German>
-        <Japanese>Remington ACR-E (Compact/Black)</Japanese>
+        <Japanese>Remington ACR-E (コンパクト/ブラック)</Japanese>
         <Korean>Remington ACR-E (Compact/Black)</Korean>
         <Chinesesimp>Remington ACR-E (Compact/Black)</Chinesesimp>
       </Key>
@@ -397,26 +388,25 @@
         <Portuguese>Remington ACR-E (Compact/Green</Portuguese>
         <Russian>Remington ACR-E (Compact/Green</Russian>
         <German>Remington ACR-E (Compact/Green</German>
-        <Japanese>Remington ACR-E (Compact/Green</Japanese>
+        <Japanese>Remington ACR-E (コンパクト/グリーン)</Japanese>
         <Korean>Remington ACR-E (Compact/Green</Korean>
         <Chinesesimp>Remington ACR-E (Compact/Green</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_SBR_cliffhanger">
-        <Original>Remington ACR-E (&apos;Cliffhanger&apos;)</Original>
-        <English>Remington ACR-E (&apos;Cliffhanger&apos;)</English>
-        <Czech>Remington ACR-E (&apos;Cliffhanger&apos;)</Czech>
-        <French>Remington ACR-E (&apos;Cliffhanger&apos;)</French>
-        <Spanish>Remington ACR-E (&apos;Cliffhanger&apos;)</Spanish>
-        <Italian>Remington ACR-E (&apos;Cliffhanger&apos;)</Italian>
-        <Polish>Remington ACR-E (&apos;Cliffhanger&apos;)</Polish>
-        <Portuguese>Remington ACR-E (&apos;Cliffhanger&apos;)</Portuguese>
-        <Russian>Remington ACR-E (&apos;Cliffhanger&apos;)</Russian>
-        <German>Remington ACR-E (&apos;Cliffhanger&apos;)</German>
-        <Japanese>Remington ACR-E (&apos;Cliffhanger&apos;)</Japanese>
-        <Korean>Remington ACR-E (&apos;Cliffhanger&apos;)</Korean>
-        <Chinesesimp>Remington ACR-E (&apos;Cliffhanger&apos;)</Chinesesimp>
+        <Original>Remington ACR-E ('Cliffhanger')</Original>
+        <English>Remington ACR-E ('Cliffhanger')</English>
+        <Czech>Remington ACR-E ('Cliffhanger')</Czech>
+        <French>Remington ACR-E ('Cliffhanger')</French>
+        <Spanish>Remington ACR-E ('Cliffhanger')</Spanish>
+        <Italian>Remington ACR-E ('Cliffhanger')</Italian>
+        <Polish>Remington ACR-E ('Cliffhanger')</Polish>
+        <Portuguese>Remington ACR-E ('Cliffhanger')</Portuguese>
+        <Russian>Remington ACR-E ('Cliffhanger')</Russian>
+        <German>Remington ACR-E ('Cliffhanger')</German>
+        <Japanese>Remington ACR-E ('クリフハンガー')</Japanese>
+        <Korean>Remington ACR-E ('Cliffhanger')</Korean>
+        <Chinesesimp>Remington ACR-E ('Cliffhanger')</Chinesesimp>
       </Key>
-      
       <Key ID="STR_NIA_ACR_SBRGL_tan">
         <Original>Remington ACR-E (GL/Compact/Tan)</Original>
         <English>Remington ACR-E (GL/Compact/Tan)</English>
@@ -428,7 +418,7 @@
         <Portuguese>Remington ACR-E (GL/Compact/Tan)</Portuguese>
         <Russian>Remington ACR-E (GL/Compact/Tan)</Russian>
         <German>Remington ACR-E (GL/Compact/Tan)</German>
-        <Japanese>Remington ACR-E (GL/Compact/Tan)</Japanese>
+        <Japanese>Remington ACR-E (GL/コンパクト/タン)</Japanese>
         <Korean>Remington ACR-E (GL/Compact/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Compact/Tan)</Chinesesimp>
       </Key>
@@ -443,7 +433,7 @@
         <Portuguese>Remington ACR-E (GL/Compact/Black)</Portuguese>
         <Russian>Remington ACR-E (GL/Compact/Black)</Russian>
         <German>Remington ACR-E (GL/Compact/Black)</German>
-        <Japanese>Remington ACR-E (GL/Compact/Black)</Japanese>
+        <Japanese>Remington ACR-E (GL/コンパクト/ブラック)</Japanese>
         <Korean>Remington ACR-E (GL/Compact/Black)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Compact/Black)</Chinesesimp>
       </Key>
@@ -458,42 +448,25 @@
         <Portuguese>Remington ACR-E (GL/Compact/Green)</Portuguese>
         <Russian>Remington ACR-E (GL/Compact/Green)</Russian>
         <German>Remington ACR-E (GL/Compact/Green)</German>
-        <Japanese>Remington ACR-E (GL/Compact/Green)</Japanese>
-        <Korean>Remington ACR-E (GL/Carbine/Green)</Korean>
-        <Chinesesimp>Remington ACR-E (GL/Carbine/Green)</Chinesesimp>
-      </Key>
-      <Key ID="STR_NIA_ACR_SBRGL_green">
-        <Original>Remington ACR-E (GL/Compact/Green)</Original>
-        <English>Remington ACR-E (GL/Compact/Green)</English>
-        <Czech>Remington ACR-E (GL/Compact/Green)</Czech>
-        <French>Remington ACR-E (GL/Compact/Green)</French>
-        <Spanish>Remington ACR-E (GL/Compact/Green)</Spanish>
-        <Italian>Remington ACR-E (GL/Compact/Green)</Italian>
-        <Polish>Remington ACR-E (GL/Compact/Green)</Polish>
-        <Portuguese>Remington ACR-E (GL/Compact/Green)</Portuguese>
-        <Russian>Remington ACR-E (GL/Compact/Green)</Russian>
-        <German>Remington ACR-E (GL/Compact/Green)</German>
-        <Japanese>Remington ACR-E (GL/Compact/Green)</Japanese>
+        <Japanese>Remington ACR-E (GL/コンパクト/グリーン)</Japanese>
         <Korean>Remington ACR-E (GL/Carbine/Green)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Carbine/Green)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_SBRGL_cliffhanger">
-        <Original>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Original>
-        <English>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</English>
-        <Czech>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Czech>
-        <French>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</French>
-        <Spanish>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Spanish>
-        <Italian>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Italian>
-        <Polish>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Polish>
-        <Portuguese>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Portuguese>
-        <Russian>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Russian>
-        <German>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</German>
-        <Japanese>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Japanese>
-        <Korean>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Korean>
-        <Chinesesimp>Remington ACR-E (GL/&apos;Cliffhanger&apos;)</Chinesesimp>
+        <Original>Remington ACR-E (GL/'Cliffhanger')</Original>
+        <English>Remington ACR-E (GL/'Cliffhanger')</English>
+        <Czech>Remington ACR-E (GL/'Cliffhanger')</Czech>
+        <French>Remington ACR-E (GL/'Cliffhanger')</French>
+        <Spanish>Remington ACR-E (GL/'Cliffhanger')</Spanish>
+        <Italian>Remington ACR-E (GL/'Cliffhanger')</Italian>
+        <Polish>Remington ACR-E (GL/'Cliffhanger')</Polish>
+        <Portuguese>Remington ACR-E (GL/'Cliffhanger')</Portuguese>
+        <Russian>Remington ACR-E (GL/'Cliffhanger')</Russian>
+        <German>Remington ACR-E (GL/'Cliffhanger')</German>
+        <Japanese>Remington ACR-E (GL/'クリフハンガー')</Japanese>
+        <Korean>Remington ACR-E (GL/'Cliffhanger')</Korean>
+        <Chinesesimp>Remington ACR-E (GL/'Cliffhanger')</Chinesesimp>
       </Key>
-
-
       <Key ID="STR_NIA_ACR_Carbine_tan">
         <Original>Remington ACR-E (Carbine/Tan)</Original>
         <English>Remington ACR-E (Carbine/Tan)</English>
@@ -505,7 +478,7 @@
         <Portuguese>Remington ACR-E (Carbine/Tan)</Portuguese>
         <Russian>Remington ACR-E (Carbine/Tan)</Russian>
         <German>Remington ACR-E (Carbine/Tan)</German>
-        <Japanese>Remington ACR-E (Carbine/Tan)</Japanese>
+        <Japanese>Remington ACR-E (カービン/タン)</Japanese>
         <Korean>Remington ACR-E (Carbine/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (Carbine/Tan)</Chinesesimp>
       </Key>
@@ -520,7 +493,7 @@
         <Portuguese>Remington ACR-E (Carbine/Black)</Portuguese>
         <Russian>Remington ACR-E (Carbine/Black)</Russian>
         <German>Remington ACR-E (Carbine/Black)</German>
-        <Japanese>Remington ACR-E (Carbine/Black)</Japanese>
+        <Japanese>Remington ACR-E (カービン/ブラック)</Japanese>
         <Korean>Remington ACR-E (Carbine/Black)</Korean>
         <Chinesesimp>Remington ACR-E (Carbine/Black)</Chinesesimp>
       </Key>
@@ -535,11 +508,10 @@
         <Portuguese>Remington ACR-E (Carbine/Green)</Portuguese>
         <Russian>Remington ACR-E (Carbine/Green)</Russian>
         <German>Remington ACR-E (Carbine/Green)</German>
-        <Japanese>Remington ACR-E (Carbine/Green)</Japanese>
+        <Japanese>Remington ACR-E (カービン/グリーン)</Japanese>
         <Korean>Remington ACR-E (Carbine/Green)</Korean>
         <Chinesesimp>Remington ACR-E (Carbine/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR_CarbineGL_tan">
         <Original>Remington ACR-E (GL/Carbine/Tan)</Original>
         <English>Remington ACR-E (GL/Carbine/Tan)</English>
@@ -551,7 +523,7 @@
         <Portuguese>Remington ACR-E (GL/Carbine/Tan)</Portuguese>
         <Russian>Remington ACR-E (GL/Carbine/Tan)</Russian>
         <German>Remington ACR-E (GL/Carbine/Tan)</German>
-        <Japanese>Remington ACR-E (GL/Carbine/Tan)</Japanese>
+        <Japanese>Remington ACR-E (GL/カービン/タン)</Japanese>
         <Korean>Remington ACR-E (GL/Carbine/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Carbine/Tan)</Chinesesimp>
       </Key>
@@ -566,7 +538,7 @@
         <Portuguese>Remington ACR-E (GL/Carbine/Black)</Portuguese>
         <Russian>Remington ACR-E (GL/Carbine/Black)</Russian>
         <German>Remington ACR-E (GL/Carbine/Black)</German>
-        <Japanese>Remington ACR-E (GL/Carbine/Black)</Japanese>
+        <Japanese>Remington ACR-E (GL/カービン/ブラック)</Japanese>
         <Korean>Remington ACR-E (GL/Carbine/Black)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Carbine/Black)</Chinesesimp>
       </Key>
@@ -581,11 +553,10 @@
         <Portuguese>Remington ACR-E (GL/Carbine/Green)</Portuguese>
         <Russian>Remington ACR-E (GL/Carbine/Green)</Russian>
         <German>Remington ACR-E (GL/Carbine/Green)</German>
-        <Japanese>Remington ACR-E (GL/Carbine/Green)</Japanese>
+        <Japanese>Remington ACR-E (GL/カービン/グリーン)</Japanese>
         <Korean>Remington ACR-E (GL/Carbine/Green)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Carbine/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR_Mid_tan">
         <Original>Remington ACR-E (Mid/Tan)</Original>
         <English>Remington ACR-E (Mid/Tan)</English>
@@ -597,7 +568,7 @@
         <Portuguese>Remington ACR-E (Mid/Tan)</Portuguese>
         <Russian>Remington ACR-E (Mid/Tan)</Russian>
         <German>Remington ACR-E (Mid/Tan)</German>
-        <Japanese>Remington ACR-E (Mid/Tan)</Japanese>
+        <Japanese>Remington ACR-E (中/タン)</Japanese>
         <Korean>Remington ACR-E (Mid/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (Mid/Tan)</Chinesesimp>
       </Key>
@@ -612,7 +583,7 @@
         <Portuguese>Remington ACR-E (Mid/Black)</Portuguese>
         <Russian>Remington ACR-E (Mid/Black)</Russian>
         <German>Remington ACR-E (Mid/Black)</German>
-        <Japanese>Remington ACR-E (Mid/Black)</Japanese>
+        <Japanese>Remington ACR-E (中/ブラック)</Japanese>
         <Korean>Remington ACR-E (Mid/Black)</Korean>
         <Chinesesimp>Remington ACR-E (Mid/Black)</Chinesesimp>
       </Key>
@@ -627,11 +598,10 @@
         <Portuguese>Remington ACR-E (Mid/Green)</Portuguese>
         <Russian>Remington ACR-E (Mid/Green)</Russian>
         <German>Remington ACR-E (Mid/Green)</German>
-        <Japanese>Remington ACR-E (Mid/Green)</Japanese>
+        <Japanese>Remington ACR-E 中/グリーン)</Japanese>
         <Korean>Remington ACR-E (Mid/Green)</Korean>
         <Chinesesimp>Remington ACR-E (Mid/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR_midGL_tan">
         <Original>Remington ACR-E (GL/Mid/Tan)</Original>
         <English>Remington ACR-E (GL/Mid/Tan)</English>
@@ -643,7 +613,7 @@
         <Portuguese>Remington ACR-E (GL/Mid/Tan)</Portuguese>
         <Russian>Remington ACR-E (GL/Mid/Tan)</Russian>
         <German>Remington ACR-E (GL/Mid/Tan)</German>
-        <Japanese>Remington ACR-E (GL/Mid/Tan)</Japanese>
+        <Japanese>Remington ACR-E (GL/中/タン)</Japanese>
         <Korean>Remington ACR-E (GL/Mid/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Mid/Tan)</Chinesesimp>
       </Key>
@@ -658,7 +628,7 @@
         <Portuguese>Remington ACR-E (GL/Mid/Black)</Portuguese>
         <Russian>Remington ACR-E (GL/Mid/Black)</Russian>
         <German>Remington ACR-E (GL/Mid/Black)</German>
-        <Japanese>Remington ACR-E (GL/Mid/Black)</Japanese>
+        <Japanese>Remington ACR-E (GL/中/ブラック)</Japanese>
         <Korean>Remington ACR-E (GL/Mid/Black)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Mid/Black)</Chinesesimp>
       </Key>
@@ -673,11 +643,10 @@
         <Portuguese>Remington ACR-E (GL/Mid/Green)</Portuguese>
         <Russian>Remington ACR-E (GL/Mid/Green)</Russian>
         <German>Remington ACR-E (GL/Mid/Green)</German>
-        <Japanese>Remington ACR-E (GL/Mid/Green)</Japanese>
+        <Japanese>Remington ACR-E (GL/中/グリーン)</Japanese>
         <Korean>Remington ACR-E (GL/Mid/Green)</Korean>
         <Chinesesimp>Remington ACR-E (GL/Mid/Green)</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_ACR_full_tan">
         <Original>Remington ACR-E (Long/Tan)</Original>
         <English>Remington ACR-E (Long/Tan)</English>
@@ -689,7 +658,7 @@
         <Portuguese>Remington ACR-E (Long/Tan)</Portuguese>
         <Russian>Remington ACR-E (Long/Tan)</Russian>
         <German>Remington ACR-E (Long/Tan)</German>
-        <Japanese>Remington ACR-E (Long/Tan)</Japanese>
+        <Japanese>Remington ACR-E (長/タン)</Japanese>
         <Korean>Remington ACR-E (Long/Tan)</Korean>
         <Chinesesimp>Remington ACR-E (Long/Tan)</Chinesesimp>
       </Key>
@@ -704,7 +673,7 @@
         <Portuguese>Remington ACR-E (Long/Black)</Portuguese>
         <Russian>Remington ACR-E (Long/Black)</Russian>
         <German>Remington ACR-E (Long/Black)</German>
-        <Japanese>Remington ACR-E (Long/Black)</Japanese>
+        <Japanese>Remington ACR-E (長/ブラック)</Japanese>
         <Korean>Remington ACR-E (Long/Black)</Korean>
         <Chinesesimp>Remington ACR-E (Long/Black)</Chinesesimp>
       </Key>
@@ -719,11 +688,10 @@
         <Portuguese>Remington ACR-E (Long/Green)</Portuguese>
         <Russian>Remington ACR-E (Long/Green)</Russian>
         <German>Remington ACR-E (Long/Green)</German>
-        <Japanese>Remington ACR-E (Long/Green)</Japanese>
+        <Japanese>Remington ACR-E (長/グリーン)</Japanese>
         <Korean>Remington ACR-E (Long/Green)</Korean>
         <Chinesesimp>Remington ACR-E (Long/Green)</Chinesesimp>
       </Key>
-
     </Container>
     <Container name="Mag_Names">
       <Key ID="STR_NIA_30rnd_68x43_FMJ">
@@ -737,7 +705,7 @@
         <Portuguese>6.8mm FMJ 26Rnd STANAG Magazine</Portuguese>
         <Russian>6.8mm FMJ 26Rnd STANAG Magazine</Russian>
         <German>6.8mm FMJ 26Rnd STANAG Magazine</German>
-        <Japanese>6.8mm FMJ 26Rnd STANAG Magazine</Japanese>
+        <Japanese>6.8mm FMJ 26Rnd STANAG マガジン</Japanese>
         <Korean>6.8mm FMJ 26Rnd STANAG Magazine</Korean>
         <Chinesesimp>6.8mm FMJ 26Rnd STANAG Magazine</Chinesesimp>
       </Key>
@@ -752,7 +720,7 @@
         <Portuguese>6.8mm BT 26Rnd STANAG Magazine</Portuguese>
         <Russian>6.8mm BT 26Rnd STANAG Magazine</Russian>
         <German>6.8mm BT 26Rnd STANAG Magazine</German>
-        <Japanese>6.8mm BT 26Rnd STANAG Magazine</Japanese>
+        <Japanese>6.8mm BT 26発入り STANAG マガジン</Japanese>
         <Korean>6.8mm BT 26Rnd STANAG Magazine</Korean>
         <Chinesesimp>6.8mm BT 26Rnd STANAG Magazine</Chinesesimp>
       </Key>
@@ -767,7 +735,7 @@
         <Portuguese>6.8mm Tracer 26Rnd STANAG Magazine</Portuguese>
         <Russian>6.8mm Tracer 26Rnd STANAG Magazine</Russian>
         <German>6.8mm Tracer 26Rnd STANAG Magazine</German>
-        <Japanese>6.8mm Tracer 26Rnd STANAG Magazine</Japanese>
+        <Japanese>6.8mm 曳光弾 26発入り STANAG マガジン</Japanese>
         <Korean>6.8mm Tracer 26Rnd STANAG Magazine</Korean>
         <Chinesesimp>6.8mm Tracer 26Rnd STANAG Magazine</Chinesesimp>
       </Key>
@@ -782,7 +750,7 @@
         <Portuguese>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</Portuguese>
         <Russian>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</Russian>
         <German>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</German>
-        <Japanese>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</Japanese>
+        <Japanese>6.8mm FMJ 26発入り STANAG マガジン (3発毎にIR-DIM)</Japanese>
         <Korean>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</Korean>
         <Chinesesimp>6.8mm FMJ 26Rnd STANAG Magazine (IR-DIM every 3)</Chinesesimp>
       </Key>
@@ -797,7 +765,7 @@
         <Portuguese>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</Portuguese>
         <Russian>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</Russian>
         <German>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</German>
-        <Japanese>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</Japanese>
+        <Japanese>6.8mm FMJ 26発入り STANAG マガジン (3発毎に曳光弾)</Japanese>
         <Korean>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</Korean>
         <Chinesesimp>6.8mm FMJ 26Rnd STANAG Magazine (Tracers every 3)</Chinesesimp>
       </Key>
@@ -812,7 +780,7 @@
         <Portuguese>6.8mm IR-DIM 26Rnd STANAG Magazine</Portuguese>
         <Russian>6.8mm IR-DIM 26Rnd STANAG Magazine</Russian>
         <German>6.8mm IR-DIM 26Rnd STANAG Magazine</German>
-        <Japanese>6.8mm IR-DIM 26Rnd STANAG Magazine</Japanese>
+        <Japanese>6.8mm IR-DIM 26発入り STANAG マガジン</Japanese>
         <Korean>6.8mm IR-DIM 26Rnd STANAG Magazine</Korean>
         <Chinesesimp>6.8mm IR-DIM 26Rnd STANAG Magazine</Chinesesimp>
       </Key>
@@ -827,7 +795,7 @@
         <Portuguese>6.8mm Spitzer 26Rnd STANAG Magazine</Portuguese>
         <Russian>6.8mm Spitzer 26Rnd STANAG Magazine</Russian>
         <German>6.8mm Spitzer 26Rnd STANAG Magazine</German>
-        <Japanese>6.8mm Spitzer 26Rnd STANAG Magazine</Japanese>
+        <Japanese>6.8mm スピッツァー 26発入り STANAG マガジン</Japanese>
         <Korean>6.8mm Spitzer 26Rnd STANAG Magazine</Korean>
         <Chinesesimp>6.8mm Spitzer 26Rnd STANAG Magazine</Chinesesimp>
       </Key>
@@ -889,7 +857,7 @@
         <Portuguese>Apology to Squantoon</Portuguese>
         <Russian>Apology to Squantoon</Russian>
         <German>Apology to Squantoon</German>
-        <Japanese>Apology to Squantoon</Japanese>
+        <Japanese>Squantoon への謝罪</Japanese>
         <Korean>Apology to Squantoon</Korean>
         <Chinesesimp>Apology to Squantoon</Chinesesimp>
       </Key>
@@ -906,7 +874,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -921,7 +889,7 @@
         <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>インファントリー カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -936,7 +904,7 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
       </Key>
@@ -951,7 +919,7 @@
         <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
         <Russian>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
         <German>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
-        <Japanese>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Japanese>
+        <Japanese>インファントリー ライフル&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
         <Korean>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
         <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
       </Key>
@@ -966,7 +934,7 @@
         <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
         <Russian>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
         <German>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
-        <Japanese>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Japanese>
+        <Japanese>インファントリー カービン&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
         <Korean>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
         <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
       </Key>
@@ -981,86 +949,84 @@
         <Portuguese>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
         <Russian>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
         <German>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Japanese>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
         <Korean>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
         <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_SBRCliffhanger_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</German>
-        <Japanese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; &quot;Break&apos;s over, Roach. Let's Go.&quot;</Chinesesimp>
+        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO&lt;br/&gt; "Break's over, Roach. Let's Go."</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</German>
+        <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO&lt;br/&gt; "もういいな、ローチ。行くぞ。"</Japanese>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Chinesesimp>
       </Key>
-      
-
       <Key ID="STR_NIA_brake_SF3P_556_DESC">
-      <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
-      <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
-      <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
-      <French>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</French>
-      <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Spanish>
-      <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Italian>
-      <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Polish>
-      <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
-      <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
-      <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
-      <Japanese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Japanese>
-      <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
-      <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
+        <Japanese>3 点消炎器&lt;br/&gt;口径: 5.56mm</Japanese>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_SF3P_68_DESC">
-      <Original>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Original>
-      <English>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</English>
-      <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Czech>
-      <French>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</French>
-      <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Spanish>
-      <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Italian>
-      <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Polish>
-      <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Portuguese>
-      <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Russian>
-      <German>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</German>
-      <Japanese>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Japanese>
-      <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Korean>
-      <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Chinesesimp>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</German>
+        <Japanese>3 点消炎器&lt;br/&gt;口径: 6.8mm</Japanese>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_SF3P_762_DESC">
-      <Original>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
-      <English>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
-      <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
-      <French>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
-      <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
-      <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
-      <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
-      <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
-      <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
-      <German>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
-      <Japanese>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Japanese>
-      <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
-      <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
+        <Japanese>3 点消炎器&lt;br/&gt;口径: 7.62mm</Japanese>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_apology_DESC">
-      <Original>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Original>
-      <English>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</English>
-      <Czech>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Czech>
-      <French>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</French>
-      <Spanish>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Spanish>
-      <Italian>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Italian>
-      <Polish>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Polish>
-      <Portuguese>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Portuguese>
-      <Russian>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Russian>
-      <German>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</German>
-      <Japanese>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Japanese>
-      <Korean>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Korean>
-      <Chinesesimp>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Chinesesimp>
+        <Original>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Original>
+        <English>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</English>
+        <Czech>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Czech>
+        <French>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</French>
+        <Spanish>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Spanish>
+        <Italian>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Italian>
+        <Polish>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Polish>
+        <Portuguese>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Portuguese>
+        <Russian>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Russian>
+        <German>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</German>
+        <Japanese>ごめん、これ出すのに&lt;br/&gt;一年もかかっちゃった (Red-Tail Hawks)</Japanese>
+        <Korean>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Korean>
+        <Chinesesimp>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_muzzle_Apology_AUTHOR">
         <Original>Sorry</Original>
@@ -1077,7 +1043,6 @@
         <Korean>Sorry</Korean>
         <Chinesesimp>Sorry</Chinesesimp>
       </Key>
-
       <Key ID="STR_NIA_DESC_30rnd_68x43_FMJ">
         <Original>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Original>
         <English>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</English>
@@ -1089,7 +1054,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC FMJ-BT&lt;br/&gt;種類: 船尾形弾尾フル メタル ジャケット&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC FMJ-BT&lt;br/&gt;Type: Boat-Tailed Full Metal Jacket&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1104,7 +1069,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC BT-BT&lt;br/&gt;種類: 中空弾頭 船尾形弾尾 (27.5 グレイン入りの Alliant RL10X、CCI BR4 雷管、SSA-S 真鍮薬莢、SPC II クラスの最大装薬量、Hornady SST 弾丸)&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC BT-BT&lt;br/&gt;Type: Ballistic Tip Boat Tail (Alliant RL10X at 27.5 grains, CCI BR4 primer, SSA-S Brass, SPC II rating MAXIMUM LOAD, Hornady SST Bullet)&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1119,7 +1084,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1134,7 +1099,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC FMJ/IRDIM 曳光弾&lt;br/&gt;種類: FMJ/低視認性曳光弾&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC FMJ/IRDIM Tracer&lt;br/&gt;Type: FMJ/Low-visibility Tracer&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1149,7 +1114,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC FMJ/曳光弾&lt;br/&gt;種類: FMJ/低視認性曳光弾&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC FMJ/Tracer&lt;br/&gt;Type: FMJ/Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1164,7 +1129,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC IR-DIM 曳光弾&lt;br/&gt;種類: 低視認性曳光弾&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC IR-DIM Tracer&lt;br/&gt;Type: Low-Visibility Tracer&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
@@ -1179,7 +1144,7 @@
         <Portuguese>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</Portuguese>
         <Russian>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</Russian>
         <German>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</German>
-        <Japanese>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</Japanese>
+        <Japanese>口径: 6.8x43mm SPC Spitzer SP&lt;br/&gt;種類: スピッツァー ソフト ポイント (20グレイン入りの Alliant RL9、CCI BR4 雷管、SSA-S 真鍮薬莢、Speer HOT-COR 弾丸)&lt;br/&gt;弾数: 26</Japanese>
         <Korean>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</Korean>
         <Chinesesimp>Caliber: 6.8x43mm SPC Spitzer SP&lt;br/&gt;Type: Spitzer Soft Point (Alliant RL9 at 20 grains, CCI BR4 Primer, SSA-S Brass, Speer HOT-COR Bullet)&lt;br/&gt;Rounds: 26</Chinesesimp>
       </Key>
