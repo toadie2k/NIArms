@@ -21,7 +21,7 @@ class CfgSoundSets
     };
     class nia_sg550_Tail_SoundSet
     {
-        soundShaders[] = { "nia_sg550_tailForest_SoundShader", "nia_sg550_tailHouses_SoundShader", "nia_sg550_tailInterior_SoundShader", "nia_sg550_tailMeadows_SoundShader", "nia_sg550_tailTrees_SoundShader", "NIA_sg550_tailForest_mid_SoundShader", "nia_sg550_tailHouses_mid_SoundShader", "nia_sg550_tailInterior_mid_SoundShader", "nia_sg550_tailMeadows_mid_SoundShader", "nia_sg550_tailTrees_mid_SoundShader" };
+        soundShaders[] = { "nia_sg550_tailDistant_SoundShader","nia_sg550_tailForest_SoundShader", "nia_sg550_tailHouses_SoundShader", "nia_sg550_tailInterior_SoundShader", "nia_sg550_tailMeadows_SoundShader", "nia_sg550_tailTrees_SoundShader", "NIA_sg550_tailForest_mid_SoundShader", "nia_sg550_tailHouses_mid_SoundShader", "nia_sg550_tailInterior_mid_SoundShader", "nia_sg550_tailMeadows_mid_SoundShader", "nia_sg550_tailTrees_mid_SoundShader" };
         volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
@@ -84,7 +84,7 @@ class CfgSoundSets
     };
     class nia_sg551_Tail_SoundSet
     {
-        soundShaders[] = { "nia_sg551_tailForest_SoundShader", "nia_sg551_tailHouses_SoundShader", "nia_sg551_tailInterior_SoundShader", "nia_sg551_tailMeadows_SoundShader", "nia_sg551_tailTrees_SoundShader", "nia_sg551_tailForest_mid_SoundShader", "nia_sg551_tailHouses_mid_SoundShader", "nia_sg551_tailInterior_mid_SoundShader", "nia_sg551_tailMeadows_mid_SoundShader", "nia_sg551_tailTrees_mid_SoundShader" };
+        soundShaders[] = {"nia_sg551_tailDistant_SoundShader", "nia_sg551_tailForest_SoundShader", "nia_sg551_tailHouses_SoundShader", "nia_sg551_tailInterior_SoundShader", "nia_sg551_tailMeadows_SoundShader", "nia_sg551_tailTrees_SoundShader", "nia_sg551_tailForest_mid_SoundShader", "nia_sg551_tailHouses_mid_SoundShader", "nia_sg551_tailInterior_mid_SoundShader", "nia_sg551_tailMeadows_mid_SoundShader", "nia_sg551_tailTrees_mid_SoundShader" };
         volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
@@ -146,7 +146,7 @@ class CfgSoundSets
     };
     class nia_sg553_Tail_SoundSet
     {
-        soundShaders[] = { "nia_sg553_tailForest_SoundShader", "nia_sg553_tailHouses_SoundShader", "nia_sg553_tailInterior_SoundShader", "nia_sg553_tailMeadows_SoundShader", "nia_sg553_tailTrees_SoundShader", "nia_sg553_tailForest_mid_SoundShader", "nia_sg553_tailHouses_mid_SoundShader", "nia_sg553_tailInterior_mid_SoundShader", "nia_sg553_tailMeadows_mid_SoundShader", "nia_sg553_tailTrees_mid_SoundShader" };
+        soundShaders[] = { "nia_sg553_tailDistant_SoundShader","nia_sg553_tailForest_SoundShader", "nia_sg553_tailHouses_SoundShader", "nia_sg553_tailInterior_SoundShader", "nia_sg553_tailMeadows_SoundShader", "nia_sg553_tailTrees_SoundShader", "nia_sg553_tailForest_mid_SoundShader", "nia_sg553_tailHouses_mid_SoundShader", "nia_sg553_tailInterior_mid_SoundShader", "nia_sg553_tailMeadows_mid_SoundShader", "nia_sg553_tailTrees_mid_SoundShader" };
         volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
@@ -208,7 +208,7 @@ class CfgSoundSets
     };
     class nia_sg553r_Tail_SoundSet
     {
-        soundShaders[] = { "nia_sg553r_tailForest_SoundShader", "nia_sg553r_tailHouses_SoundShader", "nia_sg553r_tailInterior_SoundShader", "nia_sg553r_tailMeadows_SoundShader", "nia_sg553r_tailTrees_SoundShader", "nia_sg553r_tailForest_mid_SoundShader", "nia_sg553r_tailHouses_mid_SoundShader", "nia_sg553r_tailInterior_mid_SoundShader", "nia_sg553r_tailMeadows_mid_SoundShader", "nia_sg553r_tailTrees_mid_SoundShader" };
+        soundShaders[] = { "nia_sg553r_tailDistant_SoundShader","nia_sg553r_tailForest_SoundShader", "nia_sg553r_tailHouses_SoundShader", "nia_sg553r_tailInterior_SoundShader", "nia_sg553r_tailMeadows_SoundShader", "nia_sg553r_tailTrees_SoundShader", "nia_sg553r_tailForest_mid_SoundShader", "nia_sg553r_tailHouses_mid_SoundShader", "nia_sg553r_tailInterior_mid_SoundShader", "nia_sg553r_tailMeadows_mid_SoundShader", "nia_sg553r_tailTrees_mid_SoundShader" };
         volumeFactor = 1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;

@@ -27,7 +27,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "nia_wp_sg550\snd\550\sg550_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -51,7 +51,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -283,7 +283,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "nia_wp_sg550\snd\556\sg556_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -307,7 +307,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -539,7 +539,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "nia_wp_sg550\snd\556\sg556_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -563,7 +563,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -795,7 +795,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "nia_wp_sg550\snd\553r\sg553r_mid", 1 } };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -819,7 +819,7 @@ class CfgSoundShaders
     {
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
