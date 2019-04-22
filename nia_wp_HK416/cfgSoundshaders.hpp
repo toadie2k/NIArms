@@ -30,7 +30,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1.0;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -59,7 +59,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -72,7 +72,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_forest", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -84,7 +84,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_forest_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -97,7 +97,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_urban", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*houses/3)";
+        volume = " 2*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -109,7 +109,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_urban_mid", 1 }
         };
-        volume = "1.5*((1-interior/1.4)*houses/3)";
+        volume = "2*((1-interior/1.4)*houses/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -122,7 +122,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_indoor", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         range = 250;
         rangeCurve[] = {
             { 0, 0.7 },
@@ -134,7 +134,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_indoor_mid", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 0.4 },
@@ -147,7 +147,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_meadow", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -159,7 +159,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_meadow_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -172,7 +172,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_trees", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -184,7 +184,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\rifle\rifle_trees_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -307,7 +307,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -336,7 +336,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 0.4;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -349,7 +349,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_forest", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -361,7 +361,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_forest_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -374,7 +374,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_urban", 1 }
         };
-        volume = "1.5*((1-interior/1.4)*houses/3)";
+        volume = "2*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -386,7 +386,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_urban_mid", 1 }
         };
-        volume = "1.5*((1-interior/1.4)*houses/3)";
+        volume = "2*((1-interior/1.4)*houses/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -399,7 +399,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_indoor", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         range = 250;
         rangeCurve[] = {
             { 0, 0.7 },
@@ -411,7 +411,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_indoor_mid", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 0.4 },
@@ -425,7 +425,7 @@ class CfgSoundShaders
             { "nia_WP_HK416\snd\carbine\carbine_meadows", 1 },
             { "nia_WP_HK416\snd\carbine\carbine_meadows", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -437,7 +437,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_meadows_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -450,7 +450,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_trees", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -462,7 +462,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\carbine\carbine_trees_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -586,7 +586,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_mid", 1 }
         };
-        volume = 1.6252;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0.2 },
@@ -615,7 +615,7 @@ class CfgSoundShaders
         samples[] = {
             { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 }
         };
-        volume = 0.8;
+        volume = 1;
         range = 2000;
         rangeCurve[] = {
             { 0, 0 },
@@ -628,7 +628,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_forest", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -640,7 +640,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_forest_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*Forest/3)";
+        volume = " 2*((1-interior/1.4)*Forest/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -653,7 +653,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_urban", 1 }
         };
-        volume = "1.5*((1-interior/1.4)*houses/3)";
+        volume = "2*((1-interior/1.4)*houses/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -665,7 +665,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\sbr_urban_mid", 1 }
         };
-        volume = "1.5*((1-interior/1.4)*houses/3)";
+        volume = "2*((1-interior/1.4)*houses/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -678,7 +678,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_indoor", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         range = 250;
         rangeCurve[] = {
             { 0, 0.7 },
@@ -690,7 +690,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_indoor_mid", 1 }
         };
-        volume = " 1.5*((interior)*0.65)";
+        volume = " 2*((interior)*0.65)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 0.4 },
@@ -704,7 +704,7 @@ class CfgSoundShaders
             { "nia_WP_HK416\snd\SBR\SBR_meadow", 1 },
             { "nia_WP_HK416\snd\SBR\SBR_meadow", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -716,7 +716,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_meadow_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        volume = " 2*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -729,7 +729,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_trees", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         range = 250;
         rangeCurve[] = {
             { 0, 1 },
@@ -741,7 +741,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\SBR\SBR_trees_mid", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         rangeCurve[] = {
             { 0, 0 },
             { 250, 1 },
@@ -828,7 +828,7 @@ class CfgSoundShaders
         samples[] = {
             { "nia_WP_HK416\snd\Generic\SBR_suppressed_trees", 1 }
         };
-        volume = " 1.5*((1-interior/1.4)*trees/3)";
+        volume = " 2*((1-interior/1.4)*trees/3)";
         range = 150;
         rangeCurve[] = {
             { 0, 1 },

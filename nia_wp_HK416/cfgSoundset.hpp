@@ -16,7 +16,7 @@ class CfgSoundSets
         distanceFilter = "HLC_defaultDistanceFilter";
     };
     class NIA_416Rifle_Tail_SoundSet {
-        soundShaders[] = { "NIA_416Rifle_tailForest_SoundShader", "NIA_416Rifle_tailForest_mid_SoundShader", "NIA_416Rifle_tailHouses_SoundShader", "NIA_416Rifle_tailHouses_mid_SoundShader", "NIA_416Rifle_tailInterior_SoundShader", "NIA_416Rifle_tailInterior_mid_SoundShader", "NIA_416Rifle_tailMeadows_SoundShader", "NIA_416Rifle_tailHouses_mid_SoundShader", "NIA_416Rifle_tailTrees_SoundShader", "NIA_416Rifle_tailTrees_mid_SoundShader" };
+        soundShaders[] = { "NIA_416Rifle_tailDistant_SoundShader","NIA_416Rifle_tailForest_SoundShader", "NIA_416Rifle_tailForest_mid_SoundShader", "NIA_416Rifle_tailHouses_SoundShader", "NIA_416Rifle_tailHouses_mid_SoundShader", "NIA_416Rifle_tailInterior_SoundShader", "NIA_416Rifle_tailInterior_mid_SoundShader", "NIA_416Rifle_tailMeadows_SoundShader", "NIA_416Rifle_tailHouses_mid_SoundShader", "NIA_416Rifle_tailTrees_SoundShader", "NIA_416Rifle_tailTrees_mid_SoundShader" };
         volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
@@ -72,7 +72,7 @@ class CfgSoundSets
         distanceFilter = "HLC_defaultDistanceFilter";
     };
     class NIA_416Carbine_Tail_SoundSet {
-        soundShaders[] = { "NIA_416Carbine_tailForest_SoundShader", "NIA_416Carbine_tailHouses_SoundShader", "NIA_416Carbine_tailInterior_SoundShader", "NIA_416Carbine_tailMeadows_SoundShader", "NIA_416Carbine_tailTrees_mid_SoundShader", "NIA_416Carbine_tailForest_mid_SoundShader", "NIA_416Carbine_tailHouses_mid_SoundShader", "NIA_416Carbine_tailInterior_mid_SoundShader", "NIA_416Carbine_tailMeadows_mid_SoundShader", "NIA_416Carbine_tailTrees_mid_SoundShader" };
+        soundShaders[] = { "NIA_416Carbine_tailDistant_SoundShader","NIA_416Carbine_tailForest_SoundShader", "NIA_416Carbine_tailHouses_SoundShader", "NIA_416Carbine_tailInterior_SoundShader", "NIA_416Carbine_tailMeadows_SoundShader", "NIA_416Carbine_tailTrees_mid_SoundShader", "NIA_416Carbine_tailForest_mid_SoundShader", "NIA_416Carbine_tailHouses_mid_SoundShader", "NIA_416Carbine_tailInterior_mid_SoundShader", "NIA_416Carbine_tailMeadows_mid_SoundShader", "NIA_416Carbine_tailTrees_mid_SoundShader" };
         volumeFactor = 1.1;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 2;
@@ -116,7 +116,7 @@ class CfgSoundSets
 
 
     class NIA_416SBR_Shot_SoundSet {
-        soundShaders[] = { "NIA_416SBR_closeShot_SoundShader", "NIA_416SBR_midShot_SoundShader", "NIA_416SBR_distShot_SoundShader", "NIA_416SBR_Closure_SoundShader" };
+        soundShaders[] = { "NIA_416SBR_tailDistant_SoundShader","NIA_416SBR_closeShot_SoundShader", "NIA_416SBR_midShot_SoundShader", "NIA_416SBR_distShot_SoundShader", "NIA_416SBR_Closure_SoundShader" };
         volumeFactor = 1.35;
         volumeCurve = "InverseSquare2Curve";
         frequencyRandomizer = 0.5;
