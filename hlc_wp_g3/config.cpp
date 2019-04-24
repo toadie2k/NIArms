@@ -5,7 +5,7 @@
 
 class CfgPatches {
     class hlcweapons_g3 {
-        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core" };
+        requiredaddons[] = { "hlcweapons_core" };
         units[] = { "HLC_G3_ammobox", "Weapon_hlc_rifle_psg1", "Weapon_hlc_rifle_g3sg1", "Weapon_hlc_rifle_g3ka4", "Weapon_hlc_rifle_hk51", "Weapon_HLC_Rifle_g3ka4_GL", "Weapon_hlc_rifle_hk53", "Weapon_hlc_rifle_G3A3", "Weapon_hlc_rifle_g3a3ris" };
         weapons[] = { "hlc_rifle_psg1", "hlc_rifle_g3sg1", "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_rifle_g3ka4", "hlc_rifle_hk51", "HLC_Rifle_g3ka4_GL", "hlc_rifle_hk53", "hlc_optic_PVS4G3" };
         magazines[] = { "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_t_G3", "hlc_30rnd_556x45_EPR_HK33", "hlc_30rnd_556x45_SOST_HK33", "hlc_30rnd_556x45_b_HK33", "hlc_30rnd_556x45_t_HK33" };
