@@ -197,7 +197,7 @@ class CfgWeapons
 		bullet9[] = { "A3\sounds_f\weapons\shells\7_62\grass_762_01", 0.281838, 1, 15 };
 		soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
         reloadAction = "NIA_GestureReload416";
-        reloadMagazineSound[] = { "\hlc_wp_ar15\snd\ar15_reload", 0.74, 1, 30 };
+        reloadMagazineSound[] = { "\hlc_wp_ar15\snd\ar15_reload_A3_std", 0.74, 1, 30 };
         recoil = "recoil_spar";
 		handAnim[] = {
 			"OFP2_ManSkeleton",
