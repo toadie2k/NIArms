@@ -416,7 +416,7 @@ class CfgMagazines{
         descriptionshort = $STR_NIA_DESC_100Rnd_792x57_B;
         displayname = $STR_NIA_100rnd_792x57_B_MG42;
         mass = 72;
-        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\50rnd100rnd_792x57_Gurt34.p3d;
+        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\100rnd_792x57_Gurt34.p3d;
         modelSpecialIsProxy = 1;
     };
     class hlc_200Rnd_792x57_B_MG42 : hlc_50Rnd_792x57_B_MG42 {
@@ -455,7 +455,7 @@ class CfgMagazines{
         descriptionshort = $STR_NIA_DESC_100Rnd_792x57_M;
         displayname = $STR_NIA_100rnd_792x57_m_MG42;
         mass = 72;
-        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\50rnd100rnd_792x57_Gurt34.p3d;
+        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\100rnd_792x57_Gurt34.p3d;
         modelSpecialIsProxy = 1;
     };
     class hlc_200Rnd_792x57_M_MG42 : hlc_50Rnd_792x57_M_MG42 {
@@ -495,7 +495,7 @@ class CfgMagazines{
         descriptionshort = $STR_NIA_DESC_100Rnd_792x57_T;
         displayname = $STR_NIA_100rnd_792x57_t_MG42;
         mass = 72;
-        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\50rnd100rnd_792x57_Gurt34.p3d;
+        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\100rnd_792x57_Gurt34.p3d;
         modelSpecialIsProxy = 1;
     };
     class hlc_200Rnd_792x57_T_MG42 : hlc_50Rnd_792x57_T_MG42 {
@@ -534,7 +534,7 @@ class CfgMagazines{
         descriptionshort = $STR_NIA_DESC_100Rnd_792x57_AP;
         displayname = $STR_NIA_100rnd_792x57_ap_MG42;
         mass = 48;
-        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\50rnd100rnd_792x57_Gurt34.p3d;
+        modelSpecial = hlc_wp_mg3\mesh\magazine\proxy\100rnd_792x57_Gurt34.p3d;
         modelSpecialIsProxy = 1;
     };
     class hlc_200Rnd_792x57_AP_MG42 : hlc_50Rnd_792x57_AP_MG42 {
