@@ -796,7 +796,7 @@ class CfgWeapons {
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 457.2;
         displayName = $STR_NIA_rifle_5000;
-        descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
+        descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
         reloadmagazinesound[] = { "hlc_WP_FAL\snd\fal_reload", 0.630957, 1, 35 };
         handanim[] = { "OFP2_ManSkeleton", "hlc_WP_FAL\gesture\l1a1_hands.rtm" };
