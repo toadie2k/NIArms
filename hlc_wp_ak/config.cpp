@@ -656,7 +656,7 @@ class CfgMagazineWells {
     class CBA_545x39_RPK {
         NIA_mags[] = {
 			"hlc_45Rnd_545x39_t_rpk",
-			"hlc_45Rnd_545x39_m_rpk",
+			"hlc_45Rnd_545x39_m_rpk"
 		};
 	};
     class CBA_762x39_AK {
