@@ -18,7 +18,7 @@ class CfgPatches {
             "hlc_rifle_G36KTAC", "hlc_rifle_G36CTAC", "hlc_rifle_G36MLIC", "hlc_rifle_G36KMLIC", "hlc_rifle_G36CMLIC","hlc_rifle_G36MLIAG36"
         };
         magazines[] = {"hlc_30rnd_556x45_EPR_G36","hlc_30rnd_556x45_SOST_G36","hlc_30rnd_556x45_SPR_G36","hlc_100rnd_556x45_EPR_G36"};
-        version = "v1.3";
+        version = "v1.35";
         author="toadie";
     };
 };
@@ -65,7 +65,24 @@ class niarms_G36_OpticSlot: asdg_OpticRail {
         HLC_Optic_G36Export15x2d = 1;
     };
 };
-
+class niarms_XM8_PCAP_Optic : asdg_OpticRail {
+    class compatibleItems {
+        HLC_optic_ISM_PCAP = 1;
+    };
+};
+class asdg_SlotInfo;
+class niarms_XM8_PCAP_Accessory : asdg_SlotInfo {
+    linkProxy = "\a3\data_f\proxies\weapon_slots\SIDE";
+    displayName = "$STR_A3_PointerSlot0";
+    iconPicture = "\a3\weapons_f\Data\ui\attachment_side";
+    class compatibleItems {
+    };
+};
+class UnderBarrelSlot;
+class niarms_XM8_PCAP_Underbarrel : UnderBarrelSlot {
+    class compatibleItems {
+    };
+};
 class CfgVehicles { 
     dlc = "Niarms_G36";
     class B_supplyCrate_F;
@@ -741,7 +758,7 @@ class CfgWeapons {
     {
         scope = 2;																	/// available in Arsenal
         displayName = $STR_NIA_optic_G36Bipod;													/// name of item in Inventory (and Arsenal)
-        picture = "\A3\Weapons_F_Mark\Data\UI\gear_accu_bipod_01_snd_CA.paa";			/// icon in Inventory
+        picture = "\A3\Weapons_F_Mark\Data\UI\icon_bipod_01_F_blk_ca.paa";			/// icon in Inventory
         model = "hlc_wp_g36\mesh\acc\MG_Bipod.p3d";						/// path to model"P:\hlc_wp_g36\mesh\acc\MG_Bipod.p3d"
         class ItemInfo : InventoryUnderItem_Base_F
         {
@@ -1153,7 +1170,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 69;
         };
-        inertia = 0.34;
+        inertia = 0.33;
         __DEXTERITY(3.3, 0);
         class Single : Single {
             class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
@@ -1370,7 +1387,10 @@ class CfgWeapons {
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_e1_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
-
+        class Burst2rnd : Burst {
+            burst = 2;
+            textureType = "dual";
+        };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36E1_CMAG";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36E1_CMAG";
@@ -1452,12 +1472,10 @@ class CfgWeapons {
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_ke_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_export_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga" };
         modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
-
         class Burst2rnd : Burst {
             burst = 2;
             textureType = "dual";
         };
-
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KE1_CMAG";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KE1_CMAG";
@@ -1475,43 +1493,42 @@ class CfgWeapons {
         __DEXTERITY(3.4+2.1, 0);
     };
 
-    class hlc_rifle_G36V : hlc_rifle_G36E1 {
+    class hlc_rifle_G36V : hlc_G36_base {
         dlc = "Niarms_G36";
         author = "Toadie";
+        AB_barrelTwist = 12;
+        AB_barrelLength = 18.25;
+        ACE_barrelTwist = 178;
+        ACE_barrelLength = 480;
+        scope = public;
+        deployedpivot = "deploypivot";
+        hasBipod = false;
         displayName = $STR_NIA_rifle_G36V;
+        descriptionShort = $STR_NIA_G36_Carbine_DESC;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36V_ca.paa";
-        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_STD.rtm" };
+        memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
+        hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
-        class OpticsModes {
-            class Kolimator {
-                cameradir = "";
-                distancezoommax = 100;
-                distancezoommin = 100;
-                memorypointcamera = "eye";
-                opticsdisableperipherialvision = 0;
-                opticsflare = 0;
-                opticsid = 1;
-                opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                __OPTICSZOOM_1X;
-                usemodeloptics = 0;
-                visionmode[] = {};
-            };
-        };
+        discretedistance[] = { 200 };
+        discretedistanceinitindex = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 69;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot{};
         };
         inertia = 0.33;
         __DEXTERITY(3.3, 0);
-
+        modes[] = { "Single", "Burst2rnd", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+        class Burst2rnd : Burst {
+            burst = 2;
+            textureType = "dual";
+        };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG";
@@ -1529,8 +1546,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip";
@@ -1543,8 +1560,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_AFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip2";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip2";
@@ -1557,8 +1574,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.33 + 0.066);
+        __DEXTERITY((3.3 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36V_CMAG_grip3";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36V_CMAG_grip3";
@@ -1573,8 +1590,8 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36v-cmag_ca.paa";
-        inertia = 0.36+0.21;
-        __DEXTERITY(3.6+2.1, 0);
+        inertia = 0.33+0.21;
+        __DEXTERITY(3.3+2.1, 0);
         rhs_grip1_change = "hlc_rifle_G36V_CMAG_grip";
         rhs_grip2_change = "hlc_rifle_G36V_CMAG_grip2";
         rhs_grip3_change = "hlc_rifle_G36V_CMAG_grip3";
@@ -1585,63 +1602,89 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.33 + 0.21 + 0.066);
+        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36V_CMAG_grip2 : hlc_rifle_G36V_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_AFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.33 + 0.21 + 0.066);
+        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36V_CMAG_grip3 : hlc_rifle_G36V_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36V_VFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.33 + 0.21 + 0.066);
+        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
     };
 
 
-    class hlc_rifle_G36KV : hlc_rifle_G36KE1 {
+    class hlc_rifle_G36KV : hlc_rifle_G36V {
         dlc = "Niarms_G36";
+        ACE_barrelTwist = 178;
+        ACE_barrelLength = 318;
         author = "Toadie";
         displayName = $STR_NIA_rifle_G36KV;
+        descriptionShort = $STR_NIA_G36_Carbine_DESC;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36K.p3d";
         picture = "\hlc_wp_g36\tex\ui\gear_g36KV_ca.paa";
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock", "AG36" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_kv_co.tga", "hlc_wp_g36\tex\placeholder\g36_opticrails_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga", "hlc_wp_g36\tex\placeholder\g36_ag36_co.tga" };
-        class OpticsModes {
-            class Kolimator {
-                cameradir = "";
-                distancezoommax = 100;
-                distancezoommin = 100;
-                memorypointcamera = "eye";
-                opticsdisableperipherialvision = 0;
-                opticsflare = 0;
-                opticsid = 1;
-                opticsppeffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
-                __OPTICSZOOM_1X;
-                usemodeloptics = 0;
-                visionmode[] = {};
-            };
-        };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 60;
             class CowsSlot : asdg_OpticRail1913 {};
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot{};
         };
         inertia = 0.3;
         __DEXTERITY(3.0, 0);
+        class Single : Single {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class Burst : Burst {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class FullAuto : FullAuto {
+            class StandardSound : StandardSound { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36k_Shot_SoundSet", "g36k_Tail_SoundSet" };
+            };
+            dispersion = 0.0008727;
+        };
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
 
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
+        };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG";
@@ -1658,8 +1701,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
-        inertia = (0.33 + 0.066);
-        __DEXTERITY((3.3 + 0.66), 1);
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip";
@@ -1672,8 +1715,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
-        inertia = (0.33 + 0.066);
-        __DEXTERITY((3.3 + 0.66), 1);
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip2";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip2";
@@ -1686,8 +1729,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
-        inertia = (0.33 + 0.066);
-        __DEXTERITY((3.3 + 0.66), 1);
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KV_CMAG_grip3";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KV_CMAG_grip3";
@@ -1701,8 +1744,8 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         picture = "\hlc_wp_g36\tex\ui\Gear_g36kv-cmag_ca.paa";
-        inertia = 0.33+0.21;
-        __DEXTERITY(3.3+2.1, 0);
+        inertia = 0.30+0.21;
+        __DEXTERITY(3.0+2.1, 0);
         rhs_grip1_change = "hlc_rifle_G36KV_CMAG_grip";
         rhs_grip2_change = "hlc_rifle_G36KV_CMAG_grip2";
         rhs_grip3_change = "hlc_rifle_G36KV_CMAG_grip3";
@@ -1714,31 +1757,36 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
-        inertia = (0.33 + 0.21 + 0.066);
-        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
+        inertia = (0.3 + 0.21 + 0.066);
+        __DEXTERITY((3.0 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36KV_CMAG_grip2 : hlc_rifle_G36KV_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_AFG.rtm" };
-        inertia = (0.33 + 0.21 + 0.066);
-        __DEXTERITY((3.3 + 2.1 + 0.66), 1);
+        inertia = (0.30 + 0.21 + 0.066);
+        __DEXTERITY((3.0 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36KV_CMAG_grip3 : hlc_rifle_G36KV_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\varient\gesture_g36CV_VFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.30 + 0.21 + 0.066);
+        __DEXTERITY((0.30 + 2.1 + 0.66), 1);
     };
 
 
-    class hlc_rifle_G36CV : hlc_rifle_G36C {
+    class hlc_rifle_G36CV : hlc_rifle_G36V {
         dlc = "Niarms_G36";
+        AB_barrelTwist = 12;
+        AB_barrelLength = 18.25;
+        ACE_barrelTwist = 178;
+        ACE_barrelLength = 318;
         author = "Toadie";
         displayName = $STR_NIA_rifle_G36CV;
+        descriptionShort = $STR_NIA_G36_Compact_DESC;
         reloadAction = "HLC_GestureReloadG36V";
         reloadmagazinesound[] = { "hlc_wp_g36\snd\G36EV_reload", 0.9, 1, 35 };
         model = "hlc_wp_g36\mesh\G36V\G36C.p3d";
@@ -1750,7 +1798,108 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot :asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot{};
+        };
+        inertia = 0.28;
+        __DEXTERITY(2.8, 0);
+        modes[] = { "Single", "Burst", "FullAuto", "single_medium_optics1", "single_far_optics2" };
+        class Single : Mode_SemiAuto {
+            sounds[] = { "StandardSound", "SilencedSound" };
+
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
+
+                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
+
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
+            };
+
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
+            };
+
+            dispersion = 0.0008727;
+            __ROF(750);
+
+            __AI_ROF_CQB_SINGLE;
+        };
+
+        class Burst : Mode_Burst {
+            burst = 2;
+            textureType = "dual";
+            sounds[] = { "StandardSound", "SilencedSound" };
+
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
+
+                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
+
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
+            };
+
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
+            };
+
+            dispersion = 0.0008727;
+            __ROF(750);
+
+            __AI_ROF_CQB_CLOSE_BURST;
+        };
+
+        class FullAuto : Mode_FullAuto {
+            sounds[] = { "StandardSound", "SilencedSound" };
+
+            class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
+                weaponSoundEffect = "DefaultRifle";
+
+                closure1[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                closure2[] = { "\hlc_wp_g36\snd\g36_first", 1, 1, 10 };
+                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
+            };
+
+            class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
+                soundSetShot[] = { "g36c_Shot_SoundSet", "g36c_Tail_SoundSet" };
+            };
+
+            class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
+                soundSetShot[] = { "g36_silencerShot_SoundSet", "g36_silencerTail_SoundSet" };
+            };
+
+            dispersion = 0.0008727;
+            __ROF(750);
+
+            __AI_ROF_RIFLE_SMALL_FULLAUTO;
+        };
+
+        class fullauto_medium : FullAuto {
+            showToPlayer = 0;
+            burst = 5;
+            __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
+        };
+        class single_medium_optics1 : Single {
+            requiredOpticType = 1;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+        };
+        class single_far_optics2 : single_medium_optics1 {
+            requiredOpticType = 2;
+            showToPlayer = 0;
+            __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
+        class AI_Burst_close : FullAuto {
+
+            showToPlayer = 0;
+            aiBurstTerminable = 1;
+            burst = 4;
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36cV_CMAG";
@@ -2026,6 +2175,8 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_g36TAC_STD.rtm" };
         hiddenSelections[] = { "Reciever", "Optics", "Magwell", "Stock","Rail" };
         hiddenSelectionsTextures[] = { "hlc_wp_g36\tex\commonmaps\g36_commonmap_v_co.tga", "hlc_wp_g36\tex\placeholder\g36_dualoptics_rds_co.tga", "hlc_wp_g36\tex\placeholder\g36_magwell_co.tga", "hlc_wp_g36\tex\placeholder\g36_stockfurniture_co.tga","hlc_wp_g36\tex\placeholder\G36_MountsrailsFin_co.tga" };
+        inertia = 0.32;
+        __DEXTERITY((3.2), 1);
         class WeaponSlotsInfo : WeaponSlotsInfo {
             class CowsSlot : asdg_OpticRail1913_short {};
         };
@@ -2150,8 +2301,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.3 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip";
@@ -2164,8 +2315,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.30 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip2";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip2";
@@ -2178,8 +2329,8 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
-        inertia = (0.36 + 0.066);
-        __DEXTERITY((3.6 + 0.66), 1);
+        inertia = (0.30 + 0.066);
+        __DEXTERITY((3.0 + 0.66), 1);
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36KTAC_CMAG_grip3";
             hlc_100rnd_556x45_Mdim_G36 = "hlc_rifle_G36KTAC_CMAG_grip3";
@@ -2205,24 +2356,24 @@ class CfgWeapons {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.3 + 0.21 + 0.066);
+        __DEXTERITY((3.0 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36KTAC_CMAG_grip2 : hlc_rifle_G36KTAC_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_AFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.30 + 0.21 + 0.066);
+        __DEXTERITY((3.0 + 2.1 + 0.66), 1);
     };
     class hlc_rifle_G36KTAC_CMAG_grip3 : hlc_rifle_G36KTAC_CMAG
     {
         scopeArsenal = 0;
         author = "Toadie";
         handanim[] = { "OFP2_ManSkeleton", "hlc_wp_g36\anim\MLI\gesture_G36TAC_VFG.rtm" };
-        inertia = (0.36 + 0.21 + 0.066);
-        __DEXTERITY((3.6 + 2.1 + 0.66), 1);
+        inertia = (0.30 + 0.21 + 0.066);
+        __DEXTERITY((3.0 + 2.1 + 0.66), 1);
     };
 
     class hlc_rifle_G36CTac : hlc_rifle_G36CV {
@@ -2702,4 +2853,7 @@ class CfgWeapons {
         };
         baseWeapon = "hlc_rifle_G36MLIAG36";
     };
+   
+
+
 };

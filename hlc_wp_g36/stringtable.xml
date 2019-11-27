@@ -347,6 +347,81 @@
         <Korean>H&amp;K G36-MLI(C) (GL)</Korean>
         <Chinesesimp>H&amp;K G36-MLI(C) (GL)</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_rifle_XM8_Baseline">
+        <Original>XM8 Carbine</Original>
+        <English>XM8 Carbine</English>
+        <Czech>XM8 Carbine</Czech>
+        <French>XM8 Carbine</French>
+        <Spanish>XM8 Carbine</Spanish>
+        <Italian>XM8 Carbine</Italian>
+        <Polish>XM8 Carbine</Polish>
+        <Portuguese>XM8 Carbine</Portuguese>
+        <Russian>XM8 Carbine</Russian>
+        <German>XM8 Carbine</German>
+        <Japanese>XM8 Carbine</Japanese>
+        <Korean>XM8 Carbine</Korean>
+        <Chinesesimp>XM8 Carbine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_XM8_Baseline_GL">
+        <Original>XM8 Carbine (GL)</Original>
+        <English>XM8 Carbine (GL)</English>
+        <Czech>XM8 Carbine (GL)</Czech>
+        <French>XM8 Carbine (GL)</French>
+        <Spanish>XM8 Carbine (GL)</Spanish>
+        <Italian>XM8 Carbine (GL)</Italian>
+        <Polish>XM8 Carbine (GL)</Polish>
+        <Portuguese>XM8 Carbine (GL)</Portuguese>
+        <Russian>XM8 Carbine (GL)</Russian>
+        <German>XM8 Carbine (GL)</German>
+        <Japanese>XM8 Carbine (GL)</Japanese>
+        <Korean>XM8 Carbine (GL)</Korean>
+        <Chinesesimp>XM8 Carbine (GL)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_XM8_Compact">
+        <Original>XM8 Compact</Original>
+        <English>XM8 Compact</English>
+        <Czech>XM8 Compact</Czech>
+        <French>XM8 Compact</French>
+        <Spanish>XM8 Compact</Spanish>
+        <Italian>XM8 Compact</Italian>
+        <Polish>XM8 Compact</Polish>
+        <Portuguese>XM8 Compact</Portuguese>
+        <Russian>XM8 Compact</Russian>
+        <German>XM8 Compact</German>
+        <Japanese>XM8 Compact</Japanese>
+        <Korean>XM8 Compact</Korean>
+        <Chinesesimp>XM8 Compact</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_XM8_LSw">
+        <Original>XM8 LSW</Original>
+        <English>XM8 LSW</English>
+        <Czech>XM8 LSW</Czech>
+        <French>XM8 LSW</French>
+        <Spanish>XM8 LSW</Spanish>
+        <Italian>XM8 LSW</Italian>
+        <Polish>XM8 LSW</Polish>
+        <Portuguese>XM8 LSW</Portuguese>
+        <Russian>XM8 LSW</Russian>
+        <German>XM8 LSW</German>
+        <Japanese>XM8 LSW</Japanese>
+        <Korean>XM8 LSW</Korean>
+        <Chinesesimp>XM8 LSW</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_rifle_XM8_Marksman">
+        <Original>XM8 Marksman</Original>
+        <English>XM8 Marksman</English>
+        <Czech>XM8 Marksman</Czech>
+        <French>XM8 Marksman</French>
+        <Spanish>XM8 Marksman</Spanish>
+        <Italian>XM8 Marksman</Italian>
+        <Polish>XM8 Marksman</Polish>
+        <Portuguese>XM8 Marksman</Portuguese>
+        <Russian>XM8 Marksman</Russian>
+        <German>XM8 Marksman</German>
+        <Japanese>XM8 Marksman</Japanese>
+        <Korean>XM8 Marksman</Korean>
+        <Chinesesimp>XM8 Marksman</Chinesesimp>
+      </Key>
     </Container>
     <Container name="Acc_names">
       <Key ID="STR_NIA_optic_G36dualoptic35x">
@@ -483,6 +558,36 @@
         <Japanese>G36 二脚</Japanese>
         <Korean>G36 Bipod</Korean>
         <Chinesesimp>G36 Bipod</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ISM">
+        <Original>InSight ISM-IR</Original>
+        <English>InSight ISM-IR</English>
+        <Czech>InSight ISM-IR</Czech>
+        <French>InSight ISM-IR</French>
+        <Spanish>InSight ISM-IR</Spanish>
+        <Italian>InSight ISM-IR</Italian>
+        <Polish>InSight ISM-IR</Polish>
+        <Portuguese>InSight ISM-IR</Portuguese>
+        <Russian>InSight ISM-IR</Russian>
+        <German>InSight ISM-IR</German>
+        <Japanese>G36 二脚</Japanese>
+        <Korean>InSight ISM-IR</Korean>
+        <Chinesesimp>InSight ISM-IR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_optic_ISM">
+        <Original>InSight ISM-IR</Original>
+        <English>InSight ISM-IR</English>
+        <Czech>InSight ISM-IR</Czech>
+        <French>InSight ISM-IR</French>
+        <Spanish>InSight ISM-IR</Spanish>
+        <Italian>InSight ISM-IR</Italian>
+        <Polish>InSight ISM-IR</Polish>
+        <Portuguese>InSight ISM-IR</Portuguese>
+        <Russian>InSight ISM-IR</Russian>
+        <German>InSight ISM-IR</German>
+        <Japanese>G36 二脚</Japanese>
+        <Korean>InSight ISM-IR</Korean>
+        <Chinesesimp>InSight ISM-IR</Chinesesimp>
       </Key>
       </Container>
     <Container name="Mag_Names">
@@ -833,6 +938,36 @@
         <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/&lt;br/&gt;弾数: 100</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 100</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_ISM_DESC">
+        <Original>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Original>
+        <English>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</English>
+        <Czech>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Czech>
+        <French>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300mx&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</French>
+        <Spanish>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Spanish>
+        <Italian>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Italian>
+        <Polish>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Polish>
+        <Portuguese>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Portuguese>
+        <Russian>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Russian>
+        <German>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</German>
+        <Japanese>Hensoldt-Wetzlar 倍率ライフル照準器&lt;br/&gt;倍率: NIL&lt;br/&gt;調整範囲: ゼロイン固定 200m&lt;br/&gt;照準線: BDC 距離計 (5.56mm 補正)</Japanese>
+        <Korean>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Korean>
+        <Chinesesimp>InSight Technologies Integrated Sight Module&lt;br/&gt;Magnification: NIL&lt;br/&gt;Adjustment: Manual Zero, Laser-Slave 300m&lt;br/&gt;Reticle: 3.5MOA Illuminated Dot</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_AMO_DESC">
+        <Original>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Original>
+        <English>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</English>
+        <Czech>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Czech>
+        <French>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800mx&lt;br/&gt;Reticle: BDC Rangefinding</French>
+        <Spanish>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Spanish>
+        <Italian>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Italian>
+        <Polish>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Polish>
+        <Portuguese>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Portuguese>
+        <Russian>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Russian>
+        <German>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</German>
+        <Japanese>Hensoldt-Wetzlar 倍率ライフル照準器&lt;br/&gt;倍率: 4x&lt;br/&gt;調整範囲: ゼロイン固定 200m&lt;br/&gt;照準線: BDC 距離計 (5.56mm 補正)</Japanese>
+        <Korean>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Korean>
+        <Chinesesimp>InSight Technologies Advanced Marksman Optic&lt;br/&gt;Magnification: 4x&lt;br/&gt;Adjustment: Laser-Slave Manual Adjustment 100-800m&lt;br/&gt;Reticle: BDC Rangefinding</Chinesesimp>
       </Key>
     </Container>
   </Package>
