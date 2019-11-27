@@ -13,7 +13,7 @@ class CfgPatches
 {
 	class hlcweapons_M16A2
 	{
-		requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F","cba_main","cba_jr","hlcweapons_core","hlcweapons_ar15" };
+		requiredaddons[] = { "hlcweapons_core","hlcweapons_ar15" };
 		units[] = {};
 		weapons[] = {};
 		magazines[] = {};
@@ -147,7 +147,7 @@ class CfgWeapons
 
 		
 		scope = public;
-		magazines[] = { 			//Standard BIS mags
+		magazines[] = { 			
             __556STANAG_MAGS,__556STANAG_BI_MAGS
 		};
         magazineWell[] = { STANAG_556x45, "CBA_556x45_STANAG", "CBA_556x45_STANAG_L", "CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL" };
