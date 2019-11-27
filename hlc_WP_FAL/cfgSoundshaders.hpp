@@ -8,17 +8,19 @@ class CfgSoundShaders
 		samples[] = {
 			{ "hlc_WP_FAL\snd\soundshaders\generic\fal_first", 1 } };
         range = 25;
-        volume = 0.87;
+        volume = 0.375;
         rangeCurve[] = {
 			{ 0, 1 },
 			{ 25, 0 } };
 	};
 	class FAL_closeShot_SoundShader
 	{
-		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL_close", 1 }
-		};
-		volume = 0.7;
+        samples[] = {
+            { "hlc_core\sound\weapon\FNFAL\Close_1", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_2", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_3", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_4", 1 } };
+        volume = 1.4;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
@@ -263,10 +265,12 @@ class CfgSoundShaders
 	};
 	class FAL2_closeShot_SoundShader
 	{
-		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\FAL\FAL2_close", 1 }
-		};
-		volume = 0.7;
+        samples[] = {
+            { "hlc_core\sound\weapon\FNFAL\Close_1", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_2", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_3", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_4", 1 } };
+        volume = 1.4;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
@@ -435,10 +439,12 @@ class CfgSoundShaders
     };
 	class OSW_closeShot_SoundShader
 	{
-		samples[] = {
-			{ "hlc_WP_FAL\snd\soundshaders\OSW\OSW_close", 1 }
-		};
-		volume = 0.65;
+        samples[] = {
+            { "hlc_core\sound\weapon\FNFAL\Close_1", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_2", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_3", 1 },
+            { "hlc_core\sound\weapon\FNFAL\Close_4", 1 } };
+        volume = 1.4;
 		range = 100;
 		rangeCurve = "closeShotCurve";
 	};
