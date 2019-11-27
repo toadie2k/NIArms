@@ -14,7 +14,7 @@ class CfgPatches {
         units[] = { };
         weapons[] = { "HLC_wp_M134Painless" };
         magazines[] = { "hlc_500rnd_762x51_Belt","hlc_500rnd_762x51_Cinematic"};
-        version = "1.05";
+        version = "1.2";
         author = "toadie";
     };
 };
@@ -138,8 +138,8 @@ class CfgMagazines {
         author = "Toadie";
         count = 500;
         mass = 130;
-        descriptionshort = "Caliber: 7.62mmx51 NATO<br />Rounds: 1000<br />(IGNORE INGAME COUNTER. Each round counts for 2)<br />Used in: M134D Epilator";
-        displayname = "M134D Casette 500rnd";
+        descriptionshort = $STR_NIA_DESC_500rnd_762x51_Belt;
+        displayname = $STR_NIA_500rnd_762x51_Belt;
         initspeed = 853;
         ammo = "HLC_B_762x51_minigun_tracer_red";
         picture = "\hlc_wp_minigun\tex\ui\m_casette_ca.paa";
@@ -152,8 +152,8 @@ class CfgMagazines {
         author = "Toadie";
         count = 500;
         mass = 130;
-        descriptionshort = "Caliber: 7.62mmx51 NATO<br />Rounds: 1000<br />(IGNORE INGAME COUNTER. Each round counts for 2)<br />Used in: M134D Epilator";
-        displayname = "M134D Casette(C) 500rnd";
+        descriptionshort = $STR_NIA_DESC_500rnd_762x51_Belt;
+        displayname = $STR_NIA_500rnd_762x51_Cinematic;
         initspeed = 853;
         ammo = "HLC_B_762x51_minigun_cinema_red";
         picture = "\hlc_wp_minigun\tex\ui\m_casette_ca.paa";
@@ -213,8 +213,8 @@ class CfgWeapons {
         opticsZoomInit = 0.75;
         distanceZoomMin = 300;
         distanceZoomMax = 300;
-        displayName = "M134D 'Epilator'";
-        descriptionShort = "Death-Machine<br/>Caliber: 7.62mm";
+        displayName = $STR_NIA_M134Painless;
+        descriptionShort = $STR_NIA_M134_DESC;
 
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_minigun\anim\minigun_handgesture.rtm" };
         model = "\hlc_wp_minigun\mesh\m134.p3d";
@@ -239,12 +239,6 @@ class CfgWeapons {
         soundBullet[] = { "bullet1", 0.083, "bullet2", 0.083, "bullet3", 0.083, "bullet4", 0.083, "bullet5", 0.083, "bullet6", 0.083, "bullet7", 0.083, "bullet8", 0.083, "bullet9", 0.083, "bullet10", 0.083, "bullet11", 0.083, "bullet12", 0.083 };
         modes[] = { "FullAuto", "FullAuto2", "fullauto_medium" };
         class Single : Mode_SemiAuto {
-            begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            begin2[] = { "\hlc_wp_ak\snd\ak74m_fire2", 1, 1, 900 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.086;
             recoil = "recoil_single_mx";
@@ -261,26 +255,15 @@ class CfgWeapons {
             class BaseSoundModeType { /// I am too lazy to copy this twice into both standard and silenced sounds, that is why there is a base class from which both inherit (and sound of closure stays the same no matter what muzzle accessory is used)
                 weaponSoundEffect = "DefaultRifle";
 
-                closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
-                closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1, 1, 10 };
-                soundClosure[] = { closure1, 0.5, closure2, 0.5 };
             };
 
             class StandardSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 0, according to sounds[]
                 soundsetshot[] = { "LMGMinigun65mm_Shot_SoundSet", "LMGMinigun65mm_Tail_SoundSet" };
-                begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1.7782794, 1, 1200 };
-                begin2[] = { "\hlc_wp_ak\snd\ak74m_fire2", 1.7782794, 1, 1200 };
-                begin3[] = { "\hlc_wp_ak\snd\ak74m_fire", 1.7782794, 1, 1200 };
-                soundBegin[] = { begin1, 0.33, begin2, 0.33, begin3, 0.34 };
             };
         };
         class FullAuto : Mode_FullAuto {
-            begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            begin2[] = { "\hlc_wp_ak\snd\ak74m_fire2", 1, 1, 900 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
+
+
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.0041;
             recoil = "recoil_auto_mx";
@@ -312,12 +295,7 @@ class CfgWeapons {
             };
         };
         class FullAuto2 : Mode_FullAuto {
-            begin1[] = { "\hlc_wp_ak\snd\ak74m_fire", 1, 1, 900 };
-            begin2[] = { "\hlc_wp_ak\snd\ak74m_fire2", 1, 1, 900 };
-            soundBegin[] = { "begin1", 0.5, "begin2", 0.5 };
-            closure1[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            closure2[] = { "\hlc_wp_ak\snd\ak74_first", 1.0, 1, 30 };
-            soundClosure[] = { "closure1", 0.5, "closure2", 0.5 };
+
             weaponSoundEffect = "DefaultRifle";
             reloadTime = 0.0134;
             recoil = "recoil_auto_mx";
