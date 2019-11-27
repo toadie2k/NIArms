@@ -12,7 +12,7 @@ class CfgPatches {
         };
         magazines[] = {};
         author="toadie";
-        version = "1";
+        version = "1.05";
     };
 };
 
@@ -49,6 +49,7 @@ class asdg_MuzzleSlot_556 : asdg_MuzzleSlot {
 };
 class asdg_MuzzleSlot_762 : asdg_MuzzleSlot {
     class compatibleItems {
+        hlc_muzzle_snds_ROTEX3P = 1;
     };
 };
 class nia_charms_slot;
@@ -311,7 +312,16 @@ class CfgMagazines {
         author = "Spartan0536,Toadie";
     };
 };
-
+class CfgMagazineWells
+{
+    class CBA_556x45_SG550
+    {
+        NIA_mags[]=
+        {
+            __556SG550_MAGS
+        };
+    };
+};
 class CfgWeapons {
 
     class ItemCore;
@@ -332,7 +342,7 @@ class CfgWeapons {
         author = "Toadie";
         descriptionShort = $STR_NIA_brake_Rotex3P_556_DESC;
         displayName = $STR_NIA_muzzle_snds_ROTEX3P;
-        picture = "nia_wp_sg550\tex\UI\gear_rotex3P_ca.paa";
+        picture = "\nia_wp_sg550\tex\UI\gear_rotex3P_ca";
         model = "nia_wp_sg550\mesh\acc\Rotex_3P_brake.p3d";
         class ItemInfo : ItemInfo {
             mass = 1;
@@ -642,6 +652,7 @@ class CfgWeapons {
         distanceZoomMax = 300;
         descriptionShort = "Assault Rifle<br/>Caliber: 5.56mm NATO";
         magazines[] = { __556SG550_MAGS };
+        magazineWell[] = { CBA_556x45_SG550 };
         UiPicture = "\A3\weapons_f\data\UI\icon_regular_CA.paa";
 
         inertia = 0.36;
@@ -858,7 +869,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_SG550_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_SG550_TAC_grip3";
         baseWeapon = "hlc_rifle_SG550_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 104;
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -1100,7 +1111,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_SG551SB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_SG551SB_TAC_grip3";
         baseWeapon = "hlc_rifle_SG551SB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = (74+14);
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -1295,7 +1306,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_SG551LB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_SG551LB_TAC_grip3";
         baseWeapon = "hlc_rifle_SG551LB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = (74 + 14);
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -1524,7 +1535,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_SG553SB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_SG553SB_TAC_grip3";
         baseWeapon = "hlc_rifle_SG553SB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 72+8.37;
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -1680,7 +1691,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_SG553LB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_SG553lB_TAC_grip3";
         baseWeapon = "hlc_rifle_SG553LB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = (74 + 14);
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -1836,6 +1847,7 @@ class CfgWeapons {
         recoil = "recoil_mx";
         handanim[] = { "OFP2_ManSkeleton", "\nia_wp_sg550\anim\handpose_sg550.rtm" };
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
+        magazineWell[] = { "CBA_762x39_AK", "CBA_762x39_RPK" };
         reloadMagazineSound[] = { "\nia_wp_SG550\snd\553r\sg553R_reload", 1, 1, 30 };
         reloadAction = "HLC_GesturereloadSG553R";
         discretedistance[] = { 100 };
@@ -1955,7 +1967,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_sg553RSB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_sg553RSB_TAC_grip3";
         baseWeapon = "hlc_rifle_sg553RSB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = (74 + 14);
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
@@ -2195,7 +2207,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_rifle_sg553RLB_TAC_grip2";
         rhs_grip3_change = "hlc_rifle_sg553RLB_TAC_grip3";
         baseWeapon = "hlc_rifle_sg553RLB_TAC";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = (74 + 14);
             class UnderBarrelSlot : asdg_UnderSlot {
                 iconPosition[] = { 0.2, 0.7 };
