@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {"HLC_M14_ammobox","Weapon_rifle_M14","Weapon_hlc_rifle_M21","Weapon_hlc_rifle_m14sopmod","Weapon_hlc_rifle_m14dmr","weapon_hlc_rifle_M14_Bipod","weapon_hlc_rifle_M14_Rail"};
         weapons[] = {"hlc_rifle_M14","hlc_rifle_M21","hlc_rifle_m14dmr","hlc_rifle_m14sopmod","hlc_muzzle_snds_M14","hlc_optic_artel_m14","hlc_optic_LRT_m14","hlc_optic_PVS4M14"};
         magazines[] = {"hlc_50Rnd_762x51_B_M14","hlc_20Rnd_762x51_T_M14","hlc_20Rnd_762x51_B_M14"};
-        version="v1.95";
+        version="v2.0";
         author="toadie";
     };
 };
@@ -470,13 +470,13 @@ class CfgWeapons {
     class hlc_optic_LRT_m14 : hlc_optic_LeupoldM3A {
         dlc = "Niarms_M14";
         author = "Bohemia Interactive, Toadie";
-        descriptionshort = "Leupold Mk.4 LR/T Magnified Optic Sight<br />Magnification: 3.5-9x";
+        descriptionshort = $STR_NIA_LuepoldM3A_DESC;
         model = "\hlc_wp_M14\mesh\leupold lrt\scope.p3d";
         picture = "\hlc_wp_M14\tex\ui\gear_lrt_x_ca";
         displayname = $STR_NIA_optic_M3a_M14;
 		tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
     };
-
+    
 //muzzles
 
     class muzzle_snds_H;
@@ -638,6 +638,7 @@ class CfgWeapons {
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 86;
+            class CharmSlot_nia_charms_slot{};
         };
         class Single : Single {
             __MOA(1.3);
@@ -698,7 +699,6 @@ class CfgWeapons {
     class hlc_rifle_M14_Bipod_XMAG : hlc_rifle_M14_Bipod
     {
         scopeArsenal = 0;
-        model = "\hlc_wp_M14\mesh\m21\M14_bip_xmag.p3d";
         __DEXTERITY(4.9 + 0.31 + 2.25, 0);
         inertia = 0.72;
     };
@@ -933,8 +933,9 @@ class CfgWeapons {
 
     };
 
-    class hlc_rifle_m14sopmod : hlc_rifle_M14
+    class hlc_rifle_m14sopmod : hlc_M14_base
     {
+        scope = public;
         author = "Twinke Masta, Pete, Thanez, General Tso, Jihad, Toadie";
         AB_barrelTwist=12;
         AB_barrelLength=18;
