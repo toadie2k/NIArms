@@ -1720,22 +1720,33 @@ class CfgAmmo {
     };
 
     //7.63x25mm
-    //WIP
+    //86 Grain FMJ
+    //Ballistics by Spartan 0536
     class HLC_763x25_FMJ : HLC_10mm_FMJ
     {
-    hit = 4.945778;
+        hit = 5.039;
     indirectHit = 0;
     indirectHitRange = 0;
     suppressionRadiusBulletClose = 2;
     cartridge = "FxCartridge_9mm";
     model = "\A3\Weapons_f\Data\bullettracer\tracer_green";
-    caliber = 0.674;
+    caliber = 0.415;
     deflecting = 29;
     visibleFire = 1.5;
     audibleFire = 3;
     cost = 100;
-    typicalSpeed = 390.1;
-    airFriction = -0.0027667; 
+    typicalSpeed = 480.06;
+    airFriction = -0.002808;
+    ACE_caliber = 7.874;
+    ACE_bulletLength = 13.856;
+    ACE_bulletMass = 5.5728;
+    ACE_ammoTempMuzzleVelocityShifts[] = { -2.655, -2.547, -2.285, -2.012, -1.698, -1.280, -0.764, -0.153, 0.596, 1.517, 2.619 };
+    ACE_ballisticCoefficients[] = { 0.17 };
+    ACE_velocityBoundaries[] = {};
+    ACE_standardAtmosphere = "ASM";
+    ACE_dragModel = 1;
+    ACE_muzzleVelocities[] = { 360, 380, 400 };
+    ACE_barrelLengths[] = { 101.6, 152.4, 228.6 };
 };
     //.45ACP
     /*

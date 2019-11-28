@@ -28,7 +28,9 @@ if (_weapon == primaryWeapon _unit) then {
 	};
 } else {
 	if (_weapon == handgunWeapon player) then {
+		private _dummyArray = _attachments select {
 		_unit addHandgunItem _x;
 		false;
+		};
 	};
 };

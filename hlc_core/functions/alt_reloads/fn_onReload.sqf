@@ -1,21 +1,19 @@
 /*
 	Author: Kerc
-
 	Description:
         Fired when player presses reload button, handles playing different animations depending on amount of ammunition left in current magazine.
-
   Parameters:
         Doesn't need any, can be run from Reload EH but is broken, don't use it.
 	Returns:
         Nothing
-
-
     Example:
         [] call NIArms_altReloads_fnc_onReload;
 */
 params [["_unit",(player)], ["_weapon",(currentWeapon player)], ["_muzzle",(currentMuzzle player)], "_newMagazine", ["_oldMagazine",(currentMagazine player)]];
 private ["_oldAmmo","_oldMag"];
-if (NIArms_altReloads_isReloading) exitwith {};
+
+if (_unit getvariable ["NIArms_altReloads_disabled",false]) exitwith {};
+if (_unit getvariable ["NIArms_altReloads_isReloading",false]) exitwith {};
 if (_oldMagazine isEqualType []) then
 {
   _oldMag = _oldMagazine select 0;
@@ -29,7 +27,7 @@ else
 private _conditionAmmo = _oldAmmo;
 if (!isNil "_newMagazine" &&  {_newMagazine isEqualType []}) then
 {
-  if ((getText (configFile >> "CfgMagazines" >> _oldMag >> "ammo")) != (getText (configFile >> "CfgMagazines" >> (_newMagazine select 0) >> "ammo"))) exitwith {_conditionAmmo = (getNumber (configFile >> "CfgMagazines" >> _oldMag >> "count"));};
+  if (_oldAmmo > 0 && {(getText (configFile >> "CfgMagazines" >> _oldMag >> "ammo")) != (getText (configFile >> "CfgMagazines" >> (_newMagazine select 0) >> "ammo"))}) then {_conditionAmmo = (getNumber (configFile >> "CfgMagazines" >> _oldMag >> "count"));};
 }; //Switching ammo type, do full reload, might want to change this depending on magazine type/weapon
 
 private _fakeWeapon = _weapon;
@@ -44,7 +42,11 @@ if !(isClass (configFile >> "CfgWeapons" >> _weapon >> "NIArms_Alt_Reloads")) ex
 
 if (_fakeWeapon == _weapon) exitwith {};
 
-NIArms_altReloads_isReloading = true;
+_unit setvariable ["NIArms_altReloads_isReloading",true];
+if (!isNil "_newMagazine" &&  {_newMagazine isEqualType []}) then
+{
+  _unit playactionNow "GestureEmpty"; // Break the animation.
+};
 private _magazinesOfWeaponType = getArray(configFile >> "CfgWeapons" >> _weapon >> "magazines");
 
 
@@ -102,9 +104,8 @@ private _id = parseNumber(_string select 4);
 private _creator = parseNumber(_string select 5);
 _unit action ["loadmagazine",_unit, _unit, _creator, _id ,_fakeWeapon, _fakeWeapon];
 
-NIArms_altReloads_tempReloadWeapon = _fakeWeapon;
-NIArms_altReloads_previousWeapon = _weapon;
-
+_unit setvariable ["NIArms_altReloads_tempReloadWeapon",_fakeWeapon];
+_unit setvariable ["NIArms_altReloads_previousWeapon",_weapon];
 
 private "_container";
 {

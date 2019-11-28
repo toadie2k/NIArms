@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="nia_wp_SG550\tex\toadie_sg550\nico_nohq.tga";
+	texture="hlc_core\tex\toadie_m203-2003\nico_nohq.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="nia_wp_SG550\tex\toadie_sg550\nico_smdi.tga";
+	texture="hlc_core\tex\toadie_m203-2003\nico_smdi.tga";
 	uvSource="tex";
 	class uvTransform
 	{

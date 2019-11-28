@@ -6,7 +6,7 @@ class hlc_acc_TLR1 : ItemCore
     author = "Toadie";
     _generalMacro = "acc_flashlight";
     scope = 2;
-    displayName = "Streamlight TLR-1";
+    displayName = $STR_NIA_acc_TLR1;
     descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
     picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
     model = "hlc_core\mesh\accessories\acc\tlr1.p3d";
@@ -50,7 +50,7 @@ class hlc_acc_DBALPL : ItemCore
     author = "Toadie";
     _generalMacro = "acc_flashlight";
     scope = 2;
-    displayName = "Steiner DBAL-PL(IR)";
+    displayName = $STR_NIA_acc_DBALPL;
     descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
     picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
     model = "hlc_core\mesh\accessories\acc\dbal.p3d";
@@ -77,7 +77,7 @@ class hlc_acc_DBALPL_FL : ItemCore
     author = "Toadie";
     _generalMacro = "acc_flashlight";
     scope = 2;
-    displayName = "Steiner DBAL-PL(VIS)";
+    displayName = $STR_NIA_acc_DBALPL_FL;
     descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
     picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
     model = "hlc_core\mesh\accessories\acc\dbal_FL.p3d";
