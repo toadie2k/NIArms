@@ -275,19 +275,19 @@
                 <Chinesesimp>.300AAC TAC-TX 30Rnd STANAG Magazine</Chinesesimp>
             </Key>
             <Key ID="STR_NIA_50Rnd_300BLK_M_STANAG">
-                <Original>.300AAC TAC-TX 50Rnd STANAG Magazine</Original>
-                <English>.300AAC TAC-TX 50Rnd STANAG Magazine</English>
-                <Czech>.300AAC TAC-TX 50Rnd STANAG Magazine</Czech>
-                <French>Chargeur STANAG 50 Coups Cal .300AAC TAC-TX</French>
-                <Spanish>.300AAC TAC-TX 50Rnd STANAG Magazine</Spanish>
-                <Italian>.300AAC TAC-TX 50Rnd STANAG Magazine</Italian>
-                <Polish>.300AAC TAC-TX 50Rnd STANAG Magazine</Polish>
-                <Portuguese>.300AAC TAC-TX 50Rnd STANAG Magazine</Portuguese>
-                <Russian>.300AAC TAC-TX 50Rnd STANAG Magazine</Russian>
-                <German>.300AAC TAC-TX 50Rnd STANAG Magazine</German>
-                <Japanese>.300AAC TAC-TX 50発入り STANAG マガジン</Japanese>
-                <Korean>.300AAC TAC-TX 50Rnd STANAG Magazine</Korean>
-                <Chinesesimp>.300AAC TAC-TX 50Rnd STANAG Magazine</Chinesesimp>
+                <Original>.300AAC EPR 50Rnd STANAG Magazine</Original>
+                <English>.300AAC EPR 50Rnd STANAG Magazine</English>
+                <Czech>.300AAC EPR 50Rnd STANAG Magazine</Czech>
+                <French>Chargeur STANAG 50 Coups Cal .300AAC EPR</French>
+                <Spanish>.300AAC EPR 50Rnd STANAG Magazine</Spanish>
+                <Italian>.300AAC EPR 50Rnd STANAG Magazine</Italian>
+                <Polish>.300AAC EPR 50Rnd STANAG Magazine</Polish>
+                <Portuguese>.300AAC EPR 50Rnd STANAG Magazine</Portuguese>
+                <Russian>.300AAC EPR 50Rnd STANAG Magazine</Russian>
+                <German>.300AAC EPR 50Rnd STANAG Magazine</German>
+                <Japanese>.300AAC EPR 50発入り STANAG マガジン</Japanese>
+                <Korean>.300AAC EPR 50Rnd STANAG Magazine</Korean>
+                <Chinesesimp>.300AAC EPR 50Rnd STANAG Magazine</Chinesesimp>
             </Key>
         </Container>
         <Container name="Acc_names">
