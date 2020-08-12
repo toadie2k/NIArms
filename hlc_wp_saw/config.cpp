@@ -224,7 +224,7 @@ class CfgVehicles {
 
 class CfgMagazines{
     class 30Rnd_556x45_Stanag;
-        
+
     class hlc_200rnd_556x45_M_SAW : 30Rnd_556x45_Stanag {
         dlc = "Niarms_SAW";
         author = "Toadie, Spartan0536";
@@ -314,6 +314,7 @@ class CfgWeapons {
         magazines[] = {};
         maxRecoilSway = 0.0125;
         swayDecaySpeed = 1.25;
+        recoil = "recoil_saw";
         class GunParticles : GunParticles {
 
             class SecondEffect {
@@ -466,7 +467,7 @@ class CfgWeapons {
         picture = "\hlc_wp_saw\tex\ui\gear_minimipara_x_ca";
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_minimi_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\fore_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "" };
-        
+
         discretedistance[] = { 100, 200, 300, 400, 500, 600, 700, 800 };
         discretedistanceinitindex = 2;
         bg_bipod = 1;
@@ -3061,17 +3062,17 @@ class CfgWeapons {
         deployedPivot = "deploypoint";
         inertia = 0.57;
         __DEXTERITY(5.71 + 0.3, 0);
-        ACE_barrelTwist = 305;
-        ACE_barrelLength = 405;
-        AB_barrelTwist = 12;
-        AB_barrelLength = 16;
+        ACE_barrelTwist = 177.8;
+        ACE_barrelLength = 414;
+        AB_barrelTwist = 7;
+        AB_barrelLength = 16.3
         initspeed = -0.976216;
         magazines[] = { __556NATO_BELTS, __556NATO_BI_BELTS };
         magazineWell[] = {"CBA_556x45_MINIMI"};
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         class WeaponSlotsInfo {
-            mass = 119;
+            mass = 126;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.3 };
             };
@@ -3081,14 +3082,14 @@ class CfgWeapons {
             };
             class PointerSlot : asdg_FrontSideRail {
                 iconPosition[] = { 0.2, 0.4 };
-            };             
+            };
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
         };
         class FullAuto : FullAuto {
 
             __ROF(730);
-            dispersion = 0.000261799;
+            dispersion = 0.000349056;
         };
         class __MAGSWITCHCLASS {};
         rhs_grip1_change = "hlc_lmg_mk46_grip";
@@ -3131,7 +3132,7 @@ class CfgWeapons {
         inertia = 0.55;
         __DEXTERITY(5.5 + 0.3, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 112;
+            mass = 154.4;
         };
         class __MAGSWITCHCLASS {};
         rhs_grip1_change = "hlc_lmg_mk46mod1_grip";
@@ -3169,9 +3170,9 @@ class CfgWeapons {
         scope = public;
         agm_bipod = 1;
         ACE_barrelTwist = 305;
-        ACE_barrelLength = 465;
+        ACE_barrelLength = 501.7;
         AB_barrelTwist = 12;
-        AB_barrelLength = 18.3;
+        AB_barrelLength = 19.75;
         AGM_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
         AGM_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         AGM_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
@@ -3199,7 +3200,7 @@ class CfgWeapons {
             };
         };
         class WeaponSlotsInfo  {
-            mass = 172;
+            mass = 186.4;
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
             class CowsSlot : asdg_OpticRail1913_short_MG {
@@ -3233,9 +3234,9 @@ class CfgWeapons {
                 soundSetShot[] = { "mk48_silencerShot_SoundSet", "mk48_silencerTail_SoundSet" };
             };
             reloadTime = 0.084;
-            dispersion = 0.000261799;
+            dispersion = 0.000349056;
             __AI_ROF_MG_FULLAUTO;
-        }; 
+        };
         class short : close{
             __AI_ROF_MG_CLOSE_BURST;
         };
@@ -3317,13 +3318,17 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\pouch_auscam_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 185;
-            
+
         };
         class __MAGSWITCHCLASS {};
         rhs_grip1_change = "hlc_lmg_mk48mod1_grip";
         rhs_grip2_change = "hlc_lmg_mk48mod1_grip2";
         rhs_grip3_change = "hlc_lmg_mk48mod1_grip3";
         baseWeapon = "hlc_lmg_mk48mod1";
+        class FullAuto: FullAuto
+        {
+          __ROF(625);
+        };
     };
 
     class hlc_lmg_mk48mod1_grip : hlc_lmg_mk48mod1
