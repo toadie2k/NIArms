@@ -149,7 +149,7 @@ class CfgMagazines {
     class hlc_20Rnd_762x51_barrier_M14 : hlc_20Rnd_762x51_B_M14 {
         dlc = "Niarms_M14";
         author = "Toadie";
-        ammo = "HLC_762x51_MK316_20in";
+        ammo = "HLC_762x51_Barrier";
         descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sost_fal;
         displayname = $STR_NIA_20rnd_762x51_SOST_M14;
         initspeed = 890.4;
@@ -476,7 +476,7 @@ class CfgWeapons {
         displayname = $STR_NIA_optic_M3a_M14;
 		tmr_optics_enhanced = 0; //prevent tmr_optics ARCO overlay from displaying
     };
-    
+
 //muzzles
 
     class muzzle_snds_H;
@@ -633,7 +633,7 @@ class CfgWeapons {
         discretedistance[] = { 100, 200, 300, 400, 500, 600 };
         discretedistanceinitindex = 2;
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6" }; /// the angle of gun changes with zeroing
-        bg_bipod = 0; 
+        bg_bipod = 0;
         handanim[] = {"OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\gesture_m14.rtm"};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
@@ -686,7 +686,7 @@ class CfgWeapons {
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 91;
         };
-        
+
         class __MAGSWITCHCLASS {
             hlc_50Rnd_762x51_B_M14 = "hlc_rifle_M14_Bipod_XMAG";
             hlc_50Rnd_762x51_T_M14 = "hlc_rifle_M14_Bipod_XMAG";
@@ -772,7 +772,7 @@ class CfgWeapons {
         soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_AAF_up", db - 3, 1, 20 }; /// sound of folding the bipod
         scope = public;
         recoil = "recoil_dmr_06";
-        agm_bipod = 1; 
+        agm_bipod = 1;
         cse_bipod = 1;
         model = "\hlc_wp_M14\mesh\m21\M14.p3d";
         hiddenSelections[] = { "Main", "Bipod", "rail" };
@@ -787,12 +787,12 @@ class CfgWeapons {
         memoryPointCamera = "eye"; /// the angle of gun changes with zeroing
         cameradir = "aim_point";
         discretedistanceinitindex = 2;
-        bg_bipod = 1; 
+        bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\gesture_m14.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 109;
         };
-        
+
 
         class ItemInfo {
             priority = 1;
@@ -876,8 +876,8 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_m14\tex\bis_dmr\us_dmr_co.tga", "hlc_core\tex\acc\bipod\harris\harris1a2_co.tga"};
         __DEXTERITY(5.27 + 0.31, 0);
         inertia = 0.58;
-        agm_bipod = 1; 
-        hasbipod = true; 
+        agm_bipod = 1;
+        hasbipod = true;
         deployedpivot = "deploypivot";
         cse_bipod = 1;
         maxZeroing = 1600;
@@ -888,7 +888,7 @@ class CfgWeapons {
         discreteDistanceCameraPoint[] = { "eye", "eye2", "eye3", "eye4", "eye5", "eye6", "eye7", "eye8", "eye9" }; /// the angle of gun changes with zeroing
         cameradir = "aim_point";
         discretedistanceinitindex = 2;
-        bg_bipod = 1; 
+        bg_bipod = 1;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\gesture_m14DMR.rtm" };
         class Single : Single{
             __MOA(1.1);
@@ -941,8 +941,8 @@ class CfgWeapons {
         AB_barrelLength=18;
         ACE_barrelTwist = 304.8;
         ACE_barrelLength = 457.2;
-        agm_bipod = 1; 
-        hasbipod = 1; 
+        agm_bipod = 1;
+        hasbipod = 1;
         cse_bipod = 1;
         maxZeroing = 1600;
         model = "\hlc_wp_M14\mesh\sopmod\M14.p3d";
@@ -956,7 +956,7 @@ class CfgWeapons {
         cameradir = "aim_point";
         recoil = "recoil_ebr";
         discretedistanceinitindex = 2;
-        bg_bipod = 1; 
+        bg_bipod = 1;
         initspeed = -0.966;
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_m14\gesture\newgesture\gesture_m14SOPMOD_STD.rtm" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
