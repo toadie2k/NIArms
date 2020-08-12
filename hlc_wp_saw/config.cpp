@@ -869,7 +869,7 @@ class CfgWeapons {
     {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
-        displayName = $STR_NIA_lmg_minimipara_railed;
+        displayName = $STR_NIA_lmg_minimipara_long_railed;
         initspeed = -1;
         inertia = 0.69;
         __DEXTERITY(6.94, 0);

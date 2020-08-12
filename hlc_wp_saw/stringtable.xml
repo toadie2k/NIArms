@@ -47,7 +47,7 @@
         <Korean>FN Minimi Para (Long)</Korean>
         <Chinesesimp>FN Minimi Para (Long)</Chinesesimp>
       </Key>
-      <Key ID="STR_NIA_lmg_minimipara_railed">
+      <Key ID="STR_NIA_lmg_minimipara_long_railed">
         <Original>FN Minimi Para (Long/RIS)</Original>
         <English>FN Minimi Para (Long/RIS)</English>
         <Czech>FN Minimi Para (Long/RIS)</Czech>
@@ -61,7 +61,7 @@
         <Japanese>FN Minimi Para (長身/RIS)</Japanese>
         <Korean>FN Minimi Para (Long/RIS)</Korean>
         <Chinesesimp>FN Minimi Para (Long/RIS)</Chinesesimp>
-      </Key>      
+      </Key>
       <Key ID="STR_NIA_lmg_minimi">
         <Original>FN Minimi (Long)</Original>
         <English>FN Minimi (Long)</English>
@@ -91,7 +91,7 @@
         <Japanese>FN Minimi (長身/RIS)</Japanese>
         <Korean>FN Minimi (Long/RIS)</Korean>
         <Chinesesimp>FN Minimi (Long/RIS)</Chinesesimp>
-      </Key>      
+      </Key>
       <Key ID="STR_NIA_lmg_m249para">
         <Original>M249E2 Para (Short)</Original>
         <English>M249E2 Para (Short)</English>
@@ -106,7 +106,7 @@
         <Japanese>M249E2 Para (短身)</Japanese>
         <Korean>M249E2 Para (Short)</Korean>
         <Chinesesimp>M249E2 Para (Short)</Chinesesimp>
-      </Key>     
+      </Key>
       <Key ID="STR_NIA_lmg_M249E2">
         <Original>M249E2</Original>
         <English>M249E2</English>
@@ -151,7 +151,7 @@
         <Japanese>M249 PIP (長身/RIS)</Japanese>
         <Korean>M249 PIP (Long/RIS)</Korean>
         <Chinesesimp>M249 PIP (Long/RIS)</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_m249_pip2">
         <Original>M249E2 (Short/RIS)</Original>
         <English>M249E2 (Short/RIS)</English>
@@ -166,7 +166,7 @@
         <Japanese>M249E2 (短身/RIS)</Japanese>
         <Korean>M249E2 (Short/RIS)</Korean>
         <Chinesesimp>M249E2 (Short/RIS)</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_m249_pip3">
         <Original>M249 PIP (Short/RIS)</Original>
         <English>M249 PIP (Short/RIS)</English>
@@ -181,7 +181,7 @@
         <Japanese>M249 PIP (短身/RIS)</Japanese>
         <Korean>M249 PIP (Short/RIS)</Korean>
         <Chinesesimp>M249 PIP (Short/RIS)</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_m249_pip4">
         <Original>M249 PIP (Long/RIS)</Original>
         <English>M249 PIP (Long/RIS)</English>
@@ -196,7 +196,7 @@
         <Japanese>M249 PIP (長身/RIS)</Japanese>
         <Korean>M249 PIP (Long/RIS)</Korean>
         <Chinesesimp>M249 PIP (Long/RIS)</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_m249_SQuantoon">
         <Original>M249 &quot;Squantoon Special&quot; (Long/RIS)</Original>
         <English>M249 &quot;Squantoon Special&quot; (Long/RIS)</English>
@@ -211,7 +211,7 @@
         <Japanese>M249 &quot;Squantoon Special&quot; (長身/RIS)</Japanese>
         <Korean>M249 &quot;Squantoon Special&quot; (Long/RIS)</Korean>
         <Chinesesimp>M249 &quot;Squantoon Special&quot; (Long/RIS)</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_mk46mod0">
         <Original>Mk 46 Mod 0</Original>
         <English>Mk 46 Mod 0</English>
@@ -226,7 +226,7 @@
         <Japanese>Mk 46 Mod 0</Japanese>
         <Korean>Mk 46 Mod 0</Korean>
         <Chinesesimp>Mk 46 Mod 0</Chinesesimp>
-      </Key>  
+      </Key>
       <Key ID="STR_NIA_mk46mod1">
         <Original>Mk 46 Mod 1</Original>
         <English>Mk 46 Mod 1</English>
@@ -241,7 +241,7 @@
         <Japanese>Mk 46 Mod 1</Japanese>
         <Korean>Mk 46 Mod 1</Korean>
         <Chinesesimp>Mk 46 Mod 1</Chinesesimp>
-      </Key> 
+      </Key>
       <Key ID="STR_NIA_mk48mod0">
         <Original>Mk 48 Mod 0</Original>
         <English>Mk 48 Mod 0</English>
@@ -256,7 +256,7 @@
         <Japanese>Mk 48 Mod 0</Japanese>
         <Korean>Mk 48 Mod 0</Korean>
         <Chinesesimp>Mk 48 Mod 0</Chinesesimp>
-      </Key> 
+      </Key>
       <Key ID="STR_NIA_mk48mod1">
         <Original>Mk 48 Mod 1</Original>
         <English>Mk 48 Mod 1</English>
@@ -271,7 +271,7 @@
         <Japanese>Mk 48 Mod 1</Japanese>
         <Korean>Mk 48 Mod 1</Korean>
         <Chinesesimp>Mk 48 Mod 1</Chinesesimp>
-      </Key> 
+      </Key>
     </Container>
     <Container name="Acc_names">
       <Key ID="STR_NIA_bipod_SAW_VFG">
@@ -367,7 +367,7 @@
         <Japanese>軽機関銃&lt;br/&gt;口径: 5.56mm NATO</Japanese>
         <Korean>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Korean>
         <Chinesesimp>Light Machine Gun&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
-      </Key> 
+      </Key>
       <Key ID="STR_NIA_Mk46_DESC">
         <Original>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</Original>
         <English>Special Purpose Weapon&lt;br/&gt;Caliber:5.56mm NATO</English>
