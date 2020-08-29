@@ -5,11 +5,11 @@
 
 class CfgPatches {
     class hlcweapons_m60e4 {
-        requiredaddons[] = {"A3_Data_F","A3_UI_F","A3_Anims_F","A3_Anims_F_Config_Sdr","A3_Weapons_F","A3_Sounds_F_Mark","asdg_jointrails","hlcweapons_core"};
+        requiredaddons[] = { "hlcweapons_core" };
         units[] = {"HLC_M60E4_ammobox","Weapon_hlc_lmg_M60E4","Weapon_hlc_lmg_M60"};
         weapons[] = {};
         magazines[] = {};
-        version="13";
+        version="14";
         author="toadie";
     };
 };
@@ -328,7 +328,7 @@ class CfgWeapons {
             default = "hlc_lmg_m60";
         };
     };
-    class hlc_lmg_M60_200rnd : hlc_lmg_M60E4
+    class hlc_lmg_M60_200rnd : hlc_lmg_m60
     {
         scopearsenal = 0;
         model = "\hlc_wp_M60E4\mesh\m60classic\m60_200rnd.p3d";

@@ -247,4 +247,65 @@ class CfgSoundSets
         sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
         distanceFilter = "HLC_rifleTailDistanceFilter";
 	};
+
+    class NIA_xm8_Shot_SoundSet
+    {
+        soundShaders[] = { "NIA_xm8_closeShot_SoundShader", "NIA_xm8_midShot_SoundShader", "NIA_xm8_distShot_SoundShader", "NIA_xm8_Closure_SoundShader" };
+        volumeFactor = 1.25;
+        volumeCurve = "InverseSquare2Curve";
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+        distanceFilter = "HLC_defaultDistanceFilter";
+        frequencyRandomizer = 0.5;
+        frequencyRandomizerMin = 0.1;
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+    };
+    class NIA_xm8_tail_SoundSet
+    {
+        soundShaders[] = { "NIA_xm8_tailDistant_SoundShader", "NIA_xm8_tailForest_SoundShader", "NIA_xm8_tailHouses_SoundShader", "NIA_xm8_tailInterior_SoundShader", "NIA_xm8_tailMeadows_SoundShader", "NIA_xm8_tailTrees_SoundShader" };
+        volumeFactor = 1.0;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+    };
+    class NIA_xm8_silencerShot_SoundSet
+    {
+        soundShaders[] = { "NIA_xm8_silencerShot_SoundShader", "NIA_xm8_Closure_SoundShader", "NIA_xm8_silencerShot_mid_SoundShader" };
+        volumeFactor = 1;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 0.5;
+        frequencyRandomizerMin = 0.1;
+        occlusionFactor = 0.5;
+        obstructionFactor = 0.3;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
+    };
+    class NIA_xm8_silencerTail_SoundSet
+    {
+        soundShaders[] = { "NIA_xm8_silencerTailTrees_SoundShader", "NIA_xm8_silencerTailForest_SoundShader", "NIA_xm8_silencerTailMeadows_SoundShader", "NIA_xm8_silencerTailHouses_SoundShader", "NIA_xm8_silencerTailInterior_SoundShader" };
+        volumeFactor = 0.7;
+        volumeCurve = "InverseSquare2Curve";
+        frequencyRandomizer = 2;
+        frequencyRandomizerMin = 0.2;
+        occlusionFactor = 0.3;
+        obstructionFactor = 0;
+        spatial = 1;
+        doppler = 0;
+        loop = 0;
+        soundShadersLimit = 2;
+        sound3DProcessingType = "WeaponMediumShotTail3DProcessingType";
+        distanceFilter = "HLC_rifleTailDistanceFilter";
+    };
 };

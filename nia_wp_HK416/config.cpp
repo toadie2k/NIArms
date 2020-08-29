@@ -5,11 +5,11 @@ class CfgPatches
 {
     class niarms_416
     {
-        requiredaddons[] = { "hlcweapons_core"};
+        requiredaddons[] = {"hlcweapons_core"};
         units[] = {};
         weapons[] = {};
         magazines[] = {};
-        version = "1.02";
+        version = "1.1";
         author = "toadie";
     };
 };

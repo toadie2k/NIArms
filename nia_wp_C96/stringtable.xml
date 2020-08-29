@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NIArms">
+  <Package name="nia_wp_C96">
+    <Container name="Names">
+      <Key ID="STR_NIA_pistol_C96_Wartime">
+        <Original>Mauser C96 M1912</Original>
+        <English>Mauser C96 M1912</English>
+        <Czech>Mauser C96 M1912</Czech>
+        <French>Mauser C96 M1912</French>
+        <Spanish>Mauser C96 M1912</Spanish>
+        <Italian>Mauser C96 M1912</Italian>
+        <Polish>Mauser C96 M1912</Polish>
+        <Portuguese>Mauser C96 M1912</Portuguese>
+        <Russian>Mauser C96 M1912</Russian>
+        <German>Mauser C96 M1912</German>
+        <Japanese>Mauser C96 M1912</Japanese>
+        <Korean>Mauser C96 M1912</Korean>
+        <Chinesesimp>Mauser C96 M1912</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Wartime_Stock">
+        <Original>Mauser C96 M1912 (Stock)</Original>
+        <English>Mauser C96 M1912 (Stock)</English>
+        <Czech>Mauser C96 M1912 (Stock)</Czech>
+        <French>Mauser C96 M1912 (Stock)</French>
+        <Spanish>Mauser C96 M1912 (Stock)</Spanish>
+        <Italian>Mauser C96 M1912 (Stock)</Italian>
+        <Polish>Mauser C96 M1912 (Stock)</Polish>
+        <Portuguese>Mauser C96 M1912 (Stock)</Portuguese>
+        <Russian>Mauser C96 M1912 (Stock)</Russian>
+        <German>Mauser C96 M1912 (Stock)</German>
+        <Japanese>Mauser C96 M1912 (Stock)</Japanese>
+        <Korean>Mauser C96 M1912 (Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1912 (Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Wartime_worn">
+        <Original>Mauser C96 M1912 (Worn)</Original>
+        <English>Mauser C96 M1912 (Worn)</English>
+        <Czech>Mauser C96 M1912 (Worn)</Czech>
+        <French>Mauser C96 M1912 (Worn)</French>
+        <Spanish>Mauser C96 M1912 (Worn)</Spanish>
+        <Italian>Mauser C96 M1912 (Worn)</Italian>
+        <Polish>Mauser C96 M1912 (Worn)</Polish>
+        <Portuguese>Mauser C96 M1912 (Worn)</Portuguese>
+        <Russian>Mauser C96 M1912 (Worn)</Russian>
+        <German>Mauser C96 M1912 (Worn)</German>
+        <Japanese>Mauser C96 M1912 (Worn)</Japanese>
+        <Korean>Mauser C96 M1912 (Worn)</Korean>
+        <Chinesesimp>Mauser C96 M1912 (Worn)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Wartime_worn_Stock">
+        <Original>Mauser C96 M1912 (Worn/Stock)</Original>
+        <English>Mauser C96 M1912 (Worn/Stock)</English>
+        <Czech>Mauser C96 M1912 (Worn/Stock)</Czech>
+        <French>Mauser C96 M1912 (Worn/Stock)</French>
+        <Spanish>Mauser C96 M1912 (Worn/Stock)</Spanish>
+        <Italian>Mauser C96 M1912 (Worn/Stock)</Italian>
+        <Polish>Mauser C96 M1912 (Worn/Stock)</Polish>
+        <Portuguese>Mauser C96 M1912 (Worn/Stock)</Portuguese>
+        <Russian>Mauser C96 M1912 (Worn/Stock)</Russian>
+        <German>Mauser C96 M1912 (Worn/Stock)</German>
+        <Japanese>Mauser C96 M1912 (Worn/Stock)</Japanese>
+        <Korean>Mauser C96 M1912 (Worn/Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1912 (Worn/Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_bolo">
+        <Original>Mauser C96 M1921</Original>
+        <English>Mauser C96 M1921</English>
+        <Czech>Mauser C96 M1921</Czech>
+        <French>Mauser C96 M1921</French>
+        <Spanish>Mauser C96 M1921</Spanish>
+        <Italian>Mauser C96 M1921</Italian>
+        <Polish>Mauser C96 M1921</Polish>
+        <Portuguese>Mauser C96 M1921</Portuguese>
+        <Russian>Mauser C96 M1921</Russian>
+        <German>Mauser C96 M1921</German>
+        <Japanese>Mauser C96 M1921</Japanese>
+        <Korean>Mauser C96 M1921</Korean>
+        <Chinesesimp>Mauser C96 M1921</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_bolo_Stock">
+        <Original>Mauser C96 M1921 (Stock)</Original>
+        <English>Mauser C96 M1921 (Stock)</English>
+        <Czech>Mauser C96 M1921 (Stock)</Czech>
+        <French>Mauser C96 M1921 (Stock)</French>
+        <Spanish>Mauser C96 M1921 (Stock)</Spanish>
+        <Italian>Mauser C96 M1921 (Stock)</Italian>
+        <Polish>Mauser C96 M1921 (Stock)</Polish>
+        <Portuguese>Mauser C96 M1921 (Stock)</Portuguese>
+        <Russian>Mauser C96 M1921 (Stock)</Russian>
+        <German>Mauser C96 M1921 (Stock)</German>
+        <Japanese>Mauser C96 M1921 (Stock)</Japanese>
+        <Korean>Mauser C96 M1921 (Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1921 (Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_bolo_worn">
+        <Original>Mauser C96 M1921 (Worn)</Original>
+        <English>Mauser C96 M1921 (Worn)</English>
+        <Czech>Mauser C96 M1921 (Worn)</Czech>
+        <French>Mauser C96 M1921 (Worn)</French>
+        <Spanish>Mauser C96 M1921 (Worn)</Spanish>
+        <Italian>Mauser C96 M1921 (Worn)</Italian>
+        <Polish>Mauser C96 M1921 (Worn)</Polish>
+        <Portuguese>Mauser C96 M1921 (Worn)</Portuguese>
+        <Russian>Mauser C96 M1921 (Worn)</Russian>
+        <German>Mauser C96 M1921 (Worn)</German>
+        <Japanese>Mauser C96 M1921 (Worn)</Japanese>
+        <Korean>Mauser C96 M1921 (Worn)</Korean>
+        <Chinesesimp>Mauser C96 M1921 (Worn)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_bolo_worn_Stock">
+        <Original>Mauser C96 M1921 (Worn/Stock)</Original>
+        <English>Mauser C96 M1921 (Worn/Stock)</English>
+        <Czech>Mauser C96 M1921 (Worn/Stock)</Czech>
+        <French>Mauser C96 M1921 (Worn/Stock)</French>
+        <Spanish>Mauser C96 M1921 (Worn/Stock)</Spanish>
+        <Italian>Mauser C96 M1921 (Worn/Stock)</Italian>
+        <Polish>Mauser C96 M1921 (Worn/Stock)</Polish>
+        <Portuguese>Mauser C96 M1921 (Worn/Stock)</Portuguese>
+        <Russian>Mauser C96 M1921 (Worn/Stock)</Russian>
+        <German>Mauser C96 M1921 (Worn/Stock)</German>
+        <Japanese>Mauser C96 M1921 (Worn/Stock)</Japanese>
+        <Korean>Mauser C96 M1921 (Worn/Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1921 (Worn/Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_red9">
+        <Original>Mauser C96 M1916 Prussian</Original>
+        <English>Mauser C96 M1916 Prussian</English>
+        <Czech>Mauser C96 M1916 Prussian</Czech>
+        <French>Mauser C96 M1916 Prussian</French>
+        <Spanish>Mauser C96 M1916 Prussian</Spanish>
+        <Italian>Mauser C96 M1916 Prussian</Italian>
+        <Polish>Mauser C96 M1916 Prussian</Polish>
+        <Portuguese>Mauser C96 M1916 Prussian</Portuguese>
+        <Russian>Mauser C96 M1916 Prussian</Russian>
+        <German>Mauser C96 M1916 Prussian</German>
+        <Japanese>Mauser C96 M1916 Prussian</Japanese>
+        <Korean>Mauser C96 M1916 Prussian</Korean>
+        <Chinesesimp>Mauser C96 M1916 Prussian</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_red9_Stock">
+        <Original>Mauser C96 M1916 Prussian (Stock)</Original>
+        <English>Mauser C96 M1916 Prussian (Stock)</English>
+        <Czech>Mauser C96 M1916 Prussian (Stock)</Czech>
+        <French>Mauser C96 M1916 Prussian (Stock)</French>
+        <Spanish>Mauser C96 M1916 Prussian (Stock)</Spanish>
+        <Italian>Mauser C96 M1916 Prussian (Stock)</Italian>
+        <Polish>Mauser C96 M1916 Prussian (Stock)</Polish>
+        <Portuguese>Mauser C96 M1916 Prussian (Stock)</Portuguese>
+        <Russian>Mauser C96 M1916 Prussian (Stock)</Russian>
+        <German>Mauser C96 M1916 Prussian (Stock)</German>
+        <Japanese>Mauser C96 M1916 Prussian (Stock)</Japanese>
+        <Korean>Mauser C96 M1916 Prussian (Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1916 Prussian (Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_red9_worn">
+        <Original>Mauser C96 M1916 Prussian (Rework)</Original>
+        <English>Mauser C96 M1916 Prussian (Rework)</English>
+        <Czech>Mauser C96 M1916 Prussian (Rework)</Czech>
+        <French>Mauser C96 M1916 Prussian (Rework)</French>
+        <Spanish>Mauser C96 M1916 Prussian (Rework)</Spanish>
+        <Italian>Mauser C96 M1916 Prussian (Rework)</Italian>
+        <Polish>Mauser C96 M1916 Prussian (Rework)</Polish>
+        <Portuguese>Mauser C96 M1916 Prussian (Rework)</Portuguese>
+        <Russian>Mauser C96 M1916 Prussian (Rework)</Russian>
+        <German>Mauser C96 M1916 Prussian (Rework)</German>
+        <Japanese>Mauser C96 M1916 Prussian (Rework)</Japanese>
+        <Korean>Mauser C96 M1916 Prussian (Rework)</Korean>
+        <Chinesesimp>Mauser C96 M1916 Prussian (Rework)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_red9_Rework_Stock">
+        <Original>Mauser C96 M1916 Prussian (Rework/Stock)</Original>
+        <English>Mauser C96 M1916 Prussian (Rework/Stock)</English>
+        <Czech>Mauser C96 M1916 Prussian (Rework/Stock)</Czech>
+        <French>Mauser C96 M1916 Prussian (Rework/Stock)</French>
+        <Spanish>Mauser C96 M1916 Prussian (Rework/Stock)</Spanish>
+        <Italian>Mauser C96 M1916 Prussian (Rework/Stock)</Italian>
+        <Polish>Mauser C96 M1916 Prussian (Rework/Stock)</Polish>
+        <Portuguese>Mauser C96 M1916 Prussian (Rework/Stock)</Portuguese>
+        <Russian>Mauser C96 M1916 Prussian (Rework/Stock)</Russian>
+        <German>Mauser C96 M1916 Prussian (Rework/Stock)</German>
+        <Japanese>Mauser C96 M1916 Prussian (Rework/Stock)</Japanese>
+        <Korean>Mauser C96 M1916 Prussian (Rework/Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1916 Prussian (Rework/Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Schnellfeuer">
+        <Original>Mauser C96 M712 &quot;Schnellfeuer&quot;</Original>
+        <English>Mauser C96 M712 &quot;Schnellfeuer&quot;</English>
+        <Czech>Mauser C96 M712 &quot;Schnellfeuer&quot;</Czech>
+        <French>Mauser C96 M712 &quot;Schnellfeuer&quot;</French>
+        <Spanish>Mauser C96 M712 &quot;Schnellfeuer&quot;</Spanish>
+        <Italian>Mauser C96 M712 &quot;Schnellfeuer&quot;</Italian>
+        <Polish>Mauser C96 M712 &quot;Schnellfeuer&quot;</Polish>
+        <Portuguese>Mauser C96 M712 &quot;Schnellfeuer&quot;</Portuguese>
+        <Russian>Mauser C96 M712 &quot;Schnellfeuer&quot;</Russian>
+        <German>Mauser C96 M712 &quot;Schnellfeuer&quot;</German>
+        <Japanese>Mauser C96 M712 &quot;Schnellfeuer&quot;</Japanese>
+        <Korean>Mauser C96 M712 &quot;Schnellfeuer&quot;</Korean>
+        <Chinesesimp>Mauser C96 M712 &quot;Schnellfeuer&quot;</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Schnellfeuer_Stock">
+        <Original>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Original>
+        <English>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</English>
+        <Czech>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Czech>
+        <French>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</French>
+        <Spanish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Spanish>
+        <Italian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Italian>
+        <Polish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Polish>
+        <Portuguese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Portuguese>
+        <Russian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Russian>
+        <German>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</German>
+        <Japanese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Japanese>
+        <Korean>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Korean>
+        <Chinesesimp>Mauser C96 M712 &quot;Schnellfeuer&quot; (Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Schnellfeuer_worn">
+        <Original>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Original>
+        <English>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</English>
+        <Czech>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Czech>
+        <French>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</French>
+        <Spanish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Spanish>
+        <Italian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Italian>
+        <Polish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Polish>
+        <Portuguese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Portuguese>
+        <Russian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Russian>
+        <German>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</German>
+        <Japanese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Japanese>
+        <Korean>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Korean>
+        <Chinesesimp>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_C96_Schnellfeuer_worn_Stock">
+        <Original>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Original>
+        <English>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</English>
+        <Czech>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Czech>
+        <French>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</French>
+        <Spanish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Spanish>
+        <Italian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Italian>
+        <Polish>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Polish>
+        <Portuguese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Portuguese>
+        <Russian>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Russian>
+        <German>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</German>
+        <Japanese>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Japanese>
+        <Korean>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Korean>
+        <Chinesesimp>Mauser C96 M712 &quot;Schnellfeuer&quot; (Worn/Stock)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_pistol_DL44">
+        <Original>BlasTech DL-44</Original>
+        <English>BlasTech DL-44</English>
+        <Czech>BlasTech DL-44</Czech>
+        <French>BlasTech DL-44</French>
+        <Spanish>BlasTech DL-44</Spanish>
+        <Italian>BlasTech DL-44</Italian>
+        <Polish>BlasTech DL-44</Polish>
+        <Portuguese>BlasTech DL-44</Portuguese>
+        <Russian>BlasTech DL-44</Russian>
+        <German>BlasTech DL-44</German>
+        <Japanese>BlasTech DL-44</Japanese>
+        <Korean>BlasTech DL-44</Korean>
+        <Chinesesimp>BlasTech DL-44</Chinesesimp>
+      </Key>
+    
+      <Key ID="STR_NIA_pistol_C96_Custom_Stock">
+        <Original>Mauser C96 M1912 (Custom/Stock)</Original>
+        <English>Mauser C96 M1912 (Custom/Stock)</English>
+        <Czech>Mauser C96 M1912 (Custom/Stock)</Czech>
+        <French>Mauser C96 M1912 (Custom/Stock)</French>
+        <Spanish>Mauser C96 M1912 (Custom/Stock)</Spanish>
+        <Italian>Mauser C96 M1912 (Custom/Stock)</Italian>
+        <Polish>Mauser C96 M1912 (Custom/Stock)</Polish>
+        <Portuguese>Mauser C96 M1912 (Custom/Stock)</Portuguese>
+        <Russian>Mauser C96 M1912 (Custom/Stock)</Russian>
+        <German>Mauser C96 M1912 (Custom/Stock)</German>
+        <Japanese>Mauser C96 M1912 (Custom/Stock)</Japanese>
+        <Korean>Mauser C96 M1912 (Custom/Stock)</Korean>
+        <Chinesesimp>Mauser C96 M1912 (Custom/Stock)</Chinesesimp>
+      </Key>
+      </Container>
+    <Container name="Mag_Names">
+      <Key ID="STR_NIA_10rnd_763x25_FMJ_C96">
+        <Original>7.63mm FMJ 10Rnd C96 Clip</Original>
+        <English>7.63mm FMJ 10Rnd C96 Clip</English>
+        <Czech>7.63mm FMJ 10Rnd C96 Clip</Czech>
+        <French>7.63mm FMJ 10Rnd C96 Clip</French>
+        <Spanish>7.63mm FMJ 10Rnd C96 Clip</Spanish>
+        <Italian>7.63mm FMJ 10Rnd C96 Clip</Italian>
+        <Polish>7.63mm FMJ 10Rnd C96 Clip</Polish>
+        <Portuguese>7.63mm FMJ 10Rnd C96 Clip</Portuguese>
+        <Russian>7.63mm FMJ 10Rnd C96 Clip</Russian>
+        <German>7.63mm FMJ 10Rnd C96 Clip</German>
+        <Japanese>7.63mm FMJ 10Rnd C96 Clip</Japanese>
+        <Korean>7.63mm FMJ 10Rnd C96 Clip</Korean>
+        <Chinesesimp>7.63mm FMJ 10Rnd C96 Clip</Chinesesimp>
+      </Key>
+      
+      <Key ID="STR_NIA_10rnd_763x25_JHP_C96">
+        <Original>7.63mm JHP 10Rnd C96 Clip</Original>
+        <English>7.63mm JHP 10Rnd C96 Clip</English>
+        <Czech>7.63mm JHP 10Rnd C96 Clip</Czech>
+        <French>7.63mm JHP 10Rnd C96 Clip</French>
+        <Spanish>7.63mm JHP 10Rnd C96 Clip</Spanish>
+        <Italian>7.63mm JHP 10Rnd C96 Clip</Italian>
+        <Polish>7.63mm JHP 10Rnd C96 Clip</Polish>
+        <Portuguese>7.63mm JHP 10Rnd C96 Clip</Portuguese>
+        <Russian>7.63mm JHP 10Rnd C96 Clip</Russian>
+        <German>7.63mm JHP 10Rnd C96 Clip</German>
+        <Japanese>7.63mm JHP 10Rnd C96 Clip</Japanese>
+        <Korean>7.63mm JHP 10Rnd C96 Clip</Korean>
+        <Chinesesimp>7.63mm JHP 10Rnd C96 Clip</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_10rnd_9x19_FMJ_C96">
+        <Original>9mm FMJ 10Rnd C96 Clip</Original>
+        <English>9mm FMJ 10Rnd C96 Clip</English>
+        <Czech>9mm FMJ 10Rnd C96 Clip</Czech>
+        <French>9mm FMJ 10Rnd C96 Clip</French>
+        <Spanish>9mm FMJ 10Rnd C96 Clip</Spanish>
+        <Italian>9mm FMJ 10Rnd C96 Clip</Italian>
+        <Polish>9mm FMJ 10Rnd C96 Clip</Polish>
+        <Portuguese>9mm FMJ 10Rnd C96 Clip</Portuguese>
+        <Russian>9mm FMJ 10Rnd C96 Clip</Russian>
+        <German>9mm FMJ 10Rnd C96 Clip</German>
+        <Japanese>9mm FMJ 10Rnd C96 Clip</Japanese>
+        <Korean>9mm FMJ 10Rnd C96 Clip</Korean>
+        <Chinesesimp>9mm FMJ 10Rnd C96 Clip</Chinesesimp>
+      </Key>
+      
+      <Key ID="STR_NIA_10rnd_9x19_JHP_C96">
+        <Original>9mm JHP 10Rnd C96 Clip</Original>
+        <English>9mm JHP 10Rnd C96 Clip</English>
+        <Czech>9mm JHP 10Rnd C96 Clip</Czech>
+        <French>9mm JHP 10Rnd C96 Clip</French>
+        <Spanish>9mm JHP 10Rnd C96 Clip</Spanish>
+        <Italian>9mm JHP 10Rnd C96 Clip</Italian>
+        <Polish>9mm JHP 10Rnd C96 Clip</Polish>
+        <Portuguese>9mm JHP 10Rnd C96 Clip</Portuguese>
+        <Russian>9mm JHP 10Rnd C96 Clip</Russian>
+        <German>9mm JHP 10Rnd C96 Clip</German>
+        <Japanese>9mm JHP 10Rnd C96 Clip</Japanese>
+        <Korean>9mm JHP 10Rnd C96 Clip</Korean>
+        <Chinesesimp>9mm JHP 10Rnd C96 Clip</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_10rnd_9x19_Subsonic_C96">
+        <Original>9mm Subsonic 10Rnd C96 Clip</Original>
+        <English>9mm Subsonic 10Rnd C96 Clip</English>
+        <Czech>9mm Subsonic 10Rnd C96 Clip</Czech>
+        <French>9mm Subsonic 10Rnd C96 Clip</French>
+        <Spanish>9mm Subsonic 10Rnd C96 Clip</Spanish>
+        <Italian>9mm Subsonic 10Rnd C96 Clip</Italian>
+        <Polish>9mm Subsonic 10Rnd C96 Clip</Polish>
+        <Portuguese>9mm Subsonic 10Rnd C96 Clip</Portuguese>
+        <Russian>9mm Subsonic 10Rnd C96 Clip</Russian>
+        <German>9mm Subsonic 10Rnd C96 Clip</German>
+        <Japanese>9mm Subsonic 10Rnd C96 Clip</Japanese>
+        <Korean>9mm Subsonic 10Rnd C96 Clip</Korean>
+        <Chinesesimp>9mm Subsonic 10Rnd C96 Clip</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_10rnd_763x25_FMJ_M712">
+        <Original>7.63mm FMJ 10Rnd M712 Magazine</Original>
+        <English>7.63mm FMJ 10Rnd M712 Magazine</English>
+        <Czech>7.63mm FMJ 10Rnd M712 Magazine</Czech>
+        <French>7.63mm FMJ 10Rnd M712 Magazine</French>
+        <Spanish>7.63mm FMJ 10Rnd M712 Magazine</Spanish>
+        <Italian>7.63mm FMJ 10Rnd M712 Magazine</Italian>
+        <Polish>7.63mm FMJ 10Rnd M712 Magazine</Polish>
+        <Portuguese>7.63mm FMJ 10Rnd M712 Magazine</Portuguese>
+        <Russian>7.63mm FMJ 10Rnd M712 Magazine</Russian>
+        <German>7.63mm FMJ 10Rnd M712 Magazine</German>
+        <Japanese>7.63mm FMJ 10Rnd M712 Magazine</Japanese>
+        <Korean>7.63mm FMJ 10Rnd M712 Magazine</Korean>
+        <Chinesesimp>7.63mm FMJ 10Rnd M712 Magazine</Chinesesimp>
+      </Key>
+      
+      <Key ID="STR_NIA_10rnd_763x25_JHP_M712">
+        <Original>7.63mm JHP 10Rnd M712 Magazine</Original>
+        <English>7.63mm JHP 10Rnd M712 Magazine</English>
+        <Czech>7.63mm JHP 10Rnd M712 Magazine</Czech>
+        <French>7.63mm JHP 10Rnd M712 Magazine</French>
+        <Spanish>7.63mm JHP 10Rnd M712 Magazine</Spanish>
+        <Italian>7.63mm JHP 10Rnd M712 Magazine</Italian>
+        <Polish>7.63mm JHP 10Rnd M712 Magazine</Polish>
+        <Portuguese>7.63mm JHP 10Rnd M712 Magazine</Portuguese>
+        <Russian>7.63mm JHP 10Rnd M712 Magazine</Russian>
+        <German>7.63mm JHP 10Rnd M712 Magazine</German>
+        <Japanese>7.63mm JHP 10Rnd M712 Magazine</Japanese>
+        <Korean>7.63mm JHP 10Rnd M712 Magazine</Korean>
+        <Chinesesimp>7.63mm JHP 10Rnd M712 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_20rnd_763x25_FMJ_M712">
+        <Original>7.63mm FMJ 20Rnd M712 Magazine</Original>
+        <English>7.63mm FMJ 20Rnd M712 Magazine</English>
+        <Czech>7.63mm FMJ 20Rnd M712 Magazine</Czech>
+        <French>7.63mm FMJ 20Rnd M712 Magazine</French>
+        <Spanish>7.63mm FMJ 20Rnd M712 Magazine</Spanish>
+        <Italian>7.63mm FMJ 20Rnd M712 Magazine</Italian>
+        <Polish>7.63mm FMJ 20Rnd M712 Magazine</Polish>
+        <Portuguese>7.63mm FMJ 20Rnd M712 Magazine</Portuguese>
+        <Russian>7.63mm FMJ 20Rnd M712 Magazine</Russian>
+        <German>7.63mm FMJ 20Rnd M712 Magazine</German>
+        <Japanese>7.63mm FMJ 20Rnd M712 Magazine</Japanese>
+        <Korean>7.63mm FMJ 20Rnd M712 Magazine</Korean>
+        <Chinesesimp>7.63mm FMJ 20Rnd M712 Magazine</Chinesesimp>
+      </Key>
+      
+      <Key ID="STR_NIA_20rnd_763x25_JHP_M712">
+        <Original>7.63mm JHP 20Rnd M712 Magazine</Original>
+        <English>7.63mm JHP 20Rnd M712 Magazine</English>
+        <Czech>7.63mm JHP 20Rnd M712 Magazine</Czech>
+        <French>7.63mm JHP 20Rnd M712 Magazine</French>
+        <Spanish>7.63mm JHP 20Rnd M712 Magazine</Spanish>
+        <Italian>7.63mm JHP 20Rnd M712 Magazine</Italian>
+        <Polish>7.63mm JHP 20Rnd M712 Magazine</Polish>
+        <Portuguese>7.63mm JHP 20Rnd M712 Magazine</Portuguese>
+        <Russian>7.63mm JHP 20Rnd M712 Magazine</Russian>
+        <German>7.63mm JHP 20Rnd M712 Magazine</German>
+        <Japanese>7.63mm JHP 20Rnd M712 Magazine</Japanese>
+        <Korean>7.63mm JHP 20Rnd M712 Magazine</Korean>
+        <Chinesesimp>7.63mm JHP 20Rnd M712 Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_BLASTER_B_DL44">
+        <Original>DL-44 Blaster Charging Module</Original>
+        <English>DL-44 Blaster Charging Module</English>
+        <Czech>DL-44 Blaster Charging Module</Czech>
+        <French>DL-44 Blaster Charging Module</French>
+        <Spanish>DL-44 Blaster Charging Module</Spanish>
+        <Italian>DL-44 Blaster Charging Module</Italian>
+        <Polish>DL-44 Blaster Charging Module</Polish>
+        <Portuguese>DL-44 Blaster Charging Module</Portuguese>
+        <Russian>DL-44 Blaster Charging Module</Russian>
+        <German>DL-44 Blaster Charging Module</German>
+        <Japanese>DL-44 Blaster Charging Module</Japanese>
+        <Korean>DL-44 Blaster Charging Module</Korean>
+        <Chinesesimp>DL-44 Blaster Charging Module</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Descriptions">
+      <Key ID="STR_NIA_M1912_DESC">
+        <Original>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Original>
+        <English>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</English>
+        <Czech>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Czech>
+        <French>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</French>
+        <Spanish>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Spanish>
+        <Italian>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Italian>
+        <Polish>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Polish>
+        <Portuguese>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Portuguese>
+        <Russian>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Russian>
+        <German>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</German>
+        <Japanese>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Japanese>
+        <Korean>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Korean>
+        <Chinesesimp>Sidearm&lt;br/&gt;Caliber:7.63mm Mauser</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M1912_carbine_DESC">
+        <Original>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Original>
+        <English>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</English>
+        <Czech>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Czech>
+        <French>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</French>
+        <Spanish>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Spanish>
+        <Italian>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Italian>
+        <Polish>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Polish>
+        <Portuguese>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Portuguese>
+        <Russian>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Russian>
+        <German>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</German>
+        <Japanese>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Japanese>
+        <Korean>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Korean>
+        <Chinesesimp>Pistol-Carbine&lt;br/&gt;Caliber:7.63mm Mauser</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Red9_DESC">
+        <Original>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Original>
+        <English>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</English>
+        <Czech>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Czech>
+        <French>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</French>
+        <Spanish>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Spanish>
+        <Italian>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Italian>
+        <Polish>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Polish>
+        <Portuguese>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Portuguese>
+        <Russian>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Russian>
+        <German>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</German>
+        <Japanese>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Japanese>
+        <Korean>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Korean>
+        <Chinesesimp>Sidearm&lt;br/&gt;Caliber:9x19mm Parabellum</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Red9_Carbine_DESC">
+        <Original>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Original>
+        <English>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</English>
+        <Czech>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Czech>
+        <French>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</French>
+        <Spanish>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Spanish>
+        <Italian>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Italian>
+        <Polish>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Polish>
+        <Portuguese>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Portuguese>
+        <Russian>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Russian>
+        <German>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</German>
+        <Japanese>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Japanese>
+        <Korean>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Korean>
+        <Chinesesimp>Pistol-Carbine&lt;br/&gt;Caliber:9x19mm Parabellum</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_M712_DESC">
+        <Original>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Original>
+        <English>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</English>
+        <Czech>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Czech>
+        <French>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</French>
+        <Spanish>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Spanish>
+        <Italian>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Italian>
+        <Polish>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Polish>
+        <Portuguese>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Portuguese>
+        <Russian>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Russian>
+        <German>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</German>
+        <Japanese>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Japanese>
+        <Korean>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Korean>
+        <Chinesesimp>Machine Pistol&lt;br/&gt;Caliber:7.63mm Mauser</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_10Rnd_763x25_B">
+        <Original>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+        <English>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+        <Czech>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+        <French>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+        <Spanish>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+        <Italian>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+        <Polish>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+        <Portuguese>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+        <Russian>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+        <German>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+        <Japanese>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Japanese>
+        <Korean>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+        <Chinesesimp>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_20Rnd_763x25_B">
+        <Original>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+        <English>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+        <Czech>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+        <French>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+        <Spanish>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+        <Italian>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+        <Polish>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+        <Portuguese>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+        <Russian>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+        <German>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+        <Japanese>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Japanese>
+        <Korean>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+        <Chinesesimp>Caliber: 7.63x25mm Mauser FMJ&lt;br/&gt;Type: 86gr Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+      </Key>
+
+      <Key ID="STR_NIA_DESC_10rnd_9x19_B_C96">
+        <Original>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+        <English>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+        <Czech>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+        <French>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+        <Spanish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+        <Italian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+        <Polish>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+        <Portuguese>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+        <Russian>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+        <German>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+        <Japanese>口径: 9x19mm M882 ボール弾&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 10</Japanese>
+        <Korean>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+        <Chinesesimp>Caliber: 9x19mm M882 Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_10rnd_9x19_GD_C96">
+        <Original>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Original>
+        <English>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</English>
+        <Czech>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Czech>
+        <French>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</French>
+        <Spanish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Spanish>
+        <Italian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Italian>
+        <Polish>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Polish>
+        <Portuguese>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Portuguese>
+        <Russian>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Russian>
+        <German>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</German>
+        <Japanese>口径: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;種類: ジャケテッド ホロー ポイント (Winchester USA9JHP2)&lt;br/&gt;弾数: 10</Japanese>
+        <Korean>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Korean>
+        <Chinesesimp>Caliber: 9x19mm Mk243 Mod 0 JHP&lt;br/&gt;Type: Jacketed Hollow Point (Winchester USA9JHP2)&lt;br/&gt;Rounds: 10</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_10rnd_9x19_SD_C96">
+        <Original>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Original>
+        <English>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</English>
+        <Czech>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Czech>
+        <French>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</French>
+        <Spanish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Spanish>
+        <Italian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Italian>
+        <Polish>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Polish>
+        <Portuguese>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Portuguese>
+        <Russian>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Russian>
+        <German>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</German>
+        <Japanese>口径: 9x19mm ボール弾&lt;br/&gt;種類: フル メタル ジャケット&lt;br/&gt;弾数: 10</Japanese>
+        <Korean>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Korean>
+        <Chinesesimp>Caliber: 9x19mm Ball&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 10</Chinesesimp>
+      </Key>
+    </Container>
+    <Container name="Mag_DisplayShort">
+      <Key ID="STR_NIA_763x25_FMJ">
+        <Original>FMJ</Original>
+        <English>FMJ</English>
+        <Czech>FMJ</Czech>
+        <French>FMJ</French>
+        <Spanish>FMJ</Spanish>
+        <Italian>FMJ</Italian>
+        <Polish>FMJ</Polish>
+        <Portuguese>FMJ</Portuguese>
+        <Russian>FMJ</Russian>
+        <German>FMJ</German>
+        <Japanese>FMJ</Japanese>
+        <Korean>FMJ</Korean>
+        <Chinesesimp>FMJ</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_763x25_JHP">
+        <Original>JHP</Original>
+        <English>JHP</English>
+        <Czech>JHP</Czech>
+        <French>JHP</French>
+        <Spanish>JHP</Spanish>
+        <Italian>JHP</Italian>
+        <Polish>JHP</Polish>
+        <Portuguese>JHP</Portuguese>
+        <Russian>JHP</Russian>
+        <German>JHP</German>
+        <Japanese>JHP</Japanese>
+        <Korean>JHP</Korean>
+        <Chinesesimp>JHP</Chinesesimp>
+      </Key>
+    </Container>
+  </Package>
+</Project>

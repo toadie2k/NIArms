@@ -8,4 +8,9 @@ class RscInGameUI
     idd = 9640;
     onLoad="['onLoad',_this,'RscUnitInfo','IGUI'] call (uinamespace getvariable 'BIS_fnc_initDisplay'); _this call Niarms_altReloads_fnc_postInit;";
   };
+  class NIArms_Rsc_Grip
+  {
+      idd = 4570;
+      onLoad = "['onLoad',_this,'RscUnitInfo','IGUI'] call (uinamespace getvariable 'BIS_fnc_initDisplay'); _this call rhs_fnc_accGripod";
+  };
 };

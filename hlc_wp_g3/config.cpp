@@ -5,11 +5,11 @@
 
 class CfgPatches {
     class hlcweapons_g3 {
-        requiredaddons[] = { "hlcweapons_core" };
+        requiredaddons[] = { "A3_Data_F", "A3_UI_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "A3_Sounds_F_Mark", "asdg_jointrails", "hlcweapons_core" };
         units[] = { "HLC_G3_ammobox", "Weapon_hlc_rifle_psg1", "Weapon_hlc_rifle_g3sg1", "Weapon_hlc_rifle_g3ka4", "Weapon_hlc_rifle_hk51", "Weapon_HLC_Rifle_g3ka4_GL", "Weapon_hlc_rifle_hk53", "Weapon_hlc_rifle_G3A3", "Weapon_hlc_rifle_g3a3ris" };
         weapons[] = { "hlc_rifle_psg1", "hlc_rifle_g3sg1", "HLC_Optic_ZFSG1", "hlc_optic_accupoint_g3", "hlc_rifle_g3ka4", "hlc_rifle_hk51", "HLC_Rifle_g3ka4_GL", "hlc_rifle_hk53", "hlc_optic_PVS4G3" };
         magazines[] = { "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_t_G3", "hlc_30rnd_556x45_EPR_HK33", "hlc_30rnd_556x45_SOST_HK33", "hlc_30rnd_556x45_b_HK33", "hlc_30rnd_556x45_t_HK33" };
-        version = "2.15";
+        version = "2.2";
         author = "toadie";
     };
 };
@@ -463,7 +463,7 @@ class CfgMagazines {
         scope = 2;
         tracersevery = 0;
         displaynameshort = $STR_NIA_556_FMJ;
-        picture = "hlc_wp_g3\tex\ui\M_HK33_b_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\M_HK33_b_ca.paa";
     };
     class hlc_30rnd_556x45_t_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
@@ -477,7 +477,7 @@ class CfgMagazines {
         tracersevery = 1;
         displaynameshort = $STR_NIA_556_Tracer;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
-        picture = "hlc_wp_g3\tex\ui\m_hk33_tracers_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_tracers_ca.paa";
     };
 
     class hlc_30rnd_556x45_EPR_HK33 : hlc_30rnd_556x45_b_HK33 {
@@ -493,7 +493,7 @@ class CfgMagazines {
         displaynameshort = $STR_NIA_556_EPR;
         hiddenSelections[] = { "roundtype1", "roundtype2" };
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_greentip_co.paa" };
-        picture = "hlc_wp_g3\tex\ui\m_hk33_epr_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_epr_ca.paa";
     };
     class hlc_30rnd_556x45_SOST_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
@@ -506,7 +506,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         tracersevery = 0;
         displaynameshort = $STR_NIA_556_SOST;
-        picture = "hlc_wp_g3\tex\ui\m_hk33_sost_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_sost_ca.paa";
     };
     class hlc_30rnd_556x45_SPR_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
@@ -519,7 +519,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         tracersevery = 0;
         displaynameshort = $STR_NIA_556_SPR;
-        picture = "hlc_wp_g3\tex\ui\m_hk33_spr_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_spr_ca.paa";
     };
     class hlc_30rnd_556x45_M_HK33 : hlc_30rnd_556x45_b_HK33 {
         dlc = "Niarms_G3";
@@ -534,7 +534,7 @@ class CfgMagazines {
         scope = 2;
         tracersevery = 4;
         displaynameshort = $STR_NIA_556_M;
-        picture = "hlc_wp_g3\tex\ui\m_hk33_m_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
     class hlc_30rnd_556x45_tdim_HK33 : hlc_30rnd_556x45_b_HK33 {
@@ -562,7 +562,7 @@ class CfgMagazines {
         tracersevery = 4;
         displaynameshort = $STR_NIA_556_MDIM;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
-        picture = "hlc_wp_g3\tex\ui\m_hk33_m_ca.paa";
+        picture = "\hlc_wp_g3\tex\ui\m_hk33_m_ca.paa";
     };
 };
 class CfgMagazineWells {
@@ -1521,7 +1521,7 @@ class CfgWeapons {
         ACE_barrelLength = 314.96;
         inertia = 0.46;
         __DEXTERITY(4.6, 0);
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 102;
             class MuzzleSlot : asdg_MuzzleSlot_762 {
                 iconPosition[] = { 0.0, 0.45 };
@@ -1540,7 +1540,6 @@ class CfgWeapons {
                 iconScale = 0.0;
             };
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot {};
         };
 
         class FullAuto : FullAuto {
@@ -1669,10 +1668,16 @@ class CfgWeapons {
         muzzles[] = { "this", "hlc_M203_G3k" };
         hiddenSelections[] = { "Main", "Rail", "Stock", "M203" };
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_g3\g3_2_co.paa", "hlc_wp_g3\tex\zulmarg_tech\rail_co.paa", "hlc_wp_g3\tex\arby_mp5n\mp5_co.paa", "hlc_wp_g3\tex\tigg_m203\m203_co.paa" };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 120;
-            class UnderBarrelSlot {};
-            class GripodSlot {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.0;
+            };
+            class CowsSlot : asdg_OpticRail1913 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class CharmSlot :nia_charms_slot{};
         };
         inertia = 0.54;
@@ -1755,10 +1760,7 @@ class CfgWeapons {
         };
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 80;
-            class UnderBarrelSlot : asdg_UnderSlot{
-                iconPosition[] = { 0.0, 0.45 };
-                iconScale = 0.0;
-            };
+
         };
         inertia = 0.36;
         __DEXTERITY(3.6, 0);
@@ -1924,7 +1926,11 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\hk53\lower_co.paa", "hlc_wp_g3\tex\hk53\upper_co.paa", "hlc_wp_g3\tex\rails_co.paa", "hlc_wp_g3\tex\tigg_m203\fore_co.paa", "hlc_wp_g3\tex\tigg_m203\rails_co.paa", "hlc_wp_g3\tex\twinkemil_mp5\rail_co.paa", "hlc_wp_g3\tex\krycek_hk33\hk33_parts_co.paa" };
         inertia = 0.36;
         __DEXTERITY(3.6, 0);
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
+            class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class CowsSlot : asdg_OpticRail1913_short {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
@@ -1933,8 +1939,12 @@ class CfgWeapons {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
             };
+            class UnderBarrelSlot : asdg_UnderSlot {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.0;
+            };
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot{};
+            
         };
         rhs_grip1_change = "hlc_rifle_hk53RAS_grip";
         rhs_grip2_change = "hlc_rifle_hk53RAS_grip2";
@@ -2120,8 +2130,12 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_g3\tex\krycek_hk33\hk33_co.paa", "hlc_wp_g3\tex\hk53\lower_co.paa", "hlc_wp_g3\tex\zulmarg_tech\rail_co.paa", "hlc_wp_g3\tex\sg1\g3sg3_co.paa", "hlc_wp_g3\tex\krycek_hk33\hk33_parts_co.paa", "hlc_wp_g3\tex\tigg_m203\m203_co.paa" };
         inertia = 0.38;
         __DEXTERITY(3.8, 0);
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 84;
+            class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class CowsSlot : asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
@@ -2135,7 +2149,6 @@ class CfgWeapons {
                 iconScale = 0.0;
             };
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot ;
         };
         rhs_grip1_change = "hlc_rifle_hk33a2RIS_grip";
         rhs_grip2_change = "hlc_rifle_hk33a2RIS_grip2";
@@ -2174,15 +2187,20 @@ class CfgWeapons {
             inertia = 0.51;
         __DEXTERITY(5.1, 0);
         baseWeapon = "hlc_rifle_hk33a2RIS_GL";
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 113;
+            class CowsSlot : asdg_OpticRail1913 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class MuzzleSlot : asdg_MuzzleSlot_556 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
             };
-            class UnderBarrelSlot {};
-            class GripodSlot {};
-            class CharmSlot :nia_charms_slot{};
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
         };
     };
 

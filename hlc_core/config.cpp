@@ -11,11 +11,11 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
 		versionDesc = "NIARMA - CORE";
 		versionAct = "";
-        version = "1.5";
+        version = "1.6";
     };
 };
-#include "CfgAmmo.hpp"
-#include "CfgMagazines.hpp"
+#include "CfgAmmo.hpp"  
+#include "CfgMagazines.hpp"  
 #include "CfgFunctions.hpp"
 #include "CfgEventhandlers.hpp"
 #include "cfgsoundshaders.hpp"
@@ -83,6 +83,8 @@ class asdg_OpticRail1913 : asdg_OpticRail{
         hlc_optic_HensoldtZO_Hi_Docter = 1;
         hlc_optic_HensoldtZO_Hi_Docter_2D = 1;
         HLC_optic_DocterR = 1;
+        hlc_optic_ATACR_Offset = 1;
+        hlc_optic_ATACR = 1;
     };
 };
 class UnderBarrelSlot;
@@ -97,18 +99,18 @@ class asdg_UnderSlot : asdg_SlotInfo
 {
     class compatibleItems {
         HLC_bipod_UTGShooters = 1;
+        HLC_ISOPOD = 1;
     };
 };
 class nia_rifle_grips_slot : nia_rifle_gripod_slot
 {
     linkProxy = "\hlc_core\mesh\nia_grip_proxy";
     class compatibleItems {
-        HLC_bipod_UTGShooters = 1;
-        hlc_grip_AFG2 = 1;
-        hlc_grip_PMVFG = 1;
+        //hlc_grip_AFG2 = 1;
+        //hlc_grip_PMVFG = 1;
     };
 };
-class nia_rifle_bipodsgrips_slot :asdg_UnderSlot
+class nia_rifle_bipodsgrips_slot :asdg_UnderSlot 
 {
 };
 class PointerSlot;
@@ -119,12 +121,13 @@ class nia_charms_slot : PointerSlot
     linkProxy = "\hlc_core\mesh\nia_charm_proxy";
     class compatibleItems
     {
-        //The commented out ones are special patron ones. While I can't stop anyone with the wherewithall to compile a PBO from just uncommenting them and whatever, you know, keep it to yourself.
+        //The commented out ones are special patron ones. While I can't stop anyone with the wherewithall to compile a PBO from just uncommenting them and whatever, you know, keep it to yourself. 
         //HLC_Charm_Eurojank = 1;
         //HLC_Charm_NIArmsbacker = 1;
         //HLC_Charm_NIArmsbacker_dirty = 1;
         HLC_Charm_Izhmash = 1;
         HLC_Charm_Herstal = 1;
+        HLC_Charm_Teethgang = 1;
     };
 };
 
@@ -160,7 +163,7 @@ class CfgDistanceFilters
     };
 };
 /*
-Scripting notes-
+Scripting notes- 
 
 
 Weaponslotsinfo MASS is approximate to CENTAGRAMS... that is to say a mass of 7 is a mass of about 700 grams. Take consideration of this
@@ -195,16 +198,16 @@ class CfgMovesBasic
      class DefaultDie;
      class ManActions
      {
-         FHQ_GestureReloadACR = "FHQ_GestureReloadACR";
+         FHQ_GestureReloadACR = "FHQ_GestureReloadACR";    
      };
-
+    
     class Actions {
         class NoActions : ManActions {
             FHQ_GestureReloadACR[] = {"FHQ_GestureReloadACR", "Gesture"};
         };
     };
 };
-
+ 
 class CfgGesturesMale
 {
     class Default;
@@ -929,7 +932,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadG3SG1 : Default {
             file="hlc_core\animation\gesture\reload_g3_stand.rtm";
-            speed=0.16666666666666666666666666666667;
+            speed=-(180/30);
             looped = false;
             mask = "handsWeapon";
             headBobStrength=0.01;
@@ -953,7 +956,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadG3SG1_Context : HLC_GestureReloadG3SG1 {
             mask = "handsWeapon_context";
-        };
+        };         
         class HLC_GestureReloadHK53 : Default {
             file="hlc_core\animation\gesture\reload_hk53_standing.rtm";
             speed=0.16666666666666666666666666666667;
@@ -1243,7 +1246,7 @@ class CfgGesturesMale {
             rightHandIKCurve[] = {1};
             leftHandIKBeg = true;
             leftHandIKEnd = true;
-            leftHandIKCurve[] = {0, 1,0.0902, 1, 0.127, 0, 0.93984, 0, 0.9924, 1};
+            leftHandIKCurve[] = {0, 1,0.046154, 0, 0.938642, 0, 0.9724, 1};
         };
         class HLC_GestureReloadOSW_prone : Default {
             file="hlc_core\animation\gesture\reload_osw_prone.rtm";
@@ -1262,7 +1265,7 @@ class CfgGesturesMale {
         };
         class HLC_GestureReloadMP5 : Default {
             file="hlc_core\animation\gesture\reload_mp5_standing.rtm";
-            speed=0.25;
+            speed=-(124/30);
             looped = false;
             mask = "handsWeapon";
             headBobStrength=0.2;
@@ -1271,6 +1274,21 @@ class CfgGesturesMale {
             leftHandIKBeg = true;
             leftHandIKEnd = true;
             leftHandIKCurve[] = {0, 1, 0.04166666, 0, 0.86666, 0, 0.9, 1};
+        };
+        class HLC_GestureReloadMP5_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_mp5_prone.rtm";
+            speed = 0.25;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, 0.04166666, 0, 0.86666, 0, 0.9, 1 };
+        };
+        class HLC_GestureReloadMP5_Context : HLC_GestureReloadMP5 {
+            mask = "handsWeapon_context";
         };
         class HLC_GestureReloadMP5K : Default {
             file="hlc_core\animation\gesture\reload_mp5K_standing.rtm";
@@ -1328,49 +1346,7 @@ class CfgGesturesMale {
         class HLC_GestureReloadMP5k_pistol_Context : HLC_GestureReloadMP5K_pistol_prone {
             mask = "handsWeapon_pst_context";
         };
-        class HLC_GestureReloadM14 : Default {
-            file="hlc_core\animation\gesture\reload_m14_standing.rtm";
-            speed=0.23;
-            looped = false;
-            mask = "handsWeapon";
-            headBobStrength=0.2;
-            headBobMode=2;
-            rightHandIKCurve[] = {0, 1,0.59,1,0.615384,0,0.7538 ,0,0.84615,1 };
-            leftHandIKBeg = true;
-            leftHandIKEnd = true;
-            leftHandIKCurve[] = {0, 1, 0.04166666, 0, 0.58416, 0, 0.615384, 1};
-        };
-        class HLC_GestureReloadM14_Prone : Default {
-            file="hlc_core\animation\gesture\reload_m14_prone.rtm";
-            speed=0.23;
-            looped = false;
-            mask = "handsWeapon";
-            headBobStrength=0.2;
-            headBobMode=2;
-            rightHandIKCurve[] = {1};
-            leftHandIKBeg = true;
-            leftHandIKEnd = true;
-            leftHandIKCurve[] = {0, 1, 0.04166666, 0, 0.86666, 0, 0.9, 1};
-        };
-        class HLC_GestureReloadM14_Context : HLC_GestureReloadM14 {
-            mask = "handsWeapon_context";
-        };
-
-        class HLC_GestureReloadMP5_Prone : Default {
-            file="hlc_core\animation\gesture\reload_mp5_prone.rtm";
-            speed=0.25;
-            looped = false;
-            mask = "handsWeapon";
-            headBobStrength=0.2;
-            headBobMode=2;
-            rightHandIKCurve[] = {1};
-            leftHandIKBeg = true;
-            leftHandIKEnd = true;
-            leftHandIKCurve[] = {0, 1, 0.04166666, 0, 0.86666, 0, 0.9, 1};
-        };
-        class HLC_GestureReloadMP5_Context : HLC_GestureReloadMP5 {
-            mask = "handsWeapon_context";
-        };
+        
         class HLC_GestureReloadMP510 : Default {
             file="hlc_core\animation\gesture\reload_mp510_standing.rtm";
             speed=0.3;
@@ -1398,6 +1374,34 @@ class CfgGesturesMale {
         class HLC_GestureReloadMP510_Context : HLC_GestureReloadMP510 {
             mask = "handsWeapon_context";
         };
+        class HLC_GestureReloadM14 : Default {
+            file = "hlc_core\animation\gesture\reload_m14_standing.rtm";
+            speed = 0.23;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 0, 1, 0.59, 1, 0.615384, 0, 0.7538, 0, 0.84615, 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, 0.04166666, 0, 0.58416, 0, 0.615384, 1 };
+        };
+        class HLC_GestureReloadM14_Prone : Default {
+            file = "hlc_core\animation\gesture\reload_m14_prone.rtm";
+            speed = 0.23;
+            looped = false;
+            mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
+            rightHandIKCurve[] = { 1 };
+            leftHandIKBeg = true;
+            leftHandIKEnd = true;
+            leftHandIKCurve[] = { 0, 1, 0.04166666, 0, 0.86666, 0, 0.9, 1 };
+        };
+        class HLC_GestureReloadM14_Context : HLC_GestureReloadM14 {
+            mask = "handsWeapon_context";
+        };
+
         class HLC_GestureReloadSten : Default {
             file="hlc_core\animation\gesture\reload_sten_standing.rtm";
             looped=0;
@@ -1886,7 +1890,7 @@ Speed  = speed at 200m
 
 class CfgWeapons
 
-{
+{ 
     #include "cfg_acc_muzzle.hpp"
     #include "cfg_acc_sidemount.hpp"
     #include "cfg_acc_scope.hpp"
@@ -1913,45 +1917,51 @@ class CfgWeapons
     {
         author = "Toadie";
         scope = public;
-        displayname = "Charm- Eurojank";
+        displayname = $STR_NIA_Charm_Eurojank;
         model = "hlc_core\mesh\accessories\acc\charms\eurojank.p3d";
         picture = "\hlc_core\tex\UI\cha\gear_eurc_ca.paa";
-        descriptionshort = "Charm promoting the concept of Eurojank.";
+        descriptionshort = $STR_NIA_Charm_Eurojank_DESC;
     };
     class HLC_Charm_NIArmsbacker :HLC_Charm_base
     {
         author = "Toadie";
-        displayname = "Charm- NIArms Backer";
+        displayname = $STR_NIA_Charm_Backer;
         model = "hlc_core\mesh\accessories\acc\charms\niarms.p3d";
         picture = "\hlc_core\tex\UI\cha\gear_niac_ca.paa";
-        descriptionshort = "Charm";
+        descriptionshort = $STR_NIA_Charm_Generic;
     };
     class HLC_Charm_NIArmsbacker_dirty :HLC_Charm_base
     {
         author = "Toadie";
-        displayname = "Charm- NIArms Backer(Dirty)";
+        displayname = $STR_NIA_Charm_BackerDirty;
         model = "hlc_core\mesh\accessories\acc\charms\niarms_dirty.p3d";
         picture = "\hlc_core\tex\UI\cha\gear_niac_ca.paa";
-        descriptionshort = "Charm";
+        descriptionshort = $STR_NIA_Charm_Generic;
     };
     class HLC_Charm_Izhmash :HLC_Charm_base
     {
         author = "Toadie";
-        displayname = "Charm- Izhmash";
+        displayname = $STR_NIA_Charm_Izhmash;
         model = "hlc_core\mesh\accessories\acc\charms\izhmash.p3d";
         picture = "\hlc_core\tex\UI\cha\gear_izhmash_ca.paa";
-        descriptionshort = "Charm of the Izhmash Logo";
+        descriptionshort = $STR_NIA_Charm_Izhmash_DESC;
     };
     class HLC_Charm_Herstal :HLC_Charm_base
     {
         author = "Toadie";
-        displayname = "Charm- FN Herstal";
+        displayname = $STR_NIA_Charm_FN;
         model = "hlc_core\mesh\accessories\acc\charms\FNH.p3d";
         picture = "\hlc_core\tex\UI\cha\gear_herstal_ca.paa";
-        descriptionshort = "Charm of the Izhmash Logo";
+        descriptionshort = $STR_NIA_Charm_FN_DESC;
     };
 
-
+    class HLC_Charm_Teethgang :HLC_Charm_base
+    {
+        displayname = $STR_NIA_Charm_Teethgang;
+        model = "hlc_core\mesh\accessories\acc\charms\Beaver_charm.p3d";
+        picture = "\hlc_core\tex\UI\cha\gear_beaver_ca.paa";
+        descriptionshort = $STR_NIA_Charm_Teethgang_DESC;
+    };
     // vanilla compat
     class Rifle_Base_F;
     class mk20_base_F : Rifle_Base_F {
@@ -1970,3 +1980,4 @@ class CfgWeapons
         magazines[] += { __556STANAG_MAGS };
     };
 };
+
