@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = { "HLC_SAW_ammobox", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimipara", "Weapon_hlc_lmg_minimi", "Weapon_hlc_lmg_minimi_railed", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_m249para", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_lmg_M249E2", "Weapon_hlc_m249_pip1", "Weapon_hlc_m249_pip2", "Weapon_hlc_m249_pip3", "Weapon_hlc_m249_pip4" };
         weapons[] = { "hlc_lmg_minimipara", "hlc_lmg_minimi", "hlc_lmg_m249para", "hlc_lmg_M249E2", "hlc_lmg_minimi_railed", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_pip1", "hlc_m249_SQuantoon","hlc_lmg_mk48"};
         magazines[] = {"hlc_200rnd_556x45_M_SAW","hlc_200rnd_556x45_T_SAW","hlc_200rnd_556x45_B_SAW"};
-        version="1.42";
+        version="1.5";
         author="toadie";
     };
 };
@@ -2053,7 +2053,7 @@ class CfgWeapons {
         initspeed = -1;
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\toadie_m249\reciever_249_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\toadie_m249\vert_grip_co.tga" };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 142;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.3 };
@@ -2067,7 +2067,6 @@ class CfgWeapons {
                 };
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot {};
         };
         class __MAGSWITCHCLASS {
             //NIArms Mags
@@ -3071,7 +3070,7 @@ class CfgWeapons {
         magazineWell[] = {"CBA_556x45_MINIMI"};
         hiddenSelections[] = { "Reciever", "Assembly_cover", "Barrel", "Misc", "Foregrip", "Stock", "RearSight", "Magazine", "VFG", "Rail", "Bipod" };
         hiddenSelectionsTextures[] = { "hlc_wp_saw\tex\mk48\reciever_mk48_co.tga", "hlc_wp_saw\tex\toadie_m249\assemblycover_co.tga", "hlc_wp_saw\tex\toadie_m249\barrel_co.tga", "hlc_wp_saw\tex\toadie_m249\misc_co.tga", "hlc_wp_saw\tex\toadie_m249\PIP_Foregrip_co.tga", "hlc_wp_saw\tex\toadie_m249\stockmap_co.tga", "hlc_wp_saw\tex\toadie_m249\rearsight_co.tga", "hlc_wp_saw\tex\toadie_m249\amoobox_co.tga", "hlc_wp_saw\tex\melon_vfg\vgrip_co.tga", "hlc_wp_saw\tex\mk48\mk48_quadrail_co.tga", "hlc_wp_saw\tex\toadie_m249\pipbipod_co.tga" };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 119;
             class CowsSlot : asdg_OpticRail1913_short_MG {
                 iconPosition[] = { 0.5, 0.3 };
@@ -3085,7 +3084,6 @@ class CfgWeapons {
             };             
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class CharmSlot {};
         };
         class FullAuto : FullAuto {
 
@@ -3200,7 +3198,7 @@ class CfgWeapons {
                 positionName = "linkeject_start";
             };
         };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 172;
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
@@ -3213,7 +3211,6 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {
                 iconPosition[] = { 0.2, 0.4 };
             };
-            class CharmSlot {};
         };
         picture = "\hlc_wp_saw\tex\ui\gear_mk48_ca";
         model = "\hlc_wp_saw\mesh\mk48\Mk48.p3d";

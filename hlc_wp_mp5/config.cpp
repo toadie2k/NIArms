@@ -695,7 +695,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_smg_mp5a2_grip2";
         rhs_grip3_change = "hlc_smg_mp5a2_grip3";
         baseWeapon = "hlc_smg_mp5a2_tac";
-        class WeaponSlotsInfo : WeaponSlotsInfo
+        class WeaponSlotsInfo
         {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_9MM_SMG {
@@ -713,8 +713,6 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.35 };
                 iconScale = 0.25;
             };
-            class Underslot {};
-            class Charmslot {};
             class GripodSlot : nia_rifle_grips_slot {};
 
         };
@@ -804,7 +802,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_smg_mp5N_grip2";
         rhs_grip3_change = "hlc_smg_mp5N_grip3";
         baseWeapon = "hlc_smg_mp5N_tac";
-        class WeaponSlotsInfo : WeaponSlotsInfo
+        class WeaponSlotsInfo
         {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_9MM_SMG {
@@ -822,9 +820,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.35 };
                 iconScale = 0.25;
             };
-            class Underslot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class Charmslot {};
         };
     };
     class hlc_smg_MP5N_grip : hlc_smg_mp5N_tac
@@ -901,11 +897,12 @@ class CfgWeapons {
             __ROF(700);
         };
 
-        class WeaponSlotsInfo: WeaponSlotsInfo
+        class WeaponSlotsInfo
         {
-            mass = 85;
-            class MuzzleSlot{};
-            class PointerSlot{};
+            class CowsSlot : asdg_OpticRail1913_short {
+                iconPosition[] = { 0.45, 0.35 };
+                iconScale = 0.2;
+            };
         };
         baseWeapon = "hlc_smg_9mmar";
         inertia = 0.63;
@@ -1005,7 +1002,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_smg_mp5a4_grip2";
         rhs_grip3_change = "hlc_smg_mp5a4_grip3";
         baseWeapon = "hlc_smg_mp5a4_tac";
-        class WeaponSlotsInfo : WeaponSlotsInfo
+        class WeaponSlotsInfo
         {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_9MM_SMG {
@@ -1023,9 +1020,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.35 };
                 iconScale = 0.25;
             };
-            class Underslot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class Charmslot {};
         };
     };
     class hlc_smg_mp5a4_grip : hlc_smg_mp5a4_tac
@@ -1155,7 +1150,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_smg_mp510_grip2";
         rhs_grip3_change = "hlc_smg_mp510_grip3";
         baseWeapon = "hlc_mp510_tac";
-        class WeaponSlotsInfo : WeaponSlotsInfo
+        class WeaponSlotsInfo 
         {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_45ACP_SMG {
@@ -1173,9 +1168,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.35 };
                 iconScale = 0.25;
             };
-            class Underslot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class Charmslot {};
         };
     };
     class hlc_smg_mp510_grip : hlc_mp510_tac
@@ -1226,7 +1219,7 @@ class CfgWeapons {
         //discreteDistanceCameraPoint[] = {"Eye", "Eye2", "Eye3", "Eye4"}; /// the angle of gun changes with zeroing
         discretedistanceinitindex = 0;
         bg_bipod = 0;
-        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\mp5_handgesture.rtm" };
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5sd.rtm" };
 
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -1315,7 +1308,7 @@ class CfgWeapons {
         rhs_grip2_change = "hlc_smg_mp5a3_grip2";
         rhs_grip3_change = "hlc_smg_mp5a3_grip3";
         baseWeapon = "hlc_smg_mp5a3_tac";
-        class WeaponSlotsInfo : WeaponSlotsInfo
+        class WeaponSlotsInfo 
         {
             mass = 58;
             class MuzzleSlot : asdg_MuzzleSlot_9MM_SMG {
@@ -1333,9 +1326,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.35 };
                 iconScale = 0.25;
             };
-            class Underslot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class Charmslot  {};
         };
     };
     class hlc_smg_MP5a3_grip : hlc_smg_mp5a3_tac
@@ -1353,7 +1344,7 @@ class CfgWeapons {
         handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5_AFG.rtm" };
         inertia = (0.31 + 0.066);
         __DEXTERITY((3.1 + 0.66), 1);
-    };
+    };  
     class hlc_smg_MP5a3_grip3 : hlc_smg_mp5a3_tac
     {
         scopeArsenal = 0;
@@ -1374,7 +1365,7 @@ class CfgWeapons {
         dlc = "Niarms_MP5";
         model = "\hlc_wp_Mp5\mesh\mp5sd6\mp5.p3d";
         reloadaction = "HLC_GestureReloadMP5";
-        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\mp5_handgesture.rtm" };
+        handanim[] = { "OFP2_ManSkeleton", "\hlc_wp_mp5\gesture\newgest\gesture_mp5sd.rtm" };
         picture = "\hlc_wp_MP5\tex\ui\gear_mp5sd6_x_ca";
                 hiddenSelections[] = { "Reciever", "FCG", "Stock", "Rail"};
         hiddenSelectionsTextures[] = { "hlc_wp_mp5\tex\krycek_mp5\mp5_co.tga", "hlc_wp_mp5\tex\krycek_mp5\mp5_co.tga","hlc_wp_mp5\tex\krycek_mp5\mp5_co.tga", "hlc_wp_mp5\tex\krycek_mp5\mp5_rai_co.tga"};

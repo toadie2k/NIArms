@@ -2043,8 +2043,12 @@ class CfgWeapons {
         class Library {
             libTextDesc = "Steyr AUG A3";
         };
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo {
             mass = 81;
+            class MuzzleSlot : asdg_MuzzleSlot_556 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.0;
+            };
             class CowsSlot : asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
@@ -2052,7 +2056,6 @@ class CfgWeapons {
             class PointerSlot : asdg_FrontSideRail {};
             class UnderBarrelSlot : asdg_UnderSlot {};
             class GripodSlot : nia_rifle_grips_slot {};
-            class Charmslot {};
         };
 
         rhs_grip1_change = "hlc_rifle_auga3_grip";

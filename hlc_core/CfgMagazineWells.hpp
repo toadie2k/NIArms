@@ -61,6 +61,90 @@ class CfgMagazineWells
     class CBA_762x51_LINKS {
         NIA_belts[] = { __762NATO_BELTS };
     };
+    class CBA_545x39_AK {
+        NIA_mags[] = {
+            //6L20
+            "hlc_30Rnd_545x39_B_AK",
+            "hlc_30Rnd_545x39_T_AK",
+            "hlc_30Rnd_545x39_EP_AK",
+            "hlc_30Rnd_545x39_S_AK",
+            //6L23 Plum
+            "hlc_30Rnd_545x39_B_AK_plum",
+            "hlc_30Rnd_545x39_T_AK_plum",
+            "hlc_30Rnd_545x39_EP_AK_plum",
+            "hlc_30Rnd_545x39_S_AK_plum",
+            //6L23
+            "hlc_30Rnd_545x39_B_AK_black",
+            "hlc_30Rnd_545x39_T_AK_black",
+            "hlc_30Rnd_545x39_EP_AK_black",
+            "hlc_30Rnd_545x39_S_AK_black"
+        };
+
+    };
+    class CBA_545x39_RPK {
+        NIA_mags[] = {
+            //6L18- Bakelite
+            "hlc_45Rnd_545x39_b_rpk",
+            "hlc_45Rnd_545x39_t_rpk",
+            "hlc_45Rnd_545x39_m_rpk",
+            "hlc_45Rnd_545x39_EP_rpk",
+            //6L26 Plum
+            "hlc_45Rnd_545x39_b_rpkm",
+            "hlc_45Rnd_545x39_t_rpkm", 
+            "hlc_45Rnd_545x39_m_rpkm",
+            "hlc_45Rnd_545x39_EP_rpkm",
+            //6L31 Coffin mag
+            "hlc_60Rnd_545x39_b_rpk",
+            "hlc_60Rnd_545x39_t_rpk",
+            "hlc_60Rnd_545x39_m_rpk",
+            "hlc_60Rnd_545x39_EP_rpk"
+        };
+    };
+    class CBA_762x39_AK {
+        NIA_mags[] = {
+            "hlc_30Rnd_762x39_b_ak",
+            "hlc_30Rnd_762x39_t_ak",
+            "hlc_30rnd_762x39_m_ak",
+            "hlc_30rnd_762x39_s_ak",
+            "hlc_30Rnd_762x39_AP_ak",
+            //6L10 Bakelite
+            "hlc_30Rnd_762x39_b_ak_6L10",
+            "hlc_30Rnd_762x39_t_ak_6L10",
+            "hlc_30rnd_762x39_m_ak_6L10",
+            "hlc_30rnd_762x39_s_ak_6L10",
+            "hlc_30Rnd_762x39_AP_ak_6L10",
+            //Valmet Magazine
+            "hlc_30Rnd_762x39_b_ak_Valmet",
+            "hlc_30Rnd_762x39_t_ak_Valmet",
+            "hlc_30rnd_762x39_m_ak_Valmet",
+            "hlc_30rnd_762x39_s_ak_Valmet",
+            "hlc_30Rnd_762x39_AP_ak_Valmet",
+            //PMAG Black
+            "hlc_30Rnd_762x39_b_ak_PMAG",
+            "hlc_30Rnd_762x39_t_ak_PMAG",
+            "hlc_30rnd_762x39_m_ak_PMAG",
+            "hlc_30rnd_762x39_s_ak_PMAG",
+            "hlc_30Rnd_762x39_AP_ak_PMAG",
+            //PMAG Desert
+            "hlc_30Rnd_762x39_b_ak_PMAGD",
+            "hlc_30Rnd_762x39_t_ak_PMAGD",
+            "hlc_30rnd_762x39_m_ak_PMAGD",
+            "hlc_30rnd_762x39_s_ak_PMAGD",
+            "hlc_30Rnd_762x39_AP_ak_PMAGD"
+        };
+    };
+    class CBA_762x39_RPK {
+        NIA_mags[] = {
+            "hlc_40Rnd_762x39_b_rpk",
+            "hlc_45Rnd_762x39_m_rpk",
+            "HLC_45rnd_762x39_T_RPK",
+            "hlc_45Rnd_762x39_AP_rpk",
+            "hlc_75Rnd_762x39_b_rpk",
+            "hlc_75Rnd_762x39_m_rpk",
+            "hlc_75Rnd_762x39_t_rpk",
+            "hlc_75Rnd_762x39_AP_rpk"
+        };
+    };
     class STANAG_556x45
     {
         NIA_Magazines[] =
@@ -174,4 +258,7 @@ class CfgMagazineWells
         };
     };*/
     class NIA_STANAG_556x45 :STANAG_556x45 {};
+    class CBA_40mm_GP {
+        NIA_grenades[] = { __40MM_GP_GRENADES };
+    };
 };

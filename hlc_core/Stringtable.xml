@@ -3563,6 +3563,113 @@
         <Korean>ProMag VFG</Korean>
         <Chinesesimp>ProMag VFG</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_bipod_Isopod">
+        <Original>Isopod</Original>
+        <English>Isopod</English>
+        <Czech>Isopod</Czech>
+        <French>Isopod</French>
+        <Spanish>Isopod</Spanish>
+        <Italian>Isopod</Italian>
+        <Polish>Isopod</Polish>
+        <Portuguese>Isopod</Portuguese>
+        <Russian>Isopod</Russian>
+        <German>Isopod</German>
+        <Japanese>Isopod</Japanese>
+        <Korean>Isopod</Korean>
+        <Chinesesimp>Isopod</Chinesesimp>
+      </Key>
+      
+      
+      <Key ID="STR_NIA_Charm_Eurojank">
+        <Original>Charm- EuroJank</Original>
+        <English>Charm- EuroJank</English>
+        <Czech>Charm- EuroJank</Czech>
+        <French>Charm- EuroJank</French>
+        <Spanish>Charm- EuroJank</Spanish>
+        <Italian>Charm- EuroJank</Italian>
+        <Polish>Charm- EuroJank</Polish>
+        <Portuguese>Charm- EuroJank</Portuguese>
+        <Russian>Charm- EuroJank</Russian>
+        <German>Charm- EuroJank</German>
+        <Japanese>Charm- EuroJank</Japanese>
+        <Korean>Charm- EuroJank</Korean>
+        <Chinesesimp>Charm- EuroJank</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Backer">
+        <Original>Charm- NIArms Backer</Original>
+        <English>Charm- NIArms Backer</English>
+        <Czech>Charm- NIArms Backer</Czech>
+        <French>Charm- NIArms Backer</French>
+        <Spanish>Charm- NIArms Backer</Spanish>
+        <Italian>Charm- NIArms Backer</Italian>
+        <Polish>Charm- NIArms Backer</Polish>
+        <Portuguese>Charm- NIArms Backer</Portuguese>
+        <Russian>Charm- NIArms Backer</Russian>
+        <German>Charm- NIArms Backer</German>
+        <Japanese>Charm- NIArms Backer</Japanese>
+        <Korean>Charm- NIArms Backer</Korean>
+        <Chinesesimp>Charm- NIArms Backer</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_BackerDirty">
+        <Original>Charm- NIArms Backer (Dirty)</Original>
+        <English>Charm- NIArms Backer (Dirty)</English>
+        <Czech>Charm- NIArms Backer (Dirty)</Czech>
+        <French>Charm- NIArms Backer (Dirty)</French>
+        <Spanish>Charm- NIArms Backer (Dirty)</Spanish>
+        <Italian>Charm- NIArms Backer (Dirty)</Italian>
+        <Polish>Charm- NIArms Backer (Dirty)</Polish>
+        <Portuguese>Charm- NIArms Backer (Dirty)</Portuguese>
+        <Russian>Charm- NIArms Backer (Dirty)</Russian>
+        <German>Charm- NIArms Backer (Dirty)</German>
+        <Japanese>Charm- NIArms Backer (Dirty)</Japanese>
+        <Korean>Charm- NIArms Backer (Dirty)</Korean>
+        <Chinesesimp>Charm- NIArms Backer (Dirty)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Izhmash">
+        <Original>Charm- IzhMash</Original>
+        <English>Charm- IzhMash</English>
+        <Czech>Charm- IzhMash</Czech>
+        <French>Charm- IzhMash</French>
+        <Spanish>Charm- IzhMash</Spanish>
+        <Italian>Charm- IzhMash</Italian>
+        <Polish>Charm- IzhMash</Polish>
+        <Portuguese>Charm- IzhMash</Portuguese>
+        <Russian>Charm- IzhMash</Russian>
+        <German>Charm- IzhMash</German>
+        <Japanese>Charm- IzhMash</Japanese>
+        <Korean>Charm- IzhMash</Korean>
+        <Chinesesimp>Charm- IzhMash</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_FN">
+        <Original>Charm- FN Herstal</Original>
+        <English>Charm- FN Herstal</English>
+        <Czech>Charm- FN Herstal</Czech>
+        <French>Charm- FN Herstal</French>
+        <Spanish>Charm- FN Herstal</Spanish>
+        <Italian>Charm- FN Herstal</Italian>
+        <Polish>Charm- FN Herstal</Polish>
+        <Portuguese>Charm- FN Herstal</Portuguese>
+        <Russian>Charm- FN Herstal</Russian>
+        <German>Charm- FN Herstal</German>
+        <Japanese>Charm- FN Herstal</Japanese>
+        <Korean>Charm- FN Herstal</Korean>
+        <Chinesesimp>Charm- FN Herstal</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Teethgang">
+        <Original>Charm- Teeth Gang</Original>
+        <English>Charm- Teeth Gang</English>
+        <Czech>Charm- Teeth Gang</Czech>
+        <French>Charm- Teeth Gang</French>
+        <Spanish>Charm- Teeth Gang</Spanish>
+        <Italian>Charm- Teeth Gang</Italian>
+        <Polish>Charm- Teeth Gang</Polish>
+        <Portuguese>Charm- Teeth Gang</Portuguese>
+        <Russian>Charm- Teeth Gang</Russian>
+        <German>Charm- Teeth Gang</German>
+        <Japanese>Charm- Teeth Gang</Japanese>
+        <Korean>Charm- Teeth Gang</Korean>
+        <Chinesesimp>Charm- Teeth Gang</Chinesesimp>
+      </Key>
     </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_DESC_30Rnd_556x45_B">
@@ -4929,6 +5036,97 @@
         <Japanese>消音器&lt;br/&gt;口径: .40 S&amp;W</Japanese>
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Generic_DESC">
+        <Original>Charm</Original>
+        <English>Charm</English>
+        <Czech>Charm</Czech>
+        <French>Charm</French>
+        <Spanish>Charm</Spanish>
+        <Italian>Charm</Italian>
+        <Polish>Charm</Polish>
+        <Portuguese>Charm</Portuguese>
+        <Russian>Charm</Russian>
+        <German>Charm</German>
+        <Japanese>Charm</Japanese>
+        <Korean>Charm</Korean>
+        <Chinesesimp>Charm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_FN_DESC">
+        <Original>Charm with the FN Logo</Original>
+        <English>Charm with the FN Logo</English>
+        <Czech>Charm with the FN Logo</Czech>
+        <French>Charm with the FN Logo</French>
+        <Spanish>Charm with the FN Logo</Spanish>
+        <Italian>Charm with the FN Logo</Italian>
+        <Polish>Charm with the FN Logo</Polish>
+        <Portuguese>Charm with the FN Logo</Portuguese>
+        <Russian>Charm with the FN Logo</Russian>
+        <German>Charm with the FN Logo</German>
+        <Japanese>Charm with the FN Logo</Japanese>
+        <Korean>Charm with the FN Logo</Korean>
+        <Chinesesimp>Charm with the FN Logo</Chinesesimp>
+      </Key>
+      
+      <Key ID="STR_NIA_Charm_Izhmash_DESC">
+        <Original>Charm with the IzhMash Logo</Original>
+        <English>Charm with the IzhMash Logo</English>
+        <Czech>Charm with the IzhMash Logo</Czech>
+        <French>Charm with the IzhMash Logo</French>
+        <Spanish>Charm with the IzhMash Logo</Spanish>
+        <Italian>Charm with the IzhMash Logo</Italian>
+        <Polish>Charm with the IzhMash Logo</Polish>
+        <Portuguese>Charm with the IzhMash Logo</Portuguese>
+        <Russian>Charm with the IzhMash Logo</Russian>
+        <German>Charm with the IzhMash Logo</German>
+        <Japanese>Charm with the IzhMash Logo</Japanese>
+        <Korean>Charm with the IzhMash Logo</Korean>
+        <Chinesesimp>Charm with the IzhMash Logo</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Eurojank_DESC">
+        <Original>Charm promoting the concept of Eurojank</Original>
+        <English>Charm promoting the concept of Eurojank</English>
+        <Czech>Charm promoting the concept of Eurojank</Czech>
+        <French>Charm promoting the concept of Eurojank</French>
+        <Spanish>Charm promoting the concept of Eurojank</Spanish>
+        <Italian>Charm promoting the concept of Eurojank</Italian>
+        <Polish>Charm promoting the concept of Eurojank</Polish>
+        <Portuguese>Charm promoting the concept of Eurojank</Portuguese>
+        <Russian>Charm promoting the concept of Eurojank</Russian>
+        <German>Charm promoting the concept of Eurojank</German>
+        <Japanese>Charm promoting the concept of Eurojank</Japanese>
+        <Korean>Charm promoting the concept of Eurojank</Korean>
+        <Chinesesimp>Charm promoting the concept of Eurojank</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Teethgang_DESC">
+        <Original>Do you know how to beat Beaver Bother?</Original>
+        <English>Do you know how to beat Beaver Bother?</English>
+        <Czech>Do you know how to beat Beaver Bother?</Czech>
+        <French>Do you know how to beat Beaver Bother?</French>
+        <Spanish>Do you know how to beat Beaver Bother?</Spanish>
+        <Italian>Do you know how to beat Beaver Bother?</Italian>
+        <Polish>Do you know how to beat Beaver Bother?</Polish>
+        <Portuguese>Do you know how to beat Beaver Bother?</Portuguese>
+        <Russian>Do you know how to beat Beaver Bother?</Russian>
+        <German>Do you know how to beat Beaver Bother?</German>
+        <Japanese>Do you know how to beat Beaver Bother?</Japanese>
+        <Korean>Do you know how to beat Beaver Bother?</Korean>
+        <Chinesesimp>Do you know how to beat Beaver Bother?</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Charm_Isopod_DESC">
+        <Original>Plush Crustacean</Original>
+        <English>Plush Crustacean</English>
+        <Czech>Plush Crustacean</Czech>
+        <French>Plush Crustacean</French>
+        <Spanish>Plush Crustacean</Spanish>
+        <Italian>Plush Crustacean</Italian>
+        <Polish>Plush Crustacean</Polish>
+        <Portuguese>Plush Crustacean</Portuguese>
+        <Russian>Plush Crustacean</Russian>
+        <German>Plush Crustacean</German>
+        <Japanese>Plush Crustacean</Japanese>
+        <Korean>Plush Crustacean</Korean>
+        <Chinesesimp>Plush Crustacean</Chinesesimp>
       </Key>
     </Container>
   </Package>

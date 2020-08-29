@@ -1,34 +1,34 @@
 class CfgMagazines {
     class 30Rnd_556x45_Stanag;
-//displayname =  "<Caliber> <Round> <Capacity> <Container/Gun> (<Tracers> every <rate>)"
+    //displayname =  "<Caliber> <Round> <Capacity> <Container/Gun> (<Tracers> every <rate>)"
 
-/*
-Further musings
-45.38g=1 mass - mags
+    /*
+    Further musings
+    45.38g=1 mass - mags
 
-21.8g=1 mass - bigger
+    21.8g=1 mass - bigger
 
-M80 Ball = 25.4G
-M855 Ball = 12.31G
-6.8mm SPC - @19.5G
-Pmag - 160
-9x19mm M882 - 12.7
-FAL mag = 250g
+    M80 Ball = 25.4G
+    M855 Ball = 12.31G
+    6.8mm SPC - @19.5G
+    Pmag - 160
+    9x19mm M882 - 12.7
+    FAL mag = 250g
 
-FAL mag = 250g*/
+    FAL mag = 250g*/
 
-    class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag {
+    class hlc_30rnd_556x45_EPR : 30Rnd_556x45_Stanag{
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR;
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_EPR_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
         hiddenSelections[] = { "roundtype1", "roundtype2" };
@@ -40,14 +40,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd STANAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST;
         initspeed = 954.4;
         mass = 12; //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_sost_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
         model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG.p3d";
@@ -58,14 +58,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd STANAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR;
         initspeed = 868.7;
         mass = 14; //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_spr_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
         modelSpecialIsProxy = 1;
@@ -76,7 +76,8 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         initspeed = 340;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd STANAG";
+        displayname = $STR_NIA_30rnd_556x45_S;
+        displaynameshort = $STR_NIA_556_Sub;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_s_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -84,14 +85,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M;
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -99,15 +100,15 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd STANAG";
-        
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T;
+
         initspeed = 974.8;
         mass = 11;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -115,10 +116,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -126,10 +127,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-Dim 30Rnd STANAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -138,8 +139,8 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 50;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
-        displayname = "5.56mm EPR 50Rnd X15";
+        descriptionshort = $STR_NIA_DESC_50Rnd_556x45_B;
+        displayname = $STR_NIA_50rnd_556x45_EPR;
         mass = 43.53;
         tracersevery = 0;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_EPR_ca.paa";
@@ -152,10 +153,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SOST";
         mass = 44.53;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_sost_ca.paa";
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 50";
-        displayname = "5.56mm SOST 50Rnd X15";
+        descriptionshort = $STR_NIA_DESC_50Rnd_556x45_SOST;
+        displayname = $STR_NIA_50rnd_556x45_SOST;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_50rnd_556x45_SPR : hlc_50rnd_556x45_EPR {
@@ -163,9 +164,9 @@ FAL mag = 250g*/
         ammo = "HLC_556NATO_SPR";
         mass = 44.53;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_SPR_ca.paa";
-        displaynameshort = "MK262 Mod 1";
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 50";
-        displayname = "5.56mm SBLR 50Rnd X15";
+        displaynameshort = $STR_NIA_556_SPR;
+        descriptionshort = $STR_NIA_DESC_50Rnd_556x45_SPR;
+        displayname = $STR_NIA_50rnd_556x45_SPR;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_50rnd_556x45_M : hlc_50rnd_556x45_EPR {
@@ -173,11 +174,11 @@ FAL mag = 250g*/
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 50;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 50";
-        displayname = "5.56mm EPR 50Rnd X15 (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_50Rnd_556x45_M;
+        displayname = $STR_NIA_50Rnd_556x45_M;
         mass = 43.53;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
         lastroundstracer = 2;
     };
@@ -186,9 +187,9 @@ FAL mag = 250g*/
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
         count = 50;
-        displaynameshort = "EPR/IR-DIM";
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 50";
-        displayname = "5.56mm EPR 50Rnd X15 (IR-DIM every 4)";
+        displaynameshort = $STR_NIA_556_MDim;
+        descriptionshort = $STR_NIA_DESC_50Rnd_556x45_Mdim;
+        displayname = $STR_NIA_50rnd_556x45_MDim;
         mass = 43.53;
         tracersevery = 4;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
@@ -199,14 +200,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd PMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR_PMAG;
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_EPR_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_PMAG;
         model = "\hlc_core\mesh\magazines\30rnd_556NATO_PMAG.p3d";
@@ -218,14 +219,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd PMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST_PMAG;
         initspeed = 954.4;
         mass = 12.6; //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_sost_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -233,22 +234,23 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd PMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR_PMAG;
         initspeed = 868.7;
         mass = 14.6; //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_spr_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_30rnd_556x45_S_PMAG : hlc_30rnd_556x45_EPR_PMAG {
         author = "Toadie,Spartan0536";
         initspeed = 340;
+        displaynameshort = $STR_NIA_556_Sub;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd PMAG";
+        displayname = $STR_NIA_30rnd_556x45_S_PMAG;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_s_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -256,14 +258,14 @@ FAL mag = 250g*/
         ammo = "HLC_556NATO_EPR_Tracer";
         author = "Toadie,Spartan0536";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd PMAG (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M_PMAG;
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -271,15 +273,15 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd PMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T_PMAG;
 
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -287,10 +289,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd PMAG (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim_PMAG;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -298,10 +300,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-Dim 30Rnd PMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim_PMAG;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -310,14 +312,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG-Heavy";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR_STANAGHD;
         initspeed = 974.8;
         mass = 13.6;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_EPR_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_HD;
         model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_HD.p3d";
@@ -329,14 +331,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd STANAG-Heavy";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST_STANAGHD;
         initspeed = 954.4;
         mass = 15.6; //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_sost_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -344,22 +346,23 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd STANAG-Heavy";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR_STANAGHD;
         initspeed = 868.7;
         mass = 16.6; //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_spr_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_30rnd_556x45_S_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
         author = "Toadie,Spartan0536";
         initspeed = 340;
+        displaynameshort = $STR_NIA_556_Sub;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd STANAG-Heavy";
+        displayname = $STR_NIA_30rnd_556x45_S_STANAGHD;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_s_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -367,14 +370,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG-Heavy (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M_STANAGHD;
         initspeed = 974.8;
         mass = 13.6;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -382,15 +385,15 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd STANAG-Heavy";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T_STANAGHD;
 
         initspeed = 974.8;
         mass = 13.6;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -398,10 +401,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim_STANAGHD;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -409,26 +412,26 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-Dim 30Rnd STANAG-Heavy";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim_STANAGHD;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanaghd_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
     //Lancer L5
-    class hlc_30rnd_556x45_EPR_L5 : 30Rnd_556x45_Stanag {
+    class hlc_30rnd_556x45_EPR_L5 : 30Rnd_556x45_Stanag{
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd Lancer";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR_L5;
         initspeed = 974.8;
         mass = 10.8;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_EPR_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_Lancer;
         model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_Lancer.p3d";
@@ -440,14 +443,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd Lancer";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST_L5;
         initspeed = 954.4;
         mass = 11.8; //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_sost_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -455,22 +458,23 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd Lancer";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR_L5;
         initspeed = 868.7;
         mass = 13.8; //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_spr_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
     class hlc_30rnd_556x45_S_L5 : hlc_30rnd_556x45_EPR_L5 {
         author = "Toadie,Spartan0536";
         initspeed = 340;
+        displaynameshort = $STR_NIA_556_Sub;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd Lancer";
+        displayname = $STR_NIA_30rnd_556x45_S_L5;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_s_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -478,14 +482,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd Lancer (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M_L5;
         initspeed = 974.8;
         mass = 10.8;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -493,15 +497,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd Lancer";
-
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T_L5;
         initspeed = 974.8;
         mass = 10.8;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -509,10 +512,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd Lancer (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim_L5;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -520,25 +523,26 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-Dim 30Rnd Lancer";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim_L5;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_L5_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
+    //EMAG
     class hlc_30rnd_556x45_EPR_EMAG : hlc_30rnd_556x45_EPR {
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd EMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
+        displayname = $STR_NIA_30rnd_556x45_EPR_EMAG;
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M855A1 EPR";
+        displaynameshort = $STR_NIA_556_EPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_EPR_ca.paa";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_EMAG;
         model = "\hlc_core\mesh\magazines\30rnd_556NATO_EMAG.p3d";
@@ -550,14 +554,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SOST";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO Mk318 Mod 1 SOST<br />Type: Nickel Plated Reverse Drawn Full Metal Jacket (SOST)<br />Rounds: 30";
-        displayname = "5.56mm SOST 30Rnd EMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
+        displayname = $STR_NIA_30rnd_556x45_SOST_EMAG;
         initspeed = 954.4;
         mass = 12.6; //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK318 SOST";
+        displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sost_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -565,14 +569,14 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_SPR";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO MK262 Mod 1 SBLR<br />Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 30";
-        displayname = "5.56mm SBLR 30Rnd EMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
+        displayname = $STR_NIA_30rnd_556x45_SPR_EMAG;
         initspeed = 868.7;
         mass = 14.6; //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK262 Mod 1";
+        displaynameshort = $STR_NIA_556_SPR;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sPR_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -580,7 +584,7 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         initspeed = 340;
         descriptionshort = "Caliber: 5.56x45mm NATO Cold-load M855A1<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 30";
-        displayname = "5.56mm Subsonic 30Rnd EMAG";
+        displayname = $STR_NIA_30rnd_556x45_S_EMAG;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_sPR_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
     };
@@ -588,30 +592,31 @@ FAL mag = 250g*/
         ammo = "HLC_556NATO_EPR_Tracer";
         author = "Toadie,Spartan0536,Tigg";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M855A1 EPR/M856A1<br />Type: FMJ/Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd EMAG (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
+        displayname = $STR_NIA_30Rnd_556x45_M_EMAG;
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_556_M;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
+
     class hlc_30rnd_556x45_t_EMAG : hlc_30rnd_556x45_EPR_EMAG {
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
         count = 30;
-        descriptionshort = "Caliber: 5.56x45mm NATO M856A1 Tracer<br />Type: Incendiary-tip Tracer<br />Rounds: 30";
-        displayname = "5.56mm Tracer 30Rnd EMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
+        displayname = $STR_NIA_30Rnd_556x45_T_EMAG;
 
         initspeed = 974.8;
         mass = 11.6;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        displaynameshort = "M856A1 Tracer";
+        displaynameshort = $STR_NIA_556_Tracer;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -619,10 +624,10 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm EPR 30Rnd EMAG (IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
+        displayname = $STR_NIA_30rnd_556x45_MDim_EMAG;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
@@ -630,338 +635,1187 @@ FAL mag = 250g*/
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
-        descriptionshort = "Caliber: 5.56x45mm IR-DIM Tracers<br />Type: Low-visibility Tracer<br />Rounds: 30";
-        displayname = "5.56mm IR-Dim 30Rnd EMAG";
+        descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
+        displayname = $STR_NIA_30rnd_556x45_TDim_EMAG;
         tracersevery = 1;
-        displaynameshort = "IR-DIM";
+        displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
 
 
-        class hlc_30Rnd_545x39_B_AK : 30Rnd_556x45_Stanag{
+    /*
+    Mass Reference
+    ==================
+    All values in Arma's Roads-A-Man-Must-Walk-Down mass units
 
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_Ball";
-            count = 30;
-            descriptionshort = "Caliber: 5.45x39mm 7N6M<br />Type:Full Metal Jacket (Lead Tip, Mild Steel Core)<br />Rounds: 30";
-            displayname = "5.45mm FMJ 30Rnd AK Magazine";
-            initSpeed = 879.9;
-            lastroundstracer = 1;
-            picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
-            scope = 2;
-            tracersevery = 0;
-            mass = 12;
-            displaynameshort = "7N6M FMJ";
-        };
-        class hlc_30Rnd_545x39_S_AK : 30Rnd_556x45_Stanag{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_7u1";
-            count = 30;
-            descriptionshort = "Caliber: 5.45x39mm 7U1<br />Type:Full Metal Jacket<br />Rounds: 30";
-            displayname = "5.45mm Subsonic 30Rnd AK Magazine";
-            initspeed = 371;
-            lastroundstracer = 1;
-            picture = "\hlc_core\tex\ui\ammo\m_ak74ball_ca.paa";
-            scope = 2;
-            tracersevery = 0;
-            mass = 12;
-            displaynameshort = "7U1 Subsonic";
-            model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
-        };
-        class hlc_30Rnd_545x39_t_ak : hlc_30Rnd_545x39_B_AK {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_Tracer";
-            descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium Tip, Mild Steel Core)<br />Rounds: 30";
-            displayname = "5.45mm Tracer 30Rnd AK Magazine";
-            lastroundstracer = 0;
-            scope = 2;
-            tracersevery = 1;
-            mass = 12;
-            displaynameshort = "7T3 Tracer";
-            picture = "\hlc_core\tex\ui\ammo\m_ak74tracer_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
-        };
-        class hlc_45Rnd_545x39_t_rpk : hlc_30Rnd_545x39_T_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_Tracer";
-            count = 45;
-            descriptionshort = "Caliber: 5.45x39mm 7T3<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
-            displayname = "5.45mm Tracer 45Rnd RPK74 Magazine";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 1;
-            mass = 18.3;
-            displaynameshort = "7T3 Tracer";
-            picture = "\hlc_core\tex\ui\ammo\m_rpk74mixed_ca.paa";
-            model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
-        };
-        class hlc_45Rnd_545x39_m_rpk : hlc_30Rnd_545x39_T_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_Tracer";
-            count = 45;
-            descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 45";
-            displayname = "5.45mm FMJ 45Rnd RPK74 Magazine (Tracers Every 3)";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 3;
-            mass = 18.3;
-            displaynameshort = "Tracer/Ball";
-            picture = "\hlc_core\tex\ui\ammo\m_rpk74mixed_ca.paa";
-            model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
-        };
-        class hlc_60Rnd_545x39_t_rpk : hlc_30Rnd_545x39_T_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_Tracer";
-            count = 60;
-            descriptionshort = "Caliber: 5.45x39mm 7T3/7N6M<br />Type:Full Metal Jacket (Barium/Lead Tip, Mild Steel Core)<br />Rounds: 60";
-            displayname = "5.45mm FMJ 60Rnd RPK Magazine";
-            lastroundstracer = 5;
-            scope = 2;
-            tracersevery = 3;
-            mass = 24;
-            displaynameshort = "Tracer/Ball";
-            picture = "\hlc_core\tex\ui\ammo\m_rpk12_mixed_ca.paa";
-            model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
-        };
-        class hlc_30Rnd_545x39_EP_ak : hlc_30Rnd_545x39_B_AK {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "FH_545x39_EP";
-            descriptionshort = "Caliber: 5.45x39mm 7N10 EP<br />Type: Full Metal Jacket (Lead Tip, Hardened Steel Core)<br />Rounds: 30";
-            displayname = "5.45mm EP 30Rnd AK Magazine";
-            lastroundstracer = 0;
-            scope = 2;
-            tracersevery = 0;
-            mass = 12;
-            displaynameshort = "7N10 EP-FMJ";
-            initSpeed = 879.9;
-            picture = "\hlc_core\tex\ui\ammo\m_ak74ep_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
-        };
-        class hlc_30Rnd_762x39_b_ak : 30Rnd_556x45_Stanag{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_Ball";
-            count = 30;
-            descriptionshort = "Caliber: 7.62x39mm 57-N-231S(M43 Ball)<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
-            displayname = "7.62mm FMJ 30Rnd AK Magazine";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 1;
-            mass = 13;
-            displaynameshort = "57-N-231S FMJ";
-            picture = "\hlc_core\tex\ui\ammo\m_ak47_b_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
-            initspeed = 739.1;
-        };
-        class hlc_30Rnd_762x39_t_ak : hlc_30Rnd_762x39_b_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_Tracer";
-            count = 30;
-            descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Barium Salt Tracer<br />Rounds: 30";
-            displayname = "7.62mm Tracer 30Rnd AK Magazine";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 1;
-            mass = 13;
-            displaynameshort = "57-N-231P Tracer";
-            picture = "\hlc_core\tex\ui\ammo\m_ak47_t_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
-            initspeed = 739.1;
-        };
-        class hlc_30Rnd_762x39_AP_ak : hlc_30Rnd_762x39_b_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_AP";
-            count = 30;
-            descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 30";
-            displayname = "7.62mm AP 30Rnd AK Magazine";
-            lastroundstracer = 0;
-            scope = 2;
-            tracersevery = 0;
-            mass = 13;
-            displaynameshort = "7N23 AP";
-            picture = "\hlc_core\tex\ui\ammo\m_ak47_b_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
-            initspeed = 759.0;
-        };
-        class hlc_45Rnd_762x39_AP_rpk : 30Rnd_556x45_Stanag{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_AP";
-            count = 45;
-            descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 45";
-            displayname = "7.62mm AP 45Rnd RPK Magazine";
-            lastroundstracer = 0;
-            scope = 2;
-            tracersevery = 0;
-            mass = 16;
-            displaynameshort = "7N23 AP";
-            picture = "\hlc_core\tex\ui\ammo\m_ak47_b_ca.paa";
-            model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
-            initspeed = 759.0;
-        };
-        class hlc_75Rnd_762x39_AP_rpk : hlc_45Rnd_762x39_AP_rpk {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            count = 75;
-            descriptionshort = "Caliber: 7.62x39mm 7N23<br />Type: Full Metal Jacket with a hardened steel core<br />Rounds: 75";
-            displayname = "7.62mm AP 75Rnd RPK Magazine";
-            lastroundstracer = 0;
-            scope = 2;
-            tracersevery = 0;
-            mass = 32;
-            displaynameshort = "7N23 AP";
-            picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_ca.paa";
-            model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
-            initspeed = 759.0;
-        };
-        class hlc_30rnd_762x39_s_ak : hlc_30Rnd_762x39_b_ak {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_Ball";
-            count = 30;
-            descriptionshort = "Caliber: 7.62x39mm 557-N-321U<br />Type: Full Metal Jacket with Mild Steel Core<br />Rounds: 30";
-            displayname = "7.62mm Subsonic 30Rnd AK Magazine";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 1;
-            mass = 13;
-            displaynameshort = "57-N-321U Subsonic";
-            picture = "\hlc_core\tex\ui\ammo\m_ak47_b_ca.paa";
-            model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
-            initspeed = 311.8;
-        };
-        class hlc_45Rnd_762x39_t_rpk : 30Rnd_556x45_Stanag{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_Tracer";
-            count = 45;
-            descriptionshort = "Caliber: 7.62x39mm 57-N-231P<br />Type: Barium Salt Tracer<br />Rounds: 45";
-            displayname = "7.62mm Tracer 45Rnd RPK Magazine";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 1;
-            mass = 16;
-            displaynameshort = "57-N-231P Tracer";
-            picture = "\hlc_core\tex\ui\ammo\m_rpk_tracer_ca.paa";
-            model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
-            initspeed = 739.1;
-        };
-        class hlc_45Rnd_762x39_m_rpk : hlc_45Rnd_762x39_t_rpk {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "HLC_762x39_Tracer";
-            count = 45;
-            descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 45";
-            displayname = "7.62mm FMJ 45Rnd RPK Magazine (Tracers Every 3)";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 3;
-            mass = 16;
-            displaynameshort = "Tracer/Ball";
-            picture = "\hlc_core\tex\ui\ammo\m_rpk_mixed_ca.paa";
-            model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
-            initspeed = 739.1;
-        };
-        class hlc_75Rnd_762x39_m_rpk : hlc_45Rnd_762x39_m_rpk {
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            count = 75;
-            descriptionshort = "Caliber: 7.62x39mm 57-N-231S/57-N-231P<br />Type: FMJ/Barium Salt Tracer<br />Rounds: 75";
-            displayname = "7.62mm FMJ 75Rnd RPK Magazine (Tracers every 3)";
-            lastroundstracer = 1;
-            scope = 2;
-            tracersevery = 3;
-            mass = 32;
-            displaynameshort = "Tracer/Ball";
-            picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_ca.paa";
-            model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
-            initspeed = 739.1;
-        };
-        class 1Rnd_HE_Grenade_shell;
-        class hlc_VOG25_AK : 1Rnd_HE_Grenade_shell{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "G_40mm_HE";
-            count = 1;
-            descriptionshort = "Type: High Explosive Grenade Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "VOG25 HE Grenade Round";
-            displaynameshort = "HE Grenade";
-            initspeed = 76;
-            mass = 4;
-            namesound = "";
-            picture = "\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
-            reloadaction = "HLC_GestureReloadGP30";
-            scope = 2;
-            type = 16;
-        };
-        class hlc_GRD_White : 1Rnd_HE_Grenade_shell{
-            dlc = "Niarms_AK";
-            author = "Toadie";
-            ammo = "G_40mm_Smoke";
-            descriptionshort = "Type: Smoke Round - White<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (White)";
-            displaynameshort = "White Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_white_CA.paa";
-            reloadaction = "HLC_GestureReloadGP30";
-        };
-        class hlc_GRD_Red : hlc_grd_white {
-            dlc = "Niarms_AK";
-            ammo = "G_40mm_SmokeRed";
-            descriptionshort = "Type: Smoke Round - Red<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Red)";
-            displaynameshort = "Red Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_red_CA.paa";
-        };
-        class hlc_GRD_green : hlc_grd_white {
-            dlc = "Niarms_AK";
-            ammo = "G_40mm_SmokeGreen";
-            descriptionshort = "Type: Smoke Round - Green<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Green)";
-            displaynameshort = "Green Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_green_CA.paa";
-        };
-        class hlc_GRD_yellow : hlc_grd_white {
-            dlc = "Niarms_AK";
-            ammo = "G_40mm_SmokeYellow";
-            descriptionshort = "Type: Smoke Round - Yellow<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Yellow)";
-            displaynameshort = "Yellow Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_yellow_CA.paa";
-        };
-        class hlc_GRD_orange : hlc_grd_white {
-            ammo = "G_40mm_SmokeOrange";
-            descriptionshort = "Type: Smoke Round - Orange<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Orange)";
-            displaynameshort = "Orange Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_orange_CA.paa";
-        };
-        class hlc_GRD_purple : hlc_grd_white {
-            dlc = "Niarms_AK";
-            ammo = "G_40mm_SmokePurple";
-            descriptionshort = "Type: Smoke Round - Purple<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Purple)";
-            displaynameshort = "Purple Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_purple_CA.paa";
-        };
-        class hlc_GRD_blue : hlc_grd_white {
-            dlc = "Niarms_AK";
-            ammo = "G_40mm_SmokeBlue";
-            descriptionshort = "Type: Smoke Round - Blue<br />Rounds: 1<br />Used in: GP25,GP30";
-            displayname = "GRD Round (Blue)";
-            displaynameshort = "Blue Smoke";
-            picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa";
-        };
+    7.62x39
+    ---------
+    0.35 per
+    57-N-231x30 - 10.77
+    57-N-231x40 - 14
+    57-N-231x75 - 26.25
+
+    0.34 per
+    57-N-231Px30 - 10.2
+    57-N-231Px40 - 13.6
+    57-N-231Px75 - 25.5
+
+    0.34 per
+    7N23x30 - 10.2
+    7N23x30 - 13.6
+    7N23x30 - 25.5
+
+    0.46 per
+    57-N-231Ux30 - 13.8
+    57-N-231Ux40 - N.A
+    57-N-231Ux60 - N.A
+
+
+    Steel - 7.18
+    Bakelite - 4.75
+    Valmet - 5.42
+    Magpul - 4.09
+    RPK - 5.92
+    Drum - 10.78 (supposedly)
+
+    5.45x39
+    ---------
+    0.23 per
+    (7n6)x 30 - 6.9
+    (7n6)x 45 - 10.35
+    (7n6)x 60 - 13.8
+
+    0.24 per
+    (7n10)x 30 - 7.2
+    (7n10)x 45 - 10.8
+    (7n10)x 60 - 14.4
+
+    0.22 per
+    (7t3)x 30 - 6.6
+    (7t3)x 45 - 9.9
+    (7t3)x 60 - 13.2
+
+    6L20/23 - 4.73
+    6L18/26 - 6.6
+    6L31 - 6.6
+    */
+
+
+
+
+
+
+
+
+    //AK74 6L20 Magazine
+    class hlc_30Rnd_545x39_B_AK : 30Rnd_556x45_Stanag{
+
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_B_AK;
+        displayname = $STR_NIA_30Rnd_545x39_B_AK;
+        initSpeed = 879.9;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
+        modelSpecialIsProxy = 1;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.63;
+        displaynameshort = $STR_NIA_545_FMJ;
+
+    };
+    class hlc_30Rnd_545x39_S_AK : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_7u1";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_S_AK;
+        displayname = $STR_NIA_30Rnd_545x39_S_AK;
+        initspeed = 371;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Subsonic_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 12.5;
+        displaynameshort = $STR_NIA_545_Subsonic;
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_t_ak : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_T_AK;
+        displayname = $STR_NIA_30Rnd_545x39_t_ak;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 1;
+        mass = 11.33;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_m_ak : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_M_AK;
+        displayname = $STR_NIA_30Rnd_545x39_m_ak;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 3;
+        mass = 11.53;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_EP_ak : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_EP";
+        descriptionshort = $STR_NIA_DESC_545x39_EPR_AK;
+        displayname = $STR_NIA_30Rnd_545x39_EP_ak;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.93;
+        displaynameshort = $STR_NIA_545_EPR;
+        initSpeed = 879.9;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+    //AK74 6L23 Plum Magazine
+    class hlc_30Rnd_545x39_B_AK_Plum : 30Rnd_556x45_Stanag{
+
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_B_AK;
+        displayname = $STR_NIA_30Rnd_545x39_B_AKplum;
+        initSpeed = 879.9;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
+        modelSpecialIsProxy = 1;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.63;
+        displaynameshort = $STR_NIA_545_FMJ;
+
+    };
+    class hlc_30Rnd_545x39_S_AK_Plum : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_7u1";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_S_AK;
+        displayname = $STR_NIA_30Rnd_545x39_S_AKplum;
+        initspeed = 371;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Subsonic_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 12.5;
+        displaynameshort = $STR_NIA_545_Subsonic;
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_t_ak_Plum : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_T_AK;
+        displayname = $STR_NIA_30Rnd_545x39_t_AKplum;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 1;
+        mass = 11.33;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_m_ak_Plum : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_M_AK;
+        displayname = $STR_NIA_30Rnd_545x39_m_AKplum;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 3;
+        mass = 11.53;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_EP_ak_Plum : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_EP";
+        descriptionshort = $STR_NIA_DESC_545x39_EPR_AK;
+        displayname = $STR_NIA_30Rnd_545x39_EP_AKplum;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.93;
+        displaynameshort = $STR_NIA_545_EPR;
+        initSpeed = 879.9;
+        picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+
+    //AK74M 6L23 Magazine
+    class hlc_30Rnd_545x39_B_AK_Black : 30Rnd_556x45_Stanag{
+
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_B_AK;
+        displayname = $STR_NIA_30Rnd_545x39_B_AKBlack;
+        initSpeed = 879.9;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
+        modelSpecialIsProxy = 1;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.63;
+        displaynameshort = $STR_NIA_545_FMJ;
+
+    };
+    class hlc_30Rnd_545x39_S_AK_Black : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_7u1";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_545x39_S_AK;
+        displayname = $STR_NIA_30Rnd_545x39_S_AKBlack;
+        initspeed = 371;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Subsonic_CA.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 12.5;
+        displaynameshort = $STR_NIA_545_Subsonic;
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_t_ak_Black : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_T_AK;
+        displayname = $STR_NIA_30Rnd_545x39_t_AKBlack;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 1;
+        mass = 11.33;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Tracer_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_m_ak_Black : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        descriptionshort = $STR_NIA_DESC_545x39_M_AK;
+        displayname = $STR_NIA_30Rnd_545x39_m_AKBlack;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 3;
+        mass = 11.53;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Mixed_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_30Rnd_545x39_EP_ak_Black : hlc_30Rnd_545x39_B_AK {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_EP";
+        descriptionshort = $STR_NIA_DESC_545x39_EPR_AK;
+        displayname = $STR_NIA_30Rnd_545x39_EP_AKBlack;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 11.93;
+        displaynameshort = $STR_NIA_545_EPR;
+        initSpeed = 879.9;
+        picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_EPR_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+
+
+    //AK74/RPK74 6L18 Magazine
+    class hlc_45Rnd_545x39_b_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_B_AK;
+        displayname = $STR_NIA_45Rnd_545x39_b_rpk;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 17.6;
+        displaynameshort = $STR_NIA_545_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L18;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_t_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_T_AK;
+        displayname = $STR_NIA_45Rnd_545x39_t_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 16.5;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_Tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L18;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_m_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_M_AK;
+        displayname = $STR_NIA_45Rnd_545x39_m_rpk;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 3;
+        mass = 17.2;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_Mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L18;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_EP_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_EP";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_EPR_AK;
+        displayname = $STR_NIA_45Rnd_545x39_EP_rpk;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 17.4;
+        displaynameshort = $STR_NIA_545_EPR;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L18;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+    //AK74M/RPK74M 6L26 Magazine
+    class hlc_45Rnd_545x39_b_rpkm : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_B_AK;
+        displayname = $STR_NIA_45Rnd_545x39_b_rpkm;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 17.6;
+        displaynameshort = $STR_NIA_545_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L26;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_t_rpkm : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_T_AK;
+        displayname = $STR_NIA_45Rnd_545x39_t_rpkm;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 16.5;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_Tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L26;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_m_rpkm : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_M_AK;
+        displayname = $STR_NIA_45Rnd_545x39_m_rpkm;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 3;
+        mass = 17.2;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_Mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L26;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_45Rnd_545x39_EP_rpkm : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_EP";
+        count = 45;
+        descriptionshort = $STR_NIA_DESC_45rnd_545x39_EPR_AK;
+        displayname = $STR_NIA_45Rnd_545x39_EP_rpkm;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 17.4;
+        displaynameshort = $STR_NIA_545_EPR;
+        picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\45rnd_545x39_AK74_6L26;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+
+
+    // AK74/RPK74/AK12 6L31 Magazine
+    class hlc_60Rnd_545x39_b_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Ball";
+        count = 60;
+        descriptionshort = $STR_NIA_DESC_60rnd_545x39_B_AK;
+        displayname = $STR_NIA_60Rnd_545x39_b_RPK;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 20.4;
+        displaynameshort = $STR_NIA_545_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_RPk12_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\60rnd_545x39_AK74_6L31;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_60Rnd_545x39_m_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 60;
+        descriptionshort = $STR_NIA_DESC_60rnd_545x39_M_AK;
+        displayname = $STR_NIA_60Rnd_545x39_m_RPK;
+        lastroundstracer = 5;
+        scope = 2;
+        tracersevery = 3;
+        mass = 20.2;
+        displaynameshort = $STR_NIA_545_M;
+        picture = "\hlc_core\tex\ui\ammo\m_rpk12_mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\60rnd_545x39_AK74_6L31;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_60Rnd_545x39_t_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "FH_545x39_Tracer";
+        count = 60;
+        descriptionshort = $STR_NIA_DESC_60rnd_545x39_T_AK;
+        displayname = $STR_NIA_60Rnd_545x39_t_RPK;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 19.8;
+        displaynameshort = $STR_NIA_545_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_rpk12_tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\60rnd_545x39_AK74_6L31;
+        modelSpecialIsProxy = 1;
+    };
+    class hlc_60Rnd_545x39_EP_rpk : hlc_30Rnd_545x39_T_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 60;
+        ammo = "FH_545x39_EP";
+        descriptionshort = $STR_NIA_DESC_60rnd_545x39_EPR_AK;
+        displayname = $STR_NIA_60Rnd_545x39_EP_RPK;
+        lastroundstracer = 3;
+        scope = 2;
+        tracersevery = 0;
+        mass = 21;
+        displaynameshort = $STR_NIA_545_EPR;
+        picture = "\hlc_core\tex\ui\ammo\m_rpk12_mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\60rnd_545x39_AK74_6L31;
+        modelSpecialIsProxy = 1;
+    };
+
+
+
+
+    //AK Magazine, Steel
+    class hlc_30Rnd_762x39_b_ak : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_B_AK;
+        displayname = $STR_NIA_30Rnd_762x39_b_ak;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 17.95;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_762x39_AK;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_t_ak : hlc_30Rnd_762x39_b_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_T_AK;
+        displayname = $STR_NIA_30Rnd_762x39_t_ak;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 17.38;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Tracer_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_m_ak : hlc_30Rnd_762x39_b_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_m_AK;
+        displayname = $STR_NIA_30Rnd_762x39_m_ak;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 17.76;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Mixed_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_AP_ak : hlc_30Rnd_762x39_b_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_AP_AK;
+        displayname = $STR_NIA_30Rnd_762x39_AP_ak;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 17.38;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_AP_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 759.0;
+    };
+
+    class hlc_30rnd_762x39_s_ak : hlc_30Rnd_762x39_b_ak {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_S_AK;
+        displayname = $STR_NIA_30Rnd_762x39_s_ak;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 20.98;
+        displaynameshort = $STR_NIA_762x39_subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Subsonic_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 311.8;
+    };
+
+
+
+    //AK Magazine, 6L10 Bakelite
+    class hlc_30Rnd_762x39_b_ak_6L10 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_b_AK;
+        displayname = $STR_NIA_30Rnd_762x39_b_ak_6l10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 15.45;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_762x39_AK_6L10;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_t_ak_6L10 : hlc_30Rnd_762x39_b_ak_6L10 {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_T_AK;
+        displayname = $STR_NIA_30Rnd_762x39_t_ak_6l10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 14.95;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Tracer_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_m_ak_6L10 : hlc_30Rnd_762x39_b_ak_6L10 {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_m_AK;
+        displayname = $STR_NIA_30Rnd_762x39_m_ak_6l10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 15.28;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Mixed_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_AP_ak_6L10 : hlc_30Rnd_762x39_b_ak_6L10 {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_AP_AK;
+        displayname = $STR_NIA_30Rnd_762x39_AP_ak_6l10;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 14.95;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_AP_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 759.0;
+    };
+
+    class hlc_30rnd_762x39_s_ak_6L10 : hlc_30Rnd_762x39_b_ak_6L10 {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_S_AK;
+        displayname = $STR_NIA_30Rnd_762x39_s_ak_6l10;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 18.55;
+        displaynameshort = $STR_NIA_762x39_subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Subsonic_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 311.8;
+    };
+
+
+
+    //Valmet Magazine
+    class hlc_30Rnd_762x39_b_ak_Valmet : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_b_AK;
+        displayname = $STR_NIA_30Rnd_762x39_b_RK62;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 16.19;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_762x39_AK_Valmet;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_t_ak_Valmet : hlc_30Rnd_762x39_b_ak_Valmet {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_T_AK;
+        displayname = $STR_NIA_30Rnd_762x39_t_RK62;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 15.62;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Tracer_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_m_ak_Valmet : hlc_30Rnd_762x39_b_ak_Valmet {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_m_AK;
+        displayname = $STR_NIA_30Rnd_762x39_m_RK62;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 16.19;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Mixed_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_AP_ak_Valmet : hlc_30Rnd_762x39_b_ak_Valmet {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_AP_AK;
+        displayname = $STR_NIA_30Rnd_762x39_AP_RK62;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 15.62;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_AP_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 759.0;
+    };
+
+    class hlc_30rnd_762x39_s_ak_Valmet : hlc_30Rnd_762x39_b_ak_Valmet {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_S_AK;
+        displayname = $STR_NIA_30Rnd_762x39_s_RK62;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 19.22;
+        displaynameshort = $STR_NIA_762x39_subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Subsonic_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 311.8;
+    };
+
+
+
+    //AK PMAG Black
+    class hlc_30Rnd_762x39_b_ak_PMAG : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_b_AK;
+        displayname = $STR_NIA_30Rnd_762x39_b_PMAG_AK;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 14.86;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_762x39_AK_PMAG;
+        hiddenSelections[] = { "camo" };
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\ak_pmag_co.paa" };
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_t_ak_PMAG : hlc_30Rnd_762x39_b_ak_PMAG {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_T_AK;
+        displayname = $STR_NIA_30Rnd_762x39_t_PMAG_AK;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 14.29;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Tracer_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_m_ak_PMAG : hlc_30Rnd_762x39_b_ak_PMAG {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_m_AK;
+        displayname = $STR_NIA_30Rnd_762x39_m_PMAG_AK;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 14.67;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Mixed_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_30Rnd_762x39_AP_ak_PMAG : hlc_30Rnd_762x39_b_ak_PMAG {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_AP_AK;
+        displayname = $STR_NIA_30Rnd_762x39_AP_PMAG_AK;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 14.29;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_AP_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 759.0;
+    };
+
+    class hlc_30rnd_762x39_s_ak_PMAG : hlc_30Rnd_762x39_b_ak_PMAG {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        count = 30;
+        descriptionshort = $STR_NIA_DESC_30rnd_762x39_S_AK;
+        displayname = $STR_NIA_30Rnd_762x39_s_PMAG_AK;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 17.89;
+        displaynameshort = $STR_NIA_762x39_subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Subsonic_CA.paa";
+        model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
+        initspeed = 311.8;
+    };
+
+
+
+    //AK PMAG Desert
+    class hlc_30Rnd_762x39_b_ak_PMAGD :hlc_30Rnd_762x39_b_ak_PMAG
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\AK_PMAG_Desert_co.paa" };
+        displayname = $STR_NIA_30Rnd_762x39_b_pmagd_AK;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAGDesert_FMJ_CA.paa";
+    };
+    class hlc_30Rnd_762x39_t_ak_PMAGD :hlc_30Rnd_762x39_t_ak_PMAG
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\AK_PMAG_Desert_co.paa" };
+        displayname = $STR_NIA_30Rnd_762x39_t_pmagd_AK;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAGDesert_Tracer_CA.paa";
+    };
+
+    class hlc_30Rnd_762x39_m_ak_PMAGD :hlc_30Rnd_762x39_m_ak_PMAG
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\AK_PMAG_Desert_co.paa" };
+        displayname = $STR_NIA_30Rnd_762x39_m_PMAGD_AK;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAGDesert_Mixed_CA.paa";
+    };
+    class hlc_30Rnd_762x39_AP_ak_PMAGD :hlc_30Rnd_762x39_AP_ak_PMAG
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\AK_PMAG_Desert_co.paa" };
+        displayname = $STR_NIA_30Rnd_762x39_AP_pmagd_AK;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAGDesert_AP_CA.paa";
+    };
+    class hlc_30Rnd_762x39_S_ak_PMAGD :hlc_30Rnd_762x39_S_ak_PMAG
+    {
+        dlc = "Niarms_Core";
+        author = "Toadie";
+        hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\ak\AK_PMAG_Desert_co.paa" };
+        displayname = $STR_NIA_30Rnd_762x39_s_PMAGD_AK;
+        picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAGDesert_Subsonic_CA.paa";
+    };
+
+
+
+    //RPK Magazine
+    class hlc_40Rnd_762x39_b_rpk : 30Rnd_556x45_Stanag
+    {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Ball";
+        descriptionshort = $STR_NIA_DESC_40rnd_762x39_B_AK;
+        count = 40;
+        displayname = $STR_NIA_40Rnd_762x39_b_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 19.92;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_RPK_FMJ_CA.paa";
+        model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\40rnd_762x39_AK_6L2;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_45Rnd_762x39_t_rpk : hlc_40Rnd_762x39_b_rpk{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 40;
+        descriptionshort = $STR_NIA_DESC_40rnd_762x39_T_AK;
+        displayname = $STR_NIA_45Rnd_762x39_t_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 19.52;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_RPK_tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_45Rnd_762x39_m_rpk : hlc_45Rnd_762x39_t_rpk {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_Tracer";
+        count = 40;
+        descriptionshort = $STR_NIA_DESC_40rnd_762x39_M_AK;
+        displayname = $STR_NIA_45Rnd_762x39_m_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 19.76;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_rpk_mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
+        initspeed = 739.1;
+    };
+    class hlc_45Rnd_762x39_AP_rpk : hlc_40Rnd_762x39_b_rpk{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "HLC_762x39_AP";
+        count = 40;
+        descriptionshort = $STR_NIA_DESC_40rnd_762x39_AP_AK;
+        displayname = $STR_NIA_45Rnd_762x39_AP_rpk;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 19.52;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_RPK_AP_ca.paa";
+        model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
+
+        initspeed = 759.0;
+    };
+
+
+
+
+    //RPK 75 Round Drum
+    class hlc_75Rnd_762x39_b_rpk : hlc_40Rnd_762x39_b_rpk{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 75;
+        descriptionshort = $STR_NIA_DESC_75rnd_762x39_B_AK;
+        displayname = $STR_NIA_75Rnd_762x39_b_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 37.03;
+        displaynameshort = $STR_NIA_762x39_FMJ;
+        picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_FMJ_ca.paa";
+        model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\75rnd_762x39_RPK;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_75Rnd_762x39_t_rpk : hlc_45Rnd_762x39_t_rpk{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 75;
+        descriptionshort = $STR_NIA_DESC_75rnd_762x39_T_AK;
+        displayname = $STR_NIA_75Rnd_762x39_t_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 1;
+        mass = 36.28;
+        displaynameshort = $STR_NIA_762x39_Tracer;
+        picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_Tracer_ca.paa";
+        model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\75rnd_762x39_RPK;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_75Rnd_762x39_m_rpk : hlc_45Rnd_762x39_m_rpk {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 75;
+        descriptionshort = $STR_NIA_DESC_75rnd_762x39_M_AK;
+        displayname = $STR_NIA_75Rnd_762x39_m_rpk;
+        lastroundstracer = 1;
+        scope = 2;
+        tracersevery = 3;
+        mass = 36.78;
+        displaynameshort = $STR_NIA_762x39_M;
+        picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_Mixed_ca.paa";
+        model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\75rnd_762x39_RPK;
+        modelSpecialIsProxy = 1;
+        initspeed = 739.1;
+    };
+    class hlc_75Rnd_762x39_AP_rpk : hlc_45Rnd_762x39_AP_rpk {
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        count = 75;
+        descriptionshort = $STR_NIA_DESC_75rnd_762x39_AP_AK;
+        displayname = $STR_NIA_75Rnd_762x39_AP_rpk;
+        lastroundstracer = 0;
+        scope = 2;
+        tracersevery = 0;
+        mass = 36.28;
+        displaynameshort = $STR_NIA_762x39_AP;
+        picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_AP_ca.paa";
+        model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\75rnd_762x39_RPK;
+        modelSpecialIsProxy = 1;
+        initspeed = 759.0;
+    };
+
+    class 1Rnd_HE_Grenade_shell;
+    class hlc_VOG25_AK : 1Rnd_HE_Grenade_shell{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "G_40mm_HE";
+        count = 1;
+        descriptionshort = "Type: High Explosive Grenade Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_VOG25_AK;
+        displaynameshort = $STR_NIA_40mm_HE;
+        initspeed = 76;
+        mass = 4;
+        namesound = "";
+        picture = "\A3\Weapons_f\Data\ui\gear_UGL_slug_CA.paa";
+        reloadaction = "HLC_GestureReloadGP30";
+        scope = 2;
+        type = 16;
+    };
+    class hlc_GRD_White : 1Rnd_HE_Grenade_shell{
+        dlc = "Niarms_AK";
+        author = "Toadie";
+        ammo = "G_40mm_Smoke";
+        descriptionshort = "Type: Smoke Round - White<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40white_AK;
+        displaynameshort = $STR_NIA_40mm_smokewhite;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_white_CA.paa";
+        reloadaction = "HLC_GestureReloadGP30";
+    };
+    class hlc_GRD_Red : hlc_grd_white {
+        dlc = "Niarms_AK";
+        ammo = "G_40mm_SmokeRed";
+        descriptionshort = "Type: Smoke Round - Red<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Red_AK;
+        displaynameshort = $STR_NIA_40mm_smokeRed;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_red_CA.paa";
+    };
+    class hlc_GRD_green : hlc_grd_white {
+        dlc = "Niarms_AK";
+        ammo = "G_40mm_SmokeGreen";
+        descriptionshort = "Type: Smoke Round - Green<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Green_AK;
+        displaynameshort = $STR_NIA_40mm_smokeGreen;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_green_CA.paa";
+    };
+    class hlc_GRD_yellow : hlc_grd_white {
+        dlc = "Niarms_AK";
+        ammo = "G_40mm_SmokeYellow";
+        descriptionshort = "Type: Smoke Round - Yellow<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Yellow_AK;
+        displaynameshort = $STR_NIA_40mm_smokeYellow;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_yellow_CA.paa";
+    };
+    class hlc_GRD_orange : hlc_grd_white {
+        ammo = "G_40mm_SmokeOrange";
+        descriptionshort = "Type: Smoke Round - Orange<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Orange_AK;
+        displaynameshort = $STR_NIA_40mm_smokeOrange;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_orange_CA.paa";
+    };
+    class hlc_GRD_purple : hlc_grd_white {
+        dlc = "Niarms_AK";
+        ammo = "G_40mm_SmokePurple";
+        descriptionshort = "Type: Smoke Round - Purple<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Purple_AK;
+        displaynameshort = $STR_NIA_40mm_smokePurple;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_purple_CA.paa";
+    };
+    class hlc_GRD_blue : hlc_grd_white {
+        dlc = "Niarms_AK";
+        ammo = "G_40mm_SmokeBlue";
+        descriptionshort = "Type: Smoke Round - Blue<br />Rounds: 1<br />Used in: GP25,GP30";
+        displayname = $STR_NIA_GRD40Blue_AK;
+        displaynameshort = $STR_NIA_40mm_smokeBlue;
+        picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa";
+    };
 
     /*
     //FAL MAGs
@@ -1032,27 +1886,29 @@ FAL mag = 250g*/
         mass = 12.9;
         initspeed = 423;
     };
-   
+
 
 
 
     //NATO M13-link 100 Round Belts
     //imported from M60s for general applique
-    class hlc_100Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag{
+    class hlc_100Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
         count = 100;
-        descriptionshort = "Caliber: 7.62x51mm M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 100";
-        displayname = "7.62mm EPR 100Rnd M13-linked belt";
+        descriptionshort = $STR_NIA_DESC_100Rnd_762x51_B;
+        displayname = $STR_NIA_100Rnd_762x51_B_M60E4;
         model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60;
+        modelSpecialIsProxy = 1;
         initspeed = 853;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
         mass = 58.2;
-        displaynameshort = "M80A1 EPR";
+        displaynameshort = $STR_NIA_762NATO_EPR;
         nameSound = "mgun";
         ACE_isBelt = 1;
     };
@@ -1060,453 +1916,596 @@ FAL mag = 250g*/
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
-        displayname = "7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)";
+        descriptionshort = $STR_NIA_DESC_100Rnd_762x51_M;
+        displayname = $STR_NIA_100Rnd_762x51_M_M60E4;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_762NATO_M;
     };
     class hlc_100Rnd_762x51_Mdim_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 100";
-        displayname = "7.62mm EPR 100Rnd M13-linked belt(IR-DIM every 4)";
+        descriptionshort = $STR_NIA_DESC_100Rnd_762x51_Mdim;
+        displayname = $STR_NIA_100Rnd_762x51_Mdim_M60E4;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_762NATO_MDim;
     };
     class hlc_100Rnd_762x51_Barrier_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_Barrier";
-        descriptionshort = "Caliber: 7.62x51mm 4-to-1 Mk319-Tracer<br />Type: OTM/Incendiary Tracer<br />Rounds: 100";
-        displayname = "7.62mm SOST 100Rnd M13-linked belt (Tracers every 4)";
+        descriptionshort = $STR_NIA_DESC_100Rnd_762x51_Msost;
+        displayname = $STR_NIA_100Rnd_762x51_Barrier_M60E4;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
         tracersevery = 4;
-        displaynameshort = "Mk319/Tracer";
+        displaynameshort = $STR_NIA_762NATO_MSOST;
     };
     class hlc_100Rnd_762x51_T_M60E4 : hlc_100Rnd_762x51_B_M60E4 {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
-        descriptionshort = "Caliber: 7.62x51mm M62A1 <br />Type: Incendiary Tracer <br />Rounds: 100";
-        displayname = "7.62mm Tracers 100Rnd M13-linked belt";
+        descriptionshort = $STR_NIA_DESC_100Rnd_762x51_T;
+        displayname = $STR_NIA_100Rnd_762x51_T_M60E4;
         lastroundstracer = 5;
         picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
         tracersevery = 1;
-        displaynameshort = "M62A1 Tracer";
+        displaynameshort = $STR_NIA_762NATO_Tracer;
+    };
+    class hlc_200Rnd_762x51_B_M60E4 : 30Rnd_556x45_Stanag{
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        count = 200;
+        descriptionshort = $STR_NIA_DESC_200Rnd_762x51_B;
+        displayname = $STR_NIA_200Rnd_762x51_B_M60E4;
+        model = "hlc_core\mesh\magazines\100rnd_762NATO_M60.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\50Rnd_762NATO_M60;
+        modelSpecialIsProxy = 1;
+        initspeed = 853;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
+        scope = 2;
+        tracersevery = 0;
+        mass = 116.4;
+        displaynameshort = $STR_NIA_762NATO_EPR;
+        nameSound = "mgun";
+        ACE_isBelt = 1;
+    };
+    class hlc_200Rnd_762x51_M_M60E4 : hlc_200rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = $STR_NIA_DESC_200Rnd_762x51_M;
+        displayname = $STR_NIA_200Rnd_762x51_M_M60E4;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_M;
+    };
+    class hlc_200Rnd_762x51_Mdim_M60E4 : hlc_200rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = $STR_NIA_DESC_200Rnd_762x51_Mdim;
+        displayname = $STR_NIA_200Rnd_762x51_Mdim_M60E4;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_MDim;
+    };
+    class hlc_200Rnd_762x51_Barrier_M60E4 : hlc_200rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_Barrier";
+        descriptionshort = $STR_NIA_DESC_200Rnd_762x51_Msost;
+        displayname = $STR_NIA_200Rnd_762x51_Barrier_M60E4;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4mixed_ca.paa";
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_MSOST;
+    };
+    class hlc_200Rnd_762x51_T_M60E4 : hlc_200rnd_762x51_B_M60E4 {
+        dlc = "Niarms_M60";
+        author = "Toadie";
+        ammo = "HLC_762x51_ball";
+        descriptionshort = $STR_NIA_DESC_200Rnd_762x51_T;
+        displayname = $STR_NIA_200Rnd_762x51_T_M60E4;
+        lastroundstracer = 5;
+        picture = "\hlc_core\tex\ui\ammo\m_m60e4tracer_ca.paa";
+        tracersevery = 1;
+        displaynameshort = $STR_NIA_762NATO_Tracer;
     };
 
 
-    class hlc_20Rnd_762x51_B_fal : 30Rnd_556x45_Stanag{
+    class hlc_20Rnd_762x51_B_fal : 30Rnd_556x45_Stanag
+    {
         dlc = "Niarms_FAL";
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_ball";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 20";
-        displayname = "7.62mm EPR 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_B_fal;
+        displayname = $STR_NIA_20Rnd_762x51_B_fal;
         initspeed = 908.4;
         mass = 16.7;
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
-        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";\
+        modelSpecial = \hlc_core\mesh\magazines\proxies\20rnd_762NATO_FAL;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M80A1 EPR";
+        displaynameshort = $STR_NIA_762NATO_EPR;
     };
     class hlc_20Rnd_762x51_mk316_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_MK316_20in";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 20";
-        displayname = "7.62mm SBLR 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sblr_fal;
+        displayname = $STR_NIA_20Rnd_762x51_mk316_fal;
         initspeed = 731;
         mass = 18.7; // +2 per 20 rounds 
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_SPR_ca.paa";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK316 SBLR";
+        displaynameshort = $STR_NIA_762NATO_SBLR;
     };
     class hlc_20Rnd_762x51_barrier_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_Barrier";
         count = 20;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 20";
-        displayname = "7.62mm SOST 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sost_fal;
+        displayname = $STR_NIA_20Rnd_762x51_barrier_fal;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         initspeed = 890.4;
         mass = 17.7; // +2 per 20
         lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_SOST_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK319 OTM";
+        displaynameshort = $STR_NIA_762NATO_SOST;
     };
     class hlc_20Rnd_762x51_T_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_tracer";
-        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 20";
-        displayname = "7.62mm Tracer 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_T_fal;
+        displayname = $STR_NIA_20Rnd_762x51_T_fal;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 16.7;
         tracersevery = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "M62A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Tracer;
     };
     class hlc_20Rnd_762x51_TDim_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 20";
-        displayname = "7.62mm IR-Dim 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_Tdim_fal;
+        displayname = $STR_NIA_20Rnd_762x51_Tdim_fal;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 16.7;
         tracersevery = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_IRDIM;
     };
-    class hlc_50rnd_762x51_MDIM_FAL : hlc_20Rnd_762x51_B_fal {
-        ammo = "HLC_B_762x51_Tracer_Dim";
+    class hlc_20rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
-        count = 50;
-        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M276<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
-        displayname = "7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)";
-        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        count = 20;
+        mass = 16.7;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_M_fal;
+        displayname = $STR_NIA_20rnd_762x51_M_FAL;
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         initspeed = 908.4;
-        mass = 49.47;
         lastroundstracer = 3;
-        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_M_ca.paa";
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/IR-DIM";
+        displaynameshort = $STR_NIA_762NATO_M;
+    };
+    class hlc_20rnd_762x51_MDIM_FAL : hlc_20Rnd_762x51_B_fal {
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie, Spartan0536";
+        count = 20;
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_Mdim_fal;
+        displayname = $STR_NIA_20rnd_762x51_MDIM_FAL;
+        model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
+        initspeed = 908.4;
+        mass = 16.7;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_M_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_MDim;
     };
     class hlc_20Rnd_762x51_S_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_BTSub";
-        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 20";
-        displayname = "7.62mm Subsonic 20Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_20Rnd_762x51_s_fal;
+        displayname = $STR_NIA_20Rnd_762x51_S_fal;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 16.3;
         tracersevery = 0;
         initspeed = 325;
-        displaynameshort = "FMJ Subsonic";
-        picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL20_S_ca.paa";
     };
-    class hlc_50rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
+    class hlc_50Rnd_762x51_B_fal : 30Rnd_556x45_Stanag
+    {
+        dlc = "Niarms_FAL";
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_ball";
+        count = 50;
+        descriptionshort = $STR_NIA_DESC_50Rnd_762x51_B_fal;
+        displayname = $STR_NIA_50Rnd_762x51_B_fal;
+        initspeed = 908.4;
+        mass = 49.47;
+        lastroundstracer = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL50_EPR_ca.paa";
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\50rnd_762NATO_XFAL;
+        modelSpecialIsProxy = 1;
+        scope = 2;
+        tracersevery = 0;
+        displaynameshort = $STR_NIA_762NATO_EPR;
+    };
+    class hlc_50Rnd_762x51_T_fal : hlc_50Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_762x51_tracer";
+        descriptionshort = $STR_NIA_DESC_50Rnd_762x51_T_fal;
+        displayname = $STR_NIA_50Rnd_762x51_T_fal;
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 16.7;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL50_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Tracer;
+    };
+    class hlc_50Rnd_762x51_TDim_fal : hlc_50Rnd_762x51_B_fal {
+        author = "Toadie, Spartan0536";
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        descriptionshort = $STR_NIA_DESC_50Rnd_762x51_Tdim_fal;
+        displayname = $STR_NIA_50Rnd_762x51_Tdim_fal;
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        lastroundstracer = 0;
+        scope = 2;
+        mass = 16.7;
+        tracersevery = 1;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL50_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_IRDIM;
+    };
+    class hlc_50rnd_762x51_M_FAL : hlc_50Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         count = 50;
         mass = 49.47;
-        descriptionshort = "Caliber: 7.62x51mm NATO M80A1-M62A1<br />Type: EPFMJ/Incendiary Tracer<br />Rounds: 50";
-        displayname = "7.62mm EPR 50Rnd FAL Magazine (Tracers Every 4)";
+        descriptionshort = $STR_NIA_DESC_50Rnd_762x51_m_fal;
+        displayname = $STR_NIA_50rnd_762x51_M_FAL;
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         initspeed = 908.4;
         lastroundstracer = 3;
-        picture = "\hlc_core\tex\ui\ammo\m_x91_mixed_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL50_M_ca.paa";
         scope = 2;
         tracersevery = 4;
-        displaynameshort = "EPR/Tracer";
+        displaynameshort = $STR_NIA_762NATO_M;
+    };
+    class hlc_50rnd_762x51_MDIM_FAL : hlc_50Rnd_762x51_B_fal {
+        ammo = "HLC_B_762x51_Tracer_Dim";
+        author = "Toadie, Spartan0536";
+        count = 50;
+        descriptionshort = $STR_NIA_DESC_50Rnd_762x51_Mdim_fal;
+        displayname = $STR_NIA_50rnd_762x51_MDIM_FAL;
+        model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
+        initspeed = 908.4;
+        mass = 49.47;
+        lastroundstracer = 3;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL50_M_ca.paa";
+        scope = 2;
+        tracersevery = 4;
+        displaynameshort = $STR_NIA_762NATO_MDim;
     };
     class hlc_10Rnd_762x51_B_fal : 30Rnd_556x45_Stanag {
         author = "Toadie";
         ammo = "HLC_762x51_ball";
         count = 10;
-        descriptionshort = "Caliber: 7.62x51mm NATO M80A1 EPR<br />Type: Reverse Drawn Full Metal Jacket Exposed Penetrator (Enhanced Performance Round)<br />Rounds: 10";
-        displayname = "7.62mm EPR 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_B_fal;
+        displayname = $STR_NIA_10Rnd_762x51_B_fal;
         initspeed = 870;
         mass = 8.7;
         lastroundstracer = 0;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
+        modelSpecial = \hlc_core\mesh\magazines\proxies\10rnd_762NATO_FAL;
+        modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "M80A1 EPR";
+        displaynameshort = $STR_NIA_762NATO_EPR;
     };
     class hlc_10Rnd_762x51_mk316_fal : hlc_10Rnd_762x51_B_fal {
         author = "Toadie";
         ammo = "HLC_762x51_MK316_20in";
         count = 10;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK316 Mod 0 SBLR<br />Type: Type: Open Tip Match (Special Ball Long Range)<br />Rounds: 10";
-        displayname = "7.62mm SBLR 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_sblr_fal;
+        displayname = $STR_NIA_10Rnd_762x51_mk316_fal;
         initspeed = 890;
         mass = 9.2;
         lastroundstracer = 0;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_SPR_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK316 SBLR";
+        displaynameshort = $STR_NIA_762NATO_SBLR;
     };
     class hlc_10Rnd_762x51_barrier_fal : hlc_10Rnd_762x51_B_fal {
         author = "Toadie";
         ammo = "HLC_762x51_Barrier";
         count = 10;
-        descriptionshort = "Caliber: 7.62x51mm NATO MK319 Mod 0 SOST <br />Type: Type: Reverse-Drawn Open Tip Match <br />Rounds: 10";
-        displayname = "7.62mm SOST 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_sost_fal;
+        displayname = $STR_NIA_10Rnd_762x51_barrier_fal;
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         initspeed = 850;
         mass = 8.9;
         lastroundstracer = 0;
-        picture = "\hlc_core\tex\ui\ammo\m_falball_ca.paa";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_SOST_ca.paa";
         scope = 2;
         tracersevery = 0;
-        displaynameshort = "MK319 OTM";
+        displaynameshort = $STR_NIA_762NATO_SOST;
     };
     class hlc_10Rnd_762x51_T_fal : hlc_10Rnd_762x51_B_fal {
         author = "Toadie";
         ammo = "HLC_762x51_tracer";
-        descriptionshort = "Caliber: 7.62x51mm NATO M62A1 Tracer <br />Type: Incendiary Tracer <br />Rounds: 10s";
-        displayname = "7.62mm Tracer 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_T_fal;
+        displayname = $STR_NIA_10Rnd_762x51_T_fal;
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 8.7;
         tracersevery = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "M62A1 Tracer";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Tracer;
     };
     class hlc_10Rnd_762x51_TDim_fal : hlc_10Rnd_762x51_B_fal {
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
-        descriptionshort = "Caliber: 7.62x51mm NATO M276<br />Type: IR Incendiary Tracer<br />Rounds: 10";
-        displayname = "7.62mm IR-DIM 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_Tdim_fal;
+        displayname = $STR_NIA_10Rnd_762x51_Tdim_fal;
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 8.7;
         tracersevery = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_falTracer_ca.paa";
-        displaynameshort = "IR-DIM";
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_T_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_IRDIM;
     };
     class hlc_10Rnd_762x51_S_fal : hlc_10Rnd_762x51_B_fal {
         author = "Toadie";
         ammo = "HLC_762x51_BTSub";
-        descriptionshort = "Caliber: 7.62x51mm NATO Lapua FMJ-BT Subsonic<br />Type: Full Metal Jacket with Boat Tail<br />Rounds: 10";
-        displayname = "7.62mm Subsonic 10Rnd FAL Magazine";
+        descriptionshort = $STR_NIA_DESC_10Rnd_762x51_s_fal;
+        displayname = $STR_NIA_10Rnd_762x51_S_fal;
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
         mass = 8.0;
         tracersevery = 0;
         initspeed = 325;
-        displaynameshort = "FMJ Subsonic";
-        picture = "\hlc_core\tex\ui\ammo\m_falsubsonic_ca.paa";
+        displaynameshort = $STR_NIA_762NATO_Subsonic;
+        picture = "\hlc_core\tex\ui\ammo\m_FAL10_S_ca.paa";
     };
 
     /*
 
     //Trenchgun loads
     class hlc_5Rnd_12G_Slug_Trench : hlc_30Rnd_545x39_T_ak {
-        ammo = "B_12Gauge_Slug";
-        count = 5;
-        descriptionshort = "Type: 12 Gauge Slugs<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-        displayname = "12 Gauge Slugs(M1897)";
-        picture = "\A3\Weapons_F\Data\UI\M_12gauge_slugs_CA.paa";
-        lastroundstracer = 0;
-        scope = 0;
-        tracersevery = 0;
-        mass = 2;
-        displaynameshort = "12 Gauge Slug";
+    ammo = "B_12Gauge_Slug";
+    count = 5;
+    descriptionshort = "Type: 12 Gauge Slugs<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+    displayname = "12 Gauge Slugs(M1897)";
+    picture = "\A3\Weapons_F\Data\UI\M_12gauge_slugs_CA.paa";
+    lastroundstracer = 0;
+    scope = 0;
+    tracersevery = 0;
+    mass = 2;
+    displaynameshort = "12 Gauge Slug";
     };
     class hlc_5Rnd_12G_Buck_Trench : hlc_30Rnd_545x39_T_ak {
-        ammo = "B_12Gauge_Pellets";
-        count = 5;
-        descriptionshort = "Type: 12 Gauge Buckshot<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-        displayname = "12 Gauge 00BuckShot (M1897)";
-        lastroundstracer = 0;
-        initspeed = 396;
-        picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
-        scope = 0;
-        tracersevery = 0;
-        mass = 2;
-        displaynameshort = "12 Gauge 00Buck";
+    ammo = "B_12Gauge_Pellets";
+    count = 5;
+    descriptionshort = "Type: 12 Gauge Buckshot<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+    displayname = "12 Gauge 00BuckShot (M1897)";
+    lastroundstracer = 0;
+    initspeed = 396;
+    picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
+    scope = 0;
+    tracersevery = 0;
+    mass = 2;
+    displaynameshort = "12 Gauge 00Buck";
     };
     class hlc_5Rnd_12G_DISTRACTION_Trench : hlc_30Rnd_545x39_T_ak {
-        ammo = "FH_12G_Distraction";
-        count = 5;
-        descriptionshort = "Type: 12 Gauge DISTRACTION<br />Rounds: 5<br />Used in: M1897 Trenchgun";
-        displayname = "12 Gauge DISTRACTION (M1897)";
-        lastroundstracer = 0;
-        initspeed = 396;
-        mass = 1;
-        picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
-        scope = 0;
-        tracersevery = 1;
-        displaynameshort = "12 Gau-DISTRACTION";
+    ammo = "FH_12G_Distraction";
+    count = 5;
+    descriptionshort = "Type: 12 Gauge DISTRACTION<br />Rounds: 5<br />Used in: M1897 Trenchgun";
+    displayname = "12 Gauge DISTRACTION (M1897)";
+    lastroundstracer = 0;
+    initspeed = 396;
+    mass = 1;
+    picture = "\A3\Weapons_F\Data\UI\M_12gauge_CA.paa";
+    scope = 0;
+    tracersevery = 1;
+    displaynameshort = "12 Gau-DISTRACTION";
     };
 
     //Bren Gun
     class hlc_30Rnd_303_B_bren : hlc_50Rnd_45ACP_B_1921 {
-        ammo = "HLC_303Brit_B";
-        count = 30;
-        descriptionshort = "Caliber: .303British Ball<br />Rounds: 30<br />Used in: Bren";
-        displayname = ".303 Ball 30Rnd Bren Magazine";
-        lastroundstracer = 1;
-        scope = 0;
-        initspeed = 840;
-        mass = 10;
-        displaynameshort = ".303 British Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_brenball_ca.paa";
+    ammo = "HLC_303Brit_B";
+    count = 30;
+    descriptionshort = "Caliber: .303British Ball<br />Rounds: 30<br />Used in: Bren";
+    displayname = ".303 Ball 30Rnd Bren Magazine";
+    lastroundstracer = 1;
+    scope = 0;
+    initspeed = 840;
+    mass = 10;
+    displaynameshort = ".303 British Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_brenball_ca.paa";
     };
     class hlc_30Rnd_303_T_bren : hlc_30Rnd_303_B_bren {
-        ammo = "HLC_303Brit_T";
-        count = 30;
-        descriptionshort = "Caliber: .303British Tracer<br />Rounds: 30<br />Used in: Bren";
-        displayname = ".303 Tracer 30Rnd Bren Magazine";
-        lastroundstracer = 1;
-        scope = 0;
-        initspeed = 770;
-        tracersevery = 3;
-        mass = 10;
-        displaynameshort = ".303 British Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
+    ammo = "HLC_303Brit_T";
+    count = 30;
+    descriptionshort = "Caliber: .303British Tracer<br />Rounds: 30<br />Used in: Bren";
+    displayname = ".303 Tracer 30Rnd Bren Magazine";
+    lastroundstracer = 1;
+    scope = 0;
+    initspeed = 770;
+    tracersevery = 3;
+    mass = 10;
+    displaynameshort = ".303 British Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_brentracer_ca.paa";
     };
     class hlc_30Rnd_303_AP_bren : hlc_30Rnd_303_B_bren {
-        ammo = "HLC_303Brit_AP";
-        count = 30;
-        scope = 0;
-        descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 30<br />Used in: Bren";
-        displayname = ".303 AP 30Rnd Bren Magazine";
-        lastroundstracer = 0;
-        initspeed = 720;
-        tracersevery = 1;
-        mass = 11;
-        displaynameshort = ".303 British AP";
-        picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
+    ammo = "HLC_303Brit_AP";
+    count = 30;
+    scope = 0;
+    descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 30<br />Used in: Bren";
+    displayname = ".303 AP 30Rnd Bren Magazine";
+    lastroundstracer = 0;
+    initspeed = 720;
+    tracersevery = 1;
+    mass = 11;
+    displaynameshort = ".303 British AP";
+    picture = "\hlc_core\tex\ui\ammo\m_brenap_ca.paa";
     };
 
     //Lee-Enfield Stipper Clips
     class hlc_10Rnd_303_B_enfield : hlc_30Rnd_303_B_bren {
-        count = 10;
-        scope = 2;
-        descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-        displayname = ".303 Ball 10Rnd Enfield Clip";
-        initspeed = 744;
-        mass = 1;
-        displaynameshort = ".303 Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
+    count = 10;
+    scope = 2;
+    descriptionshort = "Caliber: .303British Ball<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    displayname = ".303 Ball 10Rnd Enfield Clip";
+    initspeed = 744;
+    mass = 1;
+    displaynameshort = ".303 Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_enfieldball_ca.paa";
     };
     class hlc_10Rnd_303_T_enfield : hlc_30Rnd_303_T_bren {
-        count = 10;
-        descriptionshort = "Caliber: .303British Tracer<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-        displayname = ".303 Tracer 10Rnd Enfield Clip";
-        tracersevery = 1;
-        scope = 2;
-        initspeed = 720;
-        mass = 1;
-        displaynameshort = ".303 Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
+    count = 10;
+    descriptionshort = "Caliber: .303British Tracer<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    displayname = ".303 Tracer 10Rnd Enfield Clip";
+    tracersevery = 1;
+    scope = 2;
+    initspeed = 720;
+    mass = 1;
+    displaynameshort = ".303 Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_enfieldtracer_ca.paa";
     };
     class hlc_10Rnd_303_AP_enfield : hlc_30Rnd_303_AP_bren {
-        count = 10;
-        descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
-        displayname = ".303 AP 10Rnd Enfield Clip";
-        tracersevery = 1;
-        initspeed = 840;
-        scope = 2;
-        mass = 1;
-        displaynameshort = ".303 AP";
-        picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
+    count = 10;
+    descriptionshort = "Caliber: .303British Armour-Piercing<br />Rounds: 10<br />Used in: SMLE,No.4,No.5";
+    displayname = ".303 AP 10Rnd Enfield Clip";
+    tracersevery = 1;
+    initspeed = 840;
+    scope = 2;
+    mass = 1;
+    displaynameshort = ".303 AP";
+    picture = "\hlc_core\tex\ui\ammo\m_enfieldap_ca.paa";
     };
 
     //Carcano Clips
     class hlc_6Rnd_735_B_Carcano : hlc_30Rnd_303_B_bren {
-        ammo = "HLC_542x42_ball";
-        count = 6;
-        scope = 0;
-        descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 6<br />Used in: Carcano";
-        displayname = "6.5mm Ball 6 Round Carcano Clip";
-        initspeed = 755;
-        mass = 1;
-        displaynameshort = "6.5x52mm Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_carcanoball_ca.paa";
+    ammo = "HLC_542x42_ball";
+    count = 6;
+    scope = 0;
+    descriptionshort = "Caliber: 6.5x52mm Ball<br />Rounds: 6<br />Used in: Carcano";
+    displayname = "6.5mm Ball 6 Round Carcano Clip";
+    initspeed = 755;
+    mass = 1;
+    displaynameshort = "6.5x52mm Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_carcanoball_ca.paa";
     };
     class hlc_6Rnd_735_T_Carcano : hlc_30Rnd_303_B_bren {
-        ammo = "HLC_542x42_tracer";
-        count = 6;
-        scope = 0;
-        descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 6<br />Used in: Carcano";
-        displayname = "6.5mm Tracer 6 Round Carcano Clip;
-        tracersevery = 1;
-        initspeed = 755;
-        mass = 1;
-        displaynameshort = "6.5x52mm Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_carcanotracer_ca.paa";
+    ammo = "HLC_542x42_tracer";
+    count = 6;
+    scope = 0;
+    descriptionshort = "Caliber: 6.5x52mm Tracer<br />Rounds: 6<br />Used in: Carcano";
+    displayname = "6.5mm Tracer 6 Round Carcano Clip;
+    tracersevery = 1;
+    initspeed = 755;
+    mass = 1;
+    displaynameshort = "6.5x52mm Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_carcanotracer_ca.paa";
     };
 
     class hlc_5Rnd_792_T_Kar98 : hlc_10Rnd_303_B_enfield {
-        ammo = "HLC_792x57_Tracer";
-        count = 5;
-        descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 5<br />Used in: Kar98";
-        displayname = "7.92mm Tracer 5Rnd G98 Clip";
-        tracersevery = 1;
-        lastroundstracer = 2;
-        initspeed = 762;
-        mass = 1;
-        displaynameshort = "7.92x57mm Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_k98tracer_ca.paa";
+    ammo = "HLC_792x57_Tracer";
+    count = 5;
+    descriptionshort = "Caliber: 7.92x57mm Tracer<br />Rounds: 5<br />Used in: Kar98";
+    displayname = "7.92mm Tracer 5Rnd G98 Clip";
+    tracersevery = 1;
+    lastroundstracer = 2;
+    initspeed = 762;
+    mass = 1;
+    displaynameshort = "7.92x57mm Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_k98tracer_ca.paa";
     };
     class hlc_5Rnd_792_AP_Kar98 : hlc_10Rnd_303_B_enfield {
-        ammo = "HLC_792x57_AP";
-        count = 5;
-        descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 5<br />Used in: Kar98";
-        displayname = "7.92mm AP 5Rnd G98 Clip";
-        tracersevery = 0;
-        lastroundstracer = 3;
-        initspeed = 840;
-        mass = 1;
-        displaynameshort = "7.92x57mm Armour Piercing";
-        picture = "\hlc_core\tex\ui\ammo\m_k98ap_ca.paa";
+    ammo = "HLC_792x57_AP";
+    count = 5;
+    descriptionshort = "Caliber: 7.92x57mm PmK (AP)<br />Rounds: 5<br />Used in: Kar98";
+    displayname = "7.92mm AP 5Rnd G98 Clip";
+    tracersevery = 0;
+    lastroundstracer = 3;
+    initspeed = 840;
+    mass = 1;
+    displaynameshort = "7.92x57mm Armour Piercing";
+    picture = "\hlc_core\tex\ui\ammo\m_k98ap_ca.paa";
     };
 
     //P90 Magazine
     class hlc_50Rnd_57x28_JHP_P90 : 30Rnd_556x45_Stanag {
-        ammo = "HLC_57x28mm_JHP";
-        count = 50;
-        descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br />Rounds: 50<br />Used in: P90";
-        displayname = "5.7mm JHP 50Rnd P90 Magazine";
-        initspeed = 715;
-        lastroundstracer = 0;
-        picture = "\hlc_core\tex\ui\ammo\m_p90ss195_ca.paa";
-        scope = 0;
-        mass = 5;
-        tracersevery = 0;
-        displaynameshort = "5.7x28mm SS195LF Blue VMax";
+    ammo = "HLC_57x28mm_JHP";
+    count = 50;
+    descriptionshort = "Caliber: 5.7x28mm SS195LF Blue VMax <br />Rounds: 50<br />Used in: P90";
+    displayname = "5.7mm JHP 50Rnd P90 Magazine";
+    initspeed = 715;
+    lastroundstracer = 0;
+    picture = "\hlc_core\tex\ui\ammo\m_p90ss195_ca.paa";
+    scope = 0;
+    mass = 5;
+    tracersevery = 0;
+    displaynameshort = "5.7x28mm SS195LF Blue VMax";
     };
     class hlc_50Rnd_57x28_FMJ_P90 : hlc_50Rnd_57x28_JHP_P90 {
-        ammo = "HLC_57x28mm_FMJ";
-        descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br />Rounds: 30<br />Used in: P90";
-        displayname = "5.7mm FMJ 50Rnd P90 Magazine";
-        lastroundstracer = 0;
-        scope = 0;
-        mass = 5;
-        tracersevery = 0;
-        displaynameshort = "5.7x28mm SS190 Black-Tip";
-        picture = "\hlc_core\tex\ui\ammo\m_p90ss190_ca.paa";
+    ammo = "HLC_57x28mm_FMJ";
+    descriptionshort = "Caliber: 5.7x28mm SS190 Black-Tip<br />Rounds: 30<br />Used in: P90";
+    displayname = "5.7mm FMJ 50Rnd P90 Magazine";
+    lastroundstracer = 0;
+    scope = 0;
+    mass = 5;
+    tracersevery = 0;
+    displaynameshort = "5.7x28mm SS190 Black-Tip";
+    picture = "\hlc_core\tex\ui\ammo\m_p90ss190_ca.paa";
     };
 
     class hlc_32rnd_9x19_B_sten : hlc_50Rnd_45ACP_B_1921 {
-        ammo = "HLC_9x19_Ball";
-        count = 32;
-        initspeed = 365;
-        descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
-        displayname = "9mm Ball 32Rnd Sten Magazine";
-        lastroundstracer = 1;
-        picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
-        scope = 2;
-        tracersevery = 2;
-        mass = 4;
-        displaynameshort = "9x19mm Ball";
+    ammo = "HLC_9x19_Ball";
+    count = 32;
+    initspeed = 365;
+    descriptionshort = "Caliber: 9x19mm Ball<br />Rounds: 32<br />Used in: Sten";
+    displayname = "9mm Ball 32Rnd Sten Magazine";
+    lastroundstracer = 1;
+    picture = "\hlc_core\tex\ui\ammo\m_sten_ca.paa";
+    scope = 2;
+    tracersevery = 2;
+    mass = 4;
+    displaynameshort = "9x19mm Ball";
     };
 
     /*
@@ -1535,118 +2534,118 @@ FAL mag = 250g*/
 
     //HK45C Mags
     class hlc_8Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 {
-        count = 8;
-        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 8<br />Used in: HK45C";
-        displayname = "HK45C Mag (Ball) 8rnd .45ACP ";
-        lastroundstracer = 0;
-        scope = 0;
-        initspeed = 329;
-        mass = 2;
-        displaynameshort = ".45ACP Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
+    count = 8;
+    descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 8<br />Used in: HK45C";
+    displayname = "HK45C Mag (Ball) 8rnd .45ACP ";
+    lastroundstracer = 0;
+    scope = 0;
+    initspeed = 329;
+    mass = 2;
+    displaynameshort = ".45ACP Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
     };
     class hlc_10Rnd_45ACP_B_hk45 : hlc_50Rnd_45ACP_B_1921 {
-        count = 10;
-        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 10<br />Used in: HK45C";
-        displayname = "HK45 Mag (Ball) 10rnd .45ACP ";
-        lastroundstracer = 0;
-        initspeed = 329;
-        scope = 0;
-        mass = 2;
-        displaynameshort = ".45ACP Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
+    count = 10;
+    descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 10<br />Used in: HK45C";
+    displayname = "HK45 Mag (Ball) 10rnd .45ACP ";
+    lastroundstracer = 0;
+    initspeed = 329;
+    scope = 0;
+    mass = 2;
+    displaynameshort = ".45ACP Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_hk45ball_ca.paa";
     };
     class hlc_8Rnd_45ACP_T_hk45 : hlc_50Rnd_45ACP_T_1921 {
-        count = 8;
-        descriptionshort = "Caliber: .45ACP Tracer<br />Rounds: 8<br />Used in: HK45C";
-        displayname = "HK45C Mag (Tracer) 8rnd .45ACP ";
-        lastroundstracer = 0;
-        initspeed = 329;
-        scope = 0;
-        mass = 2;
-        displaynameshort = ".45ACP Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_hk45tracer_ca.paa";
+    count = 8;
+    descriptionshort = "Caliber: .45ACP Tracer<br />Rounds: 8<br />Used in: HK45C";
+    displayname = "HK45C Mag (Tracer) 8rnd .45ACP ";
+    lastroundstracer = 0;
+    initspeed = 329;
+    scope = 0;
+    mass = 2;
+    displaynameshort = ".45ACP Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_hk45tracer_ca.paa";
     };
 
     // Mk23 MAgs, Mostly the same as the above ones bar roundcount
     class hlc_12Rnd_45ACP_B_mk23 : hlc_8Rnd_45ACP_B_hk45 {
-        count = 12;
-        descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 12<br />Used in: Mk23 OHWS";
-        displayname = ".45ACP FMJ 12Rnd Mk23 Magazine";
-        lastroundstracer = 0;
-        scope = 2;
-        initspeed = 260;
-        mass = 4;
-        displaynameshort = ".45ACP Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_mk23ball_ca.paa";
+    count = 12;
+    descriptionshort = "Caliber: .45ACP Ball<br />Rounds: 12<br />Used in: Mk23 OHWS";
+    displayname = ".45ACP FMJ 12Rnd Mk23 Magazine";
+    lastroundstracer = 0;
+    scope = 2;
+    initspeed = 260;
+    mass = 4;
+    displaynameshort = ".45ACP Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_mk23ball_ca.paa";
     };
     class hlc_12Rnd_45ACP_S_mk23 : hlc_8Rnd_45ACP_B_hk45 {
-        count = 12;
-        descriptionshort = "Caliber: .45ACP Ball +P <br />Rounds: 12<br />Used in: Mk23 OHWS";
-        displayname = ".45ACP +P 12Rnd Mk23 Magazine";
-        scope = 2;
-        lastroundstracer = 0;
-        initspeed = 320;
-        mass = 4;
-        displaynameshort = ".45ACP +P Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_mk23plusp_ca.paa";
+    count = 12;
+    descriptionshort = "Caliber: .45ACP Ball +P <br />Rounds: 12<br />Used in: Mk23 OHWS";
+    displayname = ".45ACP +P 12Rnd Mk23 Magazine";
+    scope = 2;
+    lastroundstracer = 0;
+    initspeed = 320;
+    mass = 4;
+    displaynameshort = ".45ACP +P Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_mk23plusp_ca.paa";
     };
     class hlc_12Rnd_45ACP_T_mk23 : hlc_8Rnd_45ACP_T_hk45 {
-        count = 12;
-        scope = 2;
-        descriptionshort = "Caliber: .45ACP Low-Velocity Tracer<br />Rounds: 12<br />Used in: Mk23 OHWS";
-        displayname = ".45ACP Tracer 12Rnd Mk23 Magazine";
-        lastroundstracer = 0;
-        initspeed = 260;
-        mass = 4;
-        displaynameshort = ".45ACP LV Tracer";
-        picture = "\hlc_core\tex\ui\ammo\m_mk23tracer_ca.paa";
+    count = 12;
+    scope = 2;
+    descriptionshort = "Caliber: .45ACP Low-Velocity Tracer<br />Rounds: 12<br />Used in: Mk23 OHWS";
+    displayname = ".45ACP Tracer 12Rnd Mk23 Magazine";
+    lastroundstracer = 0;
+    initspeed = 260;
+    mass = 4;
+    displaynameshort = ".45ACP LV Tracer";
+    picture = "\hlc_core\tex\ui\ammo\m_mk23tracer_ca.paa";
     };
 
     //Deagle Mags
     class hlc_8Rnd_44mag_B_deagle : hlc_50Rnd_45ACP_B_1921 {
-        ammo = "FH_44Mag";
-        scope = 2;
-        count = 8;
-        descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 8<br />Used in: Desert Eagle";
-        displayname = ".44Mag FMJ 8Rnd Desert Eagle Magazine";
-        lastroundstracer = 0;
-        mass = 5;
-        displaynameshort = ".44 Magnum Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+    ammo = "FH_44Mag";
+    scope = 2;
+    count = 8;
+    descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 8<br />Used in: Desert Eagle";
+    displayname = ".44Mag FMJ 8Rnd Desert Eagle Magazine";
+    lastroundstracer = 0;
+    mass = 5;
+    displaynameshort = ".44 Magnum Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
     class hlc_8Rnd_44mag_JHP_deagle : hlc_8Rnd_44mag_B_deagle {
-        ammo = "FH_44Mag_JHP";
-        count = 8;
-        scope = 2;
-        descriptionshort = "Caliber: .44 Magnum JHP<br />Rounds: 8<br />Used in: Desert Eagle";
-        displayname = ".44Mag JHP 8Rnd Desert Eagle Magazine";
-        lastroundstracer = 0;
-        mass = 4;
-        displaynameshort = ".44 Magnum JHP";
-        picture = "\hlc_core\tex\ui\ammo\m_deaglejhp_ca.paa";
+    ammo = "FH_44Mag_JHP";
+    count = 8;
+    scope = 2;
+    descriptionshort = "Caliber: .44 Magnum JHP<br />Rounds: 8<br />Used in: Desert Eagle";
+    displayname = ".44Mag JHP 8Rnd Desert Eagle Magazine";
+    lastroundstracer = 0;
+    mass = 4;
+    displaynameshort = ".44 Magnum JHP";
+    picture = "\hlc_core\tex\ui\ammo\m_deaglejhp_ca.paa";
     };
     class hlc_50Rnd_44mag_B_deagle : hlc_8Rnd_44mag_B_deagle {
-        ammo = "FH_44Mag";
-        count = 50;
-        scope = 2;
-        descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
-        displayname = ".44Mag FMJ 50Rnd Desert Eagle Magazine";
-        lastroundstracer = 0;
-        mass = 20;
-        displaynameshort = ".44 Magnum Ball";
-        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+    ammo = "FH_44Mag";
+    count = 50;
+    scope = 2;
+    descriptionshort = "Caliber: .44 Magnum Ball<br />Rounds: 50<br />Used in: Desert Eagle";
+    displayname = ".44Mag FMJ 50Rnd Desert Eagle Magazine";
+    lastroundstracer = 0;
+    mass = 20;
+    displaynameshort = ".44 Magnum Ball";
+    picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
     class hlc_50Rnd_44mag_FUN : hlc_8Rnd_44mag_B_deagle {
-        ammo = "FH_44Mag_FUNTRACER";
-        count = 50;
-        scope = 2;
-        descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
-        displayname = ".44Mag LOL 50Rnd Desert Eagle Magazine";
-        lastroundstracer = 0;
-        mass = 22;
-        displaynameshort = "WHEEEEEEEEEE";
-        picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
+    ammo = "FH_44Mag_FUNTRACER";
+    count = 50;
+    scope = 2;
+    descriptionshort = "Caliber: .44 Magnum LOLTRACER<br />Rounds: 50<br />Used in: Desert Eagle";
+    displayname = ".44Mag LOL 50Rnd Desert Eagle Magazine";
+    lastroundstracer = 0;
+    mass = 22;
+    displaynameshort = "WHEEEEEEEEEE";
+    picture = "\hlc_core\tex\ui\ammo\m_deagleball_ca.paa";
     };
 
     /*
@@ -1832,7 +2831,7 @@ FAL mag = 250g*/
     };
 
     //MG34 Boxes
- 
+
     class hlc_75rnd_792_B_MG34 : hlc_5Rnd_792_B_Kar98 {
     count = 75;
     descriptionshort = "Caliber: 7.92x57mm sS (Ball)<br />Rounds: 75<br />Used in: MG34";

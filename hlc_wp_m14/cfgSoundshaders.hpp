@@ -6,16 +6,18 @@ class CfgSoundShaders {
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 }
         };
         range = 35;
-        volume = 1;
+        volume = 0.375;
         rangeCurve[] = {
 			{ 0, 1 },
 			{ 35, 0 } };
     };
     class M14_closeShot_SoundShader {
         samples[] = {
-            { "hlc_wp_m14\snd\soundshaders\m14_close", 1 }
-        };
-        volume = 0.7;
+            { "hlc_core\sound\weapon\M14\Close_1", 1 },
+            { "hlc_core\sound\weapon\M14\Close_2", 1 },
+            { "hlc_core\sound\weapon\M14\Close_3", 1 },
+            { "hlc_core\sound\weapon\M14\Close_4", 1 } };
+        volume = 1.4;
         range = 100;
         rangeCurve = "closeShotCurve";
     };
@@ -255,13 +257,15 @@ class CfgSoundShaders {
             { "hlc_wp_m14\snd\soundshaders\m14_first", 1 }
         };
         range = 35;
-        volume = 1;
+        volume = 0.375;
     };
     class m14tactical_closeShot_SoundShader {
         samples[] = {
-            { "hlc_wp_m14\snd\soundshaders\m14tac_close", 1 }
-        };
-        volume = 0.8;
+            { "hlc_core\sound\weapon\M14\Close_1", 1 },
+            { "hlc_core\sound\weapon\M14\Close_2", 1 },
+            { "hlc_core\sound\weapon\M14\Close_3", 1 },
+            { "hlc_core\sound\weapon\M14\Close_4", 1 } };
+        volume = 1.4;
         range = 100;
         rangeCurve = "closeShotCurve";
     };

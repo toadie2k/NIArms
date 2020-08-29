@@ -7,10 +7,10 @@ class InventoryOpticsItem_Base_F;
 class hlc_optic_LeupoldM3A : optic_lrps {
     dlc = "Niarms_FN3011";
     author = "Toadie";
-    descriptionshort = "Leupold M3A Ultra<br />Magnification: 10x";
+    descriptionshort = $STR_NIA_LuepoldM3A_DESC;
     picture = "\hlc_core\tex\ui\gear_LeupoldM3A_Ca";
     model = "hlc_core\mesh\accessories\sights\LeupoldM3A.p3d";
-    displayname = "Leupold M3A";
+    displayname = $STR_NIA_optic_LeupoldM3A;
 
     class ItemInfo : ItemInfo {
         mass = 10.5;
@@ -54,8 +54,8 @@ class hlc_optic_LeupoldM3A : optic_lrps {
 };
 class hlc_optic_PVS4base : optic_Arco {
     author = "Bohemia Interactive, Toadie";
-    descriptionshort = "Night Vision Optic<br />Magnification: 4x";
-    displayname = "AN/PVS4";
+    descriptionshort = $STR_NIA_anpvs4_DESC;
+    displayname = $STR_NIA_optic_anpvs4;
     picture = "\hlc_core\tex\ui\gear_PVS4_x_ca";
     class ItemInfo : InventoryOpticsItem_Base_F {
         __OPTIC_DMR;
@@ -108,9 +108,9 @@ class hlc_optic_PVS4base : optic_Arco {
 class hlc_optic_VOMZ : optic_lrps {
     dlc = "Niarms_Core";
     author = "Toadie";
-    descriptionshort = "VOMZ Pilad P3 <br />Magnification: 3.5x";
+    descriptionshort = $STR_NIA_VOMZ_DESC;
     model = "hlc_core\mesh\accessories\sights\VOMZ_p3.p3d";
-    displayname = "VOMZ Pilad P3(2D)";
+    displayname = $STR_NIA_optic_VOMZ2D;
     picture = "\hlc_core\tex\ui\gear_vomz_ca";
     inertia = 0.05;
     class ItemInfo : ItemInfo {
@@ -154,7 +154,7 @@ class hlc_optic_VOMZ : optic_lrps {
 class hlc_optic_VOMZ3d :hlc_optic_VOMZ
 {
     author = "Toadie";
-    displayname = "VOMZ Pilad P3";
+    displayname = $STR_NIA_optic_VOMZ;
     class ItemInfo : ItemInfo {
         class OpticsModes {
             class Snip {
@@ -197,8 +197,8 @@ class hlc_optic_HensoldtZO_Hi : optic_aco
     dlc = "Niarms_Core";
     scope = public;
     author = "Toadie";
-    descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
-    displayname = "Hensoldt ZO (Riser)";
+    descriptionshort = $STR_NIA_hensoldtZO_DESC;
+    displayname = $STR_NIA_optic_HensoldtZO_Hi;
     picture = "\hlc_core\tex\ui\gear_zo-hi_ca";
     weaponInfoType = "RscWeaponZeroing";
     model = "hlc_core\mesh\accessories\sights\ZO_HI.p3d";
@@ -250,8 +250,8 @@ class hlc_optic_HensoldtZO_Hi : optic_aco
 };
 class hlc_optic_HensoldtZO_Hi_2D : hlc_optic_HensoldtZO_Hi
 {
-    descriptionshort = "Hensoldt(Zeiss) ZO 4x30 Combat Optic <br />Magnification: 4x";
-    displayname = "Hensoldt ZO (Riser/2D)";
+    descriptionshort = $STR_NIA_hensoldtZO_DESC;
+    displayname = $STR_NIA_optic_HensoldtZO_Hi_2D;
     class ItemInfo :ItemInfo
     {
         class OpticsModes :OpticsModes
@@ -268,7 +268,7 @@ class hlc_optic_HensoldtZO_Hi_Docter : hlc_optic_HensoldtZO_Hi
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO (Riser/RDS)";
+    displayname = $STR_NIA_optic_HensoldtZO_Hi_docter;
     picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
 };
@@ -276,7 +276,7 @@ class hlc_optic_HensoldtZO_Hi_Docter_2D : hlc_optic_HensoldtZO_Hi_2D
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO (Riser/RDS/2D)";
+    displayname = $STR_NIA_optic_HensoldtZO_Hi_docter_2D;
     picture = "\hlc_core\tex\ui\gear_zo-hi-doc_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_Hi_Docter.p3d";
 };
@@ -284,7 +284,7 @@ class hlc_optic_HensoldtZO_Lo :hlc_optic_HensoldtZO_Hi
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO";
+    displayname = $STR_NIA_optic_HensoldtZO_lo;
     picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
 };
@@ -292,7 +292,7 @@ class hlc_optic_HensoldtZO_Lo_2D : hlc_optic_HensoldtZO_Hi_2D
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO (2D)";
+    displayname = $STR_NIA_optic_HensoldtZO_lo_2D;
     picture = "\hlc_core\tex\ui\gear_zo-lo_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_Lo.p3d";
 };
@@ -300,7 +300,7 @@ class hlc_optic_HensoldtZO_lo_Docter : hlc_optic_HensoldtZO_lo
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO (RDS)";
+    displayname = $STR_NIA_optic_HensoldtZO_lo_docter;
     picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
 };
@@ -308,7 +308,7 @@ class hlc_optic_HensoldtZO_lo_Docter_2D : hlc_optic_HensoldtZO_lo_2D
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    displayname = "Hensoldt ZO (RDS/2D)";
+    displayname = $STR_NIA_optic_HensoldtZO_lo_docter_2D;
     picture = "\hlc_core\tex\ui\gear_zo-lo-doc_ca";
     model = "hlc_core\mesh\accessories\sights\ZO_lo_Docter.p3d";
 };
@@ -318,8 +318,8 @@ class hlc_optic_KernBase : optic_aco
     dlc = "Niarms_Core";
     scope = public;
     author = "Toadie";
-    descriptionshort = "Kern 4x24 Zielfernrohr <br />Magnification: 4x";
-    displayname = "Kern AARAU 4x24";
+    descriptionshort = $STR_NIA_AARAU_DESC;
+    displayname = $STR_NIA_optic_kern_AARAU;
     picture = "hlc_core\tex\ui\gear_aarau_x_ca";
     weaponInfoType = "RscWeaponZeroing";
     class ItemInfo : InventoryOpticsItem_Base_F
@@ -373,8 +373,8 @@ class hlc_optic_ZF4xBase : optic_aco
     dlc = "Niarms_Core";
     scope = public;
     author = "Toadie";
-    descriptionshort = "Hensoldt ZF 4x<br />Magnification: 4x";
-    displayname = "FN STANAG 4x28";
+    descriptionshort = $STR_NIA_FNZF4x_DESC;
+    displayname = $STR_NIA_optic_ZF4xBase;
     picture = "\hlc_core\tex\ui\gear_fnstanag_ca";
     weaponInfoType = "RscWeaponZeroing";
     class ItemInfo : InventoryOpticsItem_Base_F
@@ -427,8 +427,8 @@ class hlc_optic_ZF4xBase : optic_aco
 class HLC_optic_DocterR : optic_Arco {
     dlc = "Niarms_Core";
     author = "Toadie";
-    descriptionshort = "Docter Red Dot Sight<br />Magnification: None";
-    displayname = "Docter RDS";
+    descriptionshort = $STR_NIA_Docter_DESC;
+    displayname = $STR_NIA_optic_DocterR;
     model = "hlc_core\mesh\accessories\sights\Docter_RIS.p3d";
     picture = "\hlc_core\tex\UI\gear_docter_ca.paa";
     class ItemInfo : InventoryOpticsItem_Base_F {
@@ -461,8 +461,8 @@ class hlc_optic_ZF95Base : optic_lrps
 {
     dlc = "Niarms_Core";
     author = "Toadie";
-    descriptionshort = "Kahles ZF95 with NATO Rangefinding Reticle<br />Magnification: 6x";
-    displayname = "Kahles ZF95";
+    descriptionshort = $STR_NIA_ZF95_DESC;
+    displayname = $STR_NIA_optic_ZF95;
     model = "hlc_core\mesh\accessories\sights\ZF95.p3d";
     picture = "\hlc_core\tex\ui\gear_ZF95_ca";
     scope = public;
@@ -510,12 +510,93 @@ class hlc_optic_ZF95Base : optic_lrps
         };
     };
 };
+class hlc_optic_ATACR_Offset :hlc_optic_ZF95Base
+{
+    dlc = "Niarms_Core";
+    scope = public;
+    author = "Parallax Game Studios,Toadie";
+    descriptionshort = $STR_NIA_ATACR_DESC;
+    displayname = $STR_NIA_optic_ATACROffset;
+    model = "hlc_core\mesh\accessories\sights\ATACR.p3d";
+    picture = "\hlc_core\tex\ui\gear_ATACR_Offset_ca";
+        inertia = 0.052;
+        class CBA_ScriptedOptic {
+            minMagnificationReticleScale[] = { 1, 1.026 };
+            maxMagnificationReticleScale[] = { 8, 8*1.026 };
+            //reticleTexture = "\hlc_core\tex\acc\optic\ATACR\NF_FC-DM_reticle_ca.paa";
+           // reticleTextureSize = 1;
+            reticleDetailTextures[] = {
+                // {show at magnification > this value, reticleTexture, reticleTextureSize, reticleTextureNight (optional)}
+                { 1, "\hlc_core\tex\acc\optic\ATACR\NF_FC-DM_reticle_ca.paa", 1,"\hlc_core\tex\acc\optic\ATACR\NF_FC-DM_reticle_ca.paa" },
+                { 4, "\hlc_core\tex\acc\optic\ATACR\NF_FC-DM_reticle_Himag_ca.paa", .5, "\hlc_core\tex\acc\optic\ATACR\NF_FC-DM_reticle_Himag_ca.paa" }
+            };
+            bodyTexture = "\hlc_core\tex\acc\optic\ATACR\ATACR_Body_ca.paa";
+            bodyTextureSize = 2;
+
+            hideRedDotMagnification = 1;
+            fadeReticleInterval[] = {3.25, 2.5 };
+        };
+        weaponInfoType = "CBA_ScriptedOptic_zooming";
+        class ItemInfo : InventoryOpticsItem_Base_F
+    {
+        modelOptics = "\x\cba\addons\optics\cba_optic_big_90.p3d";
+        mass = 14.54;
+        class OpticsModes
+        {
+            class Scope
+            {
+                opticsID = 1;
+                //opticsDisplayName = "WFOV";
+                //useModelOptics = 1;
+                //opticsPPEffects[] = { "OpticsCHAbera1", "OpticsBlur1" };
+                opticsZoomMin = "8 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                opticsZoomMax = "1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                opticsZoomInit = "1 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
+                discreteDistance[] = { 100, 200, 300, 400, 500, 600,700,800,900,1000,1100,1200 };
+                //discretefov[] = { 0.249 / 1, 0.249 / 2, 0.249 / 3, 0.249 / 4, 0.249 / 5, 0.249 / 6, 0.249 / 7, 0.249 / 8 };
+               // modelOptics = "";
+                discreteDistanceInitIndex = "2 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelperZeroing')";
+                //discreteInitIndex = 0;
+                distanceZoomMin = 300;
+                distanceZoomMax = 1200;
+                memoryPointCamera = "Opticview";
+                visionMode[] = { "Normal" };
+                //opticsFlare = 1;
+                //opticsDisablePeripherialVision = 1;
+                //cameraDir = "";
+            };
+            class ACO
+            {
+                opticsID = 2;
+                useModelOptics = 0;
+                opticsZoomMin = 0.25;
+                opticsZoomMax = 1.25;
+                opticsZoomInit = 0.75;
+                memoryPointCamera = "eye2";
+                opticsFlare = 0;
+                opticsDisablePeripherialVision = 0;
+                distanceZoomMin = 25;
+                distanceZoomMax = 25;
+                cameraDir = "";
+                visionMode[] = {};
+                opticsPPEffects[] = { "Default" };
+            };
+        };
+    };
+};
+class hlc_optic_ATACR :hlc_optic_ATACR_Offset
+{
+    author = "Parallax Game Studios,Toadie";
+    displayname = $STR_NIA_optic_ATACR;
+    model = "hlc_core\mesh\accessories\sights\ATACR_Vert.p3d";
+    picture = "\hlc_core\tex\ui\gear_ATACR_ca";
+};
 //V is for Vanilla. 
 class HLC_optic_DocterV : optic_Arco {
     dlc = "Niarms_Core";
     author = "Toadie";
-    descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
-    displayname = "Docter RDS";
+    descriptionshort = $STR_NIA_Docter_DESC;
+    displayname = $STR_NIA_optic_DocterV;
     model = "hlc_core\mesh\accessories\sights\docter.p3d";
     picture = "\hlc_core\tex\UI\gear_docter_ca.paa";
     class ItemInfo : InventoryOpticsItem_Base_F {
@@ -547,8 +628,8 @@ class HLC_optic_DocterV : optic_Arco {
 class HLC_optic_RomeoV : optic_Arco {
     dlc = "Niarms_Core";
     author = "Toadie";
-    descriptionshort = "Docter Red Dot Sight For Pistols<br />Magnification: None";
-    displayname = "Romeo1 RDS";
+    descriptionshort = $STR_NIA_romeo_DESC;
+    displayname = $STR_NIA_optic_romeo1;
     model = "hlc_core\mesh\accessories\sights\romeo1.p3d";
     picture = "\hlc_core\tex\UI\gear_romeo1_ca.paa";
     class ItemInfo : InventoryOpticsItem_Base_F {

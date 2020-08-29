@@ -1165,7 +1165,6 @@ class CfgSoundShaders
         }; 
         limitation = 1;
     };
-
     class g36k_tailInterior_mid_SoundShader {
         samples[] = {
             { "hlc_wp_g36\snd\soundshaders\g36k\g36k_indoor_mid", 1 }
@@ -1227,6 +1226,197 @@ class CfgSoundShaders
             { 2000,1}
 		}; 
         range = 2000;
+        limitation = 1;
+    };
+    class NIA_xm8_Closure_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_first", 1 } };
+        range = 10;
+        volume = 0.5;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 10, 0 } };
+    };
+    class NIA_xm8_closeShot_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_close", 1 }
+        };
+        volume = 0.7;
+        range = 100;
+        rangeCurve = "closeShotCurve";
+    };
+    class NIA_xm8_midShot_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_mid", 1 } };
+        volume = 1;
+        range = 2500;
+        rangeCurve[] = {
+            { 0, 0.5 },
+            { 100, 1 },
+            { 300, 0 },
+            { 2500, 0 } };
+    };
+    class NIA_xm8_distShot_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_dist", 1 } };
+        volume = 1.0;
+        range = 2500;
+        rangeCurve[] = {
+            { 0, 0 },
+            { 100, 0 },
+            { 300, 1 },
+            { 2500, 1 } };
+    };
+    class nia_xm8_tailDistant_SoundShader
+    {
+        samples[] = {
+            { "\A3\Sounds_F\arsenal\weapons\Rifles\mk20\mk20_taildistant", 1 } };
+        volume = 1;
+        range = 2000;
+        rangeCurve[] = {
+            { 0, 0 },
+            { 600, 0.7 },
+            { 2000, 1 } };
+        limitation = 1;
+    };
+    class NIA_xm8_tailForest_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_forest", 1 } };
+        volume = " 1.3*((1-interior/1.4)*Forest/3)";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 250, 0 }
+        };
+        limitation = 1;
+    };
+    class NIA_xm8_tailHouses_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_urban", 1 } };
+        volume = "1.3*((1-interior/1.4)*houses/3)";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 250, 0 }
+        };
+        limitation = 1;
+    };
+    class NIA_xm8_tailInterior_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_indoor", 1 } };
+        volume = " 1.3*((interior)*0.65)";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 0.7 },
+            { 250, 0 }
+        };
+        limitation = 1;
+    };
+    class NIA_xm8_tailMeadows_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_meadows", 1 } };
+        volume = " 1.3*((1-interior/1.4)*(meadows/2 max sea/2)/3)";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 250, 0 }
+        };
+        limitation = 1;
+    };
+    class NIA_xm8_tailTrees_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_trees", 1 } };
+        volume = " 1.3*((1-interior/1.4)*trees/3)";
+        range = 250;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 250, 0 }
+        };
+        limitation = 1;
+    };
+    class NIA_xm8_silencerShot_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_Silenced_Close", 1 } };
+        volume = 1.0;
+        range = 50;
+        rangeCurve = "closeShotCurve";
+    };
+    class NIA_xm8_silencerShot_mid_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_silenced_mid", 1 } };
+        volume = 1.0;
+        range = 350;
+        rangeCurve[] = {
+            { 0, 0.2 },
+            { 50, 1 },
+            { 350, 0 }
+        };
+    };
+    class NIA_xm8_silencerTailForest_SoundShader
+    {
+        samples[] = {
+            { "A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_silencerTailForest", 1 } };
+        volume = "(1-interior/1.4)*forest/3";
+        range = 150;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 150, 0.3 } };
+        limitation = 1;
+    };
+    class NIA_xm8_silencerTailHouses_SoundShader
+    {
+        samples[] = {
+            { "A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_silencerTailHouses", 1 } };
+        volume = "(1-interior/1.4)*houses/3";
+        range = 150;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 150, 0 } };
+        limitation = 1;
+    };
+    class NIA_xm8_silencerTailInterior_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_suppressed_indoor", 1 } };
+        volume = "interior";
+        range = 150;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 50, 0.3 },
+            { 150, 0 } };
+        limitation = 1;
+    };
+    class NIA_xm8_silencerTailMeadows_SoundShader
+    {
+        samples[] = {
+            { "hlc_wp_g36\snd\soundshaders\xm8\xm8_suppressed_meadows", 1 } };
+        volume = "(1-interior/1.4)*(meadows/2 max sea/2)/3";
+        range = 150;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 150, 0.3 } };
+        limitation = 1;
+    };
+    class NIA_xm8_silencerTailTrees_SoundShader
+    {
+        samples[] = {
+            { "A3\Sounds_F\arsenal\weapons\LongRangeRifles\DMR_01_Rahim\DMR01_silencerTailTrees", 1 } };
+        volume = "(1-interior/1.4)*trees/3";
+        range = 150;
+        rangeCurve[] = {
+            { 0, 1 },
+            { 150, 0.3 } };
         limitation = 1;
     };
 };

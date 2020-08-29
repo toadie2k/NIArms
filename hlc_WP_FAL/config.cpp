@@ -498,11 +498,20 @@ class CfgWeapons {
 
     class UGL_F;
     class hlc_rifle_osw_GL : hlc_rifle_falosw {
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 130; 
-            class UnderBarrelSlot {};
-            class GripodSlot {};
-            class Charmslot : nia_charms_slot {};
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
+                iconPosition[] = { 0.0, 0.45 };
+                iconScale = 0.2;
+            };
+            class CowsSlot : asdg_OpticRail1913 {
+                iconPosition[] = { 0.5, 0.35 };
+                iconScale = 0.2;
+            };
+            class PointerSlot : asdg_FrontSideRail {
+                iconPosition[] = { 0.2, 0.45 };
+                iconScale = 0.25;
+            };
         };
 		inertia = 0.77;
         __DEXTERITY(4.8 + 1.36, 0);

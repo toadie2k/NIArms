@@ -9,7 +9,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         magazines[] = {};
-        version="1.05";
+        version="1.06";
         author="toadie";
     };
 };
@@ -908,7 +908,7 @@ class CfgWeapons {
         hiddenSelections[] = { "camo", "camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = { "hlc_wp_fn3011\tex\main\3011_main_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories2_co.tga", "hlc_wp_fn3011\tex\main\3011_accessories1_co.tga", "hlc_wp_fn3011\tex\main\3011_golstock_co.tga"  };
         HiddenSelectionsMaterials[] = { "hlc_wp_fn3011\mat\FN3011_main.rvmat", "hlc_wp_fn3011\mat\FN3011_accessories2.rvmat", "hlc_wp_fn3011\mat\FN3011_accessories1.rvmat", "hlc_wp_fn3011\mat\FN3011_golstock.rvmat"};
-        class WeaponSlotsInfo : WeaponSlotsInfo {
+        class WeaponSlotsInfo  {
             mass = 117;
             class CowsSlot :asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
@@ -923,7 +923,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.45 };
                 iconScale = 0.25;
             };
-            class Charmslot {};
+           // class Charmslot {};
         };
         class Single : Single {
             __MOA(1.01);
