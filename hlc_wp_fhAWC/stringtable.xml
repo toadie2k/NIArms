@@ -232,34 +232,33 @@
         </Container>
         <Container name="Descriptions">
             <Key ID="STR_NIA_AWM_DESC">
-                <Original>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Original>
-                <English>Precision Rifle&lt;br/&gt;Caliber:.300 WM</English>
-                <Czech>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Czech>
-                <French>Fusil de Précision&lt;br/&gt;Calibre:.300 WM</French>
-                <Spanish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
-                <Italian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
-                <Polish>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
-                <Portuguese>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
-                <Russian>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
-                <German>Precision Rifle&lt;br/&gt;Caliber:.300 WM</German>
+                <Original>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Original>
+                <English>Precision Rifle&lt;br/&gt;Caliber: .300 WM</English>
+                <Czech>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Czech>
+                <French>Fusil de Précision&lt;br/&gt;Calibre: .300 WM</French>
+                <Spanish>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Spanish>
+                <Italian>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Italian>
+                <Polish>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Polish>
+                <Portuguese>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Portuguese>
+                <Russian>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Russian>
+                <German>Precision Rifle&lt;br/&gt;Caliber: .300 WM</German>
                 <Japanese>高精度ライフル&lt;br/&gt;口径: .300 WM</Japanese>
-                <Korean>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
-                <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
+                <Korean>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Korean>
+                <Chinesesimp>Precision Rifle&lt;br/&gt;Caliber: .300 WM</Chinesesimp>
             </Key>
-            <Key ID="STR_NIA_awcm_DESC">
-                <Original>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Original>
-                <English>Covert Rifle&lt;br/&gt;Caliber:.300 WM</English>
-                <Czech>Fusil </Czech>
-                <French>Fusil "Covert" &lt;br/&gt;Calibre:.300 WM</French>
-                <Spanish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Spanish>
-                <Italian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Italian>
-                <Polish>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Polish>
-                <Portuguese>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Portuguese>
-                <Russian>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Russian>
-                <German>Covert Rifle&lt;br/&gt;Caliber:.300 WM</German>
+                <Original>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Original>
+                <English>Covert Rifle&lt;br/&gt;Caliber: .300 WM</English>
+                <Czech>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Czech>
+                <French>Fusil "Covert"&lt;br/&gt;Calibre: .300 WM</French>
+                <Spanish>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Spanish>
+                <Italian>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Italian>
+                <Polish>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Polish>
+                <Portuguese>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Portuguese>
+                <Russian>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Russian>
+                <German>Covert Rifle&lt;br/&gt;Caliber: .300 WM</German>
                 <Japanese>隠密ライフル&lt;br/&gt;口径: .300 WM</Japanese>
-                <Korean>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Korean>
-                <Chinesesimp>Covert Rifle&lt;br/&gt;Caliber:.300 WM</Chinesesimp>
+                <Korean>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Korean>
+                <Chinesesimp>Covert Rifle&lt;br/&gt;Caliber: .300 WM</Chinesesimp>
             </Key>
             <Key ID="STR_NIA_DESC_5rnd_300WM_FMJ_AWM">
                 <Original>Caliber: .300 Win Mag FMJ&lt;br/&gt;Type: Full Metal Jacket&lt;br/&gt;Rounds: 5</Original>

@@ -47,7 +47,7 @@
         <Korean>FN Minimi Para (Long)</Korean>
         <Chinesesimp>FN Minimi Para (Long)</Chinesesimp>
       </Key>
-      <Key ID="STR_NIA_lmg_minimipara_railed">
+      <Key ID="STR_NIA_lmg_minimipara_long_railed">
         <Original>FN Minimi Para (Long/RIS)</Original>
         <English>FN Minimi Para (Long/RIS)</English>
         <Czech>FN Minimi Para (Long/RIS)</Czech>
@@ -288,6 +288,21 @@
         <Japanese>SAW ピストル グリップ</Japanese>
         <Korean>SAW Pistol Grip</Korean>
         <Chinesesimp>SAW Pistol Grip</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_bipod_SAW_VFG_tan">
+        <Original>SAW Pistol Grip (Tan)</Original>
+        <English>SAW Pistol Grip (Tan)</English>
+        <Czech>SAW Pistol Grip (Tan)</Czech>
+        <French>SAW Pistol Grip (Tan)</French>
+        <Spanish>SAW Pistol Grip (Tan)</Spanish>
+        <Italian>SAW Pistol Grip (Tan)</Italian>
+        <Polish>SAW Pistol Grip (Tan)</Polish>
+        <Portuguese>SAW Pistol Grip (Tan)</Portuguese>
+        <Russian>SAW Pistol Grip (Tan)</Russian>
+        <German>SAW Pistol Grip (Tan)</German>
+        <Japanese>SAW ピストル グリップ (Tan)</Japanese>
+        <Korean>SAW Pistol Grip (Tan)</Korean>
+        <Chinesesimp>SAW Pistol Grip (Tan)</Chinesesimp>
       </Key>
       </Container>
     <Container name="Mag_Names">

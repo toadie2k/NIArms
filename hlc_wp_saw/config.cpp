@@ -625,6 +625,7 @@ class CfgWeapons {
     class hlc_grip_SAW_Grip2 : hlc_grip_SAW_Grip1
     {
         model = "hlc_wp_saw\mesh\acc\SAW_VFG_tan.p3d";
+        displayName = $STR_NIA_bipod_SAW_VFG_tan;
     };
 
     class hlc_lmg_minimipara_railed : hlc_lmg_minimipara
@@ -868,7 +869,7 @@ class CfgWeapons {
     {
         author = "Toadie";
         model = "\hlc_wp_saw\mesh\minimi_para\minimi_para_longer_railed.p3d";
-        displayName = $STR_NIA_lmg_minimipara_railed;
+        displayName = $STR_NIA_lmg_minimipara_long_railed;
         initspeed = -1;
         inertia = 0.69;
         __DEXTERITY(6.94, 0);

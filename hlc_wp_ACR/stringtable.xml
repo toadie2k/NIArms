@@ -864,154 +864,154 @@
     </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_ACR_MID_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Original>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</German>
         <Japanese>インファントリー ライフル&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber: 5.56mm NATO</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_Carbine_DESC">
-        <Original>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Original>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Original>
+        <English>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</English>
+        <Czech>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Czech>
+        <French>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</French>
+        <Spanish>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Spanish>
+        <Italian>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Italian>
+        <Polish>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Polish>
+        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Portuguese>
+        <Russian>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Russian>
+        <German>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</German>
         <Japanese>インファントリー カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+        <Korean>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Korean>
+        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_SBR_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Original>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</German>
         <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR68_MID_DESC">
-        <Original>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Original>
-        <English>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</English>
-        <Czech>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Czech>
-        <French>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</French>
-        <Spanish>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Spanish>
-        <Italian>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Italian>
-        <Polish>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Polish>
-        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
-        <Russian>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
-        <German>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
+        <Original>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Original>
+        <English>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</English>
+        <Czech>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Czech>
+        <French>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</French>
+        <Spanish>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Spanish>
+        <Italian>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Italian>
+        <Polish>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Polish>
+        <Portuguese>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Portuguese>
+        <Russian>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Russian>
+        <German>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</German>
         <Japanese>インファントリー ライフル&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
-        <Korean>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
-        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
+        <Korean>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Korean>
+        <Chinesesimp>Infantry Rifle&lt;br/&gt;Caliber: 6.8x43mm SPCII</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR68_Carbine_DESC">
-        <Original>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Original>
-        <English>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</English>
-        <Czech>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Czech>
-        <French>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</French>
-        <Spanish>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Spanish>
-        <Italian>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Italian>
-        <Polish>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Polish>
-        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
-        <Russian>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
-        <German>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
+        <Original>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Original>
+        <English>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</English>
+        <Czech>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Czech>
+        <French>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</French>
+        <Spanish>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Spanish>
+        <Italian>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Italian>
+        <Polish>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Polish>
+        <Portuguese>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Portuguese>
+        <Russian>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Russian>
+        <German>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</German>
         <Japanese>インファントリー カービン&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
-        <Korean>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
-        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
+        <Korean>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Korean>
+        <Chinesesimp>Infantry Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR68_SBR_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</German>
+        <Original>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</German>
         <Japanese>コンパクト カービン&lt;br/&gt;口径: 6.8mm SPCII</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:6.8x43mm SPCII</Chinesesimp>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber: 6.8x43mm SPCII</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_ACR_SBRCliffhanger_DESC">
-        <Original>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATO&lt;br/&gt; "Break's over, Roach. Let's Go."</Original>
-        <English>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</English>
-        <Czech>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Czech>
-        <French>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</French>
-        <Spanish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Spanish>
-        <Italian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Italian>
-        <Polish>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Polish>
-        <Portuguese>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Portuguese>
-        <Russian>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Russian>
-        <German>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</German>
+        <Original>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATO&lt;br/&gt; "Break's over, Roach. Let's Go."</Original>
+        <English>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</English>
+        <Czech>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Czech>
+        <French>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</French>
+        <Spanish>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Spanish>
+        <Italian>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Italian>
+        <Polish>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Polish>
+        <Portuguese>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Portuguese>
+        <Russian>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Russian>
+        <German>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</German>
         <Japanese>コンパクト カービン&lt;br/&gt;口径: 5.56mm NATO&lt;br/&gt; "もういいな、ローチ。行くぞ。"</Japanese>
-        <Korean>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Korean>
-        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber:5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Chinesesimp>
+        <Korean>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Korean>
+        <Chinesesimp>Compact Carbine&lt;br/&gt;Caliber: 5.56mm NATOO&lt;br/&gt; "Break's over, Roach. Let's Go."</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_SF3P_556_DESC">
-        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
-        <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
-        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
-        <French>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</French>
-        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Spanish>
-        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Italian>
-        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Polish>
-        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
-        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
-        <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</German>
         <Japanese>3 点消炎器&lt;br/&gt;口径: 5.56mm</Japanese>
-        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
-        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber: 5.56mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_SF3P_68_DESC">
-        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Original>
-        <English>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</English>
-        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Czech>
-        <French>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</French>
-        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Spanish>
-        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Italian>
-        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Polish>
-        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Portuguese>
-        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Russian>
-        <German>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</German>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</German>
         <Japanese>3 点消炎器&lt;br/&gt;口径: 6.8mm</Japanese>
-        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Korean>
-        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:6.8mm</Chinesesimp>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber: 6.8mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_SF3P_762_DESC">
-        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
-        <English>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
-        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
-        <French>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
-        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
-        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
-        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
-        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
-        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
-        <German>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</German>
         <Japanese>3 点消炎器&lt;br/&gt;口径: 7.62mm</Japanese>
-        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
-        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber: 7.62mm</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_brake_apology_DESC">
         <Original>Sorry It's taken a whole year&lt;br/&gt;Have some Eagles (Red-Tail Hawks)</Original>
