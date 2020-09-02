@@ -267,7 +267,7 @@ class CfgWeapons {
                 iconPosition[] = { 0.2, 0.45 };
                 iconScale = 0.25;
             };
-            class MuzzleSlot : asdg_MuzzleSlot_762 {                
+            class MuzzleSlot : asdg_MuzzleSlot_762 {
                 iconPosition[] = { 0.0, 0.45 };
                 iconScale = 0.2;
                 };
@@ -330,21 +330,21 @@ class CfgWeapons {
             __AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE;
         };
         class fullauto_medium : FullAuto {
-            
-                showToPlayer = 0; 
-                aiBurstTerminable = 1; 
-                burst = 4; 
-                __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST; 
-        }; 
+
+                showToPlayer = 0;
+                aiBurstTerminable = 1;
+                burst = 4;
+                __AI_ROF_RIFLE_MEDIUM_CLOSE_BURST;
+        };
     };
 
     class hlc_rifle_falosw : hlc_fal_base {
         author = "Pete, Enron, Toadie";
-        AB_barrelTwist=12;
-        AB_barrelLength=13;
-        ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 330.2;
-        initspeed = -0.868;
+        AB_barrelTwist=10;
+        AB_barrelLength=11;
+        ACE_barrelTwist = 254;
+        ACE_barrelLength = 279.4;
+        initspeed = -0.735;
         scope = public;
         displayName = $STR_NIA_rifle_falosw;
         handAnim[] = {"OFP2_ManSkeleton", "\hlc_wp_fal\gesture\newgesture\gesture_OSW_STD.rtm"};
@@ -352,7 +352,7 @@ class CfgWeapons {
         reloadAction = "HLC_GestureReloadOSW";
         model = "\hlc_wp_FAL\mesh\sa58\osw.p3d";
         picture = "\hlc_wp_FAL\tex\ui\gear_osw_x_ca";
-        
+
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine", "Rails", "VFG" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\sa58\barrel-match_co.tga", "hlc_wp_fal\tex\fsight_co.tga", "hlc_wp_fal\tex\sa58\foregrip-dsa_co.tga", "hlc_wp_fal\tex\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\sa58\foldingstock_co.tga", "hlc_wp_fal\tex\mag-20_co.tga", "hlc_wp_fal\tex\dsatoprails_co.tga", "hlc_wp_fal\tex\sa58\verticalgrip_co.tga" };
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800,900*/};
@@ -499,7 +499,7 @@ class CfgWeapons {
     class UGL_F;
     class hlc_rifle_osw_GL : hlc_rifle_falosw {
         class WeaponSlotsInfo  {
-            mass = 130; 
+            mass = 131;
             class MuzzleSlot : asdg_MuzzleSlot_762 {
                 iconPosition[] = { 0.0, 0.45 };
                 iconScale = 0.2;
@@ -577,7 +577,7 @@ class CfgWeapons {
         AB_barrelTwist=12;
         AB_barrelLength=21.7;
         ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 551.18;
+        ACE_barrelLength = 554.4;
         scope = public;
         displayName = $STR_NIA_rifle_SLR;
         descriptionShort = $STR_NIA_FAL_DESC;
@@ -590,7 +590,7 @@ class CfgWeapons {
         picture = "\hlc_wp_FAL\tex\ui\gear_slr_x_ca";
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\israeli\rec_sanitary_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\israeli\frontsight-1_co.tga", "hlc_wp_fal\tex\lithgow\fsight2_co.tga", "hlc_wp_fal\tex\lithgow\fore-slr_co.tga", "hlc_wp_fal\tex\c1\grip-enfield_co.tga", "hlc_wp_fal\tex\israeli\rearsight-slr_co.tga", "hlc_wp_fal\tex\lithgow\stock-solid_co.tga", "hlc_wp_fal\tex\israeli\mag-20_co.tga" };
-        inertia = 0.43;  
+        inertia = 0.43;
         __DEXTERITY(4.5, 0);
         discretedistance[] = {/*100,*/200,300,400,500,600,700/*,800*/};
         discretedistanceinitindex = 0;
@@ -706,6 +706,10 @@ class CfgWeapons {
 
     class hlc_rifle_FAL5061Rail : hlc_fal_base {
         scope = public;
+        AB_barrelTwist=12;
+        AB_barrelLength=17.2;
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 436.9;
         author = "Bohemia Interactive, Arby25, Toadie";
         displayName = $STR_NIA_rifle_5061ris;
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_rails.p3d";
@@ -719,7 +723,7 @@ class CfgWeapons {
         discretedistance[] = {  200, 300, 400, 500, 600, 700 };
         discretedistanceinitindex = 2;
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 96;
+            mass = 92;
             class CowsSlot : asdg_OpticRail1913 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
@@ -750,9 +754,9 @@ class CfgWeapons {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie";
         AB_barrelTwist=12;
-        AB_barrelLength=18;
+        AB_barrelLength=17.2;
         ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 457.2;
+        ACE_barrelLength = 436.9;
         displayName = $STR_NIA_rifle_5061;
         descriptionShort = $STR_NIA_FAL_DESC;
         reloadAction = "HLC_GestureReloadFALLONG";
@@ -767,7 +771,7 @@ class CfgWeapons {
         inertia = 0.39;
         __DEXTERITY(3.9, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 85;
+            mass = 81;
             class CowsSlot: asdg_OpticRail {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.2;
@@ -801,9 +805,9 @@ class CfgWeapons {
         scope = public;
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
         AB_barrelTwist = 12;
-        AB_barrelLength = 18;
+        AB_barrelLength = 21;
         ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 457.2;
+        ACE_barrelLength = 533;
         displayName = $STR_NIA_rifle_5000;
         descriptionShort = "Battle Rifle<br/>Caliber: 7.62x51mm NATO";
         reloadAction = "HLC_GestureReloadFALLONG";
@@ -818,7 +822,7 @@ class CfgWeapons {
         inertia = 0.43;
         __DEXTERITY(4.3, 0);
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 90;
+            mass = 94;
         };
         class __MAGSWITCHCLASS {
             hlc_50Rnd_762x51_B_fal = "hlc_rifle_FAL5000_XMAG";
@@ -840,6 +844,10 @@ class CfgWeapons {
 
     class hlc_rifle_FAL5000Rail : hlc_rifle_FAL5061Rail {
         scope = public;
+        AB_barrelTwist = 12;
+        AB_barrelLength = 21;
+        ACE_barrelTwist = 304.8;
+        ACE_barrelLength = 533;
         displayName = $STR_NIA_rifle_5000ris;
         author = "Bohemia Interactive, Arby25, Toadie, Clifton Vlodhammer";
         model = "\hlc_wp_FAL\mesh\FN_FAL\fnFal_full_rails.p3d";
@@ -847,7 +855,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Stock", "Barrel", "Rail", "Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_fal\tex\bis_falpara\fnfal_co.tga", "hlc_wp_fal\tex\arby25_fal\fnfal2_co.tga", "hlc_wp_fal\tex\lithgow\barrel-slr_co.tga", "hlc_wp_fal\tex\bis_pvs4\anpvs4_co.tga", "hlc_core\tex\magazines\FALmag_20rnd_co.tga" };
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 99;
+            mass = 103;
         };
 		inertia = 0.5;
         __DEXTERITY(4.6, 0);
@@ -899,7 +907,7 @@ class CfgWeapons {
         AB_barrelTwist=12;
         AB_barrelLength=21.7;
         ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 551.18;
+        ACE_barrelLength = 554.4;
         scope = public;
         displayName = $STR_NIA_rifle_L1A1;
         descriptionShort = $STR_NIA_FAL_DESC;
@@ -931,7 +939,7 @@ class CfgWeapons {
         AB_barrelTwist=12;
         AB_barrelLength=21.7;
         ACE_barrelTwist = 304.8;
-        ACE_barrelLength = 551.18;
+        ACE_barrelLength = 554.4;
         scope = public;
         displayName = $STR_NIA_rifle_C1A1;
         hiddenSelections[] = { "Reciever", "Barrel", "Frontsight", "GasBlock", "Foregrip", "Grip", "Rearsight", "Stock", "Magazine" };
@@ -988,7 +996,7 @@ class CfgWeapons {
                 soundSetShot[] = { "FAL_Shot_SoundSet", "FAL2_tail_SoundSet" };
             };
             __MOA(2.4);
-        };       
+        };
         class single_medium_optics1 : Single {
             showToPlayer = 0;
             requiredoptictype = 1;

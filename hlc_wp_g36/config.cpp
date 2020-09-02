@@ -1,4 +1,4 @@
-// NOTE TO  FUTURE ME - 
+// NOTE TO  FUTURE ME -
 //G36 Rifle-length cycle - 0.093
 //Carbine = 0.88
 //Compact - 0.82
@@ -83,7 +83,7 @@ class niarms_XM8_PCAP_Underbarrel : UnderBarrelSlot {
     class compatibleItems {
     };
 };
-class CfgVehicles { 
+class CfgVehicles {
     dlc = "Niarms_G36";
     class B_supplyCrate_F;
     class HLC_G36_ammobox : B_supplyCrate_F {
@@ -766,7 +766,7 @@ class CfgWeapons {
             hasBipod = true;			/// bipod obviously has a bipod
             mass = 10;			/// what is the mass of the object
             soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
-            soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
+            soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding
         };
         inertia = 0.02;						/// how much does the bipod add to inertia of the weapon
     };
@@ -940,10 +940,10 @@ class CfgWeapons {
             __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
         };
         class AI_Burst_close : FullAuto {
-            
-                showToPlayer = 0; 
+
+                showToPlayer = 0;
                 aiBurstTerminable = 1;
-                burst = 4; 
+                burst = 4;
                 __AI_ROF_RIFLE_SMALL_CLOSE_BURST; \
         };
     };
@@ -1081,7 +1081,7 @@ class CfgWeapons {
         deployedpivot = "deploypivot";
         hasBipod = true;
         soundBipodDown[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_down", db - 3, 1, 20 };	/// what sound should be played during unfolding
-        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding			
+        soundBipodUp[] = { "A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_BLU_up", db - 3, 1, 20 };		/// what sound should be played during folding
         recoil = "recoil_mk20";
         displayName = $STR_NIA_rifle_MG36;
         descriptionShort = $STR_NIA_MG36_DESC;
@@ -1233,9 +1233,9 @@ class CfgWeapons {
         dlc = "Niarms_G36";
         author = "Toadie";
         AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
+        AB_barrelLength = 9;
         ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
+        ACE_barrelLength = 228;
         scope = public;
         deployedpivot = "deploypivot";
         hasBipod = false;
@@ -1358,7 +1358,7 @@ class CfgWeapons {
             showToPlayer = 0;
             aiBurstTerminable = 1;
             burst = 4;
-            __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
+            __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
         };
         class __MAGSWITCHCLASS {
             hlc_100rnd_556x45_EPR_G36 = "hlc_rifle_G36c_CMAG";
@@ -1781,9 +1781,9 @@ class CfgWeapons {
     class hlc_rifle_G36CV : hlc_rifle_G36V {
         dlc = "Niarms_G36";
         AB_barrelTwist = 12;
-        AB_barrelLength = 18.25;
+        AB_barrelLength = 9;
         ACE_barrelTwist = 178;
-        ACE_barrelLength = 318;
+        ACE_barrelLength = 228;
         author = "Toadie";
         displayName = $STR_NIA_rifle_G36CV;
         descriptionShort = $STR_NIA_G36_Compact_DESC;
@@ -2480,7 +2480,7 @@ class CfgWeapons {
         inertia = (0.28 + 0.21 + 0.066);
         __DEXTERITY((2.8 + 2.1 + 0.66), 1);
     };
-    ///CASELESS 
+    ///CASELESS
 
     class hlc_rifle_G36MLIC : hlc_G36_base {
         dlc = "Niarms_G36";
@@ -2853,7 +2853,7 @@ class CfgWeapons {
         };
         baseWeapon = "hlc_rifle_G36MLIAG36";
     };
-   
+
 
 
 };

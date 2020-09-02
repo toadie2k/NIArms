@@ -760,7 +760,7 @@ class CfgWeapons {
     };
     class hlc_rifle_awMagnum_OD_ghillie : hlc_rifle_awmagnum {
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 127;
+            mass = 151;
         };
         author = "toadie";
         displayName = $STR_NIA_rifle_AWM_OD_Ghillie;
@@ -769,7 +769,7 @@ class CfgWeapons {
     };
     class hlc_rifle_awMagnum_FDE_ghillie : hlc_rifle_awmagnum_FDE {
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 127;
+            mass = 151;
         };
         author = "toadie";
         displayName = $STR_NIA_rifle_AWM_FDE_Ghillie;
@@ -778,7 +778,7 @@ class CfgWeapons {
     };
     class hlc_rifle_awMagnum_BL_ghillie : hlc_rifle_awmagnum_BL {
         class WeaponSlotsInfo : WeaponSlotsInfo {
-            mass = 127;
+            mass = 151;
         };
         author = "toadie";
         displayName = $STR_NIA_rifle_AWM_Black_Ghillie;

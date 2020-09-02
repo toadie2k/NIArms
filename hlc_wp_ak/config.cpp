@@ -887,8 +887,8 @@ class CfgWeapons {
     class hlc_ak_base : Rifle_Base_F {
         magazineReloadSwitchPhase = 0.5;
         author = "Toadie";
-        recoil = "recoil_mk20";
-    
+        recoil = "recoil_aks";
+
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         hasBipod = false;          /// a weapon with bipod obviously has a bipod
         //    soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodout", db - 3, 1, 20 }; /// sound of unfolding the bipod
@@ -998,43 +998,43 @@ class CfgWeapons {
             class SilencedSound : BaseSoundModeType { /// Sounds inside this class are used when soundTypeIndex = 1, according to sounds[]
                 soundSetShot[] = { "Nia_ak74_silencerShot_SoundSet", "Nia_ak74_silencerTail_SoundSet" };
             };
-        }; 
+        };
         class AI_Burst_close : FullAuto {
-            
-                showToPlayer = 0; 
-                aiBurstTerminable = 1; 
-                burst = 7; 
-                __AI_ROF_AK_CLOSE_BURST; 
-        }; 
-        class AI_Burst_far : AI_Burst_close {
-            
-                burst = 4; 
-                __AI_ROF_AK_FAR_BURST; 
-        }; 
-        class AI_Single_optics1 : Single {
-            
-                showToPlayer = 0; 
-                requiredOpticType = 1; 
-                __AI_ROF_AK_MSCOPE_SINGLE; 
-        }; 
-        class AI_Single_optics2 : AI_Single_optics1 {
-            
-                requiredOpticType = 2; 
-                __AI_ROF_AK_HSCOPE_SINGLE; 
-        }; 
-        class Burst3 : Single {
-            
-                __AI_ROF_AK_SHORT_BURST; 
-                burst = 3; 
-                displayName = $STR_DN_MODE_BURST; 
-                textureType = "burst"; 
-                soundBurst = 0; 
+
                 showToPlayer = 0;
-        }; 
+                aiBurstTerminable = 1;
+                burst = 7;
+                __AI_ROF_AK_CLOSE_BURST;
+        };
+        class AI_Burst_far : AI_Burst_close {
+
+                burst = 4;
+                __AI_ROF_AK_FAR_BURST;
+        };
+        class AI_Single_optics1 : Single {
+
+                showToPlayer = 0;
+                requiredOpticType = 1;
+                __AI_ROF_AK_MSCOPE_SINGLE;
+        };
+        class AI_Single_optics2 : AI_Single_optics1 {
+
+                requiredOpticType = 2;
+                __AI_ROF_AK_HSCOPE_SINGLE;
+        };
+        class Burst3 : Single {
+
+                __AI_ROF_AK_SHORT_BURST;
+                burst = 3;
+                displayName = $STR_DN_MODE_BURST;
+                textureType = "burst";
+                soundBurst = 0;
+                showToPlayer = 0;
+        };
         class Burst2 : Burst3 {
-            
-                burst = 2; 
-                textureType = "dual"; 
+
+                burst = 2;
+                textureType = "dual";
         };
         drysound[] = {"\hlc_wp_ak\snd\empty_assaultrifles", 1, 1, 10};
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak74\ak74m_reload", 0.8, 1, 20 };
@@ -1089,7 +1089,7 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_ak74_ca";
         hiddenSelections[] = { "Main", "Dovetail", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_ak74\body_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
-        bg_bipod = 0; 
+        bg_bipod = 0;
         discreteDistance[] = { 200, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
@@ -1208,7 +1208,7 @@ class CfgWeapons {
         displayName = "Izhmash AKS74";
         hiddenSelections[] = { "Main", "Dovetail", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_aks\aks_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
-        bg_bipod = 0; 
+        bg_bipod = 0;
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 58;
         };
@@ -1229,7 +1229,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\aks74\aks74_45rnd.p3d";
         inertia = 0.29+0.08;
 		__DEXTERITY(2.9+0.8,0);
-        
+
     };
     class hlc_rifle_aks74_60rnd : hlc_rifle_aks74
     {
@@ -1246,6 +1246,8 @@ class CfgWeapons {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         author = "Maibatsu, Toadie";
         scope = public;
+        ACE_barrelLength = 414.02;
+        ACE_barrelTwist = 199.898;
         displayName = "Izhmash AK12";
         model = "\hlc_wp_ak\mesh\ak12\ak12.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_ak12_ca";
@@ -1361,34 +1363,34 @@ class CfgWeapons {
 
         };
         class AI_Burst_close : FullAuto {
-            
-                showToPlayer = 0; 
-                aiBurstTerminable = 1; 
-                burst = 4; 
-                __AI_ROF_RIFLE_SMALL_CLOSE_BURST; 
-        }; 
+
+                showToPlayer = 0;
+                aiBurstTerminable = 1;
+                burst = 4;
+                __AI_ROF_RIFLE_SMALL_CLOSE_BURST;
+        };
         class AI_Single_optics1 : Single {
-            
-                showToPlayer = 0; 
-                requiredOpticType = 1; 
-                __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE; 
-        }; 
+
+                showToPlayer = 0;
+                requiredOpticType = 1;
+                __AI_ROF_RIFLE_SMALL_MSCOPE_SINGLE;
+        };
         class AI_Single_optics2 : AI_Single_optics1 {
-            
-                requiredOpticType = 2; 
-                __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE; 
-        }; 
+
+                requiredOpticType = 2;
+                __AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE;
+        };
         class SemiAuto : Single {
             showToPlayer = 0;
-                __AI_ROF_RIFLE_SMALL_SEMI; 
-        }; 
+                __AI_ROF_RIFLE_SMALL_SEMI;
+        };
         class AI_far : Single {
-            
-                showToPlayer = 0; 
-                aiBurstTerminable = 1; 
-                burst = 5; 
-                reloadtime = 0.2; 
-                __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE; 
+
+                showToPlayer = 0;
+                aiBurstTerminable = 1;
+                burst = 5;
+                reloadtime = 0.2;
+                __AI_ROF_RIFLE_SMALL_FAR_FAST_SINGLE;
         };
         class Library {
             libTextDesc = "Izhmash AK12 5.45mm";
@@ -1502,7 +1504,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\ak12\ak12_m_co.tga", "hlc_wp_ak\tex\ak12\ak12_upper_co.tga", "hlc_wp_ak\tex\toadie_offset\rail_co.tga", "hlc_wp_ak\tex\mil_aks\aks-74u_co.tga", "hlc_wp_ak\tex\gp30\gp30_co.tga"};
         discretedistance[] = { 200, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
         discretedistanceinitindex = 2;
-        bg_bipod = 0; 
+        bg_bipod = 0;
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\ak12\ak12_reload2", 1, 1, 20 };
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
         reloadAction = "HLC_GestureReloadAK12New";
@@ -1604,10 +1606,12 @@ class CfgWeapons {
     class hlc_rifle_RPK12 : hlc_rifle_ak12 {
         dlc = "Niarms_AK";
         AB_barrelLength=23.2;
+        AB_barrelTwist = 9.45;
         ACE_barrelLength = 589.28;
+        ACE_barrelTwist = 240.03;
         agm_bipod=1;
         cse_bipod = 1;
-        bg_bipod = 1; 
+        bg_bipod = 1;
         hasBipod = true;          /// a weapon with bipod obviously has a bipod
         soundBipodDown[] = { "\hlc_wp_ak\snd\rpk_bipodin", db - 3, 1, 20 }; /// sound of unfolding the bipod
         soundBipodUp[] = { "\hlc_wp_ak\snd\rpk_bipodout", db - 3, 1, 20 }; /// sound of folding the bipod
@@ -1734,7 +1738,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mil_aks\aks-74u_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga","hlc_wp_ak\tex\rifleman_ak74\body_co.tga" };
         discretedistance[] = {350,500};
         discretedistanceinitindex = 0;
-        bg_bipod = 0; 
+        bg_bipod = 0;
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
         reloadAction = "HLC_GestureReloadAK545OneHand";
         class FullAuto: FullAuto {
@@ -1817,11 +1821,11 @@ class CfgWeapons {
         picture = "\hlc_wp_ak\tex\ui\gear_ak47_ca";
         hiddenSelections[] = { "Main","upper", "Dovetail", "Mount", "Magazine" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\47_rec_co.tga","hlc_wp_ak\tex\upper_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\magazine_co.tga" };
-        recoil = "recoil_mx";
+        recoil = "recoil_akm";
         discreteDistance[] = { 200, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
         discreteDistanceCameraPoint[] = { "eye", "eye_100", "eye_200", "eye_300", "eye_400", "eye_500", "eye_600", "eye_700", "eye_800", "eye_900", "eye_1000"/*, "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye", "eye" */ };
         cameraDir = "eye_look";
-        bg_bipod = 0; 
+        bg_bipod = 0;
         descriptionShort = "Assault rifle<br/>Caliber: 7.62mm";
         reloadAction = "HLC_GestureReloadAK762";
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\ak47\ak_reload_longer",0.9,1,30};
@@ -1848,41 +1852,41 @@ class CfgWeapons {
             };
         };
         class AI_Burst_close : FullAuto {
-            
-                showToPlayer = 0; 
-                aiBurstTerminable = 1; 
-                burst = 7; 
-                __AI_ROF_AK_CLOSE_BURST; 
-        }; 
-        class AI_Burst_far : AI_Burst_close {
-            
-                burst = 4; 
-                __AI_ROF_AK_FAR_BURST; 
-        }; 
-        class AI_Single_optics1 : Single {
-            
-                showToPlayer = 0; 
-                requiredOpticType = 1; 
-                __AI_ROF_AK_MSCOPE_SINGLE; 
-        }; 
-        class AI_Single_optics2 : AI_Single_optics1 {
-            
-                requiredOpticType = 2; 
-                __AI_ROF_AK_HSCOPE_SINGLE; 
-        }; 
-        class Burst3 : Single {
-            
-                __AI_ROF_AK_SHORT_BURST; 
-                burst = 3; 
-                displayName = $STR_DN_MODE_BURST; 
-                textureType = "burst"; 
-                soundBurst = 0; 
+
                 showToPlayer = 0;
-        }; 
+                aiBurstTerminable = 1;
+                burst = 7;
+                __AI_ROF_AK_CLOSE_BURST;
+        };
+        class AI_Burst_far : AI_Burst_close {
+
+                burst = 4;
+                __AI_ROF_AK_FAR_BURST;
+        };
+        class AI_Single_optics1 : Single {
+
+                showToPlayer = 0;
+                requiredOpticType = 1;
+                __AI_ROF_AK_MSCOPE_SINGLE;
+        };
+        class AI_Single_optics2 : AI_Single_optics1 {
+
+                requiredOpticType = 2;
+                __AI_ROF_AK_HSCOPE_SINGLE;
+        };
+        class Burst3 : Single {
+
+                __AI_ROF_AK_SHORT_BURST;
+                burst = 3;
+                displayName = $STR_DN_MODE_BURST;
+                textureType = "burst";
+                soundBurst = 0;
+                showToPlayer = 0;
+        };
         class Burst2 : Burst3 {
-            
-                burst = 2; 
-                textureType = "dual"; 
+
+                burst = 2;
+                textureType = "dual";
         };
 
         class Library {
@@ -1960,7 +1964,7 @@ class CfgWeapons {
             hlc_75Rnd_762x39_AP_rpk = "hlc_rifle_akm_75rnd";
             default = "hlc_rifle_akm";
         };
-    }; 
+    };
     class hlc_rifle_akm_45rnd : hlc_rifle_akm
     {
         scopeArsenal = 0;
@@ -2043,10 +2047,10 @@ class CfgWeapons {
         AB_barrelTwist=9.45;
         AB_barrelLength=23.2;
         ACE_barrelTwist = 240.03;
-        ACE_barrelLength = 589.28; 
+        ACE_barrelLength = 589.28;
         agm_bipod=1;
         cse_bipod = 1;
-        bg_bipod = 1; 
+        bg_bipod = 1;
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
         model = "\hlc_wp_ak\mesh\rpk\rpk_30rnd.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_rpk_x_ca";
@@ -2084,42 +2088,42 @@ class CfgWeapons {
             };
             __AI_ROF_MG_SINGLE;
         };
-        class 50m : FullAuto{ 
-			__AI_ROF_MG_FULLAUTO; 
-        		}; 
-        class AI_long : 50m { 
-			showToPlayer = 0; 
-            aiBurstTerminable = 1; 
-			__AI_ROF_MG_LONG_BURST; 
-        		}; 
-		class AI_close: AI_long { 
-			__AI_ROF_MG_CLOSE_BURST; 
-        		}; 
-		class AI_short: AI_close { 
-			__AI_ROF_MG_SHORT_BURST; 
-        		}; 
-		class AI_medium: AI_close { 
-			__AI_ROF_MG_MEDIUM_BURST; 
-        		}; 
-		class AI_far: AI_close { 
-			__AI_ROF_MG_FAR_BURST; 
-        		}; 
-		class AI_toofar: AI_far { 
-			__AI_ROF_MG_VERYFAR_BURST; 
-        		}; 
-		class AI_far_optic1: AI_far { 
-			requiredOpticType = 1; 
-			__AI_ROF_MG_FAR_SCOPE_BURST; 
-        		}; 
-		class AI_toofar_optic1: AI_far_optic1 { 
-			__AI_ROF_MG_VERYFAR_SCOPE_BURST; 
-        		}; 
-		class AI_far_optic2: AI_far_optic1 { 
-			requiredOpticType = 2; 
-        		}; 
-		class AI_toofar_optic2: AI_toofar_optic1 { 
-			requiredOpticType = 2; 
-        		}; 
+        class 50m : FullAuto{
+			__AI_ROF_MG_FULLAUTO;
+        		};
+        class AI_long : 50m {
+			showToPlayer = 0;
+            aiBurstTerminable = 1;
+			__AI_ROF_MG_LONG_BURST;
+        		};
+		class AI_close: AI_long {
+			__AI_ROF_MG_CLOSE_BURST;
+        		};
+		class AI_short: AI_close {
+			__AI_ROF_MG_SHORT_BURST;
+        		};
+		class AI_medium: AI_close {
+			__AI_ROF_MG_MEDIUM_BURST;
+        		};
+		class AI_far: AI_close {
+			__AI_ROF_MG_FAR_BURST;
+        		};
+		class AI_toofar: AI_far {
+			__AI_ROF_MG_VERYFAR_BURST;
+        		};
+		class AI_far_optic1: AI_far {
+			requiredOpticType = 1;
+			__AI_ROF_MG_FAR_SCOPE_BURST;
+        		};
+		class AI_toofar_optic1: AI_far_optic1 {
+			__AI_ROF_MG_VERYFAR_SCOPE_BURST;
+        		};
+		class AI_far_optic2: AI_far_optic1 {
+			requiredOpticType = 2;
+        		};
+		class AI_toofar_optic2: AI_toofar_optic1 {
+			requiredOpticType = 2;
+        		};
 
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 96;
@@ -2317,7 +2321,7 @@ class CfgWeapons {
         hiddenSelections[] = { "Main", "Dovetail", "Mount", "GP30" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\rifleman_aks\aks_co.tga", "hlc_wp_ak\tex\rifleman_ak74\mount_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga", "hlc_wp_ak\tex\gp30\gp30_co.tga" };
         muzzles[] = {"this", "hlc_GP30"};
-        bg_bipod = 0; 
+        bg_bipod = 0;
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 84;
         };
@@ -2361,6 +2365,7 @@ class CfgWeapons {
         displayName = "ZID AEK971S";
         model = "\hlc_wp_ak\mesh\aek971\aek971clean.p3d";
         picture = "\hlc_wp_ak\tex\ui\gear_aek_ca";
+        recoil = "recoil_aks"
         hiddenSelections[] = { "Main", "Mount" };
         hiddenSelectionsTextures[] = { "hlc_wp_ak\tex\mill_aek\bull5hit\aek971_co.tga", "hlc_wp_ak\tex\rrxviii_mtk83\mtk-83_co.tga" };
         reloadMagazineSound[] = { "hlc_wp_ak\snd\soundshaders\aek\aek_reload", 1, 1, 20 };
@@ -2369,7 +2374,7 @@ class CfgWeapons {
         cameraDir = "look";
         handAnim[] = { "OFP2_ManSkeleton", "hlc_wp_ak\anim\new_aks74uhandgesture.rtm" };
         discretedistanceinitindex = 0;
-        bg_bipod = 0; 
+        bg_bipod = 0;
         reloadAction = "HLC_GestureReloadAK545OneHand";
         modes[] = {"FullAuto","Burst","Single", "fullauto_medium", "single_medium_optics1", "single_far_optics2"};
         class FullAuto: Mode_FullAuto {
@@ -2525,7 +2530,7 @@ class CfgWeapons {
 
     class hlc_rifle_saiga12k : hlc_ak_base {
         dlc = "Niarms_AK";
-        recoil = "recoil_m320";
+        recoil = "recoil_MSBS65_ubs";
         ACE_barrelTwist = 0.0;
         ACE_twistDirection = 0;
         ACE_barrelLength = 429.26;
@@ -2541,7 +2546,7 @@ class CfgWeapons {
         discretedistance[] = {100,200,300,400};
         discretedistanceinitindex = 0;
         descriptionShort = "Shotgun<br/>Caliber:12 Gauge";
-        bg_bipod = 1; 
+        bg_bipod = 1;
         reloadMagazineSound[] = {"\hlc_wp_ak\snd\soundshaders\saiga\saiga_reload",0.9,1,30};
         modes[] = {"Single"};
         class Single: Mode_SemiAuto {
@@ -2599,6 +2604,8 @@ class CfgWeapons {
     class hlc_rifle_RK62 : hlc_ak_base {
         deployedPivot = "deploypivot";       /// what point should be used to be on surface while unfolded
         scope = public;
+        ACE_barrelLength = 418;
+        ACE_barrelTwist = 199.898;
         dlc = "Niarms_AK";
         author = "Nix";
         magazines[] = { __762x39_MAGS, __762x39_BI_MAGS };
@@ -2610,7 +2617,7 @@ class CfgWeapons {
         drysound[] = { "\hlc_wp_ak\snd\empty_assaultrifles", 1.5, 1, 10 };
         reloadMagazineSound[] = { "\hlc_wp_ak\snd\soundshaders\rk62\rk62_reload", 1, 1, 20 };
         reloadAction = "HLC_GestureReloadAK";
-        recoil = "recoil_mx";
+        recoil = "recoil_akm";
         class WeaponSlotsInfo : WeaponSlotsInfo {
             mass = 70;
             class MuzzleSlot : asdg_MuzzleSlot_762R {
@@ -3048,7 +3055,7 @@ class CfgWeapons {
         model = "\hlc_wp_ak\mesh\tigg_ak74m\ak74_mtk_60rnd.p3d";
         inertia = 0.36+0.109;
 		__DEXTERITY(3.6+1.09,0);
-        
+
     };
 
     class hlc_rifle_aek971_mtk : hlc_rifle_aek971 {
