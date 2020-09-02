@@ -251,7 +251,7 @@ class CfgAmmo {
         model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 1;
         tracerstarttime = 0.05;
-        typicalSpeed = 601;
+        typicalSpeed = 670.6;
         visibleFire = 3.8;
         supersonicCrackNear[] = {};
         supersonicCrackFar[] = {};
