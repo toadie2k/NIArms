@@ -82,6 +82,7 @@ class Stage7
 {
 	texture="a3\Data\env_land_co.tga";
 	uvSource="tex";
+	useWorldEnvMap = "true";
 	class uvTransform
 	{
 		aside[]={1,0,0};

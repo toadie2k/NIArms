@@ -78,5 +78,6 @@ class Stage6
 class Stage7
 {
 	texture="a3\Data\env_land_co.tga";
-	uvSource="none";
+	uvSource="tex";
+	useWorldEnvMap = "true";
 };

@@ -2,8 +2,8 @@ ambient[]={1,1,1,1};
 diffuse[]={0.69999999,0.69999999,0.69999999,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={1,1,1,1};
-specularPower=100;
+specular[]={0.75,0.75,0.75,1};
+specularPower=50;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -82,6 +82,7 @@ class Stage7
 {
 	texture="a3\Data\env_land_co.tga";
 	uvSource="tex";
+	useWorldEnvMap = "true";
 	class uvTransform
 	{
 		aside[]={1,0,0};

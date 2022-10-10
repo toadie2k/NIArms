@@ -58,6 +58,7 @@ class Stage5
 {
 	texture="hlc_core\tex\magazines\ak\mag12_smdi.tga";
 	uvSource="tex";
+	useWorldEnvMap = "true";
 	class uvTransform
 	{
 		aside[]={1,0,0};
