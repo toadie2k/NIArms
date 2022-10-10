@@ -181,6 +181,7 @@ class CfgAmmo {
     ArmA Name: Blackout EPR
     Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)
     Load Type: Supersonic
+	cart weight 15.29 per
     */
     class HLC_300Blackout_Ball : B_556x45_Ball {
         airFriction = -0.00113233;
@@ -282,6 +283,7 @@ class CfgAmmo {
     ArmA Name: RNBT Subsonic
     Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )
     Load Type: Subsonic
+	Cart weight- 20.28491g per
     */
     class HLC_300Blackout_RNBT : HLC_300Blackout_Ball {
         airFriction = -0.0004139;
@@ -482,6 +484,7 @@ class CfgAmmo {
         ACE_dragModel = 7;
         ACE_muzzleVelocities[] = { 700, 800, 820, 833, 845 };
         ACE_barrelLengths[] = { 254.0, 406.4, 508.0, 609.6, 660.4 };
+		model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
     class B_762x51_Tracer_Yellow;
     class HLC_B_762x51_Tracer_Dim : B_762x51_Tracer_Yellow {
@@ -995,6 +998,7 @@ class CfgAmmo {
     ArmA Name: FMJ
     Type: Full Metal Jacket Boat Tail
     Load Type: Supersonic
+	17.4957g loaded cart weight	
     */
     class HLC_68x43_FMJ :B_556x45_Ball
     {

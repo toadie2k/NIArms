@@ -145,7 +145,7 @@ class CfgMagazineWells
             "hlc_75Rnd_762x39_AP_rpk"
         };
     };
-    class STANAG_556x45
+	/*class STANAG_556x45
     {
         NIA_Magazines[] =
         {
@@ -209,7 +209,7 @@ class CfgMagazineWells
             "30Rnd_556x45_Stanag_Tracer_Yellow"
         };
     };
-    /*class M249_556x49
+    class M249_556x49
     {
         RHS_Magazines[] =
         {
@@ -264,7 +264,7 @@ class CfgMagazineWells
             "rhsusf_100Rnd_762x51_m82_blank"
         };
     };*/
-    class NIA_STANAG_556x45 :STANAG_556x45 {};
+    //class NIA_STANAG_556x45 :STANAG_556x45 {};
     class UGL_40x36
     {
         BI_Magazines[] =
@@ -306,4 +306,30 @@ class CfgMagazineWells
     class CBA_40mm_GP {
         NIA_grenades[] = { __40MM_GP_GRENADES };
     };
+	//"hlc_50rnd_300BLK_STANAG_EPR"
+	class CBA_300BLK_STANAG
+	{
+		NIA_mags[] =
+		{
+			"hlc_29rnd_300BLK_STANAG",
+			"hlc_29rnd_300BLK_STANAG_T", 
+			"hlc_29rnd_300BLK_STANAG_S",
+			"hlc_30rnd_300BLK_PMAG",
+			"hlc_30rnd_300BLK_PMAG_T",
+			"hlc_30rnd_300BLK_PMAG_S",
+			"hlc_30rnd_300BLK_EMAG",
+			"hlc_30rnd_300BLK_EMAG_T",
+			"hlc_30rnd_300BLK_EMAG_S",
+			"hlc_30rnd_300BLK_STANAGHD",
+			"hlc_30rnd_300BLK_STANAGHD_T",
+			"hlc_30rnd_300BLK_STANAGHD_S"
+		};
+	};
+	class CBA_300BLK_STANAG_XL
+	{
+		NIA_mags[] =
+		{
+		"hlc_50rnd_300BLK_STANAG_EPR"
+		};
+	};
 };

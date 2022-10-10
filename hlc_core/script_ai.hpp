@@ -133,12 +133,15 @@ Fire modes
 		midRangeProbab = 0.05;\
 		maxRange = 800;\
 		maxRangeProbab = 0.01
+#define __AI_RIFLE_SMALL_MODESLIST "AI_Single","AI_FullAuto","AI_Burst_close","AI_Single_optics1","AI_Single_optics2","SemiAuto", "AI_far"
 
 #define __AI_RIFLE_SMALL_MODES(semibase,fullbase) \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_SMALL_SINGLE; \
 		}; \
-		class FullAuto: ##fullbase { \
+		class AI_FullAuto: ##fullbase { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_SMALL_FULLAUTO; \
 		}; \
 		class AI_Burst_close: FullAuto { \
@@ -157,6 +160,7 @@ Fire modes
 			__AI_ROF_RIFLE_SMALL_HSCOPE_SINGLE; \
 		}; \
 		class SemiAuto: Single { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_SMALL_SEMI; \
 		}; \
 		class Burst3: Single { \
@@ -230,12 +234,15 @@ Fire modes
 		midRangeProbab = 0.7;\
 		maxRange = 30;\
 		maxRangeProbab = 0.2
+#define __AI_RIFLE_SMALL_CQB_MODESLIST  "AI_Single","AI_FullAuto","AI_Burst_close","AI_Single_optics1","AI_Single_optics2","SemiAuto"
 
 #define __AI_RIFLE_SMALL_CQB_MODES(semibase,fullbase) \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_CQB_SINGLE; \
 		}; \
-		class FullAuto: ##fullbase { \
+		class AI_FullAuto: ##fullbase { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_SMALL_FULLAUTO; \
 		}; \
 		class AI_Burst_close: FullAuto { \
@@ -253,6 +260,7 @@ Fire modes
 			requiredOpticType = 2; \
 		}; \
 		class SemiAuto: Single { \
+		showToPlayer = 0; \
 			__AI_ROF_CQB_SEMI; \
 		}; \
 		class Burst3: Single { \
@@ -328,12 +336,15 @@ Fire modes
 		midRangeProbab = 0.8;\
 		maxRange = 5;\
 		maxRangeProbab = 0.1
+#define __AI_RIFLE_MEDIUM_MODESLIST  "AI_Single","AI_FullAuto","AI_Burst_close","AI_Single_optics1","AI_Single_optics2","AI_SemiAuto"
 
 #define __AI_RIFLE_MEDIUM_MODES(semibase,fullbase) \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_MEDIUM_SINGLE; \
 		}; \
-		class FullAuto: ##fullbase { \
+		class AI_FullAuto: ##fullbase { \
+			showToPlayer = 0; \
 			__AI_ROF_RIFLE_MEDIUM_FULLAUTO; \
 		}; \
 		class AI_Burst_close: FullAuto { \
@@ -351,7 +362,8 @@ Fire modes
 			requiredOpticType = 2; \
 			__AI_ROF_RIFLE_MEDIUM_HSCOPE_SINGLE; \
 		}; \
-		class SemiAuto: Single { \
+		class AI_SemiAuto: Single { \
+		showToPlayer = 0; \
 			__AI_ROF_RIFLE_MEDIUM_SEMI; \
 		}
 
@@ -425,12 +437,15 @@ Fire modes
 		midRangeProbab = 0.3;\
 		maxRange = 1000;\
 		maxRangeProbab = 0.01
+#define __AI_AK_MODESLIST  "AI_Single","AI_FullAuto","AI_Burst_close","AI_Burst_far","AI_Single_optics1","AI_Single_optics2"
 
 #define __AI_AK_MODES(semibase,fullbase) \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_AK_SINGLE; \
 		}; \
-		class FullAuto: ##fullbase { \
+		class AI_FullAuto: ##fullbase { \
+			showToPlayer = 0; \
 			__AI_ROF_AK_FULLAUTO; \
 		}; \
 		class AI_Burst_close: FullAuto { \
@@ -464,6 +479,7 @@ Fire modes
 			burst = 2; \
             textureType = "dual"; \
 		}
+
 
 		
 // light-medium machineguns
@@ -574,9 +590,11 @@ Fire modes
 		midRangeProbab = 0.1;\
 		maxRange = 500;\
 		maxRangeProbab = 0.1
+#define __AI_MG_MODESLIST  "AI_long","AI_close","AI_short","AI_far","AI_toofar","AI_far_optic1"
 
 #define __AI_MG_MODES(m,fullbase,semibase) \
 		class ##m: ##fullbase { \
+			showToPlayer = 0; \
 			__AI_ROF_MG_FULLAUTO; \
 		}; \
 		class AI_long: ##m { \
@@ -612,7 +630,8 @@ Fire modes
 		class AI_toofar_optic2: AI_toofar_optic1 { \
 			requiredOpticType = 2; \
 		}; \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_MG_SINGLE; \
 		}
 
@@ -701,9 +720,11 @@ Fire modes
 		midRangeProbab = 0.7;\
 		maxRange = 2000;\
 		maxRangeProbab = 0.05
+#define __AI_338SNIPER_MODESLIST  "AI_Single","AI_Single_optics1","AI_Single_optics2"
 
 #define __AI_338SNIPER_MODES(semibase) \
-		class Single: ##semibase { \
+		class AI_Single: ##semibase { \
+			showToPlayer = 0; \
 			__AI_ROF_338SNIPER_SEMI; \
 		}; \
 		class AI_Single_optics1: Single { \

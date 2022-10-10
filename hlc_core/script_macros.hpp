@@ -6,6 +6,7 @@
 #define false	0
 
 #define __MAGSWITCHCLASS nia_magSwitch
+#define __GRIPSWITCHCLASS nia_gripSwitch
 
 #define __M_MAG(x,y)	class _xx_##x {magazine = ##x; count = ##y;}
 #define __M_WEP(x,y)	class _xx_##x {weapon = ##x; count = ##y;}
@@ -19,8 +20,15 @@
 #define __MOA(__X) dispersion = __EVAL(__X * 0.0002909)
 
 #define __OPTICSZOOM_1X opticsZoomMin = 0.25; opticsZoomMax = 1.25; opticsZoomInit = 0.75
+#define	__OPTICSMAGFOV(mag) (0.249/##mag)
 
-#define __WEAPONHOLDER(weepon,megazine,deename,deeelc,theman,editorsubcat)    class Weapon_##weepon : Weapon_Base_F {\
+#define __ICON_OVERLAY_DISABLED iconPosition[] = {0,0};\
+	iconScale = 1.0;\
+	iconPicture = \A3\Weapons_F\Data\clear_empty.paa;\
+	iconPinPoint = Left
+
+
+#define __WEAPONHOLDER(weepon,megazine,deename,deeelc,theman,editorsubcat)    class Weapon_##weepon : Weapon_Base_F	{\
         dlc = ##deeelc;\
         scope = 2;\
         scopeCurator = 2;\
@@ -36,6 +44,42 @@
             class ##megazine { magazine = ##megazine; count = 1; };\
         };\
     }
+	//USAGE: __ACCPANEL(TextureVariant); 
+	//Inherits the Pointer Slot Rail Protectors
+#define __PANELINHERIT(camo1) class HLC_Panel_Side_FN5cm_##camo1;\
+class HLC_Panel_Side_FN10cm_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_FN15cm_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_2xFN5cm_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_Ladder_S_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_Ladder_M_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_Ladder_L_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_MagpulXT_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_XTME_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_2xXTME_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_4xXTME_##camo1 :HLC_Panel_base{};\
+class HLC_Panel_Side_6xXTME_##camo1 :HLC_Panel_base{}
+
+	// USAGE: __ACCPANEL(<DLC Class>,<Source Panel Def>,<Target Grip Def>,<Author>,<Model Path>); 
+	// EXTRA NOTE: Please uses consistent additional prefixes here. SAVE YOURSELF SOME PAIN GIRL.
+#define __ACCPANEL(deaelc,srcpanel,paneltype,auther,modelpath)	class HLC_Panel_Side_##paneltype : HLC_Panel_Side_##srcpanel {\
+        dlc = ##deaelc;\
+        scope = 2;\
+        scopeCurator = 2;\
+        author = ##auther;\
+		model = ##modelpath;\
+}
+
+#define __ACCPANEL2(deaelc,srcpanel,paneltype,auther,modelpath,camooo1,camooo2)	class HLC_Panel_Side_##paneltype : HLC_Panel_Side_##srcpanel {\
+        dlc = ##deaelc;\
+        scope = 2;\
+        scopeCurator = 2;\
+        author = ##auther;\
+		model = ##modelpath;\
+		hiddenSelectionsTextures[] = { ##camooo1 , ##camooo2 };\
+}
+
+#define  __DEF_ACCPANEL(paneltype)	 HLC_Panel_Side_##paneltype = 1
+#define  __UNDEF_ACCPANEL(paneltype)	 HLC_Panel_Side_##paneltype = 0
 
 #define __556STANAG_MAGS "hlc_30rnd_556x45_EPR","hlc_30rnd_556x45_SOST","hlc_30rnd_556x45_SPR","hlc_30rnd_556x45_S","hlc_30rnd_556x45_M","hlc_30rnd_556x45_t","hlc_30rnd_556x45_MDim","hlc_30rnd_556x45_TDim","hlc_50rnd_556x45_EPR","hlc_50rnd_556x45_SOST","hlc_50rnd_556x45_SPR","hlc_50rnd_556x45_M","hlc_50rnd_556x45_MDim","hlc_30rnd_556x45_EPR_PMAG","hlc_30rnd_556x45_SOST_PMAG","hlc_30rnd_556x45_SPR_PMAG","hlc_30rnd_556x45_S_PMAG","hlc_30rnd_556x45_M_PMAG","hlc_30rnd_556x45_t_PMAG","hlc_30rnd_556x45_MDim_PMAG","hlc_30rnd_556x45_TDim_PMAG","hlc_30rnd_556x45_EPR_STANAGHD","hlc_30rnd_556x45_SOST_STANAGHD","hlc_30rnd_556x45_SPR_STANAGHD","hlc_30rnd_556x45_S_STANAGHD","hlc_30rnd_556x45_M_STANAGHD","hlc_30rnd_556x45_t_STANAGHD","hlc_30rnd_556x45_MDim_STANAGHD","hlc_30rnd_556x45_TDim_STANAGHD","hlc_30rnd_556x45_EPR_L5","hlc_30rnd_556x45_SOST_L5","hlc_30rnd_556x45_SPR_L5","hlc_30rnd_556x45_S_L5","hlc_30rnd_556x45_M_L5","hlc_30rnd_556x45_t_L5","hlc_30rnd_556x45_MDim_L5","hlc_30rnd_556x45_TDim_L5","hlc_30rnd_556x45_EPR_EMAG","hlc_30rnd_556x45_SOST_EMAG","hlc_30rnd_556x45_SPR_EMAG","hlc_30rnd_556x45_S_EMAG","hlc_30rnd_556x45_M_EMAG","hlc_30rnd_556x45_t_EMAG","hlc_30rnd_556x45_MDim_EMAG","hlc_30rnd_556x45_TDim_EMAG"
 #define __556STANAG_BI_MAGS "30Rnd_556x45_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Green", "30Rnd_556x45_Stanag_Tracer_Yellow", "30Rnd_556x45_Stanag_green", "30Rnd_556x45_Stanag_red"
@@ -69,11 +113,12 @@
 #define __40MM_M203_RHS_GRENADES "rhs_mag_M441_HE", "rhs_mag_M433_HEDP", "rhs_mag_M397_HET", "rhs_mag_M4009", "rhs_mag_m576", "rhs_mag_M585_white", "rhs_mag_M661_green", "rhs_mag_M662_red", "rhs_mag_M713_red", "rhs_mag_M714_white", "rhs_mag_M715_green", "rhs_mag_M716_yellow"
 #define __40MM_M203_CUP_GRENADES "CUP_1Rnd_StarCluster_White_M203", "CUP_1Rnd_StarCluster_Red_M203", "CUP_1Rnd_StarCluster_Green_M203", "CUP_1Rnd_StarFlare_White_M203", "CUP_1Rnd_StarFlare_Red_M203", "CUP_1Rnd_StarFlare_Green_M203", "CUP_1Rnd_HE_M203", "CUP_1Rnd_HEDP_M203", "CUP_FlareWhite_M203", "CUP_FlareGreen_M203", "CUP_FlareRed_M203", "CUP_FlareYellow_M203", "CUP_1Rnd_Smoke_M203", "CUP_1Rnd_SmokeRed_M203", "CUP_1Rnd_SmokeGreen_M203", "CUP_1Rnd_SmokeYellow_M203"
 
-#define __762FAL_MAGS "hlc_20Rnd_762x51_B_SCARH", "hlc_20Rnd_762x51_mk316_SCARH", "hlc_20Rnd_762x51_Barrier_SCARH", "hlc_20Rnd_762x51_t_SCARH", "hlc_20Rnd_762x51_TDim_SCARH", "hlc_20Rnd_762x51_S_SCARH","hlc_50Rnd_762x51_B_SCARH","hlc_50Rnd_762x51_T_SCARH","hlc_50Rnd_762x51_TDim_SCARH", "hlc_50rnd_762x51_M_SCARH","hlc_50rnd_762x51_MDIM_SCARH"
+#define __762FAL_MAGS "hlc_20Rnd_762x51_B_FAL", "hlc_20Rnd_762x51_mk316_FAL", "hlc_20Rnd_762x51_Barrier_FAL", "hlc_20Rnd_762x51_t_FAL", "hlc_20Rnd_762x51_TDim_FAL", "hlc_20Rnd_762x51_S_FAL","hlc_50Rnd_762x51_B_FAL","hlc_50Rnd_762x51_T_FAL","hlc_50Rnd_762x51_TDim_FAL", "hlc_50rnd_762x51_M_FAL","hlc_50rnd_762x51_MDIM_FAL"
 #define __762G3_MAGS "hlc_20rnd_762x51_b_G3", "hlc_20rnd_762x51_mk316_G3", "hlc_20rnd_762x51_barrier_G3", "hlc_20rnd_762x51_T_G3", "hlc_20rnd_762x51_IRDim_G3", "hlc_20rnd_762x51_MDIM_G3", "hlc_50rnd_762x51_MDIM_G3", "hlc_20rnd_762x51_S_G3","hlc_50Rnd_762x51_B_G3","hlc_50Rnd_762x51_T_G3","hlc_50Rnd_762x51_TDim_G3","hlc_50rnd_762x51_MDIM_G3", "hlc_50rnd_762x51_M_G3"
-#define __762FN_MAGS "hlc_10Rnd_762x51_B_SCARH", "hlc_10Rnd_762x51_mk316_SCARH", "hlc_10Rnd_762x51_Barrier_SCARH", "hlc_10Rnd_762x51_t_SCARH", "hlc_10Rnd_762x51_TDim_SCARH", "hlc_10Rnd_762x51_S_SCARH"
+#define __762FN_MAGS "hlc_10Rnd_762x51_B_FAL", "hlc_10Rnd_762x51_mk316_FAL", "hlc_10Rnd_762x51_Barrier_FAL", "hlc_10Rnd_762x51_t_FAL", "hlc_10Rnd_762x51_TDim_FAL", "hlc_10Rnd_762x51_S_FAL"
 #define __300WM_MAGS "hlc_5rnd_300WM_FMJ_AWM", "hlc_5rnd_300WM_mk248_AWM", "hlc_5rnd_300WM_BTSP_AWM", "hlc_5rnd_300WM_AP_AWM", "hlc_5rnd_300WM_SBT_AWM", "hlc_5rnd_300WM_T_AWM"
-#define __762SCARH_MAGS "hlc_20Rnd_762x51_B_SCARH", "hlc_20Rnd_762x51_mk316_SCARH", "hlc_20Rnd_762x51_Barrier_SCARH", "hlc_20Rnd_762x51_t_SCARH", "hlc_20Rnd_762x51_TDim_SCARH", "hlc_20Rnd_762x51_S_SCARH","hlc_50Rnd_762x51_B_SCARH","hlc_50Rnd_762x51_T_SCARH","hlc_50Rnd_762x51_TDim_SCARH", "hlc_50rnd_762x51_M_SCARH","hlc_50rnd_762x51_MDIM_SCARH","hlc_10Rnd_762x51_B_SCARH", "hlc_10Rnd_762x51_mk316_SCARH", "hlc_10Rnd_762x51_Barrier_SCARH", "hlc_10Rnd_762x51_t_SCARH", "hlc_10Rnd_762x51_TDim_SCARH", "hlc_10Rnd_762x51_S_SCARH"
+#define __762SCARH_MAGS "hlc_20Rnd_762x51_B_SCARH_tan", "hlc_20Rnd_762x51_mk316_SCARH_tan", "hlc_20Rnd_762x51_Barrier_SCARH_tan", "hlc_20Rnd_762x51_t_SCARH_tan", "hlc_20Rnd_762x51_TDim_SCARH_tan","hlc_20rnd_762x51_M_SCARH_tan","hlc_20rnd_762x51_MDIM_SCARH_tan","hlc_20Rnd_762x51_S_SCARH_tan", "hlc_20Rnd_762x51_S_SCARH_tan","hlc_20Rnd_762x51_B_SCARH", "hlc_20Rnd_762x51_mk316_SCARH", "hlc_20Rnd_762x51_Barrier_SCARH", "hlc_20Rnd_762x51_t_SCARH", "hlc_20Rnd_762x51_TDim_SCARH","hlc_20rnd_762x51_M_SCARH","hlc_20rnd_762x51_MDIM_SCARH", "hlc_20Rnd_762x51_S_SCARH","hlc_20Rnd_762x51_B_SCARH_camo", "hlc_20Rnd_762x51_mk316_SCARH_camo", "hlc_20Rnd_762x51_Barrier_SCARH_camo", "hlc_20Rnd_762x51_t_SCARH_camo", "hlc_20Rnd_762x51_TDim_SCARH_camo","hlc_20rnd_762x51_M_SCARH_camo","hlc_20rnd_762x51_MDIM_SCARH_camo","hlc_20Rnd_762x51_S_SCARH_camo","hlc_20Rnd_762x51_B_SCARH_MW2","hlc_20Rnd_762x51_barrier_SCARH_MW2","hlc_20Rnd_762x51_mk316_SCARH_MW2","hlc_20Rnd_762x51_TDIM_SCARH_MW2","hlc_20Rnd_762x51_T_SCARH_MW2","hlc_20Rnd_762x51_M_SCARH_MW2","hlc_20Rnd_762x51_MDIM_SCARH_MW2","hlc_20Rnd_762x51_S_SCARH_MW2"
+#define __762SCARH_MAGS_SHORT "hlc_10Rnd_762x51_B_SCARH_tan", "hlc_10Rnd_762x51_mk316_SCARH_tan", "hlc_10Rnd_762x51_Barrier_SCARH_tan", "hlc_10Rnd_762x51_t_SCARH_tan", "hlc_10Rnd_762x51_TDim_SCARH_tan","hlc_10Rnd_762x51_S_SCARH_tan","hlc_10Rnd_762x51_B_SCARH", "hlc_10Rnd_762x51_mk316_SCARH", "hlc_10Rnd_762x51_Barrier_SCARH", "hlc_10Rnd_762x51_t_SCARH", "hlc_10Rnd_762x51_TDim_SCARH", "hlc_10Rnd_762x51_S_SCARH","hlc_10Rnd_762x51_B_SCARH_camo", "hlc_10Rnd_762x51_mk316_SCARH_camo", "hlc_10Rnd_762x51_Barrier_SCARH_camo", "hlc_10Rnd_762x51_t_SCARH_camo", "hlc_10Rnd_762x51_TDim_SCARH_camo", "hlc_10Rnd_762x51_S_SCARH_camo"
 
 #define __556G36_MAGS "hlc_30rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SOST_G36", "hlc_100rnd_556x45_EPR_G36", "hlc_30rnd_556x45_SPR_G36", "hlc_30rnd_556x45_Tracers_G36","hlc_30rnd_556x45_M_G36","hlc_30rnd_556x45_MDIM_G36", "hlc_30rnd_556x45_TDIM_G36","hlc_30rnd_556x45_S_G36","hlc_100rnd_556x45_EPR_G36", "hlc_100rnd_556x45_M_G36" ,"hlc_100rnd_556x45_Mdim_G36"
 #define __556G36_CUP_MAGS "CUP_30Rnd_556x45_G36", "CUP_30Rnd_TE1_Red_Tracer_556x45_G36", "CUP_30Rnd_TE1_Green_Tracer_556x45_G36", "CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36", "CUP_100Rnd_556x45_BetaCMag", "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag", "CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag", "CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag"
@@ -100,5 +145,15 @@
 #define __DEXTERITY(__COMPONENTS,__MODIF) dexterity = __EVAL((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4); aimTransitionSpeed = __EVAL(((3.75/__EVAL(__COMPONENTS + 0.001)) + __EVAL(__MODIF/10) + 0.4) * 0.7)
 // handguns have another formula
 #define __PDEXTERITY(__COMPONENTS) dexterity = __EVAL((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9); aimTransitionSpeed = __EVAL(((0.75/__EVAL(__COMPONENTS + 0.001)) + 0.9) * 0.7)
+
+// Calculate Mass of Magazines/Items
+//__BULMASS = Mass of bullet (grams)
+//__ZINEMASS = Mass of magazine/item (grams) 
+//__ROUNDCOUNT = count of rounds 
+// to use with a non-magazine item - 
+//MAKE __BULMASS = 0 and __ROUNDCOUNT = 0
+// Function : ((Cartridge Mass X Capacity)+ Magazine Mass)* Magic Mass Number = Mass value
+#define __SMALLMASS(__BULMASS,__ROUNDCOUNT,__ZINEMASS) mass = __EVAL((((__BULMASS * __ROUNDCOUNT) + __ZINEMASS)/1000) * 21.8 )
+#define __BIGMASS(__BULMASS,__ROUNDCOUNT,__ZINEMASS) mass = __EVAL((((__BULMASS * __ROUNDCOUNT) + __ZINEMASS)/1000) * 45.38 )
 
 #include "script_ai.hpp"

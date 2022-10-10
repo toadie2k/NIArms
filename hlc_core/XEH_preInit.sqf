@@ -7,7 +7,7 @@
     true,
     true
 ] call CBA_Settings_fnc_init;
-["niarms_accswitch", 
+["niarms_gripSwitch", 
 "CHECKBOX", 
 ["Grip Switch", "Controls weapon model replacing for additional magazine compatibility."],
  "NIArms",

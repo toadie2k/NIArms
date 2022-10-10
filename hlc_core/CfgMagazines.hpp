@@ -24,7 +24,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
         displayname = $STR_NIA_30rnd_556x45_EPR;
         initspeed = 974.8;
-        mass = 11;
+		__SMALLMASS(9.3, 30, 112);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -43,7 +43,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
         displayname = $STR_NIA_30rnd_556x45_SOST;
         initspeed = 954.4;
-        mass = 12; //+1 mass over EPR for ever 30
+		__SMALLMASS(12.307, 30, 112);// +1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -61,7 +61,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
         displayname = $STR_NIA_30rnd_556x45_SPR;
         initspeed = 868.7;
-        mass = 14; //+2 mass over EPR for ever 30
+		__SMALLMASS(13.27, 30, 112); //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -88,7 +88,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
         displayname = $STR_NIA_30Rnd_556x45_M;
         initspeed = 974.8;
-        mass = 11;
+		__SMALLMASS(10.60937, 30, 112);
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -102,9 +102,8 @@ class CfgMagazines {
         count = 30;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
         displayname = $STR_NIA_30Rnd_556x45_T;
-
         initspeed = 974.8;
-        mass = 11;
+		__SMALLMASS(11.9, 30, 112);
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -119,6 +118,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
         displayname = $STR_NIA_30rnd_556x45_MDim;
         tracersevery = 4;
+		__SMALLMASS(10.60937, 30, 112);
         displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
@@ -130,6 +130,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
         displayname = $STR_NIA_30rnd_556x45_TDim;
         tracersevery = 1;
+		__SMALLMASS(11.9, 30, 112);
         displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_stanag_t_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
@@ -141,7 +142,7 @@ class CfgMagazines {
         count = 50;
         descriptionshort = $STR_NIA_DESC_50Rnd_556x45_B;
         displayname = $STR_NIA_50rnd_556x45_EPR;
-        mass = 43.53;
+		__SMALLMASS(9.3, 50, 1360);
         tracersevery = 0;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_EPR_ca.paa";
         lastroundstracer = 0;
@@ -152,7 +153,7 @@ class CfgMagazines {
     class hlc_50rnd_556x45_SOST : hlc_50rnd_556x45_EPR {
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SOST";
-        mass = 44.53;
+		__SMALLMASS(12.307, 50, 1360);
         displaynameshort = $STR_NIA_556_SOST;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_sost_ca.paa";
         descriptionshort = $STR_NIA_DESC_50Rnd_556x45_SOST;
@@ -162,7 +163,7 @@ class CfgMagazines {
     class hlc_50rnd_556x45_SPR : hlc_50rnd_556x45_EPR {
         author = "Toadie,Spartan0536";
         ammo = "HLC_556NATO_SPR";
-        mass = 44.53;
+		__SMALLMASS(13.27, 50, 1360);
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_SPR_ca.paa";
         displaynameshort = $STR_NIA_556_SPR;
         descriptionshort = $STR_NIA_DESC_50Rnd_556x45_SPR;
@@ -176,7 +177,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
         descriptionshort = $STR_NIA_DESC_50Rnd_556x45_M;
         displayname = $STR_NIA_50Rnd_556x45_M;
-        mass = 43.53;
+		__SMALLMASS(11.9, 50, 1360);
         tracersevery = 4;
         displaynameshort = $STR_NIA_556_M;
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
@@ -190,7 +191,7 @@ class CfgMagazines {
         displaynameshort = $STR_NIA_556_MDim;
         descriptionshort = $STR_NIA_DESC_50Rnd_556x45_Mdim;
         displayname = $STR_NIA_50rnd_556x45_MDim;
-        mass = 43.53;
+		__SMALLMASS(11.9, 50, 1360);
         tracersevery = 4;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_x15_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
@@ -203,7 +204,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
         displayname = $STR_NIA_30rnd_556x45_EPR_PMAG;
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(12.307, 30, 138.9);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -222,7 +223,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
         displayname = $STR_NIA_30rnd_556x45_SOST_PMAG;
         initspeed = 954.4;
-        mass = 12.6; //+1 mass over EPR for ever 30
+		__SMALLMASS(12.307, 30, 138.9);// +1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -237,7 +238,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
         displayname = $STR_NIA_30rnd_556x45_SPR_PMAG;
         initspeed = 868.7;
-        mass = 14.6; //+2 mass over EPR for ever 30
+		__SMALLMASS(13.27, 30, 138.9);// +1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -261,7 +262,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
         displayname = $STR_NIA_30Rnd_556x45_M_PMAG;
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(10.60937, 30, 138.9);// +1 mass over EPR for ever 30
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -275,9 +276,8 @@ class CfgMagazines {
         count = 30;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
         displayname = $STR_NIA_30Rnd_556x45_T_PMAG;
-
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(11.9, 30, 138.9);
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -291,6 +291,7 @@ class CfgMagazines {
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
         displayname = $STR_NIA_30rnd_556x45_MDim_PMAG;
+		__SMALLMASS(10.60937, 30, 138.9);
         tracersevery = 4;
         displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_m_ca.paa";
@@ -302,6 +303,7 @@ class CfgMagazines {
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
         displayname = $STR_NIA_30rnd_556x45_TDim_PMAG;
+		__SMALLMASS(11.9, 30, 138.9);
         tracersevery = 1;
         displaynameshort = $STR_NIA_556_IRDIM;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_pmag_t_ca.paa";
@@ -315,7 +317,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
         displayname = $STR_NIA_30rnd_556x45_EPR_STANAGHD;
         initspeed = 974.8;
-        mass = 13.6;
+		__SMALLMASS(9.3, 30, 244);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -334,7 +336,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
         displayname = $STR_NIA_30rnd_556x45_SOST_STANAGHD;
         initspeed = 954.4;
-        mass = 15.6; //+1 mass over EPR for ever 30
+		__SMALLMASS(12.307, 30, 244);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -349,7 +351,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
         displayname = $STR_NIA_30rnd_556x45_SPR_STANAGHD;
         initspeed = 868.7;
-        mass = 16.6; //+2 mass over EPR for ever 30
+		__SMALLMASS(13.27, 30, 244);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -373,7 +375,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
         displayname = $STR_NIA_30Rnd_556x45_M_STANAGHD;
         initspeed = 974.8;
-        mass = 13.6;
+		__SMALLMASS(10.60937, 30, 244);
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -387,9 +389,8 @@ class CfgMagazines {
         count = 30;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
         displayname = $STR_NIA_30Rnd_556x45_T_STANAGHD;
-
         initspeed = 974.8;
-        mass = 13.6;
+		__SMALLMASS(11.9, 30, 244);
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -400,6 +401,7 @@ class CfgMagazines {
     class hlc_30rnd_556x45_MDim_STANAGHD : hlc_30rnd_556x45_EPR_STANAGHD {
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+		__SMALLMASS(10.60937, 30, 244);
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
         displayname = $STR_NIA_30rnd_556x45_MDim_STANAGHD;
@@ -411,7 +413,7 @@ class CfgMagazines {
     class hlc_30rnd_556x45_TDim_STANAGHD :hlc_30rnd_556x45_EPR_STANAGHD {
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
-        initspeed = 950.3664;
+		__SMALLMASS(11.9, 30, 244);
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
         displayname = $STR_NIA_30rnd_556x45_TDim_STANAGHD;
         tracersevery = 1;
@@ -427,7 +429,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
         displayname = $STR_NIA_30rnd_556x45_EPR_L5;
         initspeed = 974.8;
-        mass = 10.8;
+		__SMALLMASS(9.3, 30, 127);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -446,7 +448,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
         displayname = $STR_NIA_30rnd_556x45_SOST_L5;
         initspeed = 954.4;
-        mass = 11.8; //+1 mass over EPR for ever 30
+		__SMALLMASS(12.307, 30, 127); //+1 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -461,7 +463,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
         displayname = $STR_NIA_30rnd_556x45_SPR_L5;
         initspeed = 868.7;
-        mass = 13.8; //+2 mass over EPR for ever 30
+		__SMALLMASS(13.27, 30, 127); //+2 mass over EPR for ever 30
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -485,7 +487,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
         displayname = $STR_NIA_30Rnd_556x45_M_L5;
         initspeed = 974.8;
-        mass = 10.8;
+		__SMALLMASS(10.60937, 30, 127);
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -500,7 +502,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_T;
         displayname = $STR_NIA_30Rnd_556x45_T_L5;
         initspeed = 974.8;
-        mass = 10.8;
+        __SMALLMASS(11.9, 30, 127);
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -511,6 +513,7 @@ class CfgMagazines {
     class hlc_30rnd_556x45_MDim_L5 : hlc_30rnd_556x45_EPR_L5 {
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+		__SMALLMASS(10.60937, 30, 127);
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
         displayname = $STR_NIA_30rnd_556x45_MDim_L5;
@@ -522,6 +525,7 @@ class CfgMagazines {
     class hlc_30rnd_556x45_TDim_L5 :hlc_30rnd_556x45_EPR_L5 {
         author = "Toadie,Spartan0536";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
+		__SMALLMASS(11.9, 30, 127);
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
         displayname = $STR_NIA_30rnd_556x45_TDim_L5;
@@ -531,6 +535,7 @@ class CfgMagazines {
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
     //EMAG
+	//
     class hlc_30rnd_556x45_EPR_EMAG : hlc_30rnd_556x45_EPR {
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR";
@@ -538,7 +543,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_B;
         displayname = $STR_NIA_30rnd_556x45_EPR_EMAG;
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(9.3, 30, 131.541);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -557,7 +562,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SOST;
         displayname = $STR_NIA_30rnd_556x45_SOST_EMAG;
         initspeed = 954.4;
-        mass = 12.6; //+1 mass over EPR for ever 30
+		__SMALLMASS(12.307, 30, 131.541);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -572,7 +577,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_SPR;
         displayname = $STR_NIA_30rnd_556x45_SPR_EMAG;
         initspeed = 868.7;
-        mass = 14.6; //+2 mass over EPR for ever 30
+		__SMALLMASS(13.27, 30, 131.541);
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
@@ -595,7 +600,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_M;
         displayname = $STR_NIA_30Rnd_556x45_M_EMAG;
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(10.60937, 30, 131.541);
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 4;
@@ -603,7 +608,6 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_greentip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
-
     class hlc_30rnd_556x45_t_EMAG : hlc_30rnd_556x45_EPR_EMAG {
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_556NATO_EPR_Tracer";
@@ -612,7 +616,7 @@ class CfgMagazines {
         displayname = $STR_NIA_30Rnd_556x45_T_EMAG;
 
         initspeed = 974.8;
-        mass = 11.6;
+		__SMALLMASS(11.9, 30, 131.541);
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
@@ -626,6 +630,7 @@ class CfgMagazines {
         initspeed = 950.3664;
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_Mdim;
         displayname = $STR_NIA_30rnd_556x45_MDim_EMAG;
+		__SMALLMASS(10.60937, 30, 131.541);
         tracersevery = 4;
         displaynameshort = $STR_NIA_556_MDim;
         picture = "\hlc_core\tex\ui\ammo\stanag\m_emag_m_ca.paa";
@@ -635,6 +640,7 @@ class CfgMagazines {
         author = "Toadie,Spartan0536,Tigg";
         ammo = "HLC_B_556x45_Ball_Tracer_Dim";
         initspeed = 950.3664;
+		__SMALLMASS(11.9, 30, 131.541);
         descriptionshort = $STR_NIA_DESC_30Rnd_556x45_irdim;
         displayname = $STR_NIA_30rnd_556x45_TDim_EMAG;
         tracersevery = 1;
@@ -643,6 +649,156 @@ class CfgMagazines {
         hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_redtip_co.paa", "hlc_core\tex\magazines\308_redtip_co.paa" };
     };
 
+	//===========================================================
+	//-----------.300 Blackout, moved from AR15------------------
+	//===========================================================
+
+
+	//STANAG
+	class hlc_29rnd_300BLK_STANAG : hlc_30rnd_556x45_EPR {
+		dlc = "Niarms_AR15";
+		author = "Toadie";
+		ammo = "HLC_300Blackout_Ball";
+		count = 30;
+		descriptionshort = $STR_NIA_DESC_29rnd_300BLK_STANAG;
+		displayname = $STR_NIA_29rnd_300BLK_STANAG;
+		initspeed = 674.6;
+		lastroundstracer = 0;
+		tracersevery = 0;
+		displaynameshort = $STR_NIA_300AAC_EPR;
+		picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
+		modelSpecialIsProxy = 1;
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
+		__SMALLMASS(15.29, 30, 112);
+	};
+	class hlc_29rnd_300BLK_STANAG_T : hlc_29rnd_300BLK_STANAG {
+		dlc = "Niarms_AR15";
+		author = "Toadie";
+		ammo = "HLC_300Blackout_RNBT";
+		descriptionshort = $STR_NIA_DESC_300BLK_STANAG_T;
+		displayname = $STR_NIA_29Rnd_300BLK_T_STANAG;
+		initspeed = 329.2;
+		lastroundstracer = 1;
+		tracersevery = 1;
+		displaynameshort = $STR_NIA_300AAC_LVTracer;
+		picture = "\hlc_core\tex\ui\ammo\m_blackout_sub_ca.paa";
+		__SMALLMASS(20.28491, 30, 112);
+	};
+	class hlc_29rnd_300BLK_STANAG_S : hlc_29rnd_300BLK_STANAG {
+		dlc = "Niarms_AR15";
+		author = "Toadie";
+		ammo = "HLC_300Blackout_SMK";
+		count = 30;
+		descriptionshort = $STR_NIA_DESC_300BLK_STANAG_S;
+		displayname = $STR_NIA_29Rnd_300BLK_IRDIM_STANAG;
+		model = "hlc_wp_ar15\mesh\magazine\magazine_300.p3d";
+		initspeed = 670.6;
+		lastroundstracer = 0;
+		displaynameshort = $STR_NIA_300AAC_SPR;
+		picture = "\hlc_core\tex\ui\ammo\m_blackout_fmj_ca.paa";
+		modelSpecialIsProxy = 1;
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG;
+		__SMALLMASS(14.58, 30, 112);
+	};
+	//X15
+	class hlc_50rnd_300BLK_STANAG_EPR : hlc_29rnd_300BLK_STANAG {
+		ammo = "HLC_300Blackout_Ball";
+		author = "Toadie";
+		count = 50;
+		descriptionshort = $STR_NIA_DESC_50rnd_300BLK_STANAG;
+		displayname = $STR_NIA_50Rnd_300BLK_M_STANAG;
+		displaynameshort = $STR_NIA_300AAC_M;
+		__SMALLMASS(15.29, 50, 1360);
+		tracersevery = 0;
+		picture = "\hlc_core\tex\ui\ammo\m_X15_mixed_ca.paa";
+		modelSpecial = \hlc_core\mesh\magazines\proxies\50rnd_556NATO_X15;
+		modelSpecialIsProxy = 1;
+		model = "\hlc_core\mesh\magazines\50rnd_556NATO_X15.p3d";
+	};
+	//PMAG
+	class hlc_30rnd_300BLK_PMAG : hlc_29rnd_300BLK_STANAG
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_PMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_PMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_PMAG;
+		__SMALLMASS(15.29, 30, 138.9);
+	};
+	class hlc_30rnd_300BLK_PMAG_T : hlc_29rnd_300BLK_STANAG_T
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_PMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_PMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30Rnd_300BLK_T_PMAG;
+		__SMALLMASS(20.28491, 30, 138.9);
+	};
+	class hlc_30rnd_300BLK_PMAG_S : hlc_29rnd_300BLK_STANAG_S
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_PMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_PMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_IRDIM_PMAG;
+		__SMALLMASS(14.58, 30, 138.9);
+	};
+	// H&K Heavy Duty STANAG
+	class hlc_30rnd_300BLK_STANAGHD : hlc_29rnd_300BLK_STANAG
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_HD;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_HD.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_STANAGHD;
+		__SMALLMASS(15.29, 30, 244);
+	};
+	class hlc_30rnd_300BLK_STANAGHD_T : hlc_29rnd_300BLK_STANAG_T
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_HD;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_HD.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_T_STANAGHD;
+		__SMALLMASS(20.28491, 30, 244);
+	};
+	class hlc_30rnd_300BLK_STANAGHD_S : hlc_29rnd_300BLK_STANAG_S
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_STANAG_HD;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_STANAG_HD.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_IRDIM_STANAGHD;
+		__SMALLMASS(14.58, 30, 244);
+	};
+	//EMAG
+	class hlc_30rnd_300BLK_EMAG : hlc_29rnd_300BLK_STANAG
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_EMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_EMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_EMAG;
+		__SMALLMASS(15.29, 30, 131.541);
+	};
+	class hlc_30rnd_300BLK_EMAG_T : hlc_29rnd_300BLK_STANAG_T
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_EMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_EMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_T_EMAG;
+		__SMALLMASS(20.28491, 30, 131.541);
+	};
+	class hlc_30rnd_300BLK_EMAG_S : hlc_29rnd_300BLK_STANAG_S
+	{
+		modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_556NATO_EMAG;
+		model = "\hlc_core\mesh\magazines\30rnd_556NATO_EMAG.p3d";
+		hiddenSelections[] = { "roundtype1", "roundtype2" };
+		hiddenSelectionsTextures[] = { "hlc_core\tex\magazines\308_co.paa", "hlc_core\tex\magazines\308_co.paa" };
+		displayname = $STR_NIA_30rnd_300BLK_IRDIM_EMAG;
+		__SMALLMASS(14.58, 30, 131.541);
+	};
 
     /*
     Mass Reference
@@ -651,54 +807,68 @@ class CfgMagazines {
 
     7.62x39
     ---------
+	57-N-231
     0.35 per
+	16.3g per
     57-N-231x30 - 10.77
     57-N-231x40 - 14
     57-N-231x75 - 26.25
 
+	57-N-231P
     0.34 per
+	16.4g per
     57-N-231Px30 - 10.2
     57-N-231Px40 - 13.6
     57-N-231Px75 - 25.5
 
+	7N23
     0.34 per
+	15.8g per
     7N23x30 - 10.2
     7N23x30 - 13.6
     7N23x30 - 25.5
 
+	57-N-231U
     0.46 per
+	20.9g per
     57-N-231Ux30 - 13.8
     57-N-231Ux40 - N.A
     57-N-231Ux60 - N.A
 
 
-    Steel - 7.18
-    Bakelite - 4.75
-    Valmet - 5.42
-    Magpul - 4.09
-    RPK - 5.92
-    Drum - 10.78 (supposedly)
+    Steel - 7.18 / 326g
+    Bakelite - 4.75 / 215g
+    Valmet - 5.42 / 246g
+    Magpul - 4.09 / 206g
+    RPK - 5.92 /269g
+    Drum - 10.78 (supposedly) / 499g
 
     5.45x39
     ---------
+	7n6
     0.23 per
+	10.5g
     (7n6)x 30 - 6.9
     (7n6)x 45 - 10.35
     (7n6)x 60 - 13.8
 
+	7n10
     0.24 per
+	10.7g
     (7n10)x 30 - 7.2
     (7n10)x 45 - 10.8
     (7n10)x 60 - 14.4
 
+	7t3
     0.22 per
+	10.3g
     (7t3)x 30 - 6.6
     (7t3)x 45 - 9.9
     (7t3)x 60 - 13.2
-
-    6L20/23 - 4.73
-    6L18/26 - 6.6
-    6L31 - 6.6
+	
+    6L20/23 - 4.73 / 216g
+    6L18/26 - 6.6 / 302g
+    6L31 - 6.6 / 302g
     */
 
 
@@ -718,6 +888,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_545x39_B_AK;
         displayname = $STR_NIA_30Rnd_545x39_B_AK;
         initSpeed = 879.9;
+		__SMALLMASS(10.5, 30, 216);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -725,7 +896,6 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        mass = 11.63;
         displaynameshort = $STR_NIA_545_FMJ;
 
     };
@@ -737,11 +907,11 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_545x39_S_AK;
         displayname = $STR_NIA_30Rnd_545x39_S_AK;
         initspeed = 371;
+		__SMALLMASS(10.75, 30, 216);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Subsonic_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 12.5;
         displaynameshort = $STR_NIA_545_Subsonic;
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20;
@@ -754,9 +924,9 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_545x39_T_AK;
         displayname = $STR_NIA_30Rnd_545x39_t_ak;
         lastroundstracer = 0;
+		__SMALLMASS(10.3, 30, 216);
         scope = 2;
         tracersevery = 1;
-        mass = 11.33;
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -772,7 +942,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 3;
-        mass = 11.53;
+		__SMALLMASS(10.4, 30, 216);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -788,7 +958,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 11.93;
+		__SMALLMASS(10.7, 30, 216);
         displaynameshort = $STR_NIA_545_EPR;
         initSpeed = 879.9;
         picture = "\hlc_core\tex\ui\ammo\m_ak_EPR_ca.paa";
@@ -809,6 +979,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_545x39_B_AK;
         displayname = $STR_NIA_30Rnd_545x39_B_AKplum;
         initSpeed = 879.9;
+		__SMALLMASS(10.5, 30, 216);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -816,7 +987,6 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        mass = 11.63;
         displaynameshort = $STR_NIA_545_FMJ;
 
     };
@@ -832,7 +1002,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Subsonic_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 12.5;
+		__SMALLMASS(10.75, 30, 216);
         displaynameshort = $STR_NIA_545_Subsonic;
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L20Plum;
@@ -847,7 +1017,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 1;
-        mass = 11.33;
+		__SMALLMASS(10.3, 30, 216);
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -863,7 +1033,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 3;
-        mass = 11.53;
+		__SMALLMASS(10.4, 30, 216);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_Mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -879,7 +1049,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 11.93;
+		__SMALLMASS(10.7, 30, 216);
         displaynameshort = $STR_NIA_545_EPR;
         initSpeed = 879.9;
         picture = "\hlc_core\tex\ui\ammo\m_ak_Plum_EPR_ca.paa";
@@ -901,6 +1071,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_545x39_B_AK;
         displayname = $STR_NIA_30Rnd_545x39_B_AKBlack;
         initSpeed = 879.9;
+		__SMALLMASS(10.5, 30, 216);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -908,7 +1079,6 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
         scope = 2;
         tracersevery = 0;
-        mass = 11.63;
         displaynameshort = $STR_NIA_545_FMJ;
 
     };
@@ -924,7 +1094,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Subsonic_CA.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 12.5;
+		__SMALLMASS(10.75, 30, 216);
         displaynameshort = $STR_NIA_545_Subsonic;
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
         modelSpecial = \hlc_core\mesh\magazines\proxies\30rnd_545x39_AK74_6L23;
@@ -939,7 +1109,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 1;
-        mass = 11.33;
+		__SMALLMASS(10.3, 30, 216);
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Tracer_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -955,7 +1125,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 3;
-        mass = 11.53;
+		__SMALLMASS(10.4, 30, 216);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_Mixed_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_545x39_AK74.p3d";
@@ -971,7 +1141,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 11.93;
+		__SMALLMASS(10.7, 30, 216);
         displaynameshort = $STR_NIA_545_EPR;
         initSpeed = 879.9;
         picture = "\hlc_core\tex\ui\ammo\M_AK_6L23_EPR_CA.paa";
@@ -995,7 +1165,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 17.6;
+		__SMALLMASS(10.5, 45, 302);
         displaynameshort = $STR_NIA_545_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1012,7 +1182,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 16.5;
+		__SMALLMASS(10.3, 45, 302);
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_Tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1029,7 +1199,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 3;
-        mass = 17.2;
+		__SMALLMASS(10.4, 45, 302);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_Mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1046,7 +1216,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 17.4;
+		__SMALLMASS(10.7, 45, 302);
         displaynameshort = $STR_NIA_545_EPR;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L18_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1067,7 +1237,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 17.6;
+		__SMALLMASS(10.5, 45, 302);
         displaynameshort = $STR_NIA_545_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1084,7 +1254,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 16.5;
+		__SMALLMASS(10.3, 45, 302);
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_Tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1101,7 +1271,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 3;
-        mass = 17.2;
+		__SMALLMASS(10.4, 45, 302);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_Mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1118,7 +1288,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 17.4;
+		__SMALLMASS(10.7, 45, 302);
         displaynameshort = $STR_NIA_545_EPR;
         picture = "\hlc_core\tex\ui\ammo\m_AK_6L26_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\45Rnd_545x39_rpk74.p3d";
@@ -1141,7 +1311,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 20.4;
+		__SMALLMASS(10.5, 60, 302);
         displaynameshort = $STR_NIA_545_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_RPk12_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
@@ -1158,7 +1328,7 @@ class CfgMagazines {
         lastroundstracer = 5;
         scope = 2;
         tracersevery = 3;
-        mass = 20.2;
+		__SMALLMASS(10.4, 60, 302);
         displaynameshort = $STR_NIA_545_M;
         picture = "\hlc_core\tex\ui\ammo\m_rpk12_mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
@@ -1175,7 +1345,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 19.8;
+		__SMALLMASS(10.3, 60, 302);
         displaynameshort = $STR_NIA_545_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_rpk12_tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
@@ -1192,7 +1362,7 @@ class CfgMagazines {
         lastroundstracer = 3;
         scope = 2;
         tracersevery = 0;
-        mass = 21;
+		__SMALLMASS(10.7, 45, 302);
         displaynameshort = $STR_NIA_545_EPR;
         picture = "\hlc_core\tex\ui\ammo\m_rpk12_mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\60rnd_545x39_RPK12.p3d";
@@ -1214,7 +1384,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 17.95;
+		__SMALLMASS(16.3, 30, 326);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1232,7 +1402,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 17.38;
+		__SMALLMASS(16.4, 30, 326);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Tracer_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1243,12 +1413,12 @@ class CfgMagazines {
         author = "Toadie";
         ammo = "HLC_762x39_Tracer";
         count = 30;
+		__SMALLMASS(16.33, 30, 326);
         descriptionshort = $STR_NIA_DESC_30rnd_762x39_m_AK;
         displayname = $STR_NIA_30Rnd_762x39_m_ak;
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 17.76;
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Mixed_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1264,7 +1434,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 17.38;
+		__SMALLMASS(15.8, 30, 326);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_AP_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1281,7 +1451,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 20.98;
+		__SMALLMASS(20.9, 30, 326);
         displaynameshort = $STR_NIA_762x39_subsonic;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Subsonic_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1301,7 +1471,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 15.45;
+		__SMALLMASS(16.3, 30, 215);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1319,7 +1489,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 14.95;
+		__SMALLMASS(16.4, 30, 215);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Tracer_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1335,7 +1505,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 15.28;
+		__SMALLMASS(16.33, 30, 215);
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Mixed_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1351,7 +1521,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 14.95;
+		__SMALLMASS(15.8, 30, 215);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_AP_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1368,7 +1538,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 18.55;
+		__SMALLMASS(20.9, 30, 215);
         displaynameshort = $STR_NIA_762x39_subsonic;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_6L10_Subsonic_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1388,7 +1558,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 16.19;
+		__SMALLMASS(16.3, 30, 246);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1406,7 +1576,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 15.62;
+		__SMALLMASS(16.4, 30, 246);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Tracer_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1422,7 +1592,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 16.19;
+		__SMALLMASS(16.33, 30, 246);
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Mixed_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1438,7 +1608,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 15.62;
+		__SMALLMASS(15.8, 30, 246);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_AP_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1455,7 +1625,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 19.22;
+		__SMALLMASS(20.9, 30, 246);
         displaynameshort = $STR_NIA_762x39_subsonic;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_Valmet_Subsonic_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1475,7 +1645,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 14.86;
+		__SMALLMASS(16.3, 30, 206);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1495,7 +1665,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 14.29;
+		__SMALLMASS(16.4, 30, 206);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Tracer_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1511,7 +1681,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 14.67;
+		__SMALLMASS(16.33, 30, 206);
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Mixed_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1527,7 +1697,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 14.29;
+		__SMALLMASS(15.8, 30, 206);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_AP_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1544,7 +1714,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 17.89;
+		__SMALLMASS(20.9, 30, 206);
         displaynameshort = $STR_NIA_762x39_subsonic;
         picture = "\hlc_core\tex\ui\ammo\m_AK47_PMAG_Subsonic_CA.paa";
         model = "\hlc_core\mesh\magazines\30rnd_762x39_AKM.p3d";
@@ -1611,7 +1781,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 19.92;
+		__SMALLMASS(16.3, 40, 269);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_RPK_FMJ_CA.paa";
         model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
@@ -1629,7 +1799,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 19.52;
+		__SMALLMASS(16.4, 40, 269);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_RPK_tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
@@ -1645,7 +1815,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 19.76;
+		__SMALLMASS(16.33, 40, 269);
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_rpk_mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
@@ -1661,7 +1831,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 19.52;
+		__SMALLMASS(15.8, 40, 269);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_RPK_AP_ca.paa";
         model = "\hlc_core\mesh\magazines\42rnd_762x39_RPK.p3d";
@@ -1682,7 +1852,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 37.03;
+		__SMALLMASS(16.3, 40, 499);
         displaynameshort = $STR_NIA_762x39_FMJ;
         picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_FMJ_ca.paa";
         model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
@@ -1699,7 +1869,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 1;
-        mass = 36.28;
+		__SMALLMASS(16.4, 40, 499);
         displaynameshort = $STR_NIA_762x39_Tracer;
         picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_Tracer_ca.paa";
         model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
@@ -1716,7 +1886,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         scope = 2;
         tracersevery = 3;
-        mass = 36.78;
+		__SMALLMASS(16.33, 40, 499);
         displaynameshort = $STR_NIA_762x39_M;
         picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_Mixed_ca.paa";
         model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
@@ -1733,7 +1903,7 @@ class CfgMagazines {
         lastroundstracer = 0;
         scope = 2;
         tracersevery = 0;
-        mass = 36.28;
+		__SMALLMASS(15.8, 40, 499);
         displaynameshort = $STR_NIA_762x39_AP;
         picture = "\hlc_core\tex\ui\ammo\m_rpkdrum_AP_ca.paa";
         model = "\hlc_core\mesh\magazines\75rnd_762x39_RPK.p3d";
@@ -1817,36 +1987,6 @@ class CfgMagazines {
         picture = "\A3\Weapons_f\Data\UI\gear_UGL_Smokeshell_blue_CA.paa";
     };
 
-    /*
-    //FAL MAGs
-    class hlc_20rnd_762x51_b_fal;
-    class hlc_20rnd_762x51_t_fal;
-    class hlc_20rnd_762x51_s_fal;
-
-    class hlc_20rnd_762x51_B_SCAR : hlc_20Rnd_762x51_B_fal {
-    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-    displayname = "SCAR-H Mag (Ball) 20rnd 7.62mm";
-    initspeed = 714;
-    mass = 7;
-    displaynameshort = "7.62mm Ball";
-    picture = "\hlc_core\tex\ui\ammo\m_scarhball_ca.paa";
-    };
-    class hlc_20rnd_762x51_T_SCAR : hlc_20Rnd_762x51_T_fal {
-    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-    displayname = "SCAR-H Mag (Tracer) 20rnd 7.62mm";
-    initspeed = 714;
-    mass = 7;
-    displaynameshort = "7.62mm Tracer";
-    picture = "\hlc_core\tex\ui\ammo\m_scarhTracer_ca.paa";
-    };
-    class hlc_20rnd_762x51_S_SCAR : hlc_20Rnd_762x51_S_fal {
-    descriptionshort = "Caliber: 7.62x51mm NATO<br />Rounds: 20<br />Used in: SCAR-H(Mk17)";
-    displayname = "SCAR-H Mag (SubSonic) 20rnd 7.62mm";
-    displaynameshort = "7.62mm Subsonic";
-    picture = "\hlc_core\tex\ui\ammo\m_scarhsubsonic_ca.paa";
-    mass = 7;
-    };
-    */
 
     // Tommy Gun Drums
     class hlc_50Rnd_45ACP_B_1921 : 30Rnd_556x45_Stanag{
@@ -1858,7 +1998,7 @@ class CfgMagazines {
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_m1928ball_ca.paa";
         scope = 0;
-        mass = 47.9;
+		__SMALLMASS(21.38, 50, 1200);
         tracersevery = 0;
         displaynameshort = ".45ACP Ball";
     };
@@ -1907,7 +2047,7 @@ class CfgMagazines {
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 58.2;
+		__SMALLMASS(29.75, 100, 0);
         displaynameshort = $STR_NIA_762NATO_EPR;
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -1916,6 +2056,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
+		__SMALLMASS(29.16, 100, 0);
         descriptionshort = $STR_NIA_DESC_100Rnd_762x51_M;
         displayname = $STR_NIA_100Rnd_762x51_M_M60E4;
         lastroundstracer = 5;
@@ -1927,6 +2068,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
+		__SMALLMASS(29.16, 100, 0);
         descriptionshort = $STR_NIA_DESC_100Rnd_762x51_Mdim;
         displayname = $STR_NIA_100Rnd_762x51_Mdim_M60E4;
         lastroundstracer = 5;
@@ -1938,6 +2080,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_Barrier";
+		__SMALLMASS(29.16, 100, 0);
         descriptionshort = $STR_NIA_DESC_100Rnd_762x51_Msost;
         displayname = $STR_NIA_100Rnd_762x51_Barrier_M60E4;
         lastroundstracer = 5;
@@ -1949,6 +2092,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
+		__SMALLMASS(29.16, 100, 0);
         descriptionshort = $STR_NIA_DESC_100Rnd_762x51_T;
         displayname = $STR_NIA_100Rnd_762x51_T_M60E4;
         lastroundstracer = 5;
@@ -1968,10 +2112,10 @@ class CfgMagazines {
         modelSpecialIsProxy = 1;
         initspeed = 853;
         lastroundstracer = 5;
+		__SMALLMASS(29.75, 200, 0);
         picture = "\hlc_core\tex\ui\ammo\m_m60e4ball_ca.paa";
         scope = 2;
         tracersevery = 0;
-        mass = 116.4;
         displaynameshort = $STR_NIA_762NATO_EPR;
         nameSound = "mgun";
         ACE_isBelt = 1;
@@ -1980,6 +2124,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
+		__SMALLMASS(29.16, 200, 0);
         descriptionshort = $STR_NIA_DESC_200Rnd_762x51_M;
         displayname = $STR_NIA_200Rnd_762x51_M_M60E4;
         lastroundstracer = 5;
@@ -1991,6 +2136,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_B_762x51_Tracer_Dim";
+		__SMALLMASS(29.16, 200, 0);
         descriptionshort = $STR_NIA_DESC_200Rnd_762x51_Mdim;
         displayname = $STR_NIA_200Rnd_762x51_Mdim_M60E4;
         lastroundstracer = 5;
@@ -2002,6 +2148,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_Barrier";
+		__SMALLMASS(29.16, 200, 0);
         descriptionshort = $STR_NIA_DESC_200Rnd_762x51_Msost;
         displayname = $STR_NIA_200Rnd_762x51_Barrier_M60E4;
         lastroundstracer = 5;
@@ -2013,6 +2160,7 @@ class CfgMagazines {
         dlc = "Niarms_M60";
         author = "Toadie";
         ammo = "HLC_762x51_ball";
+		__SMALLMASS(29.16, 200, 0);
         descriptionshort = $STR_NIA_DESC_200Rnd_762x51_T;
         displayname = $STR_NIA_200Rnd_762x51_T_M60E4;
         lastroundstracer = 5;
@@ -2031,7 +2179,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_20Rnd_762x51_B_fal;
         displayname = $STR_NIA_20Rnd_762x51_B_fal;
         initspeed = 908.4;
-        mass = 16.7;
+		__SMALLMASS(25.4, 20, 250);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";\
@@ -2048,7 +2196,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_20Rnd_762x51_sblr_fal;
         displayname = $STR_NIA_20Rnd_762x51_mk316_fal;
         initspeed = 731;
-        mass = 18.7; // +2 per 20 rounds 
+		__SMALLMASS(25.4, 20, 250);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_SPR_ca.paa";
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
@@ -2064,7 +2212,7 @@ class CfgMagazines {
         displayname = $STR_NIA_20Rnd_762x51_barrier_fal;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         initspeed = 890.4;
-        mass = 17.7; // +2 per 20
+		__SMALLMASS(22.52, 20, 250);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_SOST_ca.paa";
         scope = 2;
@@ -2079,7 +2227,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 16.7;
+		__SMALLMASS(23.856836, 20, 250);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_Tracer;
@@ -2092,7 +2240,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 16.7;
+		__SMALLMASS(23.856836, 20, 250);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_IRDIM;
@@ -2100,7 +2248,7 @@ class CfgMagazines {
     class hlc_20rnd_762x51_M_FAL : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         count = 20;
-        mass = 16.7;
+		__SMALLMASS(24.628, 20, 250);
         descriptionshort = $STR_NIA_DESC_20Rnd_762x51_M_fal;
         displayname = $STR_NIA_20rnd_762x51_M_FAL;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
@@ -2119,13 +2267,13 @@ class CfgMagazines {
         displayname = $STR_NIA_20rnd_762x51_MDIM_FAL;
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         initspeed = 908.4;
-        mass = 16.7;
+		__SMALLMASS(24.628, 20, 250);
         lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_FAL20_M_ca.paa";
         scope = 2;
         tracersevery = 4;
         displaynameshort = $STR_NIA_762NATO_MDim;
-    };
+    }; 
     class hlc_20Rnd_762x51_S_fal : hlc_20Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         ammo = "HLC_762x51_BTSub";
@@ -2134,7 +2282,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\20rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 16.3;
+		__SMALLMASS(27.1046, 20, 250);
         tracersevery = 0;
         initspeed = 325;
         displaynameshort = $STR_NIA_762NATO_Subsonic;
@@ -2149,7 +2297,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_50Rnd_762x51_B_fal;
         displayname = $STR_NIA_50Rnd_762x51_B_fal;
         initspeed = 908.4;
-        mass = 49.47;
+		__SMALLMASS(25.4, 50, 700);
         lastroundstracer = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL50_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
@@ -2167,7 +2315,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 16.7;
+		__SMALLMASS(23.856836, 50, 700);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL50_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_Tracer;
@@ -2180,7 +2328,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 16.7;
+		__SMALLMASS(23.856836, 50, 700);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL50_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_IRDIM;
@@ -2188,7 +2336,7 @@ class CfgMagazines {
     class hlc_50rnd_762x51_M_FAL : hlc_50Rnd_762x51_B_fal {
         author = "Toadie, Spartan0536";
         count = 50;
-        mass = 49.47;
+		__SMALLMASS(24.628, 50, 700);
         descriptionshort = $STR_NIA_DESC_50Rnd_762x51_m_fal;
         displayname = $STR_NIA_50rnd_762x51_M_FAL;
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
@@ -2207,7 +2355,7 @@ class CfgMagazines {
         displayname = $STR_NIA_50rnd_762x51_MDIM_FAL;
         model = "\hlc_core\mesh\magazines\50rnd_762NATO_XMAG.p3d";
         initspeed = 908.4;
-        mass = 49.47;
+		__SMALLMASS(24.628, 50, 700);
         lastroundstracer = 3;
         picture = "\hlc_core\tex\ui\ammo\m_FAL50_M_ca.paa";
         scope = 2;
@@ -2221,7 +2369,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_10Rnd_762x51_B_fal;
         displayname = $STR_NIA_10Rnd_762x51_B_fal;
         initspeed = 870;
-        mass = 8.7;
+		__SMALLMASS(25.4, 10, 145.14);
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_FAL10_EPR_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
@@ -2238,7 +2386,7 @@ class CfgMagazines {
         descriptionshort = $STR_NIA_DESC_10Rnd_762x51_sblr_fal;
         displayname = $STR_NIA_10Rnd_762x51_mk316_fal;
         initspeed = 890;
-        mass = 9.2;
+		__SMALLMASS(25.4, 10, 145.14);
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_FAL10_SPR_ca.paa";
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
@@ -2254,7 +2402,7 @@ class CfgMagazines {
         displayname = $STR_NIA_10Rnd_762x51_barrier_fal;
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         initspeed = 850;
-        mass = 8.9;
+		__SMALLMASS(22.52, 10, 145.14);
         lastroundstracer = 0;
         picture = "\hlc_core\tex\ui\ammo\m_FAL10_SOST_ca.paa";
         scope = 2;
@@ -2269,7 +2417,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 8.7;
+		__SMALLMASS(23.856836, 10, 145.14);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL10_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_Tracer;
@@ -2282,7 +2430,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 8.7;
+		__SMALLMASS(23.856836, 10, 145.14);
         tracersevery = 1;
         picture = "\hlc_core\tex\ui\ammo\m_FAL10_T_ca.paa";
         displaynameshort = $STR_NIA_762NATO_IRDIM;
@@ -2295,7 +2443,7 @@ class CfgMagazines {
         model = "\hlc_core\mesh\magazines\10rnd_762NATO_FAL.p3d";
         lastroundstracer = 0;
         scope = 2;
-        mass = 8.0;
+		__SMALLMASS(27.1046, 10, 145.14);
         tracersevery = 0;
         initspeed = 325;
         displaynameshort = $STR_NIA_762NATO_Subsonic;

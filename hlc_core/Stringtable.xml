@@ -122,6 +122,67 @@
         <Korean>EPR/Tracer</Korean>
         <Chinesesimp>EPR/Tracer</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_300AAC_EPR">
+        <Original>Blackout EPR</Original>
+        <English>Blackout EPR</English>
+        <Czech>Blackout EPR</Czech>
+        <French>Blackout EPR</French>
+        <Spanish>Blackout EPR</Spanish>
+        <Italian>Blackout EPR</Italian>
+        <Polish>Blackout EPR</Polish>
+        <Portuguese>Blackout EPR</Portuguese>
+        <Russian>Blackout EPR</Russian>
+        <German>Blackout EPR</German>
+        <Japanese>Blackout EPR</Japanese>
+        <Korean>Blackout EPR</Korean>
+        <Chinesesimp>Blackout EPR</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_300AAC_LVTracer">
+        <Original>Subsonic Tracer</Original>
+        <English>Subsonic Tracer</English>
+        <Czech>Subsonic Tracer</Czech>
+        <French>Subsonic Tracer</French>
+        <Spanish>Subsonic Tracer</Spanish>
+        <Italian>Subsonic Tracer</Italian>
+        <Polish>Subsonic Tracer</Polish>
+        <Portuguese>Subsonic Tracer</Portuguese>
+        <Russian>Subsonic Tracer</Russian>
+        <German>Subsonic Tracer</German>
+        <Japanese>Subsonic Tracer</Japanese>
+        <Korean>Subsonic Tracer</Korean>
+        <Chinesesimp>Subsonic Tracer</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_300AAC_SPR">
+        <Original>TAC-TX</Original>
+        <English>TAC-TX</English>
+        <Czech>TAC-TX</Czech>
+        <French>TAC-TX</French>
+        <Spanish>TAC-TX</Spanish>
+        <Italian>TAC-TX</Italian>
+        <Polish>TAC-TX</Polish>
+        <Portuguese>TAC-TX</Portuguese>
+        <Russian>TAC-TX</Russian>
+        <German>TAC-TX</German>
+        <Japanese>TAC-TX</Japanese>
+        <Korean>TAC-TX</Korean>
+        <Chinesesimp>TAC-TX</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_300AAC_M">
+        <Original>EPR/Tracer</Original>
+        <English>EPR/Tracer</English>
+        <Czech>EPR/Tracer</Czech>
+        <French>EPR/Tracer</French>
+        <Spanish>EPR/Tracer</Spanish>
+        <Italian>EPR/Tracer</Italian>
+        <Polish>EPR/Tracer</Polish>
+        <Portuguese>EPR/Tracer</Portuguese>
+        <Russian>EPR/Tracer</Russian>
+        <German>EPR/Tracer</German>
+        <Japanese>EPR/曳光弾</Japanese>
+        <Korean>EPR/Tracer</Korean>
+        <Chinesesimp>EPR/Tracer</Chinesesimp>
+      </Key>
+      
       <Key ID="STR_NIA_68x43_FMJ">
         <Original>FMJ</Original>
         <English>FMJ</English>
@@ -783,8 +844,13 @@
         <Korean>Blue Smoke</Korean>
         <Chinesesimp>Blue Smoke</Chinesesimp>
       </Key>
+      
     </Container>
     <Container name="Mag_Names">
+      <!--=========================-->
+      <!--STANAG Mags-->
+      <!--=========================-->
+      <!--STANAG-->
       <Key ID="STR_NIA_30rnd_556x45_EPR">
         <Original>5.56mm EPR 30Rnd STANAG</Original>
         <English>5.56mm EPR 30Rnd STANAG</English>
@@ -905,6 +971,7 @@
         <Korean>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG (IR-DIM every 4)</Chinesesimp>
       </Key>
+      <!--X15-->
       <Key ID="STR_NIA_50rnd_556x45_EPR">
         <Original>5.56mm EPR 50Rnd X15</Original>
         <English>5.56mm EPR 50Rnd X15</English>
@@ -1025,6 +1092,7 @@
         <Korean>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 50Rnd X15 (IR-DIM every 4)</Chinesesimp>
       </Key>
+      <!--PMAG-->
       <Key ID="STR_NIA_30rnd_556x45_EPR_PMAG">
         <Original>5.56mm EPR 30Rnd PMAG</Original>
         <English>5.56mm EPR 30Rnd PMAG</English>
@@ -1145,6 +1213,7 @@
         <Korean>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd PMAG (IR-DIM every 4)</Chinesesimp>
       </Key>
+      <!--STANAG Heavy-Duty-->
       <Key ID="STR_NIA_30rnd_556x45_EPR_STANAGHD">
         <Original>5.56mm EPR 30Rnd STANAG-Heavy</Original>
         <English>5.56mm EPR 30Rnd STANAG-Heavy</English>
@@ -1265,6 +1334,7 @@
         <Korean>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd STANAG-Heavy (IR-DIM every 4)</Chinesesimp>
       </Key>
+      <!--Lancer L5-->
       <Key ID="STR_NIA_30rnd_556x45_EPR_L5">
         <Original>5.56mm EPR 30Rnd Lancer</Original>
         <English>5.56mm EPR 30Rnd Lancer</English>
@@ -1385,6 +1455,7 @@
         <Korean>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd Lancer (IR-DIM every 4)</Chinesesimp>
       </Key>
+      <!--EMAG-->
       <Key ID="STR_NIA_30rnd_556x45_EPR_EMAG">
         <Original>5.56mm EPR 30Rnd EMAG</Original>
         <English>5.56mm EPR 30Rnd EMAG</English>
@@ -1505,6 +1576,215 @@
         <Korean>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Korean>
         <Chinesesimp>5.56mm EPR 30Rnd EMAG (IR-DIM every 4)</Chinesesimp>
       </Key>
+
+      <!--=========================-->
+      <!--STANAG Mags-->
+      <!--=========================-->
+      <!--STANAG-->
+      <Key ID="STR_NIA_29rnd_300BLK_STANAG">
+        <Original>.300AAC EPR 30Rnd STANAG Magazine</Original>
+        <English>.300AAC EPR 30Rnd STANAG Magazine</English>
+        <Czech>.300AAC EPR 30Rnd STANAG Magazine</Czech>
+        <French>.300AAC EPR 30Rnd STANAG Magazine</French>
+        <Spanish>.300AAC EPR 30Rnd STANAG Magazine</Spanish>
+        <Italian>.300AAC EPR 30Rnd STANAG Magazine</Italian>
+        <Polish>.300AAC EPR 30Rnd STANAG Magazine</Polish>
+        <Portuguese>.300AAC EPR 30Rnd STANAG Magazine</Portuguese>
+        <Russian>.300AAC EPR 30Rnd STANAG Magazine</Russian>
+        <German>.300AAC EPR 30Rnd STANAG Magazine</German>
+        <Japanese>.300AAC EPR 30Rnd STANAG Magazine</Japanese>
+        <Korean>.300AAC EPR 30Rnd STANAG Magazine</Korean>
+        <Chinesesimp>.300AAC EPR 30Rnd STANAG Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_29Rnd_300BLK_T_STANAG">
+        <Original>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Original>
+        <English>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</English>
+        <Czech>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Czech>
+        <French>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</French>
+        <Spanish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Spanish>
+        <Italian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Italian>
+        <Polish>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Polish>
+        <Portuguese>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Portuguese>
+        <Russian>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Russian>
+        <German>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</German>
+        <Japanese>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Japanese>
+        <Korean>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Korean>
+        <Chinesesimp>.300AAC Ballistic Tracer 30Rnd STANAG Magazine</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_29Rnd_300BLK_IRDIM_STANAG">
+        <Original>.300AAC TAC-TX 30Rnd STANAG Magazine</Original>
+        <English>.300AAC TAC-TX 30Rnd STANAG Magazine</English>
+        <Czech>.300AAC TAC-TX 30Rnd STANAG Magazine</Czech>
+        <French>.300AAC TAC-TX 30Rnd STANAG Magazine</French>
+        <Spanish>.300AAC TAC-TX 30Rnd STANAG Magazine</Spanish>
+        <Italian>.300AAC TAC-TX 30Rnd STANAG Magazine</Italian>
+        <Polish>.300AAC TAC-TX 30Rnd STANAG Magazine</Polish>
+        <Portuguese>.300AAC TAC-TX 30Rnd STANAG Magazine</Portuguese>
+        <Russian>.300AAC TAC-TX 30Rnd STANAG Magazine</Russian>
+        <German>.300AAC TAC-TX 30Rnd STANAG Magazine</German>
+        <Japanese>.300AAC TAC-TX 30Rnd STANAG Magazine</Japanese>
+        <Korean>.300AAC TAC-TX 30Rnd STANAG Magazine</Korean>
+        <Chinesesimp>.300AAC TAC-TX 30Rnd STANAG Magazine</Chinesesimp>
+      </Key>
+      <!--PMAG-->
+      <Key ID="STR_NIA_30rnd_300BLK_PMAG">
+        <Original>.300AAC EPR 30Rnd PMAG</Original>
+        <English>.300AAC EPR 30Rnd PMAG</English>
+        <Czech>.300AAC EPR 30Rnd PMAG</Czech>
+        <French>.300AAC EPR 30Rnd PMAG</French>
+        <Spanish>.300AAC EPR 30Rnd PMAG</Spanish>
+        <Italian>.300AAC EPR 30Rnd PMAG</Italian>
+        <Polish>.300AAC EPR 30Rnd PMAG</Polish>
+        <Portuguese>.300AAC EPR 30Rnd PMAG</Portuguese>
+        <Russian>.300AAC EPR 30Rnd PMAG</Russian>
+        <German>.300AAC EPR 30Rnd PMAG</German>
+        <Japanese>.300AAC EPR 30Rnd PMAG</Japanese>
+        <Korean>.300AAC EPR 30Rnd PMAG</Korean>
+        <Chinesesimp>.300AAC EPR 30Rnd PMAG</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_T_PMAG">
+        <Original>.300AAC Ballistic Tracer 30Rnd PMAG</Original>
+        <English>.300AAC Ballistic Tracer 30Rnd PMAG</English>
+        <Czech>.300AAC Ballistic Tracer 30Rnd PMAG</Czech>
+        <French>.300AAC Ballistic Tracer 30Rnd PMAG</French>
+        <Spanish>.300AAC Ballistic Tracer 30Rnd PMAG</Spanish>
+        <Italian>.300AAC Ballistic Tracer 30Rnd PMAG</Italian>
+        <Polish>.300AAC Ballistic Tracer 30Rnd PMAG</Polish>
+        <Portuguese>.300AAC Ballistic Tracer 30Rnd PMAG</Portuguese>
+        <Russian>.300AAC Ballistic Tracer 30Rnd PMAG</Russian>
+        <German>.300AAC Ballistic Tracer 30Rnd PMAG</German>
+        <Japanese>.300AAC Ballistic Tracer 30Rnd PMAG</Japanese>
+        <Korean>.300AAC Ballistic Tracer 30Rnd PMAG</Korean>
+        <Chinesesimp>.300AAC Ballistic Tracer 30Rnd PMAG</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_IRDIM_PMAG">
+        <Original>.300AAC TAC-TX 30Rnd PMAG</Original>
+        <English>.300AAC TAC-TX 30Rnd PMAG</English>
+        <Czech>.300AAC TAC-TX 30Rnd PMAG</Czech>
+        <French>.300AAC TAC-TX 30Rnd PMAG</French>
+        <Spanish>.300AAC TAC-TX 30Rnd PMAG</Spanish>
+        <Italian>.300AAC TAC-TX 30Rnd PMAG</Italian>
+        <Polish>.300AAC TAC-TX 30Rnd PMAG</Polish>
+        <Portuguese>.300AAC TAC-TX 30Rnd PMAG</Portuguese>
+        <Russian>.300AAC TAC-TX 30Rnd PMAG</Russian>
+        <German>.300AAC TAC-TX 30Rnd PMAG</German>
+        <Japanese>.300AAC TAC-TX 30Rnd PMAG</Japanese>
+        <Korean>.300AAC TAC-TX 30Rnd PMAG</Korean>
+        <Chinesesimp>.300AAC TAC-TX 30Rnd PMAG</Chinesesimp>
+      </Key>
+      <!--H&K STANAG Heavy-Duty-->
+      <Key ID="STR_NIA_30rnd_300BLK_STANAGHD">
+        <Original>.300AAC EPR 30Rnd STANAG HD</Original>
+        <English>.300AAC EPR 30Rnd STANAG HD</English>
+        <Czech>.300AAC EPR 30Rnd STANAG HD</Czech>
+        <French>.300AAC EPR 30Rnd STANAG HD</French>
+        <Spanish>.300AAC EPR 30Rnd STANAG HD</Spanish>
+        <Italian>.300AAC EPR 30Rnd STANAG HD</Italian>
+        <Polish>.300AAC EPR 30Rnd STANAG HD</Polish>
+        <Portuguese>.300AAC EPR 30Rnd STANAG HD</Portuguese>
+        <Russian>.300AAC EPR 30Rnd STANAG HD</Russian>
+        <German>.300AAC EPR 30Rnd STANAG HD</German>
+        <Japanese>.300AAC EPR 30Rnd STANAG HD</Japanese>
+        <Korean>.300AAC EPR 30Rnd STANAG HD</Korean>
+        <Chinesesimp>.300AAC EPR 30Rnd STANAG HD</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_T_STANAGHD">
+        <Original>.300AAC Ballistic Tracer 30Rnd STANAG HD</Original>
+        <English>.300AAC Ballistic Tracer 30Rnd STANAG HD</English>
+        <Czech>.300AAC Ballistic Tracer 30Rnd STANAG HD</Czech>
+        <French>.300AAC Ballistic Tracer 30Rnd STANAG HD</French>
+        <Spanish>.300AAC Ballistic Tracer 30Rnd STANAG HD</Spanish>
+        <Italian>.300AAC Ballistic Tracer 30Rnd STANAG HD</Italian>
+        <Polish>.300AAC Ballistic Tracer 30Rnd STANAG HD</Polish>
+        <Portuguese>.300AAC Ballistic Tracer 30Rnd STANAG HD</Portuguese>
+        <Russian>.300AAC Ballistic Tracer 30Rnd STANAG HD</Russian>
+        <German>.300AAC Ballistic Tracer 30Rnd STANAG HD</German>
+        <Japanese>.300AAC Ballistic Tracer 30Rnd STANAG HD</Japanese>
+        <Korean>.300AAC Ballistic Tracer 30Rnd STANAG HD</Korean>
+        <Chinesesimp>.300AAC Ballistic Tracer 30Rnd STANAG HD</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_IRDIM_STANAGHD">
+        <Original>.300AAC TAC-TX 30Rnd STANAG HD</Original>
+        <English>.300AAC TAC-TX 30Rnd STANAG HD</English>
+        <Czech>.300AAC TAC-TX 30Rnd STANAG HD</Czech>
+        <French>.300AAC TAC-TX 30Rnd STANAG HD</French>
+        <Spanish>.300AAC TAC-TX 30Rnd STANAG HD</Spanish>
+        <Italian>.300AAC TAC-TX 30Rnd STANAG HD</Italian>
+        <Polish>.300AAC TAC-TX 30Rnd STANAG HD</Polish>
+        <Portuguese>.300AAC TAC-TX 30Rnd STANAG HD</Portuguese>
+        <Russian>.300AAC TAC-TX 30Rnd STANAG HD</Russian>
+        <German>.300AAC TAC-TX 30Rnd STANAG HD</German>
+        <Japanese>.300AAC TAC-TX 30Rnd STANAG HD</Japanese>
+        <Korean>.300AAC TAC-TX 30Rnd STANAG HD</Korean>
+        <Chinesesimp>.300AAC TAC-TX 30Rnd STANAG HD</Chinesesimp>
+      </Key>
+      <!--EMAG-->
+      <Key ID="STR_NIA_30rnd_300BLK_EMAG">
+        <Original>.300AAC EPR 30Rnd EMAG</Original>
+        <English>.300AAC EPR 30Rnd EMAG</English>
+        <Czech>.300AAC EPR 30Rnd EMAG</Czech>
+        <French>.300AAC EPR 30Rnd EMAG</French>
+        <Spanish>.300AAC EPR 30Rnd EMAG</Spanish>
+        <Italian>.300AAC EPR 30Rnd EMAG</Italian>
+        <Polish>.300AAC EPR 30Rnd EMAG</Polish>
+        <Portuguese>.300AAC EPR 30Rnd EMAG</Portuguese>
+        <Russian>.300AAC EPR 30Rnd EMAG</Russian>
+        <German>.300AAC EPR 30Rnd EMAG</German>
+        <Japanese>.300AAC EPR 30Rnd EMAG</Japanese>
+        <Korean>.300AAC EPR 30Rnd EMAG</Korean>
+        <Chinesesimp>.300AAC EPR 30Rnd EMAG</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_T_EMAG">
+        <Original>.300AAC Ballistic Tracer 30Rnd EMAG</Original>
+        <English>.300AAC Ballistic Tracer 30Rnd EMAG</English>
+        <Czech>.300AAC Ballistic Tracer 30Rnd EMAG</Czech>
+        <French>.300AAC Ballistic Tracer 30Rnd EMAG</French>
+        <Spanish>.300AAC Ballistic Tracer 30Rnd EMAG</Spanish>
+        <Italian>.300AAC Ballistic Tracer 30Rnd EMAG</Italian>
+        <Polish>.300AAC Ballistic Tracer 30Rnd EMAG</Polish>
+        <Portuguese>.300AAC Ballistic Tracer 30Rnd EMAG</Portuguese>
+        <Russian>.300AAC Ballistic Tracer 30Rnd EMAG</Russian>
+        <German>.300AAC Ballistic Tracer 30Rnd EMAG</German>
+        <Japanese>.300AAC Ballistic Tracer 30Rnd EMAG</Japanese>
+        <Korean>.300AAC Ballistic Tracer 30Rnd EMAG</Korean>
+        <Chinesesimp>.300AAC Ballistic Tracer 30Rnd EMAG</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_30Rnd_300BLK_IRDIM_EMAG">
+        <Original>.300AAC TAC-TX 30Rnd EMAG</Original>
+        <English>.300AAC TAC-TX 30Rnd EMAG</English>
+        <Czech>.300AAC TAC-TX 30Rnd EMAG</Czech>
+        <French>.300AAC TAC-TX 30Rnd EMAG</French>
+        <Spanish>.300AAC TAC-TX 30Rnd EMAG</Spanish>
+        <Italian>.300AAC TAC-TX 30Rnd EMAG</Italian>
+        <Polish>.300AAC TAC-TX 30Rnd EMAG</Polish>
+        <Portuguese>.300AAC TAC-TX 30Rnd EMAG</Portuguese>
+        <Russian>.300AAC TAC-TX 30Rnd EMAG</Russian>
+        <German>.300AAC TAC-TX 30Rnd EMAG</German>
+        <Japanese>.300AAC TAC-TX 30Rnd EMAG</Japanese>
+        <Korean>.300AAC TAC-TX 30Rnd EMAG</Korean>
+        <Chinesesimp>.300AAC TAC-TX 30Rnd EMAG</Chinesesimp>
+      </Key>
+      <!--X15-->
+      <Key ID="STR_NIA_50Rnd_300BLK_M_STANAG">
+        <Original>.300AAC TAC-TX 50Rnd STANAG Magazine</Original>
+        <English>.300AAC TAC-TX 50Rnd STANAG Magazine</English>
+        <Czech>.300AAC TAC-TX 50Rnd STANAG Magazine</Czech>
+        <French>.300AAC TAC-TX 50Rnd STANAG Magazine</French>
+        <Spanish>.300AAC TAC-TX 50Rnd STANAG Magazine</Spanish>
+        <Italian>.300AAC TAC-TX 50Rnd STANAG Magazine</Italian>
+        <Polish>.300AAC TAC-TX 50Rnd STANAG Magazine</Polish>
+        <Portuguese>.300AAC TAC-TX 50Rnd STANAG Magazine</Portuguese>
+        <Russian>.300AAC TAC-TX 50Rnd STANAG Magazine</Russian>
+        <German>.300AAC TAC-TX 50Rnd STANAG Magazine</German>
+        <Japanese>.300AAC TAC-TX 50Rnd STANAG Magazine</Japanese>
+        <Korean>.300AAC TAC-TX 50Rnd STANAG Magazine</Korean>
+        <Chinesesimp>.300AAC TAC-TX 50Rnd STANAG Magazine</Chinesesimp>
+      </Key>
+      
+      <!--=========================-->
+      <!--5.45 AK Mags-->
+      <!--=========================-->
+      <!--6L20-->
       <Key ID="STR_NIA_30Rnd_545x39_B_AK">
         <Original>5.45mm FMJ 30Rnd AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd AK Magazine</English>
@@ -1580,6 +1860,7 @@
         <Korean>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 30Rnd AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--6L20 Plum-->
       <Key ID="STR_NIA_30Rnd_545x39_B_AKplum">
         <Original>5.45mm FMJ 30Rnd Plum AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd Plum AK Magazine</English>
@@ -1655,6 +1936,7 @@
         <Korean>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 30Rnd Plum AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--6L23-->
       <Key ID="STR_NIA_30Rnd_545x39_B_AKBlack">
         <Original>5.45mm FMJ 30Rnd Black AK Magazine</Original>
         <English>5.45mm FMJ 30Rnd Black AK Magazine</English>
@@ -1730,6 +2012,7 @@
         <Korean>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 30Rnd Black AK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--6L18-->
       <Key ID="STR_NIA_45Rnd_545x39_b_rpk">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
         <English>5.45mm FMJ 45Rnd RPK74M Magazine</English>
@@ -1790,6 +2073,7 @@
         <Korean>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--6L26-->
       <Key ID="STR_NIA_45Rnd_545x39_b_rpkm">
         <Original>5.45mm FMJ 45Rnd RPK74M Magazine</Original>
         <English>5.45mm FMJ 45Rnd RPK74M Magazine</English>
@@ -1850,6 +2134,7 @@
         <Korean>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 45Rnd RPK74M Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--6L31-->
       <Key ID="STR_NIA_60Rnd_545x39_b_RPK">
         <Original>5.45mm FMJ 60Rnd RPK Magazine</Original>
         <English>5.45mm FMJ 60Rnd RPK Magazine</English>
@@ -1910,6 +2195,11 @@
         <Korean>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Korean>
         <Chinesesimp>5.45mm EPR 60Rnd RPK Magazine (Tracers Every 3)</Chinesesimp>
       </Key>
+      <!--=========================-->
+      <!--7.62 AK Mags-->
+      <!--=========================-->
+
+      <!--1955 Steel AK-->
       <Key ID="STR_NIA_30Rnd_762x39_b_ak">
         <Original>7.62mm FMJ 30Rnd AK Magazine</Original>
         <English>7.62mm FMJ 30Rnd AK Magazine</English>
@@ -1985,6 +2275,7 @@
         <Korean>7.62mm Subsonic 30Rnd AK Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd AK Magazine</Chinesesimp>
       </Key>
+      <!--6L10-->
       <Key ID="STR_NIA_30Rnd_762x39_b_ak_6l10">
         <Original>7.62mm FMJ 30Rnd 6L10 AK Magazine</Original>
         <English>7.62mm FMJ 30Rnd 6L10 AK Magazine</English>
@@ -2060,6 +2351,7 @@
         <Korean>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd 6L10 AK Magazine</Chinesesimp>
       </Key>
+      <!--RK62-->
       <Key ID="STR_NIA_30Rnd_762x39_b_RK62">
         <Original>7.62mm FMJ 30Rnd Rk62 Magazine</Original>
         <English>7.62mm FMJ 30Rnd Rk62 Magazine</English>
@@ -2135,6 +2427,7 @@
         <Korean>7.62mm Subsonic 30Rnd Rk62 Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Rk62 Magazine</Chinesesimp>
       </Key>
+      <!--PMAG Black-->
       <Key ID="STR_NIA_30Rnd_762x39_b_PMAG_AK">
         <Original>7.62mm FMJ 30Rnd Black PMAG magazine</Original>
         <English>7.62mm FMJ 30Rnd Black PMAG magazine</English>
@@ -2210,6 +2503,7 @@
         <Korean>7.62mm Subsonic 30Rnd Black PMAG magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Black PMAG magazine</Chinesesimp>
       </Key>
+      <!--PMAG Desert-->
       <Key ID="STR_NIA_30Rnd_762x39_b_pmagd_AK">
         <Original>7.62mm FMJ 30Rnd Desert PMAG magazine</Original>
         <English>7.62mm FMJ 30Rnd Desert PMAG magazine</English>
@@ -2285,6 +2579,7 @@
         <Korean>7.62mm Subsonic 30Rnd Desert PMAG magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 30Rnd Desert PMAG magazine</Chinesesimp>
       </Key>
+      <!--RPK-->
       <Key ID="STR_NIA_40Rnd_762x39_b_rpk">
         <Original>7.62mm FMJ 40Rnd RPK Magazine</Original>
         <English>7.62mm FMJ 40Rnd RPK Magazine</English>
@@ -2345,6 +2640,7 @@
         <Korean>7.62mm AP 40Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm AP 40Rnd RPK Magazine</Chinesesimp>
       </Key>
+      <!--RPK Drum-->
       <Key ID="STR_NIA_75Rnd_762x39_b_rpk">
         <Original>7.62mm FMJ 75Rnd RPK Magazine</Original>
         <English>7.62mm FMJ 75Rnd RPK Magazine</English>
@@ -2405,6 +2701,10 @@
         <Korean>7.62mm AP 75Rnd RPK Magazine</Korean>
         <Chinesesimp>7.62mm AP 75Rnd RPK Magazine</Chinesesimp>
       </Key>
+      
+      <!--=========================-->
+      <!--GP25/30 Rounds-->
+      <!--=========================-->
       <Key ID="STR_NIA_VOG25_AK">
         <Original>VOG25P HE Round</Original>
         <English>VOG25P HE Round</English>
@@ -2421,110 +2721,114 @@
         <Chinesesimp>VOG25P HE Round</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40white_AK">
-        <Original>GRD-40 White Smoke (White)</Original>
-        <English>GRD-40 White Smoke (White)</English>
-        <Czech>GRD-40 White Smoke (White)</Czech>
-        <French>GRD-40 White Smoke (White)</French>
-        <Spanish>GRD-40 White Smoke (White)</Spanish>
-        <Italian>GRD-40 White Smoke (White)</Italian>
-        <Polish>GRD-40 White Smoke (White)</Polish>
-        <Portuguese>GRD-40 White Smoke (White)</Portuguese>
-        <Russian>GRD-40 White Smoke (White)</Russian>
-        <German>GRD-40 White Smoke (White)</German>
+        <Original>GRD-40 Smoke (White)</Original>
+        <English>GRD-40 Smoke (White)</English>
+        <Czech>GRD-40 Smoke (White)</Czech>
+        <French>GRD-40 Smoke (White)</French>
+        <Spanish>GRD-40 Smoke (White)</Spanish>
+        <Italian>GRD-40 Smoke (White)</Italian>
+        <Polish>GRD-40 Smoke (White)</Polish>
+        <Portuguese>GRD-40 Smoke (White)</Portuguese>
+        <Russian>GRD-40 Smoke (White)</Russian>
+        <German>GRD-40 Smoke (White)</German>
         <Japanese>GRD-40 発煙弾 (白)</Japanese>
-        <Korean>GRD-40 White Smoke (White)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (White)</Chinesesimp>
+        <Korean>GRD-40 Smoke (White)</Korean>
+        <Chinesesimp>GRD-40 Smoke (White)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Red_AK">
-        <Original>GRD-40 White Smoke (Red)</Original>
-        <English>GRD-40 White Smoke (Red)</English>
-        <Czech>GRD-40 White Smoke (Red)</Czech>
-        <French>GRD-40 White Smoke (Red)</French>
-        <Spanish>GRD-40 White Smoke (Red)</Spanish>
-        <Italian>GRD-40 White Smoke (Red)</Italian>
-        <Polish>GRD-40 White Smoke (Red)</Polish>
-        <Portuguese>GRD-40 White Smoke (Red)</Portuguese>
-        <Russian>GRD-40 White Smoke (Red)</Russian>
-        <German>GRD-40 White Smoke (Red)</German>
+        <Original>GRD-40 Smoke (Red)</Original>
+        <English>GRD-40 Smoke (Red)</English>
+        <Czech>GRD-40 Smoke (Red)</Czech>
+        <French>GRD-40 Smoke (Red)</French>
+        <Spanish>GRD-40 Smoke (Red)</Spanish>
+        <Italian>GRD-40 Smoke (Red)</Italian>
+        <Polish>GRD-40 Smoke (Red)</Polish>
+        <Portuguese>GRD-40 Smoke (Red)</Portuguese>
+        <Russian>GRD-40 Smoke (Red)</Russian>
+        <German>GRD-40 Smoke (Red)</German>
         <Japanese>GRD-40 発煙弾 (赤)</Japanese>
-        <Korean>GRD-40 White Smoke (Red)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Red)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Red)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Red)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Green_AK">
-        <Original>GRD-40 White Smoke (Green)</Original>
-        <English>GRD-40 White Smoke (Green)</English>
-        <Czech>GRD-40 White Smoke (Green)</Czech>
-        <French>GRD-40 White Smoke (Green)</French>
-        <Spanish>GRD-40 White Smoke (Green)</Spanish>
-        <Italian>GRD-40 White Smoke (Green)</Italian>
-        <Polish>GRD-40 White Smoke (Green)</Polish>
-        <Portuguese>GRD-40 White Smoke (Green)</Portuguese>
-        <Russian>GRD-40 White Smoke (Green)</Russian>
-        <German>GRD-40 White Smoke (Green)</German>
+        <Original>GRD-40 Smoke (Green)</Original>
+        <English>GRD-40 Smoke (Green)</English>
+        <Czech>GRD-40 Smoke (Green)</Czech>
+        <French>GRD-40 Smoke (Green)</French>
+        <Spanish>GRD-40 Smoke (Green)</Spanish>
+        <Italian>GRD-40 Smoke (Green)</Italian>
+        <Polish>GRD-40 Smoke (Green)</Polish>
+        <Portuguese>GRD-40 Smoke (Green)</Portuguese>
+        <Russian>GRD-40 Smoke (Green)</Russian>
+        <German>GRD-40 Smoke (Green)</German>
         <Japanese>GRD-40 発煙弾 (緑)</Japanese>
-        <Korean>GRD-40 White Smoke (Green)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Green)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Green)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Green)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Yellow_AK">
-        <Original>GRD-40 White Smoke (Yellow)</Original>
-        <English>GRD-40 White Smoke (Yellow)</English>
-        <Czech>GRD-40 White Smoke (Yellow)</Czech>
-        <French>GRD-40 White Smoke (Yellow)</French>
-        <Spanish>GRD-40 White Smoke (Yellow)</Spanish>
-        <Italian>GRD-40 White Smoke (Yellow)</Italian>
-        <Polish>GRD-40 White Smoke (Yellow)</Polish>
-        <Portuguese>GRD-40 White Smoke (Yellow)</Portuguese>
-        <Russian>GRD-40 White Smoke (Yellow)</Russian>
-        <German>GRD-40 White Smoke (Yellow)</German>
+        <Original>GRD-40 Smoke (Yellow)</Original>
+        <English>GRD-40 Smoke (Yellow)</English>
+        <Czech>GRD-40 Smoke (Yellow)</Czech>
+        <French>GRD-40 Smoke (Yellow)</French>
+        <Spanish>GRD-40 Smoke (Yellow)</Spanish>
+        <Italian>GRD-40 Smoke (Yellow)</Italian>
+        <Polish>GRD-40 Smoke (Yellow)</Polish>
+        <Portuguese>GRD-40 Smoke (Yellow)</Portuguese>
+        <Russian>GRD-40 Smoke (Yellow)</Russian>
+        <German>GRD-40 Smoke (Yellow)</German>
         <Japanese>GRD-40 発煙弾 (黄)</Japanese>
-        <Korean>GRD-40 White Smoke (Yellow)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Yellow)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Yellow)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Yellow)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Orange_AK">
-        <Original>GRD-40 White Smoke (Orange)</Original>
-        <English>GRD-40 White Smoke (Orange)</English>
-        <Czech>GRD-40 White Smoke (Orange)</Czech>
-        <French>GRD-40 White Smoke (Orange)</French>
-        <Spanish>GRD-40 White Smoke (Orange)</Spanish>
-        <Italian>GRD-40 White Smoke (Orange)</Italian>
-        <Polish>GRD-40 White Smoke (Orange)</Polish>
-        <Portuguese>GRD-40 White Smoke (Orange)</Portuguese>
-        <Russian>GRD-40 White Smoke (Orange)</Russian>
-        <German>GRD-40 White Smoke (Orange)</German>
+        <Original>GRD-40 Smoke (Orange)</Original>
+        <English>GRD-40 Smoke (Orange)</English>
+        <Czech>GRD-40 Smoke (Orange)</Czech>
+        <French>GRD-40 Smoke (Orange)</French>
+        <Spanish>GRD-40 Smoke (Orange)</Spanish>
+        <Italian>GRD-40 Smoke (Orange)</Italian>
+        <Polish>GRD-40 Smoke (Orange)</Polish>
+        <Portuguese>GRD-40 Smoke (Orange)</Portuguese>
+        <Russian>GRD-40 Smoke (Orange)</Russian>
+        <German>GRD-40 Smoke (Orange)</German>
         <Japanese>GRD-40 発煙弾 (橙)</Japanese>
-        <Korean>GRD-40 White Smoke (Orange)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Orange)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Orange)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Orange)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Purple_AK">
-        <Original>GRD-40 White Smoke (Purple)</Original>
-        <English>GRD-40 White Smoke (Purple)</English>
-        <Czech>GRD-40 White Smoke (Purple)</Czech>
-        <French>GRD-40 White Smoke (Purple)</French>
-        <Spanish>GRD-40 White Smoke (Purple)</Spanish>
-        <Italian>GRD-40 White Smoke (Purple)</Italian>
-        <Polish>GRD-40 White Smoke (Purple)</Polish>
-        <Portuguese>GRD-40 White Smoke (Purple)</Portuguese>
-        <Russian>GRD-40 White Smoke (Purple)</Russian>
-        <German>GRD-40 White Smoke (Purple)</German>
+        <Original>GRD-40 Smoke (Purple)</Original>
+        <English>GRD-40 Smoke (Purple)</English>
+        <Czech>GRD-40 Smoke (Purple)</Czech>
+        <French>GRD-40 Smoke (Purple)</French>
+        <Spanish>GRD-40 Smoke (Purple)</Spanish>
+        <Italian>GRD-40 Smoke (Purple)</Italian>
+        <Polish>GRD-40 Smoke (Purple)</Polish>
+        <Portuguese>GRD-40 Smoke (Purple)</Portuguese>
+        <Russian>GRD-40 Smoke (Purple)</Russian>
+        <German>GRD-40 Smoke (Purple)</German>
         <Japanese>GRD-40 発煙弾 (紫)</Japanese>
-        <Korean>GRD-40 White Smoke (Purple)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Purple)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Purple)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Purple)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_GRD40Blue_AK">
-        <Original>GRD-40 White Smoke (Blue)</Original>
-        <English>GRD-40 White Smoke (Blue)</English>
-        <Czech>GRD-40 White Smoke (Blue)</Czech>
-        <French>GRD-40 White Smoke (Blue)</French>
-        <Spanish>GRD-40 White Smoke (Blue)</Spanish>
-        <Italian>GRD-40 White Smoke (Blue)</Italian>
-        <Polish>GRD-40 White Smoke (Blue)</Polish>
-        <Portuguese>GRD-40 White Smoke (Blue)</Portuguese>
-        <Russian>GRD-40 White Smoke (Blue)</Russian>
-        <German>GRD-40 White Smoke (Blue)</German>
+        <Original>GRD-40 Smoke (Blue)</Original>
+        <English>GRD-40 Smoke (Blue)</English>
+        <Czech>GRD-40 Smoke (Blue)</Czech>
+        <French>GRD-40 Smoke (Blue)</French>
+        <Spanish>GRD-40 Smoke (Blue)</Spanish>
+        <Italian>GRD-40 Smoke (Blue)</Italian>
+        <Polish>GRD-40 Smoke (Blue)</Polish>
+        <Portuguese>GRD-40 Smoke (Blue)</Portuguese>
+        <Russian>GRD-40 Smoke (Blue)</Russian>
+        <German>GRD-40 Smoke (Blue)</German>
         <Japanese>GRD-40 発煙弾 (青)</Japanese>
-        <Korean>GRD-40 White Smoke (Blue)</Korean>
-        <Chinesesimp>GRD-40 White Smoke (Blue)</Chinesesimp>
+        <Korean>GRD-40 Smoke (Blue)</Korean>
+        <Chinesesimp>GRD-40 Smoke (Blue)</Chinesesimp>
       </Key>
+      
+      <!--=========================-->
+      <!--7.62 NATO Linked Ammunition-->
+      <!--=========================-->
       <Key ID="STR_NIA_100Rnd_762x51_B_M60E4">
         <Original>7.62mm EPR 100Rnd M13-linked belt</Original>
         <English>7.62mm EPR 100Rnd M13-linked belt</English>
@@ -2676,6 +2980,10 @@
         <Korean>7.62mm Tracer 200Rnd M13-linked belt</Korean>
         <Chinesesimp>7.62mm Tracer 200Rnd M13-linked belt</Chinesesimp>
       </Key>
+      
+      <!--=========================-->
+      <!--FAL Magazines-->
+      <!--=========================-->
       <Key ID="STR_NIA_20Rnd_762x51_B_fal">
         <Original>7.62mm EPR 20Rnd FAL Magazine</Original>
         <English>7.62mm EPR 20Rnd FAL Magazine</English>
@@ -2796,6 +3104,8 @@
         <Korean>7.62mm Subsonic 20Rnd FAL Magazine</Korean>
         <Chinesesimp>7.62mm Subsonic 20Rnd FAL Magazine</Chinesesimp>
       </Key>
+
+      <!--XFAL-->
       <Key ID="STR_NIA_50Rnd_762x51_B_fal">
         <Original>7.62mm EPR 50Rnd FAL Magazine</Original>
         <English>7.62mm EPR 50Rnd FAL Magazine</English>
@@ -2871,6 +3181,8 @@
         <Korean>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Korean>
         <Chinesesimp>7.62mm EPR 50Rnd FAL Magazine (IR-DIM every 4)</Chinesesimp>
       </Key>
+
+      <!--FAL/FN30-11-->
       <Key ID="STR_NIA_10Rnd_762x51_B_fal">
         <Original>7.62mm EPR 10Rnd FAL Magazine</Original>
         <English>7.62mm EPR 10Rnd FAL Magazine</English>
@@ -2963,20 +3275,38 @@
       </Key>
     </Container>
     <Container name="Acc_names">
+      <!--=========================-->
+      <!--Muzzle Devices-->
+      <!--=========================-->
       <Key ID="STR_NIA_muzzle_300blk">
-        <Original>QD .300BLK Suppressor</Original>
-        <English>QD .300BLK Suppressor</English>
-        <Czech>QD .300BLK Suppressor</Czech>
-        <French>QD .300BLK Suppressor</French>
-        <Spanish>QD .300BLK Suppressor</Spanish>
-        <Italian>QD .300BLK Suppressor</Italian>
-        <Polish>QD .300BLK Suppressor</Polish>
-        <Portuguese>QD .300BLK Suppressor</Portuguese>
-        <Russian>QD .300BLK Suppressor</Russian>
-        <German>QD .300BLK Suppressor</German>
+        <Original>Q Full Nelson</Original>
+        <English>Q Full Nelson</English>
+        <Czech>Q Full Nelson</Czech>
+        <French>Q Full Nelson</French>
+        <Spanish>Q Full Nelson</Spanish>
+        <Italian>Q Full Nelson</Italian>
+        <Polish>Q Full Nelson</Polish>
+        <Portuguese>Q Full Nelson</Portuguese>
+        <Russian>Q Full Nelson</Russian>
+        <German>Q Full Nelson</German>
         <Japanese>QD .300BLK 消音器</Japanese>
-        <Korean>QD .300BLK Suppressor</Korean>
-        <Chinesesimp>QD .300BLK Suppressor</Chinesesimp>
+        <Korean>Q Full Nelson</Korean>
+        <Chinesesimp>Q Full Nelson</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_300blk_classic">
+        <Original>QD .30 Supressor</Original>
+        <English>QD .30 Supressor</English>
+        <Czech>QD .30 Supressor</Czech>
+        <French>QD .30 Supressor</French>
+        <Spanish>QD .30 Supressor</Spanish>
+        <Italian>QD .30 Supressor</Italian>
+        <Polish>QD .30 Supressor</Polish>
+        <Portuguese>QD .30 Supressor</Portuguese>
+        <Russian>QD .30 Supressor</Russian>
+        <German>QD .30 Supressor</German>
+        <Japanese>QD .300BLK 消音器</Japanese>
+        <Korean>QD .30 Supressor</Korean>
+        <Chinesesimp>QD .30 Supressor</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_muzzle_556NATO_KAC">
         <Original>Gemtech Halo</Original>
@@ -3158,6 +3488,160 @@
         <Korean>FN MAG58 Flash Hider</Korean>
         <Chinesesimp>FN MAG58 Flash Hider</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_muzzle_OEMBrake">
+        <Original></Original>
+        <English>FN OEM Brake</English>
+        <Czech>FN OEM Brake</Czech>
+        <French>FN OEM Brake</French>
+        <Spanish>FN OEM Brake</Spanish>
+        <Italian>FN OEM Brake</Italian>
+        <Polish>FN OEM Brake</Polish>
+        <Portuguese>FN OEM Brake</Portuguese>
+        <Russian>FN OEM Brake</Russian>
+        <German>FN OEM Brake</German>
+        <Japanese>FN OEM Brake</Japanese>
+        <Korean>FN OEM Brake</Korean>
+        <Chinesesimp>FN OEM Brake</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_OEMBrake_17S">
+        <Original></Original>
+        <English>FN OEM 17S Brake</English>
+        <Czech>FN OEM 17S Brake</Czech>
+        <French>FN OEM 17S Brake</French>
+        <Spanish>FN OEM 17S Brake</Spanish>
+        <Italian>FN OEM 17S Brake</Italian>
+        <Polish>FN OEM 17S Brake</Polish>
+        <Portuguese>FN OEM 17S Brake</Portuguese>
+        <Russian>FN OEM 17S Brake</Russian>
+        <German>FN OEM 17S Brake</German>
+        <Japanese>FN OEM 17SBrake</Japanese>
+        <Korean>FN OEM 17S Brake</Korean>
+        <Chinesesimp>FN OEM 17S Brake</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_FSC30">
+        <Original></Original>
+        <English>PWS FSC30 Brake</English>
+        <Czech>PWS FSC30 Brake</Czech>
+        <French>PWS FSC30 Brake</French>
+        <Spanish>PWS FSC30 Brake</Spanish>
+        <Italian>PWS FSC30 Brake</Italian>
+        <Polish>PWS FSC30 Brake</Polish>
+        <Portuguese>PWS FSC30 Brake</Portuguese>
+        <Russian>PWS FSC30 Brake</Russian>
+        <German>PWS FSC30 Brake</German>
+        <Japanese>PWS FSC30 Brake</Japanese>
+        <Korean>PWS FSC30 Brake</Korean>
+        <Chinesesimp>PWS FSC30 Brake</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_Miter18T">
+        <Original></Original>
+        <English>AAC Miter18T Brake</English>
+        <Czech>AAC Miter18T Brake</Czech>
+        <French>AAC Miter18T Brake</French>
+        <Spanish>AAC Miter18T Brake</Spanish>
+        <Italian>AAC Miter18T Brake</Italian>
+        <Polish>AAC Miter18T Brake</Polish>
+        <Portuguese>AAC Miter18T Brake</Portuguese>
+        <Russian>AAC Miter18T Brake</Russian>
+        <German>AAC Miter18T Brake</German>
+        <Japanese>AAC Miter18T Brake</Japanese>
+        <Korean>AAC Miter18T Brake</Korean>
+        <Chinesesimp>AAC Miter18T Brake</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_Cherrybomb">
+        <Original></Original>
+        <English>Q Cherry-Bomb Compensator</English>
+        <Czech>Q Cherry-Bomb Compensator</Czech>
+        <French>Q Cherry-Bomb Compensator</French>
+        <Spanish>Q Cherry-Bomb Compensator</Spanish>
+        <Italian>Q Cherry-Bomb Compensator</Italian>
+        <Polish>Q Cherry-Bomb Compensator</Polish>
+        <Portuguese>Q Cherry-Bomb Compensator</Portuguese>
+        <Russian>Q Cherry-Bomb Compensator</Russian>
+        <German>Q Cherry-Bomb Compensator</German>
+        <Japanese>Q Cherry-Bomb Compensator</Japanese>
+        <Korean>Q Cherry-Bomb Compensator</Korean>
+        <Chinesesimp>Q Cherry-Bomb Compensator</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_AAC_762SDN6">
+        <Original>AAC 762-SDN-6</Original>
+        <English>AAC 762-SDN-6</English>
+        <Czech>AAC 762-SDN-6</Czech>
+        <French>AAC 762-SDN-6</French>
+        <Spanish>AAC 762-SDN-6</Spanish>
+        <Italian>AAC 762-SDN-6</Italian>
+        <Polish>AAC 762-SDN-6</Polish>
+        <Portuguese>AAC 762-SDN-6</Portuguese>
+        <Russian>AAC 762-SDN-6</Russian>
+        <German>AAC 762-SDN-6</German>
+        <Japanese>QD .300BLK 消音器</Japanese>
+        <Korean>AAC 762-SDN-6</Korean>
+        <Chinesesimp>AAC 762-SDN-6</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_AAC_SCARHSD">
+        <Original>AAC SCARH-H SD</Original>
+        <English>AAC SCARH-H SD</English>
+        <Czech>AAC SCARH-H SD</Czech>
+        <French>AAC SCARH-H SD</French>
+        <Spanish>AAC SCARH-H SD</Spanish>
+        <Italian>AAC SCARH-H SD</Italian>
+        <Polish>AAC SCARH-H SD</Polish>
+        <Portuguese>AAC SCARH-H SD</Portuguese>
+        <Russian>AAC SCARH-H SD</Russian>
+        <German>AAC SCARH-H SD</German>
+        <Japanese>QD .300BLK 消音器</Japanese>
+        <Korean>AAC SCARH-H SD</Korean>
+        <Chinesesimp>AAC SCARH-H SD</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_Brevis">
+        <Original>Delta P Brevis III</Original>
+        <English>Delta P Brevis III</English>
+        <Czech>Delta P Brevis III</Czech>
+        <French>Delta P Brevis III</French>
+        <Spanish>Delta P Brevis III</Spanish>
+        <Italian>Delta P Brevis III</Italian>
+        <Polish>Delta P Brevis III</Polish>
+        <Portuguese>Delta P Brevis III</Portuguese>
+        <Russian>Delta P Brevis III</Russian>
+        <German>Delta P Brevis III</German>
+        <Japanese>QD .300BLK 消音器</Japanese>
+        <Korean>Delta P Brevis III</Korean>
+        <Chinesesimp>Delta P Brevis III</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_ThunderChicken">
+        <Original>Q Thunder Chicken</Original>
+        <English>Q Thunder Chicken</English>
+        <Czech>Q Thunder Chicken</Czech>
+        <French>Q Thunder Chicken</French>
+        <Spanish>Q Thunder Chicken</Spanish>
+        <Italian>Q Thunder Chicken</Italian>
+        <Polish>Q Thunder Chicken</Polish>
+        <Portuguese>Q Thunder Chicken</Portuguese>
+        <Russian>Q Thunder Chicken</Russian>
+        <German>Q Thunder Chicken</German>
+        <Japanese>QD .300BLK 消音器</Japanese>
+        <Korean>Q Thunder Chicken</Korean>
+        <Chinesesimp>Q Thunder Chicken</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_muzzle_KX3">
+        <Original>Noveske KX3 &quot; Flaming Pig &quot;</Original>
+        <English>Noveske KX3 &quot; Flaming Pig &quot;</English>
+        <Czech>Noveske KX3 &quot; Flaming Pig &quot;</Czech>
+        <French>Noveske KX3 &quot; Flaming Pig &quot;</French>
+        <Spanish>Noveske KX3 &quot; Flaming Pig &quot;</Spanish>
+        <Italian>Noveske KX3 &quot; Flaming Pig &quot;</Italian>
+        <Polish>Noveske KX3 &quot; Flaming Pig &quot;</Polish>
+        <Portuguese>Noveske KX3 &quot; Flaming Pig &quot;</Portuguese>
+        <Russian>Noveske KX3 &quot; Flaming Pig &quot;</Russian>
+        <German>Noveske KX3 &quot; Flaming Pig &quot;</German>
+        <Japanese>Noveske KX3 &quot; Flaming Pig &quot;</Japanese>
+        <Korean>Noveske KX3 &quot; Flaming Pig &quot;</Korean>
+        <Chinesesimp>Noveske KX3 &quot; Flaming Pig &quot;</Chinesesimp>
+      </Key>
+
+      <!--=========================-->
+      <!--Optics-->
+      <!--=========================-->
       <Key ID="STR_NIA_optic_LeupoldM3A">
         <Original>Leupold M3A Ultra</Original>
         <English>Leupold M3A Ultra</English>
@@ -3534,7 +4018,7 @@
         <Chinesesimp>UTG Lightweight Shooters Bipod</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_bipod_afg2">
-        <Original>Magpul AFG2()</Original>
+        <Original>Magpul AFG2</Original>
         <English>Magpul AFG2</English>
         <Czech>Magpul AFG2</Czech>
         <French>Magpul AFG2</French>
@@ -3548,20 +4032,35 @@
         <Korean>Magpul AFG2</Korean>
         <Chinesesimp>Magpul AFG2</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_bipod_afg">
+        <Original>Magpul AFG</Original>
+        <English>Magpul AFG</English>
+        <Czech>Magpul AFG</Czech>
+        <French>Magpul AFG</French>
+        <Spanish>Magpul AFG</Spanish>
+        <Italian>Magpul AFG</Italian>
+        <Polish>Magpul AFG</Polish>
+        <Portuguese>Magpul AFG</Portuguese>
+        <Russian>Magpul AFG</Russian>
+        <German>Magpul AFG</German>
+        <Japanese>Magpul AFG</Japanese>
+        <Korean>Magpul AFG</Korean>
+        <Chinesesimp>Magpul AFG</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_bipod_pmvfg">
-        <Original>ProMag VFG()</Original>
-        <English>ProMag VFG</English>
-        <Czech>ProMag VFG</Czech>
-        <French>ProMag VFG</French>
-        <Spanish>ProMag VFG</Spanish>
-        <Italian>ProMag VFG</Italian>
-        <Polish>ProMag VFG</Polish>
-        <Portuguese>ProMag VFG</Portuguese>
-        <Russian>ProMag VFG</Russian>
-        <German>ProMag VFG</German>
-        <Japanese>ProMag VFG</Japanese>
-        <Korean>ProMag VFG</Korean>
-        <Chinesesimp>ProMag VFG</Chinesesimp>
+        <Original>KAC VFG</Original>
+        <English>KAC VFG</English>
+        <Czech>KAC VFG</Czech>
+        <French>KAC VFG</French>
+        <Spanish>KAC VFG</Spanish>
+        <Italian>KAC VFG</Italian>
+        <Polish>KAC VFG</Polish>
+        <Portuguese>KAC VFG</Portuguese>
+        <Russian>KAC VFG</Russian>
+        <German>KAC VFG</German>
+        <Japanese>KAC VFG</Japanese>
+        <Korean>KAC VFG</Korean>
+        <Chinesesimp>KAC VFG</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_bipod_Isopod">
         <Original>Isopod</Original>
@@ -3578,8 +4077,10 @@
         <Korean>Isopod</Korean>
         <Chinesesimp>Isopod</Chinesesimp>
       </Key>
-      
-      
+
+      <!--=========================-->
+      <!--Charms-->
+      <!--=========================-->
       <Key ID="STR_NIA_Charm_Eurojank">
         <Original>Charm- EuroJank</Original>
         <English>Charm- EuroJank</English>
@@ -3670,6 +4171,1102 @@
         <Korean>Charm- Teeth Gang</Korean>
         <Chinesesimp>Charm- Teeth Gang</Chinesesimp>
       </Key>
+      
+      <!--=========================-->
+      <!--Rail Panels-->
+      <!--=========================-->
+      <!--============== Black =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_Black">
+        <Original>TD SCAR Railpanel (5cm/Black)</Original>
+        <English>TD SCAR Railpanel (5cm/Black)</English>
+        <Czech>TD SCAR Railpanel (5cm/Black)</Czech>
+        <French>TD SCAR Railpanel (5cm/Black)</French>
+        <Spanish>TD SCAR Railpanel (5cm/Black)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/Black)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/Black)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/Black)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/Black)</Russian>
+        <German>TD SCAR Railpanel (5cm/Black)</German>
+        <Japanese>TD SCAR Railpanel (5cm/Black)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/Black)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_Black">
+        <Original>TD SCAR Railpanel (10cm/Black)</Original>
+        <English>TD SCAR Railpanel (10cm/Black)</English>
+        <Czech>TD SCAR Railpanel (10cm/Black)</Czech>
+        <French>TD SCAR Railpanel (10cm/Black)</French>
+        <Spanish>TD SCAR Railpanel (10cm/Black)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/Black)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/Black)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/Black)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/Black)</Russian>
+        <German>TD SCAR Railpanel (10cm/Black)</German>
+        <Japanese>TD SCAR Railpanel (10cm/Black)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/Black)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_Black">
+        <Original>TD SCAR Railpanel (15cm/Black)</Original>
+        <English>TD SCAR Railpanel (15cm/Black)</English>
+        <Czech>TD SCAR Railpanel (15cm/Black)</Czech>
+        <French>TD SCAR Railpanel (15cm/Black)</French>
+        <Spanish>TD SCAR Railpanel (15cm/Black)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/Black)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/Black)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/Black)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/Black)</Russian>
+        <German>TD SCAR Railpanel (15cm/Black)</German>
+        <Japanese>TD SCAR Railpanel (15cm/Black)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/Black)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/Black)</Chinesesimp>
+      </Key>     
+      <Key ID="STR_NIA_Panel_FN2x5cm_Black">
+        <Original>TD SCAR Railpanel (2x5cm/Black)</Original>
+        <English>TD SCAR Railpanel (2x5cm/Black)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/Black)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/Black)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/Black)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/Black)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/Black)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/Black)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/Black)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/Black)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/Black)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/Black)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_Black">
+        <Original>Ladder Rail Panel (Short/Black)</Original>
+        <English>Ladder Rail Panel (Short/Black)</English>
+        <Czech>Ladder Rail Panel (Short/Black)</Czech>
+        <French>Ladder Rail Panel (Short/Black)</French>
+        <Spanish>Ladder Rail Panel (Short/Black)</Spanish>
+        <Italian>Ladder Rail Panel (Short/Black)</Italian>
+        <Polish>Ladder Rail Panel (Short/Black)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/Black)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/Black)</Russian>
+        <German>Ladder Rail Panel (Short/Black)</German>
+        <Japanese>Ladder Rail Panel (Short/Black)</Japanese>
+        <Korean>Ladder Rail Panel (Short/Black)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_Black">
+        <Original>Ladder Rail Panel (Medium/Black)</Original>
+        <English>Ladder Rail Panel (Medium/Black)</English>
+        <Czech>Ladder Rail Panel (Medium/Black)</Czech>
+        <French>Ladder Rail Panel (Medium/Black)</French>
+        <Spanish>Ladder Rail Panel (Medium/Black)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/Black)</Italian>
+        <Polish>Ladder Rail Panel (Medium/Black)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/Black)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/Black)</Russian>
+        <German>Ladder Rail Panel (Medium/Black)</German>
+        <Japanese>Ladder Rail Panel (Medium/Black)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/Black)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_Black">
+        <Original>Ladder Rail Panel (Long/Black)</Original>
+        <English>Ladder Rail Panel (Long/Black)</English>
+        <Czech>Ladder Rail Panel (Long/Black)</Czech>
+        <French>Ladder Rail Panel (Long/Black)</French>
+        <Spanish>Ladder Rail Panel (Long/Black)</Spanish>
+        <Italian>Ladder Rail Panel (Long/Black)</Italian>
+        <Polish>Ladder Rail Panel (Long/Black)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/Black)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/Black)</Russian>
+        <German>Ladder Rail Panel (Long/Black)</German>
+        <Japanese>Ladder Rail Panel (Long/Black)</Japanese>
+        <Korean>Ladder Rail Panel (Long/Black)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_Black">
+        <Original>Magpul XT Panel (Black)</Original>
+        <English>Magpul XT Panel (Black)</English>
+        <Czech>Magpul XT Panel (Black)</Czech>
+        <French>Magpul XT Panel (Black)</French>
+        <Spanish>Magpul XT Panel (Black)</Spanish>
+        <Italian>Magpul XT Panel (Black)</Italian>
+        <Polish>Magpul XT Panel (Black)</Polish>
+        <Portuguese>Magpul XT Panel (Black)</Portuguese>
+        <Russian>Magpul XT Panel (Black)</Russian>
+        <German>Magpul XT Panel (Black)</German>
+        <Japanese>Magpul XT Panel (Black)</Japanese>
+        <Korean>Magpul XT Panel (Black)</Korean>
+        <Chinesesimp>Magpul XT Panel (Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_Black">
+        <Original>Magpul XTM-E Panel (Black)</Original>
+        <English>Magpul XTM-E Panel (Black)</English>
+        <Czech>Magpul XTM-E Panel (Black)</Czech>
+        <French>Magpul XTM-E Panel (Black)</French>
+        <Spanish>Magpul XTM-E Panel (Black)</Spanish>
+        <Italian>Magpul XTM-E Panel (Black)</Italian>
+        <Polish>Magpul XTM-E Panel (Black)</Polish>
+        <Portuguese>Magpul XTM-E Panel (Black)</Portuguese>
+        <Russian>Magpul XTM-E Panel (Black)</Russian>
+        <German>Magpul XTM-E Panel (Black)</German>
+        <Japanese>Magpul XTM-E Panel (Black)</Japanese>
+        <Korean>Magpul XTM-E Panel (Black)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_Black">
+        <Original>Magpul XTM-E Panel (2x/Black)</Original>
+        <English>Magpul XTM-E Panel (2x/Black)</English>
+        <Czech>Magpul XTM-E Panel (2x/Black)</Czech>
+        <French>Magpul XTM-E Panel (2x/Black)</French>
+        <Spanish>Magpul XTM-E Panel (2x/Black)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/Black)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/Black)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/Black)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/Black)</Russian>
+        <German>Magpul XTM-E Panel (2x/Black)</German>
+        <Japanese>Magpul XTM-E Panel (2x/Black)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/Black)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_Black">
+        <Original>Magpul XTM-E Panel (4x/Black)</Original>
+        <English>Magpul XTM-E Panel (4x/Black)</English>
+        <Czech>Magpul XTM-E Panel (4x/Black)</Czech>
+        <French>Magpul XTM-E Panel (4x/Black)</French>
+        <Spanish>Magpul XTM-E Panel (4x/Black)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/Black)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/Black)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/Black)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/Black)</Russian>
+        <German>Magpul XTM-E Panel (4x/Black)</German>
+        <Japanese>Magpul XTM-E Panel (4x/Black)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/Black)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/Black)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_Black">
+        <Original>Magpul XTM-E Panel (6x/Black)</Original>
+        <English>Magpul XTM-E Panel (6x/Black)</English>
+        <Czech>Magpul XTM-E Panel (6x/Black)</Czech>
+        <French>Magpul XTM-E Panel (6x/Black)</French>
+        <Spanish>Magpul XTM-E Panel (6x/Black)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/Black)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/Black)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/Black)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/Black)</Russian>
+        <German>Magpul XTM-E Panel (6x/Black)</German>
+        <Japanese>Magpul XTM-E Panel (6x/Black)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/Black)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/Black)</Chinesesimp>
+      </Key>
+
+      <!--============== Desert =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_Desert">
+        <Original>TD SCAR Railpanel (5cm/Desert)</Original>
+        <English>TD SCAR Railpanel (5cm/Desert)</English>
+        <Czech>TD SCAR Railpanel (5cm/Desert)</Czech>
+        <French>TD SCAR Railpanel (5cm/Desert)</French>
+        <Spanish>TD SCAR Railpanel (5cm/Desert)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/Desert)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/Desert)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/Desert)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/Desert)</Russian>
+        <German>TD SCAR Railpanel (5cm/Desert)</German>
+        <Japanese>TD SCAR Railpanel (5cm/Desert)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/Desert)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_Desert">
+        <Original>TD SCAR Railpanel (10cm/Desert)</Original>
+        <English>TD SCAR Railpanel (10cm/Desert)</English>
+        <Czech>TD SCAR Railpanel (10cm/Desert)</Czech>
+        <French>TD SCAR Railpanel (10cm/Desert)</French>
+        <Spanish>TD SCAR Railpanel (10cm/Desert)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/Desert)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/Desert)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/Desert)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/Desert)</Russian>
+        <German>TD SCAR Railpanel (10cm/Desert)</German>
+        <Japanese>TD SCAR Railpanel (10cm/Desert)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/Desert)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_Desert">
+        <Original>TD SCAR Railpanel (15cm/Desert)</Original>
+        <English>TD SCAR Railpanel (15cm/Desert)</English>
+        <Czech>TD SCAR Railpanel (15cm/Desert)</Czech>
+        <French>TD SCAR Railpanel (15cm/Desert)</French>
+        <Spanish>TD SCAR Railpanel (15cm/Desert)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/Desert)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/Desert)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/Desert)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/Desert)</Russian>
+        <German>TD SCAR Railpanel (15cm/Desert)</German>
+        <Japanese>TD SCAR Railpanel (15cm/Desert)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/Desert)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN2x5cm_Desert">
+        <Original>TD SCAR Railpanel (2x5cm/Desert)</Original>
+        <English>TD SCAR Railpanel (2x5cm/Desert)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/Desert)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/Desert)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/Desert)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/Desert)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/Desert)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/Desert)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/Desert)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/Desert)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/Desert)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/Desert)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_Desert">
+        <Original>Ladder Rail Panel (Short/Desert)</Original>
+        <English>Ladder Rail Panel (Short/Desert)</English>
+        <Czech>Ladder Rail Panel (Short/Desert)</Czech>
+        <French>Ladder Rail Panel (Short/Desert)</French>
+        <Spanish>Ladder Rail Panel (Short/Desert)</Spanish>
+        <Italian>Ladder Rail Panel (Short/Desert)</Italian>
+        <Polish>Ladder Rail Panel (Short/Desert)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/Desert)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/Desert)</Russian>
+        <German>Ladder Rail Panel (Short/Desert)</German>
+        <Japanese>Ladder Rail Panel (Short/Desert)</Japanese>
+        <Korean>Ladder Rail Panel (Short/Desert)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_Desert">
+        <Original>Ladder Rail Panel (Medium/Desert)</Original>
+        <English>Ladder Rail Panel (Medium/Desert)</English>
+        <Czech>Ladder Rail Panel (Medium/Desert)</Czech>
+        <French>Ladder Rail Panel (Medium/Desert)</French>
+        <Spanish>Ladder Rail Panel (Medium/Desert)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/Desert)</Italian>
+        <Polish>Ladder Rail Panel (Medium/Desert)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/Desert)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/Desert)</Russian>
+        <German>Ladder Rail Panel (Medium/Desert)</German>
+        <Japanese>Ladder Rail Panel (Medium/Desert)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/Desert)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_Desert">
+        <Original>Ladder Rail Panel (Long/Desert)</Original>
+        <English>Ladder Rail Panel (Long/Desert)</English>
+        <Czech>Ladder Rail Panel (Long/Desert)</Czech>
+        <French>Ladder Rail Panel (Long/Desert)</French>
+        <Spanish>Ladder Rail Panel (Long/Desert)</Spanish>
+        <Italian>Ladder Rail Panel (Long/Desert)</Italian>
+        <Polish>Ladder Rail Panel (Long/Desert)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/Desert)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/Desert)</Russian>
+        <German>Ladder Rail Panel (Long/Desert)</German>
+        <Japanese>Ladder Rail Panel (Long/Desert)</Japanese>
+        <Korean>Ladder Rail Panel (Long/Desert)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_Desert">
+        <Original>Magpul XT Panel (Desert)</Original>
+        <English>Magpul XT Panel (Desert)</English>
+        <Czech>Magpul XT Panel (Desert)</Czech>
+        <French>Magpul XT Panel (Desert)</French>
+        <Spanish>Magpul XT Panel (Desert)</Spanish>
+        <Italian>Magpul XT Panel (Desert)</Italian>
+        <Polish>Magpul XT Panel (Desert)</Polish>
+        <Portuguese>Magpul XT Panel (Desert)</Portuguese>
+        <Russian>Magpul XT Panel (Desert)</Russian>
+        <German>Magpul XT Panel (Desert)</German>
+        <Japanese>Magpul XT Panel (Desert)</Japanese>
+        <Korean>Magpul XT Panel (Desert)</Korean>
+        <Chinesesimp>Magpul XT Panel (Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_Desert">
+        <Original>Magpul XTM-E Panel (Desert)</Original>
+        <English>Magpul XTM-E Panel (Desert)</English>
+        <Czech>Magpul XTM-E Panel (Desert)</Czech>
+        <French>Magpul XTM-E Panel (Desert)</French>
+        <Spanish>Magpul XTM-E Panel (Desert)</Spanish>
+        <Italian>Magpul XTM-E Panel (Desert)</Italian>
+        <Polish>Magpul XTM-E Panel (Desert)</Polish>
+        <Portuguese>Magpul XTM-E Panel (Desert)</Portuguese>
+        <Russian>Magpul XTM-E Panel (Desert)</Russian>
+        <German>Magpul XTM-E Panel (Desert)</German>
+        <Japanese>Magpul XTM-E Panel (Desert)</Japanese>
+        <Korean>Magpul XTM-E Panel (Desert)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_Desert">
+        <Original>Magpul XTM-E Panel (2x/Desert)</Original>
+        <English>Magpul XTM-E Panel (2x/Desert)</English>
+        <Czech>Magpul XTM-E Panel (2x/Desert)</Czech>
+        <French>Magpul XTM-E Panel (2x/Desert)</French>
+        <Spanish>Magpul XTM-E Panel (2x/Desert)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/Desert)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/Desert)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/Desert)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/Desert)</Russian>
+        <German>Magpul XTM-E Panel (2x/Desert)</German>
+        <Japanese>Magpul XTM-E Panel (2x/Desert)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/Desert)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_Desert">
+        <Original>Magpul XTM-E Panel (4x/Desert)</Original>
+        <English>Magpul XTM-E Panel (4x/Desert)</English>
+        <Czech>Magpul XTM-E Panel (4x/Desert)</Czech>
+        <French>Magpul XTM-E Panel (4x/Desert)</French>
+        <Spanish>Magpul XTM-E Panel (4x/Desert)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/Desert)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/Desert)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/Desert)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/Desert)</Russian>
+        <German>Magpul XTM-E Panel (4x/Desert)</German>
+        <Japanese>Magpul XTM-E Panel (4x/Desert)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/Desert)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/Desert)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_Desert">
+        <Original>Magpul XTM-E Panel (6x/Desert)</Original>
+        <English>Magpul XTM-E Panel (6x/Desert)</English>
+        <Czech>Magpul XTM-E Panel (6x/Desert)</Czech>
+        <French>Magpul XTM-E Panel (6x/Desert)</French>
+        <Spanish>Magpul XTM-E Panel (6x/Desert)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/Desert)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/Desert)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/Desert)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/Desert)</Russian>
+        <German>Magpul XTM-E Panel (6x/Desert)</German>
+        <Japanese>Magpul XTM-E Panel (6x/Desert)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/Desert)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/Desert)</Chinesesimp>
+      </Key>
+
+      <!--============== OD =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_OD">
+        <Original>TD SCAR Railpanel (5cm/OD)</Original>
+        <English>TD SCAR Railpanel (5cm/OD)</English>
+        <Czech>TD SCAR Railpanel (5cm/OD)</Czech>
+        <French>TD SCAR Railpanel (5cm/OD)</French>
+        <Spanish>TD SCAR Railpanel (5cm/OD)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/OD)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/OD)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/OD)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/OD)</Russian>
+        <German>TD SCAR Railpanel (5cm/OD)</German>
+        <Japanese>TD SCAR Railpanel (5cm/OD)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/OD)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_OD">
+        <Original>TD SCAR Railpanel (10cm/OD)</Original>
+        <English>TD SCAR Railpanel (10cm/OD)</English>
+        <Czech>TD SCAR Railpanel (10cm/OD)</Czech>
+        <French>TD SCAR Railpanel (10cm/OD)</French>
+        <Spanish>TD SCAR Railpanel (10cm/OD)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/OD)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/OD)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/OD)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/OD)</Russian>
+        <German>TD SCAR Railpanel (10cm/OD)</German>
+        <Japanese>TD SCAR Railpanel (10cm/OD)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/OD)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_OD">
+        <Original>TD SCAR Railpanel (15cm/OD)</Original>
+        <English>TD SCAR Railpanel (15cm/OD)</English>
+        <Czech>TD SCAR Railpanel (15cm/OD)</Czech>
+        <French>TD SCAR Railpanel (15cm/OD)</French>
+        <Spanish>TD SCAR Railpanel (15cm/OD)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/OD)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/OD)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/OD)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/OD)</Russian>
+        <German>TD SCAR Railpanel (15cm/OD)</German>
+        <Japanese>TD SCAR Railpanel (15cm/OD)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/OD)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN2x5cm_OD">
+        <Original>TD SCAR Railpanel (2x5cm/OD)</Original>
+        <English>TD SCAR Railpanel (2x5cm/OD)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/OD)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/OD)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/OD)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/OD)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/OD)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/OD)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/OD)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/OD)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/OD)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/OD)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_OD">
+        <Original>Ladder Rail Panel (Short/OD)</Original>
+        <English>Ladder Rail Panel (Short/OD)</English>
+        <Czech>Ladder Rail Panel (Short/OD)</Czech>
+        <French>Ladder Rail Panel (Short/OD)</French>
+        <Spanish>Ladder Rail Panel (Short/OD)</Spanish>
+        <Italian>Ladder Rail Panel (Short/OD)</Italian>
+        <Polish>Ladder Rail Panel (Short/OD)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/OD)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/OD)</Russian>
+        <German>Ladder Rail Panel (Short/OD)</German>
+        <Japanese>Ladder Rail Panel (Short/OD)</Japanese>
+        <Korean>Ladder Rail Panel (Short/OD)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_OD">
+        <Original>Ladder Rail Panel (Medium/OD)</Original>
+        <English>Ladder Rail Panel (Medium/OD)</English>
+        <Czech>Ladder Rail Panel (Medium/OD)</Czech>
+        <French>Ladder Rail Panel (Medium/OD)</French>
+        <Spanish>Ladder Rail Panel (Medium/OD)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/OD)</Italian>
+        <Polish>Ladder Rail Panel (Medium/OD)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/OD)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/OD)</Russian>
+        <German>Ladder Rail Panel (Medium/OD)</German>
+        <Japanese>Ladder Rail Panel (Medium/OD)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/OD)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_OD">
+        <Original>Ladder Rail Panel (Long/OD)</Original>
+        <English>Ladder Rail Panel (Long/OD)</English>
+        <Czech>Ladder Rail Panel (Long/OD)</Czech>
+        <French>Ladder Rail Panel (Long/OD)</French>
+        <Spanish>Ladder Rail Panel (Long/OD)</Spanish>
+        <Italian>Ladder Rail Panel (Long/OD)</Italian>
+        <Polish>Ladder Rail Panel (Long/OD)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/OD)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/OD)</Russian>
+        <German>Ladder Rail Panel (Long/OD)</German>
+        <Japanese>Ladder Rail Panel (Long/OD)</Japanese>
+        <Korean>Ladder Rail Panel (Long/OD)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_OD">
+        <Original>Magpul XT Panel (OD)</Original>
+        <English>Magpul XT Panel (OD)</English>
+        <Czech>Magpul XT Panel (OD)</Czech>
+        <French>Magpul XT Panel (OD)</French>
+        <Spanish>Magpul XT Panel (OD)</Spanish>
+        <Italian>Magpul XT Panel (OD)</Italian>
+        <Polish>Magpul XT Panel (OD)</Polish>
+        <Portuguese>Magpul XT Panel (OD)</Portuguese>
+        <Russian>Magpul XT Panel (OD)</Russian>
+        <German>Magpul XT Panel (OD)</German>
+        <Japanese>Magpul XT Panel (OD)</Japanese>
+        <Korean>Magpul XT Panel (OD)</Korean>
+        <Chinesesimp>Magpul XT Panel (OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_OD">
+        <Original>Magpul XTM-E Panel (OD)</Original>
+        <English>Magpul XTM-E Panel (OD)</English>
+        <Czech>Magpul XTM-E Panel (OD)</Czech>
+        <French>Magpul XTM-E Panel (OD)</French>
+        <Spanish>Magpul XTM-E Panel (OD)</Spanish>
+        <Italian>Magpul XTM-E Panel (OD)</Italian>
+        <Polish>Magpul XTM-E Panel (OD)</Polish>
+        <Portuguese>Magpul XTM-E Panel (OD)</Portuguese>
+        <Russian>Magpul XTM-E Panel (OD)</Russian>
+        <German>Magpul XTM-E Panel (OD)</German>
+        <Japanese>Magpul XTM-E Panel (OD)</Japanese>
+        <Korean>Magpul XTM-E Panel (OD)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_OD">
+        <Original>Magpul XTM-E Panel (2x/OD)</Original>
+        <English>Magpul XTM-E Panel (2x/OD)</English>
+        <Czech>Magpul XTM-E Panel (2x/OD)</Czech>
+        <French>Magpul XTM-E Panel (2x/OD)</French>
+        <Spanish>Magpul XTM-E Panel (2x/OD)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/OD)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/OD)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/OD)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/OD)</Russian>
+        <German>Magpul XTM-E Panel (2x/OD)</German>
+        <Japanese>Magpul XTM-E Panel (2x/OD)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/OD)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_OD">
+        <Original>Magpul XTM-E Panel (4x/OD)</Original>
+        <English>Magpul XTM-E Panel (4x/OD)</English>
+        <Czech>Magpul XTM-E Panel (4x/OD)</Czech>
+        <French>Magpul XTM-E Panel (4x/OD)</French>
+        <Spanish>Magpul XTM-E Panel (4x/OD)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/OD)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/OD)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/OD)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/OD)</Russian>
+        <German>Magpul XTM-E Panel (4x/OD)</German>
+        <Japanese>Magpul XTM-E Panel (4x/OD)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/OD)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/OD)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_OD">
+        <Original>Magpul XTM-E Panel (6x/OD)</Original>
+        <English>Magpul XTM-E Panel (6x/OD)</English>
+        <Czech>Magpul XTM-E Panel (6x/OD)</Czech>
+        <French>Magpul XTM-E Panel (6x/OD)</French>
+        <Spanish>Magpul XTM-E Panel (6x/OD)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/OD)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/OD)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/OD)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/OD)</Russian>
+        <German>Magpul XTM-E Panel (6x/OD)</German>
+        <Japanese>Magpul XTM-E Panel (6x/OD)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/OD)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/OD)</Chinesesimp>
+      </Key>
+
+      <!--============== RG =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_RG">
+        <Original>TD SCAR Railpanel (5cm/Green)</Original>
+        <English>TD SCAR Railpanel (5cm/Green)</English>
+        <Czech>TD SCAR Railpanel (5cm/Green)</Czech>
+        <French>TD SCAR Railpanel (5cm/Green)</French>
+        <Spanish>TD SCAR Railpanel (5cm/Green)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/Green)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/Green)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/Green)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/Green)</Russian>
+        <German>TD SCAR Railpanel (5cm/Green)</German>
+        <Japanese>TD SCAR Railpanel (5cm/Green)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/Green)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_RG">
+        <Original>TD SCAR Railpanel (10cm/Green)</Original>
+        <English>TD SCAR Railpanel (10cm/Green)</English>
+        <Czech>TD SCAR Railpanel (10cm/Green)</Czech>
+        <French>TD SCAR Railpanel (10cm/Green)</French>
+        <Spanish>TD SCAR Railpanel (10cm/Green)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/Green)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/Green)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/Green)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/Green)</Russian>
+        <German>TD SCAR Railpanel (10cm/Green)</German>
+        <Japanese>TD SCAR Railpanel (10cm/Green)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/Green)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_RG">
+        <Original>TD SCAR Railpanel (15cm/Green)</Original>
+        <English>TD SCAR Railpanel (15cm/Green)</English>
+        <Czech>TD SCAR Railpanel (15cm/Green)</Czech>
+        <French>TD SCAR Railpanel (15cm/Green)</French>
+        <Spanish>TD SCAR Railpanel (15cm/Green)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/Green)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/Green)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/Green)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/Green)</Russian>
+        <German>TD SCAR Railpanel (15cm/Green)</German>
+        <Japanese>TD SCAR Railpanel (15cm/Green)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/Green)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN2x5cm_RG">
+        <Original>TD SCAR Railpanel (2x5cm/Green)</Original>
+        <English>TD SCAR Railpanel (2x5cm/Green)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/Green)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/Green)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/Green)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/Green)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/Green)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/Green)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/Green)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/Green)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/Green)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/Green)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_RG">
+        <Original>Ladder Rail Panel (Short/Green)</Original>
+        <English>Ladder Rail Panel (Short/Green)</English>
+        <Czech>Ladder Rail Panel (Short/Green)</Czech>
+        <French>Ladder Rail Panel (Short/Green)</French>
+        <Spanish>Ladder Rail Panel (Short/Green)</Spanish>
+        <Italian>Ladder Rail Panel (Short/Green)</Italian>
+        <Polish>Ladder Rail Panel (Short/Green)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/Green)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/Green)</Russian>
+        <German>Ladder Rail Panel (Short/Green)</German>
+        <Japanese>Ladder Rail Panel (Short/Green)</Japanese>
+        <Korean>Ladder Rail Panel (Short/Green)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_RG">
+        <Original>Ladder Rail Panel (Medium/Green)</Original>
+        <English>Ladder Rail Panel (Medium/Green)</English>
+        <Czech>Ladder Rail Panel (Medium/Green)</Czech>
+        <French>Ladder Rail Panel (Medium/Green)</French>
+        <Spanish>Ladder Rail Panel (Medium/Green)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/Green)</Italian>
+        <Polish>Ladder Rail Panel (Medium/Green)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/Green)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/Green)</Russian>
+        <German>Ladder Rail Panel (Medium/Green)</German>
+        <Japanese>Ladder Rail Panel (Medium/Green)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/Green)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_RG">
+        <Original>Ladder Rail Panel (Long/Green)</Original>
+        <English>Ladder Rail Panel (Long/Green)</English>
+        <Czech>Ladder Rail Panel (Long/Green)</Czech>
+        <French>Ladder Rail Panel (Long/Green)</French>
+        <Spanish>Ladder Rail Panel (Long/Green)</Spanish>
+        <Italian>Ladder Rail Panel (Long/Green)</Italian>
+        <Polish>Ladder Rail Panel (Long/Green)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/Green)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/Green)</Russian>
+        <German>Ladder Rail Panel (Long/Green)</German>
+        <Japanese>Ladder Rail Panel (Long/Green)</Japanese>
+        <Korean>Ladder Rail Panel (Long/Green)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_RG">
+        <Original>Magpul XT Panel (Green)</Original>
+        <English>Magpul XT Panel (Green)</English>
+        <Czech>Magpul XT Panel (Green)</Czech>
+        <French>Magpul XT Panel (Green)</French>
+        <Spanish>Magpul XT Panel (Green)</Spanish>
+        <Italian>Magpul XT Panel (Green)</Italian>
+        <Polish>Magpul XT Panel (Green)</Polish>
+        <Portuguese>Magpul XT Panel (Green)</Portuguese>
+        <Russian>Magpul XT Panel (Green)</Russian>
+        <German>Magpul XT Panel (Green)</German>
+        <Japanese>Magpul XT Panel (Green)</Japanese>
+        <Korean>Magpul XT Panel (Green)</Korean>
+        <Chinesesimp>Magpul XT Panel (Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_RG">
+        <Original>Magpul XTM-E Panel (Green)</Original>
+        <English>Magpul XTM-E Panel (Green)</English>
+        <Czech>Magpul XTM-E Panel (Green)</Czech>
+        <French>Magpul XTM-E Panel (Green)</French>
+        <Spanish>Magpul XTM-E Panel (Green)</Spanish>
+        <Italian>Magpul XTM-E Panel (Green)</Italian>
+        <Polish>Magpul XTM-E Panel (Green)</Polish>
+        <Portuguese>Magpul XTM-E Panel (Green)</Portuguese>
+        <Russian>Magpul XTM-E Panel (Green)</Russian>
+        <German>Magpul XTM-E Panel (Green)</German>
+        <Japanese>Magpul XTM-E Panel (Green)</Japanese>
+        <Korean>Magpul XTM-E Panel (Green)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_RG">
+        <Original>Magpul XTM-E Panel (2x/Green)</Original>
+        <English>Magpul XTM-E Panel (2x/Green)</English>
+        <Czech>Magpul XTM-E Panel (2x/Green)</Czech>
+        <French>Magpul XTM-E Panel (2x/Green)</French>
+        <Spanish>Magpul XTM-E Panel (2x/Green)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/Green)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/Green)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/Green)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/Green)</Russian>
+        <German>Magpul XTM-E Panel (2x/Green)</German>
+        <Japanese>Magpul XTM-E Panel (2x/Green)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/Green)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_RG">
+        <Original>Magpul XTM-E Panel (4x/Green)</Original>
+        <English>Magpul XTM-E Panel (4x/Green)</English>
+        <Czech>Magpul XTM-E Panel (4x/Green)</Czech>
+        <French>Magpul XTM-E Panel (4x/Green)</French>
+        <Spanish>Magpul XTM-E Panel (4x/Green)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/Green)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/Green)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/Green)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/Green)</Russian>
+        <German>Magpul XTM-E Panel (4x/Green)</German>
+        <Japanese>Magpul XTM-E Panel (4x/Green)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/Green)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/Green)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_RG">
+        <Original>Magpul XTM-E Panel (6x/Green)</Original>
+        <English>Magpul XTM-E Panel (6x/Green)</English>
+        <Czech>Magpul XTM-E Panel (6x/Green)</Czech>
+        <French>Magpul XTM-E Panel (6x/Green)</French>
+        <Spanish>Magpul XTM-E Panel (6x/Green)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/Green)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/Green)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/Green)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/Green)</Russian>
+        <German>Magpul XTM-E Panel (6x/Green)</German>
+        <Japanese>Magpul XTM-E Panel (6x/Green)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/Green)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/Green)</Chinesesimp>
+      </Key>
+
+      <!--============== Pride =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_Pride">
+        <Original>TD SCAR Railpanel (5cm/Pride)</Original>
+        <English>TD SCAR Railpanel (5cm/Pride)</English>
+        <Czech>TD SCAR Railpanel (5cm/Pride)</Czech>
+        <French>TD SCAR Railpanel (5cm/Pride)</French>
+        <Spanish>TD SCAR Railpanel (5cm/Pride)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/Pride)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/Pride)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/Pride)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/Pride)</Russian>
+        <German>TD SCAR Railpanel (5cm/Pride)</German>
+        <Japanese>TD SCAR Railpanel (5cm/Pride)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/Pride)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_Pride">
+        <Original>TD SCAR Railpanel (10cm/Pride)</Original>
+        <English>TD SCAR Railpanel (10cm/Pride)</English>
+        <Czech>TD SCAR Railpanel (10cm/Pride)</Czech>
+        <French>TD SCAR Railpanel (10cm/Pride)</French>
+        <Spanish>TD SCAR Railpanel (10cm/Pride)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/Pride)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/Pride)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/Pride)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/Pride)</Russian>
+        <German>TD SCAR Railpanel (10cm/Pride)</German>
+        <Japanese>TD SCAR Railpanel (10cm/Pride)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/Pride)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_Pride">
+        <Original>TD SCAR Railpanel (15cm/Pride)</Original>
+        <English>TD SCAR Railpanel (15cm/Pride)</English>
+        <Czech>TD SCAR Railpanel (15cm/Pride)</Czech>
+        <French>TD SCAR Railpanel (15cm/Pride)</French>
+        <Spanish>TD SCAR Railpanel (15cm/Pride)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/Pride)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/Pride)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/Pride)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/Pride)</Russian>
+        <German>TD SCAR Railpanel (15cm/Pride)</German>
+        <Japanese>TD SCAR Railpanel (15cm/Pride)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/Pride)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN2x5cm_Pride">
+        <Original>TD SCAR Railpanel (2x5cm/Pride)</Original>
+        <English>TD SCAR Railpanel (2x5cm/Pride)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/Pride)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/Pride)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/Pride)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/Pride)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/Pride)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/Pride)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/Pride)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/Pride)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/Pride)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/Pride)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_Pride">
+        <Original>Ladder Rail Panel (Short/Pride)</Original>
+        <English>Ladder Rail Panel (Short/Pride)</English>
+        <Czech>Ladder Rail Panel (Short/Pride)</Czech>
+        <French>Ladder Rail Panel (Short/Pride)</French>
+        <Spanish>Ladder Rail Panel (Short/Pride)</Spanish>
+        <Italian>Ladder Rail Panel (Short/Pride)</Italian>
+        <Polish>Ladder Rail Panel (Short/Pride)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/Pride)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/Pride)</Russian>
+        <German>Ladder Rail Panel (Short/Pride)</German>
+        <Japanese>Ladder Rail Panel (Short/Pride)</Japanese>
+        <Korean>Ladder Rail Panel (Short/Pride)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_Pride">
+        <Original>Ladder Rail Panel (Medium/Pride)</Original>
+        <English>Ladder Rail Panel (Medium/Pride)</English>
+        <Czech>Ladder Rail Panel (Medium/Pride)</Czech>
+        <French>Ladder Rail Panel (Medium/Pride)</French>
+        <Spanish>Ladder Rail Panel (Medium/Pride)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/Pride)</Italian>
+        <Polish>Ladder Rail Panel (Medium/Pride)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/Pride)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/Pride)</Russian>
+        <German>Ladder Rail Panel (Medium/Pride)</German>
+        <Japanese>Ladder Rail Panel (Medium/Pride)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/Pride)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_Pride">
+        <Original>Ladder Rail Panel (Long/Pride)</Original>
+        <English>Ladder Rail Panel (Long/Pride)</English>
+        <Czech>Ladder Rail Panel (Long/Pride)</Czech>
+        <French>Ladder Rail Panel (Long/Pride)</French>
+        <Spanish>Ladder Rail Panel (Long/Pride)</Spanish>
+        <Italian>Ladder Rail Panel (Long/Pride)</Italian>
+        <Polish>Ladder Rail Panel (Long/Pride)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/Pride)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/Pride)</Russian>
+        <German>Ladder Rail Panel (Long/Pride)</German>
+        <Japanese>Ladder Rail Panel (Long/Pride)</Japanese>
+        <Korean>Ladder Rail Panel (Long/Pride)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_Pride">
+        <Original>Magpul XT Panel (Pride)</Original>
+        <English>Magpul XT Panel (Pride)</English>
+        <Czech>Magpul XT Panel (Pride)</Czech>
+        <French>Magpul XT Panel (Pride)</French>
+        <Spanish>Magpul XT Panel (Pride)</Spanish>
+        <Italian>Magpul XT Panel (Pride)</Italian>
+        <Polish>Magpul XT Panel (Pride)</Polish>
+        <Portuguese>Magpul XT Panel (Pride)</Portuguese>
+        <Russian>Magpul XT Panel (Pride)</Russian>
+        <German>Magpul XT Panel (Pride)</German>
+        <Japanese>Magpul XT Panel (Pride)</Japanese>
+        <Korean>Magpul XT Panel (Pride)</Korean>
+        <Chinesesimp>Magpul XT Panel (Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_Pride">
+        <Original>Magpul XTM-E Panel (Pride)</Original>
+        <English>Magpul XTM-E Panel (Pride)</English>
+        <Czech>Magpul XTM-E Panel (Pride)</Czech>
+        <French>Magpul XTM-E Panel (Pride)</French>
+        <Spanish>Magpul XTM-E Panel (Pride)</Spanish>
+        <Italian>Magpul XTM-E Panel (Pride)</Italian>
+        <Polish>Magpul XTM-E Panel (Pride)</Polish>
+        <Portuguese>Magpul XTM-E Panel (Pride)</Portuguese>
+        <Russian>Magpul XTM-E Panel (Pride)</Russian>
+        <German>Magpul XTM-E Panel (Pride)</German>
+        <Japanese>Magpul XTM-E Panel (Pride)</Japanese>
+        <Korean>Magpul XTM-E Panel (Pride)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_Pride">
+        <Original>Magpul XTM-E Panel (2x/Pride)</Original>
+        <English>Magpul XTM-E Panel (2x/Pride)</English>
+        <Czech>Magpul XTM-E Panel (2x/Pride)</Czech>
+        <French>Magpul XTM-E Panel (2x/Pride)</French>
+        <Spanish>Magpul XTM-E Panel (2x/Pride)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/Pride)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/Pride)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/Pride)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/Pride)</Russian>
+        <German>Magpul XTM-E Panel (2x/Pride)</German>
+        <Japanese>Magpul XTM-E Panel (2x/Pride)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/Pride)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_Pride">
+        <Original>Magpul XTM-E Panel (4x/Pride)</Original>
+        <English>Magpul XTM-E Panel (4x/Pride)</English>
+        <Czech>Magpul XTM-E Panel (4x/Pride)</Czech>
+        <French>Magpul XTM-E Panel (4x/Pride)</French>
+        <Spanish>Magpul XTM-E Panel (4x/Pride)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/Pride)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/Pride)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/Pride)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/Pride)</Russian>
+        <German>Magpul XTM-E Panel (4x/Pride)</German>
+        <Japanese>Magpul XTM-E Panel (4x/Pride)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/Pride)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/Pride)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_Pride">
+        <Original>Magpul XTM-E Panel (6x/Pride)</Original>
+        <English>Magpul XTM-E Panel (6x/Pride)</English>
+        <Czech>Magpul XTM-E Panel (6x/Pride)</Czech>
+        <French>Magpul XTM-E Panel (6x/Pride)</French>
+        <Spanish>Magpul XTM-E Panel (6x/Pride)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/Pride)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/Pride)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/Pride)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/Pride)</Russian>
+        <German>Magpul XTM-E Panel (6x/Pride)</German>
+        <Japanese>Magpul XTM-E Panel (6x/Pride)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/Pride)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/Pride)</Chinesesimp>
+      </Key>
+
+      <!--============== Pink =========-->
+      <Key ID="STR_NIA_Panel_FN5cm_Pink">
+        <Original>TD SCAR Railpanel (5cm/Pink)</Original>
+        <English>TD SCAR Railpanel (5cm/Pink)</English>
+        <Czech>TD SCAR Railpanel (5cm/Pink)</Czech>
+        <French>TD SCAR Railpanel (5cm/Pink)</French>
+        <Spanish>TD SCAR Railpanel (5cm/Pink)</Spanish>
+        <Italian>TD SCAR Railpanel (5cm/Pink)</Italian>
+        <Polish>TD SCAR Railpanel (5cm/Pink)</Polish>
+        <Portuguese>TD SCAR Railpanel (5cm/Pink)</Portuguese>
+        <Russian>TD SCAR Railpanel (5cm/Pink)</Russian>
+        <German>TD SCAR Railpanel (5cm/Pink)</German>
+        <Japanese>TD SCAR Railpanel (5cm/Pink)</Japanese>
+        <Korean>TD SCAR Railpanel (5cm/Pink)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (5cm/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN10cm_Pink">
+        <Original>TD SCAR Railpanel (10cm/Pink)</Original>
+        <English>TD SCAR Railpanel (10cm/Pink)</English>
+        <Czech>TD SCAR Railpanel (10cm/Pink)</Czech>
+        <French>TD SCAR Railpanel (10cm/Pink)</French>
+        <Spanish>TD SCAR Railpanel (10cm/Pink)</Spanish>
+        <Italian>TD SCAR Railpanel (10cm/Pink)</Italian>
+        <Polish>TD SCAR Railpanel (10cm/Pink)</Polish>
+        <Portuguese>TD SCAR Railpanel (10cm/Pink)</Portuguese>
+        <Russian>TD SCAR Railpanel (10cm/Pink)</Russian>
+        <German>TD SCAR Railpanel (10cm/Pink)</German>
+        <Japanese>TD SCAR Railpanel (10cm/Pink)</Japanese>
+        <Korean>TD SCAR Railpanel (10cm/Pink)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (10cm/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN15cm_Pink">
+        <Original>TD SCAR Railpanel (15cm/Pink)</Original>
+        <English>TD SCAR Railpanel (15cm/Pink)</English>
+        <Czech>TD SCAR Railpanel (15cm/Pink)</Czech>
+        <French>TD SCAR Railpanel (15cm/Pink)</French>
+        <Spanish>TD SCAR Railpanel (15cm/Pink)</Spanish>
+        <Italian>TD SCAR Railpanel (15cm/Pink)</Italian>
+        <Polish>TD SCAR Railpanel (15cm/Pink)</Polish>
+        <Portuguese>TD SCAR Railpanel (15cm/Pink)</Portuguese>
+        <Russian>TD SCAR Railpanel (15cm/Pink)</Russian>
+        <German>TD SCAR Railpanel (15cm/Pink)</German>
+        <Japanese>TD SCAR Railpanel (15cm/Pink)</Japanese>
+        <Korean>TD SCAR Railpanel (15cm/Pink)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (15cm/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_FN2x5cm_Pink">
+        <Original>TD SCAR Railpanel (2x5cm/Pink)</Original>
+        <English>TD SCAR Railpanel (2x5cm/Pink)</English>
+        <Czech>TD SCAR Railpanel (2x5cm/Pink)</Czech>
+        <French>TD SCAR Railpanel (2x5cm/Pink)</French>
+        <Spanish>TD SCAR Railpanel (2x5cm/Pink)</Spanish>
+        <Italian>TD SCAR Railpanel (2x5cm/Pink)</Italian>
+        <Polish>TD SCAR Railpanel (2x5cm/Pink)</Polish>
+        <Portuguese>TD SCAR Railpanel (2x5cm/Pink)</Portuguese>
+        <Russian>TD SCAR Railpanel (2x5cm/Pink)</Russian>
+        <German>TD SCAR Railpanel (2x5cm/Pink)</German>
+        <Japanese>TD SCAR Railpanel (2x5cm/Pink)</Japanese>
+        <Korean>TD SCAR Railpanel (2x5cm/Pink)</Korean>
+        <Chinesesimp>TD SCAR Railpanel (2x5cm/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_S_Pink">
+        <Original>Ladder Rail Panel (Short/Pink)</Original>
+        <English>Ladder Rail Panel (Short/Pink)</English>
+        <Czech>Ladder Rail Panel (Short/Pink)</Czech>
+        <French>Ladder Rail Panel (Short/Pink)</French>
+        <Spanish>Ladder Rail Panel (Short/Pink)</Spanish>
+        <Italian>Ladder Rail Panel (Short/Pink)</Italian>
+        <Polish>Ladder Rail Panel (Short/Pink)</Polish>
+        <Portuguese>Ladder Rail Panel (Short/Pink)</Portuguese>
+        <Russian>Ladder Rail Panel (Short/Pink)</Russian>
+        <German>Ladder Rail Panel (Short/Pink)</German>
+        <Japanese>Ladder Rail Panel (Short/Pink)</Japanese>
+        <Korean>Ladder Rail Panel (Short/Pink)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Short/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_M_Pink">
+        <Original>Ladder Rail Panel (Medium/Pink)</Original>
+        <English>Ladder Rail Panel (Medium/Pink)</English>
+        <Czech>Ladder Rail Panel (Medium/Pink)</Czech>
+        <French>Ladder Rail Panel (Medium/Pink)</French>
+        <Spanish>Ladder Rail Panel (Medium/Pink)</Spanish>
+        <Italian>Ladder Rail Panel (Medium/Pink)</Italian>
+        <Polish>Ladder Rail Panel (Medium/Pink)</Polish>
+        <Portuguese>Ladder Rail Panel (Medium/Pink)</Portuguese>
+        <Russian>Ladder Rail Panel (Medium/Pink)</Russian>
+        <German>Ladder Rail Panel (Medium/Pink)</German>
+        <Japanese>Ladder Rail Panel (Medium/Pink)</Japanese>
+        <Korean>Ladder Rail Panel (Medium/Pink)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Medium/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Ladder_L_Pink">
+        <Original>Ladder Rail Panel (Long/Pink)</Original>
+        <English>Ladder Rail Panel (Long/Pink)</English>
+        <Czech>Ladder Rail Panel (Long/Pink)</Czech>
+        <French>Ladder Rail Panel (Long/Pink)</French>
+        <Spanish>Ladder Rail Panel (Long/Pink)</Spanish>
+        <Italian>Ladder Rail Panel (Long/Pink)</Italian>
+        <Polish>Ladder Rail Panel (Long/Pink)</Polish>
+        <Portuguese>Ladder Rail Panel (Long/Pink)</Portuguese>
+        <Russian>Ladder Rail Panel (Long/Pink)</Russian>
+        <German>Ladder Rail Panel (Long/Pink)</German>
+        <Japanese>Ladder Rail Panel (Long/Pink)</Japanese>
+        <Korean>Ladder Rail Panel (Long/Pink)</Korean>
+        <Chinesesimp>Ladder Rail Panel (Long/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXT_Pink">
+        <Original>Magpul XT Panel (Pink)</Original>
+        <English>Magpul XT Panel (Pink)</English>
+        <Czech>Magpul XT Panel (Pink)</Czech>
+        <French>Magpul XT Panel (Pink)</French>
+        <Spanish>Magpul XT Panel (Pink)</Spanish>
+        <Italian>Magpul XT Panel (Pink)</Italian>
+        <Polish>Magpul XT Panel (Pink)</Polish>
+        <Portuguese>Magpul XT Panel (Pink)</Portuguese>
+        <Russian>Magpul XT Panel (Pink)</Russian>
+        <German>Magpul XT Panel (Pink)</German>
+        <Japanese>Magpul XT Panel (Pink)</Japanese>
+        <Korean>Magpul XT Panel (Pink)</Korean>
+        <Chinesesimp>Magpul XT Panel (Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_MagpulXTME_Pink">
+        <Original>Magpul XTM-E Panel (Pink)</Original>
+        <English>Magpul XTM-E Panel (Pink)</English>
+        <Czech>Magpul XTM-E Panel (Pink)</Czech>
+        <French>Magpul XTM-E Panel (Pink)</French>
+        <Spanish>Magpul XTM-E Panel (Pink)</Spanish>
+        <Italian>Magpul XTM-E Panel (Pink)</Italian>
+        <Polish>Magpul XTM-E Panel (Pink)</Polish>
+        <Portuguese>Magpul XTM-E Panel (Pink)</Portuguese>
+        <Russian>Magpul XTM-E Panel (Pink)</Russian>
+        <German>Magpul XTM-E Panel (Pink)</German>
+        <Japanese>Magpul XTM-E Panel (Pink)</Japanese>
+        <Korean>Magpul XTM-E Panel (Pink)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul2xXTME_Pink">
+        <Original>Magpul XTM-E Panel (2x/Pink)</Original>
+        <English>Magpul XTM-E Panel (2x/Pink)</English>
+        <Czech>Magpul XTM-E Panel (2x/Pink)</Czech>
+        <French>Magpul XTM-E Panel (2x/Pink)</French>
+        <Spanish>Magpul XTM-E Panel (2x/Pink)</Spanish>
+        <Italian>Magpul XTM-E Panel (2x/Pink)</Italian>
+        <Polish>Magpul XTM-E Panel (2x/Pink)</Polish>
+        <Portuguese>Magpul XTM-E Panel (2x/Pink)</Portuguese>
+        <Russian>Magpul XTM-E Panel (2x/Pink)</Russian>
+        <German>Magpul XTM-E Panel (2x/Pink)</German>
+        <Japanese>Magpul XTM-E Panel (2x/Pink)</Japanese>
+        <Korean>Magpul XTM-E Panel (2x/Pink)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (2x/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul4xXTME_Pink">
+        <Original>Magpul XTM-E Panel (4x/Pink)</Original>
+        <English>Magpul XTM-E Panel (4x/Pink)</English>
+        <Czech>Magpul XTM-E Panel (4x/Pink)</Czech>
+        <French>Magpul XTM-E Panel (4x/Pink)</French>
+        <Spanish>Magpul XTM-E Panel (4x/Pink)</Spanish>
+        <Italian>Magpul XTM-E Panel (4x/Pink)</Italian>
+        <Polish>Magpul XTM-E Panel (4x/Pink)</Polish>
+        <Portuguese>Magpul XTM-E Panel (4x/Pink)</Portuguese>
+        <Russian>Magpul XTM-E Panel (4x/Pink)</Russian>
+        <German>Magpul XTM-E Panel (4x/Pink)</German>
+        <Japanese>Magpul XTM-E Panel (4x/Pink)</Japanese>
+        <Korean>Magpul XTM-E Panel (4x/Pink)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (4x/Pink)</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Panel_Magpul6xXTME_Pink">
+        <Original>Magpul XTM-E Panel (6x/Pink)</Original>
+        <English>Magpul XTM-E Panel (6x/Pink)</English>
+        <Czech>Magpul XTM-E Panel (6x/Pink)</Czech>
+        <French>Magpul XTM-E Panel (6x/Pink)</French>
+        <Spanish>Magpul XTM-E Panel (6x/Pink)</Spanish>
+        <Italian>Magpul XTM-E Panel (6x/Pink)</Italian>
+        <Polish>Magpul XTM-E Panel (6x/Pink)</Polish>
+        <Portuguese>Magpul XTM-E Panel (6x/Pink)</Portuguese>
+        <Russian>Magpul XTM-E Panel (6x/Pink)</Russian>
+        <German>Magpul XTM-E Panel (6x/Pink)</German>
+        <Japanese>Magpul XTM-E Panel (6x/Pink)</Japanese>
+        <Korean>Magpul XTM-E Panel (6x/Pink)</Korean>
+        <Chinesesimp>Magpul XTM-E Panel (6x/Pink)</Chinesesimp>
+      </Key>
+
     </Container>
     <Container name="Descriptions">
       <Key ID="STR_NIA_DESC_30Rnd_556x45_B">
@@ -3881,6 +5478,67 @@
         <Japanese>口径: 5.56x45mm NATO M855A1 EPR/IR-DIM 曳光弾&lt;br/&gt;種類: エンハンスド パフォーマンス ラウンド/低視認性曳光弾&lt;br/&gt;弾数: 50</Japanese>
         <Korean>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Korean>
         <Chinesesimp>Caliber: 5.56x45mm NATO M855A1 EPR/IR-DIM Tracer&lt;br/&gt;Type: Enhanced Performance Round/Low-Visibility Tracer&lt;br/&gt;Rounds: 50</Chinesesimp>
+      </Key>
+
+      <Key ID="STR_NIA_DESC_29rnd_300BLK_STANAG">
+        <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Original>
+        <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</English>
+        <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Czech>
+        <French>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</French>
+        <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Spanish>
+        <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Italian>
+        <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Polish>
+        <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Portuguese>
+        <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Russian>
+        <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</German>
+        <Japanese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Japanese>
+        <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Korean>
+        <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_300BLK_STANAG_T">
+        <Original>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Original>
+        <English>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</English>
+        <Czech>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Czech>
+        <French>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</French>
+        <Spanish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Spanish>
+        <Italian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Italian>
+        <Polish>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Polish>
+        <Portuguese>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Portuguese>
+        <Russian>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Russian>
+        <German>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</German>
+        <Japanese>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Japanese>
+        <Korean>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Korean>
+        <Chinesesimp>Caliber: .300 AAC Blackout RNBT-BT&lt;br/&gt;Type: Round Nose Ballistic Tip Boat Tail with Glow Tip (Noveske Brass /w black nickel plating, 8.5 grains of Alliant 2400 powder at 75% load volume, using a CCI No 41 primer, Nosler )&lt;br/&gt;Rounds: 30</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_300BLK_STANAG_S">
+        <Original>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Original>
+        <English>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</English>
+        <Czech>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Czech>
+        <French>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</French>
+        <Spanish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Spanish>
+        <Italian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Italian>
+        <Polish>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Polish>
+        <Portuguese>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Portuguese>
+        <Russian>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Russian>
+        <German>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</German>
+        <Japanese>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Japanese>
+        <Korean>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Korean>
+        <Chinesesimp>Caliber: .300 AAC Blackout Handload TAC-TX&lt;br/&gt;Type: Solid Copper Ballistic Tip Boat Tail (Hornady Brass, 17.5 Grains Winchester W296 powder, using a CCI #400 Small Rifle Primer, Barnes 120 grain TAC-TX Bullet)&lt;br/&gt;Rounds: 30</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_DESC_50rnd_300BLK_STANAG">
+        <Original>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Original>
+        <English>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</English>
+        <Czech>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Czech>
+        <French>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</French>
+        <Spanish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Spanish>
+        <Italian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Italian>
+        <Polish>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Polish>
+        <Portuguese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Portuguese>
+        <Russian>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Russian>
+        <German>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</German>
+        <Japanese>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Japanese>
+        <Korean>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Korean>
+        <Chinesesimp>Caliber: .300 AAC Blackout EPR&lt;br/&gt;Type: Pulled M80A1 EPR bullet, handloaded (Remington Brass, 19.5 grains of Hodgdon Lil'Gun powder at maximum load volume, using a Remington 7 1/2 Small Rifle Magnum primer, US Military M80A1 EPR bullet)&lt;br/&gt;Rounds: 50</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_DESC_545x39_B_AK">
         <Original>Caliber: 5.45x39mm 7N6M FMJ&lt;br/&gt;Type:Full Metal Jacket (Lead Tip, Mild Steel Core)&lt;br/&gt;Rounds: 30</Original>
@@ -4962,6 +6620,81 @@
         <Korean>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
         <Chinesesimp>4-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
       </Key>
+      <Key ID="STR_NIA_762NATO_Miter_DESC">
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</German>
+        <Japanese>3-Port 消炎器&lt;br/&gt;口径: 7.62mm</Japanese>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_556NATO_OEM_DESC">
+        <Original>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Original>
+        <English>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</English>
+        <Czech>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Czech>
+        <French>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</French>
+        <Spanish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Spanish>
+        <Italian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Italian>
+        <Polish>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Polish>
+        <Portuguese>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Portuguese>
+        <Russian>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Russian>
+        <German>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</German>
+        <Japanese>3-Port 消炎器&lt;br/&gt;口径: 5.56mm</Japanese>
+        <Korean>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Korean>
+        <Chinesesimp>3-Port Flash Hider&lt;br/&gt;Caliber:5.56mm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_762NATO_FSC30_DESC">
+        <Original>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Original>
+        <English>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</English>
+        <Czech>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Czech>
+        <French>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</French>
+        <Spanish>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Spanish>
+        <Italian>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Italian>
+        <Polish>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Polish>
+        <Portuguese>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Portuguese>
+        <Russian>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Russian>
+        <German>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</German>
+        <Japanese>Muzzle Brake&lt;br/&gt;口径: 7.62mm</Japanese>
+        <Korean>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Korean>
+        <Chinesesimp>Muzzle Brake&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_762NATO_CherryBomb_DESC">
+        <Original>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Original>
+        <English>Linear Compensator&lt;br/&gt;Caliber:7.62mm</English>
+        <Czech>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Czech>
+        <French>Linear Compensator&lt;br/&gt;Caliber:7.62mm</French>
+        <Spanish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Spanish>
+        <Italian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Italian>
+        <Polish>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Polish>
+        <Portuguese>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Portuguese>
+        <Russian>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Russian>
+        <German>Linear Compensator&lt;br/&gt;Caliber:7.62mm</German>
+        <Japanese>Linear Compensator&lt;br/&gt;口径: 7.62mm</Japanese>
+        <Korean>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Korean>
+        <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:7.62mm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_KX3_DESC">
+        <Original>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Original>
+        <English>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</English>
+        <Czech>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Czech>
+        <French>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</French>
+        <Spanish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Spanish>
+        <Italian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Italian>
+        <Polish>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Polish>
+        <Portuguese>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Portuguese>
+        <Russian>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Russian>
+        <German>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</German>
+        <Japanese>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Japanese>
+        <Korean>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Korean>
+        <Chinesesimp>Linear Compensator&lt;br/&gt;Caliber:5.56mm NATO</Chinesesimp>
+      </Key>
       <Key ID="STR_NIA_300blk_DESC">
         <Original>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</Original>
         <English>Sound Suppressor&lt;br/&gt;Caliber:7.62mm</English>
@@ -5037,6 +6770,7 @@
         <Korean>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Korean>
         <Chinesesimp>Sound Suppressor&lt;br/&gt;Caliber:.40 S&amp;W</Chinesesimp>
       </Key>
+
       <Key ID="STR_NIA_Charm_Generic_DESC">
         <Original>Charm</Original>
         <English>Charm</English>
@@ -5051,6 +6785,21 @@
         <Japanese>Charm</Japanese>
         <Korean>Charm</Korean>
         <Chinesesimp>Charm</Chinesesimp>
+      </Key>
+      <Key ID="STR_NIA_Railpanels_Generic_DESC">
+        <Original>Rail Protection Panels</Original>
+        <English>Rail Protection Panels</English>
+        <Czech>Rail Protection Panels</Czech>
+        <French>Rail Protection Panels</French>
+        <Spanish>Rail Protection Panels</Spanish>
+        <Italian>Rail Protection Panels</Italian>
+        <Polish>Rail Protection Panels</Polish>
+        <Portuguese>Rail Protection Panels</Portuguese>
+        <Russian>Rail Protection Panels</Russian>
+        <German>Rail Protection Panels</German>
+        <Japanese>Rail Protection Panels</Japanese>
+        <Korean>Rail Protection Panels</Korean>
+        <Chinesesimp>Rail Protection Panels</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_Charm_FN_DESC">
         <Original>Charm with the FN Logo</Original>
