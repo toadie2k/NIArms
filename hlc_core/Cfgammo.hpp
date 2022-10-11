@@ -1,5 +1,5 @@
 ﻿//Ballistics data presented largely by Spartan0536
-//Other suppliers commented as approriate. 
+//Other suppliers commented as approriate.
 class CfgAmmo {
     class B_762x51_Ball;
     class B_556x45_Ball;
@@ -252,30 +252,29 @@ class CfgAmmo {
         model = "\hlc_core\mesh\bullettracer\tracer_dim";
         tracerscale = 1;
         tracerstarttime = 0.05;
-        typicalSpeed = 312;
-        visibleFire = 0.55;
-        audibleFire = 0.65;
+        typicalSpeed = 670.6;
+        visibleFire = 3.8;
         supersonicCrackNear[] = {};
         supersonicCrackFar[] = {};
         ACE_caliber = 7.823;
-        ACE_bulletLength = 37.821;
-        ACE_bulletMass = 14.256;
+        ACE_bulletLength = 31.623;
+        ACE_bulletMass = 7.77587;
         ACE_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
-        ACE_ballisticCoefficients[] = { 0.608 };
+        ACE_ballisticCoefficients[] = { 0.358 };
         ACE_velocityBoundaries[] = {};
         ACE_standardAtmosphere = "ICAO";
         ACE_dragModel = 1;
-        ACE_muzzleVelocities[] = { 300, 320, 340 };
+        ACE_muzzleVelocities[] = { 578, 616, 655 };
         ACE_barrelLengths[] = { 228.6, 406.4, 508.0 };
         AB_caliber = 0.308;
-        AB_bulletLength = 1.489;
-        AB_bulletMass = 220;
+        AB_bulletLength = 1.245;
+        AB_bulletMass = 120;
         AB_ammoTempMuzzleVelocityShifts[] = { -26.55, -25.47, -22.85, -20.12, -16.98, -12.80, -7.64, -1.53, 5.96, 15.17, 26.19 };
-        AB_ballisticCoefficients[] = { 0.608 };
+        AB_ballisticCoefficients[] = { 0.358 };
         AB_velocityBoundaries[] = {};
         AB_standardAtmosphere = "ICAO";
         AB_dragModel = 1;
-        AB_muzzleVelocities[] = { 300, 320, 340 };
+        AB_muzzleVelocities[] = { 578, 616, 655 };
         AB_barrelLengths[] = { 9, 16, 20 };
     };
     /*
@@ -469,9 +468,9 @@ class CfgAmmo {
         airFriction = -0.00100899;
         typicalSpeed = 908.4;
         hit = 13.92;
-        tracerScale = 1.2; 
-        tracerStartTime = 0.073;  
-        tracerEndTime = 2.15957;  
+        tracerScale = 1.2;
+        tracerStartTime = 0.073;
+        tracerEndTime = 2.15957;
         caliber = 1.123;
         deflecting = 22;
         ACE_caliber = 7.823;
@@ -514,7 +513,7 @@ class CfgAmmo {
         ACE_barrelLengths[] = { 406.4, 508.0, 609.6, 660.4 };
     };
     //Ballistics by Ruthberg, CO ACE3
-    // NO LONGER BEING MAINTAINED, Retaining for Legacy. 
+    // NO LONGER BEING MAINTAINED, Retaining for Legacy.
     class HLC_762x51_Barrier : HLC_762x51_ball {
         airFriction = -0.00102338;
         caliber = 1.5;
@@ -1121,7 +1120,7 @@ class CfgAmmo {
         ACE_muzzleVelocities[] = { 783, 710 };
         ACE_barrelLengths[] = { 583, 254 };
     };
-    // 
+    //
     // Provided by Spartan0536
     class HLC_GP11_tracer : HLC_GP11_FMJ
     {
@@ -1494,8 +1493,8 @@ class CfgAmmo {
         AB_muzzleVelocities[] = { 300, 320, 340 };
         ACE_muzzleVelocities[] = { 300, 320, 340 };
     };
-    
-    
+
+
     //.357 SIG
 
     /*
@@ -1645,7 +1644,7 @@ class CfgAmmo {
         AB_muzzleVelocities[] = { 350, 380, 420 };
         ACE_muzzleVelocities[] = { 350, 380, 420 };
     };
-    
+
     //10mm AUTO
     //SMG optimised
     /*

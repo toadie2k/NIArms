@@ -145,9 +145,11 @@ class CfgWeapons
 	class hlc_wp_m16a2 :Rifle_Base_F
 	{
 
-		
+
 		scope = public;
-		magazines[] = { 			
+		ACE_barrelLength = 508‬;
+		ACE_barrelTwist = 178;
+		magazines[] = {
             __556STANAG_MAGS,__556STANAG_BI_MAGS
 		};
         magazineWell[] = { STANAG_556x45, "CBA_556x45_STANAG", "CBA_556x45_STANAG_L", "CBA_556x45_STANAG_XL", "CBA_556x45_STANAG_2D", "CBA_556x45_STANAG_2D_XL" };
@@ -318,7 +320,7 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.358 + 0.19;
-        __DEXTERITY(3.58 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(3.58 + 1.9, 0); //afg,kx3
     };
 	class hlc_rifle_m203 : hlc_wp_m16a2
 	{
@@ -353,7 +355,7 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.506 + 0.19;
-        __DEXTERITY(5.06 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(5.06 + 1.9, 0); //afg,kx3
     };
 
 	class hlc_wp_XM177E2 :Rifle_Base_F
@@ -361,6 +363,8 @@ class CfgWeapons
 
 
 		scope = public;
+		ACE_barrelLength = 368.3‬;
+		ACE_barrelTwist = 178;
 		magazines[] = {
 			//Standard BIS mags
             __556STANAG_MAGS, __556STANAG_BI_MAGS
@@ -525,13 +529,15 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.308 + 0.19;
-        __DEXTERITY(3.08 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(3.08 + 1.9, 0); //afg,kx3
     };
 	class hlc_wp_mod727 :Rifle_Base_F
 	{
 
 
 		scope = public;
+		ACE_barrelLength = 368.3‬;
+		ACE_barrelTwist = 178;
 		magazines[] = {
 			//Standard BIS mags
             __556STANAG_MAGS, __556STANAG_BI_MAGS
@@ -699,7 +705,7 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.277 + 0.19;
-        __DEXTERITY(2.77 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(2.77 + 1.9, 0); //afg,kx3
     };
     class hlc_wp_mod733 :Rifle_Base_F
     {
@@ -882,7 +888,7 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.22 + 0.19;
-        __DEXTERITY(2.22 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(2.22 + 1.9, 0); //afg,kx3
     };
 	class hlc_wp_m16A1: hlc_wp_m16a2
 	{
@@ -985,7 +991,7 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.289 + 0.19;
-        __DEXTERITY(2.89 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(2.89 + 1.9, 0); //afg,kx3
     };
 	class hlc_rifle_A1m203 : hlc_wp_m16A1
 	{
@@ -1016,13 +1022,15 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.425 + 0.19;
-        __DEXTERITY(4.25 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(4.25 + 1.9, 0); //afg,kx3
     };
 	class hlc_wp_xm4 :Rifle_Base_F
     {
 
 
         scope = public;
+				ACE_barrelLength = 368.3‬;
+				ACE_barrelTwist = 178;
         magazines[] = {
             //Standard BIS mags
             __556STANAG_MAGS, __556STANAG_BI_MAGS
@@ -1188,6 +1196,6 @@ class CfgWeapons
         scopeArsenal = 0;
         reloadAction = "NIA_GestureReload416_x15";
         inertia = 0.277 + 0.19;
-        __DEXTERITY(2.77 + 1.9, 0); //afg,kx3   
+        __DEXTERITY(2.77 + 1.9, 0); //afg,kx3
     };
 };

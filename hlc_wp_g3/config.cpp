@@ -1927,6 +1927,7 @@ class CfgWeapons {
         inertia = 0.36;
         __DEXTERITY(3.6, 0);
         class WeaponSlotsInfo {
+            mass = 71.5;
             class MuzzleSlot : asdg_MuzzleSlot_556 {
                 iconPosition[] = { 0.5, 0.35 };
                 iconScale = 0.0;
@@ -1944,7 +1945,7 @@ class CfgWeapons {
                 iconScale = 0.0;
             };
             class GripodSlot : nia_rifle_grips_slot {};
-            
+
         };
         rhs_grip1_change = "hlc_rifle_hk53RAS_grip";
         rhs_grip2_change = "hlc_rifle_hk53RAS_grip2";
