@@ -780,6 +780,7 @@ class CfgWeapons {
     {
         dlc = "Niarms_MG3";
         ACE_Overheating_allowSwapBarrel = 1;
+        ACE_Overheating_closedBolt = 0;
         ACE_Overheating_Dispersion[] = { 0, -0.001, 0.001, 0.003 };
         ACE_Overheating_SlowdownFactor[] = { 1, 1, 1, 0.9 };
         ACE_Overheating_JamChance[] = { 0, 0.0003, 0.0015, 0.0075 };
