@@ -2875,19 +2875,19 @@
         <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt (IR-DIM Every 4)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_100Rnd_762x51_Barrier_M60E4">
-        <Original>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Original>
-        <English>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</English>
-        <Czech>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Czech>
-        <French>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</French>
-        <Spanish>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Spanish>
-        <Italian>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Italian>
-        <Polish>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Polish>
-        <Portuguese>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Portuguese>
-        <Russian>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Russian>
-        <German>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 100発入り M13リンク ベルト (4発毎に曳光弾)</Japanese>
-        <Korean>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 100Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
+        <Original>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Original>
+        <English>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</English>
+        <Czech>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Czech>
+        <French>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</French>
+        <Spanish>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Spanish>
+        <Italian>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Italian>
+        <Polish>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Russian>
+        <German>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</German>
+        <Japanese>7.62mm SOST 100発入り M13リンク ベルト (4発毎に曳光弾)</Japanese>
+        <Korean>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm SOST 100Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_100Rnd_762x51_T_M60E4">
         <Original>7.62mm Tracer 100Rnd M13-linked belt</Original>
@@ -2951,19 +2951,19 @@
         <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt (IR-DIM Every 4)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_200Rnd_762x51_Barrier_M60E4">
-        <Original>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Original>
-        <English>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</English>
-        <Czech>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Czech>
-        <French>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</French>
-        <Spanish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Spanish>
-        <Italian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Italian>
-        <Polish>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Polish>
-        <Portuguese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Portuguese>
-        <Russian>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Russian>
-        <German>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</German>
-        <Japanese>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Japanese>
-        <Korean>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Korean>
-        <Chinesesimp>7.62mm EPR 200Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
+        <Original>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Original>
+        <English>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</English>
+        <Czech>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Czech>
+        <French>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</French>
+        <Spanish>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Spanish>
+        <Italian>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Italian>
+        <Polish>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Polish>
+        <Portuguese>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Portuguese>
+        <Russian>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Russian>
+        <German>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</German>
+        <Japanese>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Japanese>
+        <Korean>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Korean>
+        <Chinesesimp>7.62mm SOST 200Rnd M13-linked belt (Tracers Every 4)</Chinesesimp>
       </Key>
       <Key ID="STR_NIA_200Rnd_762x51_T_M60E4">
         <Original>7.62mm Tracer 200Rnd M13-linked belt</Original>
